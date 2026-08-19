@@ -1,4 +1,4 @@
-# The City Home 3D
+# home-708
 
 A Vue 3 and Three.js digital twin of the City Home with a browser-local layout
 editor and an assets-only Cloudflare deployment.
@@ -40,8 +40,12 @@ with SPA fallback routing. No database, R2 bucket, API, secrets, or writable
 server filesystem are required.
 
 Use `npm run preview:cloudflare` to test the production build locally. A custom
-domain can be attached to `city-home-3d` in the Cloudflare dashboard after the
+domain can be attached to `home-708` in the Cloudflare dashboard after the
 first deployment.
+
+Pushes to `main` run the full GitHub Actions verification suite and deploy the
+frontend after it passes. The repository's `production` environment requires
+`CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN` secrets.
 
 Layout edits do not synchronize between browsers or devices. Export the JSON
 configuration whenever you want a transferable backup. The Wormald
