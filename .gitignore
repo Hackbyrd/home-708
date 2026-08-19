@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.*
+!.env.example
+coverage/
+playwright-report/
+test-results/
+apps/server/data/*.tmp
+apps/server/data/.locks/
+apps/server/data/backups/
+apps/server/data/layouts/*.json
+!apps/server/data/layouts/default.json
+npm-debug.log*

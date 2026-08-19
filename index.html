@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The City Home — 3D</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --dove:#F2EFE9; --iron:#2E3230; --walnut:#5C4433; --oak:#C9AE8C;
+    --brass:#B08D57; --stone:#DDD6C9; --ink:#23211D; --muted:#7C766B; --card:#FBF9F5;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%;overflow:hidden}
+  body{font-family:'Archivo',-apple-system,sans-serif;background:var(--dove);color:var(--ink)}
+  #app{position:fixed;inset:0}
+  canvas{display:block}
+
+  /* ---- left panel ---- */
+  #panel{
+    position:fixed;top:16px;left:16px;z-index:10;width:248px;
+    background:rgba(251,249,245,.94);backdrop-filter:blur(12px);
+    border:1px solid rgba(46,50,48,.14);border-radius:12px;
+    padding:16px 16px 14px;box-shadow:0 8px 30px rgba(35,33,29,.12);
+  }
+  .eyebrow{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--brass);font-weight:600;margin-bottom:4px}
+  h1{font-family:'Fraunces',Georgia,serif;font-weight:500;font-size:21px;line-height:1.1;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--walnut)}
+  .section{font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:14px 0 6px}
+
+  .floors{display:flex;gap:5px}
+  .fbtn{
+    flex:1;border:1px solid rgba(46,50,48,.2);background:transparent;border-radius:6px;
+    padding:7px 2px 5px;cursor:pointer;font-family:inherit;color:var(--ink);
+    display:flex;flex-direction:column;align-items:center;gap:1px;transition:all .15s;
+  }
+  .fbtn .lvl{font-family:'Fraunces',Georgia,serif;font-size:14px;font-weight:600;line-height:1}
+  .fbtn .nm{font-size:8px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .fbtn.active{background:var(--iron);border-color:var(--iron);color:var(--dove)}
+  .fbtn.active .nm{color:rgba(242,239,233,.7)}
+
+  .row{display:flex;gap:5px;margin-top:2px}
+  .tbtn{
+    flex:1;border:1px solid rgba(46,50,48,.2);background:transparent;border-radius:6px;
+    padding:7px 4px;cursor:pointer;font-family:inherit;font-size:11px;font-weight:600;color:var(--ink);transition:all .15s;
+  }
+  .tbtn.active{background:var(--brass);border-color:var(--brass);color:#fff}
+  .tbtn.walk{width:100%}
+
+  label.opt{display:flex;align-items:center;gap:8px;font-size:11.5px;color:var(--ink);padding:3px 0;cursor:pointer}
+  label.opt input{accent-color:var(--brass)}
+  .hint{font-size:10px;color:var(--muted);line-height:1.5;margin-top:10px;border-top:1px dashed rgba(46,50,48,.15);padding-top:8px}
+  .hint b{color:var(--ink)}
+  #roomtag{
+    position:fixed;bottom:18px;left:50%;transform:translateX(-50%);z-index:10;
+    background:rgba(46,50,48,.85);color:var(--dove);border-radius:8px;padding:8px 18px;
+    font-family:'Fraunces',Georgia,serif;font-size:15px;display:none;backdrop-filter:blur(8px);
+  }
+  #err{
+    position:fixed;bottom:0;left:0;right:0;z-index:99;background:#7a1f1f;color:#fff;
+    font:12px/1.5 monospace;padding:8px 12px;display:none;white-space:pre-wrap;
+  }
+
+  /* ---- editor UI ---- */
+  #catalog{
+    position:fixed;top:16px;right:16px;bottom:110px;z-index:11;width:198px;
+    background:rgba(251,249,245,.96);backdrop-filter:blur(12px);
+    border:1px solid rgba(46,50,48,.14);border-radius:12px;
+    padding:12px;overflow-y:auto;display:none;
+    box-shadow:0 8px 30px rgba(35,33,29,.12);
+  }
+  #catalog h5{
+    font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--brass);margin:10px 0 5px;font-weight:700;
+  }
+  #catalog h5:first-child{margin-top:0}
+  .catItem{
+    display:flex;align-items:center;gap:7px;width:100%;text-align:left;padding:3px 6px;margin:2px 0;
+    border:1px solid rgba(46,50,48,.12);border-radius:6px;background:#fff;
+    font-family:inherit;font-size:11.5px;color:var(--ink);cursor:pointer;
+  }
+  .catItem:hover{background:var(--dove);border-color:var(--brass)}
+  .catItem img{width:44px;height:33px;object-fit:contain;flex:0 0 auto;border-radius:4px;background:linear-gradient(180deg,#f4f1ea,#e9e4d8)}
+  #styleBar,#roomBar{
+    position:fixed;left:50%;transform:translateX(-50%);z-index:11;
+    background:rgba(251,249,245,.96);backdrop-filter:blur(12px);
+    border:1px solid rgba(46,50,48,.14);border-radius:10px;
+    padding:8px 12px;display:none;box-shadow:0 6px 24px rgba(35,33,29,.16);
+  }
+  #styleBar{bottom:16px}
+  #roomBar{top:14px}
+  .barTitle{font-family:'Fraunces',Georgia,serif;font-size:13px;font-weight:600;margin-bottom:5px}
+  .chipRow{display:flex;align-items:center;gap:4px;margin:3px 0}
+  .chipRow .lbl2{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);width:44px}
+  .chip{
+    width:17px;height:17px;border-radius:4px;border:1.5px solid rgba(46,50,48,.25);
+    cursor:pointer;padding:0;flex:0 0 auto;
+  }
+  .chip:hover{transform:scale(1.18);border-color:var(--brass)}
+  .chip.none{background:repeating-linear-gradient(45deg,#eee 0 3px,#ccc 3px 6px)}
+  #roomBar .exitBtn{
+    margin-left:10px;border:1px solid rgba(46,50,48,.25);background:var(--iron);color:var(--dove);
+    border-radius:6px;padding:4px 10px;font-family:inherit;font-size:11px;cursor:pointer;
+  }
+  .chip.paintOn{outline:2px solid var(--brass);outline-offset:1px}
+  #dimHUD{
+    position:fixed;left:50%;transform:translateX(-50%);bottom:96px;z-index:11;
+    background:rgba(35,33,29,.88);color:#f3efe6;border-radius:8px;
+    padding:5px 12px;font:11.5px/1.4 monospace;display:none;white-space:nowrap;
+    box-shadow:0 4px 16px rgba(35,33,29,.3);pointer-events:none;
+  }
+  .sofaBtn{
+    border:1px solid rgba(46,50,48,.25);background:#fff;border-radius:6px;
+    padding:3px 8px;font-family:inherit;font-size:10.5px;cursor:pointer;color:var(--ink);
+  }
+  .sofaBtn:hover{background:var(--dove);border-color:var(--brass)}
+
+  /* ---- compass ---- */
+  #compass{
+    position:fixed;right:18px;bottom:18px;z-index:10;
+    width:76px;height:76px;border-radius:50%;
+    background:rgba(251,249,245,.92);backdrop-filter:blur(10px);
+    border:1px solid rgba(46,50,48,.18);
+    box-shadow:0 6px 22px rgba(35,33,29,.18);
+  }
+  #rose{
+    position:absolute;inset:0;transition:transform .08s linear;
+  }
+  #rose span{
+    position:absolute;font-family:'Fraunces',Georgia,serif;font-size:13px;font-weight:600;
+    color:var(--muted);width:16px;text-align:center;line-height:1;
+  }
+  #rose .cn{top:7px;left:50%;margin-left:-8px;color:#a33b2e;font-weight:700}
+  #rose .cs{bottom:7px;left:50%;margin-left:-8px}
+  #rose .ce{right:7px;top:50%;margin-top:-6px}
+  #rose .cw{left:7px;top:50%;margin-top:-6px}
+  #rose .needle{
+    position:absolute;left:50%;top:50%;width:2.5px;height:22px;margin-left:-1.25px;
+    background:linear-gradient(to bottom,#a33b2e 50%,var(--iron) 50%);
+    transform-origin:50% 0%;transform:translateY(-22px);border-radius:2px;
+  }
+  #compass .dot{
+    position:absolute;left:50%;top:50%;width:6px;height:6px;margin:-3px 0 0 -3px;
+    border-radius:50%;background:var(--brass);z-index:2;
+  }
+  #panel.min .body{display:none}
+  #collapse{position:absolute;top:12px;right:12px;border:none;background:none;color:var(--muted);cursor:pointer;font-size:14px}
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<div id="panel">
+  <button id="collapse">—</button>
+  <div class="eyebrow">Crown · Gaithersburg · 4,882 sq ft</div>
+  <h1>The City Home<br><em>Modern Georgetown</em></h1>
+  <div class="body">
+    <div class="section">Floor</div>
+    <div class="floors" id="floors">
+      <button class="fbtn active" data-floor="all"><span class="lvl">⌂</span><span class="nm">All</span></button>
+      <button class="fbtn" data-floor="0"><span class="lvl">01</span><span class="nm">Ground</span></button>
+      <button class="fbtn" data-floor="1"><span class="lvl">02</span><span class="nm">Main</span></button>
+      <button class="fbtn" data-floor="2"><span class="lvl">03</span><span class="nm">Upper</span></button>
+      <button class="fbtn" data-floor="3"><span class="lvl">04</span><span class="nm">Penthouse</span></button>
+    </div>
+
+    <div class="section">Scene</div>
+    <div class="row">
+      <button class="tbtn active" id="btnDay">Day</button>
+      <button class="tbtn" id="btnEve">Evening</button>
+    </div>
+    <div class="row">
+      <button class="tbtn" id="btnSound">♪ Lobby music</button>
+    </div>
+
+    <div class="section">Season</div>
+    <div class="row">
+      <button class="tbtn sbtn active" data-season="summer">Summer</button>
+      <button class="tbtn sbtn" data-season="spring">Spring</button>
+    </div>
+    <div class="row">
+      <button class="tbtn sbtn" data-season="fall">Fall</button>
+      <button class="tbtn sbtn" data-season="winter">Winter</button>
+    </div>
+    <label class="opt" id="rowSnow" style="display:none"><input type="checkbox" id="optSnowing"> Snowing</label>
+    <label class="opt" id="rowXmas" style="display:none"><input type="checkbox" id="optXmas"> Christmas mode</label>
+    <label class="opt" id="rowHween" style="display:none"><input type="checkbox" id="optHween"> Halloween mode</label>
+
+    <div class="section">View</div>
+    <div class="row">
+      <button class="tbtn active" id="btnOrbit">Orbit</button>
+      <button class="tbtn" id="btnWalk">Walk inside</button>
+    </div>
+    <label class="opt"><input type="checkbox" id="optAutoOrbit" checked> Aerial auto-orbit (All view)</label>
+    <label class="opt" style="gap:8px">Speed
+      <input type="range" id="orbitSpeed" min="0.2" max="8" step="0.1" value="2.2" style="flex:1;accent-color:var(--brass)">
+    </label>
+
+    <div class="section">Design</div>
+    <div class="row">
+      <button class="tbtn" id="btnEdit">✎ Edit layout</button>
+      <button class="tbtn" id="btnCatalog">+ Add</button>
+    </div>
+    <div class="row">
+      <button class="tbtn" id="btnResetFloor">Reset floor</button>
+      <button class="tbtn" id="btnExportLayout">Export</button>
+      <button class="tbtn" id="btnImportLayout">Import</button>
+      <input type="file" id="layoutFile" accept=".json" style="display:none">
+    </div>
+    <div class="row">
+      <select id="layoutSlots" style="flex:1;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:8px;color:var(--ink);font:inherit;padding:5px 6px"></select>
+      <button class="tbtn" id="btnSaveLayout" title="Save current layout under a name">💾 Save</button>
+      <button class="tbtn" id="btnLoadLayout" title="Load the selected layout">Load</button>
+      <button class="tbtn" id="btnDelLayout" title="Delete the selected layout">✕</button>
+    </div>
+    <div class="hint" id="editHint" style="display:none">
+      <b>Edit:</b> click a piece, drag (snaps 6"; <b>Alt</b>=free) · <b>Alt-click</b> selects the piece
+      underneath (rug under a sofa) · <b>R</b> rotate 45° (<b>,</b>/<b>.</b> = 15°) ·
+      <b>F</b> flip · <b>D</b> duplicate · arrows nudge · <b>PgUp/PgDn</b> raise/lower (art, TVs) ·
+      <b>⌫</b> remove · <b>Ctrl-Z</b> undo · <b>double-click a room</b> to focus it (floor + wall paint) ·
+      <b>Esc</b> backs out. Wall items place onto the <b>wall or window you click</b>;
+      a modular sofa grows section-by-section from its style bar. Saved automatically.
+    </div>
+
+    <div class="section">Layers &amp; Options</div>
+    <div class="row" style="margin-bottom:8px">
+      <button class="tbtn" id="btnGarage">Open garage</button>
+    </div>
+    <label class="opt"><input type="checkbox" id="optLabels" checked> Room labels</label>
+    <label class="opt"><input type="checkbox" id="optFurn" checked> Furniture</label>
+    <label class="opt"><input type="checkbox" id="optSpiral" checked> Optional spiral stair</label>
+
+    <div class="hint" id="hint">
+      <b>Orbit:</b> drag to rotate · scroll to zoom · right-drag to pan.<br>
+      <b>Walk:</b> click to look · <b>WASD</b> move · <b>Q/E</b> floor down/up · <b>Shift</b> run · <b>Esc</b> exit.
+    </div>
+  </div>
+</div>
+
+<div id="roomtag"></div>
+<div id="catalog"></div>
+<div id="styleBar">
+  <div class="barTitle" id="styleName">Piece</div>
+  <div class="chipRow"><span class="lbl2">Finish</span><span id="chipsP" style="display:flex;gap:4px;flex-wrap:wrap"></span></div>
+  <div class="chipRow" id="rowAccent"><span class="lbl2">Accent</span><span id="chipsA" style="display:flex;gap:4px;flex-wrap:wrap"></span></div>
+  <div class="chipRow" id="rowSize">
+    <span class="lbl2">Size</span>
+    <button class="sofaBtn" data-ax="xz" data-dir="-1" title="Smaller footprint, same shape">⤡ −</button>
+    <button class="sofaBtn" data-ax="xz" data-dir="1" title="Bigger footprint, same shape">⤢ +</button>
+    <button class="sofaBtn" data-ax="x" data-dir="-1" title="Narrower">W−</button>
+    <button class="sofaBtn" data-ax="x" data-dir="1" title="Wider">W+</button>
+    <button class="sofaBtn" data-ax="z" data-dir="-1" title="Shallower">D−</button>
+    <button class="sofaBtn" data-ax="z" data-dir="1" title="Deeper">D+</button>
+    <button class="sofaBtn" data-ax="y" data-dir="-1" title="Shorter">H−</button>
+    <button class="sofaBtn" data-ax="y" data-dir="1" title="Taller">H+</button>
+    <button class="sofaBtn" data-ax="reset" data-dir="0" title="Original size">1:1</button>
+  </div>
+  <div class="chipRow" id="rowSofa" style="display:none">
+    <span class="lbl2">Build</span>
+    <button class="sofaBtn" data-op="seat">+ Seat</button>
+    <button class="sofaBtn" data-op="chaise">+ Chaise</button>
+    <button class="sofaBtn" data-op="corner">+ Corner</button>
+    <button class="sofaBtn" data-op="ottoman">+ Ottoman</button>
+    <button class="sofaBtn" data-op="pop">− Last</button>
+    <button class="sofaBtn" data-op="flipEnd" title="Move the ▼ marker to the other end of the sofa">⇄ End</button>
+    <button class="sofaBtn" data-op="w-">W−</button>
+    <button class="sofaBtn" data-op="w+">W+</button>
+    <button class="sofaBtn" data-op="d-">D−</button>
+    <button class="sofaBtn" data-op="d+">D+</button>
+    <span style="font-size:10px;color:var(--muted);margin-left:4px">＋ adds at the ▼ marker</span>
+  </div>
+</div>
+<div id="dimHUD"></div>
+<div id="roomBar">
+  <span class="barTitle" id="roomName" style="margin-right:8px">Room</span>
+  <span class="chipRow" style="display:inline-flex"><span class="lbl2">Floor</span><span id="chipsFloor" style="display:flex;gap:4px"></span></span>
+  <span class="chipRow" style="display:inline-flex;margin-left:10px"><span class="lbl2">Walls</span><span id="chipsWall" style="display:flex;gap:4px"></span></span>
+  <button class="exitBtn" id="btnExitRoom">← Exit room</button>
+</div>
+<div id="compass">
+  <div id="rose">
+    <span class="cn">N</span><span class="ce">E</span><span class="cs">S</span><span class="cw">W</span>
+    <div class="needle"></div>
+  </div>
+  <div class="dot"></div>
+</div>
+<div id="err"></div>
+
+<script>
+  window.addEventListener('error', e => {
+    const d = document.getElementById('err');
+    d.style.display = 'block';
+    d.textContent = 'JS error: ' + e.message + ' @ ' + (e.filename||'').split('/').pop() + ':' + e.lineno;
+  });
+</script>
+<script type="importmap">
+{
+  "imports": {
+    "three": "./node_modules/three/build/three.module.js",
+    "three/addons/": "./node_modules/three/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

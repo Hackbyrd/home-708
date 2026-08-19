@@ -1,0 +1,8 @@
+node_modules
+**/dist
+.git
+.env
+coverage
+playwright-report
+test-results
+legacy/v1-static/assets/*.HEIC

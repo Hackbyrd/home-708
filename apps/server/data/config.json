@@ -1,0 +1,12 @@
+{
+  "version": "v2",
+  "revision": 0,
+  "siteName": "The City Home 3D",
+  "activeLayoutId": "default",
+  "allowLocalDrafts": true,
+  "defaultSeason": "summer",
+  "graphicsPreset": "balanced",
+  "autoOrbit": true,
+  "layoutAuthority": "server",
+  "updatedAt": "2026-07-27T00:00:00.000Z"
+}

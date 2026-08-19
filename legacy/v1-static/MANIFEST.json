@@ -1,0 +1,10 @@
+{
+  "name": "city-home-3d-static-legacy",
+  "version": "1.0.0",
+  "archivedAt": "2026-07-27T20:27:00-04:00",
+  "sourceControlAtArchive": false,
+  "entry": "index.html",
+  "serve": "npx -y http-server legacy/v1-static -p 8123 -c-1",
+  "immutable": true,
+  "notes": "Frozen before the Vue 3 and Fastify production rewrite."
+}

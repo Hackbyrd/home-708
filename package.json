@@ -1,0 +1,48 @@
+{
+  "name": "city-home-3d",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Production 3D digital twin and interior layout editor",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @city-home/web",
+    "dev:full": "concurrently -n web,server -c cyan,magenta \"npm run dev -w @city-home/web\" \"npm run dev -w @city-home/server\"",
+    "build": "npm run build -w @city-home/shared && npm run build -w @city-home/scene && npm run build -w @city-home/web && npm run build -w @city-home/server",
+    "build:cloudflare": "npm run build -w @city-home/shared && npm run build -w @city-home/scene && npm run build -w @city-home/web",
+    "preview:cloudflare": "npm run build:cloudflare && wrangler dev",
+    "deploy:cloudflare": "npm run build:cloudflare && wrangler deploy",
+    "start": "npm run start -w @city-home/server",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "format": "prettier --write ."
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^26.1.2",
+    "@types/three": "^0.185.1",
+    "@vitest/coverage-v8": "^4.1.10",
+    "concurrently": "^10.0.4",
+    "eslint": "^10.8.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "^10.10.0",
+    "prettier": "^3.9.6",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.65.0",
+    "vitest": "^4.1.10",
+    "vue-eslint-parser": "^10.4.1",
+    "wrangler": "^4.124.0"
+  }
+}
