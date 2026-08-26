@@ -140,8 +140,8 @@ export function rect(x0, z0, x1, z1) {
 }
 
 // ---------------- MAIN STAIR ----------------
-// The plan is not a spiral: a quarter-turn winder entry feeds a straight outbound
-// flight, a square landing, and a straight return flight around an open well.
+// A curved winder entry feeds one straight flight to the next floor. Each storey
+// restarts with another curved section; there is no parallel return flight.
 export const WELL = CORE.well;
 
 // full rectangular shaft opening (flights + well live inside it)
@@ -203,7 +203,7 @@ export function traditionalGuard(a, b, yBase, h, railMat, balusterMat) {
   return traditionalRailing(a, b, yBase, h, railMat, balusterMat);
 }
 
-// Four curved winders feed two return flights. The real stair is traditional:
+// Four curved winders feed one straight flight. The real stair is traditional:
 // white closed risers/stringers and balusters with espresso tread caps and rail.
 export function mainStair(yBase, rise, treadMat, railMat, trimMat = treadMat) {
   const g = new THREE.Group();
@@ -274,10 +274,12 @@ export function mainStair(yBase, rise, treadMat, railMat, trimMat = treadMat) {
   }
   addRail(winderRail, yBase + sh, yBase + sh * S.treads.winders);
 
-  // Straight outbound flight along the east side of the well.
+  // One continuous straight flight rises from the curved entry to floor level.
   const outboundRail = [];
-  const outDepth = (S.outbound.z1 - S.outbound.z0) / S.treads.outbound;
-  for (let i = 0; i < S.treads.outbound; i++) {
+  const straightTreads = n - S.treads.winders;
+  const straightEnd = S.north - 1.35;
+  const outDepth = (straightEnd - S.outbound.z0) / straightTreads;
+  for (let i = 0; i < straightTreads; i++) {
     const zc = S.outbound.z0 + (i + 0.5) * outDepth;
     const yTop = tread(
       S.outbound.x1 - S.outbound.x0, outDepth,
@@ -288,61 +290,32 @@ export function mainStair(yBase, rise, treadMat, railMat, trimMat = treadMat) {
   addRail(
     outboundRail,
     yBase + sh * (S.treads.winders + 1),
-    yBase + sh * (S.treads.winders + S.treads.outbound),
-  );
-
-  // White landing structure with the same dark nosing and a traditional guard.
-  const landingTop = yBase + sh * s;
-  g.add(box(
-    S.landing.x1 - S.landing.x0, 0.6, S.landing.z1 - S.landing.z0, trimMat,
-    (S.landing.x0 + S.landing.x1) / 2, landingTop - 0.3,
-    (S.landing.z0 + S.landing.z1) / 2,
-  ));
-  g.add(box(
-    S.landing.x1 - S.landing.x0 + 0.12, cap,
-    S.landing.z1 - S.landing.z0 + 0.12, treadMat,
-    (S.landing.x0 + S.landing.x1) / 2, landingTop + cap / 2,
-    (S.landing.z0 + S.landing.z1) / 2,
-  ));
-  g.add(traditionalRailing(
-    [S.landing.x0 + 0.12, S.landing.z1 - 0.12],
-    [S.landing.x1 - 0.12, S.landing.z1 - 0.12],
-    landingTop + cap, 3, railMat, trimMat,
-  ));
-
-  // Return flight and upper landing repeat the white-and-espresso finish.
-  const returnRail = [];
-  const returnDepth = (S.return.z1 - S.return.z0) / S.treads.return;
-  for (let i = 0; i < S.treads.return; i++) {
-    const zc = S.return.z1 - (i + 0.5) * returnDepth;
-    const yTop = tread(
-      S.return.x1 - S.return.x0, returnDepth,
-      (S.return.x0 + S.return.x1) / 2, zc,
-    );
-    addPicket(returnRail, S.return.x1 - 0.1, yTop, zc);
-  }
-  addRail(
-    returnRail,
-    yBase + sh * (S.treads.winders + S.treads.outbound + 1),
     yBase + rise,
   );
 
+  // A compact floor-level landing replaces the former U-turn and return flight.
+  const landingTop = yBase + rise;
+  g.add(box(
+    S.outbound.x1 - S.outbound.x0, 0.6, S.north - straightEnd, trimMat,
+    (S.outbound.x0 + S.outbound.x1) / 2, landingTop - 0.3,
+    (straightEnd + S.north) / 2,
+  ));
+  g.add(box(
+    S.outbound.x1 - S.outbound.x0 + 0.12, cap,
+    S.north - straightEnd + 0.12, treadMat,
+    (S.outbound.x0 + S.outbound.x1) / 2, landingTop + cap / 2,
+    (straightEnd + S.north) / 2,
+  ));
+  g.add(traditionalRailing(
+    [S.outbound.x0 + 0.12, S.north - 0.12],
+    [S.outbound.x1 - 0.12, S.north - 0.12],
+    landingTop + cap, 3, railMat, trimMat,
+  ));
+
   const topFloor = yBase + rise;
-  g.add(box(
-    S.terminalLanding.x1 - S.terminalLanding.x0, 0.6,
-    S.terminalLanding.z1 - S.terminalLanding.z0, trimMat,
-    (S.terminalLanding.x0 + S.terminalLanding.x1) / 2, topFloor - 0.3,
-    (S.terminalLanding.z0 + S.terminalLanding.z1) / 2,
-  ));
-  g.add(box(
-    S.terminalLanding.x1 - S.terminalLanding.x0 + 0.12, cap,
-    S.terminalLanding.z1 - S.terminalLanding.z0 + 0.12, treadMat,
-    (S.terminalLanding.x0 + S.terminalLanding.x1) / 2, topFloor + cap / 2,
-    (S.terminalLanding.z0 + S.terminalLanding.z1) / 2,
-  ));
   g.userData.stair = {
     yBase, rise, risers: n, landingTop, topFloor,
-    style: 'traditional-curved-white-and-espresso',
+    style: 'traditional-curved-to-single-flight',
   };
   return g;
 }
@@ -363,9 +336,9 @@ export function stairGuard(
   g.add(guard([WELL.x0, WELL.z1], [WELL.x1, WELL.z1]));
   if (topFloor) {
     const S = CORE.stair;
-    // Penthouse arrival stays open across the return-flight landing at south-west.
-    g.add(guard([S.west, S.terminalLanding.z1], [S.west, S.north]));
-    g.add(guard([S.west, S.north], [S.east, S.north]));
+    // Penthouse arrival stays open where the single flight meets the north edge.
+    g.add(guard([S.west, S.south], [S.west, S.north]));
+    g.add(guard([S.west, S.north], [S.outbound.x0, S.north]));
     g.add(guard([S.east, S.north], [S.east, S.south]));
     g.add(guard([S.east, S.south], [S.west, S.south]));
   }
