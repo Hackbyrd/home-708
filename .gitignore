@@ -13,3 +13,4 @@ apps/server/data/backups/
 apps/server/data/layouts/*.json
 !apps/server/data/layouts/default.json
 npm-debug.log*
+*.tsbuildinfo
