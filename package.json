@@ -16,7 +16,7 @@
     "preview:cloudflare": "npm run build:cloudflare && wrangler pages dev apps/web/dist",
     "deploy:cloudflare": "npm run build:cloudflare && wrangler pages deploy apps/web/dist --project-name home-708 --branch main",
     "start": "npm run start -w @city-home/server",
-    "typecheck": "npm run typecheck --workspaces --if-present",
+    "typecheck": "npm run build -w @city-home/shared && npm run typecheck --workspaces --if-present",
     "lint": "eslint .",
     "test": "vitest run",
     "test:e2e": "playwright test",
