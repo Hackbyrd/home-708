@@ -215,10 +215,10 @@ export function makeFurnitureKit(M) {
 
   K.upperRun = (len, mat = M.wall) => rr(len, 2.6, 1.15, mat, 0, 1.3, 0); // place at y ~4.5
 
-  K.island = (w = 7.5, d = 3.8) => {
+  K.island = (w = 7.5, d = 3.8, baseMat = M.cabinetGray, counterMat = M.quartzite) => {
     const g = new THREE.Group();
-    g.add(rr(w, 3, d, M.flutedPlum, 0, 1.5, 0));
-    g.add(rr(w + 0.9, 0.2, d + 0.7, M.quartzite, 0, 3.1, 0.15));
+    g.add(rr(w, 3, d, baseMat, 0, 1.5, 0));
+    g.add(rr(w + 0.9, 0.2, d + 0.7, counterMat, 0, 3.1, 0.15));
     return g;
   };
 
@@ -231,9 +231,18 @@ export function makeFurnitureKit(M) {
     return g;
   };
 
-  K.hood = () => {
+  K.counterStool = (mat = M.sunYellow) => {
     const g = new THREE.Group();
-    const m = new THREE.Mesh(new THREE.CylinderGeometry(1.4, 2.1, 5.5, 4), M.plaster);
+    g.add(soft(1.45, 0.22, 1.45, mat, 0, 2.35, 0, 0.12));
+    for (const [x, z] of [[-0.56, -0.56], [0.56, -0.56], [-0.56, 0.56], [0.56, 0.56]])
+      g.add(rr(0.08, 2.3, 0.08, mat, x, 1.15, z));
+    g.add(rr(1.2, 0.08, 0.08, mat, 0, 0.75, 0.56));
+    return g;
+  };
+
+  K.hood = (mat = M.hoodMetal) => {
+    const g = new THREE.Group();
+    const m = new THREE.Mesh(new THREE.CylinderGeometry(1.4, 2.1, 5.5, 4), mat);
     m.rotation.y = Math.PI / 4;
     m.position.y = 2.75; m.castShadow = true;
     g.add(m);
@@ -282,10 +291,10 @@ export function makeFurnitureKit(M) {
     return g;
   };
 
-  K.vanity = (w = 6, doubleSink = true) => {
+  K.vanity = (w = 6, doubleSink = true, cabinetMat = M.oakWood, counterMat = M.quartzite) => {
     const g = new THREE.Group();
-    g.add(rr(w, 1.7, 1.9, M.oakWood, 0, 1.55, 0));               // floating
-    g.add(rr(w + 0.1, 0.15, 2, M.quartzite, 0, 2.48, 0));
+    g.add(rr(w, 1.7, 1.9, cabinetMat, 0, 1.55, 0));               // floating
+    g.add(rr(w + 0.1, 0.15, 2, counterMat, 0, 2.48, 0));
     const n = doubleSink ? 2 : 1;
     for (let i = 0; i < n; i++) {
       const x = n === 1 ? 0 : (i ? w / 4 : -w / 4);
@@ -701,6 +710,92 @@ export function makeFurnitureKit(M) {
       bulb.position.copy(dir).multiplyScalar(len).add(new THREE.Vector3(0, dropTo, 0));
       g.add(bulb);
     }
+    return g;
+  };
+
+  K.glassTable = (w = 7, d = 3.6, h = 2.5) => {
+    const g = new THREE.Group();
+    g.add(rr(w, 0.12, d, M.glass, 0, h, 0));
+    for (const [x, z] of [
+      [-w / 2 + 0.45, -d / 2 + 0.45], [w / 2 - 0.45, -d / 2 + 0.45],
+      [-w / 2 + 0.45, d / 2 - 0.45], [w / 2 - 0.45, d / 2 - 0.45],
+    ]) g.add(rr(0.12, h, 0.12, M.blackSteel, x, h / 2, z));
+    return g;
+  };
+
+  K.glassRoundTable = (r = 2.4, h = 2.5) => {
+    const g = new THREE.Group();
+    const top = new THREE.Mesh(new THREE.CylinderGeometry(r, r, 0.1, 32), M.glass);
+    top.position.y = h; g.add(top);
+    const stem = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.16, h, 12), M.blackSteel);
+    stem.position.y = h / 2; g.add(stem);
+    const base = new THREE.Mesh(new THREE.CylinderGeometry(0.9, 0.9, 0.12, 24), M.blackSteel);
+    base.position.y = 0.06; g.add(base);
+    return g;
+  };
+
+  K.canopyBed = (w = 6.33, len = 7.2, lin = M.linenCream) => {
+    const g = K.bed(w, len, M.graphite, lin);
+    const x = w / 2 + 0.18, z = len / 2 + 0.18, top = 6.8;
+    for (const [px, pz] of [[-x, -z], [x, -z], [-x, z], [x, z]])
+      g.add(rr(0.12, top, 0.12, M.matBlack, px, top / 2, pz));
+    g.add(rr(w + 0.48, 0.12, 0.12, M.matBlack, 0, top, -z));
+    g.add(rr(w + 0.48, 0.12, 0.12, M.matBlack, 0, top, z));
+    g.add(rr(0.12, 0.12, len + 0.48, M.matBlack, -x, top, 0));
+    g.add(rr(0.12, 0.12, len + 0.48, M.matBlack, x, top, 0));
+    return g;
+  };
+
+  K.featureBed = (w = 5, len = 6.8, lin = M.linenCream) => {
+    const g = K.bed(w, len, M.white, lin);
+    const backZ = -len / 2 - 0.22;
+    g.add(soft(w + 1, 3.5, 0.38, M.white, 0, 2.1, backZ, 0.55));
+    g.add(soft(w * 0.55, 1.5, 0.42, M.white, -w * 0.34, 4.1, backZ, 0.65));
+    g.add(soft(w * 0.55, 1.5, 0.42, M.white, w * 0.34, 4.1, backZ, 0.65));
+    return g;
+  };
+
+  K.chaise = (mat = M.carpetGray) => {
+    const g = new THREE.Group();
+    g.add(soft(2.8, 0.85, 5.5, mat, 0, 0.5, 0, 0.3));
+    g.add(soft(2.65, 0.45, 4.8, M.linenCream, 0, 1.08, 0.25, 0.24));
+    const back = soft(2.75, 2.1, 0.5, mat, 0, 1.8, -2.35, 0.28);
+    back.rotation.x = -0.15;
+    g.add(back);
+    return g;
+  };
+
+  K.libraryWall = (len = 10, h = 8.5, mat = M.deepWalnut) => {
+    const g = K.builtinWall(len, h, mat, 1.35);
+    const ladder = new THREE.Group();
+    for (const x of [-0.55, 0.55]) ladder.add(rr(0.1, h - 0.6, 0.1, M.blackSteel, x, (h - 0.6) / 2, 0));
+    for (let y = 0.7; y < h - 0.5; y += 0.72) ladder.add(rr(1.2, 0.08, 0.08, M.blackSteel, 0, y, 0));
+    ladder.rotation.z = -0.08;
+    ladder.position.set(0.6, 0, 0.82);
+    g.add(ladder);
+    return g;
+  };
+
+  K.eggChair = (mat = M.graphite) => {
+    const g = new THREE.Group();
+    const shell = new THREE.Mesh(
+      new THREE.SphereGeometry(2.25, 20, 16, 0, Math.PI * 2, 0.25, Math.PI * 0.82),
+      mat,
+    );
+    shell.scale.set(0.82, 1.25, 0.72);
+    shell.position.y = 2.45;
+    shell.castShadow = true;
+    g.add(shell);
+    g.add(soft(2.3, 0.45, 1.7, M.linenCream, 0, 1.0, 0.3, 0.3));
+    return g;
+  };
+
+  K.metalDiningChair = (mat = M.sunYellow) => {
+    const g = new THREE.Group();
+    g.add(rr(1.45, 0.16, 1.45, mat, 0, 1.45, 0));
+    g.add(rr(1.45, 1.9, 0.12, mat, 0, 2.35, -0.66));
+    for (const [x, z] of [[-0.58, -0.58], [0.58, -0.58], [-0.58, 0.58], [0.58, 0.58]])
+      g.add(rr(0.08, 1.4, 0.08, mat, x, 0.7, z));
     return g;
   };
 

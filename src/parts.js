@@ -161,89 +161,213 @@ function wedge(rIn, rOut, a0, a1, th, mat) {
   return m;
 }
 
-// 4 quarter-turn winders -> 7 northbound treads -> landing -> 7 southbound
-// treads. Eighteen equal rises keeps all three floor-to-floor runs coherent.
-export function mainStair(yBase, rise, treadMat, railMat) {
+function curvedRail(points, mat) {
+  if (points.length < 2) return null;
+  const curve = new THREE.CatmullRomCurve3(points, false, 'centripetal');
+  const mesh = new THREE.Mesh(
+    new THREE.TubeGeometry(curve, Math.max(16, points.length * 5), 0.12, 8, false),
+    mat,
+  );
+  mesh.castShadow = true;
+  return mesh;
+}
+
+function traditionalRailing(a, b, yBase, h, railMat, balusterMat) {
   const g = new THREE.Group();
-  const S = CORE.stair;
-  const n = S.treads.total, sh = rise / n;
-  let s = 0;
-  const tread = (w, d, x, z, yStep = ++s) => {
-    const h = sh * yStep + 0.35;
-    g.add(box(w, h, d, treadMat, x, yBase + h / 2 - 0.35, z));
-    return yBase + sh * yStep;
+  const dir = new THREE.Vector2(b[0] - a[0], b[1] - a[1]);
+  const len = dir.length();
+  const u = dir.clone().normalize();
+  const position = t => [a[0] + u.x * t, a[1] + u.y * t];
+  const newel = (x, z) => {
+    g.add(box(0.44, h + 0.22, 0.44, balusterMat, x, yBase + (h + 0.22) / 2, z));
+    g.add(box(0.62, 0.16, 0.62, balusterMat, x, yBase + 0.12, z, false));
+    g.add(box(0.62, 0.16, 0.62, balusterMat, x, yBase + h + 0.24, z, false));
   };
-  const picket = (x, yTop, z) => {
-    g.add(box(0.08, 3, 0.08, railMat, x, yTop + 1.5, z, false));
-    g.add(box(0.24, 0.12, 0.24, railMat, x, yTop + 3, z, false));
-  };
-
-  // Curved quarter-turn entry in the south bay, rising west-to-east into run A.
-  for (let i = 0; i < S.treads.winders; i++) {
-    s++;
-    const h = sh * s + 0.35;
-    const da = (Math.PI / 2) / S.treads.winders;
-    const a0 = -Math.PI / 2 + i * da;
-    const wed = wedge(S.curveInnerRadius, S.curveOuterRadius, a0, a0 + da, h, treadMat);
-    wed.position.set(S.curveCenter[0], yBase + sh * s, S.curveCenter[1]);
-    g.add(wed);
-    const a = a0 + da / 2;
-    picket(
-      S.curveCenter[0] + Math.cos(a) * (S.curveOuterRadius - 0.15),
-      yBase + sh * s,
-      S.curveCenter[1] + Math.sin(a) * (S.curveOuterRadius - 0.15),
-    );
+  const [ax, az] = position(0);
+  const [bx, bz] = position(len);
+  newel(ax, az);
+  newel(bx, bz);
+  const spaces = Math.max(2, Math.ceil(len / 0.52));
+  for (let i = 1; i < spaces; i++) {
+    const [x, z] = position((i / spaces) * len);
+    g.add(box(0.1, h - 0.2, 0.1, balusterMat, x, yBase + (h - 0.2) / 2, z, false));
   }
-
-  // Straight outbound flight along the east side of the well.
-  const outDepth = (S.outbound.z1 - S.outbound.z0) / S.treads.outbound;
-  for (let i = 0; i < S.treads.outbound; i++) {
-    const zc = S.outbound.z0 + (i + 0.5) * outDepth;
-    const yT = tread(S.outbound.x1 - S.outbound.x0, outDepth,
-      (S.outbound.x0 + S.outbound.x1) / 2, zc);
-    picket(S.outbound.x0 + 0.08, yT, zc);
-  }
-
-  // Full-width square landing turns 180 degrees into the return flight.
-  const landingTop = yBase + sh * s;
-  g.add(box(
-    S.landing.x1 - S.landing.x0, 0.6, S.landing.z1 - S.landing.z0, treadMat,
-    (S.landing.x0 + S.landing.x1) / 2, landingTop - 0.3,
-    (S.landing.z0 + S.landing.z1) / 2,
-  ));
-
-  // Rectilinear return flight runs south on the west side and terminates at floor.
-  const returnDepth = (S.return.z1 - S.return.z0) / S.treads.return;
-  for (let i = 0; i < S.treads.return; i++) {
-    const zc = S.return.z1 - (i + 0.5) * returnDepth;
-    const yT = tread(S.return.x1 - S.return.x0, returnDepth,
-      (S.return.x0 + S.return.x1) / 2, zc);
-    picket(S.return.x1 - 0.08, yT, zc);
-  }
-  const topFloor = yBase + rise;
-  g.add(box(
-    S.terminalLanding.x1 - S.terminalLanding.x0, 0.6,
-    S.terminalLanding.z1 - S.terminalLanding.z0, treadMat,
-    (S.terminalLanding.x0 + S.terminalLanding.x1) / 2, topFloor - 0.3,
-    (S.terminalLanding.z0 + S.terminalLanding.z1) / 2,
-  ));
-  g.userData.stair = { yBase, rise, risers: n, landingTop, topFloor };
+  const top = box(len + 0.26, 0.18, 0.28, railMat,
+    (a[0] + b[0]) / 2, yBase + h + 0.12, (a[1] + b[1]) / 2);
+  top.rotation.y = -Math.atan2(dir.y, dir.x);
+  g.add(top);
   return g;
 }
 
-// guard rails at each floor: balustrade overlooking the open well from the hall;
-// topFloor also fences the whole shaft rim (no flight continues upward).
-export function stairGuard(yFloor, railMat, panelMat = null, topFloor = false) {
+export function traditionalGuard(a, b, yBase, h, railMat, balusterMat) {
+  return traditionalRailing(a, b, yBase, h, railMat, balusterMat);
+}
+
+// Four curved winders feed two return flights. The real stair is traditional:
+// white closed risers/stringers and balusters with espresso tread caps and rail.
+export function mainStair(yBase, rise, treadMat, railMat, trimMat = treadMat) {
   const g = new THREE.Group();
-  g.add(railing([WELL.x0, WELL.z0], [WELL.x0, WELL.z1], yFloor, 3, railMat, panelMat));
-  g.add(railing([WELL.x0, WELL.z1], [WELL.x1, WELL.z1], yFloor, 3, railMat, panelMat));
+  const S = CORE.stair;
+  const n = S.treads.total, sh = rise / n;
+  const cap = 0.14;
+  let s = 0;
+
+  const addPicket = (points, x, yTop, z, railY = yTop + cap + 3.08) => {
+    const base = yTop + cap;
+    const balusterHeight = railY - base;
+    g.add(box(0.1, balusterHeight, 0.1, trimMat, x, base + balusterHeight / 2, z, false));
+    g.add(box(0.2, 0.1, 0.2, trimMat, x, base + 0.18, z, false));
+    const point = new THREE.Vector3(x, railY, z);
+    points.push(point);
+    return point;
+  };
+  const addNewel = (x, yTop, z) => {
+    const base = yTop + cap;
+    g.add(box(0.42, 3.42, 0.42, trimMat, x, base + 1.71, z));
+    g.add(box(0.62, 0.16, 0.62, trimMat, x, base + 0.12, z, false));
+    g.add(box(0.62, 0.16, 0.62, trimMat, x, base + 3.48, z, false));
+  };
+  const addRail = (points, firstTreadTop, lastTreadTop) => {
+    const rail = curvedRail(points, railMat);
+    if (rail) g.add(rail);
+    if (points.length) {
+      const first = points[0], last = points[points.length - 1];
+      addNewel(first.x, firstTreadTop, first.z);
+      addNewel(last.x, lastTreadTop, last.z);
+    }
+  };
+  const tread = (w, d, x, z, yStep = ++s) => {
+    const yTop = yBase + sh * yStep;
+    const h = sh * yStep + 0.35;
+    g.add(box(w, h, d, trimMat, x, yBase + h / 2 - 0.35, z));
+    g.add(box(w + 0.16, cap, d + 0.18, treadMat, x, yTop + cap / 2, z));
+    return yTop;
+  };
+
+  // Curved quarter-turn entry and its closely spaced painted balusters.
+  const winderRail = [];
+  for (let i = 0; i < S.treads.winders; i++) {
+    s++;
+    const yTop = yBase + sh * s;
+    const h = sh * s + 0.35;
+    const da = (Math.PI / 2) / S.treads.winders;
+    const a0 = -Math.PI / 2 + i * da;
+    const body = wedge(S.curveInnerRadius, S.curveOuterRadius, a0, a0 + da, h, trimMat);
+    body.position.set(S.curveCenter[0], yTop, S.curveCenter[1]);
+    g.add(body);
+    const treadCap = wedge(
+      S.curveInnerRadius - 0.04, S.curveOuterRadius + 0.12,
+      a0 - 0.012, a0 + da + 0.012, cap, treadMat,
+    );
+    treadCap.position.set(S.curveCenter[0], yTop + cap, S.curveCenter[1]);
+    g.add(treadCap);
+    for (const fraction of [0.28, 0.72]) {
+      const a = a0 + da * fraction;
+      addPicket(
+        winderRail,
+        S.curveCenter[0] + Math.cos(a) * (S.curveOuterRadius - 0.13),
+        yTop,
+        S.curveCenter[1] + Math.sin(a) * (S.curveOuterRadius - 0.13),
+        yBase + sh * (s - 1 + fraction) + cap + 3.08,
+      );
+    }
+  }
+  addRail(winderRail, yBase + sh, yBase + sh * S.treads.winders);
+
+  // Straight outbound flight along the east side of the well.
+  const outboundRail = [];
+  const outDepth = (S.outbound.z1 - S.outbound.z0) / S.treads.outbound;
+  for (let i = 0; i < S.treads.outbound; i++) {
+    const zc = S.outbound.z0 + (i + 0.5) * outDepth;
+    const yTop = tread(
+      S.outbound.x1 - S.outbound.x0, outDepth,
+      (S.outbound.x0 + S.outbound.x1) / 2, zc,
+    );
+    addPicket(outboundRail, S.outbound.x0 + 0.1, yTop, zc);
+  }
+  addRail(
+    outboundRail,
+    yBase + sh * (S.treads.winders + 1),
+    yBase + sh * (S.treads.winders + S.treads.outbound),
+  );
+
+  // White landing structure with the same dark nosing and a traditional guard.
+  const landingTop = yBase + sh * s;
+  g.add(box(
+    S.landing.x1 - S.landing.x0, 0.6, S.landing.z1 - S.landing.z0, trimMat,
+    (S.landing.x0 + S.landing.x1) / 2, landingTop - 0.3,
+    (S.landing.z0 + S.landing.z1) / 2,
+  ));
+  g.add(box(
+    S.landing.x1 - S.landing.x0 + 0.12, cap,
+    S.landing.z1 - S.landing.z0 + 0.12, treadMat,
+    (S.landing.x0 + S.landing.x1) / 2, landingTop + cap / 2,
+    (S.landing.z0 + S.landing.z1) / 2,
+  ));
+  g.add(traditionalRailing(
+    [S.landing.x0 + 0.12, S.landing.z1 - 0.12],
+    [S.landing.x1 - 0.12, S.landing.z1 - 0.12],
+    landingTop + cap, 3, railMat, trimMat,
+  ));
+
+  // Return flight and upper landing repeat the white-and-espresso finish.
+  const returnRail = [];
+  const returnDepth = (S.return.z1 - S.return.z0) / S.treads.return;
+  for (let i = 0; i < S.treads.return; i++) {
+    const zc = S.return.z1 - (i + 0.5) * returnDepth;
+    const yTop = tread(
+      S.return.x1 - S.return.x0, returnDepth,
+      (S.return.x0 + S.return.x1) / 2, zc,
+    );
+    addPicket(returnRail, S.return.x1 - 0.1, yTop, zc);
+  }
+  addRail(
+    returnRail,
+    yBase + sh * (S.treads.winders + S.treads.outbound + 1),
+    yBase + rise,
+  );
+
+  const topFloor = yBase + rise;
+  g.add(box(
+    S.terminalLanding.x1 - S.terminalLanding.x0, 0.6,
+    S.terminalLanding.z1 - S.terminalLanding.z0, trimMat,
+    (S.terminalLanding.x0 + S.terminalLanding.x1) / 2, topFloor - 0.3,
+    (S.terminalLanding.z0 + S.terminalLanding.z1) / 2,
+  ));
+  g.add(box(
+    S.terminalLanding.x1 - S.terminalLanding.x0 + 0.12, cap,
+    S.terminalLanding.z1 - S.terminalLanding.z0 + 0.12, treadMat,
+    (S.terminalLanding.x0 + S.terminalLanding.x1) / 2, topFloor + cap / 2,
+    (S.terminalLanding.z0 + S.terminalLanding.z1) / 2,
+  ));
+  g.userData.stair = {
+    yBase, rise, risers: n, landingTop, topFloor,
+    style: 'traditional-curved-white-and-espresso',
+  };
+  return g;
+}
+
+// Traditional painted balustrades overlook the open well at each floor.
+export function stairGuard(
+  yFloor,
+  railMat,
+  panelMat = null,
+  topFloor = false,
+  balusterMat = railMat,
+) {
+  const g = new THREE.Group();
+  const guard = (a, b) => panelMat
+    ? railing(a, b, yFloor, 3, railMat, panelMat)
+    : traditionalRailing(a, b, yFloor, 3, railMat, balusterMat);
+  g.add(guard([WELL.x0, WELL.z0], [WELL.x0, WELL.z1]));
+  g.add(guard([WELL.x0, WELL.z1], [WELL.x1, WELL.z1]));
   if (topFloor) {
     const S = CORE.stair;
     // Penthouse arrival stays open across the return-flight landing at south-west.
-    g.add(railing([S.west, S.terminalLanding.z1], [S.west, S.north], yFloor, 3, railMat, panelMat));
-    g.add(railing([S.west, S.north], [S.east, S.north], yFloor, 3, railMat, panelMat));
-    g.add(railing([S.east, S.north], [S.east, S.south], yFloor, 3, railMat, panelMat));
-    g.add(railing([S.east, S.south], [S.west, S.south], yFloor, 3, railMat, panelMat));
+    g.add(guard([S.west, S.terminalLanding.z1], [S.west, S.north]));
+    g.add(guard([S.west, S.north], [S.east, S.north]));
+    g.add(guard([S.east, S.north], [S.east, S.south]));
+    g.add(guard([S.east, S.south], [S.west, S.south]));
   }
   return g;
 }
@@ -272,24 +396,30 @@ export function spiralStair(cx, cz, yBase, yTop, r, treadMat, poleMat) {
   const rise = yTop - yBase;
   const risers = Math.max(10, Math.round(rise / 0.75));
   const anglePer = (Math.PI * 2 * (rise / 10)) / risers; // ~full turn per 10ft
-  const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.18, rise + 3, 12), poleMat);
-  pole.position.set(cx, yBase + (rise + 3) / 2, cz);
+  const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.16, rise + 4, 12), poleMat);
+  pole.position.set(cx, yBase + (rise + 4) / 2, cz);
   g.add(pole);
+  const railPoints = [];
   for (let i = 0; i < risers; i++) {
     const a = i * anglePer;
-    const tread = new THREE.Mesh(new THREE.BoxGeometry(r, 0.15, 0.85), treadMat);
-    tread.castShadow = true;
-    tread.position.set(cx + Math.cos(a) * r / 2, yBase + (i + 1) * (rise / risers), cz + Math.sin(a) * r / 2);
-    tread.rotation.y = -a;
+    const y = yBase + (i + 1) * (rise / risers);
+    const tread = wedge(0.2, r, a, a + anglePer * 0.92, 0.16, treadMat);
+    tread.position.set(cx, y + 0.16, cz);
     g.add(tread);
-  }
-  // helical outer rail approximated with vertical pickets
-  for (let i = 0; i < risers; i += 2) {
-    const a = i * anglePer;
-    const p = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.05, 3, 6), poleMat);
-    p.position.set(cx + Math.cos(a) * (r - 0.15), yBase + (i + 1) * (rise / risers) + 1.5, cz + Math.sin(a) * (r - 0.15));
+
+    const railA = a + anglePer * 0.82;
+    const px = cx + Math.cos(railA) * (r - 0.12);
+    const pz = cz + Math.sin(railA) * (r - 0.12);
+    const nextY = yBase + Math.min(risers, i + 2) * (rise / risers);
+    const railY = nextY + 3.05;
+    const p = new THREE.Mesh(new THREE.CylinderGeometry(0.045, 0.045, railY - y, 7), poleMat);
+    p.position.set(px, y + (railY - y) / 2, pz);
+    p.castShadow = true;
     g.add(p);
+    railPoints.push(new THREE.Vector3(px, railY, pz));
   }
+  const rail = curvedRail(railPoints, poleMat);
+  if (rail) g.add(rail);
   g.userData.spiral = { cx, cz, yBase, yTop, radius: r, risers };
   return g;
 }

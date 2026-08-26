@@ -243,6 +243,64 @@ function paversTex() {
   }, 3, 3);
 }
 
+// metallic circle-pattern wallcovering used in the double-height entry gallery
+function galleryWallpaperTex() {
+  return canvasTex(256, 256, (ctx, w, h) => {
+    ctx.fillStyle = '#b7aba2'; ctx.fillRect(0, 0, w, h);
+    for (let y = 12, row = 0; y < h; y += 22, row++) {
+      for (let x = row % 2 ? 11 : 0; x < w; x += 22) {
+        ctx.fillStyle = 'rgba(68,62,59,0.72)';
+        ctx.beginPath(); ctx.arc(x, y, 7.2, 0, Math.PI * 2); ctx.fill();
+        ctx.fillStyle = 'rgba(232,222,214,0.55)';
+        ctx.beginPath(); ctx.arc(x - 1.5, y - 1.5, 3.8, 0, Math.PI * 2); ctx.fill();
+      }
+    }
+    noise(ctx, w, h, 0.025, 500);
+  }, 2, 4);
+}
+
+// blue-gray figured stone slab behind the owner's bath soaking tub
+function marbleVeinTex() {
+  return canvasTex(512, 512, (ctx, w, h) => {
+    ctx.fillStyle = '#d8dce0'; ctx.fillRect(0, 0, w, h);
+    for (let i = 0; i < 34; i++) {
+      ctx.strokeStyle = `rgba(${45 + i % 3 * 18},${52 + i % 4 * 13},${62 + i % 5 * 12},${0.2 + (i % 4) * 0.08})`;
+      ctx.lineWidth = 2 + (i % 5) * 1.4;
+      ctx.beginPath();
+      let x = -40 + i * 18;
+      ctx.moveTo(x, h);
+      for (let y = h; y >= 0; y -= 24) {
+        x += Math.sin(y * 0.035 + i) * 10 + 2.4;
+        ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+    }
+  });
+}
+
+// pale gray-brown herringbone deck tile used across the penthouse terraces
+function terraceDeckTex() {
+  return canvasTex(512, 512, (ctx, w, h) => {
+    ctx.fillStyle = '#817c75'; ctx.fillRect(0, 0, w, h);
+    ctx.strokeStyle = 'rgba(45,43,40,0.48)';
+    ctx.lineWidth = 3;
+    const unit = 64;
+    for (let y = -unit; y < h + unit; y += unit) {
+      for (let x = -unit; x < w + unit; x += unit) {
+        const flip = ((x + y) / unit) % 2 === 0;
+        ctx.save();
+        ctx.translate(x + unit / 2, y + unit / 2);
+        ctx.rotate(flip ? Math.PI / 4 : -Math.PI / 4);
+        ctx.fillStyle = flip ? '#a49b90' : '#948b81';
+        ctx.fillRect(-unit * 0.58, -unit * 0.2, unit * 1.16, unit * 0.4);
+        ctx.strokeRect(-unit * 0.58, -unit * 0.2, unit * 1.16, unit * 0.4);
+        ctx.restore();
+      }
+    }
+    noise(ctx, w, h, 0.035, 900);
+  }, 4, 4);
+}
+
 // ---------- the material kit ----------
 export function makeMaterials() {
   const M = {};
@@ -255,12 +313,28 @@ export function makeMaterials() {
   M.plum        = std({ color: 0x2B3038, roughness: 0.75 });          // Cheating Heart
   M.walnut      = std({ color: 0x5C4433, roughness: 0.55 });
   M.oakWood     = std({ color: 0xC9AE8C, roughness: 0.65 });
+  M.stairWood   = std({ color: 0x3B241A, roughness: 0.42 });          // espresso-stained treads and handrail
+  M.deepWalnut  = std({ color: 0x241711, roughness: 0.5 });
+  M.cabinetGray = std({ color: 0xA9A8AA, roughness: 0.5 });
+  M.charcoalCabinet = std({ color: 0x343237, roughness: 0.48 });
   M.brass       = std({ color: 0xB08D57, roughness: 0.32, metalness: 0.85 });
   M.blackSteel  = std({ color: 0x24262a, roughness: 0.45, metalness: 0.7 });
   M.oakFloor    = std({ map: oakFloorTex(), roughness: 0.7 });
+  M.darkOakFloor= std({ map: oakFloorTex(), color: 0x68554A, roughness: 0.62 });
   M.stoneFloor  = std({ map: stoneTex(), roughness: 0.85 });
   M.pavers      = std({ map: paversTex(), roughness: 0.9 });
+  M.terraceDeck = std({ map: terraceDeckTex(), roughness: 0.78 });
   M.tileWhite   = std({ color: 0xEDE8DF, roughness: 0.4 });
+  M.carpetIvory = std({ color: 0xD8D1C8, roughness: 1 });
+  M.carpetGray  = std({ color: 0xAAA6A3, roughness: 1 });
+  M.carpetStriped = std({ color: 0xA9A39A, roughness: 1 });
+  M.galleryWallpaper = std({ map: galleryWallpaperTex(), roughness: 0.72, metalness: 0.08 });
+  M.marbleVein  = std({ map: marbleVeinTex(), roughness: 0.32 });
+  M.mediaGold   = std({ color: 0xB39A43, roughness: 0.92 });
+  M.laundryPeach= std({ color: 0xD8AA7D, roughness: 0.95 });
+  M.magenta     = std({ color: 0xC1268F, roughness: 0.8 });
+  M.sunYellow   = std({ color: 0xE8B928, roughness: 0.65 });
+  M.terracePurple = std({ color: 0x7A3C91, roughness: 0.9 });
   M.rubber      = std({ color: 0x3a3a3c, roughness: 0.95 });
   M.concrete    = std({ color: 0x9a948c, roughness: 0.9 });
   M.slat        = std({ map: slatTex(), roughness: 0.7 });

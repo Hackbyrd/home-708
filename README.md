@@ -1,7 +1,7 @@
 # home-708
 
 A Vue 3 and Three.js digital twin of the City Home with a browser-local layout
-editor and an assets-only Cloudflare deployment.
+editor and a static Cloudflare Pages deployment.
 
 ## Requirements
 
@@ -35,13 +35,13 @@ npx wrangler login
 npm run deploy:cloudflare
 ```
 
-`wrangler.jsonc` deploys `apps/web/dist` as an assets-only Cloudflare Worker
-with SPA fallback routing. No database, R2 bucket, API, secrets, or writable
-server filesystem are required.
+`wrangler.jsonc` deploys `apps/web/dist` to the `home-708` Cloudflare Pages
+project with SPA fallback routing. No database, R2 bucket, API, secrets, or
+writable server filesystem are required.
 
-Use `npm run preview:cloudflare` to test the production build locally. A custom
-domain can be attached to `home-708` in the Cloudflare dashboard after the
-first deployment.
+Use `npm run preview:cloudflare` to test the production build locally. The
+intended custom domain is `708.hackbyrd.com`, configured through an external
+DNS CNAME pointing to `home-708-7zy.pages.dev`.
 
 Pushes to `main` run the full GitHub Actions verification suite and deploy the
 frontend after it passes. The repository's `production` environment requires
