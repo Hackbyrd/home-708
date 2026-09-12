@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { upgradeSurfaces } from './surfaces.js';
 
 // ---------- canvas texture helpers ----------
 function canvasTex(w, h, draw, repeatX = 1, repeatY = 1) {
@@ -280,25 +281,51 @@ function marbleVeinTex() {
 
 // pale gray-brown herringbone deck tile used across the penthouse terraces
 function terraceDeckTex() {
-  return canvasTex(512, 512, (ctx, w, h) => {
-    ctx.fillStyle = '#817c75'; ctx.fillRect(0, 0, w, h);
-    ctx.strokeStyle = 'rgba(45,43,40,0.48)';
-    ctx.lineWidth = 3;
-    const unit = 64;
-    for (let y = -unit; y < h + unit; y += unit) {
-      for (let x = -unit; x < w + unit; x += unit) {
-        const flip = ((x + y) / unit) % 2 === 0;
-        ctx.save();
-        ctx.translate(x + unit / 2, y + unit / 2);
-        ctx.rotate(flip ? Math.PI / 4 : -Math.PI / 4);
-        ctx.fillStyle = flip ? '#a49b90' : '#948b81';
-        ctx.fillRect(-unit * 0.58, -unit * 0.2, unit * 1.16, unit * 0.4);
-        ctx.strokeRect(-unit * 0.58, -unit * 0.2, unit * 1.16, unit * 0.4);
-        ctx.restore();
+  const texture=canvasTex(512,512,(c,w,h)=>{
+    c.fillStyle='#67655f';c.fillRect(0,0,w,h);
+    const unit=32,L=4;
+    const plank=(x,y,vertical)=>{
+      const pw=vertical?unit:unit*L, ph=vertical?unit*L:unit;
+      const shade=148+((x*13+y*7)%23+23)%23;
+      c.fillStyle=`rgb(${shade},${shade-5},${shade-11})`;c.fillRect(x+1,y+1,pw-2,ph-2);
+      for(let k=4;k<(vertical?pw:ph);k+=4){
+        c.strokeStyle='rgba(60,51,40,.13)';c.lineWidth=.6;c.beginPath();
+        c.moveTo(x+(vertical?k:3),y+(vertical?3:k));
+        c.lineTo(x+(vertical?k:pw-3),y+(vertical?ph-3:k));c.stroke();
       }
+    };
+    for(let y=-8;y<24;y++)for(let i=-4;i<4;i++)plank((y+8*i)*unit,y*unit,false);
+    for(let x=-8;x<24;x++)for(let i=-4;i<4;i++)plank(x*unit,(x-7+8*i)*unit,true);
+  });
+  texture.rotation=Math.PI/4;return texture;
+}
+
+// Reference fabrics are generated at a repeatable physical scale, so patterns
+// remain legible in close views without shipping large photographic textures.
+function referenceFabric(kind) {
+  return canvasTex(512,512,(c,w,h)=>{
+    c.fillStyle = {office:'#545360',loft:'#c5beb4',magenta:'#b92787',chair:'#eee9df',quilt:'#c8c5c0',stripe:'#a9a49c'}[kind];
+    c.fillRect(0,0,w,h);
+    if(kind==='office'||kind==='chair') {
+      c.strokeStyle=kind==='office'?'#d5cdbf':'#88817a';c.lineWidth=kind==='office'?7:2;
+      for(let y=-100;y<600;y+=128)for(let x=-100;x<600;x+=128){
+        c.beginPath();c.moveTo(x,y+64);c.lineTo(x+44,y+48);c.lineTo(x+64,y);c.lineTo(x+84,y+48);c.lineTo(x+128,y+64);c.lineTo(x+84,y+80);c.lineTo(x+64,y+128);c.lineTo(x+44,y+80);c.closePath();c.stroke();
+      }
+    } else if(kind==='magenta') {
+      c.strokeStyle='#f3e9ea';c.lineWidth=5;
+      for(let y=-25;y<540;y+=58)for(let x=-30;x<540;x+=55){
+        c.beginPath();c.ellipse(x+(y%3)*4,y,12,19,Math.sin(x+y),0,Math.PI*1.65);c.stroke();
+      }
+    } else if(kind==='loft') {
+      for(let y=0;y<512;y+=128)for(let x=0;x<512;x+=128){c.fillStyle=['#ded9cd','#b5ada6','#ece6d7','#aeadb0'][(x/128+3*y/128)%4];c.fillRect(x,y,128,128);}
+    } else if(kind==='stripe') {
+      for(let x=0;x<512;x+=128){c.fillStyle='#d7d0c2';c.fillRect(x,0,48,512);c.fillStyle='#88857f';c.fillRect(x+80,0,26,512);}
+    } else {
+      c.strokeStyle='#b6b2ab';c.lineWidth=1;
+      for(let k=-512;k<1024;k+=24){c.beginPath();c.moveTo(k,0);c.lineTo(k+512,512);c.stroke();c.beginPath();c.moveTo(k,0);c.lineTo(k-512,512);c.stroke();}
     }
-    noise(ctx, w, h, 0.035, 900);
-  }, 4, 4);
+    for(let y=0;y<512;y+=3){c.fillStyle='rgba(255,255,255,.06)';c.fillRect(0,y,512,1);}
+  });
 }
 
 // ---------- the material kit ----------
@@ -307,7 +334,7 @@ export function makeMaterials() {
   const std = (opts) => new THREE.MeshStandardMaterial(opts);
 
   M.brick       = std({ map: brickTex(), roughness: 0.92 });
-  M.wall        = std({ color: 0xF2EFE9, roughness: 0.95 });          // White Dove
+  M.wall        = std({ color: 0xD5CEC7, roughness: 0.95 });          // White Dove
   M.plaster     = std({ color: 0xE8E2D6, roughness: 0.85 });          // roman clay
   M.iron        = std({ color: 0x2E3230, roughness: 0.6 });           // Iron Ore millwork
   M.plum        = std({ color: 0x2B3038, roughness: 0.75 });          // Cheating Heart
@@ -384,6 +411,30 @@ export function makeMaterials() {
   M.warmGlow    = new THREE.MeshStandardMaterial({ color: 0xffd9a3, emissive: 0xffc37a, emissiveIntensity: 0.0 });
   M.fire        = new THREE.MeshStandardMaterial({ color: 0xff9a3c, emissive: 0xff7a1c, emissiveIntensity: 1.4 });
   M.screenGlow  = new THREE.MeshStandardMaterial({ color: 0x111114, emissive: 0x25303c, emissiveIntensity: 0.6, roughness: 0.2 });
+
+  upgradeSurfaces(M);
+  const fabric = (name,kind,size) => {
+    M[name]=M.linenCream.clone();M[name].color.set(0xffffff);
+    M[name].map=referenceFabric(kind);M[name].map.repeat.set(1/size[0],1/size[1]);
+    M[name].userData.textureSize=size;M[name].name=name;
+  };
+  fabric('officeRug','office',[4,4]); fabric('chairPattern','chair',[2.2,2.2]);
+  fabric('loftRug','loft',[12.5,10.5]); fabric('magentaPattern','magenta',[2.5,2.5]);
+  fabric('bedQuilt','quilt',[2,2]);
+  M.carpetStriped.map=referenceFabric('stripe');M.carpetStriped.map.repeat.set(.2,.2);M.carpetStriped.color.set(0xffffff);
+  M.carpetStriped.userData.textureSize=[5,5];
+  M.brickRelief=M.brick.clone();M.brickRelief.color.set(0x88867e);M.brickRelief.name='brickRelief';
+  M.pergola=M.teak.clone();M.pergola.color.set(0x575146);M.pergola.name='pergola';
+  M.terraceTable=M.teak.clone();M.terraceTable.color.set(0x7d817c);M.terraceTable.name='terraceTable';
+  M.shadeCanvas=M.linenCream.clone();M.shadeCanvas.color.set(0xb9a485);M.shadeCanvas.name='shadeCanvas';
+  M.glass.opacity=.55;M.glass.color.set(0x7596a1);M.glass.roughness=.1;
+  M.roofMembrane.color.set(0x292b2e);
+  M.bronze.color.set(0x29292b);
+  M.panelBrown.color.set(0xbdb9b0);
+  M.darkOakFloor.color.set(0x514137);
+  M.stairWood.roughness=.29;
+  M.hoodMetal.color.set(0x393940);
+
 
   // The whole house is rendered inside a mirrored (scale.x = -1) root so the
   // model matches the real plans; DoubleSide keeps faces visible under the flip.

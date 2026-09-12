@@ -295,9 +295,11 @@ let walking = false;
 let walkFloor = 0;
 
 function applyFloor() {
-  const n = curFloor === 'all' ? 3 : Number(curFloor);
+  for (const flight of H.optional.children) flight.visible = (flight.userData.startLevel ?? 1) <= (curFloor === 'all' || walking ? 3 : +curFloor);
+  const n = curFloor === 'all' || walking ? 3 : Number(curFloor);
+  seasons.setFloor(curFloor);
   for (let i = 0; i < 4; i++) H.levels[i].visible = i <= n;
-  H.roof.visible = curFloor === 'all';
+  H.roof.visible = curFloor === 'all' || walking;
   if (H.tray) H.tray.visible = walking || curFloor === 'all';   // loft tray only from inside / full view
   // ceiling decoration (beams, T&G, canopies) hides when its own floor is peeled open
   H.ceilings.forEach((g, i) => { g.visible = walking || curFloor === 'all' || Number(curFloor) !== i; });

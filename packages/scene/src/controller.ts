@@ -301,25 +301,29 @@ export class SceneController {
       this.scene.background = new Color(0x0a111d);
       this.scene.fog = new Fog(0x0d1522, 200, 480);
       this.sun.position.set(85, 185, -175);
-      this.sun.intensity = 0.28;
+      this.sun.intensity = 0.5;
       this.sun.color.set(0xa9bcd8);
-      this.hemisphere.intensity = 0.09;
-      this.ambient.intensity = 0.08;
-      this.scene.environmentIntensity = 0.08;
-      this.renderer.toneMappingExposure = 0.9;
+      this.hemisphere.intensity = 0.2;
+      this.ambient.intensity = 0.09;
+      this.scene.environmentIntensity = 0.22;
+      this.renderer.toneMappingExposure = 0.92;
     } else {
       this.scene.background = new Color(0xdce4e6);
       this.scene.fog = new Fog(0xdde7ea, 220, 500);
       this.sun.position.set(52, 78, -46);
-      this.sun.intensity = 1.25;
+      this.sun.intensity = 2.6;
       this.sun.color.set(0xfff2dd);
-      this.hemisphere.intensity = 0.34;
-      this.ambient.intensity = 0.12;
-      this.scene.environmentIntensity = 0.34;
-      this.renderer.toneMappingExposure = 0.78;
+      this.hemisphere.intensity = 0.46;
+      this.ambient.intensity = 0.09;
+      this.scene.environmentIntensity = 0.6;
+      this.renderer.toneMappingExposure = 0.82;
     }
     for (const light of [...this.house.evLights, ...this.landscape.evening]) {
       const value = Number(light.userData.evening ?? 0);
+      // Zero intensity still participates in Three's light-count shader loops.
+      // Exclude switched-off fixtures to avoid recompiling huge lighting
+      // programs at every daytime floor peel.
+      light.visible = evening && value > 0;
       if ('intensity' in light) (light as Object3D & { intensity: number }).intensity = evening ? value : 0;
     }
     this.materials.warmGlow.emissiveIntensity = evening ? 1.5 : 0.15;
@@ -678,6 +682,8 @@ export class SceneController {
     this.sun.shadow.camera.near = 1;
     this.sun.shadow.camera.far = 260;
     this.sun.shadow.bias = -0.0004;
+    this.sun.shadow.normalBias = 0.035;
+    this.sun.shadow.radius = 2;
     this.scene.add(this.hemisphere, this.ambient, this.sun, this.sun.target);
   }
 
@@ -701,9 +707,12 @@ export class SceneController {
   }
 
   private applyFloor(): void {
-    const top = this.state.floor === 'all' ? 3 : this.state.floor;
+    const enclosed = this.state.floor === 'all' || this.state.mode === 'walk';
+    const top = enclosed ? 3 : this.state.floor as number;
+    this.seasons.setFloor(enclosed ? 'all' : this.state.floor);
+    for (const flight of this.house.optional.children) flight.visible = Number(flight.userData.startLevel ?? 1) <= top;
     for (let index = 0; index < 4; index++) this.house.levels[index]!.visible = index <= top;
-    this.house.roof.visible = this.state.floor === 'all';
+    this.house.roof.visible = enclosed;
     if (this.house.tray) this.house.tray.visible = this.state.mode === 'walk' || this.state.floor === 'all';
     this.house.ceilings.forEach((group) => {
       group.visible = this.state.mode === 'walk' || this.state.floor === 'all';
@@ -714,7 +723,7 @@ export class SceneController {
   private updateLabels(): void {
     const enabled = this.labels.userData.enabled === true;
     this.house.labels.forEach((labels, index) => {
-      const visible = enabled && this.state.floor !== 'all' && this.state.floor === index;
+      const visible = enabled && this.state.mode !== 'walk' && this.state.floor !== 'all' && this.state.floor === index;
       for (const label of labels) label.visible = visible;
     });
   }

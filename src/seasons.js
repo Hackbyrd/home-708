@@ -48,13 +48,12 @@ export function makeSeasons(M, land, worldGroup) {
   // ---------------- winter: snow cover ----------------
   const snowMat = std({ color: 0xf4f7fa, roughness: 0.95 });
   const winter = new THREE.Group();
+  winter.name = 'seasonal-snow-cover';
   winter.add(box(520, 0.3, 520, snowMat, W / 2, -1.36, D / 2, false));            // ground blanket
-  winter.add(box(17.4, 0.28, 9.2, snowMat, 13.75, 48.25, 7.75, false));           // roof caps
-  winter.add(box(21, 0.28, 15.4, snowMat, 17.2, 48.25, 24.05, false));
-  winter.add(box(10, 0.24, 6.2, snowMat, 10.15, 41.65, 37.4, false));             // wet-bar bump cap
-  winter.add(box(17.4, 0.14, 11.6, snowMat, 22.8, 32.2, 40.5, false));            // living terrace
-  winter.add(box(4.6, 0.14, 11.6, snowMat, 3.1, 32.2, 40.5, false));              // dining terrace (around the bump)
-  winter.add(box(8.3, 0.14, 6.0, snowMat, 9.65, 32.2, 43.35, false));
+  winter.add(box(23.7,.18,21.1,snowMat,17.35,43.63,16.05,false));
+  winter.add(box(9.25,.16,3.1,snowMat,10.125,41.36,32.15,false));
+  winter.add(box(16.85,.14,15.6,snowMat,23.175,32.2,38.4,false));
+  winter.add(box(14.05,.14,12.65,snowMat,7.725,32.2,40.03,false));
   winter.add(box(12.5, 0.14, 9.1, snowMat, 7, 32.2, 51, false));                  // sun terrace
   winter.add(box(18, 0.14, 11.1, snowMat, 22.4, 11.16, 52, false));               // main terrace
   winter.visible = false;
@@ -358,7 +357,7 @@ export function makeSeasons(M, land, worldGroup) {
   const rope = box(2.6, 0.05, 0.05, M.walnut, -0.4, 1.3, 0, false);
   roofShow.add(rope);
   roofShow.rotation.y = Math.PI / 2;
-  roofShow.position.set(13.75, 48.4, 9.2);
+  roofShow.position.set(13.75, 43.76, 9.2);
   xmas.add(roofShow);
 
   const xmasRedLights = [], xmasGreenLights = [];
@@ -783,6 +782,12 @@ export function makeSeasons(M, land, worldGroup) {
   }
 
   function setSnowing(b) { snowing = season === 'winter' && b; snowfall.visible = snowing; }
+
+  // Snow belongs to its supporting floor/roof, not the open air above a peel.
+  function setFloor(floor) {
+    const ceiling = floor === 'all' ? Infinity : [10, 21, 31, 41][Number(floor)];
+    for (const cover of winter.children) cover.visible = cover.position.y <= ceiling;
+  }
   function setXmas(b) { xmasOn = season === 'winter' && b; xmas.visible = xmasOn; }
   function setHalloween(b) { hweenOn = season === 'fall' && b; hween.visible = hweenOn; }
 
@@ -836,5 +841,5 @@ export function makeSeasons(M, land, worldGroup) {
     }
   }
 
-  return { setSeason, setSnowing, setXmas, setHalloween, tick };
+  return { setSeason, setSnowing, setXmas, setHalloween, setFloor, tick };
 }

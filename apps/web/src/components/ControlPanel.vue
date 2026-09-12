@@ -99,6 +99,13 @@ function chooseFile(event: Event) {
       </div>
       <label class="check"><input v-model="autoOrbit" type="checkbox" /> Aerial auto-orbit</label>
       <label class="range-label">Speed <input v-model.number="orbitSpeed" type="range" min=".2" max="8" step=".1" /></label>
+      <label class="quality-control">Graphics
+        <select v-model="graphics.quality" aria-label="Graphics quality">
+          <option value="low">Smooth</option>
+          <option value="balanced">Balanced</option>
+          <option value="high">Detailed</option>
+        </select>
+      </label>
     </section>
 
     <section>

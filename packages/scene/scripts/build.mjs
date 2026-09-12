@@ -18,12 +18,15 @@ await mkdir(join(legacyOutput, 'data'), { recursive: true });
 
 for (const name of [
   'audio.js',
+  'architecture.js',
+  'botanical.js',
   'editor.js',
   'furniture.js',
   'landscape.js',
   'materials.js',
   'parts.js',
   'seasons.js',
+  'surfaces.js',
 ]) {
   await cp(join(repositoryRoot, 'src', name), join(legacyOutput, 'src', name));
 }

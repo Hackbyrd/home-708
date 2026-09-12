@@ -85,7 +85,7 @@ export const useGraphicsStore = defineStore('graphics', () => {
   const furniture = ref(true)
   const spiral = ref(true)
   const garageOpen = ref(false)
-  const quality = ref<'low' | 'balanced' | 'high'>('balanced')
+  const quality = ref<'low' | 'balanced' | 'high'>('high')
   return { labels, furniture, spiral, garageOpen, quality }
 })
 
@@ -104,6 +104,15 @@ export const useLayoutStore = defineStore('layout', () => {
   const legacyDraft = ref<LayoutDocument | null>(null)
 
   function discoverLocalDrafts() {
+    // Requested reference arrangement becomes the default once. Keep the old
+    // document recoverable, and preserve every edit made after this revision.
+    const revisionKey = 'cityhome-reference-revision'
+    if (localStorage.getItem(revisionKey) !== '2026-09-photos') {
+      const previous = localStorage.getItem(V2_KEY)
+      if (previous) localStorage.setItem('cityhome-layout-before-reference-2026-09', previous)
+      localStorage.setItem(V2_KEY, JSON.stringify(emptyLayout('Reference photographs')))
+      localStorage.setItem(revisionKey, '2026-09-photos')
+    }
     const v2 = parseLocalLayout(localStorage.getItem(V2_KEY))
     const v1 = parseLocalLayout(localStorage.getItem(V1_KEY))
     legacyDraft.value = v2 ? null : v1

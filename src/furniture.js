@@ -1,15 +1,51 @@
 import * as THREE from 'three';
 import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
-import { box } from './parts.js';
+import { box, slab, rect } from './parts.js';
+import { surfaceUVs } from './surfaces.js';
+import { branchBetween, foliage, leafGeometry } from './botanical.js';
 
 // Parametric furniture at true dimensions (feet). Each returns a Group centered
 // at its footprint center, sitting on y=0; caller positions/rotates.
 
-const rr = (w, h, d, mat, x = 0, y = 0, z = 0) => box(w, h, d, mat, x, y, z);
+// Small eased edges catch highlights on casework without changing its footprint.
+const rr = (w, h, d, mat, x = 0, y = 0, z = 0) => {
+  if (Math.min(w, h, d) < 0.09) return box(w, h, d, mat, x, y, z);
+  const geometry = new RoundedBoxGeometry(w, h, d, 1, Math.min(0.035, w / 8, h / 8, d / 8));
+  const m = new THREE.Mesh(surfaceUVs(geometry, mat), mat);
+  m.position.set(x, y, z); m.castShadow = m.receiveShadow = true;
+  return m;
+};
+
+function welt(w, d, y, radius, mat) {
+  const points = [];
+  for (let corner = 0; corner < 4; corner++) {
+    const sx = corner === 0 || corner === 3 ? 1 : -1;
+    const sz = corner < 2 ? 1 : -1;
+    const cx = sx * (w / 2 - radius), cz = sz * (d / 2 - radius);
+    for (let i = 0; i <= 5; i++) {
+      const angle = corner * Math.PI / 2 + i / 5 * Math.PI / 2;
+      points.push(new THREE.Vector3(cx + Math.cos(angle) * radius, y, cz + Math.sin(angle) * radius));
+    }
+  }
+  const curve = new THREE.CatmullRomCurve3(points, true);
+  const mesh = new THREE.Mesh(new THREE.TubeGeometry(curve, 48, 0.012, 4, true), mat);
+  mesh.receiveShadow = true;
+  return mesh;
+}
+
+// Factories that previously returned an elevated Mesh must retain that root
+// origin. Saved editor y offsets are relative to it, not the visible floor.
+function keepOrigin(group, y) {
+  group.position.y = y;
+  for (const child of group.children) child.position.y -= y;
+  return group;
+}
 
 // soft (rounded) box for upholstery
 function soft(w, h, d, mat, x = 0, y = 0, z = 0, r = 0.22) {
-  const m = new THREE.Mesh(new RoundedBoxGeometry(w, h, d, 3, Math.min(r, w / 2.2, h / 2.2, d / 2.2)), mat);
+  const radius = Math.min(r, w / 2.2, h / 2.2, d / 2.2);
+  const m = new THREE.Mesh(surfaceUVs(new RoundedBoxGeometry(w, h, d, 3, radius), mat), mat);
+  if (h < 0.8 && w > 0.8 && d > 0.8) m.add(welt(w - 0.045, d - 0.045, h / 2 - radius * 0.65, radius, mat));
   m.position.set(x, y, z);
   m.castShadow = true; m.receiveShadow = true;
   return m;
@@ -47,12 +83,19 @@ function artTexture() {
 
 export function makeFurnitureKit(M) {
   const K = {};
+  const leaves = leafGeometry();
 
   K.rug = (w, d, mat = M.greige) => {
     const g = new THREE.Group();
+    g.position.y=.085;
     const m = rr(w, 0.06, d, mat, 0, 0.03, 0);
     m.castShadow = false;
     g.add(m);
+    // A bound perimeter and fine fringe make rugs read separately from flooring.
+    for (const x of [-w / 2 + 0.055, w / 2 - 0.055])
+      g.add(rr(0.08, 0.014, d - 0.05, mat, x, 0.068, 0));
+    for (const z of [-d / 2 + 0.055, d / 2 - 0.055])
+      g.add(rr(w - 0.05, 0.014, 0.08, mat, 0, 0.068, z));
     return g;
   };
 
@@ -70,6 +113,12 @@ export function makeFurnitureKit(M) {
     }
     g.add(soft(0.85, 1.8, d, mat, -w / 2 + 0.42, 1.05, 0, 0.3));         // arms
     g.add(soft(0.85, 1.8, d, mat, w / 2 - 0.42, 1.05, 0, 0.3));
+    for (const x of [-w / 2 + 0.8, w / 2 - 0.8]) {
+      for (const z of [-d / 2 + 0.5, d / 2 - 0.5])
+        g.add(rr(0.18, 0.22, 0.18, M.walnut, x, 0.12, z));
+      const pillow = soft(0.85, 0.95, 0.32, M.greige, x * 0.83, 1.85, -d / 2 + 0.95, 0.15);
+      pillow.rotation.set(-0.18, 0, Math.sign(x) * 0.16); g.add(pillow);
+    }
     return g;
   };
 
@@ -171,11 +220,35 @@ export function makeFurnitureKit(M) {
     return g;
   };
 
-  K.nightstand = (mat = M.walnut) => rr(2, 0.5, 1.4, mat, 0, 1.7, 0);   // floating
+  K.nightstand = (mat = M.walnut) => {
+    const g = new THREE.Group();
+    g.add(rr(2,1.85,1.65,mat,0,1.27,0));
+    for(const y of [.77,1.35,1.91]){
+      g.add(rr(1.85,.48,.045,mat,0,y,.85));
+      g.add(rr(.4,.045,.09,M.brass,0,y,.91));
+    }
+    for(const x of [-.78,.78])for(const z of [-.61,.61])g.add(rr(.1,.37,.1,mat,x,.19,z));
+    return keepOrigin(g,1.7);
+  };
 
-  K.dresser = (w = 6, mat = M.walnut) => rr(w, 2.6, 1.7, mat, 0, 1.3, 0);
+  K.dresser = (w = 6, mat = M.walnut) => {
+    const g = new THREE.Group();
+    g.add(rr(w, 2.6, 1.7, mat, 0, 1.3, 0));
+    for (const x of [-w / 4, w / 4]) for (let row = 0; row < 3; row++) {
+      const y = 0.47 + row * 0.79;
+      g.add(rr(w / 2 - 0.09, 0.72, 0.06, mat, x, y, 0.86));
+      g.add(rr(0.65, 0.055, 0.07, M.brass, x, y + 0.1, 0.93));
+    }
+    return keepOrigin(g, 1.3);
+  };
 
-  K.bench = (w = 5, mat = M.shearling) => rr(w, 1.5, 1.6, mat, 0, 0.75, 0);
+  K.bench = (w = 5, mat = M.shearling) => {
+    const g = new THREE.Group();
+    g.add(soft(w, 0.48, 1.6, mat, 0, 1.26, 0, 0.16));
+    for (const x of [-w / 2 + 0.4, w / 2 - 0.4])
+      g.add(rr(0.16, 1.04, 1.25, M.walnut, x, 0.52, 0));
+    return keepOrigin(g, 0.75);
+  };
 
   K.desk = (w = 6, mat = M.walnut) => {
     const g = new THREE.Group();
@@ -205,20 +278,50 @@ export function makeFurnitureKit(M) {
     for (let i = 1; i < nDoors; i++) {                                        // shaker seams
       g.add(rr(0.035, h - 0.55, 0.03, M.matBlack, -len / 2 + i * (len / nDoors), h / 2 + 0.1, depth / 2));
     }
-    for (let i = 0; i < nDoors; i++) {                                        // brass pulls
+    for (let i = 0; i < nDoors; i++) {
       const px = -len / 2 + (i + 0.5) * (len / nDoors);
+      const dw = len / nDoors - 0.07, dh = h - 0.58, face = depth / 2 + 0.025;
+      // Recessed shaker panel, raised rails and stiles, with visible reveals.
+      for (const dx of [-dw / 2 + 0.075, dw / 2 - 0.075])
+        g.add(rr(0.15, dh, 0.07, mat, px + dx, h / 2 + 0.12, face));
+      for (const dy of [-dh / 2 + 0.075, dh / 2 - 0.075])
+        g.add(rr(dw - 0.3, 0.15, 0.07, mat, px, h / 2 + 0.12 + dy, face));
       g.add(rr(0.5, 0.07, 0.07, M.brass, px, h - 0.6, depth / 2 + 0.06));
     }
     if (counter) g.add(rr(len + 0.15, 0.18, depth + 0.15, counter, 0, h + 0.09, 0));
     return g;
   };
 
-  K.upperRun = (len, mat = M.wall) => rr(len, 2.6, 1.15, mat, 0, 1.3, 0); // place at y ~4.5
+  K.upperRun = (len, mat = M.wall) => {
+    const g = new THREE.Group();
+    g.add(rr(len, 2.6, 1.15, mat, 0, 1.3, 0));
+    const n = Math.max(1, Math.round(len / 1.6)), w = len / n;
+    for (let i = 0; i < n; i++) {
+      const x = -len / 2 + (i + 0.5) * w;
+      for (const dx of [-(w - 0.08) / 2 + 0.075, (w - 0.08) / 2 - 0.075])
+        g.add(rr(0.15, 2.5, 0.065, mat, x + dx, 1.3, 0.59));
+      for (const y of [0.13, 2.47]) g.add(rr(w - 0.38, 0.15, 0.065, mat, x, y, 0.59));
+      g.add(rr(0.055, 0.42, 0.08, M.brass, x + w / 2 - 0.25, 0.5, 0.66));
+    }
+    return keepOrigin(g, 1.3);
+  };
 
   K.island = (w = 7.5, d = 3.8, baseMat = M.cabinetGray, counterMat = M.quartzite) => {
     const g = new THREE.Group();
-    g.add(rr(w, 3, d, baseMat, 0, 1.5, 0));
-    g.add(rr(w + 0.9, 0.2, d + 0.7, counterMat, 0, 3.1, 0.15));
+    g.add(rr(w-.35,2.85,d-.5,baseMat,0,1.425,0));
+    // A real opening in the waterfall worktop reveals the stainless sink.
+    g.add(slab(rect(-w/2-.3,-d/2-.1,w/2+.3,d/2+.55),[rect(-1.25,-1.2,1.25,.5)],.16,3.2,counterMat));
+    for(const x of [-w/2,w/2])g.add(rr(.16,3.2,d+.65,counterMat,x,1.6,.22));
+    g.add(rr(2.5,.06,1.7,M.blackSteel,0,2.56,-.35));
+    for(const x of [-1.24,1.24])g.add(rr(.035,.6,1.7,M.blackSteel,x,2.85,-.35));
+    for(const z of [-1.18,.48])g.add(rr(2.5,.6,.035,M.blackSteel,0,2.85,z));
+    g.add(rr(.04,.58,1.68,M.blackSteel,0,2.85,-.35));
+    const curve=new THREE.CatmullRomCurve3([new THREE.Vector3(0,3.2,-1.5),new THREE.Vector3(0,4.25,-1.5),new THREE.Vector3(0,4.45,-.9),new THREE.Vector3(0,4.05,-.7)]);
+    g.add(new THREE.Mesh(new THREE.TubeGeometry(curve,32,.045,10,false),M.blackSteel));
+    for(let x=-w/2+.65;x<w/2;x+=1.35){
+      g.add(rr(1.24,2.6,.055,baseMat,x,1.65,-d/2+.2));
+      g.add(rr(.55,.045,.1,M.blackSteel,x,2.75,-d/2+.14));
+    }
     return g;
   };
 
@@ -240,12 +343,12 @@ export function makeFurnitureKit(M) {
     return g;
   };
 
-  K.hood = (mat = M.hoodMetal) => {
-    const g = new THREE.Group();
-    const m = new THREE.Mesh(new THREE.CylinderGeometry(1.4, 2.1, 5.5, 4), mat);
-    m.rotation.y = Math.PI / 4;
-    m.position.y = 2.75; m.castShadow = true;
-    g.add(m);
+  K.hood = () => {
+    const g=new THREE.Group();
+    g.add(rr(4.5,.4,2.5,M.blackSteel,0,.2,0));
+    const geometry=new THREE.CylinderGeometry(1,2,1.4,4,1,false,Math.PI/4);
+    geometry.scale(1.05,1,.67);const canopy=new THREE.Mesh(geometry,M.blackSteel);canopy.position.y=1.05;g.add(canopy);
+    g.add(rr(1.7,2.4,1.2,M.blackSteel,0,2.65,-.2));
     return g;
   };
 
@@ -253,6 +356,20 @@ export function makeFurnitureKit(M) {
     const g = new THREE.Group();
     g.add(rr(4, 3.05, 2.3, M.blackSteel, 0, 1.52, 0));
     g.add(rr(3.6, 0.08, 1.9, M.matBlack, 0, 3.12, 0));
+    g.add(rr(3.45, 1.55, 0.08, M.screenGlow, 0, 1.34, 1.17));
+    g.add(rr(3.2, 0.1, 0.15, M.blackSteel, 0, 2.25, 1.28));
+    for (const x of [-1.2, -0.4, 0.4, 1.2]) {
+      const knob = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.12, 0.1, 16), M.brass);
+      knob.rotation.x = Math.PI / 2; knob.position.set(x, 2.75, 1.2); g.add(knob);
+    }
+    for (const x of [-0.95, 0.95]) for (const z of [-0.52, 0.52]) {
+      const ring = new THREE.Mesh(new THREE.TorusGeometry(0.28, 0.045, 6, 20), M.blackSteel);
+      ring.rotation.x = Math.PI / 2; ring.position.set(x, 3.2, z); g.add(ring);
+      for (const angle of [0, Math.PI / 2]) {
+        const grate = rr(0.85, 0.05, 0.07, M.blackSteel, x, 3.23, z);
+        grate.rotation.y = angle; g.add(grate);
+      }
+    }
     return g;
   };
 
@@ -269,6 +386,7 @@ export function makeFurnitureKit(M) {
 
   K.tv = (w = 6.2) => {
     const g = new THREE.Group();
+    g.add(rr(w + 0.07, w * 0.5625 + 0.07, 0.13, M.matBlack, 0, 0, -0.01));
     g.add(rr(w, w * 0.5625, 0.15, M.screenGlow, 0, 0, 0));
     return g;
   };
@@ -283,11 +401,20 @@ export function makeFurnitureKit(M) {
   // bath
   K.tub = () => {
     const g = new THREE.Group();
-    const t = new THREE.Mesh(new THREE.CapsuleGeometry(1.15, 2.6, 6, 14), M.white);
-    t.rotation.z = Math.PI / 2;
-    t.scale.set(1, 0.62, 1);
-    t.position.y = 1.05; t.castShadow = true;
-    g.add(t);
+    // Continuous double-wall ceramic shell: an actual open bowl, including rim.
+    const profile = [[0, 0.16], [0.65, 0.16], [0.87, 0.25], [1.04, 0.7],
+      [1.15, 1.58], [1.14, 1.75], [1.06, 1.8], [1.0, 1.72],
+      [0.93, 0.83], [0.77, 0.38], [0.55, 0.3], [0, 0.3]];
+    const shell = new THREE.Mesh(new THREE.LatheGeometry(profile.map(([r, y]) => new THREE.Vector2(r, y)), 64), M.white);
+    shell.scale.x = 2.12; shell.castShadow = shell.receiveShadow = true; g.add(shell);
+    const drain = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.08, 0.015, 16), M.blackSteel);
+    drain.position.set(1.15, 0.32, 0); g.add(drain);
+    const tapCurve = new THREE.CatmullRomCurve3([
+      new THREE.Vector3(2.2, 0.05, -0.5), new THREE.Vector3(2.2, 1.8, -0.5),
+      new THREE.Vector3(2.15, 2.05, -0.48), new THREE.Vector3(1.8, 2.05, -0.4),
+      new THREE.Vector3(1.76, 1.94, -0.38),
+    ]);
+    g.add(new THREE.Mesh(new THREE.TubeGeometry(tapCurve, 24, 0.045, 8, false), M.brass));
     return g;
   };
 
@@ -298,8 +425,14 @@ export function makeFurnitureKit(M) {
     const n = doubleSink ? 2 : 1;
     for (let i = 0; i < n; i++) {
       const x = n === 1 ? 0 : (i ? w / 4 : -w / 4);
-      g.add(rr(1.4, 0.1, 1.1, M.white, x, 2.56, 0));
+      const basin = new THREE.Mesh(new THREE.LatheGeometry([
+        new THREE.Vector2(0, 0), new THREE.Vector2(0.34, 0.025), new THREE.Vector2(0.57, 0.13),
+        new THREE.Vector2(0.7, 0.28), new THREE.Vector2(0.68, 0.31),
+        new THREE.Vector2(0.6, 0.27), new THREE.Vector2(0.45, 0.12), new THREE.Vector2(0, 0.06),
+      ], 32), M.white);
+      basin.scale.z = 0.78; basin.position.set(x, 2.54, 0); basin.castShadow = true; g.add(basin);
       g.add(rr(0.08, 0.9, 0.08, M.brass, x, 2.9, -0.7));
+      g.add(rr(0.08, 0.08, 0.38, M.brass, x, 3.31, -0.54));
     }
     g.add(rr(w - 0.6, 2.6, 0.08, M.mirror, 0, 4.6, -0.9));
     return g;
@@ -329,6 +462,11 @@ export function makeFurnitureKit(M) {
       door.rotation.x = Math.PI / 2;
       door.position.set(i * 2.5 - 1.25, 1.7, 1.18);
       g.add(door);
+      const rim = new THREE.Mesh(new THREE.TorusGeometry(0.8, 0.055, 8, 32), M.blackSteel);
+      rim.position.copy(door.position); rim.position.z += 0.045; g.add(rim);
+      const dial = new THREE.Mesh(new THREE.CylinderGeometry(0.13, 0.13, 0.07, 20), M.blackSteel);
+      dial.rotation.x = Math.PI / 2; dial.position.set(i * 2.5 - 1.7, 2.82, 1.18); g.add(dial);
+      g.add(rr(0.62, 0.18, 0.03, M.screenGlow, i * 2.5 - 0.95, 2.82, 1.18));
     }
     return g;
   };
@@ -339,7 +477,8 @@ export function makeFurnitureKit(M) {
     const cord = new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, ceilingY - dropTo, 6), M.blackSteel);
     cord.position.y = dropTo + (ceilingY - dropTo) / 2;
     g.add(cord);
-    const sh = new THREE.Mesh(new THREE.SphereGeometry(r, 18, 14), mat);
+    const profile=[[.05,.25],[r*.3,.24],[r*.42,.08],[r*.74,-.16],[r,-.32],[r,-.4],[r*.93,-.4],[r*.67,-.18],[r*.34,.15]].map(p=>new THREE.Vector2(...p));
+    const sh = new THREE.Mesh(new THREE.LatheGeometry(profile,32), mat);
     sh.position.y = dropTo; sh.castShadow = true;
     g.add(sh);
     const glow = new THREE.Mesh(new THREE.SphereGeometry(r * 0.55, 12, 10), M.warmGlow);
@@ -366,9 +505,14 @@ export function makeFurnitureKit(M) {
     const cord = new THREE.Mesh(new THREE.CylinderGeometry(0.04, 0.04, ceilingY - dropTo, 6), M.blackSteel);
     cord.position.y = dropTo + (ceilingY - dropTo) / 2;
     g.add(cord);
-    const frame = new THREE.Mesh(new THREE.BoxGeometry(size, size * 1.3, size), M.blackSteel);
-    frame.position.y = dropTo;
-    g.add(frame);
+    const frame=new THREE.Group(), half=size/2, h=size*1.3;
+    for(const x of [-half,half])for(const z of [-half,half])frame.add(rr(.045,h,.045,M.blackSteel,x,0,z));
+    for(const y of [-h/2,h/2]){
+      for(const z of [-half,half])frame.add(rr(size,.045,.045,M.blackSteel,0,y,z));
+      for(const x of [-half,half])frame.add(rr(.045,.045,size,M.blackSteel,x,y,0));
+    }
+    for(const z of [-half,half])frame.add(rr(size-.08,h-.08,.015,M.glass,0,0,z));
+    frame.position.y=dropTo;g.add(frame);
     const core = new THREE.Mesh(new THREE.SphereGeometry(size * 0.32, 10, 8), M.warmGlow);
     core.position.y = dropTo;
     g.add(core);
@@ -426,31 +570,33 @@ export function makeFurnitureKit(M) {
     trunk.position.y = 1.5 + (h - 3) / 2;
     trunk.rotation.z = 0.05;
     g.add(trunk);
-    for (let i = 0; i < 9; i++) {
-      const r = 0.45 + Math.random() * 0.45;
-      const blob = new THREE.Mesh(new THREE.IcosahedronGeometry(r, 1), M.green);
-      const a = Math.random() * Math.PI * 2;
-      const rad = Math.random() * 1.1;
-      blob.position.set(Math.cos(a) * rad, h - 1.5 + (Math.random() - 0.4) * 1.8, Math.sin(a) * rad);
-      blob.scale.y = 0.75 + Math.random() * 0.3;
-      blob.castShadow = true;
-      g.add(blob);
+    const crowns = [];
+    for (let i = 0; i < 7; i++) {
+      const angle = i * 2.39996, y = h - 2.1 + i * 0.23;
+      const end = [Math.cos(angle) * 0.85, y, Math.sin(angle) * 0.85];
+      g.add(branchBetween([0, Math.max(1.6, y - 0.7), 0], end, 0.035, M.walnut));
+      crowns.push([...end, 0.58]);
     }
+    g.add(foliage(leaves, M.green, crowns, 190, 928, 0.55));
+    const soil = new THREE.Mesh(new THREE.CylinderGeometry(0.73, 0.73, 0.04, 24), M.deepWalnut);
+    soil.position.y = 1.57; g.add(soil);
     return g;
   };
 
   // drapery panel: sine-rippled fabric on a brass rod
   K.drape = (w = 1.8, h = 8.6, mat = M.linenCream) => {
     const g = new THREE.Group();
-    const geo = new THREE.PlaneGeometry(w, h - 0.4, 24, 1);
+    const geo = new THREE.PlaneGeometry(w, h - 0.4, 32, 24);
     const pos = geo.attributes.position;
     for (let i = 0; i < pos.count; i++) {
-      pos.setZ(i, Math.sin(pos.getX(i) * 9) * 0.14);
+      const t=(pos.getY(i)+(h-.4)/2)/(h-.4);
+      pos.setZ(i,Math.sin(pos.getX(i)*15)*(.075+(1-t)*.11)+Math.sin(t*4+pos.getX(i)*2)*.04);
+      pos.setY(i,pos.getY(i)+Math.sin(pos.getX(i)*12)*.035*(1-t));
     }
     geo.computeVertexNormals();
-    const panel = new THREE.Mesh(geo, mat);
+    const panel = new THREE.Mesh(surfaceUVs(geo,mat), mat);
     panel.position.y = (h - 0.4) / 2 + 0.1;
-    panel.castShadow = true;
+    panel.castShadow = panel.receiveShadow = true;
     g.add(panel);
     const rod = new THREE.Mesh(new THREE.CylinderGeometry(0.045, 0.045, w + 0.6, 8), M.brass);
     rod.rotation.z = Math.PI / 2;
@@ -749,9 +895,9 @@ export function makeFurnitureKit(M) {
   K.featureBed = (w = 5, len = 6.8, lin = M.linenCream) => {
     const g = K.bed(w, len, M.white, lin);
     const backZ = -len / 2 - 0.22;
-    g.add(soft(w + 1, 3.5, 0.38, M.white, 0, 2.1, backZ, 0.55));
-    g.add(soft(w * 0.55, 1.5, 0.42, M.white, -w * 0.34, 4.1, backZ, 0.65));
-    g.add(soft(w * 0.55, 1.5, 0.42, M.white, w * 0.34, 4.1, backZ, 0.65));
+    const shape=new THREE.Shape();shape.moveTo(-w/2-.4,0);shape.lineTo(-w/2-.4,3.5);shape.quadraticCurveTo(-w/2-.4,5,w/2+.4,4.5);shape.lineTo(w/2+.4,0);shape.closePath();
+    const geometry=new THREE.ExtrudeGeometry(shape,{depth:.28,bevelEnabled:true,bevelSize:.07,bevelThickness:.06,bevelSegments:3,curveSegments:32});
+    const head=new THREE.Mesh(surfaceUVs(geometry,M.chairPattern),M.chairPattern);head.position.set(0,0,backZ);head.castShadow=true;g.add(head);
     return g;
   };
 
@@ -776,26 +922,36 @@ export function makeFurnitureKit(M) {
     return g;
   };
 
-  K.eggChair = (mat = M.graphite) => {
-    const g = new THREE.Group();
-    const shell = new THREE.Mesh(
-      new THREE.SphereGeometry(2.25, 20, 16, 0, Math.PI * 2, 0.25, Math.PI * 0.82),
-      mat,
-    );
-    shell.scale.set(0.82, 1.25, 0.72);
-    shell.position.y = 2.45;
-    shell.castShadow = true;
-    g.add(shell);
-    g.add(soft(2.3, 0.45, 1.7, M.linenCream, 0, 1.0, 0.3, 0.3));
+  K.eggChair = (mat = M.teak) => {
+    const g=new THREE.Group();
+    // Open wicker shell: the aperture faces +z, with separate woven ribs.
+    const pt=(theta,phi)=>new THREE.Vector3(-1.8*Math.cos(phi)*Math.sin(theta),2.7+2.5*Math.cos(theta),1.5*Math.sin(phi)*Math.sin(theta));
+    const tube=points=>{const m=new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(points),32,.023,4,false),mat);m.castShadow=true;g.add(m);};
+    for(let phi=Math.PI-.2;phi<=2*Math.PI+.2;phi+=.11){const points=[];for(let i=0;i<=24;i++)points.push(pt(.12+i/24*2.65,phi));tube(points);}
+    for(let theta=.22;theta<2.8;theta+=.115){const points=[];for(let i=0;i<=30;i++)points.push(pt(theta,Math.PI-.2+i/30*(Math.PI+.4)));tube(points);}
+    g.add(soft(2.65,.5,2,M.sunYellow,0,.8,.1,.24));
+    const pillow=soft(2.5,1.8,.45,M.sunYellow,0,1.7,-.6,.25);pillow.rotation.x=-.2;g.add(pillow);
+    g.add(soft(.9,.85,.35,M.chairPattern,0,1.55,.1,.18));
+    const base=new THREE.Mesh(new THREE.CylinderGeometry(1.1,1.3,.3,32),mat);base.position.y=.15;g.add(base);
+    return g;
+  };
+
+  K.doubleSofa = (w=10.5,d=5.8,mat=M.carpetGray) => {
+    const g=new THREE.Group();
+    for(const sign of [-1,1]){
+      const side=K.sofa(w,d/2+.12,mat);side.position.z=sign*d/4;
+      if(sign<0)side.rotation.y=Math.PI;g.add(side);
+    }
+    for(const x of [-3.5,3.5]){const cushion=soft(.95,.95,.32,M.loftRug,x,2.1,.35,.18);cushion.rotation.z=x*.025;g.add(cushion);}
     return g;
   };
 
   K.metalDiningChair = (mat = M.sunYellow) => {
-    const g = new THREE.Group();
-    g.add(rr(1.45, 0.16, 1.45, mat, 0, 1.45, 0));
-    g.add(rr(1.45, 1.9, 0.12, mat, 0, 2.35, -0.66));
-    for (const [x, z] of [[-0.58, -0.58], [0.58, -0.58], [-0.58, 0.58], [0.58, 0.58]])
-      g.add(rr(0.08, 1.4, 0.08, mat, x, 0.7, z));
+    const g=new THREE.Group();g.add(rr(1.45,.09,1.45,mat,0,1.48,0));
+    const outline=[new THREE.Vector3(-.67,1.45,-.61),new THREE.Vector3(-.7,2.6,-.77),new THREE.Vector3(-.48,3.05,-.8),new THREE.Vector3(.48,3.05,-.8),new THREE.Vector3(.7,2.6,-.77),new THREE.Vector3(.67,1.45,-.61)];
+    g.add(new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(outline),36,.045,8,false),mat));
+    g.add(rr(1.3,.28,.055,mat,0,2.63,-.77));
+    for(const x of [-.55,.55])for(const z of [-.55,.55])g.add(branchBetween([x*1.25,.07,z*1.25],[x,1.44,z],.04,mat));
     return g;
   };
 
@@ -821,7 +977,13 @@ export function makeFurnitureKit(M) {
 
   K.console = (w = 5.7, mat = M.oakWood) => rr(w, 2.6, 1.3, mat, 0, 1.3, 0);
 
-  K.sideboard = (w = 7, mat = M.oakWood) => rr(w, 2.7, 1.6, mat, 0, 1.35, 0);
+  K.sideboard = (w = 7, mat = M.oakWood) => {
+    const g=new THREE.Group();g.add(rr(w,2.2,1.6,mat,0,1.55,0));
+    const n=Math.round(w/1.6);
+    for(let i=0;i<n;i++){const x=-w/2+(i+.5)*w/n;g.add(rr(w/n-.06,2.06,.04,mat,x,1.55,.82));g.add(rr(.05,.32,.08,M.brass,x+w/n*.28,1.65,.87));}
+    for(const x of [-w/2+.35,w/2-.35])for(const z of [-.6,.6])g.add(rr(.12,.5,.12,M.blackSteel,x,.25,z));
+    g.userData.kind='sideboard';return keepOrigin(g,1.35);
+  };
 
   K.barCounter = (w = 8) => {
     const g = new THREE.Group();

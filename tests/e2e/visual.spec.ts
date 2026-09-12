@@ -7,7 +7,9 @@ type DebugApi = {
 };
 
 test('keeps representative architectural views stable', async ({ page }) => {
-  test.setTimeout(120_000);
+  // Fifteen architectural views render real PBR geometry. Allow software
+  // WebGL runners time to compile each floor's materials and capture frames.
+  test.setTimeout(300_000);
   const failedResponses: string[] = [];
   page.on('response', async (response) => {
     if (response.status() < 400) return;
@@ -39,7 +41,7 @@ test('keeps representative architectural views stable', async ({ page }) => {
   };
   const assertView = async (name: string) => {
     if (process.platform === 'darwin') {
-      await expect(viewport).toHaveScreenshot(name, { animations: 'disabled' });
+      await expect(viewport).toHaveScreenshot(name, { animations: 'disabled', timeout: 60_000 });
     } else {
       await viewport.screenshot({ animations: 'disabled' });
     }
@@ -51,6 +53,9 @@ test('keeps representative architectural views stable', async ({ page }) => {
   });
   await setView([46, 52, -52], [-15.8, 13, 24.85]);
   await assertView('exterior-day.png');
+  await setView([-65,48,87],[-15,24,29]);
+  await assertView('rear-roof-pergola.png');
+  await setView([46,52,-52],[-15.8,13,24.85]);
 
   await page.getByRole('button', { name: 'Evening' }).click();
   await page.evaluate(() => (window as typeof window & { CH?: { renderOnce(): void } }).CH?.renderOnce());
@@ -72,6 +77,9 @@ test('keeps representative architectural views stable', async ({ page }) => {
   await assertView('main-kitchen-dining.png');
   await setView([-30, 62, 50], [-20, 12.5, 40]);
   await assertView('main-great-sun.png');
+  await page.getByRole('button', { name: /All/ }).click();
+  await setView([-19.2,15.9,12.1],[-27.2,18.3,21.8]);
+  await assertView('quarter-turn-stair-landing.png');
 
   await page.getByRole('button', { name: /03 Upper/ }).click();
   await setView([20, 78, -42], [-15, 22.5, 28]);
@@ -88,6 +96,9 @@ test('keeps representative architectural views stable', async ({ page }) => {
   await assertView('penthouse-loft-bedroom.png');
   await setView([-25, 82, 52], [-15, 32.5, 40]);
   await assertView('penthouse-terraces.png');
+  await page.getByLabel('Room labels').uncheck();
+  await setView([-6,37.2,46],[-24,35,34.5]);
+  await assertView('terrace-eye-level.png');
 
   await page.getByRole('button', { name: 'Fall', exact: true }).click();
   await page.getByRole('button', { name: /All/ }).click();

@@ -59,6 +59,7 @@ export interface Landscape {
 }
 
 export interface SeasonsController {
+  setFloor(floor: Floor): void;
   setSeason(season: Season): void;
   setSnowing(enabled: boolean): void;
   setXmas(enabled: boolean): void;

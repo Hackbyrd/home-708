@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import { box } from './parts.js';
 import { W, D } from '../data/house.js';
+import { branchBetween, foliage, leafGeometry } from './botanical.js';
 
 // Site + sky. Ground group lives in mirrored plan-space; sky group at scene root.
 // Grade (lawn top) is y = -1.5.
@@ -97,8 +98,13 @@ export function makeLandscape(M) {
     for (let p = 0; p < nP; p++) {
       const t = (p / (nP - 1)) * len;
       const px = a[0] + ux * t, pz = a[1] + uz * t;
-      ground.add(box(1.35, 5.2, 1.35, M.brick, px, 1.1, pz));
-      ground.add(box(1.7, 0.3, 1.7, M.trimStone, px, 3.85, pz));
+      if(pz>Z1-1) {
+        ground.add(box(1.35,4.7,1.35,M.brick,px,.85,pz));
+        ground.add(box(1.5,.2,1.5,M.trimStone,px,3.3,pz));
+      } else {
+        ground.add(box(.18,4.25,.18,railMat,px,.5,pz));
+        const finial=new THREE.Mesh(new THREE.SphereGeometry(.12,8,6),railMat);finial.position.set(px,2.7,pz);ground.add(finial);
+      }
     }
   }
   pickets.castShadow = true;
@@ -117,7 +123,7 @@ export function makeLandscape(M) {
     ground.add(box(x1 - x0, 0.5, z1 - z0, mulchMat, (x0 + x1) / 2, -1.28, (z0 + z1) / 2, false));
 
   // bushes (two greens, instanced)
-  const bushGeo = new THREE.IcosahedronGeometry(1, 1);
+  const leafGeo = leafGeometry();
   const greens = [0x51633e, 0x64784a].map(c => new THREE.MeshStandardMaterial({ color: c, roughness: 1 }));
   const bushSpots = [];
   const scatter = (x0, z0, x1, z1, n, s0 = 0.7, s1 = 1.5) => {
@@ -133,14 +139,8 @@ export function makeLandscape(M) {
   bushSpots.push([-4.6, 13.7, 1.7], [-4.6, 21.5, 1.7]);   // flanking the entry steps
   const half = Math.ceil(bushSpots.length / 2);
   [bushSpots.slice(0, half), bushSpots.slice(half)].forEach((set, k) => {
-    const im = new THREE.InstancedMesh(bushGeo, greens[k], set.length);
-    set.forEach(([x, z, s], i) => {
-      mtx.makeScale(s, s * (0.75 + Math.random() * 0.3), s);
-      mtx.setPosition(x, -1.2 + s * 0.55, z);
-      im.setMatrixAt(i, mtx);
-    });
-    im.castShadow = true;
-    ground.add(im);
+    ground.add(foliage(leafGeo, greens[k], set.map(([x, z, s]) => [x, -1.2 + s * 0.55, z, s]),
+      set.length * 260, 221 + k, 0.55));
   });
 
   // flowers (instanced, per-instance color)
@@ -172,20 +172,22 @@ export function makeLandscape(M) {
   const treeLeaves = [];
   const treeAt = (x, z, s = 1) => {
     const g = new THREE.Group();
-    const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.28 * s, 0.42 * s, 11 * s, 8), M.walnut);
-    trunk.position.y = -1.5 + 5.5 * s; trunk.castShadow = true;
-    g.add(trunk);
+    g.add(branchBetween([x, -1.5, z], [x + 0.3 * s, 10 * s - 1.5, z], 0.38 * s, M.walnut));
+    const crowns = [[], []];
     for (let i = 0; i < 7; i++) {
-      const r = (1.9 + Math.random() * 1.6) * s;
-      const blob = new THREE.Mesh(bushGeo, treeMats[i % 2]);
-      blob.scale.setScalar(r);
-      const a = Math.random() * Math.PI * 2;
-      blob.position.set(x + Math.cos(a) * r * 0.8, -1.5 + 11 * s + (Math.random() - 0.35) * 3 * s, z + Math.sin(a) * r * 0.8);
-      blob.castShadow = true;
-      treeLeaves.push(blob);
-      g.add(blob);
+      const a = i * 2.39996, reach = (1.9 + i % 3 * 0.45) * s;
+      const end = [x + Math.cos(a) * reach, -1.5 + (9.8 + i % 3 * 1.3) * s, z + Math.sin(a) * reach];
+      g.add(branchBetween([x, 4.5 * s, z], end, 0.14 * s, M.walnut));
+      crowns[i % 2].push([...end, 2.35 * s]);
+      for (let twig = 0; twig < 3; twig++) {
+        const tip = [end[0] + Math.cos(a + twig * 2) * 1.6 * s, end[1] + 1.35 * s, end[2] + Math.sin(a + twig * 2) * 1.6 * s];
+        g.add(branchBetween(end, tip, 0.05 * s, M.walnut));
+      }
     }
-    trunk.position.x = x; trunk.position.z = z;
+    crowns.forEach((centers, i) => {
+      const leaves = foliage(leafGeo, treeMats[i], centers, 1800, Math.round((x + 40) * 70 + z + i), 0.75 * s);
+      treeLeaves.push(leaves); g.add(leaves);
+    });
     ground.add(g);
   };
   treeAt(-11.5, 44, 1.1);

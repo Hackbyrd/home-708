@@ -112,7 +112,7 @@ describe('blueprint coordinate model', () => {
     expect(stairHole()).toEqual(hole);
     expect(WELL).toEqual(CORE.well);
     const S = CORE.stair;
-    for (const region of [S.outbound, S.landing, S.return, S.terminalLanding]) {
+    for (const region of [S.landing, S.return]) {
       expectPolygonInside(
         [[region.x0, region.z0], [region.x1, region.z0], [region.x1, region.z1], [region.x0, region.z1]],
         hole,
@@ -137,6 +137,12 @@ describe('blueprint coordinate model', () => {
         risers: CORE.stair.treads.total,
       });
       expect(stair.userData.stair.risers).toBe(18);
+      expect(stair.userData.stair.landingTop).toBe(HOUSE.base[level] + HOUSE.rises[level] / 2);
+      const tops = stair.userData.stair.treadTops;
+      expect(tops).toHaveLength(18);
+      expect(tops.at(-1)).toBe(HOUSE.base[level] + HOUSE.rises[level]);
+      tops.forEach((y: number, i: number) => expect(y - (i ? tops[i-1] : HOUSE.base[level])).toBeCloseTo(HOUSE.rises[level] / 18));
+      expect(stair.getObjectByName('half-story-landing')?.userData.top).toBe(stair.userData.stair.landingTop);
     }
   });
 

@@ -1,5 +1,14 @@
 # The City Home 3D — Project Summary
 
+> Current runtime (September 2026): the Vue application is in `apps/web`, with
+> the Three.js controller in `packages/scene`. Root `src`/`data` still supply the
+> procedural model. The historical notes below describe the original static
+> app; see [README](README.md) for current commands and [graphics](docs/graphics.md)
+> for the material, furniture, vegetation and rendering upgrade. Saved layouts
+> remain browser-local. See [reference reconstruction](docs/reference-reconstruction.md)
+> for the current half-landing stair, first/fourth-floor corrections and white-house
+> mansard. The older modeling descriptions below are historical and are superseded.
+
 ## What this is
 An interactive 3D "digital twin" website of a real house Jonathan is purchasing: the **Wormald "City Home with Georgetown Package"** at Crown, Gaithersburg MD (resale; 4,882 sq ft + 879 sq ft outdoor, 4 levels). Built from the actual blueprints (PDF, traced by hand into feet-scale data) and 16 photos of the real exterior. Used for browsing the house and doing interior design: orbit the whole building, peel floors, walk inside first-person, and a full furniture layout editor.
 

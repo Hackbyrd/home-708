@@ -29,7 +29,7 @@ export const QUALITY_PROFILES: Readonly<Record<QualityPreset, QualityProfile>> =
     minPixelRatio: 0.85,
     shadows: true,
     softShadows: true,
-    shadowMapSize: 1024,
+    shadowMapSize: 2048,
     targetFps: 50,
   },
   high: {
@@ -37,7 +37,7 @@ export const QUALITY_PROFILES: Readonly<Record<QualityPreset, QualityProfile>> =
     minPixelRatio: 1,
     shadows: true,
     softShadows: true,
-    shadowMapSize: 2048,
+    shadowMapSize: 4096,
     targetFps: 58,
   },
 };
@@ -67,9 +67,11 @@ export function applyQuality(
   renderer.shadowMap.enabled = profile.shadows;
   renderer.shadowMap.type = profile.softShadows ? PCFSoftShadowMap : PCFShadowMap;
   sun.castShadow = profile.shadows;
-  sun.shadow.mapSize.set(profile.shadowMapSize, profile.shadowMapSize);
-  sun.shadow.map?.dispose();
-  sun.shadow.map = null;
+  if (sun.shadow.mapSize.x !== profile.shadowMapSize) {
+    sun.shadow.mapSize.set(profile.shadowMapSize, profile.shadowMapSize);
+    sun.shadow.map?.dispose();
+    sun.shadow.map = null;
+  }
   return ratio;
 }
 

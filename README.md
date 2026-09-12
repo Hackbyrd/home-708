@@ -21,6 +21,10 @@ restores one, and Reset layout replaces the draft with the untouched layout.
 
 ## Quality checks
 
+The View section includes Smooth, Balanced and Detailed graphics presets.
+Balanced is the default; Detailed adds finer shadows and ambient occlusion.
+See [graphics implementation](docs/graphics.md) for materials, geometry and rendering details.
+
 ```sh
 npm run typecheck
 npm test

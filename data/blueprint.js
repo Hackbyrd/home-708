@@ -29,33 +29,26 @@ export const FOOTPRINT = Object.freeze({
   upper: [[0, 0], [HOUSE.width, 0], [HOUSE.width, 46.4], [13.4, 46.4], [13.4, 55.7], [0, 55.7]],
   // The enclosed story steps around the stair/elevator core, loft, and wet-bar
   // bump-out. The east/right roof area beyond this ring is terrace.
-  penthouseEnclosure: [[2.8, 2], [24.7, 2], [24.7, 13.5], [31, 13.5], [31, 30.6], [24.4, 30.6], [24.4, 29.8], [14.75, 29.8], [14.75, 41.4333], [5.5, 41.4333], [5.5, 34.6], [2.8, 34.6]],
+  penthouseEnclosure: [[9, 2], [24.4, 2], [24.4, 5.5], [29.2, 5.5], [29.2, 13.3], [31, 13.3], [31, 30.6], [14.75, 30.6], [14.75, 33.7], [5.5, 33.7], [5.5, 25.8], [2.8, 25.8], [2.8, 11], [5.5, 11], [5.5, 5.5], [9, 5.5]],
   penthouseEnclosedRegions: Object.freeze([
-    rect(2.8, 2, 24.7, 13.5),
-    rect(2.8, 13.5, 14.75, 34.6),
-    rect(14.75, 13.5, 24.4, 29.8),
-    rect(24.4, 13.5, 31, 30.6),
-    rect(5.5, 34.6, 14.75, 41.4333),
+    rect(9, 2, 24.4, 13.3), rect(5.5, 5.5, 9, 13.3),
+    rect(24.4, 5.5, 29.2, 13.3), rect(2.8, 11, 5.5, 25.8),
+    rect(5.5, 13.3, 31, 30.6), rect(5.5, 30.6, 14.75, 33.7),
   ]),
 });
 
 export const CORE = Object.freeze({
-  stairHole: rect(24.4, 13.8, 31, 26.2),
-  // The open well is between the two straight return flights.
-  well: Object.freeze({ x0: 27.2, x1: 28.35, z0: 17.2, z1: 22.15 }),
+  stairHole: rect(22.1, 13.3, 31, 26.2),
+  well: Object.freeze({ x0: 22.1, x1: 27.5, z0: 17, z1: 22.7 }),
   stair: Object.freeze({
-    south: 13.8,
-    north: 26.2,
-    west: 24.4,
-    east: 31,
-    curveCenter: Object.freeze([27.2, 17.2]),
-    curveInnerRadius: 0.15,
-    curveOuterRadius: 3.4,
-    outbound: Object.freeze({ x0: 28.35, x1: 31, z0: 17.2, z1: 22.15 }),
-    landing: Object.freeze({ x0: 24.4, x1: 31, z0: 22.15, z1: 24.8 }),
-    return: Object.freeze({ x0: 24.4, x1: 27.2, z0: 16.6, z1: 22.15 }),
-    terminalLanding: Object.freeze({ x0: 24.4, x1: 27.2, z0: 13.8, z1: 16.6 }),
-    treads: Object.freeze({ winders: 4, outbound: 7, return: 7, total: 18 }),
+    south: 13.3, north: 26.2, west: 22.1, east: 31,
+    curveCenter: Object.freeze([22.1, 22.2]),
+    curveInnerRadius: 5.4, curveOuterRadius: 8.9,
+    landing: Object.freeze({ x0: 27.5, x1: 31, z0: 22.2, z1: 26.2 }),
+    return: Object.freeze({ x0: 22.1, x1: 27.5, z0: 22.7, z1: 26.2 }),
+    // The curved lower half turns 90 degrees to the half-story landing.
+    // The upper straight flight returns across the north edge of the well.
+    treads: Object.freeze({ winders: 9, return: 9, total: 18 }),
   }),
   elevator: Object.freeze({
     x0: 26.2, x1: 30.9, z0: 26.6, z1: 30.6,
@@ -73,14 +66,14 @@ export const ROOMS = Object.freeze({
   entry: Object.freeze({
     office: room(0.7, 0.7, ft(15, 5), ft(12, 11)),
     media: room(15.8167, 0.7, ft(15, 1), ft(11, 1)),
-    gallery: { bounds: rect(0.7, 13.6167, 16.2, 21.9) },
+    gallery: { bounds: rect(4.95, 13.6167, 16.2, 21.9) },
     centerHall: { bounds: rect(16.2, 12, 30.9, 26.2) },
     studio: room(0.7, 21.9, ft(11, 11), ft(13, 1)),
-    hall: { bounds: rect(12.6167, 21.9, 17.6, 24.3) },
-    bath3: { bounds: rect(12.6167, 24.3, 17.6, 30.1) },
+    hall: { bounds: rect(18.2, 21.9, 22.1, 26.2) },
+    bath3: { bounds: rect(12.6167, 21.9, 18.2, 30.6) },
     elevator: { bounds: CORE.elevator.bounds },
-    rearHall: { bounds: rect(17.6, 26.2, 30.9, 32) },
-    mechanical: { bounds: rect(12.6167, 32, 30.9, 35.3) },
+    rearHall: { bounds: rect(18.2, 26.2, 26.2, 30.6) },
+    mechanical: { bounds: rect(12.6167, 30.6, 30.9, 35.3) },
     garage: room(0.7, 35.5, ft(30, 2), 21),
   }),
   main: Object.freeze({
@@ -95,9 +88,11 @@ export const ROOMS = Object.freeze({
     stairHall: {
       bounds: rect(15.2833, 12.0333, 30.9, 28.4),
       regions: Object.freeze([
-        rect(15.2833, 12.0333, 24.4, 28.4),
-        rect(24.4, 12.0333, 30.9, 13.8),
-        rect(24.4, 26.2, 30.9, 28.4),
+        rect(15.6, 12.0333, 22.1, 19.8),
+        rect(22.1, 12.0333, 30.9, 13.3),
+        rect(19.4, 19.8, 22.1, 26.4),
+        rect(15.2833, 26.4, 26.2, 28.4),
+        rect(22.1, 26.2, 26.2, 26.4),
       ]),
     },
     terrace: room(14.1, HOUSE.depth - ft(11, 10), ft(17, 6), ft(11, 10)),
@@ -132,8 +127,9 @@ export const ROOMS = Object.freeze({
     upperHall: {
       bounds: rect(8.95, 13.0333, 30.9, 26.9),
       regions: Object.freeze([
-        rect(8.95, 13.0333, 24.4, 26.9),
-        rect(24.4, 26.2, 30.9, 26.9),
+        rect(8.95, 13.0333, 22.1, 26.9),
+        rect(22.1, 26.2, 26.2, 26.9),
+        rect(22.1, 13.0333, 30.9, 13.3),
       ]),
     },
     wetBar: { bounds: rect(6.1, 43.15, 11.1, 46.05) },
@@ -141,22 +137,20 @@ export const ROOMS = Object.freeze({
   penthouse: Object.freeze({
     // The nominal loft is clipped on its east edge by the stair/elevator core.
     loft: {
-      bounds: rect(2.8, 13.3, 24.4, 29.8),
-      regions: Object.freeze([rect(2.8, 13.3, 24.4, 29.8)]),
+      bounds: rect(2.8, 13.3, 2.8 + ft(23, 10), 29.8),
+      regions: Object.freeze([rect(2.8, 13.3, 22.1, 25.8), rect(5.5, 25.8, 22.1, 26.8667), rect(14.75, 26.8667, 26.2, 30.6), rect(22.1, 26.2, 26.2, 26.8667), rect(2.8, 11, 9, 13.3)]),
       source: { width: ft(23, 10), depth: ft(16, 6) },
     },
-    bed5: room(3.15, 2, ft(14, 11), ft(11, 1)),
-    bath4: { bounds: rect(18.0667, 2, 24.7, 13.3) },
-    wetBar: room(5.5, 34.6, ft(9, 3), ft(6, 10)),
+    bed5: room(9, 2, ft(14, 11), ft(11, 1)),
+    guestCloset: { bounds: rect(5.5, 5.5, 9, 11) },
+    guestEntry: { bounds: rect(23.9167, 9.7, 24.4, 13.3) },
+    bath4: { bounds: rect(24.4, 5.5, 29.2, 13.3) },
+    wetBar: room(5.5, 33.7 - ft(6, 10), ft(9, 3), ft(6, 10)),
     sunTerrace: room(0.7, PENTHOUSE_TERRACE_SEAM, ft(12, 4), ft(9, 4)),
     diningTerrace: {
       ...room(0.7, PENTHOUSE_TERRACE_SEAM - ft(12, 8), ft(12, 4), ft(12, 8)),
-      // The enclosed wet-bar bump clips the middle/east portion.
-      regions: Object.freeze([
-        rect(0.7, PENTHOUSE_TERRACE_SEAM - ft(12, 8), 2.8, 34.6),
-        rect(0.7, 34.6, 5.5, 41.4333),
-        rect(0.7, 41.4333, 13.0333, PENTHOUSE_TERRACE_SEAM),
-      ]),
+      // Dining sits BEHIND the wet bar, not in a corridor around it.
+      regions: Object.freeze([rect(0.7, 33.7, 14.75, PENTHOUSE_TERRACE_SEAM)]),
     },
     // Exact 17'1" east-west × 17'3" north-south source rectangle, rotated to
     // follow the sheet's full east/right side. `regions` clips only the small
@@ -164,8 +158,7 @@ export const ROOMS = Object.freeze({
     livingTerrace: {
       bounds: rect(HOUSE.width - ft(17, 1), 46.4 - ft(17, 3), HOUSE.width, 46.4),
       regions: Object.freeze([
-        rect(14.75, 29.8, 24.4, 46.4),
-        rect(24.4, 30.6, 31.6, 46.4),
+        rect(14.75, 30.6, 31.6, 46.4),
         rect(31, 46.4 - ft(17, 3), 31.6, 30.6),
       ]),
       source: { width: ft(17, 3), depth: ft(17, 1), rotated: true },

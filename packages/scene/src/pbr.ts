@@ -23,7 +23,7 @@ import type { PbrHook, QualityPreset, RenderPipeline } from './types.js';
  * A local PMREM environment gives the procedural materials stable image-based
  * lighting without adding a large network HDR asset to the initial download.
  */
-export const createPbrEnvironmentHook = (intensity = 0.32): PbrHook => {
+export const createPbrEnvironmentHook = (intensity = 1): PbrHook => {
   return ({ scene, world, renderer }) => {
     const generator = new PMREMGenerator(renderer);
     generator.compileEquirectangularShader();
@@ -81,60 +81,70 @@ export function createProductionPipeline(initial: QualityPreset = 'balanced'): P
   let sceneRef: Scene | null = null;
   let cameraRef: Camera | null = null;
   const size = new Vector2(1, 1);
+  let pixelRatio = 1;
+
+  // EffectComposer disposes its buffers, but passes own additional GPU targets.
+  const disposeComposer = (): void => {
+    for (const pass of composer?.passes ?? []) pass.dispose();
+    composer?.dispose();
+    composer = null;
+  };
+
+  const resizeComposer = (): void => {
+    composer?.setPixelRatio(pixelRatio);
+    composer?.setSize(size.x, size.y);
+    fxaa?.material.uniforms.resolution?.value.set(1 / (size.x * pixelRatio), 1 / (size.y * pixelRatio));
+  };
 
   const rebuild = (renderer: WebGLRenderer, scene: Scene, camera: Camera): void => {
-    composer?.dispose();
+    disposeComposer();
     rendererRef = renderer;
     sceneRef = scene;
     cameraRef = camera;
+    if (quality === 'low') return;
     composer = new EffectComposer(renderer);
     renderPass = new RenderPass(scene, camera);
     composer.addPass(renderPass);
     ssao = null;
     if (quality === 'high') {
       ssao = new SSAOPass(scene, camera, size.x, size.y);
-      ssao.kernelRadius = 11;
-      ssao.minDistance = 0.002;
-      ssao.maxDistance = 0.12;
+      ssao.kernelRadius = 0.65;
+      ssao.minDistance = 0.0005;
+      ssao.maxDistance = 0.018;
       composer.addPass(ssao);
     }
-    bloom = null;
-    if (quality !== 'low') {
-      bloom = new UnrealBloomPass(size, quality === 'high' ? 0.08 : 0.04, 0.2, 0.97);
-      composer.addPass(bloom);
-    }
-    fxaa = null;
-    if (quality !== 'low') {
-      fxaa = new ShaderPass(FXAAShader);
-      fxaa.material.uniforms.resolution?.value.set(1 / size.x, 1 / size.y);
-      composer.addPass(fxaa);
-    }
+    bloom = new UnrealBloomPass(size, quality === 'high' ? 0.12 : 0.06, 0.3, 1.05);
+    composer.addPass(bloom);
+    fxaa = new ShaderPass(FXAAShader);
+    composer.addPass(fxaa);
     composer.addPass(new OutputPass());
-    composer.setSize(size.x, size.y);
+    resizeComposer();
   };
 
   return {
     render({ renderer, scene, camera, deltaSeconds }) {
+      if (quality === 'low') {
+        rendererRef = renderer; sceneRef = scene; cameraRef = camera;
+        renderer.render(scene, camera);
+        return;
+      }
       if (!composer || renderer !== rendererRef || scene !== sceneRef || camera !== cameraRef) {
         rebuild(renderer, scene, camera);
       }
-      if (quality === 'low') renderer.render(scene, camera);
-      else composer!.render(deltaSeconds);
+      composer!.render(deltaSeconds);
     },
     setQuality(preset) {
       if (preset === quality) return;
       quality = preset;
       if (rendererRef && sceneRef && cameraRef) rebuild(rendererRef, sceneRef, cameraRef);
     },
-    resize(width, height, pixelRatio) {
-      size.set(Math.max(1, width * pixelRatio), Math.max(1, height * pixelRatio));
-      composer?.setSize(width, height);
-      fxaa?.material.uniforms.resolution?.value.set(1 / size.x, 1 / size.y);
-      ssao?.setSize(width, height);
-      bloom?.setSize(width, height);
+    resize(width, height, ratio) {
+      size.set(Math.max(1, width), Math.max(1, height));
+      pixelRatio = Math.max(0.5, ratio);
+      resizeComposer();
     },
     dispose() {
-      composer?.dispose();
+      disposeComposer();
       composer = null;
       renderPass = null;
       ssao = null;
