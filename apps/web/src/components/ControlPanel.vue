@@ -123,6 +123,11 @@ function chooseFile(event: Event) {
     </section>
 
     <section>
+      <h2>Reference</h2>
+      <button class="wide-button reference-button" :class="{ active: ui.referenceOpen }" @click="ui.referenceOpen = !ui.referenceOpen">▣ Photos &amp; blueprint</button>
+    </section>
+
+    <section>
       <h2>Layers &amp; options</h2>
       <button class="wide-button" :class="{ active: graphics.garageOpen }" @click="graphics.garageOpen = !graphics.garageOpen">{{ graphics.garageOpen ? 'Close' : 'Open' }} garage</button>
       <label class="check"><input v-model="graphics.labels" type="checkbox" /> Room labels</label>

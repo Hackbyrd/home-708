@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "web",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "VITE_DEV_PORT=5174 npm run dev -w @city-home/web"],
+      "port": 5174
+    }
+  ]
+}

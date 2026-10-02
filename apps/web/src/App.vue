@@ -8,6 +8,7 @@ import ControlPanel from './components/ControlPanel.vue'
 import DimensionHud from './components/DimensionHud.vue'
 import ErrorOverlay from './components/ErrorOverlay.vue'
 import MigrationWizard from './components/MigrationWizard.vue'
+import ReferenceViewer from './components/ReferenceViewer.vue'
 import RoomBar from './components/RoomBar.vue'
 import SceneViewport from './components/SceneViewport.vue'
 import StyleBar from './components/StyleBar.vue'
@@ -223,6 +224,7 @@ onMounted(initialize)
       @upload="uploadDraft"
       @dismiss="ui.migrationOpen = false; layout.dismissMigration()"
     />
+    <ReferenceViewer :open="ui.referenceOpen" @close="ui.referenceOpen = false" />
     <ErrorOverlay :message="ui.error" @dismiss="ui.error = null" @retry="ui.error = null; sceneKey++" />
   </AppShell>
 </template>

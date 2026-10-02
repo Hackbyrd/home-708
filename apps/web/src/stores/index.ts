@@ -92,10 +92,11 @@ export const useGraphicsStore = defineStore('graphics', () => {
 export const useUiStore = defineStore('ui', () => {
   const panelCollapsed = ref(false)
   const migrationOpen = ref(false)
+  const referenceOpen = ref(false)
   const busy = ref(true)
   const error = ref<string | null>(null)
   const toast = ref<string | null>(null)
-  return { panelCollapsed, migrationOpen, busy, error, toast }
+  return { panelCollapsed, migrationOpen, referenceOpen, busy, error, toast }
 })
 
 export const useLayoutStore = defineStore('layout', () => {

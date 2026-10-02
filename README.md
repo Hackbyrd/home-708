@@ -19,6 +19,14 @@ The Vue development server runs at `http://localhost:5173`. Save writes only to
 that browser's `localStorage`; Export downloads a portable JSON backup, Import
 restores one, and Reset layout replaces the draft with the untouched layout.
 
+## Reference photos and blueprint
+
+The control panel's **Photos & blueprint** button opens a viewer for the
+Crown Georgetown listing photos in `assets/Crown Georgetown Photos` and the
+four-page `assets/cf_city_home_with_georgetown_pkg.pdf` floor plan package.
+Vite bundles both straight from `assets/`, so dropping another `.webp` into
+that folder adds it to the gallery on the next build.
+
 ## Quality checks
 
 The View section includes Smooth, Balanced and Detailed graphics presets.

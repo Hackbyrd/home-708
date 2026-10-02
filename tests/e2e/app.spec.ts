@@ -66,3 +66,43 @@ test('exports, imports, and resets browser-local JSON layouts', async ({ page })
     return saved ? JSON.parse(saved).rooms : null;
   })).toEqual({});
 });
+
+test('opens the reference photos and blueprint viewer', async ({ page, request }) => {
+  test.setTimeout(120_000);
+  await page.goto('/');
+  await expect(page.locator('canvas[data-scene="city-home"]')).toBeVisible({ timeout: 60_000 });
+  await page.evaluate(() =>
+    (window as typeof window & { CH?: { stop(): void } }).CH?.stop(),
+  );
+
+  await page.getByRole('button', { name: /Photos & blueprint/ }).click();
+  const dialog = page.getByRole('dialog', { name: /Photos & blueprint/ });
+  await expect(dialog).toBeVisible();
+  const tiles = dialog.locator('.photo-tile');
+  await expect.poll(() => tiles.count()).toBeGreaterThanOrEqual(27);
+  const firstSrc = await tiles.first().locator('img').getAttribute('src');
+  expect(firstSrc).toBeTruthy();
+  const photo = await request.get(new URL(firstSrc!, page.url()).toString());
+  expect(photo.status()).toBe(200);
+  expect(photo.headers()['content-type']).toContain('image/webp');
+
+  await tiles.first().click();
+  await expect(page.locator('.lightbox img')).toBeVisible();
+  await page.keyboard.press('ArrowRight');
+  await expect(page.locator('.lightbox figcaption small')).toHaveText('2 / 27');
+  await page.keyboard.press('Escape');
+  await expect(page.locator('.lightbox')).toHaveCount(0);
+  await expect(dialog).toBeVisible();
+
+  await dialog.getByRole('tab', { name: 'Blueprint' }).click();
+  const frame = dialog.locator('iframe.blueprint-frame');
+  await expect(frame).toBeVisible();
+  const pdfSrc = await frame.getAttribute('src');
+  expect(pdfSrc).toMatch(/\.pdf$/);
+  const pdf = await request.get(new URL(pdfSrc!, page.url()).toString());
+  expect(pdf.status()).toBe(200);
+  expect(pdf.headers()['content-type']).toContain('application/pdf');
+
+  await page.keyboard.press('Escape');
+  await expect(dialog).toHaveCount(0);
+});
