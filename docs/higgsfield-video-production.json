@@ -1,0 +1,901 @@
+{
+  "date": "2026-10-06",
+  "model": "kling3_0",
+  "jobs": [
+    {
+      "index": 1000,
+      "room": "great",
+      "floor": "second-floor",
+      "look": "modern",
+      "sourceStillIndex": 0,
+      "sourceStillJobId": "0dfa71ae-c61f-4497-8038-0641fb6ecb9e",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "0dfa71ae-c61f-4497-8038-0641fb6ecb9e"
+          }
+        ],
+        "prompt": "Animate this approved architectural interior photograph as one continuous photoreal estate shot. A very slow smooth dolly-in 35 centimeters toward the TV and linear fireplace wall. All walls, windows, doors, stair rails, ceiling lines, materials, furniture placement and neighboring townhouses remain fixed and exactly as in the first frame. Only the camera moves, with very subtle fireplace flame motion if present. No morphing, no redesign, no new objects, no people, animals, lettering or logos. Stable verticals, natural motion, no zoom effects, no cuts, no audio. Landscape 16:9 framing, preserve the room's proportions."
+      },
+      "job_id": "4bc48b7a-ea0a-4802-b759-fc859042a96e",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_202827_4bc48b7a-ea0a-4802-b759-fc859042a96e.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/second-floor/great-modern.mp4",
+      "export": {
+        "file": "second-floor/great-modern.mp4",
+        "duration": 8.0,
+        "bytes": 6414604,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1001,
+      "room": "kitchen",
+      "floor": "second-floor",
+      "look": "modern",
+      "sourceStillIndex": 1,
+      "sourceStillJobId": "d457cb75-5d16-4796-ab13-593ebc0c9708",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "d457cb75-5d16-4796-ab13-593ebc0c9708"
+          }
+        ],
+        "prompt": "Animate this approved architectural interior photograph as one continuous photoreal estate shot. A gentle slow 20-degree arc around the kitchen island, keeping the original back wall and oven column visible. Remain on this side of the island. All walls, windows, doors, stair rails, ceiling lines, materials, furniture placement and neighboring townhouses remain fixed and exactly as in the first frame. Only the camera moves, with very subtle fireplace flame motion if present. No morphing, no redesign, no new objects, no people, animals, lettering or logos. Stable verticals, natural motion, no zoom effects, no cuts, no audio. Landscape 16:9 framing, preserve the room's proportions."
+      },
+      "job_id": "5f7ff06f-2eec-4112-8f9f-3d7b2b4d1250",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_202828_5f7ff06f-2eec-4112-8f9f-3d7b2b4d1250.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/second-floor/kitchen-modern.mp4",
+      "export": {
+        "file": "second-floor/kitchen-modern.mp4",
+        "duration": 8.0,
+        "bytes": 5875975,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1002,
+      "room": "ownerbed",
+      "floor": "third-floor",
+      "look": "modern",
+      "sourceStillIndex": 55,
+      "sourceStillJobId": "9f4b1111-a94b-4cf2-9b5c-104be26dac70",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "9f4b1111-a94b-4cf2-9b5c-104be26dac70"
+          }
+        ],
+        "prompt": "Animate this approved architectural interior photograph as one continuous photoreal estate shot. A very slow smooth dolly-in 35 centimeters toward the bed's headboard wall. All walls, windows, doors, stair rails, ceiling lines, materials, furniture placement and neighboring townhouses remain fixed and exactly as in the first frame. Only the camera moves, with very subtle fireplace flame motion if present. No morphing, no redesign, no new objects, no people, animals, lettering or logos. Stable verticals, natural motion, no zoom effects, no cuts, no audio. Landscape 16:9 framing, preserve the room's proportions."
+      },
+      "job_id": "32d036d0-00af-4c3b-b6e9-f807bb8f5d71",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_202828_32d036d0-00af-4c3b-b6e9-f807bb8f5d71.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/third-floor/ownerbed-modern.mp4",
+      "export": {
+        "file": "third-floor/ownerbed-modern.mp4",
+        "duration": 8.0,
+        "bytes": 6030111,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1003,
+      "room": "terrace",
+      "floor": "penthouse",
+      "look": "modern",
+      "sourceStillIndex": 4,
+      "sourceStillJobId": "72ab5065-0cce-4a84-a70d-3a00383809d7",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "72ab5065-0cce-4a84-a70d-3a00383809d7"
+          }
+        ],
+        "prompt": "Animate this approved architectural interior photograph as one continuous photoreal estate shot. A very slow lateral camera slide 40 centimeters under the pergola toward the right fireplace wall, keeping the neighborhood roofscape intact. All walls, windows, doors, stair rails, ceiling lines, materials, furniture placement and neighboring townhouses remain fixed and exactly as in the first frame. Only the camera moves, with very subtle fireplace flame motion if present. No morphing, no redesign, no new objects, no people, animals, lettering or logos. Stable verticals, natural motion, no zoom effects, no cuts, no audio. Landscape 16:9 framing, preserve the room's proportions."
+      },
+      "job_id": "2716a5e1-9d2e-42e4-b2fd-1a2df762e3ea",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_202828_2716a5e1-9d2e-42e4-b2fd-1a2df762e3ea.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/penthouse/terrace-modern.mp4",
+      "export": {
+        "file": "penthouse/terrace-modern.mp4",
+        "duration": 8.0,
+        "bytes": 5646421,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1004,
+      "room": "dining",
+      "floor": "second-floor",
+      "look": "modern",
+      "sourceStillIndex": 169,
+      "sourceStillJobId": "d4350a71-15d4-4ba3-956f-0ee76f65d34c",
+      "status": "completed",
+      "qaStatus": "rejected",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "d4350a71-15d4-4ba3-956f-0ee76f65d34c"
+          }
+        ],
+        "prompt": "Animate this approved architectural interior photograph as one continuous photoreal estate shot. A very slow lateral slide 35 centimeters across the dining table toward the arched windows. All walls, windows, doors, stair rails, ceiling lines, materials, furniture placement and neighboring townhouses remain fixed and exactly as in the first frame. Only the camera moves, with very subtle fireplace flame motion if present. No morphing, no redesign, no new objects, no people, animals, lettering or logos. Stable verticals, natural motion, no zoom effects, no cuts, no audio. Landscape 16:9 framing, preserve the room's proportions."
+      },
+      "job_id": "54dd91ee-926f-400e-b712-a9d8252d3253",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_202828_54dd91ee-926f-400e-b712-a9d8252d3253.mp4",
+      "qaNotes": "Introduces extra small arched window near end of lateral move.",
+      "delivered": false
+    },
+    {
+      "index": 1005,
+      "room": "stair2",
+      "floor": "second-floor",
+      "look": "modern",
+      "sourceStillIndex": 53,
+      "sourceStillJobId": "cb5e45ac-18e3-4be3-8d49-4f7f3ff0b24f",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "cb5e45ac-18e3-4be3-8d49-4f7f3ff0b24f"
+          }
+        ],
+        "prompt": "Animate this approved architectural interior photograph as one continuous photoreal estate shot. A very slow smooth dolly-in 25 centimeters along the landing toward the curved stair, remaining outside the open down-stair well. All walls, windows, doors, stair rails, ceiling lines, materials, furniture placement and neighboring townhouses remain fixed and exactly as in the first frame. Only the camera moves, with very subtle fireplace flame motion if present. No morphing, no redesign, no new objects, no people, animals, lettering or logos. Stable verticals, natural motion, no zoom effects, no cuts, no audio. Landscape 16:9 framing, preserve the room's proportions."
+      },
+      "job_id": "f019a5a9-759e-4cad-bf64-133ecf0cd824",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_202828_f019a5a9-759e-4cad-bf64-133ecf0cd824.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/second-floor/stair2-modern.mp4",
+      "export": {
+        "file": "second-floor/stair2-modern.mp4",
+        "duration": 8.0,
+        "bytes": 6187539,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1006,
+      "room": "bed3",
+      "floor": "third-floor",
+      "look": "modern",
+      "sourceStillIndex": 2,
+      "sourceStillJobId": "baa6197d-8fcc-4135-9997-b71246ed1ff6",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "baa6197d-8fcc-4135-9997-b71246ed1ff6"
+          }
+        ],
+        "prompt": "Animate this approved architectural photograph as one continuous photoreal estate shot. A very slow smooth dolly-in 25 centimeters toward the bed. All architecture, window counts, door positions, ceiling, furniture, fixtures and materials stay exactly unchanged from the first frame. Preserve the neighboring townhouses outside. No objects appear or disappear, no morphing, no people, pets, lettering or logos. Minimal camera travel with stable verticals; no fast movement, zoom effects, transitions, cuts or audio. Landscape 16:9 framing."
+      },
+      "job_id": "dd0b06de-2be8-4442-8a01-dc107141113d",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_203005_dd0b06de-2be8-4442-8a01-dc107141113d.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/third-floor/bed3-modern.mp4",
+      "export": {
+        "file": "third-floor/bed3-modern.mp4",
+        "duration": 8.0,
+        "bytes": 5753791,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1007,
+      "room": "laundry",
+      "floor": "third-floor",
+      "look": "modern",
+      "sourceStillIndex": 45,
+      "sourceStillJobId": "d0778f97-883e-4d15-907c-0c2885bc7221",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "d0778f97-883e-4d15-907c-0c2885bc7221"
+          }
+        ],
+        "prompt": "Animate this approved architectural photograph as one continuous photoreal estate shot. A very slow smooth dolly-in 25 centimeters along the room's long axis. All architecture, window counts, door positions, ceiling, furniture, fixtures and materials stay exactly unchanged from the first frame. Preserve the neighboring townhouses outside. No objects appear or disappear, no morphing, no people, pets, lettering or logos. Minimal camera travel with stable verticals; no fast movement, zoom effects, transitions, cuts or audio. Landscape 16:9 framing."
+      },
+      "job_id": "1d81804d-10be-4016-90a2-49604645e325",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_203007_1d81804d-10be-4016-90a2-49604645e325.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/third-floor/laundry-modern.mp4",
+      "export": {
+        "file": "third-floor/laundry-modern.mp4",
+        "duration": 8.0,
+        "bytes": 5858505,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1008,
+      "room": "retreat",
+      "floor": "third-floor",
+      "look": "modern",
+      "sourceStillIndex": 56,
+      "sourceStillJobId": "a34a5c62-1090-4455-9847-fdaf4f3f5767",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "a34a5c62-1090-4455-9847-fdaf4f3f5767"
+          }
+        ],
+        "prompt": "Animate this approved architectural photograph as one continuous photoreal estate shot. A very slow smooth dolly-in 25 centimeters toward the bed. All architecture, window counts, door positions, ceiling, furniture, fixtures and materials stay exactly unchanged from the first frame. Preserve the neighboring townhouses outside. No objects appear or disappear, no morphing, no people, pets, lettering or logos. Minimal camera travel with stable verticals; no fast movement, zoom effects, transitions, cuts or audio. Landscape 16:9 framing."
+      },
+      "job_id": "c4f4d953-13ca-41e7-b05d-681f9d4e7d28",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_203005_c4f4d953-13ca-41e7-b05d-681f9d4e7d28.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/third-floor/retreat-modern.mp4",
+      "export": {
+        "file": "third-floor/retreat-modern.mp4",
+        "duration": 8.0,
+        "bytes": 5881993,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1009,
+      "room": "bed5",
+      "floor": "penthouse",
+      "look": "modern",
+      "sourceStillIndex": 57,
+      "sourceStillJobId": "f0e87e3f-9184-446f-b552-63a27292061f",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "f0e87e3f-9184-446f-b552-63a27292061f"
+          }
+        ],
+        "prompt": "Animate this approved architectural photograph as one continuous photoreal estate shot. A very slow smooth dolly-in 25 centimeters toward the bed. All architecture, window counts, door positions, ceiling, furniture, fixtures and materials stay exactly unchanged from the first frame. Preserve the neighboring townhouses outside. No objects appear or disappear, no morphing, no people, pets, lettering or logos. Minimal camera travel with stable verticals; no fast movement, zoom effects, transitions, cuts or audio. Landscape 16:9 framing."
+      },
+      "job_id": "93de807e-a2f5-4ef6-ad1b-b69a7e5835ac",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_203005_93de807e-a2f5-4ef6-ad1b-b69a7e5835ac.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/penthouse/bed5-modern.mp4",
+      "export": {
+        "file": "penthouse/bed5-modern.mp4",
+        "duration": 8.0,
+        "bytes": 6104399,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1010,
+      "room": "gym",
+      "floor": "first-floor",
+      "look": "modern",
+      "sourceStillIndex": 58,
+      "sourceStillJobId": "7fdb718b-e36d-4dfa-ad5e-9369389af742",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "7fdb718b-e36d-4dfa-ad5e-9369389af742"
+          }
+        ],
+        "prompt": "Animate this approved architectural photograph as one continuous photoreal estate shot. A very slow smooth dolly-in 25 centimeters along the room's long axis. All architecture, window counts, door positions, ceiling, furniture, fixtures and materials stay exactly unchanged from the first frame. Preserve the neighboring townhouses outside. No objects appear or disappear, no morphing, no people, pets, lettering or logos. Minimal camera travel with stable verticals; no fast movement, zoom effects, transitions, cuts or audio. Landscape 16:9 framing."
+      },
+      "job_id": "d4fe2b1e-a0c7-40e8-8891-5dd28d1d4c61",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_203005_d4fe2b1e-a0c7-40e8-8891-5dd28d1d4c61.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/first-floor/gym-modern.mp4",
+      "export": {
+        "file": "first-floor/gym-modern.mp4",
+        "duration": 8.0,
+        "bytes": 6371204,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1011,
+      "room": "office",
+      "floor": "first-floor",
+      "look": "modern",
+      "sourceStillIndex": 59,
+      "sourceStillJobId": "32fa4674-5b44-4bb9-8823-bf77e95418c7",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "32fa4674-5b44-4bb9-8823-bf77e95418c7"
+          }
+        ],
+        "prompt": "Animate this approved architectural photograph as one continuous photoreal estate shot. A very slow smooth dolly-in 25 centimeters along the room's long axis. All architecture, window counts, door positions, ceiling, furniture, fixtures and materials stay exactly unchanged from the first frame. Preserve the neighboring townhouses outside. No objects appear or disappear, no morphing, no people, pets, lettering or logos. Minimal camera travel with stable verticals; no fast movement, zoom effects, transitions, cuts or audio. Landscape 16:9 framing."
+      },
+      "job_id": "421c9f88-a437-474e-8aa5-0f6eddba31ac",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_203005_421c9f88-a437-474e-8aa5-0f6eddba31ac.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/first-floor/office-modern.mp4",
+      "export": {
+        "file": "first-floor/office-modern.mp4",
+        "duration": 8.0,
+        "bytes": 5876701,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1012,
+      "room": "loft",
+      "floor": "penthouse",
+      "look": "modern",
+      "sourceStillIndex": 60,
+      "sourceStillJobId": "4e90d2ac-f7cd-4e27-82cf-fba484d95eb5",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "4e90d2ac-f7cd-4e27-82cf-fba484d95eb5"
+          }
+        ],
+        "prompt": "Animate this approved architectural photograph as one continuous photoreal estate shot. A very slow smooth dolly-in 25 centimeters along the room's long axis. All architecture, window counts, door positions, ceiling, furniture, fixtures and materials stay exactly unchanged from the first frame. Preserve the neighboring townhouses outside. No objects appear or disappear, no morphing, no people, pets, lettering or logos. Minimal camera travel with stable verticals; no fast movement, zoom effects, transitions, cuts or audio. Landscape 16:9 framing."
+      },
+      "job_id": "35041538-7276-4697-8fed-9b3980be623f",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_203009_35041538-7276-4697-8fed-9b3980be623f.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/penthouse/loft-modern.mp4",
+      "export": {
+        "file": "penthouse/loft-modern.mp4",
+        "duration": 8.0,
+        "bytes": 5959593,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1013,
+      "room": "entry",
+      "floor": "first-floor",
+      "look": "modern",
+      "sourceStillIndex": 125,
+      "sourceStillJobId": "6872ca0a-4654-4d37-9d92-7b633c4bb432",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "6872ca0a-4654-4d37-9d92-7b633c4bb432"
+          }
+        ],
+        "prompt": "Animate this approved architectural photograph as one continuous photoreal estate shot. A gentle crane-down 40 centimeters along the entrance gallery axis, starting from this exact viewpoint and keeping the arched hallway and balcony relationship intact. Do not turn around or invent a front door. All architecture, window counts, door positions, ceiling, furniture, fixtures and materials stay exactly unchanged from the first frame. Preserve the neighboring townhouses outside. No objects appear or disappear, no morphing, no people, pets, lettering or logos. Minimal camera travel with stable verticals; no fast movement, zoom effects, transitions, cuts or audio. Preserve the complete original vertical composition and room proportions."
+      },
+      "job_id": "27875069-66aa-4ce5-a9be-d3bf843ec155",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_203009_27875069-66aa-4ce5-a9be-d3bf843ec155.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/first-floor/entry-modern.mp4",
+      "export": {
+        "file": "first-floor/entry-modern.mp4",
+        "duration": 8.0,
+        "bytes": 5727962,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1014,
+      "room": "sunroom",
+      "floor": "second-floor",
+      "look": "modern",
+      "sourceStillIndex": 126,
+      "sourceStillJobId": "cf4ffb54-48b5-40ca-b011-cf2482689a3a",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "cf4ffb54-48b5-40ca-b011-cf2482689a3a"
+          }
+        ],
+        "prompt": "Animate this approved architectural photograph as one continuous photoreal estate shot. A very slow smooth dolly-in 25 centimeters along the room's long axis. All architecture, window counts, door positions, ceiling, furniture, fixtures and materials stay exactly unchanged from the first frame. Preserve the neighboring townhouses outside. No objects appear or disappear, no morphing, no people, pets, lettering or logos. Minimal camera travel with stable verticals; no fast movement, zoom effects, transitions, cuts or audio. Landscape 16:9 framing."
+      },
+      "job_id": "efd184c1-aaad-4607-b948-feefcf4bcdc9",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_203009_efd184c1-aaad-4607-b948-feefcf4bcdc9.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/second-floor/sunroom-modern.mp4",
+      "export": {
+        "file": "second-floor/sunroom-modern.mp4",
+        "duration": 8.0,
+        "bytes": 5785836,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1015,
+      "room": "ownerbath",
+      "floor": "third-floor",
+      "look": "modern",
+      "sourceStillIndex": 127,
+      "sourceStillJobId": "5a0b5e1d-3b99-49a3-9b1c-3e49b6f12902",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "5a0b5e1d-3b99-49a3-9b1c-3e49b6f12902"
+          }
+        ],
+        "prompt": "Animate this approved architectural photograph as one continuous photoreal estate shot. A very slow smooth dolly-in 25 centimeters along the room's long axis. All architecture, window counts, door positions, ceiling, furniture, fixtures and materials stay exactly unchanged from the first frame. Preserve the neighboring townhouses outside. No objects appear or disappear, no morphing, no people, pets, lettering or logos. Minimal camera travel with stable verticals; no fast movement, zoom effects, transitions, cuts or audio. Landscape 16:9 framing."
+      },
+      "job_id": "b8a76583-1181-442e-b1eb-8b2fd60999d5",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_203009_b8a76583-1181-442e-b1eb-8b2fd60999d5.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/third-floor/ownerbath-modern.mp4",
+      "export": {
+        "file": "third-floor/ownerbath-modern.mp4",
+        "duration": 8.0,
+        "bytes": 5881057,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1016,
+      "room": "bath",
+      "floor": "first-floor",
+      "look": "modern",
+      "sourceStillJobId": "0433e026-0f6d-4800-a61c-7df9349eaf42",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "0433e026-0f6d-4800-a61c-7df9349eaf42"
+          }
+        ],
+        "prompt": "Animate this approved architectural photograph as one continuous photoreal estate shot. A very slow smooth dolly-in 25 centimeters along the room's long axis. All architecture, window counts, door positions, ceiling, furniture, fixtures and materials stay exactly unchanged from the first frame. Preserve the neighboring townhouses outside. No objects appear or disappear, no morphing, no people, pets, lettering or logos. Minimal camera travel with stable verticals; no fast movement, zoom effects, transitions, cuts or audio. Preserve the complete original vertical composition and room proportions."
+      },
+      "job_id": "b5880157-566b-4392-a5fd-4236460aa4af",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_203009_b5880157-566b-4392-a5fd-4236460aa4af.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/first-floor/bath-modern.mp4",
+      "export": {
+        "file": "first-floor/bath-modern.mp4",
+        "duration": 8.0,
+        "bytes": 6005698,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1017,
+      "room": "media",
+      "floor": "first-floor",
+      "look": "modern",
+      "sourceStillIndex": 289,
+      "sourceStillJobId": "5599163d-9300-4835-9259-ed352e649cda",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "5599163d-9300-4835-9259-ed352e649cda"
+          }
+        ],
+        "prompt": "Animate this approved architectural interior photograph. A very slow smooth dolly-in 25 centimeters down the room's long axis. Only camera moves; keep all architecture, windows, doors, furniture placement, television, double vanity, mirror reflections and material finishes exactly fixed as the source. No people, pets, text, labels, logos, object morphs or sudden changes. No cuts, no music or audio. Landscape 16:9, realistic natural estate photography."
+      },
+      "job_id": "80025af5-3ddd-465e-b18f-bc7558c8e5e2",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_203210_80025af5-3ddd-465e-b18f-bc7558c8e5e2.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/first-floor/media-modern.mp4",
+      "export": {
+        "file": "first-floor/media-modern.mp4",
+        "duration": 8.0,
+        "bytes": 6414534,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1018,
+      "room": "sharedbath",
+      "floor": "third-floor",
+      "look": "modern",
+      "sourceStillIndex": 290,
+      "sourceStillJobId": "0225f3de-8835-4040-b230-ff6a299b4e9d",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 8,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "0225f3de-8835-4040-b230-ff6a299b4e9d"
+          }
+        ],
+        "prompt": "Animate this approved architectural interior photograph. A very slow smooth dolly-in 25 centimeters down the room's long axis. Only camera moves; keep all architecture, windows, doors, furniture placement, television, double vanity, mirror reflections and material finishes exactly fixed as the source. No people, pets, text, labels, logos, object morphs or sudden changes. No cuts, no music or audio. Landscape 16:9, realistic natural estate photography."
+      },
+      "job_id": "e4b3c18a-16d4-408c-a95d-11f554e92e1a",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_203210_e4b3c18a-16d4-408c-a95d-11f554e92e1a.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/third-floor/sharedbath-modern.mp4",
+      "export": {
+        "file": "third-floor/sharedbath-modern.mp4",
+        "duration": 8.0,
+        "bytes": 6074123,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    },
+    {
+      "index": 1019,
+      "room": "dining",
+      "floor": "second-floor",
+      "look": "modern",
+      "sourceStillIndex": 169,
+      "sourceStillJobId": "d4350a71-15d4-4ba3-956f-0ee76f65d34c",
+      "status": "completed",
+      "qaStatus": "approved",
+      "params": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "duration": 5,
+        "aspect_ratio": "16:9",
+        "sound": "off",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "d4350a71-15d4-4ba3-956f-0ee76f65d34c"
+          }
+        ],
+        "prompt": "Use the attached approved dining-room photograph as the exact first frame. An extremely slow lateral camera slide ONLY 5 centimeters to the RIGHT across the table over 5 seconds. Maintain the same field of view, barely perceptible parallax; do not reveal any area outside the original photograph. Exactly five window openings stay fixed: one small high arched window at left, two tall rectangular corner windows, two arched far windows. No new windows, no duplicated windows, no changing shapes, no moving furniture. Same table, chairs, chandelier and materials throughout. Continuous calm photoreal architectural shot, no people, words, logos, audio, cuts or transitions."
+      },
+      "revises": 1004,
+      "job_id": "d82381f6-c69d-481b-8d0f-0dc86825361e",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_203744_d82381f6-c69d-481b-8d0f-0dc86825361e.mp4",
+      "qaNotes": "Start/middle/end frame checks preserve room features and permitted restrained camera motion. Silent native 24fps H.264; export to 1080p with contain framing.",
+      "delivered": true,
+      "output": "assets/renders-video/second-floor/dining-modern.mp4",
+      "export": {
+        "file": "second-floor/dining-modern.mp4",
+        "duration": 5.0,
+        "bytes": 3437203,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    }
+  ],
+  "status": "complete",
+  "delivery": {
+    "archive": "assets/renders-video/home-708-modern-videos.zip",
+    "mediaId": "71a8377c-ff45-41a5-af2a-a6df33b18fb9",
+    "downloadUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/71a8377c-ff45-41a5-af2a-a6df33b18fb9.zip",
+    "archiveBytes": 185471998,
+    "archiveSha256": "fa5328e8f7fa86510db71fb0d983f9772a472b042b2ef94cca8d7365b936400f",
+    "roomClips": 19,
+    "floorTours": 4,
+    "export": "1920x1080 H.264, 24fps, no audio, every file under 25MB. Source aspect ratios contained with sidebars to preserve architecture.",
+    "qa": "Room clips reviewed at start/middle/end. All floor-tour transitions reviewed before/mid/after every 0.5-second crossfade. ffprobe verified format, duration, dimensions, frame rate, silence and size for all 23 files.",
+    "tours": [
+      {
+        "file": "first-floor/tour-modern.mp4",
+        "duration": 38.0,
+        "bytes": 20869017,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      },
+      {
+        "file": "penthouse/tour-modern.mp4",
+        "duration": 23.0,
+        "bytes": 12689732,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      },
+      {
+        "file": "second-floor/tour-modern.mp4",
+        "duration": 35.0,
+        "bytes": 19299249,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      },
+      {
+        "file": "third-floor/tour-modern.mp4",
+        "duration": 36.5,
+        "bytes": 20624764,
+        "width": 1920,
+        "height": 1080,
+        "fps": 24,
+        "codec": "h264",
+        "audioStreams": 0
+      }
+    ],
+    "assembly": "Native Higgsedit scene with sibling clips in a single parent frame. Bedroom floor uses 6.5 seconds per room to stay within the 20\u201340 second tour requirement.",
+    "assemblyScript": "scripts/higgsfield-video-delivery.py",
+    "qaContactSheets": "assets/renders-video/qa"
+  },
+  "validation": {
+    "galleryTests": "5 passed (tests/redesigns-media.test.ts)",
+    "productionBuild": "npm run build:cloudflare passed with all 23 videos bundled",
+    "inventory": "266 web images, 241 newly approved full-resolution images, 23 video files; exported sizes match the delivery manifest",
+    "browser": "Tour playback progressed; 1920x1080 decoded; room selection reset playback; new-style filter showed reference/render pairs; no browser console errors",
+    "preview": "http://127.0.0.1:5180/#/renders",
+    "gitPush": false,
+    "deployed": false
+  }
+}

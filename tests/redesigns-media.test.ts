@@ -11,22 +11,23 @@ import {
   modelPhoto,
   renderSrc,
   roomsOnFloor,
+  videoSrc,
 } from '../apps/web/src/redesigns'
 
 describe('redesign gallery data', () => {
-  it('defines 19 rooms across 4 floors, 9 rendered looks and 5 concepts', () => {
+  it('defines 19 rooms across 4 floors, 14 rendered looks', () => {
     expect(ROOMS).toHaveLength(19)
     expect(LOOKS).toHaveLength(14)
-    expect(RENDERED_LOOKS).toHaveLength(9)
+    expect(RENDERED_LOOKS).toHaveLength(14)
     expect(FLOORS).toHaveLength(4)
-    expect(RENDER_COUNT).toBe(171)
+    expect(RENDER_COUNT).toBe(266)
     expect(roomsOnFloor('first-floor')).toHaveLength(5)
     expect(roomsOnFloor('second-floor')).toHaveLength(5)
     expect(roomsOnFloor('third-floor')).toHaveLength(6)
     expect(roomsOnFloor('penthouse')).toHaveLength(3)
   })
 
-  it('resolves every room/rendered-look pair to a bundled webp render (19 x 9 = 171)', () => {
+  it('resolves every room/rendered-look pair to a bundled webp render (19 x 14 = 266)', () => {
     let resolved = 0
     for (const room of ROOMS) {
       for (const look of RENDERED_LOOKS) {
@@ -36,7 +37,7 @@ describe('redesign gallery data', () => {
         resolved += 1
       }
     }
-    expect(resolved).toBe(171)
+    expect(resolved).toBe(266)
   })
 
   it('links every photographed room to a bundled model-home photo', () => {
@@ -52,6 +53,15 @@ describe('redesign gallery data', () => {
     expect(ROOMS.filter((room) => !room.photoId).map((room) => room.key)).toEqual(['bath'])
   })
 
+  it('bundles all 19 Modern room clips and all four floor tours', () => {
+    for (const room of ROOMS) {
+      expect(videoSrc(room.floor, room.key), `${room.floor}/${room.key}`).toMatch(/\.mp4$/)
+    }
+    for (const floor of FLOORS) {
+      expect(videoSrc(floor.key, 'tour'), `${floor.key}/tour`).toMatch(/\.mp4$/)
+    }
+  })
+
   it('keeps looks unique, grouped, and fully storied', () => {
     expect(new Set(LOOKS.map((look) => look.key)).size).toBe(14)
     expect(LOOKS.filter((look) => look.group === 'Modern, budget')).toHaveLength(5)
@@ -65,10 +75,7 @@ describe('redesign gallery data', () => {
         expect(look.story[field].length, `${look.key}.story.${field}`).toBeGreaterThan(40)
       }
     }
-    // concept looks have no renders yet, by design
-    for (const look of LOOKS.filter((entry) => entry.status === 'concept')) {
-      expect(renderSrc('first-floor', 'entry', look.key)).toBeUndefined()
-    }
+    expect(LOOKS.every((look) => look.status === 'rendered')).toBe(true)
   })
 
   it('ships the first-floor cost table', () => {

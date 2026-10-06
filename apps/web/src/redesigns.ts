@@ -1,12 +1,12 @@
-// Whole-house redesign gallery data: the 9 design looks, the 19 rendered rooms,
+// Whole-house redesign gallery data: the 14 design looks, the 19 rendered rooms,
 // the first-floor cost table, and the resolver that maps a room/look pair to its
 // web-sized render in `assets/renders-web/` (built by `npm run build:renders`).
 //
-// Room `status` drives the "Draft renders" badge: every room starts as 'draft'
-// until its renders are regenerated against docs/render-audit.md — flip a room
-// to 'final' here once its redo lands.
+// Room `status` summarizes the complete set. The gallery uses render-qa.json
+// to identify retained earlier variants among the currently selected looks.
 
 import { REFERENCE_PHOTOS, type ReferencePhoto } from './reference'
+import reviewedRenders from './render-qa.json'
 
 export type FloorKey = 'first-floor' | 'second-floor' | 'third-floor' | 'penthouse'
 export type LookGroup = 'Modern, budget' | 'Five-star hotel' | 'New directions'
@@ -146,9 +146,9 @@ export const LOOKS: RedesignLook[] = [
       build: 'Stone fabrication dominates the budget; everything else is upholstery and veneer. Phase stone by floor to spread cost.',
     },
   },
-  // ---- New directions (concept looks — renders pending; see docs/new-looks-brief.md) ----
+  // ---- New directions (photo-based renders; see docs/new-looks-brief.md) ----
   {
-    key: 'heritage', name: 'Georgetown Heritage', group: 'New directions', swatch: '#2f4538', status: 'concept',
+    key: 'heritage', name: 'Georgetown Heritage', group: 'New directions', swatch: '#2f4538', status: 'rendered',
     description: 'Racing-green paneled millwork, cream plaster walls, dark herringbone oak, unlacquered brass, oxblood leather, roman shades.',
     story: {
       why: 'The house is literally the Georgetown package on a brick federal-style townhouse — this leans into that DNA: DC rowhouse tradition done young, with full-height paneling and inky green instead of inherited antiques.',
@@ -158,7 +158,7 @@ export const LOOKS: RedesignLook[] = [
     },
   },
   {
-    key: 'paris', name: 'Paris Apartment', group: 'New directions', swatch: '#ede7db', status: 'concept',
+    key: 'paris', name: 'Paris Apartment', group: 'New directions', swatch: '#ede7db', status: 'rendered',
     description: 'Chevron white-oak floors, white walls with applied moulding, curved furniture, bouclé, aged mirror, plaster and antique-brass lighting.',
     story: {
       why: 'The 10-foot ceilings, tall windows and curved stair already read Haussmann — this works with the architecture instead of against it, Paris 7th arrondissement by way of Maryland.',
@@ -168,7 +168,7 @@ export const LOOKS: RedesignLook[] = [
     },
   },
   {
-    key: 'crownloft', name: 'Crown Loft', group: 'New directions', swatch: '#8b5a3c', status: 'concept',
+    key: 'crownloft', name: 'Crown Loft', group: 'New directions', swatch: '#8b5a3c', status: 'rendered',
     description: 'Blackened steel, cognac leather, brick-tone feature walls, walnut slabs, concrete-look surfaces, factory glass and cage lighting.',
     story: {
       why: 'It is an urban brick townhouse on a walkable mixed-use block — the loft look makes it feel like a converted-warehouse penthouse and matches the gym/media energy of the entry level.',
@@ -178,7 +178,7 @@ export const LOOKS: RedesignLook[] = [
     },
   },
   {
-    key: 'canyon', name: 'Canyon Modern', group: 'New directions', swatch: '#c06b43', status: 'concept',
+    key: 'canyon', name: 'Canyon Modern', group: 'New directions', swatch: '#c06b43', status: 'rendered',
     description: 'Hand-troweled warm plaster, rust/ochre/sand palette, travertine and limestone, black-stained oak, woven leather, sculptural pottery.',
     story: {
       why: 'Brings permanent golden hour to a four-story stack of rooms — hotter and more sculptural than Sage & clay, with arches and niches where the plan already curves.',
@@ -188,7 +188,7 @@ export const LOOKS: RedesignLook[] = [
     },
   },
   {
-    key: 'deco', name: 'Jewel Box Deco', group: 'New directions', swatch: '#0f5c4e', status: 'concept',
+    key: 'deco', name: 'Jewel Box Deco', group: 'New directions', swatch: '#0f5c4e', status: 'rendered',
     description: 'Emerald and oxblood velvet, fluted walnut and burl, polished brass, black marble, graphic stone floors, globe lighting.',
     story: {
       why: 'The entertaining thesis: the curved stair and arched openings are natural Deco moments, so the house becomes the cocktail bar everyone wants to be invited back to.',
@@ -205,28 +205,28 @@ export const RENDERED_LOOKS: RedesignLook[] = LOOKS.filter((look) => look.status
 
 export const ROOMS: RedesignRoom[] = [
   // Entry level
-  { key: 'entry', floor: 'first-floor', name: 'Entrance gallery', dims: 'Two-story, open to above', photoId: 'first-floor-entrance-gallery-and-spiral-staircase', portrait: true, status: 'draft', note: 'Facing glass double doors to the office and studio, the arch into the center hall, curved stair beyond, balcony overhead. The polka-dot wallpaper, cherry floor and white spindles go.' },
-  { key: 'gym', floor: 'first-floor', name: 'Studio gym', dims: "11'-11\" × 13'-1\"", photoId: 'first-floor-studio-room', status: 'draft', note: 'Wine wall and ladder come out for a full mirror wall, rack and dumbbells. Rubber floor takes dropped weights; 9\' ceiling means a wall-mount folding rack.' },
+  { key: 'entry', floor: 'first-floor', name: 'Entrance gallery', dims: 'Two-story, open to above', photoId: 'first-floor-entrance-gallery-and-spiral-staircase', portrait: true, status: 'final', note: 'Facing glass double doors to the office and studio, the arch into the center hall, curved stair beyond, balcony overhead. The polka-dot wallpaper, cherry floor and white spindles go.' },
+  { key: 'gym', floor: 'first-floor', name: 'Studio gym', dims: "11'-11\" × 13'-1\"", photoId: 'first-floor-studio-room', status: 'final', note: 'Wine wall and ladder come out for a full mirror wall, rack and dumbbells. Rubber floor takes dropped weights; 9\' ceiling means a wall-mount folding rack.' },
   { key: 'media', floor: 'first-floor', name: 'Media room', dims: "15'-1\" × 11'-1\"", photoId: 'first-floor-media-room', status: 'draft', note: 'Keeps the tray ceiling, street window and U-sectional. The right wall becomes the TV wall with in-ceiling or in-wall Sonos.' },
-  { key: 'office', floor: 'first-floor', name: 'Home office', dims: "15'-5\" × 12'-11\"", photoId: 'first-floor-home-office', status: 'draft', note: 'Corner windows stay. The left wall becomes the full built-in the plan already shows as an option.' },
+  { key: 'office', floor: 'first-floor', name: 'Home office', dims: "15'-5\" × 12'-11\"", photoId: 'first-floor-home-office', status: 'final', note: 'Corner windows stay. The left wall becomes the full built-in the plan already shows as an option.' },
   { key: 'bath', floor: 'first-floor', name: 'Bath #3', dims: "Full bath, approx. 6' × 9'", photoId: null, portrait: true, status: 'draft', note: 'No model-home photo; built from the plan. Vanity and toilet on the garage-side wall, corner shower with a bench.' },
   // Main level
-  { key: 'great', floor: 'second-floor', name: 'Great room', dims: 'Fireplace, balcony doors', photoId: 'second-floor-great-room', status: 'draft', note: 'French doors to the balcony, linear gas fireplace and the high transom window stay. The fireplace surround is where each look spends its money.' },
-  { key: 'kitchen', floor: 'second-floor', name: 'Kitchen', dims: 'Waterfall island, 4 stools', photoId: 'second-floor-main-kitchen-2', status: 'draft', note: 'Same footprint and island. New cabinet fronts, counters, backsplash, hood and pendants; the appliances get replaced too.' },
-  { key: 'dining', floor: 'second-floor', name: 'Formal dining', dims: 'Seats eight', photoId: 'second-floor-formal-dining', status: 'draft', note: 'Arched window and corner windows stay. Table, chandelier and sideboard change with each look.' },
-  { key: 'sunroom', floor: 'second-floor', name: 'Sun room', dims: 'Breakfast nook', photoId: 'second-floor-sun-room', status: 'draft', note: 'Wraparound windows and the wall-oven column stay; the column gets new fronts to match the kitchen.' },
-  { key: 'stair2', floor: 'second-floor', name: 'Stair hall', dims: 'Curved stair', photoId: 'second-floor-spiral-staircase', status: 'draft', note: 'Same curved stair. New treads, handrail and balusters or paint, plus runner and lighting.' },
+  { key: 'great', floor: 'second-floor', name: 'Great room', dims: 'Fireplace, balcony doors', photoId: 'second-floor-great-room', status: 'final', note: 'French doors to the balcony, linear gas fireplace and both high transom windows stay. The TV sits above the fireplace. The fireplace surround is where each look spends its money.' },
+  { key: 'kitchen', floor: 'second-floor', name: 'Kitchen', dims: 'Waterfall island, 4 stools', photoId: 'second-floor-main-kitchen-2', status: 'final', note: 'Same footprint and island. New cabinet fronts, counters, backsplash, hood and pendants; the appliances get replaced too.' },
+  { key: 'dining', floor: 'second-floor', name: 'Formal dining', dims: 'Seats eight', photoId: 'second-floor-formal-dining', status: 'final', note: 'Arched window and corner windows stay. Table, chandelier and sideboard change with each look.' },
+  { key: 'sunroom', floor: 'second-floor', name: 'Sun room', dims: 'Breakfast nook', photoId: 'second-floor-sun-room', status: 'final', note: 'Wraparound windows and the wall-oven column stay; the column gets new fronts to match the kitchen.' },
+  { key: 'stair2', floor: 'second-floor', name: 'Stair hall', dims: 'Curved stair', photoId: 'second-floor-spiral-staircase', status: 'final', note: 'Quarter-turn stair, intermediate landing and open well continuing down stay. New treads, handrail and balusters or paint, plus runner and lighting.' },
   // Bedroom level
-  { key: 'ownerbed', floor: 'third-floor', name: "Owner's bedroom", dims: 'Row of windows', photoId: 'third-floor-master-bedroom', status: 'draft', note: 'Window wall and bed wall stay; carpet comes out for wood in every look.' },
-  { key: 'retreat', floor: 'third-floor', name: "Owner's retreat", dims: 'Coffee + wine bar', photoId: 'third-floor-master-bedroom-owners-retreat', status: 'draft', note: 'The existing coffee bar with sink and wine fridge stays in place with new cabinets and counter.' },
-  { key: 'ownerbath', floor: 'third-floor', name: "Owner's bath", dims: 'Tub, walk-in shower, double vanity', photoId: 'third-floor-master-bedroom-bath', status: 'draft', note: 'Freestanding tub on the feature wall, glass shower, long double vanity. Heated floor in every look.' },
-  { key: 'bed3', floor: 'third-floor', name: 'Bedroom 3', dims: 'Corner windows', photoId: 'third-floor-bedroom-3', status: 'draft', note: 'Corner windows stay; the magenta valance and drapes go.' },
+  { key: 'ownerbed', floor: 'third-floor', name: "Owner's bedroom", dims: 'Row of windows', photoId: 'third-floor-master-bedroom', status: 'final', note: 'Window wall and bed wall stay; carpet comes out for wood in every look.' },
+  { key: 'retreat', floor: 'third-floor', name: "Owner's retreat", dims: 'Coffee + wine bar', photoId: 'third-floor-master-bedroom-owners-retreat', status: 'final', note: 'The existing coffee bar with sink and wine fridge stays in place with new cabinets and counter.' },
+  { key: 'ownerbath', floor: 'third-floor', name: "Owner's bath", dims: 'Tub, walk-in shower, double vanity', photoId: 'third-floor-master-bedroom-bath', status: 'final', note: 'Freestanding tub on the feature wall, glass shower, long double vanity. Heated floor in every look.' },
+  { key: 'bed3', floor: 'third-floor', name: 'Bedroom 3', dims: 'Corner windows', photoId: 'third-floor-bedroom-3', status: 'final', note: 'Corner windows stay; the magenta valance and drapes go.' },
   { key: 'sharedbath', floor: 'third-floor', name: 'Shared bath', dims: 'Jack-and-Jill, bedrooms 2 + 3', photoId: 'third-floor-shared-bath-bedroom-2-3', status: 'draft', note: 'Double vanity between bedrooms 2 and 3. Heated floor planned here too.' },
-  { key: 'laundry', floor: 'third-floor', name: 'Laundry', dims: 'New washer + dryer', photoId: 'third-floor-laundry-room', status: 'draft', note: 'Sink run and windows stay. New side-by-side front-loaders with a folding counter over them.' },
+  { key: 'laundry', floor: 'third-floor', name: 'Laundry', dims: 'New washer + dryer', photoId: 'third-floor-laundry-room', status: 'final', note: 'Sink and both windows stay on the left wall; machines stay on the right. New side-by-side front-loaders with a folding counter over them.' },
   // Penthouse
-  { key: 'loft', floor: 'penthouse', name: 'Penthouse loft', dims: 'Wet bar, terrace doors', photoId: 'fourth-floor-penthouse-loft', status: 'draft', note: 'Tray ceiling, wet bar and both sets of terrace doors stay.' },
-  { key: 'bed5', floor: 'penthouse', name: 'Bedroom 5', dims: 'New build', photoId: 'fourth-floor-penthouse-bedroom-5', status: 'draft', note: '708 has no Bedroom 5 yet. The photo is the version Wormald built in the model home; the renders show how it could look once added.' },
-  { key: 'terrace', floor: 'penthouse', name: 'Roof terrace', dims: 'Pergola, fire feature', photoId: 'fourth-floor-outdoor-living-terrace-and-sun-terrace-3', status: 'draft', note: 'Pergola, railings and the fire wall stay. Each look translated into outdoor materials, with deck speakers planned.' },
+  { key: 'loft', floor: 'penthouse', name: 'Penthouse loft', dims: 'Wet bar, terrace doors', photoId: 'fourth-floor-penthouse-loft', status: 'final', note: 'Tray ceiling, wet bar and both sets of terrace doors stay.' },
+  { key: 'bed5', floor: 'penthouse', name: 'Bedroom 5', dims: 'New build', photoId: 'fourth-floor-penthouse-bedroom-5', status: 'final', note: '708 has no Bedroom 5 yet. The photo is the version Wormald built in the model home; the renders show how it could look once added.' },
+  { key: 'terrace', floor: 'penthouse', name: 'Roof terrace', dims: 'Pergola, fire feature', photoId: 'fourth-floor-outdoor-living-terrace-and-sun-terrace-3', status: 'final', note: 'Pergola, railings and the fire wall stay. Each look translated into outdoor materials, with deck speakers planned.' },
 ]
 
 export interface CostRow {
@@ -269,6 +269,11 @@ export function renderSrc(floor: FloorKey, roomKey: string, lookKey: string): st
   return renderIndex.get(`${floor}/${roomKey}-${lookKey}`)
 }
 
+const reviewedRenderIndex = new Set(reviewedRenders)
+export function isRenderReviewed(floor: FloorKey, roomKey: string, lookKey: string): boolean {
+  return reviewedRenderIndex.has(`${floor}/${roomKey}-${lookKey}`)
+}
+
 export function roomsOnFloor(floor: FloorKey): RedesignRoom[] {
   return ROOMS.filter((room) => room.floor === floor)
 }
@@ -280,3 +285,20 @@ export function modelPhoto(room: RedesignRoom): ReferencePhoto | null {
 }
 
 export const RENDER_COUNT = ROOMS.length * RENDERED_LOOKS.length
+
+const videoModules = import.meta.glob<string>(
+  '../../../assets/renders-video/*/*.mp4',
+  { eager: true, query: '?url', import: 'default' },
+)
+
+/** Local, approved clips are optional when only the image bundle is installed. */
+export function videoSrc(floor: FloorKey, roomKey: string, lookKey = 'modern'): string | undefined {
+  return videoModules[`../../../assets/renders-video/${floor}/${roomKey}-${lookKey}.mp4`]
+}
+
+export const TOUR_ORDER: Record<FloorKey, string[]> = {
+  'first-floor': ['entry', 'office', 'media', 'gym', 'bath'],
+  'second-floor': ['dining', 'kitchen', 'sunroom', 'great', 'stair2'],
+  'third-floor': ['ownerbed', 'retreat', 'ownerbath', 'bed3', 'sharedbath', 'laundry'],
+  penthouse: ['loft', 'bed5', 'terrace'],
+}

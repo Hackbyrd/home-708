@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
+import RedesignVideos from './RedesignVideos.vue'
 import {
   FIRST_FLOOR_COSTS,
   FLOORS,
   LOOKS,
   LOOK_GROUPS,
+  isRenderReviewed,
   modelPhoto,
   renderSrc,
   roomsOnFloor,
@@ -60,7 +62,7 @@ const roomCards = computed<RoomCard[]>(() =>
       dims: room.dims,
       note: room.note,
       portrait: room.portrait ?? false,
-      draft: room.status === 'draft',
+      draft: visibleLooks.value.some((entry) => !isRenderReviewed(room.floor, room.key, entry.key)),
       images,
       pending,
     }
@@ -171,11 +173,13 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
           </dl>
         </aside>
 
+        <RedesignVideos v-if="look === null || look === 'modern'" :floor="floor" />
+
         <section v-for="card in roomCards" :key="card.key" class="redesign-room">
           <header>
             <h3>{{ card.name }}</h3>
             <span class="room-dims">{{ card.dims }}</span>
-            <span v-if="card.draft" class="draft-badge" title="These renders are being regenerated against docs/render-audit.md">Draft renders</span>
+            <span v-if="card.draft" class="draft-badge" title="Some original look variants are retained from the earlier render set">Includes earlier renders</span>
           </header>
           <p class="room-note">{{ card.note }}</p>
           <div class="photo-grid" :class="{ 'portrait-grid': card.portrait }">

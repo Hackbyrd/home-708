@@ -17,3 +17,9 @@ npm-debug.log*
 legal/
 # full-size AI renders stay local; the app ships the webp copies in assets/renders-web/
 assets/renders/
+assets/render-candidates/
+assets/renders-archive/
+# Ship approved MP4s so clean CI checkouts include the video gallery.
+assets/renders-video/**
+!assets/renders-video/*/
+!assets/renders-video/*/*.mp4
