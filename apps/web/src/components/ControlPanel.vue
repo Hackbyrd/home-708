@@ -125,6 +125,7 @@ function chooseFile(event: Event) {
     <section>
       <h2>Reference</h2>
       <button class="wide-button reference-button" :class="{ active: ui.referenceOpen }" @click="ui.referenceOpen = !ui.referenceOpen">▣ Photos &amp; blueprint</button>
+      <button class="wide-button renders-button" :class="{ active: ui.redesignsOpen }" @click="ui.redesignsOpen = !ui.redesignsOpen">✦ Renders</button>
     </section>
 
     <section>

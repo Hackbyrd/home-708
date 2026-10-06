@@ -4,6 +4,8 @@ import {
   FIRST_FLOOR_COSTS,
   FLOORS,
   LOOKS,
+  LOOK_GROUPS,
+  RENDERED_LOOKS,
   RENDER_COUNT,
   ROOMS,
   modelPhoto,
@@ -12,9 +14,10 @@ import {
 } from '../apps/web/src/redesigns'
 
 describe('redesign gallery data', () => {
-  it('defines 19 rooms across 4 floors and 9 looks', () => {
+  it('defines 19 rooms across 4 floors, 9 rendered looks and 5 concepts', () => {
     expect(ROOMS).toHaveLength(19)
-    expect(LOOKS).toHaveLength(9)
+    expect(LOOKS).toHaveLength(14)
+    expect(RENDERED_LOOKS).toHaveLength(9)
     expect(FLOORS).toHaveLength(4)
     expect(RENDER_COUNT).toBe(171)
     expect(roomsOnFloor('first-floor')).toHaveLength(5)
@@ -23,10 +26,10 @@ describe('redesign gallery data', () => {
     expect(roomsOnFloor('penthouse')).toHaveLength(3)
   })
 
-  it('resolves every room/look pair to a bundled webp render (19 x 9 = 171)', () => {
+  it('resolves every room/rendered-look pair to a bundled webp render (19 x 9 = 171)', () => {
     let resolved = 0
     for (const room of ROOMS) {
-      for (const look of LOOKS) {
+      for (const look of RENDERED_LOOKS) {
         const src = renderSrc(room.floor, room.key, look.key)
         expect(src, `${room.floor}/${room.key}-${look.key}`).toBeTruthy()
         expect(src).toMatch(/\.webp$/)
@@ -49,11 +52,23 @@ describe('redesign gallery data', () => {
     expect(ROOMS.filter((room) => !room.photoId).map((room) => room.key)).toEqual(['bath'])
   })
 
-  it('keeps looks unique and grouped', () => {
-    expect(new Set(LOOKS.map((look) => look.key)).size).toBe(9)
+  it('keeps looks unique, grouped, and fully storied', () => {
+    expect(new Set(LOOKS.map((look) => look.key)).size).toBe(14)
     expect(LOOKS.filter((look) => look.group === 'Modern, budget')).toHaveLength(5)
     expect(LOOKS.filter((look) => look.group === 'Five-star hotel')).toHaveLength(4)
-    for (const look of LOOKS) expect(look.swatch).toMatch(/^#[0-9a-f]{6}$/i)
+    expect(LOOKS.filter((look) => look.group === 'New directions')).toHaveLength(5)
+    expect(LOOK_GROUPS).toHaveLength(3)
+    for (const look of LOOKS) {
+      expect(look.swatch).toMatch(/^#[0-9a-f]{6}$/i)
+      // every look carries its full design narrative for the design-build binder
+      for (const field of ['why', 'feel', 'signature', 'build'] as const) {
+        expect(look.story[field].length, `${look.key}.story.${field}`).toBeGreaterThan(40)
+      }
+    }
+    // concept looks have no renders yet, by design
+    for (const look of LOOKS.filter((entry) => entry.status === 'concept')) {
+      expect(renderSrc('first-floor', 'entry', look.key)).toBeUndefined()
+    }
   })
 
   it('ships the first-floor cost table', () => {

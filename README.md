@@ -27,11 +27,14 @@ four-page `assets/cf_city_home_with_georgetown_pkg.pdf` floor plan package.
 Vite bundles both straight from `assets/`, so dropping another `.webp` into
 that folder adds it to the gallery on the next build.
 
-The viewer's third tab, **Redesigns**, is the whole-house redesign gallery:
-pick a floor, see each room's model-home photo next to one render per design
-look (19 rooms × 9 looks), filter to a single look, and click any image for
-the lightbox (arrow keys / Escape). The Entry level also shows the
-first-floor cost table. Room, look and cost data live in
+The **✦ Renders** button below it opens the whole-house redesign gallery as
+its own full page (also reachable at `#/renders`): pick a floor, see each
+room's model-home photo next to one render per design look (19 rooms × 9
+rendered looks, plus 5 concept looks awaiting generation — see
+`docs/new-looks-brief.md`), filter to a single look to read its design story
+(why, feel, signature moves, build notes), and click any image for the
+lightbox (arrow keys / Escape). The Entry level also shows the first-floor
+cost table. Room, look, story and cost data live in
 `apps/web/src/redesigns.ts`.
 
 Renders are served from `assets/renders-web/` (webp, max 1600 px, committed).
