@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "dev": "npm run dev -w @city-home/web",
+    "build:renders": "node scripts/build-renders.mjs",
     "dev:full": "concurrently -n web,server -c cyan,magenta \"npm run dev -w @city-home/web\" \"npm run dev -w @city-home/server\"",
     "build": "npm run build -w @city-home/shared && npm run build -w @city-home/scene && npm run build -w @city-home/web && npm run build -w @city-home/server",
     "build:cloudflare": "npm run build -w @city-home/shared && npm run build -w @city-home/scene && npm run build -w @city-home/web",
@@ -39,6 +40,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-vue": "^10.10.0",
     "prettier": "^3.9.6",
+    "sharp": "^0.35.5",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.65.0",
     "vitest": "^4.1.10",

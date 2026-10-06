@@ -27,6 +27,21 @@ four-page `assets/cf_city_home_with_georgetown_pkg.pdf` floor plan package.
 Vite bundles both straight from `assets/`, so dropping another `.webp` into
 that folder adds it to the gallery on the next build.
 
+The viewer's third tab, **Redesigns**, is the whole-house redesign gallery:
+pick a floor, see each room's model-home photo next to one render per design
+look (19 rooms × 9 looks), filter to a single look, and click any image for
+the lightbox (arrow keys / Escape). The Entry level also shows the
+first-floor cost table. Room, look and cost data live in
+`apps/web/src/redesigns.ts`.
+
+Renders are served from `assets/renders-web/` (webp, max 1600 px, committed).
+The full-size originals live in `assets/renders/<floor>/<room>-<look>.(png|jpg)`
+on the local machine only (gitignored). After adding or regenerating originals,
+run `npm run build:renders` to refresh the web copies — it is incremental and
+only converts files whose source changed. Rooms show a "Draft renders" badge
+until their renders are regenerated per `docs/render-audit.md`; flip a room's
+`status` to `'final'` in `redesigns.ts` to clear it.
+
 ## Quality checks
 
 The View section includes Smooth, Balanced and Detailed graphics presets.

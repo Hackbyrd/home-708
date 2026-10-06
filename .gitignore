@@ -15,3 +15,5 @@ apps/server/data/layouts/*.json
 npm-debug.log*
 *.tsbuildinfo
 legal/
+# full-size AI renders stay local; the app ships the webp copies in assets/renders-web/
+assets/renders/
