@@ -1,0 +1,242 @@
+{
+  "date": "2026-10-06",
+  "feedback": "FB-016",
+  "status": "static_asset_and_browser_checks_passed",
+  "spaces": 24,
+  "views": 45,
+  "revisedSpaces": 14,
+  "newViews": 28,
+  "dimensions": [
+    {
+      "index": 3801,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3803,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3804,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3806,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3900,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3901,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3903,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3905,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3826,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3830,
+      "width": 1696,
+      "height": 2528
+    },
+    {
+      "index": 3820,
+      "width": 1696,
+      "height": 2528
+    },
+    {
+      "index": 3832,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3822,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3934,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3837,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3932,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3841,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3843,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3844,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3940,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3941,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3945,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3924,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3827,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3922,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3953,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3866,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 3881,
+      "width": 2528,
+      "height": 1696
+    }
+  ],
+  "checks": [
+    "Single durable feedback record",
+    "Fourteen revised/added spaces and 28 selected images",
+    "Resolution 3801",
+    "Resolution 3803",
+    "Resolution 3804",
+    "Resolution 3806",
+    "Resolution 3900",
+    "Resolution 3901",
+    "Resolution 3903",
+    "Resolution 3905",
+    "Resolution 3826",
+    "Resolution 3830",
+    "Resolution 3820",
+    "Resolution 3832",
+    "Resolution 3822",
+    "Resolution 3934",
+    "Resolution 3837",
+    "Resolution 3932",
+    "Resolution 3841",
+    "Resolution 3843",
+    "Resolution 3844",
+    "Resolution 3940",
+    "Resolution 3941",
+    "Resolution 3945",
+    "Resolution 3924",
+    "Resolution 3827",
+    "Resolution 3922",
+    "Resolution 3953",
+    "Resolution 3866",
+    "Resolution 3881",
+    "24 spaces in full review",
+    "45 total active review views",
+    "New living room has two views",
+    "entry book matches manifest",
+    "office book matches manifest",
+    "media book matches manifest",
+    "gym book matches manifest",
+    "bath book matches manifest",
+    "great book matches manifest",
+    "kitchen book matches manifest",
+    "dining book matches manifest",
+    "living book matches manifest",
+    "sunroom book matches manifest",
+    "stair2 book matches manifest",
+    "ownerbed book matches manifest",
+    "retreat book matches manifest",
+    "ownerbath book matches manifest",
+    "ownercloset book matches manifest",
+    "bed2 book matches manifest",
+    "bed3 book matches manifest",
+    "sharedbath book matches manifest",
+    "laundry book matches manifest",
+    "stair3 book matches manifest",
+    "loft book matches manifest",
+    "bed5 book matches manifest",
+    "bath4 book matches manifest",
+    "terrace book matches manifest",
+    "entry prior schedule preserved",
+    "office prior schedule preserved",
+    "media prior schedule preserved",
+    "great prior schedule preserved",
+    "kitchen prior schedule preserved",
+    "dining prior schedule preserved",
+    "sunroom prior schedule preserved",
+    "ownerbed prior schedule preserved",
+    "ownerbath prior schedule preserved",
+    "bed2 prior schedule preserved",
+    "bed3 prior schedule preserved",
+    "laundry prior schedule preserved",
+    "bed5 prior schedule preserved",
+    "Bedroom 2 layout conflict recorded",
+    "Exact laundry inscription stored",
+    "Review JavaScript parses",
+    "All generated review assets present"
+  ],
+  "limitations": [
+    "Visual concepts; site dimensions/products unapproved.",
+    "Bedroom 2 entry/closet relationship needs measured plan.",
+    "Living-room geometry inferred from plan and adjacent photograph."
+  ],
+  "browserChecks": [
+    "Four-floor tab navigation and revised images load",
+    "Media M2 lightbox and previous/next controls",
+    "Living room has two loaded views",
+    "Bedroom 2 revised layout and measured-plan concern displayed",
+    "Four-bedroom comparison loads updated r03 image",
+    "Room materials link opens corresponding contractor book section",
+    "Returned to revised entrance gallery"
+  ],
+  "browserScreenshot": "docs/feedback016-living-review.png"
+}

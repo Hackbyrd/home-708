@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import RedesignVideos from './RedesignVideos.vue'
+import DaylightBuildGuide from './DaylightBuildGuide.vue'
+import daylightGuide from '../daylight-build.json'
 import {
   FIRST_FLOOR_COSTS,
   FLOORS,
@@ -49,7 +51,7 @@ const roomCards = computed<RoomCard[]>(() =>
   roomsOnFloor(floor.value).map((room) => {
     const images: RoomImage[] = []
     const photo = modelPhoto(room)
-    if (photo) images.push({ src: photo.src, title: 'Model home · today', eyebrow: room.name })
+    if (photo) images.push({ src: photo.src, title: 'Model home · original reference', eyebrow: room.name })
     let pending = false
     for (const entry of visibleLooks.value) {
       const src = renderSrc(room.floor, room.key, entry.key)
@@ -119,7 +121,7 @@ function onKey(event: KeyboardEvent) {
 
 watch(() => props.open, (open) => { if (!open) closeLightbox() })
 watch([floor, look], () => closeLightbox())
-onMounted(() => window.addEventListener('keydown', onKey))
+onMounted(() => { document.title = 'Explorations · Home 708'; window.addEventListener('keydown', onKey) })
 onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
 </script>
 
@@ -129,16 +131,21 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
     <div v-if="open" class="redesigns-page">
       <header class="redesigns-header glass">
         <div>
-          <p class="eyebrow">708 · Whole-house redesign</p>
-          <h2>Renders</h2>
+          <p class="eyebrow">708 · Design sketchbook</p>
+          <h2>Explorations</h2>
         </div>
         <div class="segmented floor-picker" role="tablist" aria-label="Floor">
           <button v-for="entry in FLOORS" :key="entry.key" role="tab" :aria-selected="floor === entry.key" :class="{ active: floor === entry.key }" @click="floor = entry.key">{{ entry.label }}</button>
         </div>
-        <button class="icon-button" aria-label="Back to the 3D home" @click="emit('close')">×</button>
+        <a class="library-back" href="./renders.html">← Design options</a>
       </header>
 
       <div class="redesigns-body">
+        <aside class="exploration-intro">
+          <strong>Earlier ideas, kept for inspiration.</strong>
+          <p>Compare individual looks, room studies and original Modern home videos. These experiments are not the current whole-house design. <a href="./house-design-review.html#floor-1/entry">View Option 1 · Mineral &amp; Walnut →</a></p>
+          <p class="hint">Build notes and budget ranges here belong to these earlier studies. The latest room decisions and contractor notes live with Option 1.</p>
+        </aside>
         <div class="look-groups" role="group" aria-label="Design look">
           <button class="look-chip" :class="{ active: look === null }" @click="look = null">All rendered looks</button>
           <template v-for="entry in groupedLooks" :key="entry.group">
@@ -174,6 +181,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
         </aside>
 
         <RedesignVideos v-if="look === null || look === 'modern'" :floor="floor" />
+        <DaylightBuildGuide v-if="look === 'daylight'" />
 
         <section v-for="card in roomCards" :key="card.key" class="redesign-room">
           <header>
@@ -199,9 +207,18 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
               <span>{{ activeLook?.name ?? 'Look' }} render — in production</span>
             </div>
           </div>
+          <details v-if="look === 'daylight'" class="daylight-room-spec">
+            <summary>Materials, build-outs and furnishings</summary>
+            <template v-for="spec in daylightGuide.rooms.filter((item) => item.key === card.key)" :key="spec.key">
+              <p><strong>Materials:</strong> {{ spec.materials }}. See the material schedule above.</p>
+              <p><strong>Build:</strong> {{ spec.build }}</p>
+              <p><strong>Furnish and equip:</strong> {{ spec.buy }}</p>
+              <p><strong>Budget choice:</strong> {{ spec.save }}</p>
+            </template>
+          </details>
         </section>
 
-        <section v-if="floor === 'first-floor'" class="cost-section">
+        <section v-if="floor === 'first-floor' && look !== 'daylight'" class="cost-section">
           <h3>First-floor cost ranges · Modern home look</h3>
           <table class="cost-table">
             <thead>
@@ -241,3 +258,14 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
   </Transition>
 </Teleport>
 </template>
+
+<style scoped>
+.library-back { font-size: 12px; white-space: nowrap; color: var(--walnut); text-underline-offset: 4px; }
+.exploration-intro { padding: 18px 20px; margin: 5px 0 20px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); font-size: 13px; line-height: 1.6; }
+.exploration-intro p { margin: 7px 0 0; max-width: 1000px; }
+.exploration-intro a { color: var(--walnut); }
+.daylight-room-spec { margin-top: 14px; max-width: 850px; border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; background: var(--card); font-size: 13px; line-height: 1.65; }
+.daylight-room-spec summary { cursor: pointer; font-weight: 600; }
+.daylight-room-spec p { margin: 12px 0 0; }
+.daylight-room-spec summary:focus-visible { outline: 2px solid var(--brass); outline-offset: 4px; }
+</style>

@@ -1,0 +1,597 @@
+{
+  "settings": {
+    "floorArea": 3000,
+    "gcPercent": 20,
+    "ownerTaxPercent": 6,
+    "logisticsPercent": 5,
+    "contingencyPercent": 15,
+    "includePiano": true
+  },
+  "rows": [
+    {
+      "id": "survey",
+      "room": "shared",
+      "category": "Planning",
+      "phase": 0,
+      "title": "Measured survey, trade/shop drawings and samples",
+      "low": 3000,
+      "high": 5000,
+      "note": "Measured plans and cabinet/electrical coordination; no interior designer, design-build or furniture-procurement fee."
+    },
+    {
+      "id": "permits",
+      "room": "shared",
+      "category": "Planning",
+      "phase": 0,
+      "title": "Permit and trade documentation allowance",
+      "low": 2000,
+      "high": 4000,
+      "note": "Includes allowance for forming Bedroom 5. Actual jurisdictional fees and required documents must be confirmed."
+    },
+    {
+      "id": "protection",
+      "room": "shared",
+      "category": "Construction",
+      "phase": 1,
+      "title": "Protection, mobilization, dry-area waste and final clean",
+      "low": 5000,
+      "high": 10000,
+      "note": "Whole-house coordination and occupied-home protection. Floor removal is in flooring; kitchen/bath demolition is in those room packages."
+    },
+    {
+      "id": "flooring",
+      "room": "shared",
+      "category": "Construction",
+      "phase": 1,
+      "title": "New natural engineered-oak flooring",
+      "low": 33000,
+      "high": 48000,
+      "note": "3,000 net dry-area square feet assumed, not a measured takeoff. Includes material waste, ordinary removal, installation, transitions and routine substrate preparation. Excludes stair treads, wet-room floors and gym rubber.",
+      "quantity": {
+        "value": 3000,
+        "unit": "net sf",
+        "lowRate": 11,
+        "highRate": 16
+      }
+    },
+    {
+      "id": "painting",
+      "room": "shared",
+      "category": "Construction",
+      "phase": 1,
+      "title": "General warm matte paint, ceilings and trim",
+      "low": 18000,
+      "high": 30000,
+      "note": "Whole-house dry areas including Bedroom 5, doors and high gallery access; ordinary prep. Wet-room paint is in bath packages. No stripping hazardous coatings or major wall reconstruction."
+    },
+    {
+      "id": "mineral",
+      "room": "shared",
+      "category": "Construction",
+      "phase": 1,
+      "title": "Selective Roman Clay / mineral finish upgrade",
+      "low": 6000,
+      "high": 10800,
+      "note": "600 wall square feet assumed at an incremental $10–18/sf over general paint. Dry focal walls only; not every wall. Product and applicator sample unselected.",
+      "quantity": {
+        "value": 600,
+        "unit": "wall sf",
+        "lowRate": 10,
+        "highRate": 18
+      }
+    },
+    {
+      "id": "stairs",
+      "room": "shared",
+      "category": "Construction",
+      "phase": 1,
+      "title": "Existing stair/rail finish coordination",
+      "low": 4000,
+      "high": 7000,
+      "note": "Refinish selected treads/rails and paint risers/balusters; retain existing structural stair geometry. No new stair fabrication."
+    },
+    {
+      "id": "electrical",
+      "room": "shared",
+      "category": "Construction",
+      "phase": 1,
+      "title": "Dry-area wiring, light installation, LEDs and controls",
+      "low": 12000,
+      "high": 20000,
+      "note": "About 40 lighting/control points plus 100 ft of diffused LED used as planning scope, not a takeoff. Includes switches, drivers, cable concealment and access. Kitchen/bath/laundry wiring is in room packages; visible fixture purchases are separate. Bedroom 5 rough-in is in its shell package."
+    },
+    {
+      "id": "drape-install",
+      "room": "shared",
+      "category": "Construction",
+      "phase": 3,
+      "title": "Window-treatment installation",
+      "low": 2000,
+      "high": 4000,
+      "note": "Approximately 26 window/door treatment groups; manual tracks only. Fabric and track purchase is separate."
+    },
+    {
+      "id": "entry-build",
+      "room": "entry",
+      "category": "Construction",
+      "phase": 3,
+      "title": "Entrance gallery · fixed work",
+      "low": 1000,
+      "high": 2000,
+      "note": "Lettering, minor entry carpentry and mounting; cascade fixture purchase and electrical labor are shared allowances."
+    },
+    {
+      "id": "office-build",
+      "room": "office",
+      "category": "Construction",
+      "phase": 3,
+      "title": "Home office · fixed work",
+      "low": 10000,
+      "high": 16000,
+      "note": "Approximately 13 linear feet of full-height walnut-veneered fitted storage with mixed open/closed bays and compact printer cabinet. Desk/TV are purchases."
+    },
+    {
+      "id": "media-build",
+      "room": "media",
+      "category": "Construction",
+      "phase": 3,
+      "title": "Media room · fixed work",
+      "low": 6000,
+      "high": 10000,
+      "note": "Quiet TV backing, substantial walnut console and shallow display shelves by clear doors; AV cabling allowance included. No intense full slat wall."
+    },
+    {
+      "id": "gym-build",
+      "room": "gym",
+      "category": "Construction",
+      "phase": 3,
+      "title": "Studio gym · fixed work",
+      "low": 3000,
+      "high": 5000,
+      "note": "Approximately 155 sf resilient floor, safety-backed mirror and quote; existing closet remains. Empty room; no exercise equipment."
+    },
+    {
+      "id": "bath-build",
+      "room": "bath",
+      "category": "Construction",
+      "phase": 2,
+      "title": "Bath #3 · fixed work",
+      "low": 16000,
+      "high": 25000,
+      "note": "Compact full bathroom: demolition, waterproof shower, tile floor/walls, glass, vanity/top, plumbing fixtures, mirror, electrical and installation. Existing service positions."
+    },
+    {
+      "id": "great-build",
+      "room": "great",
+      "category": "Construction",
+      "phase": 3,
+      "title": "Great room · fixed work",
+      "low": 1500,
+      "high": 3000,
+      "note": "Fireplace surround substrate/trim work and TV mount/blocking. Mineral finish, electronics and freestanding consoles are separate. Existing fireplace retained."
+    },
+    {
+      "id": "kitchen-build",
+      "room": "kitchen",
+      "category": "Construction",
+      "phase": 2,
+      "title": "Kitchen · fixed work",
+      "low": 28000,
+      "high": 42000,
+      "note": "Replacement stock/semi-custom cabinet boxes with tailored warm-ivory fronts and walnut island, pale quartz/porcelain counters and backsplash, sink/faucet, demolition, trade connections and installation. Same layout. Appliances and pendants are separate."
+    },
+    {
+      "id": "dining-build",
+      "room": "dining",
+      "category": "Construction",
+      "phase": 3,
+      "title": "Formal dining · fixed work",
+      "low": 1500,
+      "high": 3000,
+      "note": "Shallow walnut wall shelf/cabinet under the high window, conditional on measured clearance. Table/chairs and freestanding sideboard are purchases."
+    },
+    {
+      "id": "living-build",
+      "room": "living",
+      "category": "Construction",
+      "phase": 3,
+      "title": "Living room · piano salon · fixed work",
+      "low": 1000,
+      "high": 2000,
+      "note": "Simple applied wall framing, substrate touchups and mounting. No structural changes or new ceiling."
+    },
+    {
+      "id": "ownerbed-build",
+      "room": "ownerbed",
+      "category": "Construction",
+      "phase": 3,
+      "title": "Owners suite · fixed work",
+      "low": 5000,
+      "high": 9000,
+      "note": "Walnut headwall band, floating bedside pieces and concealed-light support; new bed/dresser are purchases. LED wiring/drivers in shared electrical."
+    },
+    {
+      "id": "retreat-build",
+      "room": "retreat",
+      "category": "Construction",
+      "phase": 3,
+      "title": "Owners retreat · fixed work",
+      "low": 4000,
+      "high": 7000,
+      "note": "Replace small bar cabinetry, pale counter and sink/faucet, retaining services. Beverage fridge purchased separately."
+    },
+    {
+      "id": "ownerbath-build",
+      "room": "ownerbath",
+      "category": "Construction",
+      "phase": 2,
+      "title": "Owners bathroom · fixed work",
+      "low": 32000,
+      "high": 50000,
+      "note": "Full primary bath finishes: demo, waterproofing, porcelain tile, double vanity/top, tub, shower glass, fixtures and plumbing/electrical installation. Same fixture zones. No heated floor in base."
+    },
+    {
+      "id": "ownercloset-build",
+      "room": "ownercloset",
+      "category": "Construction",
+      "phase": 3,
+      "title": "Owners walk-in closet · fixed work",
+      "low": 4000,
+      "high": 7000,
+      "note": "Modular closet interiors with tailored trim/drawer fronts and assembly; no center island."
+    },
+    {
+      "id": "bed2-build",
+      "room": "bed2",
+      "category": "Construction",
+      "phase": 3,
+      "title": "Bedroom 2 · fixed work",
+      "low": 500,
+      "high": 1000,
+      "note": "Simple wall framing/mounting and minor carpentry. Existing door location must be surveyed; no door relocation priced."
+    },
+    {
+      "id": "bed3-build",
+      "room": "bed3",
+      "category": "Construction",
+      "phase": 3,
+      "title": "Bedroom 3 · fixed work",
+      "low": 500,
+      "high": 1000,
+      "note": "Simple wall treatment/mounting and minor carpentry; keep window and bed relationships."
+    },
+    {
+      "id": "sharedbath-build",
+      "room": "sharedbath",
+      "category": "Construction",
+      "phase": 2,
+      "title": "Shared bathroom · fixed work",
+      "low": 19000,
+      "high": 29000,
+      "note": "Shared bath with double vanity and separate wet area: replacement finishes, waterproofing, glass, fixtures and all trade installation. Existing service positions."
+    },
+    {
+      "id": "laundry-build",
+      "room": "laundry",
+      "category": "Construction",
+      "phase": 2,
+      "title": "Laundry · fixed work",
+      "low": 4000,
+      "high": 7000,
+      "note": "Replacement utility cabinets, folding counter, sink, floor tile, graphic/quote and appliance/service connection. Washer/dryer purchased separately."
+    },
+    {
+      "id": "loft-build",
+      "room": "loft",
+      "category": "Construction",
+      "phase": 3,
+      "title": "Penthouse lounge · fixed work",
+      "low": 5000,
+      "high": 9000,
+      "note": "Walnut wet-bar cabinetry, counter, sink and connections plus minor trim. Existing tray retained. Fridge and movable console purchased separately."
+    },
+    {
+      "id": "bed5-build",
+      "room": "bed5",
+      "category": "Construction",
+      "phase": 1,
+      "title": "Penthouse guest bedroom · fixed work",
+      "low": 12000,
+      "high": 22000,
+      "note": "NEW room: non-load-bearing partitions, drywall, sound insulation allowance, door/trim, basic closet enclosure, electrical/alarm work and modest HVAC distribution changes inside existing conditioned penthouse. Shared paint/flooring and permit allowance are separate. No exterior expansion or new roof/window opening."
+    },
+    {
+      "id": "bath4-build",
+      "room": "bath4",
+      "category": "Construction",
+      "phase": 2,
+      "title": "Penthouse bathroom · fixed work",
+      "low": 16000,
+      "high": 25000,
+      "note": "Replace compact guest-bath finishes and fixtures in an assumed existing serviced enclosure. If the bathroom shell/services also need building, obtain a separate additional quote."
+    },
+    {
+      "id": "terrace-build",
+      "room": "terrace",
+      "category": "Construction",
+      "phase": 3,
+      "title": "Roof terrace · fixed work",
+      "low": 1000,
+      "high": 2000,
+      "note": "Surface clean/minor touchups and installation of freestanding furnishings/lights. Existing deck, waterproofing, pergola, rails and fireplace retained."
+    },
+    {
+      "id": "entry-furniture",
+      "room": "entry",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Entrance gallery · furniture",
+      "low": 700,
+      "high": 1500,
+      "note": "Small entry table and practical drop-zone storage."
+    },
+    {
+      "id": "office-furniture",
+      "room": "office",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Home office · furniture",
+      "low": 3000,
+      "high": 5000,
+      "note": "Large desk, ergonomic task chair and two visitor chairs; printer excluded."
+    },
+    {
+      "id": "media-furniture",
+      "room": "media",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Media room · furniture",
+      "low": 7000,
+      "high": 12000,
+      "note": "Deep Cloud-style modular sofa, ottomans and substantial rug. Retail comfort-level allowance; exact RH selection may exceed it."
+    },
+    {
+      "id": "great-furniture",
+      "room": "great",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Great room · furniture",
+      "low": 10000,
+      "high": 16000,
+      "note": "Ivory modular sofa, two chairs, walnut pair of consoles, coffee/side tables and large rug."
+    },
+    {
+      "id": "kitchen-furniture",
+      "room": "kitchen",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Kitchen · furniture",
+      "low": 1200,
+      "high": 2400,
+      "note": "Four upholstered counter stools."
+    },
+    {
+      "id": "dining-furniture",
+      "room": "dining",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Formal dining · furniture",
+      "low": 5000,
+      "high": 9000,
+      "note": "Rectangular table, TEN chairs and walnut sideboard. Ten-seat fit remains conditional on measured chair pullback."
+    },
+    {
+      "id": "living-furniture",
+      "room": "living",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Living room · piano salon · furniture",
+      "low": 7000,
+      "high": 12000,
+      "note": "Ivory Cloud-style sofa, individual chair, tables and rug. Piano has its own optional line."
+    },
+    {
+      "id": "sunroom-furniture",
+      "room": "sunroom",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Sunroom · furniture",
+      "low": 2500,
+      "high": 4000,
+      "note": "Six-seat rectangular table and six chairs."
+    },
+    {
+      "id": "ownerbed-furniture",
+      "room": "ownerbed",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Owners suite · furniture",
+      "low": 8000,
+      "high": 13000,
+      "note": "New upholstered platform bed, mattress, bench, walnut dresser, loose rug and linens. Floating bedside pieces priced as construction."
+    },
+    {
+      "id": "retreat-furniture",
+      "room": "retreat",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Owners retreat · furniture",
+      "low": 2000,
+      "high": 3500,
+      "note": "Two lounge chairs/chaise seats and small side table."
+    },
+    {
+      "id": "bed2-furniture",
+      "room": "bed2",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Bedroom 2 · furniture",
+      "low": 3000,
+      "high": 5000,
+      "note": "New bed, mattress, bedside pieces, small desk/chair, storage, loose rug and linens."
+    },
+    {
+      "id": "bed3-furniture",
+      "room": "bed3",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Bedroom 3 · furniture",
+      "low": 3000,
+      "high": 5000,
+      "note": "New bed, mattress, bedside pieces, dresser, loose rug and linens."
+    },
+    {
+      "id": "loft-furniture",
+      "room": "loft",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Penthouse lounge · furniture",
+      "low": 7000,
+      "high": 11000,
+      "note": "Modular sofa, walnut console, tables, rug and bar seating."
+    },
+    {
+      "id": "bed5-furniture",
+      "room": "bed5",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Penthouse guest bedroom · furniture",
+      "low": 3000,
+      "high": 5000,
+      "note": "New guest bed/mattress, walnut storage/bedside pieces, loose rug and linens."
+    },
+    {
+      "id": "terrace-furniture",
+      "room": "terrace",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Roof terrace · furniture",
+      "low": 5000,
+      "high": 8000,
+      "note": "Outdoor dining set, lounge seating, small tables and weather-rated cushions."
+    },
+    {
+      "id": "fixtures",
+      "room": "shared",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Decorative lighting and lamps",
+      "low": 8000,
+      "high": 14000,
+      "note": "Entry cascade, kitchen/dining/sunroom pendants, bathroom decorative lights, sconces and portable lamps across rooms. Electrical labor in construction; LED tape/drivers there too."
+    },
+    {
+      "id": "drapes",
+      "room": "shared",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Drapery, tracks and blackout layers",
+      "low": 8000,
+      "high": 14000,
+      "note": "26 treatment groups assumed. Manual, ready-made or semi-custom ivory sheers; blackout/privacy in bedrooms and media. Includes hardware; installation separate. Motorization and fully bespoke workroom drapes excluded."
+    },
+    {
+      "id": "decor",
+      "room": "shared",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Artwork, frames, plants and accessories",
+      "low": 4000,
+      "high": 7000,
+      "note": "House-wide allowance, including sibling great-room art, bedroom and bathroom art. These are not also in room furniture rows."
+    },
+    {
+      "id": "appliances",
+      "room": "shared",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "Kitchen, laundry and two bar refrigerators",
+      "low": 14000,
+      "high": 22000,
+      "note": "New kitchen refrigerator, cooktop, hood, wall oven/microwave and dishwasher; washer/dryer and two small beverage refrigerators. Connections in construction."
+    },
+    {
+      "id": "av",
+      "room": "shared",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "TVs, soundbars and compatible cinema audio",
+      "low": 9000,
+      "high": 15000,
+      "note": "83-inch media display, great-room TV, 55-inch owner TV and office TV, plus soundbars and compatible rear/ceiling audio. Final cinema topology must be chosen before wiring. No whole-house audio system."
+    },
+    {
+      "id": "piano",
+      "room": "living",
+      "category": "Owner purchases",
+      "phase": 4,
+      "title": "New compact baby grand piano",
+      "low": 12000,
+      "high": 22000,
+      "note": "Dealer-quote allowance, not a verified model price. Specialist delivery/tuning covered by shared logistics. Confirm footprint and upper-floor delivery route."
+    }
+  ],
+  "planning": {
+    "low": 5000,
+    "high": 9000
+  },
+  "construction": {
+    "low": 251000,
+    "high": 406800
+  },
+  "purchases": {
+    "low": 122400,
+    "high": 206400
+  },
+  "gc": {
+    "low": 50200,
+    "high": 81360
+  },
+  "tax": {
+    "low": 7344,
+    "high": 12384
+  },
+  "logistics": {
+    "low": 6120,
+    "high": 10320
+  },
+  "subtotal": {
+    "low": 442064,
+    "high": 726264
+  },
+  "reserve": {
+    "low": 66309.6,
+    "high": 108939.6
+  },
+  "total": {
+    "low": 508373.6,
+    "high": 835203.6
+  },
+  "phases": [
+    {
+      "id": 0,
+      "low": 5750,
+      "high": 10350
+    },
+    {
+      "id": 1,
+      "low": 124200,
+      "high": 203964
+    },
+    {
+      "id": 2,
+      "low": 158700,
+      "high": 245640
+    },
+    {
+      "id": 3,
+      "low": 63480,
+      "high": 111780
+    },
+    {
+      "id": 4,
+      "low": 156243.6,
+      "high": 263469.60000000003
+    }
+  ]
+}

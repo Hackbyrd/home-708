@@ -1,0 +1,963 @@
+{
+  "started": "2026-10-06",
+  "provider": "Higgsfield API",
+  "model": "nano_banana_2_1",
+  "imageCostCredits": 2,
+  "status": "complete",
+  "look": "daylight",
+  "jobs": [
+    {
+      "index": 2000,
+      "room": "great",
+      "floor": "second-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/second-floor-great-room.jpg.webp",
+      "output": "assets/renders/second-floor/great-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Keep wide glazed terrace doors and their transom on the LEFT. On the fireplace wall preserve BOTH high horizontal transoms, one left and one right of the centered chimney chase, equal wall widths, linear gas fireplace, crown and flat ceiling. Deliberate owner change: move the television ABOVE the fireplace, between the transoms; remove the old TV on the right. Do not block either transom.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Tailored ivory performance-fabric sofa in original sofa zone, two softly curved camel-taupe lounge chairs in source chair positions, medium-smoked oak oval coffee table, large wool-look oatmeal rug with subtle border. Clad EXISTING fireplace chase only with calm matte limestone-look porcelain rectangles, small aligned grout joints; matching low oak storage either side only below the transoms. One oversized abstract artwork away from TV, bronze floor lamp, edited cushions in tobacco and stone."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "08c98dd0-5660-4dc8-ac18-c78ef404ef2e",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213801_08c98dd0-5660-4dc8-ac18-c78ef404ef2e.png",
+      "candidate": "assets/render-candidates/daylight/2000-great.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "Both high transoms retained, TV above fireplace, source terrace doors and proportions preserved.",
+      "delivered": true
+    },
+    {
+      "index": 2001,
+      "room": "kitchen",
+      "floor": "second-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/second-floor-main-kitchen-2.jpg.webp",
+      "output": "assets/renders/second-floor/kitchen-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "211301c7-6056-4dd5-b821-e1f67a48b99a"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Keep exact L-run, window above left counter, cooktop and stainless chimney hood centered on rear cabinet wall, glass-front upper positions, and especially the visible stainless microwave/OVEN COLUMN at the RIGHT END of that wall before the sunroom. Island orientation, sink, four stools along its right side and arches all stay. Keep the oven column visible; never replace it with a blank cabinet. Refrigerator remains at far left.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Warm mushroom-greige slim-Shaker perimeter fronts, restrained satin-nickel pulls, pale NATURAL oak veneer island front with a smooth simple profile, cream low-movement quartz on existing waterfall island and counters, warm off-white porcelain backsplash in large quiet rectangles. Existing stainless chimney hood stays. Four comfortable camel upholstered stools with slim dark wood legs, two simple large opal-glass pendant lights on brushed bronze stems. Under-cabinet warm task light. No all-marble walls or elaborate hood rebuild."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "8d1d46c3-6550-4e81-a0a4-5bb371ec847b",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213801_8d1d46c3-6550-4e81-a0a4-5bb371ec847b.png",
+      "candidate": "assets/render-candidates/daylight/2001-kitchen.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "Original L-run, hood, island and visible right oven/microwave column retained.",
+      "delivered": true
+    },
+    {
+      "index": 2002,
+      "room": "bed3",
+      "floor": "third-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/third-floor-bedroom-3.jpg.webp",
+      "output": "assets/renders/third-floor/bed3-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "53a06728-ea4b-46d2-8d32-343bb19af5fa"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Small 10ft8 by 12ft4 corner bedroom. Headboard stays on the RIGHT wall BETWEEN its TWO sheer-covered windows. Preserve the large two-sash window on the left/front wall; THREE openings total. Same bed position, room size and street view.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Low ivory upholstered bed, small matching pale-oak nightstands, one simple round mirror, textured taupe rug on natural-oak floor, crisp white bedding with one muted tobacco lumbar cushion. Full-height open ivory drapery and discreet roller shade on each original window. Modest-scale retail furniture, clear walking space."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "1f99d84b-f7f8-416f-a88b-01709d4461f5",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213801_1f99d84b-f7f8-416f-a88b-01709d4461f5.png",
+      "candidate": "assets/render-candidates/daylight/2002-bed3.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "Three window openings and bed on right wall preserved.",
+      "delivered": true
+    },
+    {
+      "index": 2003,
+      "room": "terrace",
+      "floor": "penthouse",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/fourth-floor-outdoor-living-terrace-and-sun-terrace-3.jpg.webp",
+      "output": "assets/renders/penthouse/terrace-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "ef0835c5-cfe5-48c3-8844-2b822554e886"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Keep exact source pergola beams and shade sails over dining zone, vertical picket railings, deck levels and existing linear fireplace in the approximately60-inch-high house-side WHITE SHIPLAP PRIVACY WALL at right with art above. Fireplace is never at the view railing and never becomes a fire pit. Preserve nearby mansard-roof townhouse and apartment-block roofscape. Keep original camera and geometry.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Keep pergola, shade sails, string lights, picket railings and existing deck surface. Cohesive teak-look or natural acacia outdoor dining table and comfortable woven taupe chairs, pale weather-resistant lounge cushions, charcoal planters and one small outdoor rug. Keep linear fireplace in existing house-side shiplap privacy wall and art above it; no new fire pit, no new structural deck or parapet. Bright soft daytime with realistic close townhouse rooftops."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "c69381a4-6aad-4918-a462-b7f3a9f0981a",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213801_c69381a4-6aad-4918-a462-b7f3a9f0981a.png",
+      "candidate": "assets/render-candidates/daylight/2003-terrace.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "Reviewed against source: openings, ceiling, camera and footprint retained; finish changes match Daylight Modern; no visible people, text or watermarks.",
+      "delivered": true
+    },
+    {
+      "index": 2004,
+      "room": "laundry",
+      "floor": "third-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/third-floor-laundry-room.jpg.webp",
+      "output": "assets/renders/third-floor/laundry-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "497a50fd-668e-49c1-910f-b5c87c46c218"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Compact 8ft3 by 10ft4. LEFT wall retains sink run and BOTH windows: arched sash over the sink and tall rectangular window beyond the central upper cabinet. Both windows remain visible. Replace machines with side-by-side front-loaders on the RIGHT wall, never under the left windows. No window on the right. Keep camera and narrow proportions.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Warm mushroom satin-painted fronts, cream solid-surface counter, satin-nickel faucet and pulls, pale warm-gray matte porcelain floor, woven neutral baskets, fresh white or graphite front-loading washer and dryer on original right wall. No wall lettering, labels, bottles with words or open clutter."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "c20cb45b-27d9-4dde-bc7b-0a91411d4f66",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213801_c20cb45b-27d9-4dde-bc7b-0a91411d4f66.png",
+      "candidate": "assets/render-candidates/daylight/2004-laundry.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "Both left windows/sink retained, machines on right.",
+      "delivered": true
+    },
+    {
+      "index": 2005,
+      "room": "stair2",
+      "floor": "second-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/second-floor-spiral-staircase.jpg.webp",
+      "output": "assets/renders/second-floor/stair2-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "5e85ff68-2229-4dd4-becd-1641f0165da1"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Copy the photographed staircase geometry exactly: curved quarter-turn rising to intermediate landing then upper straight flight, stacked windows, under-stair panel door and left arched opening. Foreground rail wraps an OPEN stairwell continuing DOWN. Do not fill the stairwell with a floor or invent a freestanding spiral, ribbon stair, extra steps or windows.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Refinish matching existing stair treads to natural-oak tone where feasible, warm white risers and paneled walls, dark bronze painted slender balusters with natural wood handrail, tailored oatmeal flatweave runner following every original step, two large neutral abstract artworks. Warm white walls in daylight, no stair reconstruction."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "c1f6f5a2-21d2-42ae-96c7-14821bd34146",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213800_c1f6f5a2-21d2-42ae-96c7-14821bd34146.png",
+      "candidate": "assets/render-candidates/daylight/2005-stair2.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "Quarter-turn with intermediate landing and open down-well retained.",
+      "delivered": true
+    },
+    {
+      "index": 2006,
+      "room": "ownerbed",
+      "floor": "third-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/third-floor-master-bedroom.jpg.webp",
+      "output": "assets/renders/third-floor/ownerbed-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "7ca8c112-2a41-4404-961b-d822b2ef471a"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Keep the single wide MULLED GROUP OF FOUR gridded double-hung sashes on the rear wall with low dresser underneath. The bed headboard stays on the RIGHT wall. Keep flat ceiling, narrow wall spacing and exact source camera; no new windows.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: A proper calm hotel suite: generously scaled low upholstered oatmeal headboard and platform bed on original right wall, no canopy. Matching oak nightstands and bedside opal lamps, matching low oak dresser beneath rear four-sash group, ivory upholstered foot bench, large warm-gray wool-look rug, white layered bedding with tobacco linen throw. Full-height open ripplefold ivory drapes with concealed blackout roller shades at existing openings. One large serene abstract artwork."
+      },
+      "status": "completed",
+      "qaStatus": "rejected",
+      "job_id": "88f97176-a3a6-4390-8b50-0725bf758ac9",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213817_88f97176-a3a6-4390-8b50-0725bf758ac9.png",
+      "candidate": "assets/render-candidates/daylight/2006-ownerbed.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "CRITICAL CORRECTION: only the REAR wall has glazing: its original single four-sash mulled group. The RIGHT headboard wall and LEFT dresser wall are SOLID, with NO windows or new doorways. Preserve the source walls precisely. Replace ALL exposed carpet with the SAME neutral natural-oak plank flooring as the adjacent retreat; the small area rug sits ON oak, not on carpet."
+    },
+    {
+      "index": 2007,
+      "room": "retreat",
+      "floor": "third-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/third-floor-master-bedroom-owners-retreat.jpg.webp",
+      "output": "assets/renders/third-floor/retreat-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "002c35ed-b184-45de-a26a-179a42acea7a"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: This source view looks from the existing coffee/wine bar toward the owner bedroom through the OPEN passage. Bar with sink, undercounter wine fridge and upper cabinets stays at RIGHT foreground; bedroom remains beyond. Keep only windows and doors actually visible in the source; do not invent openings to satisfy unseen plan features. Match the Daylight Modern bedroom using a low upholstered headboard on its original wall; no four-poster bed.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Refinish coffee-bar fronts warm mushroom, cream quartz-remnant counter, simple satin-nickel faucet and pulls, keep actual sink and wine-fridge locations. Upper cabinets remain including glass center doors. A small UNBRANDED espresso machine and two plain cups; no bottles or packaging labels. Oak floor continues toward bedroom with low upholstered bed and white/tobacco bedding, matching the bedroom design."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "e0484891-ead4-431d-926d-7a42bef48bb6",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213817_e0484891-ead4-431d-926d-7a42bef48bb6.png",
+      "candidate": "assets/render-candidates/daylight/2007-retreat.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "Reviewed against source: openings, ceiling, camera and footprint retained; finish changes match Daylight Modern; no visible people, text or watermarks.",
+      "delivered": true
+    },
+    {
+      "index": 2008,
+      "room": "bed5",
+      "floor": "penthouse",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/fourth-floor-penthouse-bedroom-5.jpg.webp",
+      "output": "assets/renders/penthouse/bed5-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "0a897fc0-8c6e-4b41-8f95-365dc472cda0"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Bed on LEFT wall. Headboard wall and far wall are WINDOWLESS. Keep far-right swing doorway and right-wall dresser; flat 9ft6 ceiling. Do not invent windows, tray ceiling or fireplace. Natural daylight enters from the unseen camera-side window.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Low upholstered ivory bed, compact oak bedside tables, ceramic lamps with linen shades, warm white walls and natural-oak floor with textured oatmeal rug. Crisp white linen and muted tobacco throw. Simple oak dresser on right. One oversized abstract artwork on solid wall; no elaborate millwork or new ceiling details."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "d2bcad0e-f484-45f2-88d5-0c70a0982c0a",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213818_d2bcad0e-f484-45f2-88d5-0c70a0982c0a.png",
+      "candidate": "assets/render-candidates/daylight/2008-bed5.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "Windowless photographed walls and far-right doorway retained; shown as optional model-home build-out.",
+      "delivered": true
+    },
+    {
+      "index": 2009,
+      "room": "gym",
+      "floor": "first-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/first-floor-studio-room.jpg.webp",
+      "output": "assets/renders/first-floor/gym-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "f361e90c-37e9-442d-8063-65c002649959"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Keep source room footprint 11ft11 by13ft1, left near-wall-wide mullioned window, source door on right and flat9ft ceiling. Replace wine bookcase wall and ladder with mirror and wall-mounted folding exercise rack. Reflections must be physically consistent; do not create additional direct-view windows or enlarge room.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Mirror at old wine-wall location, matte black compact folding rack, adjustable bench and neatly arranged dumbbells at realistic scale, charcoal rubber flooring, natural-oak closed lower storage and soft mushroom walls. Keep all glazing clear, no logos or numbers on equipment. A simple compact opal/bronze ceiling fixture replaces chandelier."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "cf658be6-fb50-4b68-905f-c842cbb62f0f",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213819_cf658be6-fb50-4b68-905f-c842cbb62f0f.png",
+      "candidate": "assets/render-candidates/daylight/2009-gym.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "Reviewed against source: openings, ceiling, camera and footprint retained; finish changes match Daylight Modern; no visible people, text or watermarks.",
+      "delivered": true
+    },
+    {
+      "index": 2010,
+      "room": "office",
+      "floor": "first-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/first-floor-home-office.jpg.webp",
+      "output": "assets/renders/first-floor/office-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "b9125cf3-d58c-4b9e-bebf-05a260c40205"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Keep diagonal source view, TWO-unit-wide front windows and THREE-unit-wide RIGHT-wall window with counter underneath. Full built-in is allowed only on the LEFT wall. Preserve window mullions, white frames, corner-street view and clear circulation.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Full-height LEFT-wall built-in made from standard warm mushroom cabinet boxes with oak veneer shelf accents, simple closed lower storage, discreet warm shelf lighting. Right-window counter remains low oak. Streamlined oak desk in original central position, cognac leather ergonomic chair, two small warm-ivory guest chairs, textured large rug. Tailored ivory draperies stack beside windows, not over the glass."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "7dfad13e-7150-4562-92d5-e55bdf50af93",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213818_7dfad13e-7150-4562-92d5-e55bdf50af93.png",
+      "candidate": "assets/render-candidates/daylight/2010-office.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "Reviewed against source: openings, ceiling, camera and footprint retained; finish changes match Daylight Modern; no visible people, text or watermarks.",
+      "delivered": true
+    },
+    {
+      "index": 2011,
+      "room": "loft",
+      "floor": "penthouse",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/fourth-floor-penthouse-loft.jpg.webp",
+      "output": "assets/renders/penthouse/loft-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "a18a9ffa-1bfe-4eec-97c7-ad5404e0e03a"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Keep original TRAY ceiling, left-wall rhythm single window / divided-lite French terrace doors / single window, full-width sliding terrace doors on RIGHT. Rear wet bar remains a recessed ALCOVE with two pendants and a small window. No fireplace, no full-wall kitchen, no extra doors. Keep real neighboring Crown rooftops.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Warm-ivory low sectional in original position, medium-smoked oak coffee table, woven oatmeal rug, two slim warm-neutral lounge chairs. Reface recessed bar in mushroom with oak accents, cream quartz-remnant counter and two simple opal pendants; no oversized island. Existing tray gently lit with concealed warm tape only within its existing recess. Full-height open linen drapery and clear terrace-door circulation. No fireplace."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "123acea3-a187-49a7-86f7-6f33af6737c6",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213818_123acea3-a187-49a7-86f7-6f33af6737c6.png",
+      "candidate": "assets/render-candidates/daylight/2011-loft.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "Reviewed against source: openings, ceiling, camera and footprint retained; finish changes match Daylight Modern; no visible people, text or watermarks.",
+      "delivered": true
+    },
+    {
+      "index": 2012,
+      "room": "dining",
+      "floor": "second-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/second-floor-formal-dining.jpg.webp",
+      "output": "assets/renders/second-floor/dining-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "3300e9bd-339e-4639-a7ac-f48d5e49351b"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Preserve all FIVE windows in exact positions: one small high arched window on LEFT; two adjacent tall rectangular windows at far corner; two arched-top windows on RIGHT plus original arched niche. Do not hide, enlarge or convert a window into a wall. Flat crown-molded ceiling, original room size.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Modern 84-inch oval natural-oak dining table and eight slender comfortable upholstered ivory/taupe chairs, large pale textured rug, low oak sideboard on original wall. One sculptural but commercially available linear bronze-and-opal chandelier. Open tailored full-length ivory drapery on the existing tall windows; small high arched window uncovered. Calm abstract art and one plain ceramic vase, no crowded accessories."
+      },
+      "status": "completed",
+      "qaStatus": "rejected",
+      "job_id": "7f89ee39-888d-4850-8641-088a7537667a",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213950_7f89ee39-888d-4850-8641-088a7537667a.png",
+      "candidate": "assets/render-candidates/daylight/2012-dining.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "CRITICAL FINISH CORRECTION: replace ALL exposed dark brown existing floorboards with neutral NATURAL LIGHT OAK straight-laid planks, matching the adjacent kitchen and great room. Preserve every one of the FIVE original window openings, original curtain positions, crown and exact camera. Modern oval oak table and eight chairs where practical; do not enlarge room."
+    },
+    {
+      "index": 2013,
+      "room": "entry",
+      "floor": "first-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/first-floor-entrance-gallery-and-spiral-staircase.jpg.webp",
+      "output": "assets/renders/first-floor/entry-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "2:3",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "1faa411f-0491-4fbb-885b-871862cdf6a0"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Two-story vertical gallery with balcony overhead, SINGLE-lite glazed double doors on both side walls, center hall arch, modest double-hung landing window and original wall-hugging curved stair beyond. Preserve all doors, balcony edges and exact perspective. Do not substitute giant glass wall, sculptural stair or oversized landing window.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Remove patterned wallpaper; warm-white matte walls and ceiling, light natural-oak plank flooring, original balcony/railing refinished with dark-bronze balusters and natural wood handrail. One sculptural opal-and-bronze pendant sized for double-height gallery, narrow oak console only where source circulation permits, minimal large neutral art. Calm warm daylight from existing glazing."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "e7f35606-faa1-448b-8ed9-2785ea89ad9d",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213949_e7f35606-faa1-448b-8ed9-2785ea89ad9d.png",
+      "candidate": "assets/render-candidates/daylight/2013-entry.png",
+      "dimensions": {
+        "width": 1696,
+        "height": 2528
+      },
+      "qaNotes": "Reviewed against source: openings, ceiling, camera and footprint retained; finish changes match Daylight Modern; no visible people, text or watermarks.",
+      "delivered": true
+    },
+    {
+      "index": 2014,
+      "room": "sunroom",
+      "floor": "second-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/second-floor-sun-room.jpg.webp",
+      "output": "assets/renders/second-floor/sunroom-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "e4afd82d-0341-4e64-a5d1-80971aa278a0"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Preserve wraparound double-hung windows with TRANSOMS above a knee wall, never floor-to-ceiling glazing. Oven+microwave column stays at LEFT edge and must match kitchen warm-greige cabinet fronts and stainless appliances. Keep original round table zone and opening positions.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Comfortable 42–48-inch round oak pedestal table with four upholstered ivory dining chairs, oversized simple linen drum pendant at existing outlet, slim pale rug, ivory open drapery panels framing but never covering the original windows. Mushroom cabinetry at oven column matching kitchen. Keep every window sill and transom exposed."
+      },
+      "status": "completed",
+      "qaStatus": "rejected",
+      "job_id": "e183afd0-0623-47a9-8c55-d182105efafb",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213950_e183afd0-0623-47a9-8c55-d182105efafb.png",
+      "candidate": "assets/render-candidates/daylight/2014-sunroom.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "CRITICAL CORRECTION: replace ALL exposed dark brown floorboards with neutral NATURAL LIGHT OAK matching the kitchen. Preserve exact source windows and the left microwave/oven stack. Every appliance must be completely UNBRANDED with blank logo plates and no readable names, letters or model numbers. Retain oven handles and controls as neutral unlabeled shapes."
+    },
+    {
+      "index": 2015,
+      "room": "ownerbath",
+      "floor": "third-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/third-floor-master-bedroom-bath.jpg.webp",
+      "output": "assets/renders/third-floor/ownerbath-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "bf9a4f50-a071-413a-ab81-318989e24d0a"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Shower at LEFT foreground with its own left-wall window inside enclosure. Tub stays against FAR feature wall. Long double vanity at RIGHT retains the right-wall window beside it. Keep both real window positions, glass enclosure and FLAT ceiling; no enlarged footprint.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Calm matte sand/limestone-look porcelain floor and tub feature wall, coordinated smaller slip-resistant shower floor tile. Existing vanity layout refinished warm mushroom with oak accents and cream counter, satin-nickel fixtures, elegant simple mirror and diffused face lighting. Keep white freestanding tub and frameless shower shape; luxury comes from quiet grout lines and towels, not marble slabs. No new niches or windows."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "f54070dc-392c-4b44-a0fe-bfd7ad907d7e",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213950_f54070dc-392c-4b44-a0fe-bfd7ad907d7e.png",
+      "candidate": "assets/render-candidates/daylight/2015-ownerbath.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "Reviewed against source: openings, ceiling, camera and footprint retained; finish changes match Daylight Modern; no visible people, text or watermarks.",
+      "delivered": true
+    },
+    {
+      "index": 2016,
+      "room": "media",
+      "floor": "first-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/first-floor-media-room.jpg.webp",
+      "output": "assets/renders/first-floor/media-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "4ea563a1-197a-41c5-87cd-8a4b7cef9ea7"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Keep original tray ceiling and wide TWO-sash window OFFSET RIGHT on street wall. Keep sectional zone, TV on RIGHT wall. No new openings; same compact15ft1 by11ft1 room.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Comfortable ivory/oatmeal sectional of original footprint, dark oak low TV console on RIGHT, one large textured pale rug, mushroom painted walls and existing tray in warm white. Full-length lined ivory drapes drawn back from wide street window; concealed roller blackout behind. Minimal warm lamps, neatly concealed equipment and cables. No fireplace."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "53a2e9f8-9cc0-476a-9f9f-6c45d4a6c857",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213950_53a2e9f8-9cc0-476a-9f9f-6c45d4a6c857.png",
+      "candidate": "assets/render-candidates/daylight/2016-media.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "Reviewed against source: openings, ceiling, camera and footprint retained; finish changes match Daylight Modern; no visible people, text or watermarks.",
+      "delivered": true
+    },
+    {
+      "index": 2017,
+      "room": "bath",
+      "floor": "first-floor",
+      "look": "daylight",
+      "source": "assets/renders/first-floor/bath-modern.png",
+      "output": "assets/renders/first-floor/bath-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "2:3",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "0433e026-0f6d-4800-a61c-7df9349eaf42"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: No real photo exists; this approved existing render is the structural edit target. Keep compact roughly6ft by9ft WINDOWLESS bath, vanity and toilet on SAME left wall, glass corner shower on right. No extra mirrors that look like windows. Keep shower bench and fixture positions.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Warm limestone-look porcelain walls and floor, oak-veneer floating vanity at original size, cream counter, satin-nickel faucet and shower trim, round thin-bronze mirror with simple diffused warm light. White toilet stays left of shower. No tub, no window, no room enlargement."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "d62d06ae-004b-4d69-9217-6336968f4294",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213949_d62d06ae-004b-4d69-9217-6336968f4294.png",
+      "candidate": "assets/render-candidates/daylight/2017-bath.png",
+      "dimensions": {
+        "width": 1696,
+        "height": 2528
+      },
+      "qaNotes": "Windowless compact bath based on retained approved Modern image; bench, glass shower and left fixtures retained.",
+      "delivered": true
+    },
+    {
+      "index": 2018,
+      "room": "sharedbath",
+      "floor": "third-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/third-floor-shared-bath-bedroom-2-3.jpg.webp",
+      "output": "assets/renders/third-floor/sharedbath-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "dd558d2d-c4cb-497f-a906-dcd2f1a88a1f"
+          }
+        ],
+        "prompt": "EDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Keep compact Jack-and-Jill double vanity on RIGHT under wide mirror, doors at both ends, and view into Bedroom3 through the LEFT doorway. No window in the bathroom itself. Mirror reflections must follow source geometry; bedroom visible beyond uses the same right-wall upholstered bed, linen drapes and natural oak.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Refinish double vanity warm mushroom, cream quartz top with two basins, satin-nickel faucets and pulls, wide existing mirror, diffused opal vanity lighting, warm stone-look porcelain floor. Neatly folded white towels and one plain vase. Preserve both circulation doorways."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "job_id": "2c119e6f-fa4f-4fc1-9be2-30fa3dd8ffd6",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_213953_2c119e6f-fa4f-4fc1-9be2-30fa3dd8ffd6.png",
+      "candidate": "assets/render-candidates/daylight/2018-sharedbath.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "qaNotes": "Reviewed against source: openings, ceiling, camera and footprint retained; finish changes match Daylight Modern; no visible people, text or watermarks.",
+      "delivered": true
+    },
+    {
+      "index": 2019,
+      "room": "ownerbed",
+      "floor": "third-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/third-floor-master-bedroom.jpg.webp",
+      "output": "assets/renders/third-floor/ownerbed-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "7ca8c112-2a41-4404-961b-d822b2ef471a"
+          }
+        ],
+        "prompt": "CRITICAL CORRECTION: only the REAR wall has glazing: its original single four-sash mulled group. The RIGHT headboard wall and LEFT dresser wall are SOLID, with NO windows or new doorways. Preserve the source walls precisely. Replace ALL exposed carpet with the SAME neutral natural-oak plank flooring as the adjacent retreat; the small area rug sits ON oak, not on carpet.\nEDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Keep the single wide MULLED GROUP OF FOUR gridded double-hung sashes on the rear wall with low dresser underneath. The bed headboard stays on the RIGHT wall. Keep flat ceiling, narrow wall spacing and exact source camera; no new windows.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: A proper calm hotel suite: generously scaled low upholstered oatmeal headboard and platform bed on original right wall, no canopy. Matching oak nightstands and bedside opal lamps, matching low oak dresser beneath rear four-sash group, ivory upholstered foot bench, large warm-gray wool-look rug, white layered bedding with tobacco linen throw. Full-height open ripplefold ivory drapes with concealed blackout roller shades at existing openings. One large serene abstract artwork."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "qaNotes": "Retry removes invented right-wall window and replaces exposed carpet with oak; rear mulled sash group retained.",
+      "job_id": "94a0bab2-e5b8-4cc5-b365-4d052e7defd5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_214444_94a0bab2-e5b8-4cc5-b365-4d052e7defd5.png",
+      "candidate": "assets/render-candidates/daylight/2019-ownerbed.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "delivered": true
+    },
+    {
+      "index": 2020,
+      "room": "dining",
+      "floor": "second-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/second-floor-formal-dining.jpg.webp",
+      "output": "assets/renders/second-floor/dining-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "3300e9bd-339e-4639-a7ac-f48d5e49351b"
+          }
+        ],
+        "prompt": "CRITICAL FINISH CORRECTION: replace ALL exposed dark brown existing floorboards with neutral NATURAL LIGHT OAK straight-laid planks, matching the adjacent kitchen and great room. Preserve every one of the FIVE original window openings, original curtain positions, crown and exact camera. Modern oval oak table and eight chairs where practical; do not enlarge room.\nEDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Preserve all FIVE windows in exact positions: one small high arched window on LEFT; two adjacent tall rectangular windows at far corner; two arched-top windows on RIGHT plus original arched niche. Do not hide, enlarge or convert a window into a wall. Flat crown-molded ceiling, original room size.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Modern 84-inch oval natural-oak dining table and eight slender comfortable upholstered ivory/taupe chairs, large pale textured rug, low oak sideboard on original wall. One sculptural but commercially available linear bronze-and-opal chandelier. Open tailored full-length ivory drapery on the existing tall windows; small high arched window uncovered. Calm abstract art and one plain ceramic vase, no crowded accessories."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "qaNotes": "Five original window openings retained; retry unifies natural-oak floor.",
+      "job_id": "befe52c6-b4fc-4f7a-b118-35f79bfca7bc",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_214445_befe52c6-b4fc-4f7a-b118-35f79bfca7bc.png",
+      "candidate": "assets/render-candidates/daylight/2020-dining.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "delivered": true
+    },
+    {
+      "index": 2021,
+      "room": "sunroom",
+      "floor": "second-floor",
+      "look": "daylight",
+      "source": "assets/Crown Georgetown Photos/second-floor-sun-room.jpg.webp",
+      "output": "assets/renders/second-floor/sunroom-daylight.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "e4afd82d-0341-4e64-a5d1-80971aa278a0"
+          }
+        ],
+        "prompt": "CRITICAL CORRECTION: replace ALL exposed dark brown floorboards with neutral NATURAL LIGHT OAK matching the kitchen. Preserve exact source windows and the left microwave/oven stack. Every appliance must be completely UNBRANDED with blank logo plates and no readable names, letters or model numbers. Retain oven handles and controls as neutral unlabeled shapes.\nEDIT THE ATTACHED ROOM PHOTO, do not redesign the building. Preserve exact camera position, lens, perspective, room proportions, every existing wall, ceiling, stair, door and window opening, muntin count and view direction. Change only finishes, lighting fixtures, furniture and decor with specified owner overrides. Abundant natural daylight comes ONLY through EXISTING windows from their real directions; daylight-balanced white balance, soft controlled sun patches, readable outdoor townhouses, no blown-out white glass or overly yellow artificial light. Show the same Crown urban townhome surroundings in daytime; never invent countryside, ocean, mountain or skyscraper views. Flat ceilings remain flat; retain only photographed tray ceilings. Do not add coves or plaster architectural features. Keep curtain panels open and stacked beyond glass so all window counts are readable. No people, pets, captions, watermarks, brands or legible lettering. High-end architectural interior photography with realistic tactile materials and believable shadows. Images depict the completed optional finish scheme, not proof of product dimensions.\nSTRUCTURAL LOCK: Preserve wraparound double-hung windows with TRANSOMS above a knee wall, never floor-to-ceiling glazing. Oven+microwave column stays at LEFT edge and must match kitchen warm-greige cabinet fronts and stainless appliances. Keep original round table zone and opening positions.\nDESIGN: DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.\nROOM FINISHES: Comfortable 42–48-inch round oak pedestal table with four upholstered ivory dining chairs, oversized simple linen drum pendant at existing outlet, slim pale rug, ivory open drapery panels framing but never covering the original windows. Mushroom cabinetry at oven column matching kitchen. Keep every window sill and transom exposed."
+      },
+      "status": "completed",
+      "qaStatus": "approved",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "qaNotes": "Wraparound windows, transoms and left oven column retained; retry removes visible appliance branding and unifies oak floor.",
+      "job_id": "2e716359-a0ee-4564-b71c-395e9501e8c0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261006_214444_2e716359-a0ee-4564-b71c-395e9501e8c0.png",
+      "candidate": "assets/render-candidates/daylight/2021-sunroom.png",
+      "dimensions": {
+        "width": 2528,
+        "height": 1696
+      },
+      "delivered": true
+    }
+  ],
+  "brief": "DAYLIGHT MODERN: an attainable but exceptionally polished modern builder showcase home with the calm comfort of a five-star hotel. Soft warm-white walls (White Dove family), warm mushroom-greige cabinetry, neutral natural oak with occasional richer smoked-oak furniture, matte sand/limestone-look porcelain and modest cream quartz, tailored ivory linen-look drapery, durable ivory/taupe upholstery, restrained brushed bronze decorative lighting and satin-nickel plumbing. Black only in small structural accents. Rich texture and careful scale, professionally staged yet livable, no ostentatious stone or expensive full-house custom joinery. Finish choices must look realistically buildable from standard cabinetry and retail furniture.",
+  "userDecisions": [
+    "Propose a phased budget first",
+    "Replace where it improves the result"
+  ],
+  "sourceAuthority": "Model-home photographs; Bath #3 uses approved retained Modern render because no source photo exists.",
+  "summary": {
+    "approvedImages": 19,
+    "rejectedCandidates": 3,
+    "workflow": "Higgsfield Nano Banana 2.1 image edits from source photos; Bath #3 uses its approved Modern still.",
+    "qa": "Source geometry, openings, camera, materials and daylight reviewed individually; three failed candidates regenerated.",
+    "dimensions": "2K outputs; portrait entry and Bath #3 preserve source framing.",
+    "guide": "docs/daylight-modern-build-guide.html",
+    "scope": "New Daylight Modern stills and build guide; no additional video generation."
+  },
+  "validation": {
+    "date": "2026-10-06",
+    "counts": {
+      "delivered": 19,
+      "fullResolution": 19,
+      "newWebImages": 19,
+      "allWebImages": 285,
+      "embeddedGuideImages": 19
+    },
+    "lint": "passed",
+    "tests": "31 tests passed across 7 files",
+    "productionBuild": "npm run build:cloudflare passed; existing large-chunk advisory",
+    "browser": "Daylight filter, main-floor image loading, room build notes and full-size lightbox verified. Budget total $135,700–$223,100; removing floor phase gives $100,050–$166,750, then restored.",
+    "guide": "Standalone HTML visually inspected; 19 embedded images loaded, no horizontal page overflow at default desktop viewport.",
+    "preview": "http://127.0.0.1:5180/#/renders",
+    "release": "Local work; not pushed or deployed."
+  }
+}

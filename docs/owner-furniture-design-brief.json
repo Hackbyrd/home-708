@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-07",
+  "status": "Varied cabinet and console direction ready for local review",
+  "scope": "All 24 spaces and 45 views of Option 2, retaining the three approved preview anchors, with gallery and materials/build-book refresh.",
+  "ownerConfirmed": {
+    "storageFinish": "Brown Oak / Polished Stainless Steel",
+    "pieces": [
+      "Existing drawers and cabinets",
+      "White RH Cloud couch",
+      "White bed frames"
+    ],
+    "references": [
+      "assets/owner-furniture-references/brown-oak-polished-stainless-drawer.png",
+      "assets/owner-furniture-references/brown-oak-polished-stainless-finish.png"
+    ]
+  },
+  "visualObservation": "The supplied product images read as smoky dark brown oak with gray/charcoal undertones, pronounced open oak grain, broad polished stainless horizontal pulls and a continuous floor base. This is a visual interpretation from photos, not a verified physical color sample or product-model identification.",
+  "correctionToPriorRenders": "Owner clarified that the product photo is finish inspiration only: brown oak, polished stainless and flat bases with no legs remain consistent, while silhouettes, drawer/door arrangements and hardware vary room by room. Repeated full-width stainless drawer bands are superseded.",
+  "proposedSurroundings": {
+    "floor": "Light-to-medium neutral natural white-oak appearance, matte, restrained knots/grain; visibly lighter than furniture. Retain/refinish suitable existing flooring where feasible after checking construction and condition.",
+    "walls": "Light warm stone/putty greige with body against white upholstery. Premium washable matte on general walls; subtle smooth Roman Clay on selected dry focal walls. Pale Oak OC-20 and Balboa Mist OC-27 are sample candidates only, not selected specifications.",
+    "trim": "Soft white trim and light interior doors; matte ceiling. Compare against actual sofa/bed fabrics before selecting a white.",
+    "drapes": "Off-white/ecru linen-look ripple-fold sheers on a discreet ceiling-height track, floor-skimming and stacked clear of openings. Add an opaque/blackout layer for bedrooms/media and night privacy as required; sheers alone are not a privacy specification.",
+    "rugs": "Large textured ivory/stone rugs with some taupe variation; maintain wood border in bedrooms.",
+    "accents": "Existing blue-and-white artwork establishes blue family; blue textiles recur, smaller butter-yellow textiles/ceramics/flowers and living green plants complement them.",
+    "metal": "Polished stainless as the actual owned finish; coordinate polished-silver lighting/hardware by physical samples instead of assuming chrome and stainless are identical.",
+    "budget": "Place and measure owned pieces first. Prioritize wall finish, full-height curtains, proportionate rugs and layered lighting; add selective custom work where functional need warrants it."
+  },
+  "beforeSpecification": [
+    "Record exact models, dimensions and quantities of owned furniture.",
+    "Inspect actual oak/stainless finish beside the actual white upholstery.",
+    "Review large floor, paint/plaster and curtain samples in morning, afternoon and evening light.",
+    "Measure rooms, window stackback and furniture clearances."
+  ],
+  "sources": [
+    {
+      "purpose": "Sample paint candidate",
+      "url": "https://www.benjaminmoore.com/en-us/paint-colors/color/oc-20/pale-oak"
+    },
+    {
+      "purpose": "Sample paint candidate",
+      "url": "https://www.benjaminmoore.com/en-us/paint-colors/color/OC-27"
+    },
+    {
+      "purpose": "Roman Clay finish information",
+      "url": "https://portolapaints.com/pages/roman-clay-series/"
+    },
+    {
+      "purpose": "Layered window-treatment principle",
+      "url": "https://www.lutron.com/us/en/articles/how-to-layer-window-treatments-with-motorized-shades"
+    }
+  ],
+  "reviewHistory": [
+    {
+      "date": "2026-10-07",
+      "request": "ok give me a few rooms with this style",
+      "action": "Generate source-photo-based Higgsfield previews for three rooms using the supplied furniture screenshots.",
+      "study": "docs/owner-furniture-study-r01.json"
+    },
+    {
+      "date": "2026-10-07",
+      "request": "ok let’s use this as option 2, regenerate everything",
+      "action": "Apply the approved owned-furniture direction to the complete Option 2 room set.",
+      "production": "docs/option-two-owner-furniture-production.json"
+    },
+    {
+      "date": "2026-10-07",
+      "request": "Different cabinet/console styles; consistent brown oak, polished stainless steel and flat bottoms without legs.",
+      "action": "Regenerate every affected cabinet view, coordinate alternate views and revise contractor-facing joinery notes.",
+      "production": "docs/option-two-owner-furniture-production.json"
+    }
+  ],
+  "currentStudy": "docs/owner-furniture-study-r01.json",
+  "previewNotes": [
+    "Use the owner photographs for wood/metal finish and a grounded base, not exact furniture replication.",
+    "Select different appropriate cabinet and console designs for different rooms.",
+    "Keep white upholstery, warm stone walls, natural oak floors, off-white drapes, blue accents, small yellow accents and plants."
+  ],
+  "delivery": {
+    "date": "2026-10-07T22:35:12.858Z",
+    "rooms": 24,
+    "views": 45,
+    "revisedCabinetRooms": 18,
+    "revisedViews": 32,
+    "review": "docs/cocoa-chrome.html",
+    "buildBook": "docs/cocoa-chrome-build-book.html",
+    "published": false
+  },
+  "cabinetDesignFile": "docs/cocoa-chrome-cabinet-designs.json"
+}

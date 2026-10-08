@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-07T22:35:30.780Z",
+  "rooms": 24,
+  "views": 45,
+  "galleryAssets": 94,
+  "scheduleEntries": 195,
+  "baselineChecks": [
+    {
+      "file": "docs/house-design-review.html",
+      "unchanged": true
+    },
+    {
+      "file": "docs/room-design-book.json",
+      "unchanged": true
+    },
+    {
+      "file": "docs/model-home.html",
+      "unchanged": true
+    }
+  ],
+  "errors": []
+}

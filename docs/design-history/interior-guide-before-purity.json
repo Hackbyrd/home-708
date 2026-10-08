@@ -1,0 +1,616 @@
+{
+  "version": "MW-G01",
+  "date": "2026-10-07",
+  "title": "A home that feels considered.",
+  "subtitle": "Mineral & Walnut, refined around your life.",
+  "source": {
+    "title": "The Home Design Playbook",
+    "author": "Jonathan Chen",
+    "date": "2026-10-07",
+    "archive": "docs/design-history/home-design-playbook-source.md"
+  },
+  "position": "Warm modern architecture, natural texture and a few personal contrasts. Keep the calm of Option 1 while making space for your brown-oak and polished-stainless furniture, white upholstery, art and everyday routines.",
+  "scope": "24-space improvement plan + three pilot rooms / six revised views. The remaining room renders retain their prior design until their refinements are reviewed. All new ideas remain proposals.",
+  "rules": [
+    {
+      "title": "Start with the room’s job",
+      "text": "Plan the walk, the seat, the light and the place to put a drink before choosing decoration. Write down the daily routine and the storage it needs."
+    },
+    {
+      "title": "Give each view a hierarchy",
+      "text": "Choose a lead element, then supporting elements. Your TV and fireplace can read as one composition. A room can have several functional zones without every wall becoming a feature."
+    },
+    {
+      "title": "Keep the materials related",
+      "text": "Natural oak floor, warm mineral/ivory walls, rich wood and restrained dark accents carry across the house. Select brown oak and polished steel around existing pieces; new walnut is selective, not mandatory everywhere."
+    },
+    {
+      "title": "Vary the silhouettes",
+      "text": "A rounded stone table, a soft sofa and a substantial plinth cabinet can balance one another. Keep your no-legs preference for floor-standing storage; vary fronts, proportions and handles instead of copying one cabinet."
+    },
+    {
+      "title": "Design for daylight and evening",
+      "text": "Test material boards near several windows and under the intended lamps. Use sheers for softness, a separate privacy or blackout layer where needed, and controllable task and accent light."
+    },
+    {
+      "title": "Leave something unfilled",
+      "text": "Empty wall and clear surfaces give art and architecture room to matter. Collectibles, family photos and seasonal decor belong in intentional groups, with storage for the rest."
+    }
+  ],
+  "palette": [
+    [
+      "Warm mineral",
+      "#d7cdbd",
+      "Walls · subtle movement"
+    ],
+    [
+      "Ivory",
+      "#f0ece3",
+      "Upholstery + drapery"
+    ],
+    [
+      "Natural oak",
+      "#c4a77c",
+      "Continuous dry-area floor"
+    ],
+    [
+      "Walnut",
+      "#70533e",
+      "Selected architectural accents"
+    ],
+    [
+      "Brown oak",
+      "#655d52",
+      "Owned storage + new companions"
+    ],
+    [
+      "Charcoal",
+      "#343733",
+      "Small grounding details"
+    ],
+    [
+      "Polished steel",
+      "#bfc3c4",
+      "Selected hardware + lamps"
+    ],
+    [
+      "Smoky blue",
+      "#7a8993",
+      "Optional art/textile accent"
+    ],
+    [
+      "Living green",
+      "#53664d",
+      "Plants, not a wall-color rule"
+    ]
+  ],
+  "materials": [
+    {
+      "title": "Walls: quiet mineral character",
+      "use": "Propose Roman Clay on selected dry focal surfaces, with washable warm matte paint elsewhere. Keep the application smooth and subtle in this sunlit house.",
+      "detail": "Price surface preparation separately. Compare a real sample of each finish with the same floor, upholstery and trim; the render does not specify a paint color.",
+      "source": "portola-clay"
+    },
+    {
+      "title": "Limewash: an alternative finish",
+      "use": "Use when a softer brushed, cloudy surface is wanted. It is not an automatic protective layer over decorative paint.",
+      "detail": "Follow the selected system’s primer and sealer instructions. A wipeable surface is not a waterproof splash assembly; use appropriate tile/stone and substrate systems at wet zones.",
+      "source": "portola-lime"
+    },
+    {
+      "title": "Floors: continuity with purpose",
+      "use": "Keep natural oak in connected dry spaces and all four bedrooms, with separate rugs. Retain suitable existing flooring where it can achieve the sample.",
+      "detail": "Wet bathrooms, laundry needs and the gym may need different appropriate materials. Check substrate, moisture, stair levels and thresholds. Wide planks alone do not make a floor better."
+    },
+    {
+      "title": "Wood + metal: integrate what you own",
+      "use": "Inventory your brown-oak / polished-stainless pieces first. Use lighter oak floors for separation; reserve walnut for a small number of complementary surfaces.",
+      "detail": "Solid continuous or recessed plinth bases on floor-standing cabinets. Previously requested floating built-ins are a separate category. No compulsory furniture replacement and no identical drawer-band motif everywhere."
+    },
+    {
+      "title": "Drapery: daylight and privacy",
+      "use": "Full-height ivory sheers plus side panels; add blackout in bedrooms and a light-control layer for cinema use.",
+      "detail": "Measure the actual track width, heading, stack-back and floor variation. Specify fullness with the workroom for that fabric/heading; do not blindly multiply window width. Sheers alone do not guarantee night privacy."
+    },
+    {
+      "title": "Light: layered, quiet and serviceable",
+      "use": "Design target: 2700K in relaxed spaces and coordinated 3000K task areas, or compatible warm-dim systems; judge connected sightlines as a whole.",
+      "detail": "Aim for 90+ CRI, but also check glare, output, dimmer compatibility and flicker. Mock up the actual fixture and control. Keep LED drivers accessible and dots out of view.",
+      "source": "doe-light"
+    }
+  ],
+  "qualifications": [
+    [
+      "“Go bigger”",
+      "Choose the largest piece that still fits circulation, doors, reach and daily use. Our dining table needs a plan test before any increase."
+    ],
+    [
+      "“One focal point”",
+      "Use a clear visual hierarchy within each view or zone; a fireplace and TV can be one composition. Keep the existing TV location unless separately redesigned."
+    ],
+    [
+      "“Never mix color temperatures”",
+      "Avoid accidental mismatches within a scene. Deliberate warm-dim lamps or task layers can coexist when tested together."
+    ],
+    [
+      "“Paint is two shades darker on a full wall”",
+      "There is no reliable fixed two-shade conversion. Test large physical samples across daylight and evening conditions."
+    ],
+    [
+      "“50% strength means half as dark”",
+      "A tint formula change is not a predictable lightness conversion. Select and sample the actual proposed color."
+    ],
+    [
+      "“Satin everywhere wet; flat everywhere dry”",
+      "Choose an actual coating system for cleaning, moisture and substrate. Sheen alone does not establish durability or waterproofing."
+    ],
+    [
+      "“One antique / three repeats / 60–30–10”",
+      "Useful prompts, not quotas. Personal pieces and visual balance matter more than counting objects or percentages."
+    ],
+    [
+      "“Buy custom for a luxury result”",
+      "Custom solves a specific fit or storage problem. Keep movable seating and owned furniture; quote stock boxes with tailored fronts where appropriate. No guaranteed saving percentage."
+    ],
+    [
+      "“Replace all ordinary finishes”",
+      "Spend where an upgrade changes comfort, function or a key view. Retention, refinishing and good installation can be the better choice."
+    ],
+    [
+      "“TV distance is a fixed diagonal multiple”",
+      "Use the chosen screen, resolution, content, viewing preference and actual seat location. Test at full size; the playbook’s multiplier is not universal."
+    ]
+  ],
+  "measurements": [
+    [
+      "Main circulation",
+      "Start around 36 in clear; aim for more on busy routes",
+      "Planning target, not an accessibility or code approval; include open doors and drawer positions."
+    ],
+    [
+      "Kitchen work aisles",
+      "42 in for one cook / 48 in for multiple cooks",
+      "NKBA design recommendations; measure counter/appliance fronts. Accessible layouts and local requirements may need more."
+    ],
+    [
+      "Dining circulation",
+      "Aim for 42–48 in where people pass behind seats",
+      "Check the real pulled-out chair and cabinet projection. Table-to-wall arithmetic alone is not a usable aisle."
+    ],
+    [
+      "Sofa to coffee table",
+      "Start around 14–18 in",
+      "Adjust to seat depth, knee room, reach and mobility. Do not sacrifice the main route."
+    ],
+    [
+      "Artwork",
+      "Start near 57–60 in center on an open wall",
+      "Artwork over furniture relates to the furniture and architecture; mock it up rather than forcing eye-level rules."
+    ],
+    [
+      "Rug sizing",
+      "Keep the seating group connected; allow dining chairs to stay on the rug",
+      "Use actual furniture footprints. A larger rug cannot correct an oversized table."
+    ],
+    [
+      "Bedside use",
+      "Start with 30–36 in comfortable circulation where feasible",
+      "Coordinate with bed drawers, door swings and the user’s access needs; measure nightstands against the actual mattress."
+    ],
+    [
+      "Pendents + chandeliers",
+      "Use the table/island, fixture scale and sightline",
+      "The room-length-plus-width formula is only a sketch; actual fixture instructions and clearance requirements govern."
+    ]
+  ],
+  "phases": [
+    {
+      "title": "01 · Resolve and sample",
+      "text": "Survey the house, inventory owned furniture, tape layouts and make a shared material board. Confirm window exposures and nighttime privacy. Resolve Bedroom 2 and dining clearance first.",
+      "spend": "Pay for the survey, drawings and real samples before committing to fabrication."
+    },
+    {
+      "title": "02 · Coordinate fixed work",
+      "text": "Select floor retention/replacement scope, dry/wet finish systems, electrical changes and the few useful built-ins. Obtain itemized trade quotes before ordering.",
+      "spend": "Quote prep, materials, installation, disposal and tax separately; compare retention and replacement where realistic."
+    },
+    {
+      "title": "03 · Build the comfort layer",
+      "text": "Allocate the existing sofa, beds and storage. Add missing rugs, task lighting, drapery and useful occasional tables; complete the main living and sleeping spaces first.",
+      "spend": "Prioritize touch points and daily comfort. Keep a contingency appropriate to the surveyed scope rather than a universal furnishing percentage."
+    },
+    {
+      "title": "04 · Collect and adjust",
+      "text": "Live with the rooms, then add art, plants, books and seasonal decoration. Expand the remaining room refinements with feedback from the three pilot rooms.",
+      "spend": "Use movable accents for experiments. Avoid a whole-house replacement order before the first rooms work."
+    }
+  ],
+  "checks": [
+    [
+      "measure",
+      "Measured plans include doors, windows, services and delivery routes."
+    ],
+    [
+      "inventory",
+      "Owned furniture is measured and allocated once, with condition photographs."
+    ],
+    [
+      "sample",
+      "Wall, floor, wood, metal and textile samples reviewed together in daylight and evening light."
+    ],
+    [
+      "layout",
+      "Furniture taped out; doors, drawers and chairs operate without blocking key routes."
+    ],
+    [
+      "privacy",
+      "Sheer, privacy and blackout needs tested after dark."
+    ],
+    [
+      "light",
+      "Lighting layers, control compatibility, glare and service access checked."
+    ],
+    [
+      "joinery",
+      "Joinery drawings show hardware, hinges, supports, power and ventilation."
+    ],
+    [
+      "wet",
+      "Wet-zone materials and waterproofing system coordinated with installer."
+    ],
+    [
+      "budget",
+      "Quotes separate materials, prep and labor; quantities, lead times and contingency are recorded."
+    ],
+    [
+      "handoff",
+      "Finish/product schedule, sample references, drawings and open questions issued together."
+    ]
+  ],
+  "seasonal": "Keep the permanent background calm. Christmas can bring evergreen, deep red, silver or warm lights; Halloween can use charcoal, amber and branches. Rotate a few textiles and objects, retain clear walkways, and reserve a storage location for each seasonal set. No permanent yellow/blue requirement.",
+  "sources": [
+    {
+      "id": "playbook",
+      "title": "The Home Design Playbook · Jonathan Chen",
+      "note": "Owner-supplied source dated Oct 7, 2026. Adapted for this house; guidance above includes designer qualifications."
+    },
+    {
+      "id": "portola-clay",
+      "title": "Portola · Roman Clay application and care",
+      "url": "https://portolapaints.com/products/sample-jars-roman-clay",
+      "note": "Manufacturer guidance: substrate preparation, topcoat and wet-area limits."
+    },
+    {
+      "id": "portola-lime",
+      "title": "Portola · Lime Wash system",
+      "url": "https://portolapaints.com/pages/lime-wash-series",
+      "note": "Manufacturer guidance: drywall undercoat, finish character and wipeable sealer."
+    },
+    {
+      "id": "doe-light",
+      "title": "US Department of Energy · Light-bulb selection",
+      "url": "https://www.energy.gov/cmei/femp/purchasing-energy-efficient-light-bulbs",
+      "note": "CCT, color rendering and dimming compatibility; design targets here are our proposal."
+    },
+    {
+      "id": "nkba",
+      "title": "NKBA · Kitchen planning guidelines",
+      "url": "https://media.nkba.org/uploads/2022/05/Kitchen-Planning-Guidelines.pdf",
+      "note": "Planning reference with older code citations; not a statement of current local code. Use current project requirements."
+    }
+  ],
+  "rooms": [
+    {
+      "id": "entry",
+      "title": "Entrance gallery",
+      "floor": "first-floor",
+      "mood": "Arrival with breathing room",
+      "diagnosis": "Let the two-story cascade and arch lead; quiet the wall texture and keep the natural-oak floor consistent with floor two.",
+      "keep": "Light glazed side doors, both inscriptions, natural front door and existing stair/landing.",
+      "improve": "A compact concealed drop zone only where measured door swings allow; fewer tabletop objects.",
+      "verify": "Template lettering at full size; coordinate chandelier service access, attachments and visibility from both floors.",
+      "priority": "Lighting + finish samples",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-one-review/r04/entry-a-floor.png"
+    },
+    {
+      "id": "office",
+      "title": "Home office",
+      "floor": "first-floor",
+      "mood": "A working library",
+      "diagnosis": "Give the full north wall a clear rhythm of closed storage and a few open display bays. Keep the TV and soundbar central.",
+      "keep": "Large rectangular desk facing northwest; artwork and compact printer cabinet to the right of the entry.",
+      "improve": "Keep brown-oak owner pieces where they fit; vary new cabinet doors and drawers rather than cloning a product. Add reachable task light and concealed cable routing.",
+      "verify": "Check chair pullback, printer ventilation/service access and video-call light; do not bury equipment behind sealed doors.",
+      "priority": "Storage + task lighting",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-one-review/r04/office-a.png"
+    },
+    {
+      "id": "media",
+      "title": "Media room",
+      "floor": "first-floor",
+      "mood": "A calm private cinema",
+      "diagnosis": "Reduce visual competition around the 83-inch screen. Keep collectables in one controlled display zone beside the clear doors.",
+      "keep": "West-wall doorway, clear glazing, generous Cloud-style seating, soundbar and surround/ceiling audio.",
+      "improve": "Use a smooth darker TV backdrop, subtle dimmable halo and a quieter low console; substantial loose rug and light-control lining.",
+      "verify": "Choose one compatible audio system before wiring. Rear surrounds and overhead effects serve different jobs; do not specify a random soundbar plus unrelated passive speakers.",
+      "priority": "AV coordination + acoustics",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-one-review/r04/media-a-final.png"
+    },
+    {
+      "id": "gym",
+      "title": "Studio gym",
+      "floor": "first-floor",
+      "mood": "Clear, energizing space",
+      "diagnosis": "Use a resilient floor and uncluttered mirror wall; keep the quote as the personal focal detail.",
+      "keep": "Empty room; northwest closet; “Surpass your limits. Right here, right now.”",
+      "improve": "A clean mirror edge, washable surrounding walls and glare-controlled light. Keep future equipment footprints free.",
+      "verify": "Confirm mirror safety backing, wall fixing, ventilation and floor/equipment suitability when equipment is selected.",
+      "priority": "Durable finishes",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-one-review/r03/gym-a-empty-quote.png"
+    },
+    {
+      "id": "bath",
+      "title": "Bath #3",
+      "floor": "first-floor",
+      "mood": "Small but deliberate",
+      "diagnosis": "Make mirror, light and vanity a single considered composition.",
+      "keep": "Existing fixture zones and compact plan-led layout.",
+      "improve": "Warm neutral tile, a small characterful mirror and one rich wood vanity. Use decorative mineral finish only on eligible dry walls.",
+      "verify": "Field survey this room before quantities or fabrication; no original room photograph exists.",
+      "priority": "Moisture + useful storage",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-one-review/r01/bath-a-vanity.png"
+    },
+    {
+      "id": "great",
+      "title": "Great room",
+      "floor": "second-floor",
+      "mood": "Relaxed, collected luxury",
+      "diagnosis": "Keep the fireplace/TV composition calm; give the white seating a little contrast and useful places to set a drink.",
+      "keep": "Both high transoms, terrace access and sibling artwork above both consoles.",
+      "improve": "Smoother mineral walls, rounded pale stone-look coffee table, brown-oak plinth consoles with restrained stainless details; a trace of smoky blue in art/textile and one tall plant.",
+      "verify": "Measure sofa modules and walk paths. Tape TV height for seated viewing; fireplace and TV manufacturer heat/clearance instructions govern the retained above-fireplace location.",
+      "priority": "Pilot render + furniture scale",
+      "visualStatus": "Refinement study",
+      "baseline": "assets/render-candidates/floor-two-review/r02/great-a.png"
+    },
+    {
+      "id": "kitchen",
+      "title": "Kitchen",
+      "floor": "second-floor",
+      "mood": "Quiet working backdrop",
+      "diagnosis": "The cabinets, floor and stone currently compete in grain and warmth; simplify that material mix.",
+      "keep": "Existing layout, right-end wall-oven column, island and improved dome pendants.",
+      "improve": "Retain serviceable cabinets where possible; test a quieter warm-ivory finish and subtle countertop. Match floor undertone to the great room before choosing paint.",
+      "verify": "Measure aisles with appliance doors open. Confirm range ventilation, landing surfaces and actual pendant dimensions before ordering.",
+      "priority": "Finish coordination + workflow",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-two-review/r02/kitchen-a.png"
+    },
+    {
+      "id": "dining",
+      "title": "Formal dining",
+      "floor": "second-floor",
+      "mood": "An inviting table for ten",
+      "diagnosis": "Make the table and chandelier the main event, with a shallow useful piece under the high window.",
+      "keep": "Five original windows, niche, ten-seat rectangular entertaining layout and sheer drapes.",
+      "improve": "Refine table support positions, soften corners, simplify surface styling, and use a closed shallow cabinet instead of another small-object display. Explore an extension mechanism while keeping ten seats available.",
+      "verify": "The 108 × 42 in concept is tight at the ends after adding storage. Test chair widths, support positions and cabinet depth on a measured plan; do not assume ten chairs prove ten comfortable seats.",
+      "priority": "Pilot render + clearance study",
+      "visualStatus": "Refinement study",
+      "baseline": "assets/render-candidates/floor-two-review/r02/dining-a-ten-complete.png"
+    },
+    {
+      "id": "living",
+      "title": "Living room · piano salon",
+      "floor": "second-floor",
+      "mood": "A music-led salon",
+      "diagnosis": "Let the baby grand be the focal point, with Cloud seating arranged for conversation.",
+      "keep": "Baby grand, white sofa and clear drapes; room remains a plan-led concept.",
+      "improve": "One generous rug, an individual chair and a single calm artwork. Keep the piano finish distinct from oak floors and warm walls.",
+      "verify": "Verify exact piano outline, lid swing, bench withdrawal and delivery path. Coordinate daylight control with the piano maker’s care guidance.",
+      "priority": "Measured furniture plan",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-two-review/r02/living-a-final.png"
+    },
+    {
+      "id": "sunroom",
+      "title": "Sunroom",
+      "floor": "second-floor",
+      "mood": "Light, easy everyday dining",
+      "diagnosis": "Keep the six-seat rectangle light in scale so the glazing remains the experience.",
+      "keep": "Six seats, rectangular table, improved chandelier and transparent drapes.",
+      "improve": "A low-maintenance tabletop, slim comfortable chairs and one sculptural pendant family distinct from formal dining.",
+      "verify": "Check chair pullback, drape stack and adjacent kitchen appliance doors. Sheers diffuse light; they are not reliable night privacy.",
+      "priority": "Daylight + everyday use",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-two-review/r02/sunroom-a.png"
+    },
+    {
+      "id": "stair2",
+      "title": "Second-floor stair hall",
+      "floor": "second-floor",
+      "mood": "A coherent connection",
+      "diagnosis": "Use restrained wall texture and art that can be read while moving between floors.",
+      "keep": "Quarter-turn/curved rise, halfway landing and onward straight flight; existing guard and openings.",
+      "improve": "Continuous oak/ivory family, quiet dark rail, one art moment rather than repeated illuminated walls.",
+      "verify": "Verify stair geometry from survey and photos. Keep objects and lighting projections outside the required passage/guard clearances.",
+      "priority": "Architecture + safe circulation",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-two-review/r01/stair2-a-hall.png"
+    },
+    {
+      "id": "ownerbed",
+      "title": "Owners suite",
+      "floor": "third-floor",
+      "mood": "A restful private suite",
+      "diagnosis": "Make the bed the clear focus and reduce the intensity of decorative lighting and wall mottling.",
+      "keep": "White platform bed, art above, 55-inch TV/soundbar opposite, walnut headwall band and floating bedside consoles.",
+      "improve": "Integrate brown-oak owner dressers with discreet steel; add real sheer-plus-blackout layers and individual reading lights. Keep accent color very restrained.",
+      "verify": "Check mattress-to-nightstand height, bedside controls, underbed driver access and full drawer opening; avoid visible LED points.",
+      "priority": "Pilot render + sleep lighting",
+      "visualStatus": "Refinement study",
+      "baseline": "assets/render-candidates/floor-three-review/r03/ownerbed-a.png"
+    },
+    {
+      "id": "retreat",
+      "title": "Owners retreat",
+      "floor": "third-floor",
+      "mood": "A quiet morning ritual",
+      "diagnosis": "A small coffee bar and relaxed seats should feel like an extension of the suite.",
+      "keep": "Bar plumbing, glazing and existing room relationships.",
+      "improve": "Reduce counter clutter; add a useful tray, warm task light and one distinctive lounge fabric. Match adjacent bedroom flooring in every sightline.",
+      "verify": "Allow coffee-machine clearance, protected splash surface and accessible plumbing/electrical service.",
+      "priority": "Continuity + practical bar",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-three-review/r01/retreat-a.png"
+    },
+    {
+      "id": "ownerbath",
+      "title": "Owners bathroom",
+      "floor": "third-floor",
+      "mood": "A warm, durable spa",
+      "diagnosis": "Keep the artwork above the tub; give mirrors and practical face lighting priority over decorative effects.",
+      "keep": "Tub, shower, windows, double vanity and artwork location.",
+      "improve": "Limit the tile palette; soften grout contrast and use calm dry-wall paint. Size storage around actual toiletries.",
+      "verify": "Choose slip suitability and the complete shower waterproofing system with the trade. A decorative sealer is not waterproofing. Keep art clear of splash exposure.",
+      "priority": "Waterproofing + face lighting",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-three-review/r03/ownerbath-a.png"
+    },
+    {
+      "id": "ownercloset",
+      "title": "Owners walk-in closet",
+      "floor": "third-floor",
+      "mood": "Order without excess millwork",
+      "diagnosis": "Improve visibility and storage fit before adding decorative wood.",
+      "keep": "Existing walk-in footprint and door position.",
+      "improve": "Use mostly warm-ivory modular interiors with selected wood drawers; light clothes from the front of the bays.",
+      "verify": "Inventory hanging lengths, folded items and shoes; confirm opening drawers do not trap the central aisle.",
+      "priority": "Inventory + lighting",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-three-review/r01/ownercloset-a.png"
+    },
+    {
+      "id": "bed2",
+      "title": "Bedroom 2",
+      "floor": "third-floor",
+      "mood": "A tailored guest/work room",
+      "diagnosis": "Keep the west-wall headboard and give the desk its own useful light.",
+      "keep": "West-wall headboard, door in south portion of west wall; desk to right/south of east window.",
+      "improve": "A soft upholstered headboard, restrained narrow stripe in textiles and simple plinth storage. Oak floor with a separate rug.",
+      "verify": "Resolve the documented entry/closet relationship with a site measure before treating the render as a furniture plan.",
+      "priority": "Resolve layout first",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-three-review/r03/bed2-a-final.png"
+    },
+    {
+      "id": "bed3",
+      "title": "Bedroom 3",
+      "floor": "third-floor",
+      "mood": "A light, window-led bedroom",
+      "diagnosis": "Allow the windows and upholstered bed to lead; avoid a miniature copy of the owners suite.",
+      "keep": "Bed on right wall between its windows; oak floor and separate rug.",
+      "improve": "A linen-like texture, small charcoal accents and simple varied bedside pieces; add blackout behind the airy daytime layer.",
+      "verify": "Keep curtain stacks clear of bed and outlets; verify real bed width and drawer opening in this smaller room.",
+      "priority": "Scale + drapery",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-three-review/r03/bed3-a.png"
+    },
+    {
+      "id": "sharedbath",
+      "title": "Shared bathroom",
+      "floor": "third-floor",
+      "mood": "Simple, durable and easy to share",
+      "diagnosis": "Give each user an organized storage zone and flattering light.",
+      "keep": "Double-vanity and adjacent bedroom connections.",
+      "improve": "A quiet porcelain family, coordinated mirrors and easy-clean surfaces; keep decorative objects sparse.",
+      "verify": "Coordinate outlets, exhaust, storage and shower waterproofing; tile size follows drainage/slope as well as appearance.",
+      "priority": "Durability + storage",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-three-review/r01/sharedbath-a.png"
+    },
+    {
+      "id": "laundry",
+      "title": "Laundry",
+      "floor": "third-floor",
+      "mood": "A useful room with a little wit",
+      "diagnosis": "Keep “Rinse and repeat..” and its graphic; improve sorting and folding instead of adding decor.",
+      "keep": "Sink and both windows on left wall; washer/dryer locations and selected lettering.",
+      "improve": "Closed detergent storage, washable walls and a properly supported folding surface.",
+      "verify": "Use actual appliance cut sheets for ventilation, door swing and service removal; protect the sink splash zone.",
+      "priority": "Service access + workflow",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-three-review/r03/laundry-a-final.png"
+    },
+    {
+      "id": "stair3",
+      "title": "Third-floor stair hall",
+      "floor": "third-floor",
+      "mood": "A calm upper landing",
+      "diagnosis": "Continue the house palette with one quieter art composition.",
+      "keep": "Actual stair/landing layout, high windows and guard.",
+      "improve": "Use one durable wall finish through connected landings; retain the view of daylight and clear floor area.",
+      "verify": "Coordinate accessible light maintenance and switch/control locations with the electrician.",
+      "priority": "Continuity",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-three-review/r01/stair3-a.png"
+    },
+    {
+      "id": "loft",
+      "title": "Penthouse lounge",
+      "floor": "penthouse",
+      "mood": "Relaxed evening hosting",
+      "diagnosis": "Use the view and deep seating as the anchor; give the bar a practical evening scene.",
+      "keep": "Terrace doors, windows, existing ceiling and bar.",
+      "improve": "Mix a low substantial oak console with a lighter stone/metal occasional table; quiet textiles and a few personal objects.",
+      "verify": "Retain a direct path to the terrace with doors and cabinets open. Dim bar and seating lights separately.",
+      "priority": "Circulation + lighting",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-four-review/r01/loft-a.png"
+    },
+    {
+      "id": "bed5",
+      "title": "Penthouse guest bedroom",
+      "floor": "penthouse",
+      "mood": "A cocoon at the top of the house",
+      "diagnosis": "Keep the mushroom/charcoal identity, softened by light upholstery and oak flooring.",
+      "keep": "Existing window and door layout; loose rug over wood floor.",
+      "improve": "Use an owned white bed frame if allocated here; retain depth through the headwall and textiles rather than purchasing another full bedroom set.",
+      "verify": "Confirm actual furniture inventory before allocating the same owned bed or dresser to multiple rooms. Add blackout/privacy layer.",
+      "priority": "Furniture allocation + comfort",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-four-review/r03/bed5-a.png"
+    },
+    {
+      "id": "bath4",
+      "title": "Penthouse bathroom",
+      "floor": "penthouse",
+      "mood": "A compact, complete guest bath",
+      "diagnosis": "Give guests an obvious place for towels and toiletries.",
+      "keep": "Plan-led fixture arrangement; no room photo is available.",
+      "improve": "One quiet porcelain family, closed vanity storage and a good mirror/light pairing.",
+      "verify": "Verify all dimensions, shower door sweep and trade requirements on site before ordering.",
+      "priority": "Measure + durable surfaces",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-four-review/r01/bath4-a.png"
+    },
+    {
+      "id": "terrace",
+      "title": "Roof terrace",
+      "floor": "penthouse",
+      "mood": "An outdoor room with breathing space",
+      "diagnosis": "Keep the skyline and fireplace visible; edit accessories and oversized pieces.",
+      "keep": "Roof shape, pergola, privacy wall, fireplace and actual neighboring rooftops.",
+      "improve": "Outdoor-rated seating, pale cushions and charcoal planters; a small coordinated light layer with clear circulation.",
+      "verify": "Check drainage, wind exposure, rooftop load and any fixing with the responsible trade; do not penetrate the roof for styling.",
+      "priority": "Outdoor suitability",
+      "visualStatus": "Plan proposed · existing render",
+      "baseline": "assets/render-candidates/floor-four-review/r01/terrace-a.png"
+    }
+  ]
+}

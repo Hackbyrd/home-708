@@ -1,0 +1,32 @@
+{
+  "version": "MW-P02",
+  "date": "2026-10-07",
+  "option": "mineral-walnut",
+  "name": "Mineral & Walnut",
+  "basis": "Original Option 1 before the playbook crossover; retain subsequent functional requests, never Option 2 furniture assumptions.",
+  "palette": [
+    "Warm ivory and soft mushroom mineral walls",
+    "Rich walnut joinery and furniture",
+    "Natural matte oak dry-area floors",
+    "Ivory, oatmeal and charcoal textiles",
+    "Black/dark small accents",
+    "Green plants"
+  ],
+  "rules": [
+    "New furnishings are budgeted without credits for furniture already owned.",
+    "Do not import the Cocoa & Chrome material board, owned furniture photographs, polished-stainless casegoods, smoky brown-oak storage or blue/yellow accent program.",
+    "Furniture silhouettes may vary, including legs, floating construction and plinth bases where suitable. Option 2’s universal no-legs rule does not apply.",
+    "Roman Clay is selective on dry focal walls; washable matte paint elsewhere and appropriate waterproof assemblies at wet areas.",
+    "Bedrooms retain individual identities within the original palette.",
+    "Bedroom 5 is a new room to construct, not an existing finished room. Its render is proposed."
+  ],
+  "audit": {
+    "dayViews": 45,
+    "spaces": 24,
+    "revertedDayViews": 6,
+    "replacedNightViews": 3,
+    "retainedNightViews": 21,
+    "baseline": "docs/design-history/mineral-walnut-before-playbook.json",
+    "note": "Original 45 views reviewed for style continuity. Restoration retains the documented limitations of plan-led rooms and alternate cameras; it does not certify dimensions."
+  }
+}

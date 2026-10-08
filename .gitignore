@@ -15,6 +15,12 @@ apps/server/data/layouts/*.json
 npm-debug.log*
 *.tsbuildinfo
 legal/
+# Local render scratch files and diagnostic logs are not deployment inputs.
+/tmp/
+# Generated original-photo library and local preview bridge; rebuilt from source assets.
+docs/design-library-assets/
+docs/index.html
+docs/assets
 # full-size AI renders stay local; the app ships the webp copies in assets/renders-web/
 assets/renders/
 assets/render-candidates/

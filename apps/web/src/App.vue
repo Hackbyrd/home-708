@@ -9,7 +9,6 @@ import DimensionHud from './components/DimensionHud.vue'
 import ErrorOverlay from './components/ErrorOverlay.vue'
 import MigrationWizard from './components/MigrationWizard.vue'
 import ReferenceViewer from './components/ReferenceViewer.vue'
-import RedesignsPage from './components/RedesignsPage.vue'
 import RoomBar from './components/RoomBar.vue'
 import SceneViewport from './components/SceneViewport.vue'
 import StyleBar from './components/StyleBar.vue'
@@ -190,16 +189,6 @@ watch(() => editor.enabled, (enabled) => controller.value?.setEditorEnabled(enab
 
 onMounted(initialize)
 
-// deep link: #/renders opens the redesign gallery directly and survives refresh
-onMounted(() => {
-  if (window.location.hash === '#/renders') ui.redesignsOpen = true
-})
-watch(() => ui.redesignsOpen, (open) => {
-  if (open && window.location.hash !== '#/renders') window.location.hash = '#/renders'
-  else if (!open && window.location.hash === '#/renders') {
-    window.history.replaceState(null, '', window.location.pathname + window.location.search)
-  }
-})
 </script>
 
 <template>
@@ -237,7 +226,6 @@ watch(() => ui.redesignsOpen, (open) => {
       @dismiss="ui.migrationOpen = false; layout.dismissMigration()"
     />
     <ReferenceViewer :open="ui.referenceOpen" @close="ui.referenceOpen = false" />
-    <RedesignsPage :open="ui.redesignsOpen" @close="ui.redesignsOpen = false" />
     <ErrorOverlay :message="ui.error" @dismiss="ui.error = null" @retry="ui.error = null; sceneKey++" />
   </AppShell>
 </template>

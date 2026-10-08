@@ -1,0 +1,458 @@
+{
+  "date": "2026-10-07",
+  "round": 3,
+  "status": "completed_preview_only",
+  "workingName": "Cocoa & Chrome \u2014 Refined Stone",
+  "userFeedback": "I like D better. Add a hint of either yellow in pillows/small items or green in plants, and show more rooms.",
+  "preferredBase": {
+    "code": "D",
+    "round": 2,
+    "job_id": "e059fc01-2680-461c-8407-d3e5b7467f45",
+    "file": "assets/render-candidates/option-two-cocoa-chrome/r02/great-refined-stone.png"
+  },
+  "scope": "Four exploratory stills: same-room small-yellow versus plants-only comparison, then formal dining and primary bedroom. No whole-house rollout or final product selection.",
+  "requests": [
+    {
+      "index": 4221,
+      "code": "D1",
+      "room": "great",
+      "label": "Great room \u00b7 butter-yellow accents",
+      "file": "assets/render-candidates/option-two-cocoa-chrome/r03/great-butter-yellow.png",
+      "sourcePhoto": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef"
+          },
+          {
+            "role": "image",
+            "value": "e059fc01-2680-461c-8407-d3e5b7467f45"
+          }
+        ],
+        "prompt": "IMAGE-EDIT WORKFLOW. Reference image 1 is the REAL model-home photo of the target room and governs the room geometry, camera, openings and proportions. Reference image 2 is the user's preferred design D and governs only the FINISH/FURNITURE QUALITY and palette. Do not transfer a fireplace, windows, or furniture layout from the style reference to a different room. Preserve the source room's exact camera and perspective, window count/positions/shapes/mullions, ceiling height, original crown profile and recessed lighting positions. Flat ceilings stay flat. No added wall openings, invented ceiling coves/trays or enlarged room. Exterior is Crown townhouses and mid-rise apartments, never forest, ocean or skyscraper skyline.\n\nMATCH APPROVED D: soft warm mushroom/putty mineral-plaster walls, finely varied rather than heavily mottled, quiet honed warm-grey/taupe stone, rich cocoa/espresso walnut with visible refined matched grain, warm WHITE upholstery and ceiling/trim, restrained POLISHED SILVER chrome and opal glass, medium-light neutral natural oak floors. Rich tactile ivory/taupe loose wool rugs, fine ivory ripple-fold sheer drapes. Small ink-blue notes in white-dominant abstract art and a little textile. No blue or green painted feature wall. No gold/brass. No rustic orange wood. Cabinetry/consoles/dressers/nightstands are closed solid-looking forms reaching a continuous recessed plinth at the FLOOR, NO little feet, visible legs, open frames or wall-hung floating storage. Refined perimeter edges, aligned grain, narrow shadow reveals and integrated finger pulls rather than long cheap bar handles. Meaningful material depth, no generic coordinated furniture set. Chrome selectively used, not a room full of matching mushroom lamps.\n\nPhotoreal interior architectural photography with tactile fabric, wood pores, fine stone variation, soft real shadows, abundant neutral daylight and gentle warm fixture light; no orange cast. Normal residential scale, no lavish hotel lobby. No people, readable text, logos, artwork signatures, watermarks, labels, borders or collage. One full-frame landscape image. This is an exploratory design still, not a labeled diagram.\nTARGET: GREAT ROOM, 15 ft 1 in by 17 ft. Reproduce design D (reference 2) almost exactly, including warm walls, honed stone cladding on the existing centered fireplace chase, stone coffee table, white Cloud sofa foreground/left, two white curved chairs, dark walnut plinth consoles flanking fireplace, sibling white/blue abstract artworks and silver picture lights. Keep the original real-photo geometry (reference 1): left terrace double glazing and exactly two high three-pane windows flanking the original-width chase. TV ABOVE original fireplace with slim soundbar beneath TV. Do not move these or change the room shape. Keep D's restrained sculptural chrome/opal right-console lamp and silver side table. Restore the existing ceiling recessed-light apertures from the actual source photo. Do not redesign the room to add color; change only the small accent styling described next.\nACCENT TEST YELLOW: a very small refined dose of softly muted BUTTER YELLOW / pale ochre, about 3 percent of the room's visible color. Put one small textured butter-yellow lumbar cushion on the white sofa and one small butter-yellow square cushion on a white chair; one tiny pale-yellow ceramic bowl on the walnut console. Keep a single muted blue cushion and the white/ink-blue art, all remaining fabric warm white/taupe. No yellow curtains, walls, rug, large bench or metal. Retain only D's small green plant, no large new greenery. The yellow must read as an edited warm highlight, not a yellow-and-blue matching set."
+      },
+      "outputDimensions": [
+        2528,
+        1696
+      ],
+      "qaStatus": "superseded_after_visual_qa"
+    },
+    {
+      "index": 4222,
+      "code": "D2",
+      "room": "great",
+      "label": "Great room \u00b7 plants-only green",
+      "file": "assets/render-candidates/option-two-cocoa-chrome/r03/great-plants-only.png",
+      "sourcePhoto": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef"
+          },
+          {
+            "role": "image",
+            "value": "e059fc01-2680-461c-8407-d3e5b7467f45"
+          }
+        ],
+        "prompt": "IMAGE-EDIT WORKFLOW. Reference image 1 is the REAL model-home photo of the target room and governs the room geometry, camera, openings and proportions. Reference image 2 is the user's preferred design D and governs only the FINISH/FURNITURE QUALITY and palette. Do not transfer a fireplace, windows, or furniture layout from the style reference to a different room. Preserve the source room's exact camera and perspective, window count/positions/shapes/mullions, ceiling height, original crown profile and recessed lighting positions. Flat ceilings stay flat. No added wall openings, invented ceiling coves/trays or enlarged room. Exterior is Crown townhouses and mid-rise apartments, never forest, ocean or skyscraper skyline.\n\nMATCH APPROVED D: soft warm mushroom/putty mineral-plaster walls, finely varied rather than heavily mottled, quiet honed warm-grey/taupe stone, rich cocoa/espresso walnut with visible refined matched grain, warm WHITE upholstery and ceiling/trim, restrained POLISHED SILVER chrome and opal glass, medium-light neutral natural oak floors. Rich tactile ivory/taupe loose wool rugs, fine ivory ripple-fold sheer drapes. Small ink-blue notes in white-dominant abstract art and a little textile. No blue or green painted feature wall. No gold/brass. No rustic orange wood. Cabinetry/consoles/dressers/nightstands are closed solid-looking forms reaching a continuous recessed plinth at the FLOOR, NO little feet, visible legs, open frames or wall-hung floating storage. Refined perimeter edges, aligned grain, narrow shadow reveals and integrated finger pulls rather than long cheap bar handles. Meaningful material depth, no generic coordinated furniture set. Chrome selectively used, not a room full of matching mushroom lamps.\n\nPhotoreal interior architectural photography with tactile fabric, wood pores, fine stone variation, soft real shadows, abundant neutral daylight and gentle warm fixture light; no orange cast. Normal residential scale, no lavish hotel lobby. No people, readable text, logos, artwork signatures, watermarks, labels, borders or collage. One full-frame landscape image. This is an exploratory design still, not a labeled diagram.\nTARGET: GREAT ROOM, 15 ft 1 in by 17 ft. Reproduce design D (reference 2) almost exactly, including warm walls, honed stone cladding on the existing centered fireplace chase, stone coffee table, white Cloud sofa foreground/left, two white curved chairs, dark walnut plinth consoles flanking fireplace, sibling white/blue abstract artworks and silver picture lights. Keep the original real-photo geometry (reference 1): left terrace double glazing and exactly two high three-pane windows flanking the original-width chase. TV ABOVE original fireplace with slim soundbar beneath TV. Do not move these or change the room shape. Keep D's restrained sculptural chrome/opal right-console lamp and silver side table. Restore the existing ceiling recessed-light apertures from the actual source photo. Do not redesign the room to add color; change only the small accent styling described next.\nACCENT TEST PLANTS ONLY: introduce fresh deep and mid-green ONLY through living foliage. One graceful upright indoor plant in a restrained warm stone floor planter tucked at the left glazing's curtain-stack edge, clear of door travel and walking paths; one smaller leafy plant on the right console and one small natural plant on the coffee table. Plants complement rather than obscure windows or art. Keep blue/white art and a couple of smoky-blue textile accents as D. No yellow accents anywhere. No green painted walls, green cushions, green chairs, floral prints or jungle of plants. Relaxed sophisticated greenery with plenty of negative space."
+      },
+      "outputDimensions": [
+        2528,
+        1696
+      ],
+      "qaStatus": "superseded_after_visual_qa"
+    },
+    {
+      "index": 4223,
+      "code": "D3",
+      "room": "dining",
+      "label": "Formal dining \u00b7 stone, cocoa & greenery",
+      "file": "assets/render-candidates/option-two-cocoa-chrome/r03/dining-stone-cocoa-green.png",
+      "sourcePhoto": "3300e9bd-339e-4639-a7ac-f48d5e49351b",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "3300e9bd-339e-4639-a7ac-f48d5e49351b"
+          },
+          {
+            "role": "image",
+            "value": "e059fc01-2680-461c-8407-d3e5b7467f45"
+          }
+        ],
+        "prompt": "IMAGE-EDIT WORKFLOW. Reference image 1 is the REAL model-home photo of the target room and governs the room geometry, camera, openings and proportions. Reference image 2 is the user's preferred design D and governs only the FINISH/FURNITURE QUALITY and palette. Do not transfer a fireplace, windows, or furniture layout from the style reference to a different room. Preserve the source room's exact camera and perspective, window count/positions/shapes/mullions, ceiling height, original crown profile and recessed lighting positions. Flat ceilings stay flat. No added wall openings, invented ceiling coves/trays or enlarged room. Exterior is Crown townhouses and mid-rise apartments, never forest, ocean or skyscraper skyline.\n\nMATCH APPROVED D: soft warm mushroom/putty mineral-plaster walls, finely varied rather than heavily mottled, quiet honed warm-grey/taupe stone, rich cocoa/espresso walnut with visible refined matched grain, warm WHITE upholstery and ceiling/trim, restrained POLISHED SILVER chrome and opal glass, medium-light neutral natural oak floors. Rich tactile ivory/taupe loose wool rugs, fine ivory ripple-fold sheer drapes. Small ink-blue notes in white-dominant abstract art and a little textile. No blue or green painted feature wall. No gold/brass. No rustic orange wood. Cabinetry/consoles/dressers/nightstands are closed solid-looking forms reaching a continuous recessed plinth at the FLOOR, NO little feet, visible legs, open frames or wall-hung floating storage. Refined perimeter edges, aligned grain, narrow shadow reveals and integrated finger pulls rather than long cheap bar handles. Meaningful material depth, no generic coordinated furniture set. Chrome selectively used, not a room full of matching mushroom lamps.\n\nPhotoreal interior architectural photography with tactile fabric, wood pores, fine stone variation, soft real shadows, abundant neutral daylight and gentle warm fixture light; no orange cast. Normal residential scale, no lavish hotel lobby. No people, readable text, logos, artwork signatures, watermarks, labels, borders or collage. One full-frame landscape image. This is an exploratory design still, not a labeled diagram.\nTARGET ROOM: formal dining, 12 ft 11 in by 15 ft 3 in. KEEP ALL FIVE source windows exactly: one small high arched-top window on the near left wall, then the two taller rectangular double-hung windows with their transoms, then the two tall arched-top windows on the adjoining wall. Do not delete, merge, resize, lower or reshape any window. Preserve any original arched niche and all flat ceiling/crown geometry; do not invent a niche where none is visible. Use exactly the source corner camera.\n\nReplace original dining set with a substantial rectangular 108 x 42 inch ten-seat table following original orientation, softly rounded corners, beautiful warm honed taupe stone top and two sculptural solid cocoa-walnut pedestal bases allowing chairs to tuck. EXACTLY TEN slim, refined white upholstered dining chairs: four on each long side, one at each end, no extra seats; slender dark wood supports allowed on CHAIRS, but storage must be plinth based. This is a proposal at actual room scale, not a ballroom or giant twelve-seat square table. Pale wool rug under table on neutral oak flooring. Preserve circulation.\n\nAt original right-wall sideboard location place a beautifully grained cocoa-walnut closed sideboard with continuous floor plinth, subtle framed rounded perimeter and thin honed stone top. White/ink-blue abstract framed artwork above it and restrained silver picture light. Below the small high window on the near left wall add a shallow low cocoa display cabinet, clearly BELOW glazing, leaving chair pullback usable. Fine ivory sheers frame tall windows without covering their arched heads; high small window remains uncurtained. A sculptural elegant LINEAR chandelier centered over table: slim silver-chrome structure and a small composition of opal glass shades in varied rounded forms, visually airy, a carefully selected high quality fixture rather than gold candle arms or a mass of dangling crystals.\n\nCarry D's rich warm mineral walls, quiet stone and dark cabinetry into this room. GREEN is living foliage only: a low elongated arrangement of fresh green branches in an ivory vessel on table (low enough for conversation) and a modest sculptural leafy plant beside the sideboard clear of circulation. No green walls/upholstery. No deliberate yellow accents in this version. Three thoughtfully placed objects maximum; keep table mostly clear and no formal matching table settings. This is a tailored dining room, not a restyled great room: no sofa, TV, fireplace or bed."
+      },
+      "outputDimensions": [
+        2528,
+        1696
+      ],
+      "qaStatus": "selected_for_taste_feedback"
+    },
+    {
+      "index": 4224,
+      "code": "D4",
+      "room": "ownerbed",
+      "label": "Primary bedroom \u00b7 warm mineral, plants & a hint of yellow",
+      "file": "assets/render-candidates/option-two-cocoa-chrome/r03/ownerbed-mineral-yellow-green.png",
+      "sourcePhoto": "7ca8c112-2a41-4404-961b-d822b2ef471a",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "7ca8c112-2a41-4404-961b-d822b2ef471a"
+          },
+          {
+            "role": "image",
+            "value": "e059fc01-2680-461c-8407-d3e5b7467f45"
+          }
+        ],
+        "prompt": "IMAGE-EDIT WORKFLOW. Reference image 1 is the REAL model-home photo of the target room and governs the room geometry, camera, openings and proportions. Reference image 2 is the user's preferred design D and governs only the FINISH/FURNITURE QUALITY and palette. Do not transfer a fireplace, windows, or furniture layout from the style reference to a different room. Preserve the source room's exact camera and perspective, window count/positions/shapes/mullions, ceiling height, original crown profile and recessed lighting positions. Flat ceilings stay flat. No added wall openings, invented ceiling coves/trays or enlarged room. Exterior is Crown townhouses and mid-rise apartments, never forest, ocean or skyscraper skyline.\n\nMATCH APPROVED D: soft warm mushroom/putty mineral-plaster walls, finely varied rather than heavily mottled, quiet honed warm-grey/taupe stone, rich cocoa/espresso walnut with visible refined matched grain, warm WHITE upholstery and ceiling/trim, restrained POLISHED SILVER chrome and opal glass, medium-light neutral natural oak floors. Rich tactile ivory/taupe loose wool rugs, fine ivory ripple-fold sheer drapes. Small ink-blue notes in white-dominant abstract art and a little textile. No blue or green painted feature wall. No gold/brass. No rustic orange wood. Cabinetry/consoles/dressers/nightstands are closed solid-looking forms reaching a continuous recessed plinth at the FLOOR, NO little feet, visible legs, open frames or wall-hung floating storage. Refined perimeter edges, aligned grain, narrow shadow reveals and integrated finger pulls rather than long cheap bar handles. Meaningful material depth, no generic coordinated furniture set. Chrome selectively used, not a room full of matching mushroom lamps.\n\nPhotoreal interior architectural photography with tactile fabric, wood pores, fine stone variation, soft real shadows, abundant neutral daylight and gentle warm fixture light; no orange cast. Normal residential scale, no lavish hotel lobby. No people, readable text, logos, artwork signatures, watermarks, labels, borders or collage. One full-frame landscape image. This is an exploratory design still, not a labeled diagram.\nTARGET ROOM: OWNER PRIMARY BEDROOM. Use the original photo's exact camera and room boundaries. Keep ONE wide mulled group of FOUR gridded double-hung sashes across the back window wall, all FOUR visible as in the original, never three windows or separate relocated units. Keep bed headboard on RIGHT wall, dresser below four-sash group and another dresser on the solid LEFT wall. Flat original ceiling with original crown and light apertures. No new doors, no canopy, no windows over the bed. Architectural reference 1 controls, reference 2 gives D's warmth and refinement.\n\nRemove the original black four-poster bed and bright yellow foot bench. Fit a substantial warm-WHITE upholstered low platform king bed, clean restrained upholstered headboard with very fine seams; bed on recessed solid plinth, soft dim warm-white under-bed LED glow visible only in the shadow line, no exposed dots or theatrical neon. Layered ivory bedding, fine oatmeal coverlet, one smoky denim throw plus JUST ONE modest soft BUTTER-YELLOW linen lumbar cushion. No large yellow furniture. The wall behind headboard is warm mushroom/putty finely textured mineral plaster, no blue accent wall. Two sibling white-dominant abstracts with small deep-blue gestural marks in fine dark/silver frames above the headboard.\n\nDeep cocoa walnut bedside drawer blocks with rich matched grain, softly rounded perimeter and integral pulls, each reaches the floor on a continuous recessed plinth; no legs, no floating boxes. Gentle concealed light at recessed toe line, not a hovering cabinet. Dark cocoa walnut dresser BELOW the four-sash window group, low enough to leave glazing unobstructed. The solid left wall dresser becomes low dark cocoa storage with a 55-inch wall TV and slim soundbar ABOVE it, replacing left artwork; if partly cropped keep natural crop, never move TV onto the window wall. One silver/opalescent lamp and complementary simple silver reading light; avoid matching mushroom lamps. One low ivory upholstered bench at foot if source clearances allow, neutral not yellow.\n\nReplace all wall-to-wall carpet with natural neutral oak and a separate large ivory wool rug under bed, exposed wood perimeter. Ivory sheer drapes frame the four-sash group, all sashes still readable. One modest leafy indoor plant near the window edge clear of dresser access plus a small fresh stem on a bedside table provide living green. Keep green strictly in plants; no green fabric or paint. Serene, detailed, luxurious residential bedroom with tactile layering, not a cheap white furniture package. No fireplace or living-room furniture from style reference."
+      },
+      "outputDimensions": [
+        2528,
+        1696
+      ],
+      "qaStatus": "superseded_after_visual_qa"
+    },
+    {
+      "index": 4231,
+      "code": "D1",
+      "room": "great",
+      "label": "Great room \u00b7 butter-yellow accents \u00b7 corrected",
+      "file": "assets/render-candidates/option-two-cocoa-chrome/r03/great-butter-yellow-final.png",
+      "replaces": 4221,
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "68977aa5-6739-4fc7-a32a-1344a02830a9"
+          },
+          {
+            "role": "image",
+            "value": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef"
+          }
+        ],
+        "prompt": "Perform a MINIMAL architectural correction to IMAGE 1, the selected great room design with yellow cushions. IMAGE 2 is the original real photo, provided ONLY to locate the existing small recessed ceiling lights. Restore those small flush round recessed-light apertures in the same ceiling positions visible in the original photo. Keep all other pixels/composition of image 1 as close as possible: same camera, two high windows, double terrace doors, cream plaster walls, original-width stone fireplace, TV and soundbar, walnut consoles, both artworks, picture lights, white Cloud sofa and two white chairs, stone coffee table, chrome side table and lamp, sheer drapes, oak floor and rug. Retain exactly image 1's small yellow cushions and pale-yellow bowl and existing blue textile accents. No extra furniture, stools, plants, fixtures, new window or opening. Flat ceiling remains flat; no cove or tray. Neutral daylight, realistic luxurious interior photo. Do not transfer original photo furniture or colors. No people, readable text, logos or watermark."
+      },
+      "outputDimensions": [
+        2528,
+        1696
+      ],
+      "qaStatus": "selected_for_taste_feedback"
+    },
+    {
+      "index": 4232,
+      "code": "D2",
+      "room": "great",
+      "label": "Great room \u00b7 plants-only green \u00b7 corrected",
+      "file": "assets/render-candidates/option-two-cocoa-chrome/r03/great-plants-only-final.png",
+      "replaces": 4222,
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "80a6ff9e-ab83-44ea-ad39-5a13353606aa"
+          },
+          {
+            "role": "image",
+            "value": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef"
+          }
+        ],
+        "prompt": "Perform a small controlled edit to IMAGE 1, the plant-accent great room. IMAGE 2 is the actual photo and is ONLY an architecture reference, not furnishings/colors. REMOVE the two small ivory cube stools/poufs placed directly in front of the fireplace in image 1. Continue the existing rug naturally across their removed footprints. Keep the hearth and approach clear. There must be only the one white Cloud sofa, two white lounge chairs, one low stone coffee table and one small silver side table: no added ottomans or stools. Move the floor plant and its warm-stone pot slightly LEFT, tucked beside the left curtain-stack/sofa edge so it does not sit in front of an operable terrace-door leaf; allow a little natural cropping if needed. Retain natural living green plant accents and blue/white art, NO yellow and NO green fabric. Everything else remains image 1 EXACTLY: camera, both high windows, doors, flat ceiling with current recessed lights, fireplace dimensions, honed stone, TV/soundbar, rich walnut floor-plinth cabinets, chrome/opal lamp, picture lights, white upholstery, coffee table and ivory rug, wall texture, light. No new opening or architecture, no people, readable text, logos or watermark."
+      },
+      "outputDimensions": [
+        2528,
+        1696
+      ],
+      "qaStatus": "selected_for_taste_feedback"
+    },
+    {
+      "index": 4234,
+      "code": "D4",
+      "room": "ownerbed",
+      "label": "Primary bedroom \u00b7 corrected source windows",
+      "file": "assets/render-candidates/option-two-cocoa-chrome/r03/ownerbed-mineral-yellow-green-final.png",
+      "replaces": 4224,
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "79d00457-b594-4e73-bfe1-9a1e0d76a460"
+          },
+          {
+            "role": "image",
+            "value": "7ca8c112-2a41-4404-961b-d822b2ef471a"
+          }
+        ],
+        "prompt": "Correct IMAGE 1's room architecture using IMAGE 2, the REAL PRIMARY BEDROOM source photo. IMAGE 1 is the design to preserve. The generated image 1 has TWO FALSE HIGH WINDOWS on the RIGHT bed/headboard wall, one near the rear corner over the plant, one cropped at the far right edge above the bedside area. DELETE BOTH OF THESE FALSE WINDOWS COMPLETELY, including glass, frames and sills, and fill their entire footprints with uninterrupted matching warm mushroom/putty mineral plaster. In the real source photo, image 2, this headboard wall is BLANK AND WINDOWLESS. No window over or beside headboard, no high transoms. The ONLY window opening visible in this room is the actual wide joined FOUR-SASH gridded window group on the BACK wall, which must stay unchanged with ALL FOUR original sashes and their mullions. Keep the original flat ceiling and crown, no new openings.\n\nPreserve the rest of image 1's design and placement: white upholstered platform king bed with soft recessed underside LED, white/ivory layered bedding, one small butter-yellow lumbar cushion and relaxed smoky-blue throw, two white/blue artworks above headboard, white bench, walnut floor-plinth drawer units and dressers without visible feet or floating gaps, oak floor with loose ivory rug, living green plant, sheer drapes, 55-inch TV and soundbar on solid LEFT dresser wall. Do not copy image 2's black canopy bed, yellow bench, old furniture or carpet. Keep natural residential scale and the existing view direction; no enlarged suite. Refine the two table lamps: left bedside uses a discreet polished-silver reading lamp with opal diffuser; right bedside one compact sculptural opal-glass lamp on silver-chrome base like the refined great-room fixture. Remove the little photographic portrait frame, replace with a simple small dark ceramic object. Subdued chrome glints, neutral bright daylight and mild warm lamps, no orange cast. This is a photoreal image edit, no people/text/logos/watermarks. Highest priority: eliminate both right-wall windows; preserve all four real rear sashes."
+      },
+      "outputDimensions": [
+        2528,
+        1696
+      ],
+      "qaStatus": "selected_for_taste_feedback"
+    }
+  ],
+  "jobs": [
+    {
+      "index": 4221,
+      "job_id": "68977aa5-6739-4fc7-a32a-1344a02830a9",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261007_195354_68977aa5-6739-4fc7-a32a-1344a02830a9.png"
+    },
+    {
+      "index": 4222,
+      "job_id": "80a6ff9e-ab83-44ea-ad39-5a13353606aa",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261007_195356_80a6ff9e-ab83-44ea-ad39-5a13353606aa.png"
+    },
+    {
+      "index": 4223,
+      "job_id": "b0f9e848-6805-4c01-8701-9cb06117d980",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261007_195355_b0f9e848-6805-4c01-8701-9cb06117d980.png"
+    },
+    {
+      "index": 4224,
+      "job_id": "79d00457-b594-4e73-bfe1-9a1e0d76a460",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261007_195355_79d00457-b594-4e73-bfe1-9a1e0d76a460.png"
+    },
+    {
+      "index": 4231,
+      "job_id": "bc30c236-a43c-4949-9f3d-2110d2d23277",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261007_195652_bc30c236-a43c-4949-9f3d-2110d2d23277.png"
+    },
+    {
+      "index": 4232,
+      "job_id": "b4044be7-f403-4cbf-b922-809c80182ee4",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261007_195653_b4044be7-f403-4cbf-b922-809c80182ee4.png"
+    },
+    {
+      "index": 4234,
+      "job_id": "cf02b317-3714-4d89-ab3b-14a239017d7e",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261007_195653_cf02b317-3714-4d89-ab3b-14a239017d7e.png"
+    }
+  ],
+  "qaCorrections": [
+    {
+      "index": 4221,
+      "issue": "Ceiling recessed fixtures omitted; restore for consistent comparison.",
+      "replacementIndex": 4231
+    },
+    {
+      "index": 4222,
+      "issue": "Two unrequested stools inserted at fireplace; remove and tuck plant outside door travel.",
+      "replacementIndex": 4232
+    },
+    {
+      "index": 4224,
+      "issue": "Two false high windows copied to otherwise blank headboard wall; must be removed.",
+      "replacementIndex": 4234
+    }
+  ],
+  "selectedIndices": [
+    4231,
+    4232,
+    4223,
+    4234
+  ],
+  "selectedViews": [
+    {
+      "code": "D1",
+      "index": 4231,
+      "room": "great",
+      "label": "Great room \u00b7 butter-yellow accents \u00b7 corrected",
+      "file": "assets/render-candidates/option-two-cocoa-chrome/r03/great-butter-yellow-final.png",
+      "job_id": "bc30c236-a43c-4949-9f3d-2110d2d23277"
+    },
+    {
+      "code": "D2",
+      "index": 4232,
+      "room": "great",
+      "label": "Great room \u00b7 plants-only green \u00b7 corrected",
+      "file": "assets/render-candidates/option-two-cocoa-chrome/r03/great-plants-only-final.png",
+      "job_id": "b4044be7-f403-4cbf-b922-809c80182ee4"
+    },
+    {
+      "code": "D3",
+      "index": 4223,
+      "room": "dining",
+      "label": "Formal dining \u00b7 stone, cocoa & greenery",
+      "file": "assets/render-candidates/option-two-cocoa-chrome/r03/dining-stone-cocoa-green.png",
+      "job_id": "b0f9e848-6805-4c01-8701-9cb06117d980"
+    },
+    {
+      "code": "D4",
+      "index": 4234,
+      "room": "ownerbed",
+      "label": "Primary bedroom \u00b7 corrected source windows",
+      "file": "assets/render-candidates/option-two-cocoa-chrome/r03/ownerbed-mineral-yellow-green-final.png",
+      "job_id": "cf02b317-3714-4d89-ab3b-14a239017d7e"
+    }
+  ],
+  "qa": {
+    "status": "Visually reviewed against actual source photographs and preferred D image.",
+    "checks": [
+      "Final great-room variants retain both high three-pane windows, terrace glazing, central fireplace and TV/soundbar; no extra stools remain.",
+      "Yellow is limited to two small cushions and a small bowl; plant variation uses green only in foliage.",
+      "Dining preserves all five visible windows and their arched/rectangular shapes; storage stays below glazing.",
+      "Corrected primary bedroom retains the four-sash rear window group and restores the windowless headboard wall.",
+      "White platform bed, TV/soundbar, art over headboard, oak floor/loose rug and dark floor-plinth storage appear in primary bedroom.",
+      "All selected images are 2528 x 1696; actual model-home photograph included as input in each generation and correction."
+    ],
+    "limitations": [
+      "Concept images establish appearance, not surveyed geometry, furniture dimensions, electrical layouts or product specifications.",
+      "Bedroom framing shifts modestly from the original camera; known wall/window arrangement has been checked.",
+      "Ceiling fixture details and exterior buildings are approximate; original source/survey controls actual construction.",
+      "Dining ten-seat layout is a proposed 108 x 42 inch table; confirm actual chair widths, pedestal offsets and circulation before purchase.",
+      "Yellow/green choice and new room designs await user feedback. D is a preferred aesthetic, not fabrication approval."
+    ]
+  },
+  "designIntentNotes": {
+    "palette": "Warm mushroom mineral appearance, soft white upholstery, cocoa walnut, honed warm stone, restrained silver/chrome, retained ink-blue art/textiles.",
+    "yellow": "Muted butter yellow used only in small replaceable textiles or small objects; no yellow wall or large furniture.",
+    "green": "Living foliage only, in neutral containers and clear of doors, drawers and walking routes.",
+    "storage": "Floor-standing closed drawer/cabinet units on continuous recessed plinths; no visible little feet or floating storage.",
+    "costApproach": "Compare ready-made pieces with selected custom/re-faced elements. Premium visual details concentrated in cabinet edges/grain, stone finish and lighting; no budget estimate or product purchase approved.",
+    "materialsStatus": "Appearance studies only: specific coating system, stone/slab versus porcelain, veneer, upholstery, LED components and SKUs remain to select."
+  }
+}

@@ -1,0 +1,556 @@
+{
+  "title": "Daylight Modern",
+  "subtitle": "A modern showcase home with hotel comfort, built in sensible phases.",
+  "date": "2026-10-06",
+  "intro": "Use the abundant daylight as the main feature. Warm white, mushroom cabinetry, natural oak and quiet stone textures create a consistent background. Comfortable upholstery, generous curtains and carefully placed warm light supply the hotel feeling. The expensive-looking details are alignment, scale and finish quality.",
+  "renderScope": "The 19 renders show the completed design direction, including optional later-phase finishes. A Phase 1 refresh will not look identical to the completed renders. Product brands, dimensions and concealed construction cannot be specified from an AI image.",
+  "recommendation": "Start with the lighting, paint and window-treatment package, plus the main living-room furniture. Keep the existing kitchen and floors until their replacements can be done together. This produces a coherent first stage without buying temporary finishes twice.",
+  "starter": {
+    "low": 32000,
+    "high": 49000,
+    "reserve": 0.15,
+    "scope": "Phase 0 + Phase 1 + $6–7k of the Phase 4 furniture allowance reserved for the great room. With a 15% reserve: about $37–56k. This is a subset of the complete plan, not an additional cost."
+  },
+  "budgetBasis": "Concept planning allowances in USD for this four-story home, dated October 6, 2026. These are estimates I propose for budgeting, not supplier prices or contractor quotes. Allowances include ordinary installation, delivery and a tax allowance where applicable. Actual quantities, access, labor, cabinet condition and concealed work must be priced after a site survey. The 15% reserve is shown separately.",
+  "phases": [
+    {
+      "id": "0",
+      "name": "Measure, sample and coordinate",
+      "low": 2000,
+      "high": 4000,
+      "scope": "Field-measured cabinet/appliance survey, finish samples, electrical and window schedule, focused design and trade consultations.",
+      "items": [
+        "Confirm actual 708 conditions against the model-home photos.",
+        "Approve one physical finish board in morning, midday, late-day and evening light.",
+        "Measure appliance openings, stair details, cabinet runs, glass and dry-floor area."
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Light, paint and tailored windows",
+      "low": 24000,
+      "high": 38000,
+      "scope": "Whole-house paint and ordinary wall repair $8–12k; lighting and dimmer upgrades $4–6k; a targeted curtain/shade package $6–10k; door hardware, edited art and accessories $6–10k.",
+      "items": [
+        "Begin with entry, main floor and owner suite; reuse good fixtures elsewhere.",
+        "Use manual shades first; motorize only hard-to-reach or frequently used windows.",
+        "Complete electrical work before final paint; fit curtains after dusty work."
+      ]
+    },
+    {
+      "id": "2",
+      "name": "The main-floor showpiece",
+      "low": 25000,
+      "high": 42000,
+      "scope": "Kitchen front/panel renewal $10–17k; counters and backsplash $4–7k; existing fireplace surround refresh $2–4k; kitchen appliance package including ordinary connection labor $9–14k.",
+      "items": [
+        "Preserve cabinet footprint, oven column, plumbing, hood location and all windows.",
+        "Quote refacing versus stock-box replacement as alternatives, never both.",
+        "Retain a serviceable appliance if replacing it adds little visual or functional value."
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Continuous floors and stair finish",
+      "low": 31000,
+      "high": 49000,
+      "scope": "Allowance for roughly 2,700 sq ft of dry-area flooring at $10–15/sq ft installed ($27–40.5k), plus $4–8.5k for stair refinishing/runner, transitions and touch-up. This is a takeoff placeholder, not measured floor area.",
+      "items": [
+        "Replace by connected floor so finish heights and transitions remain coherent.",
+        "Natural white-oak renders assume replacement where the existing species cannot match.",
+        "Existing cherry cannot be turned into pale white oak by an ordinary stain change. A warm-brown refinish is the lower-cost alternate and will look different."
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Furniture and the hotel suite",
+      "low": 16000,
+      "high": 26000,
+      "scope": "Great-room seating/rug/tables $6–7k; dining set $3–5k; owner bed/mattress/nightstands/bench/rug $4–7k; secondary-room furniture and rugs $3–7k.",
+      "items": [
+        "Reuse and reupholster pieces that already have the right scale.",
+        "Fund comfortable seating, a good mattress and properly sized rugs before decorative objects.",
+        "This allowance is selective replacement, not brand-new premium furniture in every room."
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Supporting rooms and outdoor finish",
+      "low": 20000,
+      "high": 35000,
+      "scope": "Selected office/media/bar cabinetry $8–14k; bathroom cosmetic refreshes $8–13k; laundry pair and ordinary connections $2–3.5k; terrace furniture/textiles $2–4.5k.",
+      "items": [
+        "The bathroom allowance covers vanity/lighting/fixtures and localized dry-area finishes; retain sound waterproofed showers and tubs.",
+        "Full wet-area tile replacement shown as a design option requires a separate bathroom quote.",
+        "Use stock storage with fitted fillers, not full bespoke cabinetry in every room."
+      ]
+    }
+  ],
+  "reserve": 0.15,
+  "exclusions": [
+    "New Bedroom 5 construction, partitions, required egress and HVAC/electrical changes: separate measured scope. Its render depicts the model-home option.",
+    "Creating Bath #3 where no functioning bath exists; full bathroom demolition, waterproofing and concealed plumbing replacement.",
+    "Structural changes, roof/deck reconstruction, window replacement, major HVAC/electrical-service upgrades, permit-driven work and hidden damage.",
+    "Gym equipment, whole-house audio, extensive smart-home systems and all-window motorization. Obtain separate optional prices.",
+    "Material quantities are not the 4,882-sq-ft headline house area: measure net treated surfaces and add appropriate waste."
+  ],
+  "sunlight": [
+    {
+      "name": "Control glare without losing the windows",
+      "detail": "Fit inside-mount light-filtering or solar rollers where glare matters, with curtains stacking beside the glass. Use room-darkening/blackout layers in bedrooms and media. Sheers and solar fabrics alone do not provide dependable night privacy."
+    },
+    {
+      "name": "Keep surfaces quiet",
+      "detail": "Choose washable matte walls, matte/satin wood and calm stone patterns. Avoid glossy floors and large polished surfaces opposite intense sunlight. Read finish samples on more than one wall before buying."
+    },
+    {
+      "name": "Zone by exposure, not one setting",
+      "detail": "Survey which windows receive morning versus afternoon sun. Start with manual shades; separately control the sunroom, main living room and owner bedroom. Keep daytime shades partly open as conditions allow."
+    },
+    {
+      "name": "A separate evening scene",
+      "detail": "Use 2700K dimmable decorative lighting in living/bedrooms and consistent 3000K task light in kitchen/baths, with CRI 90+ as the selection target. Aim for light on faces, art and work surfaces; use the existing ceiling locations where possible."
+    },
+    {
+      "name": "Protect materials thoughtfully",
+      "detail": "Choose manufacturer-approved finishes and upholstery for the actual exposure; move/rotate rugs when practical. Consider window film only after the glazing manufacturer confirms compatibility. Do not promise fade-proof wood or fabrics."
+    }
+  ],
+  "materials": [
+    {
+      "id": "P1",
+      "name": "Warm white envelope",
+      "spec": "Benjamin Moore White Dove OC-17 as the first sample, washable matte on walls, flat ceiling, same-color satin on trim. Manufacturer lists LRV 83.16. Final approval must be in this house.",
+      "where": "Dry rooms, entry and stairs",
+      "budget": "Standard premium architectural paint; spend on prep and sharp edges.",
+      "sourceIds": [
+        "paint"
+      ]
+    },
+    {
+      "id": "C1",
+      "name": "Mushroom cabinet fronts",
+      "spec": "Factory satin warm mushroom / pale greige, slim Shaker or plain fronts. Reface sound existing boxes after measuring hinges and overlays. A standard-box replacement with fitted panels is the alternate.",
+      "where": "Kitchen perimeter, laundry, bathroom vanities, coffee bar",
+      "budget": "IKEA SEKTION/HAVSTORP is a price-conscious reference for new boxes and plain fronts; it is not a drop-in front system for arbitrary builder cabinets.",
+      "sourceIds": [
+        "cabinet"
+      ]
+    },
+    {
+      "id": "W1",
+      "name": "Natural oak",
+      "spec": "Neutral natural-oak engineered planks, roughly 5–7 inches wide, matte factory finish, restrained knots; select substrate, wear layer and installation system with the flooring contractor. Oak-veneer panels on stable cores for visible cabinetry.",
+      "where": "Dry-area floors, island panels, selected storage",
+      "budget": "Straight-laid stock planks and veneer panels; skip herringbone and solid-oak cabinets.",
+      "sourceIds": []
+    },
+    {
+      "id": "S1",
+      "name": "Quiet stone effect",
+      "spec": "Warm ivory/limestone-look matte porcelain, typically 12×24 or 24×48 where substrate flatness and installer capability permit; coordinated grout and simple edge trim. Use a shower-floor tile explicitly rated for that wet use.",
+      "where": "Existing fireplace surround, optional bath feature walls and dry floors",
+      "budget": "Large-format tile, not fabricated natural-stone slabs. Daltile Keystones is a porcelain mosaic family to investigate for wet-floor applications.",
+      "sourceIds": [
+        "mosaic"
+      ]
+    },
+    {
+      "id": "Q1",
+      "name": "Light counters",
+      "spec": "Stock cream/off-white low-movement quartz, simple eased edge. Approve the actual slab beside the cabinet sample. Match the existing waterfall silhouette only where budget permits; retained tops are the initial-phase alternate.",
+      "where": "Kitchen; remnants for bars and vanity tops",
+      "budget": "Compare local entry-tier quartz and remnants. MSI Q is a reference line; choose the warmest compatible real sample rather than a screen swatch.",
+      "sourceIds": [
+        "quartz"
+      ]
+    },
+    {
+      "id": "T1",
+      "name": "Tailored textiles",
+      "spec": "Ivory linen-look drapery with consistent headings and discreet tracks; stain-resistant performance upholstery in ivory, oatmeal and taupe; modest tobacco accents. Rugs large enough for front furniture legs to sit on them.",
+      "where": "Living rooms, bedrooms, office, dining",
+      "budget": "Standard-width panels professionally hemmed and installed; reserve custom width or motors for difficult openings.",
+      "sourceIds": []
+    },
+    {
+      "id": "M1",
+      "name": "Controlled metal mix",
+      "spec": "Satin nickel for plumbing and cabinet pulls; a limited brushed-bronze family for decorative pendants, mirror frames and accents. Keep existing window frames white and avoid changing every metal finish.",
+      "where": "Kitchen, baths, pendants and hardware",
+      "budget": "Stock hardware in consistent centers; use existing holes where feasible.",
+      "sourceIds": []
+    },
+    {
+      "id": "L1",
+      "name": "Layered, dimmable light",
+      "spec": "Diffuse opal or linen shades; concealed LED only under cabinets/shelves or in the existing loft tray. Specify compatible fixtures, drivers and dimmers together, accessible drivers and no visible LED dots.",
+      "where": "Kitchen task surfaces, vanities, bedside, built-ins",
+      "budget": "Dimmers on existing circuits before adding ceiling architecture. Caséta is an optional control family; verify each LED load against Lutron compatibility guidance.",
+      "sourceIds": [
+        "lighting"
+      ]
+    }
+  ],
+  "customWork": [
+    {
+      "name": "Kitchen fronts and island",
+      "scope": "Survey every door/drawer; specify hinge overlay, drawer clearances, end panels, fillers and toe-kicks. Match the oak island panel to the approved floor sample without requiring an exact grain match. Keep access to plumbing and appliances.",
+      "save": "Refinish or reface sound boxes; replace failed boxes locally. Retain the stainless chimney hood.",
+      "holdPoint": "Appliance schedule and actual cutout dimensions approved before cabinet drawings or countertop templating."
+    },
+    {
+      "name": "Great-room fireplace wall",
+      "scope": "Clad only the existing chase with calm porcelain. Keep both high transoms open, and place TV above the insert as requested. Conceal power and data in an accessible route; coordinate a soundbar shelf only if allowed.",
+      "save": "Tile field with carefully planned seams, stock lower consoles, no new fireplace or widened chimney chase.",
+      "holdPoint": "Installer checks fireplace-listed combustible clearances, heat exposure and TV manufacturer limits before fixing height or trim."
+    },
+    {
+      "name": "Office and media storage",
+      "scope": "Standard closed lower cabinets with scribed fillers and selected open oak-veneer shelves; keep the office window counter. Provide concealed cable paths, ventilated electronics storage and adequate desk clearance.",
+      "save": "Build one convincing wall per room; avoid continuous custom paneling around the whole room.",
+      "holdPoint": "Field dimensions, anchor locations, outlet access, ventilation and shelf spans approved in shop drawings."
+    },
+    {
+      "name": "Owner suite",
+      "scope": "Retail upholstered headboard and matching nightstands; concealed blackout rollers behind drapery. Reface the existing coffee bar and fit a remnant top without moving its sink or wine fridge.",
+      "save": "Spend on mattress, bedding and bedside lighting; use a retail headboard rather than a full upholstered wall.",
+      "holdPoint": "Curtain stack width must keep all four rear sashes usable and maintain access to doors and controls."
+    },
+    {
+      "name": "Stair finish",
+      "scope": "Preserve the quarter-turn, intermediate landing and straight continuation. Refinish or paint compatible surfaces, fit a runner template, and retain the open stairwell and existing guard locations.",
+      "save": "Refinish a serviceable rail instead of replacing the stair.",
+      "holdPoint": "Stair contractor confirms tread/riser consistency and guard/handrail compliance before changing any thickness or component."
+    }
+  ],
+  "applianceBasis": "Reference models establish the desired category and appearance; they are not an order list. Manufacturer pages were checked October 6, 2026. Dollar ranges below are equipment planning allowances, not live offers. Confirm current local availability, dimensions, connections, ventilation and installation instructions before selecting. These costs are already included in the relevant phase allowances, not additive.",
+  "appliances": [
+    {
+      "name": "Counter-depth refrigerator",
+      "quantity": "1",
+      "model": "GE Profile PWE23KYNFS or equivalent 36-inch-class counter-depth French-door model",
+      "allowance": "$2,000–3,200 equipment",
+      "reason": "A tidy depth and clean stainless front create a fitted look without a panel-ready built-in.",
+      "check": "Measure niche height/width/depth, door swing, ventilation and water connection; counter-depth is not flush-inset.",
+      "phase": "2",
+      "sourceIds": [
+        "fridge"
+      ]
+    },
+    {
+      "name": "Quiet dishwasher",
+      "quantity": "1",
+      "model": "Bosch 500 Series SHP65CM5N or current equivalent",
+      "allowance": "$900–1,300 equipment",
+      "reason": "A useful hospitality upgrade in the open main level; this reference model uses AutoAir drying.",
+      "check": "Measure the existing bay and finished floor height; follow the installation and countertop moisture-protection instructions.",
+      "phase": "2",
+      "sourceIds": [
+        "dishwasher"
+      ]
+    },
+    {
+      "name": "Wall oven",
+      "quantity": "1",
+      "model": "GE Profile PTS7000SNSS, 30-inch single convection wall oven, or equivalent that fits",
+      "allowance": "$2,000–3,000 equipment",
+      "reason": "Retain the oven column so adjacent kitchen and sunroom stay consistent.",
+      "check": "Use the actual manufacturer cutout sheet; nominal 30-inch size is not a cabinet cutout measurement. Verify circuit and support requirements.",
+      "phase": "2",
+      "sourceIds": [
+        "oven"
+      ]
+    },
+    {
+      "name": "Cooktop",
+      "quantity": "1, only if replacement is worthwhile",
+      "model": "GE Profile PHP9036DTBB 36-inch induction reference; same-size gas alternate if existing services make that better value",
+      "allowance": "$1,500–2,700 equipment",
+      "reason": "A clean cooking surface and easy cleaning; retaining a good existing cooktop is the first saving.",
+      "check": "Measure existing cutout. Electrician checks supply, panel capacity and circuit route before an induction conversion; conversion work is separate.",
+      "phase": "2",
+      "sourceIds": [
+        "cooktop"
+      ]
+    },
+    {
+      "name": "Microwave and hood",
+      "quantity": "1 microwave; retain 1 working hood where possible",
+      "model": "Built-in microwave with its manufacturer-matched trim kit; existing stainless chimney hood or a like-for-like ducted replacement",
+      "allowance": "$900–1,800 combined equipment allowance if both need replacement",
+      "reason": "Coordinate the oven stack and leave the chimney in its present location.",
+      "check": "Verify microwave cooling path, kit width and oven spacing; verify hood duct size, discharge route and installation clearances.",
+      "phase": "2",
+      "sourceIds": [
+        "ge-catalog"
+      ]
+    },
+    {
+      "name": "Laundry pair",
+      "quantity": "1 washer + 1 dryer",
+      "model": "LG WM4000HWA washer + DLEX4000W electric dryer as reference pair; choose dryer fuel to match verified service",
+      "allowance": "$1,700–2,800 pair before installation",
+      "reason": "Matching front-load machines give the compact room a clean working surface. Keep both on the right wall.",
+      "check": "Check actual depths with hoses, doors open, vent route, vibration support and service access. Support any counter independently, above specified appliance clearances.",
+      "phase": "5",
+      "sourceIds": [
+        "washer",
+        "dryer"
+      ]
+    },
+    {
+      "name": "Coffee and beverage equipment",
+      "quantity": "Existing wine/beverage units retained; 1 optional countertop coffee machine",
+      "model": "Retain serviceable undercounter units in owner retreat and loft; countertop machine instead of a built-in espresso appliance",
+      "allowance": "Optional $400–900 coffee machine; failed beverage unit replacement quoted separately",
+      "reason": "Creates a suite ritual with little construction.",
+      "check": "Confirm heat/ventilation and electrical clearances; do not enclose a freestanding fridge as if it were front-vented.",
+      "phase": "Optional",
+      "sourceIds": []
+    }
+  ],
+  "procurement": [
+    "Survey actual rooms first. Treat photo-derived dimensions as orientation only and record cabinet, glazing, floor and appliance measurements.",
+    "Approve one physical palette, then quote a base scope and priced alternates. Keep retained items and demolition limits explicit in the bids.",
+    "Coordinate appliances, cabinetry, countertop templates, electrical outlets, plumbing and curtain stacks before orders. Do not order counters before the final cabinet/appliance layout.",
+    "Order long-lead fronts, fixtures and upholstery after measurements are signed off. Check delivery dimensions for the townhouse doors and stairs.",
+    "Perform messy and concealed work, floor installation and cabinet work before finish paint touch-up and window treatments. Install furniture and styling last.",
+    "At handover, check aligned doors, consistent grout, dimmer operation, night privacy, drawer/appliance clearances, task lighting and concealed-cable access."
+  ],
+  "sources": [
+    {
+      "id": "paint",
+      "title": "Benjamin Moore — White Dove OC-17",
+      "url": "https://www.benjaminmoore.com/en-us/paint-colors/color/oc-17/white-dove"
+    },
+    {
+      "id": "cabinet",
+      "title": "IKEA — HAVSTORP beige front",
+      "url": "https://www.ikea.com/us/en/p/havstorp-door-beige-90475305/"
+    },
+    {
+      "id": "mosaic",
+      "title": "Daltile — Keystones porcelain mosaics",
+      "url": "https://www.daltile.com/products/mosaic/keystones"
+    },
+    {
+      "id": "quartz",
+      "title": "MSI — Q Quartz collection",
+      "url": "https://www.msisurfaces.com/quartz-countertops/quartz-collections/"
+    },
+    {
+      "id": "lighting",
+      "title": "Lutron — LED compatibility guidance",
+      "url": "https://support.lutron.com/us/en/product/casetawireless/component/dimmers/in-wall-dimmer/faqs/bulb-compatibility"
+    },
+    {
+      "id": "fridge",
+      "title": "GE Profile — PWE23KYNFS specifications",
+      "url": "https://products.geappliances.com/appliance/gea-specs/PWE23KYNFS/support"
+    },
+    {
+      "id": "dishwasher",
+      "title": "Bosch — SHP65CM5N",
+      "url": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHP65CM5N"
+    },
+    {
+      "id": "oven",
+      "title": "GE Profile — PTS7000SNSS installation",
+      "url": "https://products.geappliances.com/appliance/gea-specs/PTS7000SNSS/install"
+    },
+    {
+      "id": "cooktop",
+      "title": "GE Profile — PHP9036DTBB installation",
+      "url": "https://products.geappliances.com/appliance/gea-specs/PHP9036DTBB/install"
+    },
+    {
+      "id": "ge-catalog",
+      "title": "GE Profile — 2026 product catalog",
+      "url": "https://www.geappliances.com/content/pro/downloads/2026-Profile_LookBook.pdf"
+    },
+    {
+      "id": "washer",
+      "title": "LG — WM4000HWA washer",
+      "url": "https://www.lg.com/us/washers-dryers/lg-wm4000hwa-front-load-washer"
+    },
+    {
+      "id": "dryer",
+      "title": "LG — DLEX4000W electric dryer",
+      "url": "https://www.lg.com/us/washers-dryers/lg-dlex4000w-front-load-electric-dryer"
+    }
+  ],
+  "rooms": [
+    {
+      "key": "entry",
+      "name": "Entrance gallery",
+      "floor": "first-floor",
+      "materials": "P1, W1, M1, L1",
+      "build": "Remove wallpaper and repair walls; refinish the existing rail; template a stair runner. Keep the balcony, glass doors, arch and landing window.",
+      "buy": "One suitably scaled opal/bronze pendant, narrow console only if circulation allows, one large artwork.",
+      "save": "Spend on two-story paint preparation and a correctly scaled fixture; retain the stair structure."
+    },
+    {
+      "key": "gym",
+      "name": "Studio gym",
+      "floor": "first-floor",
+      "materials": "P1, charcoal rubber floor, safety-backed mirror, W1 storage",
+      "build": "Remove the wine wall and ladder; check the substrate before mirror/rack anchoring. Keep both real window walls and a clear entry.",
+      "buy": "Compact folding rack, adjustable bench, dumbbells, wall storage; equipment is separately priced.",
+      "save": "Mirror and tidy equipment do more than luxury wall cladding."
+    },
+    {
+      "key": "media",
+      "name": "Media room",
+      "floor": "first-floor",
+      "materials": "P1, W1, T1, L1",
+      "build": "Keep tray ceiling and offset two-sash window. Fit stock low storage on the right TV wall with ventilation and cable access. Add blackout behind open curtains.",
+      "buy": "Comfortable sectional, properly sized rug, low coffee table, warm lamp; reuse existing TV/audio when useful.",
+      "save": "Avoid bespoke acoustic wall panels and new ceiling coffers."
+    },
+    {
+      "key": "office",
+      "name": "Home office",
+      "floor": "first-floor",
+      "materials": "P1, C1, W1, T1, L1",
+      "build": "Fit closed base storage and oak shelves on the left wall only; preserve the two-unit front and three-unit right windows plus existing window counter.",
+      "buy": "Desk, supportive task chair, two modest guest chairs, rug, optional monitor arm and concealed cable tray.",
+      "save": "Standard cabinets with fitted fillers can look custom."
+    },
+    {
+      "key": "bath",
+      "name": "Bath #3",
+      "floor": "first-floor",
+      "materials": "P1, S1, Q1, W1, M1, L1",
+      "build": "If already built: refresh vanity, mirror, light and trim. Keep toilet/vanity together on the garage-side wall and compact corner shower. New bath construction is a separate quote.",
+      "buy": "Compact vanity, round mirror, diffused face light, towel accessories; no window.",
+      "save": "Use the existing waterproofed shower if sound. This render has no real-room photo as ground truth."
+    },
+    {
+      "key": "great",
+      "name": "Great room",
+      "floor": "second-floor",
+      "materials": "P1, S1, W1, T1, M1, L1",
+      "build": "Tile the existing chase only; coordinate above-fireplace TV mounting and concealed services. Leave both high transoms and terrace doors unobstructed.",
+      "buy": "Tailored ivory sofa, two taupe/camel chairs, oak oval coffee table, large oatmeal rug, one bronze lamp.",
+      "save": "Use stock consoles and porcelain instead of a full slab wall; the render is the later-phase finish target."
+    },
+    {
+      "key": "kitchen",
+      "name": "Kitchen",
+      "floor": "second-floor",
+      "materials": "C1 perimeter, W1 island, Q1 counters, S1 backsplash, M1, L1",
+      "build": "Reface sound boxes or use stock replacements in the exact L-run. Keep the oven/microwave column, hood and four-stool island. Coordinate new appliance cutouts before templating.",
+      "buy": "Refrigerator, dishwasher, wall oven, cooktop, microwave and retained/renewed ducted hood; four upholstered stools, two simple pendants.",
+      "save": "Retain good boxes and appliances; matching fronts, fitted panels and clear counters produce the showcase effect."
+    },
+    {
+      "key": "dining",
+      "name": "Formal dining",
+      "floor": "second-floor",
+      "materials": "P1, W1, T1, M1, L1",
+      "build": "Keep all five windows and original niche; install drapery to stack away from the glass. Center a replacement fixture on the intended table without inventing a ceiling feature.",
+      "buy": "Approximately 84-inch oval table and eight slim chairs as a starting point, sized after field checks; low sideboard, large rug.",
+      "save": "One excellent light and a consistent chair set, not custom wall paneling."
+    },
+    {
+      "key": "sunroom",
+      "name": "Sun room",
+      "floor": "second-floor",
+      "materials": "P1, C1 oven column, W1, T1, L1",
+      "build": "Preserve every knee wall, sash and transom. Match the left oven-column fronts to the kitchen; add glare-control rollers to the surveyed sun-facing windows.",
+      "buy": "Round 42–48-inch pedestal table subject to clearances, four comfortable chairs, linen drum pendant.",
+      "save": "No built-in banquette that hides glass or narrows circulation."
+    },
+    {
+      "key": "stair2",
+      "name": "Stair hall",
+      "floor": "second-floor",
+      "materials": "P1, W1 stair finish, M1, oatmeal runner",
+      "build": "Keep the exact curved quarter-turn, intermediate landing, upper straight flight and open down-well. Refinish the existing railing and fit a runner to actual treads.",
+      "buy": "Two large neutral artworks and warm existing-location lighting.",
+      "save": "Do not budget for a new staircase merely to change its color."
+    },
+    {
+      "key": "ownerbed",
+      "name": "Owner’s bedroom",
+      "floor": "third-floor",
+      "materials": "P1, W1, T1, M1, L1",
+      "build": "Keep the bed on the right and the complete four-sash mulled window group clear. Combine blackout rollers with open drapery; coordinate accessible bedside power.",
+      "buy": "Low upholstered bed, quality mattress, matching nightstands/lamps, dresser below windows, foot bench and large rug.",
+      "save": "A retail headboard, excellent bedding and quiet bedside light create the suite experience."
+    },
+    {
+      "key": "retreat",
+      "name": "Owner’s retreat",
+      "floor": "third-floor",
+      "materials": "C1, Q1 remnant, W1, M1, L1",
+      "build": "Reface the existing coffee bar; retain sink and wine fridge locations and all pass-through openings. Keep service access and safe countertop appliance clearance.",
+      "buy": "One countertop coffee machine, tray, two cups, closed storage for supplies; existing beverage unit retained.",
+      "save": "Skip a built-in espresso machine and elaborate wine display."
+    },
+    {
+      "key": "ownerbath",
+      "name": "Owner’s bath",
+      "floor": "third-floor",
+      "materials": "P1, C1, Q1, S1, M1, L1",
+      "build": "Base refresh: vanity fronts/top as needed, mirrors, face lighting and accessible plumbing trim. Full porcelain retiling is an optional separately quoted wet-area project. Preserve both shower and vanity-side windows.",
+      "buy": "Keep functioning freestanding tub and shower glass; coordinate replacement trim with existing valves before purchase.",
+      "save": "Do not tear out a sound shower simply to match the render. Tile upgrades require a waterproofing scope, not cosmetic tile-over assumptions."
+    },
+    {
+      "key": "bed3",
+      "name": "Bedroom 3",
+      "floor": "third-floor",
+      "materials": "P1, W1, T1, L1",
+      "build": "Keep the headboard on the right between its two windows and the large left/front window intact. Use compact bedside storage and blackout rollers behind sheers.",
+      "buy": "Upholstered bed sized after clearances, two small nightstands, rug, restrained artwork.",
+      "save": "Standard furniture and simple curtains; no full-wall custom headboard."
+    },
+    {
+      "key": "sharedbath",
+      "name": "Shared bath",
+      "floor": "third-floor",
+      "materials": "P1, C1, Q1, S1, M1, L1",
+      "build": "Refresh double vanity, wide mirror and face lighting while preserving both Jack-and-Jill doorways. No bathroom window is added.",
+      "buy": "Two coordinated faucets, diffused vanity lights, towel rails and drawer organizers.",
+      "save": "Keep serviceable top/basins or use a stock double-vanity top; replace only visibly dated or failed components."
+    },
+    {
+      "key": "laundry",
+      "name": "Laundry",
+      "floor": "third-floor",
+      "materials": "C1, Q1/solid-surface remnant, S1 floor, M1, L1",
+      "build": "Keep sink and both windows on the left, machines on the right. Fit fronts, folding surface and storage without narrowing the aisle or blocking service access.",
+      "buy": "Matching front-load pair, independently supported counter if clearances permit, baskets, drying rail clear of doors.",
+      "save": "A clean front/counter package and better task light beat custom laundry millwork."
+    },
+    {
+      "key": "loft",
+      "name": "Penthouse loft",
+      "floor": "penthouse",
+      "materials": "P1, C1, W1, Q1 remnant, T1, L1",
+      "build": "Retain the existing tray, left French-door/window rhythm, right sliders and recessed wet-bar alcove. Upgrade existing tray lighting only if feasible; preserve access for drivers.",
+      "buy": "Retail sectional, two light chairs, coffee table/rug, bar stools sized to existing counter, retained beverage unit.",
+      "save": "Refresh the alcove instead of constructing another kitchen; no invented fireplace."
+    },
+    {
+      "key": "bed5",
+      "name": "Bedroom 5 option",
+      "floor": "penthouse",
+      "materials": "P1, W1, T1, L1",
+      "build": "This room is a model-home option, not an assumed existing room at 708. Price its construction separately before finishes. Keep the pictured solid headboard/far walls and far-right door.",
+      "buy": "Low upholstered bed, compact nightstands and lamps, dresser and rug after the shell scope is resolved.",
+      "save": "Defer this entire room if it compromises the main-floor and owner-suite budget."
+    },
+    {
+      "key": "terrace",
+      "name": "Roof terrace",
+      "floor": "penthouse",
+      "materials": "Existing deck and pergola, weather-rated T1, natural/teak-look outdoor furniture",
+      "build": "Preserve pergola, sails, railings and house-side fireplace wall. Inspect and maintain existing decking, drainage and attachment points; no structural deck work included.",
+      "buy": "Outdoor dining set, neutral cushions, modest lounge seating, limited planters and replacement string lights if needed.",
+      "save": "Furniture and textiles first. Added roof load, penetrations and fire-feature alterations need separate review and pricing."
+    }
+  ]
+}

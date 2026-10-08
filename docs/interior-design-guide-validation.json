@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-08T06:02:35.750Z",
+  "checks": [
+    "guide route",
+    "24 room plans",
+    "floor-three filter",
+    "search, floor filters and deep links",
+    "room, view and before/after selection",
+    "image enlargement and keyboard close",
+    "dining arithmetic and conditional verdict",
+    "planning progress persists and exports correctly",
+    "47 local links and assets",
+    "no page overflow at 390px",
+    "no page overflow at 768px",
+    "no page overflow at 1440px",
+    "six study views included in print layout",
+    "Option 1 retains 24 rooms / 45 views with six revised views",
+    "24 improvement records and one decision log entry",
+    "Option 2 metadata unchanged",
+    "21 remaining room image histories unchanged",
+    "guide discoverable from design library"
+  ],
+  "failures": []
+}

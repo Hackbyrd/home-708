@@ -1,0 +1,212 @@
+{
+  "date": "2026-10-07",
+  "optionNumber": 2,
+  "workingName": "Cocoa & Chrome",
+  "status": "completed_preview_only",
+  "provider": "Higgsfield API",
+  "scope": "Option 2 exploratory stills only. Preferred D direction with small accent tests and additional room examples; no full-house rollout or construction/product selections.",
+  "preferences": {
+    "metal": "Polished silver/chrome",
+    "wood": "Deep cocoa/espresso brown",
+    "upholstery": "White Cloud sofa, white chairs and white bed frame; soften surroundings with warm stone walls.",
+    "storageBase": "Floor-standing closed cabinetry, flush or recessed continuous plinth; no visible little legs.",
+    "accent": "Retain restrained blue artwork/textiles; explore small butter-yellow accents versus green living plants. No green feature walls requested.",
+    "sourceArtwork": "Imagined placeholder artwork, not a reproduction of the owner's painting."
+  },
+  "requests": [
+    {
+      "index": 4201,
+      "code": "A",
+      "room": "great",
+      "label": "Blue on warm stone",
+      "file": "assets/render-candidates/option-two-cocoa-chrome/r01/great-blue.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef"
+          }
+        ],
+        "prompt": "Edit the supplied REAL model-home interior photograph into a photorealistic design proposal. This is an image-to-image architectural restyle, not a new room. Preserve the exact camera, room proportions, all window and door openings, glazing divisions, original ceiling and crown moulding. Crown/Gaithersburg townhouses and nearby roofs outside only. Use bright natural daylight with realistic neutral white balance, soft shadows and credible material textures; no dramatic orange cast. No people, logos, labels, watermark, collage or added text. Design working name Cocoa & Chrome: sophisticated contemporary showroom, warm dark espresso/cocoa-brown wood, cool silver polished chrome details, warm off-white upholstery, restrained blue. All drawer units, sideboards, consoles and bedside cabinets are monolithic floor-standing boxes on flush or deeply recessed continuous plinths. NO little feet, no visible furniture legs under storage, no open frame bases and no floating wall-hung cabinets. Wood is deep chocolate brown with subtle straight grain, not orange or rustic walnut. Chrome is actually SILVER, not brass/gold/bronze; use polished metal selectively, not an all-mirrored room. Floors are natural neutral medium-light oak with a loose oatmeal rug; no wall-to-wall carpet. Keep the room build uncomplicated: smooth beautifully finished painted walls, no ornate wall panels, no costly whole-wall slab or elaborate ceiling interventions. Great room: match the supplied corner view exactly. Keep the centered original fireplace chase and linear insert, both high horizontal transom windows on the fireplace wall, and the existing terrace glazing along the left wall. TV is mounted ABOVE the fireplace (intentional owner change from original); remove the TV from the right-side bay. Place two low closed-front dark cocoa consoles, one on each side below the high windows, with matching thin chrome cabinet pulls and solid continuous plinths down to the floor. Above each console, below its high window, hang sibling abstract artworks in thin silver frames, mostly chalk white with expressive inky/denim-blue brushwork, not identical copies. Keep two very comfortable softly rounded warm-white upholstered chairs in the source's approximate positions with concealed swivel bases. Main sofa is an oversized low white Cloud-style sofa facing the fireplace, photographed from behind/side like the original foreground. Use one substantial dark cocoa oval coffee table on a closed pedestal/plinth and a pale quiet rug. Sculptural polished chrome dome table lamp and polished chrome arc floor lamp, soft light through sheer ivory curtains; one tasteful green plant. Clear usable paths. No yellow curtains from the original, no art covering glazing. PALETTE A: all walls a clearly perceptible soft warm stone/mink-greige paint, ceiling and trim warm white. Wall tone is richer and slightly deeper than the upholstery, so the white sofa and chairs are defined against it. Muted smoky denim and ink blue only in the two white-dominant artworks, three thoughtfully placed blue cushions and a small blue glass object. Crisp silver chrome gives modern highlights against the dark brown storage. Quiet, collected, bright and luxurious. NO yellow accent in this version, no coordinated green cushions. The dark consoles must visibly meet the floor on continuous solid plinths."
+      }
+    },
+    {
+      "index": 4202,
+      "code": "B",
+      "room": "great",
+      "label": "Blue with a little butter yellow",
+      "file": "assets/render-candidates/option-two-cocoa-chrome/r01/great-blue-butter.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef"
+          }
+        ],
+        "prompt": "Edit the supplied REAL model-home interior photograph into a photorealistic design proposal. This is an image-to-image architectural restyle, not a new room. Preserve the exact camera, room proportions, all window and door openings, glazing divisions, original ceiling and crown moulding. Crown/Gaithersburg townhouses and nearby roofs outside only. Use bright natural daylight with realistic neutral white balance, soft shadows and credible material textures; no dramatic orange cast. No people, logos, labels, watermark, collage or added text. Design working name Cocoa & Chrome: sophisticated contemporary showroom, warm dark espresso/cocoa-brown wood, cool silver polished chrome details, warm off-white upholstery, restrained blue. All drawer units, sideboards, consoles and bedside cabinets are monolithic floor-standing boxes on flush or deeply recessed continuous plinths. NO little feet, no visible furniture legs under storage, no open frame bases and no floating wall-hung cabinets. Wood is deep chocolate brown with subtle straight grain, not orange or rustic walnut. Chrome is actually SILVER, not brass/gold/bronze; use polished metal selectively, not an all-mirrored room. Floors are natural neutral medium-light oak with a loose oatmeal rug; no wall-to-wall carpet. Keep the room build uncomplicated: smooth beautifully finished painted walls, no ornate wall panels, no costly whole-wall slab or elaborate ceiling interventions. Great room: match the supplied corner view exactly. Keep the centered original fireplace chase and linear insert, both high horizontal transom windows on the fireplace wall, and the existing terrace glazing along the left wall. TV is mounted ABOVE the fireplace (intentional owner change from original); remove the TV from the right-side bay. Place two low closed-front dark cocoa consoles, one on each side below the high windows, with matching thin chrome cabinet pulls and solid continuous plinths down to the floor. Above each console, below its high window, hang sibling abstract artworks in thin silver frames, mostly chalk white with expressive inky/denim-blue brushwork, not identical copies. Keep two very comfortable softly rounded warm-white upholstered chairs in the source's approximate positions with concealed swivel bases. Main sofa is an oversized low white Cloud-style sofa facing the fireplace, photographed from behind/side like the original foreground. Use one substantial dark cocoa oval coffee table on a closed pedestal/plinth and a pale quiet rug. Sculptural polished chrome dome table lamp and polished chrome arc floor lamp, soft light through sheer ivory curtains; one tasteful green plant. Clear usable paths. No yellow curtains from the original, no art covering glazing. PALETTE B: a warmer, more expressive variation. Paint the two wall bays flanking the fireplace a refined softly desaturated slate-denim blue, medium-light value, not navy cave; fireplace chase and other walls stay a warm stone greige, white trim and ceiling. Preserve identical architecture and similar furniture positions for comparison. White/ivory Cloud sofa and chairs, dark cocoa plinth consoles and coffee table. Add exactly TWO small muted butter-yellow cushions, one on the sofa and one chair, plus a small pale yellow ceramic bowl; blue cushions and blue-on-white art remain. Yellow is only an approximately five-percent accent, NOT yellow walls, yellow curtains, bright mustard upholstery or yellow metal. Polished chrome lighting and fine silver artwork frames. Balanced contemporary luxury rather than coastal/beach decor. Clearly show the legless storage bases reaching the floor."
+      }
+    },
+    {
+      "index": 4203,
+      "code": "C",
+      "room": "ownerbed",
+      "label": "The bedroom translation",
+      "file": "assets/render-candidates/option-two-cocoa-chrome/r01/ownerbed-blue.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "7ca8c112-2a41-4404-961b-d822b2ef471a"
+          }
+        ],
+        "prompt": "Edit the supplied REAL model-home interior photograph into a photorealistic design proposal. This is an image-to-image architectural restyle, not a new room. Preserve the exact camera, room proportions, all window and door openings, glazing divisions, original ceiling and crown moulding. Crown/Gaithersburg townhouses and nearby roofs outside only. Use bright natural daylight with realistic neutral white balance, soft shadows and credible material textures; no dramatic orange cast. No people, logos, labels, watermark, collage or added text. Design working name Cocoa & Chrome: sophisticated contemporary showroom, warm dark espresso/cocoa-brown wood, cool silver polished chrome details, warm off-white upholstery, restrained blue. All drawer units, sideboards, consoles and bedside cabinets are monolithic floor-standing boxes on flush or deeply recessed continuous plinths. NO little feet, no visible furniture legs under storage, no open frame bases and no floating wall-hung cabinets. Wood is deep chocolate brown with subtle straight grain, not orange or rustic walnut. Chrome is actually SILVER, not brass/gold/bronze; use polished metal selectively, not an all-mirrored room. Floors are natural neutral medium-light oak with a loose oatmeal rug; no wall-to-wall carpet. Keep the room build uncomplicated: smooth beautifully finished painted walls, no ornate wall panels, no costly whole-wall slab or elaborate ceiling interventions. OWNER BEDROOM: preserve source camera, flat ceiling, crown moulding and especially the ONE wide mulled group of FOUR gridded double-hung sashes across the back/window wall. Keep the bed headboard on the RIGHT wall. Remove original black four-poster canopy and yellow bench. Replace with a clean substantial warm-WHITE low platform bed frame on recessed base with a softly upholstered off-white headboard, ivory layered bedding. Behind the bed use a smooth muted smoky blue-grey painted feature wall, the other walls a soft warm putty/taupe; ceiling/trim warm white. Above headboard two restrained framed white artworks with a small touch of blue, thin polished silver frames, no wood headwall or slats. Bedside cabinets and the long dresser BELOW the windows are solid deep cocoa-brown handleless drawer blocks right down to a continuous recessed plinth, zero visible footlegs, not floating. Their dark color grounds the white bed. Polished silver-chrome rounded lamps with opal diffusers on the nightstands, small silver hardware details. Replace source wall-to-wall carpet with quiet neutral oak and a large loose ivory rug beneath bed, exposed oak border. Two blue cushions and a folded smoky denim throw; no yellow in this bedroom. Keep source location of dresser and all windows, no extra openings. Source left wall art above the tall dresser may become a 55 inch wall TV with slim soundbar if visible, never on or over the windows. One modest green plant; sheer ivory drapes framing the real four-sash window group. Inviting daylight hotel-suite calm with believable residential scale."
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "index": 4201,
+      "job_id": "1a737072-9a12-40f3-b1c9-6a69f996f613",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261007_191734_1a737072-9a12-40f3-b1c9-6a69f996f613.png"
+    },
+    {
+      "index": 4202,
+      "job_id": "44aa8a63-9289-4897-bc25-5869868903ae",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261007_191734_44aa8a63-9289-4897-bc25-5869868903ae.png"
+    },
+    {
+      "index": 4203,
+      "job_id": "c908a834-d29b-4171-8dea-c8a238afac70",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261007_191734_c908a834-d29b-4171-8dea-c8a238afac70.png"
+    }
+  ],
+  "qa": {
+    "scope": "Visual palette exploration; not a measured reconstruction or approved construction design.",
+    "checked": [
+      "All three images generated as edits of the real room photograph.",
+      "Great room retains both high windows, terrace glazing, flat ceiling and fireplace; TV placed above fireplace.",
+      "Bedroom retains the four-sash window group, flat ceiling and bed on right wall.",
+      "Silver chrome, dark brown plinth-based storage, white upholstery and blue accents visible.",
+      "Oak flooring with loose rugs; no people, logos or watermarks."
+    ],
+    "notes": [
+      "B applies blue to the upper fireplace chase as well as the flanking bays, a broader blue treatment than the initial prompt.",
+      "Furniture forms, artwork and daylight/exterior details are proposed interpretations; the owner's actual furniture and painting have not been photographed.",
+      "Bedroom camera framing shifts slightly from the reference; retain as a palette study, not a final room-layout rendering."
+    ],
+    "approvedFor": "Taste feedback only"
+  },
+  "suggestedStartingPoint": "User selected D over E. Keep warm mineral walls; explore accent variants without returning to blue feature walls.",
+  "feedbackLog": [
+    {
+      "date": "2026-10-07",
+      "round": 2,
+      "userFeedback": "It's a nice design, but it feels like a cheap home.",
+      "priorRecommendation": "A for the great room: warm stone walls keep the white furniture soft, chrome provides silver highlights and blue remains easy to adjust. B deliberately tests stronger color; C shows the palette in a bedroom.",
+      "response": "Improve material depth, millwork craftsmanship, furniture scale and lighting hierarchy; compare warm mineral stone against smoky ink blue. Retain white upholstery, dark brown floor-standing storage and silver/chrome. Exploratory only.",
+      "manifest": "docs/option-two-exploration-r02.json"
+    },
+    {
+      "date": "2026-10-07",
+      "round": 3,
+      "userFeedback": "I like D better; add a hint of yellow in pillows/small objects or green in plants, and show more rooms.",
+      "interpretation": "D is the preferred base. Compare accent treatments in the great room and extend into dining and primary bedroom. Accent palette and new room designs remain pending feedback.",
+      "manifest": "docs/option-two-exploration-r03.json"
+    },
+    {
+      "date": "2026-10-07",
+      "scope": "Comparison with Option 1 / seasonal decorating",
+      "userFeedback": "Mineral & Walnut feels better and seems suitable as a foundation for Christmas and Halloween decorating; requests designer assessment of the new design.",
+      "interpretation": "User currently leans toward Mineral & Walnut overall. D remains the preferred version within Option 2. This is consultation, not authorization to replace designs, expand renders or deploy changes."
+    }
+  ],
+  "currentRound": 3,
+  "rounds": [
+    {
+      "round": 1,
+      "indices": [
+        4201,
+        4202,
+        4203
+      ],
+      "status": "Reviewed by user: nice design but feels cheap; not selected."
+    },
+    {
+      "round": 2,
+      "indices": [
+        4211,
+        4212
+      ],
+      "manifest": "docs/option-two-exploration-r02.json",
+      "status": "Awaiting user taste feedback."
+    },
+    {
+      "round": 3,
+      "indices": [
+        4231,
+        4232,
+        4223,
+        4234
+      ],
+      "manifest": "docs/option-two-exploration-r03.json",
+      "status": "Completed previews; awaiting user feedback."
+    }
+  ],
+  "preferredDirection": {
+    "code": "D",
+    "round": 2,
+    "name": "Refined stone & cocoa",
+    "status": "User prefers this direction; accent treatment still being explored."
+  },
+  "latestPreviewManifest": "docs/option-two-exploration-r03.json",
+  "comparisonPreference": {
+    "userLeaning": "Option 1 \u2014 Mineral & Walnut",
+    "reason": "Overall preference and flexibility for seasonal decorating.",
+    "status": "Consultation; no new whole-house design approval."
+  }
+}

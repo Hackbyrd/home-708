@@ -1,0 +1,339 @@
+{
+  "date": "2026-10-07T21:13:07.520Z",
+  "base": "https://708.hackbyrd.com",
+  "rooms": 24,
+  "views": 45,
+  "scheduleEntries": 160,
+  "checks": 179,
+  "mediaChecks": 171,
+  "failures": [],
+  "pages": [
+    {
+      "target": "/",
+      "status": 200,
+      "title": "The City Home — 3D"
+    },
+    {
+      "target": "/model-home",
+      "status": 200,
+      "title": "Model Home · Home 708"
+    },
+    {
+      "target": "/house-design-review",
+      "status": 200,
+      "title": "Mineral & Walnut · Option 1 · Home 708"
+    },
+    {
+      "target": "/stone-linen",
+      "status": 200,
+      "title": "Cocoa &amp; Chrome · Option 2"
+    },
+    {
+      "target": "/renders",
+      "status": 200,
+      "title": "Design options · Home 708"
+    },
+    {
+      "target": "/stone-linen-build-book",
+      "status": 200,
+      "title": "Cocoa &amp; Chrome · Option 2"
+    },
+    {
+      "target": "/cocoa-chrome",
+      "status": 200,
+      "title": "Cocoa & Chrome · Option 2 · Home 708"
+    },
+    {
+      "target": "/cocoa-chrome-build-book",
+      "status": 200,
+      "title": "Cocoa &amp; Chrome · Materials & build book"
+    }
+  ],
+  "dimensions": [
+    {
+      "code": "E1",
+      "index": 6001,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "E2",
+      "index": 6101,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "O1",
+      "index": 6002,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "O2",
+      "index": 6102,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "M1",
+      "index": 6003,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "M2",
+      "index": 6103,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "G1",
+      "index": 6004,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "G2",
+      "index": 6304,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B1",
+      "index": 6005,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B2",
+      "index": 6105,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "GR1",
+      "index": 6231,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "GR2",
+      "index": 6106,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "K1",
+      "index": 6007,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "K2",
+      "index": 6307,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "D1",
+      "index": 6008,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "D2",
+      "index": 6408,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "LR1",
+      "index": 6009,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "LR2",
+      "index": 6109,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "S1",
+      "index": 6010,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "S2",
+      "index": 6310,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "ST1",
+      "index": 6011,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "ST2",
+      "index": 6311,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "OB1",
+      "index": 6012,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "OB2",
+      "index": 6112,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "OR1",
+      "index": 6213,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "OR2",
+      "index": 6113,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "BA1",
+      "index": 6014,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "BA2",
+      "index": 6114,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "WC1",
+      "index": 6015,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B21",
+      "index": 6016,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B22",
+      "index": 6116,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B31",
+      "index": 6017,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B32",
+      "index": 6117,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "SB1",
+      "index": 6018,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "SB2",
+      "index": 6118,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "LA1",
+      "index": 6019,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "LA2",
+      "index": 6119,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "ST31",
+      "index": 6020,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "PL1",
+      "index": 6221,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "PL2",
+      "index": 6321,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B51",
+      "index": 6022,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B52",
+      "index": 6122,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "PBA1",
+      "index": 6023,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "RT1",
+      "index": 6024,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "RT2",
+      "index": 6424,
+      "width": 2528,
+      "height": 1696
+    }
+  ],
+  "delivery": {
+    "published": true,
+    "deployment": "https://62d1bc10.home-708-7zy.pages.dev",
+    "review": "https://708.hackbyrd.com/cocoa-chrome#floor-3/ownerbath",
+    "book": "https://708.hackbyrd.com/cocoa-chrome-build-book",
+    "verified": "2026-10-07T21:14:34.813Z",
+    "mediaChecks": 171,
+    "mediaFailures": 0
+  },
+  "tests": {
+    "files": 7,
+    "passed": 31
+  },
+  "typecheck": "passed",
+  "productionBuild": "passed"
+}

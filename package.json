@@ -11,6 +11,9 @@
   "scripts": {
     "dev": "npm run dev -w @city-home/web",
     "build:renders": "node scripts/build-renders.mjs",
+    "build:design-review": "node scripts/build-house-design-review.mjs && node scripts/build-room-design-book.mjs && node scripts/build-design-library.mjs",
+    "build:stone-linen": "node scripts/build-stone-linen.mjs && node scripts/build-house-design-review.mjs stone-linen && node scripts/build-room-design-book.mjs stone-linen && node scripts/build-design-library.mjs",
+    "build:design-library": "node scripts/build-design-library.mjs",
     "dev:full": "concurrently -n web,server -c cyan,magenta \"npm run dev -w @city-home/web\" \"npm run dev -w @city-home/server\"",
     "build": "npm run build -w @city-home/shared && npm run build -w @city-home/scene && npm run build -w @city-home/web && npm run build -w @city-home/server",
     "build:cloudflare": "npm run build -w @city-home/shared && npm run build -w @city-home/scene && npm run build -w @city-home/web",
@@ -21,7 +24,10 @@
     "lint": "eslint .",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "build:cocoa-chrome": "node scripts/build-cocoa-chrome.mjs && node scripts/build-house-design-review.mjs cocoa-chrome && node scripts/build-room-design-book.mjs cocoa-chrome && node scripts/build-design-library.mjs",
+    "build:interior-guide": "node scripts/build-interior-design-guide.mjs && node scripts/build-house-design-review.mjs && node scripts/build-room-design-book.mjs && node scripts/build-design-library.mjs",
+    "build:mineral-budget": "node scripts/build-mineral-budget.mjs"
   },
   "engines": {
     "node": ">=22"

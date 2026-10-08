@@ -1,0 +1,363 @@
+{
+  "updated": "2026-10-06",
+  "stage": "Taste discovery; selected reference directions, not final finish or construction approval",
+  "goals": [
+    "Warm and welcoming",
+    "Calm and restorative",
+    "Sophisticated and luxurious",
+    "Use abundant daylight",
+    "Budget-conscious phased work",
+    "Visible wall detailing and layered lighting with straightforward construction"
+  ],
+  "preferences": {
+    "dislikes": [
+      "Earlier all-pale rooms felt washed out",
+      "The olive/cognac, blue/rust and teal/berry furniture combinations were not right",
+      "Plain drywall with furniture is insufficient"
+    ],
+    "wants": [
+      "Richer material depth",
+      "Subtle wall detailing",
+      "Integrated and decorative lighting",
+      "Decorative paint or plaster-like wall finishes",
+      "Green accents, potentially introduced through plants",
+      "More black and dark accents, including frames for wall pictures and canvases"
+    ],
+    "materialChoice": "User prefers the designer to choose suitable materials rather than select from technical names",
+    "accentColor": "User prefers the plants-only green treatment from the green/black exploration: A great room, C owner bedroom and E dining. Use plants/leafy stems for green, with black frames and dark accessories. Do not introduce a coordinated green artwork, cushion, bedding or runner scheme in the current direction.",
+    "bedroomIndividuality": {
+      "status": "Preferred design principle; exact room proposals await feedback",
+      "principle": "A shared warm modern house palette with distinct bedroom moods, focal points, headboard shapes, lighting and textile details. Avoid repeating the same walnut/LED headboard wall throughout.",
+      "rooms": {
+        "ownerbed": {
+          "identity": "Layered owners sanctuary",
+          "direction": "The most layered bedroom: a low walnut headboard band, softly textured mushroom walls, generous neutral upholstery and gentle indirect light."
+        },
+        "bed2": {
+          "identity": "Soft framed guest retreat",
+          "direction": "A lighter, softer guest room with a tall oatmeal upholstered headboard, quiet painted wall framing and ceramic bedside lamps."
+        },
+        "bed3": {
+          "identity": "Airy tailored bedroom",
+          "direction": "An airy room led by its windows: a low upholstered bed, tailored neutral textiles, slim dark accents and a quietly textured dresser wall."
+        },
+        "bed5": {
+          "identity": "Mushroom boutique suite",
+          "direction": "A slightly moodier penthouse bedroom with warm mushroom walls, a charcoal upholstered bed and sculptural dark lamps, balanced by ivory linen and trim."
+        }
+      },
+      "costStrategy": "Concentrate the strongest custom headboard detail in the owners suite; favor retail furniture, painted trim and focused finishes in the guest rooms."
+    },
+    "bedroomFlooring": {
+      "direction": "Natural neutral oak floors with loose rugs beneath beds in all four bedrooms, including penthouse.",
+      "status": "Homeowner requested; exact product unselected",
+      "feedbackReference": "FB-016"
+    }
+  },
+  "selectedReferences": [
+    {
+      "room": "ownerbed",
+      "label": "D from six-room examples",
+      "file": "assets/render-candidates/rooms-exploration-2026-10-06/ownerbed-wood-headwall.png",
+      "jobId": "612c62a2-b03e-4d74-bbae-0ca0522035f0",
+      "selectedElements": [
+        "Low walnut headboard band",
+        "Soft indirect light",
+        "Textured wall above",
+        "Calm upholstered bed and layered bedding"
+      ]
+    },
+    {
+      "room": "dining",
+      "label": "E from six-room examples",
+      "file": "assets/render-candidates/rooms-exploration-2026-10-06/dining-framed-walls.png",
+      "jobId": "6a0f60b5-5353-498d-a3b9-1a5c8c86365d",
+      "selectedElements": [
+        "Subtle painted wall frames",
+        "Warm neutral walls",
+        "Sculptural light",
+        "Walnut furniture"
+      ]
+    },
+    {
+      "room": "great",
+      "label": "B from wall-detail examples: textured walls + illuminated art",
+      "file": "assets/render-candidates/detail-exploration-2026-10-06/great-textured-walls.png",
+      "jobId": "a9b8397a-adcb-4c19-8bb7-55c786adb23e",
+      "selectedElements": [
+        "Soft textured wall finish",
+        "Illuminated art",
+        "Layered lamp light",
+        "Warm wood consoles"
+      ]
+    }
+  ],
+  "proposedDirection": {
+    "status": "Designer recommendation awaiting further taste feedback",
+    "wallFinish": "Sample a controlled, low-sheen Roman Clay/plaster-like finish in warm mushroom or stone taupe for selected uninterrupted feature walls. Compare with fine brush-applied limewash. Avoid heavy mottling.",
+    "roomApplication": {
+      "great": "Develop selected textured-wall and illuminated-art scheme using mineral/plaster-like finish in fireplace-side wall bays; retain source architecture and both high transoms.",
+      "ownerbed": "Keep selected low wood band and soft light. Compare a plaster-like finish above the band with the original linen-look wallpaper. This is a proposed change, not a selected material.",
+      "dining": "Retain selected painted frames; use compatible smooth paint on trim and optionally a restrained mineral finish within broad wall fields after a mock-up. Do not assume a wall-only coating is suitable for all trim substrates."
+    },
+    "accentStrategy": "Keep warm neutral backgrounds, warm wood, black picture/floating canvas frames and selected dark lamps/charcoal accessories. Bring green through plants and leafy stems. Retain neutral artwork and warm neutral/charcoal textiles from A/C/E. Final species, sizes, pots, placement and purchased items remain open.",
+    "workingSummary": "Warm modern luxury with textured warm neutral walls, walnut furniture and simple wood detailing, layered lighting, green plants and deliberate black/dark accents. User prefers plants-only green, with neutral art and textiles, from the six green/black previews. Aim for a welcoming, sophisticated builder-showcase home using phased, practical construction.",
+    "finishZoning": {
+      "status": "Designer recommendation discussed with user; exact room finishes and products are not final selections",
+      "dryFeatureWalls": "Roman Clay is the current designer preference for the bedroom headboard wall and great-room feature wall bays; limewash remains an option for dry, low-contact decorative walls. The user has not selected a winner from the finish comparison.",
+      "otherWalls": "Coordinating washable matte paint; bathroom-rated paint for humid bathroom walls outside direct splash areas. Keep applied dining-room trim in a compatible conventional paint system.",
+      "highSplashAreas": "Porcelain or glazed ceramic at sink/cooktop backsplashes. Porcelain tile over an appropriate waterproofing system inside showers and tub/shower surrounds. Do not specify ordinary limewash or Roman Clay for these high-splash areas.",
+      "paletteContinuity": "Proposed warm stone-look tile, warm neutral painted walls and specialty feature finishes should share compatible undertones; physical samples still required."
+    },
+    "costControl": "Concentrate specialty application on selected focal walls; use coordinating washable conventional paint elsewhere. Price substrate preparation and finish application separately after site inspection.",
+    "sampling": "Prepare large sample boards in the intended method and sheen, including proposed topcoat. Review in actual morning, midday and evening light before procurement."
+  },
+  "sourceNotes": [
+    {
+      "url": "https://portolapaints.com/pages/roman-clay-series",
+      "note": "Roman Clay is a smooth plaster-like interior finish applied in thin overlapping layers with a putty knife or trowel. Application takes longer than conventional interior paint; topcoat changes color and sheen."
+    },
+    {
+      "url": "https://portolapaints.com/pages/lime-wash-series",
+      "note": "Lime Wash is brush-applied, with soft chalky visual variation. Drywall requires the specified primer system."
+    },
+    {
+      "url": "https://portolapaints.com/pages/faq",
+      "note": "Roman Clay prefers smooth substrates. Sealing depends on traffic and desired cleanability; sample the complete coating system. Limewash is typically not recommended on wood or metal."
+    }
+  ],
+  "boundaries": [
+    "Current authorized review scope: existing lower-floor views plus floors three and four, with one unified floor-tabbed review.",
+    "Concept review precedes final material, product, dimension and construction approval.",
+    "No push or deployment requested for this review update."
+  ],
+  "finishComparison": {
+    "date": "2026-10-06",
+    "status": "Presented for preference; no finish selected yet",
+    "manifest": "assets/render-candidates/finish-comparison-2026-10-06/manifest.json",
+    "previews": [
+      {
+        "letter": "A",
+        "room": "great",
+        "finish": "Roman Clay",
+        "index": 2406,
+        "file": "assets/render-candidates/finish-comparison-2026-10-06/great-roman-clay-refined.png",
+        "jobId": "2a5b8071-6d54-4b0b-a287-9b09922a2b08"
+      },
+      {
+        "letter": "B",
+        "room": "great",
+        "finish": "Limewash",
+        "index": 2401,
+        "file": "assets/render-candidates/finish-comparison-2026-10-06/great-limewash.png",
+        "jobId": "c137ed6c-71f0-4b76-9f77-aaf5e61f1b19"
+      },
+      {
+        "letter": "C",
+        "room": "ownerbed",
+        "finish": "Roman Clay",
+        "index": 2402,
+        "file": "assets/render-candidates/finish-comparison-2026-10-06/ownerbed-roman-clay.png",
+        "jobId": "1891ed48-dafa-4b47-bd3c-bb0fe3ee816d"
+      },
+      {
+        "letter": "D",
+        "room": "ownerbed",
+        "finish": "Limewash",
+        "index": 2403,
+        "file": "assets/render-candidates/finish-comparison-2026-10-06/ownerbed-limewash.png",
+        "jobId": "28b325c4-0b10-4129-8536-00144ba3b054"
+      },
+      {
+        "letter": "E",
+        "room": "dining",
+        "finish": "Roman Clay",
+        "index": 2404,
+        "file": "assets/render-candidates/finish-comparison-2026-10-06/dining-roman-clay.png",
+        "jobId": "504d0b9b-8bc2-4992-96f6-a670b60dfc79"
+      },
+      {
+        "letter": "F",
+        "room": "dining",
+        "finish": "Limewash",
+        "index": 2405,
+        "file": "assets/render-candidates/finish-comparison-2026-10-06/dining-limewash.png",
+        "jobId": "796a6b45-fa84-49aa-b055-37b5026a9482"
+      }
+    ]
+  },
+  "greenBlackExploration": {
+    "date": "2026-10-06",
+    "status": "User prefers plants-only versions A, C and E; selected visual direction, not procurement or whole-house rollout approval",
+    "manifest": "assets/render-candidates/green-black-exploration-2026-10-06/manifest.json",
+    "previews": [
+      {
+        "letter": "A",
+        "room": "great",
+        "variant": "Green from plants + black accents",
+        "file": "assets/render-candidates/green-black-exploration-2026-10-06/great-plants-black.png",
+        "jobId": "7a4644c5-5677-4c33-9f7a-6d40aa57ed2f"
+      },
+      {
+        "letter": "B",
+        "room": "great",
+        "variant": "Plants + green art/textiles + black accents",
+        "file": "assets/render-candidates/green-black-exploration-2026-10-06/great-green-black.png",
+        "jobId": "87f41108-c671-483d-89b1-8a84e650dab1"
+      },
+      {
+        "letter": "C",
+        "room": "ownerbed",
+        "variant": "Green from plants + black accents",
+        "file": "assets/render-candidates/green-black-exploration-2026-10-06/ownerbed-plants-black.png",
+        "jobId": "3750256b-e2ed-41c8-831f-2252274eb5fd"
+      },
+      {
+        "letter": "D",
+        "room": "ownerbed",
+        "variant": "Plants + green art/textiles + black accents",
+        "file": "assets/render-candidates/green-black-exploration-2026-10-06/ownerbed-green-black.png",
+        "jobId": "a0e46a2b-ec77-4337-86d2-07681c498822"
+      },
+      {
+        "letter": "E",
+        "room": "dining",
+        "variant": "Green from plants + black accents",
+        "file": "assets/render-candidates/green-black-exploration-2026-10-06/dining-plants-black.png",
+        "jobId": "f5d22c9c-b285-4390-9e49-a0942e0c6676"
+      },
+      {
+        "letter": "F",
+        "room": "dining",
+        "variant": "Plants + green art/textiles + black accents",
+        "file": "assets/render-candidates/green-black-exploration-2026-10-06/dining-green-black.png",
+        "jobId": "50b37971-c3f3-46fe-b87b-03f978f5f43d"
+      }
+    ],
+    "selectedLetters": [
+      "A",
+      "C",
+      "E"
+    ],
+    "selectedPreviews": [
+      {
+        "letter": "A",
+        "room": "great",
+        "variant": "Green from plants + black accents",
+        "file": "assets/render-candidates/green-black-exploration-2026-10-06/great-plants-black.png",
+        "jobId": "7a4644c5-5677-4c33-9f7a-6d40aa57ed2f"
+      },
+      {
+        "letter": "C",
+        "room": "ownerbed",
+        "variant": "Green from plants + black accents",
+        "file": "assets/render-candidates/green-black-exploration-2026-10-06/ownerbed-plants-black.png",
+        "jobId": "3750256b-e2ed-41c8-831f-2252274eb5fd"
+      },
+      {
+        "letter": "E",
+        "room": "dining",
+        "variant": "Green from plants + black accents",
+        "file": "assets/render-candidates/green-black-exploration-2026-10-06/dining-plants-black.png",
+        "jobId": "f5d22c9c-b285-4390-9e49-a0942e0c6676"
+      }
+    ],
+    "selectionNote": "User: \"i like the just plants better\". Designer agrees the plants-only direction keeps green organic and lets wood, lighting and wall texture carry the room."
+  },
+  "roomReview": {
+    "record": "docs/room-design-book.json",
+    "readableRecord": "docs/room-design-book.html",
+    "currentRoom": "entry",
+    "currentRevision": "r02",
+    "status": "FB-016 images ready for room-by-room feedback",
+    "nextRooms": [
+      "office",
+      "media",
+      "gym"
+    ],
+    "rule": "Preserve all room feedback and revisions. Use labeled views for refinement, and distinguish source-photo evidence from inferred plan concepts.",
+    "latestFeedback": {
+      "id": "FB-016",
+      "date": "2026-10-06",
+      "scope": "floors 1–3 refinements, missing living room and all-bedroom flooring",
+      "userFeedback": "Entry: match second-floor wood color. Office: TV and soundbar in north cabinetry, artwork and small printer cabinet right of entry door. Media: clear entry doors, collectible shelves right of doors, less intense TV wall, soundbar, ceiling and behind-sofa speakers. Great room: sibling artworks above both consoles. Kitchen: better island lights. Dining: explore larger table for ten versus square twelve, fill space below high window. Living room: baby grand, Cloud couch, sheer drapes, two blueprint-derived angles. Sunroom: rectangular six-seat table, better chandelier, sheer drapes. All bedrooms: hard floors with loose rug under beds. Owner bedroom: 55-inch TV and soundbar instead of dresser art, art above bed, platform and bedside underside LEDs. Owner bath: artwork above tub. Bedroom 2: correct bed/desk/door layout; clarified headboard WEST and entry at southern WEST wall, desk right of EAST window. Laundry: graphic and exact wording “Rinse and repeat..”. Clarified oak/rug applies to penthouse bedroom too.",
+      "interpretation": "Preserve the individual bedroom identities and common warm modern palette. Propose rectangular 108 × 42 in dining table for ten, subject to actual circulation survey. Use plan-informed living room and explicitly record Bedroom 2 closet/door conflict rather than claiming its new layout is surveyed. All new images are proposals; measurements, products and trade details remain unselected.",
+      "status": "requirements_recorded; revised_images_awaiting_feedback",
+      "affectedRooms": [
+        "entry",
+        "office",
+        "media",
+        "great",
+        "kitchen",
+        "dining",
+        "living",
+        "sunroom",
+        "ownerbed",
+        "ownerbath",
+        "bed2",
+        "bed3",
+        "laundry",
+        "bed5"
+      ],
+      "revisionAtFeedback": "floor-one r03; floor-two r01; floors-three/four r02",
+      "resultingRevision": "floor-one r04; floor-two r02; floors-three/four r03"
+    },
+    "currentRooms": [
+      "entry",
+      "office",
+      "media",
+      "gym",
+      "bath",
+      "great",
+      "kitchen",
+      "dining",
+      "sunroom",
+      "stair2",
+      "ownerbed",
+      "retreat",
+      "ownerbath",
+      "ownercloset",
+      "bed2",
+      "bed3",
+      "sharedbath",
+      "laundry",
+      "stair3",
+      "loft",
+      "bed5",
+      "bath4",
+      "terrace"
+    ],
+    "reviewPage": "docs/house-design-review.html",
+    "reviewRevision": "FB-016",
+    "roomRequirements": {
+      "entry": "Light warm-ivory gallery doors, preserve chandelier/quotes.",
+      "office": "Full north-wall built-in; large rectangular desk with SE task chair facing NW; no south console.",
+      "media": "Walnut slat TV wall, 83-inch TV, long charcoal-front walnut console and deep Cloud-style seating; paired west-wall entry near south end.",
+      "gym": "Empty room with mirror, floor, exact selected quote and retained NW closet/bath access; equipment later.",
+      "second-floor": "Begin great room, kitchen, dining, sunroom and stair hall; five photographed spaces, two views each."
+    },
+    "activeRevisionRooms": [
+      "entry",
+      "office",
+      "media",
+      "great",
+      "kitchen",
+      "dining",
+      "living",
+      "sunroom",
+      "ownerbed",
+      "ownerbath",
+      "bed2",
+      "bed3",
+      "laundry",
+      "bed5"
+    ]
+  },
+  "designOption": {
+    "id": "mineral-walnut",
+    "number": 1,
+    "name": "Mineral & Walnut",
+    "catalog": "docs/design-options.json",
+    "named": "2026-10-07"
+  }
+}

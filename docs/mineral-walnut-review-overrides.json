@@ -1,0 +1,113 @@
+{
+  "revision": "mw01",
+  "rooms": {
+    "great": {
+      "revision": "r03 · MW-R01",
+      "intent": "Smoother mineral walls, rounded pale stone-look coffee table, brown-oak plinth consoles with restrained stainless details; a trace of smoky blue in art/textile and one tall plant.",
+      "views": [
+        {
+          "id": "GR1-MW01",
+          "code": "GR1",
+          "index": 10001,
+          "jobId": "b1e11111-c0ca-44bc-a294-a8616615359f",
+          "model": "nano_banana_2_1",
+          "label": "Collected seating and useful surfaces",
+          "file": "assets/render-candidates/mineral-walnut-refinement/r01/great-a.png",
+          "evidenceType": "Photo-based refinement",
+          "evidence": "MW-R01 · Uses the original model-home photograph and prior design as structural/context evidence; new materials and furniture are proposals.",
+          "qaNote": "Visible transoms, fireplace/chase, terrace glazing and flat crown ceiling compared with the original photo. GR2 is a closer derived finish view, not a surveyed camera. Brown-oak color, art and furniture dimensions remain illustrative; steel and stain samples must be coordinated. TV-above-fireplace location retained by owner direction; confirm appliance heat clearances."
+        },
+        {
+          "id": "GR2-MW01",
+          "code": "GR2",
+          "index": 11002,
+          "jobId": "87239564-2018-44d4-b2f2-d0ab0bc6eb7c",
+          "model": "nano_banana_2_1",
+          "label": "Closer view · seating and fireplace",
+          "file": "assets/render-candidates/mineral-walnut-refinement/r01/great-b-refined.png",
+          "evidenceType": "Derived finish detail",
+          "evidence": "MW-R01 · Uses the original model-home photograph and prior design as structural/context evidence; new materials and furniture are proposals.",
+          "qaNote": "Visible transoms, fireplace/chase, terrace glazing and flat crown ceiling compared with the original photo. GR2 is a closer derived finish view, not a surveyed camera. Brown-oak color, art and furniture dimensions remain illustrative; steel and stain samples must be coordinated. TV-above-fireplace location retained by owner direction; confirm appliance heat clearances."
+        }
+      ],
+      "notes": [
+        "Both high transoms, terrace access and sibling artwork above both consoles.",
+        "Smoother mineral walls, rounded pale stone-look coffee table, brown-oak plinth consoles with restrained stainless details; a trace of smoky blue in art/textile and one tall plant.",
+        "Measure sofa modules and walk paths. Tape TV height for seated viewing; fireplace and TV manufacturer heat/clearance instructions govern the retained above-fireplace location.",
+        "Compare with the prior proposal in the Interior Design Guide."
+      ]
+    },
+    "dining": {
+      "revision": "r03 · MW-R01",
+      "intent": "Refine table support positions, soften corners, simplify surface styling, and use a closed shallow cabinet instead of another small-object display. Explore an extension mechanism while keeping ten seats available.",
+      "views": [
+        {
+          "id": "D1-MW01",
+          "code": "D1",
+          "index": 10003,
+          "jobId": "5237257d-d1ce-4b7b-83e2-523c911187ff",
+          "model": "nano_banana_2_1",
+          "label": "Ten-seat dining · clearance to verify",
+          "file": "assets/render-candidates/mineral-walnut-refinement/r01/dining-a.png",
+          "evidenceType": "Photo-based refinement",
+          "evidence": "MW-R01 · Uses the original model-home photograph and prior design as structural/context evidence; new materials and furniture are proposals.",
+          "qaNote": "Five windows, varied arches and original niche retained in the main view. D2 is a close material study, not additional layout evidence. The ten-seat arrangement and shallow cabinet are proposals: cabinet depth, table supports, chair pullback and final table size still require the clearance study in the guide and an as-built plan."
+        },
+        {
+          "id": "D2-MW01",
+          "code": "D2",
+          "index": 11004,
+          "jobId": "5e927a6c-e92f-44fc-ac88-14c8e4777682",
+          "model": "nano_banana_2_1",
+          "label": "Shallow cabinet beneath the high window",
+          "file": "assets/render-candidates/mineral-walnut-refinement/r01/dining-b-refined.png",
+          "evidenceType": "Derived finish detail",
+          "evidence": "MW-R01 · Uses the original model-home photograph and prior design as structural/context evidence; new materials and furniture are proposals.",
+          "qaNote": "Five windows, varied arches and original niche retained in the main view. D2 is a close material study, not additional layout evidence. The ten-seat arrangement and shallow cabinet are proposals: cabinet depth, table supports, chair pullback and final table size still require the clearance study in the guide and an as-built plan."
+        }
+      ],
+      "notes": [
+        "Five original windows, niche, ten-seat rectangular entertaining layout and sheer drapes.",
+        "Refine table support positions, soften corners, simplify surface styling, and use a closed shallow cabinet instead of another small-object display. Explore an extension mechanism while keeping ten seats available.",
+        "The 108 × 42 in concept is tight at the ends after adding storage. Test chair widths, support positions and cabinet depth on a measured plan; do not assume ten chairs prove ten comfortable seats.",
+        "Compare with the prior proposal in the Interior Design Guide."
+      ]
+    },
+    "ownerbed": {
+      "revision": "r04 · MW-R01",
+      "intent": "Integrate brown-oak owner dressers with discreet steel; add real sheer-plus-blackout layers and individual reading lights. Keep accent color very restrained.",
+      "views": [
+        {
+          "id": "OB1-MW01",
+          "code": "OB1",
+          "index": 11005,
+          "jobId": "d151ffd6-d27e-415d-a175-c788766556f8",
+          "model": "nano_banana_2_1",
+          "label": "Quiet walls, layered curtains and owned finishes",
+          "file": "assets/render-candidates/mineral-walnut-refinement/r01/ownerbed-a-refined.png",
+          "evidenceType": "Photo-based refinement",
+          "evidence": "MW-R01 · Uses the original model-home photograph and prior design as structural/context evidence; new materials and furniture are proposals.",
+          "qaNote": "Bed remains on the right wall, four-sash window group and the opposite TV/soundbar retained. Decorative LEDs are dimmed for the daylight scene; night scene output and control are still to specify. Paired views are illustrative: select one dresser design, measured curtain system and exact wood finish before purchasing."
+        },
+        {
+          "id": "OB2-MW01",
+          "code": "OB2",
+          "index": 11006,
+          "jobId": "50c08d8e-0a49-47c6-9658-007fa7074487",
+          "model": "nano_banana_2_1",
+          "label": "Bedside and material detail · daylight scene",
+          "file": "assets/render-candidates/mineral-walnut-refinement/r01/ownerbed-b-refined.png",
+          "evidenceType": "Derived finish detail",
+          "evidence": "MW-R01 · Uses the original model-home photograph and prior design as structural/context evidence; new materials and furniture are proposals.",
+          "qaNote": "Bed remains on the right wall, four-sash window group and the opposite TV/soundbar retained. Decorative LEDs are dimmed for the daylight scene; night scene output and control are still to specify. Paired views are illustrative: select one dresser design, measured curtain system and exact wood finish before purchasing."
+        }
+      ],
+      "notes": [
+        "White platform bed, art above, 55-inch TV/soundbar opposite, walnut headwall band and floating bedside consoles.",
+        "Integrate brown-oak owner dressers with discreet steel; add real sheer-plus-blackout layers and individual reading lights. Keep accent color very restrained.",
+        "Check mattress-to-nightstand height, bedside controls, underbed driver access and full drawer opening; avoid visible LED points.",
+        "Compare with the prior proposal in the Interior Design Guide."
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-07T20:36:54.540Z",
+  "rooms": 24,
+  "views": 45,
+  "scheduleEntries": 136,
+  "assetAndRouteChecks": 176,
+  "failures": [],
+  "productionBuild": {
+    "command": "npm run build:cloudflare",
+    "status": "passed",
+    "note": "Existing scene bundle size warning remains; new review pages and assets are packaged."
+  },
+  "browserChecks": [
+    "All four floor tabs switch correctly",
+    "Full-screen view advances between images",
+    "Bedroom comparison opens",
+    "Floor plan opens",
+    "Library shows Model Home, Option 1 and Option 2",
+    "Build book exposes all 24 room sections and 136 schedule entries",
+    "Build book return link works",
+    "390px review and build guide have no horizontal overflow",
+    "1280px library shows three option cards",
+    "No browser console errors"
+  ],
+  "imageLoading": "176 local page/media checks passed. The unused hidden zoom-image element has no source until opened; all active assets load.",
+  "delivery": {
+    "review": "https://708.hackbyrd.com/stone-linen#floor-1/entry",
+    "book": "https://708.hackbyrd.com/stone-linen-build-book",
+    "published": true,
+    "deployment": "https://e822cb83.home-708-7zy.pages.dev",
+    "verified": "2026-10-07",
+    "liveMediaChecks": 171,
+    "liveMediaFailures": 0
+  }
+}

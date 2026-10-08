@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-08T06:52:48.398Z",
+  "base": "http://127.0.0.1:5173",
+  "checks": [
+    "24 unique accepted full-resolution nighttime images and room lighting records.",
+    "All 24 room routes show the correct night image and matching day/night pair; 45 original views unchanged.",
+    "48 night image and thumbnail URLs respond with image assets.",
+    "Zoom keyboard and focus return; night selection survives room/floor navigation and reload.",
+    "Guide floor previews and gallery layouts fit 390, 768 and 1440px screens.",
+    "Build book includes all 24 night studies, lighting notes and valid comparison routes.",
+    "No page JavaScript errors; captured desktop and mobile previews."
+  ],
+  "failures": []
+}

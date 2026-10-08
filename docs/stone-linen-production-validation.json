@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-07T20:47:38.301Z",
+  "deployment": "https://e822cb83.home-708-7zy.pages.dev",
+  "production": "https://708.hackbyrd.com",
+  "pageChecks": [
+    {
+      "route": "/",
+      "status": 200,
+      "url": "https://708.hackbyrd.com/",
+      "title": "The City Home — 3D"
+    },
+    {
+      "route": "/renders",
+      "status": 200,
+      "url": "https://708.hackbyrd.com/renders",
+      "title": "Design options · Home 708"
+    },
+    {
+      "route": "/stone-linen",
+      "status": 200,
+      "url": "https://708.hackbyrd.com/stone-linen",
+      "title": "Stone & Linen · Option 2 · Home 708"
+    },
+    {
+      "route": "/stone-linen-build-book",
+      "status": 200,
+      "url": "https://708.hackbyrd.com/stone-linen-build-book",
+      "title": "Stone &amp; Linen · Materials & build book"
+    },
+    {
+      "route": "/house-design-review",
+      "status": 200,
+      "url": "https://708.hackbyrd.com/house-design-review",
+      "title": "Mineral & Walnut · Option 1 · Home 708"
+    },
+    {
+      "route": "/model-home",
+      "status": 200,
+      "url": "https://708.hackbyrd.com/model-home",
+      "title": "Model Home · Home 708"
+    }
+  ],
+  "rooms": 24,
+  "views": 45,
+  "mediaChecks": 171,
+  "failures": [],
+  "tests": {
+    "files": 7,
+    "passed": 31
+  },
+  "productionBuild": "passed"
+}

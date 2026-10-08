@@ -1,0 +1,503 @@
+{
+  "revision": "mw-r01",
+  "date": "2026-10-07",
+  "status": "withdrawn_option2_crossover",
+  "scope": "Six revised views across three pilot rooms; 24-space improvement guide. Remaining gallery views unchanged.",
+  "requests": [
+    {
+      "index": 10001,
+      "room": "great",
+      "code": "GR1",
+      "slot": "a",
+      "file": "assets/render-candidates/mineral-walnut-refinement/r01/great-a.png",
+      "beforeFile": "assets/render-candidates/floor-two-review/r02/great-a.png",
+      "label": "Fireplace and both artworks",
+      "evidence": "Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "b6d8e1d2-1a35-4f1f-b1f8-fdca64627cd4"
+          },
+          {
+            "role": "image",
+            "value": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef"
+          },
+          {
+            "role": "image",
+            "value": "b9167184-d531-4b42-9b87-ab3374fcad53"
+          }
+        ],
+        "prompt": "Precise photo-in interior image EDIT for Mineral & Walnut Option 1 refinement. Image 1 is the EDIT TARGET and dictates the exact camera, crop and accepted room layout. Image 2 is the real MODEL-HOME structural reference only: preserve its existing architecture without reverting the selected furniture or camera. Image 3 is a MATERIAL SWATCH only for owners brown oak/polished stainless, NOT a cabinet silhouette to copy. Create warm, sophisticated, lived-in modern luxury on a realistic build budget. Keep original room dimensions, openings, ceiling/crown and streetscape. Respect rich walnut accents while integrating selected smoky BROWN OAK casegoods; do NOT turn every wood surface grey. Ivory upholstery, natural pale oak floor, softly warm mineral walls, restrained charcoal, living greenery and selective polished silver; no brass/gold, no blue/yellow repeated theme. Different furniture silhouettes but shared restrained palette. Quiet plaster movement; natural daylight with believable soft shadows, no sepia filter, no exaggerated CGI shine, no orange LED strips. No people, new windows, new arches, relocated doors, added ceilings, text, labels or collage. This is one single photorealistic room image, same frame as image 1. Keep the TV above the fireplace and both high transoms, terrace glazing, crown and ceiling. Refine the living group with a generously comfortable WHITE Cloud-style sofa in its current footprint and two softly curved ivory chairs. A broad rounded pale limestone-look coffee table makes a useful reachable landing instead of more walnut; add one small polished-stainless drink table beside an armchair without blocking passage. Beneath EACH high window retain a low console with sibling artworks above: related ivory/charcoal abstractions, with only a trace of muted smoky blue in one work and ONE small muted blue-grey pillow; neither blue nor yellow leads. Consoles should be brown-oak, varied door-front construction, subtle polished stainless handles, continuous plinth bases WITHOUT feet, adapting owners materials rather than copying the screenshot. Keep warm walnut limited to a supporting piece if visible. A single tall leafy plant, one warm shaded lamp, and generous empty surfaces; no decorative clutter. Keep sideboard tops practical. Pale natural oak flooring as target image; large low-pile oatmeal rug under the whole seating grouping. Layer fine ivory sheer curtains with ivory side panels, preserving open glass and access."
+      },
+      "selected": true,
+      "qa": {
+        "accepted": true,
+        "note": "Visible transoms, fireplace/chase, terrace glazing and flat crown ceiling compared with the original photo. GR2 is a closer derived finish view, not a surveyed camera. Brown-oak color, art and furniture dimensions remain illustrative; steel and stain samples must be coordinated. TV-above-fireplace location retained by owner direction; confirm appliance heat clearances."
+      },
+      "guideLabel": "Collected seating and useful surfaces"
+    },
+    {
+      "index": 10002,
+      "room": "great",
+      "code": "GR2",
+      "slot": "b",
+      "file": "assets/render-candidates/mineral-walnut-refinement/r01/great-b.png",
+      "beforeFile": "assets/render-candidates/floor-two-review/r02/great-b-final.png",
+      "label": "Seating and coordinated art",
+      "evidence": "Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6f815558-5f6a-4514-8195-932774f76324"
+          },
+          {
+            "role": "image",
+            "value": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef"
+          },
+          {
+            "role": "image",
+            "value": "b9167184-d531-4b42-9b87-ab3374fcad53"
+          }
+        ],
+        "prompt": "Precise photo-in interior image EDIT for Mineral & Walnut Option 1 refinement. Image 1 is the EDIT TARGET and dictates the exact camera, crop and accepted room layout. Image 2 is the real MODEL-HOME structural reference only: preserve its existing architecture without reverting the selected furniture or camera. Image 3 is a MATERIAL SWATCH only for owners brown oak/polished stainless, NOT a cabinet silhouette to copy. Create warm, sophisticated, lived-in modern luxury on a realistic build budget. Keep original room dimensions, openings, ceiling/crown and streetscape. Respect rich walnut accents while integrating selected smoky BROWN OAK casegoods; do NOT turn every wood surface grey. Ivory upholstery, natural pale oak floor, softly warm mineral walls, restrained charcoal, living greenery and selective polished silver; no brass/gold, no blue/yellow repeated theme. Different furniture silhouettes but shared restrained palette. Quiet plaster movement; natural daylight with believable soft shadows, no sepia filter, no exaggerated CGI shine, no orange LED strips. No people, new windows, new arches, relocated doors, added ceilings, text, labels or collage. This is one single photorealistic room image, same frame as image 1. Keep the TV above the fireplace and both high transoms, terrace glazing, crown and ceiling. Refine the living group with a generously comfortable WHITE Cloud-style sofa in its current footprint and two softly curved ivory chairs. A broad rounded pale limestone-look coffee table makes a useful reachable landing instead of more walnut; add one small polished-stainless drink table beside an armchair without blocking passage. Beneath EACH high window retain a low console with sibling artworks above: related ivory/charcoal abstractions, with only a trace of muted smoky blue in one work and ONE small muted blue-grey pillow; neither blue nor yellow leads. Consoles should be brown-oak, varied door-front construction, subtle polished stainless handles, continuous plinth bases WITHOUT feet, adapting owners materials rather than copying the screenshot. Keep warm walnut limited to a supporting piece if visible. A single tall leafy plant, one warm shaded lamp, and generous empty surfaces; no decorative clutter. Keep sideboard tops practical. Pale natural oak flooring as target image; large low-pile oatmeal rug under the whole seating grouping. Layer fine ivory sheer curtains with ivory side panels, preserving open glass and access. CRITICAL: preserve the closer alternate/detail crop of IMAGE 1; do not return to the full-room camera of IMAGE 2. Details outside the frame remain outside."
+      },
+      "selected": false,
+      "qa": {
+        "accepted": false,
+        "note": "Superseded: alternate camera/material mismatch or overly bright decorative lighting and heavy wall texture."
+      }
+    },
+    {
+      "index": 10003,
+      "room": "dining",
+      "code": "D1",
+      "slot": "a",
+      "file": "assets/render-candidates/mineral-walnut-refinement/r01/dining-a.png",
+      "beforeFile": "assets/render-candidates/floor-two-review/r02/dining-a-ten-complete.png",
+      "label": "Ten-seat table and window console",
+      "evidence": "Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "8b6b187c-62bf-41bc-9ae1-7a43efddea59"
+          },
+          {
+            "role": "image",
+            "value": "3300e9bd-339e-4639-a7ac-f48d5e49351b"
+          },
+          {
+            "role": "image",
+            "value": "b9167184-d531-4b42-9b87-ab3374fcad53"
+          }
+        ],
+        "prompt": "Precise photo-in interior image EDIT for Mineral & Walnut Option 1 refinement. Image 1 is the EDIT TARGET and dictates the exact camera, crop and accepted room layout. Image 2 is the real MODEL-HOME structural reference only: preserve its existing architecture without reverting the selected furniture or camera. Image 3 is a MATERIAL SWATCH only for owners brown oak/polished stainless, NOT a cabinet silhouette to copy. Create warm, sophisticated, lived-in modern luxury on a realistic build budget. Keep original room dimensions, openings, ceiling/crown and streetscape. Respect rich walnut accents while integrating selected smoky BROWN OAK casegoods; do NOT turn every wood surface grey. Ivory upholstery, natural pale oak floor, softly warm mineral walls, restrained charcoal, living greenery and selective polished silver; no brass/gold, no blue/yellow repeated theme. Different furniture silhouettes but shared restrained palette. Quiet plaster movement; natural daylight with believable soft shadows, no sepia filter, no exaggerated CGI shine, no orange LED strips. No people, new windows, new arches, relocated doors, added ceilings, text, labels or collage. This is one single photorealistic room image, same frame as image 1. Retain exactly five windows and all their shapes/locations: small high arched window at left, two tall rectangular windows and two tall arched windows, plus original niche. Refine the EXISTING ten-person rectangular walnut dining table with eased corners and inset supports, four slim upholstered ivory chairs along EACH long side and one at EACH end: exactly 10. Do not enlarge table footprint or room. A poised linear dark metal chandelier with soft opal diffusers centered on table, no competing ceiling detail. Replace multiple tiny decor objects with one low sculptural stone bowl and one branch arrangement, keep view across table clear. Under the high small window replace open floating box with a very shallow closed brown-oak display cabinet on a continuous recessed plinth without legs, subtle stainless edge pulls; top remains below window sill. Keep it shallow and out of chair pullback. Existing right-wall sideboard brown oak with polished steel small handles and continuous base; no copied wide metal drawer bands. Natural walnut table is intentionally warmer than owners brown-oak casework. On right wall use one restrained ivory/charcoal artwork, no blue theme or repeated yellow pillows. Calm warm off-white walls with very subtle mineral character, not mottled heavy plaster. Retain natural oak floor, use generous flatwoven oatmeal rug reaching beyond chair footprint, airy ivory sheer plus side drapery clear of arched glass. Show actual neighboring houses through windows, not open country."
+      },
+      "selected": true,
+      "qa": {
+        "accepted": true,
+        "note": "Five windows, varied arches and original niche retained in the main view. D2 is a close material study, not additional layout evidence. The ten-seat arrangement and shallow cabinet are proposals: cabinet depth, table supports, chair pullback and final table size still require the clearance study in the guide and an as-built plan."
+      },
+      "guideLabel": "Ten-seat dining · clearance to verify"
+    },
+    {
+      "index": 10004,
+      "room": "dining",
+      "code": "D2",
+      "slot": "b",
+      "file": "assets/render-candidates/mineral-walnut-refinement/r01/dining-b.png",
+      "beforeFile": "assets/render-candidates/floor-two-review/r02/dining-b-console-detail.png",
+      "label": "High-window console detail",
+      "evidence": "Focused material and wall composition. Use the full room view and measured plan for complete layout; cropped boundaries are not fabrication details.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "8914cd1c-b878-4eae-bd50-05768352f35d"
+          },
+          {
+            "role": "image",
+            "value": "3300e9bd-339e-4639-a7ac-f48d5e49351b"
+          },
+          {
+            "role": "image",
+            "value": "b9167184-d531-4b42-9b87-ab3374fcad53"
+          }
+        ],
+        "prompt": "Precise photo-in interior image EDIT for Mineral & Walnut Option 1 refinement. Image 1 is the EDIT TARGET and dictates the exact camera, crop and accepted room layout. Image 2 is the real MODEL-HOME structural reference only: preserve its existing architecture without reverting the selected furniture or camera. Image 3 is a MATERIAL SWATCH only for owners brown oak/polished stainless, NOT a cabinet silhouette to copy. Create warm, sophisticated, lived-in modern luxury on a realistic build budget. Keep original room dimensions, openings, ceiling/crown and streetscape. Respect rich walnut accents while integrating selected smoky BROWN OAK casegoods; do NOT turn every wood surface grey. Ivory upholstery, natural pale oak floor, softly warm mineral walls, restrained charcoal, living greenery and selective polished silver; no brass/gold, no blue/yellow repeated theme. Different furniture silhouettes but shared restrained palette. Quiet plaster movement; natural daylight with believable soft shadows, no sepia filter, no exaggerated CGI shine, no orange LED strips. No people, new windows, new arches, relocated doors, added ceilings, text, labels or collage. This is one single photorealistic room image, same frame as image 1. Retain exactly five windows and all their shapes/locations: small high arched window at left, two tall rectangular windows and two tall arched windows, plus original niche. Refine the EXISTING ten-person rectangular walnut dining table with eased corners and inset supports, four slim upholstered ivory chairs along EACH long side and one at EACH end: exactly 10. Do not enlarge table footprint or room. A poised linear dark metal chandelier with soft opal diffusers centered on table, no competing ceiling detail. Replace multiple tiny decor objects with one low sculptural stone bowl and one branch arrangement, keep view across table clear. Under the high small window replace open floating box with a very shallow closed brown-oak display cabinet on a continuous recessed plinth without legs, subtle stainless edge pulls; top remains below window sill. Keep it shallow and out of chair pullback. Existing right-wall sideboard brown oak with polished steel small handles and continuous base; no copied wide metal drawer bands. Natural walnut table is intentionally warmer than owners brown-oak casework. On right wall use one restrained ivory/charcoal artwork, no blue theme or repeated yellow pillows. Calm warm off-white walls with very subtle mineral character, not mottled heavy plaster. Retain natural oak floor, use generous flatwoven oatmeal rug reaching beyond chair footprint, airy ivory sheer plus side drapery clear of arched glass. Show actual neighboring houses through windows, not open country. CRITICAL: preserve the closer alternate/detail crop of IMAGE 1; do not return to the full-room camera of IMAGE 2. Details outside the frame remain outside."
+      },
+      "selected": false,
+      "qa": {
+        "accepted": false,
+        "note": "Superseded: alternate camera/material mismatch or overly bright decorative lighting and heavy wall texture."
+      }
+    },
+    {
+      "index": 10005,
+      "room": "ownerbed",
+      "code": "OB1",
+      "slot": "a",
+      "file": "assets/render-candidates/mineral-walnut-refinement/r01/ownerbed-a.png",
+      "beforeFile": "assets/render-candidates/floor-three-review/r03/ownerbed-a.png",
+      "label": "TV, art and illuminated platform",
+      "evidence": "Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6b82ecdd-0cb2-41ab-b6be-686bcb5695a8"
+          },
+          {
+            "role": "image",
+            "value": "7ca8c112-2a41-4404-961b-d822b2ef471a"
+          },
+          {
+            "role": "image",
+            "value": "b9167184-d531-4b42-9b87-ab3374fcad53"
+          }
+        ],
+        "prompt": "Precise photo-in interior image EDIT for Mineral & Walnut Option 1 refinement. Image 1 is the EDIT TARGET and dictates the exact camera, crop and accepted room layout. Image 2 is the real MODEL-HOME structural reference only: preserve its existing architecture without reverting the selected furniture or camera. Image 3 is a MATERIAL SWATCH only for owners brown oak/polished stainless, NOT a cabinet silhouette to copy. Create warm, sophisticated, lived-in modern luxury on a realistic build budget. Keep original room dimensions, openings, ceiling/crown and streetscape. Respect rich walnut accents while integrating selected smoky BROWN OAK casegoods; do NOT turn every wood surface grey. Ivory upholstery, natural pale oak floor, softly warm mineral walls, restrained charcoal, living greenery and selective polished silver; no brass/gold, no blue/yellow repeated theme. Different furniture silhouettes but shared restrained palette. Quiet plaster movement; natural daylight with believable soft shadows, no sepia filter, no exaggerated CGI shine, no orange LED strips. No people, new windows, new arches, relocated doors, added ceilings, text, labels or collage. This is one single photorealistic room image, same frame as image 1. Keep white upholstered platform bed on RIGHT wall, four-sash window group, original door positions, 55-inch TV and slim soundbar on LEFT solid wall. Bed is main focus. Keep low warm WALNUT headboard wall band unique to this suite; reduce contrast of hand-applied mineral texture above it, smoother warm limestone/ivory general walls. Two generous but restrained related charcoal-and-ivory artworks above bed; avoid repeating great room artwork and avoid a blue/yellow bedroom set. Retain floating built-in bedside cabinets as previously requested, simple walnut with subtle dark edge pulls, plus two independent discreet reading sconces. Very low-brightness diffused warm LED below platform and bedside cabinets, soft glow not bright orange neon. Use owners BROWN OAK with subtle polished STAINLESS hardware for freestanding dresser and drawer storage; floor-standing storage must have continuous plinth bases WITHOUT legs, varied layouts, not identical replicated drawer units. Keep white bed frame and calm ivory/oatmeal bedding with one muted charcoal accent; single soft smoky-blue folded throw at most, no yellow. Large low-pile loose rug under bed with visible pale-oak border and functional walking paths. Window needs full-height fine ivory sheers and generous ivory blackout side panels open now; keep four sashes readable. Tabletop styling edited to one personal framed photo, one ceramic piece and a plant; no staged rows of small objects. No new cove ceilings."
+      },
+      "selected": false,
+      "qa": {
+        "accepted": false,
+        "note": "Superseded: alternate camera/material mismatch or overly bright decorative lighting and heavy wall texture."
+      }
+    },
+    {
+      "index": 10006,
+      "room": "ownerbed",
+      "code": "OB2",
+      "slot": "b",
+      "file": "assets/render-candidates/mineral-walnut-refinement/r01/ownerbed-b.png",
+      "beforeFile": "assets/render-candidates/floor-three-review/r03/ownerbed-b-final.png",
+      "label": "Headboard and floating bedside detail",
+      "evidence": "Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "daad7190-d478-4a9b-88cb-9b204aba56b3"
+          },
+          {
+            "role": "image",
+            "value": "7ca8c112-2a41-4404-961b-d822b2ef471a"
+          },
+          {
+            "role": "image",
+            "value": "b9167184-d531-4b42-9b87-ab3374fcad53"
+          }
+        ],
+        "prompt": "Precise photo-in interior image EDIT for Mineral & Walnut Option 1 refinement. Image 1 is the EDIT TARGET and dictates the exact camera, crop and accepted room layout. Image 2 is the real MODEL-HOME structural reference only: preserve its existing architecture without reverting the selected furniture or camera. Image 3 is a MATERIAL SWATCH only for owners brown oak/polished stainless, NOT a cabinet silhouette to copy. Create warm, sophisticated, lived-in modern luxury on a realistic build budget. Keep original room dimensions, openings, ceiling/crown and streetscape. Respect rich walnut accents while integrating selected smoky BROWN OAK casegoods; do NOT turn every wood surface grey. Ivory upholstery, natural pale oak floor, softly warm mineral walls, restrained charcoal, living greenery and selective polished silver; no brass/gold, no blue/yellow repeated theme. Different furniture silhouettes but shared restrained palette. Quiet plaster movement; natural daylight with believable soft shadows, no sepia filter, no exaggerated CGI shine, no orange LED strips. No people, new windows, new arches, relocated doors, added ceilings, text, labels or collage. This is one single photorealistic room image, same frame as image 1. Keep white upholstered platform bed on RIGHT wall, four-sash window group, original door positions, 55-inch TV and slim soundbar on LEFT solid wall. Bed is main focus. Keep low warm WALNUT headboard wall band unique to this suite; reduce contrast of hand-applied mineral texture above it, smoother warm limestone/ivory general walls. Two generous but restrained related charcoal-and-ivory artworks above bed; avoid repeating great room artwork and avoid a blue/yellow bedroom set. Retain floating built-in bedside cabinets as previously requested, simple walnut with subtle dark edge pulls, plus two independent discreet reading sconces. Very low-brightness diffused warm LED below platform and bedside cabinets, soft glow not bright orange neon. Use owners BROWN OAK with subtle polished STAINLESS hardware for freestanding dresser and drawer storage; floor-standing storage must have continuous plinth bases WITHOUT legs, varied layouts, not identical replicated drawer units. Keep white bed frame and calm ivory/oatmeal bedding with one muted charcoal accent; single soft smoky-blue folded throw at most, no yellow. Large low-pile loose rug under bed with visible pale-oak border and functional walking paths. Window needs full-height fine ivory sheers and generous ivory blackout side panels open now; keep four sashes readable. Tabletop styling edited to one personal framed photo, one ceramic piece and a plant; no staged rows of small objects. No new cove ceilings. CRITICAL: preserve the closer alternate/detail crop of IMAGE 1; do not return to the full-room camera of IMAGE 2. Details outside the frame remain outside."
+      },
+      "selected": false,
+      "qa": {
+        "accepted": false,
+        "note": "Superseded: alternate camera/material mismatch or overly bright decorative lighting and heavy wall texture."
+      }
+    },
+    {
+      "index": 11002,
+      "room": "great",
+      "code": "GR2",
+      "slot": "b",
+      "file": "assets/render-candidates/mineral-walnut-refinement/r01/great-b-refined.png",
+      "beforeFile": "assets/render-candidates/floor-two-review/r02/great-b-final.png",
+      "label": "Seating and coordinated art",
+      "evidence": "Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "b1e11111-c0ca-44bc-a294-a8616615359f"
+          }
+        ],
+        "prompt": "Use this exact newly revised great room photo as the only image EDIT target. Create a closer crop/photo from this same side toward the right chair, rounded pale stone coffee table and dark brown-oak console, while preserving all visible furniture designs, artworks, objects and materials EXACTLY. The metal drink table is a polished steel cylindrical base with a round shallow dish top. Chairs are ivory rounded barrel chairs. All remaining architecture is unchanged: fireplace with TV above, two high transom windows, left terrace glass; do not invent anything outside frame. Minor shift closer only, not a different room. Retain original scene's warm neutral tone, sheer and ivory drapery, warm materials and soft daylight. No text, added decor or altered chair/table designs."
+      },
+      "replaces": 10002,
+      "selected": true,
+      "qa": {
+        "accepted": true,
+        "note": "Visible transoms, fireplace/chase, terrace glazing and flat crown ceiling compared with the original photo. GR2 is a closer derived finish view, not a surveyed camera. Brown-oak color, art and furniture dimensions remain illustrative; steel and stain samples must be coordinated. TV-above-fireplace location retained by owner direction; confirm appliance heat clearances."
+      },
+      "guideLabel": "Closer view · seating and fireplace"
+    },
+    {
+      "index": 11004,
+      "room": "dining",
+      "code": "D2",
+      "slot": "b",
+      "file": "assets/render-candidates/mineral-walnut-refinement/r01/dining-b-refined.png",
+      "beforeFile": "assets/render-candidates/floor-two-review/r02/dining-b-console-detail.png",
+      "label": "High-window console detail",
+      "evidence": "Focused material and wall composition. Use the full room view and measured plan for complete layout; cropped boundaries are not fabrication details.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "8914cd1c-b878-4eae-bd50-05768352f35d"
+          }
+        ],
+        "prompt": "Precise photo EDIT of this CLOSE-UP WINDOW AND WALL image. KEEP EXACT CAMERA CROP. This is only the small high arched window wall and the edge of one adjacent tall rectangular window with ivory drapes. DO NOT show a dining table, chandelier, wider room or chairs. Replace the small open floating walnut box with a very SHALLOW floor-standing closed 3-door cabinet of smoky brown oak, continuous recessed plinth with NO LEGS, tiny polished stainless edge pulls, same width as original box. Cabinet is thin in depth and below the window. Top almost empty, one small handmade charcoal bowl only. Smooth the wall into softly warm limestone-colored matte paint with only the faintest mineral movement, no mottled stains. Preserve high arch window at same position/size and adjacent right window edge and curtain. Retain light natural oak floor, ivory trim and soft daylight, visible neighboring townhouse roof beyond glass, no country landscape. One photoreal material-detail image, no text."
+      },
+      "replaces": 10004,
+      "selected": true,
+      "qa": {
+        "accepted": true,
+        "note": "Five windows, varied arches and original niche retained in the main view. D2 is a close material study, not additional layout evidence. The ten-seat arrangement and shallow cabinet are proposals: cabinet depth, table supports, chair pullback and final table size still require the clearance study in the guide and an as-built plan."
+      },
+      "guideLabel": "Shallow cabinet beneath the high window"
+    },
+    {
+      "index": 11005,
+      "room": "ownerbed",
+      "code": "OB1",
+      "slot": "a",
+      "file": "assets/render-candidates/mineral-walnut-refinement/r01/ownerbed-a-refined.png",
+      "beforeFile": "assets/render-candidates/floor-three-review/r03/ownerbed-a.png",
+      "label": "TV, art and illuminated platform",
+      "evidence": "Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "44a52dfc-182b-41f7-8d90-fbaa9c06c9ac"
+          }
+        ],
+        "prompt": "Precisely edit only WALL FINISH, LED INTENSITY and WINDOW SHEERS in this existing bedroom render. Keep every furniture shape, placement, wood material, camera, TV, soundbar, 4-sash window, doors, ceiling, floor, rug and art unchanged. IMPORTANT the mottled wall above the bed is too busy: make it a subtly hand-finished very smooth warm ivory limestone shade, almost uniform with very faint movement, no dramatic trowel marks anywhere. Reduce headboard and underbed/under-nightstand LED intensity by about 85 percent: a barely visible warm-neutral 2700K glow, absolutely no bright orange/yellow band and no orange pools on floor. Keep individual reading sconces. Add fine transparent ivory sheers across the four-sash window group, visible sashes behind, plus full-height ivory blackout drapery stacked at both sides, open for daylight. Keep white upholstered platform, floating WALNUT bedside drawers, brown oak and subtle steel floor-standing dressers with continuous bases, blue-gray folded throw and green plant. Photorealistic soft daylight without color tint, no other edits."
+      },
+      "replaces": 10005,
+      "selected": true,
+      "qa": {
+        "accepted": true,
+        "note": "Bed remains on the right wall, four-sash window group and the opposite TV/soundbar retained. Decorative LEDs are dimmed for the daylight scene; night scene output and control are still to specify. Paired views are illustrative: select one dresser design, measured curtain system and exact wood finish before purchasing."
+      },
+      "guideLabel": "Quiet walls, layered curtains and owned finishes"
+    },
+    {
+      "index": 11006,
+      "room": "ownerbed",
+      "code": "OB2",
+      "slot": "b",
+      "file": "assets/render-candidates/mineral-walnut-refinement/r01/ownerbed-b-refined.png",
+      "beforeFile": "assets/render-candidates/floor-three-review/r03/ownerbed-b-final.png",
+      "label": "Headboard and floating bedside detail",
+      "evidence": "Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "b776a46d-de7f-4ce3-a997-8c138ffec04b"
+          }
+        ],
+        "prompt": "Precisely edit only WALL FINISH and LED INTENSITY in this close bedroom render. Keep exact camera, crop, every furniture shape and placement, art, TV/soundbar on left edge, door, ceiling, four-sash window and sheer/blackout drapes, white upholstered bed, walnut headwall and floating bedsides, brown oak plinth-based dressers, floor/rug and folded blue-grey throw unchanged. Make walls smoothly warm ivory limestone with the FAINTEST mineral movement; remove all dramatic trowel marks and patchy stains. Turn decorative headboard/underbed/under-nightstand LEDs down about 85 percent. Barely perceptible 2700K glow, no orange pools, no neon strips. Retain reading sconces. Soft daylight, neutral white balance, no other changes, no text."
+      },
+      "replaces": 10006,
+      "selected": true,
+      "qa": {
+        "accepted": true,
+        "note": "Bed remains on the right wall, four-sash window group and the opposite TV/soundbar retained. Decorative LEDs are dimmed for the daylight scene; night scene output and control are still to specify. Paired views are illustrative: select one dresser design, measured curtain system and exact wood finish before purchasing."
+      },
+      "guideLabel": "Bedside and material detail · daylight scene"
+    }
+  ],
+  "jobs": [
+    {
+      "index": 10001,
+      "job_id": "b1e11111-c0ca-44bc-a294-a8616615359f",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_041459_b1e11111-c0ca-44bc-a294-a8616615359f.png"
+    },
+    {
+      "index": 10002,
+      "job_id": "2ee9b995-4e47-4672-812c-fbc8e633b773",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_041501_2ee9b995-4e47-4672-812c-fbc8e633b773.png"
+    },
+    {
+      "index": 10003,
+      "job_id": "5237257d-d1ce-4b7b-83e2-523c911187ff",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_041459_5237257d-d1ce-4b7b-83e2-523c911187ff.png"
+    },
+    {
+      "index": 10004,
+      "job_id": "72757784-1285-412a-9222-1960e436ebab",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_041500_72757784-1285-412a-9222-1960e436ebab.png"
+    },
+    {
+      "index": 10005,
+      "job_id": "44a52dfc-182b-41f7-8d90-fbaa9c06c9ac",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_041500_44a52dfc-182b-41f7-8d90-fbaa9c06c9ac.png"
+    },
+    {
+      "index": 10006,
+      "job_id": "b776a46d-de7f-4ce3-a997-8c138ffec04b",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_041459_b776a46d-de7f-4ce3-a997-8c138ffec04b.png"
+    },
+    {
+      "index": 11002,
+      "job_id": "87239564-2018-44d4-b2f2-d0ab0bc6eb7c",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_042240_87239564-2018-44d4-b2f2-d0ab0bc6eb7c.png"
+    },
+    {
+      "index": 11004,
+      "job_id": "5e927a6c-e92f-44fc-ac88-14c8e4777682",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_042238_5e927a6c-e92f-44fc-ac88-14c8e4777682.png"
+    },
+    {
+      "index": 11005,
+      "job_id": "d151ffd6-d27e-415d-a175-c788766556f8",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_042239_d151ffd6-d27e-415d-a175-c788766556f8.png"
+    },
+    {
+      "index": 11006,
+      "job_id": "50c08d8e-0a49-47c6-9658-007fa7074487",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_042239_50c08d8e-0a49-47c6-9658-007fa7074487.png"
+    }
+  ],
+  "qa": {
+    "status": "visually_reviewed_concepts",
+    "selectedIndices": [
+      10001,
+      11002,
+      10003,
+      11004,
+      11005,
+      11006
+    ],
+    "checked": [
+      "Compared selected views with original model-home photographs and retained architectural locks.",
+      "Kept ten-seat dining intent, white bedroom frame, owner TV placement and approved floating bedside exception.",
+      "Rejected inconsistent alternate cameras and reduced overly strong bedroom LED/wall treatment."
+    ],
+    "limitations": [
+      "Renders communicate design intent; they do not validate physical dimensions, product colors or construction details.",
+      "Great room second image is a closer derived view; comparisons are not pixel-aligned.",
+      "Dining cabinet/table combination remains conditional on measured circulation.",
+      "Only three rooms have new imagery; all 24 rooms have a proposed improvement plan."
+    ]
+  },
+  "published": false,
+  "delivery": {
+    "status": "validated_local_review",
+    "published": false,
+    "guide": "docs/interior-design-guide.html",
+    "gallery": "docs/house-design-review.html",
+    "book": "docs/room-design-book.html",
+    "validation": "docs/interior-design-guide-validation.json",
+    "selectedViews": 6,
+    "reviewedRooms": 3,
+    "wholeHouseImprovementPlans": 24
+  },
+  "supersededBy": "docs/mineral-walnut-design-lock.json"
+}

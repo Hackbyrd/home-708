@@ -1,0 +1,418 @@
+{
+  "date": "2026-10-07",
+  "title": "Brown Oak & Polished Stainless · Owner furniture study",
+  "status": "Three-room preview ready for owner feedback",
+  "scope": "Three-room sample for feedback; does not replace the published whole-house option.",
+  "references": [
+    {
+      "mediaId": "b88cedf8-8c3e-4f16-ae5c-a32d458b231e",
+      "file": "assets/owner-furniture-references/brown-oak-polished-stainless-drawer.png"
+    },
+    {
+      "mediaId": "b9167184-d531-4b42-9b87-ab3374fcad53",
+      "file": "assets/owner-furniture-references/brown-oak-polished-stainless-finish.png"
+    }
+  ],
+  "brief": "docs/owner-furniture-design-brief.json",
+  "requests": [
+    {
+      "index": 7001,
+      "room": "great",
+      "title": "Great room",
+      "code": "OF-GR1",
+      "file": "assets/render-candidates/owner-furniture-study/r01/great-brown-oak-stainless.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-library-assets/second-floor-great-room.jpg.webp"
+          },
+          {
+            "role": "image",
+            "value": "bc30c236-a43c-4949-9f3d-2110d2d23277"
+          },
+          {
+            "role": "image",
+            "value": "b88cedf8-8c3e-4f16-ae5c-a32d458b231e"
+          },
+          {
+            "role": "image",
+            "value": "b9167184-d531-4b42-9b87-ab3374fcad53"
+          }
+        ],
+        "prompt": "PHOTO-IN IMAGE EDIT for Great room. IMAGE 1 is the REAL HOUSE PHOTO, structural ground truth. IMAGE 2 is the existing developed room layout and target camera; restyle this room using actual furniture reference IMAGE 3 and BROWN OAK / POLISHED STAINLESS STEEL swatch IMAGE 4. Image 3/4 are product references ONLY, not a room layout. Ignore the screenshot white margins/UI/text; don't put a product-photo inset in the render.\n\nDESIGN AROUND THE OWNER'S ACTUAL FURNITURE shown in IMAGE 3, with its finish swatch IMAGE 4. Match the smoky BROWN OAK with grey/charcoal undertones, distinctive open oak grain, thick straight rectangular carcass, flush rectangular drawer fronts, and prominent polished STAINLESS STEEL full-width HORIZONTAL BAR/REVEAL HANDLES. Keep the actual drawer design recognizable, not generic walnut storage with small knobs. The long steel strips are a key defining feature. Cabinets/drawers sit on continuous recessed FLOOR BASES, no little feet or floating storage. The wood should look deep smoked brown under clear daylight, never reddish walnut, amber teak, honey oak, or flat black. Match image 3's rectangular proportions; no rounded walnut frames. Furniture-family adaptations are permitted for long consoles and tall storage, preserving grain, straight edge and steel handle profile.\nCreate a sophisticated contemporary model home around these pieces: WARM WHITE RH CLOUD-style deep upholstered seating or WHITE UPHOLSTERED BED FRAME as relevant. Light-to-medium NEUTRAL NATURAL WHITE OAK plank floor, matte, low knot, restrained variation, a few shades lighter than the furniture. Not orange, distressed or grey vinyl. Large textured IVORY/STONE loose rug, wood border visible. General walls soft WARM STONE/PUTTY GREIGE, softly deeper than white upholstery, like a warm pale limestone. Selected dry focal wall in subtle softly troweled ROMAN CLAY: smooth, low contrast, not streaky or heavily marbled. Soft white trim/doors and existing flat white ceiling/crown. No fake cove or giant new wall construction.\nCEILING-HEIGHT OFF-WHITE/ECRU LINEN-LOOK RIPPLE-FOLD SHEERS on a discreet track, generous flowing folds and neat floor-skimming hems. Keep original openings clear and operable, curtains stack to sides; no yellow drapes, no heavy grey curtains. Bedrooms also have discreet matching room-darkening layer stacked aside.\nBlue remains clearly visible but refined: blue-and-white abstract art and ink/slate BLUE textiles. BUTTER YELLOW as one or two small cushions, a little ceramic or a few flowers. Green from real plants. No giant blue/yellow walls or repeated matching accessory kit. Let white upholstery, smoked brown oak and reflective stainless give the main contrast. Coordinate polished silver/opal light fixtures with owned steel. No gold/brass. Soft warm indoor lighting with clean abundant daylight and neutral white balance; not an orange cast.\nKeep rooms residential in scale and reasonably buildable, with selective finishes and lighting rather than extensive demolition. High-end editorial architectural photograph, crisp tactile oak grain/steel reflections/fabric weave, nuanced daylight and natural shadows, no oversharpening or plastic surfaces. No people, watermark, labels or logos.\n\nROOM REQUIREMENTS:\n15 ft 1 by 17 ft room. Preserve camera and layout of IMAGE 2, very close to actual source IMAGE 1. Keep LEFT terrace glass doors and exactly TWO original three-pane HIGH HORIZONTAL TRANSOM WINDOWS flanking the original central fireplace chase; neither may disappear. TV and soundbar MUST remain ABOVE THE FIREPLACE on central chase, never right wall. Blue/white SIBLING ART above two grounded smoked-brown-oak consoles below the high windows. Both consoles follow image 3 furniture family with long polished-steel horizontal handle bands; no generic small pulls. White Cloud sofa in foreground/left, two white lounge chairs, rounded honed pale stone coffee table with quiet support. Blue cushions/throw, two small butter-yellow cushions, one plant. Neutral natural oak floor and ivory rug, refined stone-putty walls and off-white sheers. Preserve original ceiling apertures/crown and neighbors outside.\n\nKeep all real openings, room proportions, service points, flat ceiling and original Crown townhouse/nearby street view. No generic mansion substitution. Owner functional changes listed above take precedence over staged furniture in real photo. Single coherent photoreal 3:2 full-room image."
+      }
+    },
+    {
+      "index": 7002,
+      "room": "ownerbed",
+      "title": "Primary bedroom",
+      "code": "OF-OB1",
+      "file": "assets/render-candidates/owner-furniture-study/r01/ownerbed-brown-oak-stainless.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-library-assets/third-floor-master-bedroom.jpg.webp"
+          },
+          {
+            "role": "image",
+            "value": "42f4e3d9-78cf-46e2-810b-e3a284710617"
+          },
+          {
+            "role": "image",
+            "value": "b88cedf8-8c3e-4f16-ae5c-a32d458b231e"
+          },
+          {
+            "role": "image",
+            "value": "b9167184-d531-4b42-9b87-ab3374fcad53"
+          }
+        ],
+        "prompt": "PHOTO-IN IMAGE EDIT for Primary bedroom. IMAGE 1 is the REAL HOUSE PHOTO, structural ground truth. IMAGE 2 is the existing developed room layout and target camera; restyle this room using actual furniture reference IMAGE 3 and BROWN OAK / POLISHED STAINLESS STEEL swatch IMAGE 4. Image 3/4 are product references ONLY, not a room layout. Ignore the screenshot white margins/UI/text; don't put a product-photo inset in the render.\n\nDESIGN AROUND THE OWNER'S ACTUAL FURNITURE shown in IMAGE 3, with its finish swatch IMAGE 4. Match the smoky BROWN OAK with grey/charcoal undertones, distinctive open oak grain, thick straight rectangular carcass, flush rectangular drawer fronts, and prominent polished STAINLESS STEEL full-width HORIZONTAL BAR/REVEAL HANDLES. Keep the actual drawer design recognizable, not generic walnut storage with small knobs. The long steel strips are a key defining feature. Cabinets/drawers sit on continuous recessed FLOOR BASES, no little feet or floating storage. The wood should look deep smoked brown under clear daylight, never reddish walnut, amber teak, honey oak, or flat black. Match image 3's rectangular proportions; no rounded walnut frames. Furniture-family adaptations are permitted for long consoles and tall storage, preserving grain, straight edge and steel handle profile.\nCreate a sophisticated contemporary model home around these pieces: WARM WHITE RH CLOUD-style deep upholstered seating or WHITE UPHOLSTERED BED FRAME as relevant. Light-to-medium NEUTRAL NATURAL WHITE OAK plank floor, matte, low knot, restrained variation, a few shades lighter than the furniture. Not orange, distressed or grey vinyl. Large textured IVORY/STONE loose rug, wood border visible. General walls soft WARM STONE/PUTTY GREIGE, softly deeper than white upholstery, like a warm pale limestone. Selected dry focal wall in subtle softly troweled ROMAN CLAY: smooth, low contrast, not streaky or heavily marbled. Soft white trim/doors and existing flat white ceiling/crown. No fake cove or giant new wall construction.\nCEILING-HEIGHT OFF-WHITE/ECRU LINEN-LOOK RIPPLE-FOLD SHEERS on a discreet track, generous flowing folds and neat floor-skimming hems. Keep original openings clear and operable, curtains stack to sides; no yellow drapes, no heavy grey curtains. Bedrooms also have discreet matching room-darkening layer stacked aside.\nBlue remains clearly visible but refined: blue-and-white abstract art and ink/slate BLUE textiles. BUTTER YELLOW as one or two small cushions, a little ceramic or a few flowers. Green from real plants. No giant blue/yellow walls or repeated matching accessory kit. Let white upholstery, smoked brown oak and reflective stainless give the main contrast. Coordinate polished silver/opal light fixtures with owned steel. No gold/brass. Soft warm indoor lighting with clean abundant daylight and neutral white balance; not an orange cast.\nKeep rooms residential in scale and reasonably buildable, with selective finishes and lighting rather than extensive demolition. High-end editorial architectural photograph, crisp tactile oak grain/steel reflections/fabric weave, nuanced daylight and natural shadows, no oversharpening or plastic surfaces. No people, watermark, labels or logos.\n\nROOM REQUIREMENTS:\n16 by 17 ft. Keep camera and owner-directed layout of IMAGE 2. Architectural evidence IMAGE 1: FOUR JOINED GRIDDED DOUBLE-HUNG SASHES on rear wall, same grouped window width/height. Bed on SOLID RIGHT WALL with NO WINDOW, opposite dresser/55-inch TV/soundbar on LEFT solid wall. Dresser below rear windows stays low, glazing clear. White upholstered platform bed with subtle underside glow, no canopy, no dark frame. Use the ACTUAL TWO-DRAWER CHEST from IMAGE 3 as each bedside piece, floor-standing and full-width polished stainless strips prominent; matching low dresser-family storage with those steel handles. Refine existing low headwall band to the SAME smoky brown OAK, keep modest height and gentle indirect light, soft smooth stone-grey/putty Roman Clay above, two related BLUE/WHITE artworks above bed. White linens, slate-blue coverlet, navy pillows and ONE small butter-yellow lumbar. Soft off-white ripplefold drapes with room-darkening layer stacked to sides. Natural oak floor/ivory loose rug. Polished silver/opal bedside lights. No extra windows or enlarged room.\n\nKeep all real openings, room proportions, service points, flat ceiling and original Crown townhouse/nearby street view. No generic mansion substitution. Owner functional changes listed above take precedence over staged furniture in real photo. Single coherent photoreal 3:2 full-room image."
+      }
+    },
+    {
+      "index": 7003,
+      "room": "office",
+      "title": "Home office",
+      "code": "OF-O1",
+      "file": "assets/render-candidates/owner-furniture-study/r01/office-brown-oak-stainless.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-library-assets/first-floor-home-office.jpg.webp"
+          },
+          {
+            "role": "image",
+            "value": "db637cc0-074d-4ce3-90f9-ef6392266ff2"
+          },
+          {
+            "role": "image",
+            "value": "b88cedf8-8c3e-4f16-ae5c-a32d458b231e"
+          },
+          {
+            "role": "image",
+            "value": "b9167184-d531-4b42-9b87-ab3374fcad53"
+          }
+        ],
+        "prompt": "PHOTO-IN IMAGE EDIT for Home office. IMAGE 1 is the REAL HOUSE PHOTO, structural ground truth. IMAGE 2 is the existing developed room layout and target camera; restyle this room using actual furniture reference IMAGE 3 and BROWN OAK / POLISHED STAINLESS STEEL swatch IMAGE 4. Image 3/4 are product references ONLY, not a room layout. Ignore the screenshot white margins/UI/text; don't put a product-photo inset in the render.\n\nDESIGN AROUND THE OWNER'S ACTUAL FURNITURE shown in IMAGE 3, with its finish swatch IMAGE 4. Match the smoky BROWN OAK with grey/charcoal undertones, distinctive open oak grain, thick straight rectangular carcass, flush rectangular drawer fronts, and prominent polished STAINLESS STEEL full-width HORIZONTAL BAR/REVEAL HANDLES. Keep the actual drawer design recognizable, not generic walnut storage with small knobs. The long steel strips are a key defining feature. Cabinets/drawers sit on continuous recessed FLOOR BASES, no little feet or floating storage. The wood should look deep smoked brown under clear daylight, never reddish walnut, amber teak, honey oak, or flat black. Match image 3's rectangular proportions; no rounded walnut frames. Furniture-family adaptations are permitted for long consoles and tall storage, preserving grain, straight edge and steel handle profile.\nCreate a sophisticated contemporary model home around these pieces: WARM WHITE RH CLOUD-style deep upholstered seating or WHITE UPHOLSTERED BED FRAME as relevant. Light-to-medium NEUTRAL NATURAL WHITE OAK plank floor, matte, low knot, restrained variation, a few shades lighter than the furniture. Not orange, distressed or grey vinyl. Large textured IVORY/STONE loose rug, wood border visible. General walls soft WARM STONE/PUTTY GREIGE, softly deeper than white upholstery, like a warm pale limestone. Selected dry focal wall in subtle softly troweled ROMAN CLAY: smooth, low contrast, not streaky or heavily marbled. Soft white trim/doors and existing flat white ceiling/crown. No fake cove or giant new wall construction.\nCEILING-HEIGHT OFF-WHITE/ECRU LINEN-LOOK RIPPLE-FOLD SHEERS on a discreet track, generous flowing folds and neat floor-skimming hems. Keep original openings clear and operable, curtains stack to sides; no yellow drapes, no heavy grey curtains. Bedrooms also have discreet matching room-darkening layer stacked aside.\nBlue remains clearly visible but refined: blue-and-white abstract art and ink/slate BLUE textiles. BUTTER YELLOW as one or two small cushions, a little ceramic or a few flowers. Green from real plants. No giant blue/yellow walls or repeated matching accessory kit. Let white upholstery, smoked brown oak and reflective stainless give the main contrast. Coordinate polished silver/opal light fixtures with owned steel. No gold/brass. Soft warm indoor lighting with clean abundant daylight and neutral white balance; not an orange cast.\nKeep rooms residential in scale and reasonably buildable, with selective finishes and lighting rather than extensive demolition. High-end editorial architectural photograph, crisp tactile oak grain/steel reflections/fabric weave, nuanced daylight and natural shadows, no oversharpening or plastic surfaces. No people, watermark, labels or logos.\n\nROOM REQUIREMENTS:\n15 ft 5 by 12 ft 11. Use IMAGE 1 real architecture and IMAGE 2 owner-directed built-in/desk layout. Preserve IMAGE 2 camera with any source windows cropped naturally, but no windows removed/rebuilt. Actual original front wall has TWO window units and RIGHT wall THREE window units, original sizes, grid divisions and sill heights. Full NORTH interior-wall built-in in smoky brown oak matching IMAGE 3; integrate a TV with slim soundbar at CENTER (not artwork), quiet open shelves above and modular-looking base drawer cabinets using the owner's wide polished-stainless horizontal handle strips. Substantial RECTANGULAR desk, task chair at SOUTHEAST facing NORTHWEST; no crescent desk. Simple polished-steel task lamp and white guest chair with one ink-blue cushion. Compact matching TWO-DRAWER PRINTER CABINET right of entry with printer and blue/white framed art above; no long south-wall counter or console. A small butter-yellow ceramic in one shelf. Warm stone/putty walls, Roman Clay only on a real free dry wall, light natural-oak floor, large ivory/stone rug, ceiling-height off-white ripplefold sheers stacked clear of windows. No invented ceiling or exterior view.\n\nKeep all real openings, room proportions, service points, flat ceiling and original Crown townhouse/nearby street view. No generic mansion substitution. Owner functional changes listed above take precedence over staged furniture in real photo. Single coherent photoreal 3:2 full-room image."
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "index": 7001,
+      "job_id": "0f118909-3dbc-4d9d-af1d-6caab924de51",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[3].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261007_212405_0f118909-3dbc-4d9d-af1d-6caab924de51.png",
+      "file": "assets/render-candidates/owner-furniture-study/r01/great-brown-oak-stainless.png",
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 7002,
+      "job_id": "bd0ba980-9846-4564-83f8-210a7661e32d",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[3].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261007_212404_bd0ba980-9846-4564-83f8-210a7661e32d.png",
+      "file": "assets/render-candidates/owner-furniture-study/r01/ownerbed-brown-oak-stainless.png",
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 7003,
+      "job_id": "6ce999b7-1cd8-44e5-ae19-83290bd83950",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[3].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261007_212405_6ce999b7-1cd8-44e5-ae19-83290bd83950.png",
+      "file": "assets/render-candidates/owner-furniture-study/r01/office-brown-oak-stainless.png",
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 7012,
+      "job_id": "f5332225-78e5-4fa6-be74-2eefeb082777",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261007_212709_f5332225-78e5-4fa6-be74-2eefeb082777.png",
+      "file": "assets/render-candidates/owner-furniture-study/r02/ownerbed-brown-oak-stainless.png",
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "index": 7013,
+      "job_id": "a591a577-b361-4ec6-9370-8787b000bc65",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261007_212710_a591a577-b361-4ec6-9370-8787b000bc65.png",
+      "file": "assets/render-candidates/owner-furniture-study/r02/office-brown-oak-stainless.png",
+      "width": 2528,
+      "height": 1696
+    }
+  ],
+  "qa": [
+    {
+      "index": 7001,
+      "decision": "selected",
+      "notes": [
+        "Actual reference-like open oak grain and broad stainless strips retained in two grounded consoles.",
+        "Two high three-pane windows flank fireplace; TV and soundbar centered above fireplace.",
+        "White Cloud-style seating, blue textiles and sibling artworks, small yellow accents, off-white sheers, warm stone walls and natural oak floor.",
+        "Real photo has no separate terrace-door transom despite the older audit text; actual photo governs."
+      ],
+      "limitations": [
+        "Furniture-family proportions adapted; exact owned models and dimensions have not been supplied."
+      ]
+    },
+    {
+      "index": 7002,
+      "decision": "refine",
+      "notes": [
+        "White frame, four rear window sashes and oak/stainless storage recognizable.",
+        "Wall trowel pattern and amber lighting are stronger than intended; soften these and improve layered curtains."
+      ]
+    },
+    {
+      "index": 7003,
+      "decision": "correct",
+      "notes": [
+        "Oak/stainless profile, TV with soundbar and compact printer cabinet retained.",
+        "Visible side window incorrectly has two units; correcting to three-unit grouping per architecture audit.",
+        "Correct sheers and restore source ceiling register."
+      ]
+    },
+    {
+      "index": 7012,
+      "decision": "selected for palette review",
+      "notes": [
+        "Four rear window units remain behind new translucent sheers. White bed frame, two blue artworks, left-wall TV/soundbar and recognizable smoky oak/stainless storage retained.",
+        "Orange ambient cast reduced and curtains layered; some visible trowel variation remains."
+      ],
+      "limitations": [
+        "Final contractor finish should be smoother and lower contrast than the generated wall texture.",
+        "Underbed LED is not visibly illuminated in this daylight revision; earlier owner request remains in design requirements."
+      ]
+    },
+    {
+      "index": 7013,
+      "decision": "selected for palette review",
+      "notes": [
+        "Corrected to three joined side-wall sash units; source-like register restored.",
+        "Sheer drapes, full north built-in with TV/soundbar, compact printer chest and broad stainless drawer strips retained.",
+        "Original second window grouping lies outside this derived camera; alternate-angle/measurement validation remains necessary before construction."
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "index": 7012,
+      "room": "ownerbed",
+      "file": "assets/render-candidates/owner-furniture-study/r02/ownerbed-brown-oak-stainless.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "bd0ba980-9846-4564-83f8-210a7661e32d"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-library-assets/third-floor-master-bedroom.jpg.webp"
+          },
+          {
+            "role": "image",
+            "value": "b88cedf8-8c3e-4f16-ae5c-a32d458b231e"
+          }
+        ],
+        "prompt": "TARGETED PHOTO EDIT of IMAGE 1, already designed primary bedroom. IMAGE 2 real room is geometry evidence only; image 3 actual furniture reference. Preserve image 1 camera, all four joined rear window sashes, solid right bed wall, solid left TV/soundbar wall, exact furniture positions and sizes, white upholstered bed frame, actual smoky grey-brown OAK two-drawer bedsides with broad full-width polished stainless steel horizontal handles, matching grounded dresser/chest, blue/white artworks, navy and slate bedding, one butter-yellow lumbar, plant, ivory loose rug, oak floor and white drapes. Only refine finishes and lighting: turn the pronounced irregular geometric/trowel marks on the walls into a SMOOTH softly hand-trowelled warm pale stone/putty Roman Clay, extremely subtle tonal movement. No obvious chevrons or jagged patches. Reduce amber/orange cast; clean neutral daylight and dim soft warm-white 3000K headwall/underbed glow, no orange neon strip, no orange ceiling. Keep the two wood tones distinct, furniture dark smoked brown OAK and floor natural lighter oak. Make floor low-knot and restrained grain; keep same floor tone and plank direction. Add translucent softly flowing off-white ripplefold sheer layer at rear windows stacked mostly aside, with existing opaque curtains as second layer, retain ALL FOUR original gridded window sashes and clear daylight. Do not add objects, windows, roof features or enlarge room. Do not change white upholstered bed to wood. No text, logos, people or product-photo insets. 3:2 full-room photoreal interior."
+      }
+    },
+    {
+      "index": 7013,
+      "room": "office",
+      "file": "assets/render-candidates/owner-furniture-study/r02/office-brown-oak-stainless.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "6ce999b7-1cd8-44e5-ae19-83290bd83950"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-library-assets/first-floor-home-office.jpg.webp"
+          },
+          {
+            "role": "image",
+            "value": "b88cedf8-8c3e-4f16-ae5c-a32d458b231e"
+          }
+        ],
+        "prompt": "TARGETED architectural correction of IMAGE 1 designed office, keep its established CAMERA, exact smoky brown oak + polished stainless furniture family, furniture positions, color scheme, TV/soundbar built-in at left/north, large rectangular desk, task chair foreground right facing NW, two white guest chairs, blue cushions and artwork, small yellow vase, compact printer chest with artwork above at far left, natural oak floor, ivory rug, quiet warm stone/putty walls. IMAGE 2 is actual house source geometry evidence. IMAGE 3 the owner's actual oak drawers with long broad stainless handle strips, preserve this profile. Correct the large visible RIGHT-wall window opening: original home has THREE JOINED DOUBLE-HUNG WINDOW UNITS on this side wall, not TWO large units as incorrectly shown in image 1. There must be three equal narrow sash units, each with upper/lower operable sash and original colonial vertical grid bars, grouped in one wide white-cased opening. Preserve casing location, sill height and broad total width; replace incorrect two-wide arrangement by three equal units and their mullions. Original source's separate front-wall two-unit window is outside this edited camera at far right; do NOT delete it in the architectural design and do not create a window in the solid north built-in wall. Restore original ceiling HVAC register near window as visible in real photo. Drapery should be full-height OFF-WHITE translucent RIPPLE-FOLD sheers on thin ceiling track at the sides, not opaque pleated curtains on shiny round rod. No long counter beneath window. Keep white ceiling flat, preserve townhome streetscape outside, room is 15 ft 5 by 12 ft 11. Single coherent full room image, no panels, no text, no people. Preserve every other aspect of image 1."
+      }
+    }
+  ],
+  "selected": [
+    {
+      "room": "great",
+      "index": 7001,
+      "job_id": "0f118909-3dbc-4d9d-af1d-6caab924de51",
+      "file": "assets/render-candidates/owner-furniture-study/r01/great-brown-oak-stainless.png",
+      "width": 2528,
+      "height": 1696,
+      "sha256": "884a1574e3c830f8a112e2babe229ac297a64b6d40ce64badb5f71cc4ec123d6"
+    },
+    {
+      "room": "ownerbed",
+      "index": 7012,
+      "job_id": "f5332225-78e5-4fa6-be74-2eefeb082777",
+      "file": "assets/render-candidates/owner-furniture-study/r02/ownerbed-brown-oak-stainless.png",
+      "width": 2528,
+      "height": 1696,
+      "sha256": "79aa711c22d3e0edcc5ddc3fc8d742d7904102b776bd284197eb4de6e3ffa3c2"
+    },
+    {
+      "room": "office",
+      "index": 7013,
+      "job_id": "a591a577-b361-4ec6-9370-8787b000bc65",
+      "file": "assets/render-candidates/owner-furniture-study/r02/office-brown-oak-stainless.png",
+      "width": 2528,
+      "height": 1696,
+      "sha256": "d90edce0290c9e576d6e152baf6193361f5224e9d9bed736ac2d24385a6c6dfe"
+    }
+  ],
+  "delivery": {
+    "format": "Three selected full-resolution room images; Higgsfield gallery includes initial passes and refinements",
+    "published": false,
+    "imagesAreConcepts": true
+  }
+}

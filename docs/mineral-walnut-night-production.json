@@ -1,0 +1,1255 @@
+{
+  "version": "MW-N01",
+  "option": "mineral-walnut",
+  "created": "2026-10-08T05:54:23.480Z",
+  "status": "partially_superseded_by_MW-P02",
+  "scope": "One paired nighttime lighting concept for each of 24 rooms/spaces; existing daytime views retained.",
+  "provenance": "Edits use the exact current photo-derived or plan-led render as input; inherited geometry limitations remain. No text-to-image requests.",
+  "requests": [
+    {
+      "index": 20001,
+      "room": "entry",
+      "title": "Entrance gallery",
+      "floor": "floor-1",
+      "code": "E1-N1",
+      "sourceCode": "E1",
+      "sourceFile": "assets/render-candidates/floor-one-review/r04/entry-a-floor.png",
+      "sourceJobId": "2c43bb93-1cfe-4a11-af4b-434836ccbc46",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Evening arrival",
+      "cct": 2700,
+      "circuits": "Chandelier / general circulation / adjoining hall",
+      "lighting": "Let the existing two-story cascade chandelier provide a soft warm glow, each glass pendant legible without clipped glare. Subdued existing ceiling lights illuminate the oak path and the stair beyond; the arch lettering and light glazed doors remain visible. No light strips tracing arches or railings.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/entry-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "2:3",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "2c43bb93-1cfe-4a11-af4b-434836ccbc46"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Entrance gallery. Scene: Evening arrival.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Let the existing two-story cascade chandelier provide a soft warm glow, each glass pendant legible without clipped glare. Subdued existing ceiling lights illuminate the oak path and the stair beyond; the arch lettering and light glazed doors remain visible. No light strips tracing arches or railings.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20002,
+      "room": "office",
+      "title": "Home office",
+      "floor": "floor-1",
+      "code": "O1-N1",
+      "sourceCode": "O1",
+      "sourceFile": "assets/render-candidates/floor-one-review/r04/office-a.png",
+      "sourceJobId": "a49afe61-2c6f-4b84-8cc9-71dfb9f2ac71",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Evening work",
+      "cct": 3000,
+      "circuits": "Desk and general / shelf accent",
+      "lighting": "Turn on the existing integrated shelf lighting and a restrained level of recessed general light. Provide useful illumination on the desk from the ceiling, with the TV off and its reflections subdued. Avoid bright strips around the TV. Keep shelving objects and printer unchanged.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/office-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "a49afe61-2c6f-4b84-8cc9-71dfb9f2ac71"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Home office. Scene: Evening work.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Turn on the existing integrated shelf lighting and a restrained level of recessed general light. Provide useful illumination on the desk from the ceiling, with the TV off and its reflections subdued. Avoid bright strips around the TV. Keep shelving objects and printer unchanged.\nTarget lamp appearance approximately 3000K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20003,
+      "room": "media",
+      "title": "Media room",
+      "floor": "floor-1",
+      "code": "M1-N1",
+      "sourceCode": "M1",
+      "sourceFile": "assets/render-candidates/floor-one-review/r04/media-a-final.png",
+      "sourceJobId": "28093acb-7afc-4c61-a278-c8c402dcf706",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Movie evening",
+      "cct": 2700,
+      "circuits": "TV bias / existing tray ambient / display and art / general clean-up separately",
+      "lighting": "Dim the existing tray-ceiling wash and picture lights substantially. Show a subtle concealed TV bias glow and very soft under-console light. TV screen off/black for a clear lighting study, no movie content. Sofa and floor remain readable but the screen wall is the focus; no bright ceiling downlights or invented RGB.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/media-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "28093acb-7afc-4c61-a278-c8c402dcf706"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Media room. Scene: Movie evening.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Dim the existing tray-ceiling wash and picture lights substantially. Show a subtle concealed TV bias glow and very soft under-console light. TV screen off/black for a clear lighting study, no movie content. Sofa and floor remain readable but the screen wall is the focus; no bright ceiling downlights or invented RGB.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20004,
+      "room": "gym",
+      "title": "Gym · empty shell",
+      "floor": "floor-1",
+      "code": "G1-N1",
+      "sourceCode": "G1",
+      "sourceFile": "assets/render-candidates/floor-one-review/r03/gym-a-empty-quote.png",
+      "sourceJobId": "cef174a8-eae7-4237-aed5-fae480863488",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Evening workout",
+      "cct": 3000,
+      "circuits": "General workout illumination",
+      "lighting": "Use the existing ceiling fixture at a practical, evenly diffused neutral-warm level. Mirror reflection agrees with the illuminated room. Keep the room completely empty and the exact existing quote and closet doors. No mirror neon, equipment, furniture or accent strips.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/gym-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "cef174a8-eae7-4237-aed5-fae480863488"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Gym · empty shell. Scene: Evening workout.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Use the existing ceiling fixture at a practical, evenly diffused neutral-warm level. Mirror reflection agrees with the illuminated room. Keep the room completely empty and the exact existing quote and closet doors. No mirror neon, equipment, furniture or accent strips.\nTarget lamp appearance approximately 3000K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20005,
+      "room": "bath",
+      "title": "Bath #3",
+      "floor": "floor-1",
+      "code": "B1-N1",
+      "sourceCode": "B1",
+      "sourceFile": "assets/render-candidates/floor-one-review/r01/bath-a-vanity.png",
+      "sourceJobId": "a2486b04-f85c-45e5-8a57-b96543f918fb",
+      "sourceEvidence": "Blueprint concept",
+      "scene": "Evening vanity",
+      "cct": 3000,
+      "circuits": "Vanity task / general",
+      "lighting": "Keep both existing opal mirror sconces as the useful face-lighting source, with ceiling downlights at a modest complementary level. Preserve the windowless room; do not manufacture a moonlit window. Tile and vanity retain their exact original tones.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/bath-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "2:3",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "a2486b04-f85c-45e5-8a57-b96543f918fb"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Bath #3. Scene: Evening vanity.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Keep both existing opal mirror sconces as the useful face-lighting source, with ceiling downlights at a modest complementary level. Preserve the windowless room; do not manufacture a moonlit window. Tile and vanity retain their exact original tones.\nTarget lamp appearance approximately 3000K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20006,
+      "room": "great",
+      "title": "Great room",
+      "floor": "floor-2",
+      "code": "GR1-N1",
+      "sourceCode": "GR1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-refinement/r01/great-a.png",
+      "sourceJobId": "b1e11111-c0ca-44bc-a294-a8616615359f",
+      "sourceEvidence": "Photo-based refinement",
+      "scene": "Relaxed evening",
+      "cct": 2700,
+      "circuits": "Table lamp / general / fireplace independently",
+      "lighting": "Light the existing table lamp warmly, use a quiet level of existing recessed ambient lighting, and show a low gentle flame in the existing linear fireplace. Keep the TV off. Both high transoms remain exactly present with dark outside. No new LED border around the fireplace, shelving or ceiling.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/great-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "b1e11111-c0ca-44bc-a294-a8616615359f"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Great room. Scene: Relaxed evening.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Light the existing table lamp warmly, use a quiet level of existing recessed ambient lighting, and show a low gentle flame in the existing linear fireplace. Keep the TV off. Both high transoms remain exactly present with dark outside. No new LED border around the fireplace, shelving or ceiling.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": false,
+        "note": "Superseded: exterior still reads as twilight."
+      }
+    },
+    {
+      "index": 20007,
+      "room": "kitchen",
+      "title": "Kitchen",
+      "floor": "floor-2",
+      "code": "K1-N1",
+      "sourceCode": "K1",
+      "sourceFile": "assets/render-candidates/floor-two-review/r02/kitchen-a.png",
+      "sourceJobId": "2518b56b-f1bd-4d3a-9242-9bdfead79f5f",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Evening cooking",
+      "cct": 3000,
+      "circuits": "Island pendants / undercabinet task / general",
+      "lighting": "Turn on the two existing dome island pendants with warm diffused undersides. Show continuous diffused undercabinet task lighting on the actual counter runs and moderate existing ceiling light. Counters and sink must read clearly, no high-glare points, no lighting added to the floor or island waterfall. Adjacent sunroom also at night.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/kitchen-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "2518b56b-f1bd-4d3a-9242-9bdfead79f5f"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Kitchen. Scene: Evening cooking.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Turn on the two existing dome island pendants with warm diffused undersides. Show continuous diffused undercabinet task lighting on the actual counter runs and moderate existing ceiling light. Counters and sink must read clearly, no high-glare points, no lighting added to the floor or island waterfall. Adjacent sunroom also at night.\nTarget lamp appearance approximately 3000K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20008,
+      "room": "dining",
+      "title": "Formal dining",
+      "floor": "floor-2",
+      "code": "D1-N1",
+      "sourceCode": "D1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-refinement/r01/dining-a.png",
+      "sourceJobId": "5237257d-d1ce-4b7b-83e2-523c911187ff",
+      "sourceEvidence": "Photo-based refinement",
+      "scene": "Dinner with friends",
+      "cct": 2700,
+      "circuits": "Dining pendant / artwork / general",
+      "lighting": "Illuminate the existing sculptural pendant softly and dim the existing picture light and recessed room lights. Table surface and chair backs should have gentle modelling; the decorative fixture stays comfortable to look at. Preserve five windows and the high-window cabinet. No candles or new furniture.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/dining-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "5237257d-d1ce-4b7b-83e2-523c911187ff"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Formal dining. Scene: Dinner with friends.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Illuminate the existing sculptural pendant softly and dim the existing picture light and recessed room lights. Table surface and chair backs should have gentle modelling; the decorative fixture stays comfortable to look at. Preserve five windows and the high-window cabinet. No candles or new furniture.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": false,
+        "note": "Superseded by MW-P02: source contained Option 2 material crossover."
+      }
+    },
+    {
+      "index": 20009,
+      "room": "living",
+      "title": "Living room · piano salon",
+      "floor": "floor-2",
+      "code": "LR1-N1",
+      "sourceCode": "LR1",
+      "sourceFile": "assets/render-candidates/floor-two-review/r02/living-a-final.png",
+      "sourceJobId": "bfe921ae-1e58-47f1-8bf6-1e626b48d42b",
+      "sourceEvidence": "Plan-led concept",
+      "scene": "Piano salon at night",
+      "cct": 2700,
+      "circuits": "General / artwork; future portable reading light to select",
+      "lighting": "Use low warm general light from the existing ceiling positions, gentle illumination on the art and soft indirect light from outside the camera. Keep baby grand piano and white sofa exactly placed. A future lamp circuit may be proposed in notes but do not invent visible furniture or a chandelier.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/living-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "bfe921ae-1e58-47f1-8bf6-1e626b48d42b"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Living room · piano salon. Scene: Piano salon at night.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Use low warm general light from the existing ceiling positions, gentle illumination on the art and soft indirect light from outside the camera. Keep baby grand piano and white sofa exactly placed. A future lamp circuit may be proposed in notes but do not invent visible furniture or a chandelier.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20010,
+      "room": "sunroom",
+      "title": "Sunroom",
+      "floor": "floor-2",
+      "code": "S1-N1",
+      "sourceCode": "S1",
+      "sourceFile": "assets/render-candidates/floor-two-review/r02/sunroom-a.png",
+      "sourceJobId": "d0c0f80c-0284-4025-b7d6-a691eeb1e250",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Evening supper",
+      "cct": 2700,
+      "circuits": "Dining chandelier / adjacent kitchen ambient",
+      "lighting": "The existing linear opal-globe chandelier softly lights the six-seat rectangular table. Keep enough adjacent kitchen ambient to show the oven column; all wraparound windows show true night with faint townhome lights. Existing sheer drapes stay in position.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/sunroom-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "d0c0f80c-0284-4025-b7d6-a691eeb1e250"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Sunroom. Scene: Evening supper.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: The existing linear opal-globe chandelier softly lights the six-seat rectangular table. Keep enough adjacent kitchen ambient to show the oven column; all wraparound windows show true night with faint townhome lights. Existing sheer drapes stay in position.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20011,
+      "room": "stair2",
+      "title": "Second-floor stair hall",
+      "floor": "floor-2",
+      "code": "ST1-N1",
+      "sourceCode": "ST1",
+      "sourceFile": "assets/render-candidates/floor-two-review/r01/stair2-a-hall.png",
+      "sourceJobId": "8c36ac54-4f08-4139-8e5a-e9d92f22e3d8",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Evening circulation",
+      "cct": 2700,
+      "circuits": "Circulation general / picture accent",
+      "lighting": "Provide restrained existing ceiling illumination and the existing picture light, making every tread edge and landing legible. The great room through the arch is also at night. No invented glowing tread noses, cove bands or reconstructed stairs.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/stair2-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "8c36ac54-4f08-4139-8e5a-e9d92f22e3d8"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Second-floor stair hall. Scene: Evening circulation.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Provide restrained existing ceiling illumination and the existing picture light, making every tread edge and landing legible. The great room through the arch is also at night. No invented glowing tread noses, cove bands or reconstructed stairs.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20012,
+      "room": "ownerbed",
+      "title": "Owners suite",
+      "floor": "floor-3",
+      "code": "OB1-N1",
+      "sourceCode": "OB1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-refinement/r01/ownerbed-a-refined.png",
+      "sourceJobId": "d151ffd6-d27e-415d-a175-c788766556f8",
+      "sourceEvidence": "Photo-based refinement",
+      "scene": "Wind-down suite",
+      "cct": 2700,
+      "circuits": "Reading left / reading right / underbed and bedside accent / general",
+      "lighting": "Switch on very soft diffused concealed light below the EXISTING white platform bed and the EXISTING floating bedside consoles. A gentle warm halo below furniture, not orange neon or glowing carpet. Existing individual reading lights on low; general ceiling lights very low. Keep TV off, exact wall texture, four-sash windows, original sheers and side panels. Do not add a headboard/cove strip.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/ownerbed-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "d151ffd6-d27e-415d-a175-c788766556f8"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Owners suite. Scene: Wind-down suite.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Switch on very soft diffused concealed light below the EXISTING white platform bed and the EXISTING floating bedside consoles. A gentle warm halo below furniture, not orange neon or glowing carpet. Existing individual reading lights on low; general ceiling lights very low. Keep TV off, exact wall texture, four-sash windows, original sheers and side panels. Do not add a headboard/cove strip.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": false,
+        "note": "Superseded: underbed lighting too faint."
+      }
+    },
+    {
+      "index": 20013,
+      "room": "retreat",
+      "title": "Owners retreat",
+      "floor": "floor-3",
+      "code": "OR1-N1",
+      "sourceCode": "OR1",
+      "sourceFile": "assets/render-candidates/floor-three-review/r01/retreat-a.png",
+      "sourceJobId": "fb41f06a-a950-44c4-a018-fb75c8c65528",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Evening coffee bar",
+      "cct": 2700,
+      "circuits": "Bar task / cabinet accent / general",
+      "lighting": "Use the existing undercabinet bar lighting as useful warm task light, existing glass cabinet lights subdued, and bedside lamps visible through the opening low and warm. Exterior night. Retain the old adjoining bedroom details as in the source rather than redesigning them during this lighting edit.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/retreat-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "fb41f06a-a950-44c4-a018-fb75c8c65528"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Owners retreat. Scene: Evening coffee bar.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Use the existing undercabinet bar lighting as useful warm task light, existing glass cabinet lights subdued, and bedside lamps visible through the opening low and warm. Exterior night. Retain the old adjoining bedroom details as in the source rather than redesigning them during this lighting edit.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20014,
+      "room": "ownerbath",
+      "title": "Owners bathroom",
+      "floor": "floor-3",
+      "code": "BA1-N1",
+      "sourceCode": "BA1",
+      "sourceFile": "assets/render-candidates/floor-three-review/r03/ownerbath-a.png",
+      "sourceJobId": "125116c9-2abb-4851-8ce3-0fed002b060c",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Evening spa",
+      "cct": 3000,
+      "circuits": "Vanity task / general and wet-area illumination separately",
+      "lighting": "Existing opal vanity sconces provide diffused face lighting with dimmed ceiling light providing safe visibility at the tub and shower. Calm but not too dark to see floor and fixtures. No candle styling, ceiling coves, tub underglow or new mirror shapes. Both real windows retain their openings.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/ownerbath-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "125116c9-2abb-4851-8ce3-0fed002b060c"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Owners bathroom. Scene: Evening spa.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Existing opal vanity sconces provide diffused face lighting with dimmed ceiling light providing safe visibility at the tub and shower. Calm but not too dark to see floor and fixtures. No candle styling, ceiling coves, tub underglow or new mirror shapes. Both real windows retain their openings.\nTarget lamp appearance approximately 3000K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20015,
+      "room": "ownercloset",
+      "title": "Owners walk-in closet",
+      "floor": "floor-3",
+      "code": "WC1-N1",
+      "sourceCode": "WC1",
+      "sourceFile": "assets/render-candidates/floor-three-review/r01/ownercloset-a.png",
+      "sourceJobId": "a330fff0-32f1-41af-b4be-33b3d7d3a2b4",
+      "sourceEvidence": "Plan-led concept",
+      "scene": "Evening dressing",
+      "cct": 3000,
+      "circuits": "Closet cabinet task / general",
+      "lighting": "Keep the existing diffused vertical cabinet strips and overhead downlights working together; clothes should read clearly without dramatic shadows or amber color casts. No exterior windows. Keep all bays, rails and clothing unchanged.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/ownercloset-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "a330fff0-32f1-41af-b4be-33b3d7d3a2b4"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Owners walk-in closet. Scene: Evening dressing.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Keep the existing diffused vertical cabinet strips and overhead downlights working together; clothes should read clearly without dramatic shadows or amber color casts. No exterior windows. Keep all bays, rails and clothing unchanged.\nTarget lamp appearance approximately 3000K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20016,
+      "room": "bed2",
+      "title": "Bedroom 2",
+      "floor": "floor-3",
+      "code": "B21-N1",
+      "sourceCode": "B21",
+      "sourceFile": "assets/render-candidates/floor-three-review/r03/bed2-a-final.png",
+      "sourceJobId": "42eecef7-7956-4961-9c7c-4c0f28635d64",
+      "sourceEvidence": "Plan-led concept",
+      "scene": "Quiet guest evening",
+      "cct": 2700,
+      "circuits": "Bedside lamps / general",
+      "lighting": "Illuminate existing bedside lamps warmly, balanced with a very low general ceiling level. No LED bed strip or additional architectural lighting. Keep the west-wall bed and entry relationships exactly as source; the real visible window becomes night. White bedding remains ivory-white, not yellow.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/bed2-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "42eecef7-7956-4961-9c7c-4c0f28635d64"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Bedroom 2. Scene: Quiet guest evening.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Illuminate existing bedside lamps warmly, balanced with a very low general ceiling level. No LED bed strip or additional architectural lighting. Keep the west-wall bed and entry relationships exactly as source; the real visible window becomes night. White bedding remains ivory-white, not yellow.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20017,
+      "room": "bed3",
+      "title": "Bedroom 3",
+      "floor": "floor-3",
+      "code": "B31-N1",
+      "sourceCode": "B31",
+      "sourceFile": "assets/render-candidates/floor-three-review/r03/bed3-a.png",
+      "sourceJobId": "2883198a-ecf6-4080-a6a2-375b5e245cd4",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Soft reading evening",
+      "cct": 2700,
+      "circuits": "Bedside reading / general",
+      "lighting": "Turn on the two existing black dome bedside lamps with soft light pools and low ceiling ambient. Preserve all three window openings, bed on right wall and the loose rug over oak. No added cove, LED underbed or cabinet light.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/bed3-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "2883198a-ecf6-4080-a6a2-375b5e245cd4"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Bedroom 3. Scene: Soft reading evening.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Turn on the two existing black dome bedside lamps with soft light pools and low ceiling ambient. Preserve all three window openings, bed on right wall and the loose rug over oak. No added cove, LED underbed or cabinet light.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20018,
+      "room": "sharedbath",
+      "title": "Shared bathroom",
+      "floor": "floor-3",
+      "code": "SB1-N1",
+      "sourceCode": "SB1",
+      "sourceFile": "assets/render-candidates/floor-three-review/r01/sharedbath-a.png",
+      "sourceJobId": "0c042ace-bf74-44fd-9643-e9f0c2f25e36",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Evening vanity",
+      "cct": 3000,
+      "circuits": "Vanity task / general",
+      "lighting": "Illuminate the existing diffused fixtures over the wide mirror, with moderate ceiling illumination. All reflected and adjoining bedroom windows must show night and bedside lamps may glow in the adjoining room. Do not create a window in the bathroom itself.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/sharedbath-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "0c042ace-bf74-44fd-9643-e9f0c2f25e36"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Shared bathroom. Scene: Evening vanity.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Illuminate the existing diffused fixtures over the wide mirror, with moderate ceiling illumination. All reflected and adjoining bedroom windows must show night and bedside lamps may glow in the adjoining room. Do not create a window in the bathroom itself.\nTarget lamp appearance approximately 3000K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20019,
+      "room": "laundry",
+      "title": "Laundry",
+      "floor": "floor-3",
+      "code": "LA1-N1",
+      "sourceCode": "LA1",
+      "sourceFile": "assets/render-candidates/floor-three-review/r03/laundry-a-final.png",
+      "sourceJobId": "f1a41167-66db-4cfa-96c1-fadecc952a08",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Evening laundry",
+      "cct": 3000,
+      "circuits": "Counter task / general",
+      "lighting": "Use diffused ceiling lighting and a discreet continuous task light beneath the existing left-side upper cabinetry to illuminate the sink and folding counter. Both left-wall windows dark outside. Preserve exact quote Rinse and repeat.. and its existing graphic. No new windows or room expansion.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/laundry-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "f1a41167-66db-4cfa-96c1-fadecc952a08"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Laundry. Scene: Evening laundry.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Use diffused ceiling lighting and a discreet continuous task light beneath the existing left-side upper cabinetry to illuminate the sink and folding counter. Both left-wall windows dark outside. Preserve exact quote Rinse and repeat.. and its existing graphic. No new windows or room expansion.\nTarget lamp appearance approximately 3000K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20020,
+      "room": "stair3",
+      "title": "Third-floor stair hall",
+      "floor": "floor-3",
+      "code": "ST31-N1",
+      "sourceCode": "ST31",
+      "sourceFile": "assets/render-candidates/floor-three-review/r01/stair3-a.png",
+      "sourceJobId": "64429318-7ed1-4247-990b-6ac13d8d6085",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Evening upper landing",
+      "cct": 2700,
+      "circuits": "Circulation general / artwork",
+      "lighting": "Use low warm general ceiling illumination from existing or off-camera fixture positions, with a gentle wash on the existing artwork. Every tread and landing must remain legible. Three high windows show dark exterior; no LED tread strips or altered quarter-turn geometry.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/stair3-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "64429318-7ed1-4247-990b-6ac13d8d6085"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Third-floor stair hall. Scene: Evening upper landing.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Use low warm general ceiling illumination from existing or off-camera fixture positions, with a gentle wash on the existing artwork. Every tread and landing must remain legible. Three high windows show dark exterior; no LED tread strips or altered quarter-turn geometry.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20021,
+      "room": "loft",
+      "title": "Penthouse lounge",
+      "floor": "floor-4",
+      "code": "PL1-N1",
+      "sourceCode": "PL1",
+      "sourceFile": "assets/render-candidates/floor-four-review/r01/loft-a.png",
+      "sourceJobId": "484088a6-f517-49df-9d67-f622e87cab4b",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Penthouse evening",
+      "cct": 2700,
+      "circuits": "Bar pendants / bar task / existing tray and general",
+      "lighting": "Switch on the existing wet-bar pendants and bar task light, dim the existing tray-ceiling ambient and recessed lights for comfortable lounge use. Terrace beyond shows true night and restrained existing string lights. No new ceiling coves or fireplace. Keep both terrace connections unchanged.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/loft-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "484088a6-f517-49df-9d67-f622e87cab4b"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Penthouse lounge. Scene: Penthouse evening.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Switch on the existing wet-bar pendants and bar task light, dim the existing tray-ceiling ambient and recessed lights for comfortable lounge use. Terrace beyond shows true night and restrained existing string lights. No new ceiling coves or fireplace. Keep both terrace connections unchanged.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20022,
+      "room": "bed5",
+      "title": "Penthouse guest bedroom",
+      "floor": "floor-4",
+      "code": "B51-N1",
+      "sourceCode": "B51",
+      "sourceFile": "assets/render-candidates/floor-four-review/r03/bed5-a.png",
+      "sourceJobId": "844681b3-8f93-431f-99c0-bead0744af0e",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Guest suite at night",
+      "cct": 2700,
+      "circuits": "Bedside lamps / general",
+      "lighting": "Use the existing two shaded bedside lamps with soft warm pools and substantially dim the existing ceiling downlight. Keep the mushroom and charcoal walls legible, all furniture and door positions unchanged. No invented exterior windows or LED accents.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/bed5-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "844681b3-8f93-431f-99c0-bead0744af0e"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Penthouse guest bedroom. Scene: Guest suite at night.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Use the existing two shaded bedside lamps with soft warm pools and substantially dim the existing ceiling downlight. Keep the mushroom and charcoal walls legible, all furniture and door positions unchanged. No invented exterior windows or LED accents.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20023,
+      "room": "bath4",
+      "title": "Penthouse bathroom",
+      "floor": "floor-4",
+      "code": "PBA1-N1",
+      "sourceCode": "PBA1",
+      "sourceFile": "assets/render-candidates/floor-four-review/r01/bath4-a.png",
+      "sourceJobId": "4ee19ef4-2adb-48bc-9578-4717b2fab3b7",
+      "sourceEvidence": "Plan-led concept",
+      "scene": "Evening guest bath",
+      "cct": 3000,
+      "circuits": "Vanity task / general and shower",
+      "lighting": "Turn on the existing vanity sconces and reduce ceiling downlights slightly while keeping shower, threshold and floor readable. Preserve the windowless plan, exact shower glass, vanity, toilet and finishes. No daylight from an invented opening.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/bath4-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "4ee19ef4-2adb-48bc-9578-4717b2fab3b7"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Penthouse bathroom. Scene: Evening guest bath.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Turn on the existing vanity sconces and reduce ceiling downlights slightly while keeping shower, threshold and floor readable. Preserve the windowless plan, exact shower glass, vanity, toilet and finishes. No daylight from an invented opening.\nTarget lamp appearance approximately 3000K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 20024,
+      "room": "terrace",
+      "title": "Roof terrace",
+      "floor": "floor-4",
+      "code": "RT1-N1",
+      "sourceCode": "RT1",
+      "sourceFile": "assets/render-candidates/floor-four-review/r01/terrace-a.png",
+      "sourceJobId": "476a4a80-6325-4b97-80e9-4af5c677db29",
+      "sourceEvidence": "Photo-based revision",
+      "scene": "Rooftop after dark",
+      "cct": 2700,
+      "circuits": "Existing string lights / existing wall fixtures / fireplace independently",
+      "lighting": "Make the sky genuinely dark nighttime, not sunset. Existing pergola string lights create soft warm pools on the dining table and walkway; use the existing privacy-wall fireplace with gentle flames. Distant Crown townhomes show sparse realistic warm window lights. Preserve pergola, shade sails, rails, fireplace wall and furniture; no star fantasy, uplighting to neighbors or extra fixtures.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/terrace-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "476a4a80-6325-4b97-80e9-4af5c677db29"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Roof terrace. Scene: Rooftop after dark.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Make the sky genuinely dark nighttime, not sunset. Existing pergola string lights create soft warm pools on the dining table and walkway; use the existing privacy-wall fireplace with gentle flames. Distant Crown townhomes show sparse realistic warm window lights. Preserve pergola, shade sails, rails, fireplace wall and furniture; no star fantasy, uplighting to neighbors or extra fixtures.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Day/night pair visually reviewed; layout and furniture retained, artificial illumination and night exterior readable. Fixture positions remain illustrative."
+      }
+    },
+    {
+      "index": 21012,
+      "room": "ownerbed",
+      "title": "Owners suite",
+      "floor": "floor-3",
+      "code": "OB1-N1",
+      "sourceCode": "OB1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-refinement/r01/ownerbed-a-refined.png",
+      "sourceJobId": "d151ffd6-d27e-415d-a175-c788766556f8",
+      "sourceEvidence": "Photo-based refinement",
+      "scene": "Wind-down suite",
+      "cct": 2700,
+      "circuits": "Reading left / reading right / underbed and bedside accent / general",
+      "lighting": "Switch on very soft diffused concealed light below the EXISTING white platform bed and the EXISTING floating bedside consoles. A gentle warm halo below furniture, not orange neon or glowing carpet. Existing individual reading lights on low; general ceiling lights very low. Keep TV off, exact wall texture, four-sash windows, original sheers and side panels. Do not add a headboard/cove strip.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/ownerbed-night-led.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "d151ffd6-d27e-415d-a175-c788766556f8"
+          }
+        ],
+        "prompt": "Use case: lighting-weather. PHOTO EDIT, not a new interior design. Image 1 is the exact existing Mineral & Walnut room render to edit. Room: Owners suite. Scene: Wind-down suite.\nChange ONLY time of day and electric illumination. Lock the original camera, crop, perspective, proportions, all walls, every window and door, stair geometry, furniture position and design, finishes, artwork and existing text. Preserve all existing details even where only partially seen. Keep the same composition and aspect ratio.\nLighting intent: Switch on very soft diffused concealed light below the EXISTING white platform bed and the EXISTING floating bedside consoles. A gentle warm halo below furniture, not orange neon or glowing carpet. Existing individual reading lights on low; general ceiling lights very low. Keep TV off, exact wall texture, four-sash windows, original sheers and side panels. Do not add a headboard/cove strip.\nTarget lamp appearance approximately 2700K with good color fidelity. True nighttime outside, deep dark neutral-blue sky with faint existing townhome streetscape where visible; absolutely no daylight shafts or glowing daylight curtains. Remove ALL direct sunlight patches and daylight illumination, including in mirrors and adjoining spaces. Realistic inverse light falloff, balanced interior-photography exposure, soft shadows, natural reflections in glass and polished metal. All light must come from a plausible described fixture; do not just apply a blue filter or darken the image. Show readable materials and lighting hierarchy, no crushed-black room or amber cast. Keep any curtains exactly where they are to allow direct comparison; nighttime privacy will be specified separately. No new furniture, ornaments, candles, plants, windows, ceiling coves, chandelier types, LED strips beyond the explicit lighting intent, people, pets, logos or new text. Preserve source inscriptions verbatim. Output a single photoreal room image, not a collage or before/after. This is a lighting-intent concept, not a measured illuminance simulation.\nCRITICAL: The prior attempt failed to show the requested concealed lighting. Make the existing platform bed's concealed underside lighting visibly ON, a thin believable warm-white light spill below its bottom edge onto the surrounding rug and floor. Both existing FLOATING bedside units also have clearly visible soft light underneath them. Conceal the LED emitters, no bare strip or bright orange bands. Keep the white upholstered platform, bed shape, walnut band and floating units unchanged. Make individual wall reading lights visibly ON. Electric light provides the room illumination; darken all window glass to true after-dark night with no daylight lighting up curtains or floor. This must clearly demonstrate the underbed and bedside lighting design while remaining subtle and elegant."
+      },
+      "supersedes": 20012,
+      "qa": {
+        "accepted": false,
+        "note": "Superseded: unintended headboard-top lighting."
+      }
+    },
+    {
+      "index": 22012,
+      "room": "ownerbed",
+      "title": "Owners suite",
+      "floor": "floor-3",
+      "code": "OB1-N1",
+      "sourceCode": "OB1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-refinement/r01/ownerbed-a-refined.png",
+      "sourceJobId": "d151ffd6-d27e-415d-a175-c788766556f8",
+      "sourceEvidence": "Photo-based refinement",
+      "scene": "Wind-down suite",
+      "cct": 2700,
+      "circuits": "Reading left / reading right / underbed and bedside accent / general",
+      "lighting": "Switch on very soft diffused concealed light below the EXISTING white platform bed and the EXISTING floating bedside consoles. A gentle warm halo below furniture, not orange neon or glowing carpet. Existing individual reading lights on low; general ceiling lights very low. Keep TV off, exact wall texture, four-sash windows, original sheers and side panels. Do not add a headboard/cove strip.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/ownerbed-night-final.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "7481c738-2cc3-44bc-a491-c2a00b05716e"
+          }
+        ],
+        "prompt": "Precise lighting-only correction to the supplied nighttime bedroom image. Keep exact camera, architecture, all furniture and textures. KEEP the softly illuminated strip BELOW THE BED and BELOW THE TWO FLOATING BEDSIDE CONSOLES and their warm floor spill. Keep the two little wall-mounted reading lights on. REMOVE ONLY the thin horizontal glowing strip running along the TOP EDGE of the long walnut headboard panel: that top edge must be unlit wood with NO luminous line or glowing wash above it. The artwork wall should be gently illuminated by ambient light, not a strip. Darken the exterior visible behind the sheers to true after-dark night while preserving the four windows and faint nearby townhouse shapes. No other changes. Balanced warm-white lighting, not orange. Single photo, no labels."
+      },
+      "supersedes": 21012,
+      "qa": {
+        "accepted": false,
+        "note": "Superseded by MW-P02: source contained Option 2 material crossover."
+      }
+    },
+    {
+      "index": 21006,
+      "room": "great",
+      "title": "Great room",
+      "floor": "floor-2",
+      "code": "GR1-N1",
+      "sourceCode": "GR1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-refinement/r01/great-a.png",
+      "sourceJobId": "b1e11111-c0ca-44bc-a294-a8616615359f",
+      "sourceEvidence": "Photo-based refinement",
+      "scene": "Relaxed evening",
+      "cct": 2700,
+      "circuits": "Table lamp / general / fireplace independently",
+      "lighting": "Light the existing table lamp warmly, use a quiet level of existing recessed ambient lighting, and show a low gentle flame in the existing linear fireplace. Keep the TV off. Both high transoms remain exactly present with dark outside. No new LED border around the fireplace, shelving or ceiling.",
+      "file": "assets/render-candidates/mineral-walnut-night/r01/great-night-final.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "count": 1,
+        "use_unlim": false,
+        "medias": [
+          {
+            "role": "image",
+            "value": "fb43301b-db8c-4837-9cd6-02a629dd412c"
+          }
+        ],
+        "prompt": "Precise time-of-night correction to the supplied great room photo. Preserve exact camera, all furniture, artwork, fireplace, both transom windows and terrace doors. The original image is still blue-hour twilight; change ONLY the exterior light and resulting illumination to true nighttime after sunset: deep navy-black sky, dark nearby townhome outlines, a few existing warm distant window lights. NO luminous blue daytime sky and NO cool daylight entering or lighting the curtains or floor. Interior illumination comes from the existing warm table lamp, low existing recessed ambient light and the gentle existing fireplace flame. Keep the living room comfortably legible and its whites neutral-warm, not crushed black or orange. TV stays off. Do not add any fixture, furniture, cove or LED strip. Single photorealistic room image, no labels."
+      },
+      "supersedes": 20006,
+      "qa": {
+        "accepted": false,
+        "note": "Superseded by MW-P02: source contained Option 2 material crossover."
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "index": 20001,
+      "job_id": "29aafde5-ddfd-4ccb-b7ee-25e9cce82cbc",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055433_29aafde5-ddfd-4ccb-b7ee-25e9cce82cbc.png"
+    },
+    {
+      "index": 20002,
+      "job_id": "9b2fcb5d-274a-4f81-88ef-a9502f16b064",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055433_9b2fcb5d-274a-4f81-88ef-a9502f16b064.png"
+    },
+    {
+      "index": 20003,
+      "job_id": "b0e49818-1ed4-4bf7-9de0-daa64213bbb1",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055432_b0e49818-1ed4-4bf7-9de0-daa64213bbb1.png"
+    },
+    {
+      "index": 20004,
+      "job_id": "c19fd34f-8850-4e4a-b83e-a1967239adc5",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055433_c19fd34f-8850-4e4a-b83e-a1967239adc5.png"
+    },
+    {
+      "index": 20005,
+      "job_id": "c6a8ae26-68cf-45ab-8fcd-d33dc3551d4c",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055432_c6a8ae26-68cf-45ab-8fcd-d33dc3551d4c.png"
+    },
+    {
+      "index": 20006,
+      "job_id": "fb43301b-db8c-4837-9cd6-02a629dd412c",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055432_fb43301b-db8c-4837-9cd6-02a629dd412c.png"
+    },
+    {
+      "index": 20007,
+      "job_id": "e894c1ab-a6ef-43a8-91f7-4b2699eb3c43",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055444_e894c1ab-a6ef-43a8-91f7-4b2699eb3c43.png"
+    },
+    {
+      "index": 20008,
+      "job_id": "63b82120-3686-4143-a762-54cbdfe4cac1",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055444_63b82120-3686-4143-a762-54cbdfe4cac1.png"
+    },
+    {
+      "index": 20009,
+      "job_id": "2846a6ec-1797-4716-841c-540c6f1e0e9a",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055444_2846a6ec-1797-4716-841c-540c6f1e0e9a.png"
+    },
+    {
+      "index": 20010,
+      "job_id": "85d00f5c-a230-46d4-8fb0-9ecca76e784f",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055445_85d00f5c-a230-46d4-8fb0-9ecca76e784f.png"
+    },
+    {
+      "index": 20011,
+      "job_id": "0627e0fc-ca01-4551-a6a6-86544547d865",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055444_0627e0fc-ca01-4551-a6a6-86544547d865.png"
+    },
+    {
+      "index": 20012,
+      "job_id": "87d49982-d1f3-4861-ad64-f19246bc5875",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055443_87d49982-d1f3-4861-ad64-f19246bc5875.png"
+    },
+    {
+      "index": 20013,
+      "job_id": "a36da9ce-e5f7-4c68-9a42-fe4c552af224",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055447_a36da9ce-e5f7-4c68-9a42-fe4c552af224.png"
+    },
+    {
+      "index": 20014,
+      "job_id": "8f91887a-b1e9-4a87-a921-9567cd74d5c1",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055447_8f91887a-b1e9-4a87-a921-9567cd74d5c1.png"
+    },
+    {
+      "index": 20015,
+      "job_id": "e5583786-0a4d-433d-835f-b635f18c3c9b",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055447_e5583786-0a4d-433d-835f-b635f18c3c9b.png"
+    },
+    {
+      "index": 20016,
+      "job_id": "157e807f-2c35-48fa-8bfc-140b8ac77140",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055447_157e807f-2c35-48fa-8bfc-140b8ac77140.png"
+    },
+    {
+      "index": 20017,
+      "job_id": "7bb8d56e-5198-4b9a-bfb4-fe90e9c4e498",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055447_7bb8d56e-5198-4b9a-bfb4-fe90e9c4e498.png"
+    },
+    {
+      "index": 20018,
+      "job_id": "e8cab53e-6089-43c4-8035-19ae6d85780a",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055448_e8cab53e-6089-43c4-8035-19ae6d85780a.png"
+    },
+    {
+      "index": 20019,
+      "job_id": "7cc5bce3-704c-4cdc-b083-40fe668ebbcb",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055450_7cc5bce3-704c-4cdc-b083-40fe668ebbcb.png"
+    },
+    {
+      "index": 20020,
+      "job_id": "1dbc741e-5d15-4ff2-b190-75de704897a1",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055451_1dbc741e-5d15-4ff2-b190-75de704897a1.png"
+    },
+    {
+      "index": 20021,
+      "job_id": "3bcb8ad1-2990-410c-a150-f40d8d70b4f6",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055450_3bcb8ad1-2990-410c-a150-f40d8d70b4f6.png"
+    },
+    {
+      "index": 20022,
+      "job_id": "6724679c-a08a-41e5-be55-6e98534ad0eb",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055450_6724679c-a08a-41e5-be55-6e98534ad0eb.png"
+    },
+    {
+      "index": 20023,
+      "job_id": "12d2d35d-6aa8-40a4-b60e-1748cbcf6f87",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055450_12d2d35d-6aa8-40a4-b60e-1748cbcf6f87.png"
+    },
+    {
+      "index": 20024,
+      "job_id": "37aa0c4b-dacd-4b5b-92f9-b68752758fb6",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055451_37aa0c4b-dacd-4b5b-92f9-b68752758fb6.png"
+    },
+    {
+      "index": 21012,
+      "job_id": "7481c738-2cc3-44bc-a491-c2a00b05716e",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055727_7481c738-2cc3-44bc-a491-c2a00b05716e.png"
+    },
+    {
+      "index": 22012,
+      "job_id": "27084de8-7b03-4b38-86e3-0898867c52d6",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055933_27084de8-7b03-4b38-86e3-0898867c52d6.png"
+    },
+    {
+      "index": 21006,
+      "job_id": "c002ff64-2f79-46b4-b893-626224f4b2c3",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261008_055933_c002ff64-2f79-46b4-b893-626224f4b2c3.png"
+    }
+  ],
+  "qa": {
+    "status": "accepted_for_concept_review",
+    "selectedIndices": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20007,
+      20008,
+      20009,
+      20010,
+      20011,
+      20013,
+      20014,
+      20015,
+      20016,
+      20017,
+      20018,
+      20019,
+      20020,
+      20021,
+      20022,
+      20023,
+      20024,
+      22012,
+      21006
+    ],
+    "rejectedIndices": [
+      20006,
+      20012,
+      21012
+    ],
+    "scope": "All 24 day/night pairs visually compared for opening/layout continuity, furniture, plausible light sources, removed daylight and readable night lighting.",
+    "limitations": [
+      "Lighting-intent image, not a measured brightness or electrical simulation. Fixture positions, output, beam angles, color, dimming compatibility and controls need specification and an on-site night mock-up. Curtains stay open for comparison; select separate nighttime privacy layers where needed.",
+      "Retreat retains the older adjoining bedroom; Bedroom 2 retains the disclosed layout uncertainty.",
+      "Ceiling-light location/count in generated views is illustrative and must be coordinated on measured plans."
+    ]
+  },
+  "delivery": {
+    "published": false,
+    "acceptedNightViews": 24,
+    "retainedOriginalViews": 45,
+    "rooms": 24,
+    "gallery": "docs/house-design-review.html",
+    "guide": "docs/interior-design-guide.html#night-lighting",
+    "book": "docs/room-design-book.html",
+    "validation": "docs/mineral-walnut-night-validation.json",
+    "provider": "Higgsfield API",
+    "model": "nano_banana_2_1",
+    "checks": [
+      "24 day/night pairs visually reviewed",
+      "All 24 room routes and comparisons tested",
+      "Desktop/mobile overflow, keyboard zoom and focus checked",
+      "Guide regressions and production build passed"
+    ]
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "date": "2026-10-07T22:37:27.624Z",
+  "base": "http://127.0.0.1:5173",
+  "rooms": 24,
+  "views": 45,
+  "scheduleEntries": 195,
+  "checks": 459,
+  "mediaChecks": 451,
+  "failures": [],
+  "pages": [
+    {
+      "target": "/renders.html",
+      "status": 200,
+      "title": "Design options · Home 708"
+    },
+    {
+      "target": "/cocoa-chrome.html",
+      "status": 200,
+      "title": "Cocoa & Chrome · Option 2 · Home 708"
+    },
+    {
+      "target": "/",
+      "status": 200,
+      "title": "The City Home — 3D"
+    },
+    {
+      "target": "/stone-linen.html",
+      "status": 200,
+      "title": "Cocoa &amp; Chrome · Option 2"
+    },
+    {
+      "target": "/cocoa-chrome-build-book.html",
+      "status": 200,
+      "title": "Cocoa &amp; Chrome · Materials & build book"
+    },
+    {
+      "target": "/stone-linen-build-book.html",
+      "status": 200,
+      "title": "Cocoa &amp; Chrome · Option 2"
+    },
+    {
+      "target": "/house-design-review.html",
+      "status": 200,
+      "title": "Mineral & Walnut · Option 1 · Home 708"
+    },
+    {
+      "target": "/model-home.html",
+      "status": 200,
+      "title": "Model Home · Home 708"
+    }
+  ],
+  "dimensions": [
+    {
+      "code": "E1",
+      "index": 9001,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "E2",
+      "index": 8101,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "O1",
+      "index": 9002,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "O2",
+      "index": 9302,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "M1",
+      "index": 9003,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "M2",
+      "index": 9503,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "G1",
+      "index": 8004,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "G2",
+      "index": 8404,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B1",
+      "index": 9005,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B2",
+      "index": 8405,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "GR1",
+      "index": 9006,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "GR2",
+      "index": 9506,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "K1",
+      "index": 9007,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "K2",
+      "index": 9507,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "D1",
+      "index": 9008,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "D2",
+      "index": 9308,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "LR1",
+      "index": 8009,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "LR2",
+      "index": 8109,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "S1",
+      "index": 8210,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "S2",
+      "index": 8410,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "ST1",
+      "index": 8011,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "ST2",
+      "index": 8411,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "OB1",
+      "index": 9012,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "OB2",
+      "index": 9312,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "OR1",
+      "index": 9013,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "OR2",
+      "index": 9513,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "BA1",
+      "index": 9014,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "BA2",
+      "index": 9314,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "WC1",
+      "index": 9015,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B21",
+      "index": 9016,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B22",
+      "index": 9316,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B31",
+      "index": 9217,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B32",
+      "index": 9317,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "SB1",
+      "index": 9018,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "SB2",
+      "index": 9318,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "LA1",
+      "index": 9019,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "LA2",
+      "index": 9319,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "ST31",
+      "index": 8020,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "PL1",
+      "index": 9021,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "PL2",
+      "index": 9521,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B51",
+      "index": 9022,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "B52",
+      "index": 9322,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "PBA1",
+      "index": 9023,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "RT1",
+      "index": 8224,
+      "width": 2528,
+      "height": 1696
+    },
+    {
+      "code": "RT2",
+      "index": 8424,
+      "width": 2528,
+      "height": 1696
+    }
+  ]
+}

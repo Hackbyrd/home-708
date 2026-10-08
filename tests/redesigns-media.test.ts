@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { REFERENCE_PHOTOS } from '../apps/web/src/reference'
+import daylightGuide from '../apps/web/src/daylight-build.json'
 import {
   FIRST_FLOOR_COSTS,
   FLOORS,
@@ -15,19 +16,19 @@ import {
 } from '../apps/web/src/redesigns'
 
 describe('redesign gallery data', () => {
-  it('defines 19 rooms across 4 floors, 14 rendered looks', () => {
+  it('defines 19 rooms across 4 floors, 15 rendered looks', () => {
     expect(ROOMS).toHaveLength(19)
-    expect(LOOKS).toHaveLength(14)
-    expect(RENDERED_LOOKS).toHaveLength(14)
+    expect(LOOKS).toHaveLength(15)
+    expect(RENDERED_LOOKS).toHaveLength(15)
     expect(FLOORS).toHaveLength(4)
-    expect(RENDER_COUNT).toBe(266)
+    expect(RENDER_COUNT).toBe(285)
     expect(roomsOnFloor('first-floor')).toHaveLength(5)
     expect(roomsOnFloor('second-floor')).toHaveLength(5)
     expect(roomsOnFloor('third-floor')).toHaveLength(6)
     expect(roomsOnFloor('penthouse')).toHaveLength(3)
   })
 
-  it('resolves every room/rendered-look pair to a bundled webp render (19 x 14 = 266)', () => {
+  it('resolves every room/rendered-look pair to a bundled webp render (19 x 15 = 285)', () => {
     let resolved = 0
     for (const room of ROOMS) {
       for (const look of RENDERED_LOOKS) {
@@ -37,7 +38,7 @@ describe('redesign gallery data', () => {
         resolved += 1
       }
     }
-    expect(resolved).toBe(266)
+    expect(resolved).toBe(285)
   })
 
   it('links every photographed room to a bundled model-home photo', () => {
@@ -63,8 +64,8 @@ describe('redesign gallery data', () => {
   })
 
   it('keeps looks unique, grouped, and fully storied', () => {
-    expect(new Set(LOOKS.map((look) => look.key)).size).toBe(14)
-    expect(LOOKS.filter((look) => look.group === 'Modern, budget')).toHaveLength(5)
+    expect(new Set(LOOKS.map((look) => look.key)).size).toBe(15)
+    expect(LOOKS.filter((look) => look.group === 'Modern, budget')).toHaveLength(6)
     expect(LOOKS.filter((look) => look.group === 'Five-star hotel')).toHaveLength(4)
     expect(LOOKS.filter((look) => look.group === 'New directions')).toHaveLength(5)
     expect(LOOK_GROUPS).toHaveLength(3)
@@ -82,5 +83,15 @@ describe('redesign gallery data', () => {
     expect(FIRST_FLOOR_COSTS.rows).toHaveLength(8)
     expect(FIRST_FLOOR_COSTS.total.good).toContain('$34-50K')
     expect(FIRST_FLOOR_COSTS.caption).toContain('contractor bids')
+  })
+
+  it('provides a build specification for every Daylight Modern room', () => {
+    expect(daylightGuide.rooms.map((room) => room.key).sort()).toEqual(ROOMS.map((room) => room.key).sort())
+    for (const room of daylightGuide.rooms) {
+      expect(room.materials.trim(), `${room.key}.materials`).not.toBe('')
+      for (const field of ['build', 'buy', 'save'] as const) {
+        expect(room[field].length, `${room.key}.${field}`).toBeGreaterThan(20)
+      }
+    }
   })
 })

@@ -1,4 +1,5 @@
-// Whole-house redesign gallery data: the 14 design looks, the 19 rendered rooms,
+import catalog from './redesign-catalog.json'
+// Whole-house redesign gallery data: the 15 design looks, the 19 rendered rooms,
 // the first-floor cost table, and the resolver that maps a room/look pair to its
 // web-sized render in `assets/renders-web/` (built by `npm run build:renders`).
 //
@@ -48,186 +49,15 @@ export interface RedesignRoom {
   status: RoomStatus
 }
 
-export const FLOORS: Array<{ key: FloorKey; label: string }> = [
-  { key: 'first-floor', label: 'Entry level' },
-  { key: 'second-floor', label: 'Main level' },
-  { key: 'third-floor', label: 'Bedroom level' },
-  { key: 'penthouse', label: 'Penthouse' },
-]
+export const FLOORS: Array<{ key: FloorKey; label: string }> = catalog.FLOORS as Array<{ key: FloorKey; label: string }>
 
-export const LOOKS: RedesignLook[] = [
-  {
-    key: 'modern', name: 'Modern home', group: 'Modern, budget', swatch: '#c9b79a', status: 'rendered',
-    description: 'Engineered white oak, warm white paint, matte black hardware, stone-look porcelain, oak veneer cabinetry.',
-    story: {
-      why: 'The baseline everything else is measured against: take what the model home does well and strip the builder-beige staging for cleaner lines and honest materials.',
-      feel: 'Calm and bright, instantly familiar. Owners feel like the house is finished, not decorated; guests notice light and space before any one object.',
-      signature: 'White oak floors throughout, one warm white everywhere, matte black hardware and plumbing, oak-veneer flat-panel cabinetry.',
-      build: 'The lowest-risk, most quotable scope — every item is a standard line for a DC design-build firm. Good first bid to calibrate pricing.',
-    },
-  },
-  {
-    key: 'blackwalnut', name: 'Black & walnut', group: 'Modern, budget', swatch: '#4a3326', status: 'rendered',
-    description: 'Crisp white walls, walnut cabinetry and furniture, matte black accents, graphic black and white tile.',
-    story: {
-      why: 'High contrast gives the townhouse a decisive, graphic identity — walnut brings the warmth, black draws the lines, white keeps it from going heavy.',
-      feel: 'Crisp and tailored. Owners feel sharp and organized; guests read confidence — a house with opinions.',
-      signature: 'Walnut cabinetry and furniture against bright white walls, black window frames and hardware, black-and-white tile moments in the baths.',
-      build: 'Costs land close to Modern home; walnut veneer is the premium line-item. Black accents are paint and hardware — cheap drama.',
-    },
-  },
-  {
-    key: 'sageclay', name: 'Sage & clay', group: 'Modern, budget', swatch: '#8fa088', status: 'rendered',
-    description: 'Sage painted cabinets, terracotta and clay textiles, zellige-look tile, light oak, aged brass.',
-    story: {
-      why: 'The organic counterpoint: color through earth and plants rather than bold paint, so the house feels handmade instead of showroom.',
-      feel: 'Grounded and easygoing. Owners feel relaxed, like the house exhales; guests notice texture — tile, linen, clay — before color.',
-      signature: 'Sage cabinet paint, zellige-look backsplashes, terracotta and clay textiles, light oak, aged brass that patinas.',
-      build: 'Paint-and-tile driven, very phaseable. Zellige-style tile installs run higher per square foot — concentrate them in kitchen and baths.',
-    },
-  },
-  {
-    key: 'navybrass', name: 'Navy & brass', group: 'Modern, budget', swatch: '#22314f', status: 'rendered',
-    description: 'Navy cabinetry and accent walls, white oak, brushed brass, marble-look quartz. Tailored and classic.',
-    story: {
-      why: 'The dressed-up classic — navy is the safest strong color there is, and with brass and marble-look stone it reads traditional without a single antique.',
-      feel: 'Polished and sure of itself. Owners feel put-together; guests read quality and permanence — the house that looks like it was always meant to be this way.',
-      signature: 'Navy kitchen and bath cabinetry, brushed brass hardware and lighting, white oak floors, marble-look quartz counters.',
-      build: 'Nearly identical scope to Modern home with painted instead of veneer cabinetry. Resale-safest of the bold options.',
-    },
-  },
-  {
-    key: 'scandi', name: 'Scandi light', group: 'Modern, budget', swatch: '#e4e1da', status: 'rendered',
-    description: 'All-white walls, pale ash and birch, light grey and oatmeal textiles. The brightest option.',
-    story: {
-      why: 'Maximize what a four-story townhouse fights for: daylight. Every surface bounces light down into the deep floor plates.',
-      feel: 'Airy and serene, almost weightless. Owners feel unburdened — nothing shouts; guests notice how bright the interior floors are.',
-      signature: 'Whitewashed or pale ash floors, white walls, blond furniture, oatmeal and grey textiles, paper and linen light fixtures.',
-      build: 'Cheapest palette to execute and easiest to maintain momentum on — most of the budget goes to flooring and lighting.',
-    },
-  },
-  {
-    key: 'aman', name: 'Aman warm minimal', group: 'Five-star hotel', swatch: '#d8c6a6', status: 'rendered',
-    description: 'Pale oak, travertine, sand limewash plaster, bronze, linen. Quiet and spa-like.',
-    story: {
-      why: 'Modeled on Aman resorts: luxury expressed as quiet — few materials, all natural, repeated everywhere until the house feels like one continuous exhale.',
-      feel: 'Spa calm. Owners come home and their shoulders drop; guests lower their voices without knowing why.',
-      signature: 'Limewash plaster walls, travertine and pale oak, bronze details, linen everything, concealed lighting.',
-      build: 'Plaster finishes and stone slabs are labor- and material-heavy — this is a 2–3× budget over the Better column, concentrated in walls and stone.',
-    },
-  },
-  {
-    key: 'rosewood', name: 'Rosewood dark moody', group: 'Five-star hotel', swatch: '#2b211b', status: 'rendered',
-    description: 'Smoked oak, black marble, brushed brass, velvet. Dramatic evening light.',
-    story: {
-      why: 'The house at its most cinematic — designed for the hours you actually live in it: evenings. Dark envelopes make the lit moments (fire, art, bar) theatrical.',
-      feel: 'Intimate and expensive. Owners feel like every night is a reservation; guests feel they were let into somewhere private.',
-      signature: 'Smoked oak floors, black marble, brushed brass, velvet upholstery, layered low lighting with dimmers everywhere.',
-      build: 'Lighting design is the make-or-break line item — budget for a lighting plan first, finishes second. Dark paint is cheap; dark stone is not.',
-    },
-  },
-  {
-    key: 'parkhyatt', name: 'Park Hyatt Tokyo', group: 'Five-star hotel', swatch: '#3c3a37', status: 'rendered',
-    description: 'Walnut, charcoal plaster, basalt, black steel, gallery lighting. Disciplined and masculine.',
-    story: {
-      why: 'Borrowed from the most disciplined hotel interior ever built: a strict kit of walnut, charcoal and stone that makes restraint itself the luxury.',
-      feel: 'Ordered, quiet power. Owners feel focused — a house with no visual noise; guests read it as a gallery that happens to be lived in.',
-      signature: 'Walnut panelling, charcoal plaster, basalt and black steel, museum-style lighting on art and objects.',
-      build: 'Success depends on millwork tolerances and lighting — pick a design-build firm with strong custom carpentry before choosing this one.',
-    },
-  },
-  {
-    key: 'bulgari', name: 'Bulgari Italian', group: 'Five-star hotel', swatch: '#b89a5e', status: 'rendered',
-    description: 'Calacatta marble, dark eucalyptus wood, polished brass. Tailored glamour.',
-    story: {
-      why: 'The Milanese answer: fashion-house tailoring applied to a home — strong stone, dark wood and polished metal in strict, symmetric compositions.',
-      feel: 'Celebratory and luxurious. Owners feel dressed up even on a Tuesday; guests feel the event has already started.',
-      signature: 'Calacatta-look marble, dark eucalyptus veneer, polished brass, tailored upholstery, symmetry in every elevation.',
-      build: 'Stone fabrication dominates the budget; everything else is upholstery and veneer. Phase stone by floor to spread cost.',
-    },
-  },
-  // ---- New directions (photo-based renders; see docs/new-looks-brief.md) ----
-  {
-    key: 'heritage', name: 'Georgetown Heritage', group: 'New directions', swatch: '#2f4538', status: 'rendered',
-    description: 'Racing-green paneled millwork, cream plaster walls, dark herringbone oak, unlacquered brass, oxblood leather, roman shades.',
-    story: {
-      why: 'The house is literally the Georgetown package on a brick federal-style townhouse — this leans into that DNA: DC rowhouse tradition done young, with full-height paneling and inky green instead of inherited antiques.',
-      feel: 'Established and anchored — library-den energy through the whole house. Owners feel rooted, like the house has history on their side; guests read warmth, books, and a drink by the fire.',
-      signature: 'Paint-grade wall paneling in deep racing green, herringbone oak floors, unlacquered brass that patinas, oxblood leather seating, traditional lighting with black shades.',
-      build: 'Paneling is the highest-impact-per-dollar move in the whole lineup — one repeatable millwork package per floor keeps the design-build scope tight and quotable.',
-    },
-  },
-  {
-    key: 'paris', name: 'Paris Apartment', group: 'New directions', swatch: '#ede7db', status: 'rendered',
-    description: 'Chevron white-oak floors, white walls with applied moulding, curved furniture, bouclé, aged mirror, plaster and antique-brass lighting.',
-    story: {
-      why: 'The 10-foot ceilings, tall windows and curved stair already read Haussmann — this works with the architecture instead of against it, Paris 7th arrondissement by way of Maryland.',
-      feel: 'Effortless and romantic — permanent Sunday morning. Owners feel light and unhurried; guests notice curves, art and mirrors doubling the daylight.',
-      signature: 'Applied wall mouldings with a single white, chevron floors, curved sofas and tables, plaster chandeliers, café-style aged mirrors, antique brass.',
-      build: 'Moulding plus paint delivers most of the look for carpentry-shop money; chevron flooring is the real spend. Very forgiving to phase room by room.',
-    },
-  },
-  {
-    key: 'crownloft', name: 'Crown Loft', group: 'New directions', swatch: '#8b5a3c', status: 'rendered',
-    description: 'Blackened steel, cognac leather, brick-tone feature walls, walnut slabs, concrete-look surfaces, factory glass and cage lighting.',
-    story: {
-      why: 'It is an urban brick townhouse on a walkable mixed-use block — the loft look makes it feel like a converted-warehouse penthouse and matches the gym/media energy of the entry level.',
-      feel: 'Urban and unfussy, a little rock and roll. Owners feel downtown without the elevator; guests expect records, espresso and a good pour.',
-      signature: 'Steel-framed interior glazing, cognac leather, thin-brick feature walls, walnut slab counters, matte black plumbing, Edison and cage fixtures.',
-      build: 'Mostly surfaces and lighting; aluminum shopfront systems can stand in for custom steel glazing at half the cost. Thin-brick veneer installs like tile.',
-    },
-  },
-  {
-    key: 'canyon', name: 'Canyon Modern', group: 'New directions', swatch: '#c06b43', status: 'rendered',
-    description: 'Hand-troweled warm plaster, rust/ochre/sand palette, travertine and limestone, black-stained oak, woven leather, sculptural pottery.',
-    story: {
-      why: 'Brings permanent golden hour to a four-story stack of rooms — hotter and more sculptural than Sage & clay, with arches and niches where the plan already curves.',
-      feel: 'Warm, grounded, vacation-every-day. Owners feel like the light is always good; guests feel Palm Springs or Sedona, three time zones east.',
-      signature: 'Roman-clay plaster walls, arched niches, chunky travertine, rust velvet and sand linen, black-stained oak as the dark anchor, oversized pottery.',
-      build: 'Plaster is labor-forward — do it full-strength in the great room and owner’s suite, color-matched flat paint elsewhere, and nobody will ever know.',
-    },
-  },
-  {
-    key: 'deco', name: 'Jewel Box Deco', group: 'New directions', swatch: '#0f5c4e', status: 'rendered',
-    description: 'Emerald and oxblood velvet, fluted walnut and burl, polished brass, black marble, graphic stone floors, globe lighting.',
-    story: {
-      why: 'The entertaining thesis: the curved stair and arched openings are natural Deco moments, so the house becomes the cocktail bar everyone wants to be invited back to.',
-      feel: 'Celebratory, dressed-up, a touch theatrical. Owners feel like hosts even alone; guests feel the evening has a dress code it forgives them for missing.',
-      signature: 'Fluted millwork, burl veneer, checkerboard or graphic marble at the entry, emerald velvet seating, globe and fan sconces, one lacquered-dark powder room.',
-      build: 'The most finish-intense of the five — deploy at full strength in entry, dining and the loft bar; let bedrooms calm down to velvet and brass accents only.',
-    },
-  },
-]
+export const LOOKS: RedesignLook[] = catalog.LOOKS as RedesignLook[]
 
-export const LOOK_GROUPS: LookGroup[] = ['Modern, budget', 'Five-star hotel', 'New directions']
+export const LOOK_GROUPS: LookGroup[] = catalog.LOOK_GROUPS as LookGroup[]
 /** Looks that have generated renders on disk. */
 export const RENDERED_LOOKS: RedesignLook[] = LOOKS.filter((look) => look.status === 'rendered')
 
-export const ROOMS: RedesignRoom[] = [
-  // Entry level
-  { key: 'entry', floor: 'first-floor', name: 'Entrance gallery', dims: 'Two-story, open to above', photoId: 'first-floor-entrance-gallery-and-spiral-staircase', portrait: true, status: 'final', note: 'Facing glass double doors to the office and studio, the arch into the center hall, curved stair beyond, balcony overhead. The polka-dot wallpaper, cherry floor and white spindles go.' },
-  { key: 'gym', floor: 'first-floor', name: 'Studio gym', dims: "11'-11\" × 13'-1\"", photoId: 'first-floor-studio-room', status: 'final', note: 'Wine wall and ladder come out for a full mirror wall, rack and dumbbells. Rubber floor takes dropped weights; 9\' ceiling means a wall-mount folding rack.' },
-  { key: 'media', floor: 'first-floor', name: 'Media room', dims: "15'-1\" × 11'-1\"", photoId: 'first-floor-media-room', status: 'draft', note: 'Keeps the tray ceiling, street window and U-sectional. The right wall becomes the TV wall with in-ceiling or in-wall Sonos.' },
-  { key: 'office', floor: 'first-floor', name: 'Home office', dims: "15'-5\" × 12'-11\"", photoId: 'first-floor-home-office', status: 'final', note: 'Corner windows stay. The left wall becomes the full built-in the plan already shows as an option.' },
-  { key: 'bath', floor: 'first-floor', name: 'Bath #3', dims: "Full bath, approx. 6' × 9'", photoId: null, portrait: true, status: 'draft', note: 'No model-home photo; built from the plan. Vanity and toilet on the garage-side wall, corner shower with a bench.' },
-  // Main level
-  { key: 'great', floor: 'second-floor', name: 'Great room', dims: 'Fireplace, balcony doors', photoId: 'second-floor-great-room', status: 'final', note: 'French doors to the balcony, linear gas fireplace and both high transom windows stay. The TV sits above the fireplace. The fireplace surround is where each look spends its money.' },
-  { key: 'kitchen', floor: 'second-floor', name: 'Kitchen', dims: 'Waterfall island, 4 stools', photoId: 'second-floor-main-kitchen-2', status: 'final', note: 'Same footprint and island. New cabinet fronts, counters, backsplash, hood and pendants; the appliances get replaced too.' },
-  { key: 'dining', floor: 'second-floor', name: 'Formal dining', dims: 'Seats eight', photoId: 'second-floor-formal-dining', status: 'final', note: 'Arched window and corner windows stay. Table, chandelier and sideboard change with each look.' },
-  { key: 'sunroom', floor: 'second-floor', name: 'Sun room', dims: 'Breakfast nook', photoId: 'second-floor-sun-room', status: 'final', note: 'Wraparound windows and the wall-oven column stay; the column gets new fronts to match the kitchen.' },
-  { key: 'stair2', floor: 'second-floor', name: 'Stair hall', dims: 'Curved stair', photoId: 'second-floor-spiral-staircase', status: 'final', note: 'Quarter-turn stair, intermediate landing and open well continuing down stay. New treads, handrail and balusters or paint, plus runner and lighting.' },
-  // Bedroom level
-  { key: 'ownerbed', floor: 'third-floor', name: "Owner's bedroom", dims: 'Row of windows', photoId: 'third-floor-master-bedroom', status: 'final', note: 'Window wall and bed wall stay; carpet comes out for wood in every look.' },
-  { key: 'retreat', floor: 'third-floor', name: "Owner's retreat", dims: 'Coffee + wine bar', photoId: 'third-floor-master-bedroom-owners-retreat', status: 'final', note: 'The existing coffee bar with sink and wine fridge stays in place with new cabinets and counter.' },
-  { key: 'ownerbath', floor: 'third-floor', name: "Owner's bath", dims: 'Tub, walk-in shower, double vanity', photoId: 'third-floor-master-bedroom-bath', status: 'final', note: 'Freestanding tub on the feature wall, glass shower, long double vanity. Heated floor in every look.' },
-  { key: 'bed3', floor: 'third-floor', name: 'Bedroom 3', dims: 'Corner windows', photoId: 'third-floor-bedroom-3', status: 'final', note: 'Corner windows stay; the magenta valance and drapes go.' },
-  { key: 'sharedbath', floor: 'third-floor', name: 'Shared bath', dims: 'Jack-and-Jill, bedrooms 2 + 3', photoId: 'third-floor-shared-bath-bedroom-2-3', status: 'draft', note: 'Double vanity between bedrooms 2 and 3. Heated floor planned here too.' },
-  { key: 'laundry', floor: 'third-floor', name: 'Laundry', dims: 'New washer + dryer', photoId: 'third-floor-laundry-room', status: 'final', note: 'Sink and both windows stay on the left wall; machines stay on the right. New side-by-side front-loaders with a folding counter over them.' },
-  // Penthouse
-  { key: 'loft', floor: 'penthouse', name: 'Penthouse loft', dims: 'Wet bar, terrace doors', photoId: 'fourth-floor-penthouse-loft', status: 'final', note: 'Tray ceiling, wet bar and both sets of terrace doors stay.' },
-  { key: 'bed5', floor: 'penthouse', name: 'Bedroom 5', dims: 'New build', photoId: 'fourth-floor-penthouse-bedroom-5', status: 'final', note: '708 has no Bedroom 5 yet. The photo is the version Wormald built in the model home; the renders show how it could look once added.' },
-  { key: 'terrace', floor: 'penthouse', name: 'Roof terrace', dims: 'Pergola, fire feature', photoId: 'fourth-floor-outdoor-living-terrace-and-sun-terrace-3', status: 'final', note: 'Pergola, railings and the fire wall stay. Each look translated into outdoor materials, with deck speakers planned.' },
-]
+export const ROOMS: RedesignRoom[] = catalog.ROOMS as RedesignRoom[]
 
 export interface CostRow {
   item: string
@@ -235,20 +65,7 @@ export interface CostRow {
   better: string
 }
 
-export const FIRST_FLOOR_COSTS: { caption: string; rows: CostRow[]; total: CostRow } = {
-  caption: 'Finishes and built-ins, labor included, DC-area rough ranges. Excludes furniture being moved over, whole-house Sonos and Apple Home work, and gym equipment (about $4 to 8K). Get two or three contractor bids before treating any number as real. Hotel looks run roughly 2 to 3 times the Better column.',
-  rows: [
-    { item: 'Floors, about 700 sq ft (gallery, halls, office, media)', good: 'Quality LVP, $4-5K', better: 'Engineered white oak, $7-10K' },
-    { item: 'Wallpaper off, paint the whole floor incl. two-story gallery', good: 'One warm white, $5-7K', better: 'Plus a limewash accent wall, $7-9K' },
-    { item: 'Stair and balcony', good: 'Paint spindles black, new oak handrail, $1.5-3K', better: 'New metal balusters, $6-10K' },
-    { item: 'Lighting: gallery pendant, 2700K cans, dimmers, sconces', good: '$3-5K', better: '$6-9K' },
-    { item: 'Studio gym: wine wall out, rubber floor, mirror wall', good: '$3-4K', better: '$4-6K' },
-    { item: 'Media wall: floating console and shelves', good: 'Semi-custom or IKEA-based with oak fronts, $2-4K', better: 'Custom oak veneer, $6-10K' },
-    { item: 'Office built-ins, about 13 ft wall', good: 'IKEA-based, painted, $3-6K', better: 'Custom painted cabinetry, $8-14K' },
-    { item: 'Bath #3: porcelain tile, floating vanity, glass panel, new fixtures', good: 'Keep layout, $12-16K', better: 'Bigger tile, wall-hung toilet, niche, $18-25K' },
-  ],
-  total: { item: 'First floor total', good: '$34-50K', better: '$62-93K' },
-}
+export const FIRST_FLOOR_COSTS: { caption: string; rows: CostRow[]; total: CostRow } = catalog.FIRST_FLOOR_COSTS as { caption: string; rows: CostRow[]; total: CostRow }
 
 // Vite bundles every web render; keys are source paths, values hashed URLs.
 const renderModules = import.meta.glob<string>(
