@@ -7,11 +7,12 @@ import { fileURLToPath } from 'node:url'
 import { execFile } from 'node:child_process'
 import { promisify } from 'node:util'
 import { createReleaseVersion, stampReleaseVersion } from './release-version'
+import { stampLibraryNavigation } from './library-navigation'
 
 const devPort = Number(process.env.VITE_DEV_PORT ?? 5173)
 const repo = fileURLToPath(new URL('../../', import.meta.url))
 const reviewFiles = [
-  'renders.html', 'model-home.html', 'explorations.html', 'house-design-review.html', 'interior-design-guide.html', 'mineral-walnut-budget.html', 'mineral-walnut-roadmap.html', 'mineral-walnut-stone-studies.html',
+  'renders.html', 'model-home.html', 'mineral-walnut.html', 'cocoa-chrome-overview.html', 'explorations.html', 'house-design-review.html', 'interior-design-guide.html', 'mineral-walnut-budget.html', 'mineral-walnut-roadmap.html', 'mineral-walnut-stone-studies.html',
   'room-design-book.html', 'daylight-modern-build-guide.html', 'bedroom-personalities-r03-preview.jpg',
   'stone-linen.html', 'stone-linen-build-book.html', 'cocoa-chrome.html', 'cocoa-chrome-build-book.html',
   'floor-one-design-review.html', 'floor-two-design-review.html',
@@ -24,6 +25,11 @@ const reviewDirectories = ['design-review-assets', 'design-library-assets', 'sto
 function designLibrary(): Plugin {
   let output = ''
   const release = createReleaseVersion(repo)
+  const headerPath = path.join(repo, 'scripts/design-library/library-header.html')
+  async function decorateLibraryPage(html: string, pagePath: string) {
+    const header = await fs.readFile(headerPath, 'utf8')
+    return stampReleaseVersion(stampLibraryNavigation(html, pagePath, header), release)
+  }
   return {
     name: 'home-design-library',
     configResolved(config) { if (config.command === 'build') output = path.resolve(config.root, config.build.outDir) },
@@ -59,7 +65,7 @@ function designLibrary(): Plugin {
           res.setHeader('Content-Type', types[path.extname(file)] ?? 'application/octet-stream')
           res.setHeader('Cache-Control', 'no-cache')
           if (path.extname(file).toLowerCase() === '.html') {
-            const body = stampReleaseVersion(await fs.readFile(file, 'utf8'), release)
+            const body = await decorateLibraryPage(await fs.readFile(file, 'utf8'), requested)
             res.setHeader('Content-Length', Buffer.byteLength(body))
             if (req.method === 'HEAD') res.end()
             else res.end(body)
@@ -84,7 +90,9 @@ function designLibrary(): Plugin {
           const file = path.join(directory, entry.name)
           if (entry.isDirectory()) await stampDirectory(file)
           else if (entry.isFile() && path.extname(entry.name).toLowerCase() === '.html') {
-            await fs.writeFile(file, stampReleaseVersion(await fs.readFile(file, 'utf8'), release))
+            const relative = path.relative(output, file).split(path.sep).join('/')
+            const html = await fs.readFile(file, 'utf8')
+            await fs.writeFile(file, relative === 'index.html' ? stampReleaseVersion(html, release) : await decorateLibraryPage(html, relative))
           }
         }
       }

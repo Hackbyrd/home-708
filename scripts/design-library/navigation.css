@@ -1,0 +1,378 @@
+#design-library-header,
+#design-library-header *,
+#dl-blueprint,
+#dl-blueprint * {
+  box-sizing: border-box;
+}
+
+#design-library-header {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+  border: 0;
+  border-bottom: 1px solid #d9d4ca;
+  border-radius: 0;
+  background: #f5f2ec;
+  color: #2b302b;
+  font: 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+#design-library-header .dl-navigation-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+  max-width: 1520px;
+  min-height: 76px;
+  margin: 0 auto;
+  padding: 18px clamp(18px, 3vw, 48px);
+}
+
+#design-library-header .dl-navigation-identity {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+#design-library-header a,
+#design-library-header button {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  padding: 5px 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  letter-spacing: normal;
+  text-transform: none;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+#design-library-header .dl-back-home {
+  color: #5b6455;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#design-library-header .dl-library-title {
+  padding-left: 22px;
+  border-left: 1px solid #d9d4ca;
+  font: 500 23px/1.25 Georgia, "Times New Roman", serif;
+}
+
+#design-library-header .dl-primary-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  gap: 27px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font-size: 13px;
+}
+
+#design-library-header .dl-navigation-link[aria-current="page"] {
+  color: #3e5645;
+  box-shadow: 0 1px 0 #3e5645;
+  font-weight: 650;
+}
+
+#design-library-header a:hover,
+#design-library-header button:hover {
+  color: #3e5645;
+}
+
+#design-library-header a:focus-visible,
+#design-library-header button:focus-visible,
+#dl-blueprint a:focus-visible,
+#dl-blueprint button:focus-visible {
+  outline: 3px solid #987544;
+  outline-offset: 5px;
+}
+
+#design-library-context {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 16px clamp(18px, 3vw, 48px) 0;
+  border: 0;
+  background: transparent;
+  color: #626c62;
+  font: 12px/1.5 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+#design-library-context a {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #3e5645;
+  font: inherit;
+  text-decoration: none;
+  text-underline-offset: 3px;
+}
+
+#design-library-context a:hover { text-decoration: underline; }
+#design-library-context a:focus-visible {
+  outline: 3px solid #987544;
+  outline-offset: 4px;
+}
+
+#dl-blueprint {
+  position: fixed;
+  inset: 0;
+  display: none;
+  width: min(1280px, calc(100vw - 40px));
+  height: min(900px, calc(100dvh - 40px));
+  max-width: none;
+  max-height: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #d9d4ca;
+  border-radius: 10px;
+  background: #fffdf8;
+  color: #2b302b;
+  font: 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  text-align: left;
+}
+
+#dl-blueprint[open] {
+  display: flex;
+  flex-direction: column;
+}
+
+#dl-blueprint::backdrop {
+  background: #141a14b3;
+}
+
+#dl-blueprint .dl-blueprint-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 0;
+  padding: 16px 22px;
+  border-bottom: 1px solid #d9d4ca;
+}
+
+#dl-blueprint h2 {
+  margin: 0;
+  padding: 0;
+  color: #2b302b;
+  font: 500 24px/1.2 Georgia, "Times New Roman", serif;
+  letter-spacing: normal;
+}
+
+#dl-blueprint button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 8px 12px;
+  border: 1px solid #d9d4ca;
+  border-radius: 5px;
+  background: #f5f2ec;
+  color: #2b302b;
+  font: 13px/1.3 system-ui, sans-serif;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+#dl-blueprint .dl-blueprint-tools {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  margin: 0;
+  padding: 12px 22px;
+  border-bottom: 1px solid #d9d4ca;
+  font-size: 12px;
+}
+
+#dl-blueprint .dl-blueprint-tools p {
+  margin: 0 auto 0 0;
+  padding: 0;
+  color: #626c62;
+  font: inherit;
+}
+
+#dl-blueprint .dl-blueprint-tools a {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #3e5645;
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+#dl-blueprint .dl-blueprint-plan-picker {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 22px;
+  border-bottom: 1px solid #d9d4ca;
+}
+
+#dl-blueprint .dl-blueprint-plan-picker button {
+  font-size: 12px;
+}
+
+#dl-blueprint .dl-blueprint-plan-picker button[aria-pressed="true"] {
+  border-color: #3e5645;
+  background: #3e5645;
+  color: #fffdf8;
+}
+
+#dl-blueprint .dl-blueprint-plan-picker a {
+  margin-left: auto;
+  padding: 4px 0;
+  border: 0;
+  color: #3e5645;
+  font: 12px/1.5 system-ui, sans-serif;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+#dl-blueprint .dl-blueprint-plan-viewport {
+  display: block;
+  flex: 1;
+  width: 100%;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  margin: 0;
+  padding: 18px;
+  border: 0;
+  border-radius: 0;
+  background: #e9e5dc;
+}
+
+#dl-blueprint #dl-blueprint-image {
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  max-height: none;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: white;
+  object-fit: contain;
+}
+
+@media (max-width: 920px) {
+  #design-library-header .dl-navigation-inner {
+    flex-wrap: wrap;
+    gap: 12px;
+    min-height: 0;
+  }
+
+  #design-library-header .dl-navigation-identity {
+    width: 100%;
+  }
+
+  #design-library-header .dl-primary-navigation {
+    width: 100%;
+    justify-content: flex-end;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 520px) {
+  #design-library-header .dl-navigation-inner {
+    padding: 14px 18px 12px;
+    gap: 10px;
+  }
+
+  #design-library-header .dl-navigation-identity {
+    gap: 14px;
+  }
+
+  #design-library-header .dl-library-title {
+    padding-left: 14px;
+    font-size: 20px;
+  }
+
+  #design-library-header .dl-back-home {
+    font-size: 11px;
+  }
+
+  #design-library-header .dl-primary-navigation {
+    justify-content: space-between;
+    gap: 12px;
+    font-size: 12px;
+  }
+
+  #dl-blueprint {
+    width: calc(100vw - 16px);
+    height: calc(100dvh - 16px);
+  }
+
+  #dl-blueprint .dl-blueprint-heading {
+    padding: 14px;
+    gap: 12px;
+  }
+
+  #dl-blueprint h2 {
+    font-size: 20px;
+  }
+
+  #dl-blueprint .dl-blueprint-tools {
+    padding: 12px 14px;
+    gap: 8px 18px;
+  }
+
+  #dl-blueprint .dl-blueprint-tools p {
+    width: 100%;
+  }
+
+  #dl-blueprint .dl-blueprint-plan-picker {
+    padding: 10px 14px;
+    gap: 6px;
+  }
+
+  #dl-blueprint .dl-blueprint-plan-picker button {
+    padding: 8px 10px;
+    font-size: 11px;
+  }
+
+  #dl-blueprint .dl-blueprint-plan-viewport {
+    padding: 8px;
+  }
+}
+
+@media print {
+  #design-library-header,
+  #design-library-context,
+  #dl-blueprint {
+    display: none !important;
+  }
+}

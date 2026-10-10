@@ -2,6 +2,7 @@
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import RedesignVideos from './RedesignVideos.vue'
 import DaylightBuildGuide from './DaylightBuildGuide.vue'
+import DesignLibraryHeader from './DesignLibraryHeader.vue'
 import daylightGuide from '../daylight-build.json'
 import {
   FIRST_FLOOR_COSTS,
@@ -106,6 +107,7 @@ function closeLightbox() {
 
 function onKey(event: KeyboardEvent) {
   if (!props.open) return
+  if (document.querySelector<HTMLDialogElement>('#dl-blueprint')?.open) return
   if (event.key === 'Escape') {
     event.preventDefault()
     if (lightboxIndex.value !== null) closeLightbox()
@@ -129,6 +131,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
 <Teleport to="body">
   <Transition name="fade">
     <div v-if="open" class="redesigns-page">
+      <DesignLibraryHeader />
       <header class="redesigns-header glass">
         <div>
           <p class="eyebrow">708 · Design sketchbook</p>
@@ -137,7 +140,6 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
         <div class="segmented floor-picker" role="tablist" aria-label="Floor">
           <button v-for="entry in FLOORS" :key="entry.key" role="tab" :aria-selected="floor === entry.key" :class="{ active: floor === entry.key }" @click="floor = entry.key">{{ entry.label }}</button>
         </div>
-        <a class="library-back" href="./renders.html">← Design options</a>
       </header>
 
       <div class="redesigns-body">
@@ -260,7 +262,6 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
 </template>
 
 <style scoped>
-.library-back { font-size: 12px; white-space: nowrap; color: var(--walnut); text-underline-offset: 4px; }
 .exploration-intro { padding: 18px 20px; margin: 5px 0 20px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); font-size: 13px; line-height: 1.6; }
 .exploration-intro p { margin: 7px 0 0; max-width: 1000px; }
 .exploration-intro a { color: var(--walnut); }
