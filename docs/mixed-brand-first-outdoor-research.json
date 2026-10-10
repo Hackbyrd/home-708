@@ -1,0 +1,1010 @@
+{
+  "checkedAt": "2026-10-09",
+  "destinationZip": "20878",
+  "option": "Mineral & Walnut Option 1 — separate mixed-brand research; RH-only original preserved",
+  "researchScope": [
+    "https://rh.com/us/en/catalog/product/product.jsp/prod14020057",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod14020067",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod16940016",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod16940017",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod1871162",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod22320022?inStock=true",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod30120035",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod31700075",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod33440091",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod33750094",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod6371041",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+    "https://store.haworth.com/products/soji-mesh-office-chair",
+    "https://www.arhaus.com/collections/mihaela-collection/products/mihaela-executive-desk",
+    "https://www.arhaus.com/products/hemmings-nesting-coffee-table",
+    "https://www.arhaus.com/products/rhys-table-lamp-in-antique-nickel?variant=45037851017387",
+    "https://www.crateandbarrel.co.cr/products/tate-walnut-lateral-file-cabinet",
+    "https://www.crateandbarrel.com/amaryllis-small-white-ceramic-table-lamp-24.5/s171750",
+    "https://www.crateandbarrel.com/avenue-black-c-table/s447905",
+    "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-soap-dispenser-with-black-pump/s683578",
+    "https://www.crateandbarrel.com/clybourn-walnut-executive-desk/s544673",
+    "https://www.crateandbarrel.com/haworth-soji-mesh-and-upholstered-office-chair/s424700",
+    "https://www.crateandbarrel.com/haworth-soji-upholstered-stone-and-mesh-office-chair/s424746",
+    "https://www.crateandbarrel.com/lounge-105-grande-sofa/s519752?oc=1%2C401",
+    "https://www.crateandbarrel.com/morris-72-chocolate-brown-executive-desk/s326996",
+    "https://www.crateandbarrel.com/retreat-103-grande-sofa/s105517",
+    "https://www.crateandbarrel.com/retreat-94-sofa/s165846?oc=1%2C413",
+    "https://www.crateandbarrel.com/tate-walnut-lateral-file-cabinet/s115233",
+    "https://www.potterybarn.com/products/2022142/",
+    "https://www.potterybarn.com/products/3472766/",
+    "https://www.potterybarn.com/products/bistro-pedestal-dining-table/",
+    "https://www.potterybarn.com/products/malibu-teak-coffee-table-20/",
+    "https://www.potterybarn.com/products/malibu-teak-grand-sofa/"
+  ],
+  "method": "Official retailer product pages/catalogs plus exact live RH checks already preserved in the RH-only stock overlay. Parent/root agent independently verified selected current C&B pages to 20878. This file distinguishes live stock proof from prices or stale indexed orderability.",
+  "pricePolicy": "USD before tax, delivery, assembly and RH membership. A member sale amount applies only to the specified RH configuration. Null price means no honest current complete quote; do not calculate from a family starting price.",
+  "timingNote": "Research snapshot October 9, 2026. House possession November 3, 2026; move-in April 1, 2027. Furniture is phased after construction. No orders, carts or deliveries were booked.",
+  "rooms": [
+    {
+      "id": "entry",
+      "designSummary": "Keep light ivory clear-glass doors, the central arch, bare oak stairs and the two-floor cascade chandelier. Add one quiet ceramic lamp on a very compact back-left table.",
+      "comparisonToRh": "A $149 ceramic lamp is a stronger value direction than a larger RH lamp once current inventory is confirmed; no oversized foyer table is substituted to chase a sale.",
+      "products": [
+        {
+          "id": "entry-cb-amaryllis",
+          "brand": "Crate & Barrel",
+          "name": "Amaryllis Small White Ceramic Table Lamp 24.5 inches",
+          "url": "https://www.crateandbarrel.com/amaryllis-small-white-ceramic-table-lamp-24.5/s171750",
+          "role": "Entry accent lamp",
+          "quantity": 1,
+          "finish": "White glazed ceramic with included white linen drum shade",
+          "dimensions": "24.5-inch listed height; exact shade diameter must be checked",
+          "unitPrice": {
+            "low": 149,
+            "high": 149,
+            "kind": "full_price",
+            "note": "Current official product-page price; shade included, bulb separate."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Root live browser check: $149 and orderable with Arrives Nov 3 to ZIP 20878. No explicit in-stock / ready-to-ship statement appeared, so this remains unverified.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Arrives Nov 3 shown for 20878; this is an order estimate, not a booked delivery.",
+            "sourceUrl": "https://www.crateandbarrel.com/amaryllis-small-white-ceramic-table-lamp-24.5/s171750",
+            "method": "Live official product page checked by root agent, October 9; stock label not exposed",
+            "configuration": {
+              "sku": "171750",
+              "size": "24.5 inches",
+              "color": "White"
+            }
+          },
+          "reason": "Warm ceramic and a linen shade suit Mineral & Walnut without chrome, and the price is substantially lower than premium lighting.",
+          "fitNotes": "Measure shade diameter on the selected 20–24-inch round table. E 26/A 19 LED bulb is separate; lamp must remain subordinate to the cascade chandelier.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [
+            "Anja Teardrop Table Lamp"
+          ]
+        },
+        {
+          "id": "entry-rh-anja-complete",
+          "brand": "RH",
+          "name": "Anja Teardrop Lamp — stocked Grey Terracotta",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod31700075",
+          "role": "Compact entry accent lamp",
+          "quantity": 1,
+          "finish": "Grey Terracotta",
+          "dimensions": "RH lists 29-inch overall lamp height; shade E is 18-inch diameter × 10-inch high.",
+          "unitPrice": null,
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Lamp body only; compatible shade sold separately. RH stock modal also shows Beige Terracotta under SKU 10185421 NATL for the same delivery date. Both lamp body and matching shade were checked in stock, delivery by October 15. Shade is sold separately; quoted lamp pricing is not a complete lamp-and-shade total.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Delivery by 10/15/26 to 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod31700075",
+            "method": "Live official RH configuration check preserved in docs/mineral-walnut-rh-stock.json; no cart or order submitted",
+            "configuration": {
+              "size": "29 in overall listed height",
+              "finish": "Grey Terracotta",
+              "sku": "10185421 BLK",
+              "separatelySoldShade": {
+                "size": "E / 18-inch diameter ×10-inch H",
+                "fabric": "White Linen / Frosted Lining",
+                "sku": "68600071 MWHT",
+                "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod1871162"
+              }
+            }
+          },
+          "reason": "Keeps the original quiet ceramic lamp. Shade sold separately; use the checked size-E French Drum shade and confirm the 18-inch shade clears the compact table.",
+          "fitNotes": "Use only on a stable measured 20–24-inch round table in the back-left stair-hall footprint. The 18-inch shade must clear the wall and path. The double-height cascade chandelier remains the main feature; the lamp and shade are separate SKUs.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Anja Teardrop Table Lamp"
+          ],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod31700075_E23721557118_F_rebg_RHR?",
+          "imageNote": "Official RH catalog reference photo; the exact checked finish and configuration are specified separately. Confirm physical samples before ordering.",
+          "priceNote": "Both body and size-E shade were verified stocked. The inherited stock record does not retain a complete body-plus-shade price; do not budget a lamp-body-only amount as a complete lamp."
+        },
+        {
+          "id": "entry-arhaus-rhys-brass",
+          "brand": "Arhaus",
+          "name": "Rhys Table Lamp — Brass",
+          "url": "https://www.arhaus.com/products/rhys-table-lamp-in-antique-nickel?variant=45037851017387",
+          "role": "Optional entry lamp comparison",
+          "quantity": 1,
+          "finish": "Brass frame with white linen rectangular shade",
+          "dimensions": "18 W × 8 D × 26.5 H inches; validate exact dimensions live",
+          "unitPrice": {
+            "low": 400,
+            "high": 400,
+            "kind": "full_price",
+            "note": "Refreshed official page crawled today shows BRASS $400. Earlier indexed $280 sale is stale and is not used."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Refreshed official page shows BRASS $400 but no inventory statement or ZIP 20878 delivery. Conflicting earlier indexed stock dates are not accepted.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": null,
+            "sourceUrl": "https://www.arhaus.com/products/rhys-table-lamp-in-antique-nickel?variant=45037851017387",
+            "method": "Official retailer page via web tool; not a live delivery configurator",
+            "configuration": {
+              "finish": "BRASS",
+              "variant": "45037851017387",
+              "historicalSku": "663507L171KT"
+            }
+          },
+          "reason": "A restrained rectangular shade and warm metal provide a different silhouette; this is a comparison candidate, not a value winner at the current full price.",
+          "fitNotes": "Do not infer antique nickel from the URL slug: selected variant is BRASS. Prefer the ceramic lamp if it is confirmed stocked. Do not add prominent metallic decoration to the entry.",
+          "phase": "optional",
+          "decision": "alternative",
+          "replaces": [
+            "Anja Teardrop Table Lamp"
+          ]
+        }
+      ],
+      "supportingPlan": "Field measure a stable 20–24-inch round table, approximately 28–30 inches high, with a warm walnut or coordinated veneer finish. Current PB Natural Walnut bistro options do not offer that small size; keep compact table sourcing/custom fabrication separate. Preserve door swings and the path to the stairs; no drapes at this entry.",
+      "purchaseNotes": [
+        "Stock and delivery must be rechecked after the table is selected. October arrival dates precede Nov 3 possession and must not be treated as delivery bookings."
+      ]
+    },
+    {
+      "id": "office",
+      "designSummary": "The worker sits southeast facing northwest at a substantial rectangular desk. The entire north wall remains custom walnut TV/library joinery with soundbar; art and a small printer cabinet sit immediately right of the entry.",
+      "comparisonToRh": "Keep the custom architecture and choose retail furniture by function. Morris saves $956 versus the checked RH Alora member sale, but its reclaimed pine and leather surface are a deliberate material/style substitution, not walnut.",
+      "products": [
+        {
+          "id": "office-cb-morris72",
+          "brand": "Crate & Barrel",
+          "name": "Morris 72-inch Chocolate Brown Executive Desk",
+          "url": "https://www.crateandbarrel.com/morris-72-chocolate-brown-executive-desk/s326996",
+          "role": "Large working desk",
+          "quantity": 1,
+          "finish": "Chocolate brown reclaimed pine, black leather inset top, antique brass hardware",
+          "dimensions": "72-inch width; exact depth, height and packaged dimensions must be verified",
+          "unitPrice": {
+            "low": 2149,
+            "high": 2149,
+            "kind": "full_price",
+            "note": "Exact current full price; no sale discount was shown."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Root live official browser: In stock. Ready to schedule delivery. ZIP 20878.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready to schedule delivery to ZIP 20878; date was not booked.",
+            "sourceUrl": "https://www.crateandbarrel.com/morris-72-chocolate-brown-executive-desk/s326996",
+            "method": "Live official product page and destination check by root agent, October 9",
+            "configuration": {
+              "sku": "326996",
+              "size": "72 inches",
+              "finish": "Chocolate Brown"
+            }
+          },
+          "reason": "A full-size executive desk with storage at a lower price than the verified RH desk. Its dark warm finish can work beside mineral walls if the actual pine grain is acceptable.",
+          "fitNotes": "Alternative material is FSC reclaimed pine, not walnut. Tape out the desk southeast facing northwest, chair pullback and two visitor seats. Width is below the 84-inch maximum; depth remains a mandatory fit check.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [
+            "Gael Walnut Desk"
+          ]
+        },
+        {
+          "id": "office-rh-alora84",
+          "brand": "RH",
+          "name": "Alora Desk — stocked 84-inch Brown Oak",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33440091",
+          "role": "Modern working desk",
+          "quantity": 1,
+          "finish": "Brown Oak; match sample to the room's walnut build-out",
+          "dimensions": "84 W × 32 D × 30 H inches. Four inches wider and four inches shallower than the original 80 × 36 planning target; tape out the diagonal position.",
+          "unitPrice": {
+            "low": 3105,
+            "high": 3105,
+            "kind": "member_sale",
+            "note": "Exact RH member sale price; regular price $5,180. RH membership, tax, delivery and assembly are additional."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact size and wood finish in current RH IN-STOCK modal. Brown Oak is an alternative wood species, not walnut. Approve its warm brown sample beside the custom walnut cabinetry. No chrome or stainless accents added.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod33440091",
+            "method": "Live official RH configuration check preserved in docs/mineral-walnut-rh-stock.json; no cart or order submitted",
+            "configuration": {
+              "size": "84 W ×32 D ×30 H inches",
+              "finish": "Brown Oak",
+              "sku": "10193750 BRWN"
+            }
+          },
+          "reason": "Rounded waterfall edges and restrained wood reeding give the office a substantial desk without adding metallic trim. Keep the chair in the southeast facing northwest; confirm the chair pullback, visitor seats and route to the door. This wood species change is optional, and the original walnut desk stays saved.",
+          "fitNotes": "84 W × 32 D × 30 H is the maximum proposed width. Tape out the southeast diagonal position, chair pullback and visitors. Brown oak is a visible species change; compare it to the custom walnut rather than claiming an exact match.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Gael Walnut Desk"
+          ],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod33440092_E24422611796_F_CC_RHR_cl1968002?&$PDP-IS-768$",
+          "imageNote": "Official RH catalog reference photo; the exact checked finish and configuration are specified separately. Confirm physical samples before ordering."
+        },
+        {
+          "id": "office-cb-soji-stone",
+          "brand": "Crate & Barrel",
+          "name": "Haworth Soji Mesh and Upholstered Office Chair — Stone",
+          "url": "https://www.crateandbarrel.com/haworth-soji-upholstered-stone-and-mesh-office-chair/s424746",
+          "role": "Ergonomic working chair",
+          "quantity": 1,
+          "finish": "Stone mesh and upholstered seat",
+          "dimensions": "Manufacturer standard Soji envelope 28 W × 27 D × 39–44 H inches; verify this retailer configuration",
+          "unitPrice": {
+            "low": 685,
+            "high": 685,
+            "kind": "full_price",
+            "note": "Official Stone configuration listed $685; current live stock pending. Clay $575 is no longer available and is excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Root live official browser: exact Stone SKU 424746 at$685 is orderable and Ships directly from vendor, with an arrival date shown forZIP 20878. There is no explicit in-stock label, so status remains unverified.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Retailer displayed Thu, Oct 21 for 20878;October 21, 2026 isWednesday. Confirm the date and stock with the vendor before purchase; no delivery was booked.",
+            "sourceUrl": "https://www.crateandbarrel.com/haworth-soji-upholstered-stone-and-mesh-office-chair/s424746",
+            "method": "Live official exact configuration and destination checked by root agent, October 9;stock label absent.",
+            "configuration": {
+              "sku": "424746",
+              "color": "Stone"
+            }
+          },
+          "reason": "Put value into ergonomics for the main working seat rather than purchasing another upholstered dining chair for all-day desk work.",
+          "fitNotes": "Standard Soji manufacturer dimensions come from https://store.haworth.com/products/soji-mesh-office-chair . Retail hard casters are designed for carpet/rugs; confirm manufacturer-compatible floor protection or soft casters for the oak floor. Exact dimensions and caster configuration remain to check.",
+          "phase": "move-in",
+          "decision": "alternative",
+          "replaces": []
+        },
+        {
+          "id": "office-rh-nicola-visitors",
+          "brand": "RH",
+          "name": "Nicola Slope Fabric Dining Side Chair — stocked Natural",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33750094",
+          "role": "Two tailored visitor chairs",
+          "quantity": 2,
+          "finish": "Natural Performance Linen Weave; fully upholstered frame and legs",
+          "dimensions": "22 W × 23 D × 32.75 H inches;seat crown 18 H",
+          "unitPrice": {
+            "low": 349,
+            "high": 349,
+            "kind": "member_sale",
+            "note": "Exact RH member sale;regular $590. Membership, tax, delivery and assembly are additional."
+          },
+          "availability": {
+            "status": "in_stock",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "evidence": "Exact neutral variant appears in RH IN-STOCK modal; full requested quantities must be rechecked before ordering. Stocked configuration verified for one unit. Combined 18-chair requirement has not been verified; formal dining uses eight daily plus two spares.",
+            "delivery": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod33750094",
+            "method": "Live RH exact dining-height chair stock configuration preserved in docs/mineral-walnut-rh-stock.json.",
+            "configuration": {
+              "fabric": "Performance Linen Weave",
+              "color": "Natural",
+              "sku": "10179035 NONA",
+              "stockedSibling": {
+                "color": "Sand",
+                "sku": "10179035 NOSN",
+                "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878."
+              }
+            }
+          },
+          "reason": "Slim armless tailored warm-ivory visitor chairs soften the mineral/walnut office. This is the dining-height chair, not the separate counter stool.",
+          "fitNotes": "Each 22 W × 23 D × 32.75 H; seat crown 18 H. One Natural SKU was checked in stock; the planned pair and any combined dining/sunroom quantity must be reconfirmed. Keep both clear of desk pullback, glazing and the gallery doors.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Enzo Fabric Dining Side Chair"
+          ],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod33750094_E24622750076_TQ_RHR?",
+          "imageNote": "RH catalogue reference photo; the verified stock configuration is specified separately. Confirm the actual upholstery swatch before ordering."
+        }
+      ],
+      "supportingPlan": "Keep the entire north wall as custom walnut TV/library cabinetry. Provide power/data and soundbar provision before closing walls. Printer cabinet remains a small custom shallow piece to the right of the door: provisional 30 W × 15 D must be field measured against the printer and open doors. Sheers plus hidden privacy shades; no bedroom-style blackout curtains.",
+      "purchaseNotes": [
+        "C&B Tate file cabinet SKU 115233 measures 36 W × 17 D × 30.75 H in the official regional specification, so it is too wide/deep for the provisional printer gap and is not selected.",
+        "Do not move the desk or replace the north-wall build-out to accommodate a sale item. Desk finish samples must stay warm and coordinated with Option 1.",
+        "Price furniture separately from the fixed joinery contract; original RH-only picks remain unchanged."
+      ]
+    },
+    {
+      "id": "media",
+      "designSummary": "Keep the 83-inch TV dominant against a quiet mineral/charcoal backing with dimmable halo, a long ventilated custom console, clear paired west-wall doors, shallow anime display shelves and surround sound.",
+      "comparisonToRh": "Keep RH Cloud 119 as the approved larger movie sofa because it is verified stocked. The C&B Retreat 94 is a stocked lower-cost fallback, but it is materially shorter; the lounge experience and actual seating capacity must be approved instead of silently reducing the brief.",
+      "products": [
+        {
+          "id": "media-rh-cloud119",
+          "brand": "RH",
+          "name": "Cloud Modular 3-Piece Sofa — stocked Natural / Classic",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+          "role": "Main theater sofa",
+          "quantity": 1,
+          "finish": "Natural Performance Linen Weave",
+          "dimensions": "Classic 3-piece:119 W × 40 D × 32 H inches. Current RH Dimensions verified. Keep a straight sofa and protect rear circulation in the media room.",
+          "unitPrice": {
+            "low": 5255,
+            "high": 5255,
+            "kind": "member_sale",
+            "note": "Exact RH member sale price; regular price $8,845. RH membership, tax, delivery and assembly are additional."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact variant shown in RH IN-STOCK modal. Availability is a dated snapshot, not a reservation. The configured SKU was verified in stock. Two sofas across media and loft have not been quantity-checked; confirm the complete module set and combined quantity.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/19/26 and 10/25/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+            "method": "Live official RH configuration check preserved in docs/mineral-walnut-rh-stock.json; no cart or order submitted",
+            "configuration": {
+              "depth": "Classic 40 in",
+              "fabric": "Performance Linen Weave",
+              "color": "Natural",
+              "sku": "M00023014118"
+            }
+          },
+          "reason": "Keeps the approved Cloud silhouette and warm neutral Mineral & Walnut fabric; choose Classic rather than deeper Luxe in the narrow media room.",
+          "fitNotes": "Straight Classic 119 W × 40 D × 32 H on the approximately 133-inch seating wall. Retain clear west-wall doors near the south/TV corner and rear speaker access. This room needs one full three-piece set; combined media/loft quantity was not checked.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Cloud Modular 3-Piece Sofa"
+          ],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod6511684_E1684919_F_RHR?",
+          "imageNote": "RH catalogue reference photo; the verified stock configuration is specified separately. Confirm the actual upholstery swatch before ordering."
+        },
+        {
+          "id": "media-cb-retreat94",
+          "brand": "Crate & Barrel",
+          "name": "Retreat 94-inch Sofa — Serene Ivory / Multi-Cushion",
+          "url": "https://www.crateandbarrel.com/retreat-94-sofa/s165846?oc=1%2C413",
+          "role": "Lower-cost movie sofa comparison",
+          "quantity": 1,
+          "finish": "Serene fabric in Ivory; multi-cushion",
+          "dimensions": "94 W × 44 D × 28.5 H inches",
+          "unitPrice": {
+            "low": 2299,
+            "high": 2299,
+            "kind": "full_price",
+            "note": "Exact current full price verified live; no sale discount shown."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Root live official browser verified In stock. Ready to schedule delivery. Serene Ivory / Multi-Cushion, exact SKU 172631 for ZIP 20878.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready to schedule delivery to 20878; no delivery booking.",
+            "sourceUrl": "https://www.crateandbarrel.com/retreat-94-sofa/s165846?oc=1%2C413",
+            "method": "Live official configuration and destination check by root agent, October 9",
+            "configuration": {
+              "sku": "172631",
+              "size": "94-inch Sofa",
+              "fabric": "Serene",
+              "color": "Ivory",
+              "cushionOptions": "Multi-Cushion"
+            }
+          },
+          "reason": "Saves $2,956 against the checked RH Cloud member sale while keeping a plush low warm-ivory silhouette. Retain it as a transparent budget comparison, not an equivalent 119-inch sofa.",
+          "fitNotes": "25 inches shorter and 4 inches deeper than Cloud 119. Compare usable seat width and viewing/passage depth. The 103-inch Retreat was checked separately and is custom, so its stock cannot be borrowed from the 94.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [
+            "Cloud Modular 3-Piece Sofa"
+          ]
+        },
+        {
+          "id": "media-rh-cloud-ottoman",
+          "brand": "RH",
+          "name": "Cloud Modular End-of-Sectional Ottoman — stocked Classic Natural",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6371041",
+          "role": "Optional movie footrest",
+          "quantity": 1,
+          "finish": "Natural Performance Linen Weave",
+          "dimensions": "39 W × 40 D × 19 H inches; current RH dimensions.",
+          "unitPrice": {
+            "low": 1349,
+            "high": 1349,
+            "kind": "member_sale",
+            "note": "Exact RH member sale price; regular price $2,280. RH membership, tax, delivery and assembly are additional."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact live RH IN-STOCK modal; current Dimensions 39 W × 40 D × 19 H. This modular ottoman is a different product from the original loose Cloud Ottoman. Use independently unless RH confirms the selected module connection.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6371041",
+            "method": "Live official RH configuration check preserved in docs/mineral-walnut-rh-stock.json; no cart or order submitted",
+            "configuration": {
+              "depth": "Classic 40 inches",
+              "fabric": "Performance Linen Weave",
+              "color": "Natural",
+              "sku": "10115450 NONA"
+            }
+          },
+          "reason": "Matches the neutral stocked Cloud sofa fabric. Use one movable ottoman with the straight three-piece sofa; keep the entry and AV circulation clear. This is the modular end ottoman, rather than the original loose Cloud Ottoman.",
+          "fitNotes": "39 W × 40 D × 19 H is large in the 15 ft 1 × 11 ft 1 room. Start with the sofa and add one movable ottoman only after tape-out of door and AV routes. It is a modular end ottoman rather than the original loose Cloud Ottoman; use independently unless RH confirms connection.",
+          "phase": "optional",
+          "decision": "alternative",
+          "replaces": [
+            "Cloud Ottoman"
+          ],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod6371041_E2619922_F_CO19_RHR?src=rhir/obj=Fabric&src=rhir/1808002_E23321146939_Natural_CO25_repeat&res=300&illum=0&obj=Fabric&req=object&illum=0)&wid=461&$PDP-IR-768$",
+          "imageNote": "Official RH catalog reference photo; the exact checked finish and configuration are specified separately. Confirm physical samples before ordering."
+        },
+        {
+          "id": "media-cb-avenue-black",
+          "brand": "Crate & Barrel",
+          "name": "Avenue Black C Table",
+          "url": "https://www.crateandbarrel.com/avenue-black-c-table/s447905",
+          "role": "Small drinks/laptop surface beside the sofa",
+          "quantity": 1,
+          "finish": "Black powder-coated tubular steel",
+          "dimensions": "Exact W/D/H and under-sofa clearance remain to verify",
+          "unitPrice": {
+            "low": 249,
+            "high": 249,
+            "kind": "full_price",
+            "note": "Current official listing price; exact stock remains unverified."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product page reviewed; exact inventory for ZIP 20878 was not exposed.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": null,
+            "sourceUrl": "https://www.crateandbarrel.com/avenue-black-c-table/s447905",
+            "method": "Official retailer page via web tool; not a live delivery configurator",
+            "configuration": {
+              "sku": "447905",
+              "finish": "Black"
+            }
+          },
+          "reason": "A discreet practical black accent costs less than another solid-wood side table and keeps attention on the TV.",
+          "fitNotes": "Do not promise it slides beneath a low Cloud base: verify gap or place beside the sofa. Keep it out of the paired-door route.",
+          "phase": "optional",
+          "decision": "alternative",
+          "replaces": []
+        }
+      ],
+      "supportingPlan": "Retain the approximately 108-inch custom ventilated walnut/charcoal AV console; do not insert a small retail console beneath an 83-inch TV. Install AV power/data, speaker wiring and soundbar provision before finish work. Keep ceiling/rear surrounds and shallow anime shelves right of the doors. Use sheers plus blackout curtains and removable opaque movie door covers. Source a correctly sized neutral rug separately; no unverified rug size/price is copied into this shortlist.",
+      "purchaseNotes": [
+        "C&B Lounge 105 Taft Pearl SKU 519752 was live-checked as custom/made for you, so it is excluded from the stocked recommendations despite indexed stock-category text.",
+        "C&B Retreat 103 Serene Ivory SKU 105517 was live-checked as made just for you with a contact dateDec 4 for 20878; it is not a stocked substitute.",
+        "Keep furniture and electronics for the later phase; AV rough-in and blackout provisions belong in the construction phase."
+      ]
+    },
+    {
+      "id": "gym",
+      "designSummary": "Keep the gym empty with the approved floor, wall mirror, privacy rollers and the quote Surpass your limits. Right here, right now.",
+      "comparisonToRh": "No retail equipment, filler furniture or decorative seating is added to create brand coverage.",
+      "products": [],
+      "supportingPlan": "Specify the mirror through the GC/glazier using field-measured wall coverage and suitable mounting. Keep northwest closet, paired gallery doors, both windows and bath access clear. Lighting and mirror installation are the room scope; equipment follows the owner later.",
+      "purchaseNotes": [
+        "No retail decorative mirror was verified as a suitable stocked gym-wall solution, so none is recommended.",
+        "Do not treat a large leaning mirror as an installed gym mirror. No plants or extra furniture in the requested empty room."
+      ]
+    },
+    {
+      "id": "bath",
+      "designSummary": "Windowless compact first-floor bath with fitted walnut vanity, neutral towels and one washable mat; no loose cabinets.",
+      "comparisonToRh": "Use low-cost functional accessories and put budget into the fitted vanity and wall finish. Do not buy premium furniture for this compact wet room.",
+      "products": [
+        {
+          "id": "bath-cb-ivory-soap",
+          "brand": "Crate & Barrel",
+          "name": "Clean by Crate Ivory Ceramic Soap Dispenser with Black Pump",
+          "url": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-soap-dispenser-with-black-pump/s683578",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/CBCleanIvrCmSoapDspBPmpSSF25?%24web_pdp_main_carousel_thumb_med%24=",
+          "role": "First-floor bath hand-soap dispenser",
+          "quantity": 1,
+          "finish": "Matte Ivory stoneware with black pump",
+          "dimensions": "15-oz capacity; exact countertop footprint remains to check",
+          "unitPrice": {
+            "low": 19.95,
+            "high": 19.95,
+            "kind": "full_price",
+            "note": "Exact current official page price verified October 9;soap contents separate."
+          },
+          "availability": {
+            "status": "ready_to_ship",
+            "evidence": "Root live official page for exact Ivory SKU 683578 returns shipping arrivalOctober 14–16 to 20878. Three units also showed physical pickup atStanford, which is not Maryland inventory. Ready-to-ship status follows the current destination shipping quote, not an explicit explicit in-stock statement.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Shipping quote:arrivesOctober 14–16 for 20878;no order or delivery booked.",
+            "sourceUrl": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-soap-dispenser-with-black-pump/s683578",
+            "method": "Live exact configuration and destination check by root agent; web page refreshed today separately confirms name, $19.95, Ivory andSKU 683578.",
+            "configuration": {
+              "sku": "683578",
+              "color": "Ivory",
+              "type": "Soap Dispenser"
+            }
+          },
+          "reason": "An inexpensive ceramic everyday accessory repeats the warm mineral/ivory surface and small black accents of Option 1.",
+          "fitNotes": "Use one on the fitted first-floor vanity;keep tap and handwashing area clear. Do not add the separate tray/brush/set components automatically.",
+          "phase": "move-in",
+          "decision": "recommended",
+          "replaces": []
+        },
+        {
+          "id": "bath-pb-hydrocotton-hand",
+          "brand": "Pottery Barn",
+          "name": "Hydrocotton Organic Quick-Dry Hand Towel — White",
+          "url": "https://www.potterybarn.com/products/3472766/",
+          "role": "Hand towels",
+          "quantity": 2,
+          "finish": "White organic Turkish cotton",
+          "dimensions": "20 W × 30 L inches;550 gsm",
+          "unitPrice": null,
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official numeric product page identified White Hand Towel SKU 3472766. Direct fresh page read was unavailable. Older indexed $24.50 and shipping to another ZIP are not accepted as a current exact quote or 20878 stock.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": null,
+            "sourceUrl": "https://www.potterybarn.com/products/3472766/",
+            "method": "Official retailer page via web tool; not a live delivery configurator",
+            "configuration": {
+              "sku": "3472766",
+              "size": "Hand Towel20×30",
+              "color": "White"
+            }
+          },
+          "reason": "White quick-dry cotton coordinates with the quiet stone and walnut finish and is a practical value purchase.",
+          "fitNotes": "Plan two hand towels, subject to exact quantity stock. Plain white rather than colored bedroom accents. Current price and 20878 delivery must be checked before this enters the buy list.",
+          "phase": "move-in",
+          "decision": "alternative",
+          "replaces": []
+        },
+        {
+          "id": "bath-pb-loop-mat",
+          "brand": "Pottery Barn",
+          "name": "Classic Organic Loop Bath Mat — White 17 × 24",
+          "url": "https://www.potterybarn.com/products/2022142/",
+          "role": "Washable bathroom mat",
+          "quantity": 1,
+          "finish": "White organic cotton",
+          "dimensions": "17 W × 24 L inches; listed 1-inch pile",
+          "unitPrice": null,
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product result identified White 17 × 24 and SKU 7240213. Current exact price and 20878 inventory were not exposed; generic $32.50–54.50 family range is not treated as an exact quote.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": null,
+            "sourceUrl": "https://www.potterybarn.com/products/2022142/",
+            "method": "Official retailer page via web tool; not a live delivery configurator",
+            "configuration": {
+              "sku": "7240213",
+              "size": "17×24 inches",
+              "color": "White"
+            }
+          },
+          "reason": "A small washable white cotton mat is preferable to a decorative room rug in a compact bath.",
+          "fitNotes": "Verify door sweep and mat pile height. Do not use older other-ZIP delivery dates as stock proof.",
+          "phase": "move-in",
+          "decision": "alternative",
+          "replaces": []
+        }
+      ],
+      "supportingPlan": "Field measure the fitted vanity and bath openings. Keep the rest of the essential bathroom accessory package simple and purchase only currently stocked neutral towels/mat/hooks once verified.",
+      "purchaseNotes": [
+        "These two exact configurations remain pending; they are not counted as stocked purchases or priced from stale indexed evidence.",
+        "Budget for bathroom essentials within the shared move-in furniture/accessory allowance rather than as premium room furnishing."
+      ]
+    },
+    {
+      "id": "stair2",
+      "designSummary": "Bare oak stair treads, warm-white risers and dark rails; correct quarter-turn curved section, half-floor landing and straight flight.",
+      "comparisonToRh": "No furniture and no rug runner are added to the staircase.",
+      "products": [],
+      "supportingPlan": "Retain the existing neutral framed-art/picture-light direction only if it does not obstruct the stair. Lighting rough-in belongs in the construction scope. No runner, tread mats, stair rods or furniture on the landing.",
+      "purchaseNotes": [
+        "No new retail product is necessary for this location; the owner explicitly removed stair runners."
+      ]
+    },
+    {
+      "id": "terrace",
+      "designSummary": "Natural teak and ivory weather-resistant cushions continue the warm interior palette outdoors. Preserve pergola/posts/rails, fireplace, glazing, doors, stair opening and separate lounge/dining/sun zones.",
+      "comparisonToRh": "The selected stocked RH terrace furniture totals $20,823 at the checked member sale prices before tax, delivery, assembly and membership. The optional chaise pair adds $4,410, bringing the full scheme to $25,233. This remains a premium stocked solution, all purchased in a later phase. The PB 45-inch teak coffee table at $899 is a promising cheaper, better-scaled substitute, and the PB 97-inch sofa may save money after a complete neutral cushion quote; both remain pending exact stock confirmation. A frame-only price is never presented as a usable sofa total.",
+      "products": [
+        {
+          "id": "terrace-pb-malibu97",
+          "brand": "Pottery Barn",
+          "name": "Malibu Teak Grand Outdoor Sofa 97 inches",
+          "url": "https://www.potterybarn.com/products/malibu-teak-grand-sofa/",
+          "role": "Outdoor lounge sofa comparison",
+          "quantity": 1,
+          "finish": "Natural teak; proposed High Performance Canvas Natural or Heathered Canvas Ivory cushions, exact configuration pending",
+          "dimensions": "97-inch listed sofa width; depth/height must be verified",
+          "unitPrice": null,
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official current family lists sofa frame $2,399 and separately priced cushion components. No exact neutral frame-plus-cushions configuration/ZIP 20878 stock was verified.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": null,
+            "sourceUrl": "https://www.potterybarn.com/products/malibu-teak-grand-sofa/",
+            "method": "Official retailer page via web tool; not a live delivery configurator",
+            "configuration": {
+              "size": "97-inch Grand Sofa",
+              "frame": "Natural Teak",
+              "cushions": "Neutral performance cushion configuration not yet selected"
+            }
+          },
+          "reason": "A somewhat smaller warm-teak sofa can reduce cost and improve route clearance if the complete neutral cushion package proves stocked.",
+          "fitNotes": "Do not quote the$1,259–2,399 component range as a finished sofa total. Keep the 97-inch frame size explicit. Field check terrace routes, fireplace clearance and delivery access.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [
+            "Mesa Teak Sofa"
+          ]
+        },
+        {
+          "id": "terrace-pb-malibu45-coffee",
+          "brand": "Pottery Barn",
+          "name": "Malibu Teak Rectangular Outdoor Coffee Table 45 inches",
+          "url": "https://www.potterybarn.com/products/malibu-teak-coffee-table-20/",
+          "role": "Outdoor lounge coffee table",
+          "quantity": 1,
+          "finish": "Natural unfinished teak with light toner",
+          "dimensions": "45 L × 28 W × 18 H inches;40 lb; listed weight capacity 70 lb",
+          "unitPrice": {
+            "low": 899,
+            "high": 899,
+            "kind": "full_price",
+            "note": "Official product page refreshed October 9 shows$899. Not currently marked as a sale."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product page shows 45-inch teak table $899; SKU 8590306 identified in the official specification. Stock label /20878 delivery was not exposed.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": null,
+            "sourceUrl": "https://www.potterybarn.com/products/malibu-teak-coffee-table-20/",
+            "method": "Official retailer page via web tool; not a live delivery configurator",
+            "configuration": {
+              "sku": "8590306",
+              "size": "45 inches",
+              "finish": "Natural Teak"
+            }
+          },
+          "reason": "A$1,726 saving versus the stocked RH 60-inch coffee table and a closer match to the original 48-inch target. Natural teak can coordinate with either neutral sofa.",
+          "fitNotes": "Tape out 18-inch height beside the chosen low sofa and protect door/stair/fireplace routes. Teak will patina; cushions, covers and storage are separate purchases.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [
+            "Mesa Teak Rectangular Coffee Table"
+          ],
+          "imageUrl": "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202624/0055/malibu-teak-rectangular-outdoor-coffee-table-45-j.jpg"
+        },
+        {
+          "id": "terrace-rh-mesa108-sofa",
+          "brand": "RH",
+          "name": "Mesa Teak Sofa — stocked 108-inch configuration",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22320022?inStock=true",
+          "role": "Stocked outdoor lounge sofa",
+          "quantity": 1,
+          "finish": "Natural Teak with White Classic Performance Textured Weave cushions",
+          "dimensions": "108 W x 35.5 D x 30 H with cushions",
+          "unitPrice": {
+            "low": 4835,
+            "high": 4835,
+            "kind": "member_sale",
+            "note": "Exact RH member sale price; regular price $8,065. RH membership, tax, delivery and assembly are additional."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact frame-plus-cushion combination in officialRH IN-STOCK modal. Neutral cushions are part of this configuredSKU, not inferred from generic stocked-fabric marketing.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/27/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320022?inStock=true",
+            "method": "Live official RH configuration check preserved in docs/mineral-walnut-rh-stock.json; no cart or order submitted",
+            "configuration": {
+              "width": "108 inches",
+              "finish": "Natural Teak",
+              "fabric": "Classic Performance Textured Weave",
+              "color": "White",
+              "sku": "10272455 OWWH",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "Same sculptural collection and warm palette as original terrace concept. It is 18 inches longer than the proposed 90-inch sofa; approve tape-out for lounge route, fireplace setback and two chairs before using this size. Preserve original 90-inch recommendation for later.",
+          "fitNotes": "Exact frame plus White cushions is stocked, but 108 inches is 18 inches longer than the original 90-inch target. Tape out the 17 ft 3 × 17 ft 1 lounge area with chairs, fireplace setbacks and door/stair circulation. This is a premium fallback while a cheaper complete sofa is checked. Conditional size recommendation only: approve the 18-inch enlargement by field tape-out before ordering; retain smaller original concept if circulation fails.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Mesa Teak Sofa"
+          ],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_SOFA_pg&layer=3&src=ir(rhir/prod22320022_E416043749_F_CO20_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/1936002_E22419600683_O_White1_repeat&res=160&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c19264&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.5&sizeN=0.9559471366,0.8103896104&&$PDP-IR-768$",
+          "imageNote": "Official RH catalog reference photo; the exact checked finish and configuration are specified separately. Confirm physical samples before ordering."
+        },
+        {
+          "id": "terrace-rh-mesa60-coffee",
+          "brand": "RH",
+          "name": "Mesa Teak Rectangular Coffee Table — stocked 60-inch Natural Teak",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod16940016",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=prod22320029_E916044151_F_RHR_cl251482&anchorN=0,0.45&sizeN=0.95,0.45&&$PDP-IS-768$",
+          "imageNote": "Official RH catalogue reference; confirm Natural Teak sample beside chosen seating.",
+          "role": "Stocked outdoor coffee table",
+          "quantity": 1,
+          "finish": "Natural Teak",
+          "dimensions": "60 W × 28.5 D × 12 H inches",
+          "unitPrice": {
+            "low": 2625,
+            "high": 2625,
+            "kind": "member_sale",
+            "note": "Exact RH member sale; regular $4,375. Membership, tax, delivery and assembly are additional."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Live IN-STOCK & READY TO SHIP modal. Current Dimensions: 60 W × 28.5 D × 12 H inches. Exact stock applies to the 60-inch Natural Teak table; the planned 48-inch Natural Teak unit was not listed. 48-inch Weathered Teak SKU 10084663 WGTK was stocked at $2,139/$3,570, but changes the finish.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/27/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940016",
+            "method": "Live official RH IN-STOCK configuration previously preserved in docs/mineral-walnut-rh-stock.json.",
+            "configuration": {
+              "width": "60 inches",
+              "finish": "Natural Teak",
+              "sku": "10008923 TEAK"
+            }
+          },
+          "reason": "Provides a complete currently stocked neutral teak lounge layout with the selected Mesa sofa and Balmain chairs. Keep the smaller cheaper PB 45-inch table as a future stock-verified value comparison.",
+          "fitNotes": "The 60-inch table is 12 inches longer than the original 48-inch target and is lower at 12 H. Tape out sofa, two chairs, door and stair paths; this is a conditional enlargement, not automatic purchase approval.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Mesa Teak Rectangular Coffee Table"
+          ]
+        },
+        {
+          "id": "terrace-rh-mesa72-dining",
+          "brand": "RH",
+          "name": "Mesa Teak Rectangular Dining Table — original 72-inch Natural Teak, stocked",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod16940017",
+          "role": "Six-seat outdoor dining table",
+          "quantity": 1,
+          "finish": "Natural Teak",
+          "dimensions": "72 L × 40 W × 30 H inches; 28.25-inch clearance under top;47.25 inches between the side legs.",
+          "unitPrice": {
+            "low": 4159,
+            "high": 4159,
+            "kind": "member_sale",
+            "note": "Exact RH member sale price; regular price $6,940. RH membership, tax, delivery and assembly are additional."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact configuration in live IN-STOCK & READY TO SHIP modal; current Dimensions:72 L × 40 W × 30 H inches. Space between legs 47.25 inches. This matches the planned table length. Confirm two chairs per long side fit between the bases and that door and grill routes remain clear.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/27/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940017",
+            "method": "Live official RH configuration check preserved in docs/mineral-walnut-rh-stock.json; no cart or order submitted",
+            "configuration": {
+              "width": "72 inches",
+              "finish": "Natural Teak",
+              "sku": "10035595 TEAK"
+            }
+          },
+          "reason": "Keeps the original six-seat outdoor dining direction and warm teak color. Select dining chairs only after checking the base spacing and pullback; do not enlarge the table to match a sale.",
+          "fitNotes": "72 L × 40 W × 30 H in the 12 ft 4 × 12 ft 8 dining zone. Check chair pullback and doors.47.25-inch side opening accommodates two 20-inch Balmain side chairs before spacing. Premium stocked fallback; compare lower-cost complete dining sets before purchase.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Mesa Teak Rectangular Dining Table"
+          ],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=prod22320036_E416044592_MAIN_RS_RHR_cl251482&anchorN=0,0.45&sizeN=0.95,0.65&&$PDP-IS-768$",
+          "imageNote": "Official RH catalog reference photo; the exact checked finish and configuration are specified separately. Confirm physical samples before ordering."
+        },
+        {
+          "id": "terrace-rh-balmain-dining6",
+          "brand": "RH",
+          "name": "Balmain Teak Dining Side Chair — stocked Dove, six checked",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod30120035",
+          "role": "Six armless outdoor dining chairs",
+          "quantity": 6,
+          "finish": "Natural Teak /Dove Perennials Performance Textured Linen Weave",
+          "dimensions": "20 W × 23 D × 32 H inches with cushion; seat height 19.5 inches. Two side chairs occupy 40 inches of the table's 47.25-inch side opening before spacing.",
+          "unitPrice": {
+            "low": 839,
+            "high": 839,
+            "kind": "member_sale",
+            "note": "Exact RH member sale price; regular price $1,405. RH membership, tax, delivery and assembly are additional."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact configuration in live IN-STOCK modal; quantity set to 6 without cart submission, delivery quote returned unchanged. Current Dimensions 20 W × 23 D × 32 H with cushion. Six units were accepted by the stock configurator with the stated delivery window. This is a snapshot, not a reservation. Teak hue and Dove fabric require samples; verify seat height beside Mesa's table.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/27/26 for 20878 at preview quantity 6.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod30120035",
+            "method": "Live official RH configuration check preserved in docs/mineral-walnut-rh-stock.json; no cart or order submitted",
+            "configuration": {
+              "finish": "Natural Teak",
+              "fabric": "Perennials Performance Textured Linen Weave",
+              "color": "Dove",
+              "sku": "10271971 BXDV",
+              "quantityChecked": 6
+            }
+          },
+          "reason": "Slimmer armless chairs give the six-seat Mesa table more breathing room than six Mesa armchairs. The subtle neutral Dove cushion stays within Mineral & Walnut's quiet palette. Compare both teak samples and tape out chairs and pullback.",
+          "fitNotes": "Exact six-unit preview was accepted at the stated delivery window. Each 20 W × 23 D × 32 H with 19.5-inch seat. Unit member sale$839 gives$5,034 for six before fees. This is a premium stocked fallback, not a budget dining set; compare Natural Teak/Dove to the table sample.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Mesa Teak Dining Armchair"
+          ],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=ir(rhir/prod30120035_E23120622656_TQ_CO23_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerennialsTexturedLinenWeave_Dove_repeat&res=236&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c9966a&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.45&sizeN=0.7,0.8&&$PDP-IR-768$",
+          "imageNote": "Official RH catalog reference photo; the exact checked finish and configuration are specified separately. Confirm physical samples before ordering."
+        },
+        {
+          "id": "terrace-rh-balmain-lounge",
+          "brand": "RH",
+          "name": "Balmain Teak Lounge Chair — stocked Natural upholstery",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod14020067",
+          "role": "Outdoor lounge chairs",
+          "quantity": 2,
+          "finish": "Natural Teak /Natural Perennials Performance Textured Linen Weave",
+          "dimensions": "31.5-inch square × 29 H with cushion. Seat height 15.5 inches;37 lb.",
+          "unitPrice": {
+            "low": 2085,
+            "high": 2085,
+            "kind": "member_sale",
+            "note": "Exact RH member sale price; regular price $3,475. RH membership, tax, delivery and assembly are additional."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact frame, fabric and color in live IN-STOCK modal; Dimensions 31.5-inch square × 29 H with cushion;37 lb. Pair quantity not checked. Teak hue can vary between Balmain and Mesa; compare physical samples before mixing collections.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/23/26 and 10/29/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod14020067",
+            "method": "Live official RH configuration check preserved in docs/mineral-walnut-rh-stock.json; no cart or order submitted",
+            "configuration": {
+              "finish": "Natural Teak",
+              "fabric": "Perennials Performance Textured Linen Weave",
+              "color": "Natural",
+              "sku": "10272888 BXNT"
+            }
+          },
+          "reason": "A neutral teak lounge chair in a compact square footprint, with a more upright, tailored form than Mesa. It coordinates with the stocked Balmain chaises while keeping outdoor furniture warm and understated.",
+          "fitNotes": "31.5-inch square × 29 H with cushion. Pair quantity has not been checked. At$2,085 each member sale, these are optional later additions, not initial move-in necessities. Compare teak hue against the selected sofa.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Mesa Teak Lounge Chair"
+          ],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_LOUNGE_CHAIR_pg&layer=3&src=ir(rhir/prod14020067_E410381676_TQ_OD18_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerennialsTexturedLinenWeave_Natural_204_repeat&res=220&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c9966a&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.45&sizeN=0.69,0.75&&$PDP-IR-768$",
+          "imageNote": "Official RH catalog reference photo; the exact checked finish and configuration are specified separately. Confirm physical samples before ordering."
+        },
+        {
+          "id": "terrace-rh-balmain-chaise",
+          "brand": "RH",
+          "name": "Balmain Teak Adjustable Chaise — stocked Natural upholstery",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod14020057",
+          "role": "Optional outdoor chaise pair",
+          "quantity": 2,
+          "finish": "Natural Teak /Natural Perennials Performance Textured Linen Weave",
+          "dimensions": "27.75 W × 79.5 D inches fully reclined;12.5 H at cushion, 31 H at highest back position.",
+          "unitPrice": {
+            "low": 2205,
+            "high": 2205,
+            "kind": "member_sale",
+            "note": "Exact RH member sale price; regular price $3,675. RH membership, tax, delivery and assembly are additional."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact configuration in live IN-STOCK modal. Dimensions:27.75 W × 79.5 D × 12.5 H inches fully reclined with cushion;31 H at highest back setting. Matching two-unit quantity still needs confirmation. Balmain is a different, slimmer collection; approve the teak sample alongside any retained Mesa pieces.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod14020057",
+            "method": "Live official RH configuration check preserved in docs/mineral-walnut-rh-stock.json; no cart or order submitted",
+            "configuration": {
+              "finish": "Natural Teak",
+              "fabric": "Perennials Performance Textured Linen Weave",
+              "color": "Natural",
+              "sku": "10272897 BXNT"
+            }
+          },
+          "reason": "A stocked slim teak chaise that retains the quiet neutral outdoor palette. Check the full reclined length, spacing for the pair, roof door swing and teak color before combining it with Mesa seating.",
+          "fitNotes": "Plan two 27.75 W × 79.5 D fully reclined chaises only if the 12 ft 4 × 9 ft 4 sun-zone route and door swing work. One unit was verified in stock; the pair quantity has not been confirmed. Buy this optional pair later rather than consuming move-in budget.",
+          "phase": "optional",
+          "decision": "alternative",
+          "replaces": [
+            "Mesa Teak Adjustable Chaise"
+          ],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DAYBEDS_CHAISE_pg&layer=3&src=ir(rhir/prod14020057_E210477633_TQ_CC_OD18_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerennialsTexturedLinenWeave_Natural_204_repeat&res=220&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c9966a&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.43&sizeN=0.9,0.75&&$PDP-IR-768$",
+          "imageNote": "Official RH catalog reference photo; the exact checked finish and configuration are specified separately. Confirm physical samples before ordering."
+        }
+      ],
+      "supportingPlan": "Buy outdoor seating after essential indoor rooms. Start with one sofa plus coffee table, add lounge chairs/dining later, and treat a chaise as optional. Use weather-appropriate teak/performance upholstery and charcoal planters, not indoor walnut. Confirm roof load/access/exposure with the existing terrace conditions; protect drainage. Covers and cushion storage are separate line items.",
+      "purchaseNotes": [
+        "Prioritize value: leave the $4,410 chaise pair optional. The $20,823 main terrace selection and all outdoor accessories belong in a later phase, outside the $25,000 whole-house move-in allowance. Recheck the pending cheaper PB substitutes before ordering the premium RH pieces.",
+        "RH sale prices require membership; no discount percentages are inferred from past catalogs. Recheck full quantities and all delivery charges before orders.",
+        "PB sofa price remains unquoted until a complete neutral frame/cushion set is selected and checked stocked. PB coffee table remains a pending alternative, despite its current exact price.",
+        "Do not enlarge furniture to chase stock or sales. All current October estimates precede possession and are snapshots, not reservations."
+      ]
+    }
+  ],
+  "rejectedOrIneligible": [
+    {
+      "name": "PB Restaurant/Rae Bistro 24-inch Natural Walnut",
+      "url": "https://www.potterybarn.com/products/bistro-pedestal-dining-table/",
+      "reason": "Root live page now names Rae Bistro; Natural Walnut has 48-inch round or 54 × 32-inch rectangular options only, at$2,049–3,129. The indexed 24-inch configuration /starting$599 is not currently available and is excluded from the tiny entry."
+    },
+    {
+      "name": "C&B Tate Walnut Lateral File Cabinet",
+      "url": "https://www.crateandbarrel.com/tate-walnut-lateral-file-cabinet/s115233",
+      "specificationUrl": "https://www.crateandbarrel.co.cr/products/tate-walnut-lateral-file-cabinet",
+      "reason": "SKU 115233 measures 36 W × 17 D × 30.75 H; too wide/deep for provisional 30 × 15 printer niche. Regional stock/price is not used forUS stock."
+    },
+    {
+      "name": "C&B Haworth Soji Clay",
+      "url": "https://www.crateandbarrel.com/haworth-soji-mesh-and-upholstered-office-chair/s424700",
+      "reason": "Root live exact ClaySKU 424700 at$575 saysNo Longer Available. It is excluded; Stone 685 remains a separate pending configuration."
+    },
+    {
+      "name": "C&B Lounge 105 Grande Taft Pearl",
+      "url": "https://www.crateandbarrel.com/lounge-105-grande-sofa/s519752?oc=1%2C401",
+      "reason": "Root live exact Taft PearlSKU 519752 isCUSTOM/made just for you, not in stock. Indexed stock labels and$2,166.40 sale do not establish eligible availability."
+    },
+    {
+      "name": "C&B Retreat 103 Grande Serene IvoryMulti",
+      "url": "https://www.crateandbarrel.com/retreat-103-grande-sofa/s105517",
+      "reason": "Root live exactSKU 105517 at$2,499 saysThis item is made just for you, contactDec 4 for 20878. It is not stocked;94-inch sibling stock is not transferred."
+    },
+    {
+      "name": "C&B Clybourn Walnut Executive Desk",
+      "url": "https://www.crateandbarrel.com/clybourn-walnut-executive-desk/s544673",
+      "reason": "Walnut desk uses substantial brushed stainless sled legs/aluminum pulls. Not selected because that metal vocabulary belongs to Option 2 rather than warm Mineral & Walnut."
+    },
+    {
+      "name": "Arhaus Mihaela Executive Desk",
+      "url": "https://www.arhaus.com/collections/mihaela-collection/products/mihaela-executive-desk",
+      "reason": "Current high price and unverified Walnut variant are poor value for this mixed-brand scope; defaultVinRosu stock cannot be transferred toWalnut."
+    },
+    {
+      "name": "Arhaus Hemmings Nesting Coffee Table",
+      "url": "https://www.arhaus.com/products/hemmings-nesting-coffee-table",
+      "reason": "Low nesting coffee-table heights do not meet the approximately 28–30-inch-high entry table brief. Catalog sale text is not live stock proof."
+    }
+  ],
+  "remainingGaps": [
+    "No currently verified 20–24-inch round entry table at 28–30-inch height across the checked retailers; keep separate compact custom/sourcing scope.",
+    "Printer cabinet remains custom; a 36-inch retail file cabinet does not fit the provisional niche.",
+    "Soji Stone is vendor-direct/orderable with an Oct 21 estimate but no exact in-stock label; Clay is unavailable.",
+    "Amaryllis lamp has a 20878 arrival estimate but no explicit stock label; pending, not recommended.",
+    "Cheaper complete outdoor sofa and smaller coffee table remain unverified; no frame-only sofa price is counted.",
+    "Bath essentials need current exact price and 20878 stock checks; older indexed other-ZIP dates are not reused.",
+    "Media stock value compromiseRetreat 94 is smaller than the approved large sofa; any change needs a transparent comfort/capacity comparison."
+  ]
+}

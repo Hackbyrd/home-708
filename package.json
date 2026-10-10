@@ -29,7 +29,8 @@
     "build:interior-guide": "node scripts/build-interior-design-guide.mjs && node scripts/build-house-design-review.mjs && node scripts/build-room-design-book.mjs && node scripts/build-design-library.mjs",
     "build:mineral-budget": "node scripts/build-mineral-budget.mjs",
     "build:move-in-plan": "node scripts/build-mineral-roadmap.mjs",
-    "build:rh-consultation": "node scripts/prepare-rh-house-consultation.mjs && node scripts/sync-rh-furniture-generations.mjs && python3 scripts/build-rh-house-consultation.py"
+    "build:rh-consultation": "node scripts/prepare-rh-house-consultation.mjs && node scripts/sync-rh-furniture-generations.mjs && python3 scripts/build-rh-house-consultation.py",
+    "build:collected-value": "python3 scripts/build-collected-value-consultation.py"
   },
   "engines": {
     "node": ">=22"

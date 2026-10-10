@@ -7,6 +7,8 @@ const read = async file => JSON.parse(await fs.readFile(path.join(root, file), '
 const book = await read('docs/room-design-book.json');
 const preferences = await read('docs/mineral-walnut-furniture-consultation.json');
 const great = await read('docs/mineral-walnut-rh-great-room.json');
+let stock = null;
+try { stock = await read('docs/mineral-walnut-rh-stock.json'); } catch (error) { if (error.code !== 'ENOENT') throw error; }
 let priorHouse = null;
 try { priorHouse = await read('docs/mineral-walnut-rh-house.json'); } catch (error) { if (error.code !== 'ENOENT') throw error; }
 const pieces = [];
@@ -38,11 +40,32 @@ for (const room of Object.values(book.rooms)) {
   }
   entry.products = entry.products.map(product);
   entry.alternatives = entry.alternatives.map(product);
+  if (stock) {
+    const checks = new Map(stock.checks.map(check => [check.originalUrl, check]));
+    for (const candidate of [...entry.products, ...entry.alternatives]) {
+      if (!candidate.url) continue;
+      const check = checks.get(candidate.url);
+      const roomCheck = check?.roomAvailability?.[room.id];
+      candidate.availability = roomCheck ? {
+        checkedAt: check.checkedAt, destinationZip: check.destinationZip,
+        sourceUrl: check.sourceUrl || check.originalUrl, ...roomCheck,
+      } : check || {
+        status: 'unverified', checkedAt: stock.checkedAt, destinationZip: stock.destinationZip,
+        note: 'Exact configuration stock has not been confirmed. Keep this original design suggestion for future review.',
+      };
+    }
+    entry.stockAlternatives = (stock.alternatives || []).filter(candidate => candidate.roomIds.includes(room.id) && candidate.availability?.status === 'in_stock').map(candidate => product({
+      ...candidate, quantity: candidate.quantityByRoom?.[room.id] || candidate.quantity || 1,
+      priceConfigStatus: 'Observed configuration price excludes tax, delivery and extras. Requote before ordering.',
+    }));
+    if (entry.products.length) entry.availabilityReview = { checkedAt: stock.checkedAt, destinationZip: stock.destinationZip, note: stock.roomNotes?.[room.id] || '' };
+  }
   // Preserve previously generated consultation outputs when refreshing research.
   const old = priorHouse?.rooms.find(r => r.id === room.id);
   if (old?.render?.jobId && room.id !== 'great') entry.render = { ...render, ...old.render };
   rooms.push(entry);
 }
 const result = { title: 'Mineral & Walnut · RH room consultations', date: '2026-10-09', status: 'Proposals for room-by-room review; nothing ordered', preferences: preferences.confirmedPreferences || preferences.preferences || [], designConstraints: preferences.designConstraints, researchScope: 'Official RH product pages and accessible collection indexes, selected by room fit and material. This is a curated house-wide shortlist, not a verified inventory of every RH SKU. Exact sizes, finishes, configured prices and delivery routes remain procurement checks.', pricingNote: 'No shopping total is approved. Keep the $25,000 minimum move-in furniture allowance separate from the long-term room schemes. Request exact configured quotes before ordering.', coverage: { roomCount: rooms.length, rhFurnitureStudies: rooms.filter(r => r.render.jobId).length, newImagesThisExpansion: rooms.filter(r => r.render.jobId && r.id !== 'great').length, retainedRoomReferences: rooms.filter(r => !r.render.jobId).length, rhProductPlacements: rooms.reduce((n, r) => n + r.products.length, 0) }, validation: priorHouse?.validation || {}, rooms };
+if (stock) result.availabilityReview = { checkedAt: stock.checkedAt, destinationZip: stock.destinationZip, summary: stock.summary, timingNote: stock.timingNote };
 await fs.writeFile(path.join(root, 'docs/mineral-walnut-rh-house.json'), JSON.stringify(result, null, 2) + '\n');
 console.log(`Prepared ${rooms.length} room consultations; ${pieces.length} researched room fragments.`);

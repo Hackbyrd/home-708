@@ -1,0 +1,364 @@
+{
+  "checkedAt": "2026-10-09",
+  "destinationZIP": "20878",
+  "checks": [
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22040017",
+      "name": "Modena Fabric Panel Bed",
+      "status": "special_order",
+      "checkedAt": "2026-10-09",
+      "configuration": {
+        "size": "King",
+        "headboardHeight": "48 inches",
+        "fabric": "Performance Linen Weave",
+        "color": "Chalk",
+        "finish": "Brown Oak",
+        "storage": "Without Storage",
+        "sku": "10067959 NOCK"
+      },
+      "deliveryMessage": "Ready for delivery between 01/16/27 and 01/25/27 for 20878.",
+      "price": {
+        "memberSale": 2199,
+        "regular": 3670
+      },
+      "evidence": "Live official RH configurator; 207 special-order fabrics; item is special order and cannot be returned. Exact configuration selected without adding to cart.",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22040017",
+      "dimensions": "King 85 W x 89.5 L, 48 H; queen 69 W x 89.5 L; clearance under bed 2 inches, current Dimensions accordion."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025",
+      "name": "Lawson Fabric Panel Bed",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "destinationZIP": "20878",
+      "configuration": {
+        "size": "Queen",
+        "headboardHeight": "48 inches",
+        "fabric": "Classic Belgian Linen",
+        "color": "Sand",
+        "storage": "Without Storage",
+        "sku": "10200967 OBSN",
+        "testedQuantity": 1
+      },
+      "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025?inStock=true",
+      "evidence": "Exact SKU shown in official RH IN-STOCK modal; enabled Add to Cart; no order placed.",
+      "price": {
+        "memberSale": 1865,
+        "regular": 3140
+      },
+      "dimensions": "Current queen 64 W x85.25 L; 48 H; clearance under frame1 inch. Current king80 W x85.25 L; 48 H."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod23530359",
+      "name": "Modena Fabric Horizontal Channel Panel Bed",
+      "status": "special_order",
+      "checkedAt": "2026-10-09",
+      "destinationZIP": "20878",
+      "configuration": {
+        "size": "Queen",
+        "headboardHeight": "48 inches",
+        "fabric": "Performance Velvet",
+        "color": "Charcoal",
+        "storage": "Without Storage",
+        "sku": "10068064 POCH"
+      },
+      "deliveryMessage": "Ready for delivery between 12/20/26 and 12/29/26 for 20878.",
+      "evidence": "Live official RH configurator. 207 special-order fabrics, item explicitly special-order/nonreturnable. This tested velvet differs from original unspecified woven charcoal; original fabric still requires selection. No order placed.",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod23530359",
+      "price": {
+        "memberSale": 2459,
+        "regular": 4140
+      },
+      "recommendation": "Keep preferred original on the future list: Bedroom5 is unbuilt and planned later, so do not buy a stylistically inferior in-stock bed purely to get inventory today."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320022",
+      "name": "Mesa Teak Sofa — original90-inch planning size",
+      "status": "unverified",
+      "checkedAt": "2026-10-09",
+      "destinationZIP": "20878",
+      "configuration": {
+        "width": "90 inches",
+        "finish": "Natural Teak",
+        "fabric": "Classic Performance Textured Weave",
+        "color": "White",
+        "testedQuantity": 1
+      },
+      "deliveryMessage": null,
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320022",
+      "evidence": "Live stock modal listed only108-inch Natural/Weathered Teak with White cushions.90-inch configurator triggered a human-verification CAPTCHA before an exact quote returned; no CAPTCHA solved or bypassed. Do not mark90 as unavailable based on missing stock listing alone.",
+      "dimensions": "Current RH dimensions: widths72/90/108, depth35.5, height28 or30 with cushion."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320032",
+      "name": "Mesa Teak Lounge Chair",
+      "status": "unverified",
+      "checkedAt": "2026-10-09",
+      "destinationZIP": "20878",
+      "configuration": {
+        "finish": "Natural Teak",
+        "planningSize": "Exact frame dimensions to measure",
+        "quantityRequired": 2,
+        "cushions": "Warm ivory performance cushions if applicable — exact stock not verified"
+      },
+      "deliveryMessage": null,
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320032",
+      "evidence": "Official catalogue confirms collection but generic View in stock buttons are notSKU evidence. Human-verification CAPTCHA interrupted live configurator audit before this exact size/finish/quantity and cushions could be checked."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940016",
+      "name": "Mesa Teak Rectangular Coffee Table",
+      "status": "unverified",
+      "checkedAt": "2026-10-09",
+      "destinationZIP": "20878",
+      "configuration": {
+        "finish": "Natural Teak",
+        "planningSize": "48-inch width",
+        "quantityRequired": 1,
+        "cushions": "Warm ivory performance cushions if applicable — exact stock not verified"
+      },
+      "deliveryMessage": null,
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940016",
+      "evidence": "Official catalogue confirms collection but generic View in stock buttons are notSKU evidence. Human-verification CAPTCHA interrupted live configurator audit before this exact size/finish/quantity and cushions could be checked."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940017",
+      "name": "Mesa Teak Rectangular Dining Table",
+      "status": "unverified",
+      "checkedAt": "2026-10-09",
+      "destinationZIP": "20878",
+      "configuration": {
+        "finish": "Natural Teak",
+        "planningSize": "72-inch width",
+        "quantityRequired": 1,
+        "cushions": "Warm ivory performance cushions if applicable — exact stock not verified"
+      },
+      "deliveryMessage": null,
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940017",
+      "evidence": "Official catalogue confirms collection but generic View in stock buttons are notSKU evidence. Human-verification CAPTCHA interrupted live configurator audit before this exact size/finish/quantity and cushions could be checked."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320024",
+      "name": "Mesa Teak Dining Armchair",
+      "status": "unverified",
+      "checkedAt": "2026-10-09",
+      "destinationZIP": "20878",
+      "configuration": {
+        "finish": "Natural Teak",
+        "planningSize": "6-seat layout",
+        "quantityRequired": 6,
+        "cushions": "Warm ivory performance cushions if applicable — exact stock not verified"
+      },
+      "deliveryMessage": null,
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320024",
+      "evidence": "Official catalogue confirms collection but generic View in stock buttons are notSKU evidence. Human-verification CAPTCHA interrupted live configurator audit before this exact size/finish/quantity and cushions could be checked."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320027",
+      "name": "Mesa Teak Adjustable Chaise",
+      "status": "unverified",
+      "checkedAt": "2026-10-09",
+      "destinationZIP": "20878",
+      "configuration": {
+        "finish": "Natural Teak",
+        "planningSize": "One chaise",
+        "quantityRequired": 1,
+        "cushions": "Warm ivory performance cushions if applicable — exact stock not verified"
+      },
+      "deliveryMessage": null,
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320027",
+      "evidence": "Official catalogue confirms collection but generic View in stock buttons are notSKU evidence. Human-verification CAPTCHA interrupted live configurator audit before this exact size/finish/quantity and cushions could be checked."
+    }
+  ],
+  "alternatives": [
+    {
+      "roomIds": [
+        "bed2",
+        "bed3"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod22040017",
+        "https://rh.com/us/en/catalog/product/product.jsp/prod22040025"
+      ],
+      "name": "Italia Fabric Panel Bed - Metal Base",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod9300346?inStock=true",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod9300346_E98918166_TQ_CO24_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/1808002_E23321146939_Natural_CO25_repeat&res=300&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=312d2a&illum=0&obj=Fabric&req=object&illum=0&bOId=(82000021)eOId)&wid=461&$PDP-IR-768$",
+      "proposedFinish": "Natural Performance Linen Weave with Burnished Bronze base",
+      "planningSize": "Queen 67.5 W x 88.25 L x 60 H; 6-inch clearance under frame",
+      "reason": "Plain tailored neutral panel and dark slender metal base keep the Mineral & Walnut palette without chrome. 60-inch headboard is taller than the low Lawson concept; tape out the window/headboard fit. Stock modal allows one of this exact configuration, so it cannot cover both guest rooms at once.",
+      "availability": {
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZIP": "20878",
+        "configuration": {
+          "size": "Queen",
+          "headboardHeight": "60 inches",
+          "finish": "Burnished Bronze",
+          "fabric": "Performance Linen Weave",
+          "color": "Natural",
+          "sku": "10067201 NONA",
+          "testedQuantity": 1,
+          "maxSelectableQuantity": 1
+        },
+        "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod9300346?inStock=true",
+        "evidence": "Exact SKU displayed in official RH IN-STOCK modal; Add to Cart available; increase quantity disabled at one.",
+        "price": {
+          "memberSale": 3115,
+          "regular": 5245
+        }
+      }
+    },
+    {
+      "roomIds": [
+        "ownerbed"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod22040017"
+      ],
+      "name": "Cloud Slipcovered Panel Bed",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6452355?inStock=true",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod6452355_E66739566_TQ_RS_CO24_RHR?src=rhir/obj=Fabric&src=rhir/1808002_E23321146939_Natural_CO25_repeat&res=300&illum=0&obj=Fabric&req=object&illum=0)&wid=461&$PDP-IR-768$",
+      "proposedFinish": "Natural Performance Linen Weave",
+      "planningSize": "King 95 W x 99 L x 36 H, 8-inch platform height, fixed low headboard",
+      "reason": "Warm neutral low upholstered alternative for the larger owners suite only. It is 10 inches wider and 9.5 inches longer than Modena king; the broad rails and loose cushions alter the approved tidy silhouette. Confirm bedside clearance and requested underbed LED suitability; do not move this oversized bed into Bedrooms 2 or 3.",
+      "availability": {
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZIP": "20878",
+        "configuration": {
+          "size": "King",
+          "fabric": "Performance Linen Weave",
+          "color": "Natural",
+          "sku": "63980293 NONA",
+          "testedQuantity": 1
+        },
+        "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6452355?inStock=true",
+        "evidence": "Exact SKU in official IN-STOCK modal with live delivery date and enabled Add to Cart. No order placed.",
+        "price": {
+          "memberSale": 3589,
+          "regular": 5990
+        }
+      }
+    },
+    {
+      "roomIds": [
+        "bed2",
+        "bed3"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod22040017",
+        "https://rh.com/us/en/catalog/product/product.jsp/prod22040025"
+      ],
+      "name": "Lawson Fabric Panel Bed — stocked low queen",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025?inStock=true",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod22040025_E98917281_TQ_Frank_CC_CO26_Linen_RHR?src=rhir/obj=Fabric&src=rhir/swatch_belgianlinen_sand2F_repeat&res=190&illum=0&obj=Fabric&req=object&illum=0&bOId=(82000042)eOId)&wid=461&$PDP-IR-768$",
+      "proposedFinish": "Sand Classic Belgian Linen",
+      "planningSize": "Queen64 W x85.25 L x48 H; without storage",
+      "reason": "Original Lawson collection in an exact warm neutral stocked low configuration. Smaller than Modena queen and calmer than winged alternatives; recessed low base has1-inch clearance, so it does not reproduce a tall slim-leg frame. Confirm room route and sample in daylight.",
+      "availability": {
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZIP": "20878",
+        "configuration": {
+          "size": "Queen",
+          "headboardHeight": "48 inches",
+          "fabric": "Classic Belgian Linen",
+          "color": "Sand",
+          "storage": "Without Storage",
+          "sku": "10200967 OBSN",
+          "testedQuantity": 1
+        },
+        "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025?inStock=true",
+        "evidence": "Exact SKU shown in official RH IN-STOCK modal; enabled Add to Cart; no order placed.",
+        "price": {
+          "memberSale": 1865,
+          "regular": 3140
+        }
+      }
+    },
+    {
+      "roomIds": [
+        "ownerbed"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod22040017"
+      ],
+      "name": "Lawson Fabric Panel Bed — stocked low king",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025?inStock=true",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod22040025_E98917281_TQ_Frank_CC_CO26_Linen_RHR?src=rhir/obj=Fabric&src=rhir/1808002_E23321146939_Natural_CO25_repeat&res=300&illum=0&obj=Fabric&req=object&illum=0&bOId=(82000042)eOId)&wid=461&$PDP-IR-768$",
+      "proposedFinish": "Natural Performance Linen Weave",
+      "planningSize": "King80 W x85.25 L x48 H; without storage",
+      "reason": "The stronger ready-stock primary-suite fallback: plain warm upholstery and low headboard with smaller footprint than Modena. The 1-inch under-frame clearance does not verify the requested custom LED retrofit; lighting location must be designed independently.",
+      "availability": {
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZIP": "20878",
+        "configuration": {
+          "size": "King",
+          "headboardHeight": "48 inches",
+          "fabric": "Performance Linen Weave",
+          "color": "Natural",
+          "storage": "Without Storage",
+          "sku": "10200966 NONA",
+          "testedQuantity": 1
+        },
+        "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025?inStock=true",
+        "evidence": "Exact SKU shown in official RH IN-STOCK modal; enabled Add to Cart; no order placed.",
+        "price": {
+          "memberSale": 1689,
+          "regular": 2850
+        }
+      }
+    },
+    {
+      "roomIds": [
+        "terrace"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod22320022"
+      ],
+      "name": "Mesa Teak Sofa — stocked108-inch configuration",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22320022?inStock=true",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_SOFA_pg&layer=3&src=ir(rhir/prod22320022_E416043749_F_CO20_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/1936002_E22419600683_O_White1_repeat&res=160&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c19264&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.5&sizeN=0.9559471366,0.8103896104&&$PDP-IR-768$",
+      "proposedFinish": "Natural Teak with White Classic Performance Textured Weave cushions",
+      "planningSize": "108 W x35.5 D x30 H with cushions",
+      "reason": "Same sculptural collection and warm palette as original terrace concept. It is18 inches longer than the proposed90-inch sofa; approve tape-out for lounge route, fireplace setback and two chairs before using this size. Preserve original90-inch recommendation for later.",
+      "availability": {
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZIP": "20878",
+        "configuration": {
+          "width": "108 inches",
+          "finish": "Natural Teak",
+          "fabric": "Classic Performance Textured Weave",
+          "color": "White",
+          "sku": "10272455 OWWH",
+          "testedQuantity": 1
+        },
+        "deliveryMessage": "Ready for delivery between10/20/26 and10/27/26 for20878.",
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320022?inStock=true",
+        "evidence": "Exact frame-plus-cushion combination in officialRH IN-STOCK modal. Neutral cushions are part of this configuredSKU, not inferred from generic stocked-fabric marketing.",
+        "price": {
+          "memberSale": 4835,
+          "regular": 8065
+        }
+      }
+    }
+  ],
+  "notes": [
+    "RH fabric-beds index In-Stock filter returned only three products, but Lawson individual page exposed9 stocked SKUs. Category absence therefore is not proof of no stock.",
+    "Lawson48-inch queen Natural Performance Linen SKU10200967 NONA appeared in IN-STOCK modal but stated future Nov21–27 2026 ready date; Sand Classic Belgian Linen queen48 is the sooner warm-neutral configuration."
+  ],
+  "blocker": {
+    "type": "captcha",
+    "browser": "iab",
+    "tabId": "1",
+    "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22320022",
+    "message": "RH VERIFY YOU ARE HUMAN appeared during90-inch sofa configuration. Stop without solving or bypassing. User can complete the CAPTCHA for continued live checks."
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "checkedAt": "2026-10-09",
+  "postalCode": "20878",
+  "summary": "Official RH browser stock check. Seven original listings explicitly unavailable; confirmed surviving original configurations retained. All suggestions preserved; only verified alternatives labelled in stock. No purchases or cart additions.",
+  "accessLimitation": "After successful checks, RH presented a DataDome CAPTCHA across the browser tabs. Work stopped without solving or bypassing the challenge. Remaining alternatives are explicitly unverified.",
+  "checks": [
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod29740626",
+      "name": "Gael Walnut Rectangular Coffee Table",
+      "status": "unavailable",
+      "checkedAt": "2026-10-09",
+      "postalCode": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod29740626",
+      "method": "RH live product page and View In Stock Items modal in browser",
+      "notes": "RH explicitly displayed: We're sorry. This product is no longer available. This describes the current original listing, not a promise that it will restock."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod29740668",
+      "name": "Gael Walnut Desk",
+      "status": "unavailable",
+      "checkedAt": "2026-10-09",
+      "postalCode": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod29740668",
+      "method": "RH live product page and View In Stock Items modal in browser",
+      "notes": "RH explicitly displayed: We're sorry. This product is no longer available. This describes the current original listing, not a promise that it will restock."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod29740644",
+      "name": "Gael Walnut Round Side Table",
+      "status": "unavailable",
+      "checkedAt": "2026-10-09",
+      "postalCode": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod29740644",
+      "method": "RH live product page and View In Stock Items modal in browser",
+      "notes": "RH explicitly displayed: We're sorry. This product is no longer available. This describes the current original listing, not a promise that it will restock."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod29740920",
+      "name": "Gael Walnut 6-Drawer Dresser",
+      "status": "unavailable",
+      "checkedAt": "2026-10-09",
+      "postalCode": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod29740920",
+      "method": "RH live product page and View In Stock Items modal in browser",
+      "notes": "RH explicitly displayed: We're sorry. This product is no longer available. This describes the current original listing, not a promise that it will restock."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod31080237",
+      "name": "Gael Walnut Media Console",
+      "status": "unavailable",
+      "checkedAt": "2026-10-09",
+      "postalCode": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod31080237",
+      "method": "RH live product page and View In Stock Items modal in browser",
+      "notes": "RH explicitly displayed: We're sorry. This product is no longer available. This describes the current original listing, not a promise that it will restock."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod29740740",
+      "name": "Gael Walnut Rectangular Dining Table",
+      "status": "unavailable",
+      "checkedAt": "2026-10-09",
+      "postalCode": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod29740740",
+      "method": "RH live product page and View In Stock Items modal in browser",
+      "notes": "RH explicitly displayed: We're sorry. This product is no longer available. This describes the current original listing, not a promise that it will restock."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod2111228",
+      "name": "Textura Twist Wool Rug \u2014 Marled",
+      "status": "unavailable",
+      "checkedAt": "2026-10-09",
+      "postalCode": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod2111228",
+      "method": "RH live product page and View In Stock Items modal in browser",
+      "notes": "RH explicitly displayed: We're sorry. This product is no longer available. This describes the current original listing, not a promise that it will restock."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310672",
+      "name": "Enzo Rectangular Coffee Table",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "postalCode": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310672",
+      "method": "RH live product page and View In Stock Items modal in browser",
+      "configuration": {
+        "size": "76W \u00d7 32D in",
+        "finish": "Caramel Walnut",
+        "sku": "10138449 CRWL"
+      },
+      "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+      "notes": "Stocked Caramel size is far larger than the approved 50\u201354 in great-room and 36\u201344 in living-room planning targets. Do not substitute solely because it is in stock. Blond Walnut 64 \u00d7 32 in also stocked but not the preferred undertone."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310677",
+      "name": "Enzo Round Coffee Table",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "postalCode": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310677",
+      "method": "RH live product page and View In Stock Items modal in browser",
+      "configuration": {
+        "size": "48 in diameter",
+        "finish": "Caramel Walnut",
+        "sku": "10138472 CRWL"
+      },
+      "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+      "notes": "48 in is larger than the original 40\u201344 in loft planning diameter; template the seating route before selecting. A 60 in Caramel version is also stocked but too large for the planned arrangement."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310813",
+      "name": "Enzo Closed Nightstand",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "postalCode": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310813",
+      "method": "RH live product page and View In Stock Items modal in browser",
+      "configuration": {
+        "size": "38 in width",
+        "finish": "Caramel Walnut",
+        "sku": "10141932 CRWL"
+      },
+      "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+      "notes": "Only 38 in stocked result shown; earlier 26/32 in planning assumptions do not describe current stock. Requires completed Bedroom 5 headwall measurement; the room is still unbuilt."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod29870390",
+      "name": "Enzo 5-Drawer Dresser",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "postalCode": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod29870390",
+      "method": "RH live product page and View In Stock Items modal in browser",
+      "configuration": {
+        "size": "50W \u00d7 20D \u00d7 45H in",
+        "finish": "Caramel Walnut",
+        "sku": "10141947 CRWL"
+      },
+      "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+      "notes": "Can remain the original Bed 5 candidate. 45 in height must be checked against window sill/TV if considered for the primary suite; do not automatically replace the primary low dresser."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod31700075",
+      "name": "Anja Teardrop Table Lamp",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "postalCode": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod31700075",
+      "method": "RH live product page and View In Stock Items modal in browser",
+      "configuration": {
+        "size": "29 in overall listed height",
+        "finish": "Grey Terracotta",
+        "sku": "10185421 BLK"
+      },
+      "deliveryMessage": "Delivery by 10/15/26 to 20878.",
+      "notes": "Lamp body only; compatible shade sold separately. RH stock modal also shows Beige Terracotta under SKU 10185421 NATL for the same delivery date."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod31780243",
+      "name": "Anja Teardrop Table Lamp \u2014 Beige",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "postalCode": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod31780243",
+      "method": "RH live product page and View In Stock Items modal in browser",
+      "configuration": {
+        "size": "29 in overall listed height",
+        "finish": "Beige Terracotta",
+        "sku": "10185421 NATL"
+      },
+      "deliveryMessage": "Delivery by 10/15/26 to 20878.",
+      "notes": "Lamp body only; shade sold separately. Useful if Grey Terracotta samples too blue-grey for Mineral & Walnut."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod1871162",
+      "name": "French Drum Linen Shade",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "postalCode": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod1871162",
+      "method": "RH live product page and View In Stock Items modal in browser",
+      "configuration": {
+        "size": "E: 18 in diameter \u00d7 10H in",
+        "color": "White Linen",
+        "lining": "Frosted Lining",
+        "sku": "68600071 MWHT"
+      },
+      "deliveryMessage": "Delivery by 10/15/26 to 20878.",
+      "notes": "RH Anja product photography specifies compatible French Drum Linen Shade size E. Sand Linen/White Lining E, SKU68600071 SNDW, also in stock. Final overall lamp height and compact-table shade clearance to confirm."
+    }
+  ],
+  "alternatives": [
+    {
+      "roomIds": [
+        "great"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod29740626",
+        "https://rh.com/us/en/catalog/product/product.jsp/prod28310672"
+      ],
+      "name": "Rocco Rectangular Coffee Table \u2014 52 in Italian Classico Travertine",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod32280187",
+      "proposedFinish": "Italian Classico Travertine",
+      "planningSize": "52W \u00d7 26D \u00d7 14H in",
+      "reason": "A compact warm beige stone alternative at the approved great-room table length. Keeps walnut in fitted cabinets and other furniture; no chrome or added color. Solid-looking monolithic form is heavier than the original tapered Gael. Natural stone variation and care require acceptance; 225 lb listed weight.",
+      "availability": {
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "postalCode": "20878",
+        "configuration": {
+          "size": "52W \u00d7 26D \u00d7 14H in",
+          "finish": "Italian Classico Travertine",
+          "sku": "10251416 NATT"
+        },
+        "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod32280187",
+        "method": "RH live View In Stock Items modal"
+      },
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod32280187_E23321944315_F_RS_RHR?",
+      "priceAtCheck": {
+        "memberSale": 2275,
+        "regular": 3795,
+        "currency": "USD",
+        "excludesTaxAndDelivery": true
+      },
+      "fitStatus": "Planning footprint matches target; circulation still to template"
+    },
+    {
+      "roomIds": [
+        "living"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod28310672"
+      ],
+      "name": "Rocco Rectangular Coffee Table \u2014 40 in Italian Classico Travertine",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod32280187",
+      "proposedFinish": "Italian Classico Travertine",
+      "planningSize": "40W \u00d7 20D \u00d7 14H in",
+      "reason": "A genuinely smaller table for the narrow piano living room; the stocked 76 in Enzo is unsuitable. Cream stone supports ivory upholstery and walnut without introducing Option 2 metals/colors. 180 lb listed weight, with natural stone care tradeoff.",
+      "availability": {
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "postalCode": "20878",
+        "configuration": {
+          "size": "40W \u00d7 20D \u00d7 14H in",
+          "finish": "Italian Classico Travertine",
+          "sku": "10251415 NATT"
+        },
+        "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod32280187",
+        "method": "RH live View In Stock Items modal"
+      },
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod32280187_E23321944315_F_RS_RHR?",
+      "priceAtCheck": {
+        "memberSale": 1715,
+        "regular": 2865,
+        "currency": "USD",
+        "excludesTaxAndDelivery": true
+      },
+      "fitStatus": "Compact candidate; piano bench and drape/door routes must be templated"
+    },
+    {
+      "roomIds": [
+        "great"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod29740626"
+      ],
+      "name": "Gael Walnut Round Coffee Table \u2014 48 in",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod29740638",
+      "proposedFinish": "Caramel Walnut",
+      "planningSize": "48 in diameter",
+      "reason": "Closest surviving stocked member of the originally preferred Gael walnut collection. The round shape keeps the same gentle contours and tapered legs. Template a 48 in circle against the sofa/chairs because the original plan used a rectangle.",
+      "availability": {
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "postalCode": "20878",
+        "configuration": {
+          "size": "48 in diameter",
+          "finish": "Caramel Walnut",
+          "sku": "10138854 CRWL"
+        },
+        "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod29740638",
+        "method": "RH live View In Stock Items modal"
+      },
+      "priceAtCheck": {
+        "memberSale": 2285,
+        "regular": 4290,
+        "currency": "USD",
+        "excludesTaxAndDelivery": true
+      },
+      "fitStatus": "Shape change needs furniture-template review"
+    },
+    {
+      "roomIds": [
+        "bed2",
+        "bed3",
+        "bed5"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod2111228"
+      ],
+      "name": "Chana Wool Rug \u2014 Natural 8 \u00d7 10 ft",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod34770271",
+      "proposedFinish": "Natural",
+      "planningSize": "8 \u00d7 10 ft",
+      "reason": "Neutral wool with tonal topographic texture; no bedroom accent colors. The exact 8 \u00d7 10 ft configuration is stocked, but at $5,645 member this is a premium later-phase option, not the economical supporting-rug recommendation.",
+      "availability": {
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "postalCode": "20878",
+        "configuration": {
+          "size": "8 \u00d7 10 ft",
+          "finish": "Natural",
+          "sku": "10211124 NATL"
+        },
+        "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod34770271",
+        "method": "RH live View In Stock Items modal"
+      },
+      "priceAtCheck": {
+        "member": 5645,
+        "regular": 8065,
+        "currency": "USD",
+        "excludesTaxAndDelivery": true
+      },
+      "fitStatus": "Test the established loose-rug footprint against doors and closets",
+      "priority": "Premium optional; prefer a lower-cost wool equivalent"
+    },
+    {
+      "roomIds": [
+        "great",
+        "ownerbed",
+        "loft",
+        "dining"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod2111228"
+      ],
+      "name": "Chana Wool Rug \u2014 Natural 9 \u00d7 12 ft",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod34770271",
+      "proposedFinish": "Natural",
+      "planningSize": "9 \u00d7 12 ft",
+      "reason": "Warm neutral wool, current standard size stock. At $7,795 member it is poor value for a supporting item in the phased budget; retain as premium RH comparison and use a less expensive wool equivalent unless deliberately selected. Dining 9 \u00d7 12 is only the eight-seat everyday footprint, not guaranteed coverage when extended.",
+      "availability": {
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "postalCode": "20878",
+        "configuration": {
+          "size": "9 \u00d7 12 ft",
+          "finish": "Natural",
+          "sku": "10211125 NATL"
+        },
+        "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod34770271",
+        "method": "RH live View In Stock Items modal"
+      },
+      "priceAtCheck": {
+        "member": 7795,
+        "regular": 11140,
+        "currency": "USD",
+        "excludesTaxAndDelivery": true
+      },
+      "priority": "Premium optional; prefer a lower-cost wool equivalent"
+    }
+  ],
+  "rejectedForFitOrStyle": [
+    {
+      "name": "Rocco Rectangular Side Table",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod32280189",
+      "configuration": "32W \u00d7 22D \u00d7 20H in / Italian Classico Travertine / SKU10251403 NATT",
+      "status": "in_stock",
+      "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+      "reason": "Too bulky for the compact chair/chaiseside landing-spot brief; 209 lb. Not added as a room replacement."
+    },
+    {
+      "name": "Rayne Wool Rug",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod35810085",
+      "status": "in_stock",
+      "configuration": "Natural or Sand 6 \u00d7 9 ft; Natural/Wheat/Camel12 \u00d7 15; Natural13 \u00d7 18",
+      "reason": "Stock modal had no 8 \u00d7 10 or 9 \u00d7 12 ft. Do not substitute the oversized versions or downsize all room rugs just to buy stock."
+    },
+    {
+      "name": "Sudra Wool Rug",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33620233",
+      "status": "in_stock",
+      "configuration": "Burnt Caramel Multi 8 \u00d7 10 ft / SKU10202515 BCML",
+      "reason": "Stocked color is more saturated/patterned than the original neutral quiet Mineral & Walnut rugs. Not a universal replacement."
+    }
+  ],
+  "unverifiedFollowups": [
+    {
+      "name": "Compact walnut side-table replacement",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+      "status": "unverified",
+      "reason": "DataDome CAPTCHA appeared before the exact configuration and inventory could be read. No claim of availability."
+    },
+    {
+      "name": "Espresso Walnut Gael Media Console variant",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod31080238",
+      "status": "unverified",
+      "reason": "DataDome CAPTCHA appeared before inventory could be read. Do not infer availability from a collection-grid listing."
+    },
+    {
+      "name": "Tarifa Wool Rug replacement",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod31360154",
+      "status": "unverified",
+      "reason": "DataDome CAPTCHA appeared before exact size/color inventory could be read. No stock claim."
+    },
+    {
+      "name": "Office desk replacement",
+      "status": "unverified",
+      "reason": "Original Gael Caramel desk is no longer available. Search results returned chairs, not suitable stocked desks. Retain custom walnut desk/temporary supporting desk route until a properly sized retail desk is verified."
+    }
+  ],
+  "stockCaution": "Inventory and delivery dates are a snapshot for20878on2026-10-09. Quantities are not reserved; final ordering must recheck exact SKU, full dimensions and availability. Early October delivery dates precede possession onNovember3; do not book them as house delivery."
+}

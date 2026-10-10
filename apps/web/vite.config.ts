@@ -6,6 +6,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { execFile } from 'node:child_process'
 import { promisify } from 'node:util'
+import { createReleaseVersion, stampReleaseVersion } from './release-version'
 
 const devPort = Number(process.env.VITE_DEV_PORT ?? 5173)
 const repo = fileURLToPath(new URL('../../', import.meta.url))
@@ -22,9 +23,14 @@ const reviewDirectories = ['design-review-assets', 'design-library-assets', 'sto
 // Only public review documents and their media are exposed, not the whole docs directory.
 function designLibrary(): Plugin {
   let output = ''
+  const release = createReleaseVersion(repo)
   return {
     name: 'home-design-library',
     configResolved(config) { if (config.command === 'build') output = path.resolve(config.root, config.build.outDir) },
+    transformIndexHtml: {
+      order: 'post',
+      handler(html) { return stampReleaseVersion(html, release) },
+    },
     async buildStart() {
       await promisify(execFile)(process.execPath, [path.join(repo, 'scripts/build-design-library.mjs')])
     },
@@ -32,25 +38,58 @@ function designLibrary(): Plugin {
       server.middlewares.use(async (req, res, next) => {
         let requested: string
         try { requested = decodeURIComponent(new URL(req.url ?? '/', 'http://local').pathname).slice(1) } catch { return next() }
-        if (!reviewFiles.includes(requested) && !reviewDirectories.some(dir => requested.startsWith(`${dir}/`))) return next()
+        if (requested === 'version.json') {
+          const body = JSON.stringify(release, null, 2) + '\n'
+          res.setHeader('Content-Type', 'application/json; charset=utf-8')
+          res.setHeader('Cache-Control', 'no-cache')
+          res.setHeader('Content-Length', Buffer.byteLength(body))
+          if (req.method === 'HEAD') res.end()
+          else res.end(body)
+          return
+        }
+        const isReview = reviewFiles.includes(requested) || reviewDirectories.some(dir => requested.startsWith(`${dir}/`))
+        const isPublicHtml = path.extname(requested).toLowerCase() === '.html' && Boolean(server.config.publicDir)
+        if (!isReview && !isPublicHtml) return next()
         if (requested.split('/').some(part => part === '..' || part === '.') || requested.includes('\\')) { res.statusCode = 400; res.end(); return }
-        const file = path.join(repo, 'docs', requested)
+        const file = isReview ? path.join(repo, 'docs', requested) : path.join(server.config.publicDir, requested)
         try {
           const stat = await fs.stat(file)
           if (!stat.isFile()) { res.statusCode = 404; res.end(); return }
           const types: Record<string, string> = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.webp': 'image/webp', '.jpg': 'image/jpeg', '.pdf': 'application/pdf' }
           res.setHeader('Content-Type', types[path.extname(file)] ?? 'application/octet-stream')
-          res.setHeader('Content-Length', stat.size)
           res.setHeader('Cache-Control', 'no-cache')
-          if (req.method === 'HEAD') res.end()
-          else createReadStream(file).on('error', () => res.destroy()).pipe(res)
-        } catch { res.statusCode = 404; res.end('Review file not found') }
+          if (path.extname(file).toLowerCase() === '.html') {
+            const body = stampReleaseVersion(await fs.readFile(file, 'utf8'), release)
+            res.setHeader('Content-Length', Buffer.byteLength(body))
+            if (req.method === 'HEAD') res.end()
+            else res.end(body)
+          } else {
+            res.setHeader('Content-Length', stat.size)
+            if (req.method === 'HEAD') res.end()
+            else createReadStream(file).on('error', () => res.destroy()).pipe(res)
+          }
+        } catch {
+          if (!isReview) return next()
+          res.statusCode = 404
+          res.end('Review file not found')
+        }
       })
     },
     async closeBundle() {
       if (!output) return
       for (const file of reviewFiles) await fs.copyFile(path.join(repo, 'docs', file), path.join(output, file))
       for (const dir of reviewDirectories) await fs.cp(path.join(repo, 'docs', dir), path.join(output, dir), { recursive: true })
+      async function stampDirectory(directory: string) {
+        for (const entry of await fs.readdir(directory, { withFileTypes: true })) {
+          const file = path.join(directory, entry.name)
+          if (entry.isDirectory()) await stampDirectory(file)
+          else if (entry.isFile() && path.extname(entry.name).toLowerCase() === '.html') {
+            await fs.writeFile(file, stampReleaseVersion(await fs.readFile(file, 'utf8'), release))
+          }
+        }
+      }
+      await stampDirectory(output)
+      await fs.writeFile(path.join(output, 'version.json'), JSON.stringify(release, null, 2) + '\n')
     },
   }
 }

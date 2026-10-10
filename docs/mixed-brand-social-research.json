@@ -1,0 +1,1151 @@
+{
+  "checkedAt": "2026-10-09",
+  "destinationZip": "20878",
+  "selectionPolicy": "Value first, sale when it still fits and suits Option 1, confirmed stocked configurations only as recommended. Exact unverified candidates are alternatives awaiting proof. Existing RH-only consultation preserved.",
+  "researchScope": [
+    "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod33750094",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod33750100",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod6490263",
+    "https://www.arhaus.com/collections/seating",
+    "https://www.arhaus.com/collections/table-lamps/products/linden-table-lamp-in-pewter",
+    "https://www.crateandbarrel.com/furniture/coffee-tables/1?availability=shipNow",
+    "https://www.crateandbarrel.com/mercer-matte-white-porcelain-dinner-plate/s250016",
+    "https://www.crateandbarrel.com/mercer-matte-white-porcelain-serving-bowl/s249992",
+    "https://www.crateandbarrel.com/nord-ivory-upholstered-brown-wood-counter-stool/s120641",
+    "https://www.crateandbarrel.com/retreat-94-sofa/f1027609",
+    "https://www.crateandbarrel.com/tate-walnut-wood-48-rectangular-storage-coffee-table/s259126",
+    "https://www.crateandbarrel.com/via-toffee-brown-velvet-walnut-wood-dining-chair/s139280",
+    "https://www.potterybarn.com/products/972598/",
+    "https://www.potterybarn.com/products/aptos-extending-dining-table/",
+    "https://www.potterybarn.com/products/hayden-metal-floor-lamp/",
+    "https://www.potterybarn.com/products/joshua-ceramic-vase_3/",
+    "https://www.potterybarn.com/shop/furniture/extending%2Bdining-tables/features-m-features-ff14-1/",
+    "https://www.potterybarn.com/products/barley-extendable-dining-table/",
+    "https://www.potterybarn.com/products/winslet-dining-table/",
+    "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-9x12/s190307",
+    "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-8x10/s189362",
+    "https://www.potterybarn.com/shop/furniture/dining-tables/",
+    "https://www.crateandbarrel.com/furniture/in-stock-furniture/1/filters/in-stock-dining-and-kitchen-furniture-445?availability=shipNow",
+    "https://www.arhaus.com/collections/dining-room-furniture",
+    "https://www.potterybarn.com/shop/lighting/pendants/",
+    "https://www.crateandbarrel.com/terra-65-warm-brown-oak-solid-wood-dining-table/s365623",
+    "https://www.arhaus.com/collections/dining/products/parsons-dining-table?variant=43140705845419"
+  ],
+  "rooms": [
+    {
+      "id": "great",
+      "designSummary": "Warm ivory modern seating, compact sculptural chairs, real walnut coffee and storage pieces, quiet mineral fireplace, dark accents and plants. Preserve fitted walnut cabinets below both transoms and the sibling black-framed neutral artworks.",
+      "comparisonToRh": "Retreat offers a lower-cost stocked sofa within the planned width. Keep RH compact chairs where their sale price and footprint make sense; use Crate walnut storage and a discounted Arhaus complete lamp rather than costly matching RH accessories. Original RH suggestions remain on the existing RH-only page.",
+      "products": [
+        {
+          "id": "retreat94",
+          "brand": "Crate & Barrel",
+          "name": "Retreat 94-inch Sofa — Serene Ivory / Multi-Cushion",
+          "url": "https://www.crateandbarrel.com/retreat-94-sofa/f1027609",
+          "role": "Main sofa",
+          "quantity": 1,
+          "finish": "Serene fabric in Ivory",
+          "dimensions": "94 W × 44 D × 28.5 H inches",
+          "unitPrice": {
+            "low": 2299,
+            "high": 2299,
+            "kind": "retail",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery.",
+            "regularReference": null
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Selected Stocked Serene Ivory SKU 172631: In stock. Ready to schedule delivery. ZIP 20878 verified live.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready to schedule delivery; no dated appointment quoted.",
+            "sourceUrl": "https://www.crateandbarrel.com/retreat-94-sofa/f1027609",
+            "method": "Parent live browser product/fabric panel and ZIP availability, October 9"
+          },
+          "reason": "Best value lead for the requested soft but supportive seat with a tidy modern shape. Polyfoam support with a fiber/feather-down wrap, sinuous springs and USA construction; compare in person against Modena.",
+          "fitNotes": "Width is within the ~96-inch plan. Depth 44 is three inches more than the original 41-inch great-room plan; tape the sofa, chairs and table and terrace route. Confirm stair/lift/door access and combined quantities.",
+          "phase": "move-in",
+          "decision": "recommended",
+          "replaces": [
+            "Modena Slope Arm 2-Cushion Sofa"
+          ],
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/Retreat94inSofaSOSSS24_3D?%24web_pdp_main_carousel_thumb_med%24=",
+          "sku": "172631"
+        },
+        {
+          "id": "shelter-chair",
+          "brand": "RH",
+          "name": "1950s Italian Shelter Arm Swivel Chair — current stocked edition",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+          "role": "Lounge chairs",
+          "quantity": 2,
+          "finish": "Natural Performance Linen Weave; Sand stocked sibling available",
+          "dimensions": "31 in W × 32½ in D × 30 in H; seat 18 in H. Allow full swivel clearance.",
+          "unitPrice": {
+            "low": 1245,
+            "high": 1245,
+            "kind": "member_sale",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Regular reference $2,100.00; sale is a dated snapshot.",
+            "regularReference": 2100
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact variant shown in RH IN-STOCK modal. Availability is a dated snapshot, not a reservation.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+            "method": "Reused official RH live stock check in docs/mineral-walnut-rh-stock.json",
+            "configuration": {
+              "depth": "Classic 32½ in",
+              "fabric": "Performance Linen Weave",
+              "color": "Natural",
+              "sku": "61060801 NONA",
+              "stockedSibling": {
+                "color": "Sand",
+                "sku": "61060801 NOSN",
+                "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878."
+              }
+            },
+            "quantityNote": "Stocked variant checked; requested combined room quantities not reserved or fully verified."
+          },
+          "reason": "The current RH edition preserves the compact sculptural chair the original design intended; the old product page is unavailable.",
+          "fitNotes": "Physical samples, room template and delivery route remain to verify. ",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod20580100_E414854120_TQ_CC_RHR?"
+        },
+        {
+          "id": "tate48",
+          "brand": "Crate & Barrel",
+          "name": "Tate Walnut 48-inch Storage Coffee Table",
+          "url": "https://www.crateandbarrel.com/tate-walnut-wood-48-rectangular-storage-coffee-table/s259126",
+          "role": "Coffee table",
+          "quantity": 1,
+          "finish": "Warm brown Tate Walnut finish; walnut veneer over poplar/engineered wood",
+          "dimensions": "48 W × 24 D × 17 H inches; exact SKU 259126 verified in the live Dimensions accordion.",
+          "unitPrice": {
+            "low": 699.99,
+            "high": 699.99,
+            "kind": "clearance",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Regular reference $899.00; sale is a dated snapshot.",
+            "regularReference": 899
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact walnut SKU 259126: In stock. Ready to schedule delivery. ZIP 20878 checked live.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready to schedule delivery; date not quoted.",
+            "sourceUrl": "https://www.crateandbarrel.com/tate-walnut-wood-48-rectangular-storage-coffee-table/s259126",
+            "method": "Root live official product page, ZIP 20878 and expanded Dimensions accordion on October 9.",
+            "configuration": {
+              "sku": "259126",
+              "finish": "Walnut",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "A useful sale purchase with real walnut veneer, discreet full-extension drawer and sculptural tapered legs; substantial savings over RH coffee tables without copying the cabinetry.",
+          "fitNotes": "The 48×24-inch footprint fits the piano-room planning target and is slightly shorter than the original 50–54-inch great-room target. At 17 inches high, confirm comfort with the actual sofa seat height. Tape the table, chair swivel and terrace/piano access before ordering.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Gael Walnut Rectangular Coffee Table",
+            "Enzo Coffee Table"
+          ],
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/TateCoffeeTableWlntSOSSS23_3D?%24web_pdp_main_carousel_thumb_med%24=",
+          "sku": "259126"
+        },
+        {
+          "id": "enzo-side",
+          "brand": "RH",
+          "name": "Enzo Square Side Table — stocked 18-inch Caramel Walnut",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+          "role": "Small side table",
+          "quantity": 1,
+          "finish": "Caramel Walnut",
+          "dimensions": "18-inch square × 20 H inches; 48 lb. Use the smaller stocked size to protect circulation.",
+          "unitPrice": {
+            "low": 545,
+            "high": 545,
+            "kind": "member_sale",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Regular reference $1,655.00; sale is a dated snapshot.",
+            "regularReference": 1655
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact SKU in live IN-STOCK modal; current Dimensions show 18-inch square, 20 inches high, 48 lb.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+            "method": "Reused official RH live stock check in docs/mineral-walnut-rh-stock.json",
+            "configuration": {
+              "size": "18-inch square /20 H inches",
+              "finish": "Caramel Walnut",
+              "sku": "10138471 CRWL"
+            },
+            "quantityNote": "Stocked variant checked; requested combined room quantities not reserved or fully verified."
+          },
+          "reason": "Preserves walnut warmth in a compact footprint. Its square form is a modest change from the original round Gael; place beside a sofa or between two retreat seats, with a slim tray and lamp.",
+          "fitNotes": "Physical samples, room template and delivery route remain to verify. ",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+        },
+        {
+          "id": "linden-pewter",
+          "brand": "Arhaus",
+          "name": "Linden Table Lamp — Pewter",
+          "url": "https://www.arhaus.com/collections/table-lamps/products/linden-table-lamp-in-pewter",
+          "role": "Supporting table lamp",
+          "quantity": 1,
+          "finish": "Matte/aged pewter iron with linen shade; dark neutral, not polished chrome",
+          "dimensions": "18 W × 18 D × 28 H inches",
+          "unitPrice": {
+            "low": 397.6,
+            "high": 397.6,
+            "kind": "sale",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Regular reference $700.00; sale is a dated snapshot.",
+            "regularReference": 700
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact SKU 6610071H10KT shown In Stock in live UI; official product API available true. Variant 45929462595755.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": null,
+            "delivery": "Shipping/delivery quote for20878 not obtained.",
+            "sourceUrl": "https://www.arhaus.com/collections/table-lamps/products/linden-table-lamp-in-pewter",
+            "method": "Parent live official product UI and official product API, October 9"
+          },
+          "reason": "Discounted complete lamp supplies warm material texture and a dark anchor more economically than a separate RH lamp body/shade. The aged grey metal remains within Option 1.",
+          "fitNotes": "18-inch shade must fit cabinet top without crowding art or high transom; check shade height against the actual cabinet. Use a warm dimmable compatible bulb. Do not stack advertised cart promotions onto the quoted sale.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Anja Teardrop Table Lamp"
+          ],
+          "imageUrl": "https://cdn.shopify.com/s/files/1/0507/9017/0795/files/6610071L43_DL240422.jpg?v=1774299934",
+          "sku": "6610071H10KT"
+        },
+        {
+          "id": "joshua-black-medium",
+          "brand": "Pottery Barn",
+          "name": "Joshua Ceramic Vase — Black Medium",
+          "url": "https://www.potterybarn.com/products/joshua-ceramic-vase_3/",
+          "role": "Cabinet accent vessel",
+          "quantity": 1,
+          "finish": "Black ceramic",
+          "dimensions": "Selected Medium 11.75-inch height; exact diameter/depth not verified",
+          "unitPrice": {
+            "low": 71.5,
+            "high": 71.5,
+            "kind": "sale",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Regular reference $89.50; sale is a dated snapshot. Pending candidate only; recheck the exact current configuration price and stock. Exclude from selected-purchase totals.",
+            "regularReference": 89.5
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Current official product listing observed, but exact stock/ZIP quote not exposed.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": null,
+            "delivery": null,
+            "sourceUrl": "https://www.potterybarn.com/products/joshua-ceramic-vase_3/",
+            "method": "Official product page via web search/open"
+          },
+          "reason": "A small inexpensive sculptural black object makes the warm ivory/stone/walnut composition feel finished. Prefer this to a full matching RH accessory set.",
+          "fitNotes": "SKU 450008 selected Medium; do not use generic other-variant dimensions. Display on a great-room cabinet, not the 8-inch shallow formal-dining ledge.",
+          "phase": "optional",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "450008"
+        },
+        {
+          "id": "prato9",
+          "brand": "Crate & Barrel",
+          "name": "Prato Performance Wool Ivory Area Rug — 9×12 feet",
+          "url": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-9x12/s190307",
+          "role": "Great-room loose rug",
+          "quantity": 1,
+          "finish": "Ivory; 55%wool 25%polyester 20%viscose",
+          "dimensions": "9 × 12 ft.",
+          "unitPrice": {
+            "low": 1999,
+            "high": 1999,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact Ivory 9 × 12 SKU 190307 showed In stock. Ready to schedule delivery.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready to schedule delivery; specific date not recorded.",
+            "sourceUrl": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-9x12/s190307",
+            "method": "Root live official product page with configuration and ZIP 20878 selected.",
+            "configuration": {
+              "sku": "190307",
+              "finish": "Ivory;55% wool, 25% polyester, 20% viscose",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "A quiet tonal ivory rug costs substantially less than the premium RH wool comparison while unifying the sofa and compact chairs.",
+          "fitNotes": "The 9×12-foot footprint fits the 15-foot-1 by 17-foot great room before obstructions. Template front furniture legs, fireplace hearth, terrace access and chair swivel. Wool/polyester/viscose blend, not pure wool; protect from moisture and follow care directions.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Textura Twist Wool Rug—Marled"
+          ],
+          "sku": "190307",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ],
+      "supportingPlan": [
+        "Keep the approved quiet stone-look fireplace and pure Mineral & Walnut palette.",
+        "The cabinets and illuminated sibling artwork are construction scope. Measure cabinet tops before selecting lamps.",
+        "Use a tonal ivory wool-blend rug, restrained oatmeal/flax pillows, one neutral throw and a living plant. Exact stocked textiles still need selection.",
+        "Tape the 48-inch table footprint against sofa, chair swivel and terrace access."
+      ],
+      "purchaseNotes": [
+        "Buy the sofa after a sit test and measurements. Chairs, lamp and coffee table can follow.",
+        "Retreat Serene Ivory is $2,299 full price. Another fabric’s sale must not be copied onto Ivory.",
+        "Stock is a dated configuration snapshot. Combined multi-room quantities are not reserved."
+      ]
+    },
+    {
+      "id": "kitchen",
+      "designSummary": "Preserve the island, L-run, sink and existing appliances positions. Creamy C1 porcelain slab-look surfaces, warm ivory/walnut cabinetry, two shallow dark-bronze dome pendants and tailored neutral stools.",
+      "comparisonToRh": "Nord $399 sale is a lower-cost exact stocked candidate than Morgan. RH Nicola $479 sale stays a verified upholstered alternative. Keep smallwares simple and practical instead of expensive display objects.",
+      "products": [
+        {
+          "id": "nord-counter",
+          "brand": "Crate & Barrel",
+          "name": "Nord Ivory Upholstered Brown Wood Counter Stool",
+          "url": "https://www.crateandbarrel.com/nord-ivory-upholstered-brown-wood-counter-stool/s120641",
+          "role": "Island counter seating",
+          "quantity": 4,
+          "finish": "Saxony fabric Ivory / Brown wood legs",
+          "dimensions": "20.13 W × 24.25 D × 39.25 H inches; seat height still to verify",
+          "unitPrice": {
+            "low": 399,
+            "high": 399,
+            "kind": "sale",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Regular reference $499.00; sale is a dated snapshot.",
+            "regularReference": 499
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact Ivory/Brown SKU 120641 page explicitly: In stock. Ready to schedule delivery. ZIP blank in web view.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": null,
+            "delivery": "Ready to schedule delivery;20878 estimate and quantity four not checked.",
+            "sourceUrl": "https://www.crateandbarrel.com/nord-ivory-upholstered-brown-wood-counter-stool/s120641",
+            "method": "Fresh official product page via web, October 9"
+          },
+          "reason": "Strong value alternative to Morgan/Nicola: restrained warm wood, ivory upholstery, web suspension and footcaps. Brown is a neutral walnut-compatible contrast; no silver or blue/yellow theme.",
+          "fitNotes": "Four is provisional: measure counter height, overhang and island seating length, and check footrest/seat height. Do not assume 39.25 is seat height; it is overall height.",
+          "phase": "move-in",
+          "decision": "recommended",
+          "replaces": [
+            "Morgan Fabric Counter Stool"
+          ],
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/NrdCntrStlDrkLgvry1SOSSS26_3D?%24web_pdp_main_carousel_thumb_med%24=",
+          "sku": "120641"
+        },
+        {
+          "id": "nicola-counter",
+          "brand": "RH",
+          "name": "Nicola Slope Fabric Counter Stool — stocked Sand",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33750100",
+          "role": "Island counter seating",
+          "quantity": 4,
+          "finish": "Sand Performance Linen Weave / Brushed Brass footrest; upholstered legs",
+          "dimensions": "Counter-height only after measuring island; exact dimensions and four-stool spacing remain to verify.",
+          "unitPrice": {
+            "low": 479,
+            "high": 479,
+            "kind": "member_sale",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Regular reference $810.00; sale is a dated snapshot.",
+            "regularReference": 810
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact neutral counter-stool variant appears in RH IN-STOCK modal. Check quantity four before ordering; stock not reserved.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod33750100",
+            "method": "Reused official RH live stock check in docs/mineral-walnut-rh-stock.json",
+            "configuration": {
+              "item": "Counter Stool",
+              "finish": "Brushed Brass footrest",
+              "fabric": "Performance Linen Weave",
+              "color": "Sand",
+              "sku": "10196668 NOSN"
+            },
+            "quantityNote": "Stocked variant checked; requested combined room quantities not reserved or fully verified."
+          },
+          "reason": "Keeps the island visually quiet and warm. The small brushed-brass footrest suits Mineral & Walnut better than the polished stainless version; the upholstered silhouette is already an approved alternative.",
+          "fitNotes": "Physical samples, room template and delivery route remain to verify. ",
+          "phase": "move-in",
+          "decision": "alternative",
+          "replaces": [],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod33750100_E24522750636_TQ_CO24_RHR?obj=Fabric/Finish&color=ab8153&illum=0&obj=Fabric&req=object&illum=0)&wid=461&$PDP-IR-1600$"
+        },
+        {
+          "id": "mercer-dinner",
+          "brand": "Crate & Barrel",
+          "name": "Mercer Matte White Porcelain Dinner Plate",
+          "url": "https://www.crateandbarrel.com/mercer-matte-white-porcelain-dinner-plate/s250016",
+          "role": "Everyday dining service",
+          "quantity": 12,
+          "finish": "Matte white textured porcelain",
+          "dimensions": "Exact diameter pending product Dimensions panel",
+          "unitPrice": {
+            "low": 7.95,
+            "high": 7.95,
+            "kind": "regular",
+            "note": "Exact single plate SKU 250016; twelve plates are $95.40 before tax/delivery. Full requested quantity not checked."
+          },
+          "availability": {
+            "status": "ready_to_ship",
+            "evidence": "Live Ship It quote arrives October 14–16 to ZIP 20878; the page also showed 69 in stock at Stanford. Stanford stock is not Maryland local stock. Near-term shipping supports ready-to-ship inference.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Arrives October 14–16, 2026; desired full quantity twelve not tested.",
+            "sourceUrl": "https://www.crateandbarrel.com/mercer-matte-white-porcelain-dinner-plate/s250016",
+            "method": "Root live official exact product page and ZIP delivery selection; selected SKU 250016."
+          },
+          "reason": "Organic texture quietly repeats the mineral walls at modest cost. Porcelain is dishwasher/microwave safe; matte finish can show utensil marks, so sample before buying a full service.",
+          "fitNotes": "This is a single dinner plate, not a full place setting. Twelve plates permit ten formal-dining guests and spares. Coordinate salad plates, bowls, mugs and cabinet storage after their separate stock checks.",
+          "phase": "move-in",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "250016"
+        },
+        {
+          "id": "mercer-serving",
+          "brand": "Crate & Barrel",
+          "name": "Mercer Matte White Porcelain Serving Bowl",
+          "url": "https://www.crateandbarrel.com/mercer-matte-white-porcelain-serving-bowl/s249992",
+          "role": "Serving / low tabletop accent",
+          "quantity": 1,
+          "finish": "Matte white porcelain",
+          "dimensions": "Exact diameter and height pending; select only if low enough for conversation",
+          "unitPrice": {
+            "low": 49.95,
+            "high": 49.95,
+            "kind": "retail",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Pending candidate only; recheck the exact current configuration price and stock. Exclude from selected-purchase totals.",
+            "regularReference": null
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Current official product listing observed, but exact stock/ZIP quote not exposed.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": null,
+            "delivery": null,
+            "sourceUrl": "https://www.crateandbarrel.com/mercer-matte-white-porcelain-serving-bowl/s249992",
+            "method": "Official product page via web search/open"
+          },
+          "reason": "Functional white servingware complements the creamy porcelain surfaces and costs less than decorative stone bowls; can hold fruit without adding a new accent color.",
+          "fitNotes": "Kitchen countertop or sunroom tabletop. Never fill with tall arrangements across seating sightlines; check exact depth before using a narrow dining ledge.",
+          "phase": "optional",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "249992"
+        }
+      ],
+      "supportingPlan": [
+        "The two approved island pendants and all fitted cabinetry stay in the electrical/build-out schedule. Their procurement must use the actual ceiling and island measurements.",
+        "Use one low fruit/serving bowl and working countertop space; do not clutter sightlines.",
+        "Window treatments follow the existing room-specific sheers/privacy plan; these are not generic curtain sizes."
+      ],
+      "purchaseNotes": [
+        "Measure counter height, overhang and island usable length before ordering four stools.",
+        "Nord has exact product-page stock evidence; ZIP 20878 delivery and quantity four still need a quote.",
+        "Mercer dinner plates have a current ZIP shipping quote. Its separate serving bowl is still a pending alternative."
+      ]
+    },
+    {
+      "id": "dining",
+      "designSummary": "A warm rectangular table with eight everyday chairs and ten occasional seats, tailored ivory upholstery and all five windows preserved. Keep the shallow 8-inch walnut ledge below the high central window; avoid a deep buffet.",
+      "comparisonToRh": "The RH Nicola Slope chair at $349 member sale is better value than the verified Crate Via at $463. A clean warm-wood retail table can avoid custom furniture cost; only exact stocked sizes that pass the room template qualify.",
+      "products": [
+        {
+          "id": "nicola-dining",
+          "brand": "RH",
+          "name": "Nicola Slope Fabric Dining Side Chair — stocked Natural",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33750094",
+          "role": "Daily dining chairs plus 2 spares",
+          "quantity": 10,
+          "finish": "Natural Performance Linen Weave; fully upholstered frame and legs. Sand stocked sibling.",
+          "dimensions": "22 in W × 23 in D × 32¾ in H; seat crown 18 in. Template with actual table and doors. Plan two office visitor chairs, eight everyday formal dining chairs plus two spares, and six sunroom chairs. Exact combined quantity remains to check.",
+          "unitPrice": {
+            "low": 349,
+            "high": 349,
+            "kind": "member_sale",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Regular reference $590.00; sale is a dated snapshot.",
+            "regularReference": 590
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact neutral variant appears in RH IN-STOCK modal; full requested quantities must be rechecked before ordering.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod33750094",
+            "method": "Reused official RH live stock check in docs/mineral-walnut-rh-stock.json",
+            "configuration": {
+              "fabric": "Performance Linen Weave",
+              "color": "Natural",
+              "sku": "10179035 NONA",
+              "stockedSibling": {
+                "color": "Sand",
+                "sku": "10179035 NOSN",
+                "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878."
+              }
+            },
+            "quantityNote": "Stocked variant checked; requested combined room quantities not reserved or fully verified."
+          },
+          "reason": "A slim armless, firmer-sit chair with tailored ivory fabric keeps the Mineral & Walnut room soft while the table supplies the walnut. It replaces unavailable Enzo without introducing chrome or bedroom accent colors.",
+          "fitNotes": "Physical samples, room template and delivery route remain to verify. ",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod33750094_E24622750076_TQ_RHR?"
+        },
+        {
+          "id": "aptos-88-108",
+          "brand": "Pottery Barn",
+          "name": "Aptos Extendable Dining Table — 88–108-inch candidate",
+          "url": "https://www.potterybarn.com/products/aptos-extending-dining-table/",
+          "role": "Formal dining table candidate",
+          "quantity": 1,
+          "finish": "Sandwash solid mango wood; physical undertone sample needed",
+          "dimensions": "88–108 family size observed; exact width, height, SKU and offered variant awaiting confirmation",
+          "unitPrice": null,
+          "availability": {
+            "status": "unverified",
+            "evidence": "Current official product listing observed, but exact stock/ZIP quote not exposed.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": null,
+            "delivery": null,
+            "sourceUrl": "https://www.potterybarn.com/products/aptos-extending-dining-table/",
+            "method": "Official product page via web search/open"
+          },
+          "reason": "Potential value lead if the larger variant is currently stocked. Its quiet wood structure works better with modern upholstered chairs than an ornate table. This is a pending candidate, not a selected purchase.",
+          "fitNotes": "Target maximum 108×40; planned 84 everyday can become 88 only after clearance template. The known SKU 2156478 is 70×40→90×40 at $1,599 and must NOT be assigned to this larger size. Seats 10/leaf and leg clearances for the 88 variant need actual verification.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [
+            "84×40 to 108×40 custom table planning placeholder"
+          ]
+        },
+        {
+          "id": "barley84-104",
+          "brand": "Pottery Barn",
+          "name": "Barley Extendable Dining Table — Walnut Brown 84–104 inches",
+          "url": "https://www.potterybarn.com/products/barley-extendable-dining-table/",
+          "imageUrl": "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202635/0403/barley-extendable-dining-table-78-103-j.jpg",
+          "role": "Formal extension table candidate",
+          "quantity": 1,
+          "finish": "Walnut Brown; meranti wood, MDF and walnut veneers",
+          "dimensions": "84 W × 38 D × 30 H inches closed; 104 W × 38 D × 30 H extended; one 20-inch drop-in leaf. Official seating capacity 6–10.",
+          "unitPrice": {
+            "low": 2199,
+            "high": 2199,
+            "kind": "regular",
+            "note": "Exact SKU 9380732, USD; excludes tax and white-glove delivery. No sale observed. Pending candidate only; recheck the exact current configuration price and stock. Exclude from selected-purchase totals."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Live exact SKU 9380732 at $2,199 quoted white-glove arrival October 23–November 6 to ZIP 20878. The stock container was blank, so the arrival range is not treated as confirmed stocked inventory.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Arrives October 23–November 6, 2026; stock status still unverified.",
+            "sourceUrl": "https://www.potterybarn.com/products/barley-extendable-dining-table/",
+            "method": "Root live exact product page and ZIP selection; no explicit inventory flag."
+          },
+          "reason": "Warm walnut and a narrow 38-inch top are a better fit for the room and tailored ivory chairs than a greywashed oversized table. Contract-grade construction; pending visual and stock approval.",
+          "fitNotes": "Use eight daily and ten occasionally at 104 inches. The 50-inch distance between legs needs a real chair template; confirm that ten fits without placing chair backs across terrace/hall routes.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [
+            "RH formal dining table"
+          ],
+          "sku": "9380732"
+        }
+      ],
+      "supportingPlan": [
+        "Use eight chairs daily and two matching spares for occasional gatherings.",
+        "Ten seats require usable space between table legs and a chair template; a retailer table rated for eight is not a ten-seat recommendation.",
+        "Bare oak is acceptable. A 9×12-foot rug suits the everyday layout but cannot guarantee all pulled-back chair legs remain on it at full extension.",
+        "Use a low arrangement on the walnut ledge; verify object depth within its 8-inch projection."
+      ],
+      "purchaseNotes": [
+        "The table candidates remain pending stock approval; do not order from a listing alone.",
+        "The $1,599 Aptos price belongs to a smaller checked SKU. It is not asserted for the larger 88→108-inch candidate.",
+        "A 42-inch table depth may be considered after measured clearance checks, but the narrower 38–40-inch options are preferable."
+      ]
+    },
+    {
+      "id": "living",
+      "designSummary": "A relaxed piano living room with a compact warm ivory sofa, one small sculptural chair, walnut coffee table, clear drapes and a slim warm reading lamp. The baby grand and bench determine circulation.",
+      "comparisonToRh": "The $2,299 Retreat gives a soft modern silhouette at substantially lower cost. The confirmed 96×40-inch RH Cloud at $5,795 member sale stays a comfort alternative. Tate’s clearance coffee table saves money for comfortable upholstery.",
+      "products": [
+        {
+          "id": "retreat94",
+          "brand": "Crate & Barrel",
+          "name": "Retreat 94-inch Sofa — Serene Ivory / Multi-Cushion",
+          "url": "https://www.crateandbarrel.com/retreat-94-sofa/f1027609",
+          "role": "Main sofa",
+          "quantity": 1,
+          "finish": "Serene fabric in Ivory",
+          "dimensions": "94 W × 44 D × 28.5 H inches",
+          "unitPrice": {
+            "low": 2299,
+            "high": 2299,
+            "kind": "retail",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery.",
+            "regularReference": null
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Selected Stocked Serene Ivory SKU 172631: In stock. Ready to schedule delivery. ZIP 20878 verified live.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready to schedule delivery; no dated appointment quoted.",
+            "sourceUrl": "https://www.crateandbarrel.com/retreat-94-sofa/f1027609",
+            "method": "Parent live browser product/fabric panel and ZIP availability, October 9"
+          },
+          "reason": "Best value lead for the requested soft but supportive seat with a tidy modern shape. Polyfoam support with a fiber/feather-down wrap, sinuous springs and USA construction; compare in person against Modena.",
+          "fitNotes": "94-inch length is appropriate for the ~96-inch intended sofa, but44-inch depth isfour more thanRHCloud Classic 40. Template with ~5-foot baby grand, actual bench travel, chair swivel, dining and stair routes before selecting. No119-inch modularsofa here.",
+          "phase": "move-in",
+          "decision": "recommended",
+          "replaces": [
+            "Cloud 2-Cushion Sofa"
+          ],
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/Retreat94inSofaSOSSS24_3D?%24web_pdp_main_carousel_thumb_med%24=",
+          "sku": "172631"
+        },
+        {
+          "id": "cloud96",
+          "brand": "RH",
+          "name": "Cloud 2-Cushion Sofa — current stocked 8-foot Natural",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6490263",
+          "role": "Premium sofa comparison",
+          "quantity": 1,
+          "finish": "Natural Performance Linen Weave",
+          "dimensions": "96 W × 40 D × 32 H inches; frame height 24, seat height 19. Current RH dimensions verified.",
+          "unitPrice": {
+            "low": 5795,
+            "high": 5795,
+            "kind": "member_sale",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Regular reference $8,280.00; sale is a dated snapshot.",
+            "regularReference": 8280
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact SKU in live RH IN-STOCK modal. Quantity increase disabled at one. Current Dimensions: 96 W ×40 D ×32 H, frame height 24, seat 19.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6490263",
+            "method": "Reused official RH live stock check in docs/mineral-walnut-rh-stock.json",
+            "configuration": {
+              "width": "8 feet / 96 inches",
+              "depth": "Classic 40 inches",
+              "fabric": "Performance Linen Weave",
+              "color": "Natural",
+              "sku": "10269015 NONA",
+              "maxSelectableQuantity": 1
+            },
+            "quantityNote": "Stocked variant checked; requested combined room quantities not reserved or fully verified."
+          },
+          "reason": "Current fixed-width edition of the original Cloud sofa. The 8-foot Classic configuration maintains the intended sofa length and leaves more room than deeper Luxe variants for the baby grand, bench and circulation.",
+          "fitNotes": "Physical samples, room template and delivery route remain to verify. ",
+          "phase": "optional",
+          "decision": "alternative",
+          "replaces": [],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod6490266_E46747666_F_Frank_CO20_RHR?src=rhir/obj=Fabric&src=rhir/1808002_E23321146939_Natural_CO25_repeat&res=300&illum=0&obj=Fabric&req=object&illum=0)&wid=461&$PDP-IR-768$"
+        },
+        {
+          "id": "shelter-chair",
+          "brand": "RH",
+          "name": "1950s Italian Shelter Arm Swivel Chair — current stocked edition",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+          "role": "Optional compact accent chair",
+          "quantity": 1,
+          "finish": "Natural Performance Linen Weave; Sand stocked sibling available",
+          "dimensions": "31 in W × 32½ in D × 30 in H; seat 18 in H. Allow full swivel clearance.",
+          "unitPrice": {
+            "low": 1245,
+            "high": 1245,
+            "kind": "member_sale",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Regular reference $2,100.00; sale is a dated snapshot.",
+            "regularReference": 2100
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact variant shown in RH IN-STOCK modal. Availability is a dated snapshot, not a reservation.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+            "method": "Reused official RH live stock check in docs/mineral-walnut-rh-stock.json",
+            "configuration": {
+              "depth": "Classic 32½ in",
+              "fabric": "Performance Linen Weave",
+              "color": "Natural",
+              "sku": "61060801 NONA",
+              "stockedSibling": {
+                "color": "Sand",
+                "sku": "61060801 NOSN",
+                "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878."
+              }
+            },
+            "quantityNote": "Stocked variant checked; requested combined room quantities not reserved or fully verified."
+          },
+          "reason": "A compact sculptural swivel chair is an optional luxury after the sofa, piano and circulation are settled. Reusing the great-room chair creates continuity, but it is not necessary for the value-first move-in plan.",
+          "fitNotes": "Physical samples, room template and delivery route remain to verify. ",
+          "phase": "optional",
+          "decision": "alternative",
+          "replaces": [],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod20580100_E414854120_TQ_CC_RHR?"
+        },
+        {
+          "id": "tate48",
+          "brand": "Crate & Barrel",
+          "name": "Tate Walnut 48-inch Storage Coffee Table",
+          "url": "https://www.crateandbarrel.com/tate-walnut-wood-48-rectangular-storage-coffee-table/s259126",
+          "role": "Coffee table",
+          "quantity": 1,
+          "finish": "Warm brown Tate Walnut finish; walnut veneer over poplar/engineered wood",
+          "dimensions": "48 W × 24 D × 17 H inches; exact SKU 259126 verified in the live Dimensions accordion.",
+          "unitPrice": {
+            "low": 699.99,
+            "high": 699.99,
+            "kind": "clearance",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Regular reference $899.00; sale is a dated snapshot.",
+            "regularReference": 899
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact walnut SKU 259126: In stock. Ready to schedule delivery. ZIP 20878 checked live.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready to schedule delivery; date not quoted.",
+            "sourceUrl": "https://www.crateandbarrel.com/tate-walnut-wood-48-rectangular-storage-coffee-table/s259126",
+            "method": "Root live official product page, ZIP 20878 and expanded Dimensions accordion on October 9.",
+            "configuration": {
+              "sku": "259126",
+              "finish": "Walnut",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "A useful sale purchase with real walnut veneer, discreet full-extension drawer and sculptural tapered legs; substantial savings over RH coffee tables without copying the cabinetry.",
+          "fitNotes": "The 48×24-inch footprint fits the piano-room planning target and is slightly shorter than the original 50–54-inch great-room target. At 17 inches high, confirm comfort with the actual sofa seat height. Tape the table, chair swivel and terrace/piano access before ordering.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Gael Walnut Rectangular Coffee Table",
+            "Enzo Coffee Table"
+          ],
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/TateCoffeeTableWlntSOSSS23_3D?%24web_pdp_main_carousel_thumb_med%24=",
+          "sku": "259126"
+        },
+        {
+          "id": "hayden-bronze",
+          "brand": "Pottery Barn",
+          "name": "Hayden Metal Floor Lamp — Bronze 52-inch candidate",
+          "url": "https://www.potterybarn.com/products/hayden-metal-floor-lamp/",
+          "role": "Reading/task lamp",
+          "quantity": 1,
+          "finish": "Bronze dark metal / white cotton shade",
+          "dimensions": "8-inch diameter × 52 H inches; shade 8-inch diameter × 10 H",
+          "unitPrice": {
+            "low": 249,
+            "high": 249,
+            "kind": "retail",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Pending candidate only; recheck the exact current configuration price and stock. Exclude from selected-purchase totals.",
+            "regularReference": null
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Current official product listing observed, but exact stock/ZIP quote not exposed.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": null,
+            "delivery": null,
+            "sourceUrl": "https://www.potterybarn.com/products/hayden-metal-floor-lamp/",
+            "method": "Official product page via web search/open"
+          },
+          "reason": "A slim inexpensive lamp keeps the piano living room airy while providing a reading pool of warm light. More money can stay in comfortable seating.",
+          "fitNotes": "Exact Bronze SKU stock needs checking. Dry indoor lamp, E26 bulb separately sold; confirm its small reading shade directs light where wanted, not into pianist eyes.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": []
+        },
+        {
+          "id": "prato8",
+          "brand": "Crate & Barrel",
+          "name": "Prato Performance Wool Ivory Area Rug — 8×10 feet",
+          "url": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-8x10/s189362",
+          "role": "Piano living-room rug candidate",
+          "quantity": 1,
+          "finish": "Ivory; 55%wool 25%polyester 20%viscose",
+          "dimensions": "8 × 10 ft.",
+          "unitPrice": {
+            "low": 1499,
+            "high": 1499,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "ready_to_ship",
+            "evidence": "Ship It showedOct 16–17 arrival to 20878; near-term shipping quote supports ready-to-ship inference, no literal inventory flag.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "ArrivesOct 16–17, 2026.",
+            "sourceUrl": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-8x10/s189362",
+            "method": "Root live official product page with configuration and ZIP 20878 selected.",
+            "configuration": {
+              "sku": "189362",
+              "finish": "Ivory;55% wool, 25% polyester, 20% viscose",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "Tonal ivory texture complements the stone, mineral walls and walnut without adding a colored accent.",
+          "fitNotes": "Position against the actual piano and bench dimensions; do not trap casters or create an edge under bench travel. The 8×10-foot size is a conditional template, not a guarantee in the narrow 11-foot-4 room. Wool/polyester/viscose blend; follow care directions.",
+          "phase": "optional",
+          "decision": "alternative",
+          "replaces": [
+            "Textura Twist Wool Rug—Marled"
+          ],
+          "sku": "189362",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ],
+      "supportingPlan": [
+        "This room is plan-derived. Measure the actual piano, bench and entry routes before furniture ordering.",
+        "Use the compact sofa footprint rather than the 119-inch media-room Cloud. Keep piano casters and bench clear of rug edges.",
+        "The 8×10-foot Prato is a measured-fit alternative, not an automatic purchase. Position the loose rug around the actual instrument and seat footprints.",
+        "A linen/flax throw and restrained neutral pillows complete the room once stocked variants are checked."
+      ],
+      "purchaseNotes": [
+        "Furnish the essential great-room seating first; this secondary sitting room can follow.",
+        "Only one RH Cloud unit was selectable at the October 9 stock check.",
+        "Hayden Bronze remains pending exact SKU stock proof."
+      ]
+    },
+    {
+      "id": "sunroom",
+      "designSummary": "An airy six-seat dining sunroom with a slim warm-neutral rectangular table, ivory seating, clear drapes and the approved dark/opal light. Preserve knee walls, transoms, windows, terrace door and oven access.",
+      "comparisonToRh": "RH Slope at $349 member sale remains good value. Via Toffee at $463 sale offers a narrower walnut-framed alternative. Arhaus Parsons 72-inch Abanos is confirmed stocked at $3,100, with a conditional six-chair fit at 38-inch depth. The narrower $799 Winslet is the preferred value candidate if its actual inventory is confirmed.",
+      "products": [
+        {
+          "id": "parsons-abano72",
+          "brand": "Arhaus",
+          "name": "Parsons 72-inch Dining Table — Abanos, conditional stocked fallback",
+          "url": "https://www.arhaus.com/collections/dining/products/parsons-dining-table?variant=43140705845419",
+          "imageUrl": "https://cdn.arhaus.com/product/images/30PRSA72TBKT_XBU250626.jpg?preset=pdp",
+          "role": "Sunroom six-seat table; measured fit approval required",
+          "quantity": 1,
+          "finish": "Abanos warm dark neutral; solid oak and oak veneer. Confirm undertone with a physical sample.",
+          "dimensions": "72 W × 38 D × 30 H inches; actual opening between the four corner legs must be measured.",
+          "unitPrice": {
+            "low": 3100,
+            "high": 3100,
+            "kind": "regular",
+            "note": "Current exact SKU 30PRSA72TBKT, USD; excludes tax and delivery. No assumed promotional discount."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact 72-inch Abanos SKU 30PRSA72TBKT showed In Stock on the official live product page. Official product API variant 43140705845419 returned available=true.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": null,
+            "delivery": "In stock; delivery date to ZIP 20878 was not quoted.",
+            "sourceUrl": "https://www.arhaus.com/collections/dining/products/parsons-dining-table?variant=43140705845419",
+            "method": "Root live official selected product variant plus official product API.",
+            "configuration": {
+              "sku": "30PRSA72TBKT",
+              "variant": "43140705845419",
+              "finish": "Abanos",
+              "size": "72 inches",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "A clean substantial warm-oak table keeps the Mineral & Walnut style cohesive and supplies a confirmed stocked fallback. It costs more than the pending $799 Winslet, so choose it only if timing requires a stocked table and the measured six-chair layout passes.",
+          "fitNotes": "Conditional recommendation; do not order before approval. The 38-inch depth is 4 inches greater than the original 34-inch planning target. Within the 111-inch room width, a centered table leaves 36.5 inches per side before chairs and obstructions, compared with 38.5 inches originally. Four corner legs should suit two 22-inch chairs along each long side, but verify the actual leg opening, apron/knee clearance and chair template. Protect oven access, terrace door travel and the full six-chair pullback route.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "72×34-inch custom-concept sunroom table"
+          ],
+          "sku": "30PRSA72TBKT",
+          "conditional": true
+        },
+        {
+          "id": "nicola-dining",
+          "brand": "RH",
+          "name": "Nicola Slope Fabric Dining Side Chair — stocked Natural",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33750094",
+          "role": "Six daily dining chairs",
+          "quantity": 6,
+          "finish": "Natural Performance Linen Weave; fully upholstered frame and legs. Sand stocked sibling.",
+          "dimensions": "22 in W × 23 in D × 32¾ in H; seat crown 18 in. Template with actual table and doors. Plan two office visitor chairs, eight everyday formal dining chairs plus two spares, and six sunroom chairs. Exact combined quantity remains to check.",
+          "unitPrice": {
+            "low": 349,
+            "high": 349,
+            "kind": "member_sale",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Regular reference $590.00; sale is a dated snapshot.",
+            "regularReference": 590
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact neutral variant appears in RH IN-STOCK modal; full requested quantities must be rechecked before ordering.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod33750094",
+            "method": "Reused official RH live stock check in docs/mineral-walnut-rh-stock.json",
+            "configuration": {
+              "fabric": "Performance Linen Weave",
+              "color": "Natural",
+              "sku": "10179035 NONA",
+              "stockedSibling": {
+                "color": "Sand",
+                "sku": "10179035 NOSN",
+                "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878."
+              }
+            },
+            "quantityNote": "Stocked variant checked; requested combined room quantities not reserved or fully verified."
+          },
+          "reason": "A slim armless, firmer-sit chair with tailored ivory fabric keeps the Mineral & Walnut room soft while the table supplies the walnut. It replaces unavailable Enzo without introducing chrome or bedroom accent colors.",
+          "fitNotes": "Physical samples, room template and delivery route remain to verify. ",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod33750094_E24622750076_TQ_RHR?"
+        },
+        {
+          "id": "via-toffee",
+          "brand": "Crate & Barrel",
+          "name": "Via Toffee Velvet Walnut Dining Chair",
+          "url": "https://www.crateandbarrel.com/via-toffee-brown-velvet-walnut-wood-dining-chair/s139280",
+          "role": "Compact dining chair alternative",
+          "quantity": 6,
+          "finish": "Covet fabric Toffee / natural walnut wood",
+          "dimensions": "18 W × 22.5 D × 30.5 H inches",
+          "unitPrice": {
+            "low": 463,
+            "high": 463,
+            "kind": "sale",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Regular reference $579.00; sale is a dated snapshot.",
+            "regularReference": 579
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact Toffee / Natural Walnut SKU 139280 says In stock. Ready to schedule delivery. ZIP blank in web view.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": null,
+            "delivery": "Ready to schedule delivery;20878 and quantity six pending.",
+            "sourceUrl": "https://www.crateandbarrel.com/via-toffee-brown-velvet-walnut-wood-dining-chair/s139280",
+            "method": "Fresh official exact product page via web, October 9"
+          },
+          "reason": "Slim 18-inch width and visible walnut frame offer another way to bring warmth into the sunroom. More costly than Nicola but compact; Toffee is a quiet brown, not a colorful bedroom accent.",
+          "fitNotes": "Brown velvet is a visible shift from the preferred ivory dining seats, so retain as alternative. The ivory Sugar version is not verified and must not inherit Toffee stock. Template 72×34-inch table, six-chair pullback and terrace route.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [
+            "Enzo Fabric Dining Side Chair"
+          ],
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/ViaVlvtDngChairTffBrn3QSSS25?%24web_pdp_main_carousel_thumb_med%24=",
+          "sku": "139280"
+        },
+        {
+          "id": "mercer-serving",
+          "brand": "Crate & Barrel",
+          "name": "Mercer Matte White Porcelain Serving Bowl",
+          "url": "https://www.crateandbarrel.com/mercer-matte-white-porcelain-serving-bowl/s249992",
+          "role": "Serving / low tabletop accent",
+          "quantity": 1,
+          "finish": "Matte white porcelain",
+          "dimensions": "Exact diameter and height pending; select only if low enough for conversation",
+          "unitPrice": {
+            "low": 49.95,
+            "high": 49.95,
+            "kind": "retail",
+            "note": "Exact displayed configuration, USD; excludes tax/delivery. Pending candidate only; recheck the exact current configuration price and stock. Exclude from selected-purchase totals.",
+            "regularReference": null
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Current official product listing observed, but exact stock/ZIP quote not exposed.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": null,
+            "delivery": null,
+            "sourceUrl": "https://www.crateandbarrel.com/mercer-matte-white-porcelain-serving-bowl/s249992",
+            "method": "Official product page via web search/open"
+          },
+          "reason": "Functional white servingware complements the creamy porcelain surfaces and costs less than decorative stone bowls; can hold fruit without adding a new accent color.",
+          "fitNotes": "Kitchen countertop or sunroom tabletop. Never fill with tall arrangements across seating sightlines; check exact depth before using a narrow dining ledge.",
+          "phase": "optional",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "249992"
+        },
+        {
+          "id": "winslet72",
+          "brand": "Pottery Barn",
+          "name": "Winslet Dining Table — Mist 72 inches",
+          "url": "https://www.potterybarn.com/products/winslet-dining-table/",
+          "role": "Sunroom six-seat table candidate",
+          "quantity": 1,
+          "finish": "Mist; poplar/rubberwood, MDF and oak veneer. Warm undertone must be checked in person.",
+          "dimensions": "72 W × 33 D × 30 H inches; between legs 66 inches along the table and 27 inches front to back.",
+          "unitPrice": {
+            "low": 799,
+            "high": 799,
+            "kind": "regular",
+            "note": "Exact indexed SKU 8328164; USD, tax and delivery excluded. No sale observed. Pending candidate only; recheck the exact current configuration price and stock. Exclude from selected-purchase totals."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Live exact Mist SKU 8328164 at $799 quoted October 25–November 8 to ZIP 20878, but no explicit stock label was shown. This delivery range alone does not confirm stocked inventory.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Arrives October 25–November 8, 2026; inventory status still unverified.",
+            "sourceUrl": "https://www.potterybarn.com/products/winslet-dining-table/",
+            "method": "Root live official exact product page, selected Mist72 SKU and ZIP 20878; no explicit stock flag."
+          },
+          "reason": "A useful narrow value table that fits six seats within the compact sunroom instead of forcing a larger dining table. Its Mist finish should remain a warm neutral beside the walnut and creamy mineral palette.",
+          "fitNotes": "At 33-inch depth, the 111-inch room width leaves 39 inches each side before chairs/obstructions. Tape all six chairs, leg positions, terrace door and oven route. Reject if the physical finish reads cold grey.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [
+            "RH Sunroom 72×34-inch dining table"
+          ],
+          "sku": "8328164"
+        },
+        {
+          "id": "terra65-warm-brown",
+          "brand": "Crate & Barrel",
+          "name": "Terra 65-inch Warm Brown Oak Dining Table — fit-check alternative",
+          "url": "https://www.crateandbarrel.com/terra-65-warm-brown-oak-solid-wood-dining-table/s365623",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/TerraWrmBrwn65inDngTbl3QSSS25?$web_pdp_main_carousel_thumb_high$",
+          "role": "Stocked sunroom table alternative; six-chair fit unresolved",
+          "quantity": 1,
+          "finish": "Warm Brown; FSC-certified solid white oak, hand-sanded and finished",
+          "dimensions": "65 W × 37 D × 30 H inches; apron clearance 25.6 inches; width between legs 31 inches.",
+          "unitPrice": {
+            "low": 2199,
+            "high": 2199,
+            "kind": "regular",
+            "note": "Current exact SKU 365623, USD; tax and delivery excluded. No sale observed."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact Warm Brown 65 SKU 365623 showed In stock. Ready to schedule delivery. ZIP 20878 verified live.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready to schedule delivery; appointment date not recorded.",
+            "sourceUrl": "https://www.crateandbarrel.com/terra-65-warm-brown-oak-solid-wood-dining-table/s365623",
+            "method": "Root live official exact product page, ZIP selection and expanded Dimensions accordion.",
+            "configuration": {
+              "sku": "365623",
+              "finish": "Warm Brown",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "A stocked warm-brown solid-oak option with a simple substantial form. Its shorter length improves end clearance, but its leg geometry is more important than the retailer’s general six-seat capacity.",
+          "fitNotes": "Stock verified, seating layout not approved. Compared with the 72×34-inch plan, it is 7 inches shorter and 3 inches deeper. Centered nominal gaps are 41 inches at the ends and 37 inches along the sides before chairs/obstructions. The 31-inch opening between the legs does not accept two 22-inch Nicola chairs side by side; do not order the six-chair scheme without actual leg/chair templates. A slimmer chair may still need positioning around the legs. Protect oven and terrace access.",
+          "phase": "optional",
+          "decision": "alternative",
+          "replaces": [
+            "72×34-inch custom-concept sunroom table"
+          ],
+          "sku": "365623"
+        }
+      ],
+      "supportingPlan": [
+        "Use a 72-inch table with two chairs along each long side and one at each end.",
+        "The original target is 72×34 inches. Stocked Parsons at 72×38 is conditional: within the 111-inch room width, it leaves 36.5 inches per side before chairs and obstructions. The pending Winslet at 72×33 leaves 39 inches.",
+        "Protect terrace door travel and the oven/working route. Keep one low bowl or small plant on the tabletop.",
+        "Keep the room-specific sheer/privacy treatment rather than assuming decorative sheers alone provide nighttime privacy."
+      ],
+      "purchaseNotes": [
+        "Parsons is a confirmed stocked fallback, not an automatic order. Approve the exact six-chair template and finish sample first. Do not assume a promotional reduction from the current $3,100 price.",
+        "Winslet is a promising exact narrow footprint, but current stock and the warm undertone of Mist remain to verify.",
+        "The 22-inch Nicola and 18-inch Via require different table-leg and chair-pullback templates.",
+        "The ivory Sugar Via must not inherit the checked Toffee SKU’s stock.",
+        "Terra is stocked but is a fit-check alternative only. Its narrow opening between legs prevents treating the six Nicola chairs as a verified layout."
+      ]
+    }
+  ],
+  "gaps": [
+    "Formal and sunroom table: exact current stocked size/finish and ZIP 20878 quote pending live verification.",
+    "Living-room instrument/bench template, counter stool seat height and full coffee table dimensions before order.",
+    "Exact stocked neutral pillows, throws and smallwares; pending alternatives are not current selected purchases.",
+    "Combined chair/sofa quantities and delivery scheduling after November 3 possession."
+  ],
+  "rejectedCandidates": [
+    {
+      "name": "PB North 84–100",
+      "url": "https://www.potterybarn.com/products/north-reclaimed-wood-extending-dining-table/",
+      "reason": "Current official page says No Longer Available."
+    },
+    {
+      "name": "PB Bolinas 84–104",
+      "url": "https://www.potterybarn.com/products/bolinas-extendable-dining-table/",
+      "reason": "Official capacity 6–8; does not satisfy ten occasional seats."
+    },
+    {
+      "name": "C&B Tate 78–114 dining table",
+      "url": "https://www.crateandbarrel.com/tate-78-114-walnut-extendable-mid-century-dining-table/s683452",
+      "reason": "Official capacity 6–8 and fully extended 114 exceeds the 108-inch room target."
+    },
+    {
+      "name": "Arhaus Jacob 72 Walnut/Vertex",
+      "url": "https://www.arhaus.com/collections/dining/products/jacob-dining-table-with-vertex-base",
+      "reason": "Exact 72×36 fits sunroom concept, but current official default says In Stock in 4 weeks. Excluded from stocked-only recommendations."
+    },
+    {
+      "name": "PB Aldon 72",
+      "url": "https://www.potterybarn.com/products/aldon-fixed-dining-table/",
+      "reason": "40-inch depth is wider than the sunroom 34-inch plan and preferred 36-inch conditional limit."
+    },
+    {
+      "name": "C&B Ibiza 84–103 extension table",
+      "url": "https://www.crateandbarrel.com/ibiza-84-103-oak-wood-4-way-extendable-dining-table/s626487",
+      "reason": "Current exact SKU 626487 at $1,999.94 final-sale clearance returned a contact estimate of October 22 for ZIP 20878 and Shop Similar Items In Stock, not literal current stock. Excluded from stock-only recommendations; full four-way expanded depth also needs checking."
+    },
+    {
+      "name": "C&B Hearth 85–107 extension table",
+      "url": "https://www.crateandbarrel.com/hearth-85-107-oak-extendable-dining-table/s476381",
+      "reason": "Official capacity six to eight; does not meet ten occasional seats."
+    }
+  ],
+  "qa": {
+    "checkedAt": "2026-10-09",
+    "checks": [
+      "All five assigned social rooms present.",
+      "Every recommended product has exact official in-stock or ready-to-ship evidence.",
+      "Pending inventory candidates remain alternatives, not selected purchases.",
+      "Tate48 and Terra65 retain current exact SKU, price, ZIP and full dimensions.",
+      "Formal ten-seat and sunroom six-seat table fit gaps are disclosed; no eight-seat table relabeled ten.",
+      "RH-only consultation and original suggestions were not edited.",
+      "No fabricated product image URLs; image URLs are observed official retailer assets.",
+      "Parsons72 Abanos has exact official stock proof and a disclosed conditional 38-inch-depth fit; no assumed sale or ZIP delivery date."
+    ],
+    "remaining": [
+      "Formal ten-seat table inventory remains pending. Stocked sunroom Parsons still requires physical six-chair clearance and finish approval; narrower Winslet remains pending inventory confirmation.",
+      "Current combined multi-room quantities and delivery appointments are not reserved.",
+      "Stocked exact pillows/throws, some smallware dimensions and selected stool seat height need final procurement confirmation."
+    ]
+  }
+}

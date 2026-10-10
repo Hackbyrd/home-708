@@ -1,0 +1,697 @@
+[
+  {
+    "index": 70112,
+    "roomId": "ownerbed",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/ownerbed-ob1-day-30512.png",
+    "sourceJobId": "c19dd8f4-ec7c-40fc-aafe-d8873b920890",
+    "productReferences": [
+      {
+        "id": "lawson-king",
+        "name": "Lawson Fabric Panel Bed \u2014 stocked low king",
+        "quantity": 1,
+        "finish": "Natural Performance Linen Weave",
+        "dimensions": "80 W \u00d7 85.25 L \u00d7 48 H in; without storage; 1-inch underframe clearance.",
+        "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod22040025_E98917281_TQ_Frank_CC_CO26_Linen_RHR?src=rhir/obj=Fabric&src=rhir/1808002_E23321146939_Natural_CO25_repeat&res=300&illum=0&obj=Fabric&req=object&illum=0&bOId=(82000042)eOId)&wid=461&$PDP-IR-768$"
+      },
+      {
+        "id": "prato9",
+        "name": "Prato Performance Wool Ivory Area Rug 9 \u00d7 12",
+        "quantity": 1,
+        "finish": "Ivory; 55%wool 25%polyester 20%viscose",
+        "dimensions": "9 \u00d7 12 ft.",
+        "imageUrl": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24="
+      }
+    ],
+    "notes": [
+      "Generated product geometry is illustrative, not a manufacturer CAD model or verified fit. Field dimensions, exact SKU and physical samples govern ordering.",
+      "Lawson stocked low king has one-inch underframe clearance; under-bed LED retrofit is not represented or verified. Wall-hung bedside lighting retained separately."
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic room-setting interior-design furniture study, as a conservative IMAGE EDIT of the FIRST supplied approved Mineral & Walnut room image. Preserve its complete composition, camera viewpoint, lens, perspective, room dimensions, wall positions, all window and door openings, actual ceiling profile, fixed joinery, plumbing, and circulation. Do not enlarge the room to fit products. Where a second original model-home photograph is supplied, use it ONLY to cross-check the real architecture and view outdoors; do not copy its old furniture, carpets, colors or finishes. Later supplied product photographs are isolated furniture-shape references ONLY, never new room layouts. Match the stated selected finish if a catalog image shows another finish. Render the objects naturally in the approved room, correctly scaled and grounded, not a product collage.\nMaintain the pure Option 1 MINERAL & WALNUT scheme: warm ivory and mushroom mineral walls, matte pale neutral natural oak floors in dry living/bedroom areas, rich warm walnut fitted joinery, ivory/oatmeal/charcoal soft furnishings, slim dark artwork frames and understated dark fittings, green only through plants. Keep existing suitable pale porcelain wet-area floors. This is NOT Cocoa & Chrome: no polished chrome furniture strips, no blue/yellow palette, no colorful bedroom throws. No wall-to-wall carpet in any bedroom and NO stair runners. Preserve original light doors and ceiling, no invented coves/trays/skylights/new fireplaces. Beautiful natural daylight with realistic shadows, refined tactile materials and restrained styling, realistic furniture proportions and joinery. Views through glass remain Crown, Gaithersburg townhouse streets, neighboring mansard roofs and nearby mid-rise apartments, never countryside, mountains, ocean or skyscrapers. No people, pets, watermark, logos, labels, captions or fabricated text; retain only an explicitly existing requested wall quote. Complete full-frame architectural view, landscape 3:2, at least 1536 px long edge. Do not crop away critical openings.\n\nINPUT ORDER:\nImage 1: approved current Mineral & Walnut room; composition, layout and fixed finishes control.\nImage 2: original model-home architecture only, never old furniture/palette.\nImage 3: RH Lawson Fabric Panel Bed \u2014 stocked low king reference, selected finish Natural Performance Linen Weave; furniture/object shape only, not room architecture.\nImage 4: Crate & Barrel Prato Performance Wool Ivory Area Rug 9 \u00d7 12 reference, selected finish Ivory; 55%wool 25%polyester 20%viscose; furniture/object shape only, not room architecture.\n\nROOM-SPECIFIC EDIT:\nOWNERS SUITE: Keep the 16 x 17 ft room, bed along the source's RIGHT solid wall, the ONE mulled FOUR-sash rear window group, source dresser below that group, and the separate 55-inch wall TV with slim soundbar on the solid LEFT wall opposite the bed. Keep the low walnut headwall band, two floating walnut bedside boxes, paired neutral black-framed artworks above the headboard, left-side dresser and every route to retreat/bath/closet. Replace only the bed with RH Lawson Fabric Panel Bed, LOW KING, 80 W x 85.25 L x 48 H inches, without storage, Natural Performance Linen Weave: simple broad rectangular upholstered panel headboard, smooth ivory linen upholstery, clean low upholstered rails, no wingback, no channeling, no canopy, no extra decorative feet. Its actual underframe clearance is approximately ONE INCH: do NOT make it float high and do NOT add a glowing under-bed LED band; a subtle concealed underside light under the EXISTING wall-hung bedside boxes may remain. Neutral white/ivory layered bedding and oatmeal throw are planning textiles rather than selected retail SKUs. Place C&B Prato Ivory 9 x 12 ft loose rectangular textured rug under the bed, leaving a visible pale-oak border; do not cover the whole floor. Replace any former colored bedding with neutral layers. At the complete four-sash group show ivory sheers with separately stacked fully closing oatmeal blackout curtains; keep both tracks and operable clearance visible. The 55-inch TV/soundbar stays on the solid wall, never across the window.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "c19dd8f4-ec7c-40fc-aafe-d8873b920890"
+        },
+        {
+          "role": "image",
+          "value": "7ca8c112-2a41-4404-961b-d822b2ef471a"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod22040025_E98917281_TQ_Frank_CC_CO26_Linen_RHR?src=rhir/obj=Fabric&src=rhir/1808002_E23321146939_Natural_CO25_repeat&res=300&illum=0&obj=Fabric&req=object&illum=0&bOId=(82000042)eOId)&wid=461&$PDP-IR-768$"
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ]
+    }
+  },
+  {
+    "index": 70113,
+    "roomId": "retreat",
+    "sourceFile": "docs/design-review-assets/rh-house/retreat-current-seating.webp",
+    "sourceJobId": "5965cb07-cf05-43eb-9304-1b8389311997",
+    "productReferences": [
+      {
+        "id": "shelter-chair",
+        "name": "1950s Italian Shelter Arm Swivel Chair \u2014 current stocked edition",
+        "quantity": 2,
+        "finish": "Natural Performance Linen Weave; Sand stocked sibling available",
+        "dimensions": "31 W \u00d7 32.5 D \u00d7 30 H in; seat 18 H.",
+        "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod20580100_E414854120_TQ_CC_RHR?"
+      },
+      {
+        "id": "enzo-side18",
+        "name": "Enzo Square Side Table \u2014 stocked 18-inch Caramel Walnut",
+        "quantity": 1,
+        "finish": "Caramel Walnut",
+        "dimensions": "18 W \u00d7 18 D \u00d7 20 H in; 48 lb.",
+        "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+      }
+    ],
+    "notes": [
+      "Generated product geometry is illustrative, not a manufacturer CAD model or verified fit. Field dimensions, exact SKU and physical samples govern ordering."
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic room-setting interior-design furniture study, as a conservative IMAGE EDIT of the FIRST supplied approved Mineral & Walnut room image. Preserve its complete composition, camera viewpoint, lens, perspective, room dimensions, wall positions, all window and door openings, actual ceiling profile, fixed joinery, plumbing, and circulation. Do not enlarge the room to fit products. Where a second original model-home photograph is supplied, use it ONLY to cross-check the real architecture and view outdoors; do not copy its old furniture, carpets, colors or finishes. Later supplied product photographs are isolated furniture-shape references ONLY, never new room layouts. Match the stated selected finish if a catalog image shows another finish. Render the objects naturally in the approved room, correctly scaled and grounded, not a product collage.\nMaintain the pure Option 1 MINERAL & WALNUT scheme: warm ivory and mushroom mineral walls, matte pale neutral natural oak floors in dry living/bedroom areas, rich warm walnut fitted joinery, ivory/oatmeal/charcoal soft furnishings, slim dark artwork frames and understated dark fittings, green only through plants. Keep existing suitable pale porcelain wet-area floors. This is NOT Cocoa & Chrome: no polished chrome furniture strips, no blue/yellow palette, no colorful bedroom throws. No wall-to-wall carpet in any bedroom and NO stair runners. Preserve original light doors and ceiling, no invented coves/trays/skylights/new fireplaces. Beautiful natural daylight with realistic shadows, refined tactile materials and restrained styling, realistic furniture proportions and joinery. Views through glass remain Crown, Gaithersburg townhouse streets, neighboring mansard roofs and nearby mid-rise apartments, never countryside, mountains, ocean or skyscrapers. No people, pets, watermark, logos, labels, captions or fabricated text; retain only an explicitly existing requested wall quote. Complete full-frame architectural view, landscape 3:2, at least 1536 px long edge. Do not crop away critical openings.\n\nINPUT ORDER:\nImage 1: approved current Mineral & Walnut room; composition, layout and fixed finishes control.\nImage 2: original model-home architecture only, never old furniture/palette.\nImage 3: RH 1950s Italian Shelter Arm Swivel Chair \u2014 current stocked edition reference, selected finish Natural Performance Linen Weave; Sand stocked sibling available; furniture/object shape only, not room architecture.\nImage 4: RH Enzo Square Side Table \u2014 stocked 18-inch Caramel Walnut reference, selected finish Caramel Walnut; furniture/object shape only, not room architecture.\n\nROOM-SPECIFIC EDIT:\nOWNERS RETREAT: Preserve the approved seating-view composition and 12 ft 3 x 10 ft nook, existing fitted walnut coffee/wine bar and counter on LEFT with sink, cabinetry, beverage refrigerator and upper cupboards, open bedroom connection, and white double-hung windows wrapping TWO exterior walls (two units on each wall in the actual nook). Keep any existing terrace French door an operable door and do not add an opening where this source angle does not show one. Remove BOTH long chaises from the seating nook and replace them with TWO RH 1950s Italian Shelter Arm SWIVEL CHAIRS, Natural Performance Linen Weave, each 31 W x 32.5 D x 30 H inches, seat 18 H: compact enveloping curved shelter arms and back around a tailored ivory seat, concealed swivel base, NOT a chaise and NOT a giant barrel chair. Arrange the pair comfortably facing slightly toward the room, in the same back-window seating zone, with ONE RH Enzo square side table BETWEEN them, Caramel Walnut 18 W x 18 D x 20 H inches, compact simple square walnut form, no drawer, no chrome. Do not add ottomans. Keep the bar and central approach unobstructed. Keep a small neutral existing loose rug. Both exterior window walls must show coordinated ivory sheers plus independently stacked oatmeal blackout curtains because this nook is open to the bedroom; no purely sheer-only sleep zone. Do not reintroduce purple/lavender fabrics.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "5965cb07-cf05-43eb-9304-1b8389311997"
+        },
+        {
+          "role": "image",
+          "value": "002c35ed-b184-45de-a26a-179a42acea7a"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/prod20580100_E414854120_TQ_CC_RHR?"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+        }
+      ]
+    }
+  },
+  {
+    "index": 70114,
+    "roomId": "ownerbath",
+    "sourceFile": "assets/render-candidates/mineral-walnut-stone/r01/a-ownerbath.png",
+    "sourceJobId": "6e9c532c-6703-4ac9-b89c-b4bcddfbc3d4",
+    "productReferences": [
+      {
+        "id": "turkish-white6",
+        "name": "Classic Organic Turkish Cotton White Towels, Set of 6",
+        "quantity": 1,
+        "finish": "White; 100%Turkish organic cotton; 800 gram",
+        "dimensions": "2 bath towels, 2 hand towels, 2 washcloths; component dimensions to verify.",
+        "imageUrl": "https://cb.scene7.com/is/image/Crate/TurkishWhiteTowelsSet6S19?%24web_pdp_main_carousel_thumb_med%24="
+      },
+      {
+        "id": "clean-ivory-pump",
+        "name": "Clean by Crate Ivory Ceramic Soap Dispenser/Black Pump",
+        "quantity": 1,
+        "finish": "Matte ivory stoneware/black pump",
+        "dimensions": "15 oz; footprint/height to verify.",
+        "imageUrl": "https://cb.scene7.com/is/image/Crate/CBCleanIvrCmSoapDspBPmpSSF25?%24web_pdp_main_carousel_thumb_med%24="
+      }
+    ],
+    "notes": [
+      "Generated product geometry is illustrative, not a manufacturer CAD model or verified fit. Field dimensions, exact SKU and physical samples govern ordering."
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic room-setting interior-design furniture study, as a conservative IMAGE EDIT of the FIRST supplied approved Mineral & Walnut room image. Preserve its complete composition, camera viewpoint, lens, perspective, room dimensions, wall positions, all window and door openings, actual ceiling profile, fixed joinery, plumbing, and circulation. Do not enlarge the room to fit products. Where a second original model-home photograph is supplied, use it ONLY to cross-check the real architecture and view outdoors; do not copy its old furniture, carpets, colors or finishes. Later supplied product photographs are isolated furniture-shape references ONLY, never new room layouts. Match the stated selected finish if a catalog image shows another finish. Render the objects naturally in the approved room, correctly scaled and grounded, not a product collage.\nMaintain the pure Option 1 MINERAL & WALNUT scheme: warm ivory and mushroom mineral walls, matte pale neutral natural oak floors in dry living/bedroom areas, rich warm walnut fitted joinery, ivory/oatmeal/charcoal soft furnishings, slim dark artwork frames and understated dark fittings, green only through plants. Keep existing suitable pale porcelain wet-area floors. This is NOT Cocoa & Chrome: no polished chrome furniture strips, no blue/yellow palette, no colorful bedroom throws. No wall-to-wall carpet in any bedroom and NO stair runners. Preserve original light doors and ceiling, no invented coves/trays/skylights/new fireplaces. Beautiful natural daylight with realistic shadows, refined tactile materials and restrained styling, realistic furniture proportions and joinery. Views through glass remain Crown, Gaithersburg townhouse streets, neighboring mansard roofs and nearby mid-rise apartments, never countryside, mountains, ocean or skyscrapers. No people, pets, watermark, logos, labels, captions or fabricated text; retain only an explicitly existing requested wall quote. Complete full-frame architectural view, landscape 3:2, at least 1536 px long edge. Do not crop away critical openings.\n\nINPUT ORDER:\nImage 1: approved current Mineral & Walnut room; composition, layout and fixed finishes control.\nImage 2: original model-home architecture only, never old furniture/palette.\nImage 3: Crate & Barrel Classic Organic Turkish Cotton White Towels, Set of 6 reference, selected finish White; 100%Turkish organic cotton; 800 gram; furniture/object shape only, not room architecture.\nImage 4: Crate & Barrel Clean by Crate Ivory Ceramic Soap Dispenser/Black Pump reference, selected finish Matte ivory stoneware/black pump; furniture/object shape only, not room architecture.\n\nROOM-SPECIFIC EDIT:\nOWNERS BATH: Keep the approved Study A pearl ONYX-LOOK PORCELAIN stone walls exactly: subtle warm pearly ivory and taupe translucent-looking mineral movement, not dramatic purple or black veins and not real backlit stone. Keep source geometry: shower with clear glass at LEFT foreground, its window INSIDE the shower on the left wall, freestanding tub centered at the far wall beneath the existing restrained neutral artwork, long fitted walnut double vanity on RIGHT with the second exterior window beside it, existing mirrors/sconces, toilet-room access and flat ceiling. Nominal 14 ft 8 x 18 ft 8. Do not change stone, plumbing, art placement or cabinets to create a furniture showroom. Replace colored towels with ONE C&B Classic Organic Turkish Cotton WHITE set of six: two thick white bath towels, two white hand towels, two white washcloths. Show them neatly distributed on the existing towel rail and folded dry vanity position, with no extra giant stack. Add ONE C&B Clean by Crate MATTE IVORY ceramic 15-oz hand-soap dispenser with BLACK pump on a clear dry countertop beside a basin. Retain a restrained plant and existing small bath stool only if already present, no new storage furniture. Bathroom privacy uses obscured/wet-safe shower glazing and a moisture-resistant privacy shade at the dry vanity window, not fabric drapes in the shower and no blackout curtains across wet walls. Pale suitable porcelain floor stays.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "6e9c532c-6703-4ac9-b89c-b4bcddfbc3d4"
+        },
+        {
+          "role": "image",
+          "value": "bf9a4f50-a071-413a-ab81-318989e24d0a"
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/TurkishWhiteTowelsSet6S19?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/CBCleanIvrCmSoapDspBPmpSSF25?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ]
+    }
+  },
+  {
+    "index": 70115,
+    "roomId": "ownercloset",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/ownercloset-wc1-day.png",
+    "sourceJobId": "5eaabe4e-d5fc-4b4b-96c6-90d77959e487",
+    "productReferences": [],
+    "notes": [
+      "Generated product geometry is illustrative, not a manufacturer CAD model or verified fit. Field dimensions, exact SKU and physical samples govern ordering.",
+      "Plan-led concept; no dedicated original room photograph. Existing approved image is the layout reference."
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic room-setting interior-design furniture study, as a conservative IMAGE EDIT of the FIRST supplied approved Mineral & Walnut room image. Preserve its complete composition, camera viewpoint, lens, perspective, room dimensions, wall positions, all window and door openings, actual ceiling profile, fixed joinery, plumbing, and circulation. Do not enlarge the room to fit products. Where a second original model-home photograph is supplied, use it ONLY to cross-check the real architecture and view outdoors; do not copy its old furniture, carpets, colors or finishes. Later supplied product photographs are isolated furniture-shape references ONLY, never new room layouts. Match the stated selected finish if a catalog image shows another finish. Render the objects naturally in the approved room, correctly scaled and grounded, not a product collage.\nMaintain the pure Option 1 MINERAL & WALNUT scheme: warm ivory and mushroom mineral walls, matte pale neutral natural oak floors in dry living/bedroom areas, rich warm walnut fitted joinery, ivory/oatmeal/charcoal soft furnishings, slim dark artwork frames and understated dark fittings, green only through plants. Keep existing suitable pale porcelain wet-area floors. This is NOT Cocoa & Chrome: no polished chrome furniture strips, no blue/yellow palette, no colorful bedroom throws. No wall-to-wall carpet in any bedroom and NO stair runners. Preserve original light doors and ceiling, no invented coves/trays/skylights/new fireplaces. Beautiful natural daylight with realistic shadows, refined tactile materials and restrained styling, realistic furniture proportions and joinery. Views through glass remain Crown, Gaithersburg townhouse streets, neighboring mansard roofs and nearby mid-rise apartments, never countryside, mountains, ocean or skyscrapers. No people, pets, watermark, logos, labels, captions or fabricated text; retain only an explicitly existing requested wall quote. Complete full-frame architectural view, landscape 3:2, at least 1536 px long edge. Do not crop away critical openings.\n\nINPUT ORDER:\nImage 1: approved current Mineral & Walnut room; composition, layout and fixed finishes control.\n\nROOM-SPECIFIC EDIT:\nOWNERS WALK-IN CLOSET: Keep this plan-led 8 ft 5 x 11 ft compact windowless closet EXACTLY as in image 1: entry-camera long narrow aisle, parallel fitted cream/ivory shelving and hanging carcasses, warm walnut drawer fronts, shoe shelves at the end, existing overhead lights and ceiling, pale natural oak floor with its existing small neutral loose runner if shown (this is a closet-floor rug, not a stair runner). There is no newly selected freestanding furniture here. Refine the photorealism of existing fitted joinery, clothes on matching wooden hangers in restrained ivory/taupe/camel/charcoal tones, tidy folded linens and shoes, and subtle under-shelf task illumination only where the source already shows it. Do not convert the whole closet into dark wood, add an island, bench, external window, skylight, mirror wall or new door. Keep a fully usable central aisle and drawer clearances. No branded handbags or logos. Architecture remains a plan-led furniture-free concept with hidden offsets to be measured.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "5eaabe4e-d5fc-4b4b-96c6-90d77959e487"
+        }
+      ]
+    }
+  },
+  {
+    "index": 70116,
+    "roomId": "bed2",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bed2-b21-day-30616.png",
+    "sourceJobId": "be2446d3-078e-4d20-a026-4188cb068fa9",
+    "productReferences": [
+      {
+        "id": "lawson-queen",
+        "name": "Lawson Fabric Panel Bed \u2014 stocked low queen",
+        "quantity": 1,
+        "finish": "Sand Classic Belgian Linen",
+        "dimensions": "64 W \u00d7 85.25 L \u00d7 48 H in; without storage; 1-inch underframe clearance.",
+        "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod22040025_E98917281_TQ_Frank_CC_CO26_Linen_RHR?src=rhir/obj=Fabric&src=rhir/swatch_belgianlinen_sand2F_repeat&res=190&illum=0&obj=Fabric&req=object&illum=0&bOId=(82000042)eOId)&wid=461&$PDP-IR-768$"
+      },
+      {
+        "id": "enzo-side18",
+        "name": "Enzo Square Side Table \u2014 stocked 18-inch Caramel Walnut",
+        "quantity": 2,
+        "finish": "Caramel Walnut",
+        "dimensions": "18 W \u00d7 18 D \u00d7 20 H in; 48 lb.",
+        "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+      },
+      {
+        "id": "prato8",
+        "name": "Prato Performance Wool Ivory Area Rug 8 \u00d7 10",
+        "quantity": 1,
+        "finish": "Ivory; 55%wool 25%polyester 20%viscose",
+        "dimensions": "8 \u00d7 10 ft.",
+        "imageUrl": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24="
+      }
+    ],
+    "notes": [
+      "Generated product geometry is illustrative, not a manufacturer CAD model or verified fit. Field dimensions, exact SKU and physical samples govern ordering.",
+      "Plan-led concept; no dedicated original room photograph. Existing approved image is the layout reference."
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic room-setting interior-design furniture study, as a conservative IMAGE EDIT of the FIRST supplied approved Mineral & Walnut room image. Preserve its complete composition, camera viewpoint, lens, perspective, room dimensions, wall positions, all window and door openings, actual ceiling profile, fixed joinery, plumbing, and circulation. Do not enlarge the room to fit products. Where a second original model-home photograph is supplied, use it ONLY to cross-check the real architecture and view outdoors; do not copy its old furniture, carpets, colors or finishes. Later supplied product photographs are isolated furniture-shape references ONLY, never new room layouts. Match the stated selected finish if a catalog image shows another finish. Render the objects naturally in the approved room, correctly scaled and grounded, not a product collage.\nMaintain the pure Option 1 MINERAL & WALNUT scheme: warm ivory and mushroom mineral walls, matte pale neutral natural oak floors in dry living/bedroom areas, rich warm walnut fitted joinery, ivory/oatmeal/charcoal soft furnishings, slim dark artwork frames and understated dark fittings, green only through plants. Keep existing suitable pale porcelain wet-area floors. This is NOT Cocoa & Chrome: no polished chrome furniture strips, no blue/yellow palette, no colorful bedroom throws. No wall-to-wall carpet in any bedroom and NO stair runners. Preserve original light doors and ceiling, no invented coves/trays/skylights/new fireplaces. Beautiful natural daylight with realistic shadows, refined tactile materials and restrained styling, realistic furniture proportions and joinery. Views through glass remain Crown, Gaithersburg townhouse streets, neighboring mansard roofs and nearby mid-rise apartments, never countryside, mountains, ocean or skyscrapers. No people, pets, watermark, logos, labels, captions or fabricated text; retain only an explicitly existing requested wall quote. Complete full-frame architectural view, landscape 3:2, at least 1536 px long edge. Do not crop away critical openings.\n\nINPUT ORDER:\nImage 1: approved current Mineral & Walnut room; composition, layout and fixed finishes control.\nImage 2: RH Lawson Fabric Panel Bed \u2014 stocked low queen reference, selected finish Sand Classic Belgian Linen; furniture/object shape only, not room architecture.\nImage 3: RH Enzo Square Side Table \u2014 stocked 18-inch Caramel Walnut reference, selected finish Caramel Walnut; furniture/object shape only, not room architecture.\nImage 4: Crate & Barrel Prato Performance Wool Ivory Area Rug 8 \u00d7 10 reference, selected finish Ivory; 55%wool 25%polyester 20%viscose; furniture/object shape only, not room architecture.\n\nROOM-SPECIFIC EDIT:\nBEDROOM TWO: Keep the approved PLAN-LED source layout and camera. Nominal 11 ft 4 x 11 ft 1; the headboard goes on the wall SHARED WITH THE STAIR HALL, which is TOP of the printed plan and the far bed wall in image 1. Closet remains on the shared-bathroom boundary LEFT of the printed plan (left closet doors in the image); keep the recessed hall entry at top/left between the closet return and bed, no relocated doorway. Preserve the narrow east/RIGHT wall window beside the source's compact 42 x 20-inch walnut writing desk and the wider plan-bottom/front window if actually visible from this camera; do not invent a window on the headboard wall. Replace bed with RH Lawson Fabric Panel LOW QUEEN, Sand Classic Belgian Linen, 64 W x 85.25 L x 48 H inches, without storage: plain smooth warm oatmeal rectangular upholstered panel headboard and low matching upholstered rails, no wingback/channeling/canopy, approximately ONE-INCH underframe gap, no floating LED platform. Replace bedside tables with TWO RH Enzo Square Side Tables, Caramel Walnut, each 18 W x 18 D x 20 H, square compact simple drawerless walnut forms, not chrome drawer cabinets. Keep the existing compact dark lamps if they fit, don't scale them larger. C&B Prato Ivory 8 x 10 loose rug beneath the bed with visible pale oak perimeter. White/ivory bedding and a neutral taupe throw, no blue accent. Existing walnut desk and slim chair remain planning joinery, not a newly selected product. At EACH actual exterior window show ivory sheers and a separate correctly fitted blackout layer (stacked oatmeal curtain or concealed roller as source fit permits); never block closet/hall doors. Preserve scale rather than squeezing wide tables into circulation.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "be2446d3-078e-4d20-a026-4188cb068fa9"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod22040025_E98917281_TQ_Frank_CC_CO26_Linen_RHR?src=rhir/obj=Fabric&src=rhir/swatch_belgianlinen_sand2F_repeat&res=190&illum=0&obj=Fabric&req=object&illum=0&bOId=(82000042)eOId)&wid=461&$PDP-IR-768$"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ]
+    }
+  },
+  {
+    "index": 70117,
+    "roomId": "bed3",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b31-day.png",
+    "sourceJobId": "82feb74f-84a9-431c-aa51-60a6e0130f8a",
+    "productReferences": [
+      {
+        "id": "lawson-queen",
+        "name": "Lawson Fabric Panel Bed \u2014 stocked low queen",
+        "quantity": 1,
+        "finish": "Sand Classic Belgian Linen",
+        "dimensions": "64 W \u00d7 85.25 L \u00d7 48 H in; without storage; 1-inch underframe clearance.",
+        "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod22040025_E98917281_TQ_Frank_CC_CO26_Linen_RHR?src=rhir/obj=Fabric&src=rhir/swatch_belgianlinen_sand2F_repeat&res=190&illum=0&obj=Fabric&req=object&illum=0&bOId=(82000042)eOId)&wid=461&$PDP-IR-768$"
+      },
+      {
+        "id": "enzo-side18",
+        "name": "Enzo Square Side Table \u2014 stocked 18-inch Caramel Walnut",
+        "quantity": 2,
+        "finish": "Caramel Walnut",
+        "dimensions": "18 W \u00d7 18 D \u00d7 20 H in; 48 lb.",
+        "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+      },
+      {
+        "id": "prato8",
+        "name": "Prato Performance Wool Ivory Area Rug 8 \u00d7 10",
+        "quantity": 1,
+        "finish": "Ivory; 55%wool 25%polyester 20%viscose",
+        "dimensions": "8 \u00d7 10 ft.",
+        "imageUrl": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24="
+      }
+    ],
+    "notes": [
+      "Generated product geometry is illustrative, not a manufacturer CAD model or verified fit. Field dimensions, exact SKU and physical samples govern ordering."
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic room-setting interior-design furniture study, as a conservative IMAGE EDIT of the FIRST supplied approved Mineral & Walnut room image. Preserve its complete composition, camera viewpoint, lens, perspective, room dimensions, wall positions, all window and door openings, actual ceiling profile, fixed joinery, plumbing, and circulation. Do not enlarge the room to fit products. Where a second original model-home photograph is supplied, use it ONLY to cross-check the real architecture and view outdoors; do not copy its old furniture, carpets, colors or finishes. Later supplied product photographs are isolated furniture-shape references ONLY, never new room layouts. Match the stated selected finish if a catalog image shows another finish. Render the objects naturally in the approved room, correctly scaled and grounded, not a product collage.\nMaintain the pure Option 1 MINERAL & WALNUT scheme: warm ivory and mushroom mineral walls, matte pale neutral natural oak floors in dry living/bedroom areas, rich warm walnut fitted joinery, ivory/oatmeal/charcoal soft furnishings, slim dark artwork frames and understated dark fittings, green only through plants. Keep existing suitable pale porcelain wet-area floors. This is NOT Cocoa & Chrome: no polished chrome furniture strips, no blue/yellow palette, no colorful bedroom throws. No wall-to-wall carpet in any bedroom and NO stair runners. Preserve original light doors and ceiling, no invented coves/trays/skylights/new fireplaces. Beautiful natural daylight with realistic shadows, refined tactile materials and restrained styling, realistic furniture proportions and joinery. Views through glass remain Crown, Gaithersburg townhouse streets, neighboring mansard roofs and nearby mid-rise apartments, never countryside, mountains, ocean or skyscrapers. No people, pets, watermark, logos, labels, captions or fabricated text; retain only an explicitly existing requested wall quote. Complete full-frame architectural view, landscape 3:2, at least 1536 px long edge. Do not crop away critical openings.\n\nINPUT ORDER:\nImage 1: approved current Mineral & Walnut room; composition, layout and fixed finishes control.\nImage 2: original model-home architecture only, never old furniture/palette.\nImage 3: RH Lawson Fabric Panel Bed \u2014 stocked low queen reference, selected finish Sand Classic Belgian Linen; furniture/object shape only, not room architecture.\nImage 4: RH Enzo Square Side Table \u2014 stocked 18-inch Caramel Walnut reference, selected finish Caramel Walnut; furniture/object shape only, not room architecture.\nImage 5: Crate & Barrel Prato Performance Wool Ivory Area Rug 8 \u00d7 10 reference, selected finish Ivory; 55%wool 25%polyester 20%viscose; furniture/object shape only, not room architecture.\n\nROOM-SPECIFIC EDIT:\nBEDROOM THREE: Preserve actual 10 ft 8 x 12 ft 4 room and photo-camera diagonal; headboard stays on the RIGHT wall BETWEEN its TWO smaller windows. The LARGE WHITE TWO-SASH front/left window remains on the source's left/far wall, THREE exterior window openings total. Retain original door position, flat ceiling/crown, warm mineral walls and source walnut dresser at left, no invented window behind headboard. Replace bed with RH Lawson Fabric Panel LOW QUEEN, 64 W x 85.25 L x 48 H inches, Sand Classic Belgian Linen, without storage: plain warm oatmeal broad rectangular upholstered headboard and matching low rails, no tall channeling, wings or canopy; actual ONE-INCH underframe clearance, no underbed LED or floating platform. Place TWO compact RH Enzo Square Side Tables in Caramel Walnut, 18 W x 18 D x 20 H each, drawerless square walnut forms, correctly fitted beside the bed without overlapping window trim. Keep modest existing black dome lamps. Replace loose rug with C&B Prato Ivory 8 x 10 ft beneath bed, clear natural oak floor border, no fitted carpet. White/ivory/taupe bed layers, no pink or colored accents. EACH of the three openings needs ivory sheers plus independent blackout lining or concealed blackout roller; keep drapes stacked clear for daylight. Retain Crown streetscape beyond glass, no rural scenery and no room inflation.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "82feb74f-84a9-431c-aa51-60a6e0130f8a"
+        },
+        {
+          "role": "image",
+          "value": "53a06728-ea4b-46d2-8d32-343bb19af5fa"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod22040025_E98917281_TQ_Frank_CC_CO26_Linen_RHR?src=rhir/obj=Fabric&src=rhir/swatch_belgianlinen_sand2F_repeat&res=190&illum=0&obj=Fabric&req=object&illum=0&bOId=(82000042)eOId)&wid=461&$PDP-IR-768$"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ]
+    }
+  },
+  {
+    "index": 70118,
+    "roomId": "sharedbath",
+    "sourceFile": "assets/render-candidates/mineral-walnut-stone/r01/e-sharedbath.png",
+    "sourceJobId": "6a177036-f25a-4ac5-b3de-09b6967dcad9",
+    "productReferences": [
+      {
+        "id": "turkish-white6",
+        "name": "Classic Organic Turkish Cotton White Towels, Set of 6",
+        "quantity": 1,
+        "finish": "White; 100%Turkish organic cotton; 800 gram",
+        "dimensions": "2 bath towels, 2 hand towels, 2 washcloths; component dimensions to verify.",
+        "imageUrl": "https://cb.scene7.com/is/image/Crate/TurkishWhiteTowelsSet6S19?%24web_pdp_main_carousel_thumb_med%24="
+      },
+      {
+        "id": "clean-ivory-pump",
+        "name": "Clean by Crate Ivory Ceramic Soap Dispenser/Black Pump",
+        "quantity": 2,
+        "finish": "Matte ivory stoneware/black pump",
+        "dimensions": "15 oz; footprint/height to verify.",
+        "imageUrl": "https://cb.scene7.com/is/image/Crate/CBCleanIvrCmSoapDspBPmpSSF25?%24web_pdp_main_carousel_thumb_med%24="
+      }
+    ],
+    "notes": [
+      "Generated product geometry is illustrative, not a manufacturer CAD model or verified fit. Field dimensions, exact SKU and physical samples govern ordering."
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic room-setting interior-design furniture study, as a conservative IMAGE EDIT of the FIRST supplied approved Mineral & Walnut room image. Preserve its complete composition, camera viewpoint, lens, perspective, room dimensions, wall positions, all window and door openings, actual ceiling profile, fixed joinery, plumbing, and circulation. Do not enlarge the room to fit products. Where a second original model-home photograph is supplied, use it ONLY to cross-check the real architecture and view outdoors; do not copy its old furniture, carpets, colors or finishes. Later supplied product photographs are isolated furniture-shape references ONLY, never new room layouts. Match the stated selected finish if a catalog image shows another finish. Render the objects naturally in the approved room, correctly scaled and grounded, not a product collage.\nMaintain the pure Option 1 MINERAL & WALNUT scheme: warm ivory and mushroom mineral walls, matte pale neutral natural oak floors in dry living/bedroom areas, rich warm walnut fitted joinery, ivory/oatmeal/charcoal soft furnishings, slim dark artwork frames and understated dark fittings, green only through plants. Keep existing suitable pale porcelain wet-area floors. This is NOT Cocoa & Chrome: no polished chrome furniture strips, no blue/yellow palette, no colorful bedroom throws. No wall-to-wall carpet in any bedroom and NO stair runners. Preserve original light doors and ceiling, no invented coves/trays/skylights/new fireplaces. Beautiful natural daylight with realistic shadows, refined tactile materials and restrained styling, realistic furniture proportions and joinery. Views through glass remain Crown, Gaithersburg townhouse streets, neighboring mansard roofs and nearby mid-rise apartments, never countryside, mountains, ocean or skyscrapers. No people, pets, watermark, logos, labels, captions or fabricated text; retain only an explicitly existing requested wall quote. Complete full-frame architectural view, landscape 3:2, at least 1536 px long edge. Do not crop away critical openings.\n\nINPUT ORDER:\nImage 1: approved current Mineral & Walnut room; composition, layout and fixed finishes control.\nImage 2: original model-home architecture only, never old furniture/palette.\nImage 3: Crate & Barrel Classic Organic Turkish Cotton White Towels, Set of 6 reference, selected finish White; 100%Turkish organic cotton; 800 gram; furniture/object shape only, not room architecture.\nImage 4: Crate & Barrel Clean by Crate Ivory Ceramic Soap Dispenser/Black Pump reference, selected finish Matte ivory stoneware/black pump; furniture/object shape only, not room architecture.\n\nROOM-SPECIFIC EDIT:\nSHARED JACK-AND-JILL BATHROOM: Preserve approved Study E WARM LIMESTONE-LOOK PORCELAIN walls, pale wet-area floor, fitted rich walnut double vanity on RIGHT under the wide existing mirror, dark faucets and simple existing sconces, left bedroom connection visible with bedroom neutral oak flooring, and the separate bath/toilet compartment and second bedroom connection in their exact source positions. Printed-plan nominal 6 ft 1 x 12 ft 5; do not enlarge or convert to an exterior bathroom. NO exterior bathroom window; a bedroom window seen through doorway or in mirror stays a BEDROOM window. Add ONE C&B Classic Organic Turkish Cotton WHITE set of six, two bath towels/two hand towels/two washcloths, neatly draped/folded at existing appropriate towel/counter positions. Add TWO Clean by Crate 15-oz MATTE IVORY ceramic soap dispensers with BLACK pumps, one at each basin on the dry vanity. Keep surfaces uncluttered and a restrained small green plant if already shown. No freestanding storage cabinet, seating or colored towels. Keep bedroom glazing treatment shown through doorway consistent with neutral sheers plus blackout; no bathroom curtains invented.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "6a177036-f25a-4ac5-b3de-09b6967dcad9"
+        },
+        {
+          "role": "image",
+          "value": "dd558d2d-c4cb-497f-a906-dcd2f1a88a1f"
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/TurkishWhiteTowelsSet6S19?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/CBCleanIvrCmSoapDspBPmpSSF25?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ]
+    }
+  },
+  {
+    "index": 70119,
+    "roomId": "laundry",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/laundry-la1-day-30519.png",
+    "sourceJobId": "bfacfb8c-d7e6-41fb-bc1b-25a871734a5e",
+    "productReferences": [
+      {
+        "id": "clean-ivory-pump",
+        "name": "Clean by Crate Ivory Ceramic Soap Dispenser/Black Pump",
+        "quantity": 1,
+        "finish": "Matte ivory stoneware/black pump",
+        "dimensions": "15 oz; footprint/height to verify.",
+        "imageUrl": "https://cb.scene7.com/is/image/Crate/CBCleanIvrCmSoapDspBPmpSSF25?%24web_pdp_main_carousel_thumb_med%24="
+      }
+    ],
+    "notes": [
+      "Generated product geometry is illustrative, not a manufacturer CAD model or verified fit. Field dimensions, exact SKU and physical samples govern ordering."
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic room-setting interior-design furniture study, as a conservative IMAGE EDIT of the FIRST supplied approved Mineral & Walnut room image. Preserve its complete composition, camera viewpoint, lens, perspective, room dimensions, wall positions, all window and door openings, actual ceiling profile, fixed joinery, plumbing, and circulation. Do not enlarge the room to fit products. Where a second original model-home photograph is supplied, use it ONLY to cross-check the real architecture and view outdoors; do not copy its old furniture, carpets, colors or finishes. Later supplied product photographs are isolated furniture-shape references ONLY, never new room layouts. Match the stated selected finish if a catalog image shows another finish. Render the objects naturally in the approved room, correctly scaled and grounded, not a product collage.\nMaintain the pure Option 1 MINERAL & WALNUT scheme: warm ivory and mushroom mineral walls, matte pale neutral natural oak floors in dry living/bedroom areas, rich warm walnut fitted joinery, ivory/oatmeal/charcoal soft furnishings, slim dark artwork frames and understated dark fittings, green only through plants. Keep existing suitable pale porcelain wet-area floors. This is NOT Cocoa & Chrome: no polished chrome furniture strips, no blue/yellow palette, no colorful bedroom throws. No wall-to-wall carpet in any bedroom and NO stair runners. Preserve original light doors and ceiling, no invented coves/trays/skylights/new fireplaces. Beautiful natural daylight with realistic shadows, refined tactile materials and restrained styling, realistic furniture proportions and joinery. Views through glass remain Crown, Gaithersburg townhouse streets, neighboring mansard roofs and nearby mid-rise apartments, never countryside, mountains, ocean or skyscrapers. No people, pets, watermark, logos, labels, captions or fabricated text; retain only an explicitly existing requested wall quote. Complete full-frame architectural view, landscape 3:2, at least 1536 px long edge. Do not crop away critical openings.\n\nINPUT ORDER:\nImage 1: approved current Mineral & Walnut room; composition, layout and fixed finishes control.\nImage 2: original model-home architecture only, never old furniture/palette.\nImage 3: Crate & Barrel Clean by Crate Ivory Ceramic Soap Dispenser/Black Pump reference, selected finish Matte ivory stoneware/black pump; furniture/object shape only, not room architecture.\n\nROOM-SPECIFIC EDIT:\nLAUNDRY: Preserve the compact 8 ft 3 x 10 ft 4 laundry exactly: sink and its entire pale counter/cream cabinet run on LEFT, BOTH windows on that LEFT wall (arched-top opening nearer camera, tall rectangular opening farther in), existing upper cabinets BETWEEN the windows, laundry machines on RIGHT against a blank machine wall, existing floor and dryer-rack/storage positions. Do not rotate the plan, put window above machines, remove sink or widen room. Keep exact existing wall quote and simple droplet/rinse-arrow graphic: \"Rinse and repeat..\" with TWO periods, not marketing text or a different slogan. Add ONE C&B Clean by Crate 15-oz matte IVORY ceramic soap dispenser with BLACK pump immediately beside the LEFT sink faucet on the dry portion of the counter, not on the washer. Keep the selected neutral cabinets, dark faucet, pale durable stone/porcelain counter and plain washable privacy rollers or lined woven-look shades at BOTH left-side windows. Existing woven baskets and rack are illustrative retained storage, not newly stock-verified retail choices. No new laundry machines, no decorative wallpaper, no loose console or excessive styling.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "bfacfb8c-d7e6-41fb-bc1b-25a871734a5e"
+        },
+        {
+          "role": "image",
+          "value": "497a50fd-668e-49c1-910f-b5c87c46c218"
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/CBCleanIvrCmSoapDspBPmpSSF25?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ]
+    }
+  },
+  {
+    "index": 70120,
+    "roomId": "stair3",
+    "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/stair3-st31-day.png",
+    "sourceJobId": "f1e9d0ef-8488-4286-a2b7-60f4771ee8a2",
+    "productReferences": [],
+    "notes": [
+      "Generated product geometry is illustrative, not a manufacturer CAD model or verified fit. Field dimensions, exact SKU and physical samples govern ordering."
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic room-setting interior-design furniture study, as a conservative IMAGE EDIT of the FIRST supplied approved Mineral & Walnut room image. Preserve its complete composition, camera viewpoint, lens, perspective, room dimensions, wall positions, all window and door openings, actual ceiling profile, fixed joinery, plumbing, and circulation. Do not enlarge the room to fit products. Where a second original model-home photograph is supplied, use it ONLY to cross-check the real architecture and view outdoors; do not copy its old furniture, carpets, colors or finishes. Later supplied product photographs are isolated furniture-shape references ONLY, never new room layouts. Match the stated selected finish if a catalog image shows another finish. Render the objects naturally in the approved room, correctly scaled and grounded, not a product collage.\nMaintain the pure Option 1 MINERAL & WALNUT scheme: warm ivory and mushroom mineral walls, matte pale neutral natural oak floors in dry living/bedroom areas, rich warm walnut fitted joinery, ivory/oatmeal/charcoal soft furnishings, slim dark artwork frames and understated dark fittings, green only through plants. Keep existing suitable pale porcelain wet-area floors. This is NOT Cocoa & Chrome: no polished chrome furniture strips, no blue/yellow palette, no colorful bedroom throws. No wall-to-wall carpet in any bedroom and NO stair runners. Preserve original light doors and ceiling, no invented coves/trays/skylights/new fireplaces. Beautiful natural daylight with realistic shadows, refined tactile materials and restrained styling, realistic furniture proportions and joinery. Views through glass remain Crown, Gaithersburg townhouse streets, neighboring mansard roofs and nearby mid-rise apartments, never countryside, mountains, ocean or skyscrapers. No people, pets, watermark, logos, labels, captions or fabricated text; retain only an explicitly existing requested wall quote. Complete full-frame architectural view, landscape 3:2, at least 1536 px long edge. Do not crop away critical openings.\n\nINPUT ORDER:\nImage 1: approved current Mineral & Walnut room; composition, layout and fixed finishes control.\nImage 2: original model-home architecture only, never old furniture/palette.\n\nROOM-SPECIFIC EDIT:\nTHIRD-FLOOR STAIR HALL: This is a finishes-only image edit, with no new retail furniture. Preserve the EXACT source staircase and camera looking upward: bare pale natural oak treads, ivory risers/balusters, dark walnut handrail, quarter-turn/curved portion rising to the EXISTING INTERMEDIATE HALF-FLOOR LANDING then the onward STRAIGHT FLIGHT, open stairwell/downward continuation and all guards. Exactly THREE HIGH windows on the tall stair wall in the pictured rhythm, no giant full-height feature glass and no extra openings. Retain existing warm ivory mineral walls and the restrained black-framed neutral artwork in its existing position below high windows. Keep all stair treads exposed and readable, NO RUNNER and no carpet tread pads. Bare high windows remain unobstructed; no added sheers or blackout drapes. Refine daylight, material grain, baluster detail and realistic surface/shadows while keeping structural geometry unchanged. Do not create a floating sculptural spiral, replace supports, add furniture, change stair widths or create new landings. No labels, text or new decorative quote.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "f1e9d0ef-8488-4286-a2b7-60f4771ee8a2"
+        },
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-library-assets/third-floor-spiral-staircase.jpg.webp"
+        }
+      ]
+    }
+  },
+  {
+    "index": 70121,
+    "roomId": "loft",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/loft-pl1-day-30521.png",
+    "sourceJobId": "54572b03-45da-40b4-8db9-cd0faed2eba4",
+    "productReferences": [
+      {
+        "id": "retreat94",
+        "name": "Retreat 94-inch Sofa",
+        "quantity": 1,
+        "finish": "Serene Ivory; multi-cushion",
+        "dimensions": "94 W \u00d7 44 D \u00d7 28.5 H in.",
+        "imageUrl": "https://cb.scene7.com/is/image/Crate/Retreat94inSofaSOSSS24_3D?%24web_pdp_main_carousel_thumb_med%24="
+      },
+      {
+        "id": "enzo-side18",
+        "name": "Enzo Square Side Table \u2014 stocked 18-inch Caramel Walnut",
+        "quantity": 1,
+        "finish": "Caramel Walnut",
+        "dimensions": "18 W \u00d7 18 D \u00d7 20 H in; 48 lb.",
+        "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+      },
+      {
+        "id": "prato9",
+        "name": "Prato Performance Wool Ivory Area Rug 9 \u00d7 12",
+        "quantity": 1,
+        "finish": "Ivory; 55%wool 25%polyester 20%viscose",
+        "dimensions": "9 \u00d7 12 ft.",
+        "imageUrl": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24="
+      }
+    ],
+    "notes": [
+      "Generated product geometry is illustrative, not a manufacturer CAD model or verified fit. Field dimensions, exact SKU and physical samples govern ordering.",
+      "Existing low coffee table and lamp remain planning supporting pieces; optional Shelter lounge chair is not in the selected scheme."
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic room-setting interior-design furniture study, as a conservative IMAGE EDIT of the FIRST supplied approved Mineral & Walnut room image. Preserve its complete composition, camera viewpoint, lens, perspective, room dimensions, wall positions, all window and door openings, actual ceiling profile, fixed joinery, plumbing, and circulation. Do not enlarge the room to fit products. Where a second original model-home photograph is supplied, use it ONLY to cross-check the real architecture and view outdoors; do not copy its old furniture, carpets, colors or finishes. Later supplied product photographs are isolated furniture-shape references ONLY, never new room layouts. Match the stated selected finish if a catalog image shows another finish. Render the objects naturally in the approved room, correctly scaled and grounded, not a product collage.\nMaintain the pure Option 1 MINERAL & WALNUT scheme: warm ivory and mushroom mineral walls, matte pale neutral natural oak floors in dry living/bedroom areas, rich warm walnut fitted joinery, ivory/oatmeal/charcoal soft furnishings, slim dark artwork frames and understated dark fittings, green only through plants. Keep existing suitable pale porcelain wet-area floors. This is NOT Cocoa & Chrome: no polished chrome furniture strips, no blue/yellow palette, no colorful bedroom throws. No wall-to-wall carpet in any bedroom and NO stair runners. Preserve original light doors and ceiling, no invented coves/trays/skylights/new fireplaces. Beautiful natural daylight with realistic shadows, refined tactile materials and restrained styling, realistic furniture proportions and joinery. Views through glass remain Crown, Gaithersburg townhouse streets, neighboring mansard roofs and nearby mid-rise apartments, never countryside, mountains, ocean or skyscrapers. No people, pets, watermark, logos, labels, captions or fabricated text; retain only an explicitly existing requested wall quote. Complete full-frame architectural view, landscape 3:2, at least 1536 px long edge. Do not crop away critical openings.\n\nINPUT ORDER:\nImage 1: approved current Mineral & Walnut room; composition, layout and fixed finishes control.\nImage 2: original model-home architecture only, never old furniture/palette.\nImage 3: Crate & Barrel Retreat 94-inch Sofa reference, selected finish Serene Ivory; multi-cushion; furniture/object shape only, not room architecture.\nImage 4: RH Enzo Square Side Table \u2014 stocked 18-inch Caramel Walnut reference, selected finish Caramel Walnut; furniture/object shape only, not room architecture.\nImage 5: Crate & Barrel Prato Performance Wool Ivory Area Rug 9 \u00d7 12 reference, selected finish Ivory; 55%wool 25%polyester 20%viscose; furniture/object shape only, not room architecture.\n\nROOM-SPECIFIC EDIT:\nPENTHOUSE LOFT: Keep nominal 23 ft 10 x 16 ft 6 source room and actual RAISED TRAY ceiling; this existing tray is retained, not a new cove. LEFT exterior wall rhythm remains single window \u2014 divided-lite operable French terrace doors \u2014 single window. RIGHT remains full-width multi-panel terrace slider onto existing pergola; rear remains RECESSED 9 ft 3 x 6 ft 10 wet-bar alcove with compact window, fitted walnut cabinetry and existing pendants, NOT a full-wall kitchen. Keep source TV/AV wall and stair-to-terrace/bar circulation. Replace long/oversized sectional or sofa with ONE Crate & Barrel RETREAT 94-inch MULTI-CUSHION SOFA, 94 W x 44 D x 28.5 H inches, SERENE IVORY: straight relaxed low sofa, broad soft squared arms, THREE separate broad seat cushions and three loose back cushions, matte ivory woven upholstery, no chaise/sectional return and no chrome legs. Place in the source's main sofa position facing TV. Keep only selected ONE RH Enzo 18 x 18 x 20 H Caramel Walnut square side table beside it, without drawers. Use C&B Prato Ivory 9 x 12 loose rug to anchor main seating with visible natural-oak border. Remove optional extra lounge chairs from foreground if they clutter this selected scheme; no Shelter chair is selected here. Preserve an existing neutral low coffee table as a clearly retained planning supporting item, not a new catalog claim. Existing lamp/neutral art can remain. Ivory sheers and separate independent neutral privacy roller layers at terrace doors/windows, stacked open under daylight; no bedroom-style opaque curtains over every wall. Urban neighboring roofscape outside, no skyline/woods.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "54572b03-45da-40b4-8db9-cd0faed2eba4"
+        },
+        {
+          "role": "image",
+          "value": "a18a9ffa-1bfe-4eec-97c7-ad5404e0e03a"
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/Retreat94inSofaSOSSS24_3D?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ]
+    }
+  },
+  {
+    "index": 70122,
+    "roomId": "bed5",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bed5-b51-day-30522.png",
+    "sourceJobId": "9537c1a6-4c96-4078-9e98-4e1b84e88e11",
+    "productReferences": [
+      {
+        "id": "lawson-queen",
+        "name": "Lawson Fabric Panel Bed \u2014 stocked low queen",
+        "quantity": 1,
+        "finish": "Sand Classic Belgian Linen",
+        "dimensions": "64 W \u00d7 85.25 L \u00d7 48 H in; without storage; 1-inch underframe clearance.",
+        "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod22040025_E98917281_TQ_Frank_CC_CO26_Linen_RHR?src=rhir/obj=Fabric&src=rhir/swatch_belgianlinen_sand2F_repeat&res=190&illum=0&obj=Fabric&req=object&illum=0&bOId=(82000042)eOId)&wid=461&$PDP-IR-768$"
+      },
+      {
+        "id": "enzo-side18",
+        "name": "Enzo Square Side Table \u2014 stocked 18-inch Caramel Walnut",
+        "quantity": 2,
+        "finish": "Caramel Walnut",
+        "dimensions": "18 W \u00d7 18 D \u00d7 20 H in; 48 lb.",
+        "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+      },
+      {
+        "id": "enzo-dresser5",
+        "name": "Enzo 5-Drawer Dresser \u2014 stocked Caramel Walnut",
+        "quantity": 1,
+        "finish": "Caramel Walnut",
+        "dimensions": "50 W \u00d720 D \u00d745 H in.",
+        "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod29870390_E23120396384_F_Frank_CC_RHR"
+      }
+    ],
+    "notes": [
+      "Generated product geometry is illustrative, not a manufacturer CAD model or verified fit. Field dimensions, exact SKU and physical samples govern ordering.",
+      "Bedroom 5 is unbuilt; future concept only, no furniture order until room construction and final measurements."
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic room-setting interior-design furniture study, as a conservative IMAGE EDIT of the FIRST supplied approved Mineral & Walnut room image. Preserve its complete composition, camera viewpoint, lens, perspective, room dimensions, wall positions, all window and door openings, actual ceiling profile, fixed joinery, plumbing, and circulation. Do not enlarge the room to fit products. Where a second original model-home photograph is supplied, use it ONLY to cross-check the real architecture and view outdoors; do not copy its old furniture, carpets, colors or finishes. Later supplied product photographs are isolated furniture-shape references ONLY, never new room layouts. Match the stated selected finish if a catalog image shows another finish. Render the objects naturally in the approved room, correctly scaled and grounded, not a product collage.\nMaintain the pure Option 1 MINERAL & WALNUT scheme: warm ivory and mushroom mineral walls, matte pale neutral natural oak floors in dry living/bedroom areas, rich warm walnut fitted joinery, ivory/oatmeal/charcoal soft furnishings, slim dark artwork frames and understated dark fittings, green only through plants. Keep existing suitable pale porcelain wet-area floors. This is NOT Cocoa & Chrome: no polished chrome furniture strips, no blue/yellow palette, no colorful bedroom throws. No wall-to-wall carpet in any bedroom and NO stair runners. Preserve original light doors and ceiling, no invented coves/trays/skylights/new fireplaces. Beautiful natural daylight with realistic shadows, refined tactile materials and restrained styling, realistic furniture proportions and joinery. Views through glass remain Crown, Gaithersburg townhouse streets, neighboring mansard roofs and nearby mid-rise apartments, never countryside, mountains, ocean or skyscrapers. No people, pets, watermark, logos, labels, captions or fabricated text; retain only an explicitly existing requested wall quote. Complete full-frame architectural view, landscape 3:2, at least 1536 px long edge. Do not crop away critical openings.\n\nINPUT ORDER:\nImage 1: approved current Mineral & Walnut room; composition, layout and fixed finishes control.\nImage 2: original model-home architecture only, never old furniture/palette.\nImage 3: RH Lawson Fabric Panel Bed \u2014 stocked low queen reference, selected finish Sand Classic Belgian Linen; furniture/object shape only, not room architecture.\nImage 4: RH Enzo Square Side Table \u2014 stocked 18-inch Caramel Walnut reference, selected finish Caramel Walnut; furniture/object shape only, not room architecture.\nImage 5: RH Enzo 5-Drawer Dresser \u2014 stocked Caramel Walnut reference, selected finish Caramel Walnut; furniture/object shape only, not room architecture.\n\nROOM-SPECIFIC EDIT:\nFUTURE UNBUILT PENTHOUSE BEDROOM FIVE: This is a future plan-led furnishing CONCEPT, not a photograph of a finished room. Keep the approved image-1 envelope/camera, nominal 14 ft 11 x 11 ft 1, flat 9 ft 6 ceiling, bed on LEFT wall, dresser on RIGHT, swing entry door near FAR-RIGHT corner. BOTH the visible headboard wall and far wall remain WINDOWLESS; any real camera-side exterior window is outside this view and must not be invented here. Preserve the mushroom painted frame treatment and source light trim, no tray/cove/skylight. Replace current dark channeled bed with RH Lawson Fabric Panel LOW QUEEN, Sand Classic Belgian Linen, 64 W x 85.25 L x 48 H inches without storage: plain broad oatmeal upholstered panel headboard and clean low rails, about ONE-INCH underframe gap, no floating/glowing underside. TWO RH Enzo Square Side Tables Caramel Walnut, 18 W x 18 D x 20 H each, simple drawerless square forms, with the modest existing sculptural dark lamps. ONE RH Enzo FIVE-DRAWER dresser in Caramel Walnut, 50 W x 20 D x 45 H, placed at existing right-side dresser location; natural walnut grain, five understated flush broad drawers, no polished steel full-width handle strips. C&B Prato Ivory 8 x 10 separate rug beneath bed and matte pale oak exposed perimeter. Neutral white/oatmeal bed layers, no blue/pink/purple accent. Keep restrained existing paired neutral artwork; do not add curtains to these windowless walls. Future camera-side exterior glazing will require coordinated ivory sheers plus a fitted blackout layer once measured, but it is not visible here. Furniture scale may not change the permitted room or door path.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "9537c1a6-4c96-4078-9e98-4e1b84e88e11"
+        },
+        {
+          "role": "image",
+          "value": "0a897fc0-8c6e-4b41-8f95-365dc472cda0"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod22040025_E98917281_TQ_Frank_CC_CO26_Linen_RHR?src=rhir/obj=Fabric&src=rhir/swatch_belgianlinen_sand2F_repeat&res=190&illum=0&obj=Fabric&req=object&illum=0&bOId=(82000042)eOId)&wid=461&$PDP-IR-768$"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/prod29870390_E23120396384_F_Frank_CC_RHR"
+        }
+      ]
+    }
+  },
+  {
+    "index": 70123,
+    "roomId": "bath4",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bath4-pba1-day-30523.png",
+    "sourceJobId": "02fba582-7b3b-4472-8d30-febad932f4c7",
+    "productReferences": [
+      {
+        "id": "turkish-white6",
+        "name": "Classic Organic Turkish Cotton White Towels, Set of 6",
+        "quantity": 1,
+        "finish": "White; 100%Turkish organic cotton; 800 gram",
+        "dimensions": "2 bath towels, 2 hand towels, 2 washcloths; component dimensions to verify.",
+        "imageUrl": "https://cb.scene7.com/is/image/Crate/TurkishWhiteTowelsSet6S19?%24web_pdp_main_carousel_thumb_med%24="
+      },
+      {
+        "id": "clean-ivory-pump",
+        "name": "Clean by Crate Ivory Ceramic Soap Dispenser/Black Pump",
+        "quantity": 1,
+        "finish": "Matte ivory stoneware/black pump",
+        "dimensions": "15 oz; footprint/height to verify.",
+        "imageUrl": "https://cb.scene7.com/is/image/Crate/CBCleanIvrCmSoapDspBPmpSSF25?%24web_pdp_main_carousel_thumb_med%24="
+      }
+    ],
+    "notes": [
+      "Generated product geometry is illustrative, not a manufacturer CAD model or verified fit. Field dimensions, exact SKU and physical samples govern ordering.",
+      "Plan-led concept; no dedicated original room photograph. Existing approved image is the layout reference."
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic room-setting interior-design furniture study, as a conservative IMAGE EDIT of the FIRST supplied approved Mineral & Walnut room image. Preserve its complete composition, camera viewpoint, lens, perspective, room dimensions, wall positions, all window and door openings, actual ceiling profile, fixed joinery, plumbing, and circulation. Do not enlarge the room to fit products. Where a second original model-home photograph is supplied, use it ONLY to cross-check the real architecture and view outdoors; do not copy its old furniture, carpets, colors or finishes. Later supplied product photographs are isolated furniture-shape references ONLY, never new room layouts. Match the stated selected finish if a catalog image shows another finish. Render the objects naturally in the approved room, correctly scaled and grounded, not a product collage.\nMaintain the pure Option 1 MINERAL & WALNUT scheme: warm ivory and mushroom mineral walls, matte pale neutral natural oak floors in dry living/bedroom areas, rich warm walnut fitted joinery, ivory/oatmeal/charcoal soft furnishings, slim dark artwork frames and understated dark fittings, green only through plants. Keep existing suitable pale porcelain wet-area floors. This is NOT Cocoa & Chrome: no polished chrome furniture strips, no blue/yellow palette, no colorful bedroom throws. No wall-to-wall carpet in any bedroom and NO stair runners. Preserve original light doors and ceiling, no invented coves/trays/skylights/new fireplaces. Beautiful natural daylight with realistic shadows, refined tactile materials and restrained styling, realistic furniture proportions and joinery. Views through glass remain Crown, Gaithersburg townhouse streets, neighboring mansard roofs and nearby mid-rise apartments, never countryside, mountains, ocean or skyscrapers. No people, pets, watermark, logos, labels, captions or fabricated text; retain only an explicitly existing requested wall quote. Complete full-frame architectural view, landscape 3:2, at least 1536 px long edge. Do not crop away critical openings.\n\nINPUT ORDER:\nImage 1: approved current Mineral & Walnut room; composition, layout and fixed finishes control.\nImage 2: Crate & Barrel Classic Organic Turkish Cotton White Towels, Set of 6 reference, selected finish White; 100%Turkish organic cotton; 800 gram; furniture/object shape only, not room architecture.\nImage 3: Crate & Barrel Clean by Crate Ivory Ceramic Soap Dispenser/Black Pump reference, selected finish Matte ivory stoneware/black pump; furniture/object shape only, not room architecture.\n\nROOM-SPECIFIC EDIT:\nPENTHOUSE BATHROOM: Preserve the approved plan-led future bathroom concept exactly: west hall entry at the camera, north single fitted walnut vanity shown on RIGHT with the existing dark-framed mirror and sconces, east toilet beside it, southern shower compartment at the far end with the existing glass enclosure and bench. Current envelope is WINDOWLESS, no exterior glass or invented skylight. Keep source proportions, door swing, flat ceiling, suitable warm neutral porcelain shower walls/pale wet floor, dark fixtures and source fitted cabinetry. Add ONE C&B Classic Organic Turkish Cotton WHITE set of six, two bath/two hand/two washcloths, modestly folded or draped at existing dry vanity/towel rail. Add ONE Clean by Crate 15-oz MATTE IVORY ceramic soap dispenser with BLACK pump on the dry counter beside basin. No furniture replacement, no additional cabinet/bench, no colored accents and no drapes. Refine product texture and natural interior light from existing fixtures without altering architecture. It remains a plan-led concept to be measured, not construction evidence.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "02fba582-7b3b-4472-8d30-febad932f4c7"
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/TurkishWhiteTowelsSet6S19?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/CBCleanIvrCmSoapDspBPmpSSF25?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ]
+    }
+  },
+  {
+    "index": 70124,
+    "roomId": "terrace",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/terrace-rt1-day.png",
+    "sourceJobId": "984b7551-8036-4c28-ab15-a26b8c1bf20b",
+    "productReferences": [
+      {
+        "id": "terrace-rh-mesa72-dining",
+        "name": "Mesa Teak Rectangular Dining Table \u2014 original 72-inch Natural Teak, stocked",
+        "quantity": 1,
+        "finish": "Natural Teak",
+        "dimensions": "72 L \u00d7 40 W \u00d7 30 H inches; 28.25-inch clearance under top;47.25 inches between the side legs.",
+        "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=prod22320036_E416044592_MAIN_RS_RHR_cl251482&anchorN=0,0.45&sizeN=0.95,0.65&&$PDP-IS-768$"
+      },
+      {
+        "id": "terrace-rh-balmain-dining6",
+        "name": "Balmain Teak Dining Side Chair \u2014 stocked Dove, six checked",
+        "quantity": 6,
+        "finish": "Natural Teak /Dove Perennials Performance Textured Linen Weave",
+        "dimensions": "20 W \u00d7 23 D \u00d7 32 H inches with cushion; seat height 19.5 inches. Two side chairs occupy 40 inches of the table's 47.25-inch side opening before spacing.",
+        "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=ir(rhir/prod30120035_E23120622656_TQ_CO23_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerennialsTexturedLinenWeave_Dove_repeat&res=236&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c9966a&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.45&sizeN=0.7,0.8&&$PDP-IR-768$"
+      },
+      {
+        "id": "terrace-rh-balmain-lounge",
+        "name": "Balmain Teak Lounge Chair \u2014 stocked Natural upholstery",
+        "quantity": 2,
+        "finish": "Natural Teak /Natural Perennials Performance Textured Linen Weave",
+        "dimensions": "31.5-inch square \u00d7 29 H with cushion. Seat height 15.5 inches;37 lb.",
+        "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_LOUNGE_CHAIR_pg&layer=3&src=ir(rhir/prod14020067_E410381676_TQ_OD18_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerennialsTexturedLinenWeave_Natural_204_repeat&res=220&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c9966a&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.45&sizeN=0.69,0.75&&$PDP-IR-768$"
+      }
+    ],
+    "notes": [
+      "Generated product geometry is illustrative, not a manufacturer CAD model or verified fit. Field dimensions, exact SKU and physical samples govern ordering.",
+      "This truthful source camera prioritizes the selected Mesa72 table, six Balmain dining chairs and two visible Balmain lounge chairs. Mesa108 sofa and Mesa60 coffee table belong to adjacent living zone and may remain out of frame. Larger sofa/table footprints remain conditional on field tape-out; no optional chaises."
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic room-setting interior-design furniture study, as a conservative IMAGE EDIT of the FIRST supplied approved Mineral & Walnut room image. Preserve its complete composition, camera viewpoint, lens, perspective, room dimensions, wall positions, all window and door openings, actual ceiling profile, fixed joinery, plumbing, and circulation. Do not enlarge the room to fit products. Where a second original model-home photograph is supplied, use it ONLY to cross-check the real architecture and view outdoors; do not copy its old furniture, carpets, colors or finishes. Later supplied product photographs are isolated furniture-shape references ONLY, never new room layouts. Match the stated selected finish if a catalog image shows another finish. Render the objects naturally in the approved room, correctly scaled and grounded, not a product collage.\nMaintain the pure Option 1 MINERAL & WALNUT scheme: warm ivory and mushroom mineral walls, matte pale neutral natural oak floors in dry living/bedroom areas, rich warm walnut fitted joinery, ivory/oatmeal/charcoal soft furnishings, slim dark artwork frames and understated dark fittings, green only through plants. Keep existing suitable pale porcelain wet-area floors. This is NOT Cocoa & Chrome: no polished chrome furniture strips, no blue/yellow palette, no colorful bedroom throws. No wall-to-wall carpet in any bedroom and NO stair runners. Preserve original light doors and ceiling, no invented coves/trays/skylights/new fireplaces. Beautiful natural daylight with realistic shadows, refined tactile materials and restrained styling, realistic furniture proportions and joinery. Views through glass remain Crown, Gaithersburg townhouse streets, neighboring mansard roofs and nearby mid-rise apartments, never countryside, mountains, ocean or skyscrapers. No people, pets, watermark, logos, labels, captions or fabricated text; retain only an explicitly existing requested wall quote. Complete full-frame architectural view, landscape 3:2, at least 1536 px long edge. Do not crop away critical openings.\n\nINPUT ORDER:\nImage 1: approved current Mineral & Walnut room; composition, layout and fixed finishes control.\nImage 2: original model-home architecture only, never old furniture/palette.\nImage 3: RH Mesa Teak Rectangular Dining Table \u2014 original 72-inch Natural Teak, stocked reference, selected finish Natural Teak; furniture/object shape only, not room architecture.\nImage 4: RH Balmain Teak Dining Side Chair \u2014 stocked Dove, six checked reference, selected finish Natural Teak /Dove Perennials Performance Textured Linen Weave; furniture/object shape only, not room architecture.\nImage 5: RH Balmain Teak Lounge Chair \u2014 stocked Natural upholstery reference, selected finish Natural Teak /Natural Perennials Performance Textured Linen Weave; furniture/object shape only, not room architecture.\n\nROOM-SPECIFIC EDIT:\nROOF TERRACE, THREE EXISTING ZONES: Keep EXACT source camera, pergola roof beams/posts, shade sails, string lights, deck direction, vertical dark picket rails, glazed doors, stair opening, house silhouette and all adjacent townhome rooftop view geometry. The linear gas fireplace remains in the existing 60-inch-high WHITE SHIPLAP PRIVACY WALL on the HOUSE SIDE at source RIGHT, with the existing neutral art above; no firepit or fireplace on the view-edge parapet. Preserve distinct outdoor-living zone 17 ft 3 x 17 ft 1, dining zone 12 ft 4 x 12 ft 8, sun zone 12 ft 4 x 9 ft 4; do not expand roof area.\nThis current photo angle primarily shows DINING and TWO visible lounge positions: replace foreground dining table with RH MESA NATURAL TEAK rectangular dining table, 72 L x 40 W x 30 H inches, thick simple teak top and substantial architectural bases. Place SIX RH BALMAIN TEAK armless dining SIDE CHAIRS with Dove neutral performance-linen cushions, 20 W x 23 D x 32 H each, two per long side and one at each end, natural teak slim tailored outdoor forms; no yellow metal chairs. Replace the two source reclined chaise/lounger seats at the left/back with TWO RH BALMAIN TEAK LOUNGE CHAIRS, each 31.5-inch square x 29 H with Natural neutral performance cushions; upright cushioned armchairs, not chaises. The old egg/hanging pod is not selected: remove it rather than copying it as new furniture, while leaving the fireplace and privacy wall unobstructed.\nThe selected adjacent outdoor-LIVING zone also uses RH Mesa108 Natural Teak sofa, 108 W x 35.5 D x 30 H with White Classic Performance Textured Weave cushions, and Mesa60 Natural Teak coffee table, 60 W x 28.5 D x 12 H, low slatted sculptural teak form. Show these ONLY if the existing camera genuinely includes that separate living zone, otherwise allow them to remain OUT OF FRAME; do NOT cram a nine-foot sofa into the shown dining/sun strip, put it against the fireplace, widen the roof or swing the camera. This is one truthful angle, not a panorama of products. Keep clear doors/stair routes and fireplace setback. Retained planters provide quiet green; no optional chaises, indoor rugs/drapes, extra firepits, ocean, forest, hills or skyscraper backdrop. Natural teak can have fine realistic grain and ivory/Dove upholstery, no orange oversaturation or silver/chrome furnishings.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "984b7551-8036-4c28-ab15-a26b8c1bf20b"
+        },
+        {
+          "role": "image",
+          "value": "ef0835c5-cfe5-48c3-8844-2b822554e886"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=prod22320036_E416044592_MAIN_RS_RHR_cl251482&anchorN=0,0.45&sizeN=0.95,0.65&&$PDP-IS-768$"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=ir(rhir/prod30120035_E23120622656_TQ_CO23_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerennialsTexturedLinenWeave_Dove_repeat&res=236&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c9966a&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.45&sizeN=0.7,0.8&&$PDP-IR-768$"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_LOUNGE_CHAIR_pg&layer=3&src=ir(rhir/prod14020067_E410381676_TQ_OD18_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerennialsTexturedLinenWeave_Natural_204_repeat&res=220&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c9966a&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.45&sizeN=0.69,0.75&&$PDP-IR-768$"
+        }
+      ]
+    }
+  }
+]

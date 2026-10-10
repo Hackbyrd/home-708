@@ -1,0 +1,309 @@
+{
+  "checkedAt": "2026-10-09",
+  "destinationZip": "20878",
+  "checks": [
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod24400560",
+      "status": "special_order",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "size": "8 ft W / Classic 41 in D",
+        "seatHeight": "Standard",
+        "fill": "Standard",
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "10198659 NONA"
+      },
+      "deliveryMessage": "Ready for delivery between 11/03/26 and 11/09/26 for 20878.",
+      "evidence": "Exact selected configuration displays delivery window and special-order/nonreturnable label.",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod24400560"
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "depth": "Classic 40 in",
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "M00023014118"
+      },
+      "deliveryMessage": "Ready for delivery between 10/19/26 and 10/25/26 for 20878.",
+      "evidence": "Exact variant appeared in RH IN-STOCK modal; other fabrics/depths differ.",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod9740156"
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6460578",
+      "status": "unavailable",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": null,
+      "deliveryMessage": null,
+      "evidence": "Live RH page says product is no longer available. Current collection has newer prod20580100.",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6460578"
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310758",
+      "status": "unavailable",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": null,
+      "deliveryMessage": null,
+      "evidence": "Live RH page says product is no longer available; Enzo current collection has no fabric dining chair listed.",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310758"
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28470228",
+      "status": "special_order",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "fabric": "Performance Linen Weave",
+        "color": "Natural or Sand; not fully selected",
+        "fill": "Standard or Down-Feather; not fully selected"
+      },
+      "deliveryMessage": "79 special-order fabrics delivered in 5\u20137 weeks.",
+      "evidence": "Live RH page displays special-order fabric lead time; no stocked furniture button.",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28470228"
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28500419",
+      "status": "special_order",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "item": "Counter Stool",
+        "finish": "Brown Walnut",
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "10099945 NONA"
+      },
+      "deliveryMessage": "Ready for delivery between 12/17/26 and 12/26/26 for 20878.",
+      "evidence": "Exact configured selection displays special-order/nonreturnable label; furniture has no in-stock button.",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28500419"
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod33750100",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "item": "Counter Stool",
+        "finish": "Brushed Brass footrest",
+        "fabric": "Performance Linen Weave",
+        "color": "Sand",
+        "sku": "10196668 NOSN"
+      },
+      "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+      "evidence": "Exact neutral counter-stool variant appears in RH IN-STOCK modal. Check quantity four before ordering; stock not reserved.",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod33750100",
+      "configuredPrice": {
+        "memberSale": 479,
+        "regular": 810,
+        "currency": "USD"
+      }
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod27630009",
+      "name": "Lugano 2-Cushion Sofa",
+      "status": "unverified",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": null,
+      "deliveryMessage": null,
+      "evidence": "RH browser presented a CAPTCHA before these exact configuration checks could be completed. Product/category existence does not establish stock; no CAPTCHA bypass attempted.",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod27630009"
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod14870249",
+      "name": "Cloud Sofa",
+      "status": "unverified",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": null,
+      "deliveryMessage": null,
+      "evidence": "RH browser presented a CAPTCHA before these exact configuration checks could be completed. Product/category existence does not establish stock; no CAPTCHA bypass attempted.",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod14870249"
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod7560042",
+      "name": "Modena Slope Arm Chaise",
+      "status": "unverified",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": null,
+      "deliveryMessage": null,
+      "evidence": "RH browser presented a CAPTCHA before these exact configuration checks could be completed. Product/category existence does not establish stock; no CAPTCHA bypass attempted.",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod7560042"
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod34641245",
+      "name": "Lucio Leather Desk Chair",
+      "status": "unverified",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": null,
+      "deliveryMessage": null,
+      "evidence": "RH browser presented a CAPTCHA before these exact configuration checks could be completed. Product/category existence does not establish stock; no CAPTCHA bypass attempted.",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod34641245"
+    }
+  ],
+  "alternatives": [
+    {
+      "name": "Cloud Modular 3-Piece Sofa \u2014 stocked Natural / Classic",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod6511684_E1684919_F_RHR?",
+      "roomIds": [
+        "media",
+        "loft"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod9740156"
+      ],
+      "proposedFinish": "Natural Performance Linen Weave",
+      "planningSize": "Classic 40 in depth; approximately 119 in W historic planning footprint, current dimensions and delivery route to verify.",
+      "reason": "Keeps the approved Cloud silhouette and warm neutral Mineral & Walnut fabric; choose Classic rather than deeper Luxe in the narrow media room.",
+      "availability": {
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZip": "20878",
+        "configuration": {
+          "depth": "Classic 40 in",
+          "fabric": "Performance Linen Weave",
+          "color": "Natural",
+          "sku": "M00023014118"
+        },
+        "deliveryMessage": "Ready for delivery between 10/19/26 and 10/25/26 for 20878.",
+        "evidence": "Exact variant shown in RH IN-STOCK modal. Availability is a dated snapshot, not a reservation.",
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+        "configuredPrice": {
+          "memberSale": 5255,
+          "regular": 8845,
+          "currency": "USD"
+        }
+      },
+      "imageNote": "RH catalogue reference photo; the verified stock configuration is specified separately. Confirm the actual upholstery swatch before ordering."
+    },
+    {
+      "name": "1950s Italian Shelter Arm Swivel Chair \u2014 current stocked edition",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod20580100_E414854120_TQ_CC_RHR?",
+      "roomIds": [
+        "great",
+        "living",
+        "loft"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod6460578"
+      ],
+      "proposedFinish": "Natural Performance Linen Weave; Sand stocked sibling available",
+      "planningSize": "31 in W \u00d7 32\u00bd in D \u00d7 30 in H; seat 18 in H. Allow full swivel clearance.",
+      "reason": "The current RH edition preserves the compact sculptural chair the original design intended; the old product page is unavailable.",
+      "availability": {
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZip": "20878",
+        "configuration": {
+          "depth": "Classic 32\u00bd in",
+          "fabric": "Performance Linen Weave",
+          "color": "Natural",
+          "sku": "61060801 NONA",
+          "stockedSibling": {
+            "color": "Sand",
+            "sku": "61060801 NOSN",
+            "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878."
+          }
+        },
+        "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+        "evidence": "Exact variant shown in RH IN-STOCK modal. Availability is a dated snapshot, not a reservation.",
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+        "configuredPrice": {
+          "memberSale": 1245,
+          "regular": 2100,
+          "currency": "USD"
+        }
+      },
+      "imageNote": "RH catalogue reference photo; the verified stock configuration is specified separately. Confirm the actual upholstery swatch before ordering."
+    },
+    {
+      "name": "Nicola Slope Fabric Counter Stool \u2014 stocked Sand",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33750100",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod33750100_E24522750636_TQ_CO24_RHR?obj=Fabric/Finish&color=ab8153&illum=0&obj=Fabric&req=object&illum=0)&wid=461&$PDP-IR-1600$",
+      "roomIds": [
+        "kitchen"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod28500419",
+        "https://rh.com/us/en/catalog/product/product.jsp/prod33750100"
+      ],
+      "proposedFinish": "Sand Performance Linen Weave / Brushed Brass footrest; upholstered legs",
+      "planningSize": "Counter-height only after measuring island; exact dimensions and four-stool spacing remain to verify.",
+      "reason": "Keeps the island visually quiet and warm. The small brushed-brass footrest suits Mineral & Walnut better than the polished stainless version; the upholstered silhouette is already an approved alternative.",
+      "availability": {
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZip": "20878",
+        "configuration": {
+          "item": "Counter Stool",
+          "finish": "Brushed Brass footrest",
+          "fabric": "Performance Linen Weave",
+          "color": "Sand",
+          "sku": "10196668 NOSN"
+        },
+        "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+        "evidence": "Exact neutral counter-stool variant appears in RH IN-STOCK modal. Check quantity four before ordering; stock not reserved.",
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod33750100",
+        "configuredPrice": {
+          "memberSale": 479,
+          "regular": 810,
+          "currency": "USD"
+        }
+      },
+      "imageNote": "RH catalogue reference photo; the verified stock configuration is specified separately. Confirm the actual upholstery swatch before ordering."
+    },
+    {
+      "name": "Nicola Slope Fabric Dining Side Chair \u2014 stocked Natural",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33750094",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod33750094_E24622750076_TQ_RHR?",
+      "roomIds": [
+        "office",
+        "dining",
+        "sunroom"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod28310758"
+      ],
+      "proposedFinish": "Natural Performance Linen Weave; fully upholstered frame and legs. Sand stocked sibling.",
+      "planningSize": "22 in W \u00d7 23 in D \u00d7 32\u00be in H; seat crown 18 in. Template with actual table and doors. Plan two office visitor chairs, eight everyday formal dining chairs plus two spares, and six sunroom chairs. Exact combined quantity remains to check.",
+      "reason": "A slim armless, firmer-sit chair with tailored ivory fabric keeps the Mineral & Walnut room soft while the table supplies the walnut. It replaces unavailable Enzo without introducing chrome or bedroom accent colors.",
+      "availability": {
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZip": "20878",
+        "configuration": {
+          "fabric": "Performance Linen Weave",
+          "color": "Natural",
+          "sku": "10179035 NONA",
+          "stockedSibling": {
+            "color": "Sand",
+            "sku": "10179035 NOSN",
+            "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878."
+          }
+        },
+        "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+        "evidence": "Exact neutral variant appears in RH IN-STOCK modal; full requested quantities must be rechecked before ordering.",
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod33750094",
+        "configuredPrice": {
+          "memberSale": 349,
+          "regular": 590,
+          "currency": "USD"
+        }
+      },
+      "imageNote": "RH catalogue reference photo; the verified stock configuration is specified separately. Confirm the actual upholstery swatch before ordering."
+    }
+  ],
+  "method": "Official RH live browser configurator and IN-STOCK modal; no purchases. Delivery windows are volatile and do not reserve inventory.",
+  "timingNote": "The October delivery windows precede November 3 possession. These are current availability snapshots; schedule delivery after the house is ready. They are not stock reservations or guaranteed future availability."
+}

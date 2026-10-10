@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-10",
+  "reviewMethod": "Visually inspected all thirteen actual generated images side by side with approved pre-RH sources and available original model-home photographs. Additional full-resolution inspections of owners bedroom, bedroom2, bedroom5, loft and terrace; enlarged laundry lettering and bedside detail. All inspected images 2048 x 1360. Bed2 localized repair rechecked independently at full resolution after generation.",
+  "rooms": [
+    {
+      "roomId": "ownerbed",
+      "jobId": "17831062-5b9c-43fc-ab82-fa6247210857",
+      "approved": true,
+      "notes": [
+        "Four-sash rear window group, right headwall/bed, left TV with soundbar, source doors and flat ceiling are retained.",
+        "Plain low Natural upholstered Lawson-style king, neutral bedding and separate ivory Prato-style rug replace prior bed/rug; exposed neutral oak remains. No raised floating platform or under-bed LED shown.",
+        "Existing walnut headwall, paired art, floating bedsides and planning bench/dressers remain. Furniture images approximate catalog forms; bench/dressers are retained planning supporting pieces, not newly stock-verified selections.",
+        "Sheers and stacked opaque curtains are visible at the rear glazing; complete light-gap performance still requires the real installation."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "retreat",
+      "jobId": "6990281d-9d46-4c37-b8b9-c634b54a7571",
+      "approved": true,
+      "notes": [
+        "Both exterior window walls, existing walnut coffee bar, counter, beverage refrigerator and camera/composition retained.",
+        "Two compact ivory Shelter-style chairs replace chaises; one drawerless square caramel-walnut Enzo-style table between them. No ottomans or colored accent palette.",
+        "Ivory sheers and stacked neutral curtain layer remain visible at both window walls. Chair swivel/comfort and complete blackout closure require field verification."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "ownerbath",
+      "jobId": "72eafe85-983b-4ebb-bdc8-71e69a87600b",
+      "approved": true,
+      "notes": [
+        "Shower and shower-window left, far-end tub/art, right walnut double vanity and vanity-side window retained; no shifted wet layout or new openings.",
+        "Approved warm pearl onyx-look porcelain and neutral wet-area floor preserved. White towels replace colored towels; ivory ceramic black-pump dispenser visible at dry vanity.",
+        "No loose-furniture makeover or drapes in shower. Render depicts textures and accessories approximately; wet-area privacy product and waterproofing specification remain construction details."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "ownercloset",
+      "jobId": "54560750-b0cd-4f12-8f5b-696d12bd117a",
+      "approved": true,
+      "notes": [
+        "Windowless plan-led narrow aisle and parallel fitted cream carcasses/walnut drawers, rear shoe shelves, ceiling lights and natural-oak floor retained.",
+        "No island, bench, new external opening or freestanding retail furniture added. Existing closet floor rug retained; it is not a stair runner.",
+        "Tidy neutral clothing and minor plants are illustrative staging. Hidden services/returns and drawer clearances require measurement."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "bed2",
+      "jobId": "86d3619f-b541-447e-9c8a-287dc4d656c5",
+      "approved": true,
+      "notes": [
+        "Headboard remains on far stair-hall wall (top printed plan); left shared-bath closet and recessed hall access retained; right window and adjacent desk retained.",
+        "Neutral low queen-style panel bed, wood floor/loose rug and sheers with neutral opaque layer shown; no accent color or under-bed LED.",
+        "Targeted corrected candidate visually rechecked at full resolution: right bedside is now a drawerless open walnut cube matching the selected left-table form. No drawer front/pull remains; closet, headwall, desk, window/drapes, flooring and camera are preserved."
+      ],
+      "mustFix": [],
+      "rejectedPriorJobId": "3ee38129-88ac-4b93-9bf4-86c315c061dc"
+    },
+    {
+      "roomId": "bed3",
+      "jobId": "e7c760aa-2076-4ae5-bc4c-8f277e1c5dc2",
+      "approved": true,
+      "notes": [
+        "All three exterior window openings preserved: large front/left two-sash group, plus two smaller windows flanking headboard on right wall. Flat ceiling/crown and original dresser remain.",
+        "Plain low Sand Lawson-style queen, two compact warm-walnut table positions, black dome lamps, white/neutral bedding and loose ivory rug over exposed oak; no colored accents.",
+        "Ivory sheers with neutral stacked/independent opaque coverage visible; left table partially obscured by bed. Generated objects are catalog interpretations rather than measured CAD."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "sharedbath",
+      "jobId": "64911e34-9bcf-4a95-a1ba-f15f0030cdac",
+      "approved": true,
+      "notes": [
+        "Approved warm limestone-look porcelain, source right double vanity, wide mirror, fittings, left bedroom connection and second connection/reflected door retained; no exterior bathroom window added.",
+        "Two ivory/black-pump soap dispensers are visible, with neat white towel staging. Bedroom window remains beyond doorway rather than being converted into bathroom glazing.",
+        "No added loose furniture; towel dimensions/counts and exact porcelain module remain procurement/construction checks."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "laundry",
+      "jobId": "dd4030e2-4a1e-4c43-9385-330106e69707",
+      "approved": true,
+      "notes": [
+        "Sink and BOTH source windows retained on left wall, upper cupboards between, laundry machines at right; no rotation, window relocation or widened room.",
+        "Single ivory/black-pump soap dispenser visible beside the left sink; neutral cabinetry, floor, existing rack and baskets retained.",
+        "Enlarged quote crop confirms exact \"Rinse and repeat..\" with TWO periods and droplet/circular-arrow graphic. Plain washable/woven-look privacy shades remain at both windows."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "stair3",
+      "jobId": "b7f137d4-9b08-44c2-88a9-e9fd9569ab2e",
+      "approved": true,
+      "notes": [
+        "Bare natural oak treads, ivory risers/balusters, dark walnut handrail, existing quarter-turn/intermediate-landing/onward flight, guard/open well and source camera retained.",
+        "Exactly three high windows and original artwork position preserved; no runner or tread pads, no curtains or oversized replacement glazing.",
+        "One small decorative plant now sits on the existing ledge; no circulation furniture or new structural ledge is introduced. View is a finish concept and does not certify concealed stair construction."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "loft",
+      "jobId": "a6176d32-a7ed-42f8-9ee0-85723255c58a",
+      "approved": true,
+      "notes": [
+        "Source raised tray ceiling, left window/French-door/window rhythm, right multi-panel slider and recessed walnut wet-bar alcove retained.",
+        "Straight ivory Retreat-style sofa with three seat/back cushions replaces larger previous seating; foreground optional lounge chair removed. One open square walnut side table and ivory Prato-style loose rug shown.",
+        "Low coffee table, lamp and media console remain retained planning supporting pieces rather than newly selected stock-verified items. Sheers and independent neutral privacy shades shown at glazing."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "bed5",
+      "jobId": "28795dd3-127c-4caf-93e1-e73ca83c0a32",
+      "approved": true,
+      "notes": [
+        "Future unbuilt-room concept: source windowless left headboard/far walls, far-right swinging doorway, right dresser and flat ceiling preserved.",
+        "Plain Sand low queen panel bed, two compact open walnut table positions, neutral bedding/loose ivory rug and exposed natural oak; no colored bedroom accent or under-bed LED.",
+        "Five-drawer walnut dresser shown at right. No visible-wall windows/drapes invented; real future camera-side opening and blackout/sheer specification remain subject to permitted layout and field measurement. No furniture ordering before final room envelope."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "bath4",
+      "jobId": "d387e548-e149-45d9-a76e-ed5475a080b7",
+      "approved": true,
+      "notes": [
+        "Plan-led windowless penthouse bathroom source envelope retained: right single walnut vanity/mirror, adjacent toilet, far glass shower/bench, entry, flat ceiling and warm neutral porcelain.",
+        "White towels now use existing rail/hook and dry counter, with one ivory/black-pump soap dispenser. No new cabinetry, drapes, exterior window or plumbing relocation.",
+        "Future concept with hidden offsets and exact fixture clearances to be verified; accessories are approximate render interpretations."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "terrace",
+      "jobId": "79c8d6c6-76fa-4838-8e5b-16670b836c71",
+      "approved": true,
+      "notes": [
+        "Pergola beams/posts, shade sail/string lights, picket rail, deck and neighboring townhome roofscape retained; fireplace remains in house-side white privacy wall with art above.",
+        "Six neutral-cushioned dining chairs around teak table and TWO upright teak lounge chairs are visible; optional chaises and old eggpod removed.",
+        "Model also shows a warm-teak ivory sofa and low coffee-table lounge replacing the eggpod within the existing right-side area; fireplace opening remains unobstructed. This view now depicts dining and lounge selections, but furniture size/clearance cannot be certified from pixels.",
+        "Mesa108 sofa/Mesa60 coffee table enlargements remain conditional on actual tape-out and fireplace setbacks; table/chair base spacing, wind/loading and delivery route require field checks. Catalog forms are approximate, not perfect manufacturer CAD."
+      ],
+      "mustFix": []
+    }
+  ]
+}

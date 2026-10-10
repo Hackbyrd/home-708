@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-10",
+  "review": "Approved-source and original-photo comparison; product forms illustrative, field measurements govern",
+  "rooms": [
+    {
+      "roomId": "entry",
+      "approved": true,
+      "notes": [
+        "Portrait camera, both clear warm-ivory door pairs, arch inscription, two-story cascade pendant, upper void and original stair footprint retained.",
+        "Bare neutral oak floor and small back-left walnut pedestal table/lamp are visible; no runner or circulation-blocking foyer furniture added.",
+        "Lamp/table sourcing and field fit remain conditional; product is a visual interpretation."
+      ],
+      "mustFix": [],
+      "approvedJobId": "2e925d8d-9ced-4d68-af4e-0fca8c5c3a96"
+    },
+    {
+      "roomId": "office",
+      "approved": true,
+      "notes": [
+        "Two front sash units and three right sash units retained with sheers/privacy shades; flat ceiling and north-wall fitted walnut TV/library with soundbar retained.",
+        "Large rectangular brown-oak desk keeps worker on southeast/window side facing northwest; two fully upholstered ivory visitor chairs replace metal-pedestal chairs.",
+        "Working chair remains a planning placeholder. Entry-side printer cabinet/art boundary is outside this camera crop, so this view does not verify that detail.",
+        "Desk/visitor pullback and brown-oak-to-walnut finish sample remain to template; no south-wall window console added."
+      ],
+      "mustFix": [],
+      "approvedJobId": "120f365c-0df3-4146-82ae-868acdf99612"
+    },
+    {
+      "roomId": "media",
+      "approved": true,
+      "notes": [
+        "Straight three-piece low ivory Cloud-style sofa correctly replaces the chaise; wide83-inch TV remains on quiet right wall with subtle warm halo, soundbar and long console.",
+        "Tray ceiling, four visible ceiling speaker grilles, rug and open blackout-lined curtains/sheers retained.",
+        "Clear west-wall doors and right-of-door collectible shelf are outside this crop, so their position is retained conceptually rather than visually verified.",
+        "Initial candidate rejected: Overall window opening stays in source location, but equal internal framing reads as FOUR separate sash units rather than the original wide TWO-unit double-hung group.",
+        "Correction reviewed at full source resolution: real window now has TWO broad double-hung units with one central frame mullion and thin decorative vertical muntins, while sofa/TV/console/ceiling/curtains stay intact. TV-glass reflection is illustrative and not window-framing documentation."
+      ],
+      "mustFix": [],
+      "approvedJobId": "ac2a49d1-5a53-4d5a-b525-ee27c748d2b7",
+      "resolvedIssues": [
+        "Edit only the media window framing to TWO broad double-hung units separated by ONE substantial central mullion; each sash may retain slender decorative vertical muntins, but do not render four equal operable units. Preserve overall opening, camera, sofa, TV, console and curtains."
+      ]
+    },
+    {
+      "roomId": "gym",
+      "approved": true,
+      "notes": [
+        "Empty charcoal resilient-floor room, full-height mirror, neutral walls and exact Surpass your limits. Right here, right now. motto retained.",
+        "Large corner window grouping, right-side access doors and privacy roller remain; flat ceiling has no invented cove.",
+        "Northwest closet and other off-camera window/access geometry remain planning/field-verification constraints, not newly demonstrated elevations."
+      ],
+      "mustFix": [],
+      "approvedJobId": "22ecf1eb-2173-4025-91ce-f6404b10f2ac"
+    },
+    {
+      "roomId": "bath",
+      "approved": true,
+      "notes": [
+        "Compact windowless room preserves side access doors, far-wall walnut vanity/toilet, mirror, sconces and limestone-look floor.",
+        "Single small ivory soap dispenser with black pump replaces previous soap styling without crowding the sink.",
+        "No dedicated original bath photo exists; opposite-end shower and bench are unseen and remain plan-derived/field-verification requirements."
+      ],
+      "mustFix": [],
+      "approvedJobId": "39a1a331-7c83-4a8e-bdd7-887a1a913f8c"
+    },
+    {
+      "roomId": "great",
+      "approved": true,
+      "notes": [
+        "Both high transoms, left terrace glazing, centered gas fireplace withTVabove, flat crown ceiling, matching walnut consoles and sibling artwork retained.",
+        "Ivory Retreat-like tidy sofa, two compact upholstered shelter-arm swivel chairs, rectangular walnut storage coffee table and dark-neutral linen-shade lamp appear in correct main footprints.",
+        "Rug and sheers/privacy shades remain neutral; no blue/yellow/chrome contamination.",
+        "Retail product proportions and lamp form are illustrative; rug footprint, sofa depth, swivel and delivery clearances require actual tape layout."
+      ],
+      "mustFix": [],
+      "approvedJobId": "10ef6b49-f3cc-4af5-a204-9fed3d082270"
+    },
+    {
+      "roomId": "kitchen",
+      "approved": true,
+      "notes": [
+        "L-run, counter window, hood/cooktop, refrigerator, island sink and RIGHT-end microwave/wall-oven column retained.",
+        "Four ivory Nord-like stools with brown wood legs/footrests substituted; small white-plate stack shown without overstyling.",
+        "StudyC1 creamy quartzite-look island/backsplash and two dark-bronze dome lights retained. Visible sunroom continues rectangular table/ivory chair scheme.",
+        "Counter seat height, four-stool spacing and plate configuration remain to verify.",
+        "Initial candidate rejected: Cross-room check found exposed dark-wood chair legs in the adjoining sunroom slice; selected Nicola and standalone new sunroom use fully upholstered legs.",
+        "Correction reviewed at full source resolution: adjoining sunroom chair legs/form now read as fully upholstered Natural Nicola-like chairs matching the standalone sunroom; all four Nord island stools, cream stone, dome lights and oven/microwave column stay intact."
+      ],
+      "mustFix": [],
+      "approvedJobId": "7dfc01c0-87d7-4f34-9843-95b8e7391b88",
+      "resolvedIssues": [
+        "Edit only the background sunroom chairs to Natural fully upholstered Nicola form and legs consistent with the standalone sunroom image. Preserve four Nord stools and all kitchen geometry, creamy stone, oven/microwave column and dome pendants."
+      ]
+    },
+    {
+      "roomId": "dining",
+      "approved": true,
+      "notes": [
+        "Allfive original varied openings and wall niche retained; small high arch has shallow walnut shelf beneath. Flat crown ceiling/chandelier remain.",
+        "Eight everyday upholstered ivory chairs are represented around the warm walnut rectangular planning table; no ten-chair crowding or square twelve-seat layout.",
+        "Table remains unbranded planning placeholder; pending Barleystock is not promoted. Two purchase-list spare chairs are not intended in this view.",
+        "Exact table-leg/chair pullback arrangement needs a physical template before any order."
+      ],
+      "mustFix": [],
+      "approvedJobId": "47238bae-dab6-43bd-9fd7-fc5ccf1e7b9b"
+    },
+    {
+      "roomId": "living",
+      "approved": true,
+      "notes": [
+        "Two living-room front openings plus adjoining dining opening/context are retained; baby grand and bench remain right, sofa on left dining boundary, low walnut table central.",
+        "Retreat-like tidy ivory sofa replaces previousCloud-like body; rectangular Tate-like storage coffee table replaces plain pedestal table.",
+        "Existing small reading chair is an unbranded planning placeholder; piano case/bench clearances and room envelope remain plan-derived because no dedicated original photo exists.",
+        "Sheers/privacy shades, loose ivory rug, matte oak floor and walking route remain visible without new high-color accents.",
+        "Initial candidate rejected: Cross-room check found old exposed brown-wood dining chairs and a rounded table in the adjoining far-left slice; these conflict with the new formal-dining concept.",
+        "Correction reviewed at full source resolution: adjoining left dining slice now uses fully upholstered ivory Nicola-like chairs/legs and straight-edged rectangular warm-walnut table; living sofa, Tate-like table, piano and window crop are preserved."
+      ],
+      "mustFix": [],
+      "approvedJobId": "8da4b0fb-7743-4491-961d-b349ba14fb95",
+      "resolvedIssues": [
+        "Edit only the adjoining far-left dining slice to show a rectangular warm-walnut planning table with Natural fully upholstered Nicola chairs/legs consistent with the new dining image. Preserve the living sofa, Tate table, piano, crop and openings."
+      ]
+    },
+    {
+      "roomId": "sunroom",
+      "approved": true,
+      "notes": [
+        "Wraparound double-hung glazing, knee walls, high transoms, right terrace door, left oven/microwave column and dark/opal chandelier retained.",
+        "Warm dark-neutral72-inch four-corner-leg Parsons-like table and six ivory fully upholstered chairs appear: two per longside and one per end.",
+        "No room enlargement or added seats apparent; independent privacy shades and ivory sheers remain.",
+        "Table reference URL was omitted by root after import failure, so exact Parsons leg/top detailing is interpretive.38-inchdepth six-chair layout remains CONDITIONAL, not fit approval."
+      ],
+      "mustFix": [],
+      "approvedJobId": "115d71a1-dba9-49d4-a589-092492446b4d"
+    },
+    {
+      "roomId": "stair2",
+      "approved": true,
+      "notes": [
+        "Bare oak treads, white risers/balusters, dark rail, quarter-turn intermediate segment and onward upper straight run retain photographed footprint.",
+        "Foreground guard retains the downward stairwell; stacked high windows, great-room arch and under-stair door remain.",
+        "No runner, tread mat, rods, drapes or landing furniture added.",
+        "Stair geometry/guard dimensions remain subject to field survey; generated finish image is not a reconstruction drawing."
+      ],
+      "mustFix": [],
+      "approvedJobId": "6e6b31e1-31dc-45d9-bb35-31627bf3c21b"
+    }
+  ]
+}

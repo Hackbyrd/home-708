@@ -1,0 +1,472 @@
+[
+  {
+    "index": 70101,
+    "roomId": "entry",
+    "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/entry-e1-day.png",
+    "productReferences": [
+      {
+        "id": "entry-rh-anja-complete",
+        "name": "Anja Teardrop Lamp \u2014 stocked Grey Terracotta",
+        "url": "https://media.restorationhardware.com/is/image/rhis/prod31700075_E23721557118_F_rebg_RHR?",
+        "imageOrdinal": 3
+      }
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "2:3",
+      "count": 1,
+      "prompt": "Create ONE photorealistic interior furniture-study image by EDITING image 1; do not create a new room or collage. Image 1 is the approved Mineral & Walnut Option 1 room and fixes the camera, crop, perspective, wall locations, openings, ceiling, fitted cabinetry, current approved stone selections and room proportions. Keep those intact while replacing only the specified loose furniture/supporting pieces. Maintain warm ivory/mushroom mineral-textured walls, matte neutral natural oak flooring, rich warm walnut joinery, ivory/oatmeal/charcoal textiles and restrained black accents; green foliage is the only bright color. Do not import Option 2: no blue/yellow palette, chrome furniture frames, shiny silver handles or dark brown oak-and-steel themed cabinets. Do not add stair runners or colored bedroom accents. Real-world furniture dimensions govern scale; do not widen rooms, shrink products or block doors to make a fit appear better. Use natural believable daylight, warm 2700K accent light if visible, realistic woven fabric/wood/stone detail, no overexposure or pink/orange color cast. Exterior is Crown, Gaithersburg townhouse streets/neighboring mansard rooftops; never forest, ocean, mountains or skyscraper canyon. No people, pets, watermarks, brand logos, product labels, floating objects or new text; preserve existing intentional homeowner inscriptions where specified. Furniture is a visual interpretation for consultation, not manufacturer CAD or a verified construction elevation.\n\nReference image 1 controls the approved present room layout, finish scheme and camera.\nReference image 2 is the ORIGINAL model-home photograph for architecture and window/door positions only. Do NOT copy its obsolete furniture, wall colors or styling; later owner changes in image 1 govern fitted design and stair geometry.\nReference image 3 is ONLY the product-form reference for RH Anja Teardrop Lamp \u2014 stocked Grey Terracotta; use the specified Grey Terracotta finish and RH lists 29-inch overall lamp height; shade E is 18-inch diameter \u00d7 10-inch high. scale, not its studio background. Catalog imagery may depict another finish; the exact finish text governs.\n\nROOM-SPECIFIC EDIT:\nMaintain the portrait view from the entrance looking through the central arch toward the staircase. Keep both warm-ivory, single-clear-lite paired doors on the left and right, the upper gallery void and white balustrade with dark handrail, the center arch, the small landing window, the two-story staggered opal-bulb cascade chandelier, and the existing small painted inscription 'Home is where the Heart is'. Keep the approved neutral natural oak floor continuous into the stair hall. Do not darken doors. In the existing small back-left table footprint beyond the arch, show one compact round warm-walnut pedestal table, 22 inches diameter and 29 inches tall, carrying the RH Anja teardrop ceramic lamp in Grey Terracotta with its separately sold white-linen size-E drum shade, 18 inches diameter and 10 inches high, 29 inches overall lamp height. It is a small supporting accent subordinate to the chandelier. Keep all door swings and gallery paths empty. No gallery drapery and no stair runner.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "aebe26f7-40e2-4498-a989-acc48b1ced4d"
+        },
+        {
+          "role": "image",
+          "value": "1faa411f-0491-4fbb-885b-871862cdf6a0"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/prod31700075_E23721557118_F_rebg_RHR?"
+        }
+      ]
+    },
+    "notes": {
+      "evidenceType": "Photo-based architectural revision",
+      "stockOrFitLimits": [
+        "Compact entry table sourcing/fit and lamp shade compatibility remain to verify."
+      ]
+    }
+  },
+  {
+    "index": 70102,
+    "roomId": "office",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/office-o1-day.png",
+    "productReferences": [
+      {
+        "id": "office-rh-alora84",
+        "name": "Alora Desk \u2014 stocked 84-inch Brown Oak",
+        "url": "https://media.restorationhardware.com/is/image/rhis/prod33440092_E24422611796_F_CC_RHR_cl1968002?&$PDP-IS-768$",
+        "imageOrdinal": 3
+      },
+      {
+        "id": "office-rh-nicola-visitors",
+        "name": "Nicola Slope Fabric Dining Side Chair \u2014 stocked Natural",
+        "url": "https://media.restorationhardware.com/is/image/rhis/prod33750094_E24622750076_TQ_RHR?",
+        "imageOrdinal": 4
+      }
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic interior furniture-study image by EDITING image 1; do not create a new room or collage. Image 1 is the approved Mineral & Walnut Option 1 room and fixes the camera, crop, perspective, wall locations, openings, ceiling, fitted cabinetry, current approved stone selections and room proportions. Keep those intact while replacing only the specified loose furniture/supporting pieces. Maintain warm ivory/mushroom mineral-textured walls, matte neutral natural oak flooring, rich warm walnut joinery, ivory/oatmeal/charcoal textiles and restrained black accents; green foliage is the only bright color. Do not import Option 2: no blue/yellow palette, chrome furniture frames, shiny silver handles or dark brown oak-and-steel themed cabinets. Do not add stair runners or colored bedroom accents. Real-world furniture dimensions govern scale; do not widen rooms, shrink products or block doors to make a fit appear better. Use natural believable daylight, warm 2700K accent light if visible, realistic woven fabric/wood/stone detail, no overexposure or pink/orange color cast. Exterior is Crown, Gaithersburg townhouse streets/neighboring mansard rooftops; never forest, ocean, mountains or skyscraper canyon. No people, pets, watermarks, brand logos, product labels, floating objects or new text; preserve existing intentional homeowner inscriptions where specified. Furniture is a visual interpretation for consultation, not manufacturer CAD or a verified construction elevation.\n\nReference image 1 controls the approved present room layout, finish scheme and camera.\nReference image 2 is the ORIGINAL model-home photograph for architecture and window/door positions only. Do NOT copy its obsolete furniture, wall colors or styling; later owner changes in image 1 govern fitted design and stair geometry.\nReference image 3 is ONLY the product-form reference for RH Alora Desk \u2014 stocked 84-inch Brown Oak; use the specified Brown Oak; match sample to the room's walnut build-out finish and 84 W \u00d7 32 D \u00d7 30 H inches. Four inches wider and four inches shallower than the original 80 \u00d7 36 planning target; tape out the diagonal position. scale, not its studio background. Catalog imagery may depict another finish; the exact finish text governs.\nReference image 4 is ONLY the product-form reference for RH Nicola Slope Fabric Dining Side Chair \u2014 stocked Natural; use the specified Natural Performance Linen Weave; fully upholstered frame and legs finish and 22 W \u00d7 23 D \u00d7 32.75 H inches;seat crown 18 H scale, not its studio background. Catalog imagery may depict another finish; the exact finish text governs.\n\nROOM-SPECIFIC EDIT:\nPreserve the 15 ft 5 in by 12 ft 11 in room, full flat ceiling, two-unit-wide front window group and three-unit-wide right window group with their original sill heights and white frames. The full interior north/left wall remains fitted warm-walnut library cabinetry with a central black TV and slim black soundbar, lit display shelving and lower cabinets. Replace only the freestanding furniture: one RH Alora 84-inch Brown Oak rectangular desk, 84 W x 32 D x 30 H inches, positioned as in image 1 with the worker's chair southeast on the window side facing northwest; do not make the desk semicircular. Two RH Nicola Slope fully upholstered Natural Performance Linen Weave side chairs, each 22 W x 23 D x 32.75 H inches, replace the chrome-pedestal visitor chairs on the opposite side of the desk. Their slender upholstered legs are normal product geometry, not metal swivel bases. Keep a restrained charcoal ergonomic working chair as an unbranded planning placeholder; it is not a confirmed stock selection. No large console beneath the south/right window wall. Preserve the proposed compact walnut printer cabinet and black-framed neutral artwork immediately right of the entry doors if that boundary is visible; do not change camera to reveal it. Ivory sheers and discreet light-filtering privacy shades stay at both exterior window banks, shades raised enough to show original window divisions. Keep an ivory loose rug and quiet task lighting.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "d368c093-a370-4ed0-b817-dee447a27deb"
+        },
+        {
+          "role": "image",
+          "value": "b9125cf3-d58c-4b9e-bebf-05a260c40205"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/prod33440092_E24422611796_F_CC_RHR_cl1968002?&$PDP-IS-768$"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/prod33750094_E24622750076_TQ_RHR?"
+        }
+      ]
+    },
+    "notes": {
+      "evidenceType": "Photo-based architectural revision",
+      "stockOrFitLimits": [
+        "Working chair remains an unbranded planning placeholder; desk diagonal position and visitor clearance require field template."
+      ]
+    }
+  },
+  {
+    "index": 70103,
+    "roomId": "media",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/media-m1-day-30603.png",
+    "productReferences": [
+      {
+        "id": "media-rh-cloud119",
+        "name": "Cloud Modular 3-Piece Sofa \u2014 stocked Natural / Classic",
+        "url": "https://media.restorationhardware.com/is/image/rhis/prod6511684_E1684919_F_RHR?",
+        "imageOrdinal": 3
+      }
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic interior furniture-study image by EDITING image 1; do not create a new room or collage. Image 1 is the approved Mineral & Walnut Option 1 room and fixes the camera, crop, perspective, wall locations, openings, ceiling, fitted cabinetry, current approved stone selections and room proportions. Keep those intact while replacing only the specified loose furniture/supporting pieces. Maintain warm ivory/mushroom mineral-textured walls, matte neutral natural oak flooring, rich warm walnut joinery, ivory/oatmeal/charcoal textiles and restrained black accents; green foliage is the only bright color. Do not import Option 2: no blue/yellow palette, chrome furniture frames, shiny silver handles or dark brown oak-and-steel themed cabinets. Do not add stair runners or colored bedroom accents. Real-world furniture dimensions govern scale; do not widen rooms, shrink products or block doors to make a fit appear better. Use natural believable daylight, warm 2700K accent light if visible, realistic woven fabric/wood/stone detail, no overexposure or pink/orange color cast. Exterior is Crown, Gaithersburg townhouse streets/neighboring mansard rooftops; never forest, ocean, mountains or skyscraper canyon. No people, pets, watermarks, brand logos, product labels, floating objects or new text; preserve existing intentional homeowner inscriptions where specified. Furniture is a visual interpretation for consultation, not manufacturer CAD or a verified construction elevation.\n\nReference image 1 controls the approved present room layout, finish scheme and camera.\nReference image 2 is the ORIGINAL model-home photograph for architecture and window/door positions only. Do NOT copy its obsolete furniture, wall colors or styling; later owner changes in image 1 govern fitted design and stair geometry.\nReference image 3 is ONLY the product-form reference for RH Cloud Modular 3-Piece Sofa \u2014 stocked Natural / Classic; use the specified Natural Performance Linen Weave finish and Classic 3-piece:119 W \u00d7 40 D \u00d7 32 H inches. Current RH Dimensions verified. Keep a straight sofa and protect rear circulation in the media room. scale, not its studio background. Catalog imagery may depict another finish; the exact finish text governs.\n\nROOM-SPECIFIC EDIT:\nRoom remains only 15 ft 1 in by 11 ft 1 in. Preserve the wide two-sash double-hung street window on the far/east wall, original shallow tray ceiling and crown, original right/south TV wall and all unseen door positions. Replace the current L-shaped sofa/chaise with a STRAIGHT RH Cloud Modular Classic three-piece sofa, Natural Performance Linen Weave, exactly three equal low deep modules in a straight line with two end arms, 119 W x 40 D x 32 H inches. No chaise or corner extension. Place its back on the existing left seating wall facing the 83-inch TV, leaving the real circulation route at the west entry. The TV remains the dominant visual element on a smooth restrained mushroom/charcoal backing with a faint warm-white halo; no busy full-wall wooden slats. Retain the long approximately 108-inch floating walnut/charcoal media console and black soundbar, original ceiling grilles and discreet rear speakers. Clear ivory single-lite glazed entry doors belong on the west wall near the south/TV corner, perpendicular to the TV wall; if outside this crop do not invent doors in the TV wall. The recessed anime-collectible shelf is immediately right of those doors viewed from inside, only show if already in the crop. Retain ivory sheers plus blackout-lined neutral curtains at the window, drawn open for daylight, and practical removable covers for clear doors only in movie mode. Keep natural-toned loose rug. No extra seats or furniture.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "7f13cd4d-378a-4a37-bdca-366ac6e329b6"
+        },
+        {
+          "role": "image",
+          "value": "4ea563a1-197a-41c5-87cd-8a4b7cef9ea7"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/prod6511684_E1684919_F_RHR?"
+        }
+      ]
+    },
+    "notes": {
+      "evidenceType": "Photo-based architectural revision",
+      "stockOrFitLimits": []
+    }
+  },
+  {
+    "index": 70104,
+    "roomId": "gym",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/gym-g1-day-30504.png",
+    "productReferences": [],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic interior furniture-study image by EDITING image 1; do not create a new room or collage. Image 1 is the approved Mineral & Walnut Option 1 room and fixes the camera, crop, perspective, wall locations, openings, ceiling, fitted cabinetry, current approved stone selections and room proportions. Keep those intact while replacing only the specified loose furniture/supporting pieces. Maintain warm ivory/mushroom mineral-textured walls, matte neutral natural oak flooring, rich warm walnut joinery, ivory/oatmeal/charcoal textiles and restrained black accents; green foliage is the only bright color. Do not import Option 2: no blue/yellow palette, chrome furniture frames, shiny silver handles or dark brown oak-and-steel themed cabinets. Do not add stair runners or colored bedroom accents. Real-world furniture dimensions govern scale; do not widen rooms, shrink products or block doors to make a fit appear better. Use natural believable daylight, warm 2700K accent light if visible, realistic woven fabric/wood/stone detail, no overexposure or pink/orange color cast. Exterior is Crown, Gaithersburg townhouse streets/neighboring mansard rooftops; never forest, ocean, mountains or skyscraper canyon. No people, pets, watermarks, brand logos, product labels, floating objects or new text; preserve existing intentional homeowner inscriptions where specified. Furniture is a visual interpretation for consultation, not manufacturer CAD or a verified construction elevation.\n\nReference image 1 controls the approved present room layout, finish scheme and camera.\nReference image 2 is the ORIGINAL model-home photograph for architecture and window/door positions only. Do NOT copy its obsolete furniture, wall colors or styling; later owner changes in image 1 govern fitted design and stair geometry.\n\nROOM-SPECIFIC EDIT:\nThis is an EMPTY finished gym, 11 ft 11 in by 13 ft 1 in with flat 9-foot ceiling. Do not stage furniture or equipment. Preserve the large two-sash corner-window group, other portico-side exterior window location even if off camera, the separate northwest closet access, the bathroom access and clear gallery-door locations. Keep the current large full-length mirror in its frame, charcoal resilient rubber floor, warm neutral mineral walls, simple linear ceiling light and roller privacy shades raised partially. Keep the exact understated wall lettering: 'Surpass your limits. Right here, right now.' No rack, weights, treadmill, exercise bike, storage cabinet, yoga mat, decorative plant or bench. The new image demonstrates the approved empty shell and window control, with cleaner photoreal material detail only.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "fece6058-938d-4fbd-86b8-30b110148592"
+        },
+        {
+          "role": "image",
+          "value": "f361e90c-37e9-442d-8063-65c002649959"
+        }
+      ]
+    },
+    "notes": {
+      "evidenceType": "Photo-based architectural revision",
+      "stockOrFitLimits": []
+    }
+  },
+  {
+    "index": 70105,
+    "roomId": "bath",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bath-b1-day-30505.png",
+    "productReferences": [
+      {
+        "id": "bath-cb-ivory-soap",
+        "name": "Clean by Crate Ivory Ceramic Soap Dispenser with Black Pump",
+        "url": "https://cb.scene7.com/is/image/Crate/CBCleanIvrCmSoapDspBPmpSSF25?%24web_pdp_main_carousel_thumb_med%24=",
+        "imageOrdinal": 2
+      }
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic interior furniture-study image by EDITING image 1; do not create a new room or collage. Image 1 is the approved Mineral & Walnut Option 1 room and fixes the camera, crop, perspective, wall locations, openings, ceiling, fitted cabinetry, current approved stone selections and room proportions. Keep those intact while replacing only the specified loose furniture/supporting pieces. Maintain warm ivory/mushroom mineral-textured walls, matte neutral natural oak flooring, rich warm walnut joinery, ivory/oatmeal/charcoal textiles and restrained black accents; green foliage is the only bright color. Do not import Option 2: no blue/yellow palette, chrome furniture frames, shiny silver handles or dark brown oak-and-steel themed cabinets. Do not add stair runners or colored bedroom accents. Real-world furniture dimensions govern scale; do not widen rooms, shrink products or block doors to make a fit appear better. Use natural believable daylight, warm 2700K accent light if visible, realistic woven fabric/wood/stone detail, no overexposure or pink/orange color cast. Exterior is Crown, Gaithersburg townhouse streets/neighboring mansard rooftops; never forest, ocean, mountains or skyscraper canyon. No people, pets, watermarks, brand logos, product labels, floating objects or new text; preserve existing intentional homeowner inscriptions where specified. Furniture is a visual interpretation for consultation, not manufacturer CAD or a verified construction elevation.\n\nReference image 1 controls the approved present room layout, finish scheme and camera.\nReference image 2 is ONLY the product-form reference for Crate & Barrel Clean by Crate Ivory Ceramic Soap Dispenser with Black Pump; use the specified Matte Ivory stoneware with black pump finish and 15-oz capacity; exact countertop footprint remains to check scale, not its studio background. Catalog imagery may depict another finish; the exact finish text governs.\n\nROOM-SPECIFIC EDIT:\nRetain this compact, WINDOWLESS plan-derived first-floor bath concept, about 6 by 9 feet. Image 1 governs the visible geometry: warm-walnut vanity and white basin/counter on the garage-side far wall, toilet beside it, separate left and right access doors, rounded black-framed mirror and small warm sconces. Preserve the unseen opposite-end corner shower/bench location; do not place a shower on the vanity wall or add a window. Keep the warm limestone-look floor, mineral wall texture and matte dark taps. Replace the small existing soap styling with ONE Crate & Barrel Clean Ivory Ceramic Soap Dispenser with BLACK pump, 15-ounce capacity, beside the basin without obstructing the tap. The dispenser is a small supporting piece, not a large decorative vase. Keep one modest neutral hand towel. No new vanity, freestanding furniture or structural changes. This is a planning concept and not a photo-verified elevation.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "6fef3adf-1c50-4994-bb28-59ee4d31612b"
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/CBCleanIvrCmSoapDspBPmpSSF25?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ]
+    },
+    "notes": {
+      "evidenceType": "Plan-led concept \u00b7 no room photograph",
+      "stockOrFitLimits": []
+    }
+  },
+  {
+    "index": 70106,
+    "roomId": "great",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/great-gr1-day.png",
+    "productReferences": [
+      {
+        "id": "retreat94",
+        "name": "Retreat 94-inch Sofa \u2014 Serene Ivory / Multi-Cushion",
+        "url": "https://cb.scene7.com/is/image/Crate/Retreat94inSofaSOSSS24_3D?%24web_pdp_main_carousel_thumb_med%24=",
+        "imageOrdinal": 3
+      },
+      {
+        "id": "shelter-chair",
+        "name": "1950s Italian Shelter Arm Swivel Chair \u2014 current stocked edition",
+        "url": "https://media.restorationhardware.com/is/image/rhis/prod20580100_E414854120_TQ_CC_RHR?",
+        "imageOrdinal": 4
+      },
+      {
+        "id": "tate48",
+        "name": "Tate Walnut 48-inch Storage Coffee Table",
+        "url": "https://cb.scene7.com/is/image/Crate/TateCoffeeTableWlntSOSSS23_3D?%24web_pdp_main_carousel_thumb_med%24=",
+        "imageOrdinal": 5
+      }
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic interior furniture-study image by EDITING image 1; do not create a new room or collage. Image 1 is the approved Mineral & Walnut Option 1 room and fixes the camera, crop, perspective, wall locations, openings, ceiling, fitted cabinetry, current approved stone selections and room proportions. Keep those intact while replacing only the specified loose furniture/supporting pieces. Maintain warm ivory/mushroom mineral-textured walls, matte neutral natural oak flooring, rich warm walnut joinery, ivory/oatmeal/charcoal textiles and restrained black accents; green foliage is the only bright color. Do not import Option 2: no blue/yellow palette, chrome furniture frames, shiny silver handles or dark brown oak-and-steel themed cabinets. Do not add stair runners or colored bedroom accents. Real-world furniture dimensions govern scale; do not widen rooms, shrink products or block doors to make a fit appear better. Use natural believable daylight, warm 2700K accent light if visible, realistic woven fabric/wood/stone detail, no overexposure or pink/orange color cast. Exterior is Crown, Gaithersburg townhouse streets/neighboring mansard rooftops; never forest, ocean, mountains or skyscraper canyon. No people, pets, watermarks, brand logos, product labels, floating objects or new text; preserve existing intentional homeowner inscriptions where specified. Furniture is a visual interpretation for consultation, not manufacturer CAD or a verified construction elevation.\n\nReference image 1 controls the approved present room layout, finish scheme and camera.\nReference image 2 is the ORIGINAL model-home photograph for architecture and window/door positions only. Do NOT copy its obsolete furniture, wall colors or styling; later owner changes in image 1 govern fitted design and stair geometry.\nReference image 3 is ONLY the product-form reference for Crate & Barrel Retreat 94-inch Sofa \u2014 Serene Ivory / Multi-Cushion; use the specified Serene fabric in Ivory finish and 94 W \u00d7 44 D \u00d7 28.5 H inches scale, not its studio background. Catalog imagery may depict another finish; the exact finish text governs.\nReference image 4 is ONLY the product-form reference for RH 1950s Italian Shelter Arm Swivel Chair \u2014 current stocked edition; use the specified Natural Performance Linen Weave; Sand stocked sibling available finish and 31 in W \u00d7 32\u00bd in D \u00d7 30 in H; seat 18 in H. Allow full swivel clearance. scale, not its studio background. Catalog imagery may depict another finish; the exact finish text governs.\nReference image 5 is ONLY the product-form reference for Crate & Barrel Tate Walnut 48-inch Storage Coffee Table; use the specified Warm brown Tate Walnut finish; walnut veneer over poplar/engineered wood finish and 48 W \u00d7 24 D \u00d7 17 H inches; exact SKU 259126 verified in the live Dimensions accordion. scale, not its studio background. Catalog imagery may depict another finish; the exact finish text governs.\n\nROOM-SPECIFIC EDIT:\nKeep the 15 ft 1 in by 17 ft room and the exact camera/composition. Preserve TWO high horizontal transom windows flanking the fireplace chase; never remove either. Left terrace glass doors and their upper transom remain. Keep the flat ceiling and crown, centered linear gas fireplace and black TV ABOVE it. Keep both existing low warm-walnut consoles; above each console retain different sibling neutral abstract artworks in equal-sized thin black frames, below the high windows. Replace the sofa in its current left foreground footprint with Crate & Barrel Retreat 94-inch Multi-Cushion Sofa in Serene Ivory, 94 W x 44 D x 28.5 H inches, softly padded but tidy rectangular body, three seat cushions, low arms and supportive backs. Replace the two visible lounge chairs with two RH 1950s Italian Shelter Arm SWIVEL chairs in Natural Performance Linen Weave, 31 W x 32.5 D x 30 H inches, upholstered shelter arms and small recessed dark swivel bases rather than long wooden legs. One chair remains near the left terrace, the other near the right console; their scale and swivel clearance must not inflate the room. Replace the oval coffee table with the rectangular Crate & Barrel Tate Walnut 48-inch Storage Coffee Table, 48 W x 24 D x 17 H inches, walnut storage body and product-proportioned low support. Keep a Crate & Barrel Prato Ivory 9 by 12 foot rug under the sofa front and chairs. On the right console use one Arhaus Linden 28-inch table lamp, matte/aged dark PEWTER iron with a warm ivory linen shade, 18 inches square shade footprint, not polished silver or chrome. Retain one green plant, charcoal/ivory pillows and restrained low tabletop styling. Ivory sheers plus hidden privacy shades, open for daylight; no blackout requirement.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "ab8924ca-bb0c-491a-89b0-18d2cf558af2"
+        },
+        {
+          "role": "image",
+          "value": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef"
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/Retreat94inSofaSOSSS24_3D?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/prod20580100_E414854120_TQ_CC_RHR?"
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/TateCoffeeTableWlntSOSSS23_3D?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ]
+    },
+    "notes": {
+      "evidenceType": "Photo-based architectural revision",
+      "stockOrFitLimits": []
+    }
+  },
+  {
+    "index": 70107,
+    "roomId": "kitchen",
+    "sourceFile": "assets/render-candidates/mineral-walnut-stone/r02/c1-kitchen.png",
+    "productReferences": [
+      {
+        "id": "nord-counter",
+        "name": "Nord Ivory Upholstered Brown Wood Counter Stool",
+        "url": "https://cb.scene7.com/is/image/Crate/NrdCntrStlDrkLgvry1SOSSS26_3D?%24web_pdp_main_carousel_thumb_med%24=",
+        "imageOrdinal": 3
+      }
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic interior furniture-study image by EDITING image 1; do not create a new room or collage. Image 1 is the approved Mineral & Walnut Option 1 room and fixes the camera, crop, perspective, wall locations, openings, ceiling, fitted cabinetry, current approved stone selections and room proportions. Keep those intact while replacing only the specified loose furniture/supporting pieces. Maintain warm ivory/mushroom mineral-textured walls, matte neutral natural oak flooring, rich warm walnut joinery, ivory/oatmeal/charcoal textiles and restrained black accents; green foliage is the only bright color. Do not import Option 2: no blue/yellow palette, chrome furniture frames, shiny silver handles or dark brown oak-and-steel themed cabinets. Do not add stair runners or colored bedroom accents. Real-world furniture dimensions govern scale; do not widen rooms, shrink products or block doors to make a fit appear better. Use natural believable daylight, warm 2700K accent light if visible, realistic woven fabric/wood/stone detail, no overexposure or pink/orange color cast. Exterior is Crown, Gaithersburg townhouse streets/neighboring mansard rooftops; never forest, ocean, mountains or skyscraper canyon. No people, pets, watermarks, brand logos, product labels, floating objects or new text; preserve existing intentional homeowner inscriptions where specified. Furniture is a visual interpretation for consultation, not manufacturer CAD or a verified construction elevation.\n\nReference image 1 controls the approved present room layout, finish scheme and camera.\nReference image 2 is the ORIGINAL model-home photograph for architecture and window/door positions only. Do NOT copy its obsolete furniture, wall colors or styling; later owner changes in image 1 govern fitted design and stair geometry.\nReference image 3 is ONLY the product-form reference for Crate & Barrel Nord Ivory Upholstered Brown Wood Counter Stool; use the specified Saxony fabric Ivory / Brown wood legs finish and 20.13 W \u00d7 24.25 D \u00d7 39.25 H inches; seat height still to verify scale, not its studio background. Catalog imagery may depict another finish; the exact finish text governs.\n\nROOM-SPECIFIC EDIT:\nKeep the exact L-shaped kitchen layout, all ivory cabinetry, left counter window and refrigerator, the cooktop and chimney hood on the back wall, island sink and the stainless MICROWAVE/WALL-OVEN COLUMN at the RIGHT end of the back wall. Never delete that oven column. Preserve all original arches/openings and the adjacent sunroom. Retain approved Study C1 warm creamy quartzite-look porcelain/stone backsplash and waterfall island; veining stays understated cream/taupe and not blue or dramatic black. Keep two approximately 18-inch shallow dark-bronze dome pendants with warm ivory undersides above the island. Replace only the four island stools with four Crate & Barrel Nord Ivory Upholstered Brown Wood COUNTER stools, each 20.13 W x 24.25 D x 39.25 H inches overall, ivory Saxony upholstery and warm dark-brown wood legs/footrest as in product reference. They are counter stools, not tall bar stools: match the actual seat-to-island clearance without changing counter height. Four visible stools equally spaced along the same right/front seating edge, no fifth chair. A modest stack of Crate & Barrel Mercer matte white porcelain dinner plates can sit on the counter; do not arrange twelve plates on the island as decoration. Use the wipeable privacy roller at the counter window with raised daytime position. If adjacent sunroom furniture is visible, show its 72-inch warm Abanos rectangular table and six ivory upholstered armless chairs consistently, not a round table. Keep the oak floor and existing lighting.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "833d14c6-f250-4c62-adf9-9019515b7692"
+        },
+        {
+          "role": "image",
+          "value": "211301c7-6056-4dd5-b821-e1f67a48b99a"
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/NrdCntrStlDrkLgvry1SOSSS26_3D?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ]
+    },
+    "notes": {
+      "evidenceType": "Photo-based architectural revision",
+      "stockOrFitLimits": []
+    }
+  },
+  {
+    "index": 70108,
+    "roomId": "dining",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/dining-d1-day-30508.png",
+    "productReferences": [
+      {
+        "id": "nicola-dining",
+        "name": "Nicola Slope Fabric Dining Side Chair \u2014 stocked Natural",
+        "url": "https://media.restorationhardware.com/is/image/rhis/prod33750094_E24622750076_TQ_RHR?",
+        "imageOrdinal": 3
+      }
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic interior furniture-study image by EDITING image 1; do not create a new room or collage. Image 1 is the approved Mineral & Walnut Option 1 room and fixes the camera, crop, perspective, wall locations, openings, ceiling, fitted cabinetry, current approved stone selections and room proportions. Keep those intact while replacing only the specified loose furniture/supporting pieces. Maintain warm ivory/mushroom mineral-textured walls, matte neutral natural oak flooring, rich warm walnut joinery, ivory/oatmeal/charcoal textiles and restrained black accents; green foliage is the only bright color. Do not import Option 2: no blue/yellow palette, chrome furniture frames, shiny silver handles or dark brown oak-and-steel themed cabinets. Do not add stair runners or colored bedroom accents. Real-world furniture dimensions govern scale; do not widen rooms, shrink products or block doors to make a fit appear better. Use natural believable daylight, warm 2700K accent light if visible, realistic woven fabric/wood/stone detail, no overexposure or pink/orange color cast. Exterior is Crown, Gaithersburg townhouse streets/neighboring mansard rooftops; never forest, ocean, mountains or skyscraper canyon. No people, pets, watermarks, brand logos, product labels, floating objects or new text; preserve existing intentional homeowner inscriptions where specified. Furniture is a visual interpretation for consultation, not manufacturer CAD or a verified construction elevation.\n\nReference image 1 controls the approved present room layout, finish scheme and camera.\nReference image 2 is the ORIGINAL model-home photograph for architecture and window/door positions only. Do NOT copy its obsolete furniture, wall colors or styling; later owner changes in image 1 govern fitted design and stair geometry.\nReference image 3 is ONLY the product-form reference for RH Nicola Slope Fabric Dining Side Chair \u2014 stocked Natural; use the specified Natural Performance Linen Weave; fully upholstered frame and legs. Sand stocked sibling. finish and 22 in W \u00d7 23 in D \u00d7 32\u00be in H; seat crown 18 in. Template with actual table and doors. Plan two office visitor chairs, eight everyday formal dining chairs plus two spares, and six sunroom chairs. Exact combined quantity remains to check. scale, not its studio background. Catalog imagery may depict another finish; the exact finish text governs.\n\nROOM-SPECIFIC EDIT:\nPreserve the 12 ft 11 in by 15 ft 3 in room and all FIVE varied windows: the small high arched window to the left, two tall rectangular double-hungs in their source positions, two tall arched windows in their source positions, and the original niche. The small high arch is not a full-height window. Flat crown ceiling and existing linear black/warm candle chandelier stay. Retain the shallow 8-inch walnut shelf under the high arch without obstructing glazing, existing right-wall walnut console, art and quiet lamp. Replace the current dining chairs with RH Nicola Slope fully upholstered Natural Performance Linen Weave side chairs, 22 W x 23 D x 32.75 H inches each. Show EIGHT everyday chairs: THREE along each long side and ONE at each table end; the two additional spare chairs in the quantity-ten purchase list are not crowded into this closed-table setting. The table is an UNBRANDED PLANNING PLACEHOLDER, warm Walnut Brown extendable table approximately 84 W x 38 D x 30 H inches closed, capable of a 20-inch leaf for 104 inches, because the Pottery Barn Barley candidate inventory is still unverified. Give it clean substantial corner supports consistent with the existing style; do not make a twelve-seat square table or claim confirmed catalog stock. Retain meaningful end/side circulation rather than expanding the room to fit ten. Ivory transparent sheers and discreet independent privacy shades at tall windows remain open for daylight; keep high arch clear. No new colored accent palette.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "02dd9a05-daf6-4524-8ebe-f6df717d6e90"
+        },
+        {
+          "role": "image",
+          "value": "3300e9bd-339e-4639-a7ac-f48d5e49351b"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/prod33750094_E24622750076_TQ_RHR?"
+        }
+      ]
+    },
+    "notes": {
+      "evidenceType": "Photo-based architectural revision",
+      "stockOrFitLimits": [
+        "Dining table is an unverified planning placeholder; eight chairs shown, two purchase-list spares excluded from view."
+      ]
+    }
+  },
+  {
+    "index": 70109,
+    "roomId": "living",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/living-lr1-day-30909.png",
+    "productReferences": [
+      {
+        "id": "retreat94",
+        "name": "Retreat 94-inch Sofa \u2014 Serene Ivory / Multi-Cushion",
+        "url": "https://cb.scene7.com/is/image/Crate/Retreat94inSofaSOSSS24_3D?%24web_pdp_main_carousel_thumb_med%24=",
+        "imageOrdinal": 2
+      },
+      {
+        "id": "tate48",
+        "name": "Tate Walnut 48-inch Storage Coffee Table",
+        "url": "https://cb.scene7.com/is/image/Crate/TateCoffeeTableWlntSOSSS23_3D?%24web_pdp_main_carousel_thumb_med%24=",
+        "imageOrdinal": 3
+      }
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic interior furniture-study image by EDITING image 1; do not create a new room or collage. Image 1 is the approved Mineral & Walnut Option 1 room and fixes the camera, crop, perspective, wall locations, openings, ceiling, fitted cabinetry, current approved stone selections and room proportions. Keep those intact while replacing only the specified loose furniture/supporting pieces. Maintain warm ivory/mushroom mineral-textured walls, matte neutral natural oak flooring, rich warm walnut joinery, ivory/oatmeal/charcoal textiles and restrained black accents; green foliage is the only bright color. Do not import Option 2: no blue/yellow palette, chrome furniture frames, shiny silver handles or dark brown oak-and-steel themed cabinets. Do not add stair runners or colored bedroom accents. Real-world furniture dimensions govern scale; do not widen rooms, shrink products or block doors to make a fit appear better. Use natural believable daylight, warm 2700K accent light if visible, realistic woven fabric/wood/stone detail, no overexposure or pink/orange color cast. Exterior is Crown, Gaithersburg townhouse streets/neighboring mansard rooftops; never forest, ocean, mountains or skyscraper canyon. No people, pets, watermarks, brand logos, product labels, floating objects or new text; preserve existing intentional homeowner inscriptions where specified. Furniture is a visual interpretation for consultation, not manufacturer CAD or a verified construction elevation.\n\nReference image 1 controls the approved present room layout, finish scheme and camera.\nReference image 2 is ONLY the product-form reference for Crate & Barrel Retreat 94-inch Sofa \u2014 Serene Ivory / Multi-Cushion; use the specified Serene fabric in Ivory finish and 94 W \u00d7 44 D \u00d7 28.5 H inches scale, not its studio background. Catalog imagery may depict another finish; the exact finish text governs.\nReference image 3 is ONLY the product-form reference for Crate & Barrel Tate Walnut 48-inch Storage Coffee Table; use the specified Warm brown Tate Walnut finish; walnut veneer over poplar/engineered wood finish and 48 W \u00d7 24 D \u00d7 17 H inches; exact SKU 259126 verified in the live Dimensions accordion. scale, not its studio background. Catalog imagery may depict another finish; the exact finish text governs.\n\nROOM-SPECIFIC EDIT:\nThis is the PLAN-DERIVED piano living room, not a room with a dedicated original model-home photograph. Preserve image 1's established viewpoint and openings as a concept: a 16 ft by 11 ft 4 in living area, two living-room front windows, the left dining-room adjacency/open boundary, solid side wall and stair route. The far-left opening belongs to the adjoining dining boundary; do not add another living-room window or enlarge the room. Preserve the small approximately 5-foot baby grand piano and bench at the top/right plan corner, glossy dark walnut/black case, safe bench pullback and piano access. Replace the existing Cloud-like sofa at the left dining boundary with ONE Crate & Barrel Retreat 94-inch Multi-Cushion Sofa in Serene Ivory, 94 W x 44 D x 28.5 H inches, same position and orientation facing toward the piano/seating conversation. No 119-inch modular sofa or chaise. Replace the center table with Crate & Barrel Tate Walnut 48-inch Storage Coffee Table, 48 W x 24 D x 17 H inches. Retain the existing compact neutral reading chair only as an unbranded planning placeholder, because the RH swivel-chair candidate is optional and not the selected main scheme. Keep the loose ivory rug, black slim lamp, warm-mineral walls, pale matte oak floor, clear ivory sheers with hidden privacy/glare shades raised for day. Leave a plausible walking route between dining and stairs; no new architectural header or cove.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "69b4741e-a6b7-4650-a59d-6e35171522c6"
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/Retreat94inSofaSOSSS24_3D?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "role": "image",
+          "value": "https://cb.scene7.com/is/image/Crate/TateCoffeeTableWlntSOSSS23_3D?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ]
+    },
+    "notes": {
+      "evidenceType": "Plan-led concept \u00b7 no room photograph",
+      "stockOrFitLimits": [
+        "Plan-derived room envelope, piano and reading chair are illustrative placeholders."
+      ]
+    }
+  },
+  {
+    "index": 70110,
+    "roomId": "sunroom",
+    "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s1-day.png",
+    "productReferences": [
+      {
+        "id": "parsons-abano72",
+        "name": "Parsons 72-inch Dining Table \u2014 Abanos, conditional stocked fallback",
+        "url": "https://cdn.arhaus.com/product/images/30PRSA72TBKT_XBU250626.jpg?preset=pdp",
+        "imageOrdinal": 3
+      },
+      {
+        "id": "nicola-dining",
+        "name": "Nicola Slope Fabric Dining Side Chair \u2014 stocked Natural",
+        "url": "https://media.restorationhardware.com/is/image/rhis/prod33750094_E24622750076_TQ_RHR?",
+        "imageOrdinal": 4
+      }
+    ],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic interior furniture-study image by EDITING image 1; do not create a new room or collage. Image 1 is the approved Mineral & Walnut Option 1 room and fixes the camera, crop, perspective, wall locations, openings, ceiling, fitted cabinetry, current approved stone selections and room proportions. Keep those intact while replacing only the specified loose furniture/supporting pieces. Maintain warm ivory/mushroom mineral-textured walls, matte neutral natural oak flooring, rich warm walnut joinery, ivory/oatmeal/charcoal textiles and restrained black accents; green foliage is the only bright color. Do not import Option 2: no blue/yellow palette, chrome furniture frames, shiny silver handles or dark brown oak-and-steel themed cabinets. Do not add stair runners or colored bedroom accents. Real-world furniture dimensions govern scale; do not widen rooms, shrink products or block doors to make a fit appear better. Use natural believable daylight, warm 2700K accent light if visible, realistic woven fabric/wood/stone detail, no overexposure or pink/orange color cast. Exterior is Crown, Gaithersburg townhouse streets/neighboring mansard rooftops; never forest, ocean, mountains or skyscraper canyon. No people, pets, watermarks, brand logos, product labels, floating objects or new text; preserve existing intentional homeowner inscriptions where specified. Furniture is a visual interpretation for consultation, not manufacturer CAD or a verified construction elevation.\n\nReference image 1 controls the approved present room layout, finish scheme and camera.\nReference image 2 is the ORIGINAL model-home photograph for architecture and window/door positions only. Do NOT copy its obsolete furniture, wall colors or styling; later owner changes in image 1 govern fitted design and stair geometry.\nReference image 3 is ONLY the product-form reference for Arhaus Parsons 72-inch Dining Table \u2014 Abanos, conditional stocked fallback; use the specified Abanos warm dark neutral; solid oak and oak veneer. Confirm undertone with a physical sample. finish and 72 W \u00d7 38 D \u00d7 30 H inches; actual opening between the four corner legs must be measured. scale, not its studio background. Catalog imagery may depict another finish; the exact finish text governs.\nReference image 4 is ONLY the product-form reference for RH Nicola Slope Fabric Dining Side Chair \u2014 stocked Natural; use the specified Natural Performance Linen Weave; fully upholstered frame and legs. Sand stocked sibling. finish and 22 in W \u00d7 23 in D \u00d7 32\u00be in H; seat crown 18 in. Template with actual table and doors. Plan two office visitor chairs, eight everyday formal dining chairs plus two spares, and six sunroom chairs. Exact combined quantity remains to check. scale, not its studio background. Catalog imagery may depict another finish; the exact finish text governs.\n\nROOM-SPECIFIC EDIT:\nRoom is only 12 ft 3 in by 9 ft 3 in. Preserve the exact wraparound double-hung windows on far and right walls with high transoms above knee walls, original right-edge terrace door and LEFT-edge microwave/wall-oven column. Do not remove appliances or turn the windows into floor-to-ceiling glass. Replace the current table with the Arhaus Parsons 72-inch rectangular dining table in ABANOS warm dark-neutral oak/veneer, 72 W x 38 D x 30 H inches, clean rectangular top and four substantial corner legs as in product reference. This is a conditional-fit stocked fallback, not a reason to widen the room; at 38-inch depth retain realistic chair/door clearances. Replace chairs with SIX RH Nicola Slope fully upholstered Natural Performance Linen Weave chairs, each 22 W x 23 D x 32.75 H inches: TWO along each long side and ONE at each end. Do not render seven or eight chairs. The six-seat placement must remain within the photographed footprint with oven access and terrace swing clear, without overlapping chair/table legs. Keep the airy dark/opal linear chandelier, ivory transparent sheers and independent light-filtering privacy shades by window bank, shades partly raised as in daytime source. One small green plant and low neutral tabletop accessory are enough. Keep pale natural oak floor and ivory loose rug; no high-saturation accent color or shiny chrome.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "a282a5d0-f69f-4f8c-be4c-71f2a5a29e0e"
+        },
+        {
+          "role": "image",
+          "value": "e4afd82d-0341-4e64-a5d1-80971aa278a0"
+        },
+        {
+          "role": "image",
+          "value": "https://cdn.arhaus.com/product/images/30PRSA72TBKT_XBU250626.jpg?preset=pdp"
+        },
+        {
+          "role": "image",
+          "value": "https://media.restorationhardware.com/is/image/rhis/prod33750094_E24622750076_TQ_RHR?"
+        }
+      ]
+    },
+    "notes": {
+      "evidenceType": "Photo-based architectural revision",
+      "stockOrFitLimits": [
+        "Table six-chair clearance remains conditional; do not infer fit approval from the image."
+      ]
+    }
+  },
+  {
+    "index": 70111,
+    "roomId": "stair2",
+    "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/stair2-st1-day.png",
+    "productReferences": [],
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "high",
+      "resolution": "2k",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "prompt": "Create ONE photorealistic interior furniture-study image by EDITING image 1; do not create a new room or collage. Image 1 is the approved Mineral & Walnut Option 1 room and fixes the camera, crop, perspective, wall locations, openings, ceiling, fitted cabinetry, current approved stone selections and room proportions. Keep those intact while replacing only the specified loose furniture/supporting pieces. Maintain warm ivory/mushroom mineral-textured walls, matte neutral natural oak flooring, rich warm walnut joinery, ivory/oatmeal/charcoal textiles and restrained black accents; green foliage is the only bright color. Do not import Option 2: no blue/yellow palette, chrome furniture frames, shiny silver handles or dark brown oak-and-steel themed cabinets. Do not add stair runners or colored bedroom accents. Real-world furniture dimensions govern scale; do not widen rooms, shrink products or block doors to make a fit appear better. Use natural believable daylight, warm 2700K accent light if visible, realistic woven fabric/wood/stone detail, no overexposure or pink/orange color cast. Exterior is Crown, Gaithersburg townhouse streets/neighboring mansard rooftops; never forest, ocean, mountains or skyscraper canyon. No people, pets, watermarks, brand logos, product labels, floating objects or new text; preserve existing intentional homeowner inscriptions where specified. Furniture is a visual interpretation for consultation, not manufacturer CAD or a verified construction elevation.\n\nReference image 1 controls the approved present room layout, finish scheme and camera.\nReference image 2 is the ORIGINAL model-home photograph for architecture and window/door positions only. Do NOT copy its obsolete furniture, wall colors or styling; later owner changes in image 1 govern fitted design and stair geometry.\n\nROOM-SPECIFIC EDIT:\nDo not add any portable furniture, runner, tread mat or stair rod. Preserve the photographed/model-home stair footprint and open well continuing DOWN in the foreground guard, the original wall-supported quarter-turn curved segment, intermediate half-floor landing and onward straight flight to the next floor. It is not a freestanding continuous spiral. Keep white balusters/risers, warm neutral oak bare treads with exposed full-width wood, dark handrails, existing stacked high stair windows, the arched opening to the adjacent great room on the left, under-stair paneled door and existing monochrome art/picture light. No drapes beside steps and no blackout curtains on high stair windows. Retain all original walls, landing clearances, guard heights and ceiling. Refresh subtle photographic material quality only. If adjacent great-room furniture is visible, it should read as a tidy ivory sofa, pale compact shelter-arm swivel chairs and a simple warm-walnut rectangular low coffee table, without changing the stair-room architecture.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "6cfaa918-9f68-45b8-af99-6e7592a1647a"
+        },
+        {
+          "role": "image",
+          "value": "5e85ff68-2229-4dd4-becd-1641f0165da1"
+        }
+      ]
+    },
+    "notes": {
+      "evidenceType": "Photo-based architectural revision",
+      "stockOrFitLimits": []
+    }
+  }
+]

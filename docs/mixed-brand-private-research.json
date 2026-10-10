@@ -1,0 +1,2526 @@
+{
+  "checkedAt": "2026-10-09",
+  "title": "Mineral & Walnut mixed-brand private-room research",
+  "researchScope": [
+    "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod22040025?inStock=true",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod29870390",
+    "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+    "https://www.crateandbarrel.com/cardiff-black-table-lamp-16.5/f1050311",
+    "https://www.crateandbarrel.com/classic-organic-turkish-cotton-white-towels-set-of-6/f90235",
+    "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-sink-caddy-tray/s683584",
+    "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-soap-dispenser-with-black-pump/s683578",
+    "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-eyelash-full-queen-duvet-cover/s322605",
+    "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-eyelash-king-duvet-cover/s322631",
+    "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-king-bed-sheet-set/s323212",
+    "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-queen-bed-sheet-set/s322807",
+    "https://www.crateandbarrel.com/hastings-18-rye-wood-narrow-nightstand/s628459",
+    "https://www.crateandbarrel.com/multisurface-8x10-classic-rug-pad/s561283",
+    "https://www.crateandbarrel.com/multisurface-9x12-classic-rug-pad/s561326",
+    "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-8x10/s189362",
+    "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-9x12/s190307",
+    "https://www.crateandbarrel.com/retreat-94-sofa/f1027609",
+    "https://www.crateandbarrel.com/sedona-honey-hamper-with-laundry-bag-liner/s368012",
+    "https://www.crateandbarrel.com/tate-62-walnut-midcentury-credenza/s683480",
+    "https://www.crateandbarrel.com/tate-68-walnut-wood-9-drawer-dresser/s113922",
+    "https://www.crateandbarrel.com/white-canvas-laundry-bag/s309319",
+    "https://www.potterybarn.com/products/monroe-handwoven-wool-rug/?catalogId=84&sku=912504"
+  ],
+  "sourceFiles": [
+    "docs/mineral-walnut-rh-house.json",
+    "docs/mineral-walnut-rh-stock.json"
+  ],
+  "selectionPolicy": "Value throughout; exact-sale configurations prioritized. Only verified in_stock / ready_to_ship products are recommended. Pending alternatives are excluded from purchase totals and the stocked buy list.",
+  "pricingNote": "USD. RH member sale requires membership. Tax, delivery, installation, mattresses and fixed construction excluded. Sale reference does not guarantee future pricing.",
+  "researchLimitations": [
+    "Official product text was accessible, but this researcher had no usable interactive browser surface. Root live configuration evidence is retained where supplied.",
+    "Stock is a dated exact-configuration snapshot, not a reservation. Combined quantities across rooms require recheck.",
+    "Current October delivery dates precede November 3 possession. Schedule only after possession and completion of the relevant room.",
+    "Pending products may be promoted only after exact current size/finish/fabric stock proof; active listings/Add to Cart are insufficient.",
+    "New guest-room bed/side-table substitutions alter the original furniture forms: plain sand panel instead of future charcoal channel bed, drawerless tables instead of drawer nightstands. These are explicit value tradeoffs."
+  ],
+  "rejectedCandidates": [
+    {
+      "name": "Pacific Snow Queen Bed",
+      "url": "https://www.crateandbarrel.com/pacific-upholstered-queen-bed/s269520",
+      "reason": "Root live 404; older indexed clearance rejected."
+    },
+    {
+      "name": "Anneli Graphite Queen Bed",
+      "url": "https://www.crateandbarrel.com/anneli-upholstered-queen-bed/s222893",
+      "reason": "Graphite is custom made. Only Ivory is explicitly stocked, and 75.79-inchwidth is too large to lead compact guest-room layout."
+    },
+    {
+      "name": "Dillon AshenWalnut 40 Round Coffee Table",
+      "url": "https://www.crateandbarrel.com/dillon-ashen-walnut-wood-40-round-coffee-table/s158435",
+      "reason": "Official current pageNo longer available."
+    }
+  ],
+  "rooms": [
+    {
+      "id": "ownerbed",
+      "designSummary": "Tailored ivory hotel suite: a plain upholstered king, walnut headwall, floating bedsides and a loose oatmeal rug.",
+      "comparisonToRh": "Original RH consultation remains intact. This separate scheme mixes verified sale RH anchors with lower-cost supporting pieces only after exact stock verification.",
+      "products": [
+        {
+          "id": "lawson-king",
+          "brand": "RH",
+          "name": "Lawson Fabric Panel Bed — stocked low king",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025?inStock=true",
+          "role": "Primary king bed",
+          "quantity": 1,
+          "finish": "Natural Performance Linen Weave",
+          "dimensions": "80 W × 85.25 L × 48 H in; without storage; 1-inch underframe clearance.",
+          "unitPrice": {
+            "low": 1689,
+            "high": 1689,
+            "kind": "member_sale",
+            "note": "Exact member sale; regular reference $2,850. Membership, tax and delivery excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact SKU shown in official RH IN-STOCK modal; enabled Add to Cart; no order placed.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025?inStock=true",
+            "method": "Existing October 9 live RH product/IN-STOCK modal evidence retained from project stock audit.",
+            "configuration": {
+              "size": "King",
+              "headboardHeight": "48 inches",
+              "fabric": "Performance Linen Weave",
+              "color": "Natural",
+              "storage": "Without Storage",
+              "sku": "10200966 NONA",
+              "testedQuantity": 1
+            },
+            "quantityNote": ""
+          },
+          "reason": "Sale neutral upholstered panel is a strong value anchor without buying a matching suite.",
+          "fitNotes": "Keep solid right headwall, four-sash glazing and 55-inch TV/soundbar opposite.1-inch clearance does not verify requested underbed LED retrofit.",
+          "phase": "move-in",
+          "decision": "recommended",
+          "replaces": [
+            "Modena Fabric Panel Bed"
+          ],
+          "sku": "10200966 NONA",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod22040025_E98917281_TQ_Frank_CC_CO26_Linen_RHR?src=rhir/obj=Fabric&src=rhir/1808002_E23321146939_Natural_CO25_repeat&res=300&illum=0&obj=Fabric&req=object&illum=0&bOId=(82000042)eOId)&wid=461&$PDP-IR-768$"
+        },
+        {
+          "id": "tate-dresser68",
+          "brand": "Crate & Barrel",
+          "name": "Tate 68-inch Walnut 9-Drawer Dresser",
+          "url": "https://www.crateandbarrel.com/tate-68-walnut-wood-9-drawer-dresser/s113922",
+          "role": "Primary low dresser",
+          "quantity": 1,
+          "finish": "Walnut",
+          "dimensions": "68 W in; depth/height diagram still to verify.",
+          "unitPrice": {
+            "low": 1999,
+            "high": 1999,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/tate-68-walnut-wood-9-drawer-dresser/s113922",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Simple walnut storage is a better mixed-brand candidate than forcing a full matching collection.",
+          "fitNotes": "Check sill height, curtain closure and drawer extension. TV/soundbar stay on solid opposite wall.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [
+            "Gael Walnut 6-Drawer Dresser"
+          ],
+          "sku": "113922",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/Tate9DrawerDresserSSS20_1x1?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "prato9",
+          "brand": "Crate & Barrel",
+          "name": "Prato Performance Wool Ivory Area Rug 9 × 12",
+          "url": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-9x12/s190307",
+          "role": "Primary/loft loose rug",
+          "quantity": 1,
+          "finish": "Ivory; 55%wool 25%polyester 20%viscose",
+          "dimensions": "9 × 12 ft.",
+          "unitPrice": {
+            "low": 1999,
+            "high": 1999,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact Ivory 9 × 12 SKU 190307 showed In stock. Ready to schedule delivery.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready to schedule delivery; specific date not recorded.",
+            "sourceUrl": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-9x12/s190307",
+            "method": "Root live official product page with configuration and ZIP 20878 selected.",
+            "configuration": {
+              "sku": "190307",
+              "finish": "Ivory;55%wool25%polyester20%viscose",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "Larger neutral rug costs substantially less than the RH premium comparison.",
+          "fitNotes": "Check bed/retreat routes or loft seat placement. Do not reuse 8 × 10 stock quote. Wool blend, not 100% wool; follow care directions for spills.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Textura Twist Wool Rug — Marled"
+          ],
+          "sku": "190307",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "pad9-classic",
+          "brand": "Crate & Barrel",
+          "name": "Multisurface 9 × 12 Classic Rug Pad",
+          "url": "https://www.crateandbarrel.com/multisurface-9x12-classic-rug-pad/s561326",
+          "role": "Primary/loft rug pad",
+          "quantity": 1,
+          "finish": "Concealed neutral pad",
+          "dimensions": "9 × 12 ft; trim inside rug edge.",
+          "unitPrice": {
+            "low": 119.95,
+            "high": 119.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/multisurface-9x12-classic-rug-pad/s561326",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Practical support for a larger loose rug.",
+          "fitNotes": "Confirm floor-finish compatibility and final rug placement before cutting.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "561326"
+        },
+        {
+          "id": "white-king-sheets",
+          "brand": "Crate & Barrel",
+          "name": "Favorite Washed Organic Cotton White King Sheet Set",
+          "url": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-king-bed-sheet-set/s323212",
+          "role": "King linens",
+          "quantity": 2,
+          "finish": "White organic cotton",
+          "dimensions": "King:flat/fitted sheets+two king pillowcases; pocket fit to verify.",
+          "unitPrice": {
+            "low": 189.95,
+            "high": 189.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-king-bed-sheet-set/s323212",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Washable white base supports the hotel feeling through texture.",
+          "fitNotes": "King only. Mattress depth first; pillows, protector, duvet/insert separate.",
+          "phase": "move-in",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "323212"
+        },
+        {
+          "id": "white-king-duvet",
+          "brand": "Crate & Barrel",
+          "name": "Favorite Washed Organic Cotton White Eyelash King Duvet Cover",
+          "url": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-eyelash-king-duvet-cover/s322631",
+          "role": "King duvet cover",
+          "quantity": 1,
+          "finish": "White organic cotton",
+          "dimensions": "King cover; exact insert/cover dimensions together to verify.",
+          "unitPrice": {
+            "low": 179.95,
+            "high": 179.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-eyelash-king-duvet-cover/s322631",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Restrained texture keeps the bedroom neutral.",
+          "fitNotes": "Cover only. Insert and shams separately purchased; match corner ties/dimensions.",
+          "phase": "move-in",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "322631"
+        }
+      ],
+      "supportingPlan": [
+        "Retain walnut headwall, custom floating underlit bedsides, neutral framed artwork and 55-inchTV/soundbar.",
+        "Wood flooring and a loose neutral rug; no purple, blue or pink bedroom accents."
+      ],
+      "purchaseNotes": [
+        "Lawson 1-inch clearance does not verify an underbed LED retrofit. Design lighting separately.",
+        "Mattress, protector, pillows and correctly sized duvet insert are still separately needed.",
+        "Two sheet sets are useful for washing rotation, but exact stock remains pending.",
+        "King mattress, mattress protector, pillows and matched duvet insert are necessary but not yet selected or priced. Keep an explicit unpriced allowance; purchase with the room phase after comfort/size checks."
+      ],
+      "layoutNotes": [
+        "16 ft ×17 ft printed-plan reference; keep bed on solid right wall and four-sash rear glazing.",
+        "Keep 55-inch TV and slim soundbar on solid wall opposite bed; do not block the window group.",
+        "Tape actual bed, foot bench and dresser footprints while checking retreat/bath/closet routes."
+      ],
+      "windowTreatment": {
+        "id": "ownerbed",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + fully closing oatmeal blackout-lined curtains",
+        "coverage": "Full four-sash rear window group. Coordinate the open retreat as part of the same sleep-darkening zone.",
+        "why": "The primary bedroom needs sleeping darkness, daytime rest and evening privacy. Treating only this room would leave light entering through the open retreat.",
+        "day": "Sheers filter daylight; blackout layer stacks clear.",
+        "night": "Close both bedroom and retreat blackout layers; switch off decorative under-bed lighting for sleep if preferred.",
+        "installation": "Use independent tracks with overlap/returns. Check the dresser below the window before deciding curtain drop and stack. If it prevents full closure, use a blackout roller behind the sheers rather than trapping fabric behind furniture. Inspect all light gaps after installation.",
+        "goods": [
+          900,
+          1600
+        ],
+        "installationCost": [
+          200,
+          350
+        ],
+        "title": "Owners suite",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      }
+    },
+    {
+      "id": "retreat",
+      "designSummary": "An intimate reading and coffee lounge with two compact ivory Shelter swivel chairs, one small walnut side table and the existing fitted coffee bar. The chair arrangement is a value alternative to the saved two-chaise concept.",
+      "comparisonToRh": "Original RH consultation remains intact. This separate scheme mixes verified sale RH anchors with lower-cost supporting pieces only after exact stock verification.",
+      "products": [
+        {
+          "id": "shelter-chair",
+          "brand": "RH",
+          "name": "1950s Italian Shelter Arm Swivel Chair — current stocked edition",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+          "role": "Compact lounge chair",
+          "quantity": 2,
+          "finish": "Natural Performance Linen Weave; Sand stocked sibling available",
+          "dimensions": "31 W × 32.5 D × 30 H in; seat 18 H.",
+          "unitPrice": {
+            "low": 1245,
+            "high": 1245,
+            "kind": "member_sale",
+            "note": "Exact member sale; regular reference $2,100. Membership, tax and delivery excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact variant shown in RH IN-STOCK modal. Availability is a dated snapshot, not a reservation.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+            "method": "Existing October 9 live RH product/IN-STOCK modal evidence retained from project stock audit.",
+            "configuration": {
+              "depth": "Classic 32½ in",
+              "fabric": "Performance Linen Weave",
+              "color": "Natural",
+              "sku": "61060801 NONA",
+              "stockedSibling": {
+                "color": "Sand",
+                "sku": "61060801 NOSN",
+                "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878."
+              }
+            },
+            "quantityNote": "Stocked configuration verified, but the combined chair quantity across all rooms is not checked. In the retreat, pair with optional footstools only after a measured layout and comfort trial."
+          },
+          "reason": "Verified neutral sale chair is a compact sculptural alternative to large lounge pieces.",
+          "fitNotes": "Comfort trial for soft supportive sitting; allow swivel space. Two chairs replace two retreat chaises and are a different seating experience.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Modena Slope Arm Chaise"
+          ],
+          "sku": "61060801 NONA",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod20580100_E414854120_TQ_CC_RHR?"
+        },
+        {
+          "id": "enzo-side18",
+          "brand": "RH",
+          "name": "Enzo Square Side Table — stocked 18-inch Caramel Walnut",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+          "role": "Walnut side table",
+          "quantity": 1,
+          "finish": "Caramel Walnut",
+          "dimensions": "18 W × 18 D × 20 H in; 48 lb.",
+          "unitPrice": {
+            "low": 545,
+            "high": 545,
+            "kind": "member_sale",
+            "note": "Exact member sale; regular reference $1,655. Membership, tax and delivery excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact SKU in live IN-STOCK modal; current Dimensions show 18-inch square, 20 H, 48 lb.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+            "method": "Existing October 9 live RH product/IN-STOCK modal evidence retained from project stock audit.",
+            "configuration": {
+              "size": "18-inch square /20 H inches",
+              "finish": "Caramel Walnut",
+              "sku": "10138471 CRWL"
+            },
+            "quantityNote": "A compact stocked option replacing the unavailable round Gael side table. This changes the shape to square. Multiple-room total quantities are not checked."
+          },
+          "reason": "Small sale walnut piece carries material continuity at a much lower price than a matching suite.",
+          "fitNotes": "Square replaces round Gael; no drawer. A seating side table, not a storage nightstand.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Gael Walnut Round Side Table"
+          ],
+          "sku": "10138471 CRWL",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+        }
+      ],
+      "supportingPlan": [
+        "Two compact chairs and one small walnut table are a different arrangement from two chaises.",
+        "Keep existing bar plumbing/beverage refrigerator and open bedroom connection.",
+        "Retreat and bedroom require coordinated blackout closure."
+      ],
+      "purchaseNotes": [
+        "Buy after owners-suite essentials.",
+        "Comfort trial and full swivel/circulation tape-out before selecting two chairs."
+      ],
+      "layoutNotes": [
+        "Nominal12 ft3 in×10 ft. Preserve both exterior window walls,existing bar plumbing/beverage refrigerator and the open primary-bedroom connection.",
+        "Two chaises and tables require an actual footprint check together with bar use and bedroom/terrace circulation.",
+        "Because this lounge is open to the bedroom,all its real exterior glazing needs matching sheers plus blackout coverage."
+      ],
+      "windowTreatment": {
+        "id": "retreat",
+        "system": "blackout",
+        "recommendation": "Match the bedroom: ivory sheers + blackout layer",
+        "coverage": "Both exterior window walls and any connected terrace-door glazing confirmed on site. Do not add a door to the open bedroom connection.",
+        "why": "Although this is a sitting/coffee area, it is open to the bedroom. Untreated retreat glass would defeat the bedroom blackout treatment.",
+        "day": "Sheers for the lounge; blackout curtains stacked away from glass.",
+        "night": "Close all retreat exterior-glass blackout layers with the bedroom curtains.",
+        "installation": "Survey all window groups and terrace access. Keep curtains clear of the bar, appliances and door swings. Where a door cannot accept curtains, use an independent blackout shade with gap control; keep the visible fabric coordinated with the bedroom.",
+        "goods": [
+          1200,
+          2000
+        ],
+        "installationCost": [
+          300,
+          550
+        ],
+        "title": "Owners retreat",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      }
+    },
+    {
+      "id": "ownerbath",
+      "designSummary": "Selected Study A pearl onyx-look porcelain and walnut vanity already do the visual work. Keep the bathroom architectural rather than filling it with loose RH furniture.",
+      "comparisonToRh": "Original RH consultation remains intact. This separate scheme mixes verified sale RH anchors with lower-cost supporting pieces only after exact stock verification.",
+      "products": [
+        {
+          "id": "turkish-white6",
+          "brand": "Crate & Barrel",
+          "name": "Classic Organic Turkish Cotton White Towels, Set of 6",
+          "url": "https://www.crateandbarrel.com/classic-organic-turkish-cotton-white-towels-set-of-6/f90235",
+          "role": "Bath towel set",
+          "quantity": 1,
+          "finish": "White; 100%Turkish organic cotton; 800 gram",
+          "dimensions": "2 bath towels, 2 hand towels, 2 washcloths; component dimensions to verify.",
+          "unitPrice": {
+            "low": 119.95,
+            "high": 119.95,
+            "kind": "set_savings",
+            "note": "119.95 White 6-piece bundle vs 145.70 open-stock total; bundle savings, not a temporary sale."
+          },
+          "availability": {
+            "status": "ready_to_ship",
+            "evidence": "Exact White 6-pieceSKU 363926 selected; Ship It arrivesOct 13–16 to 20878. Physical Stanford stock supports inference only; no Maryland pickup claim.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "ArrivesOct 13–16, 2026.",
+            "sourceUrl": "https://www.crateandbarrel.com/classic-organic-turkish-cotton-white-towels-set-of-6/f90235",
+            "method": "Root live official product page with configuration and ZIP 20878 selected.",
+            "configuration": {
+              "sku": "363926",
+              "finish": "White;100%Turkish organic cotton;800gram",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "White hotel-style towels; bundle saves 25.75 against 145.70 separate items.",
+          "fitNotes": "One set for two bath users; second set optional for wash rotation. Check towel-bar length/storage.",
+          "phase": "move-in",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "363926",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/TurkishWhiteTowelsSet6S19?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "clean-ivory-pump",
+          "brand": "Crate & Barrel",
+          "name": "Clean by Crate Ivory Ceramic Soap Dispenser/Black Pump",
+          "url": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-soap-dispenser-with-black-pump/s683578",
+          "role": "Hand-soap dispenser",
+          "quantity": 1,
+          "finish": "Matte ivory stoneware/black pump",
+          "dimensions": "15 oz; footprint/height to verify.",
+          "unitPrice": {
+            "low": 19.95,
+            "high": 19.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "ready_to_ship",
+            "evidence": "Exact Ivory/BlackSKU 683578:Ship ItOct 14–16 to 20878 and 3 units physically in Stanford today. Ready shipment inferred; no Maryland pickup claim.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "ArrivesOct 14–16, 2026.",
+            "sourceUrl": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-soap-dispenser-with-black-pump/s683578",
+            "method": "Root live official product page with configuration and ZIP 20878 selected.",
+            "configuration": {
+              "sku": "683578",
+              "finish": "Matte ivory stoneware/black pump",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "Warm ivory with a small black detail gives useful support at a modest price.",
+          "fitNotes": "Dry countertop clear of faucet arc; black appearance fits Option 1. Whole-house quantity not checked.",
+          "phase": "move-in",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "683578",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/CBCleanIvrCmSoapDspBPmpSSF25?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "clean-ivory-tray",
+          "brand": "Crate & Barrel",
+          "name": "Clean by Crate Ivory Ceramic Sink Caddy Tray",
+          "url": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-sink-caddy-tray/s683584",
+          "role": "Counter accessory tray",
+          "quantity": 1,
+          "finish": "Matte ivory recycled stoneware",
+          "dimensions": "Full footprint diagram to verify.",
+          "unitPrice": {
+            "low": 24.95,
+            "high": 24.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-sink-caddy-tray/s683584",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "One small tray organizes essentials without a matching bath collection.",
+          "fitNotes": "Check dispenser/tray footprint together; do not assume nesting. Keep clear of taps and splash.",
+          "phase": "move-in",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "683584",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/ClnCrtCmCrcSinkCdyTraySHF26?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ],
+      "supportingPlan": [
+        "Selected Study A pearlonyx-look porcelain and fitted walnut vanity remain the architecture.",
+        "One tray/dispenser and white towels keep retail accessories restrained.",
+        "A neutral washable bathmat remains a stock-check gap."
+      ],
+      "purchaseNotes": [
+        "No hanging sheer in the shower; wet-window privacy and dry-window opaque shade follow existing specification.",
+        "Tile, vanity, mirror, fixtures and lighting are contractor scope, not retail furniture additions."
+      ],
+      "layoutNotes": [
+        "Retain fitted vanity, mirrors and wet-area surfaces; exact vanity width, plumbing and access govern.",
+        "Keep shower left, tub far end, vanity right, both windows and separate toilet room."
+      ],
+      "windowTreatment": {
+        "id": "ownerbath",
+        "system": "practical",
+        "recommendation": "Wet-area privacy at shower glass; moisture-resistant shade at dry window",
+        "coverage": "Exterior window within the shower and the dry vanity-side exterior window.",
+        "why": "Bathing needs reliable privacy, not decorative sheers. Fabric in direct shower spray is unsuitable; bedroom blackout can be managed with the bathroom door closed.",
+        "day": "Shower-window privacy remains in place while admitting diffuse daylight; adjust the dry-window shade.",
+        "night": "Close the dry-window opaque privacy shade; verify the shower treatment conceals silhouettes under actual interior lighting.",
+        "installation": "Provisional base: obscuring film explicitly compatible with the shower exposure and existing glazing, plus a moisture-resistant opaque roller on the dry window. If film cannot meet privacy/compatibility needs, quote suitable obscured glazing separately; window replacement is not included. No hanging sheer or drape in the shower.",
+        "goods": [
+          350,
+          650
+        ],
+        "installationCost": [
+          150,
+          250
+        ],
+        "title": "Owners bathroom",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      }
+    },
+    {
+      "id": "ownercloset",
+      "designSummary": "A fitted modular storage system provides more value here than a large RH dresser.",
+      "comparisonToRh": "Original RH consultation remains intact. This separate scheme mixes verified sale RH anchors with lower-cost supporting pieces only after exact stock verification.",
+      "products": [
+        {
+          "id": "canvas-bag",
+          "brand": "Crate & Barrel",
+          "name": "White Canvas Laundry Bag",
+          "url": "https://www.crateandbarrel.com/white-canvas-laundry-bag/s309319",
+          "role": "Portable laundry liner/bag",
+          "quantity": 1,
+          "finish": "White; non-personalized cotton canvas",
+          "dimensions": "15.5 W × 15.5 D × 27.5 H in.",
+          "unitPrice": {
+            "low": 29.95,
+            "high": 29.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/white-canvas-laundry-bag/s309319",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Economical washable hidden support instead of a costly decorative hamper.",
+          "fitNotes": "Flexible bag/liner, not rigid freestanding storage; use inside a measured module or carry laundry.",
+          "phase": "move-in",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "309319",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/WhiteCanvasHamperLinerSSF21?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ],
+      "supportingPlan": [
+        "Keep fitted modular cabinetry and a clear central aisle; no island or extra dresser.",
+        "Integrate a full-length mirror into fitted storage, rather than another loose object in the aisle."
+      ],
+      "purchaseNotes": [
+        "Canvas bag is flexible, not a rigid hamper. Measure its storage module.",
+        "No window treatment in documented windowless room."
+      ],
+      "layoutNotes": [
+        "8 ft5 ×11 ft plan reference; preserve entry and verify all hidden returns/services.",
+        "Keep a usable central aisle and accessible drawer/hanging clearances."
+      ],
+      "windowTreatment": {
+        "id": "ownercloset",
+        "system": "none",
+        "recommendation": "No window treatment",
+        "coverage": "Windowless closet in the current plan-led concept.",
+        "why": "No exterior opening needs a covering; preserve storage and task lighting.",
+        "day": "Use closet lighting.",
+        "night": "Privacy is provided by the suite and closet enclosure.",
+        "installation": "Confirm during measured survey; do not invent a window to match a render reflection.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Owners walk-in closet",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      }
+    },
+    {
+      "id": "bed2",
+      "designSummary": "Cream guest room with a clean panel bed, compact walnut support furniture and a useful study corner.",
+      "comparisonToRh": "Original RH consultation remains intact. This separate scheme mixes verified sale RH anchors with lower-cost supporting pieces only after exact stock verification.",
+      "products": [
+        {
+          "id": "lawson-queen",
+          "brand": "RH",
+          "name": "Lawson Fabric Panel Bed — stocked low queen",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025?inStock=true",
+          "role": "Guest queen bed",
+          "quantity": 1,
+          "finish": "Sand Classic Belgian Linen",
+          "dimensions": "64 W × 85.25 L × 48 H in; without storage; 1-inch underframe clearance.",
+          "unitPrice": {
+            "low": 1865,
+            "high": 1865,
+            "kind": "member_sale",
+            "note": "Exact member sale; regular reference $3,140. Membership, tax and delivery excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact SKU shown in official RH IN-STOCK modal; enabled Add to Cart; no order placed.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025?inStock=true",
+            "method": "Existing October 9 live RH product/IN-STOCK modal evidence retained from project stock audit.",
+            "configuration": {
+              "size": "Queen",
+              "headboardHeight": "48 inches",
+              "fabric": "Classic Belgian Linen",
+              "color": "Sand",
+              "storage": "Without Storage",
+              "sku": "10200967 OBSN",
+              "testedQuantity": 1
+            },
+            "quantityNote": "One unit was checked. Recheck quantity two if selecting the same stocked bed for both bedrooms."
+          },
+          "reason": "Smaller neutral panel footprint and sale price support compact guest rooms.",
+          "fitNotes": "One queen checked; combined two-bed quantity not checked. Tape headboard against actual window trims and hall/closet access.",
+          "phase": "move-in",
+          "decision": "recommended",
+          "replaces": [
+            "Modena Fabric Panel Bed"
+          ],
+          "sku": "10200967 OBSN",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod22040025_E98917281_TQ_Frank_CC_CO26_Linen_RHR?src=rhir/obj=Fabric&src=rhir/swatch_belgianlinen_sand2F_repeat&res=190&illum=0&obj=Fabric&req=object&illum=0&bOId=(82000042)eOId)&wid=461&$PDP-IR-768$"
+        },
+        {
+          "id": "enzo-side18",
+          "brand": "RH",
+          "name": "Enzo Square Side Table — stocked 18-inch Caramel Walnut",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+          "role": "Compact guest bedside surface",
+          "quantity": 2,
+          "finish": "Caramel Walnut",
+          "dimensions": "18 W × 18 D × 20 H in; 48 lb.",
+          "unitPrice": {
+            "low": 545,
+            "high": 545,
+            "kind": "member_sale",
+            "note": "Exact member sale; regular reference $1,655. Membership, tax and delivery excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact SKU in live IN-STOCK modal; current Dimensions show 18-inch square, 20 H, 48 lb.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+            "method": "Existing October 9 live RH product/IN-STOCK modal evidence retained from project stock audit.",
+            "configuration": {
+              "size": "18-inch square /20 H inches",
+              "finish": "Caramel Walnut",
+              "sku": "10138471 CRWL"
+            },
+            "quantityNote": "A compact stocked option replacing the unavailable round Gael side table. This changes the shape to square. Multiple-room total quantities are not checked."
+          },
+          "reason": "Verified sale walnut table is a compact value bedside surface. It deliberately sacrifices drawers; guest storage can sit in the closet and compact desk.",
+          "fitNotes": "18-inch square,20-inch height. Compare bedside height to the chosen mattress/bed. Check each window trim and recessed entry; use one bedside initially if a second obstructs circulation. No drawers; planned pair has not been quantity-checked.",
+          "phase": "move-in",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "10138471 CRWL",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+        },
+        {
+          "id": "hastings18",
+          "brand": "Crate & Barrel",
+          "name": "Hastings 18-inch Rye Wood Narrow Nightstand",
+          "url": "https://www.crateandbarrel.com/hastings-18-rye-wood-narrow-nightstand/s628459",
+          "role": "Compact bedside drawer",
+          "quantity": 2,
+          "finish": "Rye warm oak; burnished-brass pull",
+          "dimensions": "18 W in; depth/height diagram still to verify.",
+          "unitPrice": {
+            "low": 349.97,
+            "high": 349.97,
+            "kind": "clearance",
+            "note": "Exact Rye narrow clearance 349.97 vs 499 regular. Final sale. No explicit stock proof."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Root saw contact-to-schedule byNovember 11 for 20878; no explicit stock confirmation. Pending only.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Contact to schedule byNovember 11; stock not confirmed.",
+            "sourceUrl": "https://www.crateandbarrel.com/hastings-18-rye-wood-narrow-nightstand/s628459",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Clearance price and narrow footprint are useful for small guest rooms if stock is confirmed.",
+          "fitNotes": "Warm oak supports walnut but is not a walnut match. Final sale: approve sample/fit first. Check door swing/window tracks.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "628459",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/HastingsRyeWdNrwNtstndSOSSF25?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "cardiff-black",
+          "brand": "Crate & Barrel",
+          "name": "Cardiff Black Table Lamp 16.5-inch",
+          "url": "https://www.crateandbarrel.com/cardiff-black-table-lamp-16.5/f1050311",
+          "role": "Bedside lamp",
+          "quantity": 2,
+          "finish": "Black metal; ivory cotton shade",
+          "dimensions": "16.5 H in; footprint still to verify.",
+          "unitPrice": {
+            "low": 159,
+            "high": 159,
+            "kind": "regular",
+            "note": "159 regular reference. Older 127.20 sale not treated as current; live price/stock pending."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/cardiff-black-table-lamp-16.5/f1050311",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Quiet black contrast and ivory shade fit Option 1 without chrome or colored bedroom accents.",
+          "fitNotes": "Inline dimmer; suitable E 12 dimmable LED maximum 7 W required. Confirm reading light and shelf depth.",
+          "phase": "move-in",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "377308"
+        },
+        {
+          "id": "prato8",
+          "brand": "Crate & Barrel",
+          "name": "Prato Performance Wool Ivory Area Rug 8 × 10",
+          "url": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-8x10/s189362",
+          "role": "Loose guest rug",
+          "quantity": 1,
+          "finish": "Ivory; 55%wool 25%polyester 20%viscose",
+          "dimensions": "8 × 10 ft.",
+          "unitPrice": {
+            "low": 1499,
+            "high": 1499,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "ready_to_ship",
+            "evidence": "Ship It showedOct 16–17 arrival to 20878; near-term shipping quote supports ready-to-ship inference, no literal inventory flag.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "ArrivesOct 16–17, 2026.",
+            "sourceUrl": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-8x10/s189362",
+            "method": "Root live official product page with configuration and ZIP 20878 selected.",
+            "configuration": {
+              "sku": "189362",
+              "finish": "Ivory;55%wool25%polyester20%viscose",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "Tonal texture supports stone, mineral walls and walnut without pattern or colored accents.",
+          "fitNotes": "Keep wood visible around the loose rug; verify orientation against closet, desk and doors. Wool blend, not 100% wool. Address spills promptly; follow professional cleaning guidance.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "189362",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "monroe8",
+          "brand": "Pottery Barn",
+          "name": "Monroe Handwoven Wool Rug 8 × 10",
+          "url": "https://www.potterybarn.com/products/monroe-handwoven-wool-rug/?catalogId=84&sku=912504",
+          "role": "Lower-cost guest rug alternative",
+          "quantity": 1,
+          "finish": "Natural/Ivory",
+          "dimensions": "8 × 10 ft.",
+          "unitPrice": {
+            "low": 999,
+            "high": 999,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.potterybarn.com/products/monroe-handwoven-wool-rug/?catalogId=84&sku=912504",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Better value than Prato if exact configuration can be proven stocked.",
+          "fitNotes": "Sample for texture/softness. Root sawOct 19–Nov 2 arrival for 94305, not explicit stock or 20878.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "912504"
+        },
+        {
+          "id": "pad8-classic",
+          "brand": "Crate & Barrel",
+          "name": "Multisurface 8 × 10 Classic Rug Pad",
+          "url": "https://www.crateandbarrel.com/multisurface-8x10-classic-rug-pad/s561283",
+          "role": "Guest rug pad",
+          "quantity": 1,
+          "finish": "Concealed neutral pad",
+          "dimensions": "8 × 10 ft; trim inside rug edge.",
+          "unitPrice": {
+            "low": 99.95,
+            "high": 99.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/multisurface-8x10-classic-rug-pad/s561283",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Basic pad is more economical than premium padding.",
+          "fitNotes": "Flooring supplier must approve compatibility with new wood finish. No pads/rugs on stairs.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "561283"
+        },
+        {
+          "id": "white-queen-sheets",
+          "brand": "Crate & Barrel",
+          "name": "Favorite Washed Organic Cotton White Queen Sheet Set",
+          "url": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-queen-bed-sheet-set/s322807",
+          "role": "Queen linens",
+          "quantity": 2,
+          "finish": "White organic cotton",
+          "dimensions": "Queen; flat 96 W × 105 L in; fitted-pocket fit to verify.",
+          "unitPrice": {
+            "low": 169.95,
+            "high": 169.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-queen-bed-sheet-set/s322807",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Repeat a quiet washable base across guest rooms.",
+          "fitNotes": "Two standard pillowcases included; pillows, protector, duvet/insert separate.",
+          "phase": "move-in",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "322807"
+        },
+        {
+          "id": "white-queen-duvet",
+          "brand": "Crate & Barrel",
+          "name": "Favorite Washed Organic Cotton White Eyelash Full/Queen Duvet Cover",
+          "url": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-eyelash-full-queen-duvet-cover/s322605",
+          "role": "Queen duvet cover",
+          "quantity": 1,
+          "finish": "White organic cotton",
+          "dimensions": "Full/Queen 92 W × 96 L in.",
+          "unitPrice": {
+            "low": 159.95,
+            "high": 159.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-eyelash-full-queen-duvet-cover/s322605",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Textured white cover replaces colored throw layering.",
+          "fitNotes": "Cover only; insert/shams separate. Older 127.96 sale is not current evidence.",
+          "phase": "move-in",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "322605"
+        }
+      ],
+      "supportingPlan": [
+        "Headboard on stair-hall wall at the top of the printed plan; closet on shared-bath wall at the left of the printed plan; recessed hall access retained.",
+        "Desk beside narrow east/right window. Wide front/bottom window remains clear.",
+        "Cream upholstery, quiet black details and plain white bedding; no blue accent.",
+        "Fit a simple42 ×20-inch walnut worktop/drawer unit with the cabinetmaker beside the narrow east window; custom pricing and adult leg clearance require quote. No oversized retail desk."
+      ],
+      "purchaseNotes": [
+        "Pairs of bedside furniture require actual door/window clearance verification.",
+        "One guest room can be completed for move-in; other room furniture comes later.",
+        "Compact desk is an unpriced custom item, not included as a zero-dollar retail purchase. Guest storage tradeoff: stocked Enzo sides have no drawers.",
+        "Queen mattress, mattress protector, pillows and matched duvet insert are necessary but not yet selected or priced. Keep an explicit unpriced allowance; purchase with the room phase after comfort/size checks."
+      ],
+      "layoutNotes": [
+        "11 ft4 ×11 ft1 plan reference; queen headboard on stair-hall wall at TOP of printed plan.",
+        "Closet stays on shared-bath wall at LEFT of plan; recessed hall access at top/left remains open.",
+        "Desk planning footprint 42×20 inches beside narrow east/right window; wider front/bottom window remains."
+      ],
+      "windowTreatment": {
+        "id": "bed2",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + blackout-lined curtains or concealed blackout roller",
+        "coverage": "Wide front window on plan-bottom wall and narrow side window on plan-right wall. Headboard on stair-hall wall (plan-top); closet on shared-bathroom boundary (plan-left).",
+        "why": "A sleeping room needs darkness and nighttime privacy even when also used for study. The desk is not a reason to omit blackout.",
+        "day": "Sheers and an adjustable shade position for study light.",
+        "night": "Fully close the blackout layer.",
+        "installation": "Keep desk access and window operation clear. Prefer full closing curtains where they fit; if the desk blocks their travel, use a blackout roller with suitable edge overlap behind the sheers. No freestanding furniture changes required.",
+        "goods": [
+          400,
+          750
+        ],
+        "installationCost": [
+          125,
+          200
+        ],
+        "title": "Bedroom 2",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      }
+    },
+    {
+      "id": "bed3",
+      "designSummary": "A lower, lighter upholstered bed lets the three-window room remain airy; oatmeal and charcoal stay subtle.",
+      "comparisonToRh": "Original RH consultation remains intact. This separate scheme mixes verified sale RH anchors with lower-cost supporting pieces only after exact stock verification.",
+      "products": [
+        {
+          "id": "lawson-queen",
+          "brand": "RH",
+          "name": "Lawson Fabric Panel Bed — stocked low queen",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025?inStock=true",
+          "role": "Guest queen bed",
+          "quantity": 1,
+          "finish": "Sand Classic Belgian Linen",
+          "dimensions": "64 W × 85.25 L × 48 H in; without storage; 1-inch underframe clearance.",
+          "unitPrice": {
+            "low": 1865,
+            "high": 1865,
+            "kind": "member_sale",
+            "note": "Exact member sale; regular reference $3,140. Membership, tax and delivery excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact SKU shown in official RH IN-STOCK modal; enabled Add to Cart; no order placed.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025?inStock=true",
+            "method": "Existing October 9 live RH product/IN-STOCK modal evidence retained from project stock audit.",
+            "configuration": {
+              "size": "Queen",
+              "headboardHeight": "48 inches",
+              "fabric": "Classic Belgian Linen",
+              "color": "Sand",
+              "storage": "Without Storage",
+              "sku": "10200967 OBSN",
+              "testedQuantity": 1
+            },
+            "quantityNote": "One unit was checked. Recheck quantity two if selecting the same stocked bed for both bedrooms."
+          },
+          "reason": "Smaller neutral panel footprint and sale price support compact guest rooms.",
+          "fitNotes": "One queen checked; combined two-bed quantity not checked. Tape headboard against actual window trims and hall/closet access.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Lawson Fabric Panel Bed"
+          ],
+          "sku": "10200967 OBSN",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod22040025_E98917281_TQ_Frank_CC_CO26_Linen_RHR?src=rhir/obj=Fabric&src=rhir/swatch_belgianlinen_sand2F_repeat&res=190&illum=0&obj=Fabric&req=object&illum=0&bOId=(82000042)eOId)&wid=461&$PDP-IR-768$"
+        },
+        {
+          "id": "enzo-side18",
+          "brand": "RH",
+          "name": "Enzo Square Side Table — stocked 18-inch Caramel Walnut",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+          "role": "Compact guest bedside surface",
+          "quantity": 2,
+          "finish": "Caramel Walnut",
+          "dimensions": "18 W × 18 D × 20 H in; 48 lb.",
+          "unitPrice": {
+            "low": 545,
+            "high": 545,
+            "kind": "member_sale",
+            "note": "Exact member sale; regular reference $1,655. Membership, tax and delivery excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact SKU in live IN-STOCK modal; current Dimensions show 18-inch square, 20 H, 48 lb.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+            "method": "Existing October 9 live RH product/IN-STOCK modal evidence retained from project stock audit.",
+            "configuration": {
+              "size": "18-inch square /20 H inches",
+              "finish": "Caramel Walnut",
+              "sku": "10138471 CRWL"
+            },
+            "quantityNote": "A compact stocked option replacing the unavailable round Gael side table. This changes the shape to square. Multiple-room total quantities are not checked."
+          },
+          "reason": "Verified sale walnut table is a compact value bedside surface. It deliberately sacrifices drawers; guest storage can sit in the closet and compact desk.",
+          "fitNotes": "18-inch square,20-inch height. Compare bedside height to the chosen mattress/bed. Check each window trim and recessed entry; use one bedside initially if a second obstructs circulation. No drawers; planned pair has not been quantity-checked.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "10138471 CRWL",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+        },
+        {
+          "id": "hastings18",
+          "brand": "Crate & Barrel",
+          "name": "Hastings 18-inch Rye Wood Narrow Nightstand",
+          "url": "https://www.crateandbarrel.com/hastings-18-rye-wood-narrow-nightstand/s628459",
+          "role": "Compact bedside drawer",
+          "quantity": 2,
+          "finish": "Rye warm oak; burnished-brass pull",
+          "dimensions": "18 W in; depth/height diagram still to verify.",
+          "unitPrice": {
+            "low": 349.97,
+            "high": 349.97,
+            "kind": "clearance",
+            "note": "Exact Rye narrow clearance 349.97 vs 499 regular. Final sale. No explicit stock proof."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Root saw contact-to-schedule byNovember 11 for 20878; no explicit stock confirmation. Pending only.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Contact to schedule byNovember 11; stock not confirmed.",
+            "sourceUrl": "https://www.crateandbarrel.com/hastings-18-rye-wood-narrow-nightstand/s628459",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Clearance price and narrow footprint are useful for small guest rooms if stock is confirmed.",
+          "fitNotes": "Warm oak supports walnut but is not a walnut match. Final sale: approve sample/fit first. Check door swing/window tracks.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "628459",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/HastingsRyeWdNrwNtstndSOSSF25?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "cardiff-black",
+          "brand": "Crate & Barrel",
+          "name": "Cardiff Black Table Lamp 16.5-inch",
+          "url": "https://www.crateandbarrel.com/cardiff-black-table-lamp-16.5/f1050311",
+          "role": "Bedside lamp",
+          "quantity": 2,
+          "finish": "Black metal; ivory cotton shade",
+          "dimensions": "16.5 H in; footprint still to verify.",
+          "unitPrice": {
+            "low": 159,
+            "high": 159,
+            "kind": "regular",
+            "note": "159 regular reference. Older 127.20 sale not treated as current; live price/stock pending."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/cardiff-black-table-lamp-16.5/f1050311",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Quiet black contrast and ivory shade fit Option 1 without chrome or colored bedroom accents.",
+          "fitNotes": "Inline dimmer; suitable E 12 dimmable LED maximum 7 W required. Confirm reading light and shelf depth.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "377308"
+        },
+        {
+          "id": "prato8",
+          "brand": "Crate & Barrel",
+          "name": "Prato Performance Wool Ivory Area Rug 8 × 10",
+          "url": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-8x10/s189362",
+          "role": "Loose guest rug",
+          "quantity": 1,
+          "finish": "Ivory; 55%wool 25%polyester 20%viscose",
+          "dimensions": "8 × 10 ft.",
+          "unitPrice": {
+            "low": 1499,
+            "high": 1499,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "ready_to_ship",
+            "evidence": "Ship It showedOct 16–17 arrival to 20878; near-term shipping quote supports ready-to-ship inference, no literal inventory flag.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "ArrivesOct 16–17, 2026.",
+            "sourceUrl": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-8x10/s189362",
+            "method": "Root live official product page with configuration and ZIP 20878 selected.",
+            "configuration": {
+              "sku": "189362",
+              "finish": "Ivory;55%wool25%polyester20%viscose",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "Tonal texture supports stone, mineral walls and walnut without pattern or colored accents.",
+          "fitNotes": "Keep wood visible around the loose rug; verify orientation against closet, desk and doors. Wool blend, not 100% wool. Address spills promptly; follow professional cleaning guidance.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "189362",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "monroe8",
+          "brand": "Pottery Barn",
+          "name": "Monroe Handwoven Wool Rug 8 × 10",
+          "url": "https://www.potterybarn.com/products/monroe-handwoven-wool-rug/?catalogId=84&sku=912504",
+          "role": "Lower-cost guest rug alternative",
+          "quantity": 1,
+          "finish": "Natural/Ivory",
+          "dimensions": "8 × 10 ft.",
+          "unitPrice": {
+            "low": 999,
+            "high": 999,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.potterybarn.com/products/monroe-handwoven-wool-rug/?catalogId=84&sku=912504",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Better value than Prato if exact configuration can be proven stocked.",
+          "fitNotes": "Sample for texture/softness. Root sawOct 19–Nov 2 arrival for 94305, not explicit stock or 20878.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "912504"
+        },
+        {
+          "id": "pad8-classic",
+          "brand": "Crate & Barrel",
+          "name": "Multisurface 8 × 10 Classic Rug Pad",
+          "url": "https://www.crateandbarrel.com/multisurface-8x10-classic-rug-pad/s561283",
+          "role": "Guest rug pad",
+          "quantity": 1,
+          "finish": "Concealed neutral pad",
+          "dimensions": "8 × 10 ft; trim inside rug edge.",
+          "unitPrice": {
+            "low": 99.95,
+            "high": 99.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/multisurface-8x10-classic-rug-pad/s561283",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Basic pad is more economical than premium padding.",
+          "fitNotes": "Flooring supplier must approve compatibility with new wood finish. No pads/rugs on stairs.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "561283"
+        },
+        {
+          "id": "white-queen-sheets",
+          "brand": "Crate & Barrel",
+          "name": "Favorite Washed Organic Cotton White Queen Sheet Set",
+          "url": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-queen-bed-sheet-set/s322807",
+          "role": "Queen linens",
+          "quantity": 2,
+          "finish": "White organic cotton",
+          "dimensions": "Queen; flat 96 W × 105 L in; fitted-pocket fit to verify.",
+          "unitPrice": {
+            "low": 169.95,
+            "high": 169.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-queen-bed-sheet-set/s322807",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Repeat a quiet washable base across guest rooms.",
+          "fitNotes": "Two standard pillowcases included; pillows, protector, duvet/insert separate.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "322807"
+        },
+        {
+          "id": "white-queen-duvet",
+          "brand": "Crate & Barrel",
+          "name": "Favorite Washed Organic Cotton White Eyelash Full/Queen Duvet Cover",
+          "url": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-eyelash-full-queen-duvet-cover/s322605",
+          "role": "Queen duvet cover",
+          "quantity": 1,
+          "finish": "White organic cotton",
+          "dimensions": "Full/Queen 92 W × 96 L in.",
+          "unitPrice": {
+            "low": 159.95,
+            "high": 159.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-eyelash-full-queen-duvet-cover/s322605",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Textured white cover replaces colored throw layering.",
+          "fitNotes": "Cover only; insert/shams separate. Older 127.96 sale is not current evidence.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "322605"
+        }
+      ],
+      "supportingPlan": [
+        "Bed on the right wall between two windows; large front window retained.",
+        "Neutral white/oatmeal/charcoal layers; no pink accent.",
+        "Wood flooring plus loose rug; blackout at all three real exterior openings."
+      ],
+      "purchaseNotes": [
+        "Tape 48-inch headboard against actual window trims; do not assume both nightstands fit.",
+        "One queen stock quote does not verify two combined beds.",
+        "Stocked Enzo bedside surfaces have no drawers; retain useful closet storage and verify mattress-to-table height.",
+        "Queen mattress, mattress protector, pillows and matched duvet insert are necessary but not yet selected or priced. Keep an explicit unpriced allowance; purchase with the room phase after comfort/size checks."
+      ],
+      "layoutNotes": [
+        "10 ft8 ×12 ft4 plan reference.",
+        "Keep bed on RIGHT wall between its two windows; large front window remains to the left of source view.",
+        "Actual headboard height and bedside widths must fit the solid wall between window trims."
+      ],
+      "windowTreatment": {
+        "id": "bed3",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + blackout at every exterior opening",
+        "coverage": "Large front window and both smaller windows flanking the bed.",
+        "why": "All three openings must darken for comfortable sleeping; dressing only the large window would leave the bedside windows admitting light.",
+        "day": "Sheers preserve a light guest-bedroom atmosphere.",
+        "night": "Close all three blackout layers.",
+        "installation": "Use functional lined curtains where stack space allows and matching discreet blackout rollers behind sheers at tight bedside openings. Check bedside furniture, wall lights and bedding clearance before fixing tracks.",
+        "goods": [
+          750,
+          1200
+        ],
+        "installationCost": [
+          200,
+          350
+        ],
+        "title": "Bedroom 3",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      }
+    },
+    {
+      "id": "sharedbath",
+      "designSummary": "Keep selected E pale limestone-look porcelain and the fitted walnut double vanity.",
+      "comparisonToRh": "Original RH consultation remains intact. This separate scheme mixes verified sale RH anchors with lower-cost supporting pieces only after exact stock verification.",
+      "products": [
+        {
+          "id": "turkish-white6",
+          "brand": "Crate & Barrel",
+          "name": "Classic Organic Turkish Cotton White Towels, Set of 6",
+          "url": "https://www.crateandbarrel.com/classic-organic-turkish-cotton-white-towels-set-of-6/f90235",
+          "role": "Bath towel set",
+          "quantity": 1,
+          "finish": "White; 100%Turkish organic cotton; 800 gram",
+          "dimensions": "2 bath towels, 2 hand towels, 2 washcloths; component dimensions to verify.",
+          "unitPrice": {
+            "low": 119.95,
+            "high": 119.95,
+            "kind": "set_savings",
+            "note": "119.95 White 6-piece bundle vs 145.70 open-stock total; bundle savings, not a temporary sale."
+          },
+          "availability": {
+            "status": "ready_to_ship",
+            "evidence": "Exact White 6-pieceSKU 363926 selected; Ship It arrivesOct 13–16 to 20878. Physical Stanford stock supports inference only; no Maryland pickup claim.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "ArrivesOct 13–16, 2026.",
+            "sourceUrl": "https://www.crateandbarrel.com/classic-organic-turkish-cotton-white-towels-set-of-6/f90235",
+            "method": "Root live official product page with configuration and ZIP 20878 selected.",
+            "configuration": {
+              "sku": "363926",
+              "finish": "White;100%Turkish organic cotton;800gram",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "White hotel-style towels; bundle saves 25.75 against 145.70 separate items.",
+          "fitNotes": "One set for two bath users; second set optional for wash rotation. Check towel-bar length/storage.",
+          "phase": "move-in",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "363926",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/TurkishWhiteTowelsSet6S19?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "clean-ivory-pump",
+          "brand": "Crate & Barrel",
+          "name": "Clean by Crate Ivory Ceramic Soap Dispenser/Black Pump",
+          "url": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-soap-dispenser-with-black-pump/s683578",
+          "role": "Hand-soap dispenser",
+          "quantity": 2,
+          "finish": "Matte ivory stoneware/black pump",
+          "dimensions": "15 oz; footprint/height to verify.",
+          "unitPrice": {
+            "low": 19.95,
+            "high": 19.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "ready_to_ship",
+            "evidence": "Exact Ivory/BlackSKU 683578:Ship ItOct 14–16 to 20878 and 3 units physically in Stanford today. Ready shipment inferred; no Maryland pickup claim.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "ArrivesOct 14–16, 2026.",
+            "sourceUrl": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-soap-dispenser-with-black-pump/s683578",
+            "method": "Root live official product page with configuration and ZIP 20878 selected.",
+            "configuration": {
+              "sku": "683578",
+              "finish": "Matte ivory stoneware/black pump",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "Warm ivory with a small black detail gives useful support at a modest price.",
+          "fitNotes": "Dry countertop clear of faucet arc; black appearance fits Option 1. Whole-house quantity not checked.",
+          "phase": "move-in",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "683578",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/CBCleanIvrCmSoapDspBPmpSSF25?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "clean-ivory-tray",
+          "brand": "Crate & Barrel",
+          "name": "Clean by Crate Ivory Ceramic Sink Caddy Tray",
+          "url": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-sink-caddy-tray/s683584",
+          "role": "Counter accessory tray",
+          "quantity": 1,
+          "finish": "Matte ivory recycled stoneware",
+          "dimensions": "Full footprint diagram to verify.",
+          "unitPrice": {
+            "low": 24.95,
+            "high": 24.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-sink-caddy-tray/s683584",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "One small tray organizes essentials without a matching bath collection.",
+          "fitNotes": "Check dispenser/tray footprint together; do not assume nesting. Keep clear of taps and splash.",
+          "phase": "move-in",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "683584",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/ClnCrtCmCrcSinkCdyTraySHF26?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ],
+      "supportingPlan": [
+        "Selected Study E pale limestone-look porcelain and fitted walnut double vanity stay.",
+        "White towel bundle and small dry-counter accessories finish the room without a large matching collection."
+      ],
+      "purchaseNotes": [
+        "Keep both bedroom connections and separate bath/toilet compartment.",
+        "No exterior window; reflected bedroom glazing does not need a bath shade."
+      ],
+      "layoutNotes": [
+        "6 ft1 ×12 ft5 plan reference; preserve two bedroom connections and separate bath/toilet compartment.",
+        "No invented exterior window or large freestanding storage cabinet."
+      ],
+      "windowTreatment": {
+        "id": "sharedbath",
+        "system": "none",
+        "recommendation": "No window treatment",
+        "coverage": "No exterior window in this bathroom; bedroom glazing seen through doors or mirrors belongs to the bedrooms.",
+        "why": "Bathroom privacy comes from closing its doors. Avoid ordering shades for reflected windows.",
+        "day": "Use planned bathroom lighting.",
+        "night": "Close bathroom doors; adjacent bedroom coverings are priced in those rooms.",
+        "installation": "Confirm the windowless condition in the site survey.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Shared bathroom",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      }
+    },
+    {
+      "id": "laundry",
+      "designSummary": "Functional cabinetry and pale counters stay calm and practical.",
+      "comparisonToRh": "Original RH consultation remains intact. This separate scheme mixes verified sale RH anchors with lower-cost supporting pieces only after exact stock verification.",
+      "products": [
+        {
+          "id": "canvas-bag",
+          "brand": "Crate & Barrel",
+          "name": "White Canvas Laundry Bag",
+          "url": "https://www.crateandbarrel.com/white-canvas-laundry-bag/s309319",
+          "role": "Portable laundry liner/bag",
+          "quantity": 1,
+          "finish": "White; non-personalized cotton canvas",
+          "dimensions": "15.5 W × 15.5 D × 27.5 H in.",
+          "unitPrice": {
+            "low": 29.95,
+            "high": 29.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/white-canvas-laundry-bag/s309319",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Economical washable hidden support instead of a costly decorative hamper.",
+          "fitNotes": "Flexible bag/liner, not rigid freestanding storage; use inside a measured module or carry laundry.",
+          "phase": "move-in",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "309319",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/WhiteCanvasHamperLinerSSF21?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "sedona-hamper",
+          "brand": "Crate & Barrel",
+          "name": "Sedona Honey Hamper with Laundry Bag Liner",
+          "url": "https://www.crateandbarrel.com/sedona-honey-hamper-with-laundry-bag-liner/s368012",
+          "role": "Optional hamper",
+          "quantity": 1,
+          "finish": "Honey woven rattan/buri; cotton liner",
+          "dimensions": "Current footprint/height still to verify.",
+          "unitPrice": {
+            "low": 198.95,
+            "high": 198.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/sedona-honey-hamper-with-laundry-bag-liner/s368012",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Natural texture works if cabinetry cannot conceal laundry.",
+          "fitNotes": "Bag at 29.95 is stronger value; optional hamper must not block windows, sink or machine doors.",
+          "phase": "optional",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "368012",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/SedonaHamperWLinerHoneySSS21?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "clean-ivory-pump",
+          "brand": "Crate & Barrel",
+          "name": "Clean by Crate Ivory Ceramic Soap Dispenser/Black Pump",
+          "url": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-soap-dispenser-with-black-pump/s683578",
+          "role": "Hand-soap dispenser",
+          "quantity": 1,
+          "finish": "Matte ivory stoneware/black pump",
+          "dimensions": "15 oz; footprint/height to verify.",
+          "unitPrice": {
+            "low": 19.95,
+            "high": 19.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "ready_to_ship",
+            "evidence": "Exact Ivory/BlackSKU 683578:Ship ItOct 14–16 to 20878 and 3 units physically in Stanford today. Ready shipment inferred; no Maryland pickup claim.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "ArrivesOct 14–16, 2026.",
+            "sourceUrl": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-soap-dispenser-with-black-pump/s683578",
+            "method": "Root live official product page with configuration and ZIP 20878 selected.",
+            "configuration": {
+              "sku": "683578",
+              "finish": "Matte ivory stoneware/black pump",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "Warm ivory with a small black detail gives useful support at a modest price.",
+          "fitNotes": "Dry countertop clear of faucet arc; black appearance fits Option 1. Whole-house quantity not checked.",
+          "phase": "move-in",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "683578",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/CBCleanIvrCmSoapDspBPmpSSF25?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ],
+      "supportingPlan": [
+        "Machines on the right; two original left-wall windows and sink retained.",
+        "Keep exact graphic: Rinse and repeat.. with two periods.",
+        "Washable privacy rollers rather than floor-length fabric."
+      ],
+      "purchaseNotes": [
+        "Bag OR optional hamper per position; avoid duplicate spending.",
+        "Hamper footprint remains unverified; keep outside sink/machine-door routes."
+      ],
+      "layoutNotes": [
+        "8 ft3 ×10 ft4 plan reference.",
+        "Both original left-wall windows and sink retained, machines right.",
+        "Keep exact graphic: Rinse and repeat.. with two periods."
+      ],
+      "windowTreatment": {
+        "id": "laundry",
+        "system": "practical",
+        "recommendation": "Washable privacy rollers; lined woven-look shades as an alternative",
+        "coverage": "Two left-side windows, including the arched opening by the sink.",
+        "why": "Laundry needs useful daylight, washable finishes and evening privacy. Open-weave decorative shades alone may be see-through; blackout and floor-length curtains are unnecessary.",
+        "day": "Raise for task light; adjust to soften glare.",
+        "night": "Lower the privacy layer.",
+        "installation": "Survey the arch and sink clearance; cover the full sightline without hanging fabric into splashes. If a woven-look Roman shade is chosen instead, include a privacy lining in its quote. Preserve the Rinse and repeat.. graphic.",
+        "goods": [
+          300,
+          550
+        ],
+        "installationCost": [
+          100,
+          175
+        ],
+        "title": "Laundry",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      }
+    },
+    {
+      "id": "stair3",
+      "designSummary": "Continue the exposed-oak stair finish to the penthouse.",
+      "comparisonToRh": "Original RH consultation remains intact. This separate scheme mixes verified sale RH anchors with lower-cost supporting pieces only after exact stock verification.",
+      "products": [],
+      "supportingPlan": [
+        "Bare oak stairs, white risers and black guard details; NO runner.",
+        "Keep quarter-turn, intermediate landing, onward flight and three high windows.",
+        "No loose rugs, plants, bench or console in stair circulation."
+      ],
+      "purchaseNotes": [
+        "No furniture purchase required.",
+        "High-window privacy only if measured sightlines justify it; no blackout."
+      ],
+      "layoutNotes": [
+        "Preserve quarter-turn geometry, intermediate landing, onward flight and three high windows.",
+        "No runner or added furniture into the circulation path."
+      ],
+      "windowTreatment": {
+        "id": "stair3",
+        "system": "none",
+        "recommendation": "Bare high windows; add privacy only if sightlines require it",
+        "coverage": "Three high stair-hall windows.",
+        "why": "Daylight supports circulation; the stair does not need blackout or floor-length fabric.",
+        "day": "Leave glass visually open; assess glare on the landing.",
+        "night": "Check neighboring upper-floor views before treating high glazing as private.",
+        "installation": "No covering included in base. Survey any needed discreet privacy/diffusion treatment and access cost separately; do not hang fabric into stair travel or against the guard.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Third-floor stair hall",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      }
+    },
+    {
+      "id": "loft",
+      "designSummary": "A relaxed penthouse lounge led by the Serene Ivory Retreat sofa and a loose neutral rug, with walnut support pieces and an optional compact swivel chair. Keep the original Cloud proposal separately as a premium comparison.",
+      "comparisonToRh": "Original RH consultation remains intact. This separate scheme mixes verified sale RH anchors with lower-cost supporting pieces only after exact stock verification.",
+      "products": [
+        {
+          "id": "retreat94",
+          "brand": "Crate & Barrel",
+          "name": "Retreat 94-inch Sofa",
+          "url": "https://www.crateandbarrel.com/retreat-94-sofa/f1027609",
+          "role": "Loft straight sofa",
+          "quantity": 1,
+          "finish": "Serene Ivory; multi-cushion",
+          "dimensions": "94 W × 44 D × 28.5 H in.",
+          "unitPrice": {
+            "low": 2299,
+            "high": 2299,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Stocked Ivory / Serene multi-cushionSKU 172631 selected; explicit In stock. Ready to schedule delivery.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready to schedule delivery; specific date not recorded.",
+            "sourceUrl": "https://www.crateandbarrel.com/retreat-94-sofa/f1027609",
+            "method": "Root live official product page with configuration and ZIP 20878 selected.",
+            "configuration": {
+              "size": "94 inch",
+              "fabric": "Serene",
+              "color": "Ivory",
+              "layout": "Multi-cushion",
+              "sku": "172631",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "Neutral plush seating at 2299 versus RH Cloud 5255 member sale; pair with a compact chair rather than spending on an oversized sectional.",
+          "fitNotes": "Smaller than original 119-inch Cloud but 44 inches deep; tape terrace, stair and wet-bar routes. Ivory is full price, no sale verified.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Cloud Modular 3-Piece Sofa"
+          ],
+          "sku": "172631"
+        },
+        {
+          "id": "shelter-chair",
+          "brand": "RH",
+          "name": "1950s Italian Shelter Arm Swivel Chair — current stocked edition",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+          "role": "Compact lounge chair",
+          "quantity": 1,
+          "finish": "Natural Performance Linen Weave; Sand stocked sibling available",
+          "dimensions": "31 W × 32.5 D × 30 H in; seat 18 H.",
+          "unitPrice": {
+            "low": 1245,
+            "high": 1245,
+            "kind": "member_sale",
+            "note": "Exact member sale; regular reference $2,100. Membership, tax and delivery excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact variant shown in RH IN-STOCK modal. Availability is a dated snapshot, not a reservation.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+            "method": "Existing October 9 live RH product/IN-STOCK modal evidence retained from project stock audit.",
+            "configuration": {
+              "depth": "Classic 32½ in",
+              "fabric": "Performance Linen Weave",
+              "color": "Natural",
+              "sku": "61060801 NONA",
+              "stockedSibling": {
+                "color": "Sand",
+                "sku": "61060801 NOSN",
+                "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878."
+              }
+            },
+            "quantityNote": "Stocked configuration verified, but the combined chair quantity across all rooms is not checked. In the retreat, pair with optional footstools only after a measured layout and comfort trial."
+          },
+          "reason": "Verified neutral sale chair is a compact sculptural alternative to large lounge pieces.",
+          "fitNotes": "Comfort trial for soft supportive sitting; allow swivel space. Two chairs replace two retreat chaises and are a different seating experience.",
+          "phase": "optional",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "61060801 NONA",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod20580100_E414854120_TQ_CC_RHR?"
+        },
+        {
+          "id": "enzo-side18",
+          "brand": "RH",
+          "name": "Enzo Square Side Table — stocked 18-inch Caramel Walnut",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+          "role": "Walnut side table",
+          "quantity": 1,
+          "finish": "Caramel Walnut",
+          "dimensions": "18 W × 18 D × 20 H in; 48 lb.",
+          "unitPrice": {
+            "low": 545,
+            "high": 545,
+            "kind": "member_sale",
+            "note": "Exact member sale; regular reference $1,655. Membership, tax and delivery excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact SKU in live IN-STOCK modal; current Dimensions show 18-inch square, 20 H, 48 lb.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+            "method": "Existing October 9 live RH product/IN-STOCK modal evidence retained from project stock audit.",
+            "configuration": {
+              "size": "18-inch square /20 H inches",
+              "finish": "Caramel Walnut",
+              "sku": "10138471 CRWL"
+            },
+            "quantityNote": "A compact stocked option replacing the unavailable round Gael side table. This changes the shape to square. Multiple-room total quantities are not checked."
+          },
+          "reason": "Small sale walnut piece carries material continuity at a much lower price than a matching suite.",
+          "fitNotes": "Square replaces round Gael; no drawer. A seating side table, not a storage nightstand.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "10138471 CRWL",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+        },
+        {
+          "id": "tate-credenza62",
+          "brand": "Crate & Barrel",
+          "name": "Tate 62-inch Walnut Midcentury Credenza",
+          "url": "https://www.crateandbarrel.com/tate-62-walnut-midcentury-credenza/s683480",
+          "role": "Loft media storage",
+          "quantity": 1,
+          "finish": "Walnut",
+          "dimensions": "62 W in; depth/height diagram to verify.",
+          "unitPrice": {
+            "low": 1399,
+            "high": 1399,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/tate-62-walnut-midcentury-credenza/s683480",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Quieter walnut casework avoids an expensive matching suite.",
+          "fitNotes": "Check TV width, components, ventilation and terrace route. Slim legs are allowed in Option 1; flat-bottom requirement belonged to Option 2.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [
+            "Gael Walnut Media Console"
+          ],
+          "sku": "683480"
+        },
+        {
+          "id": "prato9",
+          "brand": "Crate & Barrel",
+          "name": "Prato Performance Wool Ivory Area Rug 9 × 12",
+          "url": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-9x12/s190307",
+          "role": "Primary/loft loose rug",
+          "quantity": 1,
+          "finish": "Ivory; 55%wool 25%polyester 20%viscose",
+          "dimensions": "9 × 12 ft.",
+          "unitPrice": {
+            "low": 1999,
+            "high": 1999,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact Ivory 9 × 12 SKU 190307 showed In stock. Ready to schedule delivery.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready to schedule delivery; specific date not recorded.",
+            "sourceUrl": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-9x12/s190307",
+            "method": "Root live official product page with configuration and ZIP 20878 selected.",
+            "configuration": {
+              "sku": "190307",
+              "finish": "Ivory;55%wool25%polyester20%viscose",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "Larger neutral rug costs substantially less than the RH premium comparison.",
+          "fitNotes": "Check bed/retreat routes or loft seat placement. Do not reuse 8 × 10 stock quote. Wool blend, not 100% wool; follow care directions for spills.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "190307",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "pad9-classic",
+          "brand": "Crate & Barrel",
+          "name": "Multisurface 9 × 12 Classic Rug Pad",
+          "url": "https://www.crateandbarrel.com/multisurface-9x12-classic-rug-pad/s561326",
+          "role": "Primary/loft rug pad",
+          "quantity": 1,
+          "finish": "Concealed neutral pad",
+          "dimensions": "9 × 12 ft; trim inside rug edge.",
+          "unitPrice": {
+            "low": 119.95,
+            "high": 119.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/multisurface-9x12-classic-rug-pad/s561326",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Practical support for a larger loose rug.",
+          "fitNotes": "Confirm floor-finish compatibility and final rug placement before cutting.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "561326"
+        },
+        {
+          "id": "cloud3-premium",
+          "brand": "RH",
+          "name": "Cloud Modular 3-Piece Sofa — stocked Natural / Classic",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+          "role": "Premium sofa alternative",
+          "quantity": 1,
+          "finish": "Natural Performance Linen Weave",
+          "dimensions": "119 W × 40 D × 32 H in; Classic 3-piece.",
+          "unitPrice": {
+            "low": 5255,
+            "high": 5255,
+            "kind": "member_sale",
+            "note": "Exact member sale; regular reference $8,845. Membership, tax and delivery excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact variant shown in RH IN-STOCK modal. Availability is a dated snapshot, not a reservation.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/19/26 and 10/25/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+            "method": "Existing October 9 live RH product/IN-STOCK modal evidence retained from project stock audit.",
+            "configuration": {
+              "depth": "Classic 40 in",
+              "fabric": "Performance Linen Weave",
+              "color": "Natural",
+              "sku": "M00023014118"
+            },
+            "quantityNote": "The configured SKU was verified in stock. Two sofas across media and loft have not been quantity-checked; confirm the complete module set and combined quantity."
+          },
+          "reason": "Keep original Cloud option as a comfort-led premium comparison; C&B Retreat is the leading value sofa.",
+          "fitNotes": "Confirm module set and direct terrace/bar route; never buy this in addition to the value sofa for the same placement.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "M00023014118",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod6511684_E1684919_F_RHR?"
+        }
+      ],
+      "supportingPlan": [
+        "Leading value sofa is 94-inch Retreat with compact neutral swivel seating.",
+        "Retain tray ceiling, left French doors/flank windows, right terrace slider and recessed wet bar.",
+        "A 40–44-inch round coffee table remains a stock/fit gap. Do not force larger 48-inch Enzo.",
+        "Sheers plus independent nighttime privacy at terrace glazing."
+      ],
+      "purchaseNotes": [
+        "After move-in fundamentals; tape 44-inch sofa depth against terrace and bar routes.",
+        "Cloud is a separate premium alternative, not a second sofa for this placement."
+      ],
+      "layoutNotes": [
+        "23 ft10 ×16 ft6; wet bar9 ft3 ×6 ft10 plan references.",
+        "Keep raised tray ceiling, left French doors flanked by windows, right terrace slider and recessed wet bar.",
+        "Tape selected Cloud components while maintaining a direct route from stair to terrace and wet bar."
+      ],
+      "windowTreatment": {
+        "id": "loft",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + independent privacy layers at terrace glazing",
+        "coverage": "French doors and flanking windows, wide terrace slider and compact bar-alcove window. Coordinate the final glazing inventory on site.",
+        "why": "The penthouse lounge should retain its views by day and privacy after dark. Being on the top floor does not guarantee privacy from adjacent homes. It is not currently a sleeping room or dedicated cinema.",
+        "day": "Sheers for soft light; raise the compact bar-window shade.",
+        "night": "Close privacy layers where visible from neighboring properties.",
+        "installation": "Use traversing treatments that stack clear of the slider and French doors; compact shade at the bar. Blackout is a separate future upgrade if this becomes a regular sleeping or cinema space. Interior loft glass is not also counted in terrace furniture costs.",
+        "goods": [
+          950,
+          1700
+        ],
+        "installationCost": [
+          250,
+          450
+        ],
+        "title": "Penthouse lounge",
+        "floor": "penthouse",
+        "version": "MW-W01"
+      }
+    },
+    {
+      "id": "bed5",
+      "designSummary": "Future guest room follows the neutral Mineral & Walnut core with a plain sand upholstered queen, walnut support pieces and quiet dark lighting. This changes the former charcoal horizontal-channel bed concept; that original remains saved on the separate RH page.",
+      "comparisonToRh": "Original RH consultation remains intact. This separate scheme mixes verified sale RH anchors with lower-cost supporting pieces only after exact stock verification.",
+      "products": [
+        {
+          "id": "lawson-queen",
+          "brand": "RH",
+          "name": "Lawson Fabric Panel Bed — stocked low queen",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025?inStock=true",
+          "role": "Future neutral queen bed",
+          "quantity": 1,
+          "finish": "Sand Classic Belgian Linen",
+          "dimensions": "64 W × 85.25 L × 48 H in; without storage; 1-inch underframe clearance.",
+          "unitPrice": {
+            "low": 1865,
+            "high": 1865,
+            "kind": "member_sale",
+            "note": "Exact member sale; regular reference $3,140. Membership, tax and delivery excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact SKU shown in official RH IN-STOCK modal; enabled Add to Cart; no order placed.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025?inStock=true",
+            "method": "Existing October 9 live RH product/IN-STOCK modal evidence retained from project stock audit.",
+            "configuration": {
+              "size": "Queen",
+              "headboardHeight": "48 inches",
+              "fabric": "Classic Belgian Linen",
+              "color": "Sand",
+              "storage": "Without Storage",
+              "sku": "10200967 OBSN",
+              "testedQuantity": 1
+            },
+            "quantityNote": "One unit was checked. Recheck quantity two if selecting the same stocked bed for both bedrooms."
+          },
+          "reason": "Current neutral sale queen is a coherent value alternative within the ivory/oatmeal Mineral & Walnut core. It changes the prior charcoal horizontal-channel bed to a plain sand panel; keep that original RH concept separately saved.",
+          "fitNotes": "UNBUILT room; measure finished walls, doorways and ceiling/openings before ordering. This current stock snapshot does not predict future stock. Queen64 W ×85.25 L ×48 H inches.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Modena Fabric Horizontal Channel Panel Bed"
+          ],
+          "sku": "10200967 OBSN",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod22040025_E98917281_TQ_Frank_CC_CO26_Linen_RHR?src=rhir/obj=Fabric&src=rhir/swatch_belgianlinen_sand2F_repeat&res=190&illum=0&obj=Fabric&req=object&illum=0&bOId=(82000042)eOId)&wid=461&$PDP-IR-768$"
+        },
+        {
+          "id": "enzo-side18",
+          "brand": "RH",
+          "name": "Enzo Square Side Table — stocked 18-inch Caramel Walnut",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+          "role": "Future guest bedside surfaces",
+          "quantity": 2,
+          "finish": "Caramel Walnut",
+          "dimensions": "18 W × 18 D × 20 H in; 48 lb.",
+          "unitPrice": {
+            "low": 545,
+            "high": 545,
+            "kind": "member_sale",
+            "note": "Exact member sale; regular reference $1,655. Membership, tax and delivery excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact SKU in live IN-STOCK modal; current Dimensions show 18-inch square, 20 H, 48 lb.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+            "method": "Existing October 9 live RH product/IN-STOCK modal evidence retained from project stock audit.",
+            "configuration": {
+              "size": "18-inch square /20 H inches",
+              "finish": "Caramel Walnut",
+              "sku": "10138471 CRWL"
+            },
+            "quantityNote": "A compact stocked option replacing the unavailable round Gael side table. This changes the shape to square. Multiple-room total quantities are not checked."
+          },
+          "reason": "Small sale walnut piece carries material continuity at a much lower price than a matching suite.",
+          "fitNotes": "Drawerless18-inch square ×20 H walnut sides. Confirm finished-room fit and mattress height after construction; planned pair not quantity-checked.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "10138471 CRWL",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$"
+        },
+        {
+          "id": "hastings18",
+          "brand": "Crate & Barrel",
+          "name": "Hastings 18-inch Rye Wood Narrow Nightstand",
+          "url": "https://www.crateandbarrel.com/hastings-18-rye-wood-narrow-nightstand/s628459",
+          "role": "Compact bedside drawer",
+          "quantity": 2,
+          "finish": "Rye warm oak; burnished-brass pull",
+          "dimensions": "18 W in; depth/height diagram still to verify.",
+          "unitPrice": {
+            "low": 349.97,
+            "high": 349.97,
+            "kind": "clearance",
+            "note": "Exact Rye narrow clearance 349.97 vs 499 regular. Final sale. No explicit stock proof."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Root saw contact-to-schedule byNovember 11 for 20878; no explicit stock confirmation. Pending only.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Contact to schedule byNovember 11; stock not confirmed.",
+            "sourceUrl": "https://www.crateandbarrel.com/hastings-18-rye-wood-narrow-nightstand/s628459",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Clearance price and narrow footprint are useful for small guest rooms if stock is confirmed.",
+          "fitNotes": "Warm oak supports walnut but is not a walnut match. Final sale: approve sample/fit first. Check door swing/window tracks.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "628459",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/HastingsRyeWdNrwNtstndSOSSF25?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "cardiff-black",
+          "brand": "Crate & Barrel",
+          "name": "Cardiff Black Table Lamp 16.5-inch",
+          "url": "https://www.crateandbarrel.com/cardiff-black-table-lamp-16.5/f1050311",
+          "role": "Bedside lamp",
+          "quantity": 2,
+          "finish": "Black metal; ivory cotton shade",
+          "dimensions": "16.5 H in; footprint still to verify.",
+          "unitPrice": {
+            "low": 159,
+            "high": 159,
+            "kind": "regular",
+            "note": "159 regular reference. Older 127.20 sale not treated as current; live price/stock pending."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/cardiff-black-table-lamp-16.5/f1050311",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Quiet black contrast and ivory shade fit Option 1 without chrome or colored bedroom accents.",
+          "fitNotes": "Inline dimmer; suitable E 12 dimmable LED maximum 7 W required. Confirm reading light and shelf depth.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "377308"
+        },
+        {
+          "id": "prato8",
+          "brand": "Crate & Barrel",
+          "name": "Prato Performance Wool Ivory Area Rug 8 × 10",
+          "url": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-8x10/s189362",
+          "role": "Loose guest rug",
+          "quantity": 1,
+          "finish": "Ivory; 55%wool 25%polyester 20%viscose",
+          "dimensions": "8 × 10 ft.",
+          "unitPrice": {
+            "low": 1499,
+            "high": 1499,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "ready_to_ship",
+            "evidence": "Ship It showedOct 16–17 arrival to 20878; near-term shipping quote supports ready-to-ship inference, no literal inventory flag.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "ArrivesOct 16–17, 2026.",
+            "sourceUrl": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-8x10/s189362",
+            "method": "Root live official product page with configuration and ZIP 20878 selected.",
+            "configuration": {
+              "sku": "189362",
+              "finish": "Ivory;55%wool25%polyester20%viscose",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "Tonal texture supports stone, mineral walls and walnut without pattern or colored accents.",
+          "fitNotes": "Keep wood visible around the loose rug; verify orientation against closet, desk and doors. Wool blend, not 100% wool. Address spills promptly; follow professional cleaning guidance.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "189362",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "monroe8",
+          "brand": "Pottery Barn",
+          "name": "Monroe Handwoven Wool Rug 8 × 10",
+          "url": "https://www.potterybarn.com/products/monroe-handwoven-wool-rug/?catalogId=84&sku=912504",
+          "role": "Lower-cost guest rug alternative",
+          "quantity": 1,
+          "finish": "Natural/Ivory",
+          "dimensions": "8 × 10 ft.",
+          "unitPrice": {
+            "low": 999,
+            "high": 999,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.potterybarn.com/products/monroe-handwoven-wool-rug/?catalogId=84&sku=912504",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Better value than Prato if exact configuration can be proven stocked.",
+          "fitNotes": "Sample for texture/softness. Root sawOct 19–Nov 2 arrival for 94305, not explicit stock or 20878.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "912504"
+        },
+        {
+          "id": "pad8-classic",
+          "brand": "Crate & Barrel",
+          "name": "Multisurface 8 × 10 Classic Rug Pad",
+          "url": "https://www.crateandbarrel.com/multisurface-8x10-classic-rug-pad/s561283",
+          "role": "Guest rug pad",
+          "quantity": 1,
+          "finish": "Concealed neutral pad",
+          "dimensions": "8 × 10 ft; trim inside rug edge.",
+          "unitPrice": {
+            "low": 99.95,
+            "high": 99.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/multisurface-8x10-classic-rug-pad/s561283",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Basic pad is more economical than premium padding.",
+          "fitNotes": "Flooring supplier must approve compatibility with new wood finish. No pads/rugs on stairs.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "561283"
+        },
+        {
+          "id": "white-queen-sheets",
+          "brand": "Crate & Barrel",
+          "name": "Favorite Washed Organic Cotton White Queen Sheet Set",
+          "url": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-queen-bed-sheet-set/s322807",
+          "role": "Queen linens",
+          "quantity": 2,
+          "finish": "White organic cotton",
+          "dimensions": "Queen; flat 96 W × 105 L in; fitted-pocket fit to verify.",
+          "unitPrice": {
+            "low": 169.95,
+            "high": 169.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-queen-bed-sheet-set/s322807",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Repeat a quiet washable base across guest rooms.",
+          "fitNotes": "Two standard pillowcases included; pillows, protector, duvet/insert separate.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "322807"
+        },
+        {
+          "id": "white-queen-duvet",
+          "brand": "Crate & Barrel",
+          "name": "Favorite Washed Organic Cotton White Eyelash Full/Queen Duvet Cover",
+          "url": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-eyelash-full-queen-duvet-cover/s322605",
+          "role": "Queen duvet cover",
+          "quantity": 1,
+          "finish": "White organic cotton",
+          "dimensions": "Full/Queen 92 W × 96 L in.",
+          "unitPrice": {
+            "low": 159.95,
+            "high": 159.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/favorite-washed-organic-cotton-white-eyelash-full-queen-duvet-cover/s322605",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "Textured white cover replaces colored throw layering.",
+          "fitNotes": "Cover only; insert/shams separate. Older 127.96 sale is not current evidence.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "322605"
+        },
+        {
+          "id": "enzo-dresser5",
+          "brand": "RH",
+          "name": "Enzo 5-Drawer Dresser — stocked Caramel Walnut",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod29870390",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod29870390_E23120396384_F_Frank_CC_RHR",
+          "role": "Future guest dresser",
+          "quantity": 1,
+          "finish": "Caramel Walnut",
+          "dimensions": "50 W ×20 D ×45 H in.",
+          "unitPrice": null,
+          "availability": {
+            "status": "in_stock",
+            "evidence": "Exact Caramel Walnut SKU 10141947 CRWL showed ready stock in live RH IN-STOCK modal.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod29870390",
+            "method": "Existing October 9 live RH product / IN-STOCK modal evidence from project stock audit.",
+            "configuration": {
+              "size": "50 W × 20 D × 45 H in",
+              "finish": "Caramel Walnut",
+              "sku": "10141947 CRWL"
+            }
+          },
+          "reason": "Retains a stocked walnut storage candidate for the future guest room. Price unquoted, so value comparison and budget total remain incomplete.",
+          "fitNotes": "Future Bedroom 5 only:build and measure first.45-inch height is not used as the primary under-TV/window dresser. Check drawer extension and far-right door.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [
+            "Enzo 5-Drawer Dresser"
+          ]
+        }
+      ],
+      "supportingPlan": [
+        "UNBUILT future room:queen, left headwall, dresser right, far-right door, flat ceiling. No invented visible windows.",
+        "Neutral sand panel bed is a value alternative to the earlier charcoal channel concept. Use ivory/oatmeal bedding; avoid added purple, blue, pink accents. Do not imply this is the same headboard design."
+      ],
+      "purchaseNotes": [
+        "Do not order Bedroom 5 furniture early. Build, measure and recheck stock first.",
+        "Current October availability cannot predict stock after future construction.",
+        "Dresser price is unquoted, not zero; add a current exact quote before any room furniture total is presented as complete.",
+        "Queen mattress, mattress protector, pillows and matched duvet insert are necessary but not yet selected or priced. Keep an explicit unpriced allowance; purchase with the room phase after comfort/size checks."
+      ],
+      "layoutNotes": [
+        "UNBUILT Bedroom5; furniture study is a future plan-led concept, not a completed room.",
+        "14 ft11 ×11 ft1 plan reference; keep bed on left wall, dresser on right and far-right doorway.",
+        "No invented window on source-visible walls; full opening/roof layout to be confirmed during construction."
+      ],
+      "windowTreatment": {
+        "id": "bed5",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + blackout for the new guest bedroom",
+        "coverage": "Confirmed exterior glazing of the proposed new Bedroom 5 only; openings and final enclosure remain to be surveyed.",
+        "why": "This is a real sleeping room, so guest privacy and light control should be designed into construction rather than added after furniture arrives.",
+        "day": "Sheers filter daylight.",
+        "night": "Close the blackout layer at every confirmed exterior opening.",
+        "installation": "Provisional allowance, not an approved window count. Coordinate track supports and bed/storage positions with the new room plan. Do not create new windows or drape the blank headboard wall to imitate a render.",
+        "goods": [
+          450,
+          850
+        ],
+        "installationCost": [
+          125,
+          225
+        ],
+        "title": "Penthouse guest bedroom",
+        "floor": "penthouse",
+        "version": "MW-W01"
+      }
+    },
+    {
+      "id": "bath4",
+      "designSummary": "Keep compact fitted storage and coordinated pale stone appearance.",
+      "comparisonToRh": "Original RH consultation remains intact. This separate scheme mixes verified sale RH anchors with lower-cost supporting pieces only after exact stock verification.",
+      "products": [
+        {
+          "id": "turkish-white6",
+          "brand": "Crate & Barrel",
+          "name": "Classic Organic Turkish Cotton White Towels, Set of 6",
+          "url": "https://www.crateandbarrel.com/classic-organic-turkish-cotton-white-towels-set-of-6/f90235",
+          "role": "Bath towel set",
+          "quantity": 1,
+          "finish": "White; 100%Turkish organic cotton; 800 gram",
+          "dimensions": "2 bath towels, 2 hand towels, 2 washcloths; component dimensions to verify.",
+          "unitPrice": {
+            "low": 119.95,
+            "high": 119.95,
+            "kind": "set_savings",
+            "note": "119.95 White 6-piece bundle vs 145.70 open-stock total; bundle savings, not a temporary sale."
+          },
+          "availability": {
+            "status": "ready_to_ship",
+            "evidence": "Exact White 6-pieceSKU 363926 selected; Ship It arrivesOct 13–16 to 20878. Physical Stanford stock supports inference only; no Maryland pickup claim.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "ArrivesOct 13–16, 2026.",
+            "sourceUrl": "https://www.crateandbarrel.com/classic-organic-turkish-cotton-white-towels-set-of-6/f90235",
+            "method": "Root live official product page with configuration and ZIP 20878 selected.",
+            "configuration": {
+              "sku": "363926",
+              "finish": "White;100%Turkish organic cotton;800gram",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "White hotel-style towels; bundle saves 25.75 against 145.70 separate items.",
+          "fitNotes": "One set for two bath users; second set optional for wash rotation. Check towel-bar length/storage.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "363926",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/TurkishWhiteTowelsSet6S19?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "clean-ivory-pump",
+          "brand": "Crate & Barrel",
+          "name": "Clean by Crate Ivory Ceramic Soap Dispenser/Black Pump",
+          "url": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-soap-dispenser-with-black-pump/s683578",
+          "role": "Hand-soap dispenser",
+          "quantity": 1,
+          "finish": "Matte ivory stoneware/black pump",
+          "dimensions": "15 oz; footprint/height to verify.",
+          "unitPrice": {
+            "low": 19.95,
+            "high": 19.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "ready_to_ship",
+            "evidence": "Exact Ivory/BlackSKU 683578:Ship ItOct 14–16 to 20878 and 3 units physically in Stanford today. Ready shipment inferred; no Maryland pickup claim.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "ArrivesOct 14–16, 2026.",
+            "sourceUrl": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-soap-dispenser-with-black-pump/s683578",
+            "method": "Root live official product page with configuration and ZIP 20878 selected.",
+            "configuration": {
+              "sku": "683578",
+              "finish": "Matte ivory stoneware/black pump",
+              "testedQuantity": 1
+            }
+          },
+          "reason": "Warm ivory with a small black detail gives useful support at a modest price.",
+          "fitNotes": "Dry countertop clear of faucet arc; black appearance fits Option 1. Whole-house quantity not checked.",
+          "phase": "later",
+          "decision": "recommended",
+          "replaces": [],
+          "sku": "683578",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/CBCleanIvrCmSoapDspBPmpSSF25?%24web_pdp_main_carousel_thumb_med%24="
+        },
+        {
+          "id": "clean-ivory-tray",
+          "brand": "Crate & Barrel",
+          "name": "Clean by Crate Ivory Ceramic Sink Caddy Tray",
+          "url": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-sink-caddy-tray/s683584",
+          "role": "Counter accessory tray",
+          "quantity": 1,
+          "finish": "Matte ivory recycled stoneware",
+          "dimensions": "Full footprint diagram to verify.",
+          "unitPrice": {
+            "low": 24.95,
+            "high": 24.95,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "evidence": "Official product configuration read, but exact stock/delivery not verified. Add to Cart alone is not stock proof. Excluded from stocked purchase list.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Not verified for 20878.",
+            "sourceUrl": "https://www.crateandbarrel.com/clean-by-crate-ivory-ceramic-sink-caddy-tray/s683584",
+            "method": "Official product-page text; interactive stock control unavailable to this researcher."
+          },
+          "reason": "One small tray organizes essentials without a matching bath collection.",
+          "fitNotes": "Check dispenser/tray footprint together; do not assume nesting. Keep clear of taps and splash.",
+          "phase": "later",
+          "decision": "alternative",
+          "replaces": [],
+          "sku": "683584",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/ClnCrtCmCrcSinkCdyTraySHF26?%24web_pdp_main_carousel_thumb_med%24="
+        }
+      ],
+      "supportingPlan": [
+        "Plan-led:west entry, north vanity, east toilet, south shower/bench.",
+        "Pale stone appearance and fitted storage; no invented window or freestanding furniture."
+      ],
+      "purchaseNotes": [
+        "Purchase only after bathroom construction and measurement.",
+        "Later construction phase, not a move-in essential."
+      ],
+      "layoutNotes": [
+        "Plan-led concept; west hall entry, north single vanity, east toilet and southern shower compartment.",
+        "Measure plumbing, shower/bench and actual clearances before selecting any retail vanity."
+      ],
+      "windowTreatment": {
+        "id": "bath4",
+        "system": "none",
+        "recommendation": "No window treatment in the current layout",
+        "coverage": "Plan-led penthouse bathroom is windowless.",
+        "why": "No exterior glazing needs dressing in the documented concept.",
+        "day": "Use bathroom lighting.",
+        "night": "Use the bathroom door for privacy.",
+        "installation": "Confirm the existing enclosure/services and whether there is any real exterior opening before final scope. A newly discovered window would require a wet-area privacy specification and revised allowance.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Penthouse bathroom",
+        "floor": "penthouse",
+        "version": "MW-W01"
+      }
+    }
+  ]
+}

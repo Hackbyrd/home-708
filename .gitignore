@@ -18,7 +18,9 @@ legal/
 # Local render scratch files and diagnostic logs are not deployment inputs.
 /tmp/
 # Generated original-photo library and local preview bridge; rebuilt from source assets.
-docs/design-library-assets/
+docs/design-library-assets/*
+# The saved furniture consultation is a deployment input, not photo-library scratch.
+!docs/design-library-assets/collected-value-consultation.html
 docs/index.html
 docs/assets
 # full-size AI renders stay local; the app ships the webp copies in assets/renders-web/

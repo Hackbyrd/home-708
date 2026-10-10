@@ -1,9 +1,20 @@
 import json
 from html import escape
 from pathlib import Path
+from importlib.util import module_from_spec, spec_from_file_location
 
 root = Path(__file__).resolve().parents[1]
+spec = spec_from_file_location('rh_house_builder', root / 'scripts/build-rh-house-consultation.py')
+house_builder = module_from_spec(spec)
+spec.loader.exec_module(house_builder)
+availability_html = house_builder.availability_html
 manifest = json.loads((root / 'docs/mineral-walnut-rh-great-room.json').read_text())
+stock_file = root / 'docs/mineral-walnut-rh-stock.json'
+stock = json.loads(stock_file.read_text()) if stock_file.exists() else None
+if stock:
+    checks = {item['originalUrl']: item for item in stock['checks']}
+    for item in manifest['products'] + manifest['alternatives']:
+        item['availability'] = checks.get(item['url'], {'status': 'unverified', 'checkedAt': stock['checkedAt'], 'destinationZip': stock['destinationZip']})
 
 def link(url, label):
     return f'<a href="{escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{escape(label)} ↗</a>'
@@ -11,7 +22,7 @@ def link(url, label):
 def card(p, alternative=False):
     image = f'<img src="{escape(p["image"], quote=True)}" alt="RH product photograph: {escape(p["name"], quote=True)}" loading="lazy" referrerpolicy="no-referrer">'
     details = '' if alternative else f'<p class="finish">{escape(p["finish"])}</p><p class="small">{escape(p["size"])}</p><p class="phase">{escape(p["phase"])}</p><p class="small">{escape(p["price"])} · no stock or delivery commitment</p>'
-    return f'<article class="card"><div class="product-photo">{image}</div><div class="card-body"><p class="eyebrow">{escape(p.get("role", "Alternative"))}</p><h3>{escape(p["name"])}</h3>{details}<p>{escape(p["why"])}</p>{link(p["url"], "View at RH")}<p class="caption">RH catalogue image. The pictured finish may differ from the proposed finish.</p></div></article>'
+    return f'<article class="card"><div class="product-photo">{image}</div><div class="card-body"><p class="eyebrow">{escape(p.get("role", "Alternative"))}</p><h3>{escape(p["name"])}</h3>{availability_html(p.get("availability"))}{details}<p>{escape(p["why"])}</p>{link(p["url"], "View at RH")}<p class="caption">RH catalogue image. The pictured finish may differ from the proposed finish.</p></div></article>'
 
 products = ''.join(card(p) for p in manifest['products'])
 alternatives = ''.join(card(p, True) for p in manifest['alternatives'])
@@ -46,5 +57,8 @@ const views={study:{src:'../design-review-assets/rh-great-room-study-r01.webp',a
 document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{const view=views[button.dataset.view];document.getElementById('room-image').src=view.src;document.getElementById('room-image').alt=view.alt;document.getElementById('room-caption').textContent=view.caption;document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));}));
 </script></body></html>'''.replace('__PRODUCTS__', products).replace('__ALTERNATIVES__', alternatives)
 out = root / 'docs/design-library-assets/rh-great-room-consultation.html'
+if stock:
+    html = html.replace('<nav class="nav"', '<div class="notes"><p><strong>Original study saved.</strong> These original picks are retained, including discontinued listings. Live availability was checked October 9, 2026 for ZIP20878.</p>' + link('/design-library-assets/rh-house-consultation.html#floor-2/great/stock', 'View current in-stock choices and replacement product photos') + '</div><nav class="nav"', 1)
+    html = html.replace('</style>', '.availability{padding:13px;border:1px solid #d9d3c9;border-radius:4px;background:#ece8df;margin-bottom:15px}.availability strong{font-size:12px}.availability p,.availability a{font-size:12px}.availability-in_stock{background:#edf0e5}.availability-unavailable{background:#f1e6dc}.availability-special_order{background:#f4ecda}</style>', 1)
 out.write_text(html)
 print(out)

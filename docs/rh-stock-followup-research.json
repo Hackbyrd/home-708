@@ -1,0 +1,746 @@
+{
+  "checkedAt": "2026-10-09",
+  "destinationZip": "20878",
+  "method": "Official live RH configurators, IN-STOCK and SALE SKU modals after user human verification. SALE alone is not evidence of stock.",
+  "checks": [
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod27630009",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "width": "8 feet / 96 inches",
+        "depth": "Classic 43 inches",
+        "fill": "Down-Feather",
+        "fabric": "Performance Linen Weave",
+        "color": "Sand",
+        "sku": "10271269 NOSN"
+      },
+      "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+      "configuredPrice": {
+        "memberSale": 5655,
+        "regular": 9425
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod27630009",
+      "evidence": "Exact SKU in live RH IN-STOCK modal after user completed human verification.",
+      "note": "Exact stocked alternative to Modena. It is deeper and more plush; sit-test for the desired soft-but-supportive feel before choosing."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod14870249",
+      "status": "unavailable",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod14870249",
+      "note": "RH currently says the original listing is no longer available. Saved as a design reference; finding the current Cloud sofa edition."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6490263",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "width": "8 feet / 96 inches",
+        "depth": "Classic 40 inches",
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "10269015 NONA",
+        "maxSelectableQuantity": 1
+      },
+      "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+      "configuredPrice": {
+        "memberSale": 5795,
+        "regular": 8280
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6490263",
+      "evidence": "Exact SKU in live RH IN-STOCK modal. Quantity increase disabled at one. Current Dimensions: 96 W ×40 D ×32 H, frame height24, seat19.",
+      "note": "Only one unit was selectable in the checked configuration. The recorded price is the displayed SKU price; request a fresh quote before ordering."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod7560042",
+      "status": "unavailable",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod7560042",
+      "note": "RH says the original listing is no longer available. Current Modena Slope Arm Chaise prod7560041 is offered with 223 special-order fabrics; a stocked chaise configuration has not been verified.",
+      "currentEditionUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod7560041"
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6490277",
+      "status": "special_order",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": "RH lists 196 special-order fabrics; size and fabric were not fully configured.",
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6490277",
+      "note": "The original loose Cloud Ottoman remains available by special order. A matching stocked modular ottoman is being checked separately; sofa stock does not imply loose ottoman stock."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6371041",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "depth": "Classic 40 inches",
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "10115450 NONA"
+      },
+      "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+      "configuredPrice": {
+        "memberSale": 1349,
+        "regular": 2280
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6371041",
+      "evidence": "Exact live RH IN-STOCK modal; current Dimensions39W×40D×19H.",
+      "note": "This modular ottoman is a different product from the original loose Cloud Ottoman. Use independently unless RH confirms the selected module connection."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod31080238",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "size": "48-inch 2-door",
+        "finish": "Espresso Walnut / Bronze",
+        "sku": "10146651 ESWL",
+        "maxSelectableQuantity": 1
+      },
+      "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+      "configuredPrice": {
+        "memberSale": 2559,
+        "regular": 4785
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod31080238",
+      "evidence": "Live RH IN-STOCK modal and current Dimensions: 48 W ×18 D ×28 H inches;161 lb.",
+      "note": "The stocked 48-inch unit is too narrow for the media room's 83-inch TV and intended large console. Retain the room's custom walnut console instead; do not substitute this just to obtain stock."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod34641245",
+      "status": "special_order",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "leather": "69 special-order leathers; exact color and finish not configured"
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod34641245",
+      "evidence": "Live current product page shows 69 SPECIAL ORDER LEATHERS and no stocked-furniture button.",
+      "note": "No exact in-stock configuration verified. For move-in, use an independently sourced ergonomic task chair in charcoal or warm brown; retain Lucio as the long-term aesthetic option."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod33440091",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "size": "84 W ×32 D ×30 H inches",
+        "finish": "Brown Oak",
+        "sku": "10193750 BRWN"
+      },
+      "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+      "configuredPrice": {
+        "memberSale": 3105,
+        "regular": 5180
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod33440091",
+      "evidence": "Exact size and wood finish in current RH IN-STOCK modal.",
+      "note": "Brown Oak is an alternative wood species, not walnut. Approve its warm brown sample beside the custom walnut cabinetry. No chrome or stainless accents added."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320032",
+      "status": "unverified",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "finish": "Natural Teak",
+        "fabric": "Classic Performance Textured Weave",
+        "color": "White",
+        "sku": "10272242 OWWH",
+        "size": "31 W ×35.5 D ×30 H inches with cushion"
+      },
+      "deliveryMessage": "Ready for delivery between 11/25/26 and 12/04/26 for 20878.",
+      "configuredPrice": {
+        "memberSale": 1759,
+        "regular": 2935
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320032",
+      "evidence": "Exact configuration in live SALE modal. Current page offers 124 special-order fabrics but no in-stock furniture control.",
+      "note": "Orderable delivery quote verified, but an explicit in-stock designation was not shown. Sale membership alone does not establish stock. Requested pair quantity not checked."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940016",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "width": "60 inches",
+        "finish": "Natural Teak",
+        "sku": "10008923 TEAK"
+      },
+      "deliveryMessage": "Ready for delivery between 10/20/26 and 10/27/26 for 20878.",
+      "configuredPrice": {
+        "memberSale": 2625,
+        "regular": 4375
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940016",
+      "evidence": "Live IN-STOCK & READY TO SHIP modal. Current Dimensions: 60 W ×28.5 D ×12 H inches.",
+      "note": "Exact stock applies to the 60-inch Natural Teak table; the planned 48-inch Natural Teak unit was not listed. 48-inch Weathered Teak SKU10084663 WGTK was stocked at $2,139/$3,570, but changes the finish.",
+      "roomAvailability": {
+        "terrace": {
+          "status": "no_suitable_stock",
+          "configuration": {
+            "requested": "48-inch Natural Teak",
+            "stockedSibling": "60-inch Natural Teak, SKU10008923 TEAK"
+          },
+          "note": "The planned 48-inch Natural Teak size was not in the stock modal. The larger 60-inch Natural Teak alternative is offered separately, subject to fit."
+        }
+      }
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940017",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "width": "72 inches",
+        "finish": "Natural Teak",
+        "sku": "10035595 TEAK"
+      },
+      "deliveryMessage": "Ready for delivery between 10/20/26 and 10/27/26 for 20878.",
+      "configuredPrice": {
+        "memberSale": 4159,
+        "regular": 6940
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940017",
+      "evidence": "Exact configuration in live IN-STOCK & READY TO SHIP modal; current Dimensions:72 L ×40 W ×30 H inches. Space between legs47.25 inches.",
+      "note": "This matches the planned table length. Confirm two chairs per long side fit between the bases and that door and grill routes remain clear."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320024",
+      "status": "unverified",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "finish": "Natural Teak",
+        "fabric": "Classic Performance Textured Weave",
+        "color": "White",
+        "sku": "10272241 OWWH",
+        "size": "22.75 W ×22.5 D ×32 H inches",
+        "armHeight": "25.25 inches"
+      },
+      "deliveryMessage": "Ready for delivery between 11/30/26 and 12/06/26 for 20878.",
+      "configuredPrice": {
+        "memberSale": 1129,
+        "regular": 1885
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320024",
+      "evidence": "Exact configuration in live SALE modal; no IN-STOCK furniture control was shown.",
+      "note": "Delivery quote verified, but current in-stock status is not confirmed. Six-chair quantity not checked. Two chairs are 45.5 inches wide together before any spacing in the table's 47.25-inch side opening; test this tight fit and consider slimmer armless side chairs."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320027",
+      "status": "unverified",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "finish": "Natural Teak",
+        "fabric": "Classic Performance Textured Weave",
+        "color": "White",
+        "sku": "10272466 OWWH"
+      },
+      "deliveryMessage": "Ready for delivery between 12/16/26 and 12/22/26 for 20878.",
+      "configuredPrice": {
+        "memberSale": 2825,
+        "regular": 4715
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320027",
+      "evidence": "Exact configuration in live SALE modal; no IN-STOCK furniture control was shown.",
+      "note": "Exact orderable delivery quote recorded. In-stock status and the requested pair quantity are not confirmed; defer terrace purchasing until the completed layout is measured."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320022",
+      "status": "no_suitable_stock",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "requested": "90-inch Natural Teak sofa",
+        "stockedSibling": {
+          "width": "108 inches",
+          "finish": "Natural Teak",
+          "fabric": "Classic Performance Textured Weave",
+          "color": "White",
+          "sku": "10272455 OWWH"
+        }
+      },
+      "deliveryMessage": "Stocked 108-inch sibling: ready for delivery between 10/20/26 and 10/27/26 for 20878.",
+      "configuredPrice": {
+        "memberSale": 4835,
+        "regular": 8065
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320022",
+      "evidence": "Live IN-STOCK & READY TO SHIP modal shows only 108-inch sofa configurations; no 90-inch unit.",
+      "note": "Stock and price apply only to the larger 108-inch sofa offered separately below. The original 90-inch planning size is not confirmed in stock."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "size": "18-inch square /20 H inches",
+        "finish": "Caramel Walnut",
+        "sku": "10138471 CRWL"
+      },
+      "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+      "configuredPrice": {
+        "memberSale": 545,
+        "regular": 1655
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+      "evidence": "Exact SKU in live IN-STOCK modal; current Dimensions show18-inch square,20 H,48lb.",
+      "note": "A compact stocked option replacing the unavailable round Gael side table. This changes the shape to square. Multiple-room total quantities are not checked."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod14020057",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "finish": "Natural Teak",
+        "fabric": "Perennials Performance Textured Linen Weave",
+        "color": "Natural",
+        "sku": "10272897 BXNT"
+      },
+      "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+      "configuredPrice": {
+        "memberSale": 2205,
+        "regular": 3675
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod14020057",
+      "evidence": "Exact configuration in live IN-STOCK modal. Dimensions:27.75 W ×79.5 D ×12.5 H inches fully reclined with cushion;31 H at highest back setting.",
+      "note": "Matching two-unit quantity still needs confirmation. Balmain is a different, slimmer collection; approve the teak sample alongside any retained Mesa pieces."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod14020067",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "finish": "Natural Teak",
+        "fabric": "Perennials Performance Textured Linen Weave",
+        "color": "Natural",
+        "sku": "10272888 BXNT"
+      },
+      "deliveryMessage": "Ready for delivery between 10/23/26 and 10/29/26 for 20878.",
+      "configuredPrice": {
+        "memberSale": 2085,
+        "regular": 3475
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod14020067",
+      "evidence": "Exact frame, fabric and color in live IN-STOCK modal; Dimensions31.5-inch square ×29 H with cushion;37lb.",
+      "note": "Pair quantity not checked. Teak hue can vary between Balmain and Mesa; compare physical samples before mixing collections."
+    },
+    {
+      "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod30120035",
+      "status": "in_stock",
+      "checkedAt": "2026-10-09",
+      "destinationZip": "20878",
+      "configuration": {
+        "finish": "Natural Teak",
+        "fabric": "Perennials Performance Textured Linen Weave",
+        "color": "Dove",
+        "sku": "10271971 BXDV",
+        "quantityChecked": 6
+      },
+      "deliveryMessage": "Ready for delivery between 10/20/26 and 10/27/26 for 20878 at preview quantity6.",
+      "configuredPrice": {
+        "memberSale": 839,
+        "regular": 1405
+      },
+      "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod30120035",
+      "evidence": "Exact configuration in live IN-STOCK modal; quantity set to6 without cart submission, delivery quote returned unchanged. Current Dimensions20 W ×23 D ×32 H with cushion.",
+      "note": "Six units were accepted by the stock configurator with the stated delivery window. This is a snapshot, not a reservation. Teak hue and Dove fabric require samples; verify seat height beside Mesa's table."
+    }
+  ],
+  "alternatives": [
+    {
+      "roomIds": [
+        "great",
+        "living",
+        "loft"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod24400560",
+        "https://rh.com/us/en/catalog/product/product.jsp/prod14870249"
+      ],
+      "name": "Lugano 2-Cushion Sofa — stocked 8-foot Sand",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod27630009",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod27630009_E615559813_F_CC_CO23_RHR?src=rhir/obj=Fabric&src=rhir/1801013_E23421182858_O_Sand_CO24_repeat&res=300&illum=0&obj=Fabric&req=object&illum=0)&wid=461&$PDP-IR-768$",
+      "proposedFinish": "Sand Performance Linen Weave",
+      "planningSize": "8-foot width / Classic 43-inch depth; verify full height and delivery route.",
+      "reason": "A tailored warm-neutral sofa in the intended approximately 96-inch footprint. Its down-feather cushions are more plush than Modena; test comfort and measure the additional two inches of depth before substituting.",
+      "availability": {
+        "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod27630009",
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZip": "20878",
+        "configuration": {
+          "width": "8 feet / 96 inches",
+          "depth": "Classic 43 inches",
+          "fill": "Down-Feather",
+          "fabric": "Performance Linen Weave",
+          "color": "Sand",
+          "sku": "10271269 NOSN"
+        },
+        "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+        "configuredPrice": {
+          "memberSale": 5655,
+          "regular": 9425
+        },
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod27630009",
+        "evidence": "Exact SKU in live RH IN-STOCK modal after user completed human verification.",
+        "note": "Exact stocked alternative to Modena. It is deeper and more plush; sit-test for the desired soft-but-supportive feel before choosing."
+      }
+    },
+    {
+      "roomIds": [
+        "living"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod14870249"
+      ],
+      "name": "Cloud 2-Cushion Sofa — current stocked 8-foot Natural",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6490263",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod6490266_E46747666_F_Frank_CO20_RHR?src=rhir/obj=Fabric&src=rhir/1808002_E23321146939_Natural_CO25_repeat&res=300&illum=0&obj=Fabric&req=object&illum=0)&wid=461&$PDP-IR-768$",
+      "proposedFinish": "Natural Performance Linen Weave",
+      "planningSize": "96 W ×40 D ×32 H inches; frame height24, seat height19. Current RH dimensions verified.",
+      "reason": "Current fixed-width edition of the original Cloud sofa. The 8-foot Classic configuration maintains the intended sofa length and leaves more room than deeper Luxe variants for the baby grand, bench and circulation.",
+      "availability": {
+        "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6490263",
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZip": "20878",
+        "configuration": {
+          "width": "8 feet / 96 inches",
+          "depth": "Classic 40 inches",
+          "fabric": "Performance Linen Weave",
+          "color": "Natural",
+          "sku": "10269015 NONA",
+          "maxSelectableQuantity": 1
+        },
+        "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+        "configuredPrice": {
+          "memberSale": 5795,
+          "regular": 8280
+        },
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6490263",
+        "evidence": "Exact SKU in live RH IN-STOCK modal. Quantity increase disabled at one. Current Dimensions: 96 W ×40 D ×32 H, frame height24, seat19.",
+        "note": "Only one unit was selectable in the checked configuration. The recorded price is the displayed SKU price; request a fresh quote before ordering."
+      }
+    },
+    {
+      "roomIds": [
+        "media"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod6490277"
+      ],
+      "name": "Cloud Modular End-of-Sectional Ottoman — stocked Classic Natural",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6371041",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod6371041_E2619922_F_CO19_RHR?src=rhir/obj=Fabric&src=rhir/1808002_E23321146939_Natural_CO25_repeat&res=300&illum=0&obj=Fabric&req=object&illum=0)&wid=461&$PDP-IR-768$",
+      "proposedFinish": "Natural Performance Linen Weave",
+      "planningSize": "39 W ×40 D ×19 H inches; current RH dimensions.",
+      "reason": "Matches the neutral stocked Cloud sofa fabric. Use one movable ottoman with the straight three-piece sofa; keep the entry and AV circulation clear. This is the modular end ottoman, rather than the original loose Cloud Ottoman.",
+      "availability": {
+        "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6371041",
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZip": "20878",
+        "configuration": {
+          "depth": "Classic 40 inches",
+          "fabric": "Performance Linen Weave",
+          "color": "Natural",
+          "sku": "10115450 NONA"
+        },
+        "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+        "configuredPrice": {
+          "memberSale": 1349,
+          "regular": 2280
+        },
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6371041",
+        "evidence": "Exact live RH IN-STOCK modal; current Dimensions39W×40D×19H.",
+        "note": "This modular ottoman is a different product from the original loose Cloud Ottoman. Use independently unless RH confirms the selected module connection."
+      }
+    },
+    {
+      "roomIds": [
+        "office"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod29740668"
+      ],
+      "name": "Alora Desk — stocked 84-inch Brown Oak",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33440091",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod33440092_E24422611796_F_CC_RHR_cl1968002?&$PDP-IS-768$",
+      "proposedFinish": "Brown Oak; match sample to the room's walnut build-out",
+      "planningSize": "84 W ×32 D ×30 H inches. Four inches wider and four inches shallower than the original 80 ×36 planning target; tape out the diagonal position.",
+      "reason": "Rounded waterfall edges and restrained wood reeding give the office a substantial desk without adding metallic trim. Keep the chair in the southeast facing northwest; confirm the chair pullback, visitor seats and route to the door. This wood species change is optional, and the original walnut desk stays saved.",
+      "availability": {
+        "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod33440091",
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZip": "20878",
+        "configuration": {
+          "size": "84 W ×32 D ×30 H inches",
+          "finish": "Brown Oak",
+          "sku": "10193750 BRWN"
+        },
+        "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+        "configuredPrice": {
+          "memberSale": 3105,
+          "regular": 5180
+        },
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod33440091",
+        "evidence": "Exact size and wood finish in current RH IN-STOCK modal.",
+        "note": "Brown Oak is an alternative wood species, not walnut. Approve its warm brown sample beside the custom walnut cabinetry. No chrome or stainless accents added."
+      }
+    },
+    {
+      "roomIds": [
+        "terrace"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod16940016"
+      ],
+      "name": "Mesa Teak Rectangular Coffee Table — stocked 60-inch Natural Teak",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod16940016",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=prod22320029_E916044151_F_RHR_cl251482&anchorN=0,0.45&sizeN=0.95,0.45&&$PDP-IS-768$",
+      "proposedFinish": "Natural Teak",
+      "planningSize": "60 W ×28.5 D ×12 H inches;12 inches longer than original table target.",
+      "reason": "Keeps the warm teak finish and pairs well with the stocked108-inch sofa if the full lounge layout and terrace clearances work. Tape out all seating and the doors; retain a48-inch table if circulation becomes tight.",
+      "availability": {
+        "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940016",
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZip": "20878",
+        "configuration": {
+          "width": "60 inches",
+          "finish": "Natural Teak",
+          "sku": "10008923 TEAK"
+        },
+        "deliveryMessage": "Ready for delivery between 10/20/26 and 10/27/26 for 20878.",
+        "configuredPrice": {
+          "memberSale": 2625,
+          "regular": 4375
+        },
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940016",
+        "evidence": "Live IN-STOCK & READY TO SHIP modal. Current Dimensions: 60 W ×28.5 D ×12 H inches.",
+        "note": "Exact stock applies to the 60-inch Natural Teak table; the planned 48-inch Natural Teak unit was not listed. 48-inch Weathered Teak SKU10084663 WGTK was stocked at $2,139/$3,570, but changes the finish."
+      }
+    },
+    {
+      "roomIds": [
+        "terrace"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod16940017"
+      ],
+      "name": "Mesa Teak Rectangular Dining Table — original 72-inch Natural Teak, stocked",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod16940017",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=prod22320036_E416044592_MAIN_RS_RHR_cl251482&anchorN=0,0.45&sizeN=0.95,0.65&&$PDP-IS-768$",
+      "proposedFinish": "Natural Teak",
+      "planningSize": "72 L ×40 W ×30 H inches; 28.25-inch clearance under top;47.25 inches between the side legs.",
+      "reason": "Keeps the original six-seat outdoor dining direction and warm teak color. Select dining chairs only after checking the base spacing and pullback; do not enlarge the table to match a sale.",
+      "availability": {
+        "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940017",
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZip": "20878",
+        "configuration": {
+          "width": "72 inches",
+          "finish": "Natural Teak",
+          "sku": "10035595 TEAK"
+        },
+        "deliveryMessage": "Ready for delivery between 10/20/26 and 10/27/26 for 20878.",
+        "configuredPrice": {
+          "memberSale": 4159,
+          "regular": 6940
+        },
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940017",
+        "evidence": "Exact configuration in live IN-STOCK & READY TO SHIP modal; current Dimensions:72 L ×40 W ×30 H inches. Space between legs47.25 inches.",
+        "note": "This matches the planned table length. Confirm two chairs per long side fit between the bases and that door and grill routes remain clear."
+      }
+    },
+    {
+      "roomIds": [
+        "great",
+        "retreat",
+        "loft"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod29740644"
+      ],
+      "name": "Enzo Square Side Table — stocked 18-inch Caramel Walnut",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$",
+      "proposedFinish": "Caramel Walnut",
+      "planningSize": "18-inch square ×20 H inches;48 lb. Use the smaller stocked size to protect circulation.",
+      "reason": "Preserves walnut warmth in a compact footprint. Its square form is a modest change from the original round Gael; place beside a sofa or between two retreat seats, with a slim tray and lamp.",
+      "availability": {
+        "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZip": "20878",
+        "configuration": {
+          "size": "18-inch square /20 H inches",
+          "finish": "Caramel Walnut",
+          "sku": "10138471 CRWL"
+        },
+        "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+        "configuredPrice": {
+          "memberSale": 545,
+          "regular": 1655
+        },
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+        "evidence": "Exact SKU in live IN-STOCK modal; current Dimensions show18-inch square,20 H,48lb.",
+        "note": "A compact stocked option replacing the unavailable round Gael side table. This changes the shape to square. Multiple-room total quantities are not checked."
+      }
+    },
+    {
+      "roomIds": [
+        "retreat"
+      ],
+      "name": "Cloud Modular End-of-Sectional Ottoman — stocked Petite Sand",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6371041",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod6371041_E2619922_F_CO19_RHR?src=rhir/obj=Fabric&src=rhir/1801013_E23421182858_O_Sand_CO24_repeat&res=300&illum=0&obj=Fabric&req=object&illum=0)&wid=461&$PDP-IR-768$",
+      "proposedFinish": "Sand Performance Linen Weave",
+      "planningSize": "35 W ×36 D ×19 H inches. Two chair-and-footstool arrangements must be taped out around the bar route.",
+      "quantity": 2,
+      "reason": "Optional stocked footstools paired with compact Natural shelter-arm chairs as an alternative to two special-order chaises. This changes the original seating form and needs a comfort trial; keep the original chaise design saved.",
+      "availability": {
+        "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6371041",
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZip": "20878",
+        "configuration": {
+          "depth": "Petite36 inches",
+          "fabric": "Performance Linen Weave",
+          "color": "Sand",
+          "sku": "10269058 NOSN"
+        },
+        "deliveryMessage": "Ready for delivery between 10/23/26 and 10/29/26 for 20878.",
+        "configuredPrice": {
+          "memberSale": 1349,
+          "regular": 2280
+        },
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod6371041",
+        "evidence": "Exact Petite Sand SKU in live IN-STOCK modal; Dimensions35 W ×36 D ×19 H inches.",
+        "note": "Stock verified for this configuration, not the required pair. Use independently as a footstool; compatibility with non-Cloud chairs is functional only, not a connector claim."
+      }
+    },
+    {
+      "roomIds": [
+        "terrace"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod22320027"
+      ],
+      "name": "Balmain Teak Adjustable Chaise — stocked Natural upholstery",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod14020057",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DAYBEDS_CHAISE_pg&layer=3&src=ir(rhir/prod14020057_E210477633_TQ_CC_OD18_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerennialsTexturedLinenWeave_Natural_204_repeat&res=220&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c9966a&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.43&sizeN=0.9,0.75&&$PDP-IR-768$",
+      "proposedFinish": "Natural Teak /Natural Perennials Performance Textured Linen Weave",
+      "quantity": 2,
+      "planningSize": "27.75 W ×79.5 D inches fully reclined;12.5 H at cushion,31 H at highest back position.",
+      "reason": "A stocked slim teak chaise that retains the quiet neutral outdoor palette. Check the full reclined length, spacing for the pair, roof door swing and teak color before combining it with Mesa seating.",
+      "availability": {
+        "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod14020057",
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZip": "20878",
+        "configuration": {
+          "finish": "Natural Teak",
+          "fabric": "Perennials Performance Textured Linen Weave",
+          "color": "Natural",
+          "sku": "10272897 BXNT"
+        },
+        "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+        "configuredPrice": {
+          "memberSale": 2205,
+          "regular": 3675
+        },
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod14020057",
+        "evidence": "Exact configuration in live IN-STOCK modal. Dimensions:27.75 W ×79.5 D ×12.5 H inches fully reclined with cushion;31 H at highest back setting.",
+        "note": "Matching two-unit quantity still needs confirmation. Balmain is a different, slimmer collection; approve the teak sample alongside any retained Mesa pieces."
+      }
+    },
+    {
+      "roomIds": [
+        "terrace"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod22320032"
+      ],
+      "name": "Balmain Teak Lounge Chair — stocked Natural upholstery",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod14020067",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_LOUNGE_CHAIR_pg&layer=3&src=ir(rhir/prod14020067_E410381676_TQ_OD18_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerennialsTexturedLinenWeave_Natural_204_repeat&res=220&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c9966a&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.45&sizeN=0.69,0.75&&$PDP-IR-768$",
+      "proposedFinish": "Natural Teak /Natural Perennials Performance Textured Linen Weave",
+      "quantity": 2,
+      "planningSize": "31.5-inch square ×29 H with cushion. Seat height15.5 inches;37lb.",
+      "reason": "A neutral teak lounge chair in a compact square footprint, with a more upright, tailored form than Mesa. It coordinates with the stocked Balmain chaises while keeping outdoor furniture warm and understated.",
+      "availability": {
+        "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod14020067",
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZip": "20878",
+        "configuration": {
+          "finish": "Natural Teak",
+          "fabric": "Perennials Performance Textured Linen Weave",
+          "color": "Natural",
+          "sku": "10272888 BXNT"
+        },
+        "deliveryMessage": "Ready for delivery between 10/23/26 and 10/29/26 for 20878.",
+        "configuredPrice": {
+          "memberSale": 2085,
+          "regular": 3475
+        },
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod14020067",
+        "evidence": "Exact frame, fabric and color in live IN-STOCK modal; Dimensions31.5-inch square ×29 H with cushion;37lb.",
+        "note": "Pair quantity not checked. Teak hue can vary between Balmain and Mesa; compare physical samples before mixing collections."
+      }
+    },
+    {
+      "roomIds": [
+        "terrace"
+      ],
+      "replacesUrls": [
+        "https://rh.com/us/en/catalog/product/product.jsp/prod22320024"
+      ],
+      "name": "Balmain Teak Dining Side Chair — stocked Dove, six checked",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod30120035",
+      "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=ir(rhir/prod30120035_E23120622656_TQ_CO23_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerennialsTexturedLinenWeave_Dove_repeat&res=236&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c9966a&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.45&sizeN=0.7,0.8&&$PDP-IR-768$",
+      "proposedFinish": "Natural Teak /Dove Perennials Performance Textured Linen Weave",
+      "quantity": 6,
+      "planningSize": "20 W ×23 D ×32 H inches with cushion; seat height19.5 inches. Two side chairs occupy40 inches of the table's47.25-inch side opening before spacing.",
+      "reason": "Slimmer armless chairs give the six-seat Mesa table more breathing room than six Mesa armchairs. The subtle neutral Dove cushion stays within Mineral & Walnut's quiet palette. Compare both teak samples and tape out chairs and pullback.",
+      "availability": {
+        "originalUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod30120035",
+        "status": "in_stock",
+        "checkedAt": "2026-10-09",
+        "destinationZip": "20878",
+        "configuration": {
+          "finish": "Natural Teak",
+          "fabric": "Perennials Performance Textured Linen Weave",
+          "color": "Dove",
+          "sku": "10271971 BXDV",
+          "quantityChecked": 6
+        },
+        "deliveryMessage": "Ready for delivery between 10/20/26 and 10/27/26 for 20878 at preview quantity6.",
+        "configuredPrice": {
+          "memberSale": 839,
+          "regular": 1405
+        },
+        "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod30120035",
+        "evidence": "Exact configuration in live IN-STOCK modal; quantity set to6 without cart submission, delivery quote returned unchanged. Current Dimensions20 W ×23 D ×32 H with cushion.",
+        "note": "Six units were accepted by the stock configurator with the stated delivery window. This is a snapshot, not a reservation. Teak hue and Dove fabric require samples; verify seat height beside Mesa's table."
+      }
+    }
+  ]
+}
