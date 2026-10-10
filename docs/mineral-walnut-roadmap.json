@@ -1,0 +1,401 @@
+{
+  "version": "MW-P01",
+  "date": "2026-10-08",
+  "title": "Move in first. Finish thoughtfully.",
+  "style": "Option 1 · Mineral & Walnut",
+  "status": "Proposed owner plan; GC must validate measured scope, prices, permits, crew availability and supplier dates",
+  "confirmed": {
+    "possession": "2026-11-03",
+    "moveIn": "2027-04-01",
+    "substantialCompletionTarget": "2027-03-12",
+    "cashNow": 500000,
+    "vacant": true,
+    "cashDedicatedAfterClosingAndPersonalReserve": true,
+    "essentialRoomsFirst": true,
+    "annualAdditionalFunds": 200000,
+    "expectedEnd2027Funds": 4000000
+  },
+  "strategy": "Coordinate the whole-house design and concealed infrastructure once. Finish the occupied floors and essential rooms before moving in. Finish discretionary rooms in separate, contained packages afterward.",
+  "budget": {
+    "commitmentCeiling": 400000,
+    "constructionReserve": 75000,
+    "uncommittedCash": 25000,
+    "basis": "These are proposed allocation ceilings for the first stage, not contractor estimates. They do not replace the existing $513,397–$843,553 full-design planning range. Selective work must be quoted to fit these limits; the high end of the existing allowances will not fit simply because furniture is deferred.",
+    "allocations": [
+      {
+        "id": "planning",
+        "title": "Survey, coordinated drawings, samples and permits",
+        "amount": 10000,
+        "note": "No interior-designer or design-build fee. Include any required licensed technical documentation. Physical samples and measured cabinet/electrical drawings come before release."
+      },
+      {
+        "id": "gc",
+        "title": "GC construction contract",
+        "amount": 300000,
+        "note": "Fully loaded cap: labor, fixed construction materials, applicable embedded taxes/delivery, GC overhead/profit, protection and final construction clean. Includes approved demolition, rough-in, closure, selected wet rooms, oak flooring, stairs, paint and essential fixed joinery. No additional 20% markup is added to this cap."
+      },
+      {
+        "id": "appliances",
+        "title": "Kitchen and laundry appliances",
+        "amount": 20000,
+        "note": "Owner-purchased, delivered and tax included. Refrigeration, cooking, dishwasher, washer/dryer; defer bar refrigerators. Hookups belong to the GC contract, not this row."
+      },
+      {
+        "id": "lighting",
+        "title": "Essential light fixtures and controls purchased by owner",
+        "amount": 12000,
+        "note": "Delivered/taxed fixtures including the high-access entry fitting if selected in time. Installation, wiring and agreed controls/LED drivers belong to the GC scope; identify the purchasing split so nothing is counted twice."
+      },
+      {
+        "id": "windows",
+        "title": "Priority window-treatment goods and hardware",
+        "amount": 15000,
+        "note": "Delivered/taxed privacy, blackout, tracks and sheers for occupied rooms. Installation is inside the GC cap. Use safe temporary privacy coverings if decorative fabrics are late; defer unoccupied penthouse and cinema finishing."
+      },
+      {
+        "id": "essentials",
+        "title": "Minimum move-in furniture",
+        "amount": 25000,
+        "note": "All-new Option 1 items: primary bed/mattress, one guest bed, basic bedside/storage, a small dining setup, one sofa and a work desk/chair. Tax, assembly and delivery included. Final selections must fit this cap; most rugs, art and secondary-room furniture wait."
+      },
+      {
+        "id": "logistics",
+        "title": "Move, storage and timing allowance",
+        "amount": 18000,
+        "note": "Moving/storage and short timing-related accommodation if needed. Excludes normal household living costs; does not duplicate goods delivery or the GC final clean."
+      }
+    ],
+    "cashPacing": [
+      {
+        "month": "November 2026",
+        "amount": 70000,
+        "description": "Survey/permits, legitimate deposits, material orders, mobilization and early approved work."
+      },
+      {
+        "month": "December 2026",
+        "amount": 90000,
+        "description": "Verified rough-in progress, enclosure/wet-room progress and agreed material milestones."
+      },
+      {
+        "month": "January 2027",
+        "amount": 100000,
+        "description": "Cabinets, surfaces, wet-room completion and paint progress."
+      },
+      {
+        "month": "February 2027",
+        "amount": 90000,
+        "description": "Flooring, trim, fixture deliveries and installation."
+      },
+      {
+        "month": "March 2027",
+        "amount": 50000,
+        "description": "Commissioning, approved completion milestones, essentials and moving."
+      }
+    ],
+    "cashRule": "Monthly figures are a cash-planning envelope, not automatic payments. All contracts, taxes, freight, owner purchases and approved changes count against commitments even if not yet paid. Release progress payments against the signed contract and verified work/material milestones. Reserve is not a contractor allowance to spend by default.",
+    "cutOrder": [
+      "Remove optional office/media joinery, guest-room wall detail, decorative mineral-finish quantities and premium fixture upgrades first.",
+      "Retain a serviceable shared bathroom for now if that keeps the two-bath move-in strategy within budget; do not demolish it first and decide later.",
+      "Defer nonessential penthouse finish replacement and roof-terrace decoration. Do not open deferred areas just to keep crews busy.",
+      "If the kitchen replacement cannot fit the price or delivery limit, retain and service the current kitchen if safe and usable, then complete it as a separately planned later package.",
+      "If the existing essentials are unusable, remove discretionary work or revise the move-in plan before signing. Do not fund known overruns from assumed future receipts."
+    ]
+  },
+  "timeline": [
+    {
+      "id": "prepare",
+      "start": "2026-10-08",
+      "end": "2026-11-02",
+      "label": "Prepare before closing",
+      "lead": "Owner + shortlisted GC",
+      "work": "Freeze the Option 1 palette and furniture footprints; obtain comparable scope-based bids, select the GC, ask suppliers for actual delivery dates and prepare permit documents. Seller-approved access only; no assumed right to measure, alter or start work before possession.",
+      "gate": "By closing: agreed essentials scope, procurement list and provisional trade schedule. Early orders require verified measurements and an understood cancellation risk."
+    },
+    {
+      "id": "survey",
+      "start": "2026-11-03",
+      "end": "2026-11-13",
+      "label": "Survey, approvals and final scope",
+      "lead": "GC + trades + owner",
+      "work": "Inspect roof/water issues, HVAC, panel capacity and existing wet rooms. Measure every opening, floor area and furniture zone. Confirm actual jurisdiction, permits, HOA logistics and occupied-phase strategy; release approved products.",
+      "gate": "No demolition in a room until its scope, permit needs, price and recovery path are clear. If required approvals or deliveries miss the planned start, defer that package."
+    },
+    {
+      "id": "demo",
+      "start": "2026-11-16",
+      "end": "2026-12-04",
+      "label": "Protect, selectively demolish and frame",
+      "lead": "GC",
+      "work": "Protect retained rooms and stairs. Remove only approved finishes; correct substrates and frame approved changes. Add backing for TV mounts, future shelves, curtain tracks and floating bedside units before closing walls.",
+      "gate": "Keep the deferred kitchen or bathrooms intact until replacement readiness is confirmed. Preserve existing stair geometry; Bedroom 5 construction is excluded from the base move-in scope."
+    },
+    {
+      "id": "rough",
+      "start": "2026-11-23",
+      "end": "2026-12-18",
+      "label": "Wiring, plumbing, HVAC and inspections",
+      "lead": "Licensed trades coordinated by GC",
+      "work": "Coordinate power, lighting/dimming, network, TV/speaker routes and service changes in open zones. Stage accessible routes to future rooms rather than stripping finished rooms solely for unused wiring. Test, label and photograph before concealment.",
+      "gate": "Required rough/framing inspections and trade tests pass before insulation or drywall conceals work. Holiday weeks have reduced working capacity."
+    },
+    {
+      "id": "closure",
+      "start": "2026-12-07",
+      "end": "2027-01-15",
+      "label": "Close walls and finish wet substrates",
+      "lead": "GC + drywall/tile trades",
+      "work": "Only released zones proceed: insulation/firestopping as required, drywall/taping/sanding, bathroom waterproofing and required tests, then tile and substrate preparation. Keep indoor climate controlled.",
+      "gate": "No wood-floor installation over wet or unready substrates. Do not overlap dirty work with unprotected finished rooms."
+    },
+    {
+      "id": "fixed",
+      "start": "2027-01-04",
+      "end": "2027-02-05",
+      "label": "Cabinets, counters and main paint",
+      "lead": "Cabinet, stone and painting trades",
+      "work": "Install essential cabinet bases and wall-mounted work in the sequence required by the selected flooring system; template counters after stable cabinet installation. Prime and complete most wall/ceiling paint and mineral-finish work before oak floors.",
+      "gate": "Kitchen/vanity cabinet delivery target January 11. Countertops are templated from installed cabinets, never ordered to final size from a render."
+    },
+    {
+      "id": "floors",
+      "start": "2027-02-01",
+      "end": "2027-02-26",
+      "label": "Oak flooring, stairs and finish carpentry",
+      "lead": "Flooring installer + GC",
+      "work": "Install flooring by released zone after moisture testing and product-required conditioning. Sequence upper occupied rooms before lower exit paths where practical. Complete stair finish, trim and small paint touchups; protect completed floors.",
+      "gate": "Follow the selected installation method. Do not pin floating floors beneath fixed cabinetry. Keep service access and future phase boundaries workable."
+    },
+    {
+      "id": "finish",
+      "start": "2027-02-22",
+      "end": "2027-03-12",
+      "label": "Fixtures, privacy and commissioning",
+      "lead": "GC + window installer + owner",
+      "work": "Finish appliances, outlets, controls, lights, bathroom fittings, functional privacy/blackout and essential storage. Install soft goods after dusty work. Set up the minimum move-in furniture and test every system.",
+      "gate": "Target substantial completion March 12, including a usable kitchen, primary suite, guest room, laundry, safe circulation and at least two functioning bathrooms wherever the existing layout permits."
+    },
+    {
+      "id": "buffer",
+      "start": "2027-03-15",
+      "end": "2027-03-31",
+      "label": "Punch list and move-in buffer",
+      "lead": "GC + owner",
+      "work": "Complete required final approvals, corrections, clean and handover. Verify night privacy, dimming, hot water, appliances, alarms, HVAC and all entry/exit routes. Schedule the move after readiness is confirmed.",
+      "gate": "April 1 move-in. The buffer is for recovery and testing, not new design additions."
+    }
+  ],
+  "sequence": [
+    [
+      "Design + measure",
+      "Set room uses, furniture dimensions, cabinetry, lighting and curtain stack positions before rough-in. Buying furniture later does not mean designing it later."
+    ],
+    [
+      "Approvals + selective demolition",
+      "Obtain the applicable permits; remove only the scope that can be completed. Solve leaks and substrate problems before decorative work."
+    ],
+    [
+      "Framing + backing",
+      "Frame approved wall changes first. Prepare mounting/blocking and track supports while open; preserve the photographed architecture."
+    ],
+    [
+      "Rough services + inspections",
+      "Electrical/low voltage, plumbing, HVAC and any required fire-system coordination. Inspect, test, label and photograph before concealment."
+    ],
+    [
+      "Close walls + wet work",
+      "Insulation and drywall after inspection; waterproofing/tile and substrate preparation with the required tests and drying time."
+    ],
+    [
+      "Essential cabinets + main paint",
+      "Fixed cabinet placement and most coatings before wood where the selected system requires it. Template counters after cabinets. Specific product instructions govern exceptions."
+    ],
+    [
+      "Wood + stairs + trim",
+      "Dry conditioned site, documented substrate tests, installation, trim and touchups. Protect new surfaces."
+    ],
+    [
+      "Finish services + coverings",
+      "Lights, controls, appliances, final connections and inspections. Then clean and fit functional window layers. Protect the finished exposed-wood stairs through move-in."
+    ],
+    [
+      "Furniture + styling",
+      "Move-in essentials first; final sofas, rugs, art, lamps and accessories can follow from the frozen palette and dimension schedule."
+    ]
+  ],
+  "floors": [
+    {
+      "name": "Whole house",
+      "now": "Coordinated measurements, samples, lighting/control and furniture plans; necessary shared infrastructure, leaks/repairs and the occupied circulation route.",
+      "later": "Work in genuinely deferred rooms remains closed and safe. Document future connections and installed cable routes.",
+      "avoid": "Do not open every wall or fully rewire sound existing circuits without a defined reason."
+    },
+    {
+      "name": "Floor 3 · sleep first",
+      "now": "Owners bedroom/retreat light control, owners bathroom, laundry and one guest bedroom. Finish connected dry floors/paint together, including Bedroom 3 if it shares the same finish run. Finish or retain the shared bath as a second usable bathroom.",
+      "later": "Guest-room furniture, nonessential retreat bar upgrade, decorative art and secondary accessories.",
+      "avoid": "Do not rely on a finished primary bedroom with an unfinished adjoining retreat that leaks light into the sleep zone."
+    },
+    {
+      "name": "Floor 2 · everyday living",
+      "now": "A functioning kitchen, essential appliances, one eating area and one comfortable sitting area. Continuous floors/paint and lighting rough-in. Functional nighttime privacy. Preserve the current powder room if serviceable.",
+      "later": "Formal dining suite, piano salon furnishings, piano, second consoles, collected artwork and pantry/menu-center refinements.",
+      "avoid": "Do not remove the only kitchen before the replacement package has a confirmed delivery and installation path."
+    },
+    {
+      "name": "Floor 1 · arrival and work",
+      "now": "Entry, safe stairs, matched floor/paint in released dry areas and a simple working office. Prewire media positions and shelf lighting while access is convenient. Retain a usable existing bathroom.",
+      "later": "Full walnut office joinery, media cabinetry/figurine display, cinema equipment and seating, gym mirror/rubber floor and decoration.",
+      "avoid": "The shared entrance cannot become an uncontrolled construction route after you move in. Later work needs protection, defined hours and containment."
+    },
+    {
+      "name": "Floor 4 · separate project",
+      "now": "Verify it is secure, weather-tight and safe; keep necessary circulation/services working. Decide Bedroom 5 geometry and service routes on paper.",
+      "later": "New Bedroom 5, its finishing/furniture, bathroom upgrade if needed, wet bar and terrace setup. Keep this as one later messy package before its final floors/paint.",
+      "avoid": "Do not install new finish flooring beneath future partitions only to cut it out later. Any early Bedroom 5 shell is a separately priced alternate, not a condition of move-in."
+    }
+  ],
+  "designLocks": [
+    {
+      "title": "One physical finish board",
+      "detail": "Natural matte oak, warm ivory/mushroom, coordinated walnut, quiet black accents, ivory/oatmeal textiles and plants. Test large paint/mineral samples next to actual wood and fabric by day and under selected lamps. Renders are not color specifications."
+    },
+    {
+      "title": "Floor product and junctions",
+      "detail": "Lock brand/SKU, width, sheen, grade, installation method, transition details and stair relationship. Confirm any acoustic/HOA requirements. Survey quantities; reserve matching stock for repairs and the deferred penthouse only after its plan/quantity is fixed and suitable storage is available."
+    },
+    {
+      "title": "Furniture footprints before outlets",
+      "detail": "Record bed/mattress and headboard width, floating bedside positions, TV heights, 83-inch media TV, sofa envelope, office desk orientation, dining-table/pendant center and piano access. Exact upholstery can wait; anything that fixes electrical or cabinet geometry cannot."
+    },
+    {
+      "title": "Light quality and controls",
+      "detail": "Test actual fixtures and dimmers; define arrival, task, conversation, movie, reading and cleaning scenes. Coordinate driver access, recesses and high-access chandelier support before closure. Do not buy all decorative fittings without checking actual lead times and mounting needs."
+    },
+    {
+      "title": "Window layers and future curtains",
+      "detail": "Decide track type, number of layers, return/stack space and any future motor-power position before drywall. Final fabric lengths are measured from finished tracks and floors. Full decorative drapes may wait; sleeping darkness and nighttime privacy cannot."
+    },
+    {
+      "title": "Joinery and future matching",
+      "detail": "Keep a labeled approved walnut control sample, finish recipe, cabinet shop drawings, hardware schedule and photos. Later cabinets can vary in form while matching the same finish family; do not rely on a stain name or a screen image."
+    },
+    {
+      "title": "What can remain flexible",
+      "detail": "Artwork, plants, cushions, occasional tables, lamps and most rugs. Ordinary wall paint is relatively easy to change; flooring, concealed services, stone, cabinet geometry and built-in finish details deserve the earliest decisions."
+    }
+  ],
+  "windows": [
+    [
+      "Owners bedroom + retreat; occupied guest bedroom",
+      "Functional blackout plus daytime light filtering before move-in. Treat the open retreat with the bedroom; all sleep-zone windows count."
+    ],
+    [
+      "Great room, eating area and working office",
+      "Nighttime privacy before occupancy; sheers alone do not provide it. Use the planned sheers plus independent privacy layer, or a temporary functional shade while fabric is made."
+    ],
+    [
+      "Bathrooms + laundry",
+      "Appropriate moisture-resistant privacy where actual exterior windows exist. No fabric in shower spray. No invented coverings for windowless baths."
+    ],
+    [
+      "Media room + unused bedrooms/penthouse",
+      "Prepare backing, routes and the final design now; install final blackout/sheers when those rooms enter service."
+    ],
+    [
+      "Stairs",
+      "Keep high windows bare unless a sightline review says otherwise. Keep exposed oak treads and warm white risers; protect completed stair finishes during heavy trades and moving."
+    ]
+  ],
+  "gates": [
+    {
+      "date": "November 13, 2026",
+      "title": "Scope and purchasing freeze",
+      "detail": "GC presents a priced base within the $300K construction cap and an integrated supplier/permit/crew schedule. Owner commits no more than $400K in total. If bids fail the cap, reduce scope before demolition."
+    },
+    {
+      "date": "December 18, 2026",
+      "title": "Rough-in progress review",
+      "detail": "Walk photographed service routes and inspection status. Any zone behind schedule is reassessed; do not trade required approvals or drying time for speed."
+    },
+    {
+      "date": "January 11, 2027",
+      "title": "Cabinets must have a credible arrival path",
+      "detail": "Required arrival target for kitchen and essential vanities. If delivery cannot support completion, switch to a verified available selection before demolition, retain the existing usable room, or formally revise the move-in plan."
+    },
+    {
+      "date": "February 12, 2027",
+      "title": "No-new-scope checkpoint",
+      "detail": "Drop discretionary additions. Protect the floor/fixture/inspection path. Anything threatening April 1 becomes a later package unless necessary for safe occupation."
+    },
+    {
+      "date": "March 12, 2027",
+      "title": "Substantial completion target",
+      "detail": "Functional rooms, safe circulation, finished occupied surfaces, essentials and readiness for final sign-offs. Resolve the punch list during March 15–31."
+    },
+    {
+      "date": "March 26, 2027",
+      "title": "Move / hold decision",
+      "detail": "Owner and GC verify actual readiness, required approvals and safe separation of unfinished areas. If any essential fails, use the timing allowance and a documented recovery plan; a calendar date is not permission to occupy incomplete work."
+    }
+  ],
+  "later": [
+    {
+      "id": "settle",
+      "label": "April–June 2027",
+      "title": "Live in the house first",
+      "budget": "Spend only remaining released cash or new funds actually received.",
+      "detail": "Tune lighting, verify shade performance and test furniture layouts. Buy the next seating/rug pieces only after measuring the finished rooms. Avoid another broad demolition campaign immediately after moving in."
+    },
+    {
+      "id": "finish",
+      "label": "July–December 2027",
+      "title": "Complete one contained package at a time",
+      "budget": "Proposed later-stage cap: $100,000 from the anticipated $200,000 annual additions, only as those funds arrive and bids fit.",
+      "detail": "Prioritize final living-room furniture, office cabinetry, then the media room. Have cabinetry fabricated off-site and schedule protected installations. Keep at least $100,000 of that annual addition uncommitted initially if the full $200,000 arrives; do not also count it as part of the $4M unless these are genuinely separate receipts."
+    },
+    {
+      "id": "penthouse",
+      "label": "2028 · after funds clear",
+      "title": "Complete the penthouse and remaining scope",
+      "budget": "Set a new cap from priced remaining work. The expected $4M receipt is not the renovation budget and is not used to fund current commitments.",
+      "detail": "Survey and permit Bedroom 5 and any missing Bath 4 work, then frame/services/close/finish the penthouse as one contained package. Finish optional terrace furniture, piano, remaining baths and ancillary rooms in the order you actually use them. Price protection, repeat mobilization, storage and escalation; these were not all included in the original full-design estimate."
+    }
+  ],
+  "moveInChecklist": [
+    "GC confirms all approvals required for the completed/occupied scope and any approved separation of deferred areas.",
+    "Working kitchen with sink, refrigeration, cooking and verified appliance connections.",
+    "Owners suite and one guest bedroom ready, with mattresses and effective privacy/blackout.",
+    "At least two working bathrooms targeted; one may be an existing retained room. Hot water, ventilation, waterproofing and fittings tested.",
+    "Working laundry, HVAC, essential lighting, secure doors, alarms and safe stair/exit routes.",
+    "Occupied areas clean and free of active sanding, open wiring, unprotected openings and trade debris; deferred work securely separated.",
+    "Punch list, manuals, warranties, as-built service photos, paint/stain references, remaining materials and payment ledger handed over."
+  ],
+  "gcBrief": "Quote Option 1 as three separate scopes: A—essential April 1 occupancy; B—optional work that may proceed only if price, approvals and timing fit; C—post-move phases. Provide a trade sequence, long-lead register, required inspection list, owner-purchase deadlines, protected access plan and payment milestones. Complete disruptive work in occupied areas before handover. Do not demolish a deferred room or cover uninspected work. A change must state both its dollar impact and effect on the move-in date before approval.",
+  "sources": [
+    {
+      "title": "Gaithersburg residential permits",
+      "url": "https://www.gaithersburgmd.gov/services/permitting-inspections/residential-permits",
+      "note": "The City lists improvement permits for kitchen/bath remodeling and changing a room to a bedroom, and electrical permits for electrical work. GC must confirm property jurisdiction and the exact applicable permit/inspection package. No permit turnaround time is assumed."
+    },
+    {
+      "title": "Gaithersburg trade licensing",
+      "url": "https://www.gaithersburgmd.gov/services/licensing",
+      "note": "Confirm applicable MHIC and trade licensing, including any sprinkler-system work. A homeowner-led design does not remove these requirements."
+    },
+    {
+      "title": "Maryland MHIC home-improvement contracts",
+      "url": "https://labor.maryland.gov/license/mhic/mhiccontracts.shtml",
+      "note": "Written contracts identify scope, materials, price and approximate start/substantial-completion dates. No payment before signing; initial contractor deposit cannot exceed one-third. Later milestones are negotiated. The monthly cash envelope here is not a payment instruction."
+    },
+    {
+      "title": "Kährs floor installation guidance",
+      "url": "https://www.kahrs.com/us/b2b/faq/faq-floor",
+      "note": "Illustrates why moisture/conditioning, fixed cabinetry and floor installation method affect sequencing. Follow the exact chosen product's instructions; Kährs is a technical example, not a product selection."
+    },
+    {
+      "title": "Existing Option 1 cost plan",
+      "url": "mineral-walnut-budget.html",
+      "note": "Full-scope conceptual estimate, not a measured quote. This roadmap stages and limits commitments; it does not silently reduce that full-design estimate."
+    }
+  ]
+}

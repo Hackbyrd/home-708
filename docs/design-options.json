@@ -29,10 +29,10 @@
       "label": "Option 1",
       "name": "Mineral & Walnut",
       "subtitle": "Warm modern living, with a boutique-hotel feel",
-      "status": "Original Mineral & Walnut · Day + night",
+      "status": "Mineral & Walnut · Warm stone + original neutral palette",
       "href": "house-design-review.html#floor-1/entry",
-      "hero": "design-review-assets/floor-2-r02-great-GR1.webp",
-      "summary": "Soft mineral texture, natural oak floors and rich walnut, balanced with ivory textiles, quiet black accents and living greenery. A cohesive house with individual room personalities and practical, phased build-outs.",
+      "hero": "design-review-assets/floor-2-r02-great-mw-neutral-r01-GR1.webp",
+      "summary": "Warm mineral walls, natural oak and rich walnut with selected pearl onyx-, quartzite- and limestone-look porcelain. Ivory, oatmeal and charcoal textiles preserve the original bedroom identities; exposed oak stairs connect the floors.",
       "tags": [
         "24 spaces · 45 views",
         "Materials & build book",
@@ -51,7 +51,8 @@
         "mediaDirectory": "design-review-assets"
       },
       "nightFile": "docs/mineral-walnut-night-review.json",
-      "budget": "mineral-walnut-budget.html"
+      "budget": "mineral-walnut-budget.html",
+      "refinementFile": "docs/mineral-walnut-neutral-review.json"
     },
     {
       "id": "cocoa-chrome",

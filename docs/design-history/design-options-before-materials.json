@@ -1,0 +1,119 @@
+{
+  "updated": "2026-10-07",
+  "options": [
+    {
+      "id": "model-home",
+      "label": "Original reference",
+      "name": "Model Home",
+      "subtitle": "The original Georgetown model home",
+      "status": "Original photography",
+      "href": "model-home.html",
+      "hero": "design-library-assets/second-floor-great-room.jpg.webp",
+      "summary": "The builder’s furnished home, preserved as our starting point. Classic trim, warm wood, patterned wallcoverings and statement lighting give each room its original character.",
+      "tags": [
+        "Original photographs",
+        "All four floors",
+        "Exterior reference"
+      ],
+      "palette": [
+        "#ede5d9",
+        "#987653",
+        "#514235",
+        "#b6ac9b"
+      ],
+      "heroRoom": "Great room"
+    },
+    {
+      "id": "mineral-walnut",
+      "number": 1,
+      "label": "Option 1",
+      "name": "Mineral & Walnut",
+      "subtitle": "Warm modern living, with a boutique-hotel feel",
+      "status": "Mineral & Walnut · Architecture audit + day/night",
+      "href": "house-design-review.html#floor-1/entry",
+      "hero": "design-review-assets/floor-2-r02-great-mw-architecture-r01-GR1.webp",
+      "summary": "Soft mineral texture, natural oak floors and rich walnut, balanced with ivory textiles, quiet black accents and living greenery. A cohesive house with individual room personalities and practical, phased build-outs.",
+      "tags": [
+        "24 spaces · 45 views",
+        "Materials & build book",
+        "Room-by-room revisions"
+      ],
+      "palette": [
+        "#d9cfc0",
+        "#b79b74",
+        "#66503e",
+        "#32332f",
+        "#506044"
+      ],
+      "heroRoom": "Great room",
+      "guide": "interior-design-guide.html",
+      "review": {
+        "mediaDirectory": "design-review-assets"
+      },
+      "nightFile": "docs/mineral-walnut-night-review.json",
+      "budget": "mineral-walnut-budget.html",
+      "refinementFile": "docs/mineral-walnut-architecture-review.json"
+    },
+    {
+      "id": "cocoa-chrome",
+      "number": 2,
+      "label": "Option 2",
+      "name": "Cocoa & Chrome",
+      "subtitle": "Brown oak, polished stainless, white upholstery, blue & butter yellow",
+      "status": "Whole-house design · In review",
+      "href": "cocoa-chrome.html#floor-1/entry",
+      "hero": "cocoa-chrome-assets/floor-2-cc-r03-great-GR1.webp",
+      "heroRoom": "Great room",
+      "summary": "Brown oak and polished stainless connect varied cabinet and console designs, all on solid bases without legs. White Cloud seating, warm stone walls, natural oak floors and off-white drapes frame blue artwork, small butter-yellow accents and plants.",
+      "tags": [
+        "24 spaces · 45 views",
+        "Owned furniture · build book",
+        "Brown oak · stainless · blue"
+      ],
+      "palette": [
+        "#c7beb2",
+        "#f2efe7",
+        "#4a403b",
+        "#c4c7c9",
+        "#244b77",
+        "#e5cd78"
+      ],
+      "buildBook": "cocoa-chrome-build-book.html",
+      "bookFile": "docs/cocoa-chrome-build-book.json",
+      "review": {
+        "mediaDirectory": "cocoa-chrome-assets",
+        "bedroomComparison": "cocoa-chrome-assets/bedroom-comparison.webp",
+        "floors": [
+          [
+            "one",
+            "cc-r03",
+            "Arrival & leisure",
+            "A luminous entry, tailored office, quiet cinema and uncluttered gym.",
+            "assets/render-candidates/option-two-cocoa-chrome/r06/floor-1-manifest.json"
+          ],
+          [
+            "two",
+            "cc-r03",
+            "Gather & entertain",
+            "White seating, smoky brown oak, polished stainless and blue accents connect the entertaining rooms.",
+            "assets/render-candidates/option-two-cocoa-chrome/r06/floor-2-manifest.json"
+          ],
+          [
+            "three",
+            "cc-r03",
+            "Rest & recharge",
+            "Related bedroom personalities with warm wood, grounded storage and oak floors.",
+            "assets/render-candidates/option-two-cocoa-chrome/r06/floor-3-manifest.json"
+          ],
+          [
+            "four",
+            "cc-r03",
+            "Penthouse & terrace",
+            "A relaxed upper lounge, deeper guest suite and coordinated outdoor rooms.",
+            "assets/render-candidates/option-two-cocoa-chrome/r06/floor-4-manifest.json"
+          ]
+        ]
+      }
+    }
+  ]
+}

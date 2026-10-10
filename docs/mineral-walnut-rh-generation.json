@@ -1,0 +1,536 @@
+{
+  "date": "2026-10-09",
+  "requests": [
+    {
+      "index": 60101,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create ONE photorealistic RH furniture consultation image edit of this EXACT Mineral & Walnut townhouse room, landscape 3:2. Reference 1 controls the current camera, room geometry and approved finishes. Reference 2 (when present) is the actual original model-home architecture, NOT its old furniture or wall colors. Remaining references are RH product photographs: use their furniture silhouettes/materials only, at a modest planning scale. Keep ALL original windows, mullions, doors, ceiling, crown, wall offsets and room proportions. Do not invent windows, coves, arches or hotel-scale rooms. Exterior remains Crown neighborhood townhouses, not countryside or skyline. Keep warm mushroom/ivory mineral walls, matte natural oak floor, walnut, ivory/oatmeal/charcoal upholstery, black details and restrained green plants. NO silver/chrome, blue or yellow theme, no new bedroom accent colors, no stair runners. Retain current functional window treatments, stone materials and lighting. No people, pets, logos, labels or watermarks. Physically realistic daylight, soft woven upholstery and wood grain; preserve floorplan and uncluttered circulation. This is a proposed visual furniture study, not manufacturer CAD.\nROOM AND FURNITURE: Home office 15 ft5 by12 ft11. Preserve two-unit front window and three-unit right window. Full north/interior-wall walnut built-in with central TV and slim soundbar stays exactly; NO console under the south/right windows. Replace the current desk with RH Gael Walnut Desk reference3, caramel walnut sculptural shaped top and tapered legs, oriented as current desk with the ergonomic working chair at the southeast/window side facing northwest toward the built-in. Planning footprint about80x36in is illustrative, not an offered SKU claim. Two modest RH Enzo upholstered dining visitor chairs reference4 in sand woven fabric/caramel walnut go on the opposite built-in side of desk. Retain the current ergonomic office chair as non-RH supporting item, neutral warm grey/charcoal. Keep the wall art and compact printer cabinet beside clear entry doors where visible; do not move openings. Preserve rug and roman shades with sheers. Task-chair orientation must not rotate toward the room's windows.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "d368c093-a370-4ed0-b817-dee447a27deb"
+          },
+          {
+            "role": "image",
+            "value": "b9125cf3-d58c-4b9e-bebf-05a260c40205"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod29740668_E23120407222_F_RHR?"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod28310758_E2321507844_TQ_RHR?"
+          }
+        ]
+      },
+      "roomId": "office"
+    },
+    {
+      "index": 60102,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create ONE photorealistic RH furniture consultation image edit of this EXACT Mineral & Walnut townhouse room, landscape 3:2. Reference 1 controls the current camera, room geometry and approved finishes. Reference 2 (when present) is the actual original model-home architecture, NOT its old furniture or wall colors. Remaining references are RH product photographs: use their furniture silhouettes/materials only, at a modest planning scale. Keep ALL original windows, mullions, doors, ceiling, crown, wall offsets and room proportions. Do not invent windows, coves, arches or hotel-scale rooms. Exterior remains Crown neighborhood townhouses, not countryside or skyline. Keep warm mushroom/ivory mineral walls, matte natural oak floor, walnut, ivory/oatmeal/charcoal upholstery, black details and restrained green plants. NO silver/chrome, blue or yellow theme, no new bedroom accent colors, no stair runners. Retain current functional window treatments, stone materials and lighting. No people, pets, logos, labels or watermarks. Physically realistic daylight, soft woven upholstery and wood grain; preserve floorplan and uncluttered circulation. This is a proposed visual furniture study, not manufacturer CAD.\nROOM AND FURNITURE: Media room15 ft1 by11 ft1. Keep wide two-sash window, shallow original tray ceiling, west clear glass paired doors near TV-wall corner and display shelves to their right from inside. 83inchTV on the RIGHT/south wall remains focus, with smooth subdued warm charcoal panel, modest dimmable halo, long floating walnut/charcoal console, soundbar and current ceiling/rear audio grilles. Replace current sofa with RH Cloud Modular Classic THREE-module straight sofa from reference3 in warm ivory linen-like fabric. It occupies the same left wall, maximum illustrative119inch width against approximately133inch wall; NOT a 158inch U-sectional or huge double-chaise. Add one movable separate Cloud ottoman reference4 before the rightmost sofa seat, leaving a clear main route; do not claim it is an attached compatible module. Deep plush movie feeling but realistic narrow room. Charcoal cushions/throw, neutral rug. TV wall remains quiet, NO full slats or marble feature.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "7f13cd4d-378a-4a37-bdca-366ac6e329b6"
+          },
+          {
+            "role": "image",
+            "value": "4ea563a1-197a-41c5-87cd-8a4b7cef9ea7"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod6511684_E1684919_F_RHR?"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod14890576_E21093225_F_RHR?"
+          }
+        ]
+      },
+      "roomId": "media"
+    },
+    {
+      "index": 60103,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create ONE photorealistic RH furniture consultation image edit of this EXACT Mineral & Walnut townhouse room, landscape 3:2. Reference 1 controls the current camera, room geometry and approved finishes. Reference 2 (when present) is the actual original model-home architecture, NOT its old furniture or wall colors. Remaining references are RH product photographs: use their furniture silhouettes/materials only, at a modest planning scale. Keep ALL original windows, mullions, doors, ceiling, crown, wall offsets and room proportions. Do not invent windows, coves, arches or hotel-scale rooms. Exterior remains Crown neighborhood townhouses, not countryside or skyline. Keep warm mushroom/ivory mineral walls, matte natural oak floor, walnut, ivory/oatmeal/charcoal upholstery, black details and restrained green plants. NO silver/chrome, blue or yellow theme, no new bedroom accent colors, no stair runners. Retain current functional window treatments, stone materials and lighting. No people, pets, logos, labels or watermarks. Physically realistic daylight, soft woven upholstery and wood grain; preserve floorplan and uncluttered circulation. This is a proposed visual furniture study, not manufacturer CAD.\nROOM AND FURNITURE: Kitchen furniture edit ONLY. Replace the FOUR island counter stools with RH Morgan Curved-Back ARMLESS Fabric Counter Stool reference3, curved upholstered shell in warm Natural Performance Linen Weave, Brown Walnut tapered legs and modest stretcher footrest. Keep four evenly spaced seats in exactly the existing island row; no fifth stool or overly broad chairs. Preserve approved C1 creamy quiet quartzite-look porcelain counters/island and backsplash, current warm ivory kitchen cabinetry, hood/cooktop, wall-oven microwave column at right, refrigerator atleft, all arches/window openings and current island pendants. Counter-height stool is proposed, height must be verified; do not raise island or ceiling. Retain daylight and neighboring sunroom glimpses.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "833d14c6-f250-4c62-adf9-9019515b7692"
+          },
+          {
+            "role": "image",
+            "value": "211301c7-6056-4dd5-b821-e1f67a48b99a"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod28500419_E24222518455_TQ_CC_RHR?"
+          }
+        ]
+      },
+      "roomId": "kitchen"
+    },
+    {
+      "index": 60104,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create ONE photorealistic RH furniture consultation image edit of this EXACT Mineral & Walnut townhouse room, landscape 3:2. Reference 1 controls the current camera, room geometry and approved finishes. Reference 2 (when present) is the actual original model-home architecture, NOT its old furniture or wall colors. Remaining references are RH product photographs: use their furniture silhouettes/materials only, at a modest planning scale. Keep ALL original windows, mullions, doors, ceiling, crown, wall offsets and room proportions. Do not invent windows, coves, arches or hotel-scale rooms. Exterior remains Crown neighborhood townhouses, not countryside or skyline. Keep warm mushroom/ivory mineral walls, matte natural oak floor, walnut, ivory/oatmeal/charcoal upholstery, black details and restrained green plants. NO silver/chrome, blue or yellow theme, no new bedroom accent colors, no stair runners. Retain current functional window treatments, stone materials and lighting. No people, pets, logos, labels or watermarks. Physically realistic daylight, soft woven upholstery and wood grain; preserve floorplan and uncluttered circulation. This is a proposed visual furniture study, not manufacturer CAD.\nROOM AND FURNITURE: Formal dining12 ft11 by15 ft3. Preserve every current window/arch and shallow shelf below high window, current restrained chandelier, sheers and floor. Show a MADE-TO-FIT walnut rectangular extension dining table at CLOSED84x40inch planning footprint with softened corners and recessed twin pedestal bases; this table is a supporting custom/non-RH piece, don't copy an oversized RHtable. Place EIGHT RH Enzo Fabric Dining Side Chairs reference3 in sand woven fabric/caramelwalnut: three along each longside and one at each end. Ten is occasional with table extended and two extra chairs stored elsewhere, NOT tencrowded into84inchdailysetup. Thin chair legs and upholstered curved backs matching reference, armless forfit. No12seat square. Remove bulky room-sideboard if it compromises chairpullback; use the current shallow high-window ledge and small accessories. Keep a quiet oatmealrug and plants.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "02dd9a05-daf6-4524-8ebe-f6df717d6e90"
+          },
+          {
+            "role": "image",
+            "value": "3300e9bd-339e-4639-a7ac-f48d5e49351b"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod28310758_E2321507844_TQ_RHR?"
+          }
+        ]
+      },
+      "roomId": "dining"
+    },
+    {
+      "index": 60105,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create ONE photorealistic RH furniture consultation image edit of this EXACT Mineral & Walnut townhouse room, landscape 3:2. Reference 1 controls the current camera, room geometry and approved finishes. Reference 2 (when present) is the actual original model-home architecture, NOT its old furniture or wall colors. Remaining references are RH product photographs: use their furniture silhouettes/materials only, at a modest planning scale. Keep ALL original windows, mullions, doors, ceiling, crown, wall offsets and room proportions. Do not invent windows, coves, arches or hotel-scale rooms. Exterior remains Crown neighborhood townhouses, not countryside or skyline. Keep warm mushroom/ivory mineral walls, matte natural oak floor, walnut, ivory/oatmeal/charcoal upholstery, black details and restrained green plants. NO silver/chrome, blue or yellow theme, no new bedroom accent colors, no stair runners. Retain current functional window treatments, stone materials and lighting. No people, pets, logos, labels or watermarks. Physically realistic daylight, soft woven upholstery and wood grain; preserve floorplan and uncluttered circulation. This is a proposed visual furniture study, not manufacturer CAD.\nROOM AND FURNITURE: Living room/piano salon16ft by11ft4, blueprint-led current room reference (there is no original room photograph). Retain EXACT current window count/placement, clearivorysheers with privacy shades, walls/flatceiling, and northeast black mini grand piano about5ft with bench/playerclearance. Replace currentsofa with one RH Cloud SOFA reference2 in warmivory, a compact roughly8ftplanning footprint\u2014not119inch3module sectional. Keep sameleftseatingposition facing into salon. One compact RH1950sItalianShelterArmSwivelChair reference3 in oatmeal staysopposite without obstructingpiano. Use a modest RHGaelWalnutRectCoffeeTable reference4 warmcaramelwalnut, retain narrow circulationbetweenpianoandtable. Remove extra seating/cornerdiningfurniture if itcrowds salon. Keep quiet neutralrug. Do notadd windows or piano elsewhere.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "69b4741e-a6b7-4650-a59d-6e35171522c6"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod14870249?"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod6460578_E1643873_TQ_Frank?"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod29740626_E23520344089_F_RS_RHR?"
+          }
+        ]
+      },
+      "roomId": "living"
+    },
+    {
+      "index": 60106,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create ONE photorealistic RH furniture consultation image edit of this EXACT Mineral & Walnut townhouse room, landscape 3:2. Reference 1 controls the current camera, room geometry and approved finishes. Reference 2 (when present) is the actual original model-home architecture, NOT its old furniture or wall colors. Remaining references are RH product photographs: use their furniture silhouettes/materials only, at a modest planning scale. Keep ALL original windows, mullions, doors, ceiling, crown, wall offsets and room proportions. Do not invent windows, coves, arches or hotel-scale rooms. Exterior remains Crown neighborhood townhouses, not countryside or skyline. Keep warm mushroom/ivory mineral walls, matte natural oak floor, walnut, ivory/oatmeal/charcoal upholstery, black details and restrained green plants. NO silver/chrome, blue or yellow theme, no new bedroom accent colors, no stair runners. Retain current functional window treatments, stone materials and lighting. No people, pets, logos, labels or watermarks. Physically realistic daylight, soft woven upholstery and wood grain; preserve floorplan and uncluttered circulation. This is a proposed visual furniture study, not manufacturer CAD.\nROOM AND FURNITURE: Sunroom12ft3 by9ft3. Keep wraparound doublehung windows with hightransoms/kneewalls and walloven/microwavecolumn at leftedge exactly, clearivorysheers/solar shades and modest currentchandelier. Table is a supporting MADE-TO-FIT72x34inch rectanglenaturalwalnut with softened corners, light visuallyopen base\u2014not an oversizedRHdiningtable. SIX RHEnzoFabricDiningSideChairs reference3 sandwoven/caramelwalnut: TWOeachlongside+ONEeachend. Keep allsixseats visible/readable and enoughpullback; don'tmake tableround/square, don'tenlarge room. Noheavy sideboard oradditionalchairs. Naturaldaylight warmoakfloorrugless underdininggroup for easycleaning.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "a282a5d0-f69f-4f8c-be4c-71f2a5a29e0e"
+          },
+          {
+            "role": "image",
+            "value": "e4afd82d-0341-4e64-a5d1-80971aa278a0"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod28310758_E2321507844_TQ_RHR?"
+          }
+        ]
+      },
+      "roomId": "sunroom"
+    },
+    {
+      "index": 60201,
+      "roomId": "ownerbed",
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create ONE photorealistic RH furniture consultation image edit of this EXACT Mineral & Walnut townhouse room, landscape 3:2. Reference 1 controls the current camera, room geometry and approved finishes. Reference 2 (when present) is the actual original model-home architecture, NOT its old furniture or wall colors. Remaining references are RH product photographs: use their furniture silhouettes/materials only, at a modest planning scale. Keep ALL original windows, mullions, doors, ceiling, crown, wall offsets and room proportions. Do not invent windows, coves, arches or hotel-scale rooms. Exterior remains Crown neighborhood townhouses, not countryside or skyline. Keep warm mushroom/ivory mineral walls, matte natural oak floor, walnut, ivory/oatmeal/charcoal upholstery, black details and restrained green plants. NO silver/chrome, blue or yellow theme, no new bedroom accent colors, no stair runners. Retain current functional window treatments, stone materials and lighting. No people, pets, logos, labels or watermarks. Physically realistic daylight, soft woven upholstery and wood grain; preserve floorplan and uncluttered circulation. This is a proposed visual furniture study, not manufacturer CAD.\nROOM AND FURNITURE: Edit current primary-suite source, preserving right bed wall, windows, low walnut band, floating underlit bedsides, 55-inch TV/soundbar and neutral artwork. Use the RH plain Modena king profile in warm ivory; keep a recessed platform/night-light concept but do not invent RH construction. Gael walnut dresser only within existing measured location. Natural oak plus separate oatmeal rug. No purple/blue/pink accents. Do not add shelter wings or extended headboards.\nLAYOUT: 16 ft \u00d717 ft printed-plan reference; keep bed on solid right wall and four-sash rear glazing. Keep 55-inch TV and slim soundbar on solid wall opposite bed; do not block the window group. Tape actual bed, foot bench and dresser footprints while checking retreat/bath/closet routes.\nPRODUCT REFERENCE ORDER: 3: Modena Fabric Panel Bed, proposed Warm ivory woven fabric; quiet darker recessed base. 4: Gael Walnut 6-Drawer Dresser, proposed Caramel Walnut/Brass, subject to matching a walnut sample. 5: Textura Twist Wool Rug \u2014 Marled, proposed Quiet oatmeal/marled neutral. Choose LOW plain approximately48inchheadboard ratherthan tallphotosample; preserve ABOVEbedneutralart andlowwalnutband. Underbedlightisindependentproposeddetail, notadvertisedRHfeature.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "c19dd8f4-ec7c-40fc-aafe-d8873b920890"
+          },
+          {
+            "role": "image",
+            "value": "7ca8c112-2a41-4404-961b-d822b2ef471a"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod22040017_E614802044_TQ_Frank_RHR"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod29740920_E23520342646_F_RHR"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod2111228_F12?"
+          }
+        ]
+      }
+    },
+    {
+      "index": 60202,
+      "roomId": "bed2",
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create ONE photorealistic RH furniture consultation image edit of this EXACT Mineral & Walnut townhouse room, landscape 3:2. Reference 1 controls the current camera, room geometry and approved finishes. Reference 2 (when present) is the actual original model-home architecture, NOT its old furniture or wall colors. Remaining references are RH product photographs: use their furniture silhouettes/materials only, at a modest planning scale. Keep ALL original windows, mullions, doors, ceiling, crown, wall offsets and room proportions. Do not invent windows, coves, arches or hotel-scale rooms. Exterior remains Crown neighborhood townhouses, not countryside or skyline. Keep warm mushroom/ivory mineral walls, matte natural oak floor, walnut, ivory/oatmeal/charcoal upholstery, black details and restrained green plants. NO silver/chrome, blue or yellow theme, no new bedroom accent colors, no stair runners. Retain current functional window treatments, stone materials and lighting. No people, pets, logos, labels or watermarks. Physically realistic daylight, soft woven upholstery and wood grain; preserve floorplan and uncluttered circulation. This is a proposed visual furniture study, not manufacturer CAD.\nROOM AND FURNITURE: Edit the corrected plan-led Bedroom 2 source. Preserve the bed on stair-hall/top-plan wall, closet on shared-bath/left-plan wall, recessed access, side window and wide front window. Use standard-width RH plain Modena queen silhouette in warm cream, compact walnut 18\u201320-inch planning nightstands and existing small desk beside side window. Do not enlarge the room or move openings. Neutral oak floor with loose rug, ivory/oatmeal bedding and existing blackout/sheers.\nLAYOUT: 11 ft4 \u00d711 ft1 plan reference; queen headboard on stair-hall wall at TOP of printed plan. Closet stays on shared-bath wall at LEFT of plan; recessed hall access at top/left remains open. Desk planning footprint 42\u00d720 inches beside narrow east/right window; wider front/bottom window remains.\nPRODUCT REFERENCE ORDER: 2: Modena Fabric Panel Bed, proposed Warm cream/oatmeal woven upholstery; no colored accent. 3: Textura Twist Wool Rug \u2014 Marled, proposed Quiet oatmeal/marled neutral.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "be2446d3-078e-4d20-a026-4188cb068fa9"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod22040017_E614802044_TQ_Frank_RHR"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod2111228_F12?"
+          }
+        ]
+      }
+    },
+    {
+      "index": 60203,
+      "roomId": "bed3",
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create ONE photorealistic RH furniture consultation image edit of this EXACT Mineral & Walnut townhouse room, landscape 3:2. Reference 1 controls the current camera, room geometry and approved finishes. Reference 2 (when present) is the actual original model-home architecture, NOT its old furniture or wall colors. Remaining references are RH product photographs: use their furniture silhouettes/materials only, at a modest planning scale. Keep ALL original windows, mullions, doors, ceiling, crown, wall offsets and room proportions. Do not invent windows, coves, arches or hotel-scale rooms. Exterior remains Crown neighborhood townhouses, not countryside or skyline. Keep warm mushroom/ivory mineral walls, matte natural oak floor, walnut, ivory/oatmeal/charcoal upholstery, black details and restrained green plants. NO silver/chrome, blue or yellow theme, no new bedroom accent colors, no stair runners. Retain current functional window treatments, stone materials and lighting. No people, pets, logos, labels or watermarks. Physically realistic daylight, soft woven upholstery and wood grain; preserve floorplan and uncluttered circulation. This is a proposed visual furniture study, not manufacturer CAD.\nROOM AND FURNITURE: Edit current Bedroom 3 without moving any of its three windows. Keep low tailored queen between two right-wall windows, slim dark/walnut supporting nightstands and dome lamps. Use low plain Lawson upholstered silhouette in sand/oatmeal as a product study, with its actual RH base rather than invented tall legs; compare this alternative with the approved slim-leg version. Preserve neutral charcoal-piped bedding, oak and loose oatmeal rug; no chrome or colored accents.\nLAYOUT: 10 ft8 \u00d712 ft4 plan reference. Keep bed on RIGHT wall between its two windows; large front window remains to the left of source view. Actual headboard height and bedside widths must fit the solid wall between window trims.\nPRODUCT REFERENCE ORDER: 3: Lawson Fabric Panel Bed, proposed Sand/oatmeal woven upholstery, low headboard. 4: Textura Twist Wool Rug \u2014 Marled, proposed Quiet oatmeal/marled neutral.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "82feb74f-84a9-431c-aa51-60a6e0130f8a"
+          },
+          {
+            "role": "image",
+            "value": "53a06728-ea4b-46d2-8d32-343bb19af5fa"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod22040025_E98917281_TQ_Frank_CC_RHR"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod2111228_F12?"
+          }
+        ]
+      }
+    },
+    {
+      "index": 60204,
+      "roomId": "bed5",
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create ONE photorealistic RH furniture consultation image edit of this EXACT Mineral & Walnut townhouse room, landscape 3:2. Reference 1 controls the current camera, room geometry and approved finishes. Reference 2 (when present) is the actual original model-home architecture, NOT its old furniture or wall colors. Remaining references are RH product photographs: use their furniture silhouettes/materials only, at a modest planning scale. Keep ALL original windows, mullions, doors, ceiling, crown, wall offsets and room proportions. Do not invent windows, coves, arches or hotel-scale rooms. Exterior remains Crown neighborhood townhouses, not countryside or skyline. Keep warm mushroom/ivory mineral walls, matte natural oak floor, walnut, ivory/oatmeal/charcoal upholstery, black details and restrained green plants. NO silver/chrome, blue or yellow theme, no new bedroom accent colors, no stair runners. Retain current functional window treatments, stone materials and lighting. No people, pets, logos, labels or watermarks. Physically realistic daylight, soft woven upholstery and wood grain; preserve floorplan and uncluttered circulation. This is a proposed visual furniture study, not manufacturer CAD.\nROOM AND FURNITURE: Edit current unbuilt-bedroom concept as a furniture study. Retain left bed wall, right dresser, far-right doorway and flat ceiling. Use standard-width Modena horizontal-channel queen silhouette with charcoal upholstery and quiet dark base, never extended wings or a canopy. Enzo Caramel Walnut supporting nightstands/dresser within current footprints. Oak floor and loose oatmeal rug, ivory/taupe linens, black lamps, warm mushroom surround. No invented visible windows or colored accents.\nLAYOUT: UNBUILT Bedroom5; furniture study is a future plan-led concept, not a completed room. 14 ft11 \u00d711 ft1 plan reference; keep bed on left wall, dresser on right and far-right doorway. No invented window on source-visible walls; full opening/roof layout to be confirmed during construction.\nPRODUCT REFERENCE ORDER: 3: Modena Fabric Horizontal Channel Panel Bed, proposed Charcoal woven upholstery, subdued dark base; sample before ordering. 4: Enzo Closed Nightstand, proposed Caramel Walnut. 5: Enzo 5-Drawer Dresser, proposed Caramel Walnut; no stainless accents. 6: Textura Twist Wool Rug \u2014 Marled, proposed Quiet oatmeal/marled neutral.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "9537c1a6-4c96-4078-9e98-4e1b84e88e11"
+          },
+          {
+            "role": "image",
+            "value": "0a897fc0-8c6e-4b41-8f95-365dc472cda0"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod23530359_E22919690425_TQ_Frank_RHR"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod28310813_E23820652651_F_RHR"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod29870390_E23120396384_F_Frank_CC_RHR"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod2111228_F12?"
+          }
+        ]
+      }
+    },
+    {
+      "index": 60205,
+      "roomId": "loft",
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create ONE photorealistic RH furniture consultation image edit of this EXACT Mineral & Walnut townhouse room, landscape 3:2. Reference 1 controls the current camera, room geometry and approved finishes. Reference 2 (when present) is the actual original model-home architecture, NOT its old furniture or wall colors. Remaining references are RH product photographs: use their furniture silhouettes/materials only, at a modest planning scale. Keep ALL original windows, mullions, doors, ceiling, crown, wall offsets and room proportions. Do not invent windows, coves, arches or hotel-scale rooms. Exterior remains Crown neighborhood townhouses, not countryside or skyline. Keep warm mushroom/ivory mineral walls, matte natural oak floor, walnut, ivory/oatmeal/charcoal upholstery, black details and restrained green plants. NO silver/chrome, blue or yellow theme, no new bedroom accent colors, no stair runners. Retain current functional window treatments, stone materials and lighting. No people, pets, logos, labels or watermarks. Physically realistic daylight, soft woven upholstery and wood grain; preserve floorplan and uncluttered circulation. This is a proposed visual furniture study, not manufacturer CAD.\nROOM AND FURNITURE: Edit current photographed loft, preserving raised tray, French doors/windows, right slider and wet bar. Replace seating with RH Cloud three-piece sofa silhouette in warm ivory; no giant U-chaise. Keep current lounge orientation and clear routes. Use a moderate Enzo round walnut coffee table and one compact Shelter swivel chair; Gael walnut media console only in current console footprint. Warm neutral textiles, oak, separate wool rug and greenery; no new fireplace, blue/yellow or chrome.\nLAYOUT: 23 ft10 \u00d716 ft6; wet bar9 ft3 \u00d76 ft10 plan references. Keep raised tray ceiling, left French doors flanked by windows, right terrace slider and recessed wet bar. Tape selected Cloud components while maintaining a direct route from stair to terrace and wet bar.\nPRODUCT REFERENCE ORDER: 3: Cloud Modular 3-Piece Sofa, proposed Warm ivory woven upholstery. 4: Enzo Round Coffee Table, proposed Caramel Walnut. 5: Gael Walnut Media Console, proposed Caramel Walnut/Brass. 6: 1950s Italian Shelter Arm Swivel Chair, proposed Sand/oatmeal woven upholstery. 7: Textura Twist Wool Rug \u2014 Marled, proposed Quiet oatmeal/marled neutral.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "54572b03-45da-40b4-8db9-cd0faed2eba4"
+          },
+          {
+            "role": "image",
+            "value": "a18a9ffa-1bfe-4eec-97c7-ad5404e0e03a"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod6511684_E1684919_F_RHR?"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod28310677_E23620650975_F_CC_RHR?"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod31080237_E23120343664_F_Frank_RHR?"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod6460578_E1643873_TQ_Frank?"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod2111228_F12?"
+          }
+        ]
+      }
+    },
+    {
+      "index": 60206,
+      "roomId": "terrace",
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create ONE photorealistic RH furniture consultation image edit of this EXACT Mineral & Walnut townhouse room, landscape 3:2. Reference 1 controls the current camera, room geometry and approved finishes. Reference 2 (when present) is the actual original model-home architecture, NOT its old furniture or wall colors. Remaining references are RH product photographs: use their furniture silhouettes/materials only, at a modest planning scale. Keep ALL original windows, mullions, doors, ceiling, crown, wall offsets and room proportions. Do not invent windows, coves, arches or hotel-scale rooms. Exterior remains Crown neighborhood townhouses, not countryside or skyline. Keep warm mushroom/ivory mineral walls, matte natural oak floor, walnut, ivory/oatmeal/charcoal upholstery, black details and restrained green plants. NO silver/chrome, blue or yellow theme, no new bedroom accent colors, no stair runners. Retain current functional window treatments, stone materials and lighting. No people, pets, logos, labels or watermarks. Physically realistic daylight, soft woven upholstery and wood grain; preserve floorplan and uncluttered circulation. This is a proposed visual furniture study, not manufacturer CAD.\nROOM AND FURNITURE: Edit actual terrace source without changing roof, pergola, rails, stair, doors or house-side fireplace. Use Mesa natural-teak 90-inch sofa, two lounge chairs and 48-inch coffee table with ivory outdoor cushions in existing living zone. Dining uses a restrained 72-inch planning rectangle with six chairs only if visible and fits; do not distort architecture to show every zone. One optional matching chaise in the separate sun zone only where source composition permits. Charcoal planters and green foliage, Crown neighborhood context. No roof extension or invented fireplace.\nLAYOUT: Preserve roof silhouette, pergola posts, rails, stair opening, glazing and existing house-side fireplace. Living17 ft3 \u00d717 ft1; dining12 ft4 \u00d712 ft8; sun12 ft4 \u00d79 ft4 plan references. Furniture stays out of stair/door paths and required access areas; field measure wind exposure, load and delivery route.\nPRODUCT REFERENCE ORDER: 3: Mesa Teak Sofa, proposed Natural Teak with warm ivory outdoor performance cushions. 4: Mesa Teak Lounge Chair, proposed Natural Teak with warm ivory outdoor performance cushions. 5: Mesa Teak Rectangular Coffee Table, proposed Natural Teak. 6: Mesa Teak Rectangular Dining Table, proposed Natural Teak. 7: Mesa Teak Dining Armchair, proposed Natural Teak with ivory performance seat cushions. 8: Mesa Teak Adjustable Chaise, proposed Natural Teak with ivory outdoor cushion.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "984b7551-8036-4c28-ab15-a26b8c1bf20b"
+          },
+          {
+            "role": "image",
+            "value": "ef0835c5-cfe5-48c3-8844-2b822554e886"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_SOFA_pdp&layer=3&src=prod22320018_E416043749_F_Frank_RHR&anchorN=0,0.5&sizeN=0.9559471366,0.5436507937&"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_LOUNGE_CHAIR_pdp&layer=3&src=prod22320032_E71604439_TQ_RHR&anchorN=0,0.45&sizeN=0.8,0.85&"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod16940016_E311644067_F_RHR?"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pdp&layer=3&src=prod16940017_E111643832_F_RS_RHR&anchorN=0,0.45&sizeN=0.95,0.85&"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pdp&layer=3&src=prod22320024_E16043882_TQ_RHR&anchorN=0,0.45&sizeN=0.7,0.86&"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod22320027_E716044077_TQ_RHR?"
+          }
+        ]
+      }
+    },
+    {
+      "index": 60301,
+      "roomId": "retreat",
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create ONE photorealistic RH furniture consultation image edit of this EXACT Mineral & Walnut townhouse room, landscape 3:2. Reference 1 controls the current camera, room geometry and approved finishes. Reference 2 (when present) is the actual original model-home architecture, NOT its old furniture or wall colors. Remaining references are RH product photographs: use their furniture silhouettes/materials only, at a modest planning scale. Keep ALL original windows, mullions, doors, ceiling, crown, wall offsets and room proportions. Do not invent windows, coves, arches or hotel-scale rooms. Exterior remains Crown neighborhood townhouses, not countryside or skyline. Keep warm mushroom/ivory mineral walls, matte natural oak floor, walnut, ivory/oatmeal/charcoal upholstery, black details and restrained green plants. NO silver/chrome, blue or yellow theme, no new bedroom accent colors, no stair runners. Retain current functional window treatments, stone materials and lighting. No people, pets, logos, labels or watermarks. Physically realistic daylight, soft woven upholstery and wood grain; preserve floorplan and uncluttered circulation. This is a proposed visual furniture study, not manufacturer CAD.\nROOM AND FURNITURE: Edit the current owners retreat and retain the existing coffee-bar cabinets, sink, beverage refrigerator, open bedroom connection and ALL existing windows. Use two RH Modena Slope Arm chaise references for their low continuous wrapped arms, deep cushions and quiet dark wood base; upholstery is warm ivory woven fabric. Preserve current positioning and room scale, leaving bar approach and passage usable. Add one small Caramel Walnut Gael round side table and a quiet dark drink table only where already planned. Retain ivory sheers AND stacked matching blackout layers without covering trim/transoms or adding a door. No colored accents, chrome theme, stair runners or redesign of the adjoining bedroom.\nUse reference1's seating-view camera (OR2), not reference2's wetbar closeup. Room12ft3by10. Reference3ModenaChaise and reference4Gaelroundtable; showtwochaises atmodestscale withclearbarapproach,don'tturnthem intoa sofa orbed.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "5965cb07-cf05-43eb-9304-1b8389311997"
+          },
+          {
+            "role": "image",
+            "value": "002c35ed-b184-45de-a26a-179a42acea7a"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod7560042_E57804515_TQ_CC_RHR?"
+          },
+          {
+            "role": "image",
+            "value": "https://media.restorationhardware.com/is/image/rhis/prod29740644_E2320344446_F_RHR?"
+          }
+        ]
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "index": 60101,
+      "job_id": "cb636d05-9aa5-4b80-890d-84b7d3bd8b57",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261010_002059_cb636d05-9aa5-4b80-890d-84b7d3bd8b57.png"
+    },
+    {
+      "index": 60102,
+      "job_id": "5ad08287-fdbd-4dcc-8cd8-01930044d868",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261010_002058_5ad08287-fdbd-4dcc-8cd8-01930044d868.png"
+    },
+    {
+      "index": 60103,
+      "job_id": "a3c466ce-55b4-4653-a37e-fa8295259b0c",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261010_002058_a3c466ce-55b4-4653-a37e-fa8295259b0c.png"
+    },
+    {
+      "index": 60104,
+      "job_id": "03a2eaa3-e274-42e1-b5fc-2c5e5cd6b5a7",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261010_002059_03a2eaa3-e274-42e1-b5fc-2c5e5cd6b5a7.png"
+    },
+    {
+      "index": 60105,
+      "job_id": "1e85fd9a-8b31-4ab1-b7d3-7eb23389da54",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261010_002059_1e85fd9a-8b31-4ab1-b7d3-7eb23389da54.png"
+    },
+    {
+      "index": 60106,
+      "job_id": "469b88cd-071c-4ccd-9f55-a11651711095",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261010_002059_469b88cd-071c-4ccd-9f55-a11651711095.png"
+    },
+    {
+      "index": 60201,
+      "job_id": "02f5b921-21a6-4c5e-80f1-7ba8a85d1587",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261010_002309_02f5b921-21a6-4c5e-80f1-7ba8a85d1587.png"
+    },
+    {
+      "index": 60202,
+      "job_id": "0d7b9cbc-ba33-478a-aa74-801156e90abd",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261010_002308_0d7b9cbc-ba33-478a-aa74-801156e90abd.png"
+    },
+    {
+      "index": 60203,
+      "job_id": "96732ffc-4175-4c2c-b9d2-a7efbf19d0a9",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261010_002308_96732ffc-4175-4c2c-b9d2-a7efbf19d0a9.png"
+    },
+    {
+      "index": 60204,
+      "job_id": "9b6cc1cb-a69c-45e8-8086-8f8f6b9d246b",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261010_002309_9b6cc1cb-a69c-45e8-8086-8f8f6b9d246b.png"
+    },
+    {
+      "index": 60205,
+      "job_id": "d8871e91-18cf-4032-ad40-f1047584c6cf",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261010_002309_d8871e91-18cf-4032-ad40-f1047584c6cf.png"
+    },
+    {
+      "index": 60206,
+      "job_id": "95b09118-a7ae-4c62-933d-9876eee825a3",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261010_002309_95b09118-a7ae-4c62-933d-9876eee825a3.png"
+    },
+    {
+      "index": 60301,
+      "job_id": "c302972c-17fd-46a2-a6bb-e5dcf31df124",
+      "status": "completed",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261010_002414_c302972c-17fd-46a2-a6bb-e5dcf31df124.png"
+    }
+  ]
+}

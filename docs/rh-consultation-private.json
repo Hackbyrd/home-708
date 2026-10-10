@@ -1,0 +1,833 @@
+{
+  "date": "2026-10-09",
+  "scope": "Private rooms, roof terrace and functional-room coverage",
+  "researchLimits": [
+    "Reviewed official RH products and collection indexes; this is not a claim to have exhaustively inspected every RH SKU.",
+    "Product-specific prices, current configurations and delivery were not quoted.",
+    "RH product photographs may show different upholstery/base finishes than the proposed palette; physical samples and exact SKUs govern."
+  ],
+  "rooms": [
+    {
+      "id": "ownerbed",
+      "title": "Owners suite",
+      "designSummary": "Tailored ivory hotel suite: a plain upholstered king, walnut headwall, floating bedsides and a loose oatmeal rug.",
+      "layoutNotes": [
+        "16 ft \u00d717 ft printed-plan reference; keep bed on solid right wall and four-sash rear glazing.",
+        "Keep 55-inch TV and slim soundbar on solid wall opposite bed; do not block the window group.",
+        "Tape actual bed, foot bench and dresser footprints while checking retreat/bath/closet routes."
+      ],
+      "products": [
+        {
+          "name": "Modena Fabric Panel Bed",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22040017",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod22040017_E614802044_TQ_Frank_RHR",
+          "material": "Upholstered platform bed; exact base construction to verify",
+          "proposedFinish": "Warm ivory woven fabric; quiet darker recessed base",
+          "planningSize": "King; historical reference85 W \u00d789.5 L; lower headboard configuration, current SKU to verify",
+          "sizeStatus": "Current RH Fabric Beds index verifies this product and image; detailed configuration controls were inaccessible. King availability, external dimensions, headboard height and mattress support must be confirmed.",
+          "quantity": 1,
+          "phase": "Move-in essential",
+          "reason": "Plain tailored upholstery leaves the walnut headwall and artwork as the primary-suite signature. Avoid shelter wings and oversized extended headboards.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod22040017",
+            "https://rh.com/us/en/catalog/category/products.jsp/cat7030137/",
+            "https://images.restorationhardware.com/content/catalog/us/en/tearsheets/Bedroom_Modena_Panel.pdf"
+          ],
+          "historicalDimensions": "RH dimensions sheet dated May 14, 2021: queen 69 W \u00d789.5 L; king 85 W \u00d789.5 L. These are historical collection dimensions, not a confirmed current configured SKU."
+        },
+        {
+          "name": "Gael Walnut 6-Drawer Dresser",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod29740920",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod29740920_E23520342646_F_RHR",
+          "material": "American walnut with sculptural metal hardware",
+          "proposedFinish": "Caramel Walnut/Brass, subject to matching a walnut sample",
+          "planningSize": "Low broad dresser; exact width and window-sill clearance need checking",
+          "sizeStatus": "Planning target; exact current SKU dimensions and availability need confirmation",
+          "quantity": 1,
+          "phase": "Later primary-suite completion",
+          "reason": "Contoured edges and tapered legs give warmth without repeating the bedside build-outs. This is a freestanding candidate only if it fits the existing dresser location.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod29740920"
+          ]
+        },
+        {
+          "name": "Textura Twist Wool Rug \u2014 Marled",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod2111228",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod2111228_F12?",
+          "material": "100% wool as described by RH",
+          "proposedFinish": "Quiet oatmeal/marled neutral",
+          "planningSize": "Tape an 8\u00d710-foot footprint for queen rooms; 9\u00d712 for primary, then confirm actual offered size",
+          "sizeStatus": "Planning target; exact current SKU dimensions and availability need confirmation",
+          "quantity": 1,
+          "phase": "After bed position is set",
+          "reason": "A neutral loose rug softens the oak floor while retaining visible wood around the room; comparable lower-cost wool is a sensible substitution.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod2111228"
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "Lawson Fabric Panel Bed",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod22040025_E98917281_TQ_Frank_CC_RHR",
+          "material": "Nontufted upholstered platform bed",
+          "proposedFinish": "Sand/oatmeal woven upholstery, low headboard",
+          "planningSize": "King mattress; low plain headboard after verifying current configuration",
+          "sizeStatus": "Historical RH collection sheet is a reference only. Confirm current king dimensions, low headboard option, mattress support and lighting compatibility.",
+          "quantity": 1,
+          "phase": "Primary-suite alternative; purchase after bed/base specification is settled",
+          "reason": "A low plain upholstered king alternative if its actual base and headboard work with the walnut band; it is not verified for the requested LED retrofit.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod22040025",
+            "https://images.restorationhardware.com/content/catalog/tearsheets/Bedroom_LawsonPanel.pdf"
+          ],
+          "historicalDimensions": "Official RH Lawson dimensions sheet dated November 19, 2021 lists a king platform footprint of 80 W \u00d785.25 L. Confirm the current SKU before using this as a furniture or fabrication dimension."
+        }
+      ],
+      "customItems": [
+        "Retain low walnut headwall band and two floating walnut bedside boxes.",
+        "Under-bed LED requires manufacturer-compatible support, concealed channel and accessible driver. RH platform is not certified for retrofit from this study."
+      ],
+      "supportingItems": [
+        "A simple 48\u201354-inch planning foot bench in oatmeal, only if measured clearance permits; lower-cost supplier unselected.",
+        "Ivory linens, oatmeal throw and restrained charcoal piping; neutral artwork above bed.",
+        "Bedroom sheers plus blackout/privacy layer retained."
+      ],
+      "purchaseNotes": [
+        "Buy king bed and mattress for move-in; choose finish/fabric samples now.",
+        "Defer dresser, rug, bench and decorative layers if the $25K whole-house move-in allowance is tight.",
+        "Confirm bed base before electrical/LED detail is finalized; do not bolt lighting to upholstery without an approved detail."
+      ],
+      "renderBrief": "Edit current primary-suite source, preserving right bed wall, windows, low walnut band, floating underlit bedsides, 55-inch TV/soundbar and neutral artwork. Use the RH plain Modena king profile in warm ivory; keep a recessed platform/night-light concept but do not invent RH construction. Gael walnut dresser only within existing measured location. Natural oak plus separate oatmeal rug. No purple/blue/pink accents. Do not add shelter wings or extended headboards.",
+      "status": "Proposed furniture consultation; not approved or ordered"
+    },
+    {
+      "id": "bed2",
+      "title": "Bedroom 2",
+      "designSummary": "Cream guest room with a clean panel bed, compact walnut support furniture and a useful study corner.",
+      "layoutNotes": [
+        "11 ft4 \u00d711 ft1 plan reference; queen headboard on stair-hall wall at TOP of printed plan.",
+        "Closet stays on shared-bath wall at LEFT of plan; recessed hall access at top/left remains open.",
+        "Desk planning footprint 42\u00d720 inches beside narrow east/right window; wider front/bottom window remains."
+      ],
+      "products": [
+        {
+          "name": "Modena Fabric Panel Bed",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22040017",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod22040017_E614802044_TQ_Frank_RHR",
+          "material": "Upholstered platform bed; exact base construction to verify",
+          "proposedFinish": "Warm cream/oatmeal woven upholstery; no colored accent",
+          "planningSize": "Queen; historical reference 69 W \u00d789.5 L; standard headboard around 48\u201360 H, current configuration to verify",
+          "sizeStatus": "Current RH Fabric Beds index verifies this product and image; detailed configuration controls were inaccessible. Queen availability, external dimensions, headboard height and mattress support must be confirmed.",
+          "quantity": 1,
+          "phase": "Move-in essential if this is the chosen guest room",
+          "reason": "A clean panel bed gives Bedroom 2 a calm cream personality without wings competing with the recessed entry or closet.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod22040017",
+            "https://rh.com/us/en/catalog/category/products.jsp/cat7030137/",
+            "https://images.restorationhardware.com/content/catalog/us/en/tearsheets/Bedroom_Modena_Panel.pdf"
+          ],
+          "historicalDimensions": "RH dimensions sheet dated May 14, 2021: queen 69 W \u00d789.5 L; king 85 W \u00d789.5 L. These are historical collection dimensions, not a confirmed current configured SKU."
+        },
+        {
+          "name": "Textura Twist Wool Rug \u2014 Marled",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod2111228",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod2111228_F12?",
+          "material": "100% wool as described by RH",
+          "proposedFinish": "Quiet oatmeal/marled neutral",
+          "planningSize": "Tape an 8\u00d710-foot footprint for queen rooms; 9\u00d712 for primary, then confirm actual offered size",
+          "sizeStatus": "Planning target; exact current SKU dimensions and availability need confirmation",
+          "quantity": 1,
+          "phase": "After bed position is set",
+          "reason": "A neutral loose rug softens the oak floor while retaining visible wood around the room; comparable lower-cost wool is a sensible substitution.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod2111228"
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "Lawson Fabric Panel Bed",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod22040025_E98917281_TQ_Frank_CC_RHR",
+          "material": "Nontufted upholstered platform bed",
+          "proposedFinish": "Sand/oatmeal woven upholstery, low headboard",
+          "planningSize": "Queen; historical 64 W \u00d785.25 L footprint and low 44 H example; selected current SKU unverified",
+          "sizeStatus": "Official 2021 dimensions sheet supports the compact historical footprint but lists only 1-inch rail clearance. Current low-height configuration and base must be confirmed; choose a supporting slim-leg bed if preserving the approved feet is the priority.",
+          "quantity": 1,
+          "phase": "Later guest-room phase",
+          "reason": "Low plain upholstery is a close starting point for the existing window-led room. Confirm the actual base/feet and choose a lower-cost slim-leg upholstered bed if RH cannot preserve the approved silhouette.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod22040025",
+            "https://images.restorationhardware.com/content/catalog/tearsheets/Bedroom_LawsonPanel.pdf"
+          ],
+          "historicalDimensions": "RH dimensions sheet dated November19, 2021: queen platform64 W \u00d785.25 L; examples include44 H. It lists only 1-inch clearance beneath rails, so it is not verified to reproduce the approved slim-leg bed."
+        }
+      ],
+      "customItems": [],
+      "supportingItems": [
+        "Two compact walnut nightstands around 18\u201320 inches wide; supporting supplier unselected. Do not force 26\u201332-inch RH nightstands onto this entry-constrained headwall.",
+        "Compact 42\u00d720-inch walnut desk and supportive neutral task chair; current RH Gael desk not confirmed small enough.",
+        "Warm cream bedding; sheers plus blackout/privacy layer."
+      ],
+      "purchaseNotes": [
+        "Can serve as the move-in guest bedroom: buy mattress/bed first.",
+        "Measure headwall including recessed entry and closet swing before ordering any bed or two nightstands.",
+        "Buy desk and storage later; samples are selected now to keep the furniture compatible."
+      ],
+      "renderBrief": "Edit the corrected plan-led Bedroom 2 source. Preserve the bed on stair-hall/top-plan wall, closet on shared-bath/left-plan wall, recessed access, side window and wide front window. Use standard-width RH plain Modena queen silhouette in warm cream, compact walnut 18\u201320-inch planning nightstands and existing small desk beside side window. Do not enlarge the room or move openings. Neutral oak floor with loose rug, ivory/oatmeal bedding and existing blackout/sheers.",
+      "status": "Proposed furniture consultation; not approved or ordered"
+    },
+    {
+      "id": "bed3",
+      "title": "Bedroom 3",
+      "designSummary": "A lower, lighter upholstered bed lets the three-window room remain airy; oatmeal and charcoal stay subtle.",
+      "layoutNotes": [
+        "10 ft8 \u00d712 ft4 plan reference.",
+        "Keep bed on RIGHT wall between its two windows; large front window remains to the left of source view.",
+        "Actual headboard height and bedside widths must fit the solid wall between window trims."
+      ],
+      "products": [
+        {
+          "name": "Lawson Fabric Panel Bed",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22040025",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod22040025_E98917281_TQ_Frank_CC_RHR",
+          "material": "Nontufted upholstered platform bed",
+          "proposedFinish": "Sand/oatmeal woven upholstery, low headboard",
+          "planningSize": "Queen; historical 64 W \u00d785.25 L footprint and low 44 H example; selected current SKU unverified",
+          "sizeStatus": "Official 2021 dimensions sheet supports the compact historical footprint but lists only 1-inch rail clearance. Current low-height configuration and base must be confirmed; choose a supporting slim-leg bed if preserving the approved feet is the priority.",
+          "quantity": 1,
+          "phase": "Later guest-room phase",
+          "reason": "Low plain upholstery is a close starting point for the existing window-led room. Confirm the actual base/feet and choose a lower-cost slim-leg upholstered bed if RH cannot preserve the approved silhouette.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod22040025",
+            "https://images.restorationhardware.com/content/catalog/tearsheets/Bedroom_LawsonPanel.pdf"
+          ],
+          "historicalDimensions": "RH dimensions sheet dated November 19, 2021: queen platform64 W \u00d785.25 L; examples include44 H. It lists only 1-inch clearance beneath rails, so it is not verified to reproduce the approved slim-leg bed."
+        },
+        {
+          "name": "Textura Twist Wool Rug \u2014 Marled",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod2111228",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod2111228_F12?",
+          "material": "100% wool as described by RH",
+          "proposedFinish": "Quiet oatmeal/marled neutral",
+          "planningSize": "Tape an 8\u00d710-foot footprint for queen rooms; 9\u00d712 for primary, then confirm actual offered size",
+          "sizeStatus": "Planning target; exact current SKU dimensions and availability need confirmation",
+          "quantity": 1,
+          "phase": "After bed position is set",
+          "reason": "A neutral loose rug softens the oak floor while retaining visible wood around the room; comparable lower-cost wool is a sensible substitution.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod2111228"
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "Modena Fabric Panel Bed",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22040017",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod22040017_E614802044_TQ_Frank_RHR",
+          "material": "Upholstered platform bed; exact base construction to verify",
+          "proposedFinish": "Warm cream/oatmeal woven upholstery; no colored accent",
+          "planningSize": "Queen mattress; standard-width panel headboard, aim around 48\u201360 inches high after measuring",
+          "sizeStatus": "Current RH Fabric Beds index verifies this product and image; detailed configuration controls were inaccessible. Queen availability, external dimensions, headboard height and mattress support must be confirmed.",
+          "quantity": 1,
+          "phase": "Later guest-room phase",
+          "reason": "A plain upholstered queen alternative if its actual width and height fit the measured room. The main proposal retains this bedroom\u2019s individual low-profile or channelled character.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod22040017",
+            "https://rh.com/us/en/catalog/category/products.jsp/cat7030137/",
+            "https://images.restorationhardware.com/content/catalog/us/en/tearsheets/Bedroom_Modena_Panel.pdf"
+          ],
+          "historicalDimensions": "RH dimensions sheet dated May 14, 2021: queen 69 W \u00d789.5 L; king 85 W \u00d789.5 L. These are historical collection dimensions, not a confirmed current configured SKU."
+        }
+      ],
+      "customItems": [],
+      "supportingItems": [
+        "Retain slim walnut/black nightstands and black dome lamps; lower-cost supporting suppliers still to choose.",
+        "Low walnut dresser in current solid-wall position; width/depth and window clearance measured before purchase.",
+        "Charcoal piping belongs to bedding; no colored bedroom accents. Sheers plus blackout/privacy retained."
+      ],
+      "purchaseNotes": [
+        "Bed and mattress can wait unless this becomes the move-in guest room.",
+        "Lawson is a compact RH candidate with historical 64\u00d785.25-inch footprint, but its 1-inch rail clearance does not reproduce the current slim-leg bed. Compare the retail sample and retain the approved lower-cost slim-leg silhouette if preferred.",
+        "Avoid forcing an oversized dresser or headboard into the window arrangement."
+      ],
+      "renderBrief": "Edit current Bedroom 3 without moving any of its three windows. Keep low tailored queen between two right-wall windows, slim dark/walnut supporting nightstands and dome lamps. Use low plain Lawson upholstered silhouette in sand/oatmeal as a product study, with its actual RH base rather than invented tall legs; compare this alternative with the approved slim-leg version. Preserve neutral charcoal-piped bedding, oak and loose oatmeal rug; no chrome or colored accents.",
+      "status": "Proposed furniture consultation; not approved or ordered"
+    },
+    {
+      "id": "bed5",
+      "title": "Penthouse guest bedroom",
+      "designSummary": "A quiet charcoal horizontal-channel bed gives this future room its own character within Mineral & Walnut.",
+      "layoutNotes": [
+        "UNBUILT Bedroom5; furniture study is a future plan-led concept, not a completed room.",
+        "14 ft11 \u00d711 ft1 plan reference; keep bed on left wall, dresser on right and far-right doorway.",
+        "No invented window on source-visible walls; full opening/roof layout to be confirmed during construction."
+      ],
+      "products": [
+        {
+          "name": "Modena Fabric Horizontal Channel Panel Bed",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod23530359",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod23530359_E22919690425_TQ_Frank_RHR",
+          "material": "Horizontal-channel upholstered platform bed",
+          "proposedFinish": "Charcoal woven upholstery, subdued dark base; sample before ordering",
+          "planningSize": "Queen mattress; standard panel headboard around the shown 48-inch height",
+          "sizeStatus": "RH shows 48-, 72- and 96-inch headboard examples; the proposed low queen configuration, fabric and external dimensions remain unverified.",
+          "quantity": 1,
+          "phase": "After Bedroom 5 construction",
+          "reason": "The broad horizontal channels retain the penthouse bedroom\u2019s charcoal character. Choose standard-width panel, not extended wings or a canopy.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod23530359"
+          ]
+        },
+        {
+          "name": "Enzo Closed Nightstand",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310813",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310813_E23820652651_F_RHR",
+          "material": "American walnut",
+          "proposedFinish": "Caramel Walnut",
+          "planningSize": "Candidate bedside size only after checking measured headwall",
+          "sizeStatus": "Planning target; exact current SKU dimensions and availability need confirmation",
+          "quantity": 2,
+          "phase": "With bed / lower-cost equivalents welcome",
+          "reason": "Compact closed bedside storage in warm walnut; confirm widths against the new finished headwall before ordering the pair.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod28310813"
+          ]
+        },
+        {
+          "name": "Enzo 5-Drawer Dresser",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod29870390",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod29870390_E23120396384_F_Frank_CC_RHR",
+          "material": "American walnut",
+          "proposedFinish": "Caramel Walnut; no stainless accents",
+          "planningSize": "Planned dresser footprint only; verify full external dimensions against the completed room",
+          "sizeStatus": "Planning target; exact current SKU dimensions and availability need confirmation",
+          "quantity": 1,
+          "phase": "Later bedroom phase",
+          "reason": "A quieter architectural storage piece that relates to walnut joinery without duplicating all the furniture.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod29870390"
+          ]
+        },
+        {
+          "name": "Textura Twist Wool Rug \u2014 Marled",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod2111228",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod2111228_F12?",
+          "material": "100% wool as described by RH",
+          "proposedFinish": "Quiet oatmeal/marled neutral",
+          "planningSize": "Tape an 8\u00d710-foot footprint for queen rooms; 9\u00d712 for primary, then confirm actual offered size",
+          "sizeStatus": "Planning target; exact current SKU dimensions and availability need confirmation",
+          "quantity": 1,
+          "phase": "After bed position is set",
+          "reason": "A neutral loose rug softens the oak floor while retaining visible wood around the room; comparable lower-cost wool is a sensible substitution.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod2111228"
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "Modena Fabric Panel Bed",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22040017",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod22040017_E614802044_TQ_Frank_RHR",
+          "material": "Upholstered platform bed; exact base construction to verify",
+          "proposedFinish": "Warm cream/oatmeal woven upholstery; no colored accent",
+          "planningSize": "Queen mattress; standard-width panel headboard, aim around 48\u201360 inches high after measuring",
+          "sizeStatus": "Current RH Fabric Beds index verifies this product and image; detailed configuration controls were inaccessible. Queen availability, external dimensions, headboard height and mattress support must be confirmed.",
+          "quantity": 1,
+          "phase": "After Bedroom 5 construction",
+          "reason": "A plain upholstered queen alternative if its actual width and height fit the measured room. The main proposal retains this bedroom\u2019s individual low-profile or channelled character.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod22040017",
+            "https://rh.com/us/en/catalog/category/products.jsp/cat7030137/",
+            "https://images.restorationhardware.com/content/catalog/us/en/tearsheets/Bedroom_Modena_Panel.pdf"
+          ],
+          "historicalDimensions": "RH dimensions sheet dated May 14, 2021: queen 69 W \u00d789.5 L; king 85 W \u00d789.5 L. These are historical collection dimensions, not a confirmed current configured SKU."
+        }
+      ],
+      "customItems": [
+        "Complete permitted room construction and services before furnishing; no furniture order until final measured envelope."
+      ],
+      "supportingItems": [
+        "Black sculptural bedside lamps from a less expensive supporting supplier.",
+        "Ivory/taupe linens; warm mushroom frame and trim retained.",
+        "Specify bedroom sheers plus blackout/privacy only at verified openings."
+      ],
+      "purchaseNotes": [
+        "Whole package belongs after construction and the move-in essentials.",
+        "Confirm queen panel width and dresser route at the finished room, then order.",
+        "Do not buy a 72/96-inch tall or extended headboard merely because the RH collection offers one."
+      ],
+      "renderBrief": "Edit current unbuilt-bedroom concept as a furniture study. Retain left bed wall, right dresser, far-right doorway and flat ceiling. Use standard-width Modena horizontal-channel queen silhouette with charcoal upholstery and quiet dark base, never extended wings or a canopy. Enzo Caramel Walnut supporting nightstands/dresser within current footprints. Oak floor and loose oatmeal rug, ivory/taupe linens, black lamps, warm mushroom surround. No invented visible windows or colored accents.",
+      "status": "Proposed furniture consultation; not approved or ordered"
+    },
+    {
+      "id": "loft",
+      "title": "Penthouse lounge",
+      "designSummary": "The relaxed upstairs lounge uses Cloud upholstery and a rounded walnut table, with a lighter touch than the main great room.",
+      "layoutNotes": [
+        "23 ft10 \u00d716 ft6; wet bar9 ft3 \u00d76 ft10 plan references.",
+        "Keep raised tray ceiling, left French doors flanked by windows, right terrace slider and recessed wet bar.",
+        "Tape selected Cloud components while maintaining a direct route from stair to terrace and wet bar."
+      ],
+      "products": [
+        {
+          "name": "Cloud Modular 3-Piece Sofa",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod6511684_E1684919_F_RHR?",
+          "material": "Slipcovered modular upholstery; RH describes feather/down around foam core",
+          "proposedFinish": "Warm ivory woven upholstery",
+          "planningSize": "Start with Classic 3-piece reference about 119 W \u00d7 40 D; verify current configuration",
+          "sizeStatus": "119\u00d740 is a historical RH Classic reference, not a confirmed current configured SKU. Do not substitute the approximately 158\u00d780 four-piece U-chaise automatically.",
+          "quantity": 1,
+          "phase": "Later penthouse lounge phase",
+          "reason": "This room can accommodate a dedicated relaxed lounge, distinct from the tidier Modena great-room sofa. A movable ottoman can be added only if circulation remains open.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+            "https://images.restorationhardware.com/content/catalog/tearsheets/Cloud_Modular_dimensions.pdf"
+          ]
+        },
+        {
+          "name": "Enzo Round Coffee Table",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310677",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310677_E23620650975_F_CC_RHR?",
+          "material": "American walnut",
+          "proposedFinish": "Caramel Walnut",
+          "planningSize": "Planning diameter about 40\u201344 inches; actual offered size unverified",
+          "sizeStatus": "Planning target; exact current SKU dimensions and availability need confirmation",
+          "quantity": 1,
+          "phase": "With lounge seating",
+          "reason": "The rounded top relaxes the deeper sofa and gives the penthouse a slightly more architectural furniture identity.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod28310677"
+          ]
+        },
+        {
+          "name": "Gael Walnut Media Console",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod31080237",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod31080237_E23120343664_F_Frank_RHR?",
+          "material": "American walnut; sculptural metal hardware",
+          "proposedFinish": "Caramel Walnut/Brass",
+          "planningSize": "Small double-door version only if it serves the actual AV/storage requirement; width unverified",
+          "sizeStatus": "Planning target; exact current SKU dimensions and availability need confirmation",
+          "quantity": 1,
+          "phase": "Later lounge completion",
+          "reason": "A room-specific freestanding storage alternative. Keep the current fitted console if retail sizing or AV ventilation is unsuitable.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod31080237"
+          ]
+        },
+        {
+          "name": "1950s Italian Shelter Arm Swivel Chair",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6460578",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod6460578_E1643873_TQ_Frank?",
+          "material": "Upholstered swivel chair",
+          "proposedFinish": "Sand/oatmeal woven upholstery",
+          "planningSize": "Historical Classic 30.5 W \u00d7 32.5 D; current SKU and swivel sweep to verify",
+          "sizeStatus": "Planning target; exact current SKU dimensions and availability need confirmation",
+          "quantity": 1,
+          "phase": "Later lounge completion",
+          "reason": "A compact curved seat counterbalances the broad modular sofa.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod6460578"
+          ]
+        },
+        {
+          "name": "Textura Twist Wool Rug \u2014 Marled",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod2111228",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod2111228_F12?",
+          "material": "100% wool as described by RH",
+          "proposedFinish": "Quiet oatmeal/marled neutral",
+          "planningSize": "Test a9\u00d712-foot footprint under the lounge group; offered size and furniture/rug relationship to verify",
+          "sizeStatus": "Planning target; exact current SKU dimensions and availability need confirmation",
+          "quantity": 1,
+          "phase": "After seating positions are set",
+          "reason": "A neutral loose rug softens the oak floor while retaining visible wood around the room; comparable lower-cost wool is a sensible substitution.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod2111228"
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "Modena Slope Arm 2-Cushion Sofa",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod24400560",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod24400560_E87804646_F_Frank_RHR?",
+          "material": "Upholstered sofa; fabric and cushion configuration to verify",
+          "proposedFinish": "Warm ivory woven upholstery",
+          "planningSize": "Start with an approximately 96-inch sofa footprint; current offered size/configuration and route need verification",
+          "sizeStatus": "Planning target; current selected SKU dimensions are not confirmed",
+          "quantity": 1,
+          "phase": "Alternative for later penthouse lounge phase",
+          "reason": "A tidier sofa alternative if Cloud feels too relaxed or visually bulky upstairs; keep the lounge route, wet bar and terrace access clear.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod24400560"
+          ]
+        }
+      ],
+      "customItems": [
+        "Retain fitted walnut wet bar; freestanding RH console is conditional on AV ventilation and fit."
+      ],
+      "supportingItems": [
+        "One movable upholstered ottoman after checking routes; lower-cost supporting option possible.",
+        "Neutral charcoal/ivory cushions, a green plant and restrained dark ceramics.",
+        "Retain documented sheers/privacy system."
+      ],
+      "purchaseNotes": [
+        "This is a later phase after move-in rooms; select shared ivory fabric and walnut samples now.",
+        "Cloud is for sink-in lounging and needs cushion tidying; it does not replace the supportive great-room sofa choice.",
+        "Furniture configuration and delivery stair/roof route must be checked before ordering."
+      ],
+      "renderBrief": "Edit current photographed loft, preserving raised tray, French doors/windows, right slider and wet bar. Replace seating with RH Cloud three-piece sofa silhouette in warm ivory; no giant U-chaise. Keep current lounge orientation and clear routes. Use a moderate Enzo round walnut coffee table and one compact Shelter swivel chair; Gael walnut media console only in current console footprint. Warm neutral textiles, oak, separate wool rug and greenery; no new fireplace, blue/yellow or chrome.",
+      "status": "Proposed furniture consultation; not approved or ordered"
+    },
+    {
+      "id": "terrace",
+      "title": "Roof terrace",
+      "designSummary": "Natural teak and ivory outdoor cushions carry the warm modern house palette onto the roof.",
+      "layoutNotes": [
+        "Preserve roof silhouette, pergola posts, rails, stair opening, glazing and existing house-side fireplace.",
+        "Living17 ft3 \u00d717 ft1; dining12 ft4 \u00d712 ft8; sun12 ft4 \u00d79 ft4 plan references.",
+        "Furniture stays out of stair/door paths and required access areas; field measure wind exposure, load and delivery route."
+      ],
+      "products": [
+        {
+          "name": "Mesa Teak Sofa",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22320022",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_SOFA_pdp&layer=3&src=prod22320018_E416043749_F_Frank_RHR&anchorN=0,0.5&sizeN=0.9559471366,0.5436507937&",
+          "material": "Teak frame with handwoven all-weather wicker",
+          "proposedFinish": "Natural Teak with warm ivory outdoor performance cushions",
+          "planningSize": "90-inch width candidate",
+          "sizeStatus": "RH product page explicitly lists 72-, 90- and 108-inch widths; total depth, selected cushions, usable route and delivery still need verification.",
+          "quantity": 1,
+          "phase": "Later terrace phase",
+          "reason": "Architectural timber and soft cushions extend Mineral & Walnut outdoors without importing indoor walnut furniture.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod22320022"
+          ]
+        },
+        {
+          "name": "Mesa Teak Lounge Chair",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22320032",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_LOUNGE_CHAIR_pdp&layer=3&src=prod22320032_E71604439_TQ_RHR&anchorN=0,0.45&sizeN=0.8,0.85&",
+          "material": "Teak frame with handwoven all-weather wicker",
+          "proposedFinish": "Natural Teak with warm ivory outdoor performance cushions",
+          "planningSize": "Use actual chair footprint and allow recline/legroom if applicable",
+          "sizeStatus": "Planning target; exact current SKU dimensions and availability need confirmation",
+          "quantity": 2,
+          "phase": "Later terrace phase",
+          "reason": "A pair makes the fireplace lounge conversational while keeping the central route open.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod22320032"
+          ]
+        },
+        {
+          "name": "Mesa Teak Rectangular Coffee Table",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod16940016",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod16940016_E311644067_F_RHR?",
+          "material": "Teak slatted top with architectural stirrup bases",
+          "proposedFinish": "Natural Teak",
+          "planningSize": "48-inch width candidate",
+          "sizeStatus": "RH explicitly lists 48-, 60- and 72-inch widths. Depth and actual lounge spacing must be checked.",
+          "quantity": 1,
+          "phase": "With terrace sofa",
+          "reason": "The smaller length leaves space around the outdoor conversation group.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod16940016"
+          ]
+        },
+        {
+          "name": "Mesa Teak Rectangular Dining Table",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod16940017",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pdp&layer=3&src=prod16940017_E111643832_F_RS_RHR&anchorN=0,0.45&sizeN=0.95,0.85&",
+          "material": "Teak slatted top with architectural stirrup bases",
+          "proposedFinish": "Natural Teak",
+          "planningSize": "72-inch width candidate, six seats after chair/depth checks",
+          "sizeStatus": "RH page lists 72, 84, 96, 108 and 120-inch widths. Selected table depth, chair tucking and perimeter circulation unverified.",
+          "quantity": 1,
+          "phase": "Later terrace dining phase",
+          "reason": "A modest rectangle suits the separate dining zone; do not force a giant outdoor table onto the roof.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod16940017"
+          ]
+        },
+        {
+          "name": "Mesa Teak Dining Armchair",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22320024",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pdp&layer=3&src=prod22320024_E16043882_TQ_RHR&anchorN=0,0.45&sizeN=0.7,0.86&",
+          "material": "Teak with all-weather wicker and outdoor cushion",
+          "proposedFinish": "Natural Teak with ivory performance seat cushions",
+          "planningSize": "Six only if chair width and table leg positions allow; side-chair substitution may fit better",
+          "sizeStatus": "Planning target; exact current SKU dimensions and availability need confirmation",
+          "quantity": 6,
+          "phase": "With outdoor dining table",
+          "reason": "Comfortable terrace dining with a quieter silhouette than bulky woven club dining chairs.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod22320024"
+          ]
+        },
+        {
+          "name": "Mesa Teak Adjustable Chaise",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22320027",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod22320027_E716044077_TQ_RHR?",
+          "material": "Teak, all-weather wicker and outdoor cushion",
+          "proposedFinish": "Natural Teak with ivory outdoor cushion",
+          "planningSize": "One sun-zone chaise; actual length, width and recline envelope to verify",
+          "sizeStatus": "Planning target; exact current SKU dimensions and availability need confirmation",
+          "quantity": 1,
+          "phase": "Optional last phase",
+          "reason": "One adjustable chaise is enough to begin; it avoids filling the smaller sun terrace with a row of loungers.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod22320027"
+          ]
+        }
+      ],
+      "alternatives": [],
+      "customItems": [],
+      "supportingItems": [
+        "Charcoal outdoor planters and a few hardy green plants; plant selection after site exposure assessment.",
+        "A less expensive outdoor-rated neutral rug only where compatible with deck drainage and safe footing.",
+        "Include correctly fitted covers and dry cushion storage, priced separately from frame/cushion choices."
+      ],
+      "purchaseNotes": [
+        "Begin with sofa/coffee table; add lounge chairs, outdoor dining and sun chaise in later phases.",
+        "Select Natural Teak against the actual deck sample; exterior teak ages differently from indoor walnut.",
+        "RH price and lead time are configuration-specific; verify covers, cushions and delivery rather than using starting prices as a quote."
+      ],
+      "renderBrief": "Edit actual terrace source without changing roof, pergola, rails, stair, doors or house-side fireplace. Use Mesa natural-teak 90-inch sofa, two lounge chairs and 48-inch coffee table with ivory outdoor cushions in existing living zone. Dining uses a restrained 72-inch planning rectangle with six chairs only if visible and fits; do not distort architecture to show every zone. One optional matching chaise in the separate sun zone only where source composition permits. Charcoal planters and green foliage, Crown neighborhood context. No roof extension or invented fireplace.",
+      "status": "Proposed furniture consultation; not approved or ordered"
+    },
+    {
+      "id": "ownerbath",
+      "title": "Owners bathroom",
+      "designSummary": "Selected Study A pearl onyx-look porcelain and walnut vanity already do the visual work. Keep the bathroom architectural rather than filling it with loose RH furniture.",
+      "layoutNotes": [
+        "Retain fitted vanity, mirrors and wet-area surfaces; exact vanity width, plumbing and access govern.",
+        "Keep shower left, tub far end, vanity right, both windows and separate toilet room."
+      ],
+      "products": [],
+      "alternatives": [],
+      "customItems": [
+        "Retain the current room-specific fitted joinery/finish design; no RH loose-furniture replacement proposed."
+      ],
+      "supportingItems": [
+        "Moisture-tolerant framed neutral art above tub; original small purple towel/art detail retained.",
+        "Coordinated towels and washable bath mat from supporting suppliers; no new bedroom accent-color scheme."
+      ],
+      "purchaseNotes": [
+        "Finish fixed surfaces and required storage in the renovation phase.",
+        "Buy only essential linens/accessories for move-in; optional styling can wait.",
+        "Reuse the current approved room visualization because this furniture consultation does not change its design."
+      ],
+      "renderBrief": "Use current approved Mineral & Walnut image unchanged. No new RH loose furniture recommended; retain documented architecture and selected materials.",
+      "status": "Current finish reference; no loose RH furniture recommended",
+      "renderMode": "reuse_current"
+    },
+    {
+      "id": "sharedbath",
+      "title": "Shared bathroom",
+      "designSummary": "Keep selected E pale limestone-look porcelain and the fitted walnut double vanity.",
+      "layoutNotes": [
+        "6 ft1 \u00d712 ft5 plan reference; preserve two bedroom connections and separate bath/toilet compartment.",
+        "No invented exterior window or large freestanding storage cabinet."
+      ],
+      "products": [],
+      "alternatives": [],
+      "customItems": [
+        "Retain the current room-specific fitted joinery/finish design; no RH loose-furniture replacement proposed."
+      ],
+      "supportingItems": [
+        "Simple towel hooks, neutral towels, washable bath mat and essential closed storage within fitted vanity."
+      ],
+      "purchaseNotes": [
+        "Finish fixed surfaces and required storage in the renovation phase.",
+        "Buy only essential linens/accessories for move-in; optional styling can wait.",
+        "Reuse the current approved room visualization because this furniture consultation does not change its design."
+      ],
+      "renderBrief": "Use current approved Mineral & Walnut image unchanged. No new RH loose furniture recommended; retain documented architecture and selected materials.",
+      "status": "Current finish reference; no loose RH furniture recommended",
+      "renderMode": "reuse_current"
+    },
+    {
+      "id": "bath",
+      "title": "Bath #3",
+      "designSummary": "Compact windowless bath: fitted walnut storage and wipeable mineral-tone surfaces, with no loose furniture filler.",
+      "layoutNotes": [
+        "Plan-led concept, not a photo-verified elevation.",
+        "Vanity/toilet on garage-side wall, shower/bench opposite; gym and hall accesses preserved."
+      ],
+      "products": [],
+      "alternatives": [],
+      "customItems": [
+        "Retain the current room-specific fitted joinery/finish design; no RH loose-furniture replacement proposed."
+      ],
+      "supportingItems": [
+        "Neutral towels, modest hooks and washable bath mat only."
+      ],
+      "purchaseNotes": [
+        "Finish fixed surfaces and required storage in the renovation phase.",
+        "Buy only essential linens/accessories for move-in; optional styling can wait.",
+        "Reuse the current approved room visualization because this furniture consultation does not change its design."
+      ],
+      "renderBrief": "Use current approved Mineral & Walnut image unchanged. No new RH loose furniture recommended; retain documented architecture and selected materials.",
+      "status": "Current finish reference; no loose RH furniture recommended",
+      "renderMode": "reuse_current"
+    },
+    {
+      "id": "bath4",
+      "title": "Penthouse bathroom",
+      "designSummary": "Keep compact fitted storage and coordinated pale stone appearance.",
+      "layoutNotes": [
+        "Plan-led concept; west hall entry, north single vanity, east toilet and southern shower compartment.",
+        "Measure plumbing, shower/bench and actual clearances before selecting any retail vanity."
+      ],
+      "products": [],
+      "alternatives": [],
+      "customItems": [
+        "Retain the current room-specific fitted joinery/finish design; no RH loose-furniture replacement proposed."
+      ],
+      "supportingItems": [
+        "Simple mirror/storage, hooks and neutral towels; final bath fittings selected with plumbing contractor."
+      ],
+      "purchaseNotes": [
+        "Finish fixed surfaces and required storage in the renovation phase.",
+        "Buy only essential linens/accessories for move-in; optional styling can wait.",
+        "Reuse the current approved room visualization because this furniture consultation does not change its design."
+      ],
+      "renderBrief": "Use current approved Mineral & Walnut image unchanged. No new RH loose furniture recommended; retain documented architecture and selected materials.",
+      "status": "Current finish reference; no loose RH furniture recommended",
+      "renderMode": "reuse_current"
+    },
+    {
+      "id": "ownercloset",
+      "title": "Owners walk-in closet",
+      "designSummary": "A fitted modular storage system provides more value here than a large RH dresser.",
+      "layoutNotes": [
+        "8 ft5 \u00d711 ft plan reference; preserve entry and verify all hidden returns/services.",
+        "Keep a usable central aisle and accessible drawer/hanging clearances."
+      ],
+      "products": [],
+      "alternatives": [],
+      "customItems": [
+        "Retain the current room-specific fitted joinery/finish design; no RH loose-furniture replacement proposed."
+      ],
+      "supportingItems": [
+        "Modular ivory interior carcasses with walnut front details; adjustable rails, shelves and accessible warm lighting.",
+        "No central island or loose bench unless measured clearances support it."
+      ],
+      "purchaseNotes": [
+        "Finish fixed surfaces and required storage in the renovation phase.",
+        "Buy only essential linens/accessories for move-in; optional styling can wait.",
+        "Reuse the current approved room visualization because this furniture consultation does not change its design."
+      ],
+      "renderBrief": "Use current approved Mineral & Walnut image unchanged. No new RH loose furniture recommended; retain documented architecture and selected materials.",
+      "status": "Current finish reference; no loose RH furniture recommended",
+      "renderMode": "reuse_current"
+    },
+    {
+      "id": "laundry",
+      "title": "Laundry",
+      "designSummary": "Functional cabinetry and pale counters stay calm and practical.",
+      "layoutNotes": [
+        "8 ft3 \u00d710 ft4 plan reference.",
+        "Both original left-wall windows and sink retained, machines right.",
+        "Keep exact graphic: Rinse and repeat.. with two periods."
+      ],
+      "products": [],
+      "alternatives": [],
+      "customItems": [
+        "Retain the current room-specific fitted joinery/finish design; no RH loose-furniture replacement proposed."
+      ],
+      "supportingItems": [
+        "Pull-out hamper/basket storage within cabinets, labeled cleaning storage and compact folding surface.",
+        "No loose RH console or bedroom dresser."
+      ],
+      "purchaseNotes": [
+        "Finish fixed surfaces and required storage in the renovation phase.",
+        "Buy only essential linens/accessories for move-in; optional styling can wait.",
+        "Reuse the current approved room visualization because this furniture consultation does not change its design."
+      ],
+      "renderBrief": "Use current approved Mineral & Walnut image unchanged. No new RH loose furniture recommended; retain documented architecture and selected materials.",
+      "status": "Current finish reference; no loose RH furniture recommended",
+      "renderMode": "reuse_current"
+    },
+    {
+      "id": "gym",
+      "title": "Studio gym",
+      "designSummary": "Keep the finished studio empty until the homeowner chooses equipment.",
+      "layoutNotes": [
+        "11 ft11 \u00d713 ft1 reference and flat9 ft ceiling.",
+        "Preserve northwest closet, paired gallery doors, both windows and distinct bathroom access."
+      ],
+      "products": [],
+      "alternatives": [],
+      "customItems": [
+        "Retain the current room-specific fitted joinery/finish design; no RH loose-furniture replacement proposed."
+      ],
+      "supportingItems": [
+        "Only wall mirror, finished floor, existing lighting/shades and the motto: Surpass your limits. Right here, right now.",
+        "No chair, bench, storage furniture, plants or equipment added."
+      ],
+      "purchaseNotes": [
+        "Finish floor, mirror, motto, lights and closet access during renovation.",
+        "Keep the room empty until you choose equipment; do not spend the furniture allowance on filler.",
+        "Current room reference retained; no furniture generation needed."
+      ],
+      "renderBrief": "Use current approved Mineral & Walnut image unchanged. No new RH loose furniture recommended; retain documented architecture and selected materials.",
+      "status": "Current finish reference; no loose RH furniture recommended",
+      "renderMode": "reuse_current"
+    },
+    {
+      "id": "stair2",
+      "title": "Second-floor stair hall",
+      "designSummary": "Bare oak, warm white risers and dark railings make the stair itself the feature.",
+      "layoutNotes": [
+        "Retain quarter-turn/curved segment, intermediate landing and onward straight flight.",
+        "No stair runner, tread mats, rods or freestanding furniture on landings."
+      ],
+      "products": [],
+      "alternatives": [],
+      "customItems": [
+        "Retain the current room-specific fitted joinery/finish design; no RH loose-furniture replacement proposed."
+      ],
+      "supportingItems": [
+        "Retain neutral framed art and existing picture light; privacy/diffusion only if verified sightlines require it."
+      ],
+      "purchaseNotes": [
+        "Complete stair finish, secure handrail/guard and usable lighting before move-in.",
+        "Optional neutral art can be added later; keep landings and the walking route clear.",
+        "No loose RH furniture or stair runner is recommended."
+      ],
+      "renderBrief": "Use current approved Mineral & Walnut image unchanged. No new RH loose furniture recommended; retain documented architecture and selected materials.",
+      "status": "Current finish reference; no loose RH furniture recommended",
+      "renderMode": "reuse_current"
+    },
+    {
+      "id": "stair3",
+      "title": "Third-floor stair hall",
+      "designSummary": "Continue the exposed-oak stair finish to the penthouse.",
+      "layoutNotes": [
+        "Preserve quarter-turn geometry, intermediate landing, onward flight and three high windows.",
+        "No runner or added furniture into the circulation path."
+      ],
+      "products": [],
+      "alternatives": [],
+      "customItems": [
+        "Retain the current room-specific fitted joinery/finish design; no RH loose-furniture replacement proposed."
+      ],
+      "supportingItems": [
+        "Restrained neutral artwork and warm general illumination; leave high glazing open unless privacy survey finds a real need."
+      ],
+      "purchaseNotes": [
+        "Complete stair finish, secure handrail/guard and usable lighting before move-in.",
+        "Optional neutral art can be added later; keep landings and the walking route clear.",
+        "No loose RH furniture or stair runner is recommended."
+      ],
+      "renderBrief": "Use current approved Mineral & Walnut image unchanged. No new RH loose furniture recommended; retain documented architecture and selected materials.",
+      "status": "Current finish reference; no loose RH furniture recommended",
+      "renderMode": "reuse_current"
+    }
+  ]
+}

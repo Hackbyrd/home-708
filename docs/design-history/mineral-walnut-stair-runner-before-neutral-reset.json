@@ -1,0 +1,20 @@
+{
+  "version": "MW-A02",
+  "date": "2026-10-08",
+  "status": "Tonal runner direction illustrated; product and measured fabrication pending",
+  "scope": "All three interior floor-to-floor connections: floor 1 to 2, 2 to 3 and 3 to 4, including their turns and intermediate landings. Main-floor hallways remain exposed wood. Exterior stairs excluded.",
+  "material": "Warm oatmeal/taupe, fine low-pile woven texture with a narrow matching oatmeal/taupe bound edge. Select a manufacturer-approved stair-use wool blend or durable performance carpet after a physical sample; exact fiber, backing and product remain unselected.",
+  "installation": "Professionally fitted continuous visual path over the existing treads and risers, with tailored sections/joins at turns and landings. Use the carpet maker's approved stair underlay and fixing system, with concealed fixings and no loose tread mats or decorative stair rods. Preserve the existing tread, nosing, riser and guard geometry.",
+  "dimensions": "Measure and template every flight and quarter-turn/intermediate landing individually. Keep visually balanced exposed-wood margins on both sides. Final runner width, edge reveal, landing shape, binding width, seam positions, pile direction and cutting waste come from the installer survey, not image pixels. Tape the proposed edges on the actual stairs before cutting.",
+  "coordination": "Complete tread/rail refinishing first and allow the selected finish to cure. Keep carpet/underlay thickness consistent at transitions. Obtain one shop layout covering all three connections and show joins/binding before fabrication. Reuse the same carpet and binding batch across levels.",
+  "goods": [
+    2000,
+    4000
+  ],
+  "installationCost": [
+    1500,
+    3000
+  ],
+  "costBasis": "Whole-stair planning allowances for carpet, stair underlay, binding and ordinary cutting waste, with specialist fitting separately. Not a measured quantity takeoff or a supplier quote. Stair refinishing remains in its existing budget line; these are added runner costs only.",
+  "source": "https://www.annieselke.com/blogs/design-advice/stair-runner-guide"
+}

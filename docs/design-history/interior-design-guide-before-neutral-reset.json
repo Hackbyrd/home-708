@@ -1,0 +1,1142 @@
+{
+  "version": "MW-G06",
+  "date": "2026-10-08",
+  "title": "A home that feels considered.",
+  "subtitle": "Mineral & Walnut, refined around your life.",
+  "source": {
+    "title": "The Home Design Playbook",
+    "author": "Jonathan Chen",
+    "date": "2026-10-07",
+    "archive": "docs/design-history/home-design-playbook-source.md"
+  },
+  "position": "Mineral & Walnut keeps its warm ivory/mushroom, walnut, natural oak and dark details. Selected warm stone adds depth in the kitchen and bathrooms; tiny plum, blue and dusty-rose bedroom textiles give individual rooms a personal accent.",
+  "scope": "MW-M01: 24 spaces, 45 day views and 24 night views. Updated 13 day views and six paired nights for selected stone and small bedroom accents; all other approved architecture and rooms retained.",
+  "rules": [
+    {
+      "title": "Start with the room’s job",
+      "text": "Plan the walk, the seat, the light and the place to put a drink before choosing decoration. Write down the daily routine and the storage it needs."
+    },
+    {
+      "title": "Give each view a hierarchy",
+      "text": "Choose a lead element, then supporting elements. Your TV and fireplace can read as one composition. A room can have several functional zones without every wall becoming a feature."
+    },
+    {
+      "title": "Keep the materials related",
+      "text": "Natural oak floors, warm mineral/ivory walls, rich walnut and restrained black accents carry across the house. Repeat these materials with different proportions and silhouettes in each room."
+    },
+    {
+      "title": "Vary the silhouettes",
+      "text": "Balance soft upholstery, rounded tables and substantial walnut storage. Use legs, plinths or floating details according to the room and practical construction needs."
+    },
+    {
+      "title": "Design for daylight and evening",
+      "text": "Test material boards near several windows and under the intended lamps. Use sheers for softness, a separate privacy or blackout layer where needed, and controllable task and accent light."
+    },
+    {
+      "title": "Leave something unfilled",
+      "text": "Empty wall and clear surfaces give art and architecture room to matter. Collectibles, family photos and seasonal decor belong in intentional groups, with storage for the rest."
+    },
+    {
+      "id": "MW-M01",
+      "title": "Keep bedroom color small and removable",
+      "text": "Primary suite: muted plum. Bedroom 2: smoky-blue throw. Bedroom 3: dusty-rose throw and faint art detail. Keep the permanent finishes, large furniture and drapery neutral. Notice the room first and the color second."
+    }
+  ],
+  "palette": [
+    [
+      "Warm mineral",
+      "#d7cdbd",
+      "Walls · subtle movement"
+    ],
+    [
+      "Ivory",
+      "#f0ece3",
+      "Upholstery + drapery"
+    ],
+    [
+      "Natural oak",
+      "#c4a77c",
+      "Continuous dry-area floor"
+    ],
+    [
+      "Walnut",
+      "#70533e",
+      "Selected architectural accents"
+    ],
+    [
+      "Charcoal",
+      "#343733",
+      "Small grounding details"
+    ],
+    [
+      "Living green",
+      "#53664d",
+      "Plants, not a wall-color rule"
+    ]
+  ],
+  "materials": [
+    {
+      "title": "Walls: quiet mineral character",
+      "use": "Propose Roman Clay on selected dry focal surfaces, with washable warm matte paint elsewhere. Keep the application smooth and subtle in this sunlit house.",
+      "detail": "Price surface preparation separately. Compare a real sample of each finish with the same floor, upholstery and trim; the render does not specify a paint color.",
+      "source": "portola-clay"
+    },
+    {
+      "title": "Limewash: an alternative finish",
+      "use": "Use when a softer brushed, cloudy surface is wanted. It is not an automatic protective layer over decorative paint.",
+      "detail": "Follow the selected system’s primer and sealer instructions. A wipeable surface is not a waterproof splash assembly; use appropriate tile/stone and substrate systems at wet zones.",
+      "source": "portola-lime"
+    },
+    {
+      "title": "Floors: continuity with purpose",
+      "use": "Budget replacement natural oak in connected dry spaces and all four bedrooms, with separate rugs. Keep a single coordinated undertone through circulation and adjacent rooms.",
+      "detail": "Wet bathrooms, laundry needs and the gym may need different appropriate materials. Check substrate, moisture, stair levels and thresholds. Wide planks alone do not make a floor better."
+    },
+    {
+      "title": "Walnut + dark accents",
+      "use": "Use rich walnut for selected cabinetry, consoles and the owner-suite headwall. Natural oak flooring keeps the backdrop lighter; restrained black frames and hardware provide definition.",
+      "detail": "Approve a shared walnut sample. Grain, veneer sequencing, edge details and hardware quality matter more than repeating the same furniture shape everywhere."
+    },
+    {
+      "title": "Drapery: daylight and privacy",
+      "use": "Sleeping and cinema spaces: sheers plus blackout. Social rooms: sheers plus a discreet privacy shade. Working/wet areas: practical shades. See the complete 24-space schedule below.",
+      "detail": "Keep ivory/oatmeal textile faces and slim dark or concealed hardware. Sheers alone are used only where privacy and light-control needs are verified absent. Full closing coverage, returns and stack-back matter more than decorative side panels."
+    },
+    {
+      "title": "Light: layered, quiet and serviceable",
+      "use": "Design target: 2700K in relaxed spaces and coordinated 3000K task areas, or compatible warm-dim systems; judge connected sightlines as a whole.",
+      "detail": "Aim for 90+ CRI, but also check glare, output, dimmer compatibility and flicker. Mock up the actual fixture and control. Keep LED drivers accessible and dots out of view.",
+      "source": "doe-light"
+    },
+    {
+      "id": "MW-M01",
+      "title": "Selected stone-look porcelain · A / C1 / E",
+      "use": "A: pearl onyx appearance around the primary bathing areas. C1: cream quartzite appearance on kitchen worktops, backsplash and waterfall. E: pale limestone appearance behind the shared vanity and on the doorway return. Original mineral fireplace retained while its choice remains open.",
+      "detail": "These are porcelain appearance directions, not selected natural stone or product SKUs. Confirm physical samples, approved applications, format, layout, joints, edges and installation with the relevant fabricator. Obtain the actual cost difference before committing to the finishes."
+    }
+  ],
+  "qualifications": [
+    [
+      "“Go bigger”",
+      "Choose the largest piece that still fits circulation, doors, reach and daily use. Our dining table needs a plan test before any increase."
+    ],
+    [
+      "“One focal point”",
+      "Use a clear visual hierarchy within each view or zone; a fireplace and TV can be one composition. Keep the existing TV location unless separately redesigned."
+    ],
+    [
+      "“Never mix color temperatures”",
+      "Avoid accidental mismatches within a scene. Deliberate warm-dim lamps or task layers can coexist when tested together."
+    ],
+    [
+      "“Paint is two shades darker on a full wall”",
+      "There is no reliable fixed two-shade conversion. Test large physical samples across daylight and evening conditions."
+    ],
+    [
+      "“50% strength means half as dark”",
+      "A tint formula change is not a predictable lightness conversion. Select and sample the actual proposed color."
+    ],
+    [
+      "“Satin everywhere wet; flat everywhere dry”",
+      "Choose an actual coating system for cleaning, moisture and substrate. Sheen alone does not establish durability or waterproofing."
+    ],
+    [
+      "“One antique / three repeats / 60–30–10”",
+      "Useful prompts, not quotas. Personal pieces and visual balance matter more than counting objects or percentages."
+    ],
+    [
+      "“Buy custom for a luxury result”",
+      "Custom solves a specific fit or storage problem. Use well-made retail furniture; quote stock boxes with tailored fronts where appropriate. No guaranteed saving percentage."
+    ],
+    [
+      "“Replace all ordinary finishes”",
+      "Spend where an upgrade changes comfort, function or a key view. Retention, refinishing and good installation can be the better choice."
+    ],
+    [
+      "“TV distance is a fixed diagonal multiple”",
+      "Use the chosen screen, resolution, content, viewing preference and actual seat location. Test at full size; the playbook’s multiplier is not universal."
+    ]
+  ],
+  "measurements": [
+    [
+      "Main circulation",
+      "Start around 36 in clear; aim for more on busy routes",
+      "Planning target, not an accessibility or code approval; include open doors and drawer positions."
+    ],
+    [
+      "Kitchen work aisles",
+      "42 in for one cook / 48 in for multiple cooks",
+      "NKBA design recommendations; measure counter/appliance fronts. Accessible layouts and local requirements may need more."
+    ],
+    [
+      "Dining circulation",
+      "Aim for 42–48 in where people pass behind seats",
+      "Check the real pulled-out chair and cabinet projection. Table-to-wall arithmetic alone is not a usable aisle."
+    ],
+    [
+      "Sofa to coffee table",
+      "Start around 14–18 in",
+      "Adjust to seat depth, knee room, reach and mobility. Do not sacrifice the main route."
+    ],
+    [
+      "Artwork",
+      "Start near 57–60 in center on an open wall",
+      "Artwork over furniture relates to the furniture and architecture; mock it up rather than forcing eye-level rules."
+    ],
+    [
+      "Rug sizing",
+      "Keep the seating group connected; allow dining chairs to stay on the rug",
+      "Use actual furniture footprints. A larger rug cannot correct an oversized table."
+    ],
+    [
+      "Bedside use",
+      "Start with 30–36 in comfortable circulation where feasible",
+      "Coordinate with bed drawers, door swings and the user’s access needs; measure nightstands against the actual mattress."
+    ],
+    [
+      "Pendents + chandeliers",
+      "Use the table/island, fixture scale and sightline",
+      "The room-length-plus-width formula is only a sketch; actual fixture instructions and clearance requirements govern."
+    ]
+  ],
+  "phases": [
+    {
+      "title": "01 · Resolve and sample",
+      "text": "Measure the house, tape furniture layouts and approve a shared material board. Resolve Bedroom 5 construction, Bedroom 2 geometry, dining clearances and nighttime privacy.",
+      "spend": "Pay for the survey, drawings and real samples before committing to fabrication."
+    },
+    {
+      "title": "02 · Coordinate fixed work",
+      "text": "Assume most finishes need replacement. Coordinate Bedroom 5 partitions, flooring, wet-room systems, electrical changes and useful walnut built-ins. Retain service locations where feasible.",
+      "spend": "Quote prep, materials, installation, disposal and tax separately; compare retention and replacement where realistic."
+    },
+    {
+      "title": "03 · Build the comfort layer",
+      "text": "Buy new furniture against an agreed schedule: beds and mattresses, seating, rugs, drapery and useful tables. Furnish the primary living and sleeping rooms first.",
+      "spend": "Prioritize touch points and daily comfort. Keep a contingency appropriate to the surveyed scope rather than a universal furnishing percentage."
+    },
+    {
+      "title": "04 · Collect and adjust",
+      "text": "Add art, plants and seasonal decoration once the core rooms work. Later purchases may be phased; they are deferred costs, not permanent savings.",
+      "spend": "Use movable accents for experiments. Avoid a whole-house replacement order before the first rooms work."
+    }
+  ],
+  "checks": [
+    [
+      "measure",
+      "Measured plans include doors, windows, services and delivery routes."
+    ],
+    [
+      "furniture",
+      "New furniture is measured, budgeted and allocated by room before ordering."
+    ],
+    [
+      "sample",
+      "Wall, floor, wood, metal and textile samples reviewed together in daylight and evening light."
+    ],
+    [
+      "layout",
+      "Furniture taped out; doors, drawers and chairs operate without blocking key routes."
+    ],
+    [
+      "privacy",
+      "Sheer, privacy and blackout needs tested after dark."
+    ],
+    [
+      "light",
+      "Lighting layers, control compatibility, glare and service access checked."
+    ],
+    [
+      "joinery",
+      "Joinery drawings show hardware, hinges, supports, power and ventilation."
+    ],
+    [
+      "wet",
+      "Wet-zone materials and waterproofing system coordinated with installer."
+    ],
+    [
+      "budget",
+      "Quotes separate materials, prep and labor; quantities, lead times and contingency are recorded."
+    ],
+    [
+      "handoff",
+      "Finish/product schedule, sample references, drawings and open questions issued together."
+    ]
+  ],
+  "seasonal": "Keep the permanent background calm. Christmas can bring evergreen, deep red, silver or warm lights; Halloween can use charcoal, amber and branches. Rotate a few textiles and objects, retain clear walkways, and reserve a storage location for each seasonal set. No permanent yellow/blue requirement.",
+  "sources": [
+    {
+      "id": "playbook",
+      "title": "The Home Design Playbook · Jonathan Chen",
+      "note": "Owner-supplied source dated Oct 7, 2026. Adapted for this house; guidance above includes designer qualifications."
+    },
+    {
+      "id": "portola-clay",
+      "title": "Portola · Roman Clay application and care",
+      "url": "https://portolapaints.com/products/sample-jars-roman-clay",
+      "note": "Manufacturer guidance: substrate preparation, topcoat and wet-area limits."
+    },
+    {
+      "id": "portola-lime",
+      "title": "Portola · Lime Wash system",
+      "url": "https://portolapaints.com/pages/lime-wash-series",
+      "note": "Manufacturer guidance: drywall undercoat, finish character and wipeable sealer."
+    },
+    {
+      "id": "doe-light",
+      "title": "US Department of Energy · Light-bulb selection",
+      "url": "https://www.energy.gov/cmei/femp/purchasing-energy-efficient-light-bulbs",
+      "note": "CCT, color rendering and dimming compatibility; design targets here are our proposal."
+    },
+    {
+      "id": "nkba",
+      "title": "NKBA · Kitchen planning guidelines",
+      "url": "https://media.nkba.org/uploads/2022/05/Kitchen-Planning-Guidelines.pdf",
+      "note": "Planning reference with older code citations; not a statement of current local code. Use current project requirements."
+    }
+  ],
+  "rooms": [
+    {
+      "id": "entry",
+      "title": "Entrance gallery",
+      "floor": "first-floor",
+      "mood": "Arrival with breathing room",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Light glazed side doors, both inscriptions, natural front door and existing stair/landing.",
+      "improve": "Gallery void, side doors, arch and existing stair retained; quieter wall color and tonal runner. Front view remains derived. Reverse entry retains single wood door, high round window and clear side doors; finish updated to companion view. Interior door face remains inferred from exterior photo.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "Lighting + finish samples",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r01/entry-e1-day.png",
+      "windowTreatment": {
+        "id": "entry",
+        "system": "practical",
+        "recommendation": "No gallery drapes; discreet privacy shade on exterior entrance glass if needed",
+        "coverage": "Exterior front-door glazing only, subject to measured fit. Keep internal clear-glass office/media door pairs uncovered in the gallery. High gallery glazing is reviewed separately for neighboring sightlines.",
+        "why": "The two-story chandelier, arch and light doors should remain the focus. Full-height curtains add bulk; street-level entrance glass may still need evening privacy.",
+        "day": "Entrance shade raised; gallery bright and open.",
+        "night": "Lower the entrance privacy shade if the street can see into the house. Keep internal gallery doors visually clear.",
+        "installation": "Provisional allowance for one compact door-mounted privacy solution; verify the arched glass, hardware, attachment and door swing. Do not cover inscriptions. Omit the purchase if the actual glass already provides adequate privacy.",
+        "goods": [
+          200,
+          400
+        ],
+        "installationCost": [
+          75,
+          150
+        ],
+        "title": "Entrance gallery",
+        "floor": "first-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-one-review/r04/entry-a-floor.png"
+    },
+    {
+      "id": "office",
+      "title": "Home office",
+      "floor": "first-floor",
+      "mood": "A working library",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Large rectangular desk facing northwest; artwork and compact printer cabinet to the right of the entry.",
+      "improve": "Both original window banks now visible at correct relative sizes (two front/three right); full interior-wall TV joinery, desk and no window counter. Task seat restored to window side, with visitors toward built-in; clear gallery doors, printer and art retained. Desk alignment remains a measured furniture-plan decision.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "Storage + task lighting",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r01/office-o1-day.png",
+      "windowTreatment": {
+        "id": "office",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + hidden light-filtering privacy shades",
+        "coverage": "Both exterior window walls: front two-unit group and right three-unit group. Preserve clear internal gallery doors.",
+        "why": "Adjustable glare control helps screen work and calls; a separate privacy layer lets you work after dark without closing the room off all day. Blackout is unnecessary for normal office use.",
+        "day": "Sheers soften sun; adjust the shade on the bright side for monitor glare.",
+        "night": "Lower privacy shades on both exterior window walls.",
+        "installation": "Keep window access, full north-wall cabinetry, southeast desk/chair and door routes clear. Use a non-see-through privacy fabric, not an open solar screen; check it with interior lights on.",
+        "goods": [
+          700,
+          1100
+        ],
+        "installationCost": [
+          200,
+          350
+        ],
+        "title": "Home office",
+        "floor": "first-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-one-review/r04/office-a.png"
+    },
+    {
+      "id": "media",
+      "title": "Media room",
+      "floor": "first-floor",
+      "mood": "A calm private cinema",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "West-wall doorway, clear glazing, generous Cloud-style seating, soundbar and surround/ceiling audio.",
+      "improve": "Broad paired window restored; neutral daylight and calm TV panel with soundbar/ceiling audio retained. Opening dimensions remain subject to survey. Reverse media view places clear gallery doors on adjoining west wall, slim figurine shelves to right and coherent TV/console/sectional/audio.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "AV coordination + acoustics",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r02/media-m1-day-30603.png",
+      "windowTreatment": {
+        "id": "media",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + blackout-lined curtains; removable clear-door covers for movie mode",
+        "coverage": "Full street-facing two-sash window plus a separate removable opaque cover for each interior glazed door leaf. The doors remain clear when covers are stowed.",
+        "why": "Daylight and gallery light both reduce contrast on the 83-inch TV. Privacy alone is insufficient for the requested theater atmosphere.",
+        "day": "Sheers for casual use; close blackout panels for daytime films.",
+        "night": "Close blackout panels and fit the room-side door covers for movies; dim lights near the screen.",
+        "installation": "Resolve curtain overlap, returns and head gap. Use removable room-side covers with a finish-compatible attachment and storage location; each door must remain operable with handles clear. Keep figurine shelves and the west-wall doorway unobstructed. Allowance includes these covers; do not frost the doors permanently.",
+        "goods": [
+          850,
+          1500
+        ],
+        "installationCost": [
+          250,
+          450
+        ],
+        "title": "Media room",
+        "floor": "first-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-one-review/r04/media-a-final.png"
+    },
+    {
+      "id": "gym",
+      "title": "Studio gym",
+      "floor": "first-floor",
+      "mood": "Clear, energizing space",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Empty room; northwest closet; “Surpass your limits. Right here, right now.”",
+      "improve": "Empty gym now includes empty mirror reflection; original paired window and plan closet/bath access retained. Gym reverse now empty; clear paired doors, small portico window and wide paired street window retained.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "Durable finishes",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r02/gym-g1-day-30504.png",
+      "windowTreatment": {
+        "id": "gym",
+        "system": "practical",
+        "recommendation": "Washable light-filtering privacy roller shades; no loose drapes",
+        "coverage": "Large two-sash exterior window and smaller portico-side window; no curtains on the internal doors.",
+        "why": "Shades control mirror glare and street privacy without loose fabric in future equipment space. Workout use does not require blackout.",
+        "day": "Raise or partly lower shades to reduce mirror glare.",
+        "night": "Lower privacy shades for exercise with the lights on.",
+        "installation": "Choose cordless, wipeable material; keep northwest closet access, mirror and quote clear. Room remains unfurnished and equipment-free in this design.",
+        "goods": [
+          300,
+          600
+        ],
+        "installationCost": [
+          100,
+          200
+        ],
+        "title": "Studio gym",
+        "floor": "first-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-one-review/r03/gym-a-empty-quote.png"
+    },
+    {
+      "id": "bath",
+      "title": "Bath #3",
+      "floor": "first-floor",
+      "mood": "Small but deliberate",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Existing fixture zones and compact plan-led layout.",
+      "improve": "Ivory porcelain floor restored; vanity/toilet end, two side accesses and windowless plan retained. Reverse windowless Bath 3 view shows shower opposite vanity/toilet, with side access doors and coordinated porcelain.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "Moisture + useful storage",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r02/bath-b1-day-30505.png",
+      "windowTreatment": {
+        "id": "bath",
+        "system": "none",
+        "recommendation": "No window treatment",
+        "coverage": "Bath #3 is windowless in the documented layout.",
+        "why": "There is no exterior glazing to dress. Do not add a curtain allowance for a reflected or imagined opening.",
+        "day": "Use planned task and ambient lighting.",
+        "night": "Privacy comes from the bathroom door.",
+        "installation": "Verify the existing room during survey; revise only if an actual exterior opening is found.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Bath #3",
+        "floor": "first-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-one-review/r01/bath-a-vanity.png"
+    },
+    {
+      "id": "great",
+      "title": "Great room",
+      "floor": "second-floor",
+      "mood": "Relaxed, collected luxury",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Both high transoms, terrace access and sibling artwork above both consoles.",
+      "improve": "Two high transoms and terrace glazing retained; sibling art, seating and reachable drink table coordinated. Companion great-room camera retains transoms, terrace glazing, sibling artworks and furnishing layout.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "Pilot render + furniture scale",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r01/great-gr1-day.png",
+      "windowTreatment": {
+        "id": "great",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + hidden privacy shades; no mandatory blackout",
+        "coverage": "Terrace-facing glazing. Leave the two high horizontal transoms beside the fireplace bare unless glare or a neighboring sightline requires treatment.",
+        "why": "This is a social room with a TV, so flexible glare control and evening privacy matter more than cinema-level darkness. The airy main-floor appearance stays intact.",
+        "day": "Sheers diffuse sun; adjust the privacy shade where glare reaches the TV.",
+        "night": "Close privacy shades when the room is visible from outside.",
+        "installation": "Coordinate a traversing solution at operable terrace glass; stacks must clear handles and passage. Quote a blackout-fabric upgrade separately only if daytime TV testing shows it is wanted. High-transom treatment is not assumed in the base allowance.",
+        "goods": [
+          850,
+          1500
+        ],
+        "installationCost": [
+          200,
+          350
+        ],
+        "title": "Great room",
+        "floor": "second-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-two-review/r02/great-a.png"
+    },
+    {
+      "id": "kitchen",
+      "title": "Kitchen",
+      "floor": "second-floor",
+      "mood": "Quiet working backdrop",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Existing layout, right-end wall-oven column, island and improved dome pendants.",
+      "improve": "Selected C1: quiet cream quartzite-look porcelain on worktops, working backsplash and island waterfall; warm ivory cabinetry, rich walnut seating-side island and original layout retained.",
+      "verify": "Material and color visualization, not a measured specification. Physical samples, product approvals, detailed panel/edge layouts and trade quotes remain required.",
+      "priority": "Stone sample + installer takeoff",
+      "visualStatus": "MW-M01 · selected stone and small accents illustrated",
+      "baseline": "assets/render-candidates/mineral-walnut-stone/r02/c1-kitchen.png",
+      "windowTreatment": {
+        "id": "kitchen",
+        "system": "practical",
+        "recommendation": "Wipeable privacy roller at the counter window",
+        "coverage": "Kitchen counter window only. Adjacent sunroom window banks are counted in the sunroom.",
+        "why": "The kitchen needs daylight and evening privacy, with a finish that tolerates cooking and cleaning. Full-length drapes are impractical at a counter or splash area.",
+        "day": "Raise or partly lower for working light and glare control.",
+        "night": "Lower the non-see-through privacy shade.",
+        "installation": "Select washable material and a compact cordless mechanism; survey faucet, backsplash, handles and appliance clearances. No blackout required.",
+        "goods": [
+          200,
+          400
+        ],
+        "installationCost": [
+          75,
+          125
+        ],
+        "title": "Kitchen",
+        "floor": "second-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-two-review/r02/kitchen-a.png"
+    },
+    {
+      "id": "dining",
+      "title": "Formal dining",
+      "floor": "second-floor",
+      "mood": "Warm, flexible dining for eight daily and occasional ten after fit verification.",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Five original windows and niche; eight-seat extension table with occasional ten-seat setup after fit verification.",
+      "improve": "Five photographed opening locations and high arch retained; eight-seat closed extension table, shallow shelf and differentiated pendant shown. Useful high-window/shelf detail preserves small high arch and adjacent tall windows without enlarging opening.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "Pilot render + clearance study",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r02/dining-d1-day-30508.png",
+      "windowTreatment": {
+        "id": "dining",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + discreet privacy shades at tall windows",
+        "coverage": "Four tall openings: two rectangular and two arched. The small high center arch stays bare unless a sightline check requires coverage. The wall niche is not glazing.",
+        "why": "Dinner after dark requires privacy while daytime entertaining benefits from light. Heavy blackout is unnecessary and should not obscure the arched architecture when open.",
+        "day": "Sheers filter daylight; privacy layers fully raised and curtain stacks off glass.",
+        "night": "Lower the privacy layer at all tall openings.",
+        "installation": "Survey each opening individually. Mount the privacy layer to cover the whole tall opening, including an arch when closed, while clearing its shape when raised. Verify space above arches; price any required specialty arch treatment separately instead of assuming a standard roller fits.",
+        "goods": [
+          900,
+          1600
+        ],
+        "installationCost": [
+          250,
+          450
+        ],
+        "title": "Formal dining",
+        "floor": "second-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-two-review/r02/dining-a-ten-complete.png"
+    },
+    {
+      "id": "living",
+      "title": "Living room · piano salon",
+      "floor": "second-floor",
+      "mood": "A music-led salon",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Baby grand, white sofa and clear drapes; room remains a plan-led concept.",
+      "improve": "Plan-led living study now shows open dining boundary, two front living windows, solid east-side wall, compact piano/sofa/chair arrangement and no invented portal. Tighter framing excludes unsupported ceiling details; no dedicated living photograph exists. Piano-side secondary concept retains two front windows, sofa at the open dining boundary, one chair, walnut table and baby grand. No dedicated room photograph; the apparent header at the dining opening is an unverified junction, not a proposed structural alteration or confirmed existing beam.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "Measured furniture plan",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r02/living-lr1-day-30909.png",
+      "windowTreatment": {
+        "id": "living",
+        "system": "privacy",
+        "recommendation": "Clear ivory sheers + hidden privacy/glare shades",
+        "coverage": "Real south/front exterior windows only; do not treat the east-wall decorative false-window feature as exterior glazing.",
+        "why": "Maintain the bright piano salon and soft Cloud-style seating, with privacy after dark. An adjustable layer also helps reduce direct sun at the piano; sheers alone are not a complete sun-protection strategy.",
+        "day": "Sheers drawn lightly; shade only where direct sun or glare calls for it.",
+        "night": "Lower privacy shades on the front windows.",
+        "installation": "Coordinate stack-back with piano lid, seating and circulation; confirm piano placement and environmental guidance with the chosen manufacturer. No blackout requirement.",
+        "goods": [
+          600,
+          1100
+        ],
+        "installationCost": [
+          150,
+          300
+        ],
+        "title": "Living room · piano salon",
+        "floor": "second-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-two-review/r02/living-a-final.png"
+    },
+    {
+      "id": "sunroom",
+      "title": "Sunroom",
+      "floor": "second-floor",
+      "mood": "Light, easy everyday dining",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Six seats, rectangular table, improved chandelier and transparent drapes.",
+      "improve": "Window banks, transoms/knee walls, oven column and terrace door preserved; six-seat table and privacy layers visible. Closer kitchen-side sunroom perspective retains six chairs, wraparound transoms and knee walls, pendant and layers.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "Daylight + everyday use",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s1-day.png",
+      "windowTreatment": {
+        "id": "sunroom",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + independent privacy shades by window bank",
+        "coverage": "Wraparound lower glazing and terrace-door glass as measured. High transoms stay open visually unless an actual sightline or glare issue requires coverage.",
+        "why": "The six-seat breakfast area should feel bright. Separate shades let you manage individual sunny sides and evening privacy without making the whole room dark.",
+        "day": "Use sheers; lower only the shade on the sunniest side as needed.",
+        "night": "Close the privacy layer where neighbors can see in.",
+        "installation": "Split shade zones at real mullions and provide a compatible operable-door solution. Keep fabric and stacks clear of oven/cooking surfaces and door travel. Match the main-floor sheer color; no heavy blackout lining in the base.",
+        "goods": [
+          900,
+          1500
+        ],
+        "installationCost": [
+          300,
+          500
+        ],
+        "title": "Sunroom",
+        "floor": "second-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-two-review/r02/sunroom-a.png"
+    },
+    {
+      "id": "stair2",
+      "title": "Second-floor stair hall",
+      "floor": "second-floor",
+      "mood": "A coherent connection",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Quarter-turn/curved rise, halfway landing and onward straight flight; existing guard and openings.",
+      "improve": "Original curved/fanned flight, stairwell edge, side arch and window pair retained with tonal-bound runner. Closer runner detail retains accepted curved/fanned treads, exposed oak margins and original guard; not an invented reverse stair.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "Architecture + safe circulation",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r02/stair2-st1-day-30511.png",
+      "windowTreatment": {
+        "id": "stair2",
+        "system": "none",
+        "recommendation": "Bare high glazing by default; privacy review before ordering",
+        "coverage": "Existing high stacked stair windows.",
+        "why": "The landing and quarter-turn stair benefit from daylight; loose drapes would add clutter at circulation. No sleep or cinema use requires blackout.",
+        "day": "Keep glass open visually; add fixed diffusion only if glare warrants it.",
+        "night": "Check views from neighboring upper floors; height alone does not guarantee privacy.",
+        "installation": "No new covering in the base budget. If the survey reveals a sightline, price a discreet privacy treatment and safe operating/cleaning access separately. Keep fabric away from treads and guards.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Second-floor stair hall",
+        "floor": "second-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-two-review/r01/stair2-a-hall.png"
+    },
+    {
+      "id": "ownerbed",
+      "title": "Owners suite",
+      "floor": "third-floor",
+      "mood": "A restful private suite",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "White platform bed, art above, 55-inch TV/soundbar opposite, walnut headwall band and floating bedside consoles.",
+      "improve": "Original Mineral & Walnut primary suite with one small muted plum throw at the foot of the ivory bed. Walnut headwall, neutral drapery, four-sash bank, artwork and TV remain as planned.",
+      "verify": "Material and color visualization, not a measured specification. Physical samples, product approvals, detailed panel/edge layouts and trade quotes remain required.",
+      "priority": "Small textile accent + sample review",
+      "visualStatus": "MW-M01 · selected stone and small accents illustrated",
+      "baseline": "assets/render-candidates/mineral-walnut-materials/r01/ownerbed-ob1-day.png",
+      "windowTreatment": {
+        "id": "ownerbed",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + fully closing oatmeal blackout-lined curtains",
+        "coverage": "Full four-sash rear window group. Coordinate the open retreat as part of the same sleep-darkening zone.",
+        "why": "The primary bedroom needs sleeping darkness, daytime rest and evening privacy. Treating only this room would leave light entering through the open retreat.",
+        "day": "Sheers filter daylight; blackout layer stacks clear.",
+        "night": "Close both bedroom and retreat blackout layers; switch off decorative under-bed lighting for sleep if preferred.",
+        "installation": "Use independent tracks with overlap/returns. Check the dresser below the window before deciding curtain drop and stack. If it prevents full closure, use a blackout roller behind the sheers rather than trapping fabric behind furniture. Inspect all light gaps after installation.",
+        "goods": [
+          900,
+          1600
+        ],
+        "installationCost": [
+          200,
+          350
+        ],
+        "title": "Owners suite",
+        "floor": "third-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-three-review/r03/ownerbed-a.png"
+    },
+    {
+      "id": "retreat",
+      "title": "Owners retreat",
+      "floor": "third-floor",
+      "mood": "A quiet morning ritual",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Bar plumbing, glazing and existing room relationships.",
+      "improve": "Retain the walnut coffee bar and neutral seating. The open view into the primary bedroom now matches its small plum throw; the retreat itself stays neutral.",
+      "verify": "Material and color visualization, not a measured specification. Physical samples, product approvals, detailed panel/edge layouts and trade quotes remain required.",
+      "priority": "Small textile accent + sample review",
+      "visualStatus": "MW-M01 · selected stone and small accents illustrated",
+      "baseline": "assets/render-candidates/mineral-walnut-materials/r01/retreat-or1-day.png",
+      "windowTreatment": {
+        "id": "retreat",
+        "system": "blackout",
+        "recommendation": "Match the bedroom: ivory sheers + blackout layer",
+        "coverage": "Both exterior window walls and any connected terrace-door glazing confirmed on site. Do not add a door to the open bedroom connection.",
+        "why": "Although this is a sitting/coffee area, it is open to the bedroom. Untreated retreat glass would defeat the bedroom blackout treatment.",
+        "day": "Sheers for the lounge; blackout curtains stacked away from glass.",
+        "night": "Close all retreat exterior-glass blackout layers with the bedroom curtains.",
+        "installation": "Survey all window groups and terrace access. Keep curtains clear of the bar, appliances and door swings. Where a door cannot accept curtains, use an independent blackout shade with gap control; keep the visible fabric coordinated with the bedroom.",
+        "goods": [
+          1200,
+          2000
+        ],
+        "installationCost": [
+          300,
+          550
+        ],
+        "title": "Owners retreat",
+        "floor": "third-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-three-review/r01/retreat-a.png"
+    },
+    {
+      "id": "ownerbath",
+      "title": "Owners bathroom",
+      "floor": "third-floor",
+      "mood": "A warm, durable spa",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Tub, shower, windows, double vanity and artwork location.",
+      "improve": "Selected Study A: pearl onyx-look porcelain on the tub focal wall and shower walls, with the existing small purple towel and artwork accents; walnut vanity and pale floor retained.",
+      "verify": "Material and color visualization, not a measured specification. Physical samples, product approvals, detailed panel/edge layouts and trade quotes remain required.",
+      "priority": "Stone sample + installer takeoff",
+      "visualStatus": "MW-M01 · selected stone and small accents illustrated",
+      "baseline": "assets/render-candidates/mineral-walnut-stone/r01/a-ownerbath.png",
+      "windowTreatment": {
+        "id": "ownerbath",
+        "system": "practical",
+        "recommendation": "Wet-area privacy at shower glass; moisture-resistant shade at dry window",
+        "coverage": "Exterior window within the shower and the dry vanity-side exterior window.",
+        "why": "Bathing needs reliable privacy, not decorative sheers. Fabric in direct shower spray is unsuitable; bedroom blackout can be managed with the bathroom door closed.",
+        "day": "Shower-window privacy remains in place while admitting diffuse daylight; adjust the dry-window shade.",
+        "night": "Close the dry-window opaque privacy shade; verify the shower treatment conceals silhouettes under actual interior lighting.",
+        "installation": "Provisional base: obscuring film explicitly compatible with the shower exposure and existing glazing, plus a moisture-resistant opaque roller on the dry window. If film cannot meet privacy/compatibility needs, quote suitable obscured glazing separately; window replacement is not included. No hanging sheer or drape in the shower.",
+        "goods": [
+          350,
+          650
+        ],
+        "installationCost": [
+          150,
+          250
+        ],
+        "title": "Owners bathroom",
+        "floor": "third-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-three-review/r03/ownerbath-a.png"
+    },
+    {
+      "id": "ownercloset",
+      "title": "Owners walk-in closet",
+      "floor": "third-floor",
+      "mood": "Order without excess millwork",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Existing walk-in footprint and door position.",
+      "improve": "Windowless U-shaped plan-led closet remains; oak and separate runner preserve aisle. Cabinet modules remain illustrative.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "Inventory + lighting",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r01/ownercloset-wc1-day.png",
+      "windowTreatment": {
+        "id": "ownercloset",
+        "system": "none",
+        "recommendation": "No window treatment",
+        "coverage": "Windowless closet in the current plan-led concept.",
+        "why": "No exterior opening needs a covering; preserve storage and task lighting.",
+        "day": "Use closet lighting.",
+        "night": "Privacy is provided by the suite and closet enclosure.",
+        "installation": "Confirm during measured survey; do not invent a window to match a render reflection.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Owners walk-in closet",
+        "floor": "third-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-three-review/r01/ownercloset-a.png"
+    },
+    {
+      "id": "bed2",
+      "title": "Bedroom 2",
+      "floor": "third-floor",
+      "mood": "A tailored guest/work room",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Cream guest room with the headboard against the stair-hall wall (top of printed plan), closet on the shared-bathroom wall (plan-left), and compact desk beside the narrow side window. Wide front window remains on plan-bottom wall.",
+      "improve": "Corrected blueprint layout with stair-hall headboard, shared-bathroom-wall closet and existing desk. One smoky-blue throw adds a small accent; cream walls, ivory bedding, walnut and neutral drapery remain.",
+      "verify": "Material and color visualization, not a measured specification. Physical samples, product approvals, detailed panel/edge layouts and trade quotes remain required.",
+      "priority": "Small textile accent + sample review",
+      "visualStatus": "MW-M01 · selected stone and small accents illustrated",
+      "baseline": "assets/render-candidates/mineral-walnut-materials/r01/bed2-b21-day.png",
+      "windowTreatment": {
+        "id": "bed2",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + blackout-lined curtains or concealed blackout roller",
+        "coverage": "Wide front window on plan-bottom wall and narrow side window on plan-right wall. Headboard on stair-hall wall (plan-top); closet on shared-bathroom boundary (plan-left).",
+        "why": "A sleeping room needs darkness and nighttime privacy even when also used for study. The desk is not a reason to omit blackout.",
+        "day": "Sheers and an adjustable shade position for study light.",
+        "night": "Fully close the blackout layer.",
+        "installation": "Keep desk access and window operation clear. Prefer full closing curtains where they fit; if the desk blocks their travel, use a blackout roller with suitable edge overlap behind the sheers. No freestanding furniture changes required.",
+        "goods": [
+          400,
+          750
+        ],
+        "installationCost": [
+          125,
+          200
+        ],
+        "title": "Bedroom 2",
+        "floor": "third-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-three-review/r03/bed2-a-final.png"
+    },
+    {
+      "id": "bed3",
+      "title": "Bedroom 3",
+      "floor": "third-floor",
+      "mood": "A light, window-led bedroom",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Bed on right wall between its windows; oak floor and separate rug.",
+      "improve": "Window-led neutral bedroom with a small dusty-rose throw and faint related detail in the existing artwork; retain all three windows, right-wall bed, ivory bedding and charcoal piping.",
+      "verify": "Material and color visualization, not a measured specification. Physical samples, product approvals, detailed panel/edge layouts and trade quotes remain required.",
+      "priority": "Small textile accent + sample review",
+      "visualStatus": "MW-M01 · selected stone and small accents illustrated",
+      "baseline": "assets/render-candidates/mineral-walnut-materials/r01/bed3-b31-day.png",
+      "windowTreatment": {
+        "id": "bed3",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + blackout at every exterior opening",
+        "coverage": "Large front window and both smaller windows flanking the bed.",
+        "why": "All three openings must darken for comfortable sleeping; dressing only the large window would leave the bedside windows admitting light.",
+        "day": "Sheers preserve a light guest-bedroom atmosphere.",
+        "night": "Close all three blackout layers.",
+        "installation": "Use functional lined curtains where stack space allows and matching discreet blackout rollers behind sheers at tight bedside openings. Check bedside furniture, wall lights and bedding clearance before fixing tracks.",
+        "goods": [
+          750,
+          1200
+        ],
+        "installationCost": [
+          200,
+          350
+        ],
+        "title": "Bedroom 3",
+        "floor": "third-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-three-review/r03/bed3-a.png"
+    },
+    {
+      "id": "sharedbath",
+      "title": "Shared bathroom",
+      "floor": "third-floor",
+      "mood": "Simple, durable and easy to share",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Double-vanity and adjacent bedroom connections.",
+      "improve": "Selected E: pale limestone-look porcelain around the vanity mirror and doorway return. Bathroom palette stays neutral; the adjoining Bedroom 3 sightline carries its small dusty-rose throw.",
+      "verify": "Material and color visualization, not a measured specification. Physical samples, product approvals, detailed panel/edge layouts and trade quotes remain required.",
+      "priority": "Stone sample + installer takeoff",
+      "visualStatus": "MW-M01 · selected stone and small accents illustrated",
+      "baseline": "assets/render-candidates/mineral-walnut-materials/r01/sharedbath-sb1-day.png",
+      "windowTreatment": {
+        "id": "sharedbath",
+        "system": "none",
+        "recommendation": "No window treatment",
+        "coverage": "No exterior window in this bathroom; bedroom glazing seen through doors or mirrors belongs to the bedrooms.",
+        "why": "Bathroom privacy comes from closing its doors. Avoid ordering shades for reflected windows.",
+        "day": "Use planned bathroom lighting.",
+        "night": "Close bathroom doors; adjacent bedroom coverings are priced in those rooms.",
+        "installation": "Confirm the windowless condition in the site survey.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Shared bathroom",
+        "floor": "third-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-three-review/r01/sharedbath-a.png"
+    },
+    {
+      "id": "laundry",
+      "title": "Laundry",
+      "floor": "third-floor",
+      "mood": "A useful room with a little wit",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Sink and both windows on left wall; washer/dryer locations and selected lettering.",
+      "improve": "Original near arched-top and far rectangular left-wall windows retained; functional shades, right machines, drying rail and paired hampers shown. Laundry second viewpoint reveals machines on right while retaining two left windows, sink, paired hampers and wall graphic.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "Service access + workflow",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r02/laundry-la1-day-30519.png",
+      "windowTreatment": {
+        "id": "laundry",
+        "system": "practical",
+        "recommendation": "Washable privacy rollers; lined woven-look shades as an alternative",
+        "coverage": "Two left-side windows, including the arched opening by the sink.",
+        "why": "Laundry needs useful daylight, washable finishes and evening privacy. Open-weave decorative shades alone may be see-through; blackout and floor-length curtains are unnecessary.",
+        "day": "Raise for task light; adjust to soften glare.",
+        "night": "Lower the privacy layer.",
+        "installation": "Survey the arch and sink clearance; cover the full sightline without hanging fabric into splashes. If a woven-look Roman shade is chosen instead, include a privacy lining in its quote. Preserve the Rinse and repeat.. graphic.",
+        "goods": [
+          300,
+          550
+        ],
+        "installationCost": [
+          100,
+          175
+        ],
+        "title": "Laundry",
+        "floor": "third-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-three-review/r03/laundry-a-final.png"
+    },
+    {
+      "id": "stair3",
+      "title": "Third-floor stair hall",
+      "floor": "third-floor",
+      "mood": "A calm upper landing",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Actual stair/landing layout, high windows and guard.",
+      "improve": "Original curved stair and three high windows retained; matching tonal runner replaces dark outline.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "Continuity",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r02/stair3-st31-day-30520.png",
+      "windowTreatment": {
+        "id": "stair3",
+        "system": "none",
+        "recommendation": "Bare high windows; add privacy only if sightlines require it",
+        "coverage": "Three high stair-hall windows.",
+        "why": "Daylight supports circulation; the stair does not need blackout or floor-length fabric.",
+        "day": "Leave glass visually open; assess glare on the landing.",
+        "night": "Check neighboring upper-floor views before treating high glazing as private.",
+        "installation": "No covering included in base. Survey any needed discreet privacy/diffusion treatment and access cost separately; do not hang fabric into stair travel or against the guard.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Third-floor stair hall",
+        "floor": "third-floor"
+      },
+      "originalBaseline": "assets/render-candidates/floor-three-review/r01/stair3-a.png"
+    },
+    {
+      "id": "loft",
+      "title": "Penthouse lounge",
+      "floor": "penthouse",
+      "mood": "Relaxed evening hosting",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Terrace doors, windows, existing ceiling and bar.",
+      "improve": "Low-pile rug and genuine daylight replace shag/blue-hour; original terrace glazing rhythm and recessed bar retained. Loft companion retains original window/door rhythm, alcove bar, two stools, one chair and low-pile rug.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "Circulation + lighting",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r02/loft-pl1-day-30521.png",
+      "windowTreatment": {
+        "id": "loft",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + independent privacy layers at terrace glazing",
+        "coverage": "French doors and flanking windows, wide terrace slider and compact bar-alcove window. Coordinate the final glazing inventory on site.",
+        "why": "The penthouse lounge should retain its views by day and privacy after dark. Being on the top floor does not guarantee privacy from adjacent homes. It is not currently a sleeping room or dedicated cinema.",
+        "day": "Sheers for soft light; raise the compact bar-window shade.",
+        "night": "Close privacy layers where visible from neighboring properties.",
+        "installation": "Use traversing treatments that stack clear of the slider and French doors; compact shade at the bar. Blackout is a separate future upgrade if this becomes a regular sleeping or cinema space. Interior loft glass is not also counted in terrace furniture costs.",
+        "goods": [
+          950,
+          1700
+        ],
+        "installationCost": [
+          250,
+          450
+        ],
+        "title": "Penthouse lounge",
+        "floor": "penthouse"
+      },
+      "originalBaseline": "assets/render-candidates/floor-four-review/r01/loft-a.png"
+    },
+    {
+      "id": "bed5",
+      "title": "Penthouse guest bedroom",
+      "floor": "penthouse",
+      "mood": "A cocoon at the top of the house",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Proposed blueprint room footprint, flat ceiling and intended door/opening relationships; enclosure still needs construction.",
+      "improve": "Invented horizontal beam removed; original flat ceiling and vertical doorway return retained, with proposed thin painted wall frame. True opposing bedroom perspective places bed on right, dresser left, two planned front windows ahead; entry behind camera. Unbuilt room remains plan-led.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site. Complete the new-room plan before construction.",
+      "priority": "New room construction + comfort",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r02/bed5-b51-day-30522.png",
+      "windowTreatment": {
+        "id": "bed5",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + blackout for the new guest bedroom",
+        "coverage": "Confirmed exterior glazing of the proposed new Bedroom 5 only; openings and final enclosure remain to be surveyed.",
+        "why": "This is a real sleeping room, so guest privacy and light control should be designed into construction rather than added after furniture arrives.",
+        "day": "Sheers filter daylight.",
+        "night": "Close the blackout layer at every confirmed exterior opening.",
+        "installation": "Provisional allowance, not an approved window count. Coordinate track supports and bed/storage positions with the new room plan. Do not create new windows or drape the blank headboard wall to imitate a render.",
+        "goods": [
+          450,
+          850
+        ],
+        "installationCost": [
+          125,
+          225
+        ],
+        "title": "Penthouse guest bedroom",
+        "floor": "penthouse"
+      },
+      "originalBaseline": "assets/render-candidates/floor-four-review/r03/bed5-a.png"
+    },
+    {
+      "id": "bath4",
+      "title": "Penthouse bathroom",
+      "floor": "penthouse",
+      "mood": "A compact, complete guest bath",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Plan-led fixture arrangement; no room photo is available.",
+      "improve": "Same-wall vanity/toilet and far-end shower retained, with corrected porcelain floor.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "Measure + durable surfaces",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r02/bath4-pba1-day-30523.png",
+      "windowTreatment": {
+        "id": "bath4",
+        "system": "none",
+        "recommendation": "No window treatment in the current layout",
+        "coverage": "Plan-led penthouse bathroom is windowless.",
+        "why": "No exterior glazing needs dressing in the documented concept.",
+        "day": "Use bathroom lighting.",
+        "night": "Use the bathroom door for privacy.",
+        "installation": "Confirm the existing enclosure/services and whether there is any real exterior opening before final scope. A newly discovered window would require a wet-area privacy specification and revised allowance.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Penthouse bathroom",
+        "floor": "penthouse"
+      },
+      "originalBaseline": "assets/render-candidates/floor-four-review/r01/bath4-a.png"
+    },
+    {
+      "id": "terrace",
+      "title": "Roof terrace",
+      "floor": "penthouse",
+      "mood": "An outdoor room with breathing space",
+      "diagnosis": "Source-photo/plan audit findings have been addressed in the current review; measured fit and selections remain open.",
+      "keep": "Roof shape, pergola, privacy wall, fireplace and actual neighboring rooftops.",
+      "improve": "Original roofscape, pergola/posts/sails, railings and house-side fireplace preserved; true daylight with simpler staging. Original second terrace camera retained with foreground egg chair, pergola/roofscape/rail and separate outdoor dining zone in neutral daylight.",
+      "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+      "priority": "Outdoor suitability",
+      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "baseline": "assets/render-candidates/mineral-walnut-architecture/r01/terrace-rt1-day.png",
+      "windowTreatment": {
+        "id": "terrace",
+        "system": "none",
+        "recommendation": "No interior drapes outdoors",
+        "coverage": "Outdoor roof terrace; adjoining interior glass is covered under the loft or suite room schedule.",
+        "why": "Interior sheers and blackout panels do not belong in this outdoor exposure. Existing exterior shade structures and weather-rated furniture form a separate scope.",
+        "day": "Use the existing outdoor shade arrangement.",
+        "night": "Close the relevant interior privacy layers from inside.",
+        "installation": "No additional exterior curtain system included; do not duplicate loft glazing costs here.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Roof terrace",
+        "floor": "penthouse"
+      },
+      "originalBaseline": "assets/render-candidates/floor-four-review/r01/terrace-a.png"
+    }
+  ],
+  "windowTreatmentSchedule": "docs/mineral-walnut-window-treatments.json",
+  "textileReview": "docs/mineral-walnut-textile-review.json",
+  "stairRunner": {
+    "version": "MW-A02",
+    "date": "2026-10-08",
+    "status": "Tonal runner direction illustrated; product and measured fabrication pending",
+    "scope": "All three interior floor-to-floor connections: floor 1 to 2, 2 to 3 and 3 to 4, including their turns and intermediate landings. Main-floor hallways remain exposed wood. Exterior stairs excluded.",
+    "material": "Warm oatmeal/taupe, fine low-pile woven texture with a narrow matching oatmeal/taupe bound edge. Select a manufacturer-approved stair-use wool blend or durable performance carpet after a physical sample; exact fiber, backing and product remain unselected.",
+    "installation": "Professionally fitted continuous visual path over the existing treads and risers, with tailored sections/joins at turns and landings. Use the carpet maker's approved stair underlay and fixing system, with concealed fixings and no loose tread mats or decorative stair rods. Preserve the existing tread, nosing, riser and guard geometry.",
+    "dimensions": "Measure and template every flight and quarter-turn/intermediate landing individually. Keep visually balanced exposed-wood margins on both sides. Final runner width, edge reveal, landing shape, binding width, seam positions, pile direction and cutting waste come from the installer survey, not image pixels. Tape the proposed edges on the actual stairs before cutting.",
+    "coordination": "Complete tread/rail refinishing first and allow the selected finish to cure. Keep carpet/underlay thickness consistent at transitions. Obtain one shop layout covering all three connections and show joins/binding before fabrication. Reuse the same carpet and binding batch across levels.",
+    "goods": [
+      2000,
+      4000
+    ],
+    "installationCost": [
+      1500,
+      3000
+    ],
+    "costBasis": "Whole-stair planning allowances for carpet, stair underlay, binding and ordinary cutting waste, with specialist fitting separately. Not a measured quantity takeoff or a supplier quote. Stair refinishing remains in its existing budget line; these are added runner costs only.",
+    "source": "https://www.annieselke.com/blogs/design-advice/stair-runner-guide"
+  },
+  "auditFile": "docs/mineral-walnut-design-audit.json",
+  "auditStatus": "MW-A01: direction retained; proposed refinements and unresolved whole-house scope recorded separately from approved design.",
+  "architectureReview": "docs/mineral-walnut-architecture-review.json",
+  "materialReview": "docs/mineral-walnut-material-review.json"
+}

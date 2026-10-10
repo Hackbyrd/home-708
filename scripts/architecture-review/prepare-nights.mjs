@@ -1,0 +1,20 @@
+import fs from 'node:fs/promises';
+const file='docs/mineral-walnut-architecture-production.json';
+const p=JSON.parse(await fs.readFile(file)),windows=JSON.parse(await fs.readFile('docs/mineral-walnut-window-treatments.json'));
+const added=[];
+for(const [n,[id,r]]of Object.entries(p.baselineBook.rooms).entries()){
+ const index=32001+n;if(p.requests.some(q=>q.index===index))continue;
+ const day=p.requests.find(q=>q.room===id&&q.phase==='primary'&&q.qa?.accepted);if(!day)continue;
+ const j=p.jobs.find(j=>j.index===day.index),s=windows.rooms.find(w=>w.id===id),old=p.baselineNight.rooms[id];
+ let operation=s.system==='blackout'?'Close the independent opaque oatmeal BLACKOUT panels/rollers fully at every actual visible exterior opening. Retain ivory sheer layer nearest glass. No transparent nighttime exterior view or daylight glow through covered openings.':s.system==='privacy'?'Fully lower independent warm-neutral opaque PRIVACY shades behind the ivory sheers at actual visible exterior windows and exterior glazed doors. High transoms remain bare and show dark outside. Keep internal doors clear.':s.system==='practical'?'Close existing practical privacy rollers/Roman shades at actual exterior windows. Do not add drapes.':'No new curtains or shades; actual uncovered exterior glazing shows dark outdoors.';
+ if(id==='entry')operation='Keep internal gallery glass doors clear, no drapes. Exterior entrance is behind camera. Runner remains tonal oatmeal, wood margins visible.';
+ if(id==='sharedbath')operation='Bathroom remains windowless. In visible adjoining bedroom and its reflection close the actual opaque blackout layer. No daylight in mirror.';
+ if(id==='ownerbath')operation+=' Keep interior shower enclosure clear; shower exterior window frosted/obscured.';
+ if(id==='kitchen')operation+=' Visible adjoining sunroom lower glazing has closed privacy shades, bare transoms show dark outdoors.';
+ let lighting=old.lighting;
+ if(id==='media')lighting='Movie-watching scene. Ceiling downlights and art lights OFF. A very restrained neutral-warm concealed TV bias halo plus low console glow, small low-level room fill so sofa outline is legible. Screen stays black. Do not illuminate whole ceiling perimeter or create RGB. No new fixtures; dark quiet theater mood, not pitch black.';
+ if(id==='ownerbed')lighting='Warm bedside reading lamps on low, subtle concealed under-bed and bedside-console guide light, headwall accent very low. No orange neon outline or glowing carpet; overhead general lights off or very low. TV off. Keep new ink artwork and platform bed.';
+ if(id==='loft')lighting='Existing tray cove very softly dimmed, existing shaded side lamp and bar pendant/work light. TV off; no added ceiling outline or fixtures. Terrace beyond dark.';
+ p.requests.push({index,room:id,floor:r.floor,code:day.code+'-N4',scene:'night',phase:'night',dayIndex:day.index,sourceCode:day.code,sourceFile:day.file,sourceJobId:j.job_id,file:`assets/render-candidates/mineral-walnut-architecture/r01/${id}-night.png`,operation,lighting,cct:old.cct,circuits:old.circuits,params:{model:p.model,aspect_ratio:id==='entry'?'2:3':'3:2',resolution:'4k',thinking_level:'high',count:1,medias:[{role:'image',value:j.job_id}],prompt:`Precisely edit supplied approved ${r.title} image into NIGHTTIME. Identical camera, all walls/windows/doors, furniture, materials, artwork, lettering and floor/rug. No restyling or extra fixtures. WINDOW OPERATION: ${operation}\nLIGHTING: ${lighting}\nElectric sources approximately ${old.cct}K but balanced photographic white balance: warm ivory walls remain ivory, no global orange/sepia filter. Genuine dark exterior, no daytime sunshine or sunlit adjoining rooms/reflections. Readable realistic material detail, not underexposed black image. Existing lamps only. Keep natural oak and rich walnut, no chrome/blue/yellow palette. Continuous tonal-bound stair runner if present. No collage, labels or watermark.`}});added.push(index);
+}
+await fs.writeFile(file,JSON.stringify(p,null,2)+'\n');console.log(JSON.stringify({added}));

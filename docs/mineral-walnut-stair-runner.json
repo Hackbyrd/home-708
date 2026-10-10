@@ -1,0 +1,18 @@
+{
+  "version": "MW-NR01",
+  "date": "2026-10-08",
+  "enabled": false,
+  "status": "Removed at homeowner request",
+  "scope": "All three interior stair connections, including intermediate landings, remain uncovered.",
+  "material": "Natural oak treads and landings, warm white painted risers, and the existing dark handrails and white balusters.",
+  "coordination": "Retain the corrected stair geometry. Complete and protect the selected wood finish during the remaining work; no carpet runner, underlay, binding or fitting is included.",
+  "goods": [
+    0,
+    0
+  ],
+  "installationCost": [
+    0,
+    0
+  ],
+  "costBasis": "Runner allowances removed. Existing stair refinishing allowance retained."
+}

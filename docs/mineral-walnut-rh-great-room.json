@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-09",
+  "status": "First great-room study ready for consultation; no products approved or ordered",
+  "products": [
+    {
+      "id": "sofa",
+      "key": "modena",
+      "name": "Modena Slope Arm 2-Cushion Sofa",
+      "role": "Main sofa · 1",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod24400560",
+      "finish": "Warm ivory woven upholstery",
+      "size": "Start with an 8-foot footprint; current configuration and delivery route to verify.",
+      "why": "My leading silhouette for your tidy, soft-but-supportive brief. Sloped arms keep the room relaxed; the actual cushion fill and comfort need a sit test.",
+      "phase": "First purchase",
+      "price": "Configured price pending",
+      "image": "https://media.restorationhardware.com/is/image/rhis/prod24400560_E87804646_F_Frank_RHR?"
+    },
+    {
+      "id": "chairs",
+      "key": "shelter",
+      "name": "1950s Italian Shelter Arm Swivel Chair",
+      "role": "Lounge chairs · 2",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6460578",
+      "finish": "Sand / oatmeal woven upholstery",
+      "size": "Historical RH Classic reference: 30½″ W × 32½″ D; confirm the current SKU and swivel clearance.",
+      "why": "The compact curved silhouette gives the great room a softer counterpoint to the sofa and cabinets. A pair keeps the conversation layout balanced.",
+      "phase": "Later pair; select fabric now",
+      "price": "Configured price pending",
+      "image": "https://media.restorationhardware.com/is/image/rhis/prod6460578_E1643873_TQ_Frank?"
+    },
+    {
+      "id": "coffee",
+      "key": "gael",
+      "name": "Gael Walnut Rectangular Coffee Table",
+      "role": "Coffee table · 1",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod29740626",
+      "finish": "Caramel Walnut, subject to sample",
+      "size": "Planning target approximately 50–54″ long; an available RH size has not yet been verified.",
+      "why": "Actual walnut, soft contours and a visually lighter base suit the mineral walls. This is the warmer, lighter-looking choice beside two fitted cabinets.",
+      "phase": "With the main seating",
+      "price": "Size-specific price pending",
+      "image": "https://media.restorationhardware.com/is/image/rhis/prod29740626_E23520344089_F_RS_RHR?"
+    },
+    {
+      "id": "side",
+      "name": "Gael Walnut Round Side Table",
+      "role": "Reachable side table · 1",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod29740644",
+      "image": "https://media.restorationhardware.com/is/image/rhis/prod29740644_E2320344446_F_RHR?",
+      "finish": "Caramel Walnut, subject to sample",
+      "size": "Select only after checking the right chair and the route around the seating.",
+      "why": "One small landing spot for drinks and a book. We do not need matching tables at every seat.",
+      "phase": "Later / compare a lower-cost equivalent",
+      "price": "Configured price pending"
+    },
+    {
+      "id": "rug",
+      "key": "rug",
+      "name": "Textura Twist Wool Rug — Marled",
+      "role": "Area rug · 1",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod2111228",
+      "finish": "Quiet marled neutral; verify undertone in person",
+      "size": "Test a 9′ × 12′ rug footprint with the seating; verify offered size and finished tolerances.",
+      "why": "RH describes this as 100% wool. The restrained texture supports the furniture and artwork. A comparable lower-cost wool rug remains an option.",
+      "phase": "After main furniture positions are set",
+      "price": "Size-specific price pending",
+      "image": "https://media.restorationhardware.com/is/image/rhis/prod2111228_F12?"
+    }
+  ],
+  "alternatives": [
+    {
+      "key": "lugano",
+      "name": "Lugano 2-Cushion Sofa",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod27630009",
+      "why": "A more rectilinear alternative to test alongside Modena. Choose through a sit test and side-by-side fabric samples, not catalogue photography alone.",
+      "image": "https://media.restorationhardware.com/is/image/rhis/prod27630009_E23220547538_F_CC_RHR?"
+    },
+    {
+      "key": "crescent",
+      "name": "Crescent Swivel Chair",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28470228",
+      "why": "A tailored chair alternative if the 1950s chair feels too rounded. Current dimensions and clearance need checking.",
+      "image": "https://media.restorationhardware.com/is/image/rhis/?template=8020_EST_VERT_SOFA_pdp&layer=10&src=prod28470228_E2251973319_TQ_RHR&anchorN=-0.16,0.45&sizeN=1.5,0.8&"
+    },
+    {
+      "key": "enzo",
+      "name": "Enzo Rectangular Coffee Table",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310672",
+      "why": "The more architectural walnut option: stronger intersecting planes and a heavier visual presence. My alternative if you want the coffee table to make more of a statement.",
+      "image": "https://media.restorationhardware.com/is/image/rhis/prod28310672_E22420167785_F_RHR?"
+    }
+  ],
+  "jobId": "dae1ff5e-527f-4233-9bde-8b67317fd1bc",
+  "generationParams": {
+    "model": "gpt_image_2_5",
+    "variant": "flare",
+    "quality": "high",
+    "resolution": "2k",
+    "aspect_ratio": "3:2",
+    "count": 1,
+    "prompt": "Create ONE photorealistic furniture consultation rendering of this exact townhouse GREAT ROOM, landscape 3:2. This is an IMAGE EDIT, not a new invented interior.\nReference 1 is the current Mineral & Walnut design and exact camera/finish/layout baseline. Reference 2 is the original model-home architectural ground truth. References 3 onward are actual RH product photographs, used for furniture geometry only.\nPreserve the original room envelope, lens, perspective, crown molding, flat ceiling, centered projecting fireplace chase, original gas insert, TWO separate high horizontal transom windows flanking the chase, and left terrace-door glazing. Do not add windows, new ceiling details, niches, rooms, or a grander volume. The room is a modest 15 ft 1 in by 17 ft townhouse great room. Exterior stays Crown neighborhood townhouses/terrace, not countryside. Keep the TV ABOVE the fireplace as in reference 1, not the right-side TV from original reference 2. Keep original quiet mineral fireplace finish; do NOT introduce a new marble fireplace design.\nPreserve warm ivory/mushroom softly textured mineral walls, natural matte oak floor, the two fitted low walnut cabinets flanking fireplace, DIFFERENT but sibling neutral abstract art in slim dark frames above BOTH cabinets below the two high windows. Keep full-length ivory sheers on terrace glazing with unobtrusive roller-shade privacy as in reference 1.\nFURNITURE PROPOSAL: Replace the foreground sofa with the exact RH Modena Slope Arm 2-Cushion Sofa silhouette in reference 3: two tailored seat cushions, continuous low sloping arms, two back cushions, recessed understated base. Upholstery warm ivory linen-like woven fabric, not stark blue-white. This is a roughly eight-foot sofa, not a sectional. Retain its baseline position facing fireplace.\nReplace the TWO lounge chairs with the exact compact RH 1950s Italian Shelter Arm swivel chair silhouette in reference 4: rounded continuous back/shelter arms, waterfall fixed seat, hidden swivel base, no exposed legs. Warm oatmeal/sand woven fabric, modestly deeper tone than sofa. Keep chairs in the same left and right positions but leave their back/side clearance and terrace access open. NOT oversized tub chairs.\nReplace coffee table with the RH Gael Walnut Rectangular Coffee Table in reference 5: reproduce its rounded rectangular top, soft edge and sculpted/tapered wooden leg geometry in warm Caramel Walnut. No brass bands, no chrome, no slatted or stone top. Scale as a moderate approximately 50-54 inch planning footprint (visual concept, not a confirmed retail size), not an oversized dining table. Reachable gaps to sofa/chairs.\nReference 6 is RH Gael Walnut Round Side Table: place one modest matching round walnut side table next to foreground right chair, without blocking circulation.\nReference 7 is RH Textura Twist Wool Rug Marled: a large low-profile subtle oatmeal/marled wool rug anchoring sofa and both chairs, use its restrained texture, no blue/pink/purple accents.\nKeep one understated ceramic lamp on the right built-in with warm ivory linen shade, a real green tree by the terrace, charcoal/ivory pillows, a small dark tray and a few books. Restrained styling and natural daylight. This should read as a thoughtfully composed warm modern show home, with realistic wool weave, walnut grain and soft upholstery, NOT a generic white showroom. No furniture logos, labels, text, people, pets, duplicated chairs, floating objects, extra sofas or altered architecture.",
+    "medias": [
+      {
+        "role": "image",
+        "value": "ab8924ca-bb0c-491a-89b0-18d2cf558af2"
+      },
+      {
+        "role": "image",
+        "value": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef"
+      },
+      {
+        "role": "image",
+        "value": "https://media.restorationhardware.com/is/image/rhis/prod24400560_E87804646_F_Frank_RHR?"
+      },
+      {
+        "role": "image",
+        "value": "https://media.restorationhardware.com/is/image/rhis/prod6460578_E1643873_TQ_Frank?"
+      },
+      {
+        "role": "image",
+        "value": "https://media.restorationhardware.com/is/image/rhis/prod29740626_E23520344089_F_RS_RHR?"
+      },
+      {
+        "role": "image",
+        "value": "https://media.restorationhardware.com/is/image/rhis/prod29740644_E2320344446_F_RHR?"
+      },
+      {
+        "role": "image",
+        "value": "https://media.restorationhardware.com/is/image/rhis/prod2111228_F12?"
+      }
+    ]
+  },
+  "notes": [
+    "User confirmed finished long-term room scheme, with purchases in phases.",
+    "User previously confirmed RH main pieces with less expensive supporting furniture, soft-but-supportive tidy great-room seating, adult use without regular pets or young children.",
+    "RH product pages and collection indexes reviewed; digital sourcebook bookshelf returned 403 and some dynamic product controls were inaccessible. This is not an exhaustive review of every RH SKU.",
+    "Generated furniture is illustrative, not a dimensionally exact product model. Catalogue references, physical samples and field measurements govern.",
+    "Keep the approved Option 1 mineral fireplace, oak flooring, light sheers/privacy system, sibling art and two fitted walnut cabinets. No Option 2 blue/yellow/chrome scheme."
+  ],
+  "render": {
+    "jobId": "dae1ff5e-527f-4233-9bde-8b67317fd1bc",
+    "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261009_233233_dae1ff5e-527f-4233-9bde-8b67317fd1bc.png",
+    "file": "assets/render-candidates/mineral-walnut-rh/great-r01.png",
+    "qa": "visually_reviewed_concept",
+    "dimensions": {
+      "width": 2048,
+      "height": 1360
+    },
+    "qaChecks": [
+      "Two high transoms, centered projecting fireplace chase and left terrace glazing retained.",
+      "TV stays above fireplace and both sibling neutral artworks remain.",
+      "One tailored sofa, two shelter-arm chairs, walnut coffee table and reachable side table visible.",
+      "Natural oak, warm neutral mineral walls and walnut preserved; no Option 2 blue/yellow/chrome palette introduced."
+    ],
+    "limitations": [
+      "Furniture is a generative interpretation of RH reference photos, not manufacturer CAD.",
+      "The rug and upholstery look more textured in the render than some product photographs; select actual samples before ordering.",
+      "Furniture and cabinetry dimensions, circulation and delivery route remain unmeasured; table length is a proposed planning target rather than a confirmed offered SKU.",
+      "Lamp is illustrative; the Anja candidate is not represented exactly."
+    ]
+  },
+  "page": "docs/design-library-assets/rh-great-room-consultation.html",
+  "validation": {
+    "page": "Loaded on local review server; recommended product cards visually checked.",
+    "comparisonTabs": "New study, current Option 1 and original model home all change the image and caption correctly.",
+    "mainGallery": "Existing Option 1 room-book images were not replaced by this unapproved study."
+  }
+}

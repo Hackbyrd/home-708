@@ -1,4 +1,6 @@
 import fs from 'node:fs/promises';
+import {applyWindowBudget} from './design-library/window-treatments.mjs';
+import {applyStairBudget} from './design-library/stair-runner.mjs';
 const book=JSON.parse(await fs.readFile('docs/design-history/mineral-walnut-before-playbook.json'));
 const rows=[];
 function add(id,room,category,phase,title,low,high,note,quantity){rows.push({id,room,category,phase,title,low:low*1000,high:high*1000,note,...(quantity?{quantity}:{})});}
@@ -67,5 +69,7 @@ const data={version:'MW-B01',date:'2026-10-07',currency:'USD',location:'Crown, G
  {title:'Yamaha · GB1K specifications',url:'https://usa.yamaha.com/products/musical_instruments/pianos/grand_pianos/gb1k/specs.html',note:'Compact grand example is about 5 ft long and 574 lb. Our piano price is a dealer-quote allowance, not a manufacturer price.'},
  {title:'Maryland Comptroller · sales and use tax',url:'https://services.marylandcomptroller.gov/taxes/en/sales-and-use-tax-faqs?id=kb_article_view&sysparm_article=KB0010157',note:'General goods rate of 6% used for owner-purchased goods. Contractor material tax is already in trade allowances; no blanket sales tax added to labor.'}
  ]};
+applyWindowBudget(data,JSON.parse(await fs.readFile('docs/mineral-walnut-window-treatments.json')));
+applyStairBudget(data,JSON.parse(await fs.readFile('docs/mineral-walnut-stair-runner.json')));
 await fs.writeFile('docs/mineral-walnut-budget.json',JSON.stringify(data,null,2)+'\n');
-console.log(`Prepared ${rows.length} nonoverlapping allowance lines for ${data.rooms.length} spaces.`);
+console.log(`Prepared ${data.rows.length} nonoverlapping allowance lines for ${data.rooms.length} spaces.`);

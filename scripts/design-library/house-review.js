@@ -17,6 +17,11 @@ function navigate(floor,room,focus=false,mode=sceneMode){
  if(location.hash===hash){sceneMode=mode;render(floor,room);}else location.hash=hash;
 }
 function viewFigure(v,i,room){return `<figure><button type="button" class="image-button" data-zoom="${i}" aria-label="Enlarge ${esc(v.code+' '+v.label)}"><img src="${esc(v.src)}" alt="${esc(room.title+' — '+v.label)}" width="2000" height="1333" decoding="async"><span class="enlarge" aria-hidden="true">Enlarge ↗</span></button><figcaption><div class="view-title"><b>${esc(v.code)}</b><strong>${esc(v.label)}</strong></div><p class="evidence">${esc(v.evidenceType)}</p></figcaption></figure>`;}
+function textileSummary(room){
+ const w=room.windowTreatment;if(!w)return '';
+ const states=sceneMode==='compare'?`<strong>Day:</strong> ${esc(w.day)} <strong>Night:</strong> ${esc(w.night)}`:esc(sceneMode==='night'?w.night:w.day);
+ return `<aside class="textile-summary" aria-label="Window treatments"><p class="kicker">Window treatments</p><strong>${esc(w.recommendation)}</strong><p>${states}</p><details><summary>Why this treatment &amp; what is visible</summary><p>${esc(w.why)}</p><p>${esc(w.coverage)}</p><p>${esc(room.textileNote)}</p><a href="interior-design-guide.html#window-${esc(room.id)}">Room specification →</a></details>${room.stairRunner?`<p class="runner-note"><strong>Stair runner:</strong> Oatmeal with narrow matching tonal edging, continuing through floors 1–4 and their intermediate landings. Wood remains visible at both sides; main-floor hallways stay uncovered. <a href="interior-design-guide.html#stair-runner">Material &amp; fitting notes →</a></p>`:''}</aside>`;
+}
 function render(floor,room){
  selectedRooms.set(floor.id,room.id);
  tabs.forEach(t=>{const on=t.dataset.floor===floor.id;t.setAttribute('aria-selected',String(on));t.tabIndex=on?0:-1;});
@@ -30,9 +35,10 @@ function render(floor,room){
  <div class="room-grid ${floor.rooms.length<=5?'few':''}" aria-label="Rooms on floor ${floor.number}">${floor.rooms.map(r=>`<button type="button" class="room-card" data-room="${esc(r.id)}" aria-pressed="${r.id===room.id}"><img src="${esc(sceneMode!=='day'&&r.night?r.night.thumb:r.views[0].thumb)}" alt="" width="520" height="347"><span class="name">${esc(r.title)}</span><small>${r.views.length} day${r.night?' + night':''}</small></button>`).join('')}</div>
  <article class="room-detail"><div class="room-title-row"><div><p class="kicker">${esc(room.revision)} · Proposed for review</p><h3>${esc(room.title)}</h3></div><div class="room-nav"><button type="button" data-prev-room aria-label="Previous room" ${ri===0?'disabled':''}>‹</button><span class="position">${ri+1} / ${floor.rooms.length}</span><button type="button" data-next-room aria-label="Next room" ${ri===floor.rooms.length-1?'disabled':''}>›</button></div></div><p class="intent">${esc(room.intent)}</p>
  ${night?`<div class="scene-toolbar"><div class="scene-buttons" role="group" aria-label="Lighting view">${[['day','Day'],['night','Night'],['compare','Compare']].map(([mode,label])=>`<button type="button" data-scene="${mode}" aria-pressed="${sceneMode===mode}">${label}</button>`).join('')}</div><p>${sceneMode==='compare'?'Same camera · daytime and nighttime lighting':sceneMode==='night'?esc(night.scene)+' · Nighttime lighting study':'All daytime angles · one matching night study per room'}</p></div>`:''}
+ ${textileSummary(room)}
  <div class="views ${displayed.length===1?'single':''}">${displayed.map((v,i)=>viewFigure(v,i,room)).join('')}</div>
  ${night&&sceneMode!=='day'?`<aside class="lighting-intent"><p class="kicker">${esc(night.version)} · Lighting intent</p><h4>${esc(night.scene)}</h4><p>${esc(night.lighting)}</p><dl><dt>Proposed lamp color</dt><dd>Approximately ${night.cct} K</dd><dt>Separate controls to plan</dt><dd>${esc(night.circuits)}</dd></dl><p class="lighting-limit">${esc(night.qaNote)}</p></aside>`:''}
- <div class="room-footer"><span>Click an image to enlarge. Arrow keys switch enlarged views.</span><a href="${esc(bookPage)}#${esc(room.id)}">${esc(room.title)} · materials & build notes ↗</a></div><details><summary>Design details & source notes</summary><div class="notes"><ul>${room.notes.map(n=>`<li>${esc(n)}</li>`).join('')}</ul><div>${[...room.views,...(night?[night]:[])].map(v=>`<p><strong>${esc(v.code)}:</strong> ${esc(v.evidence)} ${esc(v.qaNote||'')}</p>`).join('')}</div></div></details></article>`;
+ <div class="room-footer"><span>Click an image to enlarge. Arrow keys switch enlarged views. ${room.originalPhotos?.length?'<button type="button" class="quiet-button" data-originals>Original model photos ↗</button>':''}</span><a href="${esc(bookPage)}#${esc(room.id)}">${esc(room.title)} · materials & build notes ↗</a></div><details><summary>Design details & source notes</summary><div class="notes"><ul>${room.notes.map(n=>`<li>${esc(n)}</li>`).join('')}</ul><div>${[...room.views,...(night?[night]:[])].map(v=>`<p><strong>${esc(v.code)}:</strong> ${esc(v.evidence)} ${esc(v.qaNote||'')}</p>`).join('')}</div></div></details></article>`;
  panel.querySelectorAll('[data-room]').forEach(b=>b.onclick=()=>navigate(floor,floor.rooms.find(r=>r.id===b.dataset.room),true));
  panel.querySelectorAll('[data-scene]').forEach(b=>b.onclick=()=>{
    const mode=b.dataset.scene;
@@ -42,6 +48,7 @@ function render(floor,room){
  });
  panel.querySelectorAll('[data-zoom]').forEach(b=>b.onclick=()=>openZoom(displayed,Number(b.dataset.zoom),b));
  panel.querySelector('[data-plan]').onclick=e=>openZoom([{src:floor.plan,label:'Floor '+floor.number+' · builder plan',code:'Plan'}],0,e.currentTarget);
+ if(room.originalPhotos?.length)panel.querySelector('[data-originals]').onclick=e=>openZoom(room.originalPhotos,0,e.currentTarget);
  panel.querySelector('[data-prev-room]').onclick=()=>navigate(floor,floor.rooms[ri-1],true);
  panel.querySelector('[data-next-room]').onclick=()=>navigate(floor,floor.rooms[ri+1],true);
  document.getElementById('status').textContent='Floor '+floor.number+': '+room.title+', '+sceneMode+', '+displayed.length+' views';

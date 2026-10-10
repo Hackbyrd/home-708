@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-10-09",
+  "designOption": "Option 1 — Mineral & Walnut",
+  "status": "First great-room study ready for feedback; no products approved or ordered",
+  "confirmedPreferences": [
+    {
+      "topic": "Brand and spending strategy",
+      "decision": "RH for main pieces; mix in less expensive supporting furniture",
+      "source": "User consultation answer"
+    },
+    {
+      "topic": "Great-room sofa comfort",
+      "decision": "Soft but supportive, with a tidy shape",
+      "source": "User consultation answer"
+    },
+    {
+      "topic": "Upholstery usage",
+      "decision": "Adults, with no regular pets or young children",
+      "source": "User consultation answer"
+    },
+    {
+      "topic": "Great-room purchasing scope",
+      "decision": "Design the finished room; purchase in phases",
+      "source": "User consultation answer"
+    }
+  ],
+  "designConstraints": [
+    "Use the current Option 1 room book and neutral revision. Preserve the approved A, C1 and E stone treatments.",
+    "Warm ivory, oatmeal and charcoal textiles; walnut furniture and natural matte oak flooring. No new purple, blue or pink bedroom accents.",
+    "Budget all furniture as new. Do not import Option 2 owned-furniture credits or its brown-oak/chrome design requirements.",
+    "Preserve the roadmap's $25,000 minimum move-in furniture allowance, including tax, delivery and assembly, unless the user changes it. Whole-house RH furnishing is a later phased selection, not an approved expansion of this allowance.",
+    "Room dimensions are blueprint planning references, not verified site measurements. Check clearances and delivery routes before ordering."
+  ],
+  "provisionalCandidates": [
+    {
+      "room": "great",
+      "product": "RH Modena Slope Arm 2-Cushion Sofa",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod24400560",
+      "reason": "A tailored silhouette to investigate for the user's soft-but-supportive, tidy preference, with proposed warm ivory or oatmeal upholstery.",
+      "planningTarget": "Begin by testing an approximately 96-inch sofa footprint against the two-chair layout. Size is not approved.",
+      "verificationNeeded": "Confirm current SKU dimensions, cushion construction, sit-test comfort, fabric options, cleaning instructions, configured price and lead time. RH's live configurator did not load during this research session.",
+      "referenceDimensions": {
+        "url": "https://images.restorationhardware.com/content/catalog/us/en/tearsheets/Upholstery_Modena_SlopeArm.pdf",
+        "sheetDate": "2021-10-21",
+        "note": "Historical reference lists an 8-foot Classic sofa at 96 by 41 inches. This is not verification of the currently selected product configuration."
+      }
+    },
+    {
+      "room": "great",
+      "product": "RH 1950s Italian Shelter Arm Upholstered Swivel Chair",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6460578",
+      "proposedQuantity": 2,
+      "reason": "Sculptural curved arms to soften the tailored sofa and rectilinear room. Proposed oatmeal or sand upholstery provides subtle tonal contrast with the ivory sofa.",
+      "verificationNeeded": "Confirm current availability, dimensions and swivel clearance, upholstery, comfort, price and lead time. Consider a later purchase phase to protect the existing move-in furniture allowance."
+    },
+    {
+      "room": "media",
+      "product": "RH Cloud Modular sofa family",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+      "reason": "Candidate for the separately requested deep, movie-oriented seating; not a change to the great-room comfort preference.",
+      "verificationNeeded": "Select modules only after checking the west entry doors, seating-to-TV distance and speaker positions. Verify current dimensions, fabric, price and delivery access.",
+      "referenceDimensions": {
+        "url": "https://images.restorationhardware.com/content/catalog/tearsheets/Cloud_Modular_dimensions.pdf",
+        "note": "Historical reference: Classic three-module sofa 119 inches wide; four-module U-chaise 158 inches wide. The roughly 133-inch plan wall makes the wider standard arrangement unsuitable for that wall. Neither configuration is approved."
+      }
+    }
+  ],
+  "pendingConsultation": [],
+  "procurementRequirements": [
+    "For each proposed item, record exact configuration, finish, fabric, quantity, current price basis, dimensions and purchase phase.",
+    "Review physical upholstery and wood samples alongside the approved flooring and wall finishes in daylight and at night.",
+    "Do not substitute oversized catalogue pieces for custom office joinery, fitted AV cabinets or room-specific storage."
+  ],
+  "greatRoomStudy": {
+    "manifest": "docs/mineral-walnut-rh-great-room.json",
+    "page": "docs/design-library-assets/rh-great-room-consultation.html",
+    "status": "Proposed for consultation"
+  }
+}

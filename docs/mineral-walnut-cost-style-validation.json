@@ -1,12 +1,13 @@
 {
-  "date": "2026-10-08T07:01:08.735Z",
+  "date": "2026-10-09T02:04:49.868Z",
   "checks": [
-    "51 unique lines, confirmed Bedroom 5 construction, exact totals, phase reconciliation, piano/floor adjustments and input validation.",
-    "Original Option 1 palette and three affected material schedules restored; Option 2 unchanged.",
+    "83 unique budget lines, confirmed Bedroom 5 construction, exact totals, phase reconciliation, piano/floor adjustments and input validation.",
+    "All 24 room window schedules match guide, build book and budget; six blackout spaces and 17 priced rooms. Supply and installation replace old placeholders exactly once.",
+    "Original Option 1 permanent palette retained; selected A/C1/E retained, neutral bedrooms restored and runner costs removed, stone repricing disclosed, Option 2 unchanged.",
     "Cost page controls, validation, floor filters and exported scenario match the displayed arithmetic.",
     "Local cost-page links resolve; no horizontal page overflow at 390/768/1440px.",
     "Guide uses restored day/night studies, retains room filtering and measured-clearance tool, and links the budget.",
-    "All 45 original day assets and all 24 matching night sources verified; no browser errors."
+    "All 45 current Option 1 day assets and all 24 matching night sources verified; window schedule retained and runner allowances removed, no browser errors."
   ],
   "failures": []
 }

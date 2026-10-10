@@ -28,5 +28,28 @@
     "retainedNightViews": 21,
     "baseline": "docs/design-history/mineral-walnut-before-playbook.json",
     "note": "Original 45 views reviewed for style continuity. Restoration retains the documented limitations of plan-led rooms and alternate cameras; it does not certify dimensions."
-  }
+  },
+  "currentRefinement": {
+    "version": "MW-NR01",
+    "scope": "MW-NR01: original neutral Mineral & Walnut bedrooms restored; no colored bedroom throws or colored artwork additions. All three interior stair connections use exposed oak treads and warm white risers without runners. Approved A/C1/E porcelain selections and room-specific window layers remain; original fireplace retained while its choice is open."
+  },
+  "controlledAccents": {
+    "ownerbath": "Existing purple towel and subtle artwork retained from selected Study A",
+    "bedrooms": "Original ivory, oatmeal and charcoal textiles; added plum, blue and rose withdrawn."
+  },
+  "selectedStone": {
+    "ownerbath": "A",
+    "kitchen": "C1",
+    "sharedbath": "E"
+  },
+  "fireplace": {
+    "status": "undecided",
+    "current": "Original Option 1 mineral finish",
+    "shortlist": [
+      "original-option-1",
+      "D3",
+      "D1"
+    ]
+  },
+  "stairs": "Exposed oak treads and warm white risers throughout interior stairs; no runner."
 }

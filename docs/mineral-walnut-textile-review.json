@@ -1,0 +1,1473 @@
+{
+  "version": "MW-T01",
+  "revision": "mw-textiles-r01",
+  "status": "visually_reviewed_concepts",
+  "rooms": {
+    "entry": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "E-R08-1-MWT01",
+          "code": "E1",
+          "index": 23008,
+          "jobId": "8c6f6f38-fc40-4b72-906c-b17381152f44",
+          "model": "nano_banana_2_1",
+          "label": "Toward the arch and stair",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/entry-e1-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved E1 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. Entrance shade is provisional; verify privacy need.",
+          "sourceFile": "assets/render-candidates/floor-one-review/r04/entry-a-floor.png",
+          "sourceJobId": "2c43bb93-1cfe-4a11-af4b-434836ccbc46",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "E-R08-2-MWT01",
+          "code": "E2",
+          "index": 23009,
+          "jobId": "c458f563-dc90-4813-a4be-734cc0046969",
+          "model": "nano_banana_2_1",
+          "label": "Toward the front door",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/entry-e2-day.png",
+          "evidenceType": "Derived alternate camera",
+          "evidence": "Higgsfield image edit of the approved E2 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. Entrance shade is provisional; verify privacy need.",
+          "sourceFile": "assets/render-candidates/floor-one-review/r04/entry-b-floor.png",
+          "sourceJobId": "6db6a5e9-1d7c-4248-803c-1c62d3baa4e4",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "The light glass doors and two-story chandelier remain; the flooring now follows the second-floor natural oak.",
+        "Window treatment: No gallery drapes; discreet privacy shade on exterior entrance glass if needed",
+        "Why: The two-story chandelier, arch and light doors should remain the focus. Full-height curtains add bulk; street-level entrance glass may still need evening privacy.",
+        "Matching oatmeal/taupe runner with narrow charcoal edging on all interior floor-to-floor flights and their intermediate landings, with exposed wood margins."
+      ],
+      "windowTreatment": {
+        "id": "entry",
+        "system": "practical",
+        "recommendation": "No gallery drapes; discreet privacy shade on exterior entrance glass if needed",
+        "coverage": "Exterior front-door glazing only, subject to measured fit. Keep internal clear-glass office/media door pairs uncovered in the gallery. High gallery glazing is reviewed separately for neighboring sightlines.",
+        "why": "The two-story chandelier, arch and light doors should remain the focus. Full-height curtains add bulk; street-level entrance glass may still need evening privacy.",
+        "day": "Entrance shade raised; gallery bright and open.",
+        "night": "Lower the entrance privacy shade if the street can see into the house. Keep internal gallery doors visually clear.",
+        "installation": "Provisional allowance for one compact door-mounted privacy solution; verify the arched glass, hardware, attachment and door swing. Do not cover inscriptions. Omit the purchase if the actual glass already provides adequate privacy.",
+        "goods": [
+          200,
+          400
+        ],
+        "installationCost": [
+          75,
+          150
+        ],
+        "title": "Entrance gallery",
+        "floor": "first-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states.",
+      "stairRunner": {
+        "version": "MW-T01",
+        "date": "2026-10-08",
+        "status": "Design direction accepted for rendering; material and measured fabrication pending",
+        "scope": "All three interior floor-to-floor connections: floor 1 to 2, 2 to 3 and 3 to 4, including their turns and intermediate landings. Main-floor hallways remain exposed wood. Exterior stairs excluded.",
+        "material": "Warm oatmeal/taupe, fine low-pile woven texture with a narrow charcoal bound edge. Select a manufacturer-approved stair-use wool blend or durable performance carpet after a physical sample; exact fiber, backing and product remain unselected.",
+        "installation": "Professionally fitted continuous visual path over the existing treads and risers, with tailored sections/joins at turns and landings. Use the carpet maker's approved stair underlay and fixing system, with concealed fixings and no loose tread mats or decorative stair rods. Preserve the existing tread, nosing, riser and guard geometry.",
+        "dimensions": "Measure and template every flight and quarter-turn/intermediate landing individually. Keep visually balanced exposed-wood margins on both sides. Final runner width, edge reveal, landing shape, binding width, seam positions, pile direction and cutting waste come from the installer survey, not image pixels. Tape the proposed edges on the actual stairs before cutting.",
+        "coordination": "Complete tread/rail refinishing first and allow the selected finish to cure. Keep carpet/underlay thickness consistent at transitions. Obtain one shop layout covering all three connections and show joins/binding before fabrication. Reuse the same carpet and binding batch across levels.",
+        "goods": [
+          2000,
+          4000
+        ],
+        "installationCost": [
+          1500,
+          3000
+        ],
+        "costBasis": "Whole-stair planning allowances for carpet, stair underlay, binding and ordinary cutting waste, with specialist fitting separately. Not a measured quantity takeoff or a supplier quote. Stair refinishing remains in its existing budget line; these are added runner costs only.",
+        "source": "https://www.annieselke.com/blogs/design-advice/stair-runner-guide"
+      }
+    },
+    "office": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "O-R04-1-MWT01",
+          "code": "O1",
+          "index": 23010,
+          "jobId": "b3fffd7c-21f1-4fc8-b022-0cb743844f6f",
+          "model": "nano_banana_2_1",
+          "label": "TV within the north built-in",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/office-o1-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved O1 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-one-review/r04/office-a.png",
+          "sourceJobId": "a49afe61-2c6f-4b84-8cc9-71dfb9f2ac71",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "O-R04-2-MWT01",
+          "code": "O2",
+          "index": 23011,
+          "jobId": "b6507c41-c0e2-4531-8b85-aff0e7820ac5",
+          "model": "nano_banana_2_1",
+          "label": "Entry, artwork and printer station",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/office-o2-day.png",
+          "evidenceType": "Derived alternate camera",
+          "evidence": "Higgsfield image edit of the approved O2 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-one-review/r04/office-b-final.png",
+          "sourceJobId": "a7a6bc07-4167-44a3-b2b8-1c88875f2f2e",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "The north-wall cabinet composition now includes a TV and soundbar; a compact printer station and artwork sit beside the entry.",
+        "Window treatment: Ivory sheers + hidden light-filtering privacy shades",
+        "Why: Adjustable glare control helps screen work and calls; a separate privacy layer lets you work after dark without closing the room off all day. Blackout is unnecessary for normal office use."
+      ],
+      "windowTreatment": {
+        "id": "office",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + hidden light-filtering privacy shades",
+        "coverage": "Both exterior window walls: front two-unit group and right three-unit group. Preserve clear internal gallery doors.",
+        "why": "Adjustable glare control helps screen work and calls; a separate privacy layer lets you work after dark without closing the room off all day. Blackout is unnecessary for normal office use.",
+        "day": "Sheers soften sun; adjust the shade on the bright side for monitor glare.",
+        "night": "Lower privacy shades on both exterior window walls.",
+        "installation": "Keep window access, full north-wall cabinetry, southeast desk/chair and door routes clear. Use a non-see-through privacy fabric, not an open solar screen; check it with interior lights on.",
+        "goods": [
+          700,
+          1100
+        ],
+        "installationCost": [
+          200,
+          350
+        ],
+        "title": "Home office",
+        "floor": "first-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states."
+    },
+    "media": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "M-R04-1-MWT01",
+          "code": "M1",
+          "index": 23005,
+          "jobId": "2406d1f8-b22b-4767-be3b-e6721088b397",
+          "model": "nano_banana_2_1",
+          "label": "83-inch screen and surround concept",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/media-m1-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved M1 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-one-review/r04/media-a-final.png",
+          "sourceJobId": "28093acb-7afc-4c61-a278-c8c402dcf706",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "M-R04-2",
+          "code": "M2",
+          "index": 3822,
+          "jobId": "ee12017b-cc1c-45e6-8182-9ddbfec9864a",
+          "model": "nano_banana_2_1",
+          "label": "Clear doors and collectible display",
+          "file": "assets/render-candidates/floor-one-review/r04/media-b.png",
+          "evidenceType": "Derived alternate camera",
+          "evidence": "Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Concept only: confirm physical samples, product dimensions and coordinated drawings. M2 faces the internal clear doors, which remain uncovered during daytime. Exterior blackout curtains are outside this angle."
+        }
+      ],
+      "notes": [
+        "The 83-inch screen takes priority over a smooth restrained backdrop, with coordinated audio and a collectible display beside clear glass doors.",
+        "Window treatment: Ivory sheers + blackout-lined curtains; removable clear-door covers for movie mode",
+        "Why: Daylight and gallery light both reduce contrast on the 83-inch TV. Privacy alone is insufficient for the requested theater atmosphere."
+      ],
+      "windowTreatment": {
+        "id": "media",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + blackout-lined curtains; removable clear-door covers for movie mode",
+        "coverage": "Full street-facing two-sash window plus a separate removable opaque cover for each interior glazed door leaf. The doors remain clear when covers are stowed.",
+        "why": "Daylight and gallery light both reduce contrast on the 83-inch TV. Privacy alone is insufficient for the requested theater atmosphere.",
+        "day": "Sheers for casual use; close blackout panels for daytime films.",
+        "night": "Close blackout panels and fit the room-side door covers for movies; dim lights near the screen.",
+        "installation": "Resolve curtain overlap, returns and head gap. Use removable room-side covers with a finish-compatible attachment and storage location; each door must remain operable with handles clear. Keep figurine shelves and the west-wall doorway unobstructed. Allowance includes these covers; do not frost the doors permanently.",
+        "goods": [
+          850,
+          1500
+        ],
+        "installationCost": [
+          250,
+          450
+        ],
+        "title": "Media room",
+        "floor": "first-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "M2 faces the internal clear doors, which remain uncovered during daytime. Exterior blackout curtains are outside this angle."
+    },
+    "gym": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "GYM-1-MWT01",
+          "code": "G1",
+          "index": 23012,
+          "jobId": "04036548-82c6-4803-b244-e5e337d1f073",
+          "label": "Empty room · mirror, quote and closet",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/gym-g1-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved G1 design; only stair runner and/or visible window treatment layers updated. Source model-home photograph anchors room openings and proportions; finishes and furnishings are proposals.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "model": "nano_banana_2_1",
+          "sourceFile": "assets/render-candidates/floor-one-review/r03/gym-a-empty-quote.png",
+          "sourceJobId": "cef174a8-eae7-4237-aed5-fae480863488",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "GYM-2-MWT01",
+          "code": "G2",
+          "index": 23013,
+          "jobId": "5d5383a3-07f5-45e7-8ba7-9887b48e3f1a",
+          "label": "Empty room · gallery and window side",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/gym-g2-day.png",
+          "evidenceType": "Derived alternate camera",
+          "evidence": "Higgsfield image edit of the approved G2 design; only stair runner and/or visible window treatment layers updated. Generated from the room photograph, coordinated design and plan relationships. Hidden surfaces and camera position are inferred.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "model": "nano_banana_2_1",
+          "sourceFile": "assets/render-candidates/floor-one-review/r03/gym-b-empty-reverse.png",
+          "sourceJobId": "467948ac-8499-4ef3-8a02-a652222cdfcc",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "An empty, finished exercise room with warm walls, safety mirror, charcoal flooring and the selected motto.",
+        "Window treatment: Washable light-filtering privacy roller shades; no loose drapes",
+        "Why: Shades control mirror glare and street privacy without loose fabric in future equipment space. Workout use does not require blackout."
+      ],
+      "windowTreatment": {
+        "id": "gym",
+        "system": "practical",
+        "recommendation": "Washable light-filtering privacy roller shades; no loose drapes",
+        "coverage": "Large two-sash exterior window and smaller portico-side window; no curtains on the internal doors.",
+        "why": "Shades control mirror glare and street privacy without loose fabric in future equipment space. Workout use does not require blackout.",
+        "day": "Raise or partly lower shades to reduce mirror glare.",
+        "night": "Lower privacy shades for exercise with the lights on.",
+        "installation": "Choose cordless, wipeable material; keep northwest closet access, mirror and quote clear. Room remains unfurnished and equipment-free in this design.",
+        "goods": [
+          300,
+          600
+        ],
+        "installationCost": [
+          100,
+          200
+        ],
+        "title": "Studio gym",
+        "floor": "first-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states."
+    },
+    "bath": {
+      "revision": "r01",
+      "views": [
+        {
+          "id": "BATH-A",
+          "code": "B1",
+          "index": 3105,
+          "jobId": "a2486b04-f85c-45e5-8a57-b96543f918fb",
+          "label": "Vanity and toilet wall",
+          "file": "assets/render-candidates/floor-one-review/r01/bath-a-vanity.png",
+          "evidenceType": "Blueprint concept",
+          "evidence": "No original photo exists. Shows vanity and toilet together on the plan's garage-side wall.",
+          "qaNote": "Wall widths, door offsets, fixtures and finishes need site verification. Windowless room; no curtain or stair change applies."
+        },
+        {
+          "id": "BATH-B",
+          "code": "B2",
+          "index": 3109,
+          "jobId": "79f13567-10e3-4b97-8266-9b1ca8f1b1d1",
+          "label": "Opposite shower and bench",
+          "file": "assets/render-candidates/floor-one-review/r01/bath-b-shower.png",
+          "evidenceType": "Blueprint concept",
+          "evidence": "View from the vanity end toward the plan's shower compartment, with the two side access doors.",
+          "qaNote": "Glass, bench, drainage and door handing are illustrative and require measured trade drawings. Windowless room; no curtain or stair change applies."
+        }
+      ],
+      "notes": [
+        "A compact hotel-like bath with walnut storage, black details, warm ivory walls and quiet stone-look porcelain.",
+        "Window treatment: No window treatment",
+        "Why: There is no exterior glazing to dress. Do not add a curtain allowance for a reflected or imagined opening."
+      ],
+      "windowTreatment": {
+        "id": "bath",
+        "system": "none",
+        "recommendation": "No window treatment",
+        "coverage": "Bath #3 is windowless in the documented layout.",
+        "why": "There is no exterior glazing to dress. Do not add a curtain allowance for a reflected or imagined opening.",
+        "day": "Use planned task and ambient lighting.",
+        "night": "Privacy comes from the bathroom door.",
+        "installation": "Verify the existing room during survey; revise only if an actual exterior opening is found.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Bath #3",
+        "floor": "first-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Windowless room; no curtain or stair change applies."
+    },
+    "great": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "GR-R02-1-MWT01",
+          "code": "GR1",
+          "index": 23006,
+          "jobId": "bafa0762-ee4e-4376-bd7a-41034a5bbe37",
+          "model": "nano_banana_2_1",
+          "label": "Fireplace and both artworks",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/great-gr1-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved GR1 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-two-review/r02/great-a.png",
+          "sourceJobId": "b6d8e1d2-1a35-4f1f-b1f8-fdca64627cd4",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "GR-R02-2-MWT01",
+          "code": "GR2",
+          "index": 23007,
+          "jobId": "1d3489e4-02d8-4542-809c-7732f37730c1",
+          "model": "nano_banana_2_1",
+          "label": "Seating and coordinated art",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/great-gr2-day.png",
+          "evidenceType": "Derived alternate camera",
+          "evidence": "Higgsfield image edit of the approved GR2 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-two-review/r02/great-b-final.png",
+          "sourceJobId": "6f815558-5f6a-4514-8195-932774f76324",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "Related but distinct artworks balance the two walnut consoles beneath the original high windows.",
+        "Window treatment: Ivory sheers + hidden privacy shades; no mandatory blackout",
+        "Why: This is a social room with a TV, so flexible glare control and evening privacy matter more than cinema-level darkness. The airy main-floor appearance stays intact."
+      ],
+      "windowTreatment": {
+        "id": "great",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + hidden privacy shades; no mandatory blackout",
+        "coverage": "Terrace-facing glazing. Leave the two high horizontal transoms beside the fireplace bare unless glare or a neighboring sightline requires treatment.",
+        "why": "This is a social room with a TV, so flexible glare control and evening privacy matter more than cinema-level darkness. The airy main-floor appearance stays intact.",
+        "day": "Sheers diffuse sun; adjust the privacy shade where glare reaches the TV.",
+        "night": "Close privacy shades when the room is visible from outside.",
+        "installation": "Coordinate a traversing solution at operable terrace glass; stacks must clear handles and passage. Quote a blackout-fabric upgrade separately only if daytime TV testing shows it is wanted. High-transom treatment is not assumed in the base allowance.",
+        "goods": [
+          850,
+          1500
+        ],
+        "installationCost": [
+          200,
+          350
+        ],
+        "title": "Great room",
+        "floor": "second-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states."
+    },
+    "kitchen": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "K-R02-1-MWT01",
+          "code": "K1",
+          "index": 23014,
+          "jobId": "c369f990-e629-4109-b51d-b90c7df8a548",
+          "model": "nano_banana_2_1",
+          "label": "Island lighting and sunroom connection",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/kitchen-k1-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved K1 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-two-review/r02/kitchen-a.png",
+          "sourceJobId": "2518b56b-f1bd-4d3a-9242-9bdfead79f5f",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "K-R02-2-MWT01",
+          "code": "K2",
+          "index": 23015,
+          "jobId": "ede51433-32fa-45ea-adf5-38dcd1b2141d",
+          "model": "nano_banana_2_1",
+          "label": "Reverse kitchen view",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/kitchen-k2-day.png",
+          "evidenceType": "Derived alternate camera",
+          "evidence": "Higgsfield image edit of the approved K2 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-two-review/r02/kitchen-b-final.png",
+          "sourceJobId": "2ee84ad3-f4ed-467d-a640-b1d0e0774418",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "Two broad dark-bronze dome pendants give the island a calmer, more deliberate focal point.",
+        "Window treatment: Wipeable privacy roller at the counter window",
+        "Why: The kitchen needs daylight and evening privacy, with a finish that tolerates cooking and cleaning. Full-length drapes are impractical at a counter or splash area."
+      ],
+      "windowTreatment": {
+        "id": "kitchen",
+        "system": "practical",
+        "recommendation": "Wipeable privacy roller at the counter window",
+        "coverage": "Kitchen counter window only. Adjacent sunroom window banks are counted in the sunroom.",
+        "why": "The kitchen needs daylight and evening privacy, with a finish that tolerates cooking and cleaning. Full-length drapes are impractical at a counter or splash area.",
+        "day": "Raise or partly lower for working light and glare control.",
+        "night": "Lower the non-see-through privacy shade.",
+        "installation": "Select washable material and a compact cordless mechanism; survey faucet, backsplash, handles and appliance clearances. No blackout required.",
+        "goods": [
+          200,
+          400
+        ],
+        "installationCost": [
+          75,
+          125
+        ],
+        "title": "Kitchen",
+        "floor": "second-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states."
+    },
+    "dining": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "D-R02-1-MWT01",
+          "code": "D1",
+          "index": 23516,
+          "jobId": "2b931dc7-78c0-481d-981d-10b27002361d",
+          "model": "nano_banana_2_1",
+          "label": "Ten-seat table and window console",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r02/dining-d1-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved D1 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-two-review/r02/dining-a-ten-complete.png",
+          "sourceJobId": "8b6b187c-62bf-41bc-9ae1-7a43efddea59",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "D-R02-2",
+          "code": "D2",
+          "index": 3866,
+          "jobId": "8914cd1c-b878-4eae-bd50-05768352f35d",
+          "model": "nano_banana_2_1",
+          "label": "High-window console detail",
+          "file": "assets/render-candidates/floor-two-review/r02/dining-b-console-detail.png",
+          "evidenceType": "Derived finish detail",
+          "evidence": "Focused material and wall composition. Use the full room view and measured plan for complete layout; cropped boundaries are not fabrication details.",
+          "qaNote": "Concept only: confirm physical samples, product dimensions and coordinated drawings. D2 shows the high arched window that remains bare; tall-window layers are shown in D1."
+        }
+      ],
+      "notes": [
+        "A long walnut table for ten follows the room proportions, with a shallow display piece beneath the high window.",
+        "Window treatment: Ivory sheers + discreet privacy shades at tall windows",
+        "Why: Dinner after dark requires privacy while daytime entertaining benefits from light. Heavy blackout is unnecessary and should not obscure the arched architecture when open."
+      ],
+      "windowTreatment": {
+        "id": "dining",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + discreet privacy shades at tall windows",
+        "coverage": "Four tall openings: two rectangular and two arched. The small high center arch stays bare unless a sightline check requires coverage. The wall niche is not glazing.",
+        "why": "Dinner after dark requires privacy while daytime entertaining benefits from light. Heavy blackout is unnecessary and should not obscure the arched architecture when open.",
+        "day": "Sheers filter daylight; privacy layers fully raised and curtain stacks off glass.",
+        "night": "Lower the privacy layer at all tall openings.",
+        "installation": "Survey each opening individually. Mount the privacy layer to cover the whole tall opening, including an arch when closed, while clearing its shape when raised. Verify space above arches; price any required specialty arch treatment separately instead of assuming a standard roller fits.",
+        "goods": [
+          900,
+          1600
+        ],
+        "installationCost": [
+          250,
+          450
+        ],
+        "title": "Formal dining",
+        "floor": "second-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "D2 shows the high arched window that remains bare; tall-window layers are shown in D1."
+    },
+    "living": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "LR-R01-1-MWT01",
+          "code": "LR1",
+          "index": 23018,
+          "jobId": "763ee3a1-6986-4989-9619-0fdd0ee98380",
+          "model": "nano_banana_2_1",
+          "label": "Piano and front-window seating",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/living-lr1-day.png",
+          "evidenceType": "Plan-led concept",
+          "evidence": "Higgsfield image edit of the approved LR1 design; only stair runner and/or visible window treatment layers updated. Uses the builder plan and owner direction; no labeled room photograph exists. Unseen elevations remain inferred.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-two-review/r02/living-a-final.png",
+          "sourceJobId": "bfe921ae-1e58-47f1-8bf6-1e626b48d42b",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "LR-R01-2-MWT01",
+          "code": "LR2",
+          "index": 23019,
+          "jobId": "ea9e4f63-38d5-4321-9123-1178f5f9b3c9",
+          "model": "nano_banana_2_1",
+          "label": "Reverse view toward piano and hall",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/living-lr2-day.png",
+          "evidenceType": "Plan-led concept",
+          "evidence": "Higgsfield image edit of the approved LR2 design; only stair runner and/or visible window treatment layers updated. Uses the builder plan and owner direction; no labeled room photograph exists. Unseen elevations remain inferred.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-two-review/r02/living-b.png",
+          "sourceJobId": "d5b40d50-2a93-463b-952c-1d93307f4ec1",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "A compact baby grand, ivory Cloud-style seating and sheer curtains create the missing front living room, derived from the builder plan.",
+        "Window treatment: Clear ivory sheers + hidden privacy/glare shades",
+        "Why: Maintain the bright piano salon and soft Cloud-style seating, with privacy after dark. An adjustable layer also helps reduce direct sun at the piano; sheers alone are not a complete sun-protection strategy."
+      ],
+      "windowTreatment": {
+        "id": "living",
+        "system": "privacy",
+        "recommendation": "Clear ivory sheers + hidden privacy/glare shades",
+        "coverage": "Real south/front exterior windows only; do not treat the east-wall decorative false-window feature as exterior glazing.",
+        "why": "Maintain the bright piano salon and soft Cloud-style seating, with privacy after dark. An adjustable layer also helps reduce direct sun at the piano; sheers alone are not a complete sun-protection strategy.",
+        "day": "Sheers drawn lightly; shade only where direct sun or glare calls for it.",
+        "night": "Lower privacy shades on the front windows.",
+        "installation": "Coordinate stack-back with piano lid, seating and circulation; confirm piano placement and environmental guidance with the chosen manufacturer. No blackout requirement.",
+        "goods": [
+          600,
+          1100
+        ],
+        "installationCost": [
+          150,
+          300
+        ],
+        "title": "Living room · piano salon",
+        "floor": "second-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states."
+    },
+    "sunroom": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "S-R02-1-MWT01",
+          "code": "S1",
+          "index": 23020,
+          "jobId": "f54c0232-6d68-4bc8-95f9-b5a6ea20bf01",
+          "model": "nano_banana_2_1",
+          "label": "Six-seat breakfast arrangement",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/sunroom-s1-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved S1 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-two-review/r02/sunroom-a.png",
+          "sourceJobId": "d0c0f80c-0284-4025-b7d6-a691eeb1e250",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "S-R02-2-MWT01",
+          "code": "S2",
+          "index": 23021,
+          "jobId": "42fbf9e4-ab72-49c6-aedb-068079062dae",
+          "model": "nano_banana_2_1",
+          "label": "Sheers, table and terrace access",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/sunroom-s2-day.png",
+          "evidenceType": "Derived alternate camera",
+          "evidence": "Higgsfield image edit of the approved S2 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-two-review/r02/sunroom-b.png",
+          "sourceJobId": "d5c8d631-19be-46d8-83aa-15c348928eda",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "A slim rectangular table, six chairs, airy linear chandelier and transparent ivory sheers preserve the daylight.",
+        "Window treatment: Ivory sheers + independent privacy shades by window bank",
+        "Why: The six-seat breakfast area should feel bright. Separate shades let you manage individual sunny sides and evening privacy without making the whole room dark."
+      ],
+      "windowTreatment": {
+        "id": "sunroom",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + independent privacy shades by window bank",
+        "coverage": "Wraparound lower glazing and terrace-door glass as measured. High transoms stay open visually unless an actual sightline or glare issue requires coverage.",
+        "why": "The six-seat breakfast area should feel bright. Separate shades let you manage individual sunny sides and evening privacy without making the whole room dark.",
+        "day": "Use sheers; lower only the shade on the sunniest side as needed.",
+        "night": "Close the privacy layer where neighbors can see in.",
+        "installation": "Split shade zones at real mullions and provide a compatible operable-door solution. Keep fabric and stacks clear of oven/cooking surfaces and door travel. Match the main-floor sheer color; no heavy blackout lining in the base.",
+        "goods": [
+          900,
+          1500
+        ],
+        "installationCost": [
+          300,
+          500
+        ],
+        "title": "Sunroom",
+        "floor": "second-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states."
+    },
+    "stair2": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "STAIR2-1-MWT01",
+          "code": "ST1",
+          "index": 23501,
+          "jobId": "c9132249-4606-4c64-9074-ff5d467c7b7a",
+          "label": "Stair hall and open well",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r02/stair2-st1-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved ST1 design; only stair runner and/or visible window treatment layers updated. Source model-home photograph anchors room openings and proportions; finishes and furnishings are proposals.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "model": "nano_banana_2_1",
+          "sourceFile": "assets/render-candidates/floor-two-review/r01/stair2-a-hall.png",
+          "sourceJobId": "8c36ac54-4f08-4139-8e5a-e9d92f22e3d8",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "STAIR2-2-MWT01",
+          "code": "ST2",
+          "index": 23502,
+          "jobId": "b51fd2b6-600c-40c2-9929-52e4b928f3b4",
+          "label": "Treads and landing from the arch side",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r02/stair2-st2-day.png",
+          "evidenceType": "Derived alternate camera",
+          "evidence": "Higgsfield image edit of the approved ST2 design; only stair runner and/or visible window treatment layers updated. Generated from the room photograph, coordinated design and plan relationships. Hidden surfaces and camera position are inferred.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "model": "nano_banana_2_1",
+          "sourceFile": "assets/render-candidates/floor-two-review/r01/stair2-b-landing.png",
+          "sourceJobId": "aebb6b52-c902-4249-8ad7-843d624d625b",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "Light oak, ivory and dark handrails connect the floors with subtle mineral walls and framed art.",
+        "Window treatment: Bare high glazing by default; privacy review before ordering",
+        "Why: The landing and quarter-turn stair benefit from daylight; loose drapes would add clutter at circulation. No sleep or cinema use requires blackout.",
+        "Matching oatmeal/taupe runner with narrow charcoal edging on all interior floor-to-floor flights and their intermediate landings, with exposed wood margins."
+      ],
+      "windowTreatment": {
+        "id": "stair2",
+        "system": "none",
+        "recommendation": "Bare high glazing by default; privacy review before ordering",
+        "coverage": "Existing high stacked stair windows.",
+        "why": "The landing and quarter-turn stair benefit from daylight; loose drapes would add clutter at circulation. No sleep or cinema use requires blackout.",
+        "day": "Keep glass open visually; add fixed diffusion only if glare warrants it.",
+        "night": "Check views from neighboring upper floors; height alone does not guarantee privacy.",
+        "installation": "No new covering in the base budget. If the survey reveals a sightline, price a discreet privacy treatment and safe operating/cleaning access separately. Keep fabric away from treads and guards.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Second-floor stair hall",
+        "floor": "second-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states.",
+      "stairRunner": {
+        "version": "MW-T01",
+        "date": "2026-10-08",
+        "status": "Design direction accepted for rendering; material and measured fabrication pending",
+        "scope": "All three interior floor-to-floor connections: floor 1 to 2, 2 to 3 and 3 to 4, including their turns and intermediate landings. Main-floor hallways remain exposed wood. Exterior stairs excluded.",
+        "material": "Warm oatmeal/taupe, fine low-pile woven texture with a narrow charcoal bound edge. Select a manufacturer-approved stair-use wool blend or durable performance carpet after a physical sample; exact fiber, backing and product remain unselected.",
+        "installation": "Professionally fitted continuous visual path over the existing treads and risers, with tailored sections/joins at turns and landings. Use the carpet maker's approved stair underlay and fixing system, with concealed fixings and no loose tread mats or decorative stair rods. Preserve the existing tread, nosing, riser and guard geometry.",
+        "dimensions": "Measure and template every flight and quarter-turn/intermediate landing individually. Keep visually balanced exposed-wood margins on both sides. Final runner width, edge reveal, landing shape, binding width, seam positions, pile direction and cutting waste come from the installer survey, not image pixels. Tape the proposed edges on the actual stairs before cutting.",
+        "coordination": "Complete tread/rail refinishing first and allow the selected finish to cure. Keep carpet/underlay thickness consistent at transitions. Obtain one shop layout covering all three connections and show joins/binding before fabrication. Reuse the same carpet and binding batch across levels.",
+        "goods": [
+          2000,
+          4000
+        ],
+        "installationCost": [
+          1500,
+          3000
+        ],
+        "costBasis": "Whole-stair planning allowances for carpet, stair underlay, binding and ordinary cutting waste, with specialist fitting separately. Not a measured quantity takeoff or a supplier quote. Stair refinishing remains in its existing budget line; these are added runner costs only.",
+        "source": "https://www.annieselke.com/blogs/design-advice/stair-runner-guide"
+      }
+    },
+    "ownerbed": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "OB-R03-1-MWT01",
+          "code": "OB1",
+          "index": 23003,
+          "jobId": "6bd37240-8a98-410b-8e48-391d9eb0bde6",
+          "model": "nano_banana_2_1",
+          "label": "TV, art and illuminated platform",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/ownerbed-ob1-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved OB1 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-three-review/r03/ownerbed-a.png",
+          "sourceJobId": "6b82ecdd-0cb2-41ab-b6be-686bcb5695a8",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "OB-R03-2-MWT01",
+          "code": "OB2",
+          "index": 23504,
+          "jobId": "04499619-3689-45bf-b357-4a9dcce1a201",
+          "model": "nano_banana_2_1",
+          "label": "Headboard and floating bedside detail",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r02/ownerbed-ob2-day.png",
+          "evidenceType": "Derived alternate camera",
+          "evidence": "Higgsfield image edit of the approved OB2 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-three-review/r03/ownerbed-b-final.png",
+          "sourceJobId": "daad7190-d478-4a9b-88cb-9b204aba56b3",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "Art over the bed, a 55-inch TV opposite, softly illuminated platform and floating bedside consoles, oak flooring and a loose rug.",
+        "Window treatment: Ivory sheers + fully closing oatmeal blackout-lined curtains",
+        "Why: The primary bedroom needs sleeping darkness, daytime rest and evening privacy. Treating only this room would leave light entering through the open retreat."
+      ],
+      "windowTreatment": {
+        "id": "ownerbed",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + fully closing oatmeal blackout-lined curtains",
+        "coverage": "Full four-sash rear window group. Coordinate the open retreat as part of the same sleep-darkening zone.",
+        "why": "The primary bedroom needs sleeping darkness, daytime rest and evening privacy. Treating only this room would leave light entering through the open retreat.",
+        "day": "Sheers filter daylight; blackout layer stacks clear.",
+        "night": "Close both bedroom and retreat blackout layers; switch off decorative under-bed lighting for sleep if preferred.",
+        "installation": "Use independent tracks with overlap/returns. Check the dresser below the window before deciding curtain drop and stack. If it prevents full closure, use a blackout roller behind the sheers rather than trapping fabric behind furniture. Inspect all light gaps after installation.",
+        "goods": [
+          900,
+          1600
+        ],
+        "installationCost": [
+          200,
+          350
+        ],
+        "title": "Owners suite",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states."
+    },
+    "retreat": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "RETREAT-1",
+          "code": "OR1",
+          "index": 3501,
+          "jobId": "fb41f06a-a950-44c4-a018-fb75c8c65528",
+          "label": "Coffee bar toward the bedroom",
+          "file": "assets/render-candidates/floor-three-review/r01/retreat-a.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Original model-home photograph anchors this viewpoint, openings and room proportions. Finishes and furnishings are proposals.",
+          "qaNote": "Confirm exact dimensions, product selections, physical finish samples and services before building. OR1 faces the bar and open bedroom connection; the retreat window layers are shown in OR2."
+        },
+        {
+          "id": "RETREAT-2-MWT01",
+          "code": "OR2",
+          "index": 23022,
+          "jobId": "ecfa170f-d6d1-4206-b781-e95e74b9ed26",
+          "label": "Seating nook and beverage bar",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/retreat-or2-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved OR2 design; only stair runner and/or visible window treatment layers updated. Original model-home photograph anchors this viewpoint, openings and room proportions. Finishes and furnishings are proposals.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "model": "nano_banana_2_1",
+          "sourceFile": "assets/render-candidates/floor-three-review/r01/retreat-b-final.png",
+          "sourceJobId": "8eeeda9d-e89c-4408-8a7d-b303834eedf5",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "A quiet coffee bar and sunlit pair of chaise longues, connected to the bedroom.",
+        "Window treatment: Match the bedroom: ivory sheers + blackout layer",
+        "Why: Although this is a sitting/coffee area, it is open to the bedroom. Untreated retreat glass would defeat the bedroom blackout treatment."
+      ],
+      "windowTreatment": {
+        "id": "retreat",
+        "system": "blackout",
+        "recommendation": "Match the bedroom: ivory sheers + blackout layer",
+        "coverage": "Both exterior window walls and any connected terrace-door glazing confirmed on site. Do not add a door to the open bedroom connection.",
+        "why": "Although this is a sitting/coffee area, it is open to the bedroom. Untreated retreat glass would defeat the bedroom blackout treatment.",
+        "day": "Sheers for the lounge; blackout curtains stacked away from glass.",
+        "night": "Close all retreat exterior-glass blackout layers with the bedroom curtains.",
+        "installation": "Survey all window groups and terrace access. Keep curtains clear of the bar, appliances and door swings. Where a door cannot accept curtains, use an independent blackout shade with gap control; keep the visible fabric coordinated with the bedroom.",
+        "goods": [
+          1200,
+          2000
+        ],
+        "installationCost": [
+          300,
+          550
+        ],
+        "title": "Owners retreat",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "OR1 faces the bar and open bedroom connection; the retreat window layers are shown in OR2."
+    },
+    "ownerbath": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "BA-R02-1-MWT01",
+          "code": "BA1",
+          "index": 23023,
+          "jobId": "79fd472c-152c-4f30-b1b7-663e31e711d4",
+          "model": "nano_banana_2_1",
+          "label": "Tub artwork and vanity",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/ownerbath-ba1-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved BA1 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-three-review/r03/ownerbath-a.png",
+          "sourceJobId": "125116c9-2abb-4851-8ce3-0fed002b060c",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "BA-R02-2-MWT01",
+          "code": "BA2",
+          "index": 23524,
+          "jobId": "2ee7c73d-90da-445f-8299-bce57e8177ec",
+          "model": "nano_banana_2_1",
+          "label": "Tub feature-wall view",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r02/ownerbath-ba2-day.png",
+          "evidenceType": "Derived alternate camera",
+          "evidence": "Higgsfield image edit of the approved BA2 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-three-review/r03/ownerbath-b-final.png",
+          "sourceJobId": "dc4c4d82-ea64-4ba5-b8de-d8869e501114",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "One restrained framed artwork gives the tub wall a considered focal point within the existing warm bathroom scheme.",
+        "Window treatment: Wet-area privacy at shower glass; moisture-resistant shade at dry window",
+        "Why: Bathing needs reliable privacy, not decorative sheers. Fabric in direct shower spray is unsuitable; bedroom blackout can be managed with the bathroom door closed."
+      ],
+      "windowTreatment": {
+        "id": "ownerbath",
+        "system": "practical",
+        "recommendation": "Wet-area privacy at shower glass; moisture-resistant shade at dry window",
+        "coverage": "Exterior window within the shower and the dry vanity-side exterior window.",
+        "why": "Bathing needs reliable privacy, not decorative sheers. Fabric in direct shower spray is unsuitable; bedroom blackout can be managed with the bathroom door closed.",
+        "day": "Shower-window privacy remains in place while admitting diffuse daylight; adjust the dry-window shade.",
+        "night": "Close the dry-window opaque privacy shade; verify the shower treatment conceals silhouettes under actual interior lighting.",
+        "installation": "Provisional base: obscuring film explicitly compatible with the shower exposure and existing glazing, plus a moisture-resistant opaque roller on the dry window. If film cannot meet privacy/compatibility needs, quote suitable obscured glazing separately; window replacement is not included. No hanging sheer or drape in the shower.",
+        "goods": [
+          350,
+          650
+        ],
+        "installationCost": [
+          150,
+          250
+        ],
+        "title": "Owners bathroom",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states."
+    },
+    "ownercloset": {
+      "revision": "r01",
+      "views": [
+        {
+          "id": "OWNERCLOSET-1",
+          "code": "WC1",
+          "index": 3508,
+          "jobId": "a330fff0-32f1-41af-b4be-33b3d7d3a2b4",
+          "label": "Walk-in storage concept",
+          "file": "assets/render-candidates/floor-three-review/r01/ownercloset-a.png",
+          "evidenceType": "Plan-led concept",
+          "evidence": "Builder-plan interpretation; no labeled photograph exists for this room. Unseen surfaces, joinery and furnishings are proposed.",
+          "qaNote": "Confirm exact dimensions, product selections, physical finish samples and services before building. Windowless closet; no curtain or stair change applies."
+        }
+      ],
+      "notes": [
+        "Practical fitted storage with a few walnut accents, using the existing walk-in footprint.",
+        "Window treatment: No window treatment",
+        "Why: No exterior opening needs a covering; preserve storage and task lighting."
+      ],
+      "windowTreatment": {
+        "id": "ownercloset",
+        "system": "none",
+        "recommendation": "No window treatment",
+        "coverage": "Windowless closet in the current plan-led concept.",
+        "why": "No exterior opening needs a covering; preserve storage and task lighting.",
+        "day": "Use closet lighting.",
+        "night": "Privacy is provided by the suite and closet enclosure.",
+        "installation": "Confirm during measured survey; do not invent a window to match a render reflection.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Owners walk-in closet",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Windowless closet; no curtain or stair change applies."
+    },
+    "bed2": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "B2-R03-1-MWT01",
+          "code": "B21",
+          "index": 23025,
+          "jobId": "fb83eb75-017a-4213-886d-24910e766d0a",
+          "model": "nano_banana_2_1",
+          "label": "West-wall headboard and entry",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/bed2-b21-day.png",
+          "evidenceType": "Plan-led concept",
+          "evidence": "Higgsfield image edit of the approved B21 design; only stair runner and/or visible window treatment layers updated. Uses the builder plan and owner direction; no labeled room photograph exists. Unseen elevations remain inferred.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-three-review/r03/bed2-a-final.png",
+          "sourceJobId": "42eecef7-7956-4961-9c7c-4c0f28635d64",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "B2-R03-2-MWT01",
+          "code": "B22",
+          "index": 23526,
+          "jobId": "7d5179bc-4ac5-436d-9719-bb6f0be7eb2b",
+          "model": "nano_banana_2_1",
+          "label": "East window and desk",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r02/bed2-b22-day.png",
+          "evidenceType": "Plan-led concept",
+          "evidence": "Higgsfield image edit of the approved B22 design; only stair runner and/or visible window treatment layers updated. Uses the builder plan and owner direction; no labeled room photograph exists. Unseen elevations remain inferred.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-three-review/r03/bed2-b.png",
+          "sourceJobId": "232c81d1-8739-47ec-a63b-26bbc0caf7ff",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "The user-confirmed west-wall headboard and southwest entry guide this layout study; the desk sits south/right of the east window.",
+        "Window treatment: Ivory sheers + blackout-lined curtains or concealed blackout roller",
+        "Why: A sleeping room needs darkness and nighttime privacy even when also used for study. The desk is not a reason to omit blackout."
+      ],
+      "windowTreatment": {
+        "id": "bed2",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + blackout-lined curtains or concealed blackout roller",
+        "coverage": "East-wall window, with the desk to its right. Preserve west-wall headboard and entry on the southern part of the west wall.",
+        "why": "A sleeping room needs darkness and nighttime privacy even when also used for study. The desk is not a reason to omit blackout.",
+        "day": "Sheers and an adjustable shade position for study light.",
+        "night": "Fully close the blackout layer.",
+        "installation": "Keep desk access and window operation clear. Prefer full closing curtains where they fit; if the desk blocks their travel, use a blackout roller with suitable edge overlap behind the sheers. No freestanding furniture changes required.",
+        "goods": [
+          400,
+          750
+        ],
+        "installationCost": [
+          125,
+          200
+        ],
+        "title": "Bedroom 2",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states."
+    },
+    "bed3": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "B3-R03-1-MWT01",
+          "code": "B31",
+          "index": 23527,
+          "jobId": "e3d1d468-ec50-4bf8-acd0-5834d87b54dd",
+          "model": "nano_banana_2_1",
+          "label": "Wood floor and window-led bed",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r02/bed3-b31-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved B31 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-three-review/r03/bed3-a.png",
+          "sourceJobId": "2883198a-ecf6-4080-a6a2-375b5e245cd4",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "B3-R03-2-MWT01",
+          "code": "B32",
+          "index": 23528,
+          "jobId": "0a110c39-3d58-4b6e-9869-16bd5b403b6e",
+          "model": "nano_banana_2_1",
+          "label": "Tailored bed and loose rug",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r02/bed3-b32-day.png",
+          "evidenceType": "Derived alternate camera",
+          "evidence": "Higgsfield image edit of the approved B32 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-three-review/r03/bed3-b-detail.png",
+          "sourceJobId": "a20be25a-eb81-484a-a69a-91ea4db62311",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "The established window-led bedroom now has natural oak floors with a separate oatmeal rug under the bed.",
+        "Window treatment: Ivory sheers + blackout at every exterior opening",
+        "Why: All three openings must darken for comfortable sleeping; dressing only the large window would leave the bedside windows admitting light."
+      ],
+      "windowTreatment": {
+        "id": "bed3",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + blackout at every exterior opening",
+        "coverage": "Large front window and both smaller windows flanking the bed.",
+        "why": "All three openings must darken for comfortable sleeping; dressing only the large window would leave the bedside windows admitting light.",
+        "day": "Sheers preserve a light guest-bedroom atmosphere.",
+        "night": "Close all three blackout layers.",
+        "installation": "Use functional lined curtains where stack space allows and matching discreet blackout rollers behind sheers at tight bedside openings. Check bedside furniture, wall lights and bedding clearance before fixing tracks.",
+        "goods": [
+          750,
+          1200
+        ],
+        "installationCost": [
+          200,
+          350
+        ],
+        "title": "Bedroom 3",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states."
+    },
+    "sharedbath": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "SHAREDBATH-1-MWT01",
+          "code": "SB1",
+          "index": 23529,
+          "jobId": "bc9a7fab-1b3a-4b6d-aa6c-d27c412f5847",
+          "label": "Double vanity and bedroom connection",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r02/sharedbath-sb1-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved SB1 design; only stair runner and/or visible window treatment layers updated. Original model-home photograph anchors this viewpoint, openings and room proportions. Finishes and furnishings are proposals.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "model": "nano_banana_2_1",
+          "sourceFile": "assets/render-candidates/floor-three-review/r01/sharedbath-a.png",
+          "sourceJobId": "0c042ace-bf74-44fd-9643-e9f0c2f25e36",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "SHAREDBATH-2-MWT01",
+          "code": "SB2",
+          "index": 23030,
+          "jobId": "be087276-5918-4535-9fe0-290415223896",
+          "label": "Vanity finishes from a nearby angle",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/sharedbath-sb2-day.png",
+          "evidenceType": "Derived alternate camera",
+          "evidence": "Higgsfield image edit of the approved SB2 design; only stair runner and/or visible window treatment layers updated. A modest alternate camera derived from the source photograph, coordinated render and builder plan. Hidden surfaces remain inferred.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "model": "nano_banana_2_1",
+          "sourceFile": "assets/render-candidates/floor-three-review/r01/sharedbath-b.png",
+          "sourceJobId": "267b0b82-4686-4af0-bf5d-3ebe89548444",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "A durable, calm double-vanity bathroom shared by the two front bedrooms.",
+        "Window treatment: No window treatment",
+        "Why: Bathroom privacy comes from closing its doors. Avoid ordering shades for reflected windows."
+      ],
+      "windowTreatment": {
+        "id": "sharedbath",
+        "system": "none",
+        "recommendation": "No window treatment",
+        "coverage": "No exterior window in this bathroom; bedroom glazing seen through doors or mirrors belongs to the bedrooms.",
+        "why": "Bathroom privacy comes from closing its doors. Avoid ordering shades for reflected windows.",
+        "day": "Use planned bathroom lighting.",
+        "night": "Close bathroom doors; adjacent bedroom coverings are priced in those rooms.",
+        "installation": "Confirm the windowless condition in the site survey.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Shared bathroom",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states."
+    },
+    "laundry": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "LA-R02-1-MWT01",
+          "code": "LA1",
+          "index": 23031,
+          "jobId": "433a4fdd-1e86-42fb-8772-2bb5b63e9ffe",
+          "model": "nano_banana_2_1",
+          "label": "Laundry graphic and sink run",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/laundry-la1-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved LA1 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-three-review/r03/laundry-a-final.png",
+          "sourceJobId": "f1a41167-66db-4cfa-96c1-fadecc952a08",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "LA-R02-2-MWT01",
+          "code": "LA2",
+          "index": 23532,
+          "jobId": "aa344c70-efd0-40d1-945f-5207322ce645",
+          "model": "nano_banana_2_1",
+          "label": "Alternate view of the quote wall",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r02/laundry-la2-day.png",
+          "evidenceType": "Derived alternate camera",
+          "evidence": "Higgsfield image edit of the approved LA2 design; only stair runner and/or visible window treatment layers updated. Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "sourceFile": "assets/render-candidates/floor-three-review/r03/laundry-b.png",
+          "sourceJobId": "848918d2-7860-47f2-874b-f0eff87b63bd",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "A simple rinse-cycle line graphic and the requested quote add character while retaining the selected utility finishes.",
+        "Window treatment: Washable privacy rollers; lined woven-look shades as an alternative",
+        "Why: Laundry needs useful daylight, washable finishes and evening privacy. Open-weave decorative shades alone may be see-through; blackout and floor-length curtains are unnecessary."
+      ],
+      "windowTreatment": {
+        "id": "laundry",
+        "system": "practical",
+        "recommendation": "Washable privacy rollers; lined woven-look shades as an alternative",
+        "coverage": "Two left-side windows, including the arched opening by the sink.",
+        "why": "Laundry needs useful daylight, washable finishes and evening privacy. Open-weave decorative shades alone may be see-through; blackout and floor-length curtains are unnecessary.",
+        "day": "Raise for task light; adjust to soften glare.",
+        "night": "Lower the privacy layer.",
+        "installation": "Survey the arch and sink clearance; cover the full sightline without hanging fabric into splashes. If a woven-look Roman shade is chosen instead, include a privacy lining in its quote. Preserve the Rinse and repeat.. graphic.",
+        "goods": [
+          300,
+          550
+        ],
+        "installationCost": [
+          100,
+          175
+        ],
+        "title": "Laundry",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states."
+    },
+    "stair3": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "STAIR3-1-MWT01",
+          "code": "ST31",
+          "index": 23033,
+          "jobId": "cd7ea948-fc76-4e99-b557-1b22c2e0b2e9",
+          "label": "Quarter-turn stair and high windows",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/stair3-st31-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved ST31 design; only stair runner and/or visible window treatment layers updated. Original model-home photograph anchors this viewpoint, openings and room proportions. Finishes and furnishings are proposals.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "model": "nano_banana_2_1",
+          "sourceFile": "assets/render-candidates/floor-three-review/r01/stair3-a.png",
+          "sourceJobId": "64429318-7ed1-4247-990b-6ac13d8d6085",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "Continue the light stair palette and restrained black-framed artwork through the upper landing.",
+        "Window treatment: Bare high windows; add privacy only if sightlines require it",
+        "Why: Daylight supports circulation; the stair does not need blackout or floor-length fabric.",
+        "Matching oatmeal/taupe runner with narrow charcoal edging on all interior floor-to-floor flights and their intermediate landings, with exposed wood margins."
+      ],
+      "windowTreatment": {
+        "id": "stair3",
+        "system": "none",
+        "recommendation": "Bare high windows; add privacy only if sightlines require it",
+        "coverage": "Three high stair-hall windows.",
+        "why": "Daylight supports circulation; the stair does not need blackout or floor-length fabric.",
+        "day": "Leave glass visually open; assess glare on the landing.",
+        "night": "Check neighboring upper-floor views before treating high glazing as private.",
+        "installation": "No covering included in base. Survey any needed discreet privacy/diffusion treatment and access cost separately; do not hang fabric into stair travel or against the guard.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Third-floor stair hall",
+        "floor": "third-floor",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states.",
+      "stairRunner": {
+        "version": "MW-T01",
+        "date": "2026-10-08",
+        "status": "Design direction accepted for rendering; material and measured fabrication pending",
+        "scope": "All three interior floor-to-floor connections: floor 1 to 2, 2 to 3 and 3 to 4, including their turns and intermediate landings. Main-floor hallways remain exposed wood. Exterior stairs excluded.",
+        "material": "Warm oatmeal/taupe, fine low-pile woven texture with a narrow charcoal bound edge. Select a manufacturer-approved stair-use wool blend or durable performance carpet after a physical sample; exact fiber, backing and product remain unselected.",
+        "installation": "Professionally fitted continuous visual path over the existing treads and risers, with tailored sections/joins at turns and landings. Use the carpet maker's approved stair underlay and fixing system, with concealed fixings and no loose tread mats or decorative stair rods. Preserve the existing tread, nosing, riser and guard geometry.",
+        "dimensions": "Measure and template every flight and quarter-turn/intermediate landing individually. Keep visually balanced exposed-wood margins on both sides. Final runner width, edge reveal, landing shape, binding width, seam positions, pile direction and cutting waste come from the installer survey, not image pixels. Tape the proposed edges on the actual stairs before cutting.",
+        "coordination": "Complete tread/rail refinishing first and allow the selected finish to cure. Keep carpet/underlay thickness consistent at transitions. Obtain one shop layout covering all three connections and show joins/binding before fabrication. Reuse the same carpet and binding batch across levels.",
+        "goods": [
+          2000,
+          4000
+        ],
+        "installationCost": [
+          1500,
+          3000
+        ],
+        "costBasis": "Whole-stair planning allowances for carpet, stair underlay, binding and ordinary cutting waste, with specialist fitting separately. Not a measured quantity takeoff or a supplier quote. Stair refinishing remains in its existing budget line; these are added runner costs only.",
+        "source": "https://www.annieselke.com/blogs/design-advice/stair-runner-guide"
+      }
+    },
+    "loft": {
+      "revision": "MW-T01",
+      "views": [
+        {
+          "id": "LOFT-1-MWT01",
+          "code": "PL1",
+          "index": 23034,
+          "jobId": "dd4eae9d-6a64-4281-9480-df9774e649fc",
+          "label": "Lounge and terrace connections",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/loft-pl1-day.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Higgsfield image edit of the approved PL1 design; only stair runner and/or visible window treatment layers updated. Original model-home photograph anchors this viewpoint, openings and room proportions. Finishes and furnishings are proposals.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "model": "nano_banana_2_1",
+          "sourceFile": "assets/render-candidates/floor-four-review/r01/loft-a.png",
+          "sourceJobId": "484088a6-f517-49df-9d67-f622e87cab4b",
+          "revision": "MW-T01"
+        },
+        {
+          "id": "LOFT-2-MWT01",
+          "code": "PL2",
+          "index": 23035,
+          "jobId": "10bb2056-1e75-41ec-afde-be4e064e818a",
+          "label": "Lounge toward the wet bar",
+          "file": "assets/render-candidates/mineral-walnut-textiles/r01/loft-pl2-day.png",
+          "evidenceType": "Derived alternate camera",
+          "evidence": "Higgsfield image edit of the approved PL2 design; only stair runner and/or visible window treatment layers updated. A modest alternate camera derived from the source photograph, coordinated render and builder plan. Hidden surfaces remain inferred.",
+          "qaNote": "Open/daytime treatment demonstration. Original camera and room arrangement retained; textile fabrication, fixing details and final dimensions require site measurements. ",
+          "model": "nano_banana_2_1",
+          "sourceFile": "assets/render-candidates/floor-four-review/r01/loft-b.png",
+          "sourceJobId": "c7473d1a-4c7d-4327-b467-c77841f5d86a",
+          "revision": "MW-T01"
+        }
+      ],
+      "notes": [
+        "An airy lounge with deep neutral seating, walnut furniture and a coordinated wet bar.",
+        "Window treatment: Ivory sheers + independent privacy layers at terrace glazing",
+        "Why: The penthouse lounge should retain its views by day and privacy after dark. Being on the top floor does not guarantee privacy from adjacent homes. It is not currently a sleeping room or dedicated cinema."
+      ],
+      "windowTreatment": {
+        "id": "loft",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + independent privacy layers at terrace glazing",
+        "coverage": "French doors and flanking windows, wide terrace slider and compact bar-alcove window. Coordinate the final glazing inventory on site.",
+        "why": "The penthouse lounge should retain its views by day and privacy after dark. Being on the top floor does not guarantee privacy from adjacent homes. It is not currently a sleeping room or dedicated cinema.",
+        "day": "Sheers for soft light; raise the compact bar-window shade.",
+        "night": "Close privacy layers where visible from neighboring properties.",
+        "installation": "Use traversing treatments that stack clear of the slider and French doors; compact shade at the bar. Blackout is a separate future upgrade if this becomes a regular sleeping or cinema space. Interior loft glass is not also counted in terrace furniture costs.",
+        "goods": [
+          950,
+          1700
+        ],
+        "installationCost": [
+          250,
+          450
+        ],
+        "title": "Penthouse lounge",
+        "floor": "penthouse",
+        "version": "MW-W01"
+      },
+      "textileNote": "Visible treatments updated in the images; day and night demonstrate their different operating states."
+    },
+    "bed5": {
+      "revision": "r03",
+      "views": [
+        {
+          "id": "B5-R03-1",
+          "code": "B51",
+          "index": 3905,
+          "jobId": "844681b3-8f93-431f-99c0-bead0744af0e",
+          "model": "nano_banana_2_1",
+          "label": "Mushroom suite with wood flooring",
+          "file": "assets/render-candidates/floor-four-review/r03/bed5-a.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Real model-home photo remains structural reference; selected design render provides materials and furniture. Alternate camera details are interpreted.",
+          "qaNote": "Concept only: confirm physical samples, product dimensions and coordinated drawings. Both existing cameras face the blank headboard wall; exterior glazing and its specified sheer/blackout layers are outside these views. Window placement must be confirmed for the unbuilt room."
+        },
+        {
+          "id": "B5-R03-2",
+          "code": "B52",
+          "index": 3945,
+          "jobId": "1fc89133-abf3-4406-b013-9a319cae5373",
+          "model": "nano_banana_2_1",
+          "label": "Headboard and lighting detail",
+          "file": "assets/render-candidates/floor-four-review/r03/bed5-b-final.png",
+          "evidenceType": "Derived finish detail",
+          "evidence": "Focused material and wall composition. Use the full room view and measured plan for complete layout; cropped boundaries are not fabrication details.",
+          "qaNote": "Concept only: confirm physical samples, product dimensions and coordinated drawings. Both existing cameras face the blank headboard wall; exterior glazing and its specified sheer/blackout layers are outside these views. Window placement must be confirmed for the unbuilt room."
+        }
+      ],
+      "notes": [
+        "The mushroom and charcoal penthouse bedroom keeps its identity, now on natural oak with a loose rug.",
+        "Window treatment: Ivory sheers + blackout for the new guest bedroom",
+        "Why: This is a real sleeping room, so guest privacy and light control should be designed into construction rather than added after furniture arrives."
+      ],
+      "windowTreatment": {
+        "id": "bed5",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + blackout for the new guest bedroom",
+        "coverage": "Confirmed exterior glazing of the proposed new Bedroom 5 only; openings and final enclosure remain to be surveyed.",
+        "why": "This is a real sleeping room, so guest privacy and light control should be designed into construction rather than added after furniture arrives.",
+        "day": "Sheers filter daylight.",
+        "night": "Close the blackout layer at every confirmed exterior opening.",
+        "installation": "Provisional allowance, not an approved window count. Coordinate track supports and bed/storage positions with the new room plan. Do not create new windows or drape the blank headboard wall to imitate a render.",
+        "goods": [
+          450,
+          850
+        ],
+        "installationCost": [
+          125,
+          225
+        ],
+        "title": "Penthouse guest bedroom",
+        "floor": "penthouse",
+        "version": "MW-W01"
+      },
+      "textileNote": "Both existing cameras face the blank headboard wall; exterior glazing and its specified sheer/blackout layers are outside these views. Window placement must be confirmed for the unbuilt room."
+    },
+    "bath4": {
+      "revision": "r01",
+      "views": [
+        {
+          "id": "BATH4-1",
+          "code": "PBA1",
+          "index": 3603,
+          "jobId": "4ee19ef4-2adb-48bc-9578-4717b2fab3b7",
+          "label": "Single vanity and shower concept",
+          "file": "assets/render-candidates/floor-four-review/r01/bath4-a.png",
+          "evidenceType": "Plan-led concept",
+          "evidence": "Builder-plan interpretation; no labeled photograph exists for this room. Unseen surfaces, joinery and furnishings are proposed.",
+          "qaNote": "Confirm exact dimensions, product selections, physical finish samples and services before building. Windowless plan-led bathroom; no curtain or stair change applies."
+        }
+      ],
+      "notes": [
+        "A compact guest bathroom in ivory porcelain and walnut, without moving its fixture zones.",
+        "Window treatment: No window treatment in the current layout",
+        "Why: No exterior glazing needs dressing in the documented concept."
+      ],
+      "windowTreatment": {
+        "id": "bath4",
+        "system": "none",
+        "recommendation": "No window treatment in the current layout",
+        "coverage": "Plan-led penthouse bathroom is windowless.",
+        "why": "No exterior glazing needs dressing in the documented concept.",
+        "day": "Use bathroom lighting.",
+        "night": "Use the bathroom door for privacy.",
+        "installation": "Confirm the existing enclosure/services and whether there is any real exterior opening before final scope. A newly discovered window would require a wet-area privacy specification and revised allowance.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Penthouse bathroom",
+        "floor": "penthouse",
+        "version": "MW-W01"
+      },
+      "textileNote": "Windowless plan-led bathroom; no curtain or stair change applies."
+    },
+    "terrace": {
+      "revision": "r01",
+      "views": [
+        {
+          "id": "TERRACE-1",
+          "code": "RT1",
+          "index": 3602,
+          "jobId": "476a4a80-6325-4b97-80e9-4af5c677db29",
+          "label": "Dining and fireplace lounge",
+          "file": "assets/render-candidates/floor-four-review/r01/terrace-a.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Original model-home photograph anchors this viewpoint, openings and room proportions. Finishes and furnishings are proposals.",
+          "qaNote": "Confirm exact dimensions, product selections, physical finish samples and services before building. Outdoor terrace. Interior window treatments are shown in the adjoining rooms; no outdoor drapes are proposed."
+        },
+        {
+          "id": "TERRACE-2",
+          "code": "RT2",
+          "index": 3612,
+          "jobId": "5392bbb8-3937-4c63-9a5f-3c0fa908f686",
+          "label": "Opposite view toward the sun terrace",
+          "file": "assets/render-candidates/floor-four-review/r01/terrace-b.png",
+          "evidenceType": "Photo-based revision",
+          "evidence": "Original model-home photograph anchors this viewpoint, openings and room proportions. Finishes and furnishings are proposals.",
+          "qaNote": "Confirm exact dimensions, product selections, physical finish samples and services before building. Outdoor terrace. Interior window treatments are shown in the adjoining rooms; no outdoor drapes are proposed."
+        }
+      ],
+      "notes": [
+        "A relaxed rooftop retreat with teak tones, ivory outdoor upholstery and charcoal planters.",
+        "Window treatment: No interior drapes outdoors",
+        "Why: Interior sheers and blackout panels do not belong in this outdoor exposure. Existing exterior shade structures and weather-rated furniture form a separate scope."
+      ],
+      "windowTreatment": {
+        "id": "terrace",
+        "system": "none",
+        "recommendation": "No interior drapes outdoors",
+        "coverage": "Outdoor roof terrace; adjoining interior glass is covered under the loft or suite room schedule.",
+        "why": "Interior sheers and blackout panels do not belong in this outdoor exposure. Existing exterior shade structures and weather-rated furniture form a separate scope.",
+        "day": "Use the existing outdoor shade arrangement.",
+        "night": "Close the relevant interior privacy layers from inside.",
+        "installation": "No additional exterior curtain system included; do not duplicate loft glazing costs here.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Roof terrace",
+        "floor": "penthouse",
+        "version": "MW-W01"
+      },
+      "textileNote": "Outdoor terrace. Interior window treatments are shown in the adjoining rooms; no outdoor drapes are proposed."
+    }
+  }
+}

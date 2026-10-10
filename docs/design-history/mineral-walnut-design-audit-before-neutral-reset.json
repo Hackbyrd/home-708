@@ -1,0 +1,415 @@
+{
+  "version": "MW-A02",
+  "date": "2026-10-08",
+  "status": "Image corrections completed; measurements, products and omitted-space scope remain open",
+  "reviewed": {
+    "dayViews": 45,
+    "nightViews": 24,
+    "spaces": 24,
+    "plans": [
+      "docs/design-review-assets/floor-1-r04-plan.webp",
+      "docs/design-review-assets/floor-2-r02-plan.webp",
+      "docs/design-review-assets/floor-3-r03-plan.webp",
+      "docs/design-review-assets/floor-4-r03-plan.webp"
+    ],
+    "baseline": "mw-architecture-r01",
+    "method": "Visual comparison of every current day/night render, existing builder-plan previews, room schedules, window schedule, guide and budget exclusions. No site measurements, product tests or concealed conditions verified."
+  },
+  "verdict": "Mineral & Walnut now has a corrected, coordinated 45-day / 24-night review set. The remaining work is measured fit, product and material selection, trade details and the ancillary spaces listed below—not more whole-house decorative features.",
+  "runner": {
+    "decision": "Yes, I recommend the quiet tonal runner now illustrated across the three interior stair connections. It remains a design preference, not a necessity.",
+    "reason": "Its soft texture fits the warm hotel-like brief and can soften footfall sound along the connected hard-surface stair. The existing curved rail and wood remain the architecture.",
+    "refinement": "Fine flatweave or low-pile oatmeal/taupe with tonal binding instead of an emphatic charcoal outline. Balanced exposed-wood margins, no rods, no stripes, one consistent material across the three interior connections and their intermediate landings. Hall floors stay wood.",
+    "tradeoff": "Bare oak is visually cleaner, easier to wipe and avoids future carpet replacement. A runner adds vacuuming, periodic cleaning and installation cost. I would defer it before cutting lighting, upholstery comfort or correct furniture fit.",
+    "status": "Tonal binding is now illustrated across all interior stair views. Physical carpet sample and installer template remain pending.",
+    "cost": "Existing budget contains $2,000–4,000 supply plus $1,500–3,000 direct fitting before applicable markup/tax/logistics/contingency. These are allowances, not a supplier quote; no budget change made by this audit."
+  },
+  "priorities": [
+    {
+      "title": "Resolve the furniture plan",
+      "type": "Before ordering",
+      "text": "Formal dining, sunroom, piano salon, media seating and Bedroom 2 are the highest fit risks. Full-size furniture footprints and opening clearances come before another styling pass."
+    },
+    {
+      "title": "Complete the missing spaces",
+      "type": "Before calling it whole-house complete",
+      "text": "The main-level powder room, walk-in pantry, menu center, butler’s pantry and main-level terrace need explicit design decisions. Their existence and exact configuration must be checked against this house. Powder/pantry remodels are expressly excluded from the current base estimate beyond shared dry-area paint."
+    },
+    {
+      "title": "Make the render set tell one consistent story",
+      "type": "Revised images ready for feedback",
+      "text": "The revised set coordinates oak bedroom floors, media finishes and glazing, room-specific window layers and day/night furnishings. Source views and derived concepts are labeled; confirm unseen junctions and dimensions on site."
+    },
+    {
+      "title": "Make lighting useful and controllable",
+      "type": "High impact",
+      "text": "Separate arrival, conversation, movie, reading, task and cleaning scenes. The salon needs a lower light layer, media art lights should dim/off for films, and suite LEDs should not dominate every evening scene. Choose actual dimmable products and test them; rendered orange/pink color casts do not identify a lamp or paint color."
+    },
+    {
+      "title": "Give the rooms personal identity",
+      "type": "Refine",
+      "text": "Keep the neutral palette and greenery. Replace some repeated beige abstract pairs with personally meaningful photography, a single larger artwork, textile art or a sculptural object. Retain the requested sibling artwork in the great room and bed art. Give dining and sunroom distinct pendant silhouettes."
+    },
+    {
+      "title": "Finish everyday comfort and storage",
+      "type": "High impact",
+      "text": "Plan where keys, bags, shoes, drinks, chargers, luggage, towels, toiletries, laundry, cleaning tools and seasonal decorations live. Much is mentioned in allowances but not located or dimensioned. Test actual seat and mattress comfort; hide cables and allow service access."
+    },
+    {
+      "title": "Spend on finish quality where it shows",
+      "type": "Budget discipline",
+      "text": "Use one natural-oak sample, one coordinated walnut stain family and a small controlled paint/trim palette. Use specialty mineral finish selectively, quality washable coatings elsewhere, and appropriate wet-area finishes. Refine installation and proportion before commissioning more wall panels or bespoke cabinetry."
+    }
+  ],
+  "fitChecks": [
+    {
+      "room": "dining",
+      "text": "Formal dining plan zone 155 × 183 in. Revised closed table target 84 × 40 in gives nominal centered end gaps of 49.5 in and side gaps of 57.5 in before chairs, trim or storage. A 108-in extended table reduces end gaps to 37.5 in. These are planning arithmetic, not verified usable clearance; test all chairs and supports before ordering."
+    },
+    {
+      "room": "sunroom",
+      "text": "Plan zone 147 × 111 in; proposed table 72 × 34 in. Centered nominal gaps are 37.5 in at ends and 38.5 in at sides before chair pullback, drape stacks and obstructions. Check the nearby oven and terrace-door operation with all seats in use."
+    },
+    {
+      "room": "living",
+      "text": "The printed living-room zone is 16 ft × 11 ft 4 in. A roughly 5-ft piano and 96-in sofa are only concepts. Verify the selected piano case, open lid, bench travel and delivery route with actual seating footprints."
+    }
+  ],
+  "missingSpaces": [
+    {
+      "title": "Main-level powder room",
+      "action": "Develop a compact guest-facing room with a distinctive mirror/light pairing and one restrained finish choice. Verify existing services before scope/pricing."
+    },
+    {
+      "title": "Walk-in pantry, menu center and butler’s pantry",
+      "action": "Inventory food, serving pieces, small appliances and charging/mail needs; allocate useful closed storage and task light. Confirm which builder options are actually present."
+    },
+    {
+      "title": "Main-level terrace",
+      "action": "Treat separately from the roof terrace. Resolve seating, planting, doors, privacy and maintenance from its actual photographs and dimensions."
+    },
+    {
+      "title": "Hall, coat/linen and utility storage",
+      "action": "Locate practical storage for shoes, linen, luggage, cleaning tools and seasonal decorations. These need a schedule even when they do not need a hero render."
+    }
+  ],
+  "rooms": [
+    {
+      "id": "entry",
+      "title": "Entrance gallery",
+      "floor": "first-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "E1 / E2",
+      "keep": "The cascade chandelier, light glazed doors and open gallery make a strong arrival.",
+      "finding": "E1/E2 strong peach cast and knotty orange boards; E1 runner boundary too dark. E2 remains an inferred front-facing view anchored to actual exterior entry photos.",
+      "action": "Keep the chandelier as the main feature and both requested quotes discreet. Match the actual floor sample to the main level. Resolve shoes, keys, bags and a mirror in adjacent storage or a measured recess; keep the gallery clear.",
+      "previousFinding": "The wood and wall color read pinker than adjacent rooms in the renders; two inscriptions plus the chandelier already provide enough visual detail. A daily drop zone is only described in the notes.",
+      "rendered": "Gallery void, side doors, arch and existing stair retained; quieter wall color and tonal runner. Front view remains derived. Reverse entry retains single wood door, high round window and clear side doors; finish updated to companion view. Interior door face remains inferred from exterior photo."
+    },
+    {
+      "id": "office",
+      "title": "Home office",
+      "floor": "first-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "O1 / O2",
+      "keep": "The walnut wall, integrated TV and large desk have a clear purpose.",
+      "finding": "O1/O2 do not clearly establish both original window banks and imply inconsistent room orientation. Desk no longer reads diagonally; printer competes with full-wall joinery.",
+      "action": "Use more closed storage and fewer meaningful display groups. Detail cable routes, printer clearance, reachable desk light, charging and a comfortable task chair. Measure the full desk and chair pullback; retain the requested southeast seated position facing northwest.",
+      "previousFinding": "The repeated open upper bays risk looking like a display showroom; equipment service, chair movement and work lighting still need detailing.",
+      "rendered": "Both original window banks now visible at correct relative sizes (two front/three right); full interior-wall TV joinery, desk and no window counter. Task seat restored to window side, with visitors toward built-in; clear gallery doors, printer and art retained. Desk alignment remains a measured furniture-plan decision."
+    },
+    {
+      "id": "media",
+      "title": "Media room",
+      "floor": "first-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "M1 / M2 / M1-N3",
+      "keep": "The large screen, deep seating and restrained TV backing suit the cinema brief.",
+      "finding": "M1 narrowed original paired window to a single-looking unit; M2 charcoal room contradicts M1 mushroom and door clarity varies. Movie scene overlights art and perimeter.",
+      "action": "Unify the wall finish and clear door glazing. Make movie, cleaning and display scenes separately switchable. Resolve one compatible soundbar system or receiver-based surround layout before wiring, including subwoofer placement. Check actual 83-inch TV, seating footprint, entry and figurine-display reach. Add restrained acoustic absorption only where a room test supports it.",
+      "previousFinding": "M1 and M2 disagree on the sofa-wall darkness; M2 glass reads tinted/frosted. The night image lights art and the TV halo more brightly than a movie scene should. Ceiling grilles are not an audio plan.",
+      "rendered": "Broad paired window restored; neutral daylight and calm TV panel with soundbar/ceiling audio retained. Opening dimensions remain subject to survey. Reverse media view places clear gallery doors on adjoining west wall, slim figurine shelves to right and coherent TV/console/sectional/audio."
+    },
+    {
+      "id": "gym",
+      "title": "Studio gym",
+      "floor": "first-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "G1 / G2",
+      "keep": "The empty mirrored room and quote respect the equipment-later brief.",
+      "finding": "Window banks and empty-room brief retained, but closet/bath projection and reflection need checking against original and plan; pink cast.",
+      "action": "Keep the room empty. Confirm closet and bath access, durable washable wall finish, floor compatibility and useful glare-controlled lighting; reserve services for the equipment eventually selected.",
+      "previousFinding": "The two door functions, northwest closet access, mirror fixing and future equipment clearances need a measured plan.",
+      "rendered": "Empty gym now includes empty mirror reflection; original paired window and plan closet/bath access retained. Gym reverse now empty; clear paired doors, small portico window and wide paired street window retained."
+    },
+    {
+      "id": "bath",
+      "title": "Bath #3",
+      "floor": "first-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "B1 / B2",
+      "keep": "The quiet porcelain, walnut and simple mirror work.",
+      "finding": "B1/B2 agree with plan-led vanity/toilet opposite shower; no original photo. Keep compact shell, add practical accessories only.",
+      "action": "Add a complete accessory and closed-storage schedule with reachable towel hooks, toilet-roll storage and shower niche/ledge. Verify doors, ventilation, lighting and wet-area assembly before ordering.",
+      "previousFinding": "Towel/robe storage and accessory positions are underdeveloped; the plan-led geometry is not surveyed.",
+      "rendered": "Ivory porcelain floor restored; vanity/toilet end, two side accesses and windowless plan retained. Reverse windowless Bath 3 view shows shower opposite vanity/toilet, with side access doors and coordinated porcelain."
+    },
+    {
+      "id": "great",
+      "title": "Great room",
+      "floor": "second-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "GR1 / GR2",
+      "keep": "This is one of the strongest rooms: ivory seating, walnut storage, sibling art and the fireplace form a coherent composition.",
+      "finding": "GR1/GR2 broadly retain source architecture; restore real terrace mullions/transom proportions and make furnishings less repetitive, maintain sibling artworks.",
+      "action": "Keep the sibling-art requirement. Add a reachable drink table at the lounge chair if the measured layout permits; choose actual comfortable upholstery and a distinctive textile weave. Test TV height full-size from the selected sofa. Avoid adding another feature wall.",
+      "previousFinding": "The above-fireplace TV needs a seated-height and product-clearance check. Tables and art are attractive but repeat the same formula used elsewhere.",
+      "rendered": "Two high transoms and terrace glazing retained; sibling art, seating and reachable drink table coordinated. Companion great-room camera retains transoms, terrace glazing, sibling artworks and furnishing layout."
+    },
+    {
+      "id": "kitchen",
+      "title": "Kitchen",
+      "floor": "second-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "K1 / K2 / K1-N3",
+      "keep": "The retained service layout, dark dome pendants and walnut island belong to the palette.",
+      "finding": "K2 relocated refrigerator to long cooktop run; work aisle/reverse architecture wrong. K1 warm cast and busy counter. Coordinate sunroom sightline.",
+      "action": "Sample a quieter pale counter and warm-ivory cabinet finish, with simple door profiles if replacing cabinets. Coordinate backsplash and counters. Verify island seating, landing surfaces, ventilation, appliance cut sheets and task-light glare. Correct image white balance before judging paint undertones.",
+      "previousFinding": "The counter looks busier than the calm stone language elsewhere; gray cabinet color and orange/pink image casts weaken consistency. Four stools and appliance-door clearances have not been measured.",
+      "rendered": "Original refrigerator return, cooktop, window and oven column retained; cabinetry warmed, four stools and sunroom retained. Physical counter sample governs subtle veining. Actual reverse kitchen photo anchors refrigerator return, work aisle, sink/DW and archways; finish and dome pendants match K1."
+    },
+    {
+      "id": "dining",
+      "title": "Formal dining",
+      "floor": "second-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "D1 / D2",
+      "keep": "The rectangular table and daylight are right for this house.",
+      "finding": "D1 window heights distorted, ten-seat fixed-table clearance unresolved. D2 small arch enlarged and rendered without reference room context.",
+      "action": "Prefer a high-quality extension table: comfortable everyday size, ten seats when entertaining if a measured plan passes. Test slim chairs, supports and storage projection. Keep the requested feature below the high window shallow and useful. Choose a more substantial sculptural dining light, distinct from the airy sunroom fixture.",
+      "previousFinding": "The 108 × 42-inch ten-seat concept is tight at the ends after cabinets. The small open shelf creates another display area; the chandelier closely repeats the sunroom.",
+      "rendered": "Five photographed opening locations and high arch retained; eight-seat closed extension table, shallow shelf and differentiated pendant shown. Useful high-window/shelf detail preserves small high arch and adjacent tall windows without enlarging opening."
+    },
+    {
+      "id": "living",
+      "title": "Living room · piano salon",
+      "floor": "second-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "LR1 / LR2",
+      "keep": "The piano gives this room a distinct identity and should remain the main feature.",
+      "finding": "No dedicated room photo; prior views imply new partitions/portal and an unverified window/transom arrangement. Plan is open to dining; piano footprint must be honest.",
+      "action": "Template the exact piano, open lid, bench withdrawal, sofa and chair together. Add one good reading lamp and a reachable small table. Keep artwork singular and expressive. Confirm piano delivery and location against direct sun/air supply using the selected maker’s guidance.",
+      "previousFinding": "The 16 ft × 11 ft 4 in plan zone must accommodate a real piano, bench and sofa. The night view relies mainly on ceiling lights; paired views do not verify delivery or bench space.",
+      "rendered": "Plan-led living study now shows open dining boundary, two front living windows, solid east-side wall, compact piano/sofa/chair arrangement and no invented portal. Tighter framing excludes unsupported ceiling details; no dedicated living photograph exists. Piano-side secondary concept retains two front windows, sofa at the open dining boundary, one chair, walnut table and baby grand. No dedicated room photograph; the apparent header at the dining opening is an unverified junction, not a proposed structural alteration or confirmed existing beam."
+    },
+    {
+      "id": "sunroom",
+      "title": "Sunroom",
+      "floor": "second-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "S1 / S2",
+      "keep": "Six-place everyday dining with light sheers is appropriate.",
+      "finding": "S1/S2 nearly identical. Original oven/window geometry broadly retained. Match warm ivory kitchen and provide second meaningful source-adjacent view.",
+      "action": "Retain six seats with slim, comfortable chairs and a rounded-corner rectangular table. Tape the footprint and move real chairs before ordering. Keep the chandelier visually light, tracks simple and appliance/terrace access clear.",
+      "previousFinding": "Nominal 72 × 34-inch furniture in the 147 × 111-inch zone leaves limited space once chairs, curtains and nearby oven/door operation are included. Both images show almost the same angle.",
+      "rendered": "Window banks, transoms/knee walls, oven column and terrace door preserved; six-seat table and privacy layers visible. Closer kitchen-side sunroom perspective retains six chairs, wraparound transoms and knee walls, pendant and layers."
+    },
+    {
+      "id": "stair2",
+      "title": "Second-floor stair hall",
+      "floor": "second-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "ST1 / ST2",
+      "keep": "Warm oak, light balusters and curved geometry already provide architectural character.",
+      "finding": "Runner renders straightened/enlarged lower flight and lost original tread fan; adjoining great room retained model furniture. Both existing views nearly same.",
+      "action": "My preference is a fine flatweave oatmeal/taupe runner with tonal binding, on all interior connections. Preserve visible wood borders, exposed hall floors and existing stair geometry. Compare an actual sample laid across several treads before committing.",
+      "previousFinding": "The dark-edged runner adds another strong line beside tread noses and balusters. ST1 and ST2 offer little additional geometry coverage.",
+      "rendered": "Original curved/fanned flight, stairwell edge, side arch and window pair retained with tonal-bound runner. Closer runner detail retains accepted curved/fanned treads, exposed oak margins and original guard; not an invented reverse stair."
+    },
+    {
+      "id": "ownerbed",
+      "title": "Owners suite",
+      "floor": "third-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "OB1 / OB2 / OB1-N3",
+      "keep": "The walnut headwall, platform bed and floating bedsides give the suite a clear identity.",
+      "finding": "OB1/OB2 shrank four-sash bank into three in some views; bedside LED glare and repeated beige art. Preserve requested suite design.",
+      "action": "Give reading, headwall ambience and low-level floor lighting separate controls. Use a subtle glow with no visible diode dots; sleep mode switches decorative LEDs off. Retain artwork over the bed but select a distinctive composition. Prioritize mattress, bedding, reading comfort and bedside charging over extra built-outs.",
+      "previousFinding": "The headwall, underbed and bedside LEDs are all visually prominent at once; artwork repeats the paired-neutral formula. Exact bedside heights and reach remain unselected.",
+      "rendered": "Four-sash window group retained; distinctive ink artwork and restrained daytime LED state now visible. Secondary owners-bedroom perspective retains four-window bank, platform/headwall, artworks, TV and dresser positions."
+    },
+    {
+      "id": "retreat",
+      "title": "Owners retreat",
+      "floor": "third-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "OR1 / OR2 / OR2-N3",
+      "keep": "A quiet coffee and reading nook is a useful complement to the bedroom.",
+      "finding": "OR1/OR2 still fitted carpet; OR1 bedroom is obsolete and not coherent with OB1. Original window/operable terrace door counts need retaining.",
+      "action": "Reconcile the adjoining suite with current oak flooring, loose rugs and the approved bed/headwall. Use a useful tray and restrained coffee setup. Keep blackout coordinated with the open bedroom connection; consider quiet appliance operation when selecting the beverage unit.",
+      "previousFinding": "The retreat still shows fitted carpet, and OR1 exposes an older carpeted bedroom and bed/headboard scheme that conflicts with OB1/OB2.",
+      "rendered": "Retreat bar camera now shows coordinated platform-bed suite, walnut headwall/ink art, oak/loose rug and floating bedside treatment. Original corner glazing and wet bar retained; continuous oak with separate loose rug now visible."
+    },
+    {
+      "id": "ownerbath",
+      "title": "Owners bathroom",
+      "floor": "third-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "BA1 / BA2",
+      "keep": "Calm tile, walnut, art above the tub and soft mirrors support the spa direction.",
+      "finding": "BA1/BA2 preserve shower/tub/vanity and both source windows; large rough rug impractical; coordinate accessories and art.",
+      "action": "Choose a washable bath mat suited to the floor, reachable towel/robe hooks, discreet toiletries storage and appropriate art placement. Keep mineral decoration in suitable dry areas. Specify lighting at faces and the full shower waterproofing/ventilation system; no extra decorative wall is necessary.",
+      "previousFinding": "Rendered decorative rug, artwork, towel access and countertop objects do not yet form a practical wet-room specification.",
+      "rendered": "Porcelain floor restored; source shower, tub, vanity and two-window arrangement retained. Companion bathroom study retains original camera/fixture zone and corrected porcelain; little additional unseen geometry is claimed."
+    },
+    {
+      "id": "ownercloset",
+      "title": "Owners walk-in closet",
+      "floor": "third-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "WC1",
+      "keep": "The organized shelving and walnut drawers fit the suite.",
+      "finding": "WC1 uses wall-to-wall carpet, lacks closed hamper/mirror; U-shaped layout is only a plan-led concept.",
+      "action": "Inventory actual clothes and shoes first, then set hanging lengths, drawer widths and lighting. Provide hamper, mirror and serviceable lighting without using up the walking aisle. Coordinate the floor deliberately with the bedroom.",
+      "previousFinding": "The plan-led rendering does not prove hanging capacity, drawer opening, outlet locations or a full-length mirror; its floor needs coordination with the suite.",
+      "rendered": "Windowless U-shaped plan-led closet remains; oak and separate runner preserve aisle. Cabinet modules remain illustrative."
+    },
+    {
+      "id": "bed2",
+      "title": "Bedroom 2",
+      "floor": "third-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "B21 / B22",
+      "keep": "The restrained upholstered bed and desk suit a compact guest/work room.",
+      "finding": "Earlier owner-directed concept conflicted with builder-plan closet and entry. Homeowner now says follow blueprint, closet against shared bathroom.",
+      "action": "Cream guest room with the headboard against the stair-hall wall (top of printed plan), closet on the shared-bathroom wall (plan-left), and compact desk beside the narrow side window. Wide front window remains on plan-bottom wall. Survey actual offsets and furniture clearances before ordering.",
+      "previousFinding": "The recorded west-headboard request conflicts with brochure door/closet relationships. A generated angle cannot resolve that conflict.",
+      "rendered": "Headboard on stair-hall wall; closet along shared-bathroom wall, single right-side window with desk. Wide front bank behind camera; door/closet offsets need measured verification. Corrected reverse concept: bed foot in foreground from stair-hall headboard; wide front window ahead, narrow side window and compact desk at left, closet on bathroom boundary at right. Spurious left-edge doorway removed. No room photograph; opening offsets and clearances remain inferred from plan."
+    },
+    {
+      "id": "bed3",
+      "title": "Bedroom 3",
+      "floor": "third-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "B31 / B32",
+      "keep": "The window-led room and tailored bed have their own identity.",
+      "finding": "B31/B32 retain three windows and bed between right-wall pair; minor room widening vs photo. Good existing personality; keep restrained.",
+      "action": "Retain the calm composition. Use the actual bed and slim bedside sizes, blackout gap detailing, a usable bedside surface and a foldaway luggage rack or existing closet shelf. Avoid a new statement headwall.",
+      "previousFinding": "Curtain stacks, bed width, bedside drawers and the guest’s belongings need more planning in this small room.",
+      "rendered": "Three-window relationship and bed between right-wall windows retained; proper loose rug and shade layers. Bedroom 3 companion preserves paired front bank and two narrow headboard windows, bed/desk furniture and layers."
+    },
+    {
+      "id": "sharedbath",
+      "title": "Shared bathroom",
+      "floor": "third-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "SB1 / SB2",
+      "keep": "Walnut storage and a simple double vanity suit shared use.",
+      "finding": "SB1/SB2 adjoining bedroom is obsolete carpeted wood-frame bed; windows/door positions correct. Vanity zone only; compartment unshown.",
+      "action": "Correct the adjoining-room view. Simplify the counter and provide individual storage, accessible towel hooks and good face lighting. Complete the separate toilet/shower compartment specification rather than relying on the vanity view alone.",
+      "previousFinding": "Views through the door still show an older carpeted bedroom rather than the current hardwood/rug bedroom direction. A large countertop plant crowds useful space.",
+      "rendered": "Vanity/doors/reflection retained; adjoining bedroom now cream upholstered bed, oak and loose rug; countertop simplified. Vanity-side companion retains doorway geometry, correct adjoining oak/rug bedroom and restrained countertop."
+    },
+    {
+      "id": "laundry",
+      "title": "Laundry",
+      "floor": "third-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "LA1 / LA2",
+      "keep": "The window light, folding counter, closed cupboards and small graphic give a utility room enough character.",
+      "finding": "LA1 preserves correct two left windows; LA2 hides/fuses tall second window, repeats quote rather than useful machine view. Counter and sink geometry otherwise coherent.",
+      "action": "Add a retractable drying rail or measured hanging section, practical sorting hampers and cleaning-tool storage if the plan fits. Coordinate appliance door movement, shutoffs and service removal. Keep the graphic; additional decoration is unnecessary.",
+      "previousFinding": "A place to hang drying clothes, sort laundry and store cleaning tools is not clearly resolved.",
+      "rendered": "Original near arched-top and far rectangular left-wall windows retained; functional shades, right machines, drying rail and paired hampers shown. Laundry second viewpoint reveals machines on right while retaining two left windows, sink, paired hampers and wall graphic."
+    },
+    {
+      "id": "stair3",
+      "title": "Third-floor stair hall",
+      "floor": "third-floor",
+      "status": "Images revised · measure before ordering",
+      "views": "ST31",
+      "keep": "The upper stair is light and architecturally coherent.",
+      "finding": "Original three high windows/rail curve mostly retained but bottom tread geometry drift and dark runner edge; simplify landing clutter.",
+      "action": "Use the same tonal runner selection and one coordinated cutting/fitting plan for the turns and landings. Keep daylight openings and circulation uncluttered; add no unnecessary new light strips.",
+      "previousFinding": "Runner binding should match the quieter direction proposed for the lower flights; high-light maintenance remains unresolved.",
+      "rendered": "Original curved stair and three high windows retained; matching tonal runner replaces dark outline."
+    },
+    {
+      "id": "loft",
+      "title": "Penthouse lounge",
+      "floor": "penthouse",
+      "status": "Images revised · measure before ordering",
+      "views": "PL1 / PL2 / PL1-N3",
+      "keep": "The walnut bar, broad glazing and ivory sofa create a relaxed base.",
+      "finding": "PL1/PL2 widened/flattened bar alcove and bar lost stools; sofa-only layout thin, rug shaggy, right doors alter divisions.",
+      "action": "Test one or two compact swivel chairs and useful side tables to form a conversation group, maintaining both terrace routes. Consider a lower-pile textured rug and one more distinctive artwork. Give bar and seating lights separate evening settings; preserve terrace access when shades are closed.",
+      "previousFinding": "The room reads as a sofa facing a TV with a large residual floor area; a distinct hosting/conversation role is underdeveloped. The thick rug repeats the same texture elsewhere.",
+      "rendered": "Low-pile rug and genuine daylight replace shag/blue-hour; original terrace glazing rhythm and recessed bar retained. Loft companion retains original window/door rhythm, alcove bar, two stools, one chair and low-pile rug."
+    },
+    {
+      "id": "bed5",
+      "title": "Penthouse guest bedroom",
+      "floor": "penthouse",
+      "status": "Images revised · measure before ordering",
+      "views": "B51 / B52",
+      "keep": "The mushroom and charcoal guest room is sufficiently distinct from the other bedrooms.",
+      "finding": "B51 broadly follows model-room shell; B52 is only closeup, provides no reverse window/closet evidence. Room unbuilt at actual house.",
+      "action": "Reverse view now interprets the plan windows and layered drapery. The room is still unbuilt: complete measured enclosure, services and furniture plan before construction.",
+      "previousFinding": "The room is unbuilt and both images omit its glazing. The exact closet, door, lighting and service relationships are not established by the cropped images.",
+      "rendered": "Invented horizontal beam removed; original flat ceiling and vertical doorway return retained, with proposed thin painted wall frame. True opposing bedroom perspective places bed on right, dresser left, two planned front windows ahead; entry behind camera. Unbuilt room remains plan-led."
+    },
+    {
+      "id": "bath4",
+      "title": "Penthouse bathroom",
+      "floor": "penthouse",
+      "status": "Images revised · measure before ordering",
+      "views": "PBA1",
+      "keep": "A compact walnut-and-ivory bathroom is appropriate.",
+      "finding": "PBA1 puts vanity opposite toilet although blueprint puts both on same wall; door and shower relation wrong. No original photo.",
+      "action": "Confirm existing enclosure and services, shower opening, toilet clearance, towel locations and storage before pricing. Use the same restrained fixture family as the other bathrooms; no extra feature finish is needed.",
+      "previousFinding": "Only one plan-led view exists. The budget assumes existing enclosure/services, while actual site conditions remain unverified.",
+      "rendered": "Same-wall vanity/toilet and far-end shower retained, with corrected porcelain floor."
+    },
+    {
+      "id": "terrace",
+      "title": "Roof terrace",
+      "floor": "penthouse",
+      "status": "Images revised · measure before ordering",
+      "views": "RT1 / RT2 / RT1-N1",
+      "keep": "The outdoor dining/lounge zones and pale cushions connect well with the interior.",
+      "finding": "RT1/RT2 retain actual roofscape/pergola but both blue-hour/sunset, ornate staging and fireplace surround alters source; simplify and show daylight.",
+      "action": "Retain the existing roof, pergola and fireplace geometry. Simplify accessory clutter and select a coherent outdoor seating family; keep the egg chair only if it is a favorite and fits. Plan cover/cushion storage, appropriate task light and weather-rated materials. Have the responsible trade verify roof load, drainage and proposed sail/fixing details. Add a neutral-daylight review image when revising.",
+      "previousFinding": "The day views are predominantly dusk/sunset. The egg chair, strings, sails and furniture can feel more resort-casual than the indoor design. Cushion storage and weather maintenance are unresolved.",
+      "rendered": "Original roofscape, pergola/posts/sails, railings and house-side fireplace preserved; true daylight with simpler staging. Original second terrace camera retained with foreground egg chair, pergola/roofscape/rail and separate outdoor dining zone in neutral daylight."
+    }
+  ],
+  "sequence": [
+    "Measure priority furniture zones; retain the clarified Bedroom 2 plan and develop the unbuilt Bedroom 5.",
+    "Confirm the omitted-room scope and revise the budget only after it is defined.",
+    "Select and photograph one coordinated physical finish board in daylight and at night.",
+    "Complete furniture, drapery, electrical/lighting and storage schedules with actual products.",
+    "Review the corrected images by view code and resolve remaining site-specific details in measured drawings.",
+    "Get the GC and relevant trades to quote measured scope, shop drawings and installation details; release purchases in phases."
+  ],
+  "sources": [
+    {
+      "title": "Project evidence",
+      "note": "Current 45 day / 24 night views, room-design-book.json, interior-design-guide.json, mineral-walnut-window-treatments.json, mineral-walnut-budget.json and four floor-plan previews. Aesthetic rankings and recommendations are design judgment."
+    },
+    {
+      "title": "Roger Oates — Why wool?",
+      "url": "https://www.rogeroates.com/blog/why-wool/",
+      "note": "Manufacturer describes wool flatweave’s sound absorption and suitability for skilled fitting around curved stairs. No house-specific noise reduction or safety guarantee is claimed."
+    },
+    {
+      "title": "Dolby — 5.1.2 overhead layout",
+      "url": "https://www.dolby.com/about/support/guide/speaker-setup-guides/5.1.2-overhead-speaker-setup-guide/",
+      "note": "Ground-level surrounds and overhead effects are distinct positions/functions. Choose the system and listening position before wiring; the rendered grille count is not a specification."
+    },
+    {
+      "title": "Portola — Roman Clay application and limitations",
+      "url": "https://portolapaints.com/collections/roman-clay/products/washi-roman-clay",
+      "note": "Roman Clay is for smooth interior walls and is not specified by the manufacturer for wet areas such as inside showers. Select the full substrate/finish system for each location."
+    }
+  ]
+}

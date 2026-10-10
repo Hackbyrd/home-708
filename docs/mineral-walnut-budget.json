@@ -1,6 +1,6 @@
 {
-  "version": "MW-B01",
-  "date": "2026-10-07",
+  "version": "MW-B04",
+  "date": "2026-10-08",
   "currency": "USD",
   "location": "Crown, Gaithersburg / Montgomery County, Maryland",
   "style": "Option 1 · Mineral & Walnut",
@@ -108,16 +108,6 @@
       "note": "About 40 lighting/control points plus 100 ft of diffused LED used as planning scope, not a takeoff. Includes switches, drivers, cable concealment and access. Kitchen/bath/laundry wiring is in room packages; visible fixture purchases are separate. Bedroom 5 rough-in is in its shell package."
     },
     {
-      "id": "drape-install",
-      "room": "shared",
-      "category": "Construction",
-      "phase": 3,
-      "title": "Window-treatment installation",
-      "low": 2000,
-      "high": 4000,
-      "note": "Approximately 26 window/door treatment groups; manual tracks only. Fabric and track purchase is separate."
-    },
-    {
       "id": "entry-build",
       "room": "entry",
       "category": "Construction",
@@ -185,7 +175,7 @@
       "title": "Kitchen · fixed work",
       "low": 28000,
       "high": 42000,
-      "note": "Replacement stock/semi-custom cabinet boxes with tailored warm-ivory fronts and walnut island, pale quartz/porcelain counters and backsplash, sink/faucet, demolition, trade connections and installation. Same layout. Appliances and pendants are separate."
+      "note": "Replacement stock/semi-custom cabinet boxes with tailored warm-ivory fronts and walnut island, pale quartz/porcelain counters and backsplash, sink/faucet, demolition, trade connections and installation. Same layout. Appliances and pendants are separate. MW-M01 selects study C1 as the finish direction. Existing numeric allowance remains an unrevised baseline; product, format and fabrication cost difference must be quoted."
     },
     {
       "id": "dining-build",
@@ -195,7 +185,7 @@
       "title": "Formal dining · fixed work",
       "low": 1500,
       "high": 3000,
-      "note": "Shallow walnut wall shelf/cabinet under the high window, conditional on measured clearance. Table/chairs and freestanding sideboard are purchases."
+      "note": "Shallow walnut shelf below the high arch, concept about 8 in deep and field measured. Table/chairs and any freestanding sideboard are purchases."
     },
     {
       "id": "living-build",
@@ -235,7 +225,7 @@
       "title": "Owners bathroom · fixed work",
       "low": 32000,
       "high": 50000,
-      "note": "Full primary bath finishes: demo, waterproofing, porcelain tile, double vanity/top, tub, shower glass, fixtures and plumbing/electrical installation. Same fixture zones. No heated floor in base."
+      "note": "Full primary bath finishes: demo, waterproofing, porcelain tile, double vanity/top, tub, shower glass, fixtures and plumbing/electrical installation. Same fixture zones. No heated floor in base. MW-M01 selects study A as the finish direction. Existing numeric allowance remains an unrevised baseline; product, format and fabrication cost difference must be quoted."
     },
     {
       "id": "ownercloset-build",
@@ -275,7 +265,7 @@
       "title": "Shared bathroom · fixed work",
       "low": 19000,
       "high": 29000,
-      "note": "Shared bath with double vanity and separate wet area: replacement finishes, waterproofing, glass, fixtures and all trade installation. Existing service positions."
+      "note": "Shared bath with double vanity and separate wet area: replacement finishes, waterproofing, glass, fixtures and all trade installation. Existing service positions. MW-M01 selects study E as the finish direction. Existing numeric allowance remains an unrevised baseline; product, format and fabrication cost difference must be quoted."
     },
     {
       "id": "laundry-build",
@@ -385,7 +375,7 @@
       "title": "Formal dining · furniture",
       "low": 5000,
       "high": 9000,
-      "note": "Rectangular table, TEN chairs and walnut sideboard. Ten-seat fit remains conditional on measured chair pullback."
+      "note": "Extension table for eight daily, two additional stored chairs for occasional ten, and a freestanding walnut sideboard only where measured circulation permits. Extended fit must be verified before ordering."
     },
     {
       "id": "living-furniture",
@@ -488,16 +478,6 @@
       "note": "Entry cascade, kitchen/dining/sunroom pendants, bathroom decorative lights, sconces and portable lamps across rooms. Electrical labor in construction; LED tape/drivers there too."
     },
     {
-      "id": "drapes",
-      "room": "shared",
-      "category": "Owner purchases",
-      "phase": 4,
-      "title": "Drapery, tracks and blackout layers",
-      "low": 8000,
-      "high": 14000,
-      "note": "26 treatment groups assumed. Manual, ready-made or semi-custom ivory sheers; blackout/privacy in bedrooms and media. Includes hardware; installation separate. Motorization and fully bespoke workroom drapes excluded."
-    },
-    {
       "id": "decor",
       "room": "shared",
       "category": "Owner purchases",
@@ -536,6 +516,380 @@
       "low": 12000,
       "high": 22000,
       "note": "Dealer-quote allowance, not a verified model price. Specialist delivery/tuning covered by shared logistics. Confirm footprint and upper-floor delivery route."
+    },
+    {
+      "id": "entry-window-supply",
+      "room": "entry",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Entrance gallery · window treatments and hardware",
+      "low": 200,
+      "high": 400,
+      "note": "No gallery drapes; discreet privacy shade on exterior entrance glass if needed. Exterior front-door glazing only, subject to measured fit. Keep internal clear-glass office/media door pairs uncovered in the gallery. High gallery glazing is reviewed separately for neighboring sightlines. Why: The two-story chandelier, arch and light doors should remain the focus. Full-height curtains add bulk; street-level entrance glass may still need evening privacy. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "entry-window-install",
+      "room": "entry",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Entrance gallery · window treatments installation",
+      "low": 75,
+      "high": 150,
+      "note": "Provisional allowance for one compact door-mounted privacy solution; verify the arched glass, hardware, attachment and door swing. Do not cover inscriptions. Omit the purchase if the actual glass already provides adequate privacy. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "office-window-supply",
+      "room": "office",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Home office · window treatments and hardware",
+      "low": 700,
+      "high": 1100,
+      "note": "Ivory sheers + hidden light-filtering privacy shades. Both exterior window walls: front two-unit group and right three-unit group. Preserve clear internal gallery doors. Why: Adjustable glare control helps screen work and calls; a separate privacy layer lets you work after dark without closing the room off all day. Blackout is unnecessary for normal office use. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "office-window-install",
+      "room": "office",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Home office · window treatments installation",
+      "low": 200,
+      "high": 350,
+      "note": "Keep window access, full north-wall cabinetry, southeast desk/chair and door routes clear. Use a non-see-through privacy fabric, not an open solar screen; check it with interior lights on. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "media-window-supply",
+      "room": "media",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Media room · window treatments and hardware",
+      "low": 850,
+      "high": 1500,
+      "note": "Ivory sheers + blackout-lined curtains; removable clear-door covers for movie mode. Full street-facing two-sash window plus a separate removable opaque cover for each interior glazed door leaf. The doors remain clear when covers are stowed. Why: Daylight and gallery light both reduce contrast on the 83-inch TV. Privacy alone is insufficient for the requested theater atmosphere. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "media-window-install",
+      "room": "media",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Media room · window treatments installation",
+      "low": 250,
+      "high": 450,
+      "note": "Resolve curtain overlap, returns and head gap. Use removable room-side covers with a finish-compatible attachment and storage location; each door must remain operable with handles clear. Keep figurine shelves and the west-wall doorway unobstructed. Allowance includes these covers; do not frost the doors permanently. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "gym-window-supply",
+      "room": "gym",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Studio gym · window treatments and hardware",
+      "low": 300,
+      "high": 600,
+      "note": "Washable light-filtering privacy roller shades; no loose drapes. Large two-sash exterior window and smaller portico-side window; no curtains on the internal doors. Why: Shades control mirror glare and street privacy without loose fabric in future equipment space. Workout use does not require blackout. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "gym-window-install",
+      "room": "gym",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Studio gym · window treatments installation",
+      "low": 100,
+      "high": 200,
+      "note": "Choose cordless, wipeable material; keep northwest closet access, mirror and quote clear. Room remains unfurnished and equipment-free in this design. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "great-window-supply",
+      "room": "great",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Great room · window treatments and hardware",
+      "low": 850,
+      "high": 1500,
+      "note": "Ivory sheers + hidden privacy shades; no mandatory blackout. Terrace-facing glazing. Leave the two high horizontal transoms beside the fireplace bare unless glare or a neighboring sightline requires treatment. Why: This is a social room with a TV, so flexible glare control and evening privacy matter more than cinema-level darkness. The airy main-floor appearance stays intact. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "great-window-install",
+      "room": "great",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Great room · window treatments installation",
+      "low": 200,
+      "high": 350,
+      "note": "Coordinate a traversing solution at operable terrace glass; stacks must clear handles and passage. Quote a blackout-fabric upgrade separately only if daytime TV testing shows it is wanted. High-transom treatment is not assumed in the base allowance. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "kitchen-window-supply",
+      "room": "kitchen",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Kitchen · window treatments and hardware",
+      "low": 200,
+      "high": 400,
+      "note": "Wipeable privacy roller at the counter window. Kitchen counter window only. Adjacent sunroom window banks are counted in the sunroom. Why: The kitchen needs daylight and evening privacy, with a finish that tolerates cooking and cleaning. Full-length drapes are impractical at a counter or splash area. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "kitchen-window-install",
+      "room": "kitchen",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Kitchen · window treatments installation",
+      "low": 75,
+      "high": 125,
+      "note": "Select washable material and a compact cordless mechanism; survey faucet, backsplash, handles and appliance clearances. No blackout required. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "dining-window-supply",
+      "room": "dining",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Formal dining · window treatments and hardware",
+      "low": 900,
+      "high": 1600,
+      "note": "Ivory sheers + discreet privacy shades at tall windows. Four tall openings: two rectangular and two arched. The small high center arch stays bare unless a sightline check requires coverage. The wall niche is not glazing. Why: Dinner after dark requires privacy while daytime entertaining benefits from light. Heavy blackout is unnecessary and should not obscure the arched architecture when open. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "dining-window-install",
+      "room": "dining",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Formal dining · window treatments installation",
+      "low": 250,
+      "high": 450,
+      "note": "Survey each opening individually. Mount the privacy layer to cover the whole tall opening, including an arch when closed, while clearing its shape when raised. Verify space above arches; price any required specialty arch treatment separately instead of assuming a standard roller fits. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "living-window-supply",
+      "room": "living",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Living room · piano salon · window treatments and hardware",
+      "low": 600,
+      "high": 1100,
+      "note": "Clear ivory sheers + hidden privacy/glare shades. Real south/front exterior windows only; do not treat the east-wall decorative false-window feature as exterior glazing. Why: Maintain the bright piano salon and soft Cloud-style seating, with privacy after dark. An adjustable layer also helps reduce direct sun at the piano; sheers alone are not a complete sun-protection strategy. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "living-window-install",
+      "room": "living",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Living room · piano salon · window treatments installation",
+      "low": 150,
+      "high": 300,
+      "note": "Coordinate stack-back with piano lid, seating and circulation; confirm piano placement and environmental guidance with the chosen manufacturer. No blackout requirement. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "sunroom-window-supply",
+      "room": "sunroom",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Sunroom · window treatments and hardware",
+      "low": 900,
+      "high": 1500,
+      "note": "Ivory sheers + independent privacy shades by window bank. Wraparound lower glazing and terrace-door glass as measured. High transoms stay open visually unless an actual sightline or glare issue requires coverage. Why: The six-seat breakfast area should feel bright. Separate shades let you manage individual sunny sides and evening privacy without making the whole room dark. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "sunroom-window-install",
+      "room": "sunroom",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Sunroom · window treatments installation",
+      "low": 300,
+      "high": 500,
+      "note": "Split shade zones at real mullions and provide a compatible operable-door solution. Keep fabric and stacks clear of oven/cooking surfaces and door travel. Match the main-floor sheer color; no heavy blackout lining in the base. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "ownerbed-window-supply",
+      "room": "ownerbed",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Owners suite · window treatments and hardware",
+      "low": 900,
+      "high": 1600,
+      "note": "Ivory sheers + fully closing oatmeal blackout-lined curtains. Full four-sash rear window group. Coordinate the open retreat as part of the same sleep-darkening zone. Why: The primary bedroom needs sleeping darkness, daytime rest and evening privacy. Treating only this room would leave light entering through the open retreat. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "ownerbed-window-install",
+      "room": "ownerbed",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Owners suite · window treatments installation",
+      "low": 200,
+      "high": 350,
+      "note": "Use independent tracks with overlap/returns. Check the dresser below the window before deciding curtain drop and stack. If it prevents full closure, use a blackout roller behind the sheers rather than trapping fabric behind furniture. Inspect all light gaps after installation. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "retreat-window-supply",
+      "room": "retreat",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Owners retreat · window treatments and hardware",
+      "low": 1200,
+      "high": 2000,
+      "note": "Match the bedroom: ivory sheers + blackout layer. Both exterior window walls and any connected terrace-door glazing confirmed on site. Do not add a door to the open bedroom connection. Why: Although this is a sitting/coffee area, it is open to the bedroom. Untreated retreat glass would defeat the bedroom blackout treatment. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "retreat-window-install",
+      "room": "retreat",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Owners retreat · window treatments installation",
+      "low": 300,
+      "high": 550,
+      "note": "Survey all window groups and terrace access. Keep curtains clear of the bar, appliances and door swings. Where a door cannot accept curtains, use an independent blackout shade with gap control; keep the visible fabric coordinated with the bedroom. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "ownerbath-window-supply",
+      "room": "ownerbath",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Owners bathroom · window treatments and hardware",
+      "low": 350,
+      "high": 650,
+      "note": "Wet-area privacy at shower glass; moisture-resistant shade at dry window. Exterior window within the shower and the dry vanity-side exterior window. Why: Bathing needs reliable privacy, not decorative sheers. Fabric in direct shower spray is unsuitable; bedroom blackout can be managed with the bathroom door closed. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "ownerbath-window-install",
+      "room": "ownerbath",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Owners bathroom · window treatments installation",
+      "low": 150,
+      "high": 250,
+      "note": "Provisional base: obscuring film explicitly compatible with the shower exposure and existing glazing, plus a moisture-resistant opaque roller on the dry window. If film cannot meet privacy/compatibility needs, quote suitable obscured glazing separately; window replacement is not included. No hanging sheer or drape in the shower. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "bed2-window-supply",
+      "room": "bed2",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Bedroom 2 · window treatments and hardware",
+      "low": 400,
+      "high": 750,
+      "note": "Ivory sheers + blackout-lined curtains or concealed blackout roller. East-wall window, with the desk to its right. Preserve west-wall headboard and entry on the southern part of the west wall. Why: A sleeping room needs darkness and nighttime privacy even when also used for study. The desk is not a reason to omit blackout. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "bed2-window-install",
+      "room": "bed2",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Bedroom 2 · window treatments installation",
+      "low": 125,
+      "high": 200,
+      "note": "Keep desk access and window operation clear. Prefer full closing curtains where they fit; if the desk blocks their travel, use a blackout roller with suitable edge overlap behind the sheers. No freestanding furniture changes required. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "bed3-window-supply",
+      "room": "bed3",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Bedroom 3 · window treatments and hardware",
+      "low": 750,
+      "high": 1200,
+      "note": "Ivory sheers + blackout at every exterior opening. Large front window and both smaller windows flanking the bed. Why: All three openings must darken for comfortable sleeping; dressing only the large window would leave the bedside windows admitting light. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "bed3-window-install",
+      "room": "bed3",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Bedroom 3 · window treatments installation",
+      "low": 200,
+      "high": 350,
+      "note": "Use functional lined curtains where stack space allows and matching discreet blackout rollers behind sheers at tight bedside openings. Check bedside furniture, wall lights and bedding clearance before fixing tracks. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "laundry-window-supply",
+      "room": "laundry",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Laundry · window treatments and hardware",
+      "low": 300,
+      "high": 550,
+      "note": "Washable privacy rollers; lined woven-look shades as an alternative. Two left-side windows, including the arched opening by the sink. Why: Laundry needs useful daylight, washable finishes and evening privacy. Open-weave decorative shades alone may be see-through; blackout and floor-length curtains are unnecessary. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "laundry-window-install",
+      "room": "laundry",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Laundry · window treatments installation",
+      "low": 100,
+      "high": 175,
+      "note": "Survey the arch and sink clearance; cover the full sightline without hanging fabric into splashes. If a woven-look Roman shade is chosen instead, include a privacy lining in its quote. Preserve the Rinse and repeat.. graphic. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "loft-window-supply",
+      "room": "loft",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Penthouse lounge · window treatments and hardware",
+      "low": 950,
+      "high": 1700,
+      "note": "Ivory sheers + independent privacy layers at terrace glazing. French doors and flanking windows, wide terrace slider and compact bar-alcove window. Coordinate the final glazing inventory on site. Why: The penthouse lounge should retain its views by day and privacy after dark. Being on the top floor does not guarantee privacy from adjacent homes. It is not currently a sleeping room or dedicated cinema. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "loft-window-install",
+      "room": "loft",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Penthouse lounge · window treatments installation",
+      "low": 250,
+      "high": 450,
+      "note": "Use traversing treatments that stack clear of the slider and French doors; compact shade at the bar. Blackout is a separate future upgrade if this becomes a regular sleeping or cinema space. Interior loft glass is not also counted in terrace furniture costs. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
+    },
+    {
+      "id": "bed5-window-supply",
+      "room": "bed5",
+      "category": "Owner purchases",
+      "phase": 4,
+      "scope": "window-treatment",
+      "title": "Penthouse guest bedroom · window treatments and hardware",
+      "low": 450,
+      "high": 850,
+      "note": "Ivory sheers + blackout for the new guest bedroom. Confirmed exterior glazing of the proposed new Bedroom 5 only; openings and final enclosure remain to be surveyed. Why: This is a real sleeping room, so guest privacy and light control should be designed into construction rather than added after furniture arrives. Planning allowance before tax/delivery; installation separate."
+    },
+    {
+      "id": "bed5-window-install",
+      "room": "bed5",
+      "category": "Construction",
+      "phase": 3,
+      "scope": "window-treatment",
+      "title": "Penthouse guest bedroom · window treatments installation",
+      "low": 125,
+      "high": 225,
+      "note": "Provisional allowance, not an approved window count. Coordinate track supports and bed/storage positions with the new room plan. Do not create new windows or drape the blank headboard wall to imitate a render. Direct installation allowance before GC markup; fabric and hardware are in owner purchases."
     }
   ],
   "rooms": [
@@ -665,17 +1019,19 @@
     "Construction rows are direct trade labor/material allowances with contractor-purchased material tax included. Add the modeled GC markup once to Construction only; do not add it again to Planning or owner purchases.",
     "Owner purchases are goods before tax/delivery. Add modeled 6% Maryland sales/use tax to those goods only. Add 5% purchase logistics for delivery, assembly, returns and specialist piano handling as an allowance, not a vendor fee schedule.",
     "15% contingency applies to the subtotal including GC, owner goods, tax and logistics. It is a reserve, not promised spending or a guarantee against all unknowns.",
-    "Furniture rows exclude decorative lights, drapery, art/plants, AV and appliances, which are separate shared rows. Baths include plumbing fixtures and mirrors but exclude decorative light-fixture purchase. Flooring and ordinary dry-area paint are counted once in shared rows.",
+    "Furniture rows exclude decorative lights, drapery, art/plants, AV and appliances. Window-treatment goods and installation now have separate room rows; other house-wide purchases remain shared. Baths include plumbing fixtures and mirrors but exclude decorative lights. Flooring and ordinary dry-area paint are counted once in shared rows.",
     "No designer/design-build fee, owner-furniture credit, loan interest or financing cost included. Homeowner coordination time is unpaid and not priced.",
     "A lower figure means simpler products, competitive trade quotes and uncomplicated conditions; the upper figure allows more expensive selections/preparation within this scope. This is not a statistical confidence interval."
   ],
   "assumptions": [
+    "MW-NR01: stair runner supply and specialist fitting removed; stair refinishing remains. Neutral bedroom furnishings restored. A/C1/E stone product and fabrication price differences still require measured quotes.",
+    "MW-M01 selected A/C1/E stone finishes are NOT repriced in these totals. The existing generic finish allowances remain a baseline; obtain measured product/format/fabrication quote differences before reconciling the phased budget. Bedrooms retain their original neutral linen/art selections.",
     "3,000 net sf of new dry-area flooring and 600 sf of specialty wall finish are adjustable assumptions. The reported gross house area is not a flooring takeoff.",
-    "About 26 window/door treatment groups, roughly 40 dry-area lighting/control points and 100 ft of LED are scope placeholders. Get measurements and a circuit schedule.",
     "Kitchen, four bathroom service layouts, windows, stairs and structural walls remain in place. Bath 4 is assumed to have an existing enclosure/services; its condition is unverified.",
     "Bedroom 5 is confirmed unbuilt. Base includes a modest interior enclosure, not an addition, roof alteration or extensive HVAC upgrade.",
     "Good-quality retail upholstery and veneered walnut joinery, selective semi-custom cabinetry, manual drapes and porcelain/quartz substitutes are assumed; exact luxury-brand replication is not priced.",
-    "New wood floors in all four bedrooms with loose rugs. Gym remains empty except floor, mirror, walls and quote."
+    "New wood floors in all four bedrooms with loose rugs. Gym remains empty except floor, mirror, walls and quote.",
+    "Window-treatment allowances are assigned to 17 spaces in MW-W01; all 24 spaces have a recommendation. They are room allowances, not a measured opening count. Manual tracks, cordless shades and retail/semi-custom fabrics; no new ceiling pockets. About 40 lighting/control points and 100 ft of LED remain scope placeholders."
   ],
   "exclusions": [
     "Exterior/roof/window replacement, deck waterproofing, structural alterations, extensive service relocations, electrical panel/HVAC plant replacement and major concealed damage.",
@@ -684,6 +1040,12 @@
     "Professional art originals, new fireplace appliances, actual RH/other premium model upgrades beyond the allowances, and sales financing."
   ],
   "alternates": [
+    {
+      "id": "MW-M01",
+      "title": "Selected A / C1 / E stone finish differences",
+      "range": "Not yet priced · no additional amount modeled",
+      "note": "MW-M01 selected A/C1/E stone finishes are NOT repriced in these totals. The existing generic finish allowances remain a baseline; obtain measured product/format/fabrication quote differences before reconciling the phased budget. Original neutral bedroom styling restored."
+    },
     {
       "title": "Heated floors in two third-floor baths",
       "range": "$4,000–8,000 installed before project contingency",
@@ -770,5 +1132,542 @@
       "url": "https://services.marylandcomptroller.gov/taxes/en/sales-and-use-tax-faqs?id=kb_article_view&sysparm_article=KB0010157",
       "note": "General goods rate of 6% used for owner-purchased goods. Contractor material tax is already in trade allowances; no blanket sales tax added to labor."
     }
-  ]
+  ],
+  "marketReferenceDate": "2026-10-07",
+  "windowTreatments": {
+    "version": "MW-W01",
+    "date": "2026-10-08",
+    "style": "Option 1 · Mineral & Walnut",
+    "status": "Recommended room schedule; exact products and measured quantities pending",
+    "summary": "Blackout where people sleep or watch movies; sheers with a separate privacy layer in social rooms; compact practical shades in working and wet areas. Sheers alone are reserved for glazing verified to have no privacy or blackout requirement.",
+    "palette": "Warm ivory linen-look sheers, ivory or oatmeal blackout curtain faces, and quiet warm-neutral shades. Concealed or slim dark tracks coordinate with walnut, natural oak and restrained black details. Blackout describes the backing, not a black visible curtain.",
+    "renderNote": "MW-A02 corrects visible openings against original photographs and the blueprint. Day shows open layers; night demonstrates privacy/blackout closed where visible. Bedroom 2 follows the clarified stair-hall/closet layout; Bedroom 5 reverse view interprets its planned front windows. Rendered operation is not a tested privacy or blackout result.",
+    "rules": [
+      {
+        "title": "Sheers soften daylight; privacy is separate",
+        "text": "Keep the airy sheer appearance in living rooms, but include an independently operated, non-see-through privacy shade behind it. An open-weave solar screen is not a substitute for an evening privacy layer. Test the actual sample from outside with the room lights on; silhouettes can remain visible through some light-filtering fabrics."
+      },
+      {
+        "title": "Blackout requires coverage as well as fabric",
+        "text": "For dual curtains, place sheers closest to the glass and fully closing blackout-lined panels on an independent room-side track. Resolve center overlap, wall returns and top/bottom light gaps. Where furniture prevents functional curtains, substitute a blackout roller behind the sheers. Fabric alone does not guarantee a completely dark room."
+      },
+      {
+        "title": "When just sheers are enough",
+        "text": "Only where an after-dark sightline check confirms no privacy need and the room has no sleep or cinema requirement. No occupied bedroom or street-facing social room is assigned sheers alone by default. Verified private high glazing can remain bare; a sheer-only treatment there is an aesthetic choice."
+      },
+      {
+        "title": "Keep the construction simple",
+        "text": "Base pricing assumes manual tracks and cordless shades, retail or semi-custom fabric, and surface-mounted hardware. No rebuilt ceiling pockets or motors. Measure track width, stack-back, opening operation, furniture and floor variation; choose fullness with the fabricator for the actual heading and fabric. Avoid puddled fabric."
+      },
+      {
+        "title": "Price openings once",
+        "text": "The room amounts below are provisional allowances, not a window count or supplier quotation. Replace them with a labeled opening-by-opening survey before ordering. Interior glazed doors, transoms and terrace doors must be identified separately; windowless rooms receive no new curtain allowance."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hunter Douglas · opacity and privacy",
+        "url": "https://www.hunterdouglas.com/stories/buyers-guides/window-shade-opacities-explained",
+        "note": "Sheers offer little privacy; light-filtering fabrics vary in opacity. Manufacturer guidance informs performance distinctions, not the room design or prices."
+      },
+      {
+        "title": "Hunter Douglas · blackout and light gaps",
+        "url": "https://www.hunterdouglas.com/stories/buyers-guides/blackout-blinds-room-darkening-shades",
+        "note": "Mounting, overlaps, liners and side channels influence room darkening. No particular brand or product is specified."
+      },
+      {
+        "title": "Hunter Douglas · bathroom window treatments",
+        "url": "https://www.hunterdouglas.com/stories/buyers-guides/bathroom-window-treatment-ideas",
+        "note": "Consider humidity and window location when selecting material; direct shower exposure needs explicit product suitability."
+      },
+      {
+        "title": "Hunter Douglas · solar shade limitations",
+        "url": "https://www.hunterdouglas.com/stories/buyers-guides/solar-shades-101",
+        "note": "A solar-screen shade does not reliably provide nighttime privacy when the interior is illuminated."
+      }
+    ],
+    "rooms": [
+      {
+        "id": "entry",
+        "system": "practical",
+        "recommendation": "No gallery drapes; discreet privacy shade on exterior entrance glass if needed",
+        "coverage": "Exterior front-door glazing only, subject to measured fit. Keep internal clear-glass office/media door pairs uncovered in the gallery. High gallery glazing is reviewed separately for neighboring sightlines.",
+        "why": "The two-story chandelier, arch and light doors should remain the focus. Full-height curtains add bulk; street-level entrance glass may still need evening privacy.",
+        "day": "Entrance shade raised; gallery bright and open.",
+        "night": "Lower the entrance privacy shade if the street can see into the house. Keep internal gallery doors visually clear.",
+        "installation": "Provisional allowance for one compact door-mounted privacy solution; verify the arched glass, hardware, attachment and door swing. Do not cover inscriptions. Omit the purchase if the actual glass already provides adequate privacy.",
+        "goods": [
+          200,
+          400
+        ],
+        "installationCost": [
+          75,
+          150
+        ],
+        "title": "Entrance gallery",
+        "floor": "first-floor"
+      },
+      {
+        "id": "office",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + hidden light-filtering privacy shades",
+        "coverage": "Both exterior window walls: front two-unit group and right three-unit group. Preserve clear internal gallery doors.",
+        "why": "Adjustable glare control helps screen work and calls; a separate privacy layer lets you work after dark without closing the room off all day. Blackout is unnecessary for normal office use.",
+        "day": "Sheers soften sun; adjust the shade on the bright side for monitor glare.",
+        "night": "Lower privacy shades on both exterior window walls.",
+        "installation": "Keep window access, full north-wall cabinetry, southeast desk/chair and door routes clear. Use a non-see-through privacy fabric, not an open solar screen; check it with interior lights on.",
+        "goods": [
+          700,
+          1100
+        ],
+        "installationCost": [
+          200,
+          350
+        ],
+        "title": "Home office",
+        "floor": "first-floor"
+      },
+      {
+        "id": "media",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + blackout-lined curtains; removable clear-door covers for movie mode",
+        "coverage": "Full street-facing two-sash window plus a separate removable opaque cover for each interior glazed door leaf. The doors remain clear when covers are stowed.",
+        "why": "Daylight and gallery light both reduce contrast on the 83-inch TV. Privacy alone is insufficient for the requested theater atmosphere.",
+        "day": "Sheers for casual use; close blackout panels for daytime films.",
+        "night": "Close blackout panels and fit the room-side door covers for movies; dim lights near the screen.",
+        "installation": "Resolve curtain overlap, returns and head gap. Use removable room-side covers with a finish-compatible attachment and storage location; each door must remain operable with handles clear. Keep figurine shelves and the west-wall doorway unobstructed. Allowance includes these covers; do not frost the doors permanently.",
+        "goods": [
+          850,
+          1500
+        ],
+        "installationCost": [
+          250,
+          450
+        ],
+        "title": "Media room",
+        "floor": "first-floor"
+      },
+      {
+        "id": "gym",
+        "system": "practical",
+        "recommendation": "Washable light-filtering privacy roller shades; no loose drapes",
+        "coverage": "Large two-sash exterior window and smaller portico-side window; no curtains on the internal doors.",
+        "why": "Shades control mirror glare and street privacy without loose fabric in future equipment space. Workout use does not require blackout.",
+        "day": "Raise or partly lower shades to reduce mirror glare.",
+        "night": "Lower privacy shades for exercise with the lights on.",
+        "installation": "Choose cordless, wipeable material; keep northwest closet access, mirror and quote clear. Room remains unfurnished and equipment-free in this design.",
+        "goods": [
+          300,
+          600
+        ],
+        "installationCost": [
+          100,
+          200
+        ],
+        "title": "Studio gym",
+        "floor": "first-floor"
+      },
+      {
+        "id": "bath",
+        "system": "none",
+        "recommendation": "No window treatment",
+        "coverage": "Bath #3 is windowless in the documented layout.",
+        "why": "There is no exterior glazing to dress. Do not add a curtain allowance for a reflected or imagined opening.",
+        "day": "Use planned task and ambient lighting.",
+        "night": "Privacy comes from the bathroom door.",
+        "installation": "Verify the existing room during survey; revise only if an actual exterior opening is found.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Bath #3",
+        "floor": "first-floor"
+      },
+      {
+        "id": "great",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + hidden privacy shades; no mandatory blackout",
+        "coverage": "Terrace-facing glazing. Leave the two high horizontal transoms beside the fireplace bare unless glare or a neighboring sightline requires treatment.",
+        "why": "This is a social room with a TV, so flexible glare control and evening privacy matter more than cinema-level darkness. The airy main-floor appearance stays intact.",
+        "day": "Sheers diffuse sun; adjust the privacy shade where glare reaches the TV.",
+        "night": "Close privacy shades when the room is visible from outside.",
+        "installation": "Coordinate a traversing solution at operable terrace glass; stacks must clear handles and passage. Quote a blackout-fabric upgrade separately only if daytime TV testing shows it is wanted. High-transom treatment is not assumed in the base allowance.",
+        "goods": [
+          850,
+          1500
+        ],
+        "installationCost": [
+          200,
+          350
+        ],
+        "title": "Great room",
+        "floor": "second-floor"
+      },
+      {
+        "id": "kitchen",
+        "system": "practical",
+        "recommendation": "Wipeable privacy roller at the counter window",
+        "coverage": "Kitchen counter window only. Adjacent sunroom window banks are counted in the sunroom.",
+        "why": "The kitchen needs daylight and evening privacy, with a finish that tolerates cooking and cleaning. Full-length drapes are impractical at a counter or splash area.",
+        "day": "Raise or partly lower for working light and glare control.",
+        "night": "Lower the non-see-through privacy shade.",
+        "installation": "Select washable material and a compact cordless mechanism; survey faucet, backsplash, handles and appliance clearances. No blackout required.",
+        "goods": [
+          200,
+          400
+        ],
+        "installationCost": [
+          75,
+          125
+        ],
+        "title": "Kitchen",
+        "floor": "second-floor"
+      },
+      {
+        "id": "dining",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + discreet privacy shades at tall windows",
+        "coverage": "Four tall openings: two rectangular and two arched. The small high center arch stays bare unless a sightline check requires coverage. The wall niche is not glazing.",
+        "why": "Dinner after dark requires privacy while daytime entertaining benefits from light. Heavy blackout is unnecessary and should not obscure the arched architecture when open.",
+        "day": "Sheers filter daylight; privacy layers fully raised and curtain stacks off glass.",
+        "night": "Lower the privacy layer at all tall openings.",
+        "installation": "Survey each opening individually. Mount the privacy layer to cover the whole tall opening, including an arch when closed, while clearing its shape when raised. Verify space above arches; price any required specialty arch treatment separately instead of assuming a standard roller fits.",
+        "goods": [
+          900,
+          1600
+        ],
+        "installationCost": [
+          250,
+          450
+        ],
+        "title": "Formal dining",
+        "floor": "second-floor"
+      },
+      {
+        "id": "living",
+        "system": "privacy",
+        "recommendation": "Clear ivory sheers + hidden privacy/glare shades",
+        "coverage": "Real south/front exterior windows only; do not treat the east-wall decorative false-window feature as exterior glazing.",
+        "why": "Maintain the bright piano salon and soft Cloud-style seating, with privacy after dark. An adjustable layer also helps reduce direct sun at the piano; sheers alone are not a complete sun-protection strategy.",
+        "day": "Sheers drawn lightly; shade only where direct sun or glare calls for it.",
+        "night": "Lower privacy shades on the front windows.",
+        "installation": "Coordinate stack-back with piano lid, seating and circulation; confirm piano placement and environmental guidance with the chosen manufacturer. No blackout requirement.",
+        "goods": [
+          600,
+          1100
+        ],
+        "installationCost": [
+          150,
+          300
+        ],
+        "title": "Living room · piano salon",
+        "floor": "second-floor"
+      },
+      {
+        "id": "sunroom",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + independent privacy shades by window bank",
+        "coverage": "Wraparound lower glazing and terrace-door glass as measured. High transoms stay open visually unless an actual sightline or glare issue requires coverage.",
+        "why": "The six-seat breakfast area should feel bright. Separate shades let you manage individual sunny sides and evening privacy without making the whole room dark.",
+        "day": "Use sheers; lower only the shade on the sunniest side as needed.",
+        "night": "Close the privacy layer where neighbors can see in.",
+        "installation": "Split shade zones at real mullions and provide a compatible operable-door solution. Keep fabric and stacks clear of oven/cooking surfaces and door travel. Match the main-floor sheer color; no heavy blackout lining in the base.",
+        "goods": [
+          900,
+          1500
+        ],
+        "installationCost": [
+          300,
+          500
+        ],
+        "title": "Sunroom",
+        "floor": "second-floor"
+      },
+      {
+        "id": "stair2",
+        "system": "none",
+        "recommendation": "Bare high glazing by default; privacy review before ordering",
+        "coverage": "Existing high stacked stair windows.",
+        "why": "The landing and quarter-turn stair benefit from daylight; loose drapes would add clutter at circulation. No sleep or cinema use requires blackout.",
+        "day": "Keep glass open visually; add fixed diffusion only if glare warrants it.",
+        "night": "Check views from neighboring upper floors; height alone does not guarantee privacy.",
+        "installation": "No new covering in the base budget. If the survey reveals a sightline, price a discreet privacy treatment and safe operating/cleaning access separately. Keep fabric away from treads and guards.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Second-floor stair hall",
+        "floor": "second-floor"
+      },
+      {
+        "id": "ownerbed",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + fully closing oatmeal blackout-lined curtains",
+        "coverage": "Full four-sash rear window group. Coordinate the open retreat as part of the same sleep-darkening zone.",
+        "why": "The primary bedroom needs sleeping darkness, daytime rest and evening privacy. Treating only this room would leave light entering through the open retreat.",
+        "day": "Sheers filter daylight; blackout layer stacks clear.",
+        "night": "Close both bedroom and retreat blackout layers; switch off decorative under-bed lighting for sleep if preferred.",
+        "installation": "Use independent tracks with overlap/returns. Check the dresser below the window before deciding curtain drop and stack. If it prevents full closure, use a blackout roller behind the sheers rather than trapping fabric behind furniture. Inspect all light gaps after installation.",
+        "goods": [
+          900,
+          1600
+        ],
+        "installationCost": [
+          200,
+          350
+        ],
+        "title": "Owners suite",
+        "floor": "third-floor"
+      },
+      {
+        "id": "retreat",
+        "system": "blackout",
+        "recommendation": "Match the bedroom: ivory sheers + blackout layer",
+        "coverage": "Both exterior window walls and any connected terrace-door glazing confirmed on site. Do not add a door to the open bedroom connection.",
+        "why": "Although this is a sitting/coffee area, it is open to the bedroom. Untreated retreat glass would defeat the bedroom blackout treatment.",
+        "day": "Sheers for the lounge; blackout curtains stacked away from glass.",
+        "night": "Close all retreat exterior-glass blackout layers with the bedroom curtains.",
+        "installation": "Survey all window groups and terrace access. Keep curtains clear of the bar, appliances and door swings. Where a door cannot accept curtains, use an independent blackout shade with gap control; keep the visible fabric coordinated with the bedroom.",
+        "goods": [
+          1200,
+          2000
+        ],
+        "installationCost": [
+          300,
+          550
+        ],
+        "title": "Owners retreat",
+        "floor": "third-floor"
+      },
+      {
+        "id": "ownerbath",
+        "system": "practical",
+        "recommendation": "Wet-area privacy at shower glass; moisture-resistant shade at dry window",
+        "coverage": "Exterior window within the shower and the dry vanity-side exterior window.",
+        "why": "Bathing needs reliable privacy, not decorative sheers. Fabric in direct shower spray is unsuitable; bedroom blackout can be managed with the bathroom door closed.",
+        "day": "Shower-window privacy remains in place while admitting diffuse daylight; adjust the dry-window shade.",
+        "night": "Close the dry-window opaque privacy shade; verify the shower treatment conceals silhouettes under actual interior lighting.",
+        "installation": "Provisional base: obscuring film explicitly compatible with the shower exposure and existing glazing, plus a moisture-resistant opaque roller on the dry window. If film cannot meet privacy/compatibility needs, quote suitable obscured glazing separately; window replacement is not included. No hanging sheer or drape in the shower.",
+        "goods": [
+          350,
+          650
+        ],
+        "installationCost": [
+          150,
+          250
+        ],
+        "title": "Owners bathroom",
+        "floor": "third-floor"
+      },
+      {
+        "id": "ownercloset",
+        "system": "none",
+        "recommendation": "No window treatment",
+        "coverage": "Windowless closet in the current plan-led concept.",
+        "why": "No exterior opening needs a covering; preserve storage and task lighting.",
+        "day": "Use closet lighting.",
+        "night": "Privacy is provided by the suite and closet enclosure.",
+        "installation": "Confirm during measured survey; do not invent a window to match a render reflection.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Owners walk-in closet",
+        "floor": "third-floor"
+      },
+      {
+        "id": "bed2",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + blackout-lined curtains or concealed blackout roller",
+        "coverage": "Wide front window on plan-bottom wall and narrow side window on plan-right wall. Headboard on stair-hall wall (plan-top); closet on shared-bathroom boundary (plan-left).",
+        "why": "A sleeping room needs darkness and nighttime privacy even when also used for study. The desk is not a reason to omit blackout.",
+        "day": "Sheers and an adjustable shade position for study light.",
+        "night": "Fully close the blackout layer.",
+        "installation": "Keep desk access and window operation clear. Prefer full closing curtains where they fit; if the desk blocks their travel, use a blackout roller with suitable edge overlap behind the sheers. No freestanding furniture changes required.",
+        "goods": [
+          400,
+          750
+        ],
+        "installationCost": [
+          125,
+          200
+        ],
+        "title": "Bedroom 2",
+        "floor": "third-floor"
+      },
+      {
+        "id": "bed3",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + blackout at every exterior opening",
+        "coverage": "Large front window and both smaller windows flanking the bed.",
+        "why": "All three openings must darken for comfortable sleeping; dressing only the large window would leave the bedside windows admitting light.",
+        "day": "Sheers preserve a light guest-bedroom atmosphere.",
+        "night": "Close all three blackout layers.",
+        "installation": "Use functional lined curtains where stack space allows and matching discreet blackout rollers behind sheers at tight bedside openings. Check bedside furniture, wall lights and bedding clearance before fixing tracks.",
+        "goods": [
+          750,
+          1200
+        ],
+        "installationCost": [
+          200,
+          350
+        ],
+        "title": "Bedroom 3",
+        "floor": "third-floor"
+      },
+      {
+        "id": "sharedbath",
+        "system": "none",
+        "recommendation": "No window treatment",
+        "coverage": "No exterior window in this bathroom; bedroom glazing seen through doors or mirrors belongs to the bedrooms.",
+        "why": "Bathroom privacy comes from closing its doors. Avoid ordering shades for reflected windows.",
+        "day": "Use planned bathroom lighting.",
+        "night": "Close bathroom doors; adjacent bedroom coverings are priced in those rooms.",
+        "installation": "Confirm the windowless condition in the site survey.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Shared bathroom",
+        "floor": "third-floor"
+      },
+      {
+        "id": "laundry",
+        "system": "practical",
+        "recommendation": "Washable privacy rollers; lined woven-look shades as an alternative",
+        "coverage": "Two left-side windows, including the arched opening by the sink.",
+        "why": "Laundry needs useful daylight, washable finishes and evening privacy. Open-weave decorative shades alone may be see-through; blackout and floor-length curtains are unnecessary.",
+        "day": "Raise for task light; adjust to soften glare.",
+        "night": "Lower the privacy layer.",
+        "installation": "Survey the arch and sink clearance; cover the full sightline without hanging fabric into splashes. If a woven-look Roman shade is chosen instead, include a privacy lining in its quote. Preserve the Rinse and repeat.. graphic.",
+        "goods": [
+          300,
+          550
+        ],
+        "installationCost": [
+          100,
+          175
+        ],
+        "title": "Laundry",
+        "floor": "third-floor"
+      },
+      {
+        "id": "stair3",
+        "system": "none",
+        "recommendation": "Bare high windows; add privacy only if sightlines require it",
+        "coverage": "Three high stair-hall windows.",
+        "why": "Daylight supports circulation; the stair does not need blackout or floor-length fabric.",
+        "day": "Leave glass visually open; assess glare on the landing.",
+        "night": "Check neighboring upper-floor views before treating high glazing as private.",
+        "installation": "No covering included in base. Survey any needed discreet privacy/diffusion treatment and access cost separately; do not hang fabric into stair travel or against the guard.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Third-floor stair hall",
+        "floor": "third-floor"
+      },
+      {
+        "id": "loft",
+        "system": "privacy",
+        "recommendation": "Ivory sheers + independent privacy layers at terrace glazing",
+        "coverage": "French doors and flanking windows, wide terrace slider and compact bar-alcove window. Coordinate the final glazing inventory on site.",
+        "why": "The penthouse lounge should retain its views by day and privacy after dark. Being on the top floor does not guarantee privacy from adjacent homes. It is not currently a sleeping room or dedicated cinema.",
+        "day": "Sheers for soft light; raise the compact bar-window shade.",
+        "night": "Close privacy layers where visible from neighboring properties.",
+        "installation": "Use traversing treatments that stack clear of the slider and French doors; compact shade at the bar. Blackout is a separate future upgrade if this becomes a regular sleeping or cinema space. Interior loft glass is not also counted in terrace furniture costs.",
+        "goods": [
+          950,
+          1700
+        ],
+        "installationCost": [
+          250,
+          450
+        ],
+        "title": "Penthouse lounge",
+        "floor": "penthouse"
+      },
+      {
+        "id": "bed5",
+        "system": "blackout",
+        "recommendation": "Ivory sheers + blackout for the new guest bedroom",
+        "coverage": "Confirmed exterior glazing of the proposed new Bedroom 5 only; openings and final enclosure remain to be surveyed.",
+        "why": "This is a real sleeping room, so guest privacy and light control should be designed into construction rather than added after furniture arrives.",
+        "day": "Sheers filter daylight.",
+        "night": "Close the blackout layer at every confirmed exterior opening.",
+        "installation": "Provisional allowance, not an approved window count. Coordinate track supports and bed/storage positions with the new room plan. Do not create new windows or drape the blank headboard wall to imitate a render.",
+        "goods": [
+          450,
+          850
+        ],
+        "installationCost": [
+          125,
+          225
+        ],
+        "title": "Penthouse guest bedroom",
+        "floor": "penthouse"
+      },
+      {
+        "id": "bath4",
+        "system": "none",
+        "recommendation": "No window treatment in the current layout",
+        "coverage": "Plan-led penthouse bathroom is windowless.",
+        "why": "No exterior glazing needs dressing in the documented concept.",
+        "day": "Use bathroom lighting.",
+        "night": "Use the bathroom door for privacy.",
+        "installation": "Confirm the existing enclosure/services and whether there is any real exterior opening before final scope. A newly discovered window would require a wet-area privacy specification and revised allowance.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Penthouse bathroom",
+        "floor": "penthouse"
+      },
+      {
+        "id": "terrace",
+        "system": "none",
+        "recommendation": "No interior drapes outdoors",
+        "coverage": "Outdoor roof terrace; adjoining interior glass is covered under the loft or suite room schedule.",
+        "why": "Interior sheers and blackout panels do not belong in this outdoor exposure. Existing exterior shade structures and weather-rated furniture form a separate scope.",
+        "day": "Use the existing outdoor shade arrangement.",
+        "night": "Close the relevant interior privacy layers from inside.",
+        "installation": "No additional exterior curtain system included; do not duplicate loft glazing costs here.",
+        "goods": [
+          0,
+          0
+        ],
+        "installationCost": [
+          0,
+          0
+        ],
+        "title": "Roof terrace",
+        "floor": "penthouse"
+      }
+    ]
+  },
+  "visualRevision": "MW-NR01; no stair-runner costs, original neutral bedrooms; stone quote differences pending."
 }

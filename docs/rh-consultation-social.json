@@ -1,0 +1,734 @@
+{
+  "date": "2026-10-09",
+  "design": "Option 1 \u2014 Mineral & Walnut",
+  "status": "Furniture consultation proposals only; no purchases or changes to approved house imagery authorized",
+  "researchScope": "Official RH product/category pages relevant to these rooms; product titles and photographs verified where available. This is not a claim that every RH product or printed catalogue was reviewed. Current configuration controls were not fully readable for all products.",
+  "globalNotes": [
+    "Maintain pure Mineral & Walnut: warm mineral ivory/mushroom,natural oak,rich walnut,ivory/oatmeal/charcoal,and green plants. No Option2brown-oak/stainlessblue/yellow theme.",
+    "Use RH for main pieces and lower-cost supporting items. Built-ins remain measured contractor/cabinetmaker work,not substitutes with freestandingRHfurniture.",
+    "Design the finished rooms but phase purchases. The existing$25,000minimum move-in furniture allowance is shared across the house; it is not anRHwhole-roomquote.",
+    "No quoted prices are used here because the exact size,fabric,finish,membership,tax,delivery and configuration are pending.",
+    "Product photographs may show a different finish from the proposed sample; the source photograph governs geometry,not automatic color approval."
+  ],
+  "rooms": [
+    {
+      "id": "entry",
+      "title": "Entrance gallery",
+      "designSummary": "Keep the gallery airy and architectural. The mineral arch, exposed oak stairs and two-floor chandelier carry the room; one compact walnut table and a ceramic lamp are enough.",
+      "layoutNotes": [
+        "Preserve both clear-glass side-door pairs, center arch, upper void and stair footprint.",
+        "The table remains in the existing back-left stair-hall footprint, away from door swings and the walking route.",
+        "Current target is 20\u201324 in diameter and 28\u201330 in high. A 36 in RH entry/bistro table is not an automatic fit."
+      ],
+      "products": [
+        {
+          "name": "Anja Teardrop Table Lamp",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod31700075",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod31700075_E23721557118_F_rebg_RHR?",
+          "material": "Wood-fired terracotta; separate linen shade",
+          "proposedFinish": "Grey Terracotta with warm ivory linen shade, subject to sample; avoid blue-grey cast",
+          "planningSize": "Body, shade diameter and overall height must be checked against the compact entry table.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 1,
+          "phase": "Later supporting piece / lower-cost equivalent acceptable",
+          "reason": "Its quiet vessel form brings tactile weight to the small entry vignette; it must not compete with the cascade chandelier.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod31700075"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized.",
+          "purchaseCaution": "RH sells the pictured shade separately. Include compatible shade, bulb, tax and delivery in any quote."
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "Lower-cost ceramic lamp with ivory linen shade",
+          "reason": "Same quiet warm-grey or charcoal vessel shape; size the shade to the actual small table and use warm dimmable light."
+        }
+      ],
+      "customItems": [
+        {
+          "name": "Compact walnut pedestal entry table",
+          "material": "Walnut or good walnut veneer; stable pedestal",
+          "planningSize": "20\u201324 in round \u00d7 28\u201330 in high planning target",
+          "phase": "Later, after essentials",
+          "reason": "Prefer a simple correctly sized retail table; this does not need expensive custom joinery.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        }
+      ],
+      "nonRhItems": [
+        {
+          "name": "Slim framed neutral artwork",
+          "material": "Cream / taupe / charcoal artwork; dark slim frame",
+          "planningSize": "Existing stair-wall art zone",
+          "phase": "Later",
+          "reason": "Commission or select art independently rather than buying a matching furniture vignette.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        }
+      ],
+      "purchaseNotes": [
+        "Select the small table before the lamp so the shade and stability work together.",
+        "Keep the approved painted arch inscription and raised exit lettering; portable furniture should not distract from them.",
+        "Do not use the move-in furniture allowance on entry styling before bedrooms and functional seating are covered."
+      ],
+      "renderBrief": "Keep the exact current entrance viewpoint, architecture, light glass side doors, natural wood front door, matching natural oak floor, bare exposed stair treads, neutral mineral arch, existing inscriptions and cascade chandelier. Retain one compact 20\u201324-inch walnut pedestal table in the existing stair-hall footprint; add a scaled Anja-style warm grey terracotta vessel lamp with ivory linen shade only if that table is visible. Do not widen the table or add cabinets, a rug runner, new openings or a dramatic replacement chandelier."
+    },
+    {
+      "id": "office",
+      "title": "Home office",
+      "designSummary": "An executive-feeling room without a furniture showroom: a large warm walnut desk, two tailored ivory visitors chairs and an uncluttered full north-wall TV/library built-in.",
+      "layoutNotes": [
+        "Nominal room 15 ft 5 in \u00d7 12 ft 11 in. Preserve the two-unit front window and three-unit right window.",
+        "Working chair stays southeast, facing northwest across a rectangular desk. A freestanding rectangular desk is the approved direction; no semicircle.",
+        "The full north wall shared with media stays custom cabinetry with TV and soundbar, not a freestanding RH bookcase.",
+        "Printer cabinet and black-framed art go immediately right of the entry doors when viewed from inside; no large south-wall console."
+      ],
+      "products": [
+        {
+          "name": "Gael Walnut Desk",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod29740668",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod29740668_E23120407222_F_RHR?",
+          "material": "Premium American walnut; small brass hardware in the photographed version",
+          "proposedFinish": "Caramel Walnut; keep hardware quiet and secondary",
+          "planningSize": "Approved planning desk target about 80 \u00d7 36 \u00d7 29 in. Gael is a silhouette candidate, not a verified 80 \u00d7 36 offered product.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 1,
+          "phase": "After layout and desk fit are verified; functional temporary desk can serve move-in",
+          "reason": "The rectangular top, gentle edges and tapered legs give walnut warmth with a lighter silhouette than another large cabinet.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod29740668"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        },
+        {
+          "name": "Enzo Fabric Dining Side Chair",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310758",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310758_E2321507844_TQ_RHR?",
+          "material": "Upholstered seat/back; walnut frame",
+          "proposedFinish": "Sand Performance Linen Weave / Caramel Walnut",
+          "planningSize": "Slim armless chair footprint to template with the actual table; no current width/depth verified.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 2,
+          "phase": "After the working desk and chair",
+          "reason": "Soft, supportive foam and the angular embracing back add tailored comfort without the visual bulk of a dining armchair.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod28310758",
+            "https://rhbabyandchild.rh.com/us/en/catalog/product/product.jsp?productId=prod28310758"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "Lucio Leather Desk Chair",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod34641245",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod34641245_E24223314720_TQ_RS_RHR?",
+          "material": "Upholstered leather chair on caster base",
+          "proposedFinish": "Dark warm-brown leather / quiet bronze base shown; final color by sit test",
+          "planningSize": "Current dimensions, adjustability and desk-arm clearance unverified.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 1,
+          "phase": "Optional alternative, after a sit test",
+          "reason": "A sculptural RH desk-chair candidate if its real adjustments support long work sessions. It is not automatically an ergonomic equivalent to a task chair.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod34641245"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        }
+      ],
+      "customItems": [
+        {
+          "name": "Full north-wall walnut TV/library cabinet",
+          "material": "Walnut veneer, concealed warm task lighting, adjustable storage",
+          "planningSize": "Entire measured north wall; central TV and soundbar fit governs",
+          "phase": "Built-in shell, power/data and blocking before move-in; fronts and styling can phase later",
+          "reason": "Keep original architectural direction; no RH freestanding sideboard can replace this fitted structure.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        },
+        {
+          "name": "Compact printer cabinet beside entry",
+          "material": "Walnut veneer / charcoal lower door",
+          "planningSize": "30 in W \u00d7 15 in D provisional; printer may require more depth",
+          "phase": "Later after printer model is chosen",
+          "reason": "Template the printer lid, paper trays, power cable and door swing; hang artwork above.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        }
+      ],
+      "nonRhItems": [
+        {
+          "name": "Ergonomic working chair",
+          "material": "Warm charcoal fabric / mesh with quiet dark base",
+          "planningSize": "Fit the homeowner, desk knee opening and daily working posture",
+          "phase": "Move-in essential if this is the everyday office",
+          "reason": "Choose adjustable support and a real sit test ahead of an expensive decorative desk chair; the southeast seated position faces northwest.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        },
+        {
+          "name": "Warm task lamp and desk accessories",
+          "material": "Dark metal / neutral shade",
+          "planningSize": "Actual working desk footprint",
+          "phase": "With functional workspace",
+          "reason": "Use a practical lamp rather than more built-ins or display furniture.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        }
+      ],
+      "purchaseNotes": [
+        "Confirm Gael current dimensions before choosing it. If its offered size misses the desk brief, select a correctly sized walnut desk from another supplier or a simple cabinetmaker top/base.",
+        "No desk or storage order until the door route, southeast chair movement and full north-wall cabinet are measured.",
+        "Finish samples must sit beside the approved natural oak flooring and mineral wall; do not introduce silver-chrome furniture or blue accents."
+      ],
+      "renderBrief": "Edit the current office, keeping its real window counts and paired gallery doors. Keep the full north-wall warm walnut built-in with central TV and slim soundbar. Place a large rectangular desk in the current approved orientation: use the Gael desk photograph for tapered leg and gently rounded rectangular top geometry, at the approximately 80 \u00d7 36 planning footprint without claiming that is a retail size. Working chair is southeast facing northwest, quiet charcoal/dark base. Two Enzo Sand upholstered visitor chairs with warm Caramel Walnut legs sit across the desk without blocking passage. Preserve printer cabinet/art immediately right of the entry. No semicircular desk, painting in the TV opening, silver metal theme or south-window console."
+    },
+    {
+      "id": "media",
+      "title": "Media room",
+      "designSummary": "A calm dedicated cinema: plush ivory Cloud seating against a quiet mineral TV wall, with the 83-inch picture and controlled lighting as the focus.",
+      "layoutNotes": [
+        "Room 15 ft 1 in \u00d7 11 ft 1 in planning reference. Sofa-wall length is about 133 in in the plan.",
+        "83 in TV stays on the photographed right wall with slim soundbar, quiet mushroom/charcoal backing and subtle dimmable halo.",
+        "Clear-glass paired doors stay on the west wall near the south/TV-wall corner; anime shelves stay to their right from inside.",
+        "Preserve the existing shallow tray ceiling, two-sash street window, surround-speaker intent and routes behind seating."
+      ],
+      "products": [
+        {
+          "name": "Cloud Modular 3-Piece Sofa",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod6511684_E1684919_F_RHR?",
+          "material": "Slipcovered upholstered modules; feather/down around a foam core per RH description",
+          "proposedFinish": "Warm ivory performance fabric, sample and maintenance review pending",
+          "planningSize": "Historical RH Classic three-module run approximately 119 in W \u00d7 40 in D. The room sofa wall is nominally 133 in; do not assume a 158 in standard U-chaise fits.",
+          "sizeStatus": "Historical published footprint only. Current US configuration and available modules/connectors require retailer confirmation.",
+          "quantity": 1,
+          "phase": "Later media-room fit-out; select footprint and fabric now",
+          "reason": "The media room is the right place for the deepest lounge comfort. Three modules leave a realistic starting width; movable ottomans provide movie-night leg support.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+            "https://rh.com/gb/en/catalog/product/product.jsp/prod9740156",
+            "https://rh.com/us/en/catalog/category/products.jsp/cat18490019/",
+            "https://images.restorationhardware.com/content/catalog/us/en/tearsheets/Upholstery_Cloud_Modular.pdf"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized.",
+          "sourceNote": "US product page was not readable in this audit; official RH UK page verified product title and photo, and the US Cloud category verifies the collection. No UK price is used."
+        },
+        {
+          "name": "Cloud Ottoman",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6490277",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod14890576_E21093225_F_RHR?",
+          "material": "Slipcovered upholstered ottoman",
+          "proposedFinish": "Same warm ivory performance fabric as sofa",
+          "planningSize": "Movable ottoman(s); size and compatibility with chosen sofa unverified.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 2,
+          "phase": "Later, after the three-module sofa is taped out",
+          "reason": "Lets the sofa become a compact theater lounge when wanted, without ordering a too-wide preconfigured U-chaise.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod6490277"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized.",
+          "purchaseCaution": "A loose Cloud Ottoman is not automatically a connector-compatible modular component. Select the exact module or freestanding product with RH."
+        },
+        {
+          "name": "Textura Twist Wool Rug \u2014 Marled",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod2111228",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod2111228_F12?",
+          "material": "100% wool, as described by RH",
+          "proposedFinish": "Quiet warm oatmeal / marled neutral, physical undertone sample pending",
+          "planningSize": "Rug footprint to tape with actual 119 in sofa and movable ottomans; no size approved.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 1,
+          "phase": "After seating is fixed",
+          "reason": "A calm wool surface gives the oak floor and walnut furniture softness. Buy a lower-cost comparable if it allows more money for the main seating.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod2111228"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "Lower-cost deep modular sofa with removable performance covers",
+          "reason": "Compare a 115\u2013120 in back run and compact ottomans against Cloud in person; do not reduce the room to a oversized packaged sectional."
+        }
+      ],
+      "customItems": [
+        {
+          "name": "Long ventilated AV console",
+          "material": "Walnut top/ends with matte charcoal doors; recessed plinth or approved floating support",
+          "planningSize": "About 108 in wide planning target",
+          "phase": "Rough-in before finishes; final cabinet/AV later",
+          "reason": "Provides appropriate scale to the 83 in TV and concealed serviceable AV storage.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        },
+        {
+          "name": "Anime collectible display beside doors",
+          "material": "Shallow fitted shelves; warm dimmable discreet illumination",
+          "planningSize": "Actual wall zone right of west-wall doors",
+          "phase": "Later",
+          "reason": "A personal display belongs here, away from the central screen and circulation.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        }
+      ],
+      "nonRhItems": [
+        {
+          "name": "83 in television and coordinated audio system",
+          "material": "Screen, soundbar, compatible surround components",
+          "planningSize": "Actual TV chassis and speaker/receiver design",
+          "phase": "Plan and wire before plaster; purchase equipment during later media phase",
+          "reason": "Ceiling/rear speakers and soundbar must be one coherent designed system, not incompatible products.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        },
+        {
+          "name": "Full-length sheers plus blackout layer",
+          "material": "Ivory/oatmeal curtain face; real blackout lining/shade and gap control",
+          "planningSize": "Real street window and door glazing as appropriate",
+          "phase": "Before the room is used for daytime movies",
+          "reason": "Light control matters more to image quality than a louder TV-wall material.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        }
+      ],
+      "purchaseNotes": [
+        "Do not buy the standard 158 in Cloud U-chaise: it exceeds the 133 in planning wall.",
+        "Select and tape the exact 119 in-style run, ottomans and walkways; current custom arrangement is a concept, not a confirmed SKU.",
+        "Cloud needs a real cushion-care and sit test. Deep sink-in comfort is intentional here, different from the tidier main great-room sofa.",
+        "Rough-in speaker/data/power now; postpone premium sofa and AV gear until after essential move-in rooms."
+      ],
+      "renderBrief": "Keep the current media room viewpoint, west-wall clear-glass paired doors and their correct offset, existing tray ceiling, east two-sash window,83-inch TV on its quiet smooth mushroom/charcoal backing, soundbar, subtle halo and long walnut/charcoal console. Use the actual Cloud modular product reference for a THREE-module back run only, approximately119-inch planning width, not the standard158-inch U-chaise. Add at most two movable scaled matching ottomans as a compact theater concept; keep door approach and rear route free. Warm ivory woven performance fabric with charcoal pillows, restrained neutral wool rug. Retain surround grilles/rear speakers and anime-display shelving beside the doors. No tall full-wall slats, chrome furniture, colored accent pillows or invented doors."
+    },
+    {
+      "id": "kitchen",
+      "title": "Kitchen",
+      "designSummary": "Let the selected cream quartzite-look porcelain and walnut cabinetry feel substantial; use slim upholstered stools that soften the island without competing with the stone.",
+      "layoutNotes": [
+        "Preserve the original L-run, counter window, island sink, hood, refrigerator and right-end oven/microwave column.",
+        "Four stools remain the design target; measured island seating length, counter height, overhang and knee room govern the final quantity.",
+        "Keep the two shallow dark-bronze dome pendants and approved C1 creamy porcelain direction."
+      ],
+      "products": [
+        {
+          "name": "Morgan Curved-Back Armless Fabric Bar & Counter Stool",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28500419",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28500419_E24222518455_TQ_CC_RHR?",
+          "material": "Upholstered seat/back on wood frame; walnut finish per RH",
+          "proposedFinish": "Natural Performance Linen Weave / Brown Walnut",
+          "planningSize": "Select the counter-height configuration from the actual island height. Current seat width,depth,height and four-stool spacing unverified.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 4,
+          "phase": "Essential kitchen seating if used daily; can phase two now / two later after spacing confirmation",
+          "reason": "The curved back and slim tapered walnut legs echo the warm house palette. Armless seats pull under the island and keep the stone visible.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod28500419"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "Nicola Slope Fabric Bar & Counter Stool",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33750100",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod33750100_E24522750636_TQ_RHR?",
+          "material": "Fully fabric-wrapped frame and legs; padded seat",
+          "proposedFinish": "Natural Performance Linen Weave",
+          "planningSize": "Exact counter-height option and four-place spacing unverified.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 4,
+          "phase": "Alternative after comparing wipeability and scale",
+          "reason": "A quieter fully upholstered silhouette if visible walnut legs feel too busy. RH describes a firmer sit; sample and try it first.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod33750100"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        }
+      ],
+      "customItems": [
+        {
+          "name": "Approved walnut / ivory kitchen cabinets and C1 stone surfaces",
+          "material": "Warm walnut, ivory faces where already designed, cream quartzite-look porcelain",
+          "planningSize": "Measured original cabinet and island layout",
+          "phase": "Construction phase before move-in",
+          "reason": "Keep this fitted kitchen scope separate from RH loose furniture selection.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        }
+      ],
+      "nonRhItems": [
+        {
+          "name": "Kitchen functional smallwares",
+          "material": "Simple neutral dinnerware and practical washable accessories",
+          "planningSize": "Storage and use determined after cabinet layout",
+          "phase": "Move-in essentials",
+          "reason": "Spend on useful pieces and support the counter finish with few dark/wood accents, not a staged appliance collection.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        }
+      ],
+      "purchaseNotes": [
+        "Ask RH for the exact counter-height SKU, overall width and undercounter arm/back clearance.",
+        "The counter-height and bar-height versions are not interchangeable.",
+        "Four is a design intent, not permission to pack chairs more tightly than the measured island comfortably allows."
+      ],
+      "renderBrief": "Edit only the four island stools in the approved C1 kitchen. Use Morgan Curved-Back Armless Fabric stool geometry: warm ivory Natural Performance Linen Weave, curved upholstered low backs and seats, slim tapered Brown Walnut legs with discreet dark footrests. Keep four at the existing island locations if the reference supports them. Preserve all cabinet layout,cream quartzite-look porcelain, island sink,counter window,hood,right-hand oven/microwave column and two dark shallow dome pendants. Visible sunroom keeps its approved rectangular six-seat table. No blue,yellow or silver-chrome furniture theme."
+    },
+    {
+      "id": "dining",
+      "title": "Formal dining",
+      "designSummary": "A warm modern dining room for eight every day and ten occasionally: tailored Sand Enzo chairs around a correctly sized walnut extension table, with the mineral walls and varied windows left prominent.",
+      "layoutNotes": [
+        "Nominal 12 ft 11 in \u00d715 ft3 in. Preserve all five original varied windows and existing wall niche.",
+        "Closed target84\u00d740 in supports8:3 chairs per long side plus1 per end. Extend about108 in for10 only if actual supports and chair widths work.",
+        "Nominal closed end gaps49.5 in and side gaps57.5 in precede chairs,trim,storage. Extended end gaps shrink to37.5 in.",
+        "Keep the shallow approximately8 in shelf below the high central arch; do not fill chair pullback with a deep cabinet.",
+        "A 9\u00d712-foot rug is a closed-eight-seat study footprint. It may not keep all ten pulled-out chairs on the rug with the table extended to108in; template the full extension and consider bare oak or a measured larger rug."
+      ],
+      "products": [
+        {
+          "name": "Enzo Fabric Dining Side Chair",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310758",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310758_E2321507844_TQ_RHR?",
+          "material": "Upholstered seat/back; walnut frame",
+          "proposedFinish": "Sand Performance Linen Weave / Caramel Walnut",
+          "planningSize": "Slim armless chair footprint to template with the actual table; no current width/depth verified.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 10,
+          "phase": "Eight after the table fit; two matching spare chairs later",
+          "reason": "Soft, supportive foam and the angular embracing back add tailored comfort without the visual bulk of a dining armchair.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod28310758",
+            "https://rhbabyandchild.rh.com/us/en/catalog/product/product.jsp?productId=prod28310758"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        },
+        {
+          "name": "Textura Twist Wool Rug \u2014 Marled",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod2111228",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod2111228_F12?",
+          "material": "100% wool, as described by RH",
+          "proposedFinish": "Quiet warm oatmeal / marled neutral, physical undertone sample pending",
+          "planningSize": "Planning rug target about9\u00d712 ft; verify chair legs stay on the rug when pulled out and offered size fits the real room.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 1,
+          "phase": "After table/chair templates",
+          "reason": "A calm wool surface gives the oak floor and walnut furniture softness. Buy a lower-cost comparable if it allows more money for the main seating.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod2111228"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "Gael Walnut Rectangular Dining Table",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod29740740",
+          "imageUrl": null,
+          "material": "American walnut",
+          "proposedFinish": "Caramel Walnut",
+          "planningSize": "RH offered lengths/widths and chair capacity not verified. It is a fixed-table alternative, not the approved84\u2192108 in extension concept.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 1,
+          "phase": "Only if the homeowner chooses fixed eight-seat dining and a measured offered size fits",
+          "reason": "Its eased form is a good stylistic reference, but it cannot be presumed to meet occasional-ten extension requirements.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod29740740"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        }
+      ],
+      "customItems": [
+        {
+          "name": "Walnut extension dining table",
+          "material": "Walnut / walnut veneer with eased corners and recessed twin supports",
+          "planningSize": "84\u00d740 in closed; approximately108 in extended; planning only",
+          "phase": "After site survey; purchase after essential move-in furnishings",
+          "reason": "The correct table mechanics and fit matter more than buying an unsuitable RH size. Obtain a tested extension-table solution from a retailer or maker.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        },
+        {
+          "name": "Shallow display shelf below high central window",
+          "material": "Walnut; discreet fittings",
+          "planningSize": "Approximately8 in deep; measured window/niche governs",
+          "phase": "Later",
+          "reason": "Fills the empty wall quietly while preserving light and chair circulation.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        }
+      ],
+      "nonRhItems": [
+        {
+          "name": "Sibling neutral artwork and simple centerpiece",
+          "material": "Taupe/charcoal/ivory art; restrained dark frames; low vessel",
+          "planningSize": "Actual solid wall zones; keep varied windows clear",
+          "phase": "Later",
+          "reason": "Provides character without repeating the same collection everywhere.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        }
+      ],
+      "purchaseNotes": [
+        "RH chairs are the main brand selection; the table can come from a lower-cost or local supplier if it meets this precise planning brief.",
+        "Confirm actual chair widths,table-leg interference and all ten pullback positions before ordering ten chairs.",
+        "No twelve-seat square table. A fixed oversized RH slab/table should not consume the circulation needed for this room.",
+        "Current product price/configuration pending; do not treat catalogue starting prices as a ten-chair quote."
+      ],
+      "renderBrief": "Preserve the current formal dining camera, all FIVE varied original windows including the high central arch, existing wall niche, natural oak floor, warm ivory/mushroom mineral walls, sheer/privacy layers and restrained chandelier. Show the custom-concept walnut extension table CLOSED at approximately 84 \u00d7 40-inch planning proportion, with a soft eased rectangular top and recessed twin supports. This is NOT a verified RH table. Place EIGHT slim armless RH Enzo chairs in Sand fabric / Caramel Walnut: three on each long side and one at each end, scaled to the source room. Two additional matching chairs are stored elsewhere, not crowded into the image. Retain the shallow walnut shelf below the high central arch with quiet neutral decor. No twelve-seat square, oversized table or new windows."
+    },
+    {
+      "id": "living",
+      "title": "Living room / piano salon",
+      "designSummary": "The softer music salon: a compact Cloud sofa, one rounded chair and a small walnut table, with the baby grand and easy dining/hall circulation as the main composition.",
+      "layoutNotes": [
+        "This is a plan-led room without a dedicated model-home source photograph; current approved concept is the baseline.",
+        "Nominal16 ft\u00d711 ft4 in: babygrand about5 ft at plan-top/right; two real front windows at bottom; solid decorative false-window wall at right; open dining boundaryleft and stairhalltop.",
+        "Sofa planning target approximately96 in; do not substitute the119 in three-module media sofa.",
+        "Current room schedule and architecture locks describe seating orientation differently; retain the current approved render arrangement and field-template the full piano/sofa/chair plan before ordering."
+      ],
+      "products": [
+        {
+          "name": "Cloud Sofa",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod14870249",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod14870249?",
+          "material": "Slipcovered upholstery; relaxed feather/down construction per RH",
+          "proposedFinish": "Warm ivory performance woven upholstery; sample approved with rest of floor",
+          "planningSize": "Approximately96 in /8 ft sofa planning target. Current available size and depth not verified.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 1,
+          "phase": "Later music-salon phase",
+          "reason": "Preserves the requested Cloud feeling in a smaller sofa rather than importing the119 in modular media configuration.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod14870249"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        },
+        {
+          "name": "1950s Italian Shelter Arm Swivel Chair",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6460578",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod6460578_E1643873_TQ_Frank?",
+          "material": "Upholstery on concealed swivel base",
+          "proposedFinish": "Sand / oatmeal woven upholstery",
+          "planningSize": "Historical Classic reference 30\u00bd in W \u00d7 32\u00bd in D; current SKU and full swivel clearance must be checked.",
+          "sizeStatus": "Historical footprint is a planning reference, not a current configuration guarantee.",
+          "quantity": 1,
+          "phase": "Later, with piano/seating layout",
+          "reason": "The rounded shelter shape is a softer counterpoint to the rectilinear furniture; a compact chair keeps the room usable.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod6460578"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        },
+        {
+          "name": "Enzo Rectangular Coffee Table",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310672",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310672_E22420167785_F_RHR?",
+          "material": "American walnut",
+          "proposedFinish": "Caramel Walnut",
+          "planningSize": "Compact approximately44\u201348 in long target; an offered RH size has not been verified.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 1,
+          "phase": "Only after piano and sofa are placed",
+          "reason": "Its simple architectural planes offer a stronger walnut counterpoint to the Cloud cushions, but it must remain genuinely small enough for this narrow room.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod28310672"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        },
+        {
+          "name": "Textura Twist Wool Rug \u2014 Marled",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod2111228",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod2111228_F12?",
+          "material": "100% wool, as described by RH",
+          "proposedFinish": "Quiet warm oatmeal / marled neutral, physical undertone sample pending",
+          "planningSize": "Neutral low-pile rug footprint to tape under sofa/chair; do not interfere with piano casters or bench.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 1,
+          "phase": "After piano and seating positions",
+          "reason": "A calm wool surface gives the oak floor and walnut furniture softness. Buy a lower-cost comparable if it allows more money for the main seating.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod2111228"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "Modena Slope Arm 2-Cushion Sofa",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod24400560",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod24400560_E87804646_F_Frank_RHR?",
+          "material": "Tailored fabric sofa",
+          "proposedFinish": "Warm ivory woven fabric",
+          "planningSize": "Start with approximately96 in planning width; current configuration unverified.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 1,
+          "phase": "Alternative after sit/fit test",
+          "reason": "If the Cloud sofa is too deep or relaxed here, Modena supplies a tidier salon silhouette consistent with the great room.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod24400560"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        }
+      ],
+      "customItems": [],
+      "nonRhItems": [
+        {
+          "name": "Compact baby grand piano and adjustable bench",
+          "material": "Quality acoustic or digital baby-grand format; piano supplier confirms environmental and delivery needs",
+          "planningSize": "About5 ft planning target; exact instrument/bench/keylid area governs",
+          "phase": "Later phase after move-in; protect the intended footprint now",
+          "reason": "RH does not supply the instrument. Keep direct sun/heat off it and preserve lid,bench and technician access.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        },
+        {
+          "name": "Slim warm reading floor lamp",
+          "material": "Dark metal / warm neutral shade",
+          "planningSize": "Beside chair, reachable cord route",
+          "phase": "Later supporting piece",
+          "reason": "A quieter and lower-cost supporting lamp is appropriate; no new ceiling feature needed.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        },
+        {
+          "name": "Compact rounded walnut table if RH size does not fit",
+          "material": "Walnut / quality veneer,soft rounded edges",
+          "planningSize": "About44\u00d724 in concept; site template governs",
+          "phase": "With seating",
+          "reason": "A correctly sized oval table can be more practical than forcing the Enzo rectangle.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        }
+      ],
+      "purchaseNotes": [
+        "Choose the actual piano model and delivery route before buying salon upholstery.",
+        "RH product photographs show a silhouette reference; the render is not proof of an8 ft offer or the keyboard/lid clearances.",
+        "Maintain sheers plus proper privacy/glare shades at actual front windows; the false-window feature is not glazing."
+      ],
+      "renderBrief": "Keep the exact current plan-led living/piano viewpoint and room geometry, including two real front windows, the solid decorative false-window wall and open connections to dining and the stair hall. Keep the approximately five-foot baby grand at the northeast / plan-top-right position with bench space. Replace seating with a compact approximately eight-foot RH Cloud Sofa, not a 119-inch modular sectional; use the actual Cloud Sofa reference for arm and cushion geometry. Add one compact oatmeal 1950s Italian Shelter Arm swivel chair in the existing chair position. Use a compact Caramel Walnut Enzo-style coffee table if a real size fits, otherwise retain the approved small oval walnut table; this planning footprint is visual only. Natural matte oak, warm mineral walls, ivory sheers plus hidden privacy shades and a quiet neutral rug. No added windows, enlarged room, chrome theme or colored accents."
+    },
+    {
+      "id": "sunroom",
+      "title": "Sunroom",
+      "designSummary": "A bright everyday six-seat breakfast room. A slim custom-sized walnut table and Sand upholstered chairs make it comfortable without turning the small glazed room into a formal dining hall.",
+      "layoutNotes": [
+        "Nominal12 ft3 in\u00d79 ft3 in. Keep double-hung windows,transoms,knee walls,terrace door and adjacent oven-column relationship.",
+        "Target72\u00d734 in table with2 chairs each long side and1 each end. Nominal centered gaps37.5/38.5 in precede obstructions and chair pullback.",
+        "Preserve ivory sheers,independent privacy shades and airy black/opal linear chandelier."
+      ],
+      "products": [
+        {
+          "name": "Enzo Fabric Dining Side Chair",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310758",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310758_E2321507844_TQ_RHR?",
+          "material": "Upholstered seat/back; walnut frame",
+          "proposedFinish": "Sand Performance Linen Weave / Caramel Walnut",
+          "planningSize": "Slim armless chair footprint to template with the actual table; no current width/depth verified.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 6,
+          "phase": "After the kitchen and essential bedrooms; an economical six-chair equivalent can serve first",
+          "reason": "Soft, supportive foam and the angular embracing back add tailored comfort without the visual bulk of a dining armchair.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod28310758",
+            "https://rhbabyandchild.rh.com/us/en/catalog/product/product.jsp?productId=prod28310758"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "Slim upholstered dining chair from a lower-cost supplier",
+          "reason": "Warm ivory/oatmeal fabric and quiet walnut/dark legs; no bulky arms. Better to choose six correctly scaled chairs than an oversized premium set."
+        }
+      ],
+      "customItems": [
+        {
+          "name": "72\u00d734 in walnut breakfast table",
+          "material": "Walnut / walnut veneer over stable substrate; rounded/eased corners; slim practical support",
+          "planningSize": "72\u00d734 in planning target, no RH offered product asserted",
+          "phase": "After six chair and door/oven templates",
+          "reason": "A maker or another retailer is the sensible choice if RH sizes are wider/deeper. Confirm knees and end chairs against support locations.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        }
+      ],
+      "nonRhItems": [
+        {
+          "name": "Simple washable daily-use styling",
+          "material": "Low dark vessel / small plant; no large table arrangement",
+          "planningSize": "Center tabletop only",
+          "phase": "Later",
+          "reason": "The surrounding daylight is the room feature; keep the six eating places usable.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        }
+      ],
+      "purchaseNotes": [
+        "Do not use a formal42\u201348 in-deepRHtablewithoutchecking this111 in-wide room.",
+        "No rug is required beneath this everyday table; exposed oak is easier to clean and keeps the small room airy.",
+        "Template the terrace-door swing,oven access and all six pulled-out chairs before buying."
+      ],
+      "renderBrief": "Preserve the current sunroom architecture: all lower windows and high transoms, knee walls, terrace door and adjacent oven column. Replace only dining furniture with a correctly scaled CUSTOM-CONCEPT 72 \u00d7 34-inch warm walnut rectangular table with eased edges and practical slim supports. Exactly SIX RH Enzo chairs in Sand fabric / Caramel Walnut, two on each long side and one at each end. Keep the airy black-and-opal linear chandelier, ivory sheers plus independent privacy shades, and natural oak floor without a new rug. Do not imply a verified RH table size, cover transoms or block the door/oven."
+    },
+    {
+      "id": "retreat",
+      "title": "Owners retreat",
+      "designSummary": "An intimate reading and coffee lounge that feels softer than the public rooms: two ivory Modena chaises, small walnut landing tables and the existing fitted coffee bar.",
+      "layoutNotes": [
+        "Nominal12 ft3 in\u00d710 ft. Preserve both exterior window walls,existing bar plumbing/beverage refrigerator and the open primary-bedroom connection.",
+        "Two chaises and tables require an actual footprint check together with bar use and bedroom/terrace circulation.",
+        "Because this lounge is open to the bedroom,all its real exterior glazing needs matching sheers plus blackout coverage."
+      ],
+      "products": [
+        {
+          "name": "Modena Slope Arm Chaise",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod7560042",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod7560042_E57804515_TQ_CC_RHR?",
+          "material": "Deep upholstered chaise; photographed wood base",
+          "proposedFinish": "Warm ivory woven performance upholstery with quiet dark Espresso Oak base; sample and current configuration pending",
+          "planningSize": "Two chaise footprints; exact current length,width,depth and available upholstery not verified.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 2,
+          "phase": "Later primary-retreat phase",
+          "reason": "The low continuous slope-arm line feels like a private hotel lounge without ornate frames or noisy materials.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod7560042"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        },
+        {
+          "name": "Gael Walnut Round Side Table",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod29740644",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod29740644_E2320344446_F_RHR?",
+          "material": "American walnut",
+          "proposedFinish": "Caramel Walnut, sample against the built-ins",
+          "planningSize": "Compact reachable side-table footprint; exact offered dimensions unverified.",
+          "sizeStatus": "Planning footprint only; exact current offered size, finished dimensions and selected SKU must be verified before ordering.",
+          "quantity": 1,
+          "phase": "Later supporting pieces; scale to actual chaises",
+          "reason": "A warm, gently contoured landing spot for a drink or book; use only where it preserves circulation.",
+          "sourceUrls": [
+            "https://rh.com/us/en/catalog/product/product.jsp/prod29740644"
+          ],
+          "priceStatus": "Configured price and delivery date pending; no order authorized."
+        }
+      ],
+      "alternatives": [
+        {
+          "name": "Two compact lounge chairs with separate footstools",
+          "reason": "If the measured chaise lengths crowd the bar or circulation, this supplies similar reading comfort with more flexibility; a new render would be needed before changing the approved chaise direction."
+        }
+      ],
+      "customItems": [
+        {
+          "name": "Retained/refaced coffee bar",
+          "material": "Walnut fronts,quiet ivory durable counter/backsplash,dark pulls",
+          "planningSize": "Existing measured bar and beverage-refrigerator cutout",
+          "phase": "Construction phase before move-in if bar refinishing is in scope",
+          "reason": "Do not replace with a freestandingRHcabinet; plumbing,ventilation and serviceability govern.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        }
+      ],
+      "nonRhItems": [
+        {
+          "name": "Second compact side/drink table",
+          "material": "Walnut or quiet dark finish",
+          "planningSize": "Measured gap beside second chaise; no oversized matching pair",
+          "phase": "Later",
+          "reason": "A simple less expensive supporting table can save budget without weakening the composition.",
+          "status": "Proposed; measured specification and supplier quote pending."
+        }
+      ],
+      "purchaseNotes": [
+        "Keep both chaises as the first design direction, but select only after measured chair/bar/circulation templates.",
+        "Do not spend move-in furniture money here before the main bedroom,kitchen and functional seating.",
+        "Keep the bedroom blackout system coordinated with retreat glass so the adjacent lounge does not defeat sleep darkness."
+      ],
+      "renderBrief": "Edit the current owners retreat and retain the existing coffee-bar cabinets, sink, beverage refrigerator, open bedroom connection and ALL existing windows. Use two RH Modena Slope Arm chaise references for their low continuous wrapped arms, deep cushions and quiet dark wood base; upholstery is warm ivory woven fabric. Preserve current positioning and room scale, leaving bar approach and passage usable. Add one small Caramel Walnut Gael round side table and a quiet dark drink table only where already planned. Retain ivory sheers AND stacked matching blackout layers without covering trim/transoms or adding a door. No colored accents, chrome theme, stair runners or redesign of the adjoining bedroom."
+    }
+  ]
+}

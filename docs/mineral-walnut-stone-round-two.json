@@ -1,0 +1,464 @@
+{
+  "version": "MW-S02",
+  "date": "2026-10-08",
+  "status": "visually_reviewed_exploration_not_approved",
+  "provider": "Higgsfield API",
+  "feedback": {
+    "date": "2026-10-08",
+    "preferred": [
+      "A",
+      "C1",
+      "E"
+    ],
+    "selectedDirections": {
+      "ownerbath": "A",
+      "kitchen": "C1",
+      "sharedbath": "E"
+    },
+    "fireplace": {
+      "status": "undecided",
+      "shortlist": [
+        "original-option-1",
+        "D3",
+        "D1"
+      ]
+    },
+    "exploreFurther": [
+      "fireplace"
+    ],
+    "note": "User likes A, C1 and E. Record these as selected visual material directions. Fireplace remains undecided between original Option 1, D3 lower limestone surround and D1 full-height marble-look cladding. Product selection and installation details remain to be developed."
+  },
+  "scope": "Three kitchen alternatives and three great-room fireplace alternatives; A and E remain preferred studies. Current Option 1 gallery and construction specifications unchanged.",
+  "outputName": "round-two-comparison",
+  "qaDirectory": "tmp/stone-studies/r02",
+  "requests": [
+    {
+      "index": 42001,
+      "letter": "C1",
+      "parentLetter": "C",
+      "room": "kitchen",
+      "title": "Cream quartzite",
+      "summary": "A soft cream quartzite-look porcelain across the backsplash, worktops and waterfall end.",
+      "judgment": "The quietest coordinated kitchen: fine mineral movement lets walnut and lighting lead.",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/kitchen-k1-day.png",
+      "sourceJobId": "5fa7a788-7c8f-4f05-96a1-c8c9a2161351",
+      "originalPhoto": "assets/Crown Georgetown Photos/second-floor-main-kitchen-2.jpg.webp",
+      "file": "assets/render-candidates/mineral-walnut-stone/r02/c1-kitchen.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "4k",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "5fa7a788-7c8f-4f05-96a1-c8c9a2161351"
+          },
+          {
+            "role": "image",
+            "value": "211301c7-6056-4dd5-b821-e1f67a48b99a"
+          }
+        ],
+        "prompt": "Precise architectural interior PHOTO EDIT for a material study. Reference image 1 is the CURRENT Mineral & Walnut design and exact camera to preserve. Reference image 2 is the ORIGINAL MODEL-HOME PHOTO: use it only to verify architecture, never copy its obsolete furniture, palette or camera. Keep every window, door, wall, ceiling, crown, room proportion and urban view exactly as image 1. Preserve the furniture, walnut wood, natural oak where present, ivory textiles, black details, plants and lighting fixtures of image 1. Do not redesign the room. Replace ONLY the surfaces explicitly listed below. Physically credible porcelain tile/panel cladding with planned fine color-matched grout joints, coherent veining, believable thickness and neatly finished edges. Soft natural daylight with neutral white balance: warm ivory and walnut without pink/orange cast. Photoreal 4K architectural photograph, same 3:2 framing. No people, labels, watermarks, social-media UI, new arches, windows, ceiling trays, brass/chrome furniture, blue or yellow accents. This is the original warm Mineral & Walnut scheme, not Cocoa & Chrome.\n\nKitchen lock: four upholstered stools, two dark bronze dome pendants, ivory cabinets and glass uppers, walnut island front, natural oak floor, refrigerator at near left SHORT RETURN, left counter window, hood/cooktop on long wall, oven/microwave column at RIGHT END beside sunroom, unchanged sunroom table and glazing. Keep all furniture, accessories, plants and exterior views.\n\nMATERIAL ALTERNATIVE C1: Replace backsplash, worktops and existing island top/waterfall with warm cream QUARTZITE-LOOK PORCELAIN: delicate ivory crystalline depth, hairline taupe wisps and fine diffuse lengthwise ribbons, low contrast and satin honed appearance. Absolutely no bold diagonal marble veins, no dark outlines and no gold veining. Backsplash continues only inside its existing footprint; preserve the mineral-painted wall around and above the left counter window. Keep island shape, thickness, overhang, sink and walnut front unchanged.\nCorrect any pink or magenta cast to balanced neutral architectural daylight; cream remains warm but not yellow. This is a material-only comparison: do not improve unrelated furnishing or architecture."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Preserved kitchen footprint, four stools, two pendants, near-left refrigerator, right oven column and all glazing. Fine cream quartzite-style striation is visible on the waterfall; backsplash remains within working area."
+      },
+      "preview": "docs/mineral-walnut-stone-assets/c1-kitchen.webp"
+    },
+    {
+      "index": 42002,
+      "letter": "C2",
+      "parentLetter": "C",
+      "room": "kitchen",
+      "title": "Marble focal backsplash",
+      "summary": "A more expressive warm marble-look backsplash paired with calm ivory worktops.",
+      "judgment": "Concentrates the pattern on one plane while the island stays restful.",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/kitchen-k1-day.png",
+      "sourceJobId": "5fa7a788-7c8f-4f05-96a1-c8c9a2161351",
+      "originalPhoto": "assets/Crown Georgetown Photos/second-floor-main-kitchen-2.jpg.webp",
+      "file": "assets/render-candidates/mineral-walnut-stone/r02/c2-kitchen.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "4k",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "5fa7a788-7c8f-4f05-96a1-c8c9a2161351"
+          },
+          {
+            "role": "image",
+            "value": "211301c7-6056-4dd5-b821-e1f67a48b99a"
+          }
+        ],
+        "prompt": "Precise architectural interior PHOTO EDIT for a material study. Reference image 1 is the CURRENT Mineral & Walnut design and exact camera to preserve. Reference image 2 is the ORIGINAL MODEL-HOME PHOTO: use it only to verify architecture, never copy its obsolete furniture, palette or camera. Keep every window, door, wall, ceiling, crown, room proportion and urban view exactly as image 1. Preserve the furniture, walnut wood, natural oak where present, ivory textiles, black details, plants and lighting fixtures of image 1. Do not redesign the room. Replace ONLY the surfaces explicitly listed below. Physically credible porcelain tile/panel cladding with planned fine color-matched grout joints, coherent veining, believable thickness and neatly finished edges. Soft natural daylight with neutral white balance: warm ivory and walnut without pink/orange cast. Photoreal 4K architectural photograph, same 3:2 framing. No people, labels, watermarks, social-media UI, new arches, windows, ceiling trays, brass/chrome furniture, blue or yellow accents. This is the original warm Mineral & Walnut scheme, not Cocoa & Chrome.\n\nKitchen lock: four upholstered stools, two dark bronze dome pendants, ivory cabinets and glass uppers, walnut island front, natural oak floor, refrigerator at near left SHORT RETURN, left counter window, hood/cooktop on long wall, oven/microwave column at RIGHT END beside sunroom, unchanged sunroom table and glazing. Keep all furniture, accessories, plants and exterior views.\n\nMATERIAL ALTERNATIVE C2: Replace ONLY the working backsplash between the cabinetry and worktop, including behind the existing hood, with ivory MARBLE-LOOK PORCELAIN showing a few broad softly feathered taupe-grey veins, medium visual contrast, beautiful but not black lightning or mirrored bookmatching. Keep the painted mineral wall around and above the left counter window. Change the worktops and existing island top/waterfall to very quiet solid warm-ivory porcelain with nearly invisible mineral speckle and no large veins. Distinct hierarchy: statement backsplash, calm island, rich walnut front. No removal of cabinets and no stone cladding on hood.\nCorrect any pink or magenta cast to balanced neutral architectural daylight; cream remains warm but not yellow. This is a material-only comparison: do not improve unrelated furnishing or architecture."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Preserved cabinet boxes, appliances, window and sunroom openings, furnishings and camera. Marble movement is concentrated behind the cooktop while the island remains quieter; source mineral wall around the left window is retained."
+      },
+      "preview": "docs/mineral-walnut-stone-assets/c2-kitchen.webp"
+    },
+    {
+      "index": 42003,
+      "letter": "C3",
+      "parentLetter": "C",
+      "room": "kitchen",
+      "title": "Soft limestone",
+      "summary": "Matte limestone-look backsplash with quiet ivory worktops and walnut below.",
+      "judgment": "The most understated texture study; compare its matte surface with the veined options.",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/kitchen-k1-day.png",
+      "sourceJobId": "5fa7a788-7c8f-4f05-96a1-c8c9a2161351",
+      "originalPhoto": "assets/Crown Georgetown Photos/second-floor-main-kitchen-2.jpg.webp",
+      "file": "assets/render-candidates/mineral-walnut-stone/r02/c3-kitchen.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "4k",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "5fa7a788-7c8f-4f05-96a1-c8c9a2161351"
+          },
+          {
+            "role": "image",
+            "value": "211301c7-6056-4dd5-b821-e1f67a48b99a"
+          }
+        ],
+        "prompt": "Precise architectural interior PHOTO EDIT for a material study. Reference image 1 is the CURRENT Mineral & Walnut design and exact camera to preserve. Reference image 2 is the ORIGINAL MODEL-HOME PHOTO: use it only to verify architecture, never copy its obsolete furniture, palette or camera. Keep every window, door, wall, ceiling, crown, room proportion and urban view exactly as image 1. Preserve the furniture, walnut wood, natural oak where present, ivory textiles, black details, plants and lighting fixtures of image 1. Do not redesign the room. Replace ONLY the surfaces explicitly listed below. Physically credible porcelain tile/panel cladding with planned fine color-matched grout joints, coherent veining, believable thickness and neatly finished edges. Soft natural daylight with neutral white balance: warm ivory and walnut without pink/orange cast. Photoreal 4K architectural photograph, same 3:2 framing. No people, labels, watermarks, social-media UI, new arches, windows, ceiling trays, brass/chrome furniture, blue or yellow accents. This is the original warm Mineral & Walnut scheme, not Cocoa & Chrome.\n\nKitchen lock: four upholstered stools, two dark bronze dome pendants, ivory cabinets and glass uppers, walnut island front, natural oak floor, refrigerator at near left SHORT RETURN, left counter window, hood/cooktop on long wall, oven/microwave column at RIGHT END beside sunroom, unchanged sunroom table and glazing. Keep all furniture, accessories, plants and exterior views.\n\nMATERIAL ALTERNATIVE C3: Replace working backsplash within its current footprint with large rectangular warm PALE LIMESTONE-LOOK porcelain tiles, creamy putty/ivory, subtle sediment and delicate fossil-like flecks, smooth matte finish and very fine warm matching joints. No diagonal marble veins, strong banding, mosaic, zellige or rustic roughness. Keep the painted mineral wall around/above the left counter window. Replace worktops and existing island top/waterfall with quiet pale ivory porcelain, satin-honed, very faint mineral mottling and no obvious veining. Preserve all walnut fronts and existing exact surface shapes.\nCorrect any pink or magenta cast to balanced neutral architectural daylight; cream remains warm but not yellow. This is a material-only comparison: do not improve unrelated furnishing or architecture."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Preserved room architecture, appliances, four stools and two pendants. Low-contrast limestone-look backsplash and calm counters retain the original scheme; subtle texture requires full-size viewing."
+      },
+      "preview": "docs/mineral-walnut-stone-assets/c3-kitchen.webp"
+    },
+    {
+      "index": 42004,
+      "letter": "D1",
+      "parentLetter": "D",
+      "room": "great",
+      "title": "Warm marble fireplace",
+      "summary": "Soft ivory marble-look porcelain across the existing fireplace and TV projection.",
+      "judgment": "A little more movement and ceremony, contained within the central projection.",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/great-gr1-day.png",
+      "sourceJobId": "ab8924ca-bb0c-491a-89b0-18d2cf558af2",
+      "originalPhoto": "assets/Crown Georgetown Photos/second-floor-great-room.jpg.webp",
+      "file": "assets/render-candidates/mineral-walnut-stone/r02/d1-great.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "4k",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "ab8924ca-bb0c-491a-89b0-18d2cf558af2"
+          },
+          {
+            "role": "image",
+            "value": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef"
+          }
+        ],
+        "prompt": "Precise architectural interior PHOTO EDIT for a material study. Reference image 1 is the CURRENT Mineral & Walnut design and exact camera to preserve. Reference image 2 is the ORIGINAL MODEL-HOME PHOTO: use it only to verify architecture, never copy its obsolete furniture, palette or camera. Keep every window, door, wall, ceiling, crown, room proportion and urban view exactly as image 1. Preserve the furniture, walnut wood, natural oak where present, ivory textiles, black details, plants and lighting fixtures of image 1. Do not redesign the room. Replace ONLY the surfaces explicitly listed below. Physically credible porcelain tile/panel cladding with planned fine color-matched grout joints, coherent veining, believable thickness and neatly finished edges. Soft natural daylight with neutral white balance: warm ivory and walnut without pink/orange cast. Photoreal 4K architectural photograph, same 3:2 framing. No people, labels, watermarks, social-media UI, new arches, windows, ceiling trays, brass/chrome furniture, blue or yellow accents. This is the original warm Mineral & Walnut scheme, not Cocoa & Chrome.\n\nGreat-room lock: original flat ceiling and crown, both high horizontal transom windows flanking central chase, left terrace glazing and its transom, both walnut consoles with sibling black-framed art, ivory sofa and two oatmeal chairs, low oval walnut table, rugs and curtains. Preserve every opening, projection and object in reference 1.\n\nMATERIAL ALTERNATIVE D1: Apply warm ivory MARBLE-LOOK PORCELAIN only to the existing central projecting fireplace/TV chase from floor to crown. Sparse broad softly feathered taupe-grey diagonal veins, low-to-medium contrast. Large panels, fine matching joints. Do not create mirror bookmatching or dark lightning veins. Preserve the existing stepped projection, its full exact outline, width and depth; TV and fireplace positions unchanged. Side walls remain existing mineral paint. No cladding under side windows or behind consoles.\nCorrect any pink or magenta cast to balanced neutral architectural daylight; cream remains warm but not yellow. This is a material-only comparison: do not improve unrelated furnishing or architecture."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Central stepped chase retained, with TV, fireplace, flanking transoms, terrace glazing, two consoles and sibling artwork. Marble pattern is limited to the central projection."
+      },
+      "preview": "docs/mineral-walnut-stone-assets/d1-great.webp"
+    },
+    {
+      "index": 42005,
+      "letter": "D2",
+      "parentLetter": "D",
+      "room": "great",
+      "title": "Pearl onyx fireplace",
+      "summary": "Cloudy pearl onyx-look porcelain echoes the preferred primary-bath material.",
+      "judgment": "The more expressive option: compare its cloudy depth against the quieter surround.",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/great-gr1-day.png",
+      "sourceJobId": "ab8924ca-bb0c-491a-89b0-18d2cf558af2",
+      "originalPhoto": "assets/Crown Georgetown Photos/second-floor-great-room.jpg.webp",
+      "file": "assets/render-candidates/mineral-walnut-stone/r02/d2-great.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "4k",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "ab8924ca-bb0c-491a-89b0-18d2cf558af2"
+          },
+          {
+            "role": "image",
+            "value": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef"
+          }
+        ],
+        "prompt": "Precise architectural interior PHOTO EDIT for a material study. Reference image 1 is the CURRENT Mineral & Walnut design and exact camera to preserve. Reference image 2 is the ORIGINAL MODEL-HOME PHOTO: use it only to verify architecture, never copy its obsolete furniture, palette or camera. Keep every window, door, wall, ceiling, crown, room proportion and urban view exactly as image 1. Preserve the furniture, walnut wood, natural oak where present, ivory textiles, black details, plants and lighting fixtures of image 1. Do not redesign the room. Replace ONLY the surfaces explicitly listed below. Physically credible porcelain tile/panel cladding with planned fine color-matched grout joints, coherent veining, believable thickness and neatly finished edges. Soft natural daylight with neutral white balance: warm ivory and walnut without pink/orange cast. Photoreal 4K architectural photograph, same 3:2 framing. No people, labels, watermarks, social-media UI, new arches, windows, ceiling trays, brass/chrome furniture, blue or yellow accents. This is the original warm Mineral & Walnut scheme, not Cocoa & Chrome.\n\nGreat-room lock: original flat ceiling and crown, both high horizontal transom windows flanking central chase, left terrace glazing and its transom, both walnut consoles with sibling black-framed art, ivory sofa and two oatmeal chairs, low oval walnut table, rugs and curtains. Preserve every opening, projection and object in reference 1.\n\nMATERIAL ALTERNATIVE D2: Apply warm pearl ONYX-LOOK PORCELAIN only to the existing central projecting fireplace/TV chase, floor to crown, preserving its exact stepped outline. Broad cloudy translucent-looking layers in ivory, cream and pale mushroom; gentle mineral movement, no orange honey, blue grey, harsh bands or gold. Large panels with subtle aligned joints. It is opaque porcelain under normal daylight, NOT backlit stone. Keep TV and fireplace sizes, positions, existing projection depth and trim. Side walls and all other finishes unchanged.\nCorrect any pink or magenta cast to balanced neutral architectural daylight; cream remains warm but not yellow. This is a material-only comparison: do not improve unrelated furnishing or architecture."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Central chase and all room openings/furniture preserved. Cloudy onyx-look surface reads more lustrous and expressive than D1/D3; it is not shown as backlit."
+      },
+      "preview": "docs/mineral-walnut-stone-assets/d2-great.webp"
+    },
+    {
+      "index": 42006,
+      "letter": "D3",
+      "parentLetter": "D",
+      "room": "great",
+      "title": "Limestone lower surround",
+      "summary": "Stone only around the lower fireplace; the upper TV wall retains its soft mineral finish.",
+      "judgment": "The most restrained coverage and a strong option for keeping the TV wall calm.",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/great-gr1-day.png",
+      "sourceJobId": "ab8924ca-bb0c-491a-89b0-18d2cf558af2",
+      "originalPhoto": "assets/Crown Georgetown Photos/second-floor-great-room.jpg.webp",
+      "file": "assets/render-candidates/mineral-walnut-stone/r02/d3-great.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "aspect_ratio": "3:2",
+        "resolution": "4k",
+        "thinking_level": "high",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "ab8924ca-bb0c-491a-89b0-18d2cf558af2"
+          },
+          {
+            "role": "image",
+            "value": "acb91ba5-daf0-4ba9-b0b4-61822b5f4eef"
+          }
+        ],
+        "prompt": "Precise architectural interior PHOTO EDIT for a material study. Reference image 1 is the CURRENT Mineral & Walnut design and exact camera to preserve. Reference image 2 is the ORIGINAL MODEL-HOME PHOTO: use it only to verify architecture, never copy its obsolete furniture, palette or camera. Keep every window, door, wall, ceiling, crown, room proportion and urban view exactly as image 1. Preserve the furniture, walnut wood, natural oak where present, ivory textiles, black details, plants and lighting fixtures of image 1. Do not redesign the room. Replace ONLY the surfaces explicitly listed below. Physically credible porcelain tile/panel cladding with planned fine color-matched grout joints, coherent veining, believable thickness and neatly finished edges. Soft natural daylight with neutral white balance: warm ivory and walnut without pink/orange cast. Photoreal 4K architectural photograph, same 3:2 framing. No people, labels, watermarks, social-media UI, new arches, windows, ceiling trays, brass/chrome furniture, blue or yellow accents. This is the original warm Mineral & Walnut scheme, not Cocoa & Chrome.\n\nGreat-room lock: original flat ceiling and crown, both high horizontal transom windows flanking central chase, left terrace glazing and its transom, both walnut consoles with sibling black-framed art, ivory sofa and two oatmeal chairs, low oval walnut table, rugs and curtains. Preserve every opening, projection and object in reference 1.\n\nMATERIAL ALTERNATIVE D3: Apply warm pale LIMESTONE-LOOK PORCELAIN ONLY to the LOWER stepped fireplace projection, from floor to its existing horizontal upper edge beneath the TV. Smooth matte cream with tiny fossil-like flecks, almost no veins. Finish the narrow existing top return in the same stone with a fine flush edge. Keep the entire UPPER TV wall in its current warm ivory/mushroom mineral finish all the way to crown. Preserve the exact chase silhouette, width and depth and existing fireplace opening, metal trim and TV position. Do NOT add a mantle, shelf, hearth extension, slats or new border. This is a clearly two-surface treatment: stone lower, quiet mineral upper.\nCorrect any pink or magenta cast to balanced neutral architectural daylight; cream remains warm but not yellow. This is a material-only comparison: do not improve unrelated furnishing or architecture."
+      },
+      "qa": {
+        "accepted": true,
+        "note": "Stone limited to the existing lower stepped projection with a thin edge return; upper TV wall remains mineral. Fireplace trim, windows, original ceiling and furnishings retained."
+      },
+      "preview": "docs/mineral-walnut-stone-assets/d3-great.webp"
+    }
+  ],
+  "jobs": [
+    {
+      "index": 42001,
+      "job_id": "833d14c6-f250-4c62-adf9-9019515b7692",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261009_012253_833d14c6-f250-4c62-adf9-9019515b7692.png",
+      "downloaded": true,
+      "dimensions": [
+        5056,
+        3392
+      ]
+    },
+    {
+      "index": 42002,
+      "job_id": "6cc371e2-1f76-49d1-baa0-9230649d8e72",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261009_012254_6cc371e2-1f76-49d1-baa0-9230649d8e72.png",
+      "downloaded": true,
+      "dimensions": [
+        5056,
+        3392
+      ]
+    },
+    {
+      "index": 42003,
+      "job_id": "6f50ea3b-2f94-4757-bef7-c75767e7a9f3",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261009_012254_6f50ea3b-2f94-4757-bef7-c75767e7a9f3.png",
+      "downloaded": true,
+      "dimensions": [
+        5056,
+        3392
+      ]
+    },
+    {
+      "index": 42004,
+      "job_id": "2ff945e9-f049-4d89-aa25-0f1651aff3bb",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261009_012254_2ff945e9-f049-4d89-aa25-0f1651aff3bb.png",
+      "downloaded": true,
+      "dimensions": [
+        5056,
+        3392
+      ]
+    },
+    {
+      "index": 42005,
+      "job_id": "232d947d-889f-4c81-990b-a2a9513d18e4",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261009_012254_232d947d-889f-4c81-990b-a2a9513d18e4.png",
+      "downloaded": true,
+      "dimensions": [
+        5056,
+        3392
+      ]
+    },
+    {
+      "index": 42006,
+      "job_id": "c6b56cc7-5ee1-4f2b-883c-fd6c22ef8ea9",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261009_012254_c6b56cc7-5ee1-4f2b-883c-fd6c22ef8ea9.png",
+      "downloaded": true,
+      "dimensions": [
+        5056,
+        3392
+      ]
+    }
+  ],
+  "galleryDisplayed": true,
+  "validation": {
+    "pageStatus": 200,
+    "studies": 11,
+    "loadedImages": 22,
+    "dimensions": [
+      {
+        "width": 390,
+        "noHorizontalOverflow": true
+      },
+      {
+        "width": 768,
+        "noHorizontalOverflow": true
+      },
+      {
+        "width": 1440,
+        "noHorizontalOverflow": true
+      }
+    ],
+    "fullSizeOpensInNewTab": true,
+    "sectionNavigation": true,
+    "pageErrors": [],
+    "visualQA": true,
+    "galleryDisplayed": true
+  },
+  "feedbackHistory": [
+    {
+      "date": "2026-10-08",
+      "preferred": [
+        "A",
+        "E"
+      ],
+      "exploreFurther": [
+        "C",
+        "D"
+      ],
+      "note": "A and E are preferred visual directions. C is liked but needs alternatives; D is acceptable but needs alternatives. No product, fabrication or whole-house implementation approval."
+    }
+  ],
+  "selectionStatus": "A_C1_E_selected_visually_fireplace_undecided",
+  "shortlistValidation": {
+    "uniqueIds": true,
+    "views": 3,
+    "noOverflowAt": [
+      390,
+      768,
+      1440
+    ]
+  },
+  "implementation": {
+    "version": "MW-M01",
+    "selected": [
+      "A",
+      "C1",
+      "E"
+    ],
+    "status": "applied_to_main_gallery",
+    "fireplace": "Undecided; original Option 1 retained",
+    "reference": "docs/mineral-walnut-material-production.json"
+  }
+}

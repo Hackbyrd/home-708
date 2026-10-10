@@ -10,13 +10,13 @@ import { promisify } from 'node:util'
 const devPort = Number(process.env.VITE_DEV_PORT ?? 5173)
 const repo = fileURLToPath(new URL('../../', import.meta.url))
 const reviewFiles = [
-  'renders.html', 'model-home.html', 'explorations.html', 'house-design-review.html', 'interior-design-guide.html', 'mineral-walnut-budget.html',
+  'renders.html', 'model-home.html', 'explorations.html', 'house-design-review.html', 'interior-design-guide.html', 'mineral-walnut-budget.html', 'mineral-walnut-roadmap.html', 'mineral-walnut-stone-studies.html',
   'room-design-book.html', 'daylight-modern-build-guide.html', 'bedroom-personalities-r03-preview.jpg',
   'stone-linen.html', 'stone-linen-build-book.html', 'cocoa-chrome.html', 'cocoa-chrome-build-book.html',
   'floor-one-design-review.html', 'floor-two-design-review.html',
   'floor-three-design-review.html', 'floor-four-design-review.html',
 ]
-const reviewDirectories = ['design-review-assets', 'design-library-assets', 'stone-linen-assets', 'cocoa-chrome-assets', 'interior-guide-assets']
+const reviewDirectories = ['design-review-assets', 'design-library-assets', 'stone-linen-assets', 'cocoa-chrome-assets', 'interior-guide-assets', 'mineral-walnut-stone-assets']
 
 // Serve the same saved review pages in development and in the deployed app.
 // Only public review documents and their media are exposed, not the whole docs directory.

@@ -2,13 +2,14 @@ import {calculateBudget,money,range} from './budget-model.js';
 const data=JSON.parse(document.querySelector('#budget-data').textContent);
 const $=s=>document.querySelector(s);
 const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const exactRange=r=>`${money(r.low)}–${money(r.high)}`;
 let active='all',result=calculateBudget(data);
 function renderRooms(){
  const groups=[{id:'shared',title:'Shared costs · counted once',floor:'shared'},...data.rooms];
  $('#room-costs').innerHTML=groups.filter(r=>active==='all'||r.floor===active).map(room=>{
   const rows=result.rows.filter(r=>r.room===room.id),sum=category=>rows.filter(r=>r.category===category).reduce((s,r)=>({low:s.low+r.low,high:s.high+r.high}),{low:0,high:0});
   const construction=sum('Construction'),purchases=sum('Owner purchases'),planning=sum('Planning');
-  return `<details class="room-cost" ${room.id==='shared'?'open':''}><summary><span>${esc(room.title)}</span><small>${planning.high?'Planning '+range(planning)+' · ':''}Construction ${range(construction)} · Purchases ${range(purchases)}</small></summary>${rows.length?rows.map(r=>`<div class="cost-line"><div><p class="eyebrow">${esc(r.category)} · ${esc(r.id)}</p><h4>${esc(r.title)}</h4><p>${esc(r.note)}</p>${r.id==='flooring'?`<p><strong>Current quantity: ${result.settings.floorArea.toLocaleString()} net sf × $11–16 installed.</strong></p>`:''}</div><strong>${range(r)}</strong></div>`).join(''):'<p>Costs are included in shared flooring, painting, lighting and decor; no additional dedicated room package.</p>'}</details>`;
+  return `<details class="room-cost" ${room.id==='shared'?'open':''}><summary><span>${esc(room.title)}</span><small>${planning.high?'Planning '+exactRange(planning)+' · ':''}Construction ${exactRange(construction)} · Purchases ${exactRange(purchases)}</small></summary>${rows.length?rows.map(r=>`<div class="cost-line"><div><p class="eyebrow">${esc(r.category)} · ${esc(r.id)}</p><h4>${esc(r.title)}</h4><p>${esc(r.note)}</p>${r.id==='flooring'?`<p><strong>Current quantity: ${result.settings.floorArea.toLocaleString()} net sf × $11–16 installed.</strong></p>`:''}</div><strong>${exactRange(r)}</strong></div>`).join(''):'<p>Costs are included in shared flooring, painting, lighting and decor; no additional dedicated room package.</p>'}</details>`;
  }).join('');
 }
 function update(){

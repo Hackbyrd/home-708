@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-08T18:32:25.497Z",
+  "checks": [
+    "Allocation and cash-pacing sums checked by builder",
+    "$400K commitments + $75K reserve + $25K uncommitted = $500K",
+    "9 ordered work packages before April 1",
+    "Three section buttons and direct links work",
+    "Print expands all panels/details and restores state",
+    "No page overflow at 390, 768 or 1440px",
+    "Local links/assets resolve",
+    "No browser errors",
+    "Desktop/mobile screenshots visually reviewed",
+    "Roadmap linked from room review, design guide and cost plan",
+    "Existing room/night and budget/style validations passed",
+    "ESLint and production build passed",
+    "git diff --check passed"
+  ],
+  "failures": []
+}

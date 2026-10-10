@@ -4,10 +4,10 @@ import sharp from 'sharp';
 import { chromium } from '@playwright/test';
 const base=process.env.NIGHT_REVIEW_BASE||'http://127.0.0.1:5173';
 const read=async p=>JSON.parse(await fs.readFile(p,'utf8'));
-const production=await read('docs/mineral-walnut-night-production.json');
+const production=await read('docs/mineral-walnut-architecture-production.json');
+const materialProduction=await read('docs/mineral-walnut-material-production.json');
+const neutralProduction=await read('docs/mineral-walnut-neutral-production.json');
 const overlay=await read('docs/mineral-walnut-night-review.json');
-const before=await read('docs/design-history/mineral-walnut-before-playbook.json');
-const corrections=await read('docs/mineral-walnut-purity-production.json');
 const book=await read('docs/room-design-book.json');
 const checks=[],failures=[];
 const browser=await chromium.launch({headless:true});
@@ -15,10 +15,12 @@ const page=await browser.newPage({viewport:{width:1440,height:1080}});
 const errors=[];page.on('pageerror',e=>errors.push(e.message));
 try{
  assert.equal(Object.keys(overlay.rooms).length,24);
- assert.equal(production.requests.filter(q=>q.qa?.accepted).length+corrections.requests.filter(q=>q.qa?.accepted).length,24);
+ assert.equal(production.requests.filter(q=>q.qa?.accepted&&q.scene==='night').length,24);
+ assert.equal(production.requests.filter(q=>q.qa?.accepted&&q.scene==='day').length,45);
+ for(const q of production.requests.filter(q=>q.qa?.accepted)){const j=production.jobs.find(j=>j.index===q.index);assert.equal(j.status,'completed');assert(j.downloaded);const m=await sharp(q.file).metadata();assert(Math.max(m.width,m.height)>=1536);const source=await sharp(q.sourceFile).metadata();if(q.scene==='night')assert(Math.abs(m.width/m.height-source.width/source.height)<.025,'Night camera aspect changed: '+q.index);}
  for(const [id,v] of Object.entries(overlay.rooms)){
   assert.ok(book.rooms[id].lightingStudy);
-  assert.equal(book.rooms[id].schedule.filter(s=>s.feedbackReference==='MW-N01').length,1);
+  assert.equal(book.rooms[id].schedule.filter(s=>s.id===id.toUpperCase()+'-N01').length,1);
   const meta=await sharp(v.file).metadata();assert.ok(Math.max(meta.width,meta.height)>=1536);
  }
  checks.push('24 unique accepted full-resolution nighttime images and room lighting records.');
@@ -28,22 +30,28 @@ try{
  assert.equal(floors.flatMap(f=>f.rooms.flatMap(r=>r.views)).length,45);
  const assets=[];
  for(const f of floors)for(const r of f.rooms){
-  const original=before.rooms[r.id];
-  const old={views:original.revisions.find(v=>v.id===original.currentRevision).views};
-  assert.deepEqual(r.views.map(v=>[v.code,v.file,v.jobId]),old.views.map(v=>[v.code,v.file,v.jobId]),'Original day views changed: '+r.id);
-  assert.equal(r.night.sourceJobId,old.views[0].jobId);
-  assets.push(r.night.src,r.night.thumb);
+  const current=book.rooms[r.id];
+  const views=current.revisions.find(v=>v.id===current.currentRevision).views;
+  assert.deepEqual(r.views.map(v=>[v.code,v.file,v.jobId]),views.map(v=>[v.code,v.file,v.jobId]));
+  for(const v of r.views){const q=neutralProduction.requests.find(q=>q.index===v.index)||materialProduction.requests.find(q=>q.index===v.index)||production.requests.find(q=>q.index===v.index);assert(q.qa?.accepted);assert.equal(v.sourceJobId,q.sourceJobId);assert.equal(v.sourceFile,q.sourceFile);assert.equal(v.file,q.file);}
+  const paired=r.views.find(v=>v.code===r.night.sourceCode);assert.equal(r.night.sourceJobId,paired.jobId);
+  const nightSource=neutralProduction.requests.find(q=>q.index===r.night.index)||materialProduction.requests.find(q=>q.index===r.night.index)||production.requests.find(q=>q.index===r.night.index);
+  assert(nightSource.qa?.accepted);assert.equal(r.night.sourceJobId,nightSource.sourceJobId);assert.equal(r.night.file,nightSource.file);
+  assets.push(r.night.src,r.night.thumb,...r.views.flatMap(v=>[v.src,v.thumb]),...r.originalPhotos.map(v=>v.src));
   await page.goto(base+'/house-design-review.html#'+f.id+'/'+r.id+'/night');
   await page.locator('[data-scene="night"][aria-pressed="true"]').waitFor();
   assert.equal(await page.locator('.views figure').count(),1);
+  assert.equal(await page.locator('.textile-summary').count(),1);
+  assert((await page.locator('.textile-summary').textContent()).includes(r.windowTreatment.recommendation));
   assert.equal(await page.locator('.views img').getAttribute('src'),r.night.src);
   await page.getByRole('button',{name:'Compare',exact:true}).click();
   assert.equal(await page.locator('.views figure').count(),2);
-  assert.deepEqual(await page.locator('.views img').evaluateAll(x=>x.map(i=>i.getAttribute('src'))),[r.views[0].src,r.night.src]);
+  assert.deepEqual(await page.locator('.views img').evaluateAll(x=>x.map(i=>i.getAttribute('src'))),[paired.src,r.night.src]);
  }
- checks.push('All 24 room routes show the correct night image and matching day/night pair; 45 original views unchanged.');
+ checks.push('All 24 room routes show the correct night image and matching day/night pair; 45 audited daytime views and generation provenance verified.');
  for(let i=0;i<assets.length;i+=8)await Promise.all(assets.slice(i,i+8).map(async a=>{const r=await page.request.get(base+'/'+a);assert.equal(r.status(),200,a);assert.match(r.headers()['content-type'],/^image\//);}));
- checks.push('48 night image and thumbnail URLs respond with image assets.');
+ checks.push(assets.length+' day/night/reference image URLs respond with image assets.');
+ await page.goto(base+'/house-design-review.html#floor-1/office');await page.locator('[data-originals]').click();assert.match(await page.locator('#zoom-title').textContent(),/Original model home/);await page.keyboard.press('Escape');
  await page.goto(base+'/house-design-review.html#floor-2/great/compare');
  await page.locator('[data-scene="compare"][aria-pressed="true"]').waitFor();
  await page.locator('[data-zoom="0"]').click();
