@@ -14,6 +14,7 @@ const mediaDir = path.join(output, mediaFolder);
 const reviewPage = option.href.split('#')[0];
 const bookPage = option.buildBook || 'room-design-book.html';
 const nightManifest = option.nightFile ? JSON.parse(await fs.readFile(path.join(root, option.nightFile), 'utf8')) : null;
+const angleNightManifest = option.nightAnglesFile ? JSON.parse(await fs.readFile(path.join(root, option.nightAnglesFile), 'utf8')) : null;
 const runtime = await fs.readFile(path.join(root, 'scripts/design-library/house-review.js'), 'utf8');
 const styles = await fs.readFile(path.join(root, 'scripts/design-library/house-review.css'), 'utf8');
 const refinement = option.refinementFile ? JSON.parse(await fs.readFile(path.join(root, option.refinementFile), 'utf8')) : null;
@@ -39,14 +40,22 @@ for (const [i, [word, rev, title, description, manifestPath]] of definitions.ent
     const room = revised ? { ...originalRoom, ...revised } : originalRoom;
     const views = [];
     for (const view of room.views) {
-      views.push({ ...view, src: await asset(view.file, `${room.id}-${revised ? refinement.revision + "-" : ""}${view.code}`, 2000), thumb: await asset(view.file, `${room.id}-${revised ? refinement.revision + "-" : ""}${view.code}-thumb`, 520, 77) });
+      const { width, height } = await sharp(path.join(root, view.file)).metadata();
+      views.push({ ...view, width, height, src: await asset(view.file, `${room.id}-${revised ? refinement.revision + "-" : ""}${view.code}`, 2000), thumb: await asset(view.file, `${room.id}-${revised ? refinement.revision + "-" : ""}${view.code}-thumb`, 520, 77) });
     }
-    const nightSource = nightManifest?.rooms?.[room.id];
-    if (nightSource && !views.some(v => v.code === nightSource.sourceCode && v.jobId === nightSource.sourceJobId)) throw new Error(`Night study for ${room.id} is based on a superseded day view; regenerate or remove it before rebuilding.`);
-    const night = nightSource ? { ...nightSource, src: await asset(nightSource.file, `${room.id}-${nightManifest.revision}-night`, 2000), thumb: await asset(nightSource.file, `${room.id}-${nightManifest.revision}-night-thumb`, 520, 77) } : null;
+    const primaryNight = nightManifest?.rooms?.[room.id];
+    const sources = [...(primaryNight ? [{ ...primaryNight, assetName: `${room.id}-${nightManifest.revision}-night` }] : []), ...(angleNightManifest?.rooms?.[room.id]?.views || []).map(view => ({ ...view, assetName: `${room.id}-${angleNightManifest.revision}-${view.code}` }))];
+    if (new Set(sources.map(view => view.sourceCode)).size !== sources.length) throw new Error(`Duplicate night camera for ${room.id}.`);
+    const nights = [];
+    for (const { assetName, ...nightSource } of sources) {
+      if (!views.some(view => view.code === nightSource.sourceCode && view.jobId === nightSource.sourceJobId)) throw new Error(`Night study for ${room.id}/${nightSource.sourceCode} is based on a superseded day view; regenerate or remove it before rebuilding.`);
+      const { width, height } = await sharp(path.join(root, nightSource.file)).metadata();
+      nights.push({ ...nightSource, width, height, src: await asset(nightSource.file, assetName, 2000), thumb: await asset(nightSource.file, `${assetName}-thumb`, 520, 77) });
+    }
+    const night = nights[0];
     const originalPhotos=[];
     for(const [n,photo] of (room.originalPhotos||[]).entries()) originalPhotos.push({...photo,code:'Reference '+(n+1),src:await asset(photo.file,`${room.id}-original-${n+1}`,1800,90)});
-    floor.rooms.push({ ...room, views, originalPhotos, ...(night ? { night } : {}) });
+    floor.rooms.push({ ...room, views, originalPhotos, ...(night ? { night, nights } : {}) });
   }
   floors.push(floor);
 }

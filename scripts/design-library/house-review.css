@@ -173,6 +173,17 @@ main {
   font: 400 clamp(29px, 3.6vw, 44px)/1.18 Georgia, "Times New Roman", serif;
   letter-spacing: -.4px;
 }
+.floor-description {
+  display: grid;
+  gap: 10px;
+  max-width: 1000px;
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.65;
+}
+.floor-description > p:first-child { color: var(--ink); }
+.floor-measurement-note { font-size: 12px; }
 .subline {
   max-width: 880px;
   margin-top: 10px;
@@ -223,6 +234,7 @@ main {
   background: var(--soft);
   color: var(--accent);
 }
+.room-jump-nav a[aria-current] { box-shadow: inset 0 -2px var(--accent); font-weight: 650; }
 .room-jump-nav a:focus-visible { outline-offset: -3px; }
 
 .room-detail {

@@ -34,7 +34,7 @@
       "hero": "design-review-assets/floor-2-r02-great-mw-neutral-r01-GR1.webp",
       "summary": "Warm mineral walls, natural oak and rich walnut with selected pearl onyx-, quartzite- and limestone-look porcelain. Ivory, oatmeal and charcoal textiles preserve the original bedroom identities; exposed oak stairs connect the floors.",
       "tags": [
-        "24 spaces · 45 views",
+        "24 spaces · 45 day/night pairs",
         "Materials & build book",
         "Room-by-room revisions"
       ],
@@ -52,7 +52,8 @@
       },
       "nightFile": "docs/mineral-walnut-night-review.json",
       "budget": "mineral-walnut-budget.html",
-      "refinementFile": "docs/mineral-walnut-neutral-review.json"
+      "refinementFile": "docs/mineral-walnut-neutral-review.json",
+      "nightAnglesFile": "docs/mineral-walnut-night-angles-review.json"
     },
     {
       "id": "cocoa-chrome",
