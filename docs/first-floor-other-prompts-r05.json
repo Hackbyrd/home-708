@@ -1,0 +1,85 @@
+{
+  "version": "MW-F1-R05",
+  "created": "2026-10-10",
+  "status": "prompt_draft_not_generated",
+  "scope": "Mineral & Walnut entrance lettering and plan-led Bath #3 door-offset refinement only. Retain bathroom fixtures, bench and existing narrowed shower. Gym retained after visual audit.",
+  "provider": "Higgsfield API",
+  "workflow": "Instruction image edit. Keep each current rendered camera. For the entrance, additional photographs establish architecture; never switch to their opposing camera. Approve days before deriving same-camera nights.",
+  "planSource": "assets/cf_city_home_with_georgetown_pkg.pdf",
+  "planPage": 2,
+  "planImage": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-plan.webp",
+  "auditCorrection": "The first read-only audit incorrectly treated printed-plan left as camera-left in B2. B2 faces the opposite direction to B1: the printed-plan-left/studio-side shower seat correctly appears CAMERA-RIGHT in B2. Do not move it left. Existing right-hand bench is not a rejection. Door offsets and shower step should be constrained to the plan, not inferred as measurements from perspective pixels.",
+  "retainedGym": {
+    "views": ["G1", "G2", "G1-N4", "G2-GN01"],
+    "finding": "No clear invented-opening defect found. Retain empty charcoal-floored gym, mirror with empty reflection, closet separate from bath access, clear gallery doors, large paired street window and smaller portico opening. Portico window elevation remains inferred; the plan establishes opening location, not glazing shape.",
+    "quote": "Surpass your limits. Right here, right now."
+  },
+  "views": [
+    {
+      "room": "entry",
+      "code": "E1",
+      "camera": "Standing inside front entrance, looking through the gallery arch toward the center hall and curved staircase; use the existing portrait camera.",
+      "sourceDay": "assets/render-candidates/mineral-walnut-neutral/r01/entry-e1-day.png",
+      "sourcePublic": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-entry-mw-neutral-r01-E1.webp",
+      "structuralReferences": ["assets/Crown Georgetown Photos/first-floor-entrance-gallery-and-spiral-staircase.jpg.webp", "assets/cf_city_home_with_georgetown_pkg.pdf"],
+      "prompt": "Edit the current Mineral & Walnut E1 gallery image, keeping its portrait camera, perspective, dimensions and architectural openings exactly. The original model-home photo confirms the arch, balcony guard, side door openings and modest stair-landing window; use it for geometry, not its old finishes. Replace ONLY the existing painted words above the arch with exactly: Welcome Home. Capital W and H, no punctuation, no quotation marks. Two words on ONE centered line in restrained small warm-charcoal serif lettering, PAINTED FLAT onto the mineral wall, comfortably below the balcony and above the arch. It must be elegant and smaller than the former long sentence, not raised letters or a signboard. Preserve the two-story cascade of opal pendants, light ivory CLEAR single-lite internal double doors, dark rail and white balusters, same arch profile, natural matte neutral oak floor and white stair risers with exposed oak treads. No stair runner. Preserve the existing modest stair window and hall door; do not invent tall glazing or move the stair. Preserve furniture, neutral ivory/mushroom mineral walls, walnut accent and subdued black hardware. Neutral daylight, realistic materials, no peach/orange color grading. No other captions, people or watermark.",
+      "criteria": [
+        "Painted text reads exactly Welcome Home, capital W and H, single line, no punctuation.",
+        "Arch, upper balcony, side clear door pairs and distant hall/stair openings coincide with source camera.",
+        "Existing chandelier remains visible across both stories; no new ceiling configuration.",
+        "Oak treads exposed; no runner; floor finish remains consistent with approved second-floor natural oak."
+      ]
+    },
+    {
+      "room": "entry",
+      "code": "E2",
+      "camera": "Standing in the center hall just behind the gallery arch, looking back toward the exterior entrance door; retain the existing portrait reverse camera and foreground arch.",
+      "sourceDay": "assets/render-candidates/mineral-walnut-architecture/r01/entry-e2-day.png",
+      "sourcePublic": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-entry-mw-neutral-r01-E2.webp",
+      "structuralReferences": ["assets/Outside Photos/front-door.jpg", "assets/Outside Photos/south-front-door.jpg", "assets/cf_city_home_with_georgetown_pkg.pdf"],
+      "prompt": "Edit the current Mineral & Walnut E2 reverse gallery render. Keep its portrait camera from the hall through the foreground arch toward the single wood entrance door; do not switch to the original model-home forward-facing camera. Exterior photographs confirm the single arched wood door, glazed upper portion and high round window. Replace ONLY the existing raised exit quotation with exactly: See you next time. Capital S only and a final period. Use small discreet individually installed 3D dark-bronze/charcoal letters above the entrance door, centered on ONE line if naturally legible, with subtle physical depth/shadow. No quote attribution, no plaque, no huge inscription. Preserve the original door shape, glazing, panels, frame, hardware and day-open privacy shade; the high round window stays bare. Preserve light ivory CLEAR single-lite glazed double doors on both sides, neutral warm ivory/mushroom mineral walls, natural matte neutral oak floor and the SAME two-story opal cascade chandelier as the forward gallery. Keep the foreground arch, wall heights, opening positions and room width exactly. Walnut accents and quiet black details belong to Mineral & Walnut; no chrome furniture, colored accents or orange/pink grading. Real daylight from existing openings only. No people, watermark or extra writing.",
+      "criteria": [
+        "Installed 3D lettering reads exactly See you next time. with capital S and final period.",
+        "Single wood entrance door and high round window remain at original sizes/positions.",
+        "Clear internal doors, foreground arch, floor and chandelier agree with E1.",
+        "Future E2 night keeps the entrance privacy shade fully closed but the internal clear doors and round high window uncovered."
+      ]
+    },
+    {
+      "room": "bath",
+      "code": "B1",
+      "camera": "From the southern shower end at eye height, looking toward the garage-side vanity/toilet wall. Printed-plan studio side is CAMERA-LEFT; rear-hall side is CAMERA-RIGHT.",
+      "sourceDay": "assets/render-candidates/mineral-walnut-architecture/r02/bath-b1-day-30505.png",
+      "sourcePublic": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-bath-mw-neutral-r01-B1.webp",
+      "structuralReferences": ["assets/cf_city_home_with_georgetown_pkg.pdf"],
+      "prompt": "Low-deviation door-offset edit of current B1 Bath #3 using the first-floor blueprint. Keep this camera at the shower end looking north toward the garage-side vanity/toilet wall. Preserve the room size, existing narrowed shower footprint and ALL fixtures/finishes. Vanity remains CAMERA-LEFT and toilet CAMERA-RIGHT on the same end wall. Adjust only the TWO side access-door offsets so they are staggered as in the plan: studio door on CAMERA-LEFT remains nearer the vanity end; rear-hall door on CAMERA-RIGHT must sit noticeably nearer the shower/camera end, leaving more solid wall between that door and the garage-side toilet end. Do not align the two doors symmetrically. Keep their inward swings, light ivory leaves and black hardware. This north-facing camera has the studio side on its left; the opposing B2 camera reverses left/right. Do NOT change the shower footprint, move the bench, relocate the vanity/toilet or enlarge the bathroom. Preserve warm ivory stone-look porcelain floor, walnut vanity, pale countertop, warm mineral dry walls, slim mirror, paired softly diffused sconces and practical towel/soap details. Keep the existing flat ceiling and WINDOWLESS shell. No added opening, false skylight, extra storage or third door. Preserve camera, lens and daylight/electric-light balance. No text, people or watermark.",
+      "criteria": [
+        "Vanity left and toilet right on one garage-side end wall.",
+        "Studio door image-left closer to vanity; rear-hall door image-right closer to camera/shower; doors not artificially aligned.",
+        "Existing narrowed shower, bench and fixtures unchanged; no exterior glazing or ceiling/room-size change.",
+        "B1's studio side is left; do not carry B2's camera-left/right directly into this opposing camera."
+      ]
+    },
+    {
+      "room": "bath",
+      "code": "B2",
+      "camera": "From the northern vanity/toilet end at eye height, looking south toward the shower. Printed-plan studio side is CAMERA-RIGHT; rear-hall side is CAMERA-LEFT. Shower bench must be CAMERA-RIGHT.",
+      "sourceDay": "assets/render-candidates/mineral-walnut-architecture/r01/bath-b2-day.png",
+      "sourcePublic": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-bath-mw-neutral-r01-B2.webp",
+      "structuralReferences": ["assets/cf_city_home_with_georgetown_pkg.pdf"],
+      "prompt": "Low-deviation door-offset edit of current B2 Bath #3 using the first-floor blueprint. Preserve the eye-level reverse camera at the garage-side vanity end looking south toward the shower. This camera is opposite to B1: studio side is CAMERA-RIGHT; rear-hall side is CAMERA-LEFT. Change only the TWO side access-door offsets to read staggered: studio door CAMERA-RIGHT nearer the vanity/camera end; rear-hall door CAMERA-LEFT farther away toward the shower. Retain inward swings, light ivory doors and black hardware; do not align them symmetrically. KEEP the existing shower bench on CAMERA-RIGHT against the studio-side wall. That is the CORRECT side when facing south; never move it left. Preserve the existing narrower shower footprint, inward studio-side step, glass enclosure, bench dimensions, tile grid and black shower fittings. Do not remodel the shower or relocate any fixture. Vanity and toilet remain together behind the camera on the garage-side end wall; toilet may appear at the near CAMERA-LEFT edge. Preserve warm ivory stone-look porcelain, walnut where naturally visible/reflected, warm mineral dry walls, flat ceiling and compact WINDOWLESS shell. Same lens, perspective, room scale and balanced lighting. No new window, skylight, extra door, storage or room enlargement. No text, people or watermark.",
+      "criteria": [
+        "Shower bench image-right is correct for this south-facing camera; preserve it.",
+        "Studio door image-right nearer camera/vanity; rear-hall door image-left nearer shower.",
+        "Existing studio-side shower step, correct right-hand bench and compact glass enclosure retained unchanged.",
+        "B1 and B2 represent the same fixtures/openings, accounting for the camera reversal; bathroom remains windowless."
+      ]
+    }
+  ],
+  "nightProtocol": {
+    "generationOrder": "Generate and visually approve each revised day, then use that exact day as the sole scene source for its matching night edit.",
+    "entry": "2700K opal cascade and subdued circulation lighting; preserve exact lettering and geometry. For E2 close only the entrance-door privacy shade; high round window and clear internal doors stay bare.",
+    "bath": "3000K useful mirror/shower lighting with reduced general intensity. Windowless rooms do not need invented exterior darkness. Preserve exact same camera, door offsets, shower step, fixtures and bench side.",
+    "qa": "Compare each night directly to its approved day for openings, camera, furniture/fixtures, inscription spelling and shade state. Night lighting is not permission to alter structure."
+  }
+}

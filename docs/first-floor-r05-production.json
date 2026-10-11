@@ -1,0 +1,1280 @@
+{
+  "version": "MW-F1-R05",
+  "date": "2026-10-10",
+  "scope": "Mineral & Walnut first floor",
+  "provider": "Higgsfield API",
+  "status": "visual_qa_passed",
+  "jobs": [
+    {
+      "index": 51001,
+      "room": "entry",
+      "code": "E1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/entry-e1-day.png",
+      "sourcePublic": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-entry-mw-neutral-r01-E1.webp",
+      "prompt": "Edit the current Mineral & Walnut E1 gallery image, keeping its portrait camera, perspective, dimensions and architectural openings exactly. The original model-home photo confirms the arch, balcony guard, side door openings and modest stair-landing window; use it for geometry, not its old finishes. Replace ONLY the existing painted words above the arch with exactly: Welcome Home. Capital W and H, no punctuation, no quotation marks. Two words on ONE centered line in restrained small warm-charcoal serif lettering, PAINTED FLAT onto the mineral wall, comfortably below the balcony and above the arch. It must be elegant and smaller than the former long sentence, not raised letters or a signboard. Preserve the two-story cascade of opal pendants, light ivory CLEAR single-lite internal double doors, dark rail and white balusters, same arch profile, natural matte neutral oak floor and white stair risers with exposed oak treads. No stair runner. Preserve the existing modest stair window and hall door; do not invent tall glazing or move the stair. Preserve furniture, neutral ivory/mushroom mineral walls, walnut accent and subdued black hardware. Neutral daylight, realistic materials, no peach/orange color grading. No other captions, people or watermark.",
+      "criteria": [
+        "Painted text reads exactly Welcome Home, capital W and H, single line, no punctuation.",
+        "Arch, upper balcony, side clear door pairs and distant hall/stair openings coincide with source camera.",
+        "Existing chandelier remains visible across both stories; no new ceiling configuration.",
+        "Oak treads exposed; no runner; floor finish remains consistent with approved second-floor natural oak."
+      ],
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-entry-mw-neutral-r01-E1.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-entry-original-1.webp"
+        }
+      ],
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "2:3"
+      },
+      "jobId": "006a3f39-145d-4089-9711-3e5d503db5aa",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_011442_006a3f39-145d-4089-9711-3e5d503db5aa.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-day.png",
+      "qaStatus": "approved_design_visualization",
+      "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+    },
+    {
+      "index": 51002,
+      "room": "entry",
+      "code": "E2",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/entry-e2-day.png",
+      "sourcePublic": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-entry-mw-neutral-r01-E2.webp",
+      "prompt": "Edit the current Mineral & Walnut E2 reverse gallery render. Keep its portrait camera from the hall through the foreground arch toward the single wood entrance door; do not switch to the original model-home forward-facing camera. Exterior photographs confirm the single arched wood door, glazed upper portion and high round window. Replace ONLY the existing raised exit quotation with exactly: See you next time. Capital S only and a final period. Use small discreet individually installed 3D dark-bronze/charcoal letters above the entrance door, centered on ONE line if naturally legible, with subtle physical depth/shadow. No quote attribution, no plaque, no huge inscription. Preserve the original door shape, glazing, panels, frame, hardware and day-open privacy shade; the high round window stays bare. Preserve light ivory CLEAR single-lite glazed double doors on both sides, neutral warm ivory/mushroom mineral walls, natural matte neutral oak floor and the SAME two-story opal cascade chandelier as the forward gallery. Keep the foreground arch, wall heights, opening positions and room width exactly. Walnut accents and quiet black details belong to Mineral & Walnut; no chrome furniture, colored accents or orange/pink grading. Real daylight from existing openings only. No people, watermark or extra writing.",
+      "criteria": [
+        "Installed 3D lettering reads exactly See you next time. with capital S and final period.",
+        "Single wood entrance door and high round window remain at original sizes/positions.",
+        "Clear internal doors, foreground arch, floor and chandelier agree with E1.",
+        "Future E2 night keeps the entrance privacy shade fully closed but the internal clear doors and round high window uncovered."
+      ],
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-entry-mw-neutral-r01-E2.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-entry-original-1.webp"
+        }
+      ],
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "2:3"
+      },
+      "jobId": "3bab801e-257b-4a4f-8342-28edbb0b1713",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_011441_3bab801e-257b-4a4f-8342-28edbb0b1713.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-day.png",
+      "qaStatus": "approved_design_visualization",
+      "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+    },
+    {
+      "index": 51003,
+      "room": "office",
+      "code": "O1",
+      "prompt": "Image-edit the original model-home office photograph into the approved Mineral & Walnut office. Preserve the ORIGINAL PHOTO camera from the northwest interior corner, compact 15'5 by 12'11 room, flat ceiling, wall lengths, ceiling height and window frame/sill proportions. The approved render supplies finishes and furniture only. CRITICAL: both main exterior window banks are centered in their walls and are PAIRED TWO-UNIT double-hungs: one heavy central vertical mullion, horizontal meeting rails, a 2-column by 2-row main composition. Do not mistake thin glazing muntins within individual sashes for a third window unit. No 3-unit bank. East window ahead; south window on image right. North wall on image left receives the full walnut built-in from the approved style reference: TV centered in a pale mineral inset, slim dark soundbar, closed lower cabinets, sparse upper shelves with warm concealed lighting, books and a few plants. Remove the original counter beneath the right window. Large rectangular walnut desk sits on a gentle room diagonal, with charcoal task chair toward southeast facing northwest and two ivory visitor chairs opposite; laptop and restrained task lamp. The gallery doors and small circular portico window with printer cabinet belong on the WEST wall behind this camera; do not invent them inside the north-wall TV cabinetry or force them into view. Retain natural oak floor, ivory loose rug, warm neutral mineral walls, ivory sheers and discreet light-filtering privacy shades; no blackout drapes. Daylight with shades raised enough to read the actual paired windows. Preserve Crown townhome streetscape and iron fence outside. Keep the quiet original Option 1 palette; no blue/yellow/purple, chrome styling, invented ceiling coffers or oversize windows. Photoreal interior photograph, landscape 3:2, no people, logos or decorative lettering. Structural accuracy takes priority over symmetry of furniture.",
+      "sourceFile": "assets/Crown Georgetown Photos/first-floor-home-office.jpg.webp",
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-office-original-1.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-office-mw-neutral-r01-O1.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-plan.webp"
+        }
+      ],
+      "aspect": "3:2",
+      "criteria": "Photo-based primary office view",
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "3:2",
+        "prompt": "Image-edit the original model-home office photograph into the approved Mineral & Walnut office. Preserve the ORIGINAL PHOTO camera from the northwest interior corner, compact 15'5 by 12'11 room, flat ceiling, wall lengths, ceiling height and window frame/sill proportions. The approved render supplies finishes and furniture only. CRITICAL: both main exterior window banks are centered in their walls and are PAIRED TWO-UNIT double-hungs: one heavy central vertical mullion, horizontal meeting rails, a 2-column by 2-row main composition. Do not mistake thin glazing muntins within individual sashes for a third window unit. No 3-unit bank. East window ahead; south window on image right. North wall on image left receives the full walnut built-in from the approved style reference: TV centered in a pale mineral inset, slim dark soundbar, closed lower cabinets, sparse upper shelves with warm concealed lighting, books and a few plants. Remove the original counter beneath the right window. Large rectangular walnut desk sits on a gentle room diagonal, with charcoal task chair toward southeast facing northwest and two ivory visitor chairs opposite; laptop and restrained task lamp. The gallery doors and small circular portico window with printer cabinet belong on the WEST wall behind this camera; do not invent them inside the north-wall TV cabinetry or force them into view. Retain natural oak floor, ivory loose rug, warm neutral mineral walls, ivory sheers and discreet light-filtering privacy shades; no blackout drapes. Daylight with shades raised enough to read the actual paired windows. Preserve Crown townhome streetscape and iron fence outside. Keep the quiet original Option 1 palette; no blue/yellow/purple, chrome styling, invented ceiling coffers or oversize windows. Photoreal interior photograph, landscape 3:2, no people, logos or decorative lettering. Structural accuracy takes priority over symmetry of furniture.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-office-original-1.webp"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-office-mw-neutral-r01-O1.webp"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-plan.webp"
+          }
+        ]
+      },
+      "jobId": "c82d6061-80d9-4d47-8f11-82fef17d0f21",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_011955_c82d6061-80d9-4d47-8f11-82fef17d0f21.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-day.png",
+      "qaStatus": "approved_design_visualization",
+      "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+    },
+    {
+      "index": 51005,
+      "room": "bath",
+      "code": "B1",
+      "prompt": "Low-deviation door-offset edit of current B1 Bath #3 using the first-floor blueprint. Keep this camera at the shower end looking north toward the garage-side vanity/toilet wall. Preserve the room size, existing narrowed shower footprint and ALL fixtures/finishes. Vanity remains CAMERA-LEFT and toilet CAMERA-RIGHT on the same end wall. Adjust only the TWO side access-door offsets so they are staggered as in the plan: studio door on CAMERA-LEFT remains nearer the vanity end; rear-hall door on CAMERA-RIGHT must sit noticeably nearer the shower/camera end, leaving more solid wall between that door and the garage-side toilet end. Do not align the two doors symmetrically. Keep their inward swings, light ivory leaves and black hardware. This north-facing camera has the studio side on its left; the opposing B2 camera reverses left/right. Do NOT change the shower footprint, move the bench, relocate the vanity/toilet or enlarge the bathroom. Preserve warm ivory stone-look porcelain floor, walnut vanity, pale countertop, warm mineral dry walls, slim mirror, paired softly diffused sconces and practical towel/soap details. Keep the existing flat ceiling and WINDOWLESS shell. No added opening, false skylight, extra storage or third door. Preserve camera, lens and daylight/electric-light balance. No text, people or watermark.",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bath-b1-day-30505.png",
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-bath-mw-neutral-r01-B1.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-plan.webp"
+        }
+      ],
+      "aspect": "3:2",
+      "criteria": [
+        "Vanity left and toilet right on one garage-side end wall.",
+        "Studio door image-left closer to vanity; rear-hall door image-right closer to camera/shower; doors not artificially aligned.",
+        "Existing narrowed shower, bench and fixtures unchanged; no exterior glazing or ceiling/room-size change.",
+        "B1's studio side is left; do not carry B2's camera-left/right directly into this opposing camera."
+      ],
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "3:2",
+        "prompt": "Low-deviation door-offset edit of current B1 Bath #3 using the first-floor blueprint. Keep this camera at the shower end looking north toward the garage-side vanity/toilet wall. Preserve the room size, existing narrowed shower footprint and ALL fixtures/finishes. Vanity remains CAMERA-LEFT and toilet CAMERA-RIGHT on the same end wall. Adjust only the TWO side access-door offsets so they are staggered as in the plan: studio door on CAMERA-LEFT remains nearer the vanity end; rear-hall door on CAMERA-RIGHT must sit noticeably nearer the shower/camera end, leaving more solid wall between that door and the garage-side toilet end. Do not align the two doors symmetrically. Keep their inward swings, light ivory leaves and black hardware. This north-facing camera has the studio side on its left; the opposing B2 camera reverses left/right. Do NOT change the shower footprint, move the bench, relocate the vanity/toilet or enlarge the bathroom. Preserve warm ivory stone-look porcelain floor, walnut vanity, pale countertop, warm mineral dry walls, slim mirror, paired softly diffused sconces and practical towel/soap details. Keep the existing flat ceiling and WINDOWLESS shell. No added opening, false skylight, extra storage or third door. Preserve camera, lens and daylight/electric-light balance. No text, people or watermark.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-bath-mw-neutral-r01-B1.webp"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-plan.webp"
+          }
+        ]
+      },
+      "jobId": "1289dd19-1fb8-4d57-b195-ee5fe214eec7",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_011956_1289dd19-1fb8-4d57-b195-ee5fe214eec7.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-day.png",
+      "qaStatus": "approved_design_visualization",
+      "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+    },
+    {
+      "index": 51006,
+      "room": "bath",
+      "code": "B2",
+      "prompt": "Low-deviation door-offset edit of current B2 Bath #3 using the first-floor blueprint. Preserve the eye-level reverse camera at the garage-side vanity end looking south toward the shower. This camera is opposite to B1: studio side is CAMERA-RIGHT; rear-hall side is CAMERA-LEFT. Change only the TWO side access-door offsets to read staggered: studio door CAMERA-RIGHT nearer the vanity/camera end; rear-hall door CAMERA-LEFT farther away toward the shower. Retain inward swings, light ivory doors and black hardware; do not align them symmetrically. KEEP the existing shower bench on CAMERA-RIGHT against the studio-side wall. That is the CORRECT side when facing south; never move it left. Preserve the existing narrower shower footprint, inward studio-side step, glass enclosure, bench dimensions, tile grid and black shower fittings. Do not remodel the shower or relocate any fixture. Vanity and toilet remain together behind the camera on the garage-side end wall; toilet may appear at the near CAMERA-LEFT edge. Preserve warm ivory stone-look porcelain, walnut where naturally visible/reflected, warm mineral dry walls, flat ceiling and compact WINDOWLESS shell. Same lens, perspective, room scale and balanced lighting. No new window, skylight, extra door, storage or room enlargement. No text, people or watermark.",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/bath-b2-day.png",
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-bath-mw-neutral-r01-B2.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-plan.webp"
+        }
+      ],
+      "aspect": "3:2",
+      "criteria": [
+        "Shower bench image-right is correct for this south-facing camera; preserve it.",
+        "Studio door image-right nearer camera/vanity; rear-hall door image-left nearer shower.",
+        "Existing studio-side shower step, correct right-hand bench and compact glass enclosure retained unchanged.",
+        "B1 and B2 represent the same fixtures/openings, accounting for the camera reversal; bathroom remains windowless."
+      ],
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "3:2",
+        "prompt": "Low-deviation door-offset edit of current B2 Bath #3 using the first-floor blueprint. Preserve the eye-level reverse camera at the garage-side vanity end looking south toward the shower. This camera is opposite to B1: studio side is CAMERA-RIGHT; rear-hall side is CAMERA-LEFT. Change only the TWO side access-door offsets to read staggered: studio door CAMERA-RIGHT nearer the vanity/camera end; rear-hall door CAMERA-LEFT farther away toward the shower. Retain inward swings, light ivory doors and black hardware; do not align them symmetrically. KEEP the existing shower bench on CAMERA-RIGHT against the studio-side wall. That is the CORRECT side when facing south; never move it left. Preserve the existing narrower shower footprint, inward studio-side step, glass enclosure, bench dimensions, tile grid and black shower fittings. Do not remodel the shower or relocate any fixture. Vanity and toilet remain together behind the camera on the garage-side end wall; toilet may appear at the near CAMERA-LEFT edge. Preserve warm ivory stone-look porcelain, walnut where naturally visible/reflected, warm mineral dry walls, flat ceiling and compact WINDOWLESS shell. Same lens, perspective, room scale and balanced lighting. No new window, skylight, extra door, storage or room enlargement. No text, people or watermark.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-bath-mw-neutral-r01-B2.webp"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-plan.webp"
+          }
+        ]
+      },
+      "jobId": "d85cf98f-7cae-4ce8-a9ec-ea74817cab5f",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_011955_d85cf98f-7cae-4ce8-a9ec-ea74817cab5f.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-day.png",
+      "qaStatus": "approved_design_visualization",
+      "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+    },
+    {
+      "index": 51011,
+      "room": "entry",
+      "code": "E1-F105N",
+      "sourceCode": "E1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-day.png",
+      "sourceJobId": "006a3f39-145d-4089-9711-3e5d503db5aa",
+      "medias": [
+        {
+          "role": "image",
+          "value": "006a3f39-145d-4089-9711-3e5d503db5aa"
+        }
+      ],
+      "aspect": "2:3",
+      "criteria": [
+        "Exact daytime camera/geometry, unchanged furniture/lettering, dark exterior, warm layered lighting."
+      ],
+      "prompt": "Nighttime lighting edit of this EXACT approved daytime entry image. LOCK the camera, crop, lens, all walls, windows, doors, arch, mezzanine, quarter-turn stairs, walnut rail, bare oak treads, oak floor, furnishings and inscription letter shapes. Do not redesign any part. Keep exact painted flat words 'Welcome Home' on the arch frieze, capital W and H, no punctuation. Set exterior night with no bright daytime sky. Show warm 2700K cascading globe chandelier as the focal light, gentle low-level circulation lighting and restrained practical room light through clear side doors; natural soft shadow and cozy hotel atmosphere. White globes retain detail, no blown bloom or orange cast. No stair runner, no colored accents or chrome styling. Photorealistic portrait 2:3, no people, watermark or extra text.",
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "2:3",
+        "prompt": "Nighttime lighting edit of this EXACT approved daytime entry image. LOCK the camera, crop, lens, all walls, windows, doors, arch, mezzanine, quarter-turn stairs, walnut rail, bare oak treads, oak floor, furnishings and inscription letter shapes. Do not redesign any part. Keep exact painted flat words 'Welcome Home' on the arch frieze, capital W and H, no punctuation. Set exterior night with no bright daytime sky. Show warm 2700K cascading globe chandelier as the focal light, gentle low-level circulation lighting and restrained practical room light through clear side doors; natural soft shadow and cozy hotel atmosphere. White globes retain detail, no blown bloom or orange cast. No stair runner, no colored accents or chrome styling. Photorealistic portrait 2:3, no people, watermark or extra text.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "006a3f39-145d-4089-9711-3e5d503db5aa"
+          }
+        ]
+      },
+      "jobId": "53b2d83b-ecce-4f27-8611-c652e7812dde",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_011955_53b2d83b-ecce-4f27-8611-c652e7812dde.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-night.png",
+      "qaStatus": "approved_design_visualization",
+      "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+    },
+    {
+      "index": 51012,
+      "room": "entry",
+      "code": "E2-F105N",
+      "sourceCode": "E2",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-day.png",
+      "sourceJobId": "3bab801e-257b-4a4f-8342-28edbb0b1713",
+      "medias": [
+        {
+          "role": "image",
+          "value": "3bab801e-257b-4a4f-8342-28edbb0b1713"
+        }
+      ],
+      "aspect": "2:3",
+      "criteria": [
+        "Exact daytime camera/geometry, unchanged furniture/lettering, dark exterior, warm layered lighting."
+      ],
+      "prompt": "Nighttime lighting edit of this EXACT approved daytime entry image. LOCK the camera, crop, lens, all walls, windows, doors, arch, mezzanine, quarter-turn stairs, walnut rail, bare oak treads, oak floor, furnishings and inscription letter shapes. Do not redesign any part. Keep exact small individually mounted 3D words 'See you next time.' above the front door, capital S, final period. Lower the existing discreet front-door privacy shade for night privacy; retain the circular high window and clear interior glass doors. Set exterior night with no bright daytime sky. Show warm 2700K cascading globe chandelier as the focal light, gentle low-level circulation lighting and restrained practical room light through clear side doors; natural soft shadow and cozy hotel atmosphere. White globes retain detail, no blown bloom or orange cast. No stair runner, no colored accents or chrome styling. Photorealistic portrait 2:3, no people, watermark or extra text.",
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "2:3",
+        "prompt": "Nighttime lighting edit of this EXACT approved daytime entry image. LOCK the camera, crop, lens, all walls, windows, doors, arch, mezzanine, quarter-turn stairs, walnut rail, bare oak treads, oak floor, furnishings and inscription letter shapes. Do not redesign any part. Keep exact small individually mounted 3D words 'See you next time.' above the front door, capital S, final period. Lower the existing discreet front-door privacy shade for night privacy; retain the circular high window and clear interior glass doors. Set exterior night with no bright daytime sky. Show warm 2700K cascading globe chandelier as the focal light, gentle low-level circulation lighting and restrained practical room light through clear side doors; natural soft shadow and cozy hotel atmosphere. White globes retain detail, no blown bloom or orange cast. No stair runner, no colored accents or chrome styling. Photorealistic portrait 2:3, no people, watermark or extra text.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "3bab801e-257b-4a4f-8342-28edbb0b1713"
+          }
+        ]
+      },
+      "jobId": "3e0d31d8-70b2-4051-89a2-d503d7015751",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_011954_3e0d31d8-70b2-4051-89a2-d503d7015751.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-night.png",
+      "qaStatus": "rejected",
+      "qaNote": "Geometry and exact text retained, but front-door Roman privacyshade remainedhalfraised; targeted operation correction."
+    },
+    {
+      "index": 51007,
+      "room": "media",
+      "code": "M1",
+      "sourceFile": "assets/Crown Georgetown Photos/first-floor-media-room.jpg.webp",
+      "prompt": "Photoreal IMAGE EDIT of this exact Mineral & Walnut media room. Use ORIGINAL MODEL PHOTO for M1 camera, modest 15ft1 by11ft1 envelope, crown and existing ceiling profile; current render only supplies finishes; plan supplies room relationships. Correct original/current glazing to homeowner's actual-house brief: one SMALLER approximately square paired window CENTERED in the complete far exterior wall, TWO columns by TWO rows of clear panes, one centre structural mullion and one horizontal sash line, NOT three window units or a wall-wide glazed opening. Thin decorative bars must not become extra units. Keep Crown townhouse streetscape. The small opening drawn on the sofa wall is homeowner-confirmed FAKE exterior glazing: inside this wall is SOLID. No interior window on the sofa wall in either camera. Preserve room size and perspective. TV wall is RIGHT in this camera (printed-plan LEFT, shared with office). Replace projecting charcoal TV box with a composed fitted wall: calm matte mushroom mineral centre, narrow neutral woven acoustic side panels and restrained walnut edging. 83-inch black TV, about72in wide, visually dominant. Integrate slim soundbar underneath. Long96-102in low walnut cabinetry, wider than TV, handleless ventilated doors and discreet recessed plinth; own shallow fitted service wall, not a niche cut into shared office wall. Very subtle dimmable warm-neutral TV bias glow, no bright halo/slats/RGB or conspicuous marble. On LEFT opposite TV, warm ivory RH Cloud CLASSIC approximately119in sofa plus TWO matching39x40in ottomans, one at EACH end, forming compact double-ended U lounging; not oversized Luxe sectional. Include slim tuck-under C tables and one compact20-24x30-36in central coffee table in the middle gap. Preserve realistic aisle/door clearance and scale; never enlarge room to fit furniture. Clear paired entry stays on printed-plan TOP wall strongly toward LEFT TV corner, outside this crop; figurine shelf stays right of doors from inside. Retain ceiling audio and discreet rear surround provision. Natural matte oak, loose oatmeal rug, soft ivory/mushroom walls, walnut, slim black art frames and neutral art. No blue/yellow/purple/chrome theme. Ivory sheers plus open blackout-lined curtains on visible window. Daylight; no people/logos/watermarks. Do not change openings except the specified smaller2x2 window correction.",
+      "criteria": [
+        "Centered smaller paired 2x2 real window; solid sofa wall, no false exterior window inside.",
+        "83-inch TV on calm fitted mineral wall, wide integrated walnut console and soundbar.",
+        "RH Cloud ivory sofa with ottoman at both ends, compact central table, real-scale circulation.",
+        "Source-photo camera/crown/room proportions, pure Mineral & Walnut."
+      ],
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-media-original-1.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-media-mw-neutral-r01-M1.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-plan.webp"
+        }
+      ],
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "3:2",
+        "prompt": "Photoreal IMAGE EDIT of this exact Mineral & Walnut media room. Use ORIGINAL MODEL PHOTO for M1 camera, modest 15ft1 by11ft1 envelope, crown and existing ceiling profile; current render only supplies finishes; plan supplies room relationships. Correct original/current glazing to homeowner's actual-house brief: one SMALLER approximately square paired window CENTERED in the complete far exterior wall, TWO columns by TWO rows of clear panes, one centre structural mullion and one horizontal sash line, NOT three window units or a wall-wide glazed opening. Thin decorative bars must not become extra units. Keep Crown townhouse streetscape. The small opening drawn on the sofa wall is homeowner-confirmed FAKE exterior glazing: inside this wall is SOLID. No interior window on the sofa wall in either camera. Preserve room size and perspective. TV wall is RIGHT in this camera (printed-plan LEFT, shared with office). Replace projecting charcoal TV box with a composed fitted wall: calm matte mushroom mineral centre, narrow neutral woven acoustic side panels and restrained walnut edging. 83-inch black TV, about72in wide, visually dominant. Integrate slim soundbar underneath. Long96-102in low walnut cabinetry, wider than TV, handleless ventilated doors and discreet recessed plinth; own shallow fitted service wall, not a niche cut into shared office wall. Very subtle dimmable warm-neutral TV bias glow, no bright halo/slats/RGB or conspicuous marble. On LEFT opposite TV, warm ivory RH Cloud CLASSIC approximately119in sofa plus TWO matching39x40in ottomans, one at EACH end, forming compact double-ended U lounging; not oversized Luxe sectional. Include slim tuck-under C tables and one compact20-24x30-36in central coffee table in the middle gap. Preserve realistic aisle/door clearance and scale; never enlarge room to fit furniture. Clear paired entry stays on printed-plan TOP wall strongly toward LEFT TV corner, outside this crop; figurine shelf stays right of doors from inside. Retain ceiling audio and discreet rear surround provision. Natural matte oak, loose oatmeal rug, soft ivory/mushroom walls, walnut, slim black art frames and neutral art. No blue/yellow/purple/chrome theme. Ivory sheers plus open blackout-lined curtains on visible window. Daylight; no people/logos/watermarks. Do not change openings except the specified smaller2x2 window correction.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-media-original-1.webp"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-media-mw-neutral-r01-M1.webp"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-plan.webp"
+          }
+        ]
+      },
+      "jobId": "7e000e3a-544e-4cd7-8a96-5afb32c59383",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_012027_7e000e3a-544e-4cd7-8a96-5afb32c59383.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day.png",
+      "qaStatus": "rejected",
+      "qaNote": "Window is two units and centered but too tall; targeted aspect correction required. Furniture/TVwall passes."
+    },
+    {
+      "index": 51015,
+      "room": "bath",
+      "code": "B1-F105N",
+      "sourceCode": "B1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-day.png",
+      "sourceJobId": "1289dd19-1fb8-4d57-b195-ee5fe214eec7",
+      "medias": [
+        {
+          "role": "image",
+          "value": "1289dd19-1fb8-4d57-b195-ee5fe214eec7"
+        }
+      ],
+      "prompt": "Nighttime lighting-only image edit of this exact approved Bath #3 camera. Keep ALL geometry, doors and their staggered offsets, camera, crop, lens, floor tile grid, narrowed shower, correct studio-side bench, glass, vanity, toilet, mirror, sconces, towel, accessories and finishes identical. This bathroom has NO exterior window; do not add one or a skylight. Warm 3000K practical light from the existing paired vanity sconces and ceiling/shower fixtures, soft realistic shadows, useful mirror illumination, calm neutral Mineral & Walnut atmosphere. Reduce ambient brightness slightly so this reads as evening, without making toilet/vanity/shower unsafe or murky. Preserve existing stone-look porcelain, walnut and black details without orange cast or blown bulbs. No fixture relocations, new niches, extra text, people, watermark or decorative colored accents. Landscape 3:2.",
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "3:2",
+        "prompt": "Nighttime lighting-only image edit of this exact approved Bath #3 camera. Keep ALL geometry, doors and their staggered offsets, camera, crop, lens, floor tile grid, narrowed shower, correct studio-side bench, glass, vanity, toilet, mirror, sconces, towel, accessories and finishes identical. This bathroom has NO exterior window; do not add one or a skylight. Warm 3000K practical light from the existing paired vanity sconces and ceiling/shower fixtures, soft realistic shadows, useful mirror illumination, calm neutral Mineral & Walnut atmosphere. Reduce ambient brightness slightly so this reads as evening, without making toilet/vanity/shower unsafe or murky. Preserve existing stone-look porcelain, walnut and black details without orange cast or blown bulbs. No fixture relocations, new niches, extra text, people, watermark or decorative colored accents. Landscape 3:2.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "1289dd19-1fb8-4d57-b195-ee5fe214eec7"
+          }
+        ]
+      },
+      "jobId": "76ea864d-f526-43d0-b12f-4e459f6a90ac",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_012246_76ea864d-f526-43d0-b12f-4e459f6a90ac.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-night.png",
+      "qaStatus": "approved_design_visualization",
+      "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+    },
+    {
+      "index": 51016,
+      "room": "bath",
+      "code": "B2-F105N",
+      "sourceCode": "B2",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-day.png",
+      "sourceJobId": "d85cf98f-7cae-4ce8-a9ec-ea74817cab5f",
+      "medias": [
+        {
+          "role": "image",
+          "value": "d85cf98f-7cae-4ce8-a9ec-ea74817cab5f"
+        }
+      ],
+      "prompt": "Nighttime lighting-only image edit of this exact approved Bath #3 camera. Keep ALL geometry, doors and their staggered offsets, camera, crop, lens, floor tile grid, narrowed shower, correct studio-side bench, glass, vanity, toilet, mirror, sconces, towel, accessories and finishes identical. This bathroom has NO exterior window; do not add one or a skylight. Warm 3000K practical light from the existing paired vanity sconces and ceiling/shower fixtures, soft realistic shadows, useful mirror illumination, calm neutral Mineral & Walnut atmosphere. Reduce ambient brightness slightly so this reads as evening, without making toilet/vanity/shower unsafe or murky. Preserve existing stone-look porcelain, walnut and black details without orange cast or blown bulbs. No fixture relocations, new niches, extra text, people, watermark or decorative colored accents. Landscape 3:2.",
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "3:2",
+        "prompt": "Nighttime lighting-only image edit of this exact approved Bath #3 camera. Keep ALL geometry, doors and their staggered offsets, camera, crop, lens, floor tile grid, narrowed shower, correct studio-side bench, glass, vanity, toilet, mirror, sconces, towel, accessories and finishes identical. This bathroom has NO exterior window; do not add one or a skylight. Warm 3000K practical light from the existing paired vanity sconces and ceiling/shower fixtures, soft realistic shadows, useful mirror illumination, calm neutral Mineral & Walnut atmosphere. Reduce ambient brightness slightly so this reads as evening, without making toilet/vanity/shower unsafe or murky. Preserve existing stone-look porcelain, walnut and black details without orange cast or blown bulbs. No fixture relocations, new niches, extra text, people, watermark or decorative colored accents. Landscape 3:2.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "d85cf98f-7cae-4ce8-a9ec-ea74817cab5f"
+          }
+        ]
+      },
+      "jobId": "541e4ddc-73c6-4a82-b1db-650c772beab0",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_012246_541e4ddc-73c6-4a82-b1db-650c772beab0.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-night.png",
+      "qaStatus": "approved_design_visualization",
+      "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+    },
+    {
+      "index": 51004,
+      "room": "office",
+      "code": "O2",
+      "sourceFile": "docs/design-review-assets/floor-1-r04-office-mw-neutral-r01-O2.webp",
+      "prompt": "Image-edit the approved secondary Mineral & Walnut office view, keeping its camera in the southeast exterior corner looking northwest, natural oak floor, warm mineral walls, ivory rug, walnut furniture, flat ceiling and realistic compact 15'5 by 12'11 envelope. Correct the architecture using the plan: FAR WALL is west/gallery; RIGHT WALL is north TV joinery; LEFT WALL is south exterior window. On the FAR WALL shift the paired clear single-lite glass gallery doors substantially RIGHT, toward the TV-wall end: their center is about 70 percent across the full west-wall elevation, leaving a MUCH LONGER uninterrupted wall zone LEFT of the doors and only a short wall return on their right. Do not center the doors. In that long LEFT zone add the user-confirmed SMALL CIRCULAR portico-facing window, modestly sized with neat light trim. Put the compact walnut printer cabinet and printer LEFT of the gallery doors, below or beside the circular window, with a small black-framed neutral artwork on adjacent available wall; leave the opening unobstructed. Remove the current printer cabinet/artwork to the doors' right. Keep the full north-wall walnut TV build-out at image RIGHT: centered dark TV, slim soundbar below, pale mineral backing, closed lower cabinetry and restrained warm shelf lighting; no artwork replacing the TV. Main south exterior bank at image LEFT must be centered in its full wall and consist of exactly TWO paired double-hung units, one heavy central vertical mullion and horizontal meeting rails: 2 columns by 2 rows, no third unit. Thin sash muntins are allowed only as in the original photograph. The east main bank outside this crop has the same actual two-unit dimensions/frame proportions. Maintain the same large rectangular desk on a gentle diagonal, task chair toward southeast facing northwest, two ivory guest chairs opposite; preserve its workable path to the doors. Ivory sheers with light-filtering privacy shades raised for daytime; gallery glass stays clear. Retain townhome setting and original neutral Option 1 identity; no colored accents/chrome, enlarged windows or invented ceiling details. Photoreal landscape 3:2, no people, logos or decorative text. The final reference is the corrected O1 design: match its desk, seating, TV built-in and two-unit window dimensions.",
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-office-mw-neutral-r01-O2.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-plan.webp"
+        },
+        {
+          "role": "image",
+          "value": "c82d6061-80d9-4d47-8f11-82fef17d0f21"
+        }
+      ],
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "3:2",
+        "prompt": "Image-edit the approved secondary Mineral & Walnut office view, keeping its camera in the southeast exterior corner looking northwest, natural oak floor, warm mineral walls, ivory rug, walnut furniture, flat ceiling and realistic compact 15'5 by 12'11 envelope. Correct the architecture using the plan: FAR WALL is west/gallery; RIGHT WALL is north TV joinery; LEFT WALL is south exterior window. On the FAR WALL shift the paired clear single-lite glass gallery doors substantially RIGHT, toward the TV-wall end: their center is about 70 percent across the full west-wall elevation, leaving a MUCH LONGER uninterrupted wall zone LEFT of the doors and only a short wall return on their right. Do not center the doors. In that long LEFT zone add the user-confirmed SMALL CIRCULAR portico-facing window, modestly sized with neat light trim. Put the compact walnut printer cabinet and printer LEFT of the gallery doors, below or beside the circular window, with a small black-framed neutral artwork on adjacent available wall; leave the opening unobstructed. Remove the current printer cabinet/artwork to the doors' right. Keep the full north-wall walnut TV build-out at image RIGHT: centered dark TV, slim soundbar below, pale mineral backing, closed lower cabinetry and restrained warm shelf lighting; no artwork replacing the TV. Main south exterior bank at image LEFT must be centered in its full wall and consist of exactly TWO paired double-hung units, one heavy central vertical mullion and horizontal meeting rails: 2 columns by 2 rows, no third unit. Thin sash muntins are allowed only as in the original photograph. The east main bank outside this crop has the same actual two-unit dimensions/frame proportions. Maintain the same large rectangular desk on a gentle diagonal, task chair toward southeast facing northwest, two ivory guest chairs opposite; preserve its workable path to the doors. Ivory sheers with light-filtering privacy shades raised for daytime; gallery glass stays clear. Retain townhome setting and original neutral Option 1 identity; no colored accents/chrome, enlarged windows or invented ceiling details. Photoreal landscape 3:2, no people, logos or decorative text. The final reference is the corrected O1 design: match its desk, seating, TV built-in and two-unit window dimensions.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-office-mw-neutral-r01-O2.webp"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-plan.webp"
+          },
+          {
+            "role": "image",
+            "value": "c82d6061-80d9-4d47-8f11-82fef17d0f21"
+          }
+        ]
+      },
+      "jobId": "d95892b0-8618-4d1c-bcde-d5210529cef8",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_012247_d95892b0-8618-4d1c-bcde-d5210529cef8.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-day.png",
+      "qaStatus": "rejected",
+      "qaNote": "Circularofficewindowonwrongsidewall; move tofarwallleftofdoors. Nightpartnerbasedonsupersededdayalsoexcluded."
+    },
+    {
+      "index": 51107,
+      "room": "media",
+      "code": "M1",
+      "attempt": 2,
+      "supersedes": "7e000e3a-544e-4cd7-8a96-5afb32c59383",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day.png",
+      "medias": [
+        {
+          "role": "image",
+          "value": "7e000e3a-544e-4cd7-8a96-5afb32c59383"
+        }
+      ],
+      "criteria": [
+        "Centered smaller paired 2x2 real window; solid sofa wall, no false exterior window inside.",
+        "83-inch TV on calm fitted mineral wall, wide integrated walnut console and soundbar.",
+        "RH Cloud ivory sofa with ottoman at both ends, compact central table, real-scale circulation.",
+        "Source-photo camera/crown/room proportions, pure Mineral & Walnut."
+      ],
+      "prompt": "TARGETED WINDOW CORRECTION ONLY to this otherwise approved media-room photograph. Preserve the exact camera, room size, walls, ceiling profile, crown, speakers, all furniture, two end ottomans, side tables, compact central table, 83-inch TV, soundbar, wide walnut console, quiet mineral and acoustic TV wall, artwork, curtain color and rug. Correct the SINGLE real window centered in the far wall: its current opening is too TALL. Keep its center and WIDTH UNCHANGED, shorten opening height by about30 percent, raising its sill; outer frame should be approximately SQUARE, width equal to height, a modest centered opening rather than a tall French window. Two columns by two rows of panes, exactly ONE heavy central vertical mullion and ONE horizontal sash line, four clear main panes. Trim/sheers/blackout panels resize sensibly around corrected opening. Add no window anywhere else; sofa wall remains SOLID because the exterior opening there is a false window. Keep realistic townhome street/neighbor setting through glass. Do not enlarge room, change any furniture arrangement, add colored accents, change camera or create different TV wall. Neutral daylight, photoreal landscape3:2, no people/text/watermark.",
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "3:2",
+        "prompt": "TARGETED WINDOW CORRECTION ONLY to this otherwise approved media-room photograph. Preserve the exact camera, room size, walls, ceiling profile, crown, speakers, all furniture, two end ottomans, side tables, compact central table, 83-inch TV, soundbar, wide walnut console, quiet mineral and acoustic TV wall, artwork, curtain color and rug. Correct the SINGLE real window centered in the far wall: its current opening is too TALL. Keep its center and WIDTH UNCHANGED, shorten opening height by about30 percent, raising its sill; outer frame should be approximately SQUARE, width equal to height, a modest centered opening rather than a tall French window. Two columns by two rows of panes, exactly ONE heavy central vertical mullion and ONE horizontal sash line, four clear main panes. Trim/sheers/blackout panels resize sensibly around corrected opening. Add no window anywhere else; sofa wall remains SOLID because the exterior opening there is a false window. Keep realistic townhome street/neighbor setting through glass. Do not enlarge room, change any furniture arrangement, add colored accents, change camera or create different TV wall. Neutral daylight, photoreal landscape3:2, no people/text/watermark.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "7e000e3a-544e-4cd7-8a96-5afb32c59383"
+          }
+        ]
+      },
+      "jobId": "e5d0a6de-9b21-47fd-85c5-2fdcf8813d30",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_012337_e5d0a6de-9b21-47fd-85c5-2fdcf8813d30.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a2.png",
+      "qaStatus": "rejected",
+      "qaNote": "Requested square-window correction insufficient; explicit frame aspect correction needed."
+    },
+    {
+      "index": 51013,
+      "room": "office",
+      "code": "O1-F105N",
+      "sourceCode": "O1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-day.png",
+      "sourceJobId": "c82d6061-80d9-4d47-8f11-82fef17d0f21",
+      "medias": [
+        {
+          "role": "image",
+          "value": "c82d6061-80d9-4d47-8f11-82fef17d0f21"
+        }
+      ],
+      "criteria": [
+        "Exact source day camera, paired windows and same furnishing/finish positions",
+        "Exterior night and both main privacy shades lowered; warm shelf/task lighting"
+      ],
+      "prompt": "Nighttime LIGHTING AND SHADE-OPERATION EDIT of this exact corrected office photograph. Preserve camera/crop/lens, compactroom, flatceiling, TVbuilt-in, soundbar, rectangularwalnutdesk, all chairs, rug, oakfloor and TWO pairedwindow banks. Geometry/furniture/finish positions absolutely unchanged. It is dark outside. Lower existing light-filtering privacy roller shades on BOTH main exterior banks, behindivorysheers, fullyclosing eachbank; retain actual trim and center mullions, no blackoutcurtains. Show gentle warm3000K recessed task/general illumination and warm2700Kshelf light, usefuldeskillumination,TVoff with subtle reflections. CozyneutralMineral&Walnutpalettewithoutorangecast; noblownlightsorbrightTVhalo. Printer/circularwestopening arebehindcamera, donotaddthem inTVwall. No newopenings, plants, furniture, coloredaccents, people,text,watermark. Photorealisticlandscape3:2.",
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "3:2",
+        "prompt": "Nighttime LIGHTING AND SHADE-OPERATION EDIT of this exact corrected office photograph. Preserve camera/crop/lens, compactroom, flatceiling, TVbuilt-in, soundbar, rectangularwalnutdesk, all chairs, rug, oakfloor and TWO pairedwindow banks. Geometry/furniture/finish positions absolutely unchanged. It is dark outside. Lower existing light-filtering privacy roller shades on BOTH main exterior banks, behindivorysheers, fullyclosing eachbank; retain actual trim and center mullions, no blackoutcurtains. Show gentle warm3000K recessed task/general illumination and warm2700Kshelf light, usefuldeskillumination,TVoff with subtle reflections. CozyneutralMineral&Walnutpalettewithoutorangecast; noblownlightsorbrightTVhalo. Printer/circularwestopening arebehindcamera, donotaddthem inTVwall. No newopenings, plants, furniture, coloredaccents, people,text,watermark. Photorealisticlandscape3:2.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "c82d6061-80d9-4d47-8f11-82fef17d0f21"
+          }
+        ]
+      },
+      "jobId": "5f7dc588-ea46-40b3-9efe-a9dc96b29e8a",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_012337_5f7dc588-ea46-40b3-9efe-a9dc96b29e8a.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-night.png",
+      "qaStatus": "rejected",
+      "qaNote": "Frontbank privacyshade notclosed; targeted shadeoperation correction needed."
+    },
+    {
+      "index": 51014,
+      "room": "office",
+      "code": "O2-F105N",
+      "sourceCode": "O2",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-day.png",
+      "sourceJobId": "d95892b0-8618-4d1c-bcde-d5210529cef8",
+      "medias": [
+        {
+          "role": "image",
+          "value": "d95892b0-8618-4d1c-bcde-d5210529cef8"
+        }
+      ],
+      "prompt": "Nighttime light-and-privacy edit of this exact office camera. ALL camera/crop, compact shell, furniture, desk, chairs, northwall TVjoinery/soundbar, printercabinet+artLEFT of doors, circularwindow and RIGHT-OFFSET clear gallery doors remain identical. Main window at imageLEFT is paired TWO units; lower its existing hiddenprivacy roller shade fully, behind ivorysheers. It isdarkoutside. Retain userconfirmed circularwindow location/shape inLEFTzone ofgallerywall; fit a subtle nonseethrough ivorynightprivacyshade acrossits interiorcirclewhile retainingcirculartrim. Galleryglass staysclear andtransparent. Warm3000Kgentlerecessedtask/general light and2700Kshelf/tasklamp light, TVoff, realisticsoftshadows, usefuldeskillumination, noblownlampsororange cast. PreservepureMineral&Walnutmaterials,naturalmatteoakfloor,walnut,ivory; no newfurniture, openings, coloredaccents,text,people,watermark. Landscape3:2.",
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "3:2",
+        "prompt": "Nighttime light-and-privacy edit of this exact office camera. ALL camera/crop, compact shell, furniture, desk, chairs, northwall TVjoinery/soundbar, printercabinet+artLEFT of doors, circularwindow and RIGHT-OFFSET clear gallery doors remain identical. Main window at imageLEFT is paired TWO units; lower its existing hiddenprivacy roller shade fully, behind ivorysheers. It isdarkoutside. Retain userconfirmed circularwindow location/shape inLEFTzone ofgallerywall; fit a subtle nonseethrough ivorynightprivacyshade acrossits interiorcirclewhile retainingcirculartrim. Galleryglass staysclear andtransparent. Warm3000Kgentlerecessedtask/general light and2700Kshelf/tasklamp light, TVoff, realisticsoftshadows, usefuldeskillumination, noblownlampsororange cast. PreservepureMineral&Walnutmaterials,naturalmatteoakfloor,walnut,ivory; no newfurniture, openings, coloredaccents,text,people,watermark. Landscape3:2.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "d95892b0-8618-4d1c-bcde-d5210529cef8"
+          }
+        ]
+      },
+      "jobId": "7a55b947-9100-4442-8adf-509d34c5a201",
+      "status": "completed",
+      "qaStatus": "rejected",
+      "qaNote": "Circularofficewindowonwrongsidewall; move tofarwallleftofdoors. Nightpartnerbasedonsupersededdayalsoexcluded.",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_012539_7a55b947-9100-4442-8adf-509d34c5a201.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-night.png"
+    },
+    {
+      "index": 51112,
+      "room": "entry",
+      "code": "E2-F105N",
+      "attempt": 2,
+      "supersedes": "3e0d31d8-70b2-4051-89a2-d503d7015751",
+      "sourceCode": "E2",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-day.png",
+      "sourceJobId": "3bab801e-257b-4a4f-8342-28edbb0b1713",
+      "medias": [
+        {
+          "role": "image",
+          "value": "3e0d31d8-70b2-4051-89a2-d503d7015751"
+        }
+      ],
+      "prompt": "One targeted privacy-shade correction to this approved nighttime entrance photograph. Lower the EXISTING ivory Roman shade on the FRONT WOODEN ENTRY DOOR fully down so it covers ALL of that door's glazed panel, from its current mounting to the bottom of the glass. Doorwoodframeandlowerwoodpanelsstayvisible. Do NOT leave the Roman shade halfraised or exposedglass below it. Otherwise preserve EXACT nightphoto: camera, crop, lens, walls, arch, clearinteriorglassdoorpairsLEFTandRIGHT, highroundwindowbare, chandelierglobes, same oakfloor and identical raised3D inscription 'See you next time.' capitalSfinalperiod. Do not put shades on the sideinteriordoors. No change tolighting, furnishing, colorsorarchitecture. Photoreal portrait2:3, no people, watermarkorextratext.",
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "2:3",
+        "prompt": "One targeted privacy-shade correction to this approved nighttime entrance photograph. Lower the EXISTING ivory Roman shade on the FRONT WOODEN ENTRY DOOR fully down so it covers ALL of that door's glazed panel, from its current mounting to the bottom of the glass. Doorwoodframeandlowerwoodpanelsstayvisible. Do NOT leave the Roman shade halfraised or exposedglass below it. Otherwise preserve EXACT nightphoto: camera, crop, lens, walls, arch, clearinteriorglassdoorpairsLEFTandRIGHT, highroundwindowbare, chandelierglobes, same oakfloor and identical raised3D inscription 'See you next time.' capitalSfinalperiod. Do not put shades on the sideinteriordoors. No change tolighting, furnishing, colorsorarchitecture. Photoreal portrait2:3, no people, watermarkorextratext.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "3e0d31d8-70b2-4051-89a2-d503d7015751"
+          }
+        ]
+      },
+      "jobId": "44ba36d8-a272-4191-b8ca-57171e527678",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_012540_44ba36d8-a272-4191-b8ca-57171e527678.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-night-a2.png",
+      "qaStatus": "approved_design_visualization",
+      "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+    },
+    {
+      "index": 51104,
+      "room": "office",
+      "code": "O2",
+      "attempt": 2,
+      "supersedes": "d95892b0-8618-4d1c-bcde-d5210529cef8",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-day.png",
+      "medias": [
+        {
+          "role": "image",
+          "value": "d95892b0-8618-4d1c-bcde-d5210529cef8"
+        }
+      ],
+      "criteria": [
+        "Circular window on FAR GALLERY wall, same plane as doorpair/printer/art; left side windowwall has only largepairedbank",
+        "Doorpair offsetright, printer/artleft, same compactroom/furniture/2-unitmainwindow"
+      ],
+      "prompt": "TARGETED ARCHITECTURE CORRECTION to this office image. Preserve camera/crop/lens, furniture, desk, chairs, large paired mainwindow, TVjoinery/soundbar, right-offset glassdoors, floor/rug, ceilingandlighting. The SMALLCIRCULARWINDOW is currently on WRONGWALL: it sits on the camera-LEFT SIDE WALL beside largewindow. REMOVE that circlefrom leftsidewall and fill its oldopening with matching warmmineral wall. RELOCATE the exactsamecircle onto the FAR GALLERY WALL, in SAME WALLPLANE as doubleglassdoors, printercabinetandframedart. It must lie RIGHT OF the vertical insidecorner and LEFT OF doorpair, directlyabove compactprintercabinet. Move framedart slightlyLEFT of circle ifneeded, still ON FAR WALL; artandcirclebothleftofdoors andcirclenotblockedbyprinter. Farwallreadas:corner,compactart/circularwindowaboveprinterstation,offsetglassdoorpair,shortreturn,TVwallcorner. LEFT SIDE WALL contains only its centeredpairedtwo-unitrectangularwindowandplainmineralwall; absolutely NO circularopeningon leftplane. Do not centerdoors, removeprinter, changeTVwall, makeextrawindows,enlargeroom or alter daylight. Keep naturaloak, walnut, ivorysheersandlightfilteringprivacyshades,neutralOption1. Photorealisticlandscape3:2,noperson/text/watermark.",
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "3:2",
+        "prompt": "TARGETED ARCHITECTURE CORRECTION to this office image. Preserve camera/crop/lens, furniture, desk, chairs, large paired mainwindow, TVjoinery/soundbar, right-offset glassdoors, floor/rug, ceilingandlighting. The SMALLCIRCULARWINDOW is currently on WRONGWALL: it sits on the camera-LEFT SIDE WALL beside largewindow. REMOVE that circlefrom leftsidewall and fill its oldopening with matching warmmineral wall. RELOCATE the exactsamecircle onto the FAR GALLERY WALL, in SAME WALLPLANE as doubleglassdoors, printercabinetandframedart. It must lie RIGHT OF the vertical insidecorner and LEFT OF doorpair, directlyabove compactprintercabinet. Move framedart slightlyLEFT of circle ifneeded, still ON FAR WALL; artandcirclebothleftofdoors andcirclenotblockedbyprinter. Farwallreadas:corner,compactart/circularwindowaboveprinterstation,offsetglassdoorpair,shortreturn,TVwallcorner. LEFT SIDE WALL contains only its centeredpairedtwo-unitrectangularwindowandplainmineralwall; absolutely NO circularopeningon leftplane. Do not centerdoors, removeprinter, changeTVwall, makeextrawindows,enlargeroom or alter daylight. Keep naturaloak, walnut, ivorysheersandlightfilteringprivacyshades,neutralOption1. Photorealisticlandscape3:2,noperson/text/watermark.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "d95892b0-8618-4d1c-bcde-d5210529cef8"
+          }
+        ]
+      },
+      "jobId": "7b543900-593d-4b99-b0e7-b1efcab6ff5a",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_012648_7b543900-593d-4b99-b0e7-b1efcab6ff5a.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-day-a2.png",
+      "qaStatus": "approved_design_visualization",
+      "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+    },
+    {
+      "index": 51207,
+      "room": "media",
+      "code": "M1",
+      "attempt": 3,
+      "supersedes": "e5d0a6de-9b21-47fd-85c5-2fdcf8813d30",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a2.png",
+      "medias": [
+        {
+          "role": "image",
+          "value": "e5d0a6de-9b21-47fd-85c5-2fdcf8813d30"
+        }
+      ],
+      "prompt": "Edit ONLY the real window at the CENTER OF THE BACK WALL. Replace its tall rectangular opening with a SQUARE window opening. This is critical: exterior white trim WIDTH must equal HEIGHT. Increase its width by approximately 30 percent and reduce its height by approximately 15 percent. Keep the opening centered on that wall, with four equal panes in a 2-by-2 grid. One central upright and one horizontal crossbar. It must look like a small square window, not a tall double-height window or a 3-column bank. Resize the existing sheers and open charcoal curtains to frame the square. Everything else must be identical: room, crop, camera, 83-inch TV, calm mineral TV wall, fitted walnut console, ivory Cloud sofa, BOTH end ottomans, side tables, central table, artwork, speaker positions and ceiling. Keep the sofa wall solid. No other changes. Photorealistic.",
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "3:2",
+        "prompt": "Edit ONLY the real window at the CENTER OF THE BACK WALL. Replace its tall rectangular opening with a SQUARE window opening. This is critical: exterior white trim WIDTH must equal HEIGHT. Increase its width by approximately 30 percent and reduce its height by approximately 15 percent. Keep the opening centered on that wall, with four equal panes in a 2-by-2 grid. One central upright and one horizontal crossbar. It must look like a small square window, not a tall double-height window or a 3-column bank. Resize the existing sheers and open charcoal curtains to frame the square. Everything else must be identical: room, crop, camera, 83-inch TV, calm mineral TV wall, fitted walnut console, ivory Cloud sofa, BOTH end ottomans, side tables, central table, artwork, speaker positions and ceiling. Keep the sofa wall solid. No other changes. Photorealistic.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "e5d0a6de-9b21-47fd-85c5-2fdcf8813d30"
+          }
+        ]
+      },
+      "jobId": "fe1bc9ae-94f6-4e65-8da7-3b034e0d057a",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_012730_fe1bc9ae-94f6-4e65-8da7-3b034e0d057a.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a3.png",
+      "qaStatus": "rejected",
+      "qaNote": "Square-window proportion still insufficient. Switch Higgsfield image-edit model for clearer geometric instruction adherence."
+    },
+    {
+      "index": 51113,
+      "room": "office",
+      "code": "O1-F105N",
+      "attempt": 2,
+      "supersedes": "5f7dc588-ea46-40b3-9efe-a9dc96b29e8a",
+      "sourceCode": "O1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-day.png",
+      "sourceJobId": "c82d6061-80d9-4d47-8f11-82fef17d0f21",
+      "medias": [
+        {
+          "role": "image",
+          "value": "5f7dc588-ea46-40b3-9efe-a9dc96b29e8a"
+        }
+      ],
+      "prompt": "Edit ONLY the privacy shade on the window directly AHEAD of the camera, in the CENTER of this night office photo. Pull the existing ivory Roman/privacy shade all the way down to the sill so it covers ALL four main window panes. No exposed glass below the shade. The right-hand window bank is already covered; keep it that way. Both main exterior window banks must be fully covered by ivory privacy fabric, with the ivory sheers still at the sides. Everything else stays identical: night lighting, camera, walls, ceiling, desk, all chairs, built-in walnut TV cabinetry and soundbar, rug, floor, plants and shelf objects. Do not change furniture or add anything.",
+      "params": {
+        "model": "seedream_v5_pro",
+        "count": 1,
+        "resolution": "2k",
+        "is_inpaint": true,
+        "aspect_ratio": "3:2",
+        "prompt": "Edit ONLY the privacy shade on the window directly AHEAD of the camera, in the CENTER of this night office photo. Pull the existing ivory Roman/privacy shade all the way down to the sill so it covers ALL four main window panes. No exposed glass below the shade. The right-hand window bank is already covered; keep it that way. Both main exterior window banks must be fully covered by ivory privacy fabric, with the ivory sheers still at the sides. Everything else stays identical: night lighting, camera, walls, ceiling, desk, all chairs, built-in walnut TV cabinetry and soundbar, rug, floor, plants and shelf objects. Do not change furniture or add anything.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "5f7dc588-ea46-40b3-9efe-a9dc96b29e8a"
+          }
+        ]
+      },
+      "jobId": "77ccea51-ec4c-4268-add9-298d5802b404",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_012731_77ccea51-ec4c-4268-add9-298d5802b404.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-night-a2.png",
+      "qaStatus": "approved_design_visualization",
+      "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+    },
+    {
+      "index": 51307,
+      "room": "media",
+      "code": "M1",
+      "attempt": 4,
+      "supersedes": "fe1bc9ae-94f6-4e65-8da7-3b034e0d057a",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a3.png",
+      "medias": [
+        {
+          "role": "image",
+          "value": "fe1bc9ae-94f6-4e65-8da7-3b034e0d057a"
+        }
+      ],
+      "prompt": "Correct ONLY the centered real window on the far wall in this image. It must be a modest, approximately SQUARE 2×2 window bank. The current window is too tall: widen the visible opening about35% and shorten its height about20%, preserving its center. Four main panes, exactly one central structural mullion and one horizontal sash line. Outer trim width should visibly equal its height in this camera. Raise the sill, shorten the sheers' clear opening, and frame it with the existing ivory sheers and open charcoal blackout curtains. Think carefully about this visible aspect ratio. Everything else in the supplied photograph stays the same: camera, lens, room envelope, original crown and ceiling pattern, ceiling speakers, calm mineral-and-acoustic TV wall, 83-inch TV, soundbar, fitted walnut console wider than TV, ivory RH Cloud sofa with ottoman at BOTH ends, side tables and small central table, oak floor, oatmeal rug, neutral art. Sofa wall is SOLID; exterior fake window must never appear indoors. No added doors/windows, enlarged room, colored accents or people. Photorealistic image edit.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "prompt": "Correct ONLY the centered real window on the far wall in this image. It must be a modest, approximately SQUARE 2×2 window bank. The current window is too tall: widen the visible opening about35% and shorten its height about20%, preserving its center. Four main panes, exactly one central structural mullion and one horizontal sash line. Outer trim width should visibly equal its height in this camera. Raise the sill, shorten the sheers' clear opening, and frame it with the existing ivory sheers and open charcoal blackout curtains. Think carefully about this visible aspect ratio. Everything else in the supplied photograph stays the same: camera, lens, room envelope, original crown and ceiling pattern, ceiling speakers, calm mineral-and-acoustic TV wall, 83-inch TV, soundbar, fitted walnut console wider than TV, ivory RH Cloud sofa with ottoman at BOTH ends, side tables and small central table, oak floor, oatmeal rug, neutral art. Sofa wall is SOLID; exterior fake window must never appear indoors. No added doors/windows, enlarged room, colored accents or people. Photorealistic image edit.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "fe1bc9ae-94f6-4e65-8da7-3b034e0d057a"
+          }
+        ]
+      },
+      "jobId": "18135a8d-1eb2-409f-9dc3-dc192fd5f044",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_013101_18135a8d-1eb2-409f-9dc3-dc192fd5f044.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a4.png",
+      "qaStatus": "rejected",
+      "qaNote": "Square bank corrected but offsetright; slide left to centeronwholefarwall."
+    },
+    {
+      "index": 51114,
+      "room": "office",
+      "code": "O2-F105N",
+      "attempt": 2,
+      "sourceCode": "O2",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-day-a2.png",
+      "sourceJobId": "7b543900-593d-4b99-b0e7-b1efcab6ff5a",
+      "medias": [
+        {
+          "role": "image",
+          "value": "7b543900-593d-4b99-b0e7-b1efcab6ff5a"
+        }
+      ],
+      "prompt": "Create a nighttime lighting-and-privacy variant of this exact corrected office photograph. Keep the exact camera, crop, every opening, wall, flat ceiling, furniture, objects and finishes. On the large paired window at image LEFT, lower ivory privacy roller shade(s) ALL THE WAY TO THE SILL: cover ALL glass, no exposed bottom panes. Keep ivory sheers at the sides. The small circular window on the FAR wall above the printer also gets a discreet non-see-through ivory privacy layer within its circular trim. Preserve that circle on the SAME FAR WALL as the right-offset glass doors; do not move it onto the left side wall. Glass doors remain clear. Dark outside; warm3000K recessed task/general light, warm2700K shelf/task-lamp light, TV off, gentle neutral shadows. Same printer/art LEFT of doors, walnut TV joinery with soundbar, rectangular desk/chairs, rug and oak floor. No new furniture, enlarged room, windows, text, people or colored accents. Photorealistic.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "prompt": "Create a nighttime lighting-and-privacy variant of this exact corrected office photograph. Keep the exact camera, crop, every opening, wall, flat ceiling, furniture, objects and finishes. On the large paired window at image LEFT, lower ivory privacy roller shade(s) ALL THE WAY TO THE SILL: cover ALL glass, no exposed bottom panes. Keep ivory sheers at the sides. The small circular window on the FAR wall above the printer also gets a discreet non-see-through ivory privacy layer within its circular trim. Preserve that circle on the SAME FAR WALL as the right-offset glass doors; do not move it onto the left side wall. Glass doors remain clear. Dark outside; warm3000K recessed task/general light, warm2700K shelf/task-lamp light, TV off, gentle neutral shadows. Same printer/art LEFT of doors, walnut TV joinery with soundbar, rectangular desk/chairs, rug and oak floor. No new furniture, enlarged room, windows, text, people or colored accents. Photorealistic.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "7b543900-593d-4b99-b0e7-b1efcab6ff5a"
+          }
+        ]
+      },
+      "jobId": "8a6c81cf-f5d1-40b3-a308-2ae51b36af02",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_013103_8a6c81cf-f5d1-40b3-a308-2ae51b36af02.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-night-a2.png",
+      "qaStatus": "approved_design_visualization"
+    },
+    {
+      "index": 51008,
+      "room": "media",
+      "code": "M2",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/media-m2-day.png",
+      "sourceJobId": "f8fb0ea6-6485-431d-a47f-fc97fab21e6c",
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-media-mw-neutral-r01-M2.webp"
+        },
+        {
+          "role": "image",
+          "value": "18135a8d-1eb2-409f-9dc3-dc192fd5f044"
+        },
+        {
+          "role": "image",
+          "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-plan.webp"
+        }
+      ],
+      "prompt": "Image-edit the FIRST image for its reverse camera. The SECOND image is the corrected M1 and controls the exact furnishings and TV-wall design. THIRD image is the first-floor blueprint for opening positions. This is SAME room/furniture viewed from near the paired window toward entrance; never invent a larger room. Printed plan is15ft1 horizontally by11ft1 vertically: TV wall LEFT shared with office, clear double doors on TOP hall wall CLOSE TO LEFT TV corner, sofa RIGHT exterior wall, paired square2x2 window centred on BOTTOM wall behind camera. In reverse image TV is LEFT, sofa RIGHT, entry ahead. Shift clear single-lite ivory paired doors leftward towards TV corner, leaving generous wall to their RIGHT; narrow recessed walnut figurine display immediately right of doors. Corrected approved M1 controls all furnishing/finish geometry. 83in blackTV about72in wide on calm matte mushroom mineral centre; neutral woven acoustic panels to sides and narrow walnut edging, no projecting charcoal box/full slats/loud stone. Same96-102in integrated low walnut console wider than TV, ventilated handleless fronts, recessed plinth and slim soundbar; separate shallow fitted service wall, never carve shared office wall. Subtle dimmable warm-neutral bias lighting. Opposite TV, same warm ivory RH Cloud Classic119in sofa, TWO39x40in ottomans at BOTH ends for compact U lounging, slim C tables and20-24x30-36in central coffee table; preserve room footprint and circulation. Keep full furniture identities and positions from M1, not an alternate design. Homeowner confirms the smaller RIGHT exterior/seating-wall window drawn on the blueprint is a FAKE exterior feature and has NO interior opening. Keep sofa wall SOLID, identical to M1; do not create a window, recess or glazing here. Preserve original crown/ceiling profile and ceiling/rear audio; no invented tray or cove. Natural matte oak, oatmeal rug, softly textured warm ivory/mushroom walls, walnut, neutral art in thin black frames; no silver/chrome/blue/yellow theme. Functional ivory sheers with open blackout curtains at visible exterior glazing; clear doors stay transparent. Townhouse streetscape only. Realistic neutral daylight, no people/text/logos/watermarks. Show both ottomans and door offset clearly; avoid a crop concealing the corrections.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "prompt": "Image-edit the FIRST image for its reverse camera. The SECOND image is the corrected M1 and controls the exact furnishings and TV-wall design. THIRD image is the first-floor blueprint for opening positions. This is SAME room/furniture viewed from near the paired window toward entrance; never invent a larger room. Printed plan is15ft1 horizontally by11ft1 vertically: TV wall LEFT shared with office, clear double doors on TOP hall wall CLOSE TO LEFT TV corner, sofa RIGHT exterior wall, paired square2x2 window centred on BOTTOM wall behind camera. In reverse image TV is LEFT, sofa RIGHT, entry ahead. Shift clear single-lite ivory paired doors leftward towards TV corner, leaving generous wall to their RIGHT; narrow recessed walnut figurine display immediately right of doors. Corrected approved M1 controls all furnishing/finish geometry. 83in blackTV about72in wide on calm matte mushroom mineral centre; neutral woven acoustic panels to sides and narrow walnut edging, no projecting charcoal box/full slats/loud stone. Same96-102in integrated low walnut console wider than TV, ventilated handleless fronts, recessed plinth and slim soundbar; separate shallow fitted service wall, never carve shared office wall. Subtle dimmable warm-neutral bias lighting. Opposite TV, same warm ivory RH Cloud Classic119in sofa, TWO39x40in ottomans at BOTH ends for compact U lounging, slim C tables and20-24x30-36in central coffee table; preserve room footprint and circulation. Keep full furniture identities and positions from M1, not an alternate design. Homeowner confirms the smaller RIGHT exterior/seating-wall window drawn on the blueprint is a FAKE exterior feature and has NO interior opening. Keep sofa wall SOLID, identical to M1; do not create a window, recess or glazing here. Preserve original crown/ceiling profile and ceiling/rear audio; no invented tray or cove. Natural matte oak, oatmeal rug, softly textured warm ivory/mushroom walls, walnut, neutral art in thin black frames; no silver/chrome/blue/yellow theme. Functional ivory sheers with open blackout curtains at visible exterior glazing; clear doors stay transparent. Townhouse streetscape only. Realistic neutral daylight, no people/text/logos/watermarks. Show both ottomans and door offset clearly; avoid a crop concealing the corrections.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-media-mw-neutral-r01-M2.webp"
+          },
+          {
+            "role": "image",
+            "value": "18135a8d-1eb2-409f-9dc3-dc192fd5f044"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-1-r04-plan.webp"
+          }
+        ]
+      },
+      "jobId": "a75f5aac-bcd3-4a1f-bdca-9724b181edf1",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_013402_a75f5aac-bcd3-4a1f-bdca-9724b181edf1.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-day.png",
+      "qaStatus": "rejected",
+      "qaNote": "DuplicateTVsoundbarsandunrequestedsofa throw; removeextra."
+    },
+    {
+      "index": 51017,
+      "room": "media",
+      "code": "M1-F105N",
+      "sourceCode": "M1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a4.png",
+      "sourceJobId": "18135a8d-1eb2-409f-9dc3-dc192fd5f044",
+      "medias": [
+        {
+          "role": "image",
+          "value": "18135a8d-1eb2-409f-9dc3-dc192fd5f044"
+        }
+      ],
+      "prompt": "Nighttime MOVIE lighting edit of this EXACT media-room daytime photograph. Keep exact camera, crop, lens and entire room geometry, corrected small square paired window, solid sofa wall, furniture and ALL objects. Keep both RH Cloud end ottomans, side tables and central low table, 83-inch TV, soundbar, calm mineral centre/acoustic side panels, fitted walnut console wider than TV, ceiling speakers, crown and ceiling pattern. Close existing CHARCOAL BLACKOUT CURTAINS completely over the one real exterior window: cover all glass with opaque fabric, ivory sheers remain behind, no visible daylight or bright outdoor sky. TV can remain black/off as a lighting study. Dim general ceiling lighting to a very low level, show a gentle warm-neutral TV bias glow and soft indirect edge lighting; the TV remains dominant, not bright wall panels or exaggerated halos. Neutral mineral/oak/walnut/ivory palette, legible seating edges and floor for circulation, restrained natural shadows, no orange cast or RGB. Sofa wall has NO interior window; fake exterior opening never appears. Do not rearrange furniture, add lights/furniture or enlarge room. Photorealistic.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "prompt": "Nighttime MOVIE lighting edit of this EXACT media-room daytime photograph. Keep exact camera, crop, lens and entire room geometry, corrected small square paired window, solid sofa wall, furniture and ALL objects. Keep both RH Cloud end ottomans, side tables and central low table, 83-inch TV, soundbar, calm mineral centre/acoustic side panels, fitted walnut console wider than TV, ceiling speakers, crown and ceiling pattern. Close existing CHARCOAL BLACKOUT CURTAINS completely over the one real exterior window: cover all glass with opaque fabric, ivory sheers remain behind, no visible daylight or bright outdoor sky. TV can remain black/off as a lighting study. Dim general ceiling lighting to a very low level, show a gentle warm-neutral TV bias glow and soft indirect edge lighting; the TV remains dominant, not bright wall panels or exaggerated halos. Neutral mineral/oak/walnut/ivory palette, legible seating edges and floor for circulation, restrained natural shadows, no orange cast or RGB. Sofa wall has NO interior window; fake exterior opening never appears. Do not rearrange furniture, add lights/furniture or enlarge room. Photorealistic.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "18135a8d-1eb2-409f-9dc3-dc192fd5f044"
+          }
+        ]
+      },
+      "jobId": "d7856e4a-1f0e-47c2-88e0-0793457fe051",
+      "status": "completed",
+      "qaStatus": "rejected",
+      "qaNote": "Superseded daywindowcenter; excludednightpartner.",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_013401_d7856e4a-1f0e-47c2-88e0-0793457fe051.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-night.png"
+    },
+    {
+      "index": 51407,
+      "room": "media",
+      "code": "M1",
+      "attempt": 5,
+      "supersedes": "18135a8d-1eb2-409f-9dc3-dc192fd5f044",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a4.png",
+      "medias": [
+        {
+          "role": "image",
+          "value": "18135a8d-1eb2-409f-9dc3-dc192fd5f044"
+        }
+      ],
+      "prompt": "Move ONLY the square window and its two curtain layers LEFT on the far wall. Its square shape and four main panes are now correct, but the whole opening is offset to the right. Slide opening, white trim, rod, ivory sheers and open charcoal blackout curtains together LEFT by about one quarter of the window's width. Keep exact opening size, sill height and 2×2 main unit layout. It should sit in the CENTER of the full far wall between its two room corners, with visually balanced solid wall margins on left and right; do not use the camera frame as the wall boundary. Fill the vacated right-hand strip with matching wall. Preserve ALL other elements exactly: photo camera/crop, compact room, ceiling/crown/speakers, solid sofa wall, art, ivory RH Cloud sofa and two end ottomans, compact tables, 83-inch TV, soundbar, quiet mineral TV centre, acoustic side panels, wide fitted walnut console, rug and floor. No room enlargement, new openings, extra furniture or color accents. Photorealistic.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "prompt": "Move ONLY the square window and its two curtain layers LEFT on the far wall. Its square shape and four main panes are now correct, but the whole opening is offset to the right. Slide opening, white trim, rod, ivory sheers and open charcoal blackout curtains together LEFT by about one quarter of the window's width. Keep exact opening size, sill height and 2×2 main unit layout. It should sit in the CENTER of the full far wall between its two room corners, with visually balanced solid wall margins on left and right; do not use the camera frame as the wall boundary. Fill the vacated right-hand strip with matching wall. Preserve ALL other elements exactly: photo camera/crop, compact room, ceiling/crown/speakers, solid sofa wall, art, ivory RH Cloud sofa and two end ottomans, compact tables, 83-inch TV, soundbar, quiet mineral TV centre, acoustic side panels, wide fitted walnut console, rug and floor. No room enlargement, new openings, extra furniture or color accents. Photorealistic.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "18135a8d-1eb2-409f-9dc3-dc192fd5f044"
+          }
+        ]
+      },
+      "jobId": "5a2a3ac8-b457-4c6a-a69f-69c5e11a50d6",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_013500_5a2a3ac8-b457-4c6a-a69f-69c5e11a50d6.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a5.png",
+      "qaStatus": "rejected",
+      "qaNote": "Windowcenteringstillincorrect; explicitimagecoordinatesforwholewallcenter."
+    },
+    {
+      "index": 51507,
+      "room": "media",
+      "code": "M1",
+      "attempt": 6,
+      "supersedes": "5a2a3ac8-b457-4c6a-a69f-69c5e11a50d6",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a5.png",
+      "medias": [
+        {
+          "role": "image",
+          "value": "5a2a3ac8-b457-4c6a-a69f-69c5e11a50d6"
+        }
+      ],
+      "prompt": "Architectural image edit. The window MUST MOVE LEFT; do not return the existing opening in the same position. In this 2528-pixel-wide photo, the far wall runs approximately from x=470 to x=1504. Its centerline is x=987. The current window center is x=1104. RELOCATE the complete square opening so its center is x=987, about39% across the entire photo width. Shift white casing, four-pane glazing, curtain rod, ivory sheers and charcoal panels about117pixels LEFT together. Leave their size and height unchanged. Fill the old rightmost strip with matching plaster. Equalize the far-wall solid returns on either side of the WINDOW CASING: the casing currently has much more solid wall on the left than on the right. This correction must visibly increase the right return and reduce the left return. Sofa wall remains solid. Keep camera/crop, all furniture and TV wall exactly unchanged, including BOTH end ottomans, small tables, 83-inchTV, soundbar and wide fittedwalnutconsole. Same crown, ceiling, speakers, rug, floor, art and neutral daylight. Do not interpret centering as centering within the photo. Photorealistic.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "prompt": "Architectural image edit. The window MUST MOVE LEFT; do not return the existing opening in the same position. In this 2528-pixel-wide photo, the far wall runs approximately from x=470 to x=1504. Its centerline is x=987. The current window center is x=1104. RELOCATE the complete square opening so its center is x=987, about39% across the entire photo width. Shift white casing, four-pane glazing, curtain rod, ivory sheers and charcoal panels about117pixels LEFT together. Leave their size and height unchanged. Fill the old rightmost strip with matching plaster. Equalize the far-wall solid returns on either side of the WINDOW CASING: the casing currently has much more solid wall on the left than on the right. This correction must visibly increase the right return and reduce the left return. Sofa wall remains solid. Keep camera/crop, all furniture and TV wall exactly unchanged, including BOTH end ottomans, small tables, 83-inchTV, soundbar and wide fittedwalnutconsole. Same crown, ceiling, speakers, rug, floor, art and neutral daylight. Do not interpret centering as centering within the photo. Photorealistic.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "5a2a3ac8-b457-4c6a-a69f-69c5e11a50d6"
+          }
+        ]
+      },
+      "jobId": "f53843bc-1108-4088-8934-c5afe28d037e",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_013853_f53843bc-1108-4088-8934-c5afe28d037e.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a6.png",
+      "qaStatus": "rejected",
+      "qaNote": "Centeringcorrection notcarriedoutdespitepixelguide; tryalternateHiggsfieldeditmodel."
+    },
+    {
+      "index": 51108,
+      "room": "media",
+      "code": "M2",
+      "attempt": 2,
+      "supersedes": "a75f5aac-bcd3-4a1f-bdca-9724b181edf1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-day.png",
+      "medias": [
+        {
+          "role": "image",
+          "value": "a75f5aac-bcd3-4a1f-bdca-9724b181edf1"
+        }
+      ],
+      "prompt": "Two small corrections only in this media-room photograph. There are currently TWO soundbars: keep the one mounted directly BELOW THE TV. REMOVE the extra long soundbar sitting ON TOP OF THE WALNUT CONSOLE, leaving that top uncluttered. Also remove the grey knitted throw blanket draped over the right sofa cushion, restoring plain ivory upholstery consistent with companion view. Keep exact camera, framing, TV and wide fitted console, quiet mineral/acoustic wall, clear paired doors offset left, recessed figurine shelves right of doors, sofa, both end ottomans, slim side tables, central table, pillows, rug, oak floor, solid sofa wall, speakers, crown and ceiling pattern. Change nothing else. Photorealistic.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "prompt": "Two small corrections only in this media-room photograph. There are currently TWO soundbars: keep the one mounted directly BELOW THE TV. REMOVE the extra long soundbar sitting ON TOP OF THE WALNUT CONSOLE, leaving that top uncluttered. Also remove the grey knitted throw blanket draped over the right sofa cushion, restoring plain ivory upholstery consistent with companion view. Keep exact camera, framing, TV and wide fitted console, quiet mineral/acoustic wall, clear paired doors offset left, recessed figurine shelves right of doors, sofa, both end ottomans, slim side tables, central table, pillows, rug, oak floor, solid sofa wall, speakers, crown and ceiling pattern. Change nothing else. Photorealistic.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "a75f5aac-bcd3-4a1f-bdca-9724b181edf1"
+          }
+        ]
+      },
+      "jobId": "db6322d0-bf8b-41e4-8cca-9a1eb3d755a0",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_013852_db6322d0-bf8b-41e4-8cca-9a1eb3d755a0.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-day-a2.png",
+      "qaStatus": "approved_design_visualization"
+    },
+    {
+      "index": 51607,
+      "room": "media",
+      "code": "M1",
+      "attempt": 7,
+      "supersedes": "f53843bc-1108-4088-8934-c5afe28d037e",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a6.png",
+      "medias": [
+        {
+          "role": "image",
+          "value": "f53843bc-1108-4088-8934-c5afe28d037e"
+        }
+      ],
+      "prompt": "Edit the architectural photograph. Replace the entire BACK WALL window assembly: remove its old right-of-centre opening, patch the wall, then install one smaller SQUARE four-pane white window at the true centre of that back wall. The back wall is bounded by the sofa-wall inside corner on its left and the TV-wall inside corner on its right. The new window must have EQUAL SOLID PLASTER RETURNS to those two corners. It must sit distinctly closer to the sofa-side corner than the current window. Keep its square dimensions and height. Match the ivory sheer panels and open charcoal blackout curtains to the new centered window location. Exactly two structural window units and two sash rows; thin internal muntins are fine. Keep the rest of this same room and photograph: ivoryCloud sofa against solid leftwall with both endottomans, side/central tables, rug, oakfloor, neutral art, quiet mineral/acoustic TVwall, 83-inchTV, one soundbar and wider walnutconsole on rightwall, same ceilingpattern/crown/speakers. No room enlargement or new window on sofa wall. Photorealistic neutral daytime image edit.",
+      "params": {
+        "model": "flux_2",
+        "variant": "max",
+        "count": 1,
+        "resolution": "2k",
+        "aspect_ratio": "4:3",
+        "prompt": "Edit the architectural photograph. Replace the entire BACK WALL window assembly: remove its old right-of-centre opening, patch the wall, then install one smaller SQUARE four-pane white window at the true centre of that back wall. The back wall is bounded by the sofa-wall inside corner on its left and the TV-wall inside corner on its right. The new window must have EQUAL SOLID PLASTER RETURNS to those two corners. It must sit distinctly closer to the sofa-side corner than the current window. Keep its square dimensions and height. Match the ivory sheer panels and open charcoal blackout curtains to the new centered window location. Exactly two structural window units and two sash rows; thin internal muntins are fine. Keep the rest of this same room and photograph: ivoryCloud sofa against solid leftwall with both endottomans, side/central tables, rug, oakfloor, neutral art, quiet mineral/acoustic TVwall, 83-inchTV, one soundbar and wider walnutconsole on rightwall, same ceilingpattern/crown/speakers. No room enlargement or new window on sofa wall. Photorealistic neutral daytime image edit.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "f53843bc-1108-4088-8934-c5afe28d037e"
+          }
+        ]
+      },
+      "jobId": "a3c8536f-f691-4614-89c4-eaed24b00d41",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_014111_a3c8536f-f691-4614-89c4-eaed24b00d41.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a7.png",
+      "qaStatus": "rejected",
+      "qaNote": "Window remains right of centre; materials, ceiling and acoustic side-panel design drifted."
+    },
+    {
+      "index": 51018,
+      "room": "media",
+      "code": "M2-F105N",
+      "sourceCode": "M2",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-day-a2.png",
+      "sourceJobId": "db6322d0-bf8b-41e4-8cca-9a1eb3d755a0",
+      "medias": [
+        {
+          "role": "image",
+          "value": "db6322d0-bf8b-41e4-8cca-9a1eb3d755a0"
+        }
+      ],
+      "prompt": "Nighttime movie-mode lighting edit of this EXACT media-room reverse photograph. Lock camera, crop, modest room envelope, TVLEFT, sofaRIGHT, clear gallery doors ahead offset towardLEFT TVcorner, figurine nicheRIGHTofdoors, ceiling pattern/crown and all speakers. Same ivoryRHCloudsofa with BOTHendottomans, slimCtables, central table, neutralpillows, oakfloorandrug. Keep ONE soundbar belowTV; no baronconsole. Keep walnut console widerthan83-inchTV, quietmineralcentre/acousticsides. Dark evening; dim all ceilingdownlights OFF or verylow, tinywarm-neutralbiaslightbehindTV andgentleindirectedgeglow, figurine lightingOFF or verylow. Legible seating/flooredgeswithoutbright roomwash. Clearinternalglassdoorsstaytransparent, gallerybeyondsubduedwarmnightlightwithnodaysky. Actualwindowbehindcamera hasopaquecharcoalblackoutcurtainsfullyclosed, no daylightreflectedinTV. Sofa wallstaysSOLID (outsidefakewindownevervisibleinside). No new furniture, shifted doors, extra glazing, coloredaccents/RGB, orange cast,text,peopleorwatermark. Photorealistic3:2.",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "prompt": "Nighttime movie-mode lighting edit of this EXACT media-room reverse photograph. Lock camera, crop, modest room envelope, TVLEFT, sofaRIGHT, clear gallery doors ahead offset towardLEFT TVcorner, figurine nicheRIGHTofdoors, ceiling pattern/crown and all speakers. Same ivoryRHCloudsofa with BOTHendottomans, slimCtables, central table, neutralpillows, oakfloorandrug. Keep ONE soundbar belowTV; no baronconsole. Keep walnut console widerthan83-inchTV, quietmineralcentre/acousticsides. Dark evening; dim all ceilingdownlights OFF or verylow, tinywarm-neutralbiaslightbehindTV andgentleindirectedgeglow, figurine lightingOFF or verylow. Legible seating/flooredgeswithoutbright roomwash. Clearinternalglassdoorsstaytransparent, gallerybeyondsubduedwarmnightlightwithnodaysky. Actualwindowbehindcamera hasopaquecharcoalblackoutcurtainsfullyclosed, no daylightreflectedinTV. Sofa wallstaysSOLID (outsidefakewindownevervisibleinside). No new furniture, shifted doors, extra glazing, coloredaccents/RGB, orange cast,text,peopleorwatermark. Photorealistic3:2.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "db6322d0-bf8b-41e4-8cca-9a1eb3d755a0"
+          }
+        ]
+      },
+      "jobId": "cf041cd9-4082-4427-8800-3afd5eb0d5b2",
+      "status": "completed",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_014235_cf041cd9-4082-4427-8800-3afd5eb0d5b2.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-night.png",
+      "qaStatus": "approved_design_visualization",
+      "qaNote": "Root and two independent reviewers confirm same-camera day/night geometry, solid sofa wall, clear gallery doors, two ottomans, single soundbar, and Option1 materials; warm dimmed movie scene. Exact installation dimensions remain field measured."
+    },
+    {
+      "index": 51707,
+      "room": "media",
+      "code": "M1",
+      "attempt": 8,
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "prompt": "Architectural correction of the FIRST supplied interior photograph, using the SECOND supplied geometry guide. Keep the camera, Cloud sofa with two ottomans, both side tables, central coffee table, rug, 83-inch TV, single soundbar, walnut fitted console, pale mineral TV inset, narrow acoustic side panels, subtle warm bias lighting, ceiling speakers, wall art and natural oak floor EXACTLY from the first photograph. The second image is a schematic showing the ONLY required change: move the ENTIRE square two-unit sash window, its opening, casing, sheers and dark drapes LEFT to the back wall's true midpoint. Match its location to the green centre line and pale-blue square in the guide. The guide places the casing at image x581–907 in 1907px coordinates, midpoint744, which balances the solid wall between its casing and the two corner lines x354 and1138. The square bank remains the same size and height. Fill the vacated strip on the RIGHT with continuous warm ivory wall; the LEFT curtain shifts left too. This is a physical relocation of the whole assembly about20inches toward the sofa corner, not a new viewpoint or widened room. The opening must have one heavy middle vertical frame and one horizontal sash rail, TWO columns by TWO rows; thin internal muntins allowed. Remove the guide's annotations, lines and dimension labels from final photoreal output. Wall behind sofa stays SOLID because its exterior window is decorative only. Daylight, sheers, blackout curtains stacked open. No extra windows, no orange grading, no redesigned furniture. Generate a corrected realistic interior photo, not a schematic.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "f53843bc-1108-4088-8934-c5afe28d037e"
+          },
+          {
+            "role": "image",
+            "value": "9381e425-c00f-4233-adeb-7743abe10fd7"
+          }
+        ]
+      },
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a6.png",
+      "sourceJobId": "f53843bc-1108-4088-8934-c5afe28d037e",
+      "jobId": "0020dd3f-2a17-4b6f-94ea-008715a559c3",
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "controlGuide": "Native SVG wall elevation guide uploaded as 9381e425-c00f-4233-adeb-7743abe10fd7",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_014719_0020dd3f-2a17-4b6f-94ea-008715a559c3.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a8.png",
+      "qaNote": "Root and independent architecture reviewer pass: square paired bank moved toward true centre with balanced returns under perspective; remaining approximately2–3%projected difference is within interpretive visualization. Two ottomans, wideconsole, single soundbar and quiet TVwall retained. Actual dimensions require site confirmation."
+    },
+    {
+      "index": 51117,
+      "room": "media",
+      "code": "M1-F105N",
+      "sourceCode": "M1",
+      "attempt": 2,
+      "sourceJobId": "0020dd3f-2a17-4b6f-94ea-008715a559c3",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a8.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "prompt": "Make an exact SAME-CAMERA nighttime image edit of this corrected Mineral & Walnut media-room photograph. All geometry, furniture, artwork, ottomans, tables, 83-inchTV and single soundbar, widewalnut fitted console, quiet mushroommineralTVinset and narrowacoustic sides remain exactly unchanged. Do NOT move the correctly centered squarewindow. Close the two charcoalblackoutdrapes fully across that ONE realbackwallwindow; their centeredges overlap with absolutely no brightlightgap, retain sameceilingtrack and windowposition. It is darkoutside. The exteriorfakewindow still has NOinterioropening: behindsofa stayssolid. Create a luxurious MOVIEnightscene using dimmablelowwarmTV-edge/biaslight2700K, tiny lowaccentnearconsole and verydimceilingdownlights/off; existingceilingspeakersunchanged. Allow soft darkreflection in offTV orsubtleblack screen, no logos. Enough gentlelightto see upholstery and circulation, notbrightdaylighting or orangecolorgrade. KeepneutralivoryCloudsofa withottomanBOTHends,slim sidetables andsmallcentralcoffeetable, naturaloakfloorandivoryrug. Noadditionalfurniture, duplicatedsoundbar, curtainselsewhere, people, text orwatermark.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "0020dd3f-2a17-4b6f-94ea-008715a559c3"
+          }
+        ]
+      },
+      "jobId": "6195edcc-4281-4acd-b266-b9f2daa84440",
+      "status": "completed",
+      "qaStatus": "rejected",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_015145_6195edcc-4281-4acd-b266-b9f2daa84440.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-night-a2.png",
+      "qaNote": "Geometry and lighting pass but a brightcentrecurtain gap defeats specified completeblackout; narrowgapcorrection required."
+    },
+    {
+      "index": 51217,
+      "room": "media",
+      "code": "M1-F105N",
+      "sourceCode": "M1",
+      "attempt": 3,
+      "sourceJobId": "0020dd3f-2a17-4b6f-94ea-008715a559c3",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a8.png",
+      "editSourceJobId": "6195edcc-4281-4acd-b266-b9f2daa84440",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "prompt": "One tiny image edit ONLY. This nighttime media-room photograph has a thin bright vertical crack between its blackout curtains at the middle. ELIMINATE that light crack completely by overlapping the charcoal fabric panels at the center. Replace ALL of the light crack from ceiling track to curtainhem with darkopaquecharcoal curtainfabric matching the existing folds. The curtain surface must be continuous, fully CLOSED, genuinely blocking exteriorlight; no whiteline, no slit. Everythingelse in this exactphoto remains unchanged: centeredwindowlocation hiddenbehindcurtains, camera, furniture, bothottomans, side andcentral tables, TV/soundbar/walnutconsole,mineralTVwall, ceiling,speakers,wallart, warmth andbrightness. No other edits, text orpeople.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "6195edcc-4281-4acd-b266-b9f2daa84440"
+          }
+        ]
+      },
+      "jobId": "cb683874-6b65-45df-bd46-07b850d8b52d",
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_015304_cb683874-6b65-45df-bd46-07b850d8b52d.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-night-a3.png",
+      "qaNote": "Same camera and corrected day architecture/furniture retained; opaquecurtain overlap now closes centrelightgap; dimnightTVwall/acoustic/consolelighting reviewed. Exact lighting output and fabric require product/site confirmation."
+    }
+  ],
+  "deliveredJobs": [
+    {
+      "index": 51001,
+      "jobId": "006a3f39-145d-4089-9711-3e5d503db5aa",
+      "room": "entry",
+      "code": "E1",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-day.png"
+    },
+    {
+      "index": 51002,
+      "jobId": "3bab801e-257b-4a4f-8342-28edbb0b1713",
+      "room": "entry",
+      "code": "E2",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-day.png"
+    },
+    {
+      "index": 51003,
+      "jobId": "c82d6061-80d9-4d47-8f11-82fef17d0f21",
+      "room": "office",
+      "code": "O1",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-day.png"
+    },
+    {
+      "index": 51005,
+      "jobId": "1289dd19-1fb8-4d57-b195-ee5fe214eec7",
+      "room": "bath",
+      "code": "B1",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-day.png"
+    },
+    {
+      "index": 51006,
+      "jobId": "d85cf98f-7cae-4ce8-a9ec-ea74817cab5f",
+      "room": "bath",
+      "code": "B2",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-day.png"
+    },
+    {
+      "index": 51011,
+      "jobId": "53b2d83b-ecce-4f27-8611-c652e7812dde",
+      "room": "entry",
+      "code": "E1-F105N",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-night.png"
+    },
+    {
+      "index": 51015,
+      "jobId": "76ea864d-f526-43d0-b12f-4e459f6a90ac",
+      "room": "bath",
+      "code": "B1-F105N",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-night.png"
+    },
+    {
+      "index": 51016,
+      "jobId": "541e4ddc-73c6-4a82-b1db-650c772beab0",
+      "room": "bath",
+      "code": "B2-F105N",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-night.png"
+    },
+    {
+      "index": 51112,
+      "jobId": "44ba36d8-a272-4191-b8ca-57171e527678",
+      "room": "entry",
+      "code": "E2-F105N",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-night-a2.png"
+    },
+    {
+      "index": 51104,
+      "jobId": "7b543900-593d-4b99-b0e7-b1efcab6ff5a",
+      "room": "office",
+      "code": "O2",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-day-a2.png"
+    },
+    {
+      "index": 51113,
+      "jobId": "77ccea51-ec4c-4268-add9-298d5802b404",
+      "room": "office",
+      "code": "O1-F105N",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-night-a2.png"
+    },
+    {
+      "index": 51114,
+      "jobId": "8a6c81cf-f5d1-40b3-a308-2ae51b36af02",
+      "room": "office",
+      "code": "O2-F105N",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-night-a2.png"
+    },
+    {
+      "index": 51108,
+      "jobId": "db6322d0-bf8b-41e4-8cca-9a1eb3d755a0",
+      "room": "media",
+      "code": "M2",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-day-a2.png"
+    },
+    {
+      "index": 51018,
+      "jobId": "cf041cd9-4082-4427-8800-3afd5eb0d5b2",
+      "room": "media",
+      "code": "M2-F105N",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-night.png"
+    },
+    {
+      "index": 51707,
+      "jobId": "0020dd3f-2a17-4b6f-94ea-008715a559c3",
+      "room": "media",
+      "code": "M1",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a8.png"
+    },
+    {
+      "index": 51217,
+      "jobId": "cb683874-6b65-45df-bd46-07b850d8b52d",
+      "room": "media",
+      "code": "M1-F105N",
+      "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-night-a3.png"
+    }
+  ]
+}

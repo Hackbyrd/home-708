@@ -28,7 +28,7 @@ const definitions = option.review?.floors || [
 const floors = [];
 for (const [i, [word, rev, title, description, manifestPath]] of definitions.entries()) {
   const manifest = JSON.parse(await fs.readFile(path.join(root, manifestPath || `assets/render-candidates/floor-${word}-review/${rev}/manifest.json`), 'utf8'));
-  const floor = { number: i + 1, id: `floor-${i + 1}`, title, description, revision: rev, rooms: [], coverageNote: manifest.coverageNote || '' };
+  const floor = { number: i + 1, id: `floor-${i + 1}`, title, description, revision: rev, rooms: [], coverageNote: refinement?.floorCoverageNotes?.[`floor-${i + 1}`] || manifest.coverageNote || '' };
   const asset = async (file, name, width, quality = 84) => {
     const filename = `${floor.id}-${rev}-${name}.webp`;
     await sharp(path.join(root, file)).rotate().resize({ width, withoutEnlargement: true }).webp({ quality }).toFile(path.join(mediaDir, filename));
@@ -41,10 +41,11 @@ for (const [i, [word, rev, title, description, manifestPath]] of definitions.ent
     const views = [];
     for (const view of room.views) {
       const { width, height } = await sharp(path.join(root, view.file)).metadata();
-      views.push({ ...view, width, height, src: await asset(view.file, `${room.id}-${revised ? refinement.revision + "-" : ""}${view.code}`, 2000), thumb: await asset(view.file, `${room.id}-${revised ? refinement.revision + "-" : ""}${view.code}-thumb`, 520, 77) });
+      const viewRevision = revised ? (room.assetRevision || refinement.revision) + '-' : '';
+      views.push({ ...view, width, height, src: await asset(view.file, `${room.id}-${viewRevision}${view.code}`, 2000), thumb: await asset(view.file, `${room.id}-${viewRevision}${view.code}-thumb`, 520, 77) });
     }
     const primaryNight = nightManifest?.rooms?.[room.id];
-    const sources = [...(primaryNight ? [{ ...primaryNight, assetName: `${room.id}-${nightManifest.revision}-night` }] : []), ...(angleNightManifest?.rooms?.[room.id]?.views || []).map(view => ({ ...view, assetName: `${room.id}-${angleNightManifest.revision}-${view.code}` }))];
+    const sources = [...(primaryNight ? [{ ...primaryNight, assetName: `${room.id}-${primaryNight.assetRevision || nightManifest.revision}-night` }] : []), ...(angleNightManifest?.rooms?.[room.id]?.views || []).map(view => ({ ...view, assetName: `${room.id}-${view.assetRevision || angleNightManifest.revision}-${view.code}` }))];
     if (new Set(sources.map(view => view.sourceCode)).size !== sources.length) throw new Error(`Duplicate night camera for ${room.id}.`);
     const nights = [];
     for (const { assetName, ...nightSource } of sources) {

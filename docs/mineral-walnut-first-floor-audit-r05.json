@@ -1,0 +1,964 @@
+{
+  "version": "MW-F1-R05",
+  "created": "2026-10-10",
+  "scope": "Mineral & Walnut first floor only",
+  "status": "visual_qa_passed_design_visualization; awaiting_homeowner_feedback",
+  "method": "First audited the 20 pre-R05 published first-floor images against the four labeled model-home photos, a fresh rendering of blueprint PDF page 2, actual entrance/exterior evidence and explicit homeowner corrections. Then visually reviewed 16 replacement Higgsfield image-edit candidates (eight day and eight same-camera night views); final selections/job IDs are cross-referenced to docs/first-floor-r05-production.json. Four previously audited empty-gym views are retained. A visual QA pass establishes design-image coherence only; reverse elevations are interpretive and dimensions, clearances, construction details, products and physical samples require field verification.",
+  "sources": {
+    "publishedData": "docs/house-design-review.html#review-data",
+    "blueprint": "assets/cf_city_home_with_georgetown_pkg.pdf",
+    "blueprintPage": 2,
+    "planPreview": "docs/design-review-assets/floor-1-r04-plan.webp",
+    "modelPhotos": [
+      "assets/Crown Georgetown Photos/first-floor-entrance-gallery-and-spiral-staircase.jpg.webp",
+      "assets/Crown Georgetown Photos/first-floor-home-office.jpg.webp",
+      "assets/Crown Georgetown Photos/first-floor-media-room.jpg.webp",
+      "assets/Crown Georgetown Photos/first-floor-studio-room.jpg.webp"
+    ],
+    "actualExterior": [
+      "assets/Outside Photos/front-door.jpg",
+      "assets/Outside Photos/south-front-door.jpg"
+    ]
+  },
+  "evidenceRules": [
+    "Original photographs govern photographed primary camera, room proportions and observed openings. Explicit homeowner actual-house corrections govern new requested glazing and portico-window elevation.",
+    "Derived reverse cameras use blueprint adjacencies and their corresponding approved primary; they are interpretations rather than measured elevations.",
+    "Nights inherit the evidence role and architecture of their exact paired days.",
+    "Printed-plan coordinates and camera left/right are separate: reversing the camera reverses image left/right."
+  ],
+  "corrections": [
+    {
+      "topic": "Office window reading",
+      "finding": "Original photo has TWO structural units in BOTH window banks. Thin muntin/glazing bars were misread as a third structural unit in earlier specs; those three-unit instructions are superseded."
+    },
+    {
+      "topic": "Bath camera reversal",
+      "finding": "Earlier audit claim that B2 bench was on the wrong side is retracted. B2 faces south, so the studio-side printed-plan-left Seat correctly appears CAMERA-RIGHT. Existing narrowed shower also retained; only door offsets refined."
+    }
+  ],
+  "openConfirmations": [
+    {
+      "room": "office",
+      "topic": "Circular portico-side window",
+      "status": "homeowner_confirmed_elevation",
+      "note": "User specifies circular shape. Blueprint marks opening but does not establish circular elevation; use homeowner correction."
+    },
+    {
+      "room": "media",
+      "topic": "Small seating-wall window",
+      "status": "homeowner_confirmed_exterior_false_window",
+      "note": "User confirms the small facade opening is an exterior FAKE window only, with no opening visible inside. Media seating wall must be solid in BOTH M1 and M2; do not add interior glazing from the brochure-plan symbol."
+    },
+    {
+      "room": "media",
+      "topic": "Centered smaller 2x2 primary window",
+      "status": "homeowner_actual_house_brief",
+      "note": "Render per user correction; actual opening dimensions and stock furniture fit still require physical verification."
+    }
+  ],
+  "summary": {
+    "images": 20,
+    "day": 10,
+    "night": 10,
+    "replaceOffice": 4,
+    "replaceMedia": 4,
+    "replaceEntryTextOnly": 4,
+    "refineBathDoorOffsets": 4,
+    "retainGym": 4
+  },
+  "rooms": [
+    {
+      "id": "entry",
+      "action": "replace_text_only",
+      "qaStatus": "approved_design_visualization",
+      "finding": "R05 day and night pairs pass inscription and architectural continuity checks: painted Welcome Home under the balcony arch and small installed 3D See you next time. above the entrance. Light clear doors, cascade chandelier, natural oak and uncovered stair retained.",
+      "criteria": [
+        "E1: exactly Welcome Home, W/H capitals, small flat painted lettering below balcony and above arch.",
+        "E2: exactly See you next time. including final period, small installed 3D lettering above entrance door.",
+        "Retain portrait cameras, foreground reverse arch, clear light-framed single-lite door pairs, single arched wood entrance door and high round window.",
+        "Same cascade chandelier, neutral natural oak floor, exposed oak treads/white risers and no runner.",
+        "Night matches approved new day; E2 entrance privacy shade closed, interior door pairs and high round window bare."
+      ],
+      "views": [
+        {
+          "code": "E1",
+          "scene": "day",
+          "oldJobId": "aebe26f7-40e2-4498-a989-acc48b1ced4d",
+          "file": "assets/render-candidates/mineral-walnut-neutral/r01/entry-e1-day.png",
+          "publicAsset": "design-review-assets/floor-1-r04-entry-mw-neutral-r01-E1.webp",
+          "role": "photo_based_primary",
+          "finding": "Painted Welcome Home passes exact wording/case and restrained position beneath balcony; source camera and entry architecture retained.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51001,
+            "jobId": "006a3f39-145d-4089-9711-3e5d503db5aa",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-day.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "E1",
+            "qaStatus": "approved_design_visualization",
+            "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+          }
+        },
+        {
+          "code": "E2",
+          "scene": "day",
+          "oldJobId": "fbd0c91f-9d07-4e68-8a2d-e46a10dd0d12",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/entry-e2-day.png",
+          "publicAsset": "design-review-assets/floor-1-r04-entry-mw-neutral-r01-E2.webp",
+          "role": "plan_led_derived_reverse",
+          "finding": "Small 3D See you next time. passes exact wording/punctuation above the entrance; inferred reverse camera, entrance door and high round window retained.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51002,
+            "jobId": "3bab801e-257b-4a4f-8342-28edbb0b1713",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-day.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "E2",
+            "qaStatus": "approved_design_visualization",
+            "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+          }
+        },
+        {
+          "code": "E1-NRN",
+          "scene": "night",
+          "sourceCode": "E1",
+          "oldJobId": "dad269c9-746a-4f74-8803-a8b25d1028a7",
+          "file": "assets/render-candidates/mineral-walnut-neutral/r01/entry-night.png",
+          "publicAsset": "design-review-assets/floor-1-r04-entry-mw-neutral-night-r01-night.webp",
+          "role": "same_camera_night_of_photo_based_primary",
+          "finding": "Matches corrected E1 daytime camera, openings, furniture and finishes; useful practical lighting and scheduled privacy/blackout closure pass.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51011,
+            "jobId": "53b2d83b-ecce-4f27-8611-c652e7812dde",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-night.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "E1-F105N",
+            "qaStatus": "approved_design_visualization",
+            "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+          }
+        },
+        {
+          "code": "E2-GN02",
+          "scene": "night",
+          "sourceCode": "E2",
+          "oldJobId": "ec65e402-157e-49e1-8347-5ee80d1d3e89",
+          "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/entry-e2-night.png",
+          "publicAsset": "design-review-assets/floor-1-r04-entry-mw-angle-nights-r01-E2-GN02.webp",
+          "role": "same_camera_night_of_plan_led_derived_reverse",
+          "finding": "Matches corrected E2 daytime camera, openings, furniture and finishes; useful practical lighting and scheduled privacy/blackout closure pass.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51112,
+            "jobId": "44ba36d8-a272-4191-b8ca-57171e527678",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-night-a2.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "E2-F105N",
+            "qaStatus": "approved_design_visualization",
+            "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "office",
+      "action": "replace_structure_and_station_location",
+      "qaStatus": "approved_design_visualization",
+      "finding": "R05 primary and reverse pairs pass the corrected opening and workstation brief: centered paired two-unit/two-row exterior banks; right-offset gallery doors, circular portico-side window and compact printer/art station to their left; walnut TV library and rectangular northwest-facing desk retained.",
+      "criteria": [
+        "Both exterior window banks: two structural units with two sash rows (2x2 major glazing), centered within their walls; do not treat thin decorative bars as structural mullions.",
+        "Use original office photo for primary camera and room envelope (15ft5 by12ft11); keep flat ceiling.",
+        "O2 door pair moves toward camera-right on the gallery/portico wall, leaving larger uninterrupted wall to camera-left.",
+        "User-confirmed small circular portico-side window belongs in the left wall zone beside the gallery doors; blueprint establishes the opening location but not its elevation shape.",
+        "Compact printer console and artwork belong on the larger camera-left wall zone beside the doors, not the narrow strip between door and full TV joinery.",
+        "Retain full north-wall walnut buildout with integrated TV/soundbar and large rectangular desk oriented diagonally toward northwest.",
+        "Night variants derived from approved new days; functional privacy shades close on visible exterior glazing, internal clear doors stay transparent."
+      ],
+      "views": [
+        {
+          "code": "O1",
+          "scene": "day",
+          "oldJobId": "d368c093-a370-4ed0-b817-dee447a27deb",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/office-o1-day.png",
+          "publicAsset": "design-review-assets/floor-1-r04-office-mw-neutral-r01-O1.webp",
+          "role": "photo_based_primary",
+          "finding": "Both centered exterior banks now read as two structural units with two sash rows; north-wall TV/library and desk preserved.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51003,
+            "jobId": "c82d6061-80d9-4d47-8f11-82fef17d0f21",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-day.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "O1",
+            "qaStatus": "approved_design_visualization",
+            "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+          }
+        },
+        {
+          "code": "O2",
+          "scene": "day",
+          "oldJobId": "03169a46-d9b0-4193-a5fd-8d0bd5261f15",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/office-o2-day-31502.png",
+          "publicAsset": "design-review-assets/floor-1-r04-office-mw-neutral-r01-O2.webp",
+          "role": "plan_led_derived_reverse",
+          "finding": "Gallery doors are offset toward camera-right; round window, printer cabinet and framed art occupy larger camera-left section; full walnut library retained.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51104,
+            "jobId": "7b543900-593d-4b99-b0e7-b1efcab6ff5a",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-day-a2.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "O2",
+            "qaStatus": "approved_design_visualization",
+            "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+          }
+        },
+        {
+          "code": "O1-N4",
+          "scene": "night",
+          "sourceCode": "O1",
+          "oldJobId": "0e1ea243-25c4-4297-a862-eee7920a2394",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/office-night.png",
+          "publicAsset": "design-review-assets/floor-1-r04-office-mw-neutral-night-r01-night.webp",
+          "role": "same_camera_night_of_photo_based_primary",
+          "finding": "Matches corrected O1 daytime camera, openings, furniture and finishes; useful practical lighting and scheduled privacy/blackout closure pass.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51113,
+            "jobId": "77ccea51-ec4c-4268-add9-298d5802b404",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-night-a2.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "O1-F105N",
+            "qaStatus": "approved_design_visualization",
+            "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+          }
+        },
+        {
+          "code": "O2-GN01",
+          "scene": "night",
+          "sourceCode": "O2",
+          "oldJobId": "eb57d703-4113-4d19-86c8-15e15160b193",
+          "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/office-o2-night.png",
+          "publicAsset": "design-review-assets/floor-1-r04-office-mw-angle-nights-r01-O2-GN01.webp",
+          "role": "same_camera_night_of_plan_led_derived_reverse",
+          "finding": "Matches corrected O2 daytime camera, openings, furniture and finishes; useful practical lighting and scheduled privacy/blackout closure pass.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51114,
+            "jobId": "8a6c81cf-f5d1-40b3-a308-2ae51b36af02",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-night-a2.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "O2-F105N",
+            "qaStatus": "approved_design_visualization"
+          }
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "action": "replace_window_and_furniture_wall_composition",
+      "qaStatus": "approved_design_visualization",
+      "finding": "R05 pairs pass the revised compact-room brief: smaller centered paired 2x2 main window, solid seating wall from homeowner false-window confirmation, two end ottomans, 83-inch TV, wider fitted walnut console and quiet mineral/acoustic wall. The selected final M1 window-centering correction and its night mate are recorded in the production manifest.",
+      "criteria": [
+        "One smaller approximately square two-unit/two-row exterior window, centered on its wall; no three-unit or wall-wide glazing. Exact actual-house dimensions remain to verify.",
+        "Keep original model-home camera/envelope and original ceiling/crown; 15ft1 by11ft1 room must not grow to fit furniture.",
+        "TV wall is printed-plan left/shared office wall. Clear paired hall doors on printed-plan top wall stay toward that TV-wall corner, leaving display space to their right from inside.",
+        "83-inch 16:9 TV with slim soundbar; wider fitted walnut media console and shallow service-wall buildout rather than a recess cut into the office-shared wall.",
+        "Warm ivory RH Cloud seating with an ottoman at each end, slim side tables and compact central table; realistic aisle and door clearances.",
+        "Quiet mushroom mineral TV centre with restrained walnut/acoustic side treatment; TV remains primary focus, no projecting charcoal box or aggressive full slat/stone wall.",
+        "Ceiling/rear audio retained and coordinated; sheers plus blackout-lined curtains at exterior glazing, clear interior doors unchanged.",
+        "User-confirmed seating-wall facade detail is an exterior FALSE window only; BOTH views have a solid interior sofa wall with no interior opening."
+      ],
+      "views": [
+        {
+          "code": "M1",
+          "scene": "day",
+          "oldJobId": "7f13cd4d-378a-4a37-bdca-366ac6e329b6",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/media-m1-day-30603.png",
+          "publicAsset": "design-review-assets/floor-1-r04-media-mw-neutral-r01-M1.webp",
+          "role": "photo_based_primary",
+          "finding": "Selected final camera retains compact source room while centering the smaller square-looking paired window. Cloud seating has two end ottomans; 83-inch TV sits above a wider fitted console with restrained mineral/acoustic backing.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51707,
+            "jobId": "0020dd3f-2a17-4b6f-94ea-008715a559c3",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a8.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "M1",
+            "qaStatus": "approved_design_visualization",
+            "qaNote": "Root and independent architecture reviewer pass: square paired bank moved toward true centre with balanced returns under perspective; remaining approximately2–3%projected difference is within interpretive visualization. Two ottomans, wideconsole, single soundbar and quiet TVwall retained. Actual dimensions require site confirmation."
+          }
+        },
+        {
+          "code": "M2",
+          "scene": "day",
+          "oldJobId": "f8fb0ea6-6485-431d-a47f-fc97fab21e6c",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/media-m2-day.png",
+          "publicAsset": "design-review-assets/floor-1-r04-media-mw-neutral-r01-M2.webp",
+          "role": "plan_led_derived_reverse",
+          "finding": "Clear gallery doors sit near the TV-wall corner; display area remains beside them. Solid sofa wall, two end ottomans and fitted 83-inch TV wall agree with the revised room brief.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51108,
+            "jobId": "db6322d0-bf8b-41e4-8cca-9a1eb3d755a0",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-day-a2.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "M2",
+            "qaStatus": "approved_design_visualization"
+          }
+        },
+        {
+          "code": "M1-N4",
+          "scene": "night",
+          "sourceCode": "M1",
+          "oldJobId": "c7523dd7-3eae-4926-93a8-77c2b87bba34",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/media-night.png",
+          "publicAsset": "design-review-assets/floor-1-r04-media-mw-neutral-night-r01-night.webp",
+          "role": "same_camera_night_of_photo_based_primary",
+          "finding": "Matches corrected M1 daytime camera, openings, furniture and finishes; useful practical lighting and scheduled privacy/blackout closure pass.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51217,
+            "jobId": "cb683874-6b65-45df-bd46-07b850d8b52d",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-night-a3.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "M1-F105N",
+            "qaStatus": "approved_design_visualization",
+            "qaNote": "Same camera and corrected day architecture/furniture retained; opaquecurtain overlap now closes centrelightgap; dimnightTVwall/acoustic/consolelighting reviewed. Exact lighting output and fabric require product/site confirmation."
+          }
+        },
+        {
+          "code": "M2-GN01",
+          "scene": "night",
+          "sourceCode": "M2",
+          "oldJobId": "859698d9-960a-4a0d-adb8-227be978c4c6",
+          "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/media-m2-night.png",
+          "publicAsset": "design-review-assets/floor-1-r04-media-mw-angle-nights-r01-M2-GN01.webp",
+          "role": "same_camera_night_of_plan_led_derived_reverse",
+          "finding": "Matches corrected M2 daytime camera, openings, furniture and finishes; useful practical lighting and scheduled privacy/blackout closure pass.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51018,
+            "jobId": "cf041cd9-4082-4427-8800-3afd5eb0d5b2",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-night.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "M2-F105N",
+            "qaStatus": "approved_design_visualization",
+            "qaNote": "Root and two independent reviewers confirm same-camera day/night geometry, solid sofa wall, clear gallery doors, two ottomans, single soundbar, and Option1 materials; warm dimmed movie scene. Exact installation dimensions remain field measured."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gym",
+      "action": "retain",
+      "qaStatus": "retained_after_visual_audit",
+      "finding": "No clear structural rejection found across both days and night pairs. Original main window, plan-led portico opening, clear gallery pair, closet separate from bath door and empty reflected shell are coherent.",
+      "criteria": [
+        "Retain compact 11ft11 by 13ft1 shell, flat ceiling and visible original paired street window.",
+        "Retain closet footprint/door distinct from adjacent Bath #3 access; do not invent central projecting storage.",
+        "Keep the empty exercise room and empty mirror reflection, charcoal rubber floor and warm ivory washable walls.",
+        "Exact quote Surpass your limits. Right here, right now.",
+        "Roller/privacy shades at street and portico glazing; no loose drapes or workout equipment.",
+        "G2 portico window elevation remains inferred; plan proves opening location, not glazing shape."
+      ],
+      "views": [
+        {
+          "code": "G1",
+          "scene": "day",
+          "oldJobId": "fece6058-938d-4fbd-86b8-30b110148592",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/gym-g1-day-30504.png",
+          "publicAsset": "design-review-assets/floor-1-r04-gym-mw-neutral-r01-G1.webp",
+          "role": "photo_based_primary",
+          "finding": "Empty room, mirror/quote, paired main window and closet/bath return preserved; retain.",
+          "qaStatus": "retained_after_visual_audit"
+        },
+        {
+          "code": "G2",
+          "scene": "day",
+          "oldJobId": "b4e7ed78-8706-46bb-b556-4f27a94d5279",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/gym-g2-day-31504.png",
+          "publicAsset": "design-review-assets/floor-1-r04-gym-mw-neutral-r01-G2.webp",
+          "role": "plan_led_derived_reverse",
+          "finding": "Reverse clear gallery doors, smaller portico opening and main street window are plan-coherent; retain with inferred-elevation qualification.",
+          "qaStatus": "retained_after_visual_audit"
+        },
+        {
+          "code": "G1-N4",
+          "scene": "night",
+          "sourceCode": "G1",
+          "oldJobId": "f8f675ec-8972-4f67-8708-c0a50eaf8fbf",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/gym-night.png",
+          "publicAsset": "design-review-assets/floor-1-r04-gym-mw-neutral-night-r01-night.webp",
+          "role": "same_camera_night_of_photo_based_primary",
+          "finding": "Same-camera night preserves retained empty-shell geometry and closed privacy shades.",
+          "qaStatus": "retained_after_visual_audit"
+        },
+        {
+          "code": "G2-GN01",
+          "scene": "night",
+          "sourceCode": "G2",
+          "oldJobId": "a5fd2e9e-583c-43b7-b24d-c3948d6eb058",
+          "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/gym-g2-night.png",
+          "publicAsset": "design-review-assets/floor-1-r04-gym-mw-angle-nights-r01-G2-GN01.webp",
+          "role": "same_camera_night_of_plan_led_derived_reverse",
+          "finding": "Same-camera night preserves retained empty-shell geometry and closed privacy shades.",
+          "qaStatus": "retained_after_visual_audit"
+        }
+      ]
+    },
+    {
+      "id": "bath",
+      "action": "refine_door_offsets_only",
+      "qaStatus": "approved_design_visualization",
+      "finding": "R05 pairs pass the door-offset refinement: studio access near vanity end and rearhall access near shower end. Vanity/toilet positions, windowless shell, narrow shower and B2 camera-right bench remain unchanged.",
+      "criteria": [
+        "Printed-plan top/garage end: vanity and toilet together; opposite end has shower. Windowless compact shell and flat ceiling.",
+        "B1 faces garage/vanity: vanity left/toilet right; studio door camera-left nearer vanity; rearhall door camera-right nearer shower/camera.",
+        "B2 faces shower: studio door camera-right nearer vanity/camera; rearhall door camera-left farther toward shower.",
+        "B2 bench camera-RIGHT is correct: printed-plan studio-side Seat appears right in this opposing camera. Never move it left.",
+        "Preserve existing narrower shower, studio-side step, bench, glass, porcelain and plumbing fixtures; no speculative shower rebuild.",
+        "Same-camera nights preserve corrected door offsets and existing practical bathroom lighting."
+      ],
+      "views": [
+        {
+          "code": "B1",
+          "scene": "day",
+          "oldJobId": "6fef3adf-1c50-4994-bb28-59ee4d31612b",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/bath-b1-day-30505.png",
+          "publicAsset": "design-review-assets/floor-1-r04-bath-mw-neutral-r01-B1.webp",
+          "role": "plan_led_concept_no_original_photo",
+          "finding": "Studio door remains left near vanity; rearhall door is right nearer camera/shower, establishing staggered access. Fixtures and existing finishes retained.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51005,
+            "jobId": "1289dd19-1fb8-4d57-b195-ee5fe214eec7",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-day.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "B1",
+            "qaStatus": "approved_design_visualization",
+            "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+          }
+        },
+        {
+          "code": "B2",
+          "scene": "day",
+          "oldJobId": "9e5b21e2-bc6b-4109-a57c-099a66e530ff",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/bath-b2-day.png",
+          "publicAsset": "design-review-assets/floor-1-r04-bath-mw-neutral-r01-B2.webp",
+          "role": "plan_led_concept_no_original_photo",
+          "finding": "Studio door is right near camera/vanity; rearhall door is left near shower. B2 right-hand shower bench and original narrow shower remain correct.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51006,
+            "jobId": "d85cf98f-7cae-4ce8-a9ec-ea74817cab5f",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-day.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "B2",
+            "qaStatus": "approved_design_visualization",
+            "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+          }
+        },
+        {
+          "code": "B1-N4",
+          "scene": "night",
+          "sourceCode": "B1",
+          "oldJobId": "5677319c-8b01-4e3f-98bc-358502205303",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/bath-night.png",
+          "publicAsset": "design-review-assets/floor-1-r04-bath-mw-neutral-night-r01-night.webp",
+          "role": "same_camera_night_of_plan_led_concept",
+          "finding": "Matches corrected B1 daytime camera, openings, furniture and finishes; useful practical lighting and scheduled privacy/blackout closure pass.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51015,
+            "jobId": "76ea864d-f526-43d0-b12f-4e459f6a90ac",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-night.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "B1-F105N",
+            "qaStatus": "approved_design_visualization",
+            "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+          }
+        },
+        {
+          "code": "B2-GN01",
+          "scene": "night",
+          "sourceCode": "B2",
+          "oldJobId": "dd9a6471-4f11-450c-ad70-056a0a460fee",
+          "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/bath-b2-night.png",
+          "publicAsset": "design-review-assets/floor-1-r04-bath-mw-angle-nights-r01-B2-GN01.webp",
+          "role": "same_camera_night_of_plan_led_concept",
+          "finding": "Matches corrected B2 daytime camera, openings, furniture and finishes; useful practical lighting and scheduled privacy/blackout closure pass.",
+          "qaStatus": "approved_design_visualization",
+          "correctedCandidate": {
+            "index": 51016,
+            "jobId": "541e4ddc-73c6-4a82-b1db-650c772beab0",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-night.png",
+            "status": "approved_design_visualization",
+            "note": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+            "code": "B2-F105N",
+            "qaStatus": "approved_design_visualization",
+            "qaNote": "Visually reviewed against source photo/plan, latest homeowner brief and same-camera partner where applicable. Geometry, requested detail and pure Option1 finishes pass. Final installation sizes and products require field confirmation."
+          }
+        }
+      ]
+    }
+  ],
+  "newCandidateQA": {
+    "status": "visual_qa_passed_design_visualization",
+    "provider": "Higgsfield API",
+    "rule": "Only the 16 selected jobs with approved_design_visualization in the production manifest are current replacements. Rejected/earlier attempts remain in that manifest as generation history. Visual review checks image coherence; it does not establish measured construction approval or homeowner sign-off.",
+    "checks": [
+      "Openings/count/centering/door offsets against evidence and latest user corrections",
+      "Source camera, ceiling profile, room scale and paired-view coherence",
+      "Exact entrance inscription case/punctuation and fabrication style",
+      "Furniture fit, 83-inch TV, double ottomans,console greater than TV width and TV visual focus",
+      "Pure Mineral & Walnut materials, no stair runners",
+      "Day/night same camera and matching shade operation",
+      "Media sofa wall solid in both views; exterior false-window detail never rendered as interior opening."
+    ],
+    "manifest": "docs/first-floor-r05-production.json",
+    "approvedNewViews": 16,
+    "retainedGymViews": 4,
+    "deliveredJobs": [
+      {
+        "index": 51001,
+        "jobId": "006a3f39-145d-4089-9711-3e5d503db5aa",
+        "room": "entry",
+        "code": "E1",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-day.png",
+        "qaStatus": "approved_design_visualization"
+      },
+      {
+        "index": 51002,
+        "jobId": "3bab801e-257b-4a4f-8342-28edbb0b1713",
+        "room": "entry",
+        "code": "E2",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-day.png",
+        "qaStatus": "approved_design_visualization"
+      },
+      {
+        "index": 51003,
+        "jobId": "c82d6061-80d9-4d47-8f11-82fef17d0f21",
+        "room": "office",
+        "code": "O1",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-day.png",
+        "qaStatus": "approved_design_visualization"
+      },
+      {
+        "index": 51005,
+        "jobId": "1289dd19-1fb8-4d57-b195-ee5fe214eec7",
+        "room": "bath",
+        "code": "B1",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-day.png",
+        "qaStatus": "approved_design_visualization"
+      },
+      {
+        "index": 51006,
+        "jobId": "d85cf98f-7cae-4ce8-a9ec-ea74817cab5f",
+        "room": "bath",
+        "code": "B2",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-day.png",
+        "qaStatus": "approved_design_visualization"
+      },
+      {
+        "index": 51011,
+        "jobId": "53b2d83b-ecce-4f27-8611-c652e7812dde",
+        "room": "entry",
+        "code": "E1-F105N",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-night.png",
+        "qaStatus": "approved_design_visualization"
+      },
+      {
+        "index": 51015,
+        "jobId": "76ea864d-f526-43d0-b12f-4e459f6a90ac",
+        "room": "bath",
+        "code": "B1-F105N",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-night.png",
+        "qaStatus": "approved_design_visualization"
+      },
+      {
+        "index": 51016,
+        "jobId": "541e4ddc-73c6-4a82-b1db-650c772beab0",
+        "room": "bath",
+        "code": "B2-F105N",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-night.png",
+        "qaStatus": "approved_design_visualization"
+      },
+      {
+        "index": 51112,
+        "jobId": "44ba36d8-a272-4191-b8ca-57171e527678",
+        "room": "entry",
+        "code": "E2-F105N",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-night-a2.png",
+        "qaStatus": "approved_design_visualization"
+      },
+      {
+        "index": 51104,
+        "jobId": "7b543900-593d-4b99-b0e7-b1efcab6ff5a",
+        "room": "office",
+        "code": "O2",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-day-a2.png",
+        "qaStatus": "approved_design_visualization"
+      },
+      {
+        "index": 51113,
+        "jobId": "77ccea51-ec4c-4268-add9-298d5802b404",
+        "room": "office",
+        "code": "O1-F105N",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-night-a2.png",
+        "qaStatus": "approved_design_visualization"
+      },
+      {
+        "index": 51114,
+        "jobId": "8a6c81cf-f5d1-40b3-a308-2ae51b36af02",
+        "room": "office",
+        "code": "O2-F105N",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-night-a2.png",
+        "qaStatus": "approved_design_visualization"
+      },
+      {
+        "index": 51108,
+        "jobId": "db6322d0-bf8b-41e4-8cca-9a1eb3d755a0",
+        "room": "media",
+        "code": "M2",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-day-a2.png",
+        "qaStatus": "approved_design_visualization"
+      },
+      {
+        "index": 51018,
+        "jobId": "cf041cd9-4082-4427-8800-3afd5eb0d5b2",
+        "room": "media",
+        "code": "M2-F105N",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-night.png",
+        "qaStatus": "approved_design_visualization"
+      },
+      {
+        "index": 51707,
+        "jobId": "0020dd3f-2a17-4b6f-94ea-008715a559c3",
+        "room": "media",
+        "code": "M1",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a8.png",
+        "qaStatus": "approved_design_visualization"
+      },
+      {
+        "index": 51217,
+        "jobId": "cb683874-6b65-45df-bd46-07b850d8b52d",
+        "room": "media",
+        "code": "M1-F105N",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-night-a3.png",
+        "qaStatus": "approved_design_visualization"
+      }
+    ],
+    "retainedViews": [
+      {
+        "code": "G1",
+        "scene": "day",
+        "jobId": "fece6058-938d-4fbd-86b8-30b110148592",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/gym-g1-day-30504.png",
+        "publicAsset": "design-review-assets/floor-1-r04-gym-mw-neutral-r01-G1.webp",
+        "qaStatus": "retained_after_visual_audit"
+      },
+      {
+        "code": "G2",
+        "scene": "day",
+        "jobId": "b4e7ed78-8706-46bb-b556-4f27a94d5279",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/gym-g2-day-31504.png",
+        "publicAsset": "design-review-assets/floor-1-r04-gym-mw-neutral-r01-G2.webp",
+        "qaStatus": "retained_after_visual_audit"
+      },
+      {
+        "code": "G1-N4",
+        "scene": "night",
+        "jobId": "f8f675ec-8972-4f67-8708-c0a50eaf8fbf",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/gym-night.png",
+        "publicAsset": "design-review-assets/floor-1-r04-gym-mw-neutral-night-r01-night.webp",
+        "qaStatus": "retained_after_visual_audit"
+      },
+      {
+        "code": "G2-GN01",
+        "scene": "night",
+        "jobId": "a5fd2e9e-583c-43b7-b24d-c3948d6eb058",
+        "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/gym-g2-night.png",
+        "publicAsset": "design-review-assets/floor-1-r04-gym-mw-angle-nights-r01-G2-GN01.webp",
+        "qaStatus": "retained_after_visual_audit"
+      }
+    ],
+    "limitations": [
+      "Derived reverse views interpret plan relationships rather than measured elevations.",
+      "Photo and explicit actual-house corrections govern openings; site measurements still govern installation.",
+      "Furniture fit, exact TV/console dimensions, electrical/service routes and samples require field confirmation.",
+      "No homeowner construction, procurement or fabrication approval is inferred from render QA."
+    ]
+  },
+  "production": "docs/first-floor-r05-production.json",
+  "delivery": {
+    "newDayViews": 8,
+    "newMatchingNightViews": 8,
+    "retainedGymViews": 4,
+    "revision": "MW-F1-R05"
+  },
+  "auditHistory": [
+    {
+      "revision": "before_MW-F1-R05",
+      "date": "2026-10-10",
+      "scope": "Original 20-image source audit before replacement",
+      "rooms": [
+        {
+          "id": "entry",
+          "action": "replace_text_only",
+          "qaStatus": "awaiting_Higgsfield_candidates",
+          "finding": "Architecture substantially follows original forward photo and actual exterior entrance evidence. All four views retain superseded inscriptions.",
+          "views": [
+            {
+              "code": "E1",
+              "scene": "day",
+              "jobId": "aebe26f7-40e2-4498-a989-acc48b1ced4d",
+              "file": "assets/render-candidates/mineral-walnut-neutral/r01/entry-e1-day.png",
+              "publicAsset": "design-review-assets/floor-1-r04-entry-mw-neutral-r01-E1.webp",
+              "role": "photo_based_primary",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Former Home is where the Heart is text must become Welcome Home; preserve photo-based architecture."
+            },
+            {
+              "code": "E2",
+              "scene": "day",
+              "jobId": "fbd0c91f-9d07-4e68-8a2d-e46a10dd0d12",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r01/entry-e2-day.png",
+              "publicAsset": "design-review-assets/floor-1-r04-entry-mw-neutral-r01-E2.webp",
+              "role": "plan_led_derived_reverse",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Former Take the road less traveled text must become See you next time.; reverse elevation is inferred from plan and actual exterior door photographs."
+            },
+            {
+              "code": "E1-NRN",
+              "scene": "night",
+              "jobId": "dad269c9-746a-4f74-8803-a8b25d1028a7",
+              "file": "assets/render-candidates/mineral-walnut-neutral/r01/entry-night.png",
+              "publicAsset": "design-review-assets/floor-1-r04-entry-mw-neutral-night-r01-night.webp",
+              "role": "same_camera_night_of_photo_based_primary",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Inherits paired E1 finding. New night must be generated from its corrected approved day."
+            },
+            {
+              "code": "E2-GN02",
+              "scene": "night",
+              "jobId": "ec65e402-157e-49e1-8347-5ee80d1d3e89",
+              "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/entry-e2-night.png",
+              "publicAsset": "design-review-assets/floor-1-r04-entry-mw-angle-nights-r01-E2-GN02.webp",
+              "role": "same_camera_night_of_plan_led_derived_reverse",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Inherits paired E2 finding. New night must be generated from its corrected approved day."
+            }
+          ]
+        },
+        {
+          "id": "office",
+          "action": "replace_structure_and_station_location",
+          "qaStatus": "awaiting_Higgsfield_candidates",
+          "finding": "O1 renders three structural window units on one bank; O2 gallery doors are too central, portico-side circular window absent and printer/art station occupies the wrong side of the door. Night variants inherit these defects.",
+          "views": [
+            {
+              "code": "O1",
+              "scene": "day",
+              "jobId": "d368c093-a370-4ed0-b817-dee447a27deb",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r01/office-o1-day.png",
+              "publicAsset": "design-review-assets/floor-1-r04-office-mw-neutral-r01-O1.webp",
+              "role": "photo_based_primary",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Right window bank incorrectly expanded to three structural units; correct both banks to two centered units and preserve source camera."
+            },
+            {
+              "code": "O2",
+              "scene": "day",
+              "jobId": "03169a46-d9b0-4193-a5fd-8d0bd5261f15",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r02/office-o2-day-31502.png",
+              "publicAsset": "design-review-assets/floor-1-r04-office-mw-neutral-r01-O2.webp",
+              "role": "plan_led_derived_reverse",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Doors need camera-right offset; left zone needs circular window and printer/art station. Existing station is camera-right of doors."
+            },
+            {
+              "code": "O1-N4",
+              "scene": "night",
+              "jobId": "0e1ea243-25c4-4297-a862-eee7920a2394",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r01/office-night.png",
+              "publicAsset": "design-review-assets/floor-1-r04-office-mw-neutral-night-r01-night.webp",
+              "role": "same_camera_night_of_photo_based_primary",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Inherits paired O1 finding. New night must be generated from its corrected approved day."
+            },
+            {
+              "code": "O2-GN01",
+              "scene": "night",
+              "jobId": "eb57d703-4113-4d19-86c8-15e15160b193",
+              "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/office-o2-night.png",
+              "publicAsset": "design-review-assets/floor-1-r04-office-mw-angle-nights-r01-O2-GN01.webp",
+              "role": "same_camera_night_of_plan_led_derived_reverse",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Inherits paired O2 finding. New night must be generated from its corrected approved day."
+            }
+          ]
+        },
+        {
+          "id": "media",
+          "action": "replace_window_and_furniture_wall_composition",
+          "qaStatus": "awaiting_Higgsfield_candidates",
+          "finding": "Window is too large for homeowner actual-house brief; M2 entry is too central and must retain a solid sofa wall because the facade detail is an exterior false window. Existing single-chaise sofa and projecting dark TV backing do not meet new furniture/wall instructions.",
+          "views": [
+            {
+              "code": "M1",
+              "scene": "day",
+              "jobId": "7f13cd4d-378a-4a37-bdca-366ac6e329b6",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r02/media-m1-day-30603.png",
+              "publicAsset": "design-review-assets/floor-1-r04-media-mw-neutral-r01-M1.webp",
+              "role": "photo_based_primary",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Oversized paired window and one-ended chaise configuration; dark projecting backing/console needs replacement with quieter fitted TV composition."
+            },
+            {
+              "code": "M2",
+              "scene": "day",
+              "jobId": "f8fb0ea6-6485-431d-a47f-fc97fab21e6c",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r01/media-m2-day.png",
+              "publicAsset": "design-review-assets/floor-1-r04-media-mw-neutral-r01-M2.webp",
+              "role": "plan_led_derived_reverse",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Door pair should move toward TV corner; same two-ottoman Cloud layout and fitted TV wall must match M1. User confirms seating-wall facade detail is false window only: solid interior sofa wall, no glazing."
+            },
+            {
+              "code": "M1-N4",
+              "scene": "night",
+              "jobId": "c7523dd7-3eae-4926-93a8-77c2b87bba34",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r01/media-night.png",
+              "publicAsset": "design-review-assets/floor-1-r04-media-mw-neutral-night-r01-night.webp",
+              "role": "same_camera_night_of_photo_based_primary",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Inherits paired M1 finding. New night must be generated from its corrected approved day."
+            },
+            {
+              "code": "M2-GN01",
+              "scene": "night",
+              "jobId": "859698d9-960a-4a0d-adb8-227be978c4c6",
+              "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/media-m2-night.png",
+              "publicAsset": "design-review-assets/floor-1-r04-media-mw-angle-nights-r01-M2-GN01.webp",
+              "role": "same_camera_night_of_plan_led_derived_reverse",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Inherits paired M2 finding. New night must be generated from its corrected approved day."
+            }
+          ]
+        },
+        {
+          "id": "gym",
+          "action": "retain",
+          "qaStatus": "retained_after_visual_audit",
+          "finding": "No clear structural rejection found across both days and night pairs. Original main window, plan-led portico opening, clear gallery pair, closet separate from bath door and empty reflected shell are coherent.",
+          "views": [
+            {
+              "code": "G1",
+              "scene": "day",
+              "jobId": "fece6058-938d-4fbd-86b8-30b110148592",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r02/gym-g1-day-30504.png",
+              "publicAsset": "design-review-assets/floor-1-r04-gym-mw-neutral-r01-G1.webp",
+              "role": "photo_based_primary",
+              "qaStatus": "retained_after_visual_audit",
+              "finding": "Empty room, mirror/quote, paired main window and closet/bath return preserved; retain."
+            },
+            {
+              "code": "G2",
+              "scene": "day",
+              "jobId": "b4e7ed78-8706-46bb-b556-4f27a94d5279",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r02/gym-g2-day-31504.png",
+              "publicAsset": "design-review-assets/floor-1-r04-gym-mw-neutral-r01-G2.webp",
+              "role": "plan_led_derived_reverse",
+              "qaStatus": "retained_after_visual_audit",
+              "finding": "Reverse clear gallery doors, smaller portico opening and main street window are plan-coherent; retain with inferred-elevation qualification."
+            },
+            {
+              "code": "G1-N4",
+              "scene": "night",
+              "jobId": "f8f675ec-8972-4f67-8708-c0a50eaf8fbf",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r01/gym-night.png",
+              "publicAsset": "design-review-assets/floor-1-r04-gym-mw-neutral-night-r01-night.webp",
+              "role": "same_camera_night_of_photo_based_primary",
+              "qaStatus": "retained_after_visual_audit",
+              "finding": "Same-camera night preserves retained empty-shell geometry and closed privacy shades."
+            },
+            {
+              "code": "G2-GN01",
+              "scene": "night",
+              "jobId": "a5fd2e9e-583c-43b7-b24d-c3948d6eb058",
+              "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/gym-g2-night.png",
+              "publicAsset": "design-review-assets/floor-1-r04-gym-mw-angle-nights-r01-G2-GN01.webp",
+              "role": "same_camera_night_of_plan_led_derived_reverse",
+              "qaStatus": "retained_after_visual_audit",
+              "finding": "Same-camera night preserves retained empty-shell geometry and closed privacy shades."
+            }
+          ]
+        },
+        {
+          "id": "bath",
+          "action": "refine_door_offsets_only",
+          "qaStatus": "awaiting_Higgsfield_candidates",
+          "finding": "Fixture end walls, windowless shell, correct B2 camera-right bench and existing narrowed shower retained. Side access doors appear equally deep/aligned; refine studio-near-vanity versus rearhall-near-shower offsets only.",
+          "views": [
+            {
+              "code": "B1",
+              "scene": "day",
+              "jobId": "6fef3adf-1c50-4994-bb28-59ee4d31612b",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r02/bath-b1-day-30505.png",
+              "publicAsset": "design-review-assets/floor-1-r04-bath-mw-neutral-r01-B1.webp",
+              "role": "plan_led_concept_no_original_photo",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Rearhall right door appears similarly deep to studio left door. Move right rearhall access toward shower/camera; retain fixtures and shower."
+            },
+            {
+              "code": "B2",
+              "scene": "day",
+              "jobId": "9e5b21e2-bc6b-4109-a57c-099a66e530ff",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r01/bath-b2-day.png",
+              "publicAsset": "design-review-assets/floor-1-r04-bath-mw-neutral-r01-B2.webp",
+              "role": "plan_led_concept_no_original_photo",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Opposing camera requires studio right door nearer camera/vanity and rearhall left door nearer shower. Bench on camera-right is correct and retained."
+            },
+            {
+              "code": "B1-N4",
+              "scene": "night",
+              "jobId": "5677319c-8b01-4e3f-98bc-358502205303",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r01/bath-night.png",
+              "publicAsset": "design-review-assets/floor-1-r04-bath-mw-neutral-night-r01-night.webp",
+              "role": "same_camera_night_of_plan_led_concept",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Inherits paired B1 finding. New night must be generated from its corrected approved day."
+            },
+            {
+              "code": "B2-GN01",
+              "scene": "night",
+              "jobId": "dd9a6471-4f11-450c-ad70-056a0a460fee",
+              "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/bath-b2-night.png",
+              "publicAsset": "design-review-assets/floor-1-r04-bath-mw-angle-nights-r01-B2-GN01.webp",
+              "role": "same_camera_night_of_plan_led_concept",
+              "qaStatus": "awaiting_Higgsfield_candidates",
+              "finding": "Inherits paired B2 finding. New night must be generated from its corrected approved day."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

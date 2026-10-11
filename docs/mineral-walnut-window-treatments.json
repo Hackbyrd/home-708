@@ -75,7 +75,7 @@
       "id": "office",
       "system": "privacy",
       "recommendation": "Ivory sheers + hidden light-filtering privacy shades",
-      "coverage": "Both exterior window walls: front two-unit group and right three-unit group. Preserve clear internal gallery doors.",
+      "coverage": "Both main exterior banks are centered paired 2×2 groups, with TWO structural units in each bank. Preserve the small circular portico-side window and clear internal gallery doors; assess round-window privacy separately on site.",
       "why": "Adjustable glare control helps screen work and calls; a separate privacy layer lets you work after dark without closing the room off all day. Blackout is unnecessary for normal office use.",
       "day": "Sheers soften sun; adjust the shade on the bright side for monitor glare.",
       "night": "Lower privacy shades on both exterior window walls.",
@@ -95,7 +95,7 @@
       "id": "media",
       "system": "blackout",
       "recommendation": "Ivory sheers + blackout-lined curtains; removable clear-door covers for movie mode",
-      "coverage": "Full street-facing two-sash window plus a separate removable opaque cover for each interior glazed door leaf. The doors remain clear when covers are stowed.",
+      "coverage": "One REAL centered paired 2×2 street-facing window, plus a separate removable opaque cover for each clear interior door leaf. The sofa wall is SOLID: its smaller exterior window feature is fake, as confirmed by the homeowner, and has no inside opening.",
       "why": "Daylight and gallery light both reduce contrast on the 83-inch TV. Privacy alone is insufficient for the requested theater atmosphere.",
       "day": "Sheers for casual use; close blackout panels for daytime films.",
       "night": "Close blackout panels and fit the room-side door covers for movies; dim lights near the screen.",
@@ -531,5 +531,11 @@
       "title": "Roof terrace",
       "floor": "penthouse"
     }
-  ]
+  ],
+  "firstFloorUpdate": {
+    "date": "2026-10-10",
+    "feedbackReference": "FB-017",
+    "revision": "MW-F1-R05",
+    "status": "Requirements updated; replacement first-floor renders and visual QA pending. Existing cost allowances and purchasing decisions are unchanged."
+  }
 }

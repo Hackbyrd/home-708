@@ -1,7 +1,7 @@
 {
   "version": "MW-NR01",
   "date": "2026-10-08",
-  "status": "Image corrections completed; measurements, products and omitted-space scope remain open",
+  "status": "Prior whole-house audit retained; FB-017 first-floor corrections rendered and visually reviewed. Field measurements, products and omitted-space scope remain open.",
   "reviewed": {
     "dayViews": 45,
     "nightViews": 24,
@@ -15,7 +15,7 @@
     "baseline": "mw-architecture-r01",
     "method": "Visual comparison of every current day/night render, existing builder-plan previews, room schedules, window schedule, guide and budget exclusions. No site measurements, product tests or concealed conditions verified."
   },
-  "verdict": "Mineral & Walnut now has a corrected, coordinated 45-day / 24-night review set. The remaining work is measured fit, product and material selection, trade details and the ancillary spaces listed below—not more whole-house decorative features.",
+  "verdict": "The original Mineral & Walnut direction remains. FB-017 identified first-floor window-count/size, doorway-offset and furniture/composition errors requiring another targeted correction pass. Entry wording, office printer location and media seating/TV wall are updated requirements; do not treat published prior views as verified construction elevations.",
   "runner": {
     "decision": "No stair runner. The homeowner has selected exposed wood stairs across all floors.",
     "reason": "Natural oak and warm white risers keep the stair visually quiet within the original Mineral & Walnut palette.",
@@ -98,37 +98,40 @@
       "id": "entry",
       "title": "Entrance gallery",
       "floor": "first-floor",
-      "status": "Images revised · measure before ordering",
+      "status": "FB-017 correction required · replacement images and QA pending",
       "views": "E1 / E2",
       "keep": "The cascade chandelier, light glazed doors and open gallery make a strong arrival.",
       "finding": "E1/E2 strong peach cast and knotty orange boards; E1 runner boundary too dark. E2 remains an inferred front-facing view anchored to actual exterior entry photos.",
-      "action": "Confirm a coordinated physical oak finish sample and preserve all existing tread, riser, landing and guard geometry. No stair carpet is to be ordered.",
+      "action": "Keep light clear doors, cascade chandelier, matched oak and uncovered existing staircase. Replace painted arch wording with “Welcome Home” and raised departure wording with “See you next time.” Confirm full-size typography templates and finish-compatible application.",
       "previousFinding": "The wood and wall color read pinker than adjacent rooms in the renders; two inscriptions plus the chandelier already provide enough visual detail. A daily drop zone is only described in the notes.",
-      "rendered": "Light glazed doors, two-story chandelier and natural oak floor retained. The staircase beyond the arch has exposed oak treads and warm white risers, without a runner."
+      "rendered": "Published prior images remain; the corrections below are instructions, not a statement that new renders have passed QA.",
+      "priorRenderAssessment": "Light glazed doors, two-story chandelier and natural oak floor retained. The staircase beyond the arch has exposed oak treads and warm white risers, without a runner."
     },
     {
       "id": "office",
       "title": "Home office",
       "floor": "first-floor",
-      "status": "Images revised · measure before ordering",
+      "status": "FB-017 correction required · replacement images and QA pending",
       "views": "O1 / O2",
       "keep": "The walnut wall, integrated TV and large desk have a clear purpose.",
-      "finding": "O1/O2 do not clearly establish both original window banks and imply inconsistent room orientation. Desk no longer reads diagonally; printer competes with full-wall joinery.",
-      "action": "Use more closed storage and fewer meaningful display groups. Detail cable routes, printer clearance, reachable desk light, charging and a comfortable task chair. Measure the full desk and chair pullback; retain the requested southeast seated position facing northwest.",
+      "finding": "Both main banks need centered paired 2×2 glazing; thin decorative bars were misread as a third structural unit. Reverse doorway is too centered, and printer/art are on the wrong side.",
+      "action": "Move clear gallery pair toward right of reverse wall, retaining small circular window to left. Put compact printer cabinet and neutral framed art on larger left wall section, clear of door swing and window. Keep north TV/library/soundbar and southeast task seat facing northwest. Survey all openings, printer operation and complete furniture footprint.",
       "previousFinding": "The repeated open upper bays risk looking like a display showroom; equipment service, chair movement and work lighting still need detailing.",
-      "rendered": "Both original window banks now visible at correct relative sizes (two front/three right); full interior-wall TV joinery, desk and no window counter. Task seat restored to window side, with visitors toward built-in; clear gallery doors, printer and art retained. Desk alignment remains a measured furniture-plan decision."
+      "rendered": "Published prior images remain; the corrections below are instructions, not a statement that new renders have passed QA.",
+      "priorRenderAssessment": "Both original window banks now visible at correct relative sizes (two front/three right); full interior-wall TV joinery, desk and no window counter. Task seat restored to window side, with visitors toward built-in; clear gallery doors, printer and art retained. Desk alignment remains a measured furniture-plan decision."
     },
     {
       "id": "media",
       "title": "Media room",
       "floor": "first-floor",
-      "status": "Images revised · measure before ordering",
+      "status": "FB-017 correction required · replacement images and QA pending",
       "views": "M1 / M2 / M1-N3",
       "keep": "The large screen, deep seating and restrained TV backing suit the cinema brief.",
-      "finding": "M1 narrowed original paired window to a single-looking unit; M2 charcoal room contradicts M1 mushroom and door clarity varies. Movie scene overlights art and perimeter.",
-      "action": "Unify the wall finish and clear door glazing. Make movie, cleaning and display scenes separately switchable. Resolve one compatible soundbar system or receiver-based surround layout before wiring, including subwoofer placement. Check actual 83-inch TV, seating footprint, entry and figurine-display reach. Add restrained acoustic absorption only where a room test supports it.",
+      "finding": "Main paired window is too large and reverse doorway too centered. Homeowner confirms sofa-wall exterior feature is fake and has no interior opening. Current TV box/seating composition does not meet the revised brief.",
+      "action": "Real main window: smaller centered paired 2×2. Keep sofa wall solid in both cameras/night pairs. Shift clear doors toward TV corner, keeping display to right. Show 83-inch screen, quiet mineral/acoustic fitted wall and wider integrated 96–102-inch walnut console. Use shallow room-side service construction, not shared-wall excavation. Cloud Classic-scale sofa plus TWO ottomans, slim side tables and compact central table require measured fit. Coordinate audio and independently dimmed movie/display/general scenes.",
       "previousFinding": "M1 and M2 disagree on the sofa-wall darkness; M2 glass reads tinted/frosted. The night image lights art and the TV halo more brightly than a movie scene should. Ceiling grilles are not an audio plan.",
-      "rendered": "Broad paired window restored; neutral daylight and calm TV panel with soundbar/ceiling audio retained. Opening dimensions remain subject to survey. Reverse media view places clear gallery doors on adjoining west wall, slim figurine shelves to right and coherent TV/console/sectional/audio."
+      "rendered": "Published prior images remain; the corrections below are instructions, not a statement that new renders have passed QA.",
+      "priorRenderAssessment": "Broad paired window restored; neutral daylight and calm TV panel with soundbar/ceiling audio retained. Opening dimensions remain subject to survey. Reverse media view places clear gallery doors on adjoining west wall, slim figurine shelves to right and coherent TV/console/sectional/audio."
     },
     {
       "id": "gym",
@@ -146,13 +149,14 @@
       "id": "bath",
       "title": "Bath #3",
       "floor": "first-floor",
-      "status": "Images revised · measure before ordering",
+      "status": "FB-017 correction required · replacement images and QA pending",
       "views": "B1 / B2",
       "keep": "The quiet porcelain, walnut and simple mirror work.",
       "finding": "B1/B2 agree with plan-led vanity/toilet opposite shower; no original photo. Keep compact shell, add practical accessories only.",
-      "action": "Add a complete accessory and closed-storage schedule with reachable towel hooks, toilet-roll storage and shower niche/ledge. Verify doors, ventilation, lighting and wet-area assembly before ordering.",
+      "action": "Retain windowless compact shell, vanity/toilet opposite shower and existing B2 right-hand bench. Verify staggered studio-near-vanity versus hall-near-shower doors, handing and simultaneous privacy. Retain practical accessory/storage and compatible waterproofing/ventilation requirements.",
       "previousFinding": "Towel/robe storage and accessory positions are underdeveloped; the plan-led geometry is not surveyed.",
-      "rendered": "Ivory porcelain floor restored; vanity/toilet end, two side accesses and windowless plan retained. Reverse windowless Bath 3 view shows shower opposite vanity/toilet, with side access doors and coordinated porcelain."
+      "rendered": "Published prior images remain; the corrections below are instructions, not a statement that new renders have passed QA.",
+      "priorRenderAssessment": "Ivory porcelain floor restored; vanity/toilet end, two side accesses and windowless plan retained. Reverse windowless Bath 3 view shows shower opposite vanity/toilet, with side access doors and coordinated porcelain."
     },
     {
       "id": "great",
@@ -411,5 +415,19 @@
       "url": "https://portolapaints.com/collections/roman-clay/products/washi-roman-clay",
       "note": "Roman Clay is for smooth interior walls and is not specified by the manufacturer for wet areas such as inside showers. Select the full substrate/finish system for each location."
     }
-  ]
+  ],
+  "firstFloorUpdate": {
+    "date": "2026-10-10",
+    "feedbackReference": "FB-017",
+    "revision": "MW-F1-R05",
+    "status": "Requirements updated; replacement first-floor renders and visual QA pending. Existing cost allowances and purchasing decisions are unchanged."
+  },
+  "priorVerdict": "Mineral & Walnut now has a corrected, coordinated 45-day / 24-night review set. The remaining work is measured fit, product and material selection, trade details and the ancillary spaces listed below—not more whole-house decorative features.",
+  "firstFloorRevision": {
+    "id": "MW-F1-R05",
+    "date": "2026-10-10",
+    "audit": "docs/mineral-walnut-first-floor-audit-r05.json",
+    "production": "docs/first-floor-r05-production.json",
+    "status": "Visually reviewed proposed design; awaiting homeowner feedback"
+  }
 }

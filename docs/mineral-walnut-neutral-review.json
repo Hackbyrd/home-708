@@ -5,49 +5,48 @@
   "auditFile": "docs/mineral-walnut-image-audit.json",
   "rooms": {
     "entry": {
-      "revision": "MW-NR01",
-      "intent": "Light glazed doors, two-story chandelier and natural oak floor retained. The staircase beyond the arch has exposed oak treads and warm white risers, without a runner.",
+      "revision": "MW-F1-R05",
+      "intent": "Updated entry lettering: painted Welcome Home above the arch and small raised See you next time. above the exit door. Light clear doors, cascade chandelier, natural oak and bare stairs remain.",
       "views": [
         {
-          "id": "E-R08-1-MWT01-MWA02-NR01",
+          "id": "E1-MW-F1-R05",
           "code": "E1",
-          "index": 45011,
-          "jobId": "aebe26f7-40e2-4498-a989-acc48b1ced4d",
-          "model": "nano_banana_2_1",
+          "index": 51001,
+          "jobId": "006a3f39-145d-4089-9711-3e5d503db5aa",
+          "model": "seedream_v5_pro",
           "label": "Corrected view · Entrance gallery",
-          "file": "assets/render-candidates/mineral-walnut-neutral/r01/entry-e1-day.png",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-day.png",
           "evidenceType": "Photo-based architectural revision",
-          "evidence": "Light glazed doors, two-story chandelier and natural oak floor retained. The staircase beyond the arch has exposed oak treads and warm white risers, without a runner. Design visualization only. Preserve the source-audited layout; verify actual dimensions, finish samples and product/installation details on site.",
-          "qaNote": "Entry camera, doors, arch and quote retained; distant stair now shows exposed wood tread surfaces and white risers without carpet.",
-          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/entry-e1-day.png",
-          "sourceJobId": "c392f724-49ed-4b5f-a68a-981cbfe7efdc",
-          "revision": "MW-NR01",
-          "auditIndex": 30001
+          "evidence": "Source-photo entry camera retained; exact flat painted Welcome Home, light clear doors, chandelier and bare oak stairs.",
+          "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+          "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/entry-e1-day.png",
+          "sourceJobId": "aebe26f7-40e2-4498-a989-acc48b1ced4d",
+          "revision": "MW-F1-R05",
+          "auditIndex": 51001
         },
         {
-          "id": "E-R08-2-MWT01-MWA02",
+          "id": "E2-MW-F1-R05",
           "code": "E2",
-          "index": 31001,
-          "jobId": "fbd0c91f-9d07-4e68-8a2d-e46a10dd0d12",
-          "model": "nano_banana_2_1",
+          "index": 51002,
+          "jobId": "3bab801e-257b-4a4f-8342-28edbb0b1713",
+          "model": "seedream_v5_pro",
           "label": "Secondary view · Entrance gallery",
-          "file": "assets/render-candidates/mineral-walnut-architecture/r01/entry-e2-day.png",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-day.png",
           "evidenceType": "Derived angle · plan and photo interpretation",
-          "evidence": "Reverse entry retains single wood door, high round window and clear side doors; finish updated to companion view. Interior door face remains inferred from exterior photo.",
-          "qaNote": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
-          "sourceFile": "assets/render-candidates/mineral-walnut-textiles/r01/entry-e2-day.png",
-          "sourceJobId": "c458f563-dc90-4813-a4be-734cc0046969",
-          "revision": "MW-A02",
-          "auditIndex": 31001
+          "evidence": "Reverse entry camera derived from plan/source references; exact small raised See you next time., single wood front door and high circular window retained.",
+          "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/entry-e2-day.png",
+          "sourceJobId": "fbd0c91f-9d07-4e68-8a2d-e46a10dd0d12",
+          "revision": "MW-F1-R05",
+          "auditIndex": 51002
         }
       ],
       "notes": [
-        "Light glazed doors, two-story chandelier and natural oak floor retained. The staircase beyond the arch has exposed oak treads and warm white risers, without a runner.",
-        "The light glass doors and two-story chandelier remain; the flooring now follows the second-floor natural oak.",
+        "Updated entry lettering: painted Welcome Home above the arch and small raised See you next time. above the exit door. Light clear doors, cascade chandelier, natural oak and bare stairs remain.",
+        "Source audit: labeled original model-home photograph governs photographed cameras; builder blueprint governs derived and unphotographed views. Latest homeowner glazing and lettering clarifications override superseded assumptions.",
         "Window treatment: No gallery drapes; discreet privacy shade on exterior entrance glass if needed",
         "The two-story chandelier, arch and light doors should remain the focus. Full-height curtains add bulk; street-level entrance glass may still need evening privacy.",
-        "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
-        "Design visualization only. Preserve the source-audited layout; verify actual dimensions, finish samples and product/installation details on site."
+        "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
       ],
       "windowTreatment": {
         "id": "entry",
@@ -67,8 +66,7 @@
           150
         ],
         "title": "Entrance gallery",
-        "floor": "first-floor",
-        "version": "MW-W01"
+        "floor": "first-floor"
       },
       "textileNote": "Day shows open functional layers; the matching night view shows privacy or blackout closed where visible. High stair windows and high transoms remain bare.",
       "originalPhotos": [
@@ -76,58 +74,58 @@
           "file": "assets/Crown Georgetown Photos/first-floor-entrance-gallery-and-spiral-staircase.jpg.webp",
           "label": "Original model home · Entrance gallery"
         }
-      ]
+      ],
+      "assetRevision": "mw-f1-r05"
     },
     "office": {
-      "revision": "MW-A02",
-      "intent": "The north-wall cabinet composition now includes a TV and soundbar; a compact printer station and artwork sit beside the entry.",
+      "revision": "MW-F1-R05",
+      "intent": "Both centered main banks contain two paired double-hung units. Gallery doors offset right leave a longer wall zone on their left for the confirmed circular window, compact printer cabinet and adjacent artwork. Full north-wall walnut joinery includes TV and soundbar.",
       "views": [
         {
-          "id": "O-R04-1-MWT01-MWA02",
+          "id": "O1-MW-F1-R05",
           "code": "O1",
-          "index": 30002,
-          "jobId": "d368c093-a370-4ed0-b817-dee447a27deb",
-          "model": "nano_banana_2_1",
+          "index": 51003,
+          "jobId": "c82d6061-80d9-4d47-8f11-82fef17d0f21",
+          "model": "seedream_v5_pro",
           "label": "Corrected view · Home office",
-          "file": "assets/render-candidates/mineral-walnut-architecture/r01/office-o1-day.png",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-day.png",
           "evidenceType": "Photo-based architectural revision",
-          "evidence": "Both original window banks now visible at correct relative sizes (two front/three right); full interior-wall TV joinery, desk and no window counter.",
-          "qaNote": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
-          "sourceFile": "assets/render-candidates/mineral-walnut-textiles/r01/office-o1-day.png",
-          "sourceJobId": "b3fffd7c-21f1-4fc8-b022-0cb743844f6f",
-          "revision": "MW-A02",
-          "auditIndex": 30002
+          "evidence": "Original office photo camera and compact shell; both main banks correctly read as paired two-unit double-hungs, north TV joinery left and exterior banks ahead/right.",
+          "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+          "sourceFile": "assets/Crown Georgetown Photos/first-floor-home-office.jpg.webp",
+          "sourceJobId": "d368c093-a370-4ed0-b817-dee447a27deb",
+          "revision": "MW-F1-R05",
+          "auditIndex": 51003
         },
         {
-          "id": "O-R04-2-MWT01-MWA02",
+          "id": "O2-MW-F1-R05",
           "code": "O2",
-          "index": 31502,
-          "jobId": "03169a46-d9b0-4193-a5fd-8d0bd5261f15",
-          "model": "nano_banana_2_1",
+          "index": 51104,
+          "jobId": "7b543900-593d-4b99-b0e7-b1efcab6ff5a",
+          "model": "seedream_v5_pro",
           "label": "Secondary view · Home office",
-          "file": "assets/render-candidates/mineral-walnut-architecture/r02/office-o2-day-31502.png",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-day-a2.png",
           "evidenceType": "Derived angle · plan and photo interpretation",
-          "evidence": "Task seat restored to window side, with visitors toward built-in; clear gallery doors, printer and art retained. Desk alignment remains a measured furniture-plan decision.",
-          "qaNote": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
-          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/office-o2-day.png",
-          "sourceJobId": "0626151c-3be2-4783-b157-75dd60f92643",
-          "revision": "MW-A02",
-          "auditIndex": 31502
+          "evidence": "Derived reverse camera checked against the plan: gallery doors offset right; circular window on the FAR gallery wall above the printer LEFT of doors; artwork adjacent; main bank two units.",
+          "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+          "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-day.png",
+          "sourceJobId": "d95892b0-8618-4d1c-bcde-d5210529cef8",
+          "revision": "MW-F1-R05",
+          "auditIndex": 51104
         }
       ],
       "notes": [
-        "The north-wall cabinet composition now includes a TV and soundbar; a compact printer station and artwork sit beside the entry.",
-        "Architecture audit: O1/O2 do not clearly establish both original window banks and imply inconsistent room orientation. Desk no longer reads diagonally; printer competes with full-wall joinery.",
-        "Corrections: O1: Both original window banks now visible at correct relative sizes (two front/three right); full interior-wall TV joinery, desk and no window counter. O2: Task seat restored to window side, with visitors toward built-in; clear gallery doors, printer and art retained. Desk alignment remains a measured furniture-plan decision.",
+        "Both centered main banks contain two paired double-hung units. Gallery doors offset right leave a longer wall zone on their left for the confirmed circular window, compact printer cabinet and adjacent artwork. Full north-wall walnut joinery includes TV and soundbar.",
+        "Source audit: labeled original model-home photograph governs photographed cameras; builder blueprint governs derived and unphotographed views. Latest homeowner glazing and lettering clarifications override superseded assumptions.",
         "Window treatment: Ivory sheers + hidden light-filtering privacy shades",
         "Adjustable glare control helps screen work and calls; a separate privacy layer lets you work after dark without closing the room off all day. Blackout is unnecessary for normal office use.",
-        "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
+        "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
       ],
       "windowTreatment": {
         "id": "office",
         "system": "privacy",
         "recommendation": "Ivory sheers + hidden light-filtering privacy shades",
-        "coverage": "Both exterior window walls: front two-unit group and right three-unit group. Preserve clear internal gallery doors.",
+        "coverage": "Both main exterior banks are centered paired 2×2 groups, with TWO structural units in each bank. Preserve the small circular portico-side window and clear internal gallery doors; assess round-window privacy separately on site.",
         "why": "Adjustable glare control helps screen work and calls; a separate privacy layer lets you work after dark without closing the room off all day. Blackout is unnecessary for normal office use.",
         "day": "Sheers soften sun; adjust the shade on the bright side for monitor glare.",
         "night": "Lower privacy shades on both exterior window walls.",
@@ -141,8 +139,7 @@
           350
         ],
         "title": "Home office",
-        "floor": "first-floor",
-        "version": "MW-W01"
+        "floor": "first-floor"
       },
       "textileNote": "Day shows open functional layers; the matching night view shows privacy or blackout closed where visible. High stair windows and high transoms remain bare.",
       "originalPhotos": [
@@ -150,58 +147,59 @@
           "file": "assets/Crown Georgetown Photos/first-floor-home-office.jpg.webp",
           "label": "Original model home · Home office"
         }
-      ]
+      ],
+      "assetRevision": "mw-f1-r05"
     },
     "media": {
-      "revision": "MW-A02",
-      "intent": "The 83-inch screen takes priority over a smooth restrained backdrop, with coordinated audio and a collectible display beside clear glass doors.",
+      "revision": "MW-F1-R05",
+      "intent": "The smaller real paired 2×2 window is centered; the exterior fake window has no interior opening. Ivory RH Cloud-style seating has an ottoman at both ends, compact side tables and a middle table. An 83-inch TV and soundbar sit above a fitted walnut console wider than the screen, with a calm mineral centre and neutral acoustic sides.",
       "views": [
         {
-          "id": "M-R04-1-MWT01-MWA02",
+          "id": "M1-MW-F1-R05",
           "code": "M1",
-          "index": 30603,
-          "jobId": "7f13cd4d-378a-4a37-bdca-366ac6e329b6",
+          "index": 51707,
+          "jobId": "0020dd3f-2a17-4b6f-94ea-008715a559c3",
           "model": "nano_banana_2_1",
           "label": "Corrected view · Media room",
-          "file": "assets/render-candidates/mineral-walnut-architecture/r02/media-m1-day-30603.png",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a8.png",
           "evidenceType": "Photo-based architectural revision",
-          "evidence": "Broad paired window restored; neutral daylight and calm TV panel with soundbar/ceiling audio retained. Opening dimensions remain subject to survey.",
-          "qaNote": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
-          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/media-m1-day-30503.png",
-          "sourceJobId": "e78ec886-df2d-4a29-9ef4-0958bf706cc7",
-          "revision": "MW-A02",
-          "auditIndex": 30603
+          "evidence": "Photo-based media camera with homeowner-corrected smaller square centered paired window and solid sofa wall. Both ottomans, 83-inch-scale TV, wide fitted console and quiet TV backdrop checked.",
+          "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+          "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a6.png",
+          "sourceJobId": "f53843bc-1108-4088-8934-c5afe28d037e",
+          "revision": "MW-F1-R05",
+          "auditIndex": 51707
         },
         {
-          "id": "M-R04-2-MWA02",
+          "id": "M2-MW-F1-R05",
           "code": "M2",
-          "index": 31003,
-          "jobId": "f8fb0ea6-6485-431d-a47f-fc97fab21e6c",
+          "index": 51108,
+          "jobId": "db6322d0-bf8b-41e4-8cca-9a1eb3d755a0",
           "model": "nano_banana_2_1",
           "label": "Secondary view · Media room",
-          "file": "assets/render-candidates/mineral-walnut-architecture/r01/media-m2-day.png",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-day-a2.png",
           "evidenceType": "Derived angle · plan and photo interpretation",
-          "evidence": "Reverse media view places clear gallery doors on adjoining west wall, slim figurine shelves to right and coherent TV/console/sectional/audio.",
-          "qaNote": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
-          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/media-m1-day-30603.png",
-          "sourceJobId": "7f13cd4d-378a-4a37-bdca-366ac6e329b6",
-          "revision": "MW-A02",
-          "auditIndex": 31003
+          "evidence": "Derived reverse media camera checked against plan: TV left, sofa right, clear gallery doors near TV-wall end and display right of doors. Fake exterior window not visible inside; same furnishings as M1.",
+          "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+          "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-day.png",
+          "sourceJobId": "a75f5aac-bcd3-4a1f-bdca-9724b181edf1",
+          "revision": "MW-F1-R05",
+          "auditIndex": 51108
         }
       ],
       "notes": [
-        "The 83-inch screen takes priority over a smooth restrained backdrop, with coordinated audio and a collectible display beside clear glass doors.",
-        "Architecture audit: M1 narrowed original paired window to a single-looking unit; M2 charcoal room contradicts M1 mushroom and door clarity varies. Movie scene overlights art and perimeter.",
-        "Corrections: M1: Broad paired window restored; neutral daylight and calm TV panel with soundbar/ceiling audio retained. Opening dimensions remain subject to survey. M2: Reverse media view places clear gallery doors on adjoining west wall, slim figurine shelves to right and coherent TV/console/sectional/audio.",
+        "The smaller real paired 2×2 window is centered; the exterior fake window has no interior opening. Ivory RH Cloud-style seating has an ottoman at both ends, compact side tables and a middle table. An 83-inch TV and soundbar sit above a fitted walnut console wider than the screen, with a calm mineral centre and neutral acoustic sides.",
+        "Source audit: labeled original model-home photograph governs photographed cameras; builder blueprint governs derived and unphotographed views. Latest homeowner glazing and lettering clarifications override superseded assumptions.",
+        "Cloud seating footprint and 96–102-inch console are provisional; tape out actual modules, tables, door swings and circulation before ordering. Fit service framing on the room side, with blocking, AV ventilation and conduit; do not recess into the office-shared wall.",
         "Window treatment: Ivory sheers + blackout-lined curtains; removable clear-door covers for movie mode",
         "Daylight and gallery light both reduce contrast on the 83-inch TV. Privacy alone is insufficient for the requested theater atmosphere.",
-        "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
+        "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
       ],
       "windowTreatment": {
         "id": "media",
         "system": "blackout",
         "recommendation": "Ivory sheers + blackout-lined curtains; removable clear-door covers for movie mode",
-        "coverage": "Full street-facing two-sash window plus a separate removable opaque cover for each interior glazed door leaf. The doors remain clear when covers are stowed.",
+        "coverage": "One REAL centered paired 2×2 street-facing window, plus a separate removable opaque cover for each clear interior door leaf. The sofa wall is SOLID: its smaller exterior window feature is fake, as confirmed by the homeowner, and has no inside opening.",
         "why": "Daylight and gallery light both reduce contrast on the 83-inch TV. Privacy alone is insufficient for the requested theater atmosphere.",
         "day": "Sheers for casual use; close blackout panels for daytime films.",
         "night": "Close blackout panels and fit the room-side door covers for movies; dim lights near the screen.",
@@ -215,8 +213,7 @@
           450
         ],
         "title": "Media room",
-        "floor": "first-floor",
-        "version": "MW-W01"
+        "floor": "first-floor"
       },
       "textileNote": "Day shows open functional layers; the matching night view shows privacy or blackout closed where visible. High stair windows and high transoms remain bare.",
       "originalPhotos": [
@@ -224,7 +221,8 @@
           "file": "assets/Crown Georgetown Photos/first-floor-media-room.jpg.webp",
           "label": "Original model home · Media room"
         }
-      ]
+      ],
+      "assetRevision": "mw-f1-r05"
     },
     "gym": {
       "revision": "MW-A02",
@@ -301,49 +299,48 @@
       ]
     },
     "bath": {
-      "revision": "MW-A02",
-      "intent": "A compact hotel-like bath with walnut storage, black details, warm ivory walls and quiet stone-look porcelain.",
+      "revision": "MW-F1-R05",
+      "intent": "Plan-led door offsets are staggered: studio access nearer the vanity end; rear-hall access nearer the shower. Vanity/toilet and narrowed shower retained; the reverse view keeps its correct right-hand studio-side bench.",
       "views": [
         {
-          "id": "BATH-A-MWA02",
+          "id": "B1-MW-F1-R05",
           "code": "B1",
-          "index": 30505,
-          "jobId": "6fef3adf-1c50-4994-bb28-59ee4d31612b",
+          "index": 51005,
+          "jobId": "1289dd19-1fb8-4d57-b195-ee5fe214eec7",
           "label": "Corrected view · Bath #3",
-          "file": "assets/render-candidates/mineral-walnut-architecture/r02/bath-b1-day-30505.png",
-          "evidenceType": "Plan-led concept · no room photograph",
-          "evidence": "Ivory porcelain floor restored; vanity/toilet end, two side accesses and windowless plan retained.",
-          "qaNote": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
-          "model": "nano_banana_2_1",
-          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/bath-b1-day.png",
-          "sourceJobId": "3b976c0b-d344-4253-b250-e8bbb68d2d36",
-          "revision": "MW-A02",
-          "auditIndex": 30505
-        },
-        {
-          "id": "BATH-B-MWA02",
-          "code": "B2",
-          "index": 31005,
-          "jobId": "9e5b21e2-bc6b-4109-a57c-099a66e530ff",
-          "label": "Secondary view · Bath #3",
-          "file": "assets/render-candidates/mineral-walnut-architecture/r01/bath-b2-day.png",
-          "evidenceType": "Plan-led concept · no room photograph",
-          "evidence": "Reverse windowless Bath 3 view shows shower opposite vanity/toilet, with side access doors and coordinated porcelain.",
-          "qaNote": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
-          "model": "nano_banana_2_1",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-day.png",
+          "evidenceType": "Derived angle · plan and photo interpretation",
+          "evidence": "Unphotographed bath: plan-led vanity-facing camera, left studio door nearer vanity and right rear-hall door nearer shower/camera; fixtures unchanged.",
+          "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+          "model": "seedream_v5_pro",
           "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bath-b1-day-30505.png",
           "sourceJobId": "6fef3adf-1c50-4994-bb28-59ee4d31612b",
-          "revision": "MW-A02",
-          "auditIndex": 31005
+          "revision": "MW-F1-R05",
+          "auditIndex": 51005
+        },
+        {
+          "id": "B2-MW-F1-R05",
+          "code": "B2",
+          "index": 51006,
+          "jobId": "d85cf98f-7cae-4ce8-a9ec-ea74817cab5f",
+          "label": "Secondary view · Bath #3",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-day.png",
+          "evidenceType": "Derived angle · plan and photo interpretation",
+          "evidence": "Unphotographed bath: plan-led shower-facing camera, right studio door nearer camera and left rear-hall door nearer shower; correct right bench retained.",
+          "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+          "model": "seedream_v5_pro",
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/bath-b2-day.png",
+          "sourceJobId": "9e5b21e2-bc6b-4109-a57c-099a66e530ff",
+          "revision": "MW-F1-R05",
+          "auditIndex": 51006
         }
       ],
       "notes": [
-        "A compact hotel-like bath with walnut storage, black details, warm ivory walls and quiet stone-look porcelain.",
-        "Architecture audit: B1/B2 agree with plan-led vanity/toilet opposite shower; no original photo. Keep compact shell, add practical accessories only.",
-        "Corrections: B1: Ivory porcelain floor restored; vanity/toilet end, two side accesses and windowless plan retained. B2: Reverse windowless Bath 3 view shows shower opposite vanity/toilet, with side access doors and coordinated porcelain.",
+        "Plan-led door offsets are staggered: studio access nearer the vanity end; rear-hall access nearer the shower. Vanity/toilet and narrowed shower retained; the reverse view keeps its correct right-hand studio-side bench.",
+        "Source audit: labeled original model-home photograph governs photographed cameras; builder blueprint governs derived and unphotographed views. Latest homeowner glazing and lettering clarifications override superseded assumptions.",
         "Window treatment: No window treatment",
         "There is no exterior glazing to dress. Do not add a curtain allowance for a reflected or imagined opening.",
-        "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
+        "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
       ],
       "windowTreatment": {
         "id": "bath",
@@ -363,11 +360,11 @@
           0
         ],
         "title": "Bath #3",
-        "floor": "first-floor",
-        "version": "MW-W01"
+        "floor": "first-floor"
       },
       "textileNote": "Day shows open functional layers; the matching night view shows privacy or blackout closed where visible. High stair windows and high transoms remain bare.",
-      "originalPhotos": []
+      "originalPhotos": [],
+      "assetRevision": "mw-f1-r05"
     },
     "great": {
       "revision": "MW-A02",
@@ -1737,5 +1734,8 @@
     }
   },
   "materialProduction": "docs/mineral-walnut-material-production.json",
-  "neutralProduction": "docs/mineral-walnut-neutral-production.json"
+  "neutralProduction": "docs/mineral-walnut-neutral-production.json",
+  "floorCoverageNotes": {
+    "floor-1": "First-floor source audit completed: entry lettering, office openings and cabinetry, media seating and TV wall, and bathroom door offsets are revised in both day and night views. The empty gym retains its reviewed shell. Alternate cameras interpret the blueprint; final dimensions require site measurement."
+  }
 }

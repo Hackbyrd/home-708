@@ -1,0 +1,74 @@
+{
+  "revision": "MW-FA05",
+  "room": "office",
+  "scope": "Mineral & Walnut first-floor office architectural correction; daytime edits first, paired night edits only after approval",
+  "architecture": {
+    "planSource": "assets/cf_city_home_with_georgetown_pkg.pdf",
+    "planPage": 2,
+    "planDetail": "/tmp/708-blueprint-office-detail.png",
+    "roomDimensions": "15 feet 5 inches by 12 feet 11 inches; dimensions are plan labels, not field measurements",
+    "printedPlanCompass": {
+      "top": "west: gallery doors and small portico-facing opening",
+      "right": "north: full TV and soundbar cabinet build-out",
+      "bottom": "east: centered main window bank",
+      "left": "south: centered main window bank"
+    },
+    "mainWindows": "Both exterior walls have centered paired two-unit double-hung banks: one heavy central vertical mullion and the horizontal sash meeting rails make a 2-column by 2-row main composition. Thin glazing muntins inside a sash are not extra window units. Preserve original frame, sill and overall proportions; no third heavy vertical unit.",
+    "windowEvidenceCorrection": "Earlier audit described three units on the source photo's right wall incorrectly. Enlarged original photo confirms two paired units; the original photo, actual white-house exterior and latest user correction agree.",
+    "galleryDoors": "Paired clear single-lite glazed doors in the west wall, offset toward the north/right end. In a straight wall elevation their center is approximately 70 percent across the wall, leaving a long wall zone to their left. This proportion is a visual plan guide, not a surveyed opening offset.",
+    "smallOpening": "Small circular portico-facing window on the west wall left of gallery doors, explicitly confirmed by the user; retain this confirmed shape even though the plan symbol establishes location only.",
+    "printerStation": "Compact walnut cabinet with printer in the west-wall zone left of the gallery doors, with black-framed artwork beside the small circular window where space permits. No printer or picture in the TV cabinet center.",
+    "desk": "Large rectangular walnut desk on the room diagonal; task chair toward the southeast, facing northwest toward the north-wall TV joinery; two slim ivory visitor chairs opposite.",
+    "finishes": "Original Mineral & Walnut: neutral warm mineral walls, natural oak floor, walnut joinery, ivory rug and sheers, restrained charcoal accents and plants. No blue, yellow, pink, purple or polished-chrome Option 2 styling.",
+    "windowTreatments": "Ivory sheers with discreet light-filtering privacy shades at the two main exterior banks; no office blackout drapes. Night views close the privacy shades without changing opening geometry. Keep gallery glass doors clear.",
+    "qa": [
+      "Main banks centered in their respective full walls and both contain exactly two heavy-framed units",
+      "O1: north TV build-out at image left, east window ahead, south window at image right",
+      "O2: north TV build-out at image right, west gallery wall ahead, south window at image left",
+      "O2 doors offset right with circular opening and printer cabinet to their left",
+      "O1 printer/circular opening can remain behind camera; do not force unseen west-wall features into the TV wall",
+      "Flat ceiling, compact plan proportions, townhome streetscape and matching furniture retained across angles",
+      "Night partners use approved corrected day images as their exact structural source"
+    ]
+  },
+  "edits": [
+    {
+      "code": "O1",
+      "label": "Photo-based primary office view",
+      "sourceImages": [
+        {
+          "file": "assets/Crown Georgetown Photos/first-floor-home-office.jpg.webp",
+          "role": "Primary architecture and original camera reference; window banks, room envelope and flat ceiling govern"
+        },
+        {
+          "file": "docs/design-review-assets/floor-1-r04-office-mw-neutral-r01-O1.webp",
+          "role": "Approved Mineral & Walnut furniture, finishes and TV cabinet composition only; its mistaken window-unit count must not govern"
+        },
+        {
+          "file": "/tmp/708-blueprint-office-detail.png",
+          "role": "Printed-plan adjacency and room configuration reference; top west, right north, bottom east, left south"
+        }
+      ],
+      "prompt": "Image-edit the original model-home office photograph into the approved Mineral & Walnut office. Preserve the ORIGINAL PHOTO camera from the northwest interior corner, compact 15'5 by 12'11 room, flat ceiling, wall lengths, ceiling height and window frame/sill proportions. The approved render supplies finishes and furniture only. CRITICAL: both main exterior window banks are centered in their walls and are PAIRED TWO-UNIT double-hungs: one heavy central vertical mullion, horizontal meeting rails, a 2-column by 2-row main composition. Do not mistake thin glazing muntins within individual sashes for a third window unit. No 3-unit bank. East window ahead; south window on image right. North wall on image left receives the full walnut built-in from the approved style reference: TV centered in a pale mineral inset, slim dark soundbar, closed lower cabinets, sparse upper shelves with warm concealed lighting, books and a few plants. Remove the original counter beneath the right window. Large rectangular walnut desk sits on a gentle room diagonal, with charcoal task chair toward southeast facing northwest and two ivory visitor chairs opposite; laptop and restrained task lamp. The gallery doors and small circular portico window with printer cabinet belong on the WEST wall behind this camera; do not invent them inside the north-wall TV cabinetry or force them into view. Retain natural oak floor, ivory loose rug, warm neutral mineral walls, ivory sheers and discreet light-filtering privacy shades; no blackout drapes. Daylight with shades raised enough to read the actual paired windows. Preserve Crown townhome streetscape and iron fence outside. Keep the quiet original Option 1 palette; no blue/yellow/purple, chrome styling, invented ceiling coffers or oversize windows. Photoreal interior photograph, landscape 3:2, no people, logos or decorative lettering. Structural accuracy takes priority over symmetry of furniture."
+    },
+    {
+      "code": "O2",
+      "label": "Opposing office camera with corrected gallery wall",
+      "sourceImages": [
+        {
+          "file": "docs/design-review-assets/floor-1-r04-office-mw-neutral-r01-O2.webp",
+          "role": "Secondary camera framing and approved furniture/material reference; override door offset and printer location"
+        },
+        {
+          "file": "/tmp/708-blueprint-office-detail.png",
+          "role": "Authoritative west-wall opening positions and relation to the north TV wall; top west, right north, bottom east, left south"
+        },
+        {
+          "file": "assets/Crown Georgetown Photos/first-floor-home-office.jpg.webp",
+          "role": "Actual paired-window frame proportions and room envelope; camera is opposite to this secondary view"
+        }
+      ],
+      "prompt": "Image-edit the approved secondary Mineral & Walnut office view, keeping its camera in the southeast exterior corner looking northwest, natural oak floor, warm mineral walls, ivory rug, walnut furniture, flat ceiling and realistic compact 15'5 by 12'11 envelope. Correct the architecture using the plan: FAR WALL is west/gallery; RIGHT WALL is north TV joinery; LEFT WALL is south exterior window. On the FAR WALL shift the paired clear single-lite glass gallery doors substantially RIGHT, toward the TV-wall end: their center is about 70 percent across the full west-wall elevation, leaving a MUCH LONGER uninterrupted wall zone LEFT of the doors and only a short wall return on their right. Do not center the doors. In that long LEFT zone add the user-confirmed SMALL CIRCULAR portico-facing window, modestly sized with neat light trim. Put the compact walnut printer cabinet and printer LEFT of the gallery doors, below or beside the circular window, with a small black-framed neutral artwork on adjacent available wall; leave the opening unobstructed. Remove the current printer cabinet/artwork to the doors' right. Keep the full north-wall walnut TV build-out at image RIGHT: centered dark TV, slim soundbar below, pale mineral backing, closed lower cabinetry and restrained warm shelf lighting; no artwork replacing the TV. Main south exterior bank at image LEFT must be centered in its full wall and consist of exactly TWO paired double-hung units, one heavy central vertical mullion and horizontal meeting rails: 2 columns by 2 rows, no third unit. Thin sash muntins are allowed only as in the original photograph. The east main bank outside this crop has the same actual two-unit dimensions/frame proportions. Maintain the same large rectangular desk on a gentle diagonal, task chair toward southeast facing northwest, two ivory guest chairs opposite; preserve its workable path to the doors. Ivory sheers with light-filtering privacy shades raised for daytime; gallery glass stays clear. Retain townhome setting and original neutral Option 1 identity; no colored accents/chrome, enlarged windows or invented ceiling details. Photoreal landscape 3:2, no people, logos or decorative text."
+    }
+  ]
+}

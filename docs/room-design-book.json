@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "Home 708",
-  "updated": "2026-10-08",
+  "updated": "2026-10-10",
   "title": "Room-by-room design and contractor record",
   "stage": "Concept design and homeowner review",
   "workflow": {
@@ -103,7 +103,8 @@
       "bed3",
       "laundry",
       "bed5"
-    ]
+    ],
+    "pendingReviewScope": "MW-F1-R05: recheck all five first-floor spaces and paired day/night cameras; regenerate only rejected views. Published images are unchanged until visual QA passes."
   },
   "brief": {
     "source": "docs/design-taste-profile.json",
@@ -121,7 +122,8 @@
       "Most finishes replaced; all new furniture budgeted. No Option 2 owned-furniture assumptions.",
       "Media wall remains smooth and restrained, with TV as focal point; gym stays empty.",
       "Bedroom 5 has not been built and must be included as new room construction.",
-      "MW-NR01: original neutral Mineral & Walnut bedrooms restored; no colored bedroom throws or colored artwork additions. All three interior stair connections use exposed oak treads and warm white risers without runners. Approved A/C1/E porcelain selections and room-specific window layers remain; original fireplace retained while its choice is open."
+      "MW-NR01: original neutral Mineral & Walnut bedrooms restored; no colored bedroom throws or colored artwork additions. All three interior stair connections use exposed oak treads and warm white risers without runners. Approved A/C1/E porcelain selections and room-specific window layers remain; original fireplace retained while its choice is open.",
+      "FB-017: entry inscriptions are “Welcome Home” above the arch and “See you next time.” above the entrance when leaving. Office uses paired centered 2×2 exterior windows, right-offset gallery doors and printer/art to their left. Media uses the real centered 2×2 main window and a solid sofa wall: its smaller exterior window is fake, per homeowner confirmation."
     ],
     "pending": [
       "Exact wall colors and manufacturer samples.",
@@ -458,6 +460,23 @@
       "userFeedback": "Remove bedroom accent colors and return to the original theme/design. Remove stair runners and return to stairs without them.",
       "interpretation": "MW-NR01: original neutral Mineral & Walnut bedrooms restored; no colored bedroom throws or colored artwork additions. All three interior stair connections use exposed oak treads and warm white risers without runners. Approved A/C1/E porcelain selections and room-specific window layers remain; original fireplace retained while its choice is open.",
       "status": "implemented_in_current_images_and_schedules"
+    },
+    {
+      "id": "FB-017",
+      "date": "2026-10-10",
+      "scope": "Mineral & Walnut first-floor architecture audit and entry/office/media refinements",
+      "userFeedback": "Audit every first-floor day and night image against original model-home photographs, the blueprint and actual-house evidence. Office: move the gallery doorway toward the right in the reverse view, retain the small circular window to its left, and place the printer cabinet and artwork on the larger left wall section. Both exterior window banks are centered paired 2×2 assemblies, not three-unit windows. Media: smaller centered square-looking 2×2 main window; RH Cloud sofa with ottomans extending both ends, small side tables and a central table; 83-inch TV and a wider console built into a redesigned TV-wall composition. Homeowner confirms the smaller media seating-wall exterior feature is a fake window with no inside opening. Entry arch wording becomes “Welcome Home”; departing wording becomes “See you next time.”",
+      "interpretation": "First-floor correction pass completed in pure Mineral & Walnut. Thin glazing bars are distinguished from the two structural units in each main office bank. Media seating wall remains solid despite the exterior fake-window symbol. Light clear doors, cascade chandelier, neutral oak/ivory/mushroom/walnut finishes, selected stone updates and bare stairs are retained. Eight corrected day views and eight exact-camera night partners passed source and visual review; four gym views retained. These are proposed design visualizations awaiting homeowner feedback and field measurements.",
+      "status": "rendered_and_visually_reviewed_awaiting_homeowner_feedback",
+      "affectedRooms": [
+        "entry",
+        "office",
+        "media",
+        "gym",
+        "bath"
+      ],
+      "revisionAtFeedback": "Published first-floor day/night images; prior MW-A02 and MW-NR01 concepts",
+      "resultingRevision": "MW-F1-R05; concept QA passed, not construction approval"
     }
   ],
   "roomDefinitions": {
@@ -491,10 +510,10 @@
       "id": "entry",
       "floor": "first-floor",
       "title": "Entrance gallery",
-      "currentRevision": "mw-neutral-r01",
-      "status": "proposed",
-      "userApproval": "Homeowner requests original neutral bedrooms and no stair runners; A/C1/E stone selections and existing window-treatment decisions remain. Actual products and measured details remain open.",
-      "designIntent": "Light glazed doors, two-story chandelier and natural oak floor retained. The staircase beyond the arch has exposed oak treads and warm white risers, without a runner.",
+      "currentRevision": "MW-F1-R05",
+      "status": "Proposed · source-reviewed first-floor revision awaiting homeowner feedback",
+      "userApproval": "FB-017 corrections requested by homeowner and visually reviewed. Revised images, final measured details and exact products await homeowner feedback; no fabrication approval is implied.",
+      "designIntent": "A light double-height arrival gallery with warm mineral walls, matched natural oak, clear ivory side doors and a cascading chandelier. The arch says “Welcome Home”; the departure wall says “See you next time.” Stairs retain exposed oak and warm white risers without a runner.",
       "sourceEvidence": [
         {
           "id": "SRC-E01",
@@ -551,7 +570,8 @@
         "Keep gallery clear; small table stays in existing stair-hall table footprint, not in door paths.",
         "Future derived views must retain actual side-room relationships; any unseen geometry is recorded as inferred.",
         "Floor direction: pale-to-medium natural neutral oak, matte, calmer grain and less orange than the previous entry. Compare a physical sample with the second floor before ordering.",
-        "Keep light warm-ivory single-lite glass side doors, natural-wood front door, painted arch inscription, small raised exit lettering and two-story cascade chandelier."
+        "Keep light warm-ivory single-lite glass side doors, natural-wood front door, painted arch inscription, small raised exit lettering and two-story cascade chandelier.",
+        "FB-017 text overrides only: “Welcome Home” painted above arch and “See you next time.” in small 3D letters above front door. Preserve opening positions, guard, staircase and chandelier envelope."
       ],
       "revisions": [
         {
@@ -1283,6 +1303,53 @@
               "Design visualization only. Preserve the source-audited layout; verify actual dimensions, finish samples and product/installation details on site."
             ]
           }
+        },
+        {
+          "id": "MW-F1-R05",
+          "date": "2026-10-10",
+          "status": "visually_reviewed_design_visualization",
+          "reason": "Updated entry lettering: painted Welcome Home above the arch and small raised See you next time. above the exit door. Light clear doors, cascade chandelier, natural oak and bare stairs remain.",
+          "manifest": "docs/first-floor-r05-production.json",
+          "views": [
+            {
+              "id": "E1-MW-F1-R05",
+              "code": "E1",
+              "index": 51001,
+              "jobId": "006a3f39-145d-4089-9711-3e5d503db5aa",
+              "model": "seedream_v5_pro",
+              "label": "Corrected view · Entrance gallery",
+              "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-day.png",
+              "evidenceType": "Photo-based architectural revision",
+              "evidence": "Source-photo entry camera retained; exact flat painted Welcome Home, light clear doors, chandelier and bare oak stairs.",
+              "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+              "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/entry-e1-day.png",
+              "sourceJobId": "aebe26f7-40e2-4498-a989-acc48b1ced4d",
+              "revision": "MW-F1-R05",
+              "auditIndex": 51001
+            },
+            {
+              "id": "E2-MW-F1-R05",
+              "code": "E2",
+              "index": 51002,
+              "jobId": "3bab801e-257b-4a4f-8342-28edbb0b1713",
+              "model": "seedream_v5_pro",
+              "label": "Secondary view · Entrance gallery",
+              "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-day.png",
+              "evidenceType": "Derived angle · plan and photo interpretation",
+              "evidence": "Reverse entry camera derived from plan/source references; exact small raised See you next time., single wood front door and high circular window retained.",
+              "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+              "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/entry-e2-day.png",
+              "sourceJobId": "fbd0c91f-9d07-4e68-8a2d-e46a10dd0d12",
+              "revision": "MW-F1-R05",
+              "auditIndex": 51002
+            }
+          ],
+          "qa": {
+            "status": "visually_reviewed",
+            "limitations": [
+              "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
+            ]
+          }
         }
       ],
       "schedule": [
@@ -1456,33 +1523,33 @@
           "id": "E-A02",
           "category": "Custom lettering",
           "item": "Departing motto above front door",
-          "status": "preferred_direction",
+          "status": "proposed; revised requirements, measured details and products pending",
           "material": "Proposed thin cut aluminum letters, matte charcoal/near-black finish. Contemporary serif; exact font and finish sample TBD.",
           "location": "Interior front-door wall above arched wood casing, coordinated with the cascading chandelier sightlines; door and round window retained.",
           "preparation": "Verify exact text/attribution, measured wall area, substrate and cured finish. Approve a full-size paper template in the room before paint or fabrication.",
           "installation": "Letter fabricator to supply approved vector proof, full-size placement template and a finish-compatible fixing system. Test on representative cured paint/substrate; locate concealed services before any drilling. Verify full inscription is readable from departure approach and does not visually conflict with lower chandelier drops.",
           "dimensions": "Overall inscription width, letter height, thickness, line spacing and mounting height require a measured wall survey and full-size template. Do not order from image proportions.",
           "procurement": "Dimensional treatment is user-preferred; exact material, text proof, font, size and mounting are pending. Quote artwork, cutting/coating, template, fixings, access and installation.",
-          "text": "Take the road less traveled",
-          "designTargets": "Retain two centered lines: “Take the road” / “less traveled”. Smaller than r02; trial reduction of about 25% in render text width/height only, not a measured construction dimension. User prefers installed 3D letters. Designer proposes slim matte-charcoal aluminum with subtle visible edges/contact shadows; 3–4 mm visible thickness is only a sampling target. No author credit, plaque, backlighting or bulky stand-offs.",
-          "revision": "r08",
-          "feedbackReference": "FB-016"
+          "text": "See you next time.",
+          "designTargets": "Exact wording “See you next time.” including final period. Small restrained installed 3D matte-charcoal letters, one line where a measured full-size template fits. Do not copy the former Frost motto, attribution or its two-line arrangement. Letter height, thickness, font and mounting remain unselected.",
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017"
         },
         {
           "id": "E-A03",
           "category": "Custom lettering",
           "item": "Welcome inscription above entry arch",
-          "status": "preferred_direction",
-          "text": "Home is where the Heart is",
+          "status": "proposed; revised requirements, measured details and products pending",
+          "text": "Welcome Home",
           "material": "Proposed professionally painted muted warm-charcoal lettering in a contemporary serif, smaller/quieter than departing motto.",
           "location": "Solid entrance-facing wall between arch crown and upper gallery railing, centered on the opening; keep mineral finish visible around lettering.",
-          "designTargets": "One straight line, exact wording/capitalization retained: “Home is where the Heart is”. Slightly smaller than r02; trial reduction about 25% in render width/height only. User prefers painted lettering: completely flat, with no dimensional edge or cast shadow. Final scale/font/color require a full-size sample.",
+          "designTargets": "One straight line, exact wording “Welcome Home” with capital W and H, no added punctuation. Quiet, flat painted warm-charcoal lettering, no raised edge or shadow. Coordinate its full-size template with the arch crown, upper railing and chandelier sightlines.",
           "preparation": "Create full-size paper template and representative Roman Clay/paint sample using the actual selected finish system. Confirm cure time, paint compatibility, edge quality and any masking method with the finish applicator.",
           "installation": "Sign painter to transfer the approved layout and apply compatible lettering paint without damaging mineral finish. Test stencil/masking release on sample first. Quote safe high-level access separately; verify clear space from the pendant in real sightlines.",
           "dimensions": "Measure available wall plane, height to guard trim and arch crown. Final letter height/spacing set by full-size viewing test; render is not a setting-out drawing.",
           "procurement": "Painted treatment is user-preferred; exact paint compatibility, font, scale and color remain pending. Price sample/template, high-level access, lettering and touch-up allowance separately.",
-          "revision": "r08",
-          "feedbackReference": "FB-016"
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017"
         },
         {
           "id": "E-T02",
@@ -1561,7 +1628,7 @@
         "Quote the two inscriptions separately: artwork/template, samples, painted arch lettering or cut/coated door letters, access equipment, fixings, installation and touch-ups.",
         "For cascade chandelier, quote fixture/canopy/drop components, electrical controls, any required support/power work, high-level access, installation and future service access; compare retail adjustable-drop systems before bespoke fabrication.",
         "Separate side-door painting from white trim: quote substrate prep, coating system, glass/hardware protection, faces/edges included and post-paint operation check.",
-        "Quote FB-016 changes as separate additions/deductions against the preceding revision; keep retained items distinct from replacement scope."
+        "Quote FB-017 changes as separate additions/deductions against the preceding revision; keep retained items distinct from replacement scope."
       ],
       "verificationRegister": [
         {
@@ -1774,6 +1841,23 @@
           ],
           "revisionAtFeedback": "floor-one r03; floor-two r01; floors-three/four r02",
           "resultingRevision": "floor-one r04; floor-two r02; floors-three/four r03"
+        },
+        {
+          "id": "FB-017",
+          "date": "2026-10-10",
+          "scope": "Mineral & Walnut first-floor architecture audit and entry/office/media refinements",
+          "userFeedback": "Audit every first-floor day and night image against original model-home photographs, the blueprint and actual-house evidence. Office: move the gallery doorway toward the right in the reverse view, retain the small circular window to its left, and place the printer cabinet and artwork on the larger left wall section. Both exterior window banks are centered paired 2×2 assemblies, not three-unit windows. Media: smaller centered square-looking 2×2 main window; RH Cloud sofa with ottomans extending both ends, small side tables and a central table; 83-inch TV and a wider console built into a redesigned TV-wall composition. Homeowner confirms the smaller media seating-wall exterior feature is a fake window with no inside opening. Entry arch wording becomes “Welcome Home”; departing wording becomes “See you next time.”",
+          "interpretation": "Record a fresh first-floor correction pass in pure Mineral & Walnut. Existing thin glazing bars were incorrectly described as three structural window units; do not propagate that error. Keep media seating wall solid in every angle, despite the brochure symbol. Retain light clear side doors, two-story cascade chandelier, neutral oak/ivory/mushroom/walnut palette, selected stone updates and uncovered stairs. New renders remain pending until source-by-source visual QA; the gym is retained and the plan-led bathroom access offsets are checked.",
+          "status": "requirements_recorded; corrected_renders_and_visual_QA_pending",
+          "affectedRooms": [
+            "entry",
+            "office",
+            "media",
+            "gym",
+            "bath"
+          ],
+          "revisionAtFeedback": "Published first-floor day/night images; prior MW-A02 and MW-NR01 concepts",
+          "resultingRevision": "MW-F1-R05 pending render QA, not construction approval"
         }
       ],
       "approvalHistory": [
@@ -1790,26 +1874,25 @@
         "Review the two updated labeled views and record further feedback.",
         "Select actual materials, products and coordinated measured dimensions."
       ],
-      "handoffStatus": "Current homeowner direction and day/night views coordinated. Obtain measured drawings, product samples and installer quotations before fabrication.",
+      "handoffStatus": "Concept and source review recorded; field measurements, trade coordination and homeowner approval remain before construction.",
       "letteringExploration": {
-        "status": "r03_ready_for_user_feedback",
+        "status": "FB-017 wording recorded; revised renders and fabrication proof pending",
         "requestedLocations": [
           "Interior wall above the front entrance door, below the high round window.",
           "Entrance-facing solid arch wall below the upper gallery railing and above the arch crown."
         ],
         "arch": {
-          "text": "Home is where the Heart is",
-          "source": "User-suggested wording; retained capitalization for this preview.",
-          "treatment": "User-preferred painted arch lettering, reduced further from r02; exact size and color pending."
+          "text": "Welcome Home",
+          "source": "Exact homeowner wording; capital W and H.",
+          "treatment": "Small professionally painted flat warm-charcoal lettering; full-size template and compatible paint system pending."
         },
         "frontDoor": {
-          "text": "Take the road less traveled",
-          "source": "Designer-selected adaptation of the earlier user suggestion, used as a personal motto without an author credit or quotation marks; not presented as an exact Frost quotation.",
+          "text": "See you next time.",
+          "source": "Exact homeowner wording, including period; no attribution.",
           "lineBreaks": [
-            "Take the road",
-            "less traveled"
+            "See you next time."
           ],
-          "treatment": "User-preferred installed 3D front-door letters, reduced further from r02; thin charcoal metal is the designer proposal."
+          "treatment": "Small installed 3D matte-charcoal letters; exact font, material, dimensions and fixings pending."
         },
         "referenceForEarlierFrostDiscussion": "https://www.poetryfoundation.org/poems/44272/the-road-not-taken",
         "openQuestions": [
@@ -1821,7 +1904,8 @@
         "reviewNotes": [
           "First r02 image pass reproduced both phrases correctly but made lettering too large. Designer requested a substantial size reduction while keeping position and all room details.",
           "The user has delegated the departing wording; exact text scale, material and fabrication proof still await visual review.",
-          "Refined previews accepted by designer for homeowner review; smaller type restores more visible wall around each inscription."
+          "Refined previews accepted by designer for homeowner review; smaller type restores more visible wall around each inscription.",
+          "FB-017 supersedes the former welcome/Frost wording only. Those phrases remain in historical revisions, not the active instruction."
         ]
       },
       "letteringHistory": [
@@ -1886,6 +1970,44 @@
               "Final wording/capitalization, font, spacing and production artwork after review.",
               "Painted versus dimensional construction and mounting compatibility after sampling.",
               "Measured wall areas and clear sightlines past pendant from arrival/departure positions."
+            ],
+            "reviewNotes": [
+              "First r02 image pass reproduced both phrases correctly but made lettering too large. Designer requested a substantial size reduction while keeping position and all room details.",
+              "The user has delegated the departing wording; exact text scale, material and fabrication proof still await visual review.",
+              "Refined previews accepted by designer for homeowner review; smaller type restores more visible wall around each inscription."
+            ]
+          }
+        },
+        {
+          "revision": "mw-neutral-r01",
+          "supersededBy": "MW-F1-R05",
+          "feedbackId": "FB-017",
+          "record": {
+            "status": "r03_ready_for_user_feedback",
+            "requestedLocations": [
+              "Interior wall above the front entrance door, below the high round window.",
+              "Entrance-facing solid arch wall below the upper gallery railing and above the arch crown."
+            ],
+            "arch": {
+              "text": "Home is where the Heart is",
+              "source": "User-suggested wording; retained capitalization for this preview.",
+              "treatment": "User-preferred painted arch lettering, reduced further from r02; exact size and color pending."
+            },
+            "frontDoor": {
+              "text": "Take the road less traveled",
+              "source": "Designer-selected adaptation of the earlier user suggestion, used as a personal motto without an author credit or quotation marks; not presented as an exact Frost quotation.",
+              "lineBreaks": [
+                "Take the road",
+                "less traveled"
+              ],
+              "treatment": "User-preferred installed 3D front-door letters, reduced further from r02; thin charcoal metal is the designer proposal."
+            },
+            "referenceForEarlierFrostDiscussion": "https://www.poetryfoundation.org/poems/44272/the-road-not-taken",
+            "openQuestions": [
+              "Review r03 inscription sizes and hierarchy relative to new chandelier.",
+              "Confirm final font, scale, color and fabrication/painting artwork using full-size templates.",
+              "Verify finish compatibility and dimensional-letter fixing method.",
+              "Coordinate measured lettering placement with chandelier drops and real sightlines."
             ],
             "reviewNotes": [
               "First r02 image pass reproduced both phrases correctly but made lettering too large. Designer requested a substantial size reduction while keeping position and all room details.",
@@ -2308,6 +2430,45 @@
               "feedbackReference": "MW-A02"
             }
           ]
+        },
+        {
+          "revision": "mw-neutral-r01",
+          "supersededBy": "MW-F1-R05 requirements",
+          "feedbackId": "FB-017",
+          "items": [
+            {
+              "id": "E-A02",
+              "category": "Custom lettering",
+              "item": "Departing motto above front door",
+              "status": "preferred_direction",
+              "material": "Proposed thin cut aluminum letters, matte charcoal/near-black finish. Contemporary serif; exact font and finish sample TBD.",
+              "location": "Interior front-door wall above arched wood casing, coordinated with the cascading chandelier sightlines; door and round window retained.",
+              "preparation": "Verify exact text/attribution, measured wall area, substrate and cured finish. Approve a full-size paper template in the room before paint or fabrication.",
+              "installation": "Letter fabricator to supply approved vector proof, full-size placement template and a finish-compatible fixing system. Test on representative cured paint/substrate; locate concealed services before any drilling. Verify full inscription is readable from departure approach and does not visually conflict with lower chandelier drops.",
+              "dimensions": "Overall inscription width, letter height, thickness, line spacing and mounting height require a measured wall survey and full-size template. Do not order from image proportions.",
+              "procurement": "Dimensional treatment is user-preferred; exact material, text proof, font, size and mounting are pending. Quote artwork, cutting/coating, template, fixings, access and installation.",
+              "text": "Take the road less traveled",
+              "designTargets": "Retain two centered lines: “Take the road” / “less traveled”. Smaller than r02; trial reduction of about 25% in render text width/height only, not a measured construction dimension. User prefers installed 3D letters. Designer proposes slim matte-charcoal aluminum with subtle visible edges/contact shadows; 3–4 mm visible thickness is only a sampling target. No author credit, plaque, backlighting or bulky stand-offs.",
+              "revision": "r08",
+              "feedbackReference": "FB-016"
+            },
+            {
+              "id": "E-A03",
+              "category": "Custom lettering",
+              "item": "Welcome inscription above entry arch",
+              "status": "preferred_direction",
+              "text": "Home is where the Heart is",
+              "material": "Proposed professionally painted muted warm-charcoal lettering in a contemporary serif, smaller/quieter than departing motto.",
+              "location": "Solid entrance-facing wall between arch crown and upper gallery railing, centered on the opening; keep mineral finish visible around lettering.",
+              "designTargets": "One straight line, exact wording/capitalization retained: “Home is where the Heart is”. Slightly smaller than r02; trial reduction about 25% in render width/height only. User prefers painted lettering: completely flat, with no dimensional edge or cast shadow. Final scale/font/color require a full-size sample.",
+              "preparation": "Create full-size paper template and representative Roman Clay/paint sample using the actual selected finish system. Confirm cure time, paint compatibility, edge quality and any masking method with the finish applicator.",
+              "installation": "Sign painter to transfer the approved layout and apply compatible lettering paint without damaging mineral finish. Test stencil/masking release on sample first. Quote safe high-level access separately; verify clear space from the pendant in real sightlines.",
+              "dimensions": "Measure available wall plane, height to guard trim and arch crown. Final letter height/spacing set by full-size viewing test; render is not a setting-out drawing.",
+              "procurement": "Painted treatment is user-preferred; exact paint compatibility, font, scale and color remain pending. Price sample/template, high-level access, lettering and touch-up allowance separately.",
+              "revision": "r08",
+              "feedbackReference": "FB-016"
+            }
+          ]
         }
       ],
       "lightingExploration": {
@@ -2393,37 +2554,38 @@
       ],
       "styleIdentity": "Matched oak arrival gallery",
       "improvementPlan": {
-        "version": "MW-NR01",
-        "date": "2026-10-08",
-        "status": "rendered_for_review",
-        "visualStatus": "MW-NR01 · neutral bedrooms and exposed wood stairs",
+        "version": "MW-F1-R05",
+        "date": "2026-10-10",
+        "status": "corrections_required; new_renders_and_QA_pending",
+        "visualStatus": "Published prior images are not yet replaced; FB-017 corrections await image QA",
         "mood": "Arrival with breathing room",
-        "improve": "Light glazed doors, two-story chandelier and natural oak floor retained. The staircase beyond the arch has exposed oak treads and warm white risers, without a runner.",
-        "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
+        "improve": "Arch inscription exact wording “Welcome Home”, capital W and H; flat painted lettering, quiet scale. Departing inscription exact wording “See you next time.” with final period; small installed 3D letters above front door. Retain all existing openings, clear light doors, chandelier, matched oak and exposed staircase without runner.",
+        "verify": "Check each source-photo view directly against its original and each derived view against the printed plan, homeowner corrections and approved same-room camera. Measured opening offsets, furniture, services and fabrication remain pending."
       },
       "lightingStudy": {
-        "id": "E1-NRN-NR01",
-        "version": "MW-NR01",
-        "code": "E1-NRN",
-        "index": 45101,
-        "jobId": "dad269c9-746a-4f74-8803-a8b25d1028a7",
-        "model": "nano_banana_2_1",
-        "file": "assets/render-candidates/mineral-walnut-neutral/r01/entry-night.png",
+        "id": "E1-F105N-MW-F1-R05",
+        "version": "MW-F1-R05",
+        "code": "E1-F105N",
+        "index": 51011,
+        "jobId": "53b2d83b-ecce-4f27-8611-c652e7812dde",
+        "model": "seedream_v5_pro",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-night.png",
         "sourceCode": "E1",
-        "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/entry-e1-day.png",
-        "sourceJobId": "aebe26f7-40e2-4498-a989-acc48b1ced4d",
-        "label": "Night · Entrance gallery",
+        "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-day.png",
+        "sourceJobId": "006a3f39-145d-4089-9711-3e5d503db5aa",
+        "label": "Night · Entrance gallery · E1 camera",
         "scene": "Privacy / evening mode",
         "cct": 2700,
         "circuits": "Chandelier / general circulation / adjoining hall",
         "lighting": "Let the existing two-story cascade chandelier provide a soft warm glow, each glass pendant legible without clipped glare. Subdued existing ceiling lights illuminate the oak path and the stair beyond; the arch lettering and light glazed doors remain visible. No light strips tracing arches or railings.",
-        "evidenceType": "Night edit of corrected daytime view",
-        "evidence": "Night study of the current neutral/bare-stair day view. Light glazed doors, two-story chandelier and natural oak floor retained. The staircase beyond the arch has exposed oak treads and warm white risers, without a runner.",
-        "qaNote": "Night entry retains inscriptions, light glazed doors, chandelier and bare distant oak stairs; exterior window dark and circulation readable.",
+        "evidenceType": "Same-camera night edit of corrected approved day",
+        "evidence": "Visually paired with the exact corrected daytime source. Camera, openings, furniture and finishes remain; visible exterior privacy/blackout layers close where specified.",
+        "qaNote": "Lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+        "assetRevision": "mw-f1-r05",
         "status": "proposed",
         "lightingNotes": [
           "Let the existing two-story cascade chandelier provide a soft warm glow, each glass pendant legible without clipped glare. Subdued existing ceiling lights illuminate the oak path and the stair beyond; the arch lettering and light glazed doors remain visible. No light strips tracing arches or railings.",
-          "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
         ]
       },
       "windowTreatment": {
@@ -2444,18 +2606,153 @@
           150
         ],
         "title": "Entrance gallery",
-        "floor": "first-floor",
-        "version": "MW-W01"
-      }
+        "floor": "first-floor"
+      },
+      "architectureEvidenceHistory": [
+        {
+          "recorded": "2026-10-10",
+          "supersededByFeedback": "FB-017",
+          "sourceEvidence": [
+            {
+              "id": "SRC-E01",
+              "type": "original_photo",
+              "file": "assets/Crown Georgetown Photos/first-floor-entrance-gallery-and-spiral-staircase.jpg.webp",
+              "confidence": "Directly observed",
+              "observations": [
+                "Double-height narrow gallery with upper overlook guard.",
+                "Single-lite glass double doors on both side walls.",
+                "Arch toward center hall, stair beyond at right, modest stair sash window and under-stair door.",
+                "White balusters/newels/risers with dark wood rail and treads."
+              ]
+            },
+            {
+              "id": "SRC-E02",
+              "type": "blueprint",
+              "file": "assets/cf_city_home_with_georgetown_pkg.pdf",
+              "page": 2,
+              "confidence": "Published builder plan, not as-built survey",
+              "observations": [
+                "Entrance from portico into gallery; studio and office flank gallery; arch enters center hall.",
+                "Center hall connects to media room, rear hall and stair.",
+                "Entry gallery and center hall have open-to-above areas.",
+                "No explicit entry gallery width/depth/ceiling dimension printed; do not derive order quantities from pixels."
+              ],
+              "preview": "assets/render-candidates/room-review/entry/r01/refs/entry-plan-reference.webp"
+            },
+            {
+              "id": "SRC-E03",
+              "type": "actual_house_exterior",
+              "file": "assets/Outside Photos/front-door.jpg",
+              "confidence": "Directly observed outside only",
+              "observations": [
+                "Real house is white brick; single wood front door with upper arched glazing and two horizontal recessed panels stacked vertically below. Exterior handle is at right; corresponding interior handing is inferred.",
+                "Interior door-face finish, exact inner casing and hardware are not photographed."
+              ]
+            },
+            {
+              "id": "SRC-E04",
+              "type": "actual_house_exterior",
+              "file": "assets/Outside Photos/south-front-door.jpg",
+              "confidence": "Directly observed outside; internal reveal inferred",
+              "observations": [
+                "Small round window with cross division above entry portico at upper gallery elevation.",
+                "Exact internal window height/reveal and gallery ceiling need site measurement."
+              ]
+            }
+          ],
+          "architectureLocks": [
+            "Retain every existing opening, including both single-lite side-door pairs and center arch.",
+            "Keep original upper gallery void/guard position and stair footprint.",
+            "No new wall, ceiling cove, arch, opening or relocated stair.",
+            "The proposed pendant needs verified ceiling attachment, power location and clearance.",
+            "Keep gallery clear; small table stays in existing stair-hall table footprint, not in door paths.",
+            "Future derived views must retain actual side-room relationships; any unseen geometry is recorded as inferred.",
+            "Floor direction: pale-to-medium natural neutral oak, matte, calmer grain and less orange than the previous entry. Compare a physical sample with the second floor before ordering.",
+            "Keep light warm-ivory single-lite glass side doors, natural-wood front door, painted arch inscription, small raised exit lettering and two-story cascade chandelier."
+          ],
+          "designIntent": "Light glazed doors, two-story chandelier and natural oak floor retained. The staircase beyond the arch has exposed oak treads and warm white risers, without a runner.",
+          "improvementPlan": {
+            "version": "MW-NR01",
+            "date": "2026-10-08",
+            "status": "rendered_for_review",
+            "visualStatus": "MW-NR01 · neutral bedrooms and exposed wood stairs",
+            "mood": "Arrival with breathing room",
+            "improve": "Light glazed doors, two-story chandelier and natural oak floor retained. The staircase beyond the arch has exposed oak treads and warm white risers, without a runner.",
+            "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
+          }
+        }
+      ],
+      "pendingRevision": {
+        "id": "MW-F1-R05",
+        "date": "2026-10-10",
+        "feedbackReference": "FB-017",
+        "status": "rendered_and_visually_reviewed_awaiting_homeowner_feedback",
+        "scope": [
+          "Arch inscription exact wording “Welcome Home”, capital W and H; flat painted lettering, quiet scale.",
+          "Departing inscription exact wording “See you next time.” with final period; small installed 3D letters above front door.",
+          "Retain all existing openings, clear light doors, chandelier, matched oak and exposed staircase without runner."
+        ],
+        "manifest": "docs/first-floor-r05-production.json"
+      },
+      "lightingHistory": [
+        {
+          "id": "E1-NRN-NR01",
+          "version": "MW-NR01",
+          "code": "E1-NRN",
+          "index": 45101,
+          "jobId": "dad269c9-746a-4f74-8803-a8b25d1028a7",
+          "model": "nano_banana_2_1",
+          "file": "assets/render-candidates/mineral-walnut-neutral/r01/entry-night.png",
+          "sourceCode": "E1",
+          "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/entry-e1-day.png",
+          "sourceJobId": "aebe26f7-40e2-4498-a989-acc48b1ced4d",
+          "label": "Night · Entrance gallery",
+          "scene": "Privacy / evening mode",
+          "cct": 2700,
+          "circuits": "Chandelier / general circulation / adjoining hall",
+          "lighting": "Let the existing two-story cascade chandelier provide a soft warm glow, each glass pendant legible without clipped glare. Subdued existing ceiling lights illuminate the oak path and the stair beyond; the arch lettering and light glazed doors remain visible. No light strips tracing arches or railings.",
+          "evidenceType": "Night edit of corrected daytime view",
+          "evidence": "Night study of the current neutral/bare-stair day view. Light glazed doors, two-story chandelier and natural oak floor retained. The staircase beyond the arch has exposed oak treads and warm white risers, without a runner.",
+          "qaNote": "Night entry retains inscriptions, light glazed doors, chandelier and bare distant oak stairs; exterior window dark and circulation readable.",
+          "status": "proposed",
+          "lightingNotes": [
+            "Let the existing two-story cascade chandelier provide a soft warm glow, each glass pendant legible without clipped glare. Subdued existing ceiling lights illuminate the oak path and the stair beyond; the arch lettering and light glazed doors remain visible. No light strips tracing arches or railings.",
+            "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          ]
+        }
+      ],
+      "angleLightingStudies": [
+        {
+          "id": "E2-F105N-MW-F1-R05",
+          "version": "MW-F1-R05",
+          "code": "E2-F105N",
+          "index": 51112,
+          "jobId": "44ba36d8-a272-4191-b8ca-57171e527678",
+          "model": "seedream_v5_pro",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-night-a2.png",
+          "sourceCode": "E2",
+          "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-day.png",
+          "sourceJobId": "3bab801e-257b-4a4f-8342-28edbb0b1713",
+          "label": "Night · Entrance gallery · E2 camera",
+          "scene": "Privacy / evening mode",
+          "cct": 2700,
+          "circuits": "Chandelier / general circulation / adjoining hall",
+          "lighting": "Let the existing two-story cascade chandelier provide a soft warm glow, each glass pendant legible without clipped glare. Subdued existing ceiling lights illuminate the oak path and the stair beyond; the arch lettering and light glazed doors remain visible. No light strips tracing arches or railings.",
+          "evidenceType": "Same-camera night edit of corrected approved day",
+          "evidence": "Visually paired with the exact corrected daytime source. Camera, openings, furniture and finishes remain; visible exterior privacy/blackout layers close where specified.",
+          "qaNote": "Lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+          "assetRevision": "mw-f1-r05"
+        }
+      ]
     },
     "office": {
       "id": "office",
       "floor": "first-floor",
       "title": "Home office",
-      "currentRevision": "mw-architecture-r01",
-      "status": "proposed",
-      "userApproval": "FB-016 requirements recorded. Revised images and exact materials/products await feedback; no fabrication approval is implied.",
-      "designIntent": "The north-wall cabinet composition now includes a TV and soundbar; a compact printer station and artwork sit beside the entry.",
+      "currentRevision": "MW-F1-R05",
+      "status": "Proposed · source-reviewed first-floor revision awaiting homeowner feedback",
+      "userApproval": "FB-017 corrections requested by homeowner and visually reviewed. Revised images, final measured details and exact products await homeowner feedback; no fabrication approval is implied.",
+      "designIntent": "A working walnut library with central TV and soundbar, rectangular desk and southeast task position. Centered paired exterior windows balance daylight; right-offset gallery doors leave a usable left wall for a small printer cabinet and neutral framed art beside the circular window.",
       "sourceEvidence": [
         {
           "id": "SRC-OFFICE-PHOTO",
@@ -2463,8 +2760,9 @@
           "file": "assets/Crown Georgetown Photos/first-floor-home-office.jpg.webp",
           "confidence": "Directly observed source camera; finishes intentionally restyled",
           "observations": [
-            "Keep the two-unit front window and three-unit right window at their original size, sill heights and divisions.",
-            "Original photo includes a right-window counter. FB-011 explicitly removes it; preserve the window openings and flat ceiling."
+            "Two paired exterior window banks. The centre structural mullions divide TWO units; thin decorative glazing bars were previously misread as a third unit.",
+            "FB-017 corrects both banks to centered 2×2 assemblies. Preserve actual wall spans, sill/head relationships and flat ceiling; verify dimensions on site.",
+            "Original right-window counter is intentionally removed under FB-011; no replacement console under either main window."
           ]
         },
         {
@@ -2475,22 +2773,33 @@
           "preview": "assets/render-candidates/room-review/entry/r01/refs/entry-plan-reference.webp",
           "confidence": "Published builder plan; not an as-built survey",
           "observations": [
-            "Keep the two-unit front window and three-unit right window at their original size, sill heights and divisions.",
-            "Original photo includes a right-window counter. FB-011 explicitly removes it; preserve the window openings and flat ceiling.",
-            "Plan room label is 15 ft 5 in × 12 ft 11 in; it is a planning reference, not a verified joinery dimension.",
-            "Single-lite paired gallery doors occupy the plan's gallery boundary; alternate views interpret their room-side finish."
+            "Plan label is 15 ft 5 in × 12 ft 11 in; planning proportions only, not measured joinery dimensions.",
+            "When looking at gallery boundary from inside, paired single-lite doors are offset toward the right, leaving a larger wall section on the left.",
+            "Small portico-side window is represented on the wall left of the gallery pair; homeowner identifies it as circular. Preserve it and verify interior reveal/height.",
+            "Full north/interior wall shared with media remains fitted TV/library cabinetry; rectangular desk and southeast chair face northwest."
+          ]
+        },
+        {
+          "id": "SRC-OFFICE-FB017",
+          "type": "homeowner_architecture_correction",
+          "date": "2026-10-10",
+          "confidence": "Homeowner correction corroborated by plan relationships and paired actual-house exterior banks; exact interior offsets remain unmeasured",
+          "observations": [
+            "Correct both exterior banks to paired centered 2×2 windows; distinguish structural centre mullion from thin glazing bars.",
+            "Reverse view: gallery paired doors sit toward right end of their wall; small round portico-side window and larger usable wall section to left.",
+            "Place compact printer cabinet and neutral black-framed art on the left section, respecting the small circular window.",
+            "Keep full interior/north wall TV/library cabinetry, soundbar and southeast task chair facing northwest across rectangular desk."
           ]
         }
       ],
       "architectureLocks": [
-        "Keep the two-unit front window and three-unit right window at their original size, sill heights and divisions.",
-        "Keep the flat ceiling. Remove right/south-window counter and console per FB-011; full-wall cabinetry stays on the interior north wall shared with the media room.",
-        "Plan room label is 15 ft 5 in × 12 ft 11 in; it is a planning reference, not a verified joinery dimension.",
-        "Single-lite paired gallery doors occupy the plan's gallery boundary; alternate views interpret their room-side finish.",
-        "Working chair stays in the southeast corner facing northwest across the rectangular desk, following the homeowner and blueprint furniture arrangement.",
-        "Keep full north-wall walnut built-in and the large rectangular desk with southeast seated position facing northwest.",
-        "Replace central cabinet artwork with a proposed TV and slim soundbar; actual screen size is a cabinet-fit decision.",
-        "Add compact printer cabinet and black-framed artwork immediately right of the entry doors when facing them from inside. No large console across the south wall."
+        "Both main exterior window banks are centered paired 2×2 assemblies; no three-unit bank or widened wall-to-wall glass.",
+        "Preserve flat ceiling and room planning proportions 15 ft 5 in × 12 ft 11 in; field-measure every opening.",
+        "Keep gallery door pair toward the right end when facing it from inside, leaving a larger wall section LEFT of doors.",
+        "Retain small circular portico-side window to left of doors. Printer cabinet and framed art belong on this left wall section, clear of window and door operation.",
+        "No broad console or counter beneath the main exterior windows.",
+        "Full north/interior wall shared with media remains warm walnut fitted cabinetry with central TV and slim soundbar, not central artwork.",
+        "Large rectangular desk keeps southeast task chair facing northwest; actual diagonal, chair pullback and visitor-seat footprints require a taped-out measured plan."
       ],
       "revisions": [
         {
@@ -2913,6 +3222,53 @@
               "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
             ]
           }
+        },
+        {
+          "id": "MW-F1-R05",
+          "date": "2026-10-10",
+          "status": "visually_reviewed_design_visualization",
+          "reason": "Both centered main banks contain two paired double-hung units. Gallery doors offset right leave a longer wall zone on their left for the confirmed circular window, compact printer cabinet and adjacent artwork. Full north-wall walnut joinery includes TV and soundbar.",
+          "manifest": "docs/first-floor-r05-production.json",
+          "views": [
+            {
+              "id": "O1-MW-F1-R05",
+              "code": "O1",
+              "index": 51003,
+              "jobId": "c82d6061-80d9-4d47-8f11-82fef17d0f21",
+              "model": "seedream_v5_pro",
+              "label": "Corrected view · Home office",
+              "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-day.png",
+              "evidenceType": "Photo-based architectural revision",
+              "evidence": "Original office photo camera and compact shell; both main banks correctly read as paired two-unit double-hungs, north TV joinery left and exterior banks ahead/right.",
+              "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+              "sourceFile": "assets/Crown Georgetown Photos/first-floor-home-office.jpg.webp",
+              "sourceJobId": "d368c093-a370-4ed0-b817-dee447a27deb",
+              "revision": "MW-F1-R05",
+              "auditIndex": 51003
+            },
+            {
+              "id": "O2-MW-F1-R05",
+              "code": "O2",
+              "index": 51104,
+              "jobId": "7b543900-593d-4b99-b0e7-b1efcab6ff5a",
+              "model": "seedream_v5_pro",
+              "label": "Secondary view · Home office",
+              "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-day-a2.png",
+              "evidenceType": "Derived angle · plan and photo interpretation",
+              "evidence": "Derived reverse camera checked against the plan: gallery doors offset right; circular window on the FAR gallery wall above the printer LEFT of doors; artwork adjacent; main bank two units.",
+              "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+              "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-day.png",
+              "sourceJobId": "d95892b0-8618-4d1c-bcde-d5210529cef8",
+              "revision": "MW-F1-R05",
+              "auditIndex": 51104
+            }
+          ],
+          "qa": {
+            "status": "visually_reviewed",
+            "limitations": [
+              "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
+            ]
+          }
         }
       ],
       "schedule": [
@@ -2932,27 +3288,27 @@
           "id": "O-M01",
           "category": "Joinery",
           "item": "Full north-wall fitted walnut cabinetry",
-          "status": "preferred_direction",
-          "material": "Walnut veneer over stable cabinet substrate, closed walnut/charcoal base fronts, illuminated open shelves and warm ivory/mushroom backs around a black-framed art recess.",
+          "status": "proposed; revised requirements, measured details and products pending",
+          "material": "Warm walnut veneer over stable cabinet substrate; closed walnut/charcoal base fronts, selective illuminated open shelves and warm ivory/mushroom backs around a central TV and soundbar bay. No central painting.",
           "installation": "Measure wall, door casing and window-return clearances. Price standard carcasses with fitted fillers, finished ends and veneer fronts before fully custom work. Detail shelf support, fixing/backing, cable routes, outlets, ventilation and accessible LED drivers. Use a full-size material and light mockup.",
           "dimensions": "Wall-to-wall and ceiling-height composition are intent only. Shelf spans, cabinet depth, bay widths and scribe allowances require a measured elevation and shop drawing.",
           "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review.",
           "location": "Entire solid north wall shared with the media room, without wrapping under either window wall.",
-          "revision": "r04",
-          "feedbackReference": "FB-016"
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017"
         },
         {
           "id": "O-M02",
           "category": "Furniture / storage",
           "item": "Compact printer cabinet beside entry",
-          "status": "proposed — specification unselected",
+          "status": "proposed; revised requirements, measured details and products pending",
           "material": "Walnut veneer cabinet with charcoal lower door; compact multifunction printer sits on top.",
-          "installation": "Template door swing, cabinet depth and full printer operation including lid/paper trays. Provide reachable power/data and cord grommet; maintain ventilation.",
+          "installation": "Field-measure the right-offset doorway, left wall width and circular window reveal first. Template the complete door swing, cabinet depth and printer lid/tray travel. Preserve window light and reach; provide accessible power/data, cord grommet and equipment ventilation.",
           "dimensions": "Provisional 30 in wide × 15 in deep; actual printer may require greater depth. Measure before purchasing.",
           "procurement": "Proposed; no manufacturer, SKU or purchase approved.",
-          "revision": "r04",
-          "feedbackReference": "FB-016",
-          "location": "Immediately right of clear entry doors when viewed from inside; no large south-wall console."
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017",
+          "location": "Larger solid wall section LEFT of gallery doors when viewed from inside toward the doorway, beside the small circular portico-side window; no large window-wall console."
         },
         {
           "id": "O-W01",
@@ -2995,26 +3351,26 @@
           "id": "O-T01",
           "category": "Openings",
           "item": "Light gallery doors and ivory drapery",
-          "status": "proposed",
+          "status": "proposed; revised requirements, measured details and products pending",
           "material": "Warm ivory satin clear single-lite gallery doors with dark handles. Ivory sheers with independent non-see-through privacy shades on exterior windows; see OFFICE-WT01.",
-          "installation": "Coordinate both faces with E-T02. Preserve clear single glass panes, original opening and operable hardware; no grid pattern. Measure drapery stack-back and keep windows and chair path usable.",
+          "installation": "Preserve two centered paired exterior window banks, each with two columns and two rows, plus the small round portico-side window. Gallery door pair remains offset toward the right when facing it from inside. Coordinate clear door leaves and ivory finish with entry; measure shade and sheer operation without blocking windows or chair route.",
           "dimensions": "Field measure and coordinate clearances before product selection or fabrication; no quantities derived from render pixels.",
           "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review.",
-          "revision": "r04",
-          "feedbackReference": "FB-016"
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017"
         },
         {
           "id": "O-A01",
           "category": "Artwork / accessories",
           "item": "Printer-station artwork and living plant",
-          "status": "proposed — specification unselected",
+          "status": "proposed; revised requirements, measured details and products pending",
           "material": "Neutral abstract in thin black frame; a restrained live plant.",
           "installation": "Locate above printer fully opened lid, anchor properly and preserve entry clearance.",
           "dimensions": "Field measure; sizes shown in images are not fabrication dimensions.",
           "procurement": "Proposed; no manufacturer, SKU or purchase approved.",
-          "revision": "r04",
-          "feedbackReference": "FB-016",
-          "location": "Artwork over small printer cabinet, to right of doors."
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017",
+          "location": "Above the compact printer cabinet on the LEFT section of the gallery-entry wall, placed clear of the small circular window and open printer lid."
         },
         {
           "id": "O-AV01",
@@ -3048,14 +3404,14 @@
           "item": "Ivory sheers + hidden light-filtering privacy shades",
           "status": "proposed; measured takeoff and products pending",
           "material": "Warm ivory linen-look sheers, ivory or oatmeal blackout curtain faces, and quiet warm-neutral shades. Concealed or slim dark tracks coordinate with walnut, natural oak and restrained black details. Blackout describes the backing, not a black visible curtain.",
-          "location": "Both exterior window walls: front two-unit group and right three-unit group. Preserve clear internal gallery doors.",
+          "location": "Both main exterior window banks are centered paired 2×2 groups. Preserve the small circular portico-side window and clear internal gallery doors; survey the round opening separately for evening privacy and an appropriate treatment if needed.",
           "designTargets": "Adjustable glare control helps screen work and calls; a separate privacy layer lets you work after dark without closing the room off all day. Blackout is unnecessary for normal office use. Day: Sheers soften sun; adjust the shade on the bright side for monitor glare. Night: Lower privacy shades on both exterior window walls.",
           "preparation": "Label and measure each actual exterior opening; check after-dark sightlines, glazing, fixing substrate, handles, stack-back and furniture clearance. Sheers and open solar screens are not relied on for night privacy.",
           "installation": "Keep window access, full north-wall cabinetry, southeast desk/chair and door routes clear. Use a non-see-through privacy fabric, not an open solar screen; check it with interior lights on.",
           "dimensions": "Site-measured opening and track sizes, finished drop, returns and operating clearances. No quantities or fabrication dimensions inferred from render pixels.",
           "procurement": "Manual system allowance: goods $700–$1100 before tax/delivery; direct installation $200–$350 before GC markup. Already included in the Option 1 cost plan. Exact material, lining, track and finished coverage to be selected.",
-          "revision": "MW-W01",
-          "feedbackReference": "MW-W01"
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017"
         }
       ],
       "buildSequence": [
@@ -3068,10 +3424,10 @@
       "pricingInstructions": [
         "Price this room separately and identify shared floor/paint work to avoid double-counting.",
         "Separate substrate repairs, materials, installation, electrical/plumbing work and optional custom work.",
-        "List product allowances and all assumptions; no whole-house budget has been approved.",
+        "List product allowances and all assumptions; planning budgets do not constitute an approved contractor quotation.",
         "Do not price image-derived measurements as verified quantities.",
         "Separate south-console removal/repairs, full north-wall cabinetry, lighting and rectangular desk. Compare standard fitted cabinet systems and retail desk with bespoke work.",
-        "Quote FB-016 changes as separate additions/deductions against the preceding revision; keep retained items distinct from replacement scope."
+        "Quote FB-017 changes as separate additions/deductions against the preceding revision; keep retained items distinct from replacement scope."
       ],
       "verificationRegister": [
         {
@@ -3098,6 +3454,11 @@
           "id": "O-FB016",
           "item": "Verify dimensions and services for FB-016 revisions",
           "reason": "New art, furniture, glazing, lighting or equipment must be coordinated with actual room dimensions before ordering/building."
+        },
+        {
+          "id": "O-FB017",
+          "item": "Both paired window banks, circular portico-side window, right-offset gallery pair and left printer/art composition",
+          "reason": "Earlier source notes incorrectly counted thin glazing bars as three units and placed the printer on the wrong side. Verify actual opening offsets, reveals, printer operation and door swing before procurement."
         }
       ],
       "feedback": [
@@ -3193,6 +3554,23 @@
           ],
           "revisionAtFeedback": "floor-one r03; floor-two r01; floors-three/four r02",
           "resultingRevision": "floor-one r04; floor-two r02; floors-three/four r03"
+        },
+        {
+          "id": "FB-017",
+          "date": "2026-10-10",
+          "scope": "Mineral & Walnut first-floor architecture audit and entry/office/media refinements",
+          "userFeedback": "Audit every first-floor day and night image against original model-home photographs, the blueprint and actual-house evidence. Office: move the gallery doorway toward the right in the reverse view, retain the small circular window to its left, and place the printer cabinet and artwork on the larger left wall section. Both exterior window banks are centered paired 2×2 assemblies, not three-unit windows. Media: smaller centered square-looking 2×2 main window; RH Cloud sofa with ottomans extending both ends, small side tables and a central table; 83-inch TV and a wider console built into a redesigned TV-wall composition. Homeowner confirms the smaller media seating-wall exterior feature is a fake window with no inside opening. Entry arch wording becomes “Welcome Home”; departing wording becomes “See you next time.”",
+          "interpretation": "Record a fresh first-floor correction pass in pure Mineral & Walnut. Existing thin glazing bars were incorrectly described as three structural window units; do not propagate that error. Keep media seating wall solid in every angle, despite the brochure symbol. Retain light clear side doors, two-story cascade chandelier, neutral oak/ivory/mushroom/walnut palette, selected stone updates and uncovered stairs. New renders remain pending until source-by-source visual QA; the gym is retained and the plan-led bathroom access offsets are checked.",
+          "status": "requirements_recorded; corrected_renders_and_visual_QA_pending",
+          "affectedRooms": [
+            "entry",
+            "office",
+            "media",
+            "gym",
+            "bath"
+          ],
+          "revisionAtFeedback": "Published first-floor day/night images; prior MW-A02 and MW-NR01 concepts",
+          "resultingRevision": "MW-F1-R05 pending render QA, not construction approval"
         }
       ],
       "approvalHistory": [],
@@ -3201,7 +3579,7 @@
         "Review the two updated labeled views and record further feedback.",
         "Select actual materials, products and coordinated measured dimensions."
       ],
-      "handoffStatus": "Working design concept and trade coordination notes, not a measured construction package. Preserve the original photo/plan as structural evidence and verify all unseen details.",
+      "handoffStatus": "Concept and source review recorded; field measurements, trade coordination and homeowner approval remain before construction.",
       "itemHistory": [
         {
           "revision": "r01",
@@ -3293,6 +3671,79 @@
             "dimensions": "Field measure and coordinate clearances before product selection or fabrication; no quantities derived from render pixels.",
             "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review."
           }
+        },
+        {
+          "revision": "mw-architecture-r01",
+          "supersededBy": "MW-F1-R05 requirements",
+          "feedbackId": "FB-017",
+          "items": [
+            {
+              "id": "O-M01",
+              "category": "Joinery",
+              "item": "Full north-wall fitted walnut cabinetry",
+              "status": "preferred_direction",
+              "material": "Walnut veneer over stable cabinet substrate, closed walnut/charcoal base fronts, illuminated open shelves and warm ivory/mushroom backs around a black-framed art recess.",
+              "installation": "Measure wall, door casing and window-return clearances. Price standard carcasses with fitted fillers, finished ends and veneer fronts before fully custom work. Detail shelf support, fixing/backing, cable routes, outlets, ventilation and accessible LED drivers. Use a full-size material and light mockup.",
+              "dimensions": "Wall-to-wall and ceiling-height composition are intent only. Shelf spans, cabinet depth, bay widths and scribe allowances require a measured elevation and shop drawing.",
+              "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review.",
+              "location": "Entire solid north wall shared with the media room, without wrapping under either window wall.",
+              "revision": "r04",
+              "feedbackReference": "FB-016"
+            },
+            {
+              "id": "O-M02",
+              "category": "Furniture / storage",
+              "item": "Compact printer cabinet beside entry",
+              "status": "proposed — specification unselected",
+              "material": "Walnut veneer cabinet with charcoal lower door; compact multifunction printer sits on top.",
+              "installation": "Template door swing, cabinet depth and full printer operation including lid/paper trays. Provide reachable power/data and cord grommet; maintain ventilation.",
+              "dimensions": "Provisional 30 in wide × 15 in deep; actual printer may require greater depth. Measure before purchasing.",
+              "procurement": "Proposed; no manufacturer, SKU or purchase approved.",
+              "revision": "r04",
+              "feedbackReference": "FB-016",
+              "location": "Immediately right of clear entry doors when viewed from inside; no large south-wall console."
+            },
+            {
+              "id": "O-T01",
+              "category": "Openings",
+              "item": "Light gallery doors and ivory drapery",
+              "status": "proposed",
+              "material": "Warm ivory satin clear single-lite gallery doors with dark handles. Ivory sheers with independent non-see-through privacy shades on exterior windows; see OFFICE-WT01.",
+              "installation": "Coordinate both faces with E-T02. Preserve clear single glass panes, original opening and operable hardware; no grid pattern. Measure drapery stack-back and keep windows and chair path usable.",
+              "dimensions": "Field measure and coordinate clearances before product selection or fabrication; no quantities derived from render pixels.",
+              "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review.",
+              "revision": "r04",
+              "feedbackReference": "FB-016"
+            },
+            {
+              "id": "O-A01",
+              "category": "Artwork / accessories",
+              "item": "Printer-station artwork and living plant",
+              "status": "proposed — specification unselected",
+              "material": "Neutral abstract in thin black frame; a restrained live plant.",
+              "installation": "Locate above printer fully opened lid, anchor properly and preserve entry clearance.",
+              "dimensions": "Field measure; sizes shown in images are not fabrication dimensions.",
+              "procurement": "Proposed; no manufacturer, SKU or purchase approved.",
+              "revision": "r04",
+              "feedbackReference": "FB-016",
+              "location": "Artwork over small printer cabinet, to right of doors."
+            },
+            {
+              "id": "OFFICE-WT01",
+              "category": "Window treatments and privacy",
+              "item": "Ivory sheers + hidden light-filtering privacy shades",
+              "status": "proposed; measured takeoff and products pending",
+              "material": "Warm ivory linen-look sheers, ivory or oatmeal blackout curtain faces, and quiet warm-neutral shades. Concealed or slim dark tracks coordinate with walnut, natural oak and restrained black details. Blackout describes the backing, not a black visible curtain.",
+              "location": "Both exterior window walls: front two-unit group and right three-unit group. Preserve clear internal gallery doors.",
+              "designTargets": "Adjustable glare control helps screen work and calls; a separate privacy layer lets you work after dark without closing the room off all day. Blackout is unnecessary for normal office use. Day: Sheers soften sun; adjust the shade on the bright side for monitor glare. Night: Lower privacy shades on both exterior window walls.",
+              "preparation": "Label and measure each actual exterior opening; check after-dark sightlines, glazing, fixing substrate, handles, stack-back and furniture clearance. Sheers and open solar screens are not relied on for night privacy.",
+              "installation": "Keep window access, full north-wall cabinetry, southeast desk/chair and door routes clear. Use a non-see-through privacy fabric, not an open solar screen; check it with interior lights on.",
+              "dimensions": "Site-measured opening and track sizes, finished drop, returns and operating clearances. No quantities or fabrication dimensions inferred from render pixels.",
+              "procurement": "Manual system allowance: goods $700–$1100 before tax/delivery; direct installation $200–$350 before GC markup. Already included in the Option 1 cost plan. Exact material, lining, track and finished coverage to be selected.",
+              "revision": "MW-W01",
+              "feedbackReference": "MW-W01"
+            }
+          ]
         }
       ],
       "historicalSourceEvidence": [
@@ -3310,44 +3761,45 @@
       ],
       "styleIdentity": "Work, display and technology",
       "improvementPlan": {
-        "version": "MW-A02",
-        "date": "2026-10-08",
-        "status": "rendered_for_review",
-        "visualStatus": "MW-A02 · source-audited revision for feedback",
+        "version": "MW-F1-R05",
+        "date": "2026-10-10",
+        "status": "corrections_required; new_renders_and_QA_pending",
+        "visualStatus": "Published prior images are not yet replaced; FB-017 corrections await image QA",
         "mood": "A working library",
-        "improve": "Both original window banks now visible at correct relative sizes (two front/three right); full interior-wall TV joinery, desk and no window counter. Task seat restored to window side, with visitors toward built-in; clear gallery doors, printer and art retained. Desk alignment remains a measured furniture-plan decision.",
-        "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
+        "improve": "Correct both exterior banks to paired centered 2×2 windows; distinguish structural centre mullion from thin glazing bars. Reverse view: gallery paired doors sit toward right end of their wall; small round portico-side window and larger usable wall section to left. Place compact printer cabinet and neutral black-framed art on the left section, respecting the small circular window. Keep full interior/north wall TV/library cabinetry, soundbar and southeast task chair facing northwest across rectangular desk.",
+        "verify": "Check each source-photo view directly against its original and each derived view against the printed plan, homeowner corrections and approved same-room camera. Measured opening offsets, furniture, services and fabrication remain pending."
       },
       "lightingStudy": {
-        "id": "O1-N4-MWA02",
-        "version": "MW-A02",
-        "code": "O1-N4",
-        "index": 32002,
-        "jobId": "0e1ea243-25c4-4297-a862-eee7920a2394",
-        "model": "nano_banana_2_1",
-        "file": "assets/render-candidates/mineral-walnut-architecture/r01/office-night.png",
+        "id": "O1-F105N-MW-F1-R05",
+        "version": "MW-F1-R05",
+        "code": "O1-F105N",
+        "index": 51113,
+        "jobId": "77ccea51-ec4c-4268-add9-298d5802b404",
+        "model": "seedream_v5_pro",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-night-a2.png",
         "sourceCode": "O1",
-        "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/office-o1-day.png",
-        "sourceJobId": "d368c093-a370-4ed0-b817-dee447a27deb",
-        "label": "Night · Home office",
+        "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-day.png",
+        "sourceJobId": "c82d6061-80d9-4d47-8f11-82fef17d0f21",
+        "label": "Night · Home office · O1 camera",
         "scene": "Privacy / evening mode",
         "cct": 3000,
         "circuits": "Desk and general / shelf accent",
         "lighting": "Turn on the existing integrated shelf lighting and a restrained level of recessed general light. Provide useful illumination on the desk from the ceiling, with the TV off and its reflections subdued. Avoid bright strips around the TV. Keep shelving objects and printer unchanged.",
-        "evidenceType": "Night edit of corrected daytime view",
-        "evidence": "Visually compared with corrected source day view: same camera and architecture, furnishings/materials retained, night lighting and visible shade state appropriate. No new structural changes.",
-        "qaNote": "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house.",
+        "evidenceType": "Same-camera night edit of corrected approved day",
+        "evidence": "Visually paired with the exact corrected daytime source. Camera, openings, furniture and finishes remain; visible exterior privacy/blackout layers close where specified.",
+        "qaNote": "Lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+        "assetRevision": "mw-f1-r05",
         "status": "proposed",
         "lightingNotes": [
           "Turn on the existing integrated shelf lighting and a restrained level of recessed general light. Provide useful illumination on the desk from the ceiling, with the TV off and its reflections subdued. Avoid bright strips around the TV. Keep shelving objects and printer unchanged.",
-          "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
         ]
       },
       "windowTreatment": {
         "id": "office",
         "system": "privacy",
         "recommendation": "Ivory sheers + hidden light-filtering privacy shades",
-        "coverage": "Both exterior window walls: front two-unit group and right three-unit group. Preserve clear internal gallery doors.",
+        "coverage": "Both main exterior banks are centered paired 2×2 groups, with TWO structural units in each bank. Preserve the small circular portico-side window and clear internal gallery doors; assess round-window privacy separately on site.",
         "why": "Adjustable glare control helps screen work and calls; a separate privacy layer lets you work after dark without closing the room off all day. Blackout is unnecessary for normal office use.",
         "day": "Sheers soften sun; adjust the shade on the bright side for monitor glare.",
         "night": "Lower privacy shades on both exterior window walls.",
@@ -3361,18 +3813,153 @@
           350
         ],
         "title": "Home office",
-        "floor": "first-floor",
-        "version": "MW-W01"
-      }
+        "floor": "first-floor"
+      },
+      "architectureEvidenceHistory": [
+        {
+          "recorded": "2026-10-10",
+          "supersededByFeedback": "FB-017",
+          "sourceEvidence": [
+            {
+              "id": "SRC-OFFICE-PHOTO",
+              "type": "original_photo",
+              "file": "assets/Crown Georgetown Photos/first-floor-home-office.jpg.webp",
+              "confidence": "Directly observed source camera; finishes intentionally restyled",
+              "observations": [
+                "Keep the two-unit front window and three-unit right window at their original size, sill heights and divisions.",
+                "Original photo includes a right-window counter. FB-011 explicitly removes it; preserve the window openings and flat ceiling."
+              ]
+            },
+            {
+              "id": "SRC-OFFICE-PLAN",
+              "type": "blueprint",
+              "file": "assets/cf_city_home_with_georgetown_pkg.pdf",
+              "page": 2,
+              "preview": "assets/render-candidates/room-review/entry/r01/refs/entry-plan-reference.webp",
+              "confidence": "Published builder plan; not an as-built survey",
+              "observations": [
+                "Keep the two-unit front window and three-unit right window at their original size, sill heights and divisions.",
+                "Original photo includes a right-window counter. FB-011 explicitly removes it; preserve the window openings and flat ceiling.",
+                "Plan room label is 15 ft 5 in × 12 ft 11 in; it is a planning reference, not a verified joinery dimension.",
+                "Single-lite paired gallery doors occupy the plan's gallery boundary; alternate views interpret their room-side finish."
+              ]
+            }
+          ],
+          "architectureLocks": [
+            "Keep the two-unit front window and three-unit right window at their original size, sill heights and divisions.",
+            "Keep the flat ceiling. Remove right/south-window counter and console per FB-011; full-wall cabinetry stays on the interior north wall shared with the media room.",
+            "Plan room label is 15 ft 5 in × 12 ft 11 in; it is a planning reference, not a verified joinery dimension.",
+            "Single-lite paired gallery doors occupy the plan's gallery boundary; alternate views interpret their room-side finish.",
+            "Working chair stays in the southeast corner facing northwest across the rectangular desk, following the homeowner and blueprint furniture arrangement.",
+            "Keep full north-wall walnut built-in and the large rectangular desk with southeast seated position facing northwest.",
+            "Replace central cabinet artwork with a proposed TV and slim soundbar; actual screen size is a cabinet-fit decision.",
+            "Add compact printer cabinet and black-framed artwork immediately right of the entry doors when facing them from inside. No large console across the south wall."
+          ],
+          "designIntent": "The north-wall cabinet composition now includes a TV and soundbar; a compact printer station and artwork sit beside the entry.",
+          "improvementPlan": {
+            "version": "MW-A02",
+            "date": "2026-10-08",
+            "status": "rendered_for_review",
+            "visualStatus": "MW-A02 · source-audited revision for feedback",
+            "mood": "A working library",
+            "improve": "Both original window banks now visible at correct relative sizes (two front/three right); full interior-wall TV joinery, desk and no window counter. Task seat restored to window side, with visitors toward built-in; clear gallery doors, printer and art retained. Desk alignment remains a measured furniture-plan decision.",
+            "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
+          },
+          "windowTreatment": {
+            "id": "office",
+            "system": "privacy",
+            "recommendation": "Ivory sheers + hidden light-filtering privacy shades",
+            "coverage": "Both exterior window walls: front two-unit group and right three-unit group. Preserve clear internal gallery doors.",
+            "why": "Adjustable glare control helps screen work and calls; a separate privacy layer lets you work after dark without closing the room off all day. Blackout is unnecessary for normal office use.",
+            "day": "Sheers soften sun; adjust the shade on the bright side for monitor glare.",
+            "night": "Lower privacy shades on both exterior window walls.",
+            "installation": "Keep window access, full north-wall cabinetry, southeast desk/chair and door routes clear. Use a non-see-through privacy fabric, not an open solar screen; check it with interior lights on.",
+            "goods": [
+              700,
+              1100
+            ],
+            "installationCost": [
+              200,
+              350
+            ],
+            "title": "Home office",
+            "floor": "first-floor",
+            "version": "MW-W01"
+          }
+        }
+      ],
+      "pendingRevision": {
+        "id": "MW-F1-R05",
+        "date": "2026-10-10",
+        "feedbackReference": "FB-017",
+        "status": "rendered_and_visually_reviewed_awaiting_homeowner_feedback",
+        "scope": [
+          "Correct both exterior banks to paired centered 2×2 windows; distinguish structural centre mullion from thin glazing bars.",
+          "Reverse view: gallery paired doors sit toward right end of their wall; small round portico-side window and larger usable wall section to left.",
+          "Place compact printer cabinet and neutral black-framed art on the left section, respecting the small circular window.",
+          "Keep full interior/north wall TV/library cabinetry, soundbar and southeast task chair facing northwest across rectangular desk."
+        ],
+        "manifest": "docs/first-floor-r05-production.json"
+      },
+      "lightingHistory": [
+        {
+          "id": "O1-N4-MWA02",
+          "version": "MW-A02",
+          "code": "O1-N4",
+          "index": 32002,
+          "jobId": "0e1ea243-25c4-4297-a862-eee7920a2394",
+          "model": "nano_banana_2_1",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/office-night.png",
+          "sourceCode": "O1",
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/office-o1-day.png",
+          "sourceJobId": "d368c093-a370-4ed0-b817-dee447a27deb",
+          "label": "Night · Home office",
+          "scene": "Privacy / evening mode",
+          "cct": 3000,
+          "circuits": "Desk and general / shelf accent",
+          "lighting": "Turn on the existing integrated shelf lighting and a restrained level of recessed general light. Provide useful illumination on the desk from the ceiling, with the TV off and its reflections subdued. Avoid bright strips around the TV. Keep shelving objects and printer unchanged.",
+          "evidenceType": "Night edit of corrected daytime view",
+          "evidence": "Visually compared with corrected source day view: same camera and architecture, furnishings/materials retained, night lighting and visible shade state appropriate. No new structural changes.",
+          "qaNote": "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house.",
+          "status": "proposed",
+          "lightingNotes": [
+            "Turn on the existing integrated shelf lighting and a restrained level of recessed general light. Provide useful illumination on the desk from the ceiling, with the TV off and its reflections subdued. Avoid bright strips around the TV. Keep shelving objects and printer unchanged.",
+            "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          ]
+        }
+      ],
+      "angleLightingStudies": [
+        {
+          "id": "O2-F105N-MW-F1-R05",
+          "version": "MW-F1-R05",
+          "code": "O2-F105N",
+          "index": 51114,
+          "jobId": "8a6c81cf-f5d1-40b3-a308-2ae51b36af02",
+          "model": "nano_banana_2_1",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-night-a2.png",
+          "sourceCode": "O2",
+          "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-day-a2.png",
+          "sourceJobId": "7b543900-593d-4b99-b0e7-b1efcab6ff5a",
+          "label": "Night · Home office · O2 camera",
+          "scene": "Privacy / evening mode",
+          "cct": 3000,
+          "circuits": "Desk and general / shelf accent",
+          "lighting": "Turn on the existing integrated shelf lighting and a restrained level of recessed general light. Provide useful illumination on the desk from the ceiling, with the TV off and its reflections subdued. Avoid bright strips around the TV. Keep shelving objects and printer unchanged.",
+          "evidenceType": "Same-camera night edit of corrected approved day",
+          "evidence": "Visually paired with the exact corrected daytime source. Camera, openings, furniture and finishes remain; visible exterior privacy/blackout layers close where specified.",
+          "qaNote": "Lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+          "assetRevision": "mw-f1-r05"
+        }
+      ]
     },
     "media": {
       "id": "media",
       "floor": "first-floor",
       "title": "Media room",
-      "currentRevision": "mw-architecture-r01",
-      "status": "proposed",
-      "userApproval": "FB-016 requirements recorded. Revised images and exact materials/products await feedback; no fabrication approval is implied.",
-      "designIntent": "The 83-inch screen takes priority over a smooth restrained backdrop, with coordinated audio and a collectible display beside clear glass doors.",
+      "currentRevision": "MW-F1-R05",
+      "status": "Proposed · source-reviewed first-floor revision awaiting homeowner feedback",
+      "userApproval": "FB-017 corrections requested by homeowner and visually reviewed. Revised images, final measured details and exact products await homeowner feedback; no fabrication approval is implied.",
+      "designIntent": "A compact private cinema with an 83-inch TV, fitted walnut console, quiet mushroom mineral centre and neutral acoustic side panels. Ivory Cloud-style seating extends with ottomans at both ends; slim side tables and a compact central table preserve circulation. Main window remains centered and paired; sofa wall is solid because its exterior feature is fake.",
       "sourceEvidence": [
         {
           "id": "SRC-MEDIA-PHOTO",
@@ -3380,8 +3967,9 @@
           "file": "assets/Crown Georgetown Photos/first-floor-media-room.jpg.webp",
           "confidence": "Directly observed source camera; finishes intentionally restyled",
           "observations": [
-            "Keep 15 ft 1 in × 11 ft 1 in planning proportions; field measurement required.",
-            "Retain the photographed shallow tray ceiling and crown; no added dropped ceiling or cove."
+            "Original media photograph establishes compact room, M1 camera, existing crown/ceiling profile and uninterrupted interior sofa wall.",
+            "Real paired street window has TWO structural units; thin decorative bars are not extra window units. Homeowner requests smaller centered square-looking 2×2 glazing.",
+            "Photographed double-ended lounging informs the requested two-ottoman arrangement. Preserve room proportions, not the old furniture or wall color."
           ]
         },
         {
@@ -3392,32 +3980,54 @@
           "preview": "assets/render-candidates/room-review/entry/r01/refs/entry-plan-reference.webp",
           "confidence": "Published builder plan; not an as-built survey",
           "observations": [
-            "Keep 15 ft 1 in × 11 ft 1 in planning proportions; field measurement required.",
-            "Retain the photographed shallow tray ceiling and crown; no added dropped ceiling or cove.",
-            "Keep the wide two-sash street window and television on the source photo's right wall.",
-            "Center-hall double-door location follows the blueprint; no new window or fireplace."
+            "Printed plan media rectangle is 15 ft 1 in horizontally × 11 ft 1 in vertically; field measurement required.",
+            "TV on LEFT wall shared with office; clear paired entry on TOP wall toward LEFT/TV corner; centered paired window on BOTTOM exterior wall; sofa on RIGHT wall.",
+            "Smaller opening symbol on RIGHT/sofa wall corresponds to a FAKE exterior feature, per explicit homeowner confirmation. Do not visualize an interior opening in any angle.",
+            "The clear door pair is offset toward TV corner, not centered; shallow collectible display belongs on the larger wall area to its right."
           ]
         },
         {
           "id": "MEDIA-OWNER-REFERENCE",
           "type": "user_reference",
           "file": "assets/render-candidates/floor-one-review/r03/refs/media-wall-user-reference.png",
-          "confidence": "Homeowner-supplied design reference, not this house geometry",
+          "confidence": "Historical homeowner design reference; TV-wall surface composition superseded by FB-017",
           "observations": [
             "Vertical wood slats, large TV and long charcoal-front console with walnut surround.",
-            "Use reference finishes and composition while retaining this house layout, ceiling and west entry position."
+            "Use reference finishes and composition while retaining this house layout, ceiling and west entry position.",
+            "FB-017 replaces the earlier slat/charcoal-box treatment with a new calm mineral/acoustic composition and integrated walnut base. This historical image does not establish room geometry."
+          ]
+        },
+        {
+          "id": "SRC-MEDIA-EXTERIOR-FB017",
+          "type": "actual_house_exterior",
+          "file": "assets/Outside Photos/east-3.jpg",
+          "confidence": "Real white-house east elevation directly observed; interior opening behavior clarified by homeowner",
+          "observations": [
+            "First-floor media window is paired with a centre mullion and horizontal division, not three structural units.",
+            "North-east exterior lower wall is obscured by planting; exterior photos alone did not resolve the smaller sofa-wall feature. Homeowner explicitly confirmed it is fake and invisible from inside."
+          ]
+        },
+        {
+          "id": "SRC-MEDIA-OWNER-FB017",
+          "type": "homeowner_as_built_clarification",
+          "date": "2026-10-10",
+          "confidence": "Explicit homeowner clarification",
+          "observations": [
+            "Smaller blueprint/exterior sofa-wall window is a FAKE window: no corresponding opening is visible inside. Keep solid interior sofa wall in M1, M2 and all night versions."
           ]
         }
       ],
       "architectureLocks": [
-        "Keep 15 ft 1 in × 11 ft 1 in planning proportions; field measurement required.",
-        "Retain the photographed shallow tray ceiling and crown; no added dropped ceiling or cove.",
-        "Keep the wide two-sash street window and television on the source photo's right wall.",
-        "Paired entry is on the west wall toward the south/TV-wall end, perpendicular to the south slat wall; preserve its plan location. Exact offset and handing require survey.",
-        "83-inch TV and soundbar remain the main focus; replace the full slat wall with a smooth restrained mushroom/charcoal backing and subtle dimmable halo.",
-        "Clear single-lite glazed ivory doors stay on the west wall near the south corner. Recessed collectible display belongs to their right when viewed from inside.",
-        "Four ceiling grilles and rear speakers indicate intended audio coverage, not a finalized acoustical design. Choose one compatible receiver/soundbar/speaker system before wiring.",
-        "Retain deep Cloud-style seating, long floating walnut/charcoal console, existing tray ceiling and east two-sash window."
+        "Keep modest 15 ft 1 in × 11 ft 1 in planning proportions; final dimensions from site survey.",
+        "Preserve existing photographed ceiling/crown profile, not an invented deeper tray or cove.",
+        "Main street window is a smaller centered paired 2×2 assembly; no extra structural units or enlarged wall-wide glazing.",
+        "SOFA WALL IS SOLID: homeowner confirms the smaller plan/exterior window feature is fake. No interior window or niche in any day/night camera.",
+        "TV stays on source-photo right / printed-plan LEFT wall shared with office. Clear single-lite ivory door pair stays near TV corner on printed-plan TOP wall, leaving greater wall area to right.",
+        "83-inch television and slim soundbar remain focal point, above integrated walnut cabinetry wider than screen. New mineral centre/acoustic sides replace projecting charcoal box/full slats.",
+        "Use shallow fitted room-side TV service construction; do not assume a recess through office wall or structural alterations.",
+        "Warm ivory Cloud Classic-scale sofa and TWO end ottomans retain realistic footprint. Slim C tables and compact centre table must fit without blocking doors/curtains.",
+        "Collectible display stays right of doors. Coordinate ceiling and rear surround provision as one compatible AV system; grille images are not shop drawings.",
+        "Ivory sheers and independently closing blackout exterior curtains, with removable interior clear-door covers for film mode; no permanently frosted glass."
       ],
       "revisions": [
         {
@@ -3847,6 +4457,53 @@
               "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
             ]
           }
+        },
+        {
+          "id": "MW-F1-R05",
+          "date": "2026-10-10",
+          "status": "visually_reviewed_design_visualization",
+          "reason": "The smaller real paired 2×2 window is centered; the exterior fake window has no interior opening. Ivory RH Cloud-style seating has an ottoman at both ends, compact side tables and a middle table. An 83-inch TV and soundbar sit above a fitted walnut console wider than the screen, with a calm mineral centre and neutral acoustic sides.",
+          "manifest": "docs/first-floor-r05-production.json",
+          "views": [
+            {
+              "id": "M1-MW-F1-R05",
+              "code": "M1",
+              "index": 51707,
+              "jobId": "0020dd3f-2a17-4b6f-94ea-008715a559c3",
+              "model": "nano_banana_2_1",
+              "label": "Corrected view · Media room",
+              "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a8.png",
+              "evidenceType": "Photo-based architectural revision",
+              "evidence": "Photo-based media camera with homeowner-corrected smaller square centered paired window and solid sofa wall. Both ottomans, 83-inch-scale TV, wide fitted console and quiet TV backdrop checked.",
+              "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+              "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a6.png",
+              "sourceJobId": "f53843bc-1108-4088-8934-c5afe28d037e",
+              "revision": "MW-F1-R05",
+              "auditIndex": 51707
+            },
+            {
+              "id": "M2-MW-F1-R05",
+              "code": "M2",
+              "index": 51108,
+              "jobId": "db6322d0-bf8b-41e4-8cca-9a1eb3d755a0",
+              "model": "nano_banana_2_1",
+              "label": "Secondary view · Media room",
+              "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-day-a2.png",
+              "evidenceType": "Derived angle · plan and photo interpretation",
+              "evidence": "Derived reverse media camera checked against plan: TV left, sofa right, clear gallery doors near TV-wall end and display right of doors. Fake exterior window not visible inside; same furnishings as M1.",
+              "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+              "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-day.png",
+              "sourceJobId": "a75f5aac-bcd3-4a1f-bdca-9724b181edf1",
+              "revision": "MW-F1-R05",
+              "auditIndex": 51108
+            }
+          ],
+          "qa": {
+            "status": "visually_reviewed",
+            "limitations": [
+              "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
+            ]
+          }
         }
       ],
       "schedule": [
@@ -3866,65 +4523,65 @@
           "id": "M-W01",
           "category": "Walls",
           "item": "Quiet theater wall color",
-          "status": "proposed — specification unselected",
-          "material": "Low-sheen washable warm mushroom/charcoal paint; smooth TV backing replaces all vertical walnut slats. Retain light tray ceiling/crown.",
+          "status": "proposed; revised requirements, measured details and products pending",
+          "material": "Soft warm ivory/mushroom low-sheen dry-wall finishes in Mineral & Walnut, coordinated with neutral acoustic textile and walnut. Keep original crown and ceiling profile; no new architectural tray or cove.",
           "installation": "Mock up color in daylight and dimmed movie mode; avoid reflective finish and retain existing ceiling detailing.",
           "dimensions": "Field measure; sizes shown in images are not fabrication dimensions.",
           "procurement": "Proposed; no manufacturer, SKU or purchase approved.",
-          "revision": "r04",
-          "feedbackReference": "FB-016",
-          "location": "Non-TV walls and around the smooth feature panel."
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017",
+          "location": "Remaining non-TV room walls, including the SOLID sofa wall."
         },
         {
           "id": "M-W02",
           "category": "Wall finish / joinery",
-          "item": "Quiet smooth TV backing",
-          "status": "proposed — specification unselected",
-          "material": "Smooth matte charcoal backing panel slightly larger than 83-inch TV, warm mushroom mineral-look wall; full-height walnut slats superseded.",
-          "installation": "Coordinate shallow frame, TV fixing loads and removable access. Build diffused concealed LED channel with accessible driver; mock up dim halo so TV remains dominant.",
+          "item": "Calm fitted mineral and acoustic TV wall",
+          "status": "proposed; revised requirements, measured details and products pending",
+          "material": "Matte warm mushroom mineral centre with narrow ivory/oatmeal/taupe woven acoustic side panels and restrained walnut edging. The projecting charcoal backing box and full dense slat wall are superseded.",
+          "installation": "Own shallow room-side service frame/cabinet construction with TV blocking, accessible cable conduit and removable maintenance access. Do not cut a recess into the office-shared wall, structural members or hidden services. Coordinate cabinet depth with office joinery and remaining media circulation; sample matte surfaces and acoustic panel assembly before fabrication.",
           "dimensions": "Field measure; sizes shown in images are not fabrication dimensions.",
           "procurement": "Proposed; no manufacturer, SKU or purchase approved.",
-          "location": "South TV wall.",
-          "revision": "r04",
-          "feedbackReference": "FB-016"
+          "location": "TV wall shared with office: source-camera right, printed-plan left.",
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017"
         },
         {
           "id": "M-M01",
-          "category": "Furniture",
-          "item": "Long walnut and charcoal floating-look console",
-          "status": "proposed",
-          "material": "Walnut top/ends with matte charcoal flat fronts, ventilated AV bay, concealed service access and recessed underside for warm LED.",
-          "installation": "Select actual console and fixing approach. Verify wall substrate and anchors/support for loaded cabinet; if suspended construction is unsuitable, price recessed plinth for similar appearance. Keep drivers and equipment accessible and ventilated.",
-          "dimensions": "Planning target about 108 inches wide; final depth, height, mounting and door clearance to verify.",
+          "category": "Fitted joinery / AV storage",
+          "item": "Integrated walnut media console wider than TV",
+          "status": "proposed; revised requirements, measured details and products pending",
+          "material": "Warm walnut veneered fronts over stable carcasses; restrained matte mushroom top, handleless ventilated AV compartments and recessed dark plinth. Integrated appearance rather than a freestanding box.",
+          "installation": "Field-measure available TV-wall span and near-corner gallery door leaf swing. Price a supported base cabinet on recessed plinth with fitted fillers/ends; maintain AV ventilation, removable service access and accessible lighting drivers. Room-side fitted construction only, not a cavity cut into office wall.",
+          "dimensions": "Provisional 96–102 in wide, about 18 in deep and 20–24 in high, wider than the approximately 72.3 in display width. Final width, depth, offsets and fixing from measured elevation and door swing; no fit guarantee.",
           "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review.",
-          "revision": "r04",
-          "feedbackReference": "FB-016"
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017"
         },
         {
           "id": "M-U01",
           "category": "Furniture",
-          "item": "Deep Cloud-style modular U-chaise seating",
-          "status": "proposed",
-          "material": "Plush warm ivory/oatmeal removable performance upholstery, low broad arms and generous cushions, with charcoal accent pillows; movable matching ottomans and small C-table.",
-          "installation": "Tape out all modules and door access on site. Three-module back run with ottoman extensions is the compact planning concept; do not assume the wider standard U-chaise fits. Test seated comfort, cushion maintenance and upholstery durability; price RH and a comparable lower-cost modular alternative.",
-          "dimensions": "RH Classic dimensional reference: 40-inch depth; three-module back run approximately 119 inches. Two matching ottoman extensions suggest approximately 80-inch overall depth; this custom arrangement is an inference, not a confirmed RH SKU. Published 158-inch four-module U-chaise is wider than the plan’s 133-inch sofa-wall dimension. Field measure before ordering.",
-          "procurement": "RH Cloud-inspired visual, not an exact product rendering or purchase approval. Confirm available modules, connectors, cushions, fabric and delivery access with retailer.",
+          "item": "RH Cloud-scale sofa with two end ottoman extensions",
+          "status": "proposed; revised requirements, measured details and products pending",
+          "material": "Warm ivory RH Cloud Classic silhouette with plush low arms and matching ottoman at EACH end; quiet charcoal/oatmeal cushions. Exact modules and fabric remain unselected.",
+          "installation": "Tape out the complete sofa, TWO ottomans, central table, door swing and circulation before choosing products. Classic depth is the planning basis; do not substitute wider/deeper Luxe geometry or expand the room in renders. Confirm module compatibility and selected fabric with retailer.",
+          "dimensions": "Planning reference: sofa about 119 W × 40 D in; two matching ottomans about 39 W × 40 D in, producing about 119 W × 80 D in overall lounging. Only about 7 in remains each side on a 133 in wall before curtains/returns; normal bulky end tables do not fit.",
+          "procurement": "No current stock, pricing or reserved quantity is asserted. Confirm exact module dimensions, connectors, two-ottoman quantity, fabric, delivery access and actual footprint before purchase.",
           "source": "https://images.restorationhardware.com/content/catalog/us/en/tearsheets/Upholstery_Cloud_Modular.pdf",
-          "revision": "r04",
-          "feedbackReference": "FB-016"
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017"
         },
         {
           "id": "M-L01",
           "category": "Lighting",
-          "item": "TV backlight and under-console LED",
-          "status": "proposed",
-          "material": "Warm-white diffused LED strip/channel; compatible dimmable driver; quiet picture lighting and existing recessed fixtures.",
-          "installation": "Use warm-white diffused strips in aluminum channel, separately dimmable for TV and under-console zones. Mock up light spread so no dots or screen glare appear. Electrician coordinates listed components, driver sizing/access, wiring and compatible controls.",
+          "item": "Subtle TV bias and separately dimmed room lighting",
+          "status": "proposed; revised requirements, measured details and products pending",
+          "material": "Low-glare concealed dimmable warm-neutral bias light; optional low console glow; independently controlled display and existing general lighting.",
+          "installation": "Mock up with TV operating and screen black. Avoid bright halos, visible diode dots and screen glare. Keep room-side drivers accessible; coordinate dimming and wiring with the chosen TV, acoustic panels and AV system.",
           "dimensions": "Field measure and coordinate clearances before product selection or fabrication; no quantities derived from render pixels.",
           "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review.",
-          "designTargets": "Proposed 2700–3000 K warm ambience with separate dimming for TV halo, art and general light. Final strip output, color quality and control compatibility to select.",
-          "revision": "r04",
-          "feedbackReference": "FB-016"
+          "designTargets": "Quiet movie scene: art/display and general ceiling lighting off or independently reduced, with restrained bias/low fill. Final color/output comes from fixture samples and actual screen testing, not the render.",
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017"
         },
         {
           "id": "M-T01",
@@ -3942,14 +4599,14 @@
           "id": "M-AV01",
           "category": "AV",
           "item": "83-inch TV, soundbar and surround system",
-          "status": "proposed — specification unselected",
+          "status": "proposed; revised requirements, measured details and products pending",
           "material": "83-inch television; compatible front soundbar/LCR assembly, rear surrounds, ceiling height speakers and bass solution to be selected as one system.",
           "installation": "AV integrator to select topology before wiring. For wired ceiling/rear speakers, price an AVR/processor with compatible passive LCR soundbar and speakers; do not assume a standalone active soundbar accepts arbitrary ceiling speakers. Coordinate channels, speaker aiming, calibration, outlet/network/conduit routes, cable access and equipment ventilation.",
-          "dimensions": "83-inch diagonal TV required. Four ceiling grilles and two rear speakers shown are design intent; actual counts and locations depend on system, seating and joist survey.",
+          "dimensions": "83-inch diagonal 16:9 TV corresponds to approximately 72.3 W × 40.7 H in active display. Cabinet, bracket, ventilation and seated viewing height require exact selected product data. Existing grille count is not a finalized channel specification.",
           "procurement": "Proposed; no manufacturer, SKU or purchase approved.",
-          "revision": "r04",
-          "feedbackReference": "FB-016",
-          "location": "TV/soundbar south; rear surrounds behind sofa; ceiling grilles conceptually around seating."
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017",
+          "location": "83-inch TV and slim soundbar on office-shared wall; discreet rear surrounds at sofa end and existing ceiling audio positions subject to coherent system design."
         },
         {
           "id": "M-A01",
@@ -3967,27 +4624,27 @@
           "id": "M-T02",
           "item": "Clear glazed media entry doors",
           "category": "Doors / hardware",
-          "status": "proposed — specification unselected",
+          "status": "proposed; revised requirements, measured details and products pending",
           "material": "Light ivory frames, one clear pane per leaf, matching gallery style.",
-          "location": "West entry near southwest corner.",
-          "installation": "Confirm existing opening/swing and suitable safety glazing, hardware and sound/privacy expectations. Clear glass is visible; blackout/privacy strategy remains separate.",
+          "location": "Printed-plan TOP hall wall close to LEFT/TV corner; in reverse view the doorway sits toward left, leaving a larger right wall section.",
+          "installation": "Retain clear single-lite glazing and ivory leaves. Verify exact offset, both leaf swings and suitable safety glazing/hardware; integrated console and collectible shelf must not block access. Privacy/blackout covers are separate removable film-viewing accessories.",
           "dimensions": "Field measure; sizes shown in images are not fabrication dimensions.",
           "procurement": "Proposed; no manufacturer, SKU or purchase approved.",
-          "revision": "r04",
-          "feedbackReference": "FB-016"
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017"
         },
         {
           "id": "M-J02",
           "item": "Collectible display beside doors",
           "category": "Joinery / display",
-          "status": "proposed — specification unselected",
+          "status": "proposed; revised requirements, measured details and products pending",
           "material": "Shallow walnut-lined recess with adjustable shelves and low-glare warm LED; optional clear dust-protection doors.",
-          "location": "Right of west entry doors, as viewed from inside.",
-          "installation": "Survey wall framing/services before considering any recess; do not cut structural members. Price a shallow surface-mounted cabinet alternative if cavity is unavailable. Provide shelf load ratings, accessible LED driver, concealed cable path and door-swing clearance.",
+          "location": "Immediately RIGHT of clear hall/gallery doors when looking at them from inside the media room.",
+          "installation": "Use shallow walnut display cabinetry within verified usable wall area. A recess is optional only after framing/services survey; surface-mounted fitted alternative if no safe cavity exists. Adjustable shelves, suitable support, accessible LED driver and door-swing clearance required.",
           "dimensions": "Provisional narrow 18–24 in display width; actual collectible heights/depths and wall survey govern.",
           "procurement": "Proposed; no manufacturer, SKU or purchase approved.",
-          "revision": "r04",
-          "feedbackReference": "FB-016"
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017"
         },
         {
           "id": "MEDIA-N01",
@@ -4008,14 +4665,27 @@
           "item": "Ivory sheers + blackout-lined curtains; removable clear-door covers for movie mode",
           "status": "proposed; measured takeoff and products pending",
           "material": "Warm ivory linen-look sheers, ivory or oatmeal blackout curtain faces, and quiet warm-neutral shades. Concealed or slim dark tracks coordinate with walnut, natural oak and restrained black details. Blackout describes the backing, not a black visible curtain.",
-          "location": "Full street-facing two-sash window plus a separate removable opaque cover for each interior glazed door leaf. The doors remain clear when covers are stowed.",
+          "location": "Real centered paired 2×2 street window plus separate removable opaque cover for each clear interior door leaf. No treatment on the solid sofa wall: its exterior window feature is fake.",
           "designTargets": "Daylight and gallery light both reduce contrast on the 83-inch TV. Privacy alone is insufficient for the requested theater atmosphere. Day: Sheers for casual use; close blackout panels for daytime films. Night: Close blackout panels and fit the room-side door covers for movies; dim lights near the screen.",
           "preparation": "Label and measure each actual exterior opening; check after-dark sightlines, glazing, fixing substrate, handles, stack-back and furniture clearance. Sheers and open solar screens are not relied on for night privacy.",
           "installation": "Resolve curtain overlap, returns and head gap. Use removable room-side covers with a finish-compatible attachment and storage location; each door must remain operable with handles clear. Keep figurine shelves and the west-wall doorway unobstructed. Allowance includes these covers; do not frost the doors permanently.",
           "dimensions": "Site-measured opening and track sizes, finished drop, returns and operating clearances. No quantities or fabrication dimensions inferred from render pixels.",
           "procurement": "Manual system allowance: goods $850–$1500 before tax/delivery; direct installation $250–$450 before GC markup. Already included in the Option 1 cost plan. Exact material, lining, track and finished coverage to be selected.",
-          "revision": "MW-W01",
-          "feedbackReference": "MW-W01"
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017"
+        },
+        {
+          "id": "M-U02",
+          "category": "Supporting furniture",
+          "item": "Slim side tables and compact central coffee table",
+          "status": "proposed; dimensions and products pending",
+          "material": "Restrained walnut or matte black tuck-under/C tables, with compact warm-neutral central coffee table; no chrome or colored accents.",
+          "location": "Use side tables forward beside ottomans or tucked over sofa arms; central table between both ottoman extensions.",
+          "dimensions": "Approximately 41 in between the two 39 in ottomans within 119 in seating. Central table provisional 20–24 W × 30–36 L in. Actual knee/foot reach, curtain clearances and routes require taped-out fit.",
+          "installation": "Do not force conventional 18–24 in end tables into the approximately 7 in sofa-end gaps. Position tables without obstructing entry or full ottoman use.",
+          "procurement": "No current retailer stock, sale price, SKU or purchasing claim. Select after measured fit and finish samples.",
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017"
         }
       ],
       "buildSequence": [
@@ -4028,10 +4698,10 @@
       "pricingInstructions": [
         "Price this room separately and identify shared floor/paint work to avoid double-counting.",
         "Separate substrate repairs, materials, installation, electrical/plumbing work and optional custom work.",
-        "List product allowances and all assumptions; no whole-house budget has been approved.",
+        "List product allowances and all assumptions; planning budgets do not constitute an approved contractor quotation.",
         "Do not price image-derived measurements as verified quantities.",
-        "Separate prefabricated/custom slats, TV/audio, structural backing, LED/electrical, console, blackout drapery and modular seating. Preserve existing ceiling.",
-        "Quote FB-016 changes as separate additions/deductions against the preceding revision; keep retained items distinct from replacement scope."
+        "Separate the mineral TV centre, shallow neutral acoustic sides, 83-inch TV/audio, blocking and room-side service framing, concealed LED/electrical, ventilated wide walnut console, blackout drapery/optional movie door covers, and modular sofa with two ottomans. Preserve the existing ceiling.",
+        "Quote FB-017 changes as separate additions/deductions against the preceding revision; keep retained items distinct from replacement scope."
       ],
       "verificationRegister": [
         {
@@ -4051,13 +4721,18 @@
         },
         {
           "id": "MEDIA-V04",
-          "item": "83-inch screen, slat wall, 108-inch console, deep seating and west paired-entry layout",
-          "reason": "Targets are preliminary. Check viewing height, reclined sightline, entry path and open/closed curtain clearances together; no fit guarantee from renders."
+          "item": "83-inch screen, integrated 96–102-inch cabinet, two-ottoman Cloud arrangement, small tables and off-centre paired doorway",
+          "reason": "Tape out exact product footprints and door operation together. Thin source mullions and image perspective do not establish dimensions; no room enlargement or structural recess assumed."
         },
         {
           "id": "M-FB016",
           "item": "Verify dimensions and services for FB-016 revisions",
           "reason": "New art, furniture, glazing, lighting or equipment must be coordinated with actual room dimensions before ordering/building."
+        },
+        {
+          "id": "M-FB017",
+          "item": "Actual TV-wall assembly, console support/AV ventilation, main paired window, door swing, curtain stack and entire seating/table footprint",
+          "reason": "The smaller sofa-wall feature is settled as fake by homeowner. Remaining dimensions and service/fixing details must be measured before fabrication."
         }
       ],
       "feedback": [
@@ -4153,6 +4828,23 @@
           ],
           "revisionAtFeedback": "floor-one r03; floor-two r01; floors-three/four r02",
           "resultingRevision": "floor-one r04; floor-two r02; floors-three/four r03"
+        },
+        {
+          "id": "FB-017",
+          "date": "2026-10-10",
+          "scope": "Mineral & Walnut first-floor architecture audit and entry/office/media refinements",
+          "userFeedback": "Audit every first-floor day and night image against original model-home photographs, the blueprint and actual-house evidence. Office: move the gallery doorway toward the right in the reverse view, retain the small circular window to its left, and place the printer cabinet and artwork on the larger left wall section. Both exterior window banks are centered paired 2×2 assemblies, not three-unit windows. Media: smaller centered square-looking 2×2 main window; RH Cloud sofa with ottomans extending both ends, small side tables and a central table; 83-inch TV and a wider console built into a redesigned TV-wall composition. Homeowner confirms the smaller media seating-wall exterior feature is a fake window with no inside opening. Entry arch wording becomes “Welcome Home”; departing wording becomes “See you next time.”",
+          "interpretation": "Record a fresh first-floor correction pass in pure Mineral & Walnut. Existing thin glazing bars were incorrectly described as three structural window units; do not propagate that error. Keep media seating wall solid in every angle, despite the brochure symbol. Retain light clear side doors, two-story cascade chandelier, neutral oak/ivory/mushroom/walnut palette, selected stone updates and uncovered stairs. New renders remain pending until source-by-source visual QA; the gym is retained and the plan-led bathroom access offsets are checked.",
+          "status": "requirements_recorded; corrected_renders_and_visual_QA_pending",
+          "affectedRooms": [
+            "entry",
+            "office",
+            "media",
+            "gym",
+            "bath"
+          ],
+          "revisionAtFeedback": "Published first-floor day/night images; prior MW-A02 and MW-NR01 concepts",
+          "resultingRevision": "MW-F1-R05 pending render QA, not construction approval"
         }
       ],
       "approvalHistory": [],
@@ -4161,7 +4853,7 @@
         "Review the two updated labeled views and record further feedback.",
         "Select actual materials, products and coordinated measured dimensions."
       ],
-      "handoffStatus": "Working design concept and trade coordination notes, not a measured construction package. Preserve the original photo/plan as structural evidence and verify all unseen details.",
+      "handoffStatus": "Concept and source review recorded; field measurements, trade coordination and homeowner approval remain before construction.",
       "itemHistory": [
         {
           "revision": "r01",
@@ -4313,48 +5005,174 @@
             "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review.",
             "designTargets": "Proposed 2700–3000 K warm ambience with separate dimming for TV halo, art and general light. Final strip output, color quality and control compatibility to select."
           }
+        },
+        {
+          "revision": "mw-architecture-r01",
+          "supersededBy": "MW-F1-R05 requirements",
+          "feedbackId": "FB-017",
+          "items": [
+            {
+              "id": "M-W01",
+              "category": "Walls",
+              "item": "Quiet theater wall color",
+              "status": "proposed — specification unselected",
+              "material": "Low-sheen washable warm mushroom/charcoal paint; smooth TV backing replaces all vertical walnut slats. Retain light tray ceiling/crown.",
+              "installation": "Mock up color in daylight and dimmed movie mode; avoid reflective finish and retain existing ceiling detailing.",
+              "dimensions": "Field measure; sizes shown in images are not fabrication dimensions.",
+              "procurement": "Proposed; no manufacturer, SKU or purchase approved.",
+              "revision": "r04",
+              "feedbackReference": "FB-016",
+              "location": "Non-TV walls and around the smooth feature panel."
+            },
+            {
+              "id": "M-W02",
+              "category": "Wall finish / joinery",
+              "item": "Quiet smooth TV backing",
+              "status": "proposed — specification unselected",
+              "material": "Smooth matte charcoal backing panel slightly larger than 83-inch TV, warm mushroom mineral-look wall; full-height walnut slats superseded.",
+              "installation": "Coordinate shallow frame, TV fixing loads and removable access. Build diffused concealed LED channel with accessible driver; mock up dim halo so TV remains dominant.",
+              "dimensions": "Field measure; sizes shown in images are not fabrication dimensions.",
+              "procurement": "Proposed; no manufacturer, SKU or purchase approved.",
+              "location": "South TV wall.",
+              "revision": "r04",
+              "feedbackReference": "FB-016"
+            },
+            {
+              "id": "M-M01",
+              "category": "Furniture",
+              "item": "Long walnut and charcoal floating-look console",
+              "status": "proposed",
+              "material": "Walnut top/ends with matte charcoal flat fronts, ventilated AV bay, concealed service access and recessed underside for warm LED.",
+              "installation": "Select actual console and fixing approach. Verify wall substrate and anchors/support for loaded cabinet; if suspended construction is unsuitable, price recessed plinth for similar appearance. Keep drivers and equipment accessible and ventilated.",
+              "dimensions": "Planning target about 108 inches wide; final depth, height, mounting and door clearance to verify.",
+              "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review.",
+              "revision": "r04",
+              "feedbackReference": "FB-016"
+            },
+            {
+              "id": "M-U01",
+              "category": "Furniture",
+              "item": "Deep Cloud-style modular U-chaise seating",
+              "status": "proposed",
+              "material": "Plush warm ivory/oatmeal removable performance upholstery, low broad arms and generous cushions, with charcoal accent pillows; movable matching ottomans and small C-table.",
+              "installation": "Tape out all modules and door access on site. Three-module back run with ottoman extensions is the compact planning concept; do not assume the wider standard U-chaise fits. Test seated comfort, cushion maintenance and upholstery durability; price RH and a comparable lower-cost modular alternative.",
+              "dimensions": "RH Classic dimensional reference: 40-inch depth; three-module back run approximately 119 inches. Two matching ottoman extensions suggest approximately 80-inch overall depth; this custom arrangement is an inference, not a confirmed RH SKU. Published 158-inch four-module U-chaise is wider than the plan’s 133-inch sofa-wall dimension. Field measure before ordering.",
+              "procurement": "RH Cloud-inspired visual, not an exact product rendering or purchase approval. Confirm available modules, connectors, cushions, fabric and delivery access with retailer.",
+              "source": "https://images.restorationhardware.com/content/catalog/us/en/tearsheets/Upholstery_Cloud_Modular.pdf",
+              "revision": "r04",
+              "feedbackReference": "FB-016"
+            },
+            {
+              "id": "M-L01",
+              "category": "Lighting",
+              "item": "TV backlight and under-console LED",
+              "status": "proposed",
+              "material": "Warm-white diffused LED strip/channel; compatible dimmable driver; quiet picture lighting and existing recessed fixtures.",
+              "installation": "Use warm-white diffused strips in aluminum channel, separately dimmable for TV and under-console zones. Mock up light spread so no dots or screen glare appear. Electrician coordinates listed components, driver sizing/access, wiring and compatible controls.",
+              "dimensions": "Field measure and coordinate clearances before product selection or fabrication; no quantities derived from render pixels.",
+              "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review.",
+              "designTargets": "Proposed 2700–3000 K warm ambience with separate dimming for TV halo, art and general light. Final strip output, color quality and control compatibility to select.",
+              "revision": "r04",
+              "feedbackReference": "FB-016"
+            },
+            {
+              "id": "M-AV01",
+              "category": "AV",
+              "item": "83-inch TV, soundbar and surround system",
+              "status": "proposed — specification unselected",
+              "material": "83-inch television; compatible front soundbar/LCR assembly, rear surrounds, ceiling height speakers and bass solution to be selected as one system.",
+              "installation": "AV integrator to select topology before wiring. For wired ceiling/rear speakers, price an AVR/processor with compatible passive LCR soundbar and speakers; do not assume a standalone active soundbar accepts arbitrary ceiling speakers. Coordinate channels, speaker aiming, calibration, outlet/network/conduit routes, cable access and equipment ventilation.",
+              "dimensions": "83-inch diagonal TV required. Four ceiling grilles and two rear speakers shown are design intent; actual counts and locations depend on system, seating and joist survey.",
+              "procurement": "Proposed; no manufacturer, SKU or purchase approved.",
+              "revision": "r04",
+              "feedbackReference": "FB-016",
+              "location": "TV/soundbar south; rear surrounds behind sofa; ceiling grilles conceptually around seating."
+            },
+            {
+              "id": "M-T02",
+              "item": "Clear glazed media entry doors",
+              "category": "Doors / hardware",
+              "status": "proposed — specification unselected",
+              "material": "Light ivory frames, one clear pane per leaf, matching gallery style.",
+              "location": "West entry near southwest corner.",
+              "installation": "Confirm existing opening/swing and suitable safety glazing, hardware and sound/privacy expectations. Clear glass is visible; blackout/privacy strategy remains separate.",
+              "dimensions": "Field measure; sizes shown in images are not fabrication dimensions.",
+              "procurement": "Proposed; no manufacturer, SKU or purchase approved.",
+              "revision": "r04",
+              "feedbackReference": "FB-016"
+            },
+            {
+              "id": "M-J02",
+              "item": "Collectible display beside doors",
+              "category": "Joinery / display",
+              "status": "proposed — specification unselected",
+              "material": "Shallow walnut-lined recess with adjustable shelves and low-glare warm LED; optional clear dust-protection doors.",
+              "location": "Right of west entry doors, as viewed from inside.",
+              "installation": "Survey wall framing/services before considering any recess; do not cut structural members. Price a shallow surface-mounted cabinet alternative if cavity is unavailable. Provide shelf load ratings, accessible LED driver, concealed cable path and door-swing clearance.",
+              "dimensions": "Provisional narrow 18–24 in display width; actual collectible heights/depths and wall survey govern.",
+              "procurement": "Proposed; no manufacturer, SKU or purchase approved.",
+              "revision": "r04",
+              "feedbackReference": "FB-016"
+            },
+            {
+              "id": "MEDIA-WT01",
+              "category": "Window treatments and privacy",
+              "item": "Ivory sheers + blackout-lined curtains; removable clear-door covers for movie mode",
+              "status": "proposed; measured takeoff and products pending",
+              "material": "Warm ivory linen-look sheers, ivory or oatmeal blackout curtain faces, and quiet warm-neutral shades. Concealed or slim dark tracks coordinate with walnut, natural oak and restrained black details. Blackout describes the backing, not a black visible curtain.",
+              "location": "Full street-facing two-sash window plus a separate removable opaque cover for each interior glazed door leaf. The doors remain clear when covers are stowed.",
+              "designTargets": "Daylight and gallery light both reduce contrast on the 83-inch TV. Privacy alone is insufficient for the requested theater atmosphere. Day: Sheers for casual use; close blackout panels for daytime films. Night: Close blackout panels and fit the room-side door covers for movies; dim lights near the screen.",
+              "preparation": "Label and measure each actual exterior opening; check after-dark sightlines, glazing, fixing substrate, handles, stack-back and furniture clearance. Sheers and open solar screens are not relied on for night privacy.",
+              "installation": "Resolve curtain overlap, returns and head gap. Use removable room-side covers with a finish-compatible attachment and storage location; each door must remain operable with handles clear. Keep figurine shelves and the west-wall doorway unobstructed. Allowance includes these covers; do not frost the doors permanently.",
+              "dimensions": "Site-measured opening and track sizes, finished drop, returns and operating clearances. No quantities or fabrication dimensions inferred from render pixels.",
+              "procurement": "Manual system allowance: goods $850–$1500 before tax/delivery; direct installation $250–$450 before GC markup. Already included in the Option 1 cost plan. Exact material, lining, track and finished coverage to be selected.",
+              "revision": "MW-W01",
+              "feedbackReference": "MW-W01"
+            }
+          ]
         }
       ],
       "styleIdentity": "A quieter cinema wall",
       "improvementPlan": {
-        "version": "MW-A02",
-        "date": "2026-10-08",
-        "status": "rendered_for_review",
-        "visualStatus": "MW-A02 · source-audited revision for feedback",
+        "version": "MW-F1-R05",
+        "date": "2026-10-10",
+        "status": "corrections_required; new_renders_and_QA_pending",
+        "visualStatus": "Published prior images are not yet replaced; FB-017 corrections await image QA",
         "mood": "A calm private cinema",
-        "improve": "Broad paired window restored; neutral daylight and calm TV panel with soundbar/ceiling audio retained. Opening dimensions remain subject to survey. Reverse media view places clear gallery doors on adjoining west wall, slim figurine shelves to right and coherent TV/console/sectional/audio.",
-        "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
+        "improve": "Real main window is a smaller centered square-looking paired 2×2 assembly, not nearly wall-wide. Homeowner confirmed smaller plan/exterior feature on sofa wall is FAKE: solid interior wall in both daytime cameras and both night counterparts. Clear gallery pair sits close to TV corner (printed-plan top-left), leaving more wall on its right for collectible display. 83-inch TV, wider integrated walnut console and new calm mineral/acoustic TV-wall composition. RH Cloud Classic-scale sofa with two ottoman extensions, slim side tables and compact central coffee table; no enlargement of room to fit.",
+        "verify": "Check each source-photo view directly against its original and each derived view against the printed plan, homeowner corrections and approved same-room camera. Measured opening offsets, furniture, services and fabrication remain pending."
       },
       "lightingStudy": {
-        "id": "M1-N4-MWA02",
-        "version": "MW-A02",
-        "code": "M1-N4",
-        "index": 32003,
-        "jobId": "c7523dd7-3eae-4926-93a8-77c2b87bba34",
+        "id": "M1-F105N-MW-F1-R05",
+        "version": "MW-F1-R05",
+        "code": "M1-F105N",
+        "index": 51217,
+        "jobId": "cb683874-6b65-45df-bd46-07b850d8b52d",
         "model": "nano_banana_2_1",
-        "file": "assets/render-candidates/mineral-walnut-architecture/r01/media-night.png",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-night-a3.png",
         "sourceCode": "M1",
-        "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/media-m1-day-30603.png",
-        "sourceJobId": "7f13cd4d-378a-4a37-bdca-366ac6e329b6",
-        "label": "Night · movie scene",
+        "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a8.png",
+        "sourceJobId": "0020dd3f-2a17-4b6f-94ea-008715a559c3",
+        "label": "Night · Media room · M1 camera",
         "scene": "Quiet movie scene",
         "cct": 2700,
         "circuits": "TV bias / existing tray ambient / display and art / general clean-up separately",
-        "lighting": "Movie-watching scene. Ceiling downlights and art lights OFF. A very restrained neutral-warm concealed TV bias halo plus low console glow, small low-level room fill so sofa outline is legible. Screen stays black. Do not illuminate whole ceiling perimeter or create RGB. No new fixtures; dark quiet theater mood, not pitch black.",
-        "evidenceType": "Night edit of corrected daytime view",
-        "evidence": "Visually compared with corrected source day view: same camera and architecture, furnishings/materials retained, night lighting and visible shade state appropriate. No new structural changes.",
-        "qaNote": "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house.",
+        "lighting": "Dim evening scene: ceiling downlights off or very low, restrained warm indirect TV-wall light and sufficient low room light for circulation. Blackout window curtains close fully. The reverse view deliberately shows clear gallery doors; use removable room-side door covers and reduce gallery lighting for full movie blackout.",
+        "evidenceType": "Same-camera night edit of corrected approved day",
+        "evidence": "Visually paired with the exact corrected daytime source. Camera, openings, furniture and finishes remain; visible exterior privacy/blackout layers close where specified.",
+        "qaNote": "Lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+        "assetRevision": "mw-f1-r05",
         "status": "proposed",
         "lightingNotes": [
           "Movie-watching scene. Ceiling downlights and art lights OFF. A very restrained neutral-warm concealed TV bias halo plus low console glow, small low-level room fill so sofa outline is legible. Screen stays black. Do not illuminate whole ceiling perimeter or create RGB. No new fixtures; dark quiet theater mood, not pitch black.",
-          "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
         ]
       },
       "windowTreatment": {
         "id": "media",
         "system": "blackout",
         "recommendation": "Ivory sheers + blackout-lined curtains; removable clear-door covers for movie mode",
-        "coverage": "Full street-facing two-sash window plus a separate removable opaque cover for each interior glazed door leaf. The doors remain clear when covers are stowed.",
+        "coverage": "One REAL centered paired 2×2 street-facing window, plus a separate removable opaque cover for each clear interior door leaf. The sofa wall is SOLID: its smaller exterior window feature is fake, as confirmed by the homeowner, and has no inside opening.",
         "why": "Daylight and gallery light both reduce contrast on the 83-inch TV. Privacy alone is insufficient for the requested theater atmosphere.",
         "day": "Sheers for casual use; close blackout panels for daytime films.",
         "night": "Close blackout panels and fit the room-side door covers for movies; dim lights near the screen.",
@@ -4368,9 +5186,155 @@
           450
         ],
         "title": "Media room",
-        "floor": "first-floor",
-        "version": "MW-W01"
-      }
+        "floor": "first-floor"
+      },
+      "architectureEvidenceHistory": [
+        {
+          "recorded": "2026-10-10",
+          "supersededByFeedback": "FB-017",
+          "sourceEvidence": [
+            {
+              "id": "SRC-MEDIA-PHOTO",
+              "type": "original_photo",
+              "file": "assets/Crown Georgetown Photos/first-floor-media-room.jpg.webp",
+              "confidence": "Directly observed source camera; finishes intentionally restyled",
+              "observations": [
+                "Keep 15 ft 1 in × 11 ft 1 in planning proportions; field measurement required.",
+                "Retain the photographed shallow tray ceiling and crown; no added dropped ceiling or cove."
+              ]
+            },
+            {
+              "id": "SRC-MEDIA-PLAN",
+              "type": "blueprint",
+              "file": "assets/cf_city_home_with_georgetown_pkg.pdf",
+              "page": 2,
+              "preview": "assets/render-candidates/room-review/entry/r01/refs/entry-plan-reference.webp",
+              "confidence": "Published builder plan; not an as-built survey",
+              "observations": [
+                "Keep 15 ft 1 in × 11 ft 1 in planning proportions; field measurement required.",
+                "Retain the photographed shallow tray ceiling and crown; no added dropped ceiling or cove.",
+                "Keep the wide two-sash street window and television on the source photo's right wall.",
+                "Center-hall double-door location follows the blueprint; no new window or fireplace."
+              ]
+            },
+            {
+              "id": "MEDIA-OWNER-REFERENCE",
+              "type": "user_reference",
+              "file": "assets/render-candidates/floor-one-review/r03/refs/media-wall-user-reference.png",
+              "confidence": "Homeowner-supplied design reference, not this house geometry",
+              "observations": [
+                "Vertical wood slats, large TV and long charcoal-front console with walnut surround.",
+                "Use reference finishes and composition while retaining this house layout, ceiling and west entry position."
+              ]
+            }
+          ],
+          "architectureLocks": [
+            "Keep 15 ft 1 in × 11 ft 1 in planning proportions; field measurement required.",
+            "Retain the photographed shallow tray ceiling and crown; no added dropped ceiling or cove.",
+            "Keep the wide two-sash street window and television on the source photo's right wall.",
+            "Paired entry is on the west wall toward the south/TV-wall end, perpendicular to the south slat wall; preserve its plan location. Exact offset and handing require survey.",
+            "83-inch TV and soundbar remain the main focus; replace the full slat wall with a smooth restrained mushroom/charcoal backing and subtle dimmable halo.",
+            "Clear single-lite glazed ivory doors stay on the west wall near the south corner. Recessed collectible display belongs to their right when viewed from inside.",
+            "Four ceiling grilles and rear speakers indicate intended audio coverage, not a finalized acoustical design. Choose one compatible receiver/soundbar/speaker system before wiring.",
+            "Retain deep Cloud-style seating, long floating walnut/charcoal console, existing tray ceiling and east two-sash window."
+          ],
+          "designIntent": "The 83-inch screen takes priority over a smooth restrained backdrop, with coordinated audio and a collectible display beside clear glass doors.",
+          "improvementPlan": {
+            "version": "MW-A02",
+            "date": "2026-10-08",
+            "status": "rendered_for_review",
+            "visualStatus": "MW-A02 · source-audited revision for feedback",
+            "mood": "A calm private cinema",
+            "improve": "Broad paired window restored; neutral daylight and calm TV panel with soundbar/ceiling audio retained. Opening dimensions remain subject to survey. Reverse media view places clear gallery doors on adjoining west wall, slim figurine shelves to right and coherent TV/console/sectional/audio.",
+            "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
+          },
+          "windowTreatment": {
+            "id": "media",
+            "system": "blackout",
+            "recommendation": "Ivory sheers + blackout-lined curtains; removable clear-door covers for movie mode",
+            "coverage": "Full street-facing two-sash window plus a separate removable opaque cover for each interior glazed door leaf. The doors remain clear when covers are stowed.",
+            "why": "Daylight and gallery light both reduce contrast on the 83-inch TV. Privacy alone is insufficient for the requested theater atmosphere.",
+            "day": "Sheers for casual use; close blackout panels for daytime films.",
+            "night": "Close blackout panels and fit the room-side door covers for movies; dim lights near the screen.",
+            "installation": "Resolve curtain overlap, returns and head gap. Use removable room-side covers with a finish-compatible attachment and storage location; each door must remain operable with handles clear. Keep figurine shelves and the west-wall doorway unobstructed. Allowance includes these covers; do not frost the doors permanently.",
+            "goods": [
+              850,
+              1500
+            ],
+            "installationCost": [
+              250,
+              450
+            ],
+            "title": "Media room",
+            "floor": "first-floor",
+            "version": "MW-W01"
+          }
+        }
+      ],
+      "pendingRevision": {
+        "id": "MW-F1-R05",
+        "date": "2026-10-10",
+        "feedbackReference": "FB-017",
+        "status": "rendered_and_visually_reviewed_awaiting_homeowner_feedback",
+        "scope": [
+          "Real main window is a smaller centered square-looking paired 2×2 assembly, not nearly wall-wide.",
+          "Homeowner confirmed smaller plan/exterior feature on sofa wall is FAKE: solid interior wall in both daytime cameras and both night counterparts.",
+          "Clear gallery pair sits close to TV corner (printed-plan top-left), leaving more wall on its right for collectible display.",
+          "83-inch TV, wider integrated walnut console and new calm mineral/acoustic TV-wall composition.",
+          "RH Cloud Classic-scale sofa with two ottoman extensions, slim side tables and compact central coffee table; no enlargement of room to fit."
+        ],
+        "manifest": "docs/first-floor-r05-production.json"
+      },
+      "lightingHistory": [
+        {
+          "id": "M1-N4-MWA02",
+          "version": "MW-A02",
+          "code": "M1-N4",
+          "index": 32003,
+          "jobId": "c7523dd7-3eae-4926-93a8-77c2b87bba34",
+          "model": "nano_banana_2_1",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/media-night.png",
+          "sourceCode": "M1",
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/media-m1-day-30603.png",
+          "sourceJobId": "7f13cd4d-378a-4a37-bdca-366ac6e329b6",
+          "label": "Night · movie scene",
+          "scene": "Quiet movie scene",
+          "cct": 2700,
+          "circuits": "TV bias / existing tray ambient / display and art / general clean-up separately",
+          "lighting": "Movie-watching scene. Ceiling downlights and art lights OFF. A very restrained neutral-warm concealed TV bias halo plus low console glow, small low-level room fill so sofa outline is legible. Screen stays black. Do not illuminate whole ceiling perimeter or create RGB. No new fixtures; dark quiet theater mood, not pitch black.",
+          "evidenceType": "Night edit of corrected daytime view",
+          "evidence": "Visually compared with corrected source day view: same camera and architecture, furnishings/materials retained, night lighting and visible shade state appropriate. No new structural changes.",
+          "qaNote": "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house.",
+          "status": "proposed",
+          "lightingNotes": [
+            "Movie-watching scene. Ceiling downlights and art lights OFF. A very restrained neutral-warm concealed TV bias halo plus low console glow, small low-level room fill so sofa outline is legible. Screen stays black. Do not illuminate whole ceiling perimeter or create RGB. No new fixtures; dark quiet theater mood, not pitch black.",
+            "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          ]
+        }
+      ],
+      "angleLightingStudies": [
+        {
+          "id": "M2-F105N-MW-F1-R05",
+          "version": "MW-F1-R05",
+          "code": "M2-F105N",
+          "index": 51018,
+          "jobId": "cf041cd9-4082-4427-8800-3afd5eb0d5b2",
+          "model": "nano_banana_2_1",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-night.png",
+          "sourceCode": "M2",
+          "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-day-a2.png",
+          "sourceJobId": "db6322d0-bf8b-41e4-8cca-9a1eb3d755a0",
+          "label": "Night · Media room · M2 camera",
+          "scene": "Quiet movie scene",
+          "cct": 2700,
+          "circuits": "TV bias / existing tray ambient / display and art / general clean-up separately",
+          "lighting": "Movie-watching scene. Ceiling downlights and art lights OFF. A very restrained neutral-warm concealed TV bias halo plus low console glow, small low-level room fill so sofa outline is legible. Screen stays black. Do not illuminate whole ceiling perimeter or create RGB. No new fixtures; dark quiet theater mood, not pitch black.",
+          "evidenceType": "Same-camera night edit of corrected approved day",
+          "evidence": "Visually paired with the exact corrected daytime source. Camera, openings, furniture and finishes remain; visible exterior privacy/blackout layers close where specified.",
+          "qaNote": "Lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+          "assetRevision": "mw-f1-r05"
+        }
+      ]
     },
     "gym": {
       "id": "gym",
@@ -4935,6 +5899,23 @@
           "revisionAtFeedback": "first-floor review r02",
           "resultingRevision": "first-floor review r03; second-floor review r01",
           "reference": "assets/render-candidates/floor-one-review/r03/refs/media-wall-user-reference.png"
+        },
+        {
+          "id": "FB-017",
+          "date": "2026-10-10",
+          "scope": "Mineral & Walnut first-floor architecture audit and entry/office/media refinements",
+          "userFeedback": "Audit every first-floor day and night image against original model-home photographs, the blueprint and actual-house evidence. Office: move the gallery doorway toward the right in the reverse view, retain the small circular window to its left, and place the printer cabinet and artwork on the larger left wall section. Both exterior window banks are centered paired 2×2 assemblies, not three-unit windows. Media: smaller centered square-looking 2×2 main window; RH Cloud sofa with ottomans extending both ends, small side tables and a central table; 83-inch TV and a wider console built into a redesigned TV-wall composition. Homeowner confirms the smaller media seating-wall exterior feature is a fake window with no inside opening. Entry arch wording becomes “Welcome Home”; departing wording becomes “See you next time.”",
+          "interpretation": "Record a fresh first-floor correction pass in pure Mineral & Walnut. Existing thin glazing bars were incorrectly described as three structural window units; do not propagate that error. Keep media seating wall solid in every angle, despite the brochure symbol. Retain light clear side doors, two-story cascade chandelier, neutral oak/ivory/mushroom/walnut palette, selected stone updates and uncovered stairs. New renders remain pending until source-by-source visual QA; the gym is retained and the plan-led bathroom access offsets are checked.",
+          "status": "requirements_recorded; corrected_renders_and_visual_QA_pending",
+          "affectedRooms": [
+            "entry",
+            "office",
+            "media",
+            "gym",
+            "bath"
+          ],
+          "revisionAtFeedback": "Published first-floor day/night images; prior MW-A02 and MW-NR01 concepts",
+          "resultingRevision": "MW-F1-R05 pending render QA, not construction approval"
         }
       ],
       "approvalHistory": [],
@@ -5154,15 +6135,24 @@
         "title": "Studio gym",
         "floor": "first-floor",
         "version": "MW-W01"
+      },
+      "pendingRevision": {
+        "id": "MW-F1-R05",
+        "date": "2026-10-10",
+        "feedbackReference": "FB-017",
+        "status": "audit_retained; no new furnishing requirement",
+        "scope": [
+          "Retain empty gym, mirror, neutral walls/rubber floor, existing northwest closet, distinct bathroom access and exact quote “Surpass your limits. Right here, right now.” No equipment or furniture added."
+        ]
       }
     },
     "bath": {
       "id": "bath",
       "floor": "first-floor",
       "title": "Bath #3",
-      "currentRevision": "mw-architecture-r01",
-      "status": "proposed",
-      "userApproval": "New coordinated concept requested by homeowner; awaiting feedback. No room approval, product selection or fabrication authorization inferred.",
+      "currentRevision": "MW-F1-R05",
+      "status": "Proposed · source-reviewed first-floor revision awaiting homeowner feedback",
+      "userApproval": "FB-017 corrections requested by homeowner and visually reviewed. Revised images, final measured details and exact products await homeowner feedback; no fabrication approval is implied.",
       "designIntent": "A compact hotel-like bath with walnut storage, black details, warm ivory walls and quiet stone-look porcelain.",
       "sourceEvidence": [
         {
@@ -5176,7 +6166,8 @@
             "No original bathroom photograph exists: both views are plan-derived concepts, not photo-verified elevations.",
             "Plan locates vanity and toilet together on garage-side wall, shower/bench at opposite end, with access from gym and rear hall on side walls.",
             "Windowless compact room; approximate 6 ft × 9 ft is an audit estimate, not a labeled or measured construction dimension.",
-            "Do not copy the earlier bath render's same-wall shower arrangement; field verify bench handing, compartment dimensions and door offsets."
+            "Do not copy the earlier bath render's same-wall shower arrangement; field verify bench handing, compartment dimensions and door offsets.",
+            "Access openings are staggered rather than directly opposite: studio door nearer vanity, rear-hall door nearer shower. Existing B2 right-side bench is the retained concept pending measured compartment survey."
           ]
         },
         {
@@ -5194,7 +6185,8 @@
         "No original bathroom photograph exists: both views are plan-derived concepts, not photo-verified elevations.",
         "Plan locates vanity and toilet together on garage-side wall, shower/bench at opposite end, with access from gym and rear hall on side walls.",
         "Windowless compact room; approximate 6 ft × 9 ft is an audit estimate, not a labeled or measured construction dimension.",
-        "Do not copy the earlier bath render's same-wall shower arrangement; field verify bench handing, compartment dimensions and door offsets."
+        "Do not copy the earlier bath render's same-wall shower arrangement; field verify bench handing, compartment dimensions and door offsets.",
+        "FB-017 audit: two side doors are STAGGERED longitudinally, following printed-plan studio-near-vanity versus rear-hall-near-shower offsets. Retain existing B2 RIGHT-hand bench; do not mirror shower handing."
       ],
       "revisions": [
         {
@@ -5283,6 +6275,53 @@
               "No dedicated original room photo."
             ]
           }
+        },
+        {
+          "id": "MW-F1-R05",
+          "date": "2026-10-10",
+          "status": "visually_reviewed_design_visualization",
+          "reason": "Plan-led door offsets are staggered: studio access nearer the vanity end; rear-hall access nearer the shower. Vanity/toilet and narrowed shower retained; the reverse view keeps its correct right-hand studio-side bench.",
+          "manifest": "docs/first-floor-r05-production.json",
+          "views": [
+            {
+              "id": "B1-MW-F1-R05",
+              "code": "B1",
+              "index": 51005,
+              "jobId": "1289dd19-1fb8-4d57-b195-ee5fe214eec7",
+              "label": "Corrected view · Bath #3",
+              "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-day.png",
+              "evidenceType": "Derived angle · plan and photo interpretation",
+              "evidence": "Unphotographed bath: plan-led vanity-facing camera, left studio door nearer vanity and right rear-hall door nearer shower/camera; fixtures unchanged.",
+              "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+              "model": "seedream_v5_pro",
+              "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bath-b1-day-30505.png",
+              "sourceJobId": "6fef3adf-1c50-4994-bb28-59ee4d31612b",
+              "revision": "MW-F1-R05",
+              "auditIndex": 51005
+            },
+            {
+              "id": "B2-MW-F1-R05",
+              "code": "B2",
+              "index": 51006,
+              "jobId": "d85cf98f-7cae-4ce8-a9ec-ea74817cab5f",
+              "label": "Secondary view · Bath #3",
+              "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-day.png",
+              "evidenceType": "Derived angle · plan and photo interpretation",
+              "evidence": "Unphotographed bath: plan-led shower-facing camera, right studio door nearer camera and left rear-hall door nearer shower; correct right bench retained.",
+              "qaNote": "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+              "model": "seedream_v5_pro",
+              "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/bath-b2-day.png",
+              "sourceJobId": "9e5b21e2-bc6b-4109-a57c-099a66e530ff",
+              "revision": "MW-F1-R05",
+              "auditIndex": 51006
+            }
+          ],
+          "qa": {
+            "status": "visually_reviewed",
+            "limitations": [
+              "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
+            ]
+          }
         }
       ],
       "schedule": [
@@ -5300,11 +6339,13 @@
           "id": "B-W01",
           "category": "Wet areas",
           "item": "Tiled shower with bench",
-          "status": "proposed",
+          "status": "proposed; revised requirements, measured details and products pending",
           "material": "Quiet large-format porcelain wall tile with coordinated grout and properly waterproofed bench.",
-          "installation": "Field verify enclosure, bench position/size, drainage, slope and penetrations; quote complete compatible waterproofing system and inspections.",
+          "installation": "Retain existing B2-view RIGHT-hand shower bench orientation. Verify actual shower compartment, bench dimensions, waterproofing, drainage, slopes and penetrations before tile or glass fabrication; no new bench relocation is authorized.",
           "dimensions": "Field measure and coordinate clearances before product selection or fabrication; no quantities derived from render pixels.",
-          "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review."
+          "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review.",
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017"
         },
         {
           "id": "B-W02",
@@ -5360,11 +6401,13 @@
           "id": "B-T01",
           "category": "Doors",
           "item": "Two bathroom access doors",
-          "status": "proposed",
+          "status": "proposed; revised requirements, measured details and products pending",
           "material": "Light painted solid doors, light casings, black privacy hardware.",
-          "installation": "Field verify both door offsets/handing and simultaneous privacy strategy for hall/gym access.",
+          "installation": "Field-verify staggered access: printed-plan studio/left entry lies nearer vanity end; rear-hall/right entry lies farther toward shower end. Check actual handing, simultaneous operation and both-door privacy strategy. Do not place the two openings symmetrically opposite each other.",
           "dimensions": "Field measure and coordinate clearances before product selection or fabrication; no quantities derived from render pixels.",
-          "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review."
+          "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review.",
+          "revision": "MW-F1-R05",
+          "feedbackReference": "FB-017"
         },
         {
           "id": "BATH-N01",
@@ -5405,7 +6448,7 @@
       "pricingInstructions": [
         "Price this room separately and identify shared floor/paint work to avoid double-counting.",
         "Separate substrate repairs, materials, installation, electrical/plumbing work and optional custom work.",
-        "List product allowances and all assumptions; no whole-house budget has been approved.",
+        "List product allowances and all assumptions; planning budgets do not constitute an approved contractor quotation.",
         "Do not price image-derived measurements as verified quantities."
       ],
       "verificationRegister": [
@@ -5447,6 +6490,23 @@
           ],
           "revisionAtFeedback": "entry r05",
           "resultingRevision": "entry r06; office/media/gym/bath r01; coordinated floor review r01"
+        },
+        {
+          "id": "FB-017",
+          "date": "2026-10-10",
+          "scope": "Mineral & Walnut first-floor architecture audit and entry/office/media refinements",
+          "userFeedback": "Audit every first-floor day and night image against original model-home photographs, the blueprint and actual-house evidence. Office: move the gallery doorway toward the right in the reverse view, retain the small circular window to its left, and place the printer cabinet and artwork on the larger left wall section. Both exterior window banks are centered paired 2×2 assemblies, not three-unit windows. Media: smaller centered square-looking 2×2 main window; RH Cloud sofa with ottomans extending both ends, small side tables and a central table; 83-inch TV and a wider console built into a redesigned TV-wall composition. Homeowner confirms the smaller media seating-wall exterior feature is a fake window with no inside opening. Entry arch wording becomes “Welcome Home”; departing wording becomes “See you next time.”",
+          "interpretation": "Record a fresh first-floor correction pass in pure Mineral & Walnut. Existing thin glazing bars were incorrectly described as three structural window units; do not propagate that error. Keep media seating wall solid in every angle, despite the brochure symbol. Retain light clear side doors, two-story cascade chandelier, neutral oak/ivory/mushroom/walnut palette, selected stone updates and uncovered stairs. New renders remain pending until source-by-source visual QA; the gym is retained and the plan-led bathroom access offsets are checked.",
+          "status": "requirements_recorded; corrected_renders_and_visual_QA_pending",
+          "affectedRooms": [
+            "entry",
+            "office",
+            "media",
+            "gym",
+            "bath"
+          ],
+          "revisionAtFeedback": "Published first-floor day/night images; prior MW-A02 and MW-NR01 concepts",
+          "resultingRevision": "MW-F1-R05 pending render QA, not construction approval"
         }
       ],
       "approvalHistory": [],
@@ -5456,39 +6516,40 @@
         "Exact finish samples, furniture/fixture products, dimensions and procurement.",
         "Site verification of inferred elevations and scope/cost of retaining versus replacing items."
       ],
-      "handoffStatus": "Working design concept and trade coordination notes, not a measured construction package. Preserve the original photo/plan as structural evidence and verify all unseen details.",
+      "handoffStatus": "Concept and source review recorded; field measurements, trade coordination and homeowner approval remain before construction.",
       "improvementPlan": {
-        "version": "MW-A02",
-        "date": "2026-10-08",
-        "status": "rendered_for_review",
-        "visualStatus": "MW-A02 · source-audited revision for feedback",
+        "version": "MW-F1-R05",
+        "date": "2026-10-10",
+        "status": "corrections_required; new_renders_and_QA_pending",
+        "visualStatus": "Published prior images are not yet replaced; FB-017 corrections await image QA",
         "mood": "Small but deliberate",
-        "improve": "Ivory porcelain floor restored; vanity/toilet end, two side accesses and windowless plan retained. Reverse windowless Bath 3 view shows shower opposite vanity/toilet, with side access doors and coordinated porcelain.",
-        "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
+        "improve": "Recheck plan-led Bath #3 access offsets: studio access near vanity end and rear-hall access farther toward shower, not two symmetrically opposing doors. Keep windowless vanity/toilet end and opposite shower. Existing B2 right-hand bench is retained; no bench-side reversal.",
+        "verify": "Check each source-photo view directly against its original and each derived view against the printed plan, homeowner corrections and approved same-room camera. Measured opening offsets, furniture, services and fabrication remain pending."
       },
       "lightingStudy": {
-        "id": "B1-N4-MWA02",
-        "version": "MW-A02",
-        "code": "B1-N4",
-        "index": 32005,
-        "jobId": "5677319c-8b01-4e3f-98bc-358502205303",
-        "model": "nano_banana_2_1",
-        "file": "assets/render-candidates/mineral-walnut-architecture/r01/bath-night.png",
+        "id": "B1-F105N-MW-F1-R05",
+        "version": "MW-F1-R05",
+        "code": "B1-F105N",
+        "index": 51015,
+        "jobId": "76ea864d-f526-43d0-b12f-4e459f6a90ac",
+        "model": "seedream_v5_pro",
+        "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-night.png",
         "sourceCode": "B1",
-        "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bath-b1-day-30505.png",
-        "sourceJobId": "6fef3adf-1c50-4994-bb28-59ee4d31612b",
-        "label": "Night · Bath #3",
+        "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-day.png",
+        "sourceJobId": "1289dd19-1fb8-4d57-b195-ee5fe214eec7",
+        "label": "Night · Bath #3 · B1 camera",
         "scene": "Evening lighting",
         "cct": 3000,
         "circuits": "Vanity task / general",
         "lighting": "Keep both existing opal mirror sconces as the useful face-lighting source, with ceiling downlights at a modest complementary level. Preserve the windowless room; do not manufacture a moonlit window. Tile and vanity retain their exact original tones.",
-        "evidenceType": "Night edit of corrected daytime view",
-        "evidence": "Visually compared with corrected source day view: same camera and architecture, furnishings/materials retained, night lighting and visible shade state appropriate. No new structural changes.",
-        "qaNote": "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house.",
+        "evidenceType": "Same-camera night edit of corrected approved day",
+        "evidence": "Visually paired with the exact corrected daytime source. Camera, openings, furniture and finishes remain; visible exterior privacy/blackout layers close where specified.",
+        "qaNote": "Lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+        "assetRevision": "mw-f1-r05",
         "status": "proposed",
         "lightingNotes": [
           "Keep both existing opal mirror sconces as the useful face-lighting source, with ceiling downlights at a modest complementary level. Preserve the windowless room; do not manufacture a moonlit window. Tile and vanity retain their exact original tones.",
-          "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
         ]
       },
       "windowTreatment": {
@@ -5509,9 +6570,146 @@
           0
         ],
         "title": "Bath #3",
-        "floor": "first-floor",
-        "version": "MW-W01"
-      }
+        "floor": "first-floor"
+      },
+      "architectureEvidenceHistory": [
+        {
+          "recorded": "2026-10-10",
+          "supersededByFeedback": "FB-017",
+          "sourceEvidence": [
+            {
+              "id": "SRC-BATH-PLAN",
+              "type": "blueprint",
+              "file": "assets/cf_city_home_with_georgetown_pkg.pdf",
+              "page": 2,
+              "preview": "assets/render-candidates/room-review/entry/r01/refs/entry-plan-reference.webp",
+              "confidence": "Published builder plan; not an as-built survey",
+              "observations": [
+                "No original bathroom photograph exists: both views are plan-derived concepts, not photo-verified elevations.",
+                "Plan locates vanity and toilet together on garage-side wall, shower/bench at opposite end, with access from gym and rear hall on side walls.",
+                "Windowless compact room; approximate 6 ft × 9 ft is an audit estimate, not a labeled or measured construction dimension.",
+                "Do not copy the earlier bath render's same-wall shower arrangement; field verify bench handing, compartment dimensions and door offsets."
+              ]
+            },
+            {
+              "id": "SRC-BATH-PRIOR",
+              "type": "prior_concept",
+              "file": "assets/renders/first-floor/bath-modern.png",
+              "confidence": "Earlier AI concept used for material editing only; its shower position is superseded by the plan-based arrangement",
+              "observations": [
+                "No source photograph exists. This earlier image is not structural ground truth.",
+                "Current views place the shower opposite the vanity/toilet wall and retain both plan access doors."
+              ]
+            }
+          ],
+          "architectureLocks": [
+            "No original bathroom photograph exists: both views are plan-derived concepts, not photo-verified elevations.",
+            "Plan locates vanity and toilet together on garage-side wall, shower/bench at opposite end, with access from gym and rear hall on side walls.",
+            "Windowless compact room; approximate 6 ft × 9 ft is an audit estimate, not a labeled or measured construction dimension.",
+            "Do not copy the earlier bath render's same-wall shower arrangement; field verify bench handing, compartment dimensions and door offsets."
+          ],
+          "designIntent": "A compact hotel-like bath with walnut storage, black details, warm ivory walls and quiet stone-look porcelain.",
+          "improvementPlan": {
+            "version": "MW-A02",
+            "date": "2026-10-08",
+            "status": "rendered_for_review",
+            "visualStatus": "MW-A02 · source-audited revision for feedback",
+            "mood": "Small but deliberate",
+            "improve": "Ivory porcelain floor restored; vanity/toilet end, two side accesses and windowless plan retained. Reverse windowless Bath 3 view shows shower opposite vanity/toilet, with side access doors and coordinated porcelain.",
+            "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
+          }
+        }
+      ],
+      "itemHistory": [
+        {
+          "revision": "mw-architecture-r01",
+          "supersededBy": "MW-F1-R05 requirements",
+          "feedbackId": "FB-017",
+          "items": [
+            {
+              "id": "B-W01",
+              "category": "Wet areas",
+              "item": "Tiled shower with bench",
+              "status": "proposed",
+              "material": "Quiet large-format porcelain wall tile with coordinated grout and properly waterproofed bench.",
+              "installation": "Field verify enclosure, bench position/size, drainage, slope and penetrations; quote complete compatible waterproofing system and inspections.",
+              "dimensions": "Field measure and coordinate clearances before product selection or fabrication; no quantities derived from render pixels.",
+              "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review."
+            },
+            {
+              "id": "B-T01",
+              "category": "Doors",
+              "item": "Two bathroom access doors",
+              "status": "proposed",
+              "material": "Light painted solid doors, light casings, black privacy hardware.",
+              "installation": "Field verify both door offsets/handing and simultaneous privacy strategy for hall/gym access.",
+              "dimensions": "Field measure and coordinate clearances before product selection or fabrication; no quantities derived from render pixels.",
+              "procurement": "Manufacturer, product, color, sheen, sizes, quantities, labor quotation and care instructions remain to record after homeowner review."
+            }
+          ]
+        }
+      ],
+      "pendingRevision": {
+        "id": "MW-F1-R05",
+        "date": "2026-10-10",
+        "feedbackReference": "FB-017",
+        "status": "rendered_and_visually_reviewed_awaiting_homeowner_feedback",
+        "scope": [
+          "Recheck plan-led Bath #3 access offsets: studio access near vanity end and rear-hall access farther toward shower, not two symmetrically opposing doors.",
+          "Keep windowless vanity/toilet end and opposite shower. Existing B2 right-hand bench is retained; no bench-side reversal."
+        ],
+        "manifest": "docs/first-floor-r05-production.json"
+      },
+      "lightingHistory": [
+        {
+          "id": "B1-N4-MWA02",
+          "version": "MW-A02",
+          "code": "B1-N4",
+          "index": 32005,
+          "jobId": "5677319c-8b01-4e3f-98bc-358502205303",
+          "model": "nano_banana_2_1",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/bath-night.png",
+          "sourceCode": "B1",
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bath-b1-day-30505.png",
+          "sourceJobId": "6fef3adf-1c50-4994-bb28-59ee4d31612b",
+          "label": "Night · Bath #3",
+          "scene": "Evening lighting",
+          "cct": 3000,
+          "circuits": "Vanity task / general",
+          "lighting": "Keep both existing opal mirror sconces as the useful face-lighting source, with ceiling downlights at a modest complementary level. Preserve the windowless room; do not manufacture a moonlit window. Tile and vanity retain their exact original tones.",
+          "evidenceType": "Night edit of corrected daytime view",
+          "evidence": "Visually compared with corrected source day view: same camera and architecture, furnishings/materials retained, night lighting and visible shade state appropriate. No new structural changes.",
+          "qaNote": "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house.",
+          "status": "proposed",
+          "lightingNotes": [
+            "Keep both existing opal mirror sconces as the useful face-lighting source, with ceiling downlights at a modest complementary level. Preserve the windowless room; do not manufacture a moonlit window. Tile and vanity retain their exact original tones.",
+            "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          ]
+        }
+      ],
+      "angleLightingStudies": [
+        {
+          "id": "B2-F105N-MW-F1-R05",
+          "version": "MW-F1-R05",
+          "code": "B2-F105N",
+          "index": 51016,
+          "jobId": "541e4ddc-73c6-4a82-b1db-650c772beab0",
+          "model": "seedream_v5_pro",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-night.png",
+          "sourceCode": "B2",
+          "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-day.png",
+          "sourceJobId": "d85cf98f-7cae-4ce8-a9ec-ea74817cab5f",
+          "label": "Night · Bath #3 · B2 camera",
+          "scene": "Evening lighting",
+          "cct": 3000,
+          "circuits": "Vanity task / general",
+          "lighting": "Keep both existing opal mirror sconces as the useful face-lighting source, with ceiling downlights at a modest complementary level. Preserve the windowless room; do not manufacture a moonlit window. Tile and vanity retain their exact original tones.",
+          "evidenceType": "Same-camera night edit of corrected approved day",
+          "evidence": "Visually paired with the exact corrected daytime source. Camera, openings, furniture and finishes remain; visible exterior privacy/blackout layers close where specified.",
+          "qaNote": "Lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+          "assetRevision": "mw-f1-r05"
+        }
+      ]
     },
     "great": {
       "id": "great",
