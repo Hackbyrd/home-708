@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "revision": "MW-F2-R06-DINING-AUDIT",
+  "date": "2026-10-10",
+  "designOption": "Mineral & Walnut",
+  "scope": "Formal dining D1/D2 day and night, and the direct connection to the living piano salon",
+  "status": "source_audit_complete_corrections_not_generated",
+  "releaseInspected": "v2.0.2",
+  "baselineCommit": "6124be5",
+  "sourceHierarchy": [
+    "Explicit homeowner feedback: dining connects directly to living; current D2 and living views are incorrect.",
+    "Labeled real model-home photograph for visible architecture and original camera.",
+    "Builder main-level plan for room relationships, unlabeled hidden surfaces and nominal dimensions.",
+    "Actual white-house exterior photos for facade opening topology.",
+    "Current generated images supply proposed Mineral & Walnut finishes only, not structural evidence."
+  ],
+  "sources": [
+    {
+      "file": "assets/Crown Georgetown Photos/second-floor-formal-dining.jpg.webp",
+      "type": "original_model_home_photo",
+      "observed": "One continuous foreground exterior wall has the shorter high-sill arch followed by two tall rectangular/transom windows. A perpendicular far exterior wall has two tall arched windows. The right wall carries the console/art and a narrow oblique arched feature at its far corner. The room ceiling is plain with perimeter crown, not a new coffered or lowered ceiling."
+    },
+    {
+      "file": "assets/cf_city_home_with_georgetown_pkg.pdf",
+      "page": 3,
+      "type": "builder_blueprint",
+      "inspectionPreview": "/tmp/home-708-floor-two-blueprint-audit.png",
+      "observed": "Formal Dining is plan-bottom/left and Living Room is plan-bottom/right. There is no drawn partition, door or arched portal between them. Living's plan-right exterior feature is labeled False Wndw. Dining's plan-top wall backs Open to Below and has the sideboard drawn against it; an arched passage at the plan-top/left connects to the butler's pantry."
+    },
+    {
+      "file": "assets/Outside Photos/east.jpg",
+      "type": "actual_white_house_exterior",
+      "observed": "The short facade corresponding to printed-plan bottom has five second-floor openings across the combined dining/living span: two tall windows, a shorter small center arch, and two tall windows. The arch is on this same straight facade, not on a separate perpendicular interior wall. Exterior masonry heads are not a complete interior glazing specification."
+    },
+    {
+      "file": "assets/Outside Photos/south-front.jpg",
+      "type": "actual_white_house_exterior",
+      "observed": "The entrance-side long facade supplies context for the arched dining side-wall window vocabulary. Use the real white exterior; do not substitute the brown-brick brochure house."
+    }
+  ],
+  "planTopology": {
+    "namingRule": "Use printed-plan top/bottom/left/right in prompts. Earlier notes calling the five-window short facade south/front conflict with actual exterior filenames; compass terms must not override the plan.",
+    "nominalRoomLabels": {
+      "dining": "12 ft 11 in x 15 ft 3 in",
+      "living": "16 ft 0 in x 11 ft 4 in",
+      "dimensionCaution": "These are plan labels, not surveyed clear dimensions. Do not assert camera pixels or previous table-clearance arithmetic establish usable widths or which label maps to each furniture axis."
+    },
+    "diningPlanLeft": {
+      "kind": "exterior_wall",
+      "openings": "Two tall arched windows observed in the original photo. Their sills are lower than the smaller central facade arch, but notably higher than the tall rectangular/transom pair; preserve the actual source-photo height relationships.",
+      "originalD1Location": "Far wall ahead of the camera"
+    },
+    "combinedDiningLivingPlanBottom": {
+      "kind": "one_continuous_exterior_wall",
+      "wholeFacadeCount": 5,
+      "sequencePlanLeftToRight": [
+        "Tall dining-side rectangular window with shallow rectangular transom",
+        "Tall dining-side rectangular window with shallow rectangular transom",
+        "Shorter high-sill arched center opening near the open-zone junction",
+        "Living-side tall window",
+        "Living-side tall window"
+      ],
+      "originalD1Location": "Image-left wall; viewed from near the living boundary, the nearer small arch appears first, then the two rectangular/transom windows recede toward the far exterior corner.",
+      "roomCountCaution": "The original dining photograph contains five visible glazed openings across two walls. This does not prove five windows enclosed within the nominal dining room; the small center arch is near the shared dining/living junction. Preserve it once on the common facade, without duplicating it between room studies."
+    },
+    "diningPlanTop": {
+      "kind": "interior_wall_backing_entry_gallery_open_to_below",
+      "originalD1Location": "Image-right console/art wall",
+      "sideboard": "Against this wall as drawn on the builder plan; do not relocate it onto an invented partition between dining and living.",
+      "butlerPassage": "The plan shows a real arched connection at its plan-left end to the butler's pantry. The original photo's thin arched feature at far image-right is consistent with an obliquely viewed passage, but the photo does not prove a closed display niche. Preserve the plan passage when the camera reveals it; do not infill it with cabinetry."
+    },
+    "diningPlanRight": {
+      "kind": "direct_open_connection_to_living",
+      "lock": "Continuous floor and room volume, no added wall, door, archway, framed portal, column, jamb or new ceiling header. A structural beam must not be invented from an old generated image.",
+      "circulation": "Leave a usable continuous route between dining, living and the stair hall. Furniture may define zones, but it cannot substitute for a drawn wall or block the passage."
+    },
+    "livingPlanRight": {
+      "kind": "solid_interior_face_of_exterior_false_window_wall",
+      "lock": "The plan's False Wndw is not an interior glass window. Do not generate daylight or drapes here."
+    },
+    "livingPlanTop": {
+      "kind": "stair_and_hall_relationship",
+      "lock": "Piano sits near the plan-top/right stair-side end. Match the plan, including any photographed real stair/hall context available to the root audit; do not enclose the living room as a standalone box."
+    }
+  },
+  "openingHeightLocks": [
+    "Use the original model-home photo to preserve head height, sill height, transom depth, width and white casing relationships; no invented inch dimensions are available.",
+    "The shorter center arch has a visibly higher sill and shorter glazed height than the rectangular pair. It is not a floor-to-ceiling arch or an additional door.",
+    "The two tall rectangular dining windows retain shallow top transoms, long glazed bodies and lower sills. Do not convert them to four equally sized full-height arched windows.",
+    "The two arched side-wall dining windows retain their photographed arched glazing/head shapes and higher sills relative to the rectangular pair. They do not have the same proportions as the central smaller arch.",
+    "Thin glazing bars are glazing subdivisions, not extra separate windows. Preserve the observed source subdivisions between day and night."
+  ],
+  "currentImageAudit": [
+    {
+      "code": "D1",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r02/dining-d1-day-30508.png",
+      "verdict": "closest_to_source_photo_but_not_a_complete_connection_view",
+      "findings": [
+        "The original camera, five photographed openings, sideboard wall and plain crown ceiling remain broadly recognizable. This can inform approved finishes, but regenerate from the original photo rather than using chained renders as architecture.",
+        "The higher arch is on the same image-left wall as the two rectangular windows. Retain that relationship.",
+        "The open living boundary lies toward/behind the camera, so this image cannot demonstrate that the adjoining salon has been modeled correctly.",
+        "Do not repeat prior statements that the thin arched feature is definitely a closed wall niche."
+      ]
+    },
+    {
+      "code": "D2",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r02/dining-d2-day-31508.png",
+      "verdict": "reject_as_architecture_reference_replace_with_connected_room_view",
+      "findings": [
+        "The detail invents an enclosing perpendicular corner at image-left next to the shorter center arch. At this location the source/plan facade must continue toward the directly adjoining living zone, without an invented dining/living partition.",
+        "It is essentially a cropped arch/table finish detail, not the requested alternate whole-room angle showing the plan's connections.",
+        "No piano salon or direct open boundary is visible, so the user cannot assess whether the connected layout is correct."
+      ]
+    },
+    {
+      "code": "D1-night",
+      "time": "night",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r02/dining-d1-n4-night-32508.png",
+      "verdict": "regenerate_after_day_geometry_is_set",
+      "findings": [
+        "Camera, table, console and privacy-shade placement broadly match D1.",
+        "The bare smaller arch gains an extra horizontal glazing bar compared with D1 day/source. Night-only edits must retain its exact source glazing divisions.",
+        "Four tall-window privacy layers are closed; smaller high arch stays bare and dark as the current scheme specifies, subject to site sightline confirmation."
+      ]
+    },
+    {
+      "code": "D2-night",
+      "time": "night",
+      "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/dining-d2-night.png",
+      "verdict": "reject_inherits_invalid_D2_boundary",
+      "findings": [
+        "The false perpendicular enclosure/corner remains.",
+        "Privacy shades and dark sky do not repair the incorrect room topology. Replace only after the new connected D2 day view passes."
+      ]
+    },
+    {
+      "code": "LR1/LR2 connection cross-check",
+      "files": [
+        "assets/render-candidates/mineral-walnut-architecture/r02/living-lr1-day-30909.png",
+        "assets/render-candidates/mineral-walnut-architecture/r01/living-lr2-day.png",
+        "assets/render-candidates/mineral-walnut-architecture/r01/living-night.png"
+      ],
+      "verdict": "do_not_reuse_as_architecture_reference",
+      "findings": [
+        "The current salon view shows a generated jamb/header between the dining-side opening and two salon windows. The plan does not establish this division.",
+        "The center small arch has disappeared from the shared facade and is effectively replaced by an all-tall-rectangular-window rhythm. This contradicts the adjacent source dining photo and the actual east exterior.",
+        "D1 and the living pair must describe the same five-opening common facade, same open boundary, continuous floor and consistent piano/sofa placements."
+      ]
+    }
+  ],
+  "correctionSpecifications": {
+    "palette": "Pure Mineral & Walnut: natural matte oak floor, warm ivory/mineral walls, warm walnut table and console, oatmeal rug, ivory seating, charcoal/black accents and green plants. No Cocoa & Chrome silver, dark brown-oak furniture motif, blue/yellow accents or stair runners.",
+    "dining": [
+      "Use the original-photo camera for D1 with a restrained warm opal/dark sculptural pendant, coordinated walnut dining suite, eight everyday chairs and the current shallow walnut treatment beneath the higher small arch.",
+      "Use an extension-table planning target around 84 x 40 inches closed. Ten occasional seats require the actual extended product, support locations, chair widths and circulation to be templated in the measured room. Do not enlarge the room to fit a ten- or twelve-seat image.",
+      "Sideboard and neutral black-frame art belong on the plan-top interior wall. They must not cover the butler passage or migrate to a fictional dividing wall.",
+      "A shallow shelf beneath the high arch is a proposed furniture/trim intervention, not structural enlargement of the opening. Verify actual projection and finish on site."
+    ],
+    "livingConnection": [
+      "The new D2 is a real alternate whole-room view from the dining's plan-left exterior side toward the open plan-right living zone.",
+      "Show the walnut dining table/chairs in the foreground and the compact black baby grand and ivory Cloud-style seating beyond in the same volume.",
+      "The front five-opening wall must stay straight and shared: dining rectangles, central high-sill arch, living windows. It cannot turn into an interior corner beside the arch.",
+      "Use the builder's furniture relationships as the initial layout: piano at plan-top/right, front-window seating at plan-bottom/right, optional additional seating only after fit and circulation checks.",
+      "No new wall or structural removal is proposed. Generated views must not imply a separate framed opening where the plan is open."
+    ],
+    "windowTreatments": [
+      "Dining tall openings: ivory sheers with functional non-see-through privacy layers, open/raised by day and closed at night.",
+      "Living's actual front windows: matching ivory sheers and privacy/glare layers, coordinated across the common facade. The plan-right false window receives no interior curtain or daylight opening.",
+      "The small higher arch may remain bare under the current scheme, provided an actual evening sightline check supports this. Its opening remains visible and dark at night; preserve original glazing bars.",
+      "Specialty arched-window shade geometry and mounting must be surveyed; do not assume a standard roller can sit inside an arch or silently replace its shape."
+    ]
+  },
+  "cameraSpecifications": {
+    "D1": "Reproduce the original dining photograph from near the living/open boundary. Image-left is the shared short facade: nearer small high arch followed by two tall rectangular/transom windows; far wall is dining's two tall side arches; image-right is the plan-top console wall. Do not widen the camera to invent surfaces behind it.",
+    "D2": "Place the camera in dining near the printed-plan left exterior wall, looking obliquely across dining's open right edge into living. Include dining furniture in the foreground and the salon's piano/seating beyond. A measured/code-native plan camera reference should establish the common facade and hall/stair relationships. The new view replaces the current isolated high-arch detail.",
+    "nightPairs": "Make each night from its accepted exact daytime camera. Preserve all architecture, furniture, openings, glazing bars, pendant, sideboard and art. Change only sky, lighting and functional shade state."
+  },
+  "imageEditPrompts": {
+    "D1-day": "Image-edit the ORIGINAL model-home dining photograph, using the builder main-level plan only for relationships. Keep this exact camera, room scale, plain ceiling/crown and every original opening. IMAGE LEFT is one straight exterior wall: the nearer shorter HIGH-SILL ARCH, then TWO tall RECTANGULAR windows with shallow top transoms receding toward the corner. The FAR perpendicular exterior wall has TWO tall ARCH windows with their photographed higher sills. IMAGE RIGHT is the existing console/art interior wall backing the entry-gallery void; retain the real butler-pantry arched passage when visible, do not turn it into a closed niche. The dining's right edge in the PRINTED PLAN connects directly to living, with no added wall, door, column or framed portal. Preserve all casing, sill/head height and glazing bars; do not add windows or make five identical windows. Pure Mineral & Walnut: coordinated natural matte oak, warm ivory subtle mineral walls, warm walnut rectangular extension-table appearance with EIGHT ivory chairs, oatmeal rug, walnut sideboard on the same original interior wall, restrained black-frame neutral art, elegant warm opal/dark sculptural pendant. Keep the shallow walnut shelf/treatment under the small high arch without enlarging glass. Tall windows get light ivory sheers and fully raised hidden privacy shades. No blue/yellow/silver theme, stair runners, people or text. Photorealistic, honest compact room, 3:2.",
+    "D2-day": "Derive a NEW alternate full-room photograph by image-editing the accepted D1/source photo with the builder plan and a plan-camera control reference. Camera is inside formal dining near PRINTED-PLAN LEFT exterior wall, looking across the OPEN PLAN-RIGHT boundary into the adjoining living piano salon. Walnut dining table and ivory chairs foreground; living's ivory Cloud-style seating, walnut low table and compact black baby grand beyond, piano near plan-top/right stair-side end and seating near plan-bottom/front windows. Dining and living are ONE continuous floor/room volume at this boundary: NO partition, door, archway, jamb, column or invented ceiling beam. The entire PRINTED-PLAN BOTTOM short facade is ONE STRAIGHT wall with FIVE openings ordered from left to right: two tall dining rectangles with shallow transoms, one shorter HIGH-SILL CENTRAL ARCH near the zone junction, then two tall living windows. Do not put the central arch on a separate corner wall or replace it with a tall rectangle. Dining plan-top interior wall has the walnut sideboard/art and a butler-pantry passage toward plan-left; living plan-right wall is SOLID because its exterior feature is a FALSE WINDOW. Same D1 furniture, pendant, natural matte oak, ivory/mineral walls, walnut, oatmeal and charcoal; restrained plants/black frames only. Keep ivory sheers open and privacy layers raised at real tall windows. Modest builder-plan proportions, actual piano body/bench scale and unobstructed passage. No enlarged ballroom, Cocoa chrome/blue/yellow, people, labels or watermark. Photorealistic 3:2.",
+    "matching-night": "Nighttime lighting/privacy edit of this exact accepted DAY image. Lock camera/crop, continuous dining-to-living volume, common five-opening facade, all original window shapes/sills/transoms and exact glazing bars; no new corner, beam or portal. Same dining table/eight chairs, pendant, walnut console/art, piano, Cloud seating, tables and oak floor. Dark exterior sky; fully lower the specified opaque privacy layers at visible tall real dining/living windows behind the same open ivory sheers. Keep the smaller high-sill center arch bare and dark with the EXACT day glazing subdivisions; no added horizontal bars. The plan-right false-window wall remains solid. Warm restrained dimmable pendant/table lamp and low general light, no daylight/reflections, bright orange wash or colored RGB. No furniture drift, people, labels or watermark. Photorealistic same aspect ratio."
+  },
+  "qaBeforeDelivery": [
+    "Side-by-side original-photo vs D1: count openings and compare each head, sill, arch, transom, casing and corner.",
+    "D2 must actually show dining connected to living; a close-up cropped wall detail is not enough.",
+    "Trace one continuous common facade through all dining/living angles: two dining tall windows + one smaller central arch + two living tall windows. Do not duplicate or lose the center arch.",
+    "Reject any artificial partition/jamb/portal/header across the plan's open dining/living boundary.",
+    "Keep the real butler passage and gallery/stair relationships; do not fabricate a closed niche or enclose the salon.",
+    "Treat living's plan-right False Wndw as a solid wall.",
+    "Check table, piano, chair pullback and routes with measured product footprints; images cannot establish construction clearances.",
+    "Compare each exact night with its accepted day: identical camera, openings and subdivisions, furniture, art and lights; proper opaque privacy layers and no daylight leaks.",
+    "Do not mark a room architecturally approved merely because its palette looks consistent."
+  ],
+  "uncertainties": [
+    {
+      "item": "Dedicated living-room photo and full ceiling/hall junction",
+      "evidence": "There is no labeled dedicated living-room photo in Crown Georgetown Photos. The plan and adjacent dining image establish the open relationship but not every unseen elevation or ceiling junction.",
+      "action": "Use the plan-led connected view with no invented beam/portal. A homeowner/as-built living photo would settle unseen trim/window-head/stair details, but it is not necessary to correct the known topology.",
+      "requiresUserClarificationBeforeConceptGeneration": false
+    },
+    {
+      "item": "Thin arched feature at original photo-right",
+      "evidence": "The builder plan establishes a butler-pantry passage in the corresponding interior wall; the source view is too oblique to prove whether the visible thin arch is that passage or another recess.",
+      "action": "Preserve the actual passage shown on the plan. Do not specify a closed niche, conceal the passage or propose structural work; confirm with another photo/site survey before a full construction elevation.",
+      "requiresUserClarificationBeforeConceptGeneration": false
+    },
+    {
+      "item": "Opening dimensions, central-arch privacy sightlines and furniture axes",
+      "evidence": "Plan labels and perspectives are not dimensioned interior elevations or measured clearances.",
+      "action": "Survey before ordering treatments, table, piano or cabinet fabrication; retain existing design decisions provisionally without claiming exact inch heights or verified fit.",
+      "requiresUserClarificationBeforeConceptGeneration": false
+    }
+  ]
+}

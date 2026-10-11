@@ -505,8 +505,8 @@
       "improve": "Selected C1: quiet cream quartzite-look porcelain on worktops, working backsplash and island waterfall; warm ivory cabinetry, rich walnut seating-side island and original layout retained.",
       "verify": "Material and color visualization, not a measured specification. Physical samples, product approvals, detailed panel/edge layouts and trade quotes remain required.",
       "priority": "Stone sample + installer takeoff",
-      "visualStatus": "MW-M01 · selected stone and small accents illustrated",
-      "baseline": "assets/render-candidates/mineral-walnut-stone/r02/c1-kitchen.png",
+      "visualStatus": "Second-floor revision visually reviewed against source/plan and homeowner feedback; proposed for review.",
+      "baseline": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k1-day.png",
       "windowTreatment": {
         "id": "kitchen",
         "system": "practical",
@@ -539,7 +539,7 @@
       "improve": "Five photographed opening locations and high arch retained; eight-seat closed extension table, shallow shelf and differentiated pendant shown. Useful high-window/shelf detail preserves small high arch and adjacent tall windows without enlarging opening.",
       "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
       "priority": "Pilot render + clearance study",
-      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "visualStatus": "Second-floor revision visually reviewed against source/plan and homeowner feedback; proposed for review.",
       "baseline": "assets/render-candidates/mineral-walnut-architecture/r02/dining-d1-day-30508.png",
       "windowTreatment": {
         "id": "dining",
@@ -573,8 +573,8 @@
       "improve": "Plan-led living study now shows open dining boundary, two front living windows, solid east-side wall, compact piano/sofa/chair arrangement and no invented portal. Tighter framing excludes unsupported ceiling details; no dedicated living photograph exists. Piano-side secondary concept retains two front windows, sofa at the open dining boundary, one chair, walnut table and baby grand. No dedicated room photograph; the apparent header at the dining opening is an unverified junction, not a proposed structural alteration or confirmed existing beam.",
       "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
       "priority": "Measured furniture plan",
-      "visualStatus": "MW-A02 · source-audited revision for feedback",
-      "baseline": "assets/render-candidates/mineral-walnut-architecture/r02/living-lr1-day-30909.png",
+      "visualStatus": "Second-floor revision visually reviewed against source/plan and homeowner feedback; proposed for review.",
+      "baseline": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-day-a2.png",
       "windowTreatment": {
         "id": "living",
         "system": "privacy",
@@ -607,7 +607,7 @@
       "improve": "Window banks, transoms/knee walls, oven column and terrace door preserved; six-seat table and privacy layers visible. Closer kitchen-side sunroom perspective retains six chairs, wraparound transoms and knee walls, pendant and layers.",
       "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
       "priority": "Daylight + everyday use",
-      "visualStatus": "MW-A02 · source-audited revision for feedback",
+      "visualStatus": "Second-floor revision visually reviewed against source/plan and homeowner feedback; proposed for review.",
       "baseline": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s1-day.png",
       "windowTreatment": {
         "id": "sunroom",
@@ -641,8 +641,8 @@
       "improve": "Exposed natural oak treads, warm white risers and dark handrails. Preserve the corrected curved/fanned flight, intermediate landing, side arch, window pair and stairwell opening; no carpet runner.",
       "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
       "priority": "Architecture + safe circulation",
-      "visualStatus": "MW-NR01 · neutral bedrooms and exposed wood stairs",
-      "baseline": "assets/render-candidates/mineral-walnut-neutral/r01/stair2-st1-day.png",
+      "visualStatus": "Second-floor revision visually reviewed against source/plan and homeowner feedback; proposed for review.",
+      "baseline": "assets/render-candidates/mineral-walnut-floor-two/r06/stair2-st1-day-a2.png",
       "windowTreatment": {
         "id": "stair2",
         "system": "none",
@@ -1126,5 +1126,12 @@
     "feedbackReference": "FB-017",
     "revision": "MW-F1-R05",
     "status": "Requirements updated; replacement first-floor renders and visual QA pending. Existing cost allowances and purchasing decisions are unchanged."
+  },
+  "secondFloorUpdate": {
+    "date": "2026-10-10",
+    "revision": "MW-F2-R06",
+    "audit": "docs/mineral-walnut-floor-two-audit-r06.json",
+    "manifest": "docs/floor-two-r06-production.json",
+    "status": "Visual QA recorded; proposed for homeowner feedback."
   }
 }

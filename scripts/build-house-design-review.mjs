@@ -41,7 +41,7 @@ for (const [i, [word, rev, title, description, manifestPath]] of definitions.ent
     const views = [];
     for (const view of room.views) {
       const { width, height } = await sharp(path.join(root, view.file)).metadata();
-      const viewRevision = revised ? (room.assetRevision || refinement.revision) + '-' : '';
+      const viewRevision = revised ? (view.assetRevision || room.assetRevision || refinement.revision) + '-' : '';
       views.push({ ...view, width, height, src: await asset(view.file, `${room.id}-${viewRevision}${view.code}`, 2000), thumb: await asset(view.file, `${room.id}-${viewRevision}${view.code}-thumb`, 520, 77) });
     }
     const primaryNight = nightManifest?.rooms?.[room.id];

@@ -1,0 +1,873 @@
+{
+  "schemaVersion": 1,
+  "revision": "MW-F2-R06",
+  "date": "2026-10-10",
+  "designOption": "mineral-walnut",
+  "baselineCommit": "6124be5",
+  "status": "visual_qa_passed",
+  "jobs": [
+    {
+      "index": 60002,
+      "room": "dining",
+      "code": "D2",
+      "sourceFile": "assets/Crown Georgetown Photos/second-floor-formal-dining.jpg.webp",
+      "sourceJobId": "02dd9a05-daf6-4524-8ebe-f6df717d6e90",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-2-r02-dining-original-1.webp"
+          },
+          {
+            "role": "image",
+            "value": "02dd9a05-daf6-4524-8ebe-f6df717d6e90"
+          },
+          {
+            "role": "image",
+            "value": "0b77b10e-33ca-48a7-a380-7447091df314"
+          },
+          {
+            "role": "image",
+            "value": "68a320ce-91ef-4616-8e8a-5347b3ee307a"
+          }
+        ],
+        "prompt": "Derive a NEW architecturally faithful reverse-angle interior photo by IMAGE EDITING the original dining photo and its finished Mineral & Walnut D1. Use the supplied drawn PLAN + D2 perspective guide for camera/topology; replace schematic furniture with actual D1 furniture, never output a drawing or labels. Camera INSIDE dining near the two arched SOUTH side windows, looking NORTH across the fully OPEN boundary into the living piano salon. Dining's walnut extension table with EIGHT ivory chairs, oatmeal rug and same sculptural warm opal/dark pendant in foreground. Living's compact black BABY GRAND near solid NORTH/stair-side wall beyond LEFT, ivory Cloud sofa under two EAST windows beyond RIGHT, compact walnut coffee table and neutral rug. Same table/chairs/console/art as D1, no redesign. Crucial: dining and living are ONE open continuous space, with NO partition, pier, doorway, jamb, archway, lowered beam or ceiling drop at their shared boundary. The facade on image RIGHT is ONE continuous straight EAST wall: two dining tall rectangular windows with shallow transoms (some behind camera), ONE SMALL HIGH-SILL ARCH near the junction, then TWO living tall rectangular/transom windows. Keep all on this same wall, no corner beside the small arch, no duplicate or missing opening. The small arch is short and high, not tall/floor-to-ceiling; shallow walnut shelf underneath. The far NORTH wall stays SOLID because the outside feature is a FALSE WINDOW. Flat shared ceiling with restrained crown at real outer walls; continuous matte natural oak flooring and airy ivory sheers, raised privacy layers. Piano has real approximately5ft body, bench and clearance. Living nominal16ftx11ft4, dining12ft11x15ft3; intimate townhouse proportions, no ballroom. Preserve direct route to west stair hall without inventing stair geometry. Natural warm mineral/ivory walls, walnut, black accents, small green plants; pure Option1 no chrome/blue/yellow. Source townhouse exterior views. Photoreal high-quality 3:2 interior photo; remove all guide text/diagram border."
+      },
+      "status": "completed",
+      "qaStatus": "rejected_geometry_and_coherence",
+      "jobId": "739a0fc4-1a83-43ca-bbd8-800b9065a9ca",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_022418_739a0fc4-1a83-43ca-bbd8-800b9065a9ca.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-day.png",
+      "qaNote": "Invented rectangle in solid north piano wall and living furniture differs from corrected LR1; remove opening and reconcile furnishings."
+    },
+    {
+      "index": 60003,
+      "room": "living",
+      "code": "LR1",
+      "sourceFile": "assets/Crown Georgetown Photos/second-floor-formal-dining.jpg.webp",
+      "sourceJobId": "02dd9a05-daf6-4524-8ebe-f6df717d6e90",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-2-r02-dining-original-1.webp"
+          },
+          {
+            "role": "image",
+            "value": "02dd9a05-daf6-4524-8ebe-f6df717d6e90"
+          },
+          {
+            "role": "image",
+            "value": "0b77b10e-33ca-48a7-a380-7447091df314"
+          },
+          {
+            "role": "image",
+            "value": "f8bb6a88-2b7b-4804-bfea-4079ee624eb7"
+          }
+        ],
+        "prompt": "Architecturally reconstruct the adjoining LIVING / PIANO SALON as a PLAN-CONDITIONED IMAGE EDIT of the original dining photograph and Mineral & Walnut finishes. Use PLAN and LR1 perspective guide for room orientation, original photo for ceiling/crown/window proportions. Output full photo with no diagram border/text. Camera WEST/stair-hall edge looking EAST with slight SOUTH turn so directly adjoining DINING is visibly at image RIGHT. Solid NORTH/piano wall at image LEFT. TWO real living EAST windows ahead behind the sofa. Small high arched facade window toward RIGHT, then dining's two rectangular/transom windows farther RIGHT, all on ONE STRAIGHT shared wall. There is NO dividing wall, beam, header, pier, doorway, arch, portal or threshold between living and dining. Ceiling is one continuous FLAT plane; do not add tray/cove or isolated room box. Cloud sofa approximately8ft wide under east windows facing WEST toward camera, low walnut coffee table, oatmeal rug, compact black baby grand approximately5ft in NORTHWEST corner at image LEFT, bench toward room. Schematic piano in guide must become a REAL BABY GRAND with recognizable curved body, realistic closed/raised lid and keyboard. No extra chair necessary; leave actual circulation past sofa and bench into dining. The living's NORTH exterior wall is SOLID inside: outside FALSE WINDOW gives NO inside glazing, no curtains. Room16ftx11ft4 adjoining dining12ft11x15ft3; do not expand width. Dining on RIGHT has exact same D1 walnut rectangular8-seat table, ivory chairs, sculptural opal/dark pendant and walnut console on western interior wall. Same oak plank direction/material/color continues uninterrupted. Warm mineral ivory, natural oak, walnut, ivory upholstery and soft ivory sheers with raised privacy shades on true windows, black piano/frames, restrained plants. Original dining glazing trim/head/sill/transoms govern the shared facade; living transoms are slim. No silver chrome, blue/yellow or colored-bedroom palette. Modest real Crown townhouse outside. Photo-realistic luxury townhouse,3:2, no people/text/labels. Connection to dining must be clear in the crop."
+      },
+      "status": "completed",
+      "qaStatus": "rejected_geometry",
+      "jobId": "4644ca60-ec20-4e32-ab1d-7404586622b0",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_022418_4644ca60-ec20-4e32-ab1d-7404586622b0.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-day.png",
+      "qaNote": "Living pair is too close together; opening count/topology pass but spacing differs from plan/exterior."
+    },
+    {
+      "index": 60004,
+      "room": "kitchen",
+      "code": "K1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-stone/r02/c1-kitchen.png",
+      "sourceJobId": "833d14c6-f250-4c62-adf9-9019515b7692",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "833d14c6-f250-4c62-adf9-9019515b7692"
+          },
+          {
+            "role": "image",
+            "value": "a282a5d0-f69f-4f8c-be4c-71f2a5a29e0e"
+          }
+        ],
+        "prompt": "Localized coherence IMAGE EDIT of the FIRST kitchen photograph. Keep exact kitchen camera, crop, ALL architecture, cabinet geometry, C1 cream quartzite-look PORCELAIN countertop/waterfall/backsplash, stainless appliances,4 stools,2 dark dome pendants, natural oak and lighting. Change ONLY the distant SUNROOM visible behind island on image RIGHT to match SECOND reference S1. Replace its current five-globe two-suspension-rod light with the SAME SIX OPAL GLOBES on a single dark linear bar, alternating heights, ONE central suspension stem, as S1. Replace distant wood-framed dining chairs with S1's SAME soft ivory upholstered rounded chairs on slender dark legs; rectangle walnut6-seat table and oatmeal rug in same position. Do not bring sunroom close or change real windows, transoms, door, ceiling, oven tower or kitchen furniture. Same daytime raised privacy/Roman layers and airy ivory sheers. Everything else identical to first kitchen source. Pure Mineral & Walnut with selected C1 stone retained; no chrome/blue/yellow theme. Photorealistic3:2, no people or text."
+      },
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "jobId": "00ca777c-0764-4626-9b08-9b39695b5dc6",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_022417_00ca777c-0764-4626-9b08-9b39695b5dc6.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k1-day.png",
+      "qaNote": "Original K1 geometry/C1 surfaces retained; distant six-globe single-stem fixture and upholstered chairs now match S1/S2."
+    },
+    {
+      "index": 60005,
+      "room": "kitchen",
+      "code": "K2",
+      "sourceFile": "assets/Crown Georgetown Photos/second-floor-main-kitchen.jpg.webp",
+      "sourceJobId": "637d252a-44f3-4abb-9a71-dc6f51dd0686",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "637d252a-44f3-4abb-9a71-dc6f51dd0686"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-library-assets/second-floor-main-kitchen.jpg.webp"
+          }
+        ],
+        "prompt": "Architectural corrective IMAGE EDIT of FIRST kitchen reverse photograph, preserving the entire selected Mineral & Walnut C1 design. ONLY repair the far SCREEN-LEFT passage to match SECOND ORIGINAL PHOTO architecture/camera. There is ONE SINGLE BROAD ARCHED OPENING at far LEFT, with the powder-room paneled door and stair guard both visible THROUGH that SAME opening, exactly like original. Current first image mistakenly has TWO adjacent arches plus a newly invented mineral-wall pier between them and a faceted narrow arch around the powder door. REMOVE this extra pier and small faceted arch; restore the original ONE broad arch and powder door/guard seen behind. Do not make two doorways or frame the powder door inside its own new arch. Keep crop/position of opening like original, modest doorway width, no structural redesign. Keep first photo's refrigerator/upper cabinets, island sink and dishwasher, C1 cream quartzite-look PORCELAIN worktop/backsplash/waterfall, natural oak floors, warm ivory cabinets,2 dark dome pendants, dark handles, right menu-center/butler-pantry real succession of arches and window. Those right-hand actual pantry arches are UNCHANGED. First image finishes govern all other pixels; original supplies far-left topology ONLY, do not return to gray cabinets/dark floors. Photorealistic3:2, no text/people."
+      },
+      "status": "completed",
+      "qaStatus": "rejected_geometry",
+      "jobId": "dbd2b4f7-4282-40ed-b423-00a5f9d2c4ae",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_022418_dbd2b4f7-4282-40ed-b423-00a5f9d2c4ae.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k2-day.png",
+      "qaNote": "Added left pier and second arch remain; restore original photograph camera/architecture."
+    },
+    {
+      "index": 60006,
+      "room": "stair2",
+      "code": "ST1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/stair2-st1-day.png",
+      "sourceJobId": "6cfaa918-9f68-45b8-af99-6e7592a1647a",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "6cfaa918-9f68-45b8-af99-6e7592a1647a"
+          },
+          {
+            "role": "image",
+            "value": "ab8924ca-bb0c-491a-89b0-18d2cf558af2"
+          }
+        ],
+        "prompt": "Localized cross-room coherence IMAGE EDIT of FIRST second-floor staircase photograph. Keep exact camera/crop, bare natural oak stairs with NO RUNNER, existing quarter-curving stair flight/landing/straight continuation, every white baluster/post, handrail, paneled powder door, stacked real windows, monochrome framed art and warm mineral walls unchanged. Change ONLY furniture seen THROUGH the existing arch at image LEFT to match SECOND great-room reference: replace old model-home patterned armchairs, square ottoman and slatted round coffee table with the same TWO plain oatmeal/ivory upholstered wood-base armchairs and OVAL solid walnut low coffee table shown in the new great room. No ottoman in centre. Keep their world positions consistent with reference, oatmeal rug and soft ivory sheers/raised privacy rollers. The great-room terrace sliding door/transoms/opening remain exactly original; no new partition, windows, blue/chrome or curtain types. Do not alter staircase structure, add lighting or widen the arch. Photograph-quality3:2."
+      },
+      "status": "completed",
+      "qaStatus": "superseded_coherence_refinement",
+      "jobId": "80890bdb-99b6-41ae-8546-3a0267e926e9",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_022417_80890bdb-99b6-41ae-8546-3a0267e926e9.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/stair2-st1-day.png",
+      "qaNote": "Adjoining great-room drink table is a tripod instead of the approved C-shaped walnut table."
+    },
+    {
+      "index": 60007,
+      "room": "sunroom",
+      "code": "S1-F206N",
+      "sourceCode": "S1",
+      "sourceJobId": "a282a5d0-f69f-4f8c-be4c-71f2a5a29e0e",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s1-day.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "cfa341ee-4765-44c5-9202-09d49bb9b3ff"
+          },
+          {
+            "role": "image",
+            "value": "a282a5d0-f69f-4f8c-be4c-71f2a5a29e0e"
+          }
+        ],
+        "prompt": "Repair ONLY the malformed privacy shade on the terrace DOOR at far RIGHT of the FIRST sunroom NIGHT image; exact paired DAY second reference confirms architecture and camera. Keep same scene/crop, six-globe single-stem dark-bar chandelier, same6 ivory chairs/table/rug/oven tower/ceiling, all window transoms/sheers and existing fully lowered lower-window opaque shades. The narrow real terrace door glazing at far right must have ONE neatly fitted straight rectangular warm-ivory Roman privacy shade, completely covering its lower glazed panel down to sill, tidy parallel horizontal folds and perfectly HORIZONTAL lower hem. Remove current diagonal/wavy bottom edge and dangling malformed cloth/fold; no uncovered lower clear glass. Keep the door handle and access usable, high transoms remain bare/dark. Same warm restrained nighttime lighting, no daylight, no furniture/window drift, no new fixtures. Natural Mineral & Walnut palette,photoreal3:2."
+      },
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "jobId": "a4d7fc7d-bdd6-40bc-a0a2-6a6100931357",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_022417_a4d7fc7d-bdd6-40bc-a0a2-6a6100931357.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/sunroom-s1-night.png",
+      "qaNote": "Same S1 camera/furniture/glazing retained; door shade has an orderly straight fully closed hem; lower glazing covered and high transoms bare/dark."
+    },
+    {
+      "index": 60103,
+      "room": "living",
+      "code": "LR1",
+      "attempt": 2,
+      "supersedes": "4644ca60-ec20-4e32-ab1d-7404586622b0",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-day.png",
+      "sourceJobId": "4644ca60-ec20-4e32-ab1d-7404586622b0",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "4644ca60-ec20-4e32-ab1d-7404586622b0"
+          }
+        ],
+        "prompt": "Make ONE small architectural correction to this otherwise correct Mineral & Walnut image. Do not change camera, framing, ceiling, floor, piano, sofa, tables, chairs, artwork or any finishes. On the straight window wall ahead: the TWO living windows behind the sofa at LEFT currently form a tightly paired bank. They must be TWO SEPARATE same-size tall rectangular windows with a substantial solid wall pier approximately ONE WINDOW WIDTH between their white casings, as the actual blueprint/facade. Keep the LEFTMOST living window at its exact current position. MOVE ONLY the second living window (the one currently immediately to its RIGHT, near the middle sofa cushion) further RIGHT by approximately ONE WINDOW WIDTH. Preserve its original glass/casing/transom size and sill/head heights. Repair the vacant old position with the same warm mineral wall, so there are still EXACTLY TWO living windows. Adjust just their own sheer curtain track/stacks as needed. Keep the SMALL HIGH ARCHED window in centre at its EXACT position and size; do not move it or any of the TWO dining windows on imageRIGHT. Total common facade remains TWO separated living rectangles +ONE central HIGH ARCH +TWO dining rectangles. Do not add glazing or a pier/beam between rooms. Same open diningright/pianoleft orientation, entire northwallsolid, exact furniture positions. Photorealistic3:2, no text."
+      },
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "jobId": "24744de7-867c-4eff-a4d3-fabfe106742a",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_022907_24744de7-867c-4eff-a4d3-fabfe106742a.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-day-a2.png",
+      "qaNote": "Living pair now reads as separate openings with substantial wall pier; piano left/dining right, five shared-facade openings and fully open seam retained."
+    },
+    {
+      "index": 60105,
+      "room": "kitchen",
+      "code": "K2",
+      "attempt": 2,
+      "supersedes": "dbd2b4f7-4282-40ed-b423-00a5f9d2c4ae",
+      "sourceFile": "assets/Crown Georgetown Photos/second-floor-main-kitchen.jpg.webp",
+      "sourceJobId": "https://708.hackbyrd.com/design-library-assets/second-floor-main-kitchen.jpg.webp",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "auto",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-library-assets/second-floor-main-kitchen.jpg.webp"
+          },
+          {
+            "role": "image",
+            "value": "637d252a-44f3-4abb-9a71-dc6f51dd0686"
+          },
+          {
+            "role": "image",
+            "value": "833d14c6-f250-4c62-adf9-9019515b7692"
+          }
+        ],
+        "prompt": "RESTYLE THE FIRST ORIGINAL KITCHEN PHOTO while preserving its EXACT ARCHITECTURE and ORIGINAL CAMERA/CROP/aspect. Use images2/3 ONLY for finished Mineral & Walnut material palette. Every actual wall/opening in FIRST must stay unchanged. Crucial far SCREEN-LEFT original shows ONE broad arch (partly cropped), with white powder door and stair guard BOTH visible behind it through that SAME opening. Preserve that SINGLE arch precisely and do NOT import the invented extra pier/second arch/faceted door arch from image2. No second doorway on left. Same actual fridge cabinet arrangement, island service face/sink/DW, right cooktop and actual series of menu/butler arched connections as image1. Keep original modest compact proportions. Change gray cabinets to warm ivory, dark floor to continuous MATTE NATURAL OAK like image3, worktops/island waterfall/backsplash to selected C1 cream quartzite-look PORCELAIN fromimage3 (quiet warm soft flowing veins, not gray cold slab). Dark understated cabinet handles and sinktap, same stainless fridge/DW/hood; dome pendants in dark bronze with warm pale interiors in original pendant positions above island. Exact original fridge/door proportions remain. Warm subtle ivory mineral walls. Photo-realistic premium Option1; no blue/yellow/silver theme. Do not widen camera to reveal fictional additional left arch. All geometry from original FIRST photograph; finishes only from other references. No people/text."
+      },
+      "status": "completed",
+      "qaStatus": "superseded_finish_coherence",
+      "jobId": "81b46902-c067-45ad-a070-f370215f8cdc",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_022908_81b46902-c067-45ad-a070-f370215f8cdc.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k2-day-a2.png",
+      "qaNote": "Source original passage/camera correctly restored; faucet needs stainless finish to match K1."
+    },
+    {
+      "index": 60106,
+      "room": "stair2",
+      "code": "ST1",
+      "attempt": 2,
+      "supersedes": "80890bdb-99b6-41ae-8546-3a0267e926e9",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/stair2-st1-day.png",
+      "sourceJobId": "80890bdb-99b6-41ae-8546-3a0267e926e9",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "80890bdb-99b6-41ae-8546-3a0267e926e9"
+          },
+          {
+            "role": "image",
+            "value": "ab8924ca-bb0c-491a-89b0-18d2cf558af2"
+          }
+        ],
+        "prompt": "ONE tiny furniture coherence IMAGE EDIT, preserve EVERYTHING ELSE in FIRST staircase image: all stair geometry/posts/balusters/window bars/arch/door/camera/crop/floor/lighting EXACT. Through the existing arch at imageLEFT, beside the nearer/right oatmeal armchair is a small ROUND THREE-LEGGED WOODEN STOOL/side table. Replace ONLY that single round three-legged object with a small solid WALNUT C-SHAPED CANTILEVER DRINK TABLE, like the cropped walnut cantilever side table beside the near right armchair in SECOND great-room reference. Form is a low RECTANGULAR top supported by one vertical flat slab and bottom plate, open C-shaped side silhouette, NO round top/tripod/legs. Same small footprint and position next to armchair, warm walnut. The OVAL low coffee table stays as is; plain chairs and all surrounding furniture stay in same positions. Do not add or remove other objects. Bare oak stairs NO RUNNER, pure Mineral & Walnut,photoreal3:2."
+      },
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "jobId": "f611ec86-fc80-498d-89df-4d3547a86a9e",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_022907_f611ec86-fc80-498d-89df-4d3547a86a9e.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/stair2-st1-day-a2.png",
+      "qaNote": "Correct stair geometry/clear descent retained; adjoining furniture now has plain chairs, oval walnut coffee table and C-shaped walnut drink table consistent with GR1."
+    },
+    {
+      "index": 60201,
+      "room": "dining",
+      "code": "D1-F206N",
+      "sourceCode": "D1",
+      "sourceJobId": "02dd9a05-daf6-4524-8ebe-f6df717d6e90",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/dining-d1-day-30508.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "02dd9a05-daf6-4524-8ebe-f6df717d6e90"
+          }
+        ],
+        "prompt": "Same-camera NIGHT IMAGE EDIT of this exact approved dining DAY image. LOCK every window shape, width, sill, arch/transom and glazing bar to the source image, camera/crop, table/eight ivory chairs, sculptural pendant, console/art, shelf and natural oak/mineral/walnut finishes. Small high arch at IMAGELEFT stays BARE and dark with EXACT SAME existing glazing bars as daytime; do not add ANY new horizontal bar to that arch. Only4 tall windows get warm-ivory opaque PRIVACY layers fully closed down to their photographed sills behind same airy sheers. They cover the complete tall windows including upper arched/rectangular heads at night with tidy straight rectangular fabric; preserve underlying original opening/casing shape. Small arch still exposed. Outside dark nighttime townhouses; no daytime bright exterior. Pendant softly lit with restrained warm white light, existing table lamp on, low subtle recessed general lighting, photo white balance neutral warm not orange. No new fixtures/ceiling lines. Exact same furniture and geometry, no logos/text/people,3:2."
+      },
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "jobId": "a7802979-8dc6-45cf-976e-96a8cf3df118",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_022946_a7802979-8dc6-45cf-976e-96a8cf3df118.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d1-night.png",
+      "qaNote": "Exact retained D1 camera/furniture/openings and small high-arch glazing retained; four tall-window privacy layers closed, high arch bare/dark.",
+      "lighting": "Warm, dimmed sculptural pendant, console lamp and existing recessed general light. Preserve exact daytime room/furniture geometry; close opaque privacy layers behind ivory sheers over tall real windows and leave the shorter high arch bare and dark."
+    },
+    {
+      "index": 60204,
+      "room": "kitchen",
+      "code": "K1-F206N",
+      "sourceCode": "K1",
+      "sourceJobId": "00ca777c-0764-4626-9b08-9b39695b5dc6",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k1-day.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "00ca777c-0764-4626-9b08-9b39695b5dc6"
+          }
+        ],
+        "prompt": "Make a NIGHT LIGHTING/PRIVACY IMAGE EDIT of this exact kitchen day photo. Lock camera/crop, every wall/arch/window/transom/cabinet, selected C1 cream quartzite-look PORCELAIN slab/backsplash/waterfall, island/fourstools/sink/stainlessappliances, two bronze domependants, naturaloak, distant sunroom6seat walnuttable/ivorychairs/SIX-globe SINGLE-STEM fixture andallobjects EXACT. Only change lighting, outside darkness and privacy layer state. FULLY lower warm-ivory opaque privacy shades over the ENTIRE real kitchen counter-window opening on LEFT. In the distant SUNROOM at RIGHT, FULLY close neat opaque Roman shades over EVERY visible LOWER glass panel DOWN TO EACH SILL; absolutely NO transparent strip left below their hems. The high horizontal sunroom TRANSOMS remain bare and DARK. Terrace door lowerglass privacy layer closes tidily if visible, without obstructing handle. Same open ivory sheers. Warm-white restrained dome lights, gentle undercabinet working light and distant sixglobe fixture on; keep neutralwarm photographicwhitebalance, not orange/RGB. Dark exterior glimpses only above lower shades, no sun. Exact original architecture/furniture/windowdivisions, no people/text,3:2."
+      },
+      "status": "completed",
+      "qaStatus": "rejected_geometry_or_operation",
+      "jobId": "f80907a3-0aa9-43be-b0ae-4012ec517798",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_022946_f80907a3-0aa9-43be-b0ae-4012ec517798.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k1-night.png",
+      "qaNote": "Sunroom lower shades still stop above sills, leaving substantial visible lower-glass strips."
+    },
+    {
+      "index": 60302,
+      "room": "dining",
+      "code": "D2",
+      "attempt": 2,
+      "supersedes": "739a0fc4-1a83-43ca-bbd8-800b9065a9ca",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-day.png",
+      "sourceJobId": "739a0fc4-1a83-43ca-bbd8-800b9065a9ca",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "739a0fc4-1a83-43ca-bbd8-800b9065a9ca"
+          },
+          {
+            "role": "image",
+            "value": "24744de7-867c-4eff-a4d3-fabfe106742a"
+          }
+        ],
+        "prompt": "Correct and harmonize FIRST connected dining/living view; preserve FIRST camera, dining furniture/pendant/console/art, shared straight window wall and fully open room boundary exactly. Two focused changes. (1) FAR PIANO/BACK WALL is the NORTH exterior wall and must be entirely SOLID inside. Remove the invented RECTANGULAR doorway/opening just LEFT of the distant piano (with a rail visible inside it); fill that opening with continuous same warm ivory/mineral wall, crown/baseboard. No interior opening on that north false-window facade, no fake glass. Actual west/stair hall is off to camera-left; do not insert a door cutout in the piano wall to represent it. Preserve the real butler-pantry arch in NEAR IMAGELEFT dining interior wall if visible. (2) Distant living furnishings must match SECOND LR1 room exactly: same ivory Cloud-style sofa under TWO well-separated tall living windows; compact walnut low coffee table has a rounded RECTANGULAR top and angled WOOD LEGS as in LR1, NOT current dark pedestal block. Same black baby-grand piano/realbench in far north corner, same large neutral black-frame abstract art on piano wall (not current small dark square), same rug. Remove the extra pale lounge chair beside distant sofa; LR1 has no extra lounge chair. Preserve all other furniture, window positions/sizes and small high central arch, no new pier or beam. Original dining table/chairs/pendant remain EXACT. Same natural oak color/direction and warm mineral/ivory/walnut theme. Photoreal3:2."
+      },
+      "status": "completed",
+      "qaStatus": "rejected_passage_position",
+      "jobId": "981da8f6-f9c1-4817-8f8b-455be5109041",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_023107_981da8f6-f9c1-4817-8f8b-455be5109041.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-day-a2.png",
+      "qaNote": "Final plan cross-check: small arch/recess on visible west console-wall north end is unsupported; real butler passage is at opposite south end outside this camera crop."
+    },
+    {
+      "index": 60308,
+      "room": "living",
+      "code": "LR2",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-day-a2.png",
+      "sourceJobId": "24744de7-867c-4eff-a4d3-fabfe106742a",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "24744de7-867c-4eff-a4d3-fabfe106742a"
+          },
+          {
+            "role": "image",
+            "value": "3a60a523-b60e-4411-9df8-5e0324341990"
+          },
+          {
+            "role": "image",
+            "value": "0b77b10e-33ca-48a7-a380-7447091df314"
+          },
+          {
+            "role": "image",
+            "value": "02dd9a05-daf6-4524-8ebe-f6df717d6e90"
+          }
+        ],
+        "prompt": "Create a TRUE REVERSE-ANGLE IMAGE EDIT of FIRST corrected living/piano salon, using plan and LR2 perspective guide for camera geometry and fourth D1 image for dining furniture and actual south arched windows. Same house and furnishings; output only photo, no diagram/text/border. Camera now near NORTH-EAST/east-window end of living room looking SOUTHWEST diagonally across salon toward directly adjoining dining. TWO living EAST windows are BEHIND camera, NEVER relocate them onto west/north walls. Piano at IMAGE RIGHT/near-right foreground at its same NORTHWEST/north-solid-wall location; same black baby-grand lid/keyboards/bench. Ivory sofa near foreground on east-window side, facing WEST, so back/side may be visible. Same rounded rectangular walnut coffee table with angled wooden legs and oatmeal rug, same furniture positions. Directly adjoining DINING now IMAGE LEFT and forward; show exact D1 walnut rectangular8chair table, sculptural dark/opalcylinder pendant, sideboard/neutral black-frame art on WEST dining wall and TWO tall arched SOUTH windows where geometrically visible. No wall, column, jamb, doorway, archway, pier, header, ceilingdrop or flooringstep separating dining and living—one continuous FLAT ceiling/crown, continuous natural oak and an entirely OPEN shared boundary. The real west hall lies beyond the rooms beside stairguard, but crop its distant end rather than inventing a grand portal, closed boxed hall or window-covered west wall. North wall is SOLID because its exterior feature is FALSEWINDOW; no northglass/shade/door. Butler pantry has its own REAL arch on west dining wall at southend only, do not move that arch to the shared boundary. Retain exact warm mineral/ivory/walnut/black/plant palette, no colored/chromeOption2. Living nominal16ftx11ft4 and dining12ft11x15ft3, realistic compact furniture not ballroom. Same airy ivorysheers/raised privacyshades on actual windows if visible. The small high ARCH stays on the real EAST facade behind/to camera-left, only appears if physically in crop; no duplicated higharch on west wall. Photo-quality3:2."
+      },
+      "status": "completed",
+      "qaStatus": "rejected_geometry_or_operation",
+      "jobId": "5a67a756-429b-4024-8c86-b3be2833307b",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_023106_5a67a756-429b-4024-8c86-b3be2833307b.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-day.png",
+      "qaNote": "Invented second arch to the right of dining sideboard on west wall; remove only this extra opening, retain real far-left butler passage."
+    },
+    {
+      "index": 60305,
+      "room": "kitchen",
+      "code": "K2",
+      "attempt": 3,
+      "supersedes": "81b46902-c067-45ad-a070-f370215f8cdc",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k2-day-a2.png",
+      "sourceJobId": "81b46902-c067-45ad-a070-f370215f8cdc",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "auto",
+        "medias": [
+          {
+            "role": "image",
+            "value": "81b46902-c067-45ad-a070-f370215f8cdc"
+          }
+        ],
+        "prompt": "Make ONE tiny material edit to this exact kitchen photo. Change ONLY the island sink faucet's metal FINISH from dark bronze to SATIN/STAINLESS SILVER to match the same faucet visible in the other kitchen camera. Preserve its exact arch shape, pull-down head, lever, position and scale. Keep absolutely everything else EXACT: original SINGLE broad LEFT arch containing powder door/guard, real right-hand pantry arches, camera/aspect/crop, C1 cream quartzite-look porcelain counter/waterfall/backsplash and veins, warm ivory cabinets, dark cabinet handles, dome pendants, stainless appliances, double sink, matte natural oak. No other changes, photoreal, same aspect ratio."
+      },
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "jobId": "d83acc0f-ccd6-4200-8527-38f5480a7132",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_023106_d83acc0f-ccd6-4200-8527-38f5480a7132.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k2-day-a3.png",
+      "qaNote": "Original reverse camera and single left arch with powder door/guard restored; C1 selected materials retained and stainless faucet matches K1."
+    },
+    {
+      "index": 60403,
+      "room": "living",
+      "code": "LR1-F206N",
+      "sourceCode": "LR1",
+      "sourceJobId": "24744de7-867c-4eff-a4d3-fabfe106742a",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-day-a2.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "24744de7-867c-4eff-a4d3-fabfe106742a"
+          }
+        ],
+        "prompt": "NIGHTTIME lighting/privacy edit of this EXACT corrected living/dining day photograph. Preserve all camera/crop, geometry, positions/counts/glazingbars/casings, fully OPEN seam with NO header/partition, northSOLID pianowallLEFT, diningRIGHT, sofa/bench/piano/lid/art/coffee table/rugs/diningchairs/table/pendant and natural oak/mineral/walnut finishes. TWO living windows behindsofa must keep their separated positions with substantial wallpier; ONE SMALL HIGH ARCH nearcentre stays BARE and dark with exact day glazingbars; TWO dining rectangularwindowsRIGHT remain samepositions. FULLY lower neat warm-ivory opaque PRIVACY shades behind same open ivorysheers over all FOUR tall real windows, including their slim toptransom, down to their exact sills. Small higharch remains uncovered with blacknightoutside. Dark exterior townhouses, no sun/daylight. Existing dining pendant softlywarmwhite, existing discrete ceiling lights lowwarm, balancedneutralwarm whitebalance (not orange); illuminate piano/sofa naturally with currentfixtures, no addedlamp/ceilingstrip. Same architecture/furniture down to chaircount, no text/people,3:2."
+      },
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "jobId": "41d3adbe-5f95-4422-bd27-ed10d50b4337",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_023211_41d3adbe-5f95-4422-bd27-ed10d50b4337.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-night.png",
+      "qaNote": "Exact LR1 camera/furniture/open seam/window spacing retained; tall privacy shades closed and central high arch bare with original glazing.",
+      "lighting": "Warm, low existing ceiling illumination with the adjacent dining pendant and console lamp visible in the same camera. Preserve the compact baby grand, bench, ivory sofa and walnut low table; no added chair or floor lamp. Close privacy layers behind sheers where real tall windows appear; the solid north wall receives none."
+    },
+    {
+      "index": 60406,
+      "room": "stair2",
+      "code": "ST1-F206N",
+      "sourceCode": "ST1",
+      "sourceJobId": "f611ec86-fc80-498d-89df-4d3547a86a9e",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/stair2-st1-day-a2.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "f611ec86-fc80-498d-89df-4d3547a86a9e"
+          }
+        ],
+        "prompt": "Same-camera NIGHT edit of this exact second-floor staircase DAY. Keep staircase flight/tread geometry, quartercurve/landing/straight continuation, allposts/balusters/handrails, opendownwardwell, archdoor/wallgeometry, framedmonochromeart, oakfloors andALL furniture through leftarch EXACT. NO stairrunner. Exteriorstairwell windows remain BARE with originalglassdivisions and DARK outside; no staircasecurtains orshade. Through archonLEFT keep same plainoatmealchairs, OVALwalnutcoffee table and C-SHAPED solid walnut cantilever drinktable (do NOT replace with tripod stool/ottoman/oldslattedtable). The greatroom slidingdoor LOWER glazing visiblethrougharch has fullyclosed neat warmivory opaqueprivacyrollers, behindthe SAME airyivorysheers; hightransomabove stays BARE anddark. Preserveglassdoorframework/archproportions. Softwarmwhite illumination from existing ceilinglights/general fixtures, naturallylegible baresteps, no newwalllights/LEDstrips or newceilinggeometry. Balancednight photo, not orange, no daylight. No furniture drift or text/people,3:2."
+      },
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "jobId": "de3afe15-0330-4da2-b090-25b6b53da65f",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_023211_de3afe15-0330-4da2-b090-25b6b53da65f.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/stair2-st1-night.png",
+      "qaNote": "Exact bare stair camera/geometry, open descent and matching adjacent furniture retained; bare stair windows dark, great-room lower privacy closed and high transom bare.",
+      "lighting": "Restrained existing ceiling illumination makes bare oak tread edges and landings legible. Through the actual arch, coordinate the great-room furniture and closed lower privacy layers with its selected night view. Preserve stair geometry and bare high glazing; no picture light or new glowing tread/cove strips."
+    },
+    {
+      "index": 60508,
+      "room": "living",
+      "code": "LR2",
+      "attempt": 2,
+      "supersedes": "5a67a756-429b-4024-8c86-b3be2833307b",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-day.png",
+      "sourceJobId": "5a67a756-429b-4024-8c86-b3be2833307b",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "5a67a756-429b-4024-8c86-b3be2833307b"
+          }
+        ],
+        "prompt": "ONE localized architecture repair to this otherwise correct reverse piano-salon photo. On the DINING'S WEST INTERIOR CONSOLE WALL (the far wall behind table/art/sideboard), there are currently TWO arched passages. The REAL butler-pantry passage is the FAR LEFT arch, keep it EXACTLY unchanged. The SMALLER ARCH immediately RIGHT of the console/art (behind the far end of dining table, showing brown shelving/cabinets) is INVENTED. Completely REMOVE and FILL ONLY that smaller right-hand arch with the same continuous warm ivory/mineral plaster wall and baseboard. No niche/window/door/panel/cabinet in its place. End result is ONE real passage at farLEFT end of the console wall; remaining whole wall solid behind the sideboard and art. Do not convert that invented opening into a window; actual SOUTH exterior dining windows are beyond the left crop, not in the west console wall. Preserve the actual open hall/stair approach visible near imagecentre/right—do NOT close that hall or alterguard/door. Keep fully OPEN dining-to-living boundary no divider/beam. Exact current camera/crop, babygrand+benchRIGHT, Cloudsofa/coffee/rugs in samepositions, table8chairs/pendant/sideboard/art, flatceiling and naturaloak floor unchanged. No addedwindows/partitions or any other redesign, photoreal3:2."
+      },
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "jobId": "0bf34c47-f34d-40b0-ac61-96d256502ef5",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_023427_0bf34c47-f34d-40b0-ac61-96d256502ef5.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-day-a2.png",
+      "qaNote": "Reverse angle preserves open dining/piano orientation and real far-left butler passage; invented second arch beside console removed to solid wall."
+    },
+    {
+      "index": 60504,
+      "room": "kitchen",
+      "code": "K1-F206N",
+      "attempt": 2,
+      "supersedes": "f80907a3-0aa9-43be-b0ae-4012ec517798",
+      "sourceCode": "K1",
+      "sourceJobId": "00ca777c-0764-4626-9b08-9b39695b5dc6",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k1-day.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "f80907a3-0aa9-43be-b0ae-4012ec517798"
+          }
+        ],
+        "prompt": "REPAIR ONLY incomplete privacy-shade closure in the distant SUNROOM on imageRIGHT of this exact NIGHT kitchen. All other pixels, architecture, C1 stone surfaces, furniture, lighting, fixtureglobe count, kitchen ownLEFTwindowshade, sheers, camera/crop unchanged. The SUNROOM LOWER panes still show LARGE blue transparent glass strips beneath their half-lowered Roman-shade hems. PULL DOWN EACH SUNROOM LOWER shade to the BOTTOM SILL so it COMPLETELY conceals ALL lower glazing, with straight horizontal hems at sill. Every currently visible BLUE/TRANSPARENT GLASS area UNDER the sunroom shade hems must become covered by the SAME opaque warm-ivory shade fabric. This applies to all three distant front banks plus side bank visible beyond oven. Keep neat parallel Roman folds gathered at the very bottom/sill if present. No lowerglass/exterior showing under shade. The HIGH NARROW TRANSOMS at TOP of those windows stay BARE and BLUE-DARK and unchanged—they are the ONLY sunroom glazing left exposed. Do NOT lower a shade over those high transoms, change furniture or shift any mullions. No daytime scene/light,photoreal3:2."
+      },
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "jobId": "8b9a418d-5dad-4db9-839d-c1e8b222c7ce",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_023427_8b9a418d-5dad-4db9-839d-c1e8b222c7ce.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k1-night-a2.png",
+      "qaNote": "Same-camera K1 kitchen remains unchanged; all visible lower sunroom Romans now fully close to sills and high transoms remain bare at night. Pendants and adjacent six-globe fixture retain daytime furniture geometry."
+    },
+    {
+      "index": 60505,
+      "room": "kitchen",
+      "code": "K2-F206N",
+      "sourceCode": "K2",
+      "sourceJobId": "d83acc0f-ccd6-4200-8527-38f5480a7132",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k2-day-a3.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "auto",
+        "medias": [
+          {
+            "role": "image",
+            "value": "d83acc0f-ccd6-4200-8527-38f5480a7132"
+          }
+        ],
+        "prompt": "Same-camera NIGHT edit of this exact corrected original-angle kitchen. LOCK crop/aspect, one BROAD arch on farLEFT showing powder door/stairguard through SAME opening, no additionalpier orsecondarch. Exact real right pantry arches and farwindow, fridge/cabinetlayout, C1 cream porcelain slab/waterfall/backsplash, stainless faucet/DW/appliances/double sink, two domependants, oakfloor, allobjects stay. Only nightlighting/darkoutside/privacy shadeoperation. Far exterior WINDOW at end of actual butlerpantry corridor on RIGHT: lower an opaque warmivory privacy layer fully to its sill behind same airy ivorysheers; preserve original windowcasing/head, no glassstripremaining underhem. Any small real exteriorkitchenglassvisible atcropright gets fullopaqueprivacy. Darkoutside, softlywarmwhite domependants, lowunder-cabinet worklight andexistinghallceilinglights, balancedneutralwarm photographicwhitebalance notorange. No newfixtures/ceilinglines, no furniture/service/appliance drift or text/people, sameaspect."
+      },
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "jobId": "02d87aad-c922-41c2-b94e-38132f26cbef",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_023427_02d87aad-c922-41c2-b94e-38132f26cbef.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k2-night.png",
+      "qaNote": "Same-camera original K2 reverse view retains one broad left arch containing powder door and stair guard, the right butler passage, stainless faucet, C1 surfaces and all cabinetry. Visible distant pantry privacy layer is closed."
+    },
+    {
+      "index": 60502,
+      "room": "dining",
+      "code": "D2-F206N",
+      "sourceCode": "D2",
+      "sourceJobId": "981da8f6-f9c1-4817-8f8b-455be5109041",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-day-a2.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "981da8f6-f9c1-4817-8f8b-455be5109041"
+          }
+        ],
+        "prompt": "Same-camera NIGHT lighting/privacy IMAGE EDIT of this exact corrected connected dining/piano salon day view. LOCK allpositions/counts/shapes of architecture, TWO distant living rectangles +SMALL HIGH centralARCH +diningrectangles on same straight wall, one continuous FLAT ceiling/floor and entirely OPEN dining-to-living seam. FAR NORTH piano wall entirelySOLID, no inventeddoor/window/opening. Exact8seatdiningtable/chairs/sculpturalpendant/console/art/lamp, ivorysofa/blackbabygrand/bench/blackframepianoart/leggedwalnutcoffee/rugs unchanged. Onlydarkexterior, warm restrainedlighting, privacyoperation. FULLY lower warmivory opaqueprivacy layers over ALL visible TALL living/dining realwindows to exactsills, covering talltransomheads too behindsame airyivorysheers. Keep SMALL HIGH ARCH near imageRIGHTcentre BARE and DARK with EXACTsame daymuntin/glazingdivisions—no newbar. Pendant andconsolelamp softlywarmwhite, existing discreteceiling general lowbalancedlight. No newpianolamp/fixtures/LEDstrips orceilinggeometry. Same naturaloak/mineral/walnut color; neutralwarmnight whitebalance notorange. Photo3:2,no text/people."
+      },
+      "status": "completed",
+      "qaStatus": "superseded_day_geometry",
+      "jobId": "7d6c8f04-55b0-427a-81ea-b947ac74b644",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_023426_7d6c8f04-55b0-427a-81ea-b947ac74b644.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-night.png",
+      "qaNote": "Night inherits the wrong-end wall recess from superseded D2 day; new exact night required after localized day correction."
+    },
+    {
+      "index": 60602,
+      "room": "dining",
+      "code": "D2",
+      "attempt": 3,
+      "supersedes": "981da8f6-f9c1-4817-8f8b-455be5109041",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-day-a2.png",
+      "sourceJobId": "981da8f6-f9c1-4817-8f8b-455be5109041",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "981da8f6-f9c1-4817-8f8b-455be5109041"
+          }
+        ],
+        "prompt": "ONE localized architecture correction, preserve exact camera/crop and ALL other pixels in this correct connected dining/piano salon. There is a small invented ARCH/RECESS on IMAGE LEFT in the WEST dining-console wall, visible immediately to the RIGHT of the large foreground artwork and ABOVE/behind the lamp (a tall narrow gray arched shape near x150 of the1400px preview). Remove ONLY this small gray arched wall opening/recess completely and fill it with continuous same warm MINERAL IVORY wall. No niche, door, glass, framed panel or new feature in its place. Keep same wall plane/crown/baseboard. The REAL butler-pantry passage is at the opposite SOUTH end of this west wall, OUTSIDE this camera crop toward camera-left/behind camera; do not add it at the visible north/far end. Do NOT alter the SMALL HIGH ARCHED GLASS WINDOW on the RIGHT east exterior facade—it stays exactly same, with wood shelf. Do NOT touch any real tall windows, their positions, sheers or transoms. Same fullyopen roomseam, solidnorthpianowall, exactpiano/bench/art/Cloudsofa/leggedcoffee/rugs/diningtable/eightchairs/sculpturalpendant/sideboard/lamp and continuousnatural oak. Onlyerasewrong grayarchonleftwall, nootherredesign. Photoreal3:2."
+      },
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "jobId": "dfb85043-45f6-49b0-89c3-e87e4ddf6344",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_023538_dfb85043-45f6-49b0-89c3-e87e4ddf6344.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-day-a3.png",
+      "qaNote": "D2 retains direct open dining/living seam with continuous floor and flat ceiling, shared east facade opening sequence, solid north piano wall, and removes wrong-end left-console-wall recess; actual south-end butler passage is out of this camera crop."
+    },
+    {
+      "index": 60608,
+      "room": "living",
+      "code": "LR2-F206N",
+      "sourceCode": "LR2",
+      "sourceJobId": "0bf34c47-f34d-40b0-ac61-96d256502ef5",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-day-a2.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "0bf34c47-f34d-40b0-ac61-96d256502ef5"
+          }
+        ],
+        "prompt": "Make a restrained NIGHT LIGHTING edit of this exact corrected reverse living/dining photo. Lock camera/crop, ALL architecture and furniture,8diningchairs/table/sideboard/art/lamp/pendant, blackbabygrand/lid/bench/largeart onRIGHT, ivorysofa/leggedwalnutcoffee/rugs andnaturaloak. DiningWESTconsolewall has ONE real butlerpantry arch at FAR LEFT; remainSOLID toRIGHT of console—no secondarch/niche/window. Real stairguard/hall open approach atmiddle-right stays EXACT. Direct dining/living boundary staysfullyOPEN withcontinuousflatceilingandfloor. Two livingeastwindows are BEHIND camera andsouthdiningglass beyondLEFTcrop; do NOT add anywindow, curtain/shade, portal ornewfixture tovisible solidwalls justtoillustratenight. Only remove daylight exposure andactivate EXISTING decorativependant, consolelamp anddiscrete ceilinglights in balancedsoftwarmwhite3000K; naturally darker hall/pantry but safelegibility. No new LEDcoves/strips or spotlocations, no room geometry/furniture/material change. Neutralwarm photo whitebalance, no orangeRGB. Exactsame scene3:2,no people/text."
+      },
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "jobId": "b34ed580-91d2-4f62-98d1-5958d1f2e23e",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_023607_b34ed580-91d2-4f62-98d1-5958d1f2e23e.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-night.png",
+      "qaNote": "LR2 night matches exact approved LR2 day: dining left, piano right, sofa foreground, one actual butler arch at far left and solid remaining console wall; open west hall/stair guard retained. No exterior glazing is in this crop, so no invented shades/windows.",
+      "lighting": "Warm, low existing ceiling illumination with the adjacent dining pendant and console lamp visible in the same camera. Preserve the compact baby grand, bench, ivory sofa and walnut low table; no added chair or floor lamp. Close privacy layers behind sheers where real tall windows appear; the solid north wall receives none."
+    },
+    {
+      "index": 60702,
+      "room": "dining",
+      "code": "D2-F206N",
+      "sourceCode": "D2",
+      "sourceJobId": "dfb85043-45f6-49b0-89c3-e87e4ddf6344",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-day-a3.png",
+      "attempt": 3,
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "dfb85043-45f6-49b0-89c3-e87e4ddf6344"
+          }
+        ],
+        "prompt": "Edit this exact daytime photo into the identical-camera NIGHT lighting and privacy scene. Preserve every architectural opening, flat ceiling, continuous natural oak floor, entirely open dining-to-living connection, furniture and art. LEFT console wall stays SOLID with no gray recess/arch/door behind the lamp. Far piano north wall stays entirely SOLID. Same straight east facade on IMAGE RIGHT: two distant living rectangles, one SMALL HIGH-SILL ARCH, then dining rectangles, exact day muntins/glass divisions. FULLY close warm ivory opaque privacy panels over ALL visible TALL living/dining windows to the exact sills, covering their transoms too behind the same airy ivory sheers. Keep the SMALL HIGH CENTRAL ARCH bare, exact original glazing bars, dark exterior visible. Existing dark sculptural pendant, console lamp and discrete ceiling lights softly illuminate room in warm 2700K–3000K light, balanced neutral warm white balance, not orange. No new lighting fixtures, no piano lamp, no LEDs, no construction changes, no furniture changes. Preserve eight-seat walnut dining table and ivory chairs, walnut sideboard, paired abstract monochrome artwork, black baby grand/bench, ivory sofa, legged walnut low table and oatmeal rugs. Photorealistic night, no people, no text."
+      },
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "jobId": "b91ac4c4-68ab-4779-a6d4-9838554d6e49",
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_023918_b91ac4c4-68ab-4779-a6d4-9838554d6e49.png",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-night-a3.png",
+      "qaNote": "Exact final D2 day camera, solid console/north walls, continuous open dining/salon, furniture and shared facade retained. Tall-window opaque privacy panels fully closed behind same ivory sheers; shorter high central arch remains bare and dark with identical glazing subdivisions. Warm existing pendant, console lamp and ceiling lights only.",
+      "lighting": "Warm, dimmed sculptural pendant, console lamp and existing recessed general light. Preserve exact daytime room/furniture geometry; close opaque privacy layers behind ivory sheers over tall real windows and leave the shorter high arch bare and dark."
+    }
+  ],
+  "auditFile": "docs/mineral-walnut-floor-two-audit-r06.json",
+  "floorCoverageNote": "Six second-floor rooms, each shown in two daytime angles with matching night partners. Dining and the piano salon connect directly across an open boundary; their shared east window wall and solid north false-window wall follow the plan and actual house. Original photographs govern photographed cameras; the salon and unseen angles are plan-led. Confirm opening dimensions, piano/table footprints, circulation, shades and services on site before ordering or building.",
+  "selectedJobIndexes": [
+    60004,
+    60007,
+    60103,
+    60106,
+    60201,
+    60305,
+    60403,
+    60406,
+    60508,
+    60504,
+    60505,
+    60602,
+    60608,
+    60702
+  ],
+  "deliveredJobs": [
+    {
+      "index": 60004,
+      "jobId": "00ca777c-0764-4626-9b08-9b39695b5dc6",
+      "room": "kitchen",
+      "code": "K1",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k1-day.png"
+    },
+    {
+      "index": 60007,
+      "jobId": "a4d7fc7d-bdd6-40bc-a0a2-6a6100931357",
+      "room": "sunroom",
+      "code": "S1-F206N",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/sunroom-s1-night.png",
+      "sourceCode": "S1",
+      "sourceJobId": "a282a5d0-f69f-4f8c-be4c-71f2a5a29e0e",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s1-day.png"
+    },
+    {
+      "index": 60103,
+      "jobId": "24744de7-867c-4eff-a4d3-fabfe106742a",
+      "room": "living",
+      "code": "LR1",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-day-a2.png"
+    },
+    {
+      "index": 60106,
+      "jobId": "f611ec86-fc80-498d-89df-4d3547a86a9e",
+      "room": "stair2",
+      "code": "ST1",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/stair2-st1-day-a2.png"
+    },
+    {
+      "index": 60201,
+      "jobId": "a7802979-8dc6-45cf-976e-96a8cf3df118",
+      "room": "dining",
+      "code": "D1-F206N",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d1-night.png",
+      "sourceCode": "D1",
+      "sourceJobId": "02dd9a05-daf6-4524-8ebe-f6df717d6e90",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/dining-d1-day-30508.png"
+    },
+    {
+      "index": 60305,
+      "jobId": "d83acc0f-ccd6-4200-8527-38f5480a7132",
+      "room": "kitchen",
+      "code": "K2",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k2-day-a3.png"
+    },
+    {
+      "index": 60403,
+      "jobId": "41d3adbe-5f95-4422-bd27-ed10d50b4337",
+      "room": "living",
+      "code": "LR1-F206N",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-night.png",
+      "sourceCode": "LR1",
+      "sourceJobId": "24744de7-867c-4eff-a4d3-fabfe106742a",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-day-a2.png"
+    },
+    {
+      "index": 60406,
+      "jobId": "de3afe15-0330-4da2-b090-25b6b53da65f",
+      "room": "stair2",
+      "code": "ST1-F206N",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/stair2-st1-night.png",
+      "sourceCode": "ST1",
+      "sourceJobId": "f611ec86-fc80-498d-89df-4d3547a86a9e",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/stair2-st1-day-a2.png"
+    },
+    {
+      "index": 60508,
+      "jobId": "0bf34c47-f34d-40b0-ac61-96d256502ef5",
+      "room": "living",
+      "code": "LR2",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-day-a2.png"
+    },
+    {
+      "index": 60504,
+      "jobId": "8b9a418d-5dad-4db9-839d-c1e8b222c7ce",
+      "room": "kitchen",
+      "code": "K1-F206N",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k1-night-a2.png",
+      "sourceCode": "K1",
+      "sourceJobId": "00ca777c-0764-4626-9b08-9b39695b5dc6",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k1-day.png"
+    },
+    {
+      "index": 60505,
+      "jobId": "02d87aad-c922-41c2-b94e-38132f26cbef",
+      "room": "kitchen",
+      "code": "K2-F206N",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k2-night.png",
+      "sourceCode": "K2",
+      "sourceJobId": "d83acc0f-ccd6-4200-8527-38f5480a7132",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k2-day-a3.png"
+    },
+    {
+      "index": 60602,
+      "jobId": "dfb85043-45f6-49b0-89c3-e87e4ddf6344",
+      "room": "dining",
+      "code": "D2",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-day-a3.png"
+    },
+    {
+      "index": 60608,
+      "jobId": "b34ed580-91d2-4f62-98d1-5958d1f2e23e",
+      "room": "living",
+      "code": "LR2-F206N",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-night.png",
+      "sourceCode": "LR2",
+      "sourceJobId": "0bf34c47-f34d-40b0-ac61-96d256502ef5",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-day-a2.png"
+    },
+    {
+      "index": 60702,
+      "jobId": "b91ac4c4-68ab-4779-a6d4-9838554d6e49",
+      "room": "dining",
+      "code": "D2-F206N",
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-night-a3.png",
+      "sourceCode": "D2",
+      "sourceJobId": "dfb85043-45f6-49b0-89c3-e87e4ddf6344",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-day-a3.png"
+    }
+  ]
+}

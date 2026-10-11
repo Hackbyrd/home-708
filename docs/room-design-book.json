@@ -104,7 +104,7 @@
       "laundry",
       "bed5"
     ],
-    "pendingReviewScope": "MW-F1-R05: recheck all five first-floor spaces and paired day/night cameras; regenerate only rejected views. Published images are unchanged until visual QA passes."
+    "pendingReviewScope": "MW-F2-R06: all24 second-floor day/night images audited;14 reviewed replacements integrated and10 retained. Proposed correction awaits homeowner feedback."
   },
   "brief": {
     "source": "docs/design-taste-profile.json",
@@ -477,6 +477,25 @@
       ],
       "revisionAtFeedback": "Published first-floor day/night images; prior MW-A02 and MW-NR01 concepts",
       "resultingRevision": "MW-F1-R05; concept QA passed, not construction approval"
+    },
+    {
+      "id": "FB-018",
+      "date": "2026-10-10",
+      "scope": "Mineral & Walnut full second-floor architecture and camera audit",
+      "userFeedback": "Audit floor two against original model-home photos and blueprint. Formal dining D2 is incorrect; living/piano salon is incorrect and connects directly to formal dining.",
+      "interpretation": "Reconstruct the fully open dining/living suite, remove invented dividing portal/header and mirrored living orientation, preserve the shared east-facade sequence and solid north false-window wall. Source-check all 24 second-floor day/night images. Correct kitchen left passage and adjoining-room furnishings/shade-operation inconsistencies while retaining the pure Option1 palette and selected C1 stone.",
+      "status": "rendered_and_visually_reviewed_awaiting_homeowner_feedback",
+      "affectedRooms": [
+        "great",
+        "kitchen",
+        "dining",
+        "living",
+        "sunroom",
+        "stair2"
+      ],
+      "revisionAtFeedback": "v2.0.2 / MW-A02 and existing floor-two views",
+      "resultingRevision": "MW-F2-R06",
+      "audit": "docs/mineral-walnut-floor-two-audit-r06.json"
     }
   ],
   "roomDefinitions": {
@@ -6948,7 +6967,7 @@
           "id": "mw-architecture-r01",
           "date": "2026-10-08",
           "status": "proposed_for_review",
-          "reason": "Architecture/source audit and authorized design refinements; tonal runners, coordinated window layers, practical storage and differentiated lighting.",
+          "reason": "Architecture/source audit and authorized design refinements; coordinated window layers, practical storage and differentiated lighting.",
           "manifest": "docs/mineral-walnut-architecture-production.json",
           "views": [
             {
@@ -6989,7 +7008,8 @@
             "limitations": [
               "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
             ]
-          }
+          },
+          "annotationCorrection": "2026-10-10: Removed stale runner wording. Bare oak stairs remain the current scheme; images unchanged."
         }
       ],
       "schedule": [
@@ -7243,9 +7263,9 @@
       "id": "kitchen",
       "floor": "second-floor",
       "title": "Kitchen",
-      "currentRevision": "mw-materials-r01",
-      "status": "proposed",
-      "userApproval": "Homeowner authorized A/C1/E stone directions and very small bedroom color accents. Products, measured quantities and fabrication details remain unselected.",
+      "currentRevision": "MW-F2-R06",
+      "status": "Proposed · source-reviewed second-floor revision awaiting homeowner feedback",
+      "userApproval": "Homeowner authorized A/C1/E stone directions; small bedroom color accents were later removed. Products, measured quantities and fabrication details remain unselected.",
       "designIntent": "Selected C1: quiet cream quartzite-look porcelain on worktops, working backsplash and island waterfall; warm ivory cabinetry, rich walnut seating-side island and original layout retained.",
       "sourceEvidence": [
         {
@@ -7267,6 +7287,20 @@
           "observations": [
             "Plan room label: 14 ft 7 in × 18 ft 7 in.",
             "Maintain room relationships; verify actual opening offsets, services and dimensions before construction."
+          ]
+        },
+        {
+          "type": "photo",
+          "file": "assets/Crown Georgetown Photos/second-floor-main-kitchen.jpg.webp",
+          "observations": [
+            "Source reverse/alternative kitchen camera confirms cabinet/appliance placement and actual single broad hall arch. Preserve photographed openings with C1 materials."
+          ]
+        },
+        {
+          "type": "photo",
+          "file": "assets/Crown Georgetown Photos/second-floor-main-kitchen-3.jpg.webp",
+          "observations": [
+            "Forward cooktop/sunroom camera confirms long cabinet run, oven tower and sunroom adjacency. The separate main-kitchen.jpg.webp reverse photograph establishes the single broad hall arch."
           ]
         }
       ],
@@ -7576,6 +7610,64 @@
               "Material and color visualization, not a measured specification. Physical samples, product approvals, detailed panel/edge layouts and trade quotes remain required."
             ]
           }
+        },
+        {
+          "id": "MW-F2-R06",
+          "date": "2026-10-10",
+          "status": "visually_reviewed_design_visualization",
+          "reason": "Original kitchen cameras retain the real L-shaped cabinet runs, island, counter window, arched connections and right-hand oven column. Cabinetry, stone and lighting follow the approved Mineral & Walnut direction.",
+          "manifest": "docs/floor-two-r06-production.json",
+          "audit": "docs/mineral-walnut-floor-two-audit-r06.json",
+          "changedDayCodes": [
+            "K1",
+            "K2"
+          ],
+          "changedNightSourceCodes": [
+            "K1",
+            "K2"
+          ],
+          "views": [
+            {
+              "id": "K1-MW-F2-R06",
+              "code": "K1",
+              "index": 60004,
+              "jobId": "00ca777c-0764-4626-9b08-9b39695b5dc6",
+              "model": "nano_banana_2_1",
+              "label": "Corrected view · Kitchen",
+              "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k1-day.png",
+              "evidenceType": "Photo-based architectural revision",
+              "evidence": "Original K1 geometry/C1 surfaces retained; distant six-globe single-stem fixture and upholstered chairs now match S1/S2.",
+              "qaNote": "Original K1 geometry/C1 surfaces retained; distant six-globe single-stem fixture and upholstered chairs now match S1/S2. Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+              "sourceFile": "assets/render-candidates/mineral-walnut-stone/r02/c1-kitchen.png",
+              "sourceJobId": "833d14c6-f250-4c62-adf9-9019515b7692",
+              "revision": "MW-F2-R06",
+              "auditIndex": 60004,
+              "assetRevision": "mw-f2-r06"
+            },
+            {
+              "id": "K2-MW-F2-R06",
+              "code": "K2",
+              "index": 60305,
+              "jobId": "d83acc0f-ccd6-4200-8527-38f5480a7132",
+              "model": "nano_banana_2_1",
+              "label": "Secondary view · Kitchen",
+              "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k2-day-a3.png",
+              "evidenceType": "Photo-based architectural revision",
+              "evidence": "Original reverse camera and single left arch with powder door/guard restored; C1 selected materials retained and stainless faucet matches K1.",
+              "qaNote": "Original reverse camera and single left arch with powder door/guard restored; C1 selected materials retained and stainless faucet matches K1. Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+              "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k2-day-a2.png",
+              "sourceJobId": "81b46902-c067-45ad-a070-f370215f8cdc",
+              "revision": "MW-F2-R06",
+              "auditIndex": 60305,
+              "assetRevision": "mw-f2-r06"
+            }
+          ],
+          "qa": {
+            "status": "visually_reviewed",
+            "limitations": [
+              "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
+            ]
+          }
         }
       ],
       "schedule": [
@@ -7769,7 +7861,7 @@
         "Select actual materials, products and coordinated measured dimensions.",
         "MW-M01: approve actual stone/textile samples in daylight and lamplight before procurement; confirm measured details and quotes."
       ],
-      "handoffStatus": "Design direction recorded and current day/night images coordinated. Contractor to complete the measured product/installation schedule and pricing; images are not fabrication drawings.",
+      "handoffStatus": "Concept and source review recorded; field measurements, trade coordination and homeowner approval remain before construction.",
       "styleIdentity": "Sculptural island lighting",
       "improvementPlan": {
         "version": "MW-M01",
@@ -7781,28 +7873,29 @@
         "verify": "Material and color visualization, not a measured specification. Physical samples, product approvals, detailed panel/edge layouts and trade quotes remain required."
       },
       "lightingStudy": {
-        "id": "K1-M1N-MWM01",
-        "version": "MW-M01",
-        "code": "K1-M1N",
-        "index": 44202,
-        "jobId": "e446437c-c1d2-4ae3-a9e9-49c9663d54f6",
+        "id": "K1-F206N-MW-F2-R06",
+        "version": "MW-F2-R06",
+        "code": "K1-F206N",
+        "index": 60504,
+        "jobId": "8b9a418d-5dad-4db9-839d-c1e8b222c7ce",
         "model": "nano_banana_2_1",
-        "file": "assets/render-candidates/mineral-walnut-materials/r01/kitchen-night.png",
+        "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k1-night-a2.png",
         "sourceCode": "K1",
-        "sourceFile": "assets/render-candidates/mineral-walnut-stone/r02/c1-kitchen.png",
-        "sourceJobId": "833d14c6-f250-4c62-adf9-9019515b7692",
-        "label": "Night · Kitchen",
+        "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k1-day.png",
+        "sourceJobId": "00ca777c-0764-4626-9b08-9b39695b5dc6",
+        "label": "Night · Kitchen · K1 camera",
         "scene": "Privacy / evening mode",
         "cct": 3000,
         "circuits": "Island pendants / undercabinet task / general",
         "lighting": "Turn on the two existing dome island pendants with warm diffused undersides. Show continuous diffused undercabinet task lighting on the actual counter runs and moderate existing ceiling light. Counters and sink must read clearly, no high-glare points, no lighting added to the floor or island waterfall. Adjacent sunroom also at night.",
-        "evidenceType": "Night edit of corrected daytime view",
-        "evidence": "Night edit of the updated MW-M01 day view; chosen stone and small textile accents retained with existing lighting and closed privacy/blackout layers.",
-        "qaNote": "Selected C1 surface and original camera retained; cooking light and closed privacy shades throughout kitchen/sunroom; dark transoms. Lighting, color and shade performance are illustrative; confirm physical samples and products.",
+        "evidenceType": "Same-camera night edit of exact approved daytime source",
+        "evidence": "Same-camera K1 kitchen remains unchanged; all visible lower sunroom Romans now fully close to sills and high transoms remain bare at night. Pendants and adjacent six-globe fixture retain daytime furniture geometry.",
+        "qaNote": "Same-camera K1 kitchen remains unchanged; all visible lower sunroom Romans now fully close to sills and high transoms remain bare at night. Pendants and adjacent six-globe fixture retain daytime furniture geometry. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+        "assetRevision": "mw-f2-r06",
         "status": "proposed",
         "lightingNotes": [
           "Turn on the two existing dome island pendants with warm diffused undersides. Show continuous diffused undercabinet task lighting on the actual counter runs and moderate existing ceiling light. Counters and sink must read clearly, no high-glare points, no lighting added to the floor or island waterfall. Adjacent sunroom also at night.",
-          "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          "Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site."
         ]
       },
       "windowTreatment": {
@@ -7933,16 +8026,66 @@
             }
           ]
         }
+      ],
+      "lightingHistory": [
+        {
+          "id": "K1-M1N-MWM01",
+          "version": "MW-M01",
+          "code": "K1-M1N",
+          "index": 44202,
+          "jobId": "e446437c-c1d2-4ae3-a9e9-49c9663d54f6",
+          "model": "nano_banana_2_1",
+          "file": "assets/render-candidates/mineral-walnut-materials/r01/kitchen-night.png",
+          "sourceCode": "K1",
+          "sourceFile": "assets/render-candidates/mineral-walnut-stone/r02/c1-kitchen.png",
+          "sourceJobId": "833d14c6-f250-4c62-adf9-9019515b7692",
+          "label": "Night · Kitchen",
+          "scene": "Privacy / evening mode",
+          "cct": 3000,
+          "circuits": "Island pendants / undercabinet task / general",
+          "lighting": "Turn on the two existing dome island pendants with warm diffused undersides. Show continuous diffused undercabinet task lighting on the actual counter runs and moderate existing ceiling light. Counters and sink must read clearly, no high-glare points, no lighting added to the floor or island waterfall. Adjacent sunroom also at night.",
+          "evidenceType": "Night edit of corrected daytime view",
+          "evidence": "Night edit of the updated MW-M01 day view; chosen stone and small textile accents retained with existing lighting and closed privacy/blackout layers.",
+          "qaNote": "Selected C1 surface and original camera retained; cooking light and closed privacy shades throughout kitchen/sunroom; dark transoms. Lighting, color and shade performance are illustrative; confirm physical samples and products.",
+          "status": "proposed",
+          "lightingNotes": [
+            "Turn on the two existing dome island pendants with warm diffused undersides. Show continuous diffused undercabinet task lighting on the actual counter runs and moderate existing ceiling light. Counters and sink must read clearly, no high-glare points, no lighting added to the floor or island waterfall. Adjacent sunroom also at night.",
+            "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          ]
+        }
+      ],
+      "angleLightingStudies": [
+        {
+          "id": "K2-F206N-MW-F2-R06",
+          "version": "MW-F2-R06",
+          "code": "K2-F206N",
+          "index": 60505,
+          "jobId": "02d87aad-c922-41c2-b94e-38132f26cbef",
+          "model": "nano_banana_2_1",
+          "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k2-night.png",
+          "sourceCode": "K2",
+          "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k2-day-a3.png",
+          "sourceJobId": "d83acc0f-ccd6-4200-8527-38f5480a7132",
+          "label": "Night · Kitchen · K2 camera",
+          "scene": "Privacy / evening mode",
+          "cct": 3000,
+          "circuits": "Island pendants / undercabinet task / general",
+          "lighting": "Turn on the two existing dome island pendants with warm diffused undersides. Show continuous diffused undercabinet task lighting on the actual counter runs and moderate existing ceiling light. Counters and sink must read clearly, no high-glare points, no lighting added to the floor or island waterfall. Adjacent sunroom also at night.",
+          "evidenceType": "Same-camera night edit of exact approved daytime source",
+          "evidence": "Same-camera original K2 reverse view retains one broad left arch containing powder door and stair guard, the right butler passage, stainless faucet, C1 surfaces and all cabinetry. Visible distant pantry privacy layer is closed.",
+          "qaNote": "Same-camera original K2 reverse view retains one broad left arch containing powder door and stair guard, the right butler passage, stainless faucet, C1 surfaces and all cabinetry. Visible distant pantry privacy layer is closed. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+          "assetRevision": "mw-f2-r06"
+        }
       ]
     },
     "dining": {
       "id": "dining",
       "floor": "second-floor",
       "title": "Formal dining",
-      "currentRevision": "mw-architecture-r01",
-      "status": "proposed",
+      "currentRevision": "MW-F2-R06",
+      "status": "Proposed · source-reviewed second-floor revision awaiting homeowner feedback",
       "userApproval": "FB-016 requirements recorded. Revised images and exact materials/products await feedback; no fabrication approval is implied.",
-      "designIntent": "Warm formal dining with an extension table for eight daily and up to ten occasionally after measured fit, distinct sculptural pendant, preserved five windows and shallow shelf below the high arch.",
+      "designIntent": "Warm formal dining with a walnut extension table for eight daily and up to ten after measured fit, sculptural pendant, console and neutral artwork. Dining opens directly to the piano salon; real east/south windows and the shared small high arch retain their source relationships.",
       "sourceEvidence": [
         {
           "id": "SRC-DINING",
@@ -7950,7 +8093,9 @@
           "file": "assets/Crown Georgetown Photos/second-floor-formal-dining.jpg.webp",
           "confidence": "Real model-home architecture; finishes are not the homeowner-selected scheme",
           "observations": [
-            "Preserve all five windows and their varied shapes/heights: one small high arch, two tall rectangular windows and two tall arches; retain the wall niche."
+            "Original camera: image-left is the continuous east facade with the nearer smaller high-sill arch and two tall rectangular/transom windows; ahead are two tall south-wall arches; image-right is the west console/art wall.",
+            "The oblique thin arch at photo-right does not establish a closed niche. The plan establishes a butler-pantry passage on this interior wall; preserve the passage and confirm its exact visible detail on site.",
+            "Living connects directly beyond the original camera across the north boundary. Retain a continuous floor and flat ceiling; no artificial portal/header is supported."
           ]
         },
         {
@@ -7961,13 +8106,16 @@
           "preview": "assets/render-candidates/floor-two-review/r01/refs/blueprint-page3.png",
           "confidence": "Builder plan, not measured as-built",
           "observations": [
-            "Plan room label: 12 ft 11 in × 15 ft 3 in.",
-            "Maintain room relationships; verify actual opening offsets, services and dimensions before construction."
+            "Plan room label 12 ft 11 in × 15 ft 3 in at printed-plan bottom/left. Printed top=west, right=north, bottom=east and left=south; nominal plan relationships are not an as-built survey.",
+            "The printed-plan top/west console wall backs the entry-gallery open-to-below void and contains the real butler-pantry arched passage toward its south end.",
+            "The north/printed-right dining edge is directly open to living without a drawn partition or framed portal. The straight common east facade retains the smaller high arch near the zone junction, with tall dining and living windows on either side."
           ]
         }
       ],
       "architectureLocks": [
-        "Preserve all five windows and their varied shapes/heights: one small high arch, two tall rectangular windows and two tall arches; retain the wall niche.",
+        "Preserve the original photo openings: two east-facade tall rectangles with shallow transoms, one smaller HIGH-SILL arch near the living junction on that SAME straight facade, and two south-facade tall arched windows. Preserve original head/sill/trim relationships; these are not five identical openings.",
+        "Printed-plan top=west: the console/art wall backs the entry-gallery open-to-below void. Keep the sideboard here and preserve the real butler-pantry arched passage toward the printed-plan left/south end. The oblique thin arched photo feature does not prove a closed wall niche.",
+        "Printed-plan right=north: dining directly connects to living across an open seam with continuous oak floor and flat ceiling. Do not add a partition, portal, pier, jamb, arch or dropped header. The central small arch remains once on the shared east facade, not on a perpendicular invented corner.",
         "Plan label 12 ft 11 in × 15 ft 3 in; field verification governs.",
         "Closed extension table target 84 × 40 in for eight: three chairs per long side and one at each end. About 108 in extended for occasional ten, subject to the actual table supports and chair plan.",
         "Nominal centered closed-table end gaps 49.5 in and side gaps 57.5 in before chairs, trim or storage. Extended end gaps reduce to 37.5 in. These are planning arithmetic, not verified usable clearances.",
@@ -8213,6 +8361,62 @@
               "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
             ]
           }
+        },
+        {
+          "id": "MW-F2-R06",
+          "date": "2026-10-10",
+          "status": "visually_reviewed_design_visualization",
+          "reason": "Formal dining connects directly to the living/piano salon across a fully open boundary, with one continuous oak floor and flat ceiling. Preserve the two east-wall tall windows and small high arch, two south-wall arched windows, and actual butler-pantry connection; no invented dividing portal.",
+          "manifest": "docs/floor-two-r06-production.json",
+          "audit": "docs/mineral-walnut-floor-two-audit-r06.json",
+          "changedDayCodes": [
+            "D2"
+          ],
+          "changedNightSourceCodes": [
+            "D1",
+            "D2"
+          ],
+          "views": [
+            {
+              "id": "D-R02-1-MWT01-MWA02",
+              "code": "D1",
+              "index": 30508,
+              "jobId": "02dd9a05-daf6-4524-8ebe-f6df717d6e90",
+              "model": "nano_banana_2_1",
+              "label": "Corrected view · Formal dining",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r02/dining-d1-day-30508.png",
+              "evidenceType": "Photo-based architectural revision",
+              "evidence": "Five photographed opening locations and high arch retained; eight-seat closed extension table, shallow shelf and differentiated pendant shown.",
+              "qaNote": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+              "sourceFile": "assets/Crown Georgetown Photos/second-floor-formal-dining.jpg.webp",
+              "sourceJobId": "3300e9bd-339e-4639-a7ac-f48d5e49351b",
+              "revision": "MW-A02",
+              "auditIndex": 30508
+            },
+            {
+              "id": "D2-MW-F2-R06",
+              "code": "D2",
+              "index": 60602,
+              "jobId": "dfb85043-45f6-49b0-89c3-e87e4ddf6344",
+              "model": "nano_banana_2_1",
+              "label": "Secondary view · Formal dining",
+              "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-day-a3.png",
+              "evidenceType": "Derived angle · plan and photo interpretation",
+              "evidence": "D2 retains direct open dining/living seam with continuous floor and flat ceiling, shared east facade opening sequence, solid north piano wall, and removes wrong-end left-console-wall recess; actual south-end butler passage is out of this camera crop.",
+              "qaNote": "D2 retains direct open dining/living seam with continuous floor and flat ceiling, shared east facade opening sequence, solid north piano wall, and removes wrong-end left-console-wall recess; actual south-end butler passage is out of this camera crop. Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+              "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-day-a2.png",
+              "sourceJobId": "981da8f6-f9c1-4817-8f8b-455be5109041",
+              "revision": "MW-F2-R06",
+              "auditIndex": 60602,
+              "assetRevision": "mw-f2-r06"
+            }
+          ],
+          "qa": {
+            "status": "visually_reviewed",
+            "limitations": [
+              "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
+            ]
+          }
         }
       ],
       "schedule": [
@@ -8405,7 +8609,7 @@
         "Review the two updated labeled views and record further feedback.",
         "Select actual materials, products and coordinated measured dimensions."
       ],
-      "handoffStatus": "Concept and pricing-preparation record. Complete measured drawings, product schedules and trade verification before fabrication or installation.",
+      "handoffStatus": "Concept and source review recorded; field measurements, trade coordination and homeowner approval remain before construction.",
       "styleIdentity": "Room for ten",
       "improvementPlan": {
         "version": "MW-A02",
@@ -8417,35 +8621,36 @@
         "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
       },
       "lightingStudy": {
-        "id": "D1-N4-MWA02",
-        "version": "MW-A02",
-        "code": "D1-N4",
-        "index": 32508,
-        "jobId": "e110c403-3d87-47fc-be5d-d5b6bcdf56db",
+        "id": "D1-F206N-MW-F2-R06",
+        "version": "MW-F2-R06",
+        "code": "D1-F206N",
+        "index": 60201,
+        "jobId": "a7802979-8dc6-45cf-976e-96a8cf3df118",
         "model": "nano_banana_2_1",
-        "file": "assets/render-candidates/mineral-walnut-architecture/r02/dining-d1-n4-night-32508.png",
+        "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d1-night.png",
         "sourceCode": "D1",
         "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/dining-d1-day-30508.png",
         "sourceJobId": "02dd9a05-daf6-4524-8ebe-f6df717d6e90",
-        "label": "Night · Formal dining",
+        "label": "Night · Formal dining · D1 camera",
         "scene": "Privacy / evening mode",
         "cct": 2700,
         "circuits": "Dining pendant / artwork / general",
-        "lighting": "Illuminate the existing sculptural pendant softly and dim the existing picture light and recessed room lights. Table surface and chair backs should have gentle modelling; the decorative fixture stays comfortable to look at. Preserve five windows and the high-window cabinet. No candles or new furniture.",
-        "evidenceType": "Night edit of corrected daytime view",
-        "evidence": "Corrected night image retains daytime architecture, camera and furnishings; applicable lower privacy layers now fully closed, high glazing left bare where specified. Illustrative lighting/opacity, field testing required.",
-        "qaNote": "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house.",
+        "lighting": "Warm, dimmed sculptural pendant, console lamp and existing recessed general light. Preserve exact daytime room/furniture geometry; close opaque privacy layers behind ivory sheers over tall real windows and leave the shorter high arch bare and dark.",
+        "evidenceType": "Same-camera night edit of exact approved daytime source",
+        "evidence": "Exact retained D1 camera/furniture/openings and small high-arch glazing retained; four tall-window privacy layers closed, high arch bare/dark.",
+        "qaNote": "Exact retained D1 camera/furniture/openings and small high-arch glazing retained; four tall-window privacy layers closed, high arch bare/dark. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+        "assetRevision": "mw-f2-r06",
         "status": "proposed",
         "lightingNotes": [
-          "Illuminate the existing sculptural pendant softly and dim the existing picture light and recessed room lights. Table surface and chair backs should have gentle modelling; the decorative fixture stays comfortable to look at. Preserve five windows and the high-window cabinet. No candles or new furniture.",
-          "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          "Warm, dimmed sculptural pendant, console lamp and existing recessed general light. Preserve exact daytime room/furniture geometry; close opaque privacy layers behind ivory sheers over tall real windows and leave the shorter high arch bare and dark.",
+          "Same-camera lighting visualization; verify actual fixture output, dimming and privacy opacity on site."
         ]
       },
       "windowTreatment": {
         "id": "dining",
         "system": "privacy",
         "recommendation": "Ivory sheers + discreet privacy shades at tall windows",
-        "coverage": "Four tall openings: two rectangular and two arched. The small high center arch stays bare unless a sightline check requires coverage. The wall niche is not glazing.",
+        "coverage": "Four tall dining openings: two rectangular windows with shallow transoms on the east facade and two arched windows on the south facade. The smaller high-sill arch near the open living junction stays bare unless a sightline check requires coverage. Preserve the real butler-pantry passage; the oblique photo feature is not a proven closed niche.",
         "why": "Dinner after dark requires privacy while daytime entertaining benefits from light. Heavy blackout is unnecessary and should not obscure the arched architecture when open.",
         "day": "Sheers filter daylight; privacy layers fully raised and curtain stacks off glass.",
         "night": "Lower the privacy layer at all tall openings.",
@@ -8459,18 +8664,67 @@
           450
         ],
         "title": "Formal dining",
-        "floor": "second-floor",
-        "version": "MW-W01"
-      }
+        "floor": "second-floor"
+      },
+      "lightingHistory": [
+        {
+          "id": "D1-N4-MWA02",
+          "version": "MW-A02",
+          "code": "D1-N4",
+          "index": 32508,
+          "jobId": "e110c403-3d87-47fc-be5d-d5b6bcdf56db",
+          "model": "nano_banana_2_1",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/dining-d1-n4-night-32508.png",
+          "sourceCode": "D1",
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/dining-d1-day-30508.png",
+          "sourceJobId": "02dd9a05-daf6-4524-8ebe-f6df717d6e90",
+          "label": "Night · Formal dining",
+          "scene": "Privacy / evening mode",
+          "cct": 2700,
+          "circuits": "Dining pendant / artwork / general",
+          "lighting": "Illuminate the existing sculptural pendant softly and dim the existing picture light and recessed room lights. Table surface and chair backs should have gentle modelling; the decorative fixture stays comfortable to look at. Preserve five windows and the high-window cabinet. No candles or new furniture.",
+          "evidenceType": "Night edit of corrected daytime view",
+          "evidence": "Corrected night image retains daytime architecture, camera and furnishings; applicable lower privacy layers now fully closed, high glazing left bare where specified. Illustrative lighting/opacity, field testing required.",
+          "qaNote": "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house.",
+          "status": "proposed",
+          "lightingNotes": [
+            "Illuminate the existing sculptural pendant softly and dim the existing picture light and recessed room lights. Table surface and chair backs should have gentle modelling; the decorative fixture stays comfortable to look at. Preserve five windows and the high-window cabinet. No candles or new furniture.",
+            "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          ]
+        }
+      ],
+      "angleLightingStudies": [
+        {
+          "id": "D2-F206N-MW-F2-R06",
+          "version": "MW-F2-R06",
+          "code": "D2-F206N",
+          "index": 60702,
+          "jobId": "b91ac4c4-68ab-4779-a6d4-9838554d6e49",
+          "model": "nano_banana_2_1",
+          "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-night-a3.png",
+          "sourceCode": "D2",
+          "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-day-a3.png",
+          "sourceJobId": "dfb85043-45f6-49b0-89c3-e87e4ddf6344",
+          "label": "Night · Formal dining · D2 camera",
+          "scene": "Privacy / evening mode",
+          "cct": 2700,
+          "circuits": "Dining pendant / artwork / general",
+          "lighting": "Illuminate the existing sculptural pendant softly and dim the existing picture light and recessed room lights. Table surface and chair backs should have gentle modelling; the decorative fixture stays comfortable to look at. Preserve five windows and the high-window cabinet. No candles or new furniture.",
+          "evidenceType": "Same-camera night edit of exact approved daytime source",
+          "evidence": "Exact final D2 day camera, solid console/north walls, continuous open dining/salon, furniture and shared facade retained. Tall-window opaque privacy panels fully closed behind same ivory sheers; shorter high central arch remains bare and dark with identical glazing subdivisions. Warm existing pendant, console lamp and ceiling lights only.",
+          "qaNote": "Exact final D2 day camera, solid console/north walls, continuous open dining/salon, furniture and shared facade retained. Tall-window opaque privacy panels fully closed behind same ivory sheers; shorter high central arch remains bare and dark with identical glazing subdivisions. Warm existing pendant, console lamp and ceiling lights only. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+          "assetRevision": "mw-f2-r06"
+        }
+      ]
     },
     "living": {
       "id": "living",
       "floor": "second-floor",
       "title": "Living room · piano salon",
-      "currentRevision": "mw-architecture-r01",
-      "status": "proposed",
+      "currentRevision": "MW-F2-R06",
+      "status": "Proposed · source-reviewed second-floor revision awaiting homeowner feedback",
       "userApproval": "FB-016 requirements recorded. Revised images and exact materials/products await feedback; no fabrication approval is implied.",
-      "designIntent": "A compact baby grand, ivory Cloud-style seating and sheer curtains create the missing front living room, derived from the builder plan.",
+      "designIntent": "Plan-led piano salon directly open to dining: compact baby grand near the northwest stair side, ivory Cloud-style sofa beside two east windows facing west, walnut low table, oatmeal rug and airy ivory sheers with evening privacy layers. North exterior false-window feature is solid inside.",
       "sourceEvidence": [
         {
           "id": "Main-level builder plan",
@@ -8480,8 +8734,9 @@
           "page": 3,
           "confidence": "Nominal plan relationships, not as-built survey",
           "observations": [
-            "Living Room 16 ft 0 × 11 ft 4 at front-right of main level.",
-            "Piano northeast, front seating south, west open to formal dining. East facade marks False Window."
+            "Living Room 16 ft 0 in × 11 ft 4 in at printed-plan bottom/right. Actual exterior labels map printed top=west, right=north, bottom=east and left=south.",
+            "Two real living windows on the east facade; the north facade False Window is solid inside. Dining is directly south across an entirely open boundary, with the stair hall to the west.",
+            "Piano near northwest stair-side end; proposed sofa beside the east windows facing west. No wall/header across the southern dining seam; furniture must preserve the route between hall and dining."
           ]
         },
         {
@@ -8490,15 +8745,18 @@
           "file": "assets/Crown Georgetown Photos/second-floor-formal-dining.jpg.webp",
           "confidence": "Actual adjacent room context only; not a photograph of the living room",
           "observations": [
-            "White trim, crown, exterior context and window vocabulary; unseen living elevations are inferred."
+            "The straight shared east facade contains the high-sill small arch and two dining rectangular/transom windows; the plan and actual white-house exterior continue that same wall to two living tall windows.",
+            "Adjacent photo supplies white casing, crown, sill/head-height vocabulary and continuous room context only; it is not a dedicated living-room photograph."
           ]
         }
       ],
       "architectureLocks": [
-        "Plan-led concept: no dedicated living-room source photograph. Adjacent dining photograph supplies finish and opening context only.",
-        "Nominal 16 ft × 11 ft 4 in; two front windows at plan-bottom, solid false-window wall at plan-right, open dining boundary at plan-left and stair hall at plan-top.",
-        "Baby grand target about 5 ft at plan-top/right, approximately 96-in sofa floated along the dining boundary, one lounge chair and a low walnut table. Measure the actual instrument and all furniture together.",
-        "Window-head details and the apparent dining-opening header/junction in some concepts are unverified, not a proposed structural change."
+        "Plan-led concept: no dedicated living-room source photograph. Adjacent original dining and stair photographs establish facade/trim and hall context; unseen elevations require field verification.",
+        "Nominal 16 ft × 11 ft 4 in. Printed-plan bottom is east with TWO real tall windows; plan-right is north with a SOLID interior face behind the exterior False Window. Printed-plan left is south, directly OPEN to dining; plan-top is west beside the stair hall.",
+        "The dining/living seam is fully open with one continuous oak floor and flat ceiling. No partition, pier, framed portal, archway, jamb or dropped header is established or proposed.",
+        "Compact baby grand target about 5 ft at the northwest stair-side end. Ivory Cloud-style sofa target about 8–9 ft along the east-window side, facing west; walnut low table and oatmeal rug. Do not float the sofa as a barrier across the open southern dining boundary. Template the actual piano, bench, lid, sofa and circulation together.",
+        "The shared straight east facade has two dining rectangles with shallow transoms, one smaller HIGH-SILL central arch near the zone junction, then two living tall windows. Preserve the small arch once; do not duplicate it or replace it with a third tall living window.",
+        "The actual stair photo establishes the adjacent open well and guard at the west/northwest hall relationship. Its photographed arch to the great room does not justify adding an arch across the dining/living seam. Exact living window-head trim and services remain inferred."
       ],
       "revisions": [
         {
@@ -8643,6 +8901,64 @@
             "limitations": [
               "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
               "No dedicated original room photo."
+            ]
+          }
+        },
+        {
+          "id": "MW-F2-R06",
+          "date": "2026-10-10",
+          "status": "visually_reviewed_design_visualization",
+          "reason": "The 16-foot by 11-foot-4-inch piano salon connects directly to dining, with no partition, pier or dropped header. Two real tall windows are on the east wall; the north exterior false-window feature stays solid inside. Opposing views retain the compact baby grand, ivory Cloud-style seating and clear hall-to-dining path.",
+          "manifest": "docs/floor-two-r06-production.json",
+          "audit": "docs/mineral-walnut-floor-two-audit-r06.json",
+          "changedDayCodes": [
+            "LR1",
+            "LR2"
+          ],
+          "changedNightSourceCodes": [
+            "LR1",
+            "LR2"
+          ],
+          "views": [
+            {
+              "id": "LR1-MW-F2-R06",
+              "code": "LR1",
+              "index": 60103,
+              "jobId": "24744de7-867c-4eff-a4d3-fabfe106742a",
+              "model": "nano_banana_2_1",
+              "label": "Corrected view · Living room · piano salon",
+              "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-day-a2.png",
+              "evidenceType": "Derived angle · blueprint reconstruction with adjacent photo evidence",
+              "evidence": "Living pair now reads as separate openings with substantial wall pier; piano left/dining right, five shared-facade openings and fully open seam retained.",
+              "qaNote": "Living pair now reads as separate openings with substantial wall pier; piano left/dining right, five shared-facade openings and fully open seam retained. Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+              "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-day.png",
+              "sourceJobId": "4644ca60-ec20-4e32-ab1d-7404586622b0",
+              "revision": "MW-F2-R06",
+              "auditIndex": 60103,
+              "assetRevision": "mw-f2-r06"
+            },
+            {
+              "id": "LR2-MW-F2-R06",
+              "code": "LR2",
+              "index": 60508,
+              "jobId": "0bf34c47-f34d-40b0-ac61-96d256502ef5",
+              "model": "nano_banana_2_1",
+              "label": "Secondary view · Living room · piano salon",
+              "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-day-a2.png",
+              "evidenceType": "Derived angle · blueprint reconstruction with adjacent photo evidence",
+              "evidence": "Reverse angle preserves open dining/piano orientation and real far-left butler passage; invented second arch beside console removed to solid wall.",
+              "qaNote": "Reverse angle preserves open dining/piano orientation and real far-left butler passage; invented second arch beside console removed to solid wall. Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+              "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-day.png",
+              "sourceJobId": "5a67a756-429b-4024-8c86-b3be2833307b",
+              "revision": "MW-F2-R06",
+              "auditIndex": 60508,
+              "assetRevision": "mw-f2-r06"
+            }
+          ],
+          "qa": {
+            "status": "visually_reviewed",
+            "limitations": [
+              "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
             ]
           }
         }
@@ -8794,7 +9110,7 @@
         "Review the two updated labeled views and record further feedback.",
         "Select actual materials, products and coordinated measured dimensions."
       ],
-      "handoffStatus": "Concept for feedback; measure and select actual products before contractor pricing/fabrication.",
+      "handoffStatus": "Concept and source review recorded; field measurements, trade coordination and homeowner approval remain before construction.",
       "styleIdentity": "The piano salon",
       "improvementPlan": {
         "version": "MW-A02",
@@ -8806,35 +9122,36 @@
         "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
       },
       "lightingStudy": {
-        "id": "LR1-N4-MWA02",
-        "version": "MW-A02",
-        "code": "LR1-N4",
-        "index": 32009,
-        "jobId": "9f6e36b8-335a-44a3-bd25-3ab544294bcb",
+        "id": "LR1-F206N-MW-F2-R06",
+        "version": "MW-F2-R06",
+        "code": "LR1-F206N",
+        "index": 60403,
+        "jobId": "41d3adbe-5f95-4422-bd27-ed10d50b4337",
         "model": "nano_banana_2_1",
-        "file": "assets/render-candidates/mineral-walnut-architecture/r01/living-night.png",
+        "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-night.png",
         "sourceCode": "LR1",
-        "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/living-lr1-day-30909.png",
-        "sourceJobId": "69b4741e-a6b7-4650-a59d-6e35171522c6",
-        "label": "Night · Living room · piano salon",
+        "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-day-a2.png",
+        "sourceJobId": "24744de7-867c-4eff-a4d3-fabfe106742a",
+        "label": "Night · Living room · piano salon · LR1 camera",
         "scene": "Privacy / evening mode",
         "cct": 2700,
         "circuits": "General / portable reading light; piano task light to select after instrument placement",
-        "lighting": "Low warm general light and a reading floor lamp near the lounge chair, with closed privacy shades behind open sheers. Piano, sofa and chair remain in the corrected daytime arrangement.",
-        "evidenceType": "Night edit of corrected daytime view",
-        "evidence": "Night companion retains the corrected piano/sofa/chair arrangement and closes privacy shades to the sills, with sheers stacked and a lower reading-light layer. No dedicated room photograph; the dining-opening header/junction is unverified and is not a construction instruction.",
-        "qaNote": "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house.",
+        "lighting": "Warm, low existing ceiling illumination with the adjacent dining pendant and console lamp visible in the same camera. Preserve the compact baby grand, bench, ivory sofa and walnut low table; no added chair or floor lamp. Close privacy layers behind sheers where real tall windows appear; the solid north wall receives none.",
+        "evidenceType": "Same-camera night edit of exact approved daytime source",
+        "evidence": "Exact LR1 camera/furniture/open seam/window spacing retained; tall privacy shades closed and central high arch bare with original glazing.",
+        "qaNote": "Exact LR1 camera/furniture/open seam/window spacing retained; tall privacy shades closed and central high arch bare with original glazing. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+        "assetRevision": "mw-f2-r06",
         "status": "proposed",
         "lightingNotes": [
-          "Low warm general light and a reading floor lamp near the lounge chair, with closed privacy shades behind open sheers. Piano, sofa and chair remain in the corrected daytime arrangement.",
-          "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          "Warm, low existing ceiling illumination with the adjacent dining pendant and console lamp visible in the same camera. Preserve the compact baby grand, bench, ivory sofa and walnut low table; no added chair or floor lamp. Close privacy layers behind sheers where real tall windows appear; the solid north wall receives none.",
+          "Same-camera lighting visualization; verify actual fixture output, dimming and privacy opacity on site."
         ]
       },
       "windowTreatment": {
         "id": "living",
         "system": "privacy",
         "recommendation": "Clear ivory sheers + hidden privacy/glare shades",
-        "coverage": "Real south/front exterior windows only; do not treat the east-wall decorative false-window feature as exterior glazing.",
+        "coverage": "Two real tall windows on the east facade (printed-plan bottom/right), with matching sheers and privacy/glare shades. The north facade feature is a False Window and its interior face stays solid; no inside drape or shade there.",
         "why": "Maintain the bright piano salon and soft Cloud-style seating, with privacy after dark. An adjustable layer also helps reduce direct sun at the piano; sheers alone are not a complete sun-protection strategy.",
         "day": "Sheers drawn lightly; shade only where direct sun or glare calls for it.",
         "night": "Lower privacy shades on the front windows.",
@@ -8848,16 +9165,65 @@
           300
         ],
         "title": "Living room · piano salon",
-        "floor": "second-floor",
-        "version": "MW-W01"
-      }
+        "floor": "second-floor"
+      },
+      "lightingHistory": [
+        {
+          "id": "LR1-N4-MWA02",
+          "version": "MW-A02",
+          "code": "LR1-N4",
+          "index": 32009,
+          "jobId": "9f6e36b8-335a-44a3-bd25-3ab544294bcb",
+          "model": "nano_banana_2_1",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/living-night.png",
+          "sourceCode": "LR1",
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/living-lr1-day-30909.png",
+          "sourceJobId": "69b4741e-a6b7-4650-a59d-6e35171522c6",
+          "label": "Night · Living room · piano salon",
+          "scene": "Privacy / evening mode",
+          "cct": 2700,
+          "circuits": "General / portable reading light; piano task light to select after instrument placement",
+          "lighting": "Low warm general light and a reading floor lamp near the lounge chair, with closed privacy shades behind open sheers. Piano, sofa and chair remain in the corrected daytime arrangement.",
+          "evidenceType": "Night edit of corrected daytime view",
+          "evidence": "Night companion retains the corrected piano/sofa/chair arrangement and closes privacy shades to the sills, with sheers stacked and a lower reading-light layer. No dedicated room photograph; the dining-opening header/junction is unverified and is not a construction instruction.",
+          "qaNote": "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house.",
+          "status": "proposed",
+          "lightingNotes": [
+            "Low warm general light and a reading floor lamp near the lounge chair, with closed privacy shades behind open sheers. Piano, sofa and chair remain in the corrected daytime arrangement.",
+            "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          ]
+        }
+      ],
+      "angleLightingStudies": [
+        {
+          "id": "LR2-F206N-MW-F2-R06",
+          "version": "MW-F2-R06",
+          "code": "LR2-F206N",
+          "index": 60608,
+          "jobId": "b34ed580-91d2-4f62-98d1-5958d1f2e23e",
+          "model": "nano_banana_2_1",
+          "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-night.png",
+          "sourceCode": "LR2",
+          "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-day-a2.png",
+          "sourceJobId": "0bf34c47-f34d-40b0-ac61-96d256502ef5",
+          "label": "Night · Living room · piano salon · LR2 camera",
+          "scene": "Privacy / evening mode",
+          "cct": 2700,
+          "circuits": "General / portable reading light; piano task light to select after instrument placement",
+          "lighting": "Low warm general light and a reading floor lamp near the lounge chair, with closed privacy shades behind open sheers. Piano, sofa and chair remain in the corrected daytime arrangement.",
+          "evidenceType": "Same-camera night edit of exact approved daytime source",
+          "evidence": "LR2 night matches exact approved LR2 day: dining left, piano right, sofa foreground, one actual butler arch at far left and solid remaining console wall; open west hall/stair guard retained. No exterior glazing is in this crop, so no invented shades/windows.",
+          "qaNote": "LR2 night matches exact approved LR2 day: dining left, piano right, sofa foreground, one actual butler arch at far left and solid remaining console wall; open west hall/stair guard retained. No exterior glazing is in this crop, so no invented shades/windows. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+          "assetRevision": "mw-f2-r06"
+        }
+      ]
     },
     "sunroom": {
       "id": "sunroom",
       "floor": "second-floor",
       "title": "Sunroom",
-      "currentRevision": "mw-architecture-r01",
-      "status": "proposed",
+      "currentRevision": "MW-F2-R06",
+      "status": "Proposed · source-reviewed second-floor revision awaiting homeowner feedback",
       "userApproval": "FB-016 requirements recorded. Revised images and exact materials/products await feedback; no fabrication approval is implied.",
       "designIntent": "A slim rectangular table, six chairs, airy linear chandelier and transparent ivory sheers preserve the daylight.",
       "sourceEvidence": [
@@ -9131,6 +9497,58 @@
               "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
             ]
           }
+        },
+        {
+          "id": "MW-F2-R06",
+          "date": "2026-10-10",
+          "status": "visually_reviewed_design_visualization",
+          "reason": "The existing approved daytime sunroom arrangement is retained. Its new same-camera night view demonstrates evening lighting and the appropriate privacy state without changing glazing, furniture, ceiling or kitchen adjacency.",
+          "manifest": "docs/floor-two-r06-production.json",
+          "audit": "docs/mineral-walnut-floor-two-audit-r06.json",
+          "changedDayCodes": [],
+          "changedNightSourceCodes": [
+            "S1"
+          ],
+          "views": [
+            {
+              "id": "S-R02-1-MWT01-MWA02",
+              "code": "S1",
+              "index": 30010,
+              "jobId": "a282a5d0-f69f-4f8c-be4c-71f2a5a29e0e",
+              "model": "nano_banana_2_1",
+              "label": "Corrected view · Sunroom",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s1-day.png",
+              "evidenceType": "Photo-based architectural revision",
+              "evidence": "Window banks, transoms/knee walls, oven column and terrace door preserved; six-seat table and privacy layers visible.",
+              "qaNote": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+              "sourceFile": "assets/render-candidates/mineral-walnut-textiles/r01/sunroom-s1-day.png",
+              "sourceJobId": "f54c0232-6d68-4bc8-95f9-b5a6ea20bf01",
+              "revision": "MW-A02",
+              "auditIndex": 30010
+            },
+            {
+              "id": "S-R02-2-MWT01-MWA02",
+              "code": "S2",
+              "index": 31010,
+              "jobId": "760a7d16-3e4c-45ae-b8db-e8c8bee38057",
+              "model": "nano_banana_2_1",
+              "label": "Secondary view · Sunroom",
+              "file": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s2-day.png",
+              "evidenceType": "Derived angle · plan and photo interpretation",
+              "evidence": "Closer kitchen-side sunroom perspective retains six chairs, wraparound transoms and knee walls, pendant and layers.",
+              "qaNote": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site.",
+              "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s1-day.png",
+              "sourceJobId": "a282a5d0-f69f-4f8c-be4c-71f2a5a29e0e",
+              "revision": "MW-A02",
+              "auditIndex": 31010
+            }
+          ],
+          "qa": {
+            "status": "visually_reviewed",
+            "limitations": [
+              "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
+            ]
+          }
         }
       ],
       "schedule": [
@@ -9312,7 +9730,7 @@
         "Review the two updated labeled views and record further feedback.",
         "Select actual materials, products and coordinated measured dimensions."
       ],
-      "handoffStatus": "Concept and pricing-preparation record. Complete measured drawings, product schedules and trade verification before fabrication or installation.",
+      "handoffStatus": "Concept and source review recorded; field measurements, trade coordination and homeowner approval remain before construction.",
       "styleIdentity": "A light-filled table for six",
       "improvementPlan": {
         "version": "MW-A02",
@@ -9324,28 +9742,29 @@
         "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
       },
       "lightingStudy": {
-        "id": "S1-N4-MWA02",
-        "version": "MW-A02",
-        "code": "S1-N4",
-        "index": 32510,
-        "jobId": "cfa341ee-4765-44c5-9202-09d49bb9b3ff",
+        "id": "S1-F206N-MW-F2-R06",
+        "version": "MW-F2-R06",
+        "code": "S1-F206N",
+        "index": 60007,
+        "jobId": "a4d7fc7d-bdd6-40bc-a0a2-6a6100931357",
         "model": "nano_banana_2_1",
-        "file": "assets/render-candidates/mineral-walnut-architecture/r02/sunroom-s1-n4-night-32510.png",
+        "file": "assets/render-candidates/mineral-walnut-floor-two/r06/sunroom-s1-night.png",
         "sourceCode": "S1",
         "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s1-day.png",
         "sourceJobId": "a282a5d0-f69f-4f8c-be4c-71f2a5a29e0e",
-        "label": "Night · Sunroom",
+        "label": "Night · Sunroom · S1 camera",
         "scene": "Privacy / evening mode",
         "cct": 2700,
         "circuits": "Dining chandelier / adjacent kitchen ambient",
         "lighting": "The existing linear opal-globe chandelier softly lights the six-seat rectangular table. Keep enough adjacent kitchen ambient to show the oven column; all wraparound windows show true night with faint townhome lights. Existing sheer drapes stay in position.",
-        "evidenceType": "Night edit of corrected daytime view",
-        "evidence": "Corrected night image retains daytime architecture, camera and furnishings; applicable lower privacy layers now fully closed, high glazing left bare where specified. Illustrative lighting/opacity, field testing required.",
-        "qaNote": "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house.",
+        "evidenceType": "Same-camera night edit of exact approved daytime source",
+        "evidence": "Same S1 camera/furniture/glazing retained; door shade has an orderly straight fully closed hem; lower glazing covered and high transoms bare/dark.",
+        "qaNote": "Same S1 camera/furniture/glazing retained; door shade has an orderly straight fully closed hem; lower glazing covered and high transoms bare/dark. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+        "assetRevision": "mw-f2-r06",
         "status": "proposed",
         "lightingNotes": [
           "The existing linear opal-globe chandelier softly lights the six-seat rectangular table. Keep enough adjacent kitchen ambient to show the oven column; all wraparound windows show true night with faint townhome lights. Existing sheer drapes stay in position.",
-          "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          "Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site."
         ]
       },
       "windowTreatment": {
@@ -9368,14 +9787,41 @@
         "title": "Sunroom",
         "floor": "second-floor",
         "version": "MW-W01"
-      }
+      },
+      "lightingHistory": [
+        {
+          "id": "S1-N4-MWA02",
+          "version": "MW-A02",
+          "code": "S1-N4",
+          "index": 32510,
+          "jobId": "cfa341ee-4765-44c5-9202-09d49bb9b3ff",
+          "model": "nano_banana_2_1",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/sunroom-s1-n4-night-32510.png",
+          "sourceCode": "S1",
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s1-day.png",
+          "sourceJobId": "a282a5d0-f69f-4f8c-be4c-71f2a5a29e0e",
+          "label": "Night · Sunroom",
+          "scene": "Privacy / evening mode",
+          "cct": 2700,
+          "circuits": "Dining chandelier / adjacent kitchen ambient",
+          "lighting": "The existing linear opal-globe chandelier softly lights the six-seat rectangular table. Keep enough adjacent kitchen ambient to show the oven column; all wraparound windows show true night with faint townhome lights. Existing sheer drapes stay in position.",
+          "evidenceType": "Night edit of corrected daytime view",
+          "evidence": "Corrected night image retains daytime architecture, camera and furnishings; applicable lower privacy layers now fully closed, high glazing left bare where specified. Illustrative lighting/opacity, field testing required.",
+          "qaNote": "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house.",
+          "status": "proposed",
+          "lightingNotes": [
+            "The existing linear opal-globe chandelier softly lights the six-seat rectangular table. Keep enough adjacent kitchen ambient to show the oven column; all wraparound windows show true night with faint townhome lights. Existing sheer drapes stay in position.",
+            "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          ]
+        }
+      ]
     },
     "stair2": {
       "id": "stair2",
       "floor": "second-floor",
       "title": "Second-floor stair hall",
-      "currentRevision": "mw-neutral-r01",
-      "status": "proposed",
+      "currentRevision": "MW-F2-R06",
+      "status": "Proposed · source-reviewed second-floor revision awaiting homeowner feedback",
       "userApproval": "Homeowner requests original neutral bedrooms and no stair runners; A/C1/E stone selections and existing window-treatment decisions remain. Actual products and measured details remain open.",
       "designIntent": "Exposed natural oak treads, warm white risers and dark handrails. Preserve the corrected curved/fanned flight, intermediate landing, side arch, window pair and stairwell opening; no carpet runner.",
       "sourceEvidence": [
@@ -9586,6 +10032,61 @@
               "Design visualization only. Preserve the source-audited layout; verify actual dimensions, finish samples and product/installation details on site."
             ]
           }
+        },
+        {
+          "id": "MW-F2-R06",
+          "date": "2026-10-10",
+          "status": "visually_reviewed_design_visualization",
+          "reason": "Source-reviewed stair views retain the actual curved stair, landing, open well, guard and adjoining hall openings. Exposed oak treads and warm white risers remain without a runner; no invented floor or closed stairwell replaces the open descent.",
+          "manifest": "docs/floor-two-r06-production.json",
+          "audit": "docs/mineral-walnut-floor-two-audit-r06.json",
+          "changedDayCodes": [
+            "ST1"
+          ],
+          "changedNightSourceCodes": [
+            "ST1"
+          ],
+          "views": [
+            {
+              "id": "ST1-MW-F2-R06",
+              "code": "ST1",
+              "index": 60106,
+              "jobId": "f611ec86-fc80-498d-89df-4d3547a86a9e",
+              "label": "Corrected view · Second-floor stair hall",
+              "file": "assets/render-candidates/mineral-walnut-floor-two/r06/stair2-st1-day-a2.png",
+              "evidenceType": "Photo-based architectural revision",
+              "evidence": "Correct stair geometry/clear descent retained; adjoining furniture now has plain chairs, oval walnut coffee table and C-shaped walnut drink table consistent with GR1.",
+              "qaNote": "Correct stair geometry/clear descent retained; adjoining furniture now has plain chairs, oval walnut coffee table and C-shaped walnut drink table consistent with GR1. Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site.",
+              "model": "nano_banana_2_1",
+              "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/stair2-st1-day.png",
+              "sourceJobId": "80890bdb-99b6-41ae-8546-3a0267e926e9",
+              "revision": "MW-F2-R06",
+              "auditIndex": 60106,
+              "assetRevision": "mw-f2-r06"
+            },
+            {
+              "id": "STAIR2-2-MWT01-MWA02-NR01",
+              "code": "ST2",
+              "index": 45013,
+              "jobId": "f9b55f3a-2233-4502-9c6c-bbdf15d8ba58",
+              "label": "oak stair and curved-tread detail",
+              "file": "assets/render-candidates/mineral-walnut-neutral/r01/stair2-st2-day.png",
+              "evidenceType": "Derived angle · plan and photo interpretation",
+              "evidence": "Exposed natural oak treads, warm white risers and dark handrails. Preserve the corrected curved/fanned flight, intermediate landing, side arch, window pair and stairwell opening; no carpet runner. Design visualization only. Preserve the source-audited layout; verify actual dimensions, finish samples and product/installation details on site.",
+              "qaNote": "Close alternate retains curved/fanned stair and railing; continuous oak tread surfaces and white risers replace the runner.",
+              "model": "nano_banana_2_1",
+              "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/stair2-st2-day-31511.png",
+              "sourceJobId": "fb34ef68-e0cf-47ee-94fd-eb0b6a1e8d75",
+              "revision": "MW-NR01",
+              "auditIndex": 31511
+            }
+          ],
+          "qa": {
+            "status": "visually_reviewed",
+            "limitations": [
+              "Design visualization, not a measured construction elevation. Confirm opening offsets, clearances, product dimensions, services and physical samples on site."
+            ]
+          }
         }
       ],
       "schedule": [
@@ -9725,7 +10226,7 @@
         "Exact finish system/color, products and phased scope.",
         "Measured dimensions, installer quotes and build details."
       ],
-      "handoffStatus": "Current homeowner direction and day/night views coordinated. Obtain measured drawings, product samples and installer quotations before fabrication.",
+      "handoffStatus": "Concept and source review recorded; field measurements, trade coordination and homeowner approval remain before construction.",
       "improvementPlan": {
         "version": "MW-NR01",
         "date": "2026-10-08",
@@ -9736,28 +10237,29 @@
         "verify": "Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site."
       },
       "lightingStudy": {
-        "id": "ST1-NRN-NR01",
-        "version": "MW-NR01",
-        "code": "ST1-NRN",
-        "index": 45102,
-        "jobId": "6b5940a1-c5d2-405e-9451-97a720977c70",
+        "id": "ST1-F206N-MW-F2-R06",
+        "version": "MW-F2-R06",
+        "code": "ST1-F206N",
+        "index": 60406,
+        "jobId": "de3afe15-0330-4da2-b090-25b6b53da65f",
         "model": "nano_banana_2_1",
-        "file": "assets/render-candidates/mineral-walnut-neutral/r01/stair2-night.png",
+        "file": "assets/render-candidates/mineral-walnut-floor-two/r06/stair2-st1-night.png",
         "sourceCode": "ST1",
-        "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/stair2-st1-day.png",
-        "sourceJobId": "6cfaa918-9f68-45b8-af99-6e7592a1647a",
-        "label": "Night · Second-floor stair hall",
+        "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/stair2-st1-day-a2.png",
+        "sourceJobId": "f611ec86-fc80-498d-89df-4d3547a86a9e",
+        "label": "Night · Second-floor stair hall · ST1 camera",
         "scene": "Evening lighting",
         "cct": 2700,
         "circuits": "Circulation general / picture accent",
-        "lighting": "Provide restrained existing ceiling illumination and the existing picture light, making every tread edge and landing legible. The great room through the arch is also at night. No invented glowing tread noses, cove bands or reconstructed stairs.",
-        "evidenceType": "Night edit of corrected daytime view",
-        "evidence": "Night study of the current neutral/bare-stair day view. Exposed natural oak treads, warm white risers and dark handrails. Preserve the corrected curved/fanned flight, intermediate landing, side arch, window pair and stairwell opening; no carpet runner.",
-        "qaNote": "Night matches current bare-stair camera, fan/rail/window geometry and materials; adjoining great-room privacy curtains closed.",
+        "lighting": "Restrained existing ceiling illumination makes bare oak tread edges and landings legible. Through the actual arch, coordinate the great-room furniture and closed lower privacy layers with its selected night view. Preserve stair geometry and bare high glazing; no picture light or new glowing tread/cove strips.",
+        "evidenceType": "Same-camera night edit of exact approved daytime source",
+        "evidence": "Exact bare stair camera/geometry, open descent and matching adjacent furniture retained; bare stair windows dark, great-room lower privacy closed and high transom bare.",
+        "qaNote": "Exact bare stair camera/geometry, open descent and matching adjacent furniture retained; bare stair windows dark, great-room lower privacy closed and high transom bare. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+        "assetRevision": "mw-f2-r06",
         "status": "proposed",
         "lightingNotes": [
-          "Provide restrained existing ceiling illumination and the existing picture light, making every tread edge and landing legible. The great room through the arch is also at night. No invented glowing tread noses, cove bands or reconstructed stairs.",
-          "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
+          "Restrained existing ceiling illumination makes bare oak tread edges and landings legible. Through the actual arch, coordinate the great-room furniture and closed lower privacy layers with its selected night view. Preserve stair geometry and bare high glazing; no picture light or new glowing tread/cove strips.",
+          "Same-camera lighting visualization; verify actual fixture output, dimming and privacy opacity on site."
         ]
       },
       "windowTreatment": {
@@ -9868,6 +10370,33 @@
               "revision": "MW-A02",
               "feedbackReference": "MW-A02"
             }
+          ]
+        }
+      ],
+      "lightingHistory": [
+        {
+          "id": "ST1-NRN-NR01",
+          "version": "MW-NR01",
+          "code": "ST1-NRN",
+          "index": 45102,
+          "jobId": "6b5940a1-c5d2-405e-9451-97a720977c70",
+          "model": "nano_banana_2_1",
+          "file": "assets/render-candidates/mineral-walnut-neutral/r01/stair2-night.png",
+          "sourceCode": "ST1",
+          "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/stair2-st1-day.png",
+          "sourceJobId": "6cfaa918-9f68-45b8-af99-6e7592a1647a",
+          "label": "Night · Second-floor stair hall",
+          "scene": "Evening lighting",
+          "cct": 2700,
+          "circuits": "Circulation general / picture accent",
+          "lighting": "Provide restrained existing ceiling illumination and the existing picture light, making every tread edge and landing legible. The great room through the arch is also at night. No invented glowing tread noses, cove bands or reconstructed stairs.",
+          "evidenceType": "Night edit of corrected daytime view",
+          "evidence": "Night study of the current neutral/bare-stair day view. Exposed natural oak treads, warm white risers and dark handrails. Preserve the corrected curved/fanned flight, intermediate landing, side arch, window pair and stairwell opening; no carpet runner.",
+          "qaNote": "Night matches current bare-stair camera, fan/rail/window geometry and materials; adjoining great-room privacy curtains closed.",
+          "status": "proposed",
+          "lightingNotes": [
+            "Provide restrained existing ceiling illumination and the existing picture light, making every tread edge and landing legible. The great room through the arch is also at night. No invented glowing tread noses, cove bands or reconstructed stairs.",
+            "Same-camera lighting and shade-operation study. Rendered brightness, glare, opacity and color are illustrative; test actual fixtures, fabric and dimming in the house."
           ]
         }
       ]

@@ -1,7 +1,7 @@
 {
   "version": "MW-NR01",
   "date": "2026-10-08",
-  "status": "Prior whole-house audit retained; FB-017 first-floor corrections rendered and visually reviewed. Field measurements, products and omitted-space scope remain open.",
+  "status": "Prior whole-house audit and first-floor revision retained; second-floor source corrections rendered and visually reviewed. Field measurements, products and omitted-space scope remain open.",
   "reviewed": {
     "dayViews": 45,
     "nightViews": 24,
@@ -428,6 +428,13 @@
     "date": "2026-10-10",
     "audit": "docs/mineral-walnut-first-floor-audit-r05.json",
     "production": "docs/first-floor-r05-production.json",
+    "status": "Visually reviewed proposed design; awaiting homeowner feedback"
+  },
+  "secondFloorRevision": {
+    "id": "MW-F2-R06",
+    "date": "2026-10-10",
+    "audit": "docs/mineral-walnut-floor-two-audit-r06.json",
+    "production": "docs/floor-two-r06-production.json",
     "status": "Visually reviewed proposed design; awaiting homeowner feedback"
   }
 }

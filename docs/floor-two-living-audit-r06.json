@@ -1,0 +1,140 @@
+{
+  "version": "MW-F2-LR06",
+  "room": "living",
+  "title": "Living room and piano salon: plan-led reconstruction of the open dining connection",
+  "status": "Architecture audit and edit prompts; no newly generated image is approved by this document",
+  "sources": [
+    {
+      "file": "assets/cf_city_home_with_georgetown_pkg.pdf",
+      "page": 3,
+      "role": "Primary geometry: living/dining adjacency, complete open boundary, two real living windows and north-wall false-window annotation",
+      "confidence": "Direct plan evidence"
+    },
+    {
+      "file": "/tmp/home-708-floor-two-blueprint-living.png",
+      "role": "Fresh full-page raster of PDF page 3 for image conditioning"
+    },
+    {
+      "file": "/tmp/home-708-floor-two-front-detail.png",
+      "role": "Fresh enlarged plan excerpt showing the continuous dining/living floor, window sequence, piano and stair/hall approach"
+    },
+    {
+      "file": "assets/Crown Georgetown Photos/second-floor-formal-dining.jpg.webp",
+      "role": "Adjacent room's actual ceiling/crown and shared east-wall window framing. No dedicated living-room photograph exists; this does not establish a living-room camera.",
+      "confidence": "Direct photo evidence for dining; supporting inference for the adjoining living finish and shared exterior-wall elevation"
+    },
+    {
+      "file": "assets/Crown Georgetown Photos/second-floor-spiral-staircase.jpg.webp",
+      "role": "Confirms the stair/hall open guard, curved stair, and distant arch into the great room. That photographed arch is not the living/dining junction.",
+      "confidence": "Direct adjacent-hall photo evidence, mapped to the plan"
+    },
+    {
+      "file": "assets/Outside Photos/east.jpg",
+      "role": "Actual white-house east elevation with two tall living windows at its northern end and the neighboring dining-window sequence",
+      "confidence": "Direct exterior evidence, mapped to the plan"
+    },
+    {
+      "file": "assets/Outside Photos/east-2.jpg",
+      "role": "Second exterior angle supporting the same east-elevation window sequence"
+    },
+    {
+      "file": "assets/Outside Photos/south-east-corner-front.jpg",
+      "role": "Establishes the front-door/portico on the south facade and the adjoining east facade; confirms the rotated printed-plan compass"
+    }
+  ],
+  "sourceFacts": {
+    "dimensions": {
+      "living": "16 feet 0 inches by 11 feet 4 inches, as labeled on PDF page 3",
+      "dining": "12 feet 11 inches by 15 feet 3 inches, as labeled on PDF page 3",
+      "qualification": "These are builder-plan labels, not a surveyed as-built furniture plan. Do not enlarge either space to fit furnishings."
+    },
+    "printedPlanCompass": {
+      "top": "west / rear",
+      "right": "north",
+      "bottom": "east exterior elevation",
+      "left": "south / front-door-portico facade"
+    },
+    "adjacency": "Living is NORTH of formal dining, and dining is SOUTH of living. Their shared boundary is an imaginary furniture-zone line, not a wall or opening cut through a wall. The printed plan shows no partition, column, arch, door, header, threshold or elevation change at that boundary.",
+    "openBoundary": "Keep the complete adjoining boundary open across the overlapping room depth. The west-side hall/stair approach also flows into the front rooms. The two-story entry void and butler pantry constrain the dining's western side; the stair well constrains the living's northwest approach. Do not replace these relationships with a separate boxed piano room or a grand framed portal.",
+    "westHall": "Living's west/hall edge flows openly beside the stairwell guard. The stair photograph's arch connects farther west to the great room, while the plan also labels a separate dining-to-butler-pantry arch on the dining's west side. Neither arch belongs on the living/dining seam. A tighter LR2 diagonal toward dining avoids inventing unseen distant hall/ceiling details.",
+    "livingWindows": "Exactly TWO real tall narrow windows on the living's EAST exterior wall, printed bottom/right portion. Their positions follow the plan. No floor-to-ceiling slider, third tall living window or wraparound corner glazing.",
+    "northWall": "The printed right/north facade feature is explicitly labeled 'False Window'. It is not an interior opening. Keep this wall solid inside, particularly behind/near the piano. Do not give it drapes, glass, a niche or an exterior view.",
+    "sharedEastElevation": "Two dining tall windows, then a small high arched window near the dining/living junction, then two living tall windows. The high window does not become a third full-height living window. In the original dining photo, the screen-left wall is this east elevation: the small high arched window and two tall rectangular windows with slim rectangular transoms. The screen-right wall is the south facade with two arched-top dining windows.",
+    "livingGlazingType": "Use tall narrow rectangular double-hung windows with light inner trim and a slim rectangular transom treatment consistent with the adjoining east-wall dining windows and actual exterior. Exact unseen interior living trim/sash detail remains inferred; do not claim it is verified by a dedicated room photograph.",
+    "ceiling": "Original adjoining dining photograph has a flat ceiling, perimeter crown and discreet recessed fixtures. Keep one continuous flat plane between living and dining, with no dropped beam, portal header, isolated ceiling box, tray, cove or seam introduced between furniture zones.",
+    "floor": "One continuous natural matte oak floor through both zones, same direction/color/level. Loose rugs can define furniture groups; no threshold, border strip, step or flooring material change at the open boundary."
+  },
+  "currentRenderAudit": [
+    {
+      "code": "LR1",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r02/living-lr1-day-30909.png",
+      "publicFile": "docs/design-review-assets/floor-2-r02-living-mw-neutral-r01-LR1.webp",
+      "verdict": "Reject for room configuration",
+      "finding": "Faces the supposed east window wall while placing dining at screen left and the piano/north wall at screen right. This mirrors the plan. A vertical return/pier at the dining seam falsely implies separated rooms. Window sequence and panel details are not established by source evidence."
+    },
+    {
+      "code": "LR2",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r01/living-lr2-day.png",
+      "publicFile": "docs/design-review-assets/floor-2-r02-living-mw-neutral-r01-LR2.webp",
+      "verdict": "Reject for room configuration",
+      "finding": "Repeats nearly the same frontal window composition instead of a coherent reverse camera; carries the mirrored dining/piano relationship and makes the invented header/drop at the dining junction explicit."
+    },
+    {
+      "code": "LR1-N4",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r01/living-night.png",
+      "verdict": "Reject with structurally rejected daytime source",
+      "finding": "Matching lighting and privacy layers cannot approve the underlying mirrored adjacency and invented room separation. Regenerate only from an approved replacement LR1."
+    },
+    {
+      "code": "LR2-GN01",
+      "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/living-lr2-night.png",
+      "verdict": "Reject with structurally rejected daytime source",
+      "finding": "Regenerate only from an approved replacement LR2; retain that new camera, open dining relationship and exact furniture arrangement."
+    }
+  ],
+  "furniturePlan": {
+    "piano": "Compact baby grand around 5 feet long, in the northwestern living corner beside the solid north wall/stair-side return, as the plan's piano placement indicates. Angle keyboard toward the room/dining; allow a real bench and playing space. Keep it away from direct east-window sun and outside the hall/dining circulation route.",
+    "sofa": "One appropriately scaled ivory RH Cloud-style sofa, approximately 8 to 9 feet wide and standard depth, along the east-window side facing west into the salon. Do not insert a broad sofa-backed barrier across the entire shared dining boundary. No oversized U-shaped media-room arrangement here.",
+    "table": "Compact walnut coffee table and oatmeal loose rug within the seating group. Supporting lounge chair is optional only if a measured furniture plan confirms circulation; do not add it merely to fill the rendering.",
+    "circulation": "Show an obvious uninterrupted walk from the west hall/stair approach into both living and dining and between the piano bench and seating. Target at least about 36 inches for the main furniture circulation route where feasible; this is design intent, not a verified field clearance or code determination. Furniture, lid and bench cannot consume the route.",
+    "finishes": "Original Mineral & Walnut: warm neutral mineral walls, natural oak floor, walnut supporting table, ivory upholstery and sheers, restrained black piano/art/lighting and green plants. No blue/yellow/chrome Option 2 palette."
+  },
+  "correctionPrompts": [
+    {
+      "code": "LR1",
+      "camera": "From west hall/inner edge of the living zone looking east, with a slight southeast turn that makes the directly adjoining dining visible at screen right",
+      "imageRoles": [
+        "Plan raster/detail: primary architecture and adjacency",
+        "Original dining photograph: shared east window proportions and continuous flat ceiling/crown",
+        "Actual east exterior: exterior opening verification",
+        "Current living render: approved furniture/material cues only; do not inherit its mirrored geometry or portal"
+      ],
+      "prompt": "Architecturally correct this image as a PLAN-CONDITIONED IMAGE EDIT of the Mineral & Walnut living/piano salon, using the supplied floor-two blueprint for geometry and adjacent original dining photograph for window/crown details. This is NOT a photographed living-room camera. Room is16ft by11ft4, directly OPEN to dining12ft11 by15ft3. Printed top=WEST,right=NORTH,bottom=EAST,left=SOUTH. Camera is at WEST hall edge looking EAST with a slight southeast turn. Therefore TWO living EAST windows are ahead, NORTH solid piano wall is image LEFT, and directly adjoining SOUTH dining zone is image RIGHT. Do NOT mirror these relationships. Remove every pier, partition, arch, portal, doorway and dropped header at the living/dining seam: show one shared floor and continuous FLAT ceiling with crown only at actual perimeter. No framed opening between these spaces. Exactly two real tall narrow rectangular living windows on east wall, modest original double-hung proportions and slim rectangular transoms consistent with the adjacent dining east elevation; ivory sheers and hidden privacy shades raised. Toward dining on right, preserve the shared east elevation's SMALL HIGH ARCHED window and its two dining tall windows where the crop permits; do not turn that high window into a third tall living window. North wall stays SOLID: its exterior false-window feature has NO interior opening. Compact5ft baby grand near northwest stair-side/north-wall corner at image left, keyboard and bench angled toward room; standard-depth ivory Cloud-style8-9ft sofa along east-window side facing west, compact walnut coffee table, oatmeal rug and restrained plant. Leave an obvious generous clear route from west hall to dining; do not place a sofa barrier across the shared boundary or enlarge the room to fit it. Keep stairs/hall relationship at the real west edge, no invented grand portal. Continuous natural matte oak, warm mineral walls, ivory sheers/upholstery, walnut and black piano, no colored/chrome Option2 accents. Crown townhouse views. Landscape3:2 photoreal interior concept, no people/text/logos. Show the direct unframed dining connection clearly; do not hide it with a tight crop."
+    },
+    {
+      "code": "LR2",
+      "camera": "True opposing diagonal from the northeast/east-window side looking west/southwest across the salon into dining; dining at screen left/forward, north piano wall at screen right, distant hall cropped where unsupported",
+      "imageRoles": [
+        "Approved corrected LR1: exact furniture, finishes and room configuration",
+        "Plan raster/detail: authoritative opposing-camera interpretation",
+        "Original dining photo and actual exterior: architecture verification only, not the LR2 camera"
+      ],
+      "prompt": "Make a TRUE OPPOSING-CAMERA IMAGE EDIT of the newly approved corrected Mineral & Walnut LR1, conditioned by the same floor-two blueprint. Same compact16ft by11ft4 living salon, furniture and directly adjoining dining12ft11 by15ft3. Printed top=WEST,right=NORTH,bottom=EAST,left=SOUTH. Camera now near the NORTHEAST/EAST living-window side looking WEST/SOUTHWEST across the salon into dining. Consequently dining is directly OPEN at image LEFT/forward, solid NORTH piano wall and compact baby grand are image RIGHT. Favor a tighter dining diagonal; crop distant hall details rather than inventing a grand portal. The two east living windows are BEHIND camera: do not rotate them onto the west wall just to show windows. If one window appears at a crop edge, it must belong to the actual east wall. No interior north window: exterior 'False Window' remains a SOLID interior wall. Show the continuous unframed dining connection at left with matching natural oak floor and same flat ceiling/crown; NO portal, pier, partition, arch, doorway, threshold, header/drop or tray dividing living and dining. Preserve original dining-window relationships only where the camera can actually see them: the two arched south dining windows can appear beyond at left/forward; do not invent a window-filled west wall. Use EXACTLY the LR1 compact5ft baby grand in northwest corner, its real bench, ivory standard-depth Cloud-style sofa on east-window side, walnut compact coffee table, oatmeal rug, plant and any approved supporting chair in identical positions. Opposing view may see sofa back in foreground; keep an obvious open route past it from west hall into dining. Piano/bench and sofa cannot block that path or require room expansion. Actual stair/guard features follow the plan if visible. The stair photo's distant great-room arch is NOT a living/dining opening. Warm neutral mineral walls, natural oak, ivory textiles, walnut and black piano; no blue/yellow/pink/purple/chrome scheme. Raised hidden privacy shades and airy ivory sheers only on real exterior windows if visible. Photoreal landscape3:2 concept, no people/text/logos. Establish reverse geometry rather than repeating LR1's frontal windows with a different piano crop."
+    }
+  ],
+  "nightInstructions": "After both replacement daytime angles pass structural QA, image-edit each exact approved day into a same-camera night view. Close light-filtering privacy shades on all real exterior windows visible in that camera, retain open sheers and clear real internal routes, leave the high dining window bare, keep the north false-window wall solid. Use restrained warm general and piano/reading light without adding new ceiling geometry, fixture locations or furniture. Night cannot be used to conceal unapproved daylight geometry.",
+  "qaChecklist": [
+    "LR1 looking east: piano/north LEFT, dining/south RIGHT, two east living windows ahead",
+    "LR2 looking west: dining/south LEFT, piano/north RIGHT, east windows behind camera",
+    "Visible direct full open dining connection with no separating pier, portal or ceiling drop",
+    "Living16ft0 by11ft4 and dining12ft11 by15ft3 proportions remain honest",
+    "Two real tall east living windows; north false window never becomes an interior opening",
+    "Small high arched dining/east junction window is not a third tall living window",
+    "Same flat ceiling and oak floor continue across the seam",
+    "Piano bench/lid and Cloud sofa fit without blocking hall-to-dining circulation",
+    "Both day angles agree on furniture positions and opening configuration",
+    "Each night is a lighting/privacy edit of its exact approved daytime counterpart"
+  ],
+  "questionsRequired": [],
+  "remainingUncertainty": "No dedicated living-room photo or measured as-built survey exists in the provided assets. Exact unseen living transom/trim profiles, west-side ceiling services, piano product dimensions and taped-out furniture clearances remain field-verification items. These do not justify preserving the current clearly incorrect mirrored adjacency or invented partition."
+}

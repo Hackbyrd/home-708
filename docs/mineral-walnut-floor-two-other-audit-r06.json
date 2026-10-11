@@ -1,0 +1,362 @@
+{
+  "version": "MW-F2-R06-OTHER-AUDIT",
+  "date": "2026-10-10",
+  "scope": "Mineral & Walnut only: great room, kitchen, sunroom and second-floor stair hall. Sixteen current images; no regeneration or shared-manifest edits.",
+  "status": "source_audit_complete; K2 single-opening source repair required",
+  "method": "Visually inspected all 16 current files, actual labeled model-home photos and fresh blueprint PDF page 3. Used 1600px JPEG previews and original-resolution detail crops for privacy-shade checks. Current source photographs and plan were read afresh; old render-audit assertions were not adopted automatically. Structural opening failures are distinguished from camera coverage limitations, adjoining-room design inconsistencies and night shade artifacts.",
+  "sources": {
+    "dayManifest": "docs/mineral-walnut-neutral-review.json",
+    "primaryNightManifest": "docs/mineral-walnut-night-review.json",
+    "secondaryNightManifest": "docs/mineral-walnut-night-angles-review.json",
+    "blueprint": "assets/cf_city_home_with_georgetown_pkg.pdf",
+    "blueprintPage": 3,
+    "freshPlanPreview": "/tmp/home-708-floor-two-blueprint-audit.png"
+  },
+  "constraints": [
+    "Do not change selected C1 kitchen porcelain, island waterfall or current Mineral & Walnut finish specification during architecture/shade corrections.",
+    "Photos govern observed opening elevation and primary camera; page 3 governs unseen adjacencies. A small camera shift is not proof of a moved opening.",
+    "Sunroom observed banks are two on short side and three on long side, with separate high transoms. Do not import first-floor two-unit requirements wholesale.",
+    "No runners; retain original curved/fanned quarter-turn staircase and straight upper flight.",
+    "A render matching an earlier incorrect render is not an architecture pass; independent source/plan review confirms K2 added pier and second arch are wrong."
+  ],
+  "summary": {
+    "images": 16,
+    "day": 8,
+    "night": 8,
+    "confirmedStructuralOpeningFailures": 2,
+    "privacyOrShadeRepairViews": [
+      "K1-M1N",
+      "S1-N4"
+    ],
+    "adjoiningRoomDesignRepairViews": [
+      "K1",
+      "K1-M1N",
+      "ST1",
+      "ST1-NRN"
+    ],
+    "cameraCoverageNotes": [
+      "GR2",
+      "GR2-GN02",
+      "S2",
+      "S2-GN02"
+    ],
+    "structuralOpeningRepairViews": [
+      "K2",
+      "K2-GN02"
+    ]
+  },
+  "rooms": [
+    {
+      "dimensions": "15ft1 by 17ft0",
+      "sources": [
+        "assets/Crown Georgetown Photos/second-floor-great-room.jpg.webp"
+      ],
+      "architecture": "The actual photograph establishes one terrace-door opening with two glazed leaves on the adjacent terrace wall, and TWO separate high horizontal three-light windows flanking the central fireplace chase. The plan places fireplace on printed-plan right/east side and terrace access at printed-plan top. Current GR1/GR2 retain those observed openings and the compact room/crown profile.",
+      "issues": [
+        {
+          "kind": "coverage",
+          "severity": "minor",
+          "finding": "GR2 is a modest shifted camera facing the same fireplace/terrace corner, not an opposite-direction room survey. It does not verify the kitchen-side opening or stair-hall arch on the unseen wall.",
+          "correction": "If full enclosure coverage is needed, add a genuine reverse camera derived from page 3; do not relocate observed terrace glass or transoms."
+        }
+      ],
+      "id": "great",
+      "views": [
+        {
+          "code": "GR1",
+          "scene": "day",
+          "sourceCode": null,
+          "jobId": "ab8924ca-bb0c-491a-89b0-18d2cf558af2",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/great-gr1-day.png",
+          "role": "photo_based_primary",
+          "architecture": "pass",
+          "pair": "not_applicable",
+          "result": "pass",
+          "evidence": "Photo-based primary retains two three-light high windows around the fireplace chase and the paired glazed terrace-door opening on the adjacent wall, with original crown/ceiling. Replacement TV/art/furniture do not move the envelope.",
+          "correction": "None required for visible opening placement/counts. Preserve approved Mineral & Walnut scheme."
+        },
+        {
+          "code": "GR2",
+          "scene": "day",
+          "sourceCode": null,
+          "jobId": "2979fbfa-80c5-43de-aead-0b3099ac559a",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/great-gr2-day.png",
+          "role": "derived_companion_angle",
+          "architecture": "pass_visible_envelope",
+          "pair": "not_applicable",
+          "result": "pass_with_coverage_note",
+          "evidence": "Shifted companion camera retains the same terrace opening, two three-light high windows, fireplace chase and same seating/table arrangement. It does not expose the opposite arch/open wall.",
+          "correction": "No visible architecture repair. Label as companion angle; optional true reverse for unseen-wall coverage."
+        },
+        {
+          "code": "GR1-N4",
+          "scene": "night",
+          "sourceCode": "GR1",
+          "jobId": "aa7baa60-6ec3-4d0b-91ae-e316282550f8",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/great-night.png",
+          "role": "same_camera_night",
+          "architecture": "pass",
+          "pair": "pass",
+          "result": "pass",
+          "evidence": "Exact GR1 camera with same transoms/terrace frames, fireplace, chairs, console/art and oval table. Lower terrace privacy layers close; high transoms remain bare and dark.",
+          "correction": "None required for visible architecture or day/night pairing."
+        },
+        {
+          "code": "GR2-GN02",
+          "scene": "night",
+          "sourceCode": "GR2",
+          "jobId": "f4f2e911-4c28-4688-ac38-65d2e3613f82",
+          "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/great-gr2-night.png",
+          "role": "same_camera_night",
+          "architecture": "pass_visible_envelope",
+          "pair": "pass",
+          "result": "pass_with_coverage_note",
+          "evidence": "Exact GR2 camera and same furniture/openings; terrace lower shades close and both high transoms are bare/dark. No new architecture.",
+          "correction": "No night repair. GR2 unseen-wall coverage limitation remains."
+        }
+      ]
+    },
+    {
+      "dimensions": "14ft7 by 18ft7",
+      "sources": [
+        "assets/Crown Georgetown Photos/second-floor-main-kitchen-2.jpg.webp",
+        "assets/Crown Georgetown Photos/second-floor-main-kitchen.jpg.webp",
+        "assets/Crown Georgetown Photos/second-floor-main-kitchen-3.jpg.webp"
+      ],
+      "architecture": "K1 follows the actual seating-side camera: refrigerator is on the short return at camera-left, one counter window appears before the long cooktop/hood run, oven/microwave tower ends that run beside the sunroom, and sink belongs to the island service side. K2 retains the refrigerator on that short return, island sink/DW, cooktop run on camera-right and arched menu/butler corridor beside the refrigerator. Page 3 confirms these appliance adjacencies. Independent source and page-3 review confirms K2 camera-left arch subdivision is wrong: the actual reverse camera has one broad arch, not two door-framed openings.",
+      "issues": [
+        {
+          "kind": "architecture_failure",
+          "severity": "major",
+          "finding": "Independent comparison confirms current K2/K2 night add a mineral-wall pier and second narrow faceted arch around the white powder door. The actual reverse photograph has ONE broad real arch at screen-left, with the powder door and stair guard visible THROUGH that same opening. Page 3 has one great-room/hall arch and an open kitchen side; it does not authorize the invented door framing.",
+          "correction": "Restore the actual second-floor-main-kitchen.jpg.webp reverse-camera crop and ONE broad screen-left arch, including powder door and stair guard visible through the opening. Remove added wall pier and second arch. Retain refrigerator short return, island sink/DW, cooktop aisle, right arched corridor, C1 porcelain, island waterfall and agreed fixtures."
+        },
+        {
+          "kind": "adjoining_room_design",
+          "severity": "moderate",
+          "finding": "K1 and K1 night show a five-globe sunroom chandelier suspended by two rods from a rectangular canopy and wooden-frame chairs. S1/S2 show a six-globe alternating branch chandelier on one stem with a round canopy and upholstered slim-leg chairs.",
+          "correction": "Keep C1 porcelain and kitchen architecture unchanged; make the sunroom glimpsed from K1 match the selected S1/S2 chandelier, six chairs and table."
+        },
+        {
+          "kind": "privacy_operation",
+          "severity": "moderate",
+          "finding": "K1-M1N lower sunroom Roman shades stop above the lower sills, exposing substantial strips of lower glazing despite its description claiming closed privacy layers.",
+          "correction": "Extend only the existing lower-window privacy shades to cover the entire lower opening/sill. Keep the high transoms bare and dark, camera/stone/cabinets/furniture unchanged."
+        }
+      ],
+      "id": "kitchen",
+      "views": [
+        {
+          "code": "K1",
+          "scene": "day",
+          "sourceCode": null,
+          "jobId": "833d14c6-f250-4c62-adf9-9019515b7692",
+          "file": "assets/render-candidates/mineral-walnut-stone/r02/c1-kitchen.png",
+          "role": "photo_based_camera",
+          "architecture": "pass",
+          "pair": "not_applicable",
+          "result": "correct_nonstructural_adjoining_room",
+          "evidence": "Actual main-kitchen-2 camera retained: short-return fridge at far left, one counter window with two columns/two sash rows (upper row partly hidden by roller), long hood/cooktop run, oven tower beside five-bank sunroom, four stool positions and island sink. Count/placement pass. Glimpsed sunroom fixture/chairs do not match S1/S2.",
+          "correction": "Coordinate only adjoining sunroom chandelier/chairs/table with S1/S2. Preserve selected C1 porcelain, island waterfall, warm ivory cabinets, walnut seating side and all kitchen openings/services."
+        },
+        {
+          "code": "K2",
+          "scene": "day",
+          "sourceCode": null,
+          "jobId": "637d252a-44f3-4abb-9a71-dc6f51dd0686",
+          "file": "assets/render-candidates/mineral-walnut-materials/r01/kitchen-k2-day-repair.png",
+          "role": "photo_based_camera",
+          "architecture": "reject_added_pier_and_second_arch",
+          "pair": "not_applicable",
+          "result": "reject_architecture",
+          "evidence": "Appliance adjacencies and island sink/DW match the source, but the actual reverse photograph shows one broad left arch with powder door and stair guard seen through it. Current K2 invents a dividing wall pier and separate narrow faceted door arch. Independent source/plan review confirms failure.",
+          "correction": "Restore the actual second-floor-main-kitchen.jpg.webp reverse-camera crop and ONE broad screen-left arch, including powder door and stair guard visible through the opening. Remove added wall pier and second arch. Retain refrigerator short return, island sink/DW, cooktop aisle, right arched corridor, C1 porcelain, island waterfall and agreed fixtures."
+        },
+        {
+          "code": "K1-M1N",
+          "scene": "night",
+          "sourceCode": "K1",
+          "jobId": "e446437c-c1d2-4ae3-a9e9-49c9663d54f6",
+          "file": "assets/render-candidates/mineral-walnut-materials/r01/kitchen-night.png",
+          "role": "same_camera_night",
+          "architecture": "pass",
+          "pair": "pass_camera_and_furniture",
+          "result": "reject_privacy_operation_and_correct_adjoining_design",
+          "evidence": "Camera/island/appliance/window positions match K1 and C1 is retained. The sunroom lower rollers visibly end above their sills leaving exposed lower glass, and the five-globe/wood-chair sunroom mismatch repeats.",
+          "correction": "Fully close existing lower sunroom rollers to sill without shading high transoms; coordinate sunroom fixture/chairs with S1. Retain kitchen C1 surfaces and geometry."
+        },
+        {
+          "code": "K2-GN02",
+          "scene": "night",
+          "sourceCode": "K2",
+          "jobId": "356c4579-af8a-4426-ad5c-53c68c50529b",
+          "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/kitchen-k2-night.png",
+          "role": "same_camera_night",
+          "architecture": "reject_added_pier_and_second_arch",
+          "pair": "pass",
+          "result": "reject_architecture",
+          "evidence": "Exact night pairing preserves K2 appliance positions and furnishings, but repeats its confirmed invented dividing pier and second left arch. Same-camera consistency does not resolve a wrong daytime envelope.",
+          "correction": "Repair K2 daytime from the actual original reverse-camera source first, then derive exact-camera night. Retain C1, all service locations and privacy operation."
+        }
+      ]
+    },
+    {
+      "dimensions": "12ft3 by 9ft3",
+      "sources": [
+        "assets/Crown Georgetown Photos/second-floor-sun-room.jpg.webp",
+        "assets/Crown Georgetown Photos/second-floor-main-kitchen-2.jpg.webp"
+      ],
+      "architecture": "The labeled original shows two lower window banks on the short side and three lower banks on the long rear side, each with an independent high two-light transom and a lower knee wall. Page 3 confirms the rear/side glazing and single terrace access on the opposite side. S1/S2 retain all five banks, the knee walls, oven tower at kitchen edge and single terrace door at camera-right. The chairs/table are intended replacements, not structural changes.",
+      "issues": [
+        {
+          "kind": "privacy_render_artifact",
+          "severity": "moderate",
+          "finding": "S1-N4 terrace-door privacy shade is malformed: its fabric has a diagonal/wavy free edge and hanging folded tail, exposing glass near the edge/bottom. S2 night correctly depicts an orderly closed door shade.",
+          "correction": "Repair only S1 night door shade as the same fitted functional Roman/privacy layer shown in S2, extended cleanly over the entire door glass while clearing handle/hinges. Keep all five window shades closed, high transoms bare, and architecture/furniture/chandelier fixed."
+        },
+        {
+          "kind": "coverage",
+          "severity": "minor",
+          "finding": "S2 is a closer kitchen-side camera shift rather than a reverse room view. It verifies the same corner and door; the kitchen connection outside the frame is not independently surveyed.",
+          "correction": "Do not call this full reverse coverage. Add a reverse kitchen-facing image only if additional enclosure coverage is required."
+        }
+      ],
+      "id": "sunroom",
+      "views": [
+        {
+          "code": "S1",
+          "scene": "day",
+          "sourceCode": null,
+          "jobId": "a282a5d0-f69f-4f8c-be4c-71f2a5a29e0e",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s1-day.png",
+          "role": "photo_based_primary",
+          "architecture": "pass",
+          "pair": "not_applicable",
+          "result": "pass",
+          "evidence": "Two short-wall and three long-wall lower banks with five separate two-light transoms, knee walls, kitchen-edge oven tower and right terrace door match source/plan. Six-seat rectangular table and six-globe linear branch fixture fit the intended changed furnishings.",
+          "correction": "None for visible architecture. Keep coordinated six-globe fixture and chair selection in kitchen glimpse."
+        },
+        {
+          "code": "S2",
+          "scene": "day",
+          "sourceCode": null,
+          "jobId": "760a7d16-3e4c-45ae-b8db-e8c8bee38057",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s2-day.png",
+          "role": "derived_companion_angle",
+          "architecture": "pass_visible_envelope",
+          "pair": "not_applicable",
+          "result": "pass_with_coverage_note",
+          "evidence": "Closer kitchen-side camera retains all five lower banks/transoms/knee walls and terrace door; same table/chairs/six-globe fixture as S1. A small camera shift is not an opposite-angle enclosure survey.",
+          "correction": "No opening repair. Do not label as fully reverse coverage."
+        },
+        {
+          "code": "S1-N4",
+          "scene": "night",
+          "sourceCode": "S1",
+          "jobId": "cfa341ee-4765-44c5-9202-09d49bb9b3ff",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/sunroom-s1-n4-night-32510.png",
+          "role": "same_camera_night",
+          "architecture": "pass",
+          "pair": "pass_camera_and_furniture",
+          "result": "reject_terrace_door_shade_artifact",
+          "evidence": "Night matches S1 camera, five banks, oven tower, six chairs/table and six-globe fixture. Five lower-window shades close correctly, but close inspection shows the door shade has diagonal/wavy fabric edge and dangling folds exposing part of glazing.",
+          "correction": "Repair only the terrace-door privacy shade to neat full closure, matching S2 door operation. Preserve other shades, transoms, geometry and design."
+        },
+        {
+          "code": "S2-GN02",
+          "scene": "night",
+          "sourceCode": "S2",
+          "jobId": "29817554-f002-4642-97f7-699f769bbbf4",
+          "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/sunroom-s2-night.png",
+          "role": "same_camera_night",
+          "architecture": "pass_visible_envelope",
+          "pair": "pass",
+          "result": "pass_with_coverage_note",
+          "evidence": "Night matches S2 camera/furniture, all five lower banks covered by orderly Roman shades and door shade lowered; high transoms bare/dark. No missing windows or changed door position.",
+          "correction": "None beyond S2 camera-coverage qualification."
+        }
+      ]
+    },
+    {
+      "dimensions": "Plan-defined stair/hall enclosure; no image-derived rise/going dimensions asserted",
+      "sources": [
+        "assets/Crown Georgetown Photos/second-floor-spiral-staircase.jpg.webp"
+      ],
+      "architecture": "The source establishes the curved/fanned quarter-turn stair transitioning to the straight upper flight, central open well/down-stair guard, two tall separate window openings, the great-room arch at camera-left and white hall door beside it. ST1 and the ST2 close camera retain these observed relationships, ceiling soffit and rail/newel profiles. Both retain uncovered oak treads/white risers. The original photograph and plan are authoritative; the visible curved treads are not rejected merely because they are called spiral in a filename.",
+      "issues": [
+        {
+          "kind": "adjoining_room_design",
+          "severity": "moderate",
+          "finding": "Through ST1 arch, the great room still contains original model-home patterned chairs, square ottoman and slatted coffee table. Current GR1/GR2 instead have plain upholstered armchairs and an oval walnut coffee table. ST1 night repeats the original furnishing set and shows a full drawn curtain rather than the coordinated great-room privacy rollers.",
+          "correction": "Retain source-faithful stair, windows, arch, hall door and bare oak. Update ONLY the great-room glimpse through the arch to the current GR1/GR2 furniture/finish/art arrangement; its night glimpse must use the same roller/privacy/sheers operation as the great-room night scene."
+        },
+        {
+          "kind": "measurement_limit",
+          "severity": "informational",
+          "finding": "The photo/plan establish the quarter-turn path and upper straight flight, but neither this frontal image nor the close crop provides a measured riser count or independently proves exact halfway landing elevation.",
+          "correction": "Retain observed source geometry. Verify landing level, rise/going and guards against site measurements before construction; no speculative stair rebuild is authorized."
+        }
+      ],
+      "id": "stair2",
+      "views": [
+        {
+          "code": "ST1",
+          "scene": "day",
+          "sourceCode": null,
+          "jobId": "6cfaa918-9f68-45b8-af99-6e7592a1647a",
+          "file": "assets/render-candidates/mineral-walnut-neutral/r01/stair2-st1-day.png",
+          "role": "photo_based_primary",
+          "architecture": "pass",
+          "pair": "not_applicable",
+          "result": "correct_nonstructural_adjoining_room",
+          "evidence": "Photo-based stair retains fan/quarter-turn, upper straight flight, two tall windows, down-well railing, left arch, white hall door and soffit. Through arch, great-room contents still match old model-home furniture rather than current GR1/GR2.",
+          "correction": "Correct only adjoining great-room glimpse. Keep staircase, windows, arch, door, rail and uncovered oak exactly."
+        },
+        {
+          "code": "ST2",
+          "scene": "day",
+          "sourceCode": null,
+          "jobId": "f9b55f3a-2233-4502-9c6c-bbdf15d8ba58",
+          "file": "assets/render-candidates/mineral-walnut-neutral/r01/stair2-st2-day.png",
+          "role": "derived_companion_angle",
+          "architecture": "pass_visible_envelope",
+          "pair": "not_applicable",
+          "result": "pass",
+          "evidence": "Close camera retains the same fanned stair, newels, down-well guard, hall door and window positions where visible. Crop omits most adjacent room and part of the windows; it is a detail view, not reverse evidence.",
+          "correction": "No observed architecture correction. Preserve source geometry and bare treads."
+        },
+        {
+          "code": "ST1-NRN",
+          "scene": "night",
+          "sourceCode": "ST1",
+          "jobId": "6b5940a1-c5d2-405e-9451-97a720977c70",
+          "file": "assets/render-candidates/mineral-walnut-neutral/r01/stair2-night.png",
+          "role": "same_camera_night",
+          "architecture": "pass",
+          "pair": "pass_camera_and_stair",
+          "result": "correct_nonstructural_adjoining_room",
+          "evidence": "Exact ST1 stair/window/arch/hall-door camera and bare-tread geometry match day. The arch shows old patterned chairs/square ottoman/slatted table and full drawn curtain, inconsistent with current great-room night design and shade operation.",
+          "correction": "Update only visible great-room furniture/table and privacy operation to GR1 night. Stair/rail geometry and practical circulation light remain."
+        },
+        {
+          "code": "ST2-GN01",
+          "scene": "night",
+          "sourceCode": "ST2",
+          "jobId": "6874d8b1-2a65-41b8-9846-a1eff9c13c58",
+          "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/stair2-st2-night.png",
+          "role": "same_camera_night",
+          "architecture": "pass_visible_envelope",
+          "pair": "pass",
+          "result": "pass",
+          "evidence": "Exact ST2 close camera preserves tread fan, rails/newels, window frames and hall door; only night light/exterior changes. No runner or new opening introduced.",
+          "correction": "No observed correction; verify actual stair measurements before any construction."
+        }
+      ]
+    }
+  ],
+  "confirmedReview": {
+    "topic": "K2 single screen-left opening",
+    "status": "independent_source_plan_review_confirmed",
+    "finding": "Root independently reviewed actual reverse kitchen photograph and page 3; original one broad opening cannot be divided into two arches."
+  }
+}
