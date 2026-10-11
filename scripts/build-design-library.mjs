@@ -34,6 +34,14 @@ await fs.writeFile(path.join(docs, 'renders.html'), shell('Designs', `<main id="
 const resourceCard = ({ href, title, description, eyebrow }) => `<a class="resource-card" href="${esc(href)}">${eyebrow ? `<span class="eyebrow">${esc(eyebrow)}</span>` : ''}<span class="resource-title">${esc(title)} <span aria-hidden="true">→</span></span><span class="resource-description">${esc(description)}</span></a>`;
 const resourceGroup = (id, title, description, resources) => `<section class="resource-section" aria-labelledby="${esc(id)}"><div class="resource-heading"><h2 id="${esc(id)}">${esc(title)}</h2>${description ? `<p>${esc(description)}</p>` : ''}</div><div class="resource-grid resource-grid-${resources.length}">${resources.map(resourceCard).join('')}</div></section>`;
 const flagshipRoomIds = ['entry', 'great', 'ownerbed', 'loft'];
+const mineralMosaicRoomIds = [
+  ['entry', 'office', 'media', 'gym'],
+  ['great', 'kitchen', 'dining', 'living'],
+  ['ownerbed', 'ownerbath', 'bed2', 'bed3'],
+  ['loft', 'bed5', 'bath4', 'terrace'],
+];
+const mosaicRoomLabels = { gym: 'Gym', dining: 'Dining room', living: 'Living room', ownerbed: 'Owners bedroom', bed5: 'Guest bedroom' };
+const mosaicImageSizes = '(max-width: 680px) calc((100vw - 41px) / 2), (max-width: 1000px) calc((100vw - 86px) / 4), (max-width: 1480px) calc((100vw - 130px) / 4), 338px';
 // Saved galleries contain the approved public media paths. Their original
 // generation manifests are local working files and are unavailable in CI.
 async function optionFloorCards(option) {
@@ -46,7 +54,15 @@ async function optionFloorCards(option) {
     const room = floor.rooms.find(room => room.id === flagshipRoomIds[floor.number - 1]);
     const view = room?.views[0];
     if (!view?.src) throw new Error(`Missing floor ${floor.number} flagship in ${galleryFile}`);
-    return `<a class="floor-card" href="${esc(galleryFile)}#floor-${floor.number}" aria-label="Explore floor ${floor.number} · ${esc(floor.title)}"><span class="floor-card-image"><img src="${esc(view.src)}" alt="${esc(option.name)} — ${esc(room.title)}" width="1500" height="1000" loading="lazy" decoding="async"><span class="floor-card-room">${esc(room.title)}</span></span><span class="floor-card-copy"><span><span class="floor-card-number">Floor ${floor.number}</span><span class="floor-card-title">${esc(floor.title)}</span></span><span class="floor-card-arrow" aria-hidden="true">→</span></span></a>`;
+    const image = option.id === 'mineral-walnut' ? `<span class="floor-card-image floor-card-mosaic">${mineralMosaicRoomIds[floor.number - 1].map(id => {
+      const mosaicRoom = floor.rooms.find(room => room.id === id);
+      const mosaicView = mosaicRoom?.views[0];
+      if (!mosaicView?.src) throw new Error(`Missing floor ${floor.number} mosaic room ${id} in ${galleryFile}`);
+      const label = mosaicRoomLabels[id] || mosaicRoom.title;
+      const responsiveSource = mosaicView.thumb ? ` srcset="${esc(mosaicView.thumb)} 520w, ${esc(mosaicView.src)} 2000w" sizes="${esc(mosaicImageSizes)}"` : '';
+      return `<span class="floor-card-tile" data-room="${esc(id)}"><img src="${esc(mosaicView.thumb || mosaicView.src)}"${responsiveSource} alt="${esc(option.name)} — ${esc(label)}" width="1500" height="1000" loading="lazy" decoding="async"><span class="floor-card-tile-label">${esc(label)}</span></span>`;
+    }).join('')}</span>` : `<span class="floor-card-image"><img src="${esc(view.src)}" alt="${esc(option.name)} — ${esc(room.title)}" width="1500" height="1000" loading="lazy" decoding="async"><span class="floor-card-room">${esc(room.title)}</span></span>`;
+    return `<a class="floor-card" href="${esc(galleryFile)}#floor-${floor.number}" aria-label="Explore floor ${floor.number} · ${esc(floor.title)}">${image}<span class="floor-card-copy"><span><span class="floor-card-number">Floor ${floor.number}</span><span class="floor-card-title">${esc(floor.title)}</span></span><span class="floor-card-arrow" aria-hidden="true">→</span></span></a>`;
   }).join('')}</div></section>`;
 }
 const hubBody = (option, content) => `<main id="main" class="option-hub"><nav class="option-breadcrumb" aria-label="Breadcrumb"><a href="renders.html">Designs</a><span aria-hidden="true">/</span><span aria-current="page">${esc(option.label)} · ${esc(option.name)}</span></nav><section class="option-hero"><div><p class="eyebrow">${esc(option.label)} · Whole-house design</p><h1>${esc(option.name)}</h1><p class="option-subtitle">${esc(option.subtitle)}</p><p class="option-summary">${esc(option.summary)}</p>${swatches(option)}<a class="action" href="${esc(option.href)}">View room renders <span aria-hidden="true">→</span></a><p class="hub-help">All four floors, alternate angles and room-by-room design notes.</p></div><a class="option-hero-image" href="${esc(option.href)}" aria-label="View ${esc(option.name)} room renders"><img src="${esc(option.hero)}" alt="${esc(option.name)} — ${esc(option.heroRoom || 'great room')}" width="1500" height="1000"><span>Room renders <span aria-hidden="true">→</span></span></a></section>${content}</main>`;
