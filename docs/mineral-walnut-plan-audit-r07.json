@@ -1,0 +1,1296 @@
+{
+  "schemaVersion": 1,
+  "revision": "MW-PLAN-R07",
+  "date": "2026-10-10",
+  "option": "Mineral & Walnut — Option1 only",
+  "baselineCommit": "b19ba179d2f10179617bb11ed3f0ac2e66477aac",
+  "status": "Completed source/plan image audit; selected corrections visually reviewed, proposed for homeowner feedback",
+  "sources": [
+    "assets/cf_city_home_with_georgetown_pkg.pdf",
+    "assets/Crown Georgetown Photos/"
+  ],
+  "orientation": "Printed top=WEST,right=NORTH,bottom=EAST,left=SOUTH",
+  "companionAudits": [
+    "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+    "docs/mineral-walnut-floor-three-other-audit-r07.json",
+    "docs/mineral-walnut-floor-four-audit-r07.json",
+    "docs/mineral-walnut-r07-other-final-qa.json"
+  ],
+  "scope": {
+    "inspectedImages": 54,
+    "floor2DiningLiving": 8,
+    "floor3": 32,
+    "floor4": 14
+  },
+  "summary": {
+    "replacedImages": 31,
+    "retainedImages": 23,
+    "selectedDays": 14,
+    "selectedNights": 17
+  },
+  "questions": [
+    {
+      "topic": "Shared-bath wet-compartment toilet-side window",
+      "status": "awaiting_homeowner_or_asbuilt_confirmation"
+    },
+    {
+      "topic": "Actual exterior spiral and terrace fireplace",
+      "status": "unconfirmed_model_precedent"
+    }
+  ],
+  "images": [
+    {
+      "room": "dining",
+      "dayCode": "D1",
+      "scene": "day",
+      "baseline": {
+        "code": "D1",
+        "jobId": "02dd9a05-daf6-4524-8ebe-f6df717d6e90",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/dining-d1-day-30508.png"
+      },
+      "baselineDisposition": "replace_to_follow_blueprint_furniture",
+      "findings": [
+        "Printed plan top=WEST, right=NORTH, bottom=EAST, left=SOUTH. Nominal 12 ft11 in×15 ft3 in; actual measured offsets govern.",
+        "EAST facade retains TWO tall rectangular windows with shallow transoms and ONE smaller high-sill arch at the living junction; SOUTH facade retains TWO tall arched windows. Do not make five identical windows.",
+        "WEST sideboard/art wall backs entry Open To Below; real butler-pantry arched passage remains toward SOUTH end. Do not turn it into a decorative niche.",
+        "NORTH boundary is fully OPEN to living, with continuous oak floor and flat ceiling; no pier, jamb, framed portal, arch or dropped header.",
+        "Furniture follows blueprint: rectangular table long axis SOUTH–NORTH, EIGHT daily chairs three+three+one+one; TWO separate occasional chairs at EAST corners angled toward table. Occasional chairs are not two extra simultaneous dining seats.",
+        "Shared east facade is one straight plane with two dining rectangles, ONE high small arch and two living rectangles. Sibling camera must preserve exact relative sequence and inventory.",
+        "Natural oak, walnut, mineral ivory, loose oatmeal rug, restrained black and plants only. Fully close tall-window privacy at night; high small arch stays bare subject to actual sightlines.",
+        "Template actual furniture and pullback before ordering. Current rendering does not establish a ten/twelve-person permanent fit or final table dimensions."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 71002,
+        "jobId": "0eb43588-a98d-4195-9820-fdb6d859d824",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/dining-d1-day.png",
+        "sourceJobId": "02dd9a05-daf6-4524-8ebe-f6df717d6e90",
+        "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/dining-d1-day-30508.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Targeted image repair visually passed; exact openings, camera and neutral finishes retained."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "dining",
+      "dayCode": "D1",
+      "scene": "night",
+      "baseline": {
+        "code": "D1-F206N",
+        "jobId": "a7802979-8dc6-45cf-976e-96a8cf3df118",
+        "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d1-night.png"
+      },
+      "baselineDisposition": "replace_to_follow_blueprint_furniture",
+      "findings": [
+        "Printed plan top=WEST, right=NORTH, bottom=EAST, left=SOUTH. Nominal 12 ft11 in×15 ft3 in; actual measured offsets govern.",
+        "EAST facade retains TWO tall rectangular windows with shallow transoms and ONE smaller high-sill arch at the living junction; SOUTH facade retains TWO tall arched windows. Do not make five identical windows.",
+        "WEST sideboard/art wall backs entry Open To Below; real butler-pantry arched passage remains toward SOUTH end. Do not turn it into a decorative niche.",
+        "NORTH boundary is fully OPEN to living, with continuous oak floor and flat ceiling; no pier, jamb, framed portal, arch or dropped header.",
+        "Furniture follows blueprint: rectangular table long axis SOUTH–NORTH, EIGHT daily chairs three+three+one+one; TWO separate occasional chairs at EAST corners angled toward table. Occasional chairs are not two extra simultaneous dining seats.",
+        "Shared east facade is one straight plane with two dining rectangles, ONE high small arch and two living rectangles. Sibling camera must preserve exact relative sequence and inventory.",
+        "Natural oak, walnut, mineral ivory, loose oatmeal rug, restrained black and plants only. Fully close tall-window privacy at night; high small arch stays bare subject to actual sightlines.",
+        "Template actual furniture and pullback before ordering. Current rendering does not establish a ten/twelve-person permanent fit or final table dimensions."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 75001,
+        "jobId": "5a2c6109-7a01-464d-ad76-08464c092820",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/dining-d1-night.png",
+        "sourceJobId": "0eb43588-a98d-4195-9820-fdb6d859d824",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/dining-d1-day.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Source and plan topology preserved in same-camera edit."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "dining",
+      "dayCode": "D2",
+      "scene": "day",
+      "baseline": {
+        "code": "D2",
+        "jobId": "dfb85043-45f6-49b0-89c3-e87e4ddf6344",
+        "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-day-a3.png"
+      },
+      "baselineDisposition": "replace_to_follow_blueprint_furniture",
+      "findings": [
+        "Printed plan top=WEST, right=NORTH, bottom=EAST, left=SOUTH. Nominal 12 ft11 in×15 ft3 in; actual measured offsets govern.",
+        "EAST facade retains TWO tall rectangular windows with shallow transoms and ONE smaller high-sill arch at the living junction; SOUTH facade retains TWO tall arched windows. Do not make five identical windows.",
+        "WEST sideboard/art wall backs entry Open To Below; real butler-pantry arched passage remains toward SOUTH end. Do not turn it into a decorative niche.",
+        "NORTH boundary is fully OPEN to living, with continuous oak floor and flat ceiling; no pier, jamb, framed portal, arch or dropped header.",
+        "Furniture follows blueprint: rectangular table long axis SOUTH–NORTH, EIGHT daily chairs three+three+one+one; TWO separate occasional chairs at EAST corners angled toward table. Occasional chairs are not two extra simultaneous dining seats.",
+        "Shared east facade is one straight plane with two dining rectangles, ONE high small arch and two living rectangles. Sibling camera must preserve exact relative sequence and inventory.",
+        "Natural oak, walnut, mineral ivory, loose oatmeal rug, restrained black and plants only. Fully close tall-window privacy at night; high small arch stays bare subject to actual sightlines.",
+        "Template actual furniture and pullback before ordering. Current rendering does not establish a ten/twelve-person permanent fit or final table dimensions."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 71104,
+        "jobId": "35d3b468-fad4-41a9-abd8-6d0ff9ef1d67",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/dining-d2-day-a2.png",
+        "sourceJobId": "0eb43588-a98d-4195-9820-fdb6d859d824",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/dining-d1-day.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "SW dining camera: near-to-far east facade shows dining two rectangles, high small arch, salon two rectangles on one plane; eight table chairs and two dining corner chairs; only two separate L sofas beyond with short sofa back to dining; NW piano/SE keyboard. No new seam partition. Plan-led interpretive visualization."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "dining",
+      "dayCode": "D2",
+      "scene": "night",
+      "baseline": {
+        "code": "D2-F206N",
+        "jobId": "b91ac4c4-68ab-4779-a6d4-9838554d6e49",
+        "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-night-a3.png"
+      },
+      "baselineDisposition": "replace_to_follow_blueprint_furniture",
+      "findings": [
+        "Printed plan top=WEST, right=NORTH, bottom=EAST, left=SOUTH. Nominal 12 ft11 in×15 ft3 in; actual measured offsets govern.",
+        "EAST facade retains TWO tall rectangular windows with shallow transoms and ONE smaller high-sill arch at the living junction; SOUTH facade retains TWO tall arched windows. Do not make five identical windows.",
+        "WEST sideboard/art wall backs entry Open To Below; real butler-pantry arched passage remains toward SOUTH end. Do not turn it into a decorative niche.",
+        "NORTH boundary is fully OPEN to living, with continuous oak floor and flat ceiling; no pier, jamb, framed portal, arch or dropped header.",
+        "Furniture follows blueprint: rectangular table long axis SOUTH–NORTH, EIGHT daily chairs three+three+one+one; TWO separate occasional chairs at EAST corners angled toward table. Occasional chairs are not two extra simultaneous dining seats.",
+        "Shared east facade is one straight plane with two dining rectangles, ONE high small arch and two living rectangles. Sibling camera must preserve exact relative sequence and inventory.",
+        "Natural oak, walnut, mineral ivory, loose oatmeal rug, restrained black and plants only. Fully close tall-window privacy at night; high small arch stays bare subject to actual sightlines.",
+        "Template actual furniture and pullback before ordering. Current rendering does not establish a ten/twelve-person permanent fit or final table dimensions."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 71108,
+        "jobId": "f2df3b51-90c8-401c-9dc3-d04398acda3e",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/dining-d2-night.png",
+        "sourceJobId": "35d3b468-fad4-41a9-abd8-6d0ff9ef1d67",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/dining-d2-day-a2.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Exact selected D2 71104 camera/furniture/architecture; four tall east lower windows fully opaque, high small arch bare, useful layered light. Eight table places, two dining corner chairs and two L sofas retained. Interpretive visualization."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "living",
+      "dayCode": "LR1",
+      "scene": "day",
+      "baseline": {
+        "code": "LR1",
+        "jobId": "24744de7-867c-4eff-a4d3-fabfe106742a",
+        "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-day-a2.png"
+      },
+      "baselineDisposition": "replace_to_follow_blueprint_furniture",
+      "findings": [
+        "No dedicated original living-room photograph: use blueprint furniture layout and adjacent dining/stair/photo facade context. Nominal16 ft×11 ft4 in; unseen elevations remain plan-led.",
+        "Printed bottom=EAST with TWO real tall salon windows; printed right=NORTH is SOLID inside behind exterior False Window. Printed left=SOUTH directly OPEN to dining; printed top=WEST is hall/stair side.",
+        "TWO SEPARATE sofas form L: long sofa at EAST facade facing WEST; shorter sofa along SOUTH dining edge faces NORTH and has back toward dining. Not a sectional, opposing pair or sofa-plus-chair.",
+        "Rectangular walnut coffee table long axis EAST–WEST; end table at each end of east-wall sofa. No additional salon lounge chair.",
+        "Compact grand at NORTHWEST stair-side corner, curved tail NORTHWEST; straight keyboard and bench SOUTHEAST into room. Player faces NORTHWEST, not toward windows. Bench may be occluded behind piano in west-facing-east camera.",
+        "Dining/living seam remains entirely open; no doorway, framing, arch, pier or ceiling drop. Keep hall-to-dining route and piano bench withdrawal clear.",
+        "Shared EAST facade remains one plane: two dining rectangles/transoms, ONE small high arch, then two living rectangles/transoms. Do not duplicate the arch or introduce interior north glazing.",
+        "Every night uses exact selected day with same sofas, piano orientation, room openings and finishes. Actual piano/furniture size, lid, delivery route, curtains and clearances must be measured together."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 71100,
+        "jobId": "3a55de2b-6016-4cb2-90e3-585e18b7e881",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a6.png",
+        "sourceJobId": "c841ad50-94bd-4d79-b5a3-81a06b09e137",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a5.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Curved piano tail foreground, keyboard/bench far-right southeast naturally occluded. Camera, five east openings, solid north and two L sofas preserved. Interpretive plan-led image QA, not a construction measurement or homeowner approval."
+      },
+      "limitations": "No dedicated original salon photograph; blueprint-led camera and furniture."
+    },
+    {
+      "room": "living",
+      "dayCode": "LR1",
+      "scene": "night",
+      "baseline": {
+        "code": "LR1-F206N",
+        "jobId": "41d3adbe-5f95-4422-bd27-ed10d50b4337",
+        "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr1-night.png"
+      },
+      "baselineDisposition": "replace_to_follow_blueprint_furniture",
+      "findings": [
+        "No dedicated original living-room photograph: use blueprint furniture layout and adjacent dining/stair/photo facade context. Nominal16 ft×11 ft4 in; unseen elevations remain plan-led.",
+        "Printed bottom=EAST with TWO real tall salon windows; printed right=NORTH is SOLID inside behind exterior False Window. Printed left=SOUTH directly OPEN to dining; printed top=WEST is hall/stair side.",
+        "TWO SEPARATE sofas form L: long sofa at EAST facade facing WEST; shorter sofa along SOUTH dining edge faces NORTH and has back toward dining. Not a sectional, opposing pair or sofa-plus-chair.",
+        "Rectangular walnut coffee table long axis EAST–WEST; end table at each end of east-wall sofa. No additional salon lounge chair.",
+        "Compact grand at NORTHWEST stair-side corner, curved tail NORTHWEST; straight keyboard and bench SOUTHEAST into room. Player faces NORTHWEST, not toward windows. Bench may be occluded behind piano in west-facing-east camera.",
+        "Dining/living seam remains entirely open; no doorway, framing, arch, pier or ceiling drop. Keep hall-to-dining route and piano bench withdrawal clear.",
+        "Shared EAST facade remains one plane: two dining rectangles/transoms, ONE small high arch, then two living rectangles/transoms. Do not duplicate the arch or introduce interior north glazing.",
+        "Every night uses exact selected day with same sofas, piano orientation, room openings and finishes. Actual piano/furniture size, lid, delivery route, curtains and clearances must be measured together."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 71106,
+        "jobId": "eb299664-484d-4b4b-9aef-aed71841a131",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-night-a2.png",
+        "sourceJobId": "3a55de2b-6016-4cb2-90e3-585e18b7e881",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a6.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Exact LR1 a6 day camera/furniture/architecture; all four tall lower windows fully opaque, high small arch bare, useful layered light. Interpretive image QA, not tested installation."
+      },
+      "limitations": "No dedicated original salon photograph; blueprint-led camera and furniture."
+    },
+    {
+      "room": "living",
+      "dayCode": "LR2",
+      "scene": "day",
+      "baseline": {
+        "code": "LR2",
+        "jobId": "0bf34c47-f34d-40b0-ac61-96d256502ef5",
+        "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-day-a2.png"
+      },
+      "baselineDisposition": "replace_to_follow_blueprint_furniture",
+      "findings": [
+        "No dedicated original living-room photograph: use blueprint furniture layout and adjacent dining/stair/photo facade context. Nominal16 ft×11 ft4 in; unseen elevations remain plan-led.",
+        "Printed bottom=EAST with TWO real tall salon windows; printed right=NORTH is SOLID inside behind exterior False Window. Printed left=SOUTH directly OPEN to dining; printed top=WEST is hall/stair side.",
+        "TWO SEPARATE sofas form L: long sofa at EAST facade facing WEST; shorter sofa along SOUTH dining edge faces NORTH and has back toward dining. Not a sectional, opposing pair or sofa-plus-chair.",
+        "Rectangular walnut coffee table long axis EAST–WEST; end table at each end of east-wall sofa. No additional salon lounge chair.",
+        "Compact grand at NORTHWEST stair-side corner, curved tail NORTHWEST; straight keyboard and bench SOUTHEAST into room. Player faces NORTHWEST, not toward windows. Bench may be occluded behind piano in west-facing-east camera.",
+        "Dining/living seam remains entirely open; no doorway, framing, arch, pier or ceiling drop. Keep hall-to-dining route and piano bench withdrawal clear.",
+        "Shared EAST facade remains one plane: two dining rectangles/transoms, ONE small high arch, then two living rectangles/transoms. Do not duplicate the arch or introduce interior north glazing.",
+        "Every night uses exact selected day with same sofas, piano orientation, room openings and finishes. Actual piano/furniture size, lid, delivery route, curtains and clearances must be measured together."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 71105,
+        "jobId": "6f4ede0f-51f4-4254-b1ad-36e287781ecc",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/living-lr2-day-a2.png",
+        "sourceJobId": "db7583c0-0b68-446d-b54f-d56269613177",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/living-lr2-day.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Reverse camera and blueprint furniture topology retained. Adjacent great-room glimpse now matches current plain upholstery/ivory window treatments. Eight-seat inventory partly occluded; no count inference from crop."
+      },
+      "limitations": "No dedicated original salon photograph; blueprint-led camera and furniture."
+    },
+    {
+      "room": "living",
+      "dayCode": "LR2",
+      "scene": "night",
+      "baseline": {
+        "code": "LR2-F206N",
+        "jobId": "b34ed580-91d2-4f62-98d1-5958d1f2e23e",
+        "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-night.png"
+      },
+      "baselineDisposition": "replace_to_follow_blueprint_furniture",
+      "findings": [
+        "No dedicated original living-room photograph: use blueprint furniture layout and adjacent dining/stair/photo facade context. Nominal16 ft×11 ft4 in; unseen elevations remain plan-led.",
+        "Printed bottom=EAST with TWO real tall salon windows; printed right=NORTH is SOLID inside behind exterior False Window. Printed left=SOUTH directly OPEN to dining; printed top=WEST is hall/stair side.",
+        "TWO SEPARATE sofas form L: long sofa at EAST facade facing WEST; shorter sofa along SOUTH dining edge faces NORTH and has back toward dining. Not a sectional, opposing pair or sofa-plus-chair.",
+        "Rectangular walnut coffee table long axis EAST–WEST; end table at each end of east-wall sofa. No additional salon lounge chair.",
+        "Compact grand at NORTHWEST stair-side corner, curved tail NORTHWEST; straight keyboard and bench SOUTHEAST into room. Player faces NORTHWEST, not toward windows. Bench may be occluded behind piano in west-facing-east camera.",
+        "Dining/living seam remains entirely open; no doorway, framing, arch, pier or ceiling drop. Keep hall-to-dining route and piano bench withdrawal clear.",
+        "Shared EAST facade remains one plane: two dining rectangles/transoms, ONE small high arch, then two living rectangles/transoms. Do not duplicate the arch or introduce interior north glazing.",
+        "Every night uses exact selected day with same sofas, piano orientation, room openings and finishes. Actual piano/furniture size, lid, delivery route, curtains and clearances must be measured together."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 71107,
+        "jobId": "cfdca7f5-3946-4a5d-8b8a-a9c5e32f1b7a",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/living-lr2-night.png",
+        "sourceJobId": "6f4ede0f-51f4-4254-b1ad-36e287781ecc",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/living-lr2-day-a2.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Exact LR2 71105 day geometry/furniture/camera. Bare high stair glazing, full opaque right-edge tall window, useful layered night light and corrected current great-room glimpse. Interpretive visualization, not a measured elevation."
+      },
+      "limitations": "No dedicated original salon photograph; blueprint-led camera and furniture."
+    },
+    {
+      "room": "ownerbed",
+      "dayCode": "OB1",
+      "scene": "day",
+      "baseline": {
+        "code": "OB1",
+        "jobId": "c19dd8f4-ec7c-40fc-aafe-d8873b920890",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/ownerbed-ob1-day-30512.png"
+      },
+      "baselineDisposition": "repair_architecture_retain_finish",
+      "findings": [
+        "Four-unit rear bank, right-hand headwall, oak/loose rug, neutral art and TV/soundbar direction are broadly consistent with the requested scheme.",
+        "A NEW rectangular doorway appears on the left/south wall between the TV/dresser and rear/west window bank. The original bedroom photo has no opening there; plan places bath/closet arched access farther EAST toward the vestibule.",
+        "This generated aperture must not be treated as source architecture or a proposed new door."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 73001,
+        "jobId": "a3281582-593d-4d2d-8f9a-f7b0b001d75b",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob1-day.png",
+        "sourceJobId": "c19dd8f4-ec7c-40fc-aafe-d8873b920890",
+        "sourceFile": "assets/Crown Georgetown Photos/third-floor-master-bedroom.jpg.webp",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Four west sash units retained at original camera; invented rectangle between left TV/dresser and window bank removed. Solid headwall, canonical neutral platform/bench/art/bedside drawers, oak/rug and layered curtains retained. True access lies outside source crop."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "ownerbed",
+      "dayCode": "OB1",
+      "scene": "night",
+      "baseline": {
+        "code": "OB1-N4",
+        "jobId": "48262f4b-846a-4540-97b3-91005db968eb",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/ownerbed-night.png"
+      },
+      "baselineDisposition": "regenerate_after_day_geometry_repair",
+      "findings": [
+        "Night retains the incorrect day doorway; blanket, artwork, bed and main furniture broadly stay stable.",
+        "Rear blackout layer is fully closed, with no visible daylight through that bank.",
+        "Underside illumination extends to the window dresser and tall TV dresser as well as bed; these extra illuminated furniture bases are not established by the approved bed/bedside LED specification."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 73008,
+        "jobId": "2978c793-c5b9-4e9c-88f4-18cb5a5c2a9b",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob1-night.png",
+        "sourceJobId": "a3281582-593d-4d2d-8f9a-f7b0b001d75b",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob1-day.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Exact selected OB1 camera, art/furniture/openings maintained; blackout drapes fully closed across rear four-unit bank, TV off. Functional restrained warm reading, ceiling and low platform lighting. No added aperture/drawer."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "ownerbed",
+      "dayCode": "OB2",
+      "scene": "day",
+      "baseline": {
+        "code": "OB2",
+        "jobId": "d4926788-e3f8-48cb-b8ad-9431cdd5ab5e",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/ownerbed-ob2-day.png"
+      },
+      "baselineDisposition": "replace_duplicate_camera_and_wrong_aperture",
+      "findings": [
+        "OB2 is essentially the OB1 camera with a minor framing shift, not a meaningful alternate view.",
+        "It repeats the same invented rectangular west-end aperture, so its derived-angle label overstates the demonstrated plan coverage."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 73007,
+        "jobId": "d868013a-e77f-4625-807f-c648a53ce90d",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob2-day.png",
+        "sourceJobId": "a3281582-593d-4d2d-8f9a-f7b0b001d75b",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob1-day.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Genuinely reverse camera near west bank toward east, headwall/bed left and TV/dresser right. Paired east doors with transom correctly offset toward south; real south arch near east/vestibule. Canonical bed/art/consoles/floor/rug retained. Window bank behind camera rather than invented ahead."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "ownerbed",
+      "dayCode": "OB2",
+      "scene": "night",
+      "baseline": {
+        "code": "OB2-GN02",
+        "jobId": "218b2562-fd27-49f3-9a47-2436d1127a40",
+        "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/ownerbed-ob2-night.png"
+      },
+      "baselineDisposition": "replace_after_true_reverse_day",
+      "findings": [
+        "This is a matching night for the duplicate OB2 camera, not a second independently useful perspective.",
+        "It carries the invented aperture and adds brighter light behind it; geometry repair must precede a new night image.",
+        "Visible rear blackout is closed."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 73009,
+        "jobId": "b01ccad1-3ce0-4405-9ed4-dcc8d539abd7",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob2-night.png",
+        "sourceJobId": "d868013a-e77f-4625-807f-c648a53ce90d",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob2-day.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Exact OB2 reverse camera/openings/art/furniture preserved; no exterior glass in frame and no curtain over interior doors/arch. TV off, restrained reading/platform lighting, zero new objects."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "retreat",
+      "dayCode": "OR1",
+      "scene": "day",
+      "baseline": {
+        "code": "OR1",
+        "jobId": "ca32fda2-ad08-4924-b9ea-7aacc24b5098",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/retreat-or1-day-31513.png"
+      },
+      "baselineDisposition": "retain_source_based_day",
+      "findings": [
+        "Source-photo bar camera, sink, beverage refrigerator, wall return and open bedroom relationship broadly match.",
+        "Neutral bedroom platform/headwall/art, oak/loose rug and walnut bar retain the approved scheme.",
+        "The night adds a NEW projecting left drawer; repair the night to match this exact daytime joinery profile rather than inventing a new cabinet during a lighting edit."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "retreat",
+      "dayCode": "OR1",
+      "scene": "night",
+      "baseline": {
+        "code": "OR1-GN01",
+        "jobId": "585c0a7e-1b01-4edc-89ce-302b6f2ced2b",
+        "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/retreat-or1-night.png"
+      },
+      "baselineDisposition": "reject_object_drift_repair_same_day_pair",
+      "findings": [
+        "Night introduces a distinct left floating bedside cabinet that is absent in the OR1 day source.",
+        "Headwall, bar and bed location otherwise broadly stay stable; ceiling/cabinet lighting is warmer and more orange than the intended restrained scene.",
+        "The glass is outside the crop, so this view cannot verify bedroom/retreat blackout closure independently."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 73004,
+        "jobId": "ff291938-257d-4134-b061-670fa52a5ad3",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-or1-night.png",
+        "sourceJobId": "ca32fda2-ad08-4924-b9ea-7aacc24b5098",
+        "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/retreat-or1-day-31513.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Compared retained OR1 day: the added projecting left bedside drawer is removed; flat headwall restored. Bar footprint/fridge, bed, bench/rug/art and source camera remain. Warm task lighting only; no exterior openings visible."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "retreat",
+      "dayCode": "OR2",
+      "scene": "day",
+      "baseline": {
+        "code": "OR2",
+        "jobId": "5965cb07-cf05-43eb-9304-1b8389311997",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/retreat-or2-day.png"
+      },
+      "baselineDisposition": "repair_full_retreat_glazing_count",
+      "findings": [
+        "Ahead paired side windows, bar-left return and two chaise arrangement retain the photographed nook.",
+        "Current right/west bank finishes after TWO units with a final curtain/solid return. Actual exterior and plan establish THREE total west retreat units; the original photo may crop the third and is not proof of a two-unit total.",
+        "Oak and separate rug, neutral palette and seating are appropriate."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 73202,
+        "jobId": "8e051d22-a206-4555-a1d2-06c22e6b22cf",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-day-a3.png",
+        "sourceJobId": "a0e1809d-f252-49c2-8a38-8ea097dceb79",
+        "sourceFile": "assets/Crown Georgetown Photos/third-floor-master-bedroom-owners-retreat-2.jpg.webp",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Window-count/camera guide succeeds: THREE visible sash units on west/right facade, TWO south/ahead; source bar/return, two ivory chaise/round table, real head/sill and compact nook remain. No optional door or invented partition. Blackout layers stacked in day."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "retreat",
+      "dayCode": "OR2",
+      "scene": "night",
+      "baseline": {
+        "code": "OR2-N4",
+        "jobId": "e974ef3a-4e65-48cb-8fe3-0ecb5197ad14",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/retreat-night.png"
+      },
+      "baselineDisposition": "regenerate_after_glazing_repair",
+      "findings": [
+        "Matches current OR2 furniture, camera and bar, and closes four visible shade units.",
+        "Inherits the missing third west window/false termination. A complete sleep-darkening scene must include all real retreat glazing, including the corrected third visible west unit."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 73110,
+        "jobId": "99719d9e-c129-4211-b977-686714797daa",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-night-a2.png",
+        "sourceJobId": "8e051d22-a206-4555-a1d2-06c22e6b22cf",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-day-a3.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Exact selected OR2 camera/bar/two-chaise/table/lamp/rug preserved. Existing floor-to-ceiling pleated oatmeal blackout drapes fully cover both south two-unit and west three-unit banks; no new blinds, no blue exterior/daylight. Warm lamp/bar lighting, no added object."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "ownerbath",
+      "dayCode": "BA1",
+      "scene": "day",
+      "baseline": {
+        "code": "BA1",
+        "jobId": "6e9c532c-6703-4ac9-b89c-b4bcddfbc3d4",
+        "file": "assets/render-candidates/mineral-walnut-stone/r01/a-ownerbath.png"
+      },
+      "baselineDisposition": "retain_study_A_materials_resolve_glass_reflection",
+      "findings": [
+        "Approved pearl onyx-look focal/shower porcelain, walnut vanity, pale floor, tub and restrained artwork remain the desired material direction.",
+        "Main camera and fixture zones broadly follow original photo.",
+        "Apparent left window is glazing reflection; plan establishes a solid shower/bedroom shared wall and ONE south dry exterior opening. The reflected window/shade must match the actual right-side state.",
+        "White door-like imagery in reflective glass does not establish another aperture; keep true plan WC/entry topology."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 73003,
+        "jobId": "82595540-d73f-459c-996d-f9d652155323",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba1-day.png",
+        "sourceJobId": "6e9c532c-6703-4ac9-b89c-b4bcddfbc3d4",
+        "sourceFile": "assets/render-candidates/mineral-walnut-stone/r01/a-ownerbath.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Source camera, single real dry window, plain ceiling, tub/vanity/showers retained. Left glazing now reveals solid onyx shower wall with subtle room reflection rather than an independent exterior opening. Study A art, plum towels and walnut palette preserved."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "ownerbath",
+      "dayCode": "BA1",
+      "scene": "night",
+      "baseline": {
+        "code": "BA1-M1N",
+        "jobId": "ec2567db-6ae8-4c68-93d6-bf3aeb6b1a07",
+        "file": "assets/render-candidates/mineral-walnut-materials/r01/ownerbath-night-repair.png"
+      },
+      "baselineDisposition": "repair_reflected_window_state_after_evidence_resolution",
+      "findings": [
+        "Night keeps camera and Study A fixtures/finishes, with right dry-window opaque shade closed.",
+        "Left shower-glass image remains a BLUE/transparent-looking window while the dry window is closed. If it is the same window reflection, these states conflict.",
+        "Rendered color or a blue pane alone cannot verify actual wet-area privacy or glazing-film suitability."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 73006,
+        "jobId": "82fbc26e-760e-4c0b-9667-367378f93924",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba1-night.png",
+        "sourceJobId": "82595540-d73f-459c-996d-f9d652155323",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba1-day.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Exact BA1 camera/fixture/art/material inventory preserved, real right dry-window shade fully closed. Left clear glazing reveals solid shower wall and subtle same neutral closed-shade reflection; no open blue independent shower window. Functional warm vanity/general illumination."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "ownerbath",
+      "dayCode": "BA2",
+      "scene": "day",
+      "baseline": {
+        "code": "BA2",
+        "jobId": "96b1d1b1-3df0-4ee5-aa1b-2350df8f1a68",
+        "file": "assets/render-candidates/mineral-walnut-materials/r01/ownerbath-ba2-day.png"
+      },
+      "baselineDisposition": "replace_duplicate_camera_resolve_reflection",
+      "findings": [
+        "BA2 is the BA1 composition with sconces illuminated, not an alternate angle.",
+        "It repeats the same unverified second-window interpretation.",
+        "Approved onyx/tub/vanity/art direction is consistent and must stay."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 73205,
+        "jobId": "bff14f98-b810-4eda-a1cc-c9ec3a83cfde",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day-a3.png",
+        "sourceJobId": "2c1728e8-4794-4cdd-a28e-a3305aa11e5c",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day-a2.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "True tub-end reverse with south double vanity left, north polygonal shower right, WC door/enclosure ahead-left beside vanity end. Removed wrong far dry window including remaining header, removed wrong west-end bath entry. Single actual dry window and main entry lie behind/alongside camera at east end. Canonical fixtures/Study A/walnut/neutral floor retained; inferred reverse elevation needs field verification."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "ownerbath",
+      "dayCode": "BA2",
+      "scene": "night",
+      "baseline": {
+        "code": "BA2-GN01",
+        "jobId": "9a276d74-fd3b-4721-a853-2a5af558c1ca",
+        "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/ownerbath-ba2-night.png"
+      },
+      "baselineDisposition": "replace_after_true_reverse_bath_day",
+      "findings": [
+        "Repeats the duplicate bath angle and blue-left/closed-right shade inconsistency.",
+        "Camera, tub and vanity otherwise stay close to BA2; room is neutral except the previously accepted small bathroom plum note."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 73011,
+        "jobId": "ec275313-71b1-499f-93df-b0d131ed383c",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-night.png",
+        "sourceJobId": "bff14f98-b810-4eda-a1cc-c9ec3a83cfde",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day-a3.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Exact selected BA2 reverse camera/crop/topology/fixture inventory preserved. Closed WC ahead-left, no visible exterior openings or new privacy treatment; actual dry window lies behind camera. Functional sconces/general illumination, same onyx shower/seat/glass, walnut vanity, pale floor/rug and tiny bath accents."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "ownercloset",
+      "dayCode": "WC1",
+      "scene": "day",
+      "baseline": {
+        "code": "WC1",
+        "jobId": "5eaabe4e-d5fc-4b4b-96c6-90d77959e487",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/ownercloset-wc1-day.png"
+      },
+      "baselineDisposition": "retain_plan_led_concept",
+      "findings": [
+        "Windowless U-shaped storage, no island, clear central aisle, ivory/walnut system and oak with separate rug match nominal plan use.",
+        "No unsupported exterior aperture is introduced.",
+        "Door location/swing is behind the camera and not proved by this picture; image cannot establish cabinet depths or usable clear width."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "ownercloset",
+      "dayCode": "WC1",
+      "scene": "night",
+      "baseline": {
+        "code": "WC1-N4",
+        "jobId": "19dfa2ad-56e1-4c6e-b5fe-bb0cedf2b86f",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/ownercloset-night.png"
+      },
+      "baselineDisposition": "retain_matched_lighting_concept",
+      "findings": [
+        "Same camera, shelves, drawers, clothes, rods and floor as WC1; diffused vertical cabinet lighting is activated as planned.",
+        "No invented window, new island or changed storage footprint.",
+        "Actual color rendering, glare, LED channels and accessible drivers require real product/sample verification."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "bed2",
+      "dayCode": "B21",
+      "scene": "day",
+      "baseline": {
+        "code": "B21",
+        "jobId": "be2446d3-078e-4d20-a026-4188cb068fa9",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/bed2-b21-day-30616.png"
+      },
+      "baselineDisposition": "repair",
+      "findings": [
+        "Headboard/top stair-hall wall, single right side opening, oak floor, loose rug and desk are consistent with the intended plan-led room. Closet is placed at the wrong end of the shared-bath wall, adjacent to the far entry instead of nearer the front bank."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 72001,
+        "jobId": "b550668c-b652-4b62-9ce6-e8a41cdb9501",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/bed2-b21-day.png",
+        "sourceJobId": "be2446d3-078e-4d20-a026-4188cb068fa9",
+        "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bed2-b21-day-30616.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Targeted image repair visually passed; exact openings, camera and neutral finishes retained."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "bed2",
+      "dayCode": "B21",
+      "scene": "night",
+      "baseline": {
+        "code": "B21-N4",
+        "jobId": "0c36244d-8588-4c02-8ac3-3941432eb784",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/bed2-night.png"
+      },
+      "baselineDisposition": "regenerate_after_corrected_day",
+      "findings": [
+        "Night keeps the B21 camera, furniture and incorrect far closet position. Side blackout Roman is fully lowered; bedside lamps give useful low-level light."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 75009,
+        "jobId": "2013bf65-6db3-4b47-820d-b239a331144f",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/bed2-b21-night-a2.png",
+        "sourceJobId": "b550668c-b652-4b62-9ce6-e8a41cdb9501",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/bed2-b21-day.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Root full-size review: exact corrected day camera/closet/bed/desk maintained; right opaque Roman now covers all lower glass through sill and side edges. Local repair of night75002 derived from same exact day72001; no other objects changed."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "bed2",
+      "dayCode": "B22",
+      "scene": "day",
+      "baseline": {
+        "code": "B22",
+        "jobId": "db67b4e4-fc6e-4cc7-8e8a-008be7d78bdf",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/bed2-b22-day-31616.png"
+      },
+      "baselineDisposition": "retain",
+      "findings": [
+        "Reverse camera looks toward paired front bank; narrow side window/desk are at screen-left and closet at near screen-right, consistent with plan-bottom/front end of shared-bath wall. Bed foot is foreground with headboard behind camera on stair-hall wall."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "bed2",
+      "dayCode": "B22",
+      "scene": "night",
+      "baseline": {
+        "code": "B22-GN02",
+        "jobId": "7e7c74f4-5779-4d75-a48f-c3ac82a08f30",
+        "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/bed2-b22-night.png"
+      },
+      "baselineDisposition": "retain",
+      "findings": [
+        "Same reverse composition, desk/chair, bed foot, near-right closet, fully closed front blackout curtains and fully lowered side Roman. No additional openings."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "bed3",
+      "dayCode": "B31",
+      "scene": "day",
+      "baseline": {
+        "code": "B31",
+        "jobId": "82feb74f-84a9-431c-aa51-60a6e0130f8a",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b31-day.png"
+      },
+      "baselineDisposition": "retain",
+      "findings": [
+        "Retains the original paired front bank plus both single headboard-wall windows, bed between the singles, dresser on opposite wall, room corner/trim and compact proportions. Oak floor and separate neutral rug correctly replace carpet."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "bed3",
+      "dayCode": "B31",
+      "scene": "night",
+      "baseline": {
+        "code": "B31-N4",
+        "jobId": "a9004b63-4825-4486-b33d-5e29fb65d4a5",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-night.png"
+      },
+      "baselineDisposition": "retain",
+      "findings": [
+        "Matches B31 camera, bed/dresser/nightstands, all three opening casings and loose rug. All three opaque shades reach their lower edges; existing dome lamps provide useful night lighting."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "bed3",
+      "dayCode": "B32",
+      "scene": "day",
+      "baseline": {
+        "code": "B32",
+        "jobId": "49aa91dd-53eb-4cfd-aa38-a33071a5099a",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b32-day.png"
+      },
+      "baselineDisposition": "retain_with_coverage_note",
+      "findings": [
+        "Same three-window topology and window-wall headboard with coordinated bed, nightstands, dresser and rug; only modest camera shift. Hall entry/closet/bath door remain outside crop."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "bed3",
+      "dayCode": "B32",
+      "scene": "night",
+      "baseline": {
+        "code": "B32-GN02",
+        "jobId": "93c8ada4-1b31-44cb-99de-915498f74d83",
+        "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/bed3-b32-night.png"
+      },
+      "baselineDisposition": "retain_with_coverage_note",
+      "findings": [
+        "Matches the B32 composition and furnishings with all three opaque Romans closed. No relocated window or changed headboard wall."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "sharedbath",
+      "dayCode": "SB1",
+      "scene": "day",
+      "baseline": {
+        "code": "SB1",
+        "jobId": "6a177036-f25a-4ac5-b3de-09b6967dcad9",
+        "file": "assets/render-candidates/mineral-walnut-stone/r01/e-sharedbath.png"
+      },
+      "baselineDisposition": "repair_connected_bedroom",
+      "findings": [
+        "Double vanity, doorway width/location, mirror and return wall follow original vanity photograph and selected E pale porcelain is retained. Through-door Bedroom 3 headboard is on wrong blank wall and bedside furniture does not match B31."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 76001,
+        "jobId": "1d5c94a2-10d8-41a7-b8da-c3f7a250d6a5",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-day-lamp-fix.png",
+        "sourceJobId": "c96ef9d5-b588-410f-b0d8-66384bc06b86",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-day.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Large image inspected: physical and reflected adjoining-bedroom lamps are matching black dome forms; corrected far-window-wall headboard and foot toward bath retained. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged."
+      },
+      "limitations": "Separate wet compartment not shown; interior window unresolved."
+    },
+    {
+      "room": "sharedbath",
+      "dayCode": "SB1",
+      "scene": "night",
+      "baseline": {
+        "code": "SB1-NRN",
+        "jobId": "ab4ec3ab-289c-4563-9cd1-3e941c0bfcb6",
+        "file": "assets/render-candidates/mineral-walnut-neutral/r01/sharedbath-night.png"
+      },
+      "baselineDisposition": "regenerate_after_corrected_day",
+      "findings": [
+        "Night camera matches SB1, lamps/faucets/vanity retained; closed adjacent blackout curtains are appropriate. It also preserves the wrong bedroom bed direction."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 76003,
+        "jobId": "10eef59f-9876-4198-b9a2-b1fb0b4a607e",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-night-lamp-fix.png",
+        "sourceJobId": "1d5c94a2-10d8-41a7-b8da-c3f7a250d6a5",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-day-lamp-fix.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Large image inspected: physical and reflected adjoining-bedroom lamps are matching black dome forms; corrected far-window-wall headboard and foot toward bath retained. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged. Exact day-source camera; adjoining bedroom Roman fully opaque to sill, no exposed lower glazing; existing dome lamp and vanity-cylinder lighting illuminated."
+      },
+      "limitations": "Separate wet compartment not shown; interior window unresolved."
+    },
+    {
+      "room": "sharedbath",
+      "dayCode": "SB2",
+      "scene": "day",
+      "baseline": {
+        "code": "SB2",
+        "jobId": "4c0fb875-33fd-4332-8b5f-a234b53b1c61",
+        "file": "assets/render-candidates/mineral-walnut-neutral/r01/sharedbath-sb2-day.png"
+      },
+      "baselineDisposition": "repair_connected_bedroom",
+      "findings": [
+        "Nearby vanity angle keeps original bath doors, double sinks and selected E. Repeats the incorrectly rotated adjoining bed. Does not inspect tub/toilet compartment."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 76002,
+        "jobId": "3c010c51-dca0-476b-8975-cf953e9781e6",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-day-lamp-fix.png",
+        "sourceJobId": "75507bca-8881-42cd-8104-f66794c238bb",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-day-a2.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Large image inspected: physical and reflected adjoining-bedroom lamps are matching black dome forms; corrected far-window-wall headboard and foot toward bath retained. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged."
+      },
+      "limitations": "Separate wet compartment not shown; interior window unresolved."
+    },
+    {
+      "room": "sharedbath",
+      "dayCode": "SB2",
+      "scene": "night",
+      "baseline": {
+        "code": "SB2-GN02",
+        "jobId": "4e99ecbb-1cb9-4d6c-aa75-a201788f1f1a",
+        "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/sharedbath-sb2-night.png"
+      },
+      "baselineDisposition": "regenerate_after_corrected_day",
+      "findings": [
+        "Same SB2 camera and bathroom details, closed adjoining curtains; inherited wrong bed orientation remains."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 76004,
+        "jobId": "2e95aa1b-c7f0-4954-bd20-e4b2a366c66a",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-night-lamp-fix.png",
+        "sourceJobId": "3c010c51-dca0-476b-8975-cf953e9781e6",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-day-lamp-fix.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Large image inspected: physical and reflected adjoining-bedroom lamps are matching black dome forms; corrected far-window-wall headboard and foot toward bath retained. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged. Exact day-source camera; adjoining bedroom Roman fully opaque to sill, no exposed lower glazing; existing dome lamp and vanity-cylinder lighting illuminated."
+      },
+      "limitations": "Separate wet compartment not shown; interior window unresolved."
+    },
+    {
+      "room": "laundry",
+      "dayCode": "LA1",
+      "scene": "day",
+      "baseline": {
+        "code": "LA1",
+        "jobId": "bfacfb8c-d7e6-41fb-bc1b-25a871734a5e",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/laundry-la1-day-30519.png"
+      },
+      "baselineDisposition": "retain",
+      "findings": [
+        "Preserves the source near arched-top and far rectangular windows, sink/cabinet wall, back wall, ceiling vent and opposing machine position. Utility finish update, paired hampers and rack do not alter shell. Requested cycle graphic and Rinse and repeat.. text remain."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "laundry",
+      "dayCode": "LA1",
+      "scene": "night",
+      "baseline": {
+        "code": "LA1-N4",
+        "jobId": "24e93d61-b01a-463a-8e64-c79b9d108db0",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/laundry-night.png"
+      },
+      "baselineDisposition": "retain",
+      "findings": [
+        "Same LA1 camera, cabinets/sink, counter objects, rack/hampers and machine crop. Both lined shades fully cover glazing; undercabinet/general light remains useful."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "laundry",
+      "dayCode": "LA2",
+      "scene": "day",
+      "baseline": {
+        "code": "LA2",
+        "jobId": "3b4bd68c-0c47-41d1-a2fc-e07f4804f58a",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/laundry-la2-day.png"
+      },
+      "baselineDisposition": "retain",
+      "findings": [
+        "Shifted camera reveals both machines on the opposite wall while keeping two separate left-side window casings, arched near silhouette, sink, cabinet run and back-wall graphic/rack/hampers."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "laundry",
+      "dayCode": "LA2",
+      "scene": "night",
+      "baseline": {
+        "code": "LA2-GN02",
+        "jobId": "64835954-2e38-4ab7-af99-5feccb722e34",
+        "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/laundry-la2-night.png"
+      },
+      "baselineDisposition": "repair_privacy_only",
+      "findings": [
+        "Same LA2 composition, machine pair, sink/cabinets, graphic/rack/hampers. Near Roman stops above the sill leaving visible lower glazing; far shade has a narrow exposed edge."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 75008,
+        "jobId": "65dea08f-d04a-45dc-a845-01715d0f0d2f",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/laundry-la2-night-a2.png",
+        "sourceJobId": "3b4bd68c-0c47-41d1-a2fc-e07f4804f58a",
+        "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/laundry-la2-day.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Root and independent QA: exact laundry LA2 retained day shell, near arch and separate far rectangle retained; opaque night privacy covers arch head, lower glass and edges, same quote/cabinets/appliances."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "stair3",
+      "dayCode": "ST31",
+      "scene": "day",
+      "baseline": {
+        "code": "ST31",
+        "jobId": "f1e9d0ef-8488-4286-a2b7-60f4771ee8a2",
+        "file": "assets/render-candidates/mineral-walnut-neutral/r01/stair3-st31-day.png"
+      },
+      "baselineDisposition": "repair_neutral_art_only",
+      "findings": [
+        "Keeps all three high windows and original source curve, intermediate landing, straight upper flight, newel/guard/half-wall. Bare oak/white risers match no-runner decision. Small colorful original upstairs canvas remains behind upper-left balusters."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 72004,
+        "jobId": "67f0de0d-06f3-42c6-807b-53eec6f0ef58",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/stair3-st31-day.png",
+        "sourceJobId": "f1e9d0ef-8488-4286-a2b7-60f4771ee8a2",
+        "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/stair3-st31-day.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Targeted image repair visually passed; exact openings, camera and neutral finishes retained."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "stair3",
+      "dayCode": "ST31",
+      "scene": "night",
+      "baseline": {
+        "code": "ST31-NRN",
+        "jobId": "186cd1b2-3c5d-4690-ab36-6ffb5da3867a",
+        "file": "assets/render-candidates/mineral-walnut-neutral/r01/stair3-night.png"
+      },
+      "baselineDisposition": "regenerate_after_art_cleanup",
+      "findings": [
+        "Same ST31 camera, three bare dark windows, guard, stair geometry, art and oak/white surfaces. Useful existing overhead light. Inherits colorful upstairs source canvas."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 75003,
+        "jobId": "bc2d2887-25c9-40ce-b9ad-279a95197017",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/stair3-st31-night.png",
+        "sourceJobId": "67f0de0d-06f3-42c6-807b-53eec6f0ef58",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/stair3-st31-day.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Source and plan topology preserved in same-camera edit."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "loft",
+      "dayCode": "PL1",
+      "scene": "day",
+      "baseline": {
+        "code": "PL1",
+        "jobId": "54572b03-45da-40b4-8db9-cd0faed2eba4",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/loft-pl1-day-30521.png"
+      },
+      "baselineDisposition": "retained",
+      "findings": [
+        "Matches the original photo camera: south French doors with one small flanking window each side on image-left; wide west terrace sliding opening on image-right; recessed southwest bar with its compact west window.",
+        "Raised tray, bar recess, two stools, two pendants and original opening rhythm survive; oak, mineral walls, walnut and low-pile rug are authorized design changes.",
+        "The view looks toward the south/west corner; it does not reveal the north stair edge or the Bedroom 5 vestibule behind the camera.",
+        "Magenta model-home outdoor cushions remain visible through glass, unlike neutral current terrace staging. A minor adjoining-view furnishing cleanup is desirable; this is not an opening error."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "loft",
+      "dayCode": "PL1",
+      "scene": "night",
+      "baseline": {
+        "code": "PL1-N4",
+        "jobId": "a3ffb41b-28a4-4baf-93cd-ecfd08f9653f",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/loft-pl1-n4-night-32521.png"
+      },
+      "baselineDisposition": "needs_replacement",
+      "findings": [
+        "Camera, furniture, bar, tray and door/window geometry remain aligned with PL1 day.",
+        "Both small windows flanking the French doors retain dark exposed lower glazing strips under only partly lowered shades. This conflicts with the current manifest claim that all applicable privacy layers are fully closed.",
+        "Repair only these two shade drops/opacity; preserve every opening, lamp, tray and furnishing. The original tray permits the shown cove lighting; it is not an invented ceiling form."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 74002,
+        "jobId": "8f6827e0-5ce4-4dae-aa62-20d041e935f3",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/loft-pl1-n-r07-night.png",
+        "sourceJobId": "54572b03-45da-40b4-8db9-cd0faed2eba4",
+        "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/loft-pl1-day-30521.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Targeted image repair visually passed; exact openings, camera and neutral finishes retained."
+      },
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "loft",
+      "dayCode": "PL2",
+      "scene": "day",
+      "baseline": {
+        "code": "PL2",
+        "jobId": "01590af8-23d1-4809-8f47-23be656949cb",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/loft-pl2-day.png"
+      },
+      "baselineDisposition": "retained",
+      "findings": [
+        "Same photographed south/west corner from a modestly shifted companion camera. The French doors, two flank windows, bar recess/window and west slider remain coherent with PL1 and the original.",
+        "Companion view, not a reverse view of the stair/bedroom-entry side. Do not describe it as proof of the whole penthouse circulation.",
+        "Minor magenta outdoor source upholstery remains visible through glazing and could be coordinated with the selected neutral terrace furniture."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "loft",
+      "dayCode": "PL2",
+      "scene": "night",
+      "baseline": {
+        "code": "PL2-GN02",
+        "jobId": "5c8cdf93-97a2-4a72-91a5-f04255fa4f8e",
+        "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/loft-pl2-night.png"
+      },
+      "baselineDisposition": "retained",
+      "findings": [
+        "Matches PL2 geometry and furnishings. Both flank windows, French-door glazing, bar window and terrace slider appear fully covered for privacy.",
+        "This is a night privacy study, not a measured fabric/fixture specification. Keep traversing/door-operating provisions in the installation notes."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "bed5",
+      "dayCode": "B51",
+      "scene": "day",
+      "baseline": {
+        "code": "B51",
+        "jobId": "9537c1a6-4c96-4078-9e98-4e1b84e88e11",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/bed5-b51-day-30522.png"
+      },
+      "baselineDisposition": "retained",
+      "findings": [
+        "Photo-precedent camera toward the west/shared-loft bed wall and north offset entry return matches the original: flat ceiling, headboard on image-left, vertical projection and far-right doorway alcove.",
+        "Natural oak and a loose oatmeal rug replace model carpet intentionally. Neutral mushroom, charcoal, ivory and walnut retain Option 1.",
+        "Room is unbuilt at the actual house. Retain as a proposed room only; this source camera does not verify the east windows or south closet."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Room unbuilt; plan-derived proposed enclosure."
+    },
+    {
+      "room": "bed5",
+      "dayCode": "B51",
+      "scene": "night",
+      "baseline": {
+        "code": "B51-N4",
+        "jobId": "9df488e6-e959-4abd-9503-721afc07c262",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/bed5-night.png"
+      },
+      "baselineDisposition": "retained",
+      "findings": [
+        "Retains B51 headboard, vertical doorway return, door, dresser, oak and loose rug without adding exterior openings.",
+        "Two shaded bedside lamps give a consistent neutral night study. No bedroom color accents or invented LEDs.",
+        "Actual Bedroom 5 remains unbuilt; an illustration is not a surveyed existing room."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Room unbuilt; plan-derived proposed enclosure."
+    },
+    {
+      "room": "bed5",
+      "dayCode": "B52",
+      "scene": "day",
+      "baseline": {
+        "code": "B52",
+        "jobId": "75d82e6b-3619-4016-9ac6-c44dd9f98e8f",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/bed5-b52-day-31522.png"
+      },
+      "baselineDisposition": "needs_replacement",
+      "findings": [
+        "Two separated planned east windows appear on the far wall, but the visible headboard sits on the adjacent image-right wall. The bed extends across the image toward image-left rather than toward the east window wall.",
+        "The builder plan puts the headboard on the west wall shared with the loft TV, directly opposite the east window pair. This camera has effectively rotated the bed 90 degrees relative to that required window wall.",
+        "A cropped finish view cannot resolve this orientation. Replace with a genuine plan-derived reverse/diagonal view, keeping the west headboard and east pair opposite; north dresser/linen-entry route and south closet must stay on their respective sides.",
+        "Do not turn the three external dormer-looking units into three interior windows. The plan has two interior openings with solid wall between; exterior photos alone do not identify the center facade treatment as operable glazing."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 74004,
+        "jobId": "5a8163a9-8bc4-43b3-a19a-5c4ef965f80e",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/bed5-b52-day-a3.png",
+        "sourceJobId": "9537c1a6-4c96-4078-9e98-4e1b84e88e11",
+        "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bed5-b51-day-30522.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Source and plan topology preserved in same-camera edit."
+      },
+      "limitations": "Room unbuilt; plan-derived proposed enclosure."
+    },
+    {
+      "room": "bed5",
+      "dayCode": "B52",
+      "scene": "night",
+      "baseline": {
+        "code": "B52-GN02",
+        "jobId": "26b6b5e9-b4e3-4b48-b534-4d2cdef449b3",
+        "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/bed5-b52-night.png"
+      },
+      "baselineDisposition": "needs_replacement",
+      "findings": [
+        "Faithfully retains B52 furnishings and closes both blackout layers, but also faithfully repeats the wrong headboard-to-window orientation.",
+        "Regenerate only after the corrected B52 day passes plan/cross-view QA; derive night from that exact selected file."
+      ],
+      "disposition": "replaced_with_visually_reviewed_candidate",
+      "replacement": {
+        "index": 75007,
+        "jobId": "fd49df95-9fc3-4bca-8678-4b33eeb66506",
+        "file": "assets/render-candidates/mineral-walnut-plan/r07/bed5-b52-night.png",
+        "sourceJobId": "5a8163a9-8bc4-43b3-a19a-5c4ef965f80e",
+        "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/bed5-b52-day-a3.png",
+        "qaStatus": "approved_design_visualization",
+        "qaNote": "Root and independent QA: exact B52 corrected reverse camera, west headboard/offset north door and walnut dresser preserved; east windows behind camera, none invented. Plan dimensions14ft11in×11ft1in override malformed prompt."
+      },
+      "limitations": "Room unbuilt; plan-derived proposed enclosure."
+    },
+    {
+      "room": "bath4",
+      "dayCode": "PBA1",
+      "scene": "day",
+      "baseline": {
+        "code": "PBA1",
+        "jobId": "02fba582-7b3b-4472-8d30-febad932f4c7",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/bath4-pba1-day-30523.png"
+      },
+      "baselineDisposition": "retained",
+      "findings": [
+        "Plan-led camera from the west vestibule toward the east shower. Vanity and toilet are on the same north wall, shown image-right; shower spans the far east end with north/right seat and south/left showerhead.",
+        "Windowless shell and doorway location are coherent with page 4. Ivory stone-look porcelain, walnut and restrained dark hardware suit the selected theme.",
+        "Room-design-book cardinal wording is stale: it says east toilet/southern shower. Correct prose to north-wall vanity plus toilet and east-end shower when integrating; do not change these images to follow that stale prose."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "bath4",
+      "dayCode": "PBA1",
+      "scene": "night",
+      "baseline": {
+        "code": "PBA1-N4",
+        "jobId": "544233aa-8f7c-45c3-a340-3ace3dfa601e",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/bath4-night.png"
+      },
+      "baselineDisposition": "retained",
+      "findings": [
+        "Same plan-led shell, shower glass/seat/head, same-wall vanity/toilet and finishes as PBA1; no invented daylight opening.",
+        "Vanity task lights and readable general/shower illumination remain coherent. This windowless room naturally shows less day/night visual contrast."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Visible camera scope only; measured offsets and hidden elevations remain to verify."
+    },
+    {
+      "room": "terrace",
+      "dayCode": "RT1",
+      "scene": "day",
+      "baseline": {
+        "code": "RT1",
+        "jobId": "984b7551-8036-4c28-ab15-a26b8c1bf20b",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/terrace-rt1-day.png"
+      },
+      "baselineDisposition": "retained_with_asbuilt_qualification",
+      "findings": [
+        "Matches terrace original -3 camera: original pergola beam/post perspective, sails/string-light paths, railing, nearby roof silhouettes and north fireplace/privacy wall are retained.",
+        "Actual white-house outside photos confirm the roof-terrace massing, existing pergola and railing; they do not establish every model-home terrace accessory or fireplace detail.",
+        "Neutral lounge/teak-toned staging is an intentional design proposal. The six-seat table/chairs differ in silhouette/finish from RT2; a single furniture schedule should resolve this before any comprehensive final furniture set.",
+        "No house roof enlargement or raised roof is apparent. Visible neighboring roofs are source-photo context, not the subject house roof."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Model precedent; optional exterior spiral and actual fireplace unresolved."
+    },
+    {
+      "room": "terrace",
+      "dayCode": "RT1",
+      "scene": "night",
+      "baseline": {
+        "code": "RT1-N4",
+        "jobId": "8b7b8772-f6d3-4b88-b6ad-b60efc72afd2",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r01/terrace-night.png"
+      },
+      "baselineDisposition": "retained_with_asbuilt_qualification",
+      "findings": [
+        "Same RT1 roofscape, pergola, sails, railings, fireplace wall and furniture; genuine dark sky and existing string-light effect.",
+        "Retain as the night of the model-anchored proposed terrace; confirm actual outdoor fireplace installation independently before contractor pricing or as-built claims."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Model precedent; optional exterior spiral and actual fireplace unresolved."
+    },
+    {
+      "room": "terrace",
+      "dayCode": "RT2",
+      "scene": "day",
+      "baseline": {
+        "code": "RT2",
+        "jobId": "27456ab8-a6f1-477e-965d-cdfcd41b0cda",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/terrace-rt2-day-31524.png"
+      },
+      "baselineDisposition": "retained_with_asbuilt_qualification",
+      "findings": [
+        "Matches original -2 opposing terrace camera: near-right egg chair, near-left pergola post and house wall, south dining zone, open west rail and model-home spiral stair/landing opening.",
+        "The builder plan labels the outside spiral optional. Actual west-back/south-west-back photos do not clearly expose this opening or stair behind parapet/privacy screen; neither installation nor absence is proved.",
+        "Do not remove a clearly photographed model-home spiral blindly, and do not certify it as present at the actual house. Settle this single optional feature before an exact actual-house RT2 revision.",
+        "Dining table/chair selection differs from RT1; structure remains source-consistent, but future paired furnishing edits should use one coherent dining set."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Model precedent; optional exterior spiral and actual fireplace unresolved."
+    },
+    {
+      "room": "terrace",
+      "dayCode": "RT2",
+      "scene": "night",
+      "baseline": {
+        "code": "RT2-GN01",
+        "jobId": "8dc4fa3d-dcba-47a2-bbb7-28ad81463bb3",
+        "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/terrace-rt2-night.png"
+      },
+      "baselineDisposition": "retained_with_asbuilt_qualification",
+      "findings": [
+        "Same RT2 posts/beam geometry, sails, rails, egg chair, dining furniture and model spiral landing, with warm string lights and dark sky.",
+        "Shares RT2 optional-stair/as-built qualification and cross-view dining-set mismatch; night itself does not introduce a room-configuration change."
+      ],
+      "disposition": "retained_with_documented_scope",
+      "limitations": "Model precedent; optional exterior spiral and actual fireplace unresolved."
+    }
+  ],
+  "constructionLimit": "Architectural visualization review cannot establish surveyed dimensions, product clearances, hidden services, code/permitting or contractor construction approval."
+}

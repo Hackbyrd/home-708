@@ -47,6 +47,8 @@ for (const [i, [word, rev, title, description, manifestPath]] of definitions.ent
     const primaryNight = nightManifest?.rooms?.[room.id];
     const sources = [...(primaryNight ? [{ ...primaryNight, assetName: `${room.id}-${primaryNight.assetRevision || nightManifest.revision}-night` }] : []), ...(angleNightManifest?.rooms?.[room.id]?.views || []).map(view => ({ ...view, assetName: `${room.id}-${view.assetRevision || angleNightManifest.revision}-${view.code}` }))];
     if (new Set(sources.map(view => view.sourceCode)).size !== sources.length) throw new Error(`Duplicate night camera for ${room.id}.`);
+    const displayCodes = [...views, ...sources].map(view => view.code);
+    if (new Set(displayCodes).size !== displayCodes.length) throw new Error(`Day and night views need distinct codes for ${room.id}; duplicate codes can overwrite images and duplicate gallery IDs.`);
     const nights = [];
     for (const { assetName, ...nightSource } of sources) {
       if (!views.some(view => view.code === nightSource.sourceCode && view.jobId === nightSource.sourceJobId)) throw new Error(`Night study for ${room.id}/${nightSource.sourceCode} is based on a superseded day view; regenerate or remove it before rebuilding.`);

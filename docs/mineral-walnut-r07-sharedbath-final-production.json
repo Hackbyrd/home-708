@@ -1,0 +1,192 @@
+{
+  "version": "MW-PLAN-R07-SHAREDBATH-FINAL",
+  "date": "2026-10-10",
+  "baselineProduction": "docs/mineral-walnut-r07-production.json",
+  "independentQA": "docs/mineral-walnut-r07-other-final-qa.json",
+  "scope": "Local mirror-lamp inventory correction for SB1/SB2 with matching nighttime edits. Previous candidates remain rejected in the independent QA history.",
+  "jobs": [
+    {
+      "index": 76001,
+      "sourceJobId": "c96ef9d5-b588-410f-b0d8-66384bc06b86",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-day.png",
+      "code": "SB1",
+      "room": "sharedbath",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-day-lamp-fix.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "auto",
+        "medias": [
+          {
+            "role": "image",
+            "value": "c96ef9d5-b588-410f-b0d8-66384bc06b86"
+          },
+          {
+            "role": "image",
+            "value": "82feb74f-84a9-431c-aa51-60a6e0130f8a"
+          }
+        ],
+        "prompt": "Precise local image-edit of reference1 ONLY. The bedside lamp seen directly through the LEFT bathroom doorway is correctly a small BLACK DOME-shade lamp on a walnut nightstand. In the vanity MIRROR, through the reflected doorway around 72% image width, an incorrect TALL BENT-STEM RECTANGULAR task lamp remains. Replace ONLY this incorrect reflected lamp with the same black DOME bedside lamp from reference2, scaled and oriented naturally in the reflection; thin straight stem and round base. Do not add a second lamp or change the correct direct-view dome lamp. The lamp reflection must depict the same physical adjoining bedroom. Preserve everything else exactly: corrected bed headboard on far window-wall and foot toward bathroom, original casing/open doors, both basins/taps, walnut double vanity, existing cylinder sconces, mirror shape/position, pale E limestone-look porcelain, towel/toiletry/plant arrangement, window/curtains, furniture, oak/rug, neutral daylight and camera. No whole-room redesign, no bed rotation, no openings added, no color accents. Local reflected-object replacement only."
+      },
+      "job_id": "1d5c94a2-10d8-41a7-b8da-c3f7a250d6a5",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "jobId": "1d5c94a2-10d8-41a7-b8da-c3f7a250d6a5",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034700_1d5c94a2-10d8-41a7-b8da-c3f7a250d6a5.png",
+      "qaStatus": "approved_design_visualization",
+      "selected": true,
+      "qaNote": "Large image inspected: physical and reflected adjoining-bedroom lamps are matching black dome forms; corrected far-window-wall headboard and foot toward bath retained. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged."
+    },
+    {
+      "index": 76002,
+      "sourceJobId": "75507bca-8881-42cd-8104-f66794c238bb",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-day-a2.png",
+      "code": "SB2",
+      "room": "sharedbath",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-day-lamp-fix.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "auto",
+        "medias": [
+          {
+            "role": "image",
+            "value": "75507bca-8881-42cd-8104-f66794c238bb"
+          },
+          {
+            "role": "image",
+            "value": "82feb74f-84a9-431c-aa51-60a6e0130f8a"
+          }
+        ],
+        "prompt": "Precise local image-edit of reference1 ONLY. The bedside lamp seen directly through the LEFT bathroom doorway is correctly a small BLACK DOME-shade lamp on a walnut nightstand. In the vanity MIRROR, through the reflected doorway around 72% image width, an incorrect TALL BENT-STEM RECTANGULAR task lamp remains. Replace ONLY this incorrect reflected lamp with the same black DOME bedside lamp from reference2, scaled and oriented naturally in the reflection; thin straight stem and round base. Do not add a second lamp or change the correct direct-view dome lamp. The lamp reflection must depict the same physical adjoining bedroom. Preserve everything else exactly: corrected bed headboard on far window-wall and foot toward bathroom, original casing/open doors, both basins/taps, walnut double vanity, existing cylinder sconces, mirror shape/position, pale E limestone-look porcelain, towel/toiletry/plant arrangement, window/curtains, furniture, oak/rug, neutral daylight and camera. No whole-room redesign, no bed rotation, no openings added, no color accents. Local reflected-object replacement only."
+      },
+      "job_id": "3c010c51-dca0-476b-8975-cf953e9781e6",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "jobId": "3c010c51-dca0-476b-8975-cf953e9781e6",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034700_3c010c51-dca0-476b-8975-cf953e9781e6.png",
+      "qaStatus": "approved_design_visualization",
+      "selected": true,
+      "qaNote": "Large image inspected: physical and reflected adjoining-bedroom lamps are matching black dome forms; corrected far-window-wall headboard and foot toward bath retained. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged."
+    },
+    {
+      "index": 76003,
+      "room": "sharedbath",
+      "code": "SB1-N-R07-LAMP",
+      "sourceCode": "SB1",
+      "scene": "night",
+      "sourceJobId": "1d5c94a2-10d8-41a7-b8da-c3f7a250d6a5",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-day-lamp-fix.png",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-night-lamp-fix.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "auto",
+        "medias": [
+          {
+            "role": "image",
+            "value": "1d5c94a2-10d8-41a7-b8da-c3f7a250d6a5"
+          }
+        ],
+        "prompt": "Exact same-camera NIGHT lighting edit of source1. Preserve every wall, door/casing, mirror plane and reflected door, bed orientation, furniture model/count/position, both black DOME bedside lamps (one seen directly through LEFT doorway and same type seen in the mirror), walnut double vanity, pale E limestone-look porcelain, both basins/taps, cylindersconces, floor/rug, trim and countertop items. The adjoiningbedroom Romanmust be fullyDOWN, opaqueivoryfabric COVERING EVERY PIXEL of its original window glazing fromtop toSILL and sideedges. No exposed arch, barelowerpane, darkglass strip or windowgridbelowfabric; existingcurtainedges remain. Illuminate existing two pairs of bathroomglass-cylinderlights2700-3000K with usefulneutralambient and EXISTING bedroomblackdome lamp warmon; reflecteddome lamp agreeswithphysicalone. No sunlight or new fixtures. Keep accurate neutral materials, no orangetint. No architecture/camera changes, extra furniture, bedrotation, tasklamp, coloredaccents, text or people."
+      },
+      "job_id": "10eef59f-9876-4198-b9a2-b1fb0b4a607e",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "jobId": "10eef59f-9876-4198-b9a2-b1fb0b4a607e",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034826_10eef59f-9876-4198-b9a2-b1fb0b4a607e.png",
+      "qaStatus": "approved_design_visualization",
+      "selected": true,
+      "qaNote": "Large image inspected: physical and reflected adjoining-bedroom lamps are matching black dome forms; corrected far-window-wall headboard and foot toward bath retained. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged. Exact day-source camera; adjoining bedroom Roman fully opaque to sill, no exposed lower glazing; existing dome lamp and vanity-cylinder lighting illuminated."
+    },
+    {
+      "index": 76004,
+      "room": "sharedbath",
+      "code": "SB2-N-R07-LAMP",
+      "sourceCode": "SB2",
+      "scene": "night",
+      "sourceJobId": "3c010c51-dca0-476b-8975-cf953e9781e6",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-day-lamp-fix.png",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-night-lamp-fix.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "auto",
+        "medias": [
+          {
+            "role": "image",
+            "value": "3c010c51-dca0-476b-8975-cf953e9781e6"
+          }
+        ],
+        "prompt": "Exact same-camera NIGHT lighting edit of source1. Preserve every wall, door/casing, mirror plane and reflected door, bed orientation, furniture model/count/position, both black DOME bedside lamps (one seen directly through LEFT doorway and same type seen in the mirror), walnut double vanity, pale E limestone-look porcelain, both basins/taps, cylindersconces, floor/rug, trim and countertop items. The adjoiningbedroom Romanmust be fullyDOWN, opaqueivoryfabric COVERING EVERY PIXEL of its original window glazing fromtop toSILL and sideedges. No exposed arch, barelowerpane, darkglass strip or windowgridbelowfabric; existingcurtainedges remain. Illuminate existing two pairs of bathroomglass-cylinderlights2700-3000K with usefulneutralambient and EXISTING bedroomblackdome lamp warmon; reflecteddome lamp agreeswithphysicalone. No sunlight or new fixtures. Keep accurate neutral materials, no orangetint. No architecture/camera changes, extra furniture, bedrotation, tasklamp, coloredaccents, text or people."
+      },
+      "job_id": "2e95aa1b-c7f0-4954-bd20-e4b2a366c66a",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "jobId": "2e95aa1b-c7f0-4954-bd20-e4b2a366c66a",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034826_2e95aa1b-c7f0-4954-bd20-e4b2a366c66a.png",
+      "qaStatus": "approved_design_visualization",
+      "selected": true,
+      "qaNote": "Large image inspected: physical and reflected adjoining-bedroom lamps are matching black dome forms; corrected far-window-wall headboard and foot toward bath retained. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged. Exact day-source camera; adjoining bedroom Roman fully opaque to sill, no exposed lower glazing; existing dome lamp and vanity-cylinder lighting illuminated."
+    }
+  ],
+  "terminalGalleryIndexes": [
+    76001,
+    76002,
+    76003,
+    76004
+  ],
+  "outcome": "All four local corrections visually passed owner QA. Prior rejected candidates retained in independent audit history."
+}

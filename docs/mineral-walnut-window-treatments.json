@@ -215,7 +215,7 @@
       "id": "living",
       "system": "privacy",
       "recommendation": "Clear ivory sheers + hidden privacy/glare shades",
-      "coverage": "Two real tall windows on the east facade (printed-plan bottom/right), with matching sheers and privacy/glare shades. The north facade feature is a False Window and its interior face stays solid; no inside drape or shade there.",
+      "coverage": "TWO real tall living windows along EAST facade (printed-plan BOTTOM). NORTH facade decorative False Window stays solid inside. Keep the south dining seam and west hall connection open.",
       "why": "Maintain the bright piano salon and soft Cloud-style seating, with privacy after dark. An adjustable layer also helps reduce direct sun at the piano; sheers alone are not a complete sun-protection strategy.",
       "day": "Sheers drawn lightly; shade only where direct sun or glare calls for it.",
       "night": "Lower privacy shades on the front windows.",
@@ -275,11 +275,11 @@
       "id": "ownerbed",
       "system": "blackout",
       "recommendation": "Ivory sheers + fully closing oatmeal blackout-lined curtains",
-      "coverage": "Full four-sash rear window group. Coordinate the open retreat as part of the same sleep-darkening zone.",
-      "why": "The primary bedroom needs sleeping darkness, daytime rest and evening privacy. Treating only this room would leave light entering through the open retreat.",
-      "day": "Sheers filter daylight; blackout layer stacks clear.",
-      "night": "Close both bedroom and retreat blackout layers; switch off decorative under-bed lighting for sleep if preferred.",
-      "installation": "Use independent tracks with overlap/returns. Check the dresser below the window before deciding curtain drop and stack. If it prevents full closure, use a blackout roller behind the sheers rather than trapping fabric behind furniture. Inspect all light gaps after installation.",
+      "coverage": "All FOUR real west sash units. Coordinate every real retreat opening as part of the same open sleep-darkening zone; interior vestibule transom is not an exterior window.",
+      "why": "Sleeping darkness and evening privacy require covering the full bedroom/retreat exterior inventory because the connection is open.",
+      "day": "Sheers filter daylight; opaque layer stacks clear of all windows and dresser.",
+      "night": "Fully close bedroom and retreat exterior blackout layers; use gentle bed/bedside light for winding down and switch off for sleep as preferred.",
+      "installation": "Independent tracks with overlap/returns. Resolve west-window dresser, curtain drop and stack with measured elevations; concealed blackout rollers behind sheers can avoid trapped fabric. Do not curtain the interior retreat connection or add unselected dresser lighting.",
       "goods": [
         900,
         1600
@@ -294,12 +294,12 @@
     {
       "id": "retreat",
       "system": "blackout",
-      "recommendation": "Match the bedroom: ivory sheers + blackout layer",
-      "coverage": "Both exterior window walls and any connected terrace-door glazing confirmed on site. Do not add a door to the open bedroom connection.",
-      "why": "Although this is a sitting/coffee area, it is open to the bedroom. Untreated retreat glass would defeat the bedroom blackout treatment.",
-      "day": "Sheers for the lounge; blackout curtains stacked away from glass.",
-      "night": "Close all retreat exterior-glass blackout layers with the bedroom curtains.",
-      "installation": "Survey all window groups and terrace access. Keep curtains clear of the bar, appliances and door swings. Where a door cannot accept curtains, use an independent blackout shade with gap control; keep the visible fabric coordinated with the bedroom.",
+      "recommendation": "Match owners bedroom: ivory sheers + fully closing blackout layers",
+      "coverage": "THREE real west sash units and TWO photographed south side units. Any north optional terrace-door glazing remains conditional on actual-house confirmation; no door is added to the open bedroom connection.",
+      "why": "Retreat exterior light enters the open owners bedroom, so every real opening belongs to one sleep-darkening zone.",
+      "day": "Sheers soften light for reading and coffee; blackout layers stack clear.",
+      "night": "Fully close all real retreat window blackout layers together with the four-unit owners-bedroom bank.",
+      "installation": "Measure the full west bank including the third unit cropped in model photos. Keep fabric clear of bar, appliances and actual door operations. Optional door/exterior-spiral features are not new confirmed window counts or new allowance items.",
       "goods": [
         1200,
         2000
@@ -314,12 +314,12 @@
     {
       "id": "ownerbath",
       "system": "practical",
-      "recommendation": "Wet-area privacy at shower glass; moisture-resistant shade at dry window",
-      "coverage": "Exterior window within the shower and the dry vanity-side exterior window.",
-      "why": "Bathing needs reliable privacy, not decorative sheers. Fabric in direct shower spray is unsuitable; bedroom blackout can be managed with the bathroom door closed.",
-      "day": "Shower-window privacy remains in place while admitting diffuse daylight; adjust the dry-window shade.",
-      "night": "Close the dry-window opaque privacy shade; verify the shower treatment conceals silhouettes under actual interior lighting.",
-      "installation": "Provisional base: obscuring film explicitly compatible with the shower exposure and existing glazing, plus a moisture-resistant opaque roller on the dry window. If film cannot meet privacy/compatibility needs, quote suitable obscured glazing separately; window replacement is not included. No hanging sheer or drape in the shower.",
+      "recommendation": "Moisture-resistant opaque privacy shade at the ONE real dry window",
+      "coverage": "ONE south dry exterior opening near tub/vanity only. Apparent left/shower-side window is reflection on/in enclosure glass, not a second exterior opening.",
+      "why": "Bathing privacy requires a fully closing shade at the real window. Reflected glazing receives no separate treatment; bedroom blackout can be managed with the bathroom door closed.",
+      "day": "Adjust or raise the dry-window shade for diffuse daylight; glass reflections show that same shape and shade position.",
+      "night": "Fully close the real dry-window opaque privacy shade; the shower-glass reflection must also show closed coverage with no open blue window.",
+      "installation": "Measure and select one moisture-resistant opaque shade with fixing and edge coverage suitable for the dry opening. Remove the unsupported separate shower-window film/glazing claim. Preserve existing numeric allowance until a measured revised quote; no fabric in spray and no new shower opening.",
       "goods": [
         350,
         650
@@ -355,11 +355,11 @@
       "id": "bed2",
       "system": "blackout",
       "recommendation": "Ivory sheers + blackout-lined curtains or concealed blackout roller",
-      "coverage": "Wide front window on plan-bottom wall and narrow side window on plan-right wall. Headboard on stair-hall wall (plan-top); closet on shared-bathroom boundary (plan-left).",
+      "coverage": "Plan-BOTTOM wider paired front bank and plan-RIGHT narrow side opening. Headboard remains TOP stair-hall wall; closet at LOWER plan-LEFT shared-bath boundary away from TOP-LEFT hall entry.",
       "why": "A sleeping room needs darkness and nighttime privacy even when also used for study. The desk is not a reason to omit blackout.",
       "day": "Sheers and an adjustable shade position for study light.",
-      "night": "Fully close the blackout layer.",
-      "installation": "Keep desk access and window operation clear. Prefer full closing curtains where they fit; if the desk blocks their travel, use a blackout roller with suitable edge overlap behind the sheers. No freestanding furniture changes required.",
+      "night": "Fully close blackout at both real opening groups; preserve their original positions and window operation.",
+      "installation": "Measure tracks/rollers after fixing the lower closet and hall-entry relationship. Keep the side-window desk clear of shade operation; use suitable blackout overlap behind sheers where curtains cannot stack. No second closet or relocated exterior window.",
       "goods": [
         400,
         750
@@ -375,10 +375,10 @@
       "id": "bed3",
       "system": "blackout",
       "recommendation": "Ivory sheers + blackout at every exterior opening",
-      "coverage": "Large front window and both smaller windows flanking the bed.",
+      "coverage": "Three exterior opening groups: paired front bank on plan-BOTTOM/east, plus TWO separate windows flanking headboard on plan-LEFT/south.",
       "why": "All three openings must darken for comfortable sleeping; dressing only the large window would leave the bedside windows admitting light.",
       "day": "Sheers preserve a light guest-bedroom atmosphere.",
-      "night": "Close all three blackout layers.",
+      "night": "Close blackout at all three opening groups; maintain the same bed/window-wall orientation in adjacent bathroom glimpses.",
       "installation": "Use functional lined curtains where stack space allows and matching discreet blackout rollers behind sheers at tight bedside openings. Check bedside furniture, wall lights and bedding clearance before fixing tracks.",
       "goods": [
         750,
@@ -394,12 +394,12 @@
     {
       "id": "sharedbath",
       "system": "none",
-      "recommendation": "No window treatment",
-      "coverage": "No exterior window in this bathroom; bedroom glazing seen through doors or mirrors belongs to the bedrooms.",
-      "why": "Bathroom privacy comes from closing its doors. Avoid ordering shades for reflected windows.",
-      "day": "Use planned bathroom lighting.",
-      "night": "Close bathroom doors; adjacent bedroom coverings are priced in those rooms.",
-      "installation": "Confirm the windowless condition in the site survey.",
+      "recommendation": "No covering in photographed vanity zone; wet-compartment opening pending confirmation",
+      "coverage": "No exterior opening is visible in current vanity-zone views. Bedroom glazing through doors/mirrors belongs to those bedrooms. The small front/toilet-side opening in the separate wet compartment is UNCONFIRMED as interior glazing.",
+      "why": "Avoid ordering a treatment for a bedroom reflection or falsely certifying the full shared bath as windowless. Bathing privacy in the unvisualized wet compartment depends on its actual opening inventory.",
+      "day": "Use vanity lighting; bedroom sheers belong to the adjoining rooms. Verify wet-compartment glazing before a treatment decision.",
+      "night": "Close bathroom internal doors as appropriate and adjoining bedroom blackout layers. Any confirmed wet-compartment glazing would need its own measured privacy solution.",
+      "installation": "Keep current zero allowance and system classification unchanged pending homeowner/as-built confirmation. If the specific wet-compartment opening is real, add a separately quoted moisture-compatible privacy treatment; do not create a window in current vanity crops.",
       "goods": [
         0,
         0
@@ -415,11 +415,11 @@
       "id": "laundry",
       "system": "practical",
       "recommendation": "Washable privacy rollers; lined woven-look shades as an alternative",
-      "coverage": "Two left-side windows, including the arched opening by the sink.",
+      "coverage": "Two separately cased sink/counter-side openings: near arched-top window and farther rectangular window.",
       "why": "Laundry needs useful daylight, washable finishes and evening privacy. Open-weave decorative shades alone may be see-through; blackout and floor-length curtains are unnecessary.",
       "day": "Raise for task light; adjust to soften glare.",
-      "night": "Lower the privacy layer.",
-      "installation": "Survey the arch and sink clearance; cover the full sightline without hanging fabric into splashes. If a woven-look Roman shade is chosen instead, include a privacy lining in its quote. Preserve the Rinse and repeat.. graphic.",
+      "night": "Fully close opaque privacy coverage across ALL glass in both openings, including the near arched head and both sills/side edges. A rectangular shade beneath an uncovered arch is incomplete.",
+      "installation": "Measure the full arched opening, separately cased rectangular opening and sink/faucet clearance. Provide a custom opaque arched-head infill or suitable full-opening system paired with the operable lower shade; cover ALL glass at night. Keep fabrics clear of wet surfaces. Preserve exact “Rinse and repeat..” lettering and current numeric allowances until measured quotes.",
       "goods": [
         300,
         550
@@ -435,11 +435,11 @@
       "id": "stair3",
       "system": "none",
       "recommendation": "Bare high windows; add privacy only if sightlines require it",
-      "coverage": "Three high stair-hall windows.",
+      "coverage": "THREE separate high 2×2 upper stair-hall windows.",
       "why": "Daylight supports circulation; the stair does not need blackout or floor-length fabric.",
       "day": "Leave glass visually open; assess glare on the landing.",
-      "night": "Check neighboring upper-floor views before treating high glazing as private.",
-      "installation": "No covering included in base. Survey any needed discreet privacy/diffusion treatment and access cost separately; do not hang fabric into stair travel or against the guard.",
+      "night": "High glazing stays bare in the current night study; verify actual neighboring sightlines before any later privacy change.",
+      "installation": "No covering in current allowance. Preserve daylight, guards and stair travel; no floor-length fabric, new windows or stair runner. Any later discreet privacy treatment requires a separate measured quote.",
       "goods": [
         0,
         0
@@ -455,11 +455,11 @@
       "id": "loft",
       "system": "privacy",
       "recommendation": "Ivory sheers + independent privacy layers at terrace glazing",
-      "coverage": "French doors and flanking windows, wide terrace slider and compact bar-alcove window. Coordinate the final glazing inventory on site.",
+      "coverage": "South French-door glazing, ONE small flank window each side, wide west terrace slider and compact southwest bar window.",
       "why": "The penthouse lounge should retain its views by day and privacy after dark. Being on the top floor does not guarantee privacy from adjacent homes. It is not currently a sleeping room or dedicated cinema.",
       "day": "Sheers for soft light; raise the compact bar-window shade.",
-      "night": "Close privacy layers where visible from neighboring properties.",
-      "installation": "Use traversing treatments that stack clear of the slider and French doors; compact shade at the bar. Blackout is a separate future upgrade if this becomes a regular sleeping or cinema space. Interior loft glass is not also counted in terrace furniture costs.",
+      "night": "Fully close opaque privacy layers at all lower real exterior glazing, especially BOTH small flank windows down to their sills with no exposed dark strips.",
+      "installation": "Keep traversing stacks clear of French doors and slider. Compact fitted shades cover each flank and bar window fully; maintain handles and door operation. Sleeping-room blackout is not required for this lounge unless its use changes; current allowances stay unchanged.",
       "goods": [
         950,
         1700
@@ -474,12 +474,12 @@
     {
       "id": "bed5",
       "system": "blackout",
-      "recommendation": "Ivory sheers + blackout for the new guest bedroom",
-      "coverage": "Confirmed exterior glazing of the proposed new Bedroom 5 only; openings and final enclosure remain to be surveyed.",
-      "why": "This is a real sleeping room, so guest privacy and light control should be designed into construction rather than added after furniture arrives.",
-      "day": "Sheers filter daylight.",
-      "night": "Close the blackout layer at every confirmed exterior opening.",
-      "installation": "Provisional allowance, not an approved window count. Coordinate track supports and bed/storage positions with the new room plan. Do not create new windows or drape the blank headboard wall to imitate a render.",
+      "recommendation": "Ivory sheers + blackout at the two planned guest-bedroom windows",
+      "coverage": "TWO separated east openings in proposed new Bedroom5, opposite the west headboard. The room is unbuilt and final real opening inventory needs measured new-room drawings.",
+      "why": "The proposed room will be used for sleeping; integrate privacy and darkness with its enclosure and future storage without changing the window wall.",
+      "day": "Ivory sheers filter light; opaque layers open clear of the two planned openings.",
+      "night": "Fully close blackout at both confirmed sleeping-room windows, with the exact same bed/door/closet geometry as day.",
+      "installation": "Provisional existing allowance retained. Coordinate tracks, returns, support and operation with the west headboard, south closet and north entry/linen route. Do not add a third center interior window from external dormer appearance or drape solid walls.",
       "goods": [
         450,
         850
@@ -495,11 +495,11 @@
       "id": "bath4",
       "system": "none",
       "recommendation": "No window treatment in the current layout",
-      "coverage": "Plan-led penthouse bathroom is windowless.",
+      "coverage": "No exterior opening shown in the plan-led Bath4; west vestibule entry, north vanity/toilet and east shower remain.",
       "why": "No exterior glazing needs dressing in the documented concept.",
       "day": "Use bathroom lighting.",
       "night": "Use the bathroom door for privacy.",
-      "installation": "Confirm the existing enclosure/services and whether there is any real exterior opening before final scope. A newly discovered window would require a wet-area privacy specification and revised allowance.",
+      "installation": "Verify the actual enclosure and services before final scope. Current zero treatment allowance stays unchanged; any newly discovered real opening requires a separately quoted wet-area privacy specification.",
       "goods": [
         0,
         0
@@ -515,11 +515,11 @@
       "id": "terrace",
       "system": "none",
       "recommendation": "No interior drapes outdoors",
-      "coverage": "Outdoor roof terrace; adjoining interior glass is covered under the loft or suite room schedule.",
+      "coverage": "Outdoor roof terrace; adjacent interior glazing is covered under loft or suite schedules. Optional outside spiral remains unconfirmed at actual house.",
       "why": "Interior sheers and blackout panels do not belong in this outdoor exposure. Existing exterior shade structures and weather-rated furniture form a separate scope.",
       "day": "Use the existing outdoor shade arrangement.",
       "night": "Close the relevant interior privacy layers from inside.",
-      "installation": "No additional exterior curtain system included; do not duplicate loft glazing costs here.",
+      "installation": "No exterior curtains or duplicated interior glazing cost. Current treatment allowance remains unchanged; confirming optional stair does not authorize a new roof or terrace extension.",
       "goods": [
         0,
         0
@@ -537,5 +537,24 @@
     "feedbackReference": "FB-017",
     "revision": "MW-F1-R05",
     "status": "Requirements updated; replacement first-floor renders and visual QA pending. Existing cost allowances and purchasing decisions are unchanged."
+  },
+  "planUpdate": {
+    "id": "MW-PLAN-R07",
+    "date": "2026-10-10",
+    "audit": "docs/mineral-walnut-plan-audit-r07.json",
+    "production": "docs/mineral-walnut-r07-production.json",
+    "status": "Visually reviewed proposed design; awaiting homeowner feedback",
+    "changedRooms": [
+      "ownerbed",
+      "retreat",
+      "ownerbath",
+      "bed2",
+      "sharedbath",
+      "laundry",
+      "stair3",
+      "loft",
+      "bed5",
+      "living"
+    ]
   }
 }

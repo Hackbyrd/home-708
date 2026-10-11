@@ -1,0 +1,616 @@
+{
+  "schemaVersion": 1,
+  "revision": "MW-F4-R07",
+  "date": "2026-10-10",
+  "designOption": "Mineral & Walnut",
+  "status": "all14_current_images_source_audited_no_candidates_generated",
+  "scope": {
+    "floor": "floor-4",
+    "rooms": [
+      "loft",
+      "bed5",
+      "bath4",
+      "terrace"
+    ],
+    "dayImages": 7,
+    "nightImages": 7,
+    "includes": "Every selected primary/secondary day and matching night on Floor 4. Bedroom 5 remains proposed new-room construction.",
+    "excludes": "No other floor, Option 2, RH-only/mixed-brand galleries, generation, publishing or construction approvals."
+  },
+  "baseline": {
+    "releaseAtInspection": "v2.0.3",
+    "commitAtInspection": "b19ba17",
+    "selectionFiles": [
+      "docs/mineral-walnut-neutral-review.json",
+      "docs/mineral-walnut-night-review.json",
+      "docs/mineral-walnut-night-angles-review.json"
+    ],
+    "preservationRule": "Baseline findings are recorded independently. No old manifests or image-selection files have been changed by this audit."
+  },
+  "summary": {
+    "inspectedImages": 14,
+    "retained": 7,
+    "retainedWithAsbuiltQualification": 4,
+    "needsReplacement": 3,
+    "majorConfigurationRepair": [
+      "B52",
+      "B52-GN02"
+    ],
+    "privacyRepair": [
+      "PL1-N4"
+    ],
+    "optionalFeatureConfirmation": [
+      "Actual exterior spiral stair and landing opening shown only in model photos/optional plan"
+    ],
+    "crossViewStagingRefinement": [
+      "Neutralize magenta outdoor source cushions visible through loft glazing",
+      "Use one table/chair selection across RT1/RT2"
+    ],
+    "unbuiltRoom": "Bedroom 5 is not an existing actual-house interior and must remain explicitly labeled proposed new-room construction."
+  },
+  "sources": [
+    {
+      "file": "assets/cf_city_home_with_georgetown_pkg.pdf",
+      "page": 4,
+      "region": "right half",
+      "role": "Penthouse room topology, openings, optional external stair and nominal dimensions; PDF has four pages, no page 5."
+    },
+    {
+      "file": "docs/design-review-assets/floor-4-r03-plan.webp",
+      "role": "Repository penthouse plan preview; fresh PDF page4 inspected at larger scale."
+    },
+    {
+      "file": "assets/Crown Georgetown Photos/fourth-floor-penthouse-loft.jpg.webp",
+      "role": "Model-home photographed shell/camera precedent; room finishes and furniture are replaceable proposals."
+    },
+    {
+      "file": "assets/Crown Georgetown Photos/fourth-floor-penthouse-bedroom-5.jpg.webp",
+      "role": "Model-home photographed shell/camera precedent; room finishes and furniture are replaceable proposals."
+    },
+    {
+      "file": "assets/Crown Georgetown Photos/fourth-floor-outdoor-living-terrace-and-sun-terrace.jpg.webp",
+      "role": "Model-home photographed shell/camera precedent; room finishes and furniture are replaceable proposals."
+    },
+    {
+      "file": "assets/Crown Georgetown Photos/fourth-floor-outdoor-living-terrace-and-sun-terrace-2.jpg.webp",
+      "role": "Model-home photographed shell/camera precedent; room finishes and furniture are replaceable proposals."
+    },
+    {
+      "file": "assets/Crown Georgetown Photos/fourth-floor-outdoor-living-terrace-and-sun-terrace-3.jpg.webp",
+      "role": "Model-home photographed shell/camera precedent; room finishes and furniture are replaceable proposals."
+    },
+    {
+      "file": "assets/Crown Georgetown Photos/fourth-floor-outdoor-living-terrace-and-sun-terrace-4.jpg.webp",
+      "role": "Model-home photographed shell/camera precedent; room finishes and furniture are replaceable proposals."
+    },
+    {
+      "file": "assets/Outside Photos/east.jpg",
+      "role": "Actual white-house exterior, roof/dormer/pergola/railing evidence; external appearance alone cannot certify an interior opening or optional external stair."
+    },
+    {
+      "file": "assets/Outside Photos/east-2.jpg",
+      "role": "Actual white-house exterior, roof/dormer/pergola/railing evidence; external appearance alone cannot certify an interior opening or optional external stair."
+    },
+    {
+      "file": "assets/Outside Photos/east-3.jpg",
+      "role": "Actual white-house exterior, roof/dormer/pergola/railing evidence; external appearance alone cannot certify an interior opening or optional external stair."
+    },
+    {
+      "file": "assets/Outside Photos/north-east-wall.jpg",
+      "role": "Actual white-house exterior, roof/dormer/pergola/railing evidence; external appearance alone cannot certify an interior opening or optional external stair."
+    },
+    {
+      "file": "assets/Outside Photos/south-east-corner-front.jpg",
+      "role": "Actual white-house exterior, roof/dormer/pergola/railing evidence; external appearance alone cannot certify an interior opening or optional external stair."
+    },
+    {
+      "file": "assets/Outside Photos/south-front.jpg",
+      "role": "Actual white-house exterior, roof/dormer/pergola/railing evidence; external appearance alone cannot certify an interior opening or optional external stair."
+    },
+    {
+      "file": "assets/Outside Photos/south-front-2.jpg",
+      "role": "Actual white-house exterior, roof/dormer/pergola/railing evidence; external appearance alone cannot certify an interior opening or optional external stair."
+    },
+    {
+      "file": "assets/Outside Photos/west-back.jpg",
+      "role": "Actual white-house exterior, roof/dormer/pergola/railing evidence; external appearance alone cannot certify an interior opening or optional external stair."
+    },
+    {
+      "file": "assets/Outside Photos/west-back-2.jpg",
+      "role": "Actual white-house exterior, roof/dormer/pergola/railing evidence; external appearance alone cannot certify an interior opening or optional external stair."
+    },
+    {
+      "file": "assets/Outside Photos/south-west-back.jpg",
+      "role": "Actual white-house exterior, roof/dormer/pergola/railing evidence; external appearance alone cannot certify an interior opening or optional external stair."
+    },
+    {
+      "file": "assets/Outside Photos/north-west-corner.jpg",
+      "role": "Actual white-house exterior, roof/dormer/pergola/railing evidence; external appearance alone cannot certify an interior opening or optional external stair."
+    },
+    {
+      "file": "assets/Outside Photos/northwest-corner-2.jpg",
+      "role": "Actual white-house exterior, roof/dormer/pergola/railing evidence; external appearance alone cannot certify an interior opening or optional external stair."
+    }
+  ],
+  "sourceHierarchy": [
+    "Explicit user decisions override decorative model staging: neutral bedroom accents, no stair runners, oak floors with loose bedroom rugs, retained selected stone materials.",
+    "Builder plan governs unbuilt Bedroom 5 and unphotographed Bath 4 topology.",
+    "Model-home photos anchor visible shell, camera and existing openings in photo-based views; unseen angles must use plan rather than invented geometry.",
+    "Actual white-house exterior governs subject roof silhouette and facade; never substitute brown-brick brochure elevation."
+  ],
+  "orientation": {
+    "printedTop": "west / rear",
+    "printedRight": "north",
+    "printedBottom": "east",
+    "printedLeft": "south / front-door facade",
+    "warning": "Use this orientation consistently; do not reuse previous floor-specific or incorrect room-book cardinal language."
+  },
+  "topology": {
+    "loft": {
+      "planReference": "23 ft 10 in × 16 ft 6 in; 11 ft high raised tray",
+      "south": "French doors with one small flanking window each side. Juliet rail outside; do not turn this into terrace entry.",
+      "west": "Wide sliding opening to outdoor living terrace; compact wet-bar window farther south in recessed alcove.",
+      "east": "TV/shared Bedroom5 headboard wall. The short furniture/dining recess at the south end follows the plan; it is not another door through the shared TV/headboard wall.",
+      "north": "Stair/open-well edge; optional elevator to northwest. Bedroom5/bath access occurs through the offset north-side vestibule around linen, not through center of TV/headboard wall.",
+      "wetBar": "Southwest recessed alcove 9 ft 3 in ×6 ft 10 in; preserve its recess and compact window, peninsula/stools and service run."
+    },
+    "bed5": {
+      "constructionStatus": "UNBUILT at actual house; all renders are future construction concepts.",
+      "planReference": "14 ft 11 in ×11 ft 1 in; flat9 ft ceiling, not a loft with roof slopes.",
+      "west": "Headboard against wall shared with loft TV.",
+      "east": "Two planned separated windows opposite the headboard; solid wall between; no extra interior center facade window.",
+      "south": "Closet and door pocket/recess shown on plan.",
+      "north": "Linen bumpout, offset bedroom entry from loft vestibule, and Bath4 beside it. Dresser can occupy remaining north wall only after measuring clearances.",
+      "roof": "Keep roof hatching/mansard exterior out of flat interior ceiling. Three east external dormer-looking units do not authorize three interior windows."
+    },
+    "bath4": {
+      "entry": "West vestibule door.",
+      "north": "Vanity nearest entry, toilet farther east, both on one wall.",
+      "east": "Shower end compartment spanning room, north-side seat and south-side showerhead.",
+      "glazing": "No exterior window on builder plan.",
+      "measurement": "No reliable printed bath dimension; fixture clearances and exact door swing require measured drawings."
+    },
+    "terrace": {
+      "zones": "North outdoor living17 ft3 in ×17 ft1 in; south dining12 ft4 in ×12 ft8 in; farther-west/south sun terrace12 ft4 in ×9 ft4 in.",
+      "loftConnection": "West loft slider opens into outdoor living. Compact bar window faces the outdoor dining zone.",
+      "fireplace": "North privacy/party-wall position shown in plan and model photos; retain position, verify actual installation. Do not call it an interior fireplace.",
+      "pergolaAndRoof": "Existing pergola, rails, privacy walls, roof edges and terrace boundaries govern; no extension/new roof. Model photo post perspective is valid in source-derived views.",
+      "outsideStair": "Model source has outside spiral down from sun-terrace edge. Plan labels it optional; actual white-house outside photos inspected do not expose it conclusively."
+    }
+  },
+  "rooms": {
+    "loft": {
+      "codes": [
+        "PL1",
+        "PL2",
+        "PL1-N4",
+        "PL2-GN02"
+      ],
+      "architectureEvidence": "Photo and plan"
+    },
+    "bed5": {
+      "codes": [
+        "B51",
+        "B52",
+        "B51-N4",
+        "B52-GN02"
+      ],
+      "architectureEvidence": "Unbuilt-room plan plus model precedent"
+    },
+    "bath4": {
+      "codes": [
+        "PBA1",
+        "PBA1-N4"
+      ],
+      "architectureEvidence": "Plan only; no labeled model-home bath photograph"
+    },
+    "terrace": {
+      "codes": [
+        "RT1",
+        "RT2",
+        "RT1-N4",
+        "RT2-GN01"
+      ],
+      "architectureEvidence": "Photo and plan"
+    }
+  },
+  "images": [
+    {
+      "room": "loft",
+      "code": "PL1",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r02/loft-pl1-day-30521.png",
+      "jobId": "54572b03-45da-40b4-8db9-cd0faed2eba4",
+      "inspected": true,
+      "disposition": "retained",
+      "findings": [
+        "Matches the original photo camera: south French doors with one small flanking window each side on image-left; wide west terrace sliding opening on image-right; recessed southwest bar with its compact west window.",
+        "Raised tray, bar recess, two stools, two pendants and original opening rhythm survive; oak, mineral walls, walnut and low-pile rug are authorized design changes.",
+        "The view looks toward the south/west corner; it does not reveal the north stair edge or the Bedroom 5 vestibule behind the camera.",
+        "Magenta model-home outdoor cushions remain visible through glass, unlike neutral current terrace staging. A minor adjoining-view furnishing cleanup is desirable; this is not an opening error."
+      ],
+      "requiredSources": [
+        "assets/Crown Georgetown Photos/fourth-floor-penthouse-loft.jpg.webp",
+        "assets/cf_city_home_with_georgetown_pkg.pdf"
+      ],
+      "exactDayPartner": null,
+      "candidateQA": null,
+      "finalFile": null,
+      "finalOutcome": "baseline_only_no_new_generation"
+    },
+    {
+      "room": "loft",
+      "code": "PL2",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r01/loft-pl2-day.png",
+      "jobId": "01590af8-23d1-4809-8f47-23be656949cb",
+      "inspected": true,
+      "disposition": "retained",
+      "findings": [
+        "Same photographed south/west corner from a modestly shifted companion camera. The French doors, two flank windows, bar recess/window and west slider remain coherent with PL1 and the original.",
+        "Companion view, not a reverse view of the stair/bedroom-entry side. Do not describe it as proof of the whole penthouse circulation.",
+        "Minor magenta outdoor source upholstery remains visible through glazing and could be coordinated with the selected neutral terrace furniture."
+      ],
+      "requiredSources": [
+        "assets/Crown Georgetown Photos/fourth-floor-penthouse-loft.jpg.webp",
+        "assets/cf_city_home_with_georgetown_pkg.pdf"
+      ],
+      "exactDayPartner": null,
+      "candidateQA": null,
+      "finalFile": null,
+      "finalOutcome": "baseline_only_no_new_generation"
+    },
+    {
+      "room": "loft",
+      "code": "PL1-N4",
+      "scene": "night",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r02/loft-pl1-n4-night-32521.png",
+      "jobId": "a3ffb41b-28a4-4baf-93cd-ecfd08f9653f",
+      "inspected": true,
+      "disposition": "needs_replacement",
+      "findings": [
+        "Camera, furniture, bar, tray and door/window geometry remain aligned with PL1 day.",
+        "Both small windows flanking the French doors retain dark exposed lower glazing strips under only partly lowered shades. This conflicts with the current manifest claim that all applicable privacy layers are fully closed.",
+        "Repair only these two shade drops/opacity; preserve every opening, lamp, tray and furnishing. The original tray permits the shown cove lighting; it is not an invented ceiling form."
+      ],
+      "requiredSources": [
+        "assets/Crown Georgetown Photos/fourth-floor-penthouse-loft.jpg.webp",
+        "assets/cf_city_home_with_georgetown_pkg.pdf"
+      ],
+      "exactDayPartner": "assets/render-candidates/mineral-walnut-architecture/r02/loft-pl1-day-30521.png",
+      "candidateQA": null,
+      "finalFile": null,
+      "finalOutcome": "baseline_only_no_new_generation"
+    },
+    {
+      "room": "loft",
+      "code": "PL2-GN02",
+      "scene": "night",
+      "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/loft-pl2-night.png",
+      "jobId": "5c8cdf93-97a2-4a72-91a5-f04255fa4f8e",
+      "inspected": true,
+      "disposition": "retained",
+      "findings": [
+        "Matches PL2 geometry and furnishings. Both flank windows, French-door glazing, bar window and terrace slider appear fully covered for privacy.",
+        "This is a night privacy study, not a measured fabric/fixture specification. Keep traversing/door-operating provisions in the installation notes."
+      ],
+      "requiredSources": [
+        "assets/Crown Georgetown Photos/fourth-floor-penthouse-loft.jpg.webp",
+        "assets/cf_city_home_with_georgetown_pkg.pdf"
+      ],
+      "exactDayPartner": "assets/render-candidates/mineral-walnut-architecture/r01/loft-pl2-day.png",
+      "candidateQA": null,
+      "finalFile": null,
+      "finalOutcome": "baseline_only_no_new_generation"
+    },
+    {
+      "room": "bed5",
+      "code": "B51",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r02/bed5-b51-day-30522.png",
+      "jobId": "9537c1a6-4c96-4078-9e98-4e1b84e88e11",
+      "inspected": true,
+      "disposition": "retained",
+      "findings": [
+        "Photo-precedent camera toward the west/shared-loft bed wall and north offset entry return matches the original: flat ceiling, headboard on image-left, vertical projection and far-right doorway alcove.",
+        "Natural oak and a loose oatmeal rug replace model carpet intentionally. Neutral mushroom, charcoal, ivory and walnut retain Option 1.",
+        "Room is unbuilt at the actual house. Retain as a proposed room only; this source camera does not verify the east windows or south closet."
+      ],
+      "requiredSources": [
+        "assets/Crown Georgetown Photos/fourth-floor-penthouse-bedroom-5.jpg.webp",
+        "assets/cf_city_home_with_georgetown_pkg.pdf"
+      ],
+      "exactDayPartner": null,
+      "candidateQA": null,
+      "finalFile": null,
+      "finalOutcome": "baseline_only_no_new_generation"
+    },
+    {
+      "room": "bed5",
+      "code": "B52",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r02/bed5-b52-day-31522.png",
+      "jobId": "75d82e6b-3619-4016-9ac6-c44dd9f98e8f",
+      "inspected": true,
+      "disposition": "needs_replacement",
+      "findings": [
+        "Two separated planned east windows appear on the far wall, but the visible headboard sits on the adjacent image-right wall. The bed extends across the image toward image-left rather than toward the east window wall.",
+        "The builder plan puts the headboard on the west wall shared with the loft TV, directly opposite the east window pair. This camera has effectively rotated the bed 90 degrees relative to that required window wall.",
+        "A cropped finish view cannot resolve this orientation. Replace with a genuine plan-derived reverse/diagonal view, keeping the west headboard and east pair opposite; north dresser/linen-entry route and south closet must stay on their respective sides.",
+        "Do not turn the three external dormer-looking units into three interior windows. The plan has two interior openings with solid wall between; exterior photos alone do not identify the center facade treatment as operable glazing."
+      ],
+      "requiredSources": [
+        "assets/Crown Georgetown Photos/fourth-floor-penthouse-bedroom-5.jpg.webp",
+        "assets/cf_city_home_with_georgetown_pkg.pdf"
+      ],
+      "exactDayPartner": null,
+      "candidateQA": null,
+      "finalFile": null,
+      "finalOutcome": "baseline_only_no_new_generation"
+    },
+    {
+      "room": "bed5",
+      "code": "B51-N4",
+      "scene": "night",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r01/bed5-night.png",
+      "jobId": "9df488e6-e959-4abd-9503-721afc07c262",
+      "inspected": true,
+      "disposition": "retained",
+      "findings": [
+        "Retains B51 headboard, vertical doorway return, door, dresser, oak and loose rug without adding exterior openings.",
+        "Two shaded bedside lamps give a consistent neutral night study. No bedroom color accents or invented LEDs.",
+        "Actual Bedroom 5 remains unbuilt; an illustration is not a surveyed existing room."
+      ],
+      "requiredSources": [
+        "assets/Crown Georgetown Photos/fourth-floor-penthouse-bedroom-5.jpg.webp",
+        "assets/cf_city_home_with_georgetown_pkg.pdf"
+      ],
+      "exactDayPartner": "assets/render-candidates/mineral-walnut-architecture/r02/bed5-b51-day-30522.png",
+      "candidateQA": null,
+      "finalFile": null,
+      "finalOutcome": "baseline_only_no_new_generation"
+    },
+    {
+      "room": "bed5",
+      "code": "B52-GN02",
+      "scene": "night",
+      "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/bed5-b52-night.png",
+      "jobId": "26b6b5e9-b4e3-4b48-b534-4d2cdef449b3",
+      "inspected": true,
+      "disposition": "needs_replacement",
+      "findings": [
+        "Faithfully retains B52 furnishings and closes both blackout layers, but also faithfully repeats the wrong headboard-to-window orientation.",
+        "Regenerate only after the corrected B52 day passes plan/cross-view QA; derive night from that exact selected file."
+      ],
+      "requiredSources": [
+        "assets/Crown Georgetown Photos/fourth-floor-penthouse-bedroom-5.jpg.webp",
+        "assets/cf_city_home_with_georgetown_pkg.pdf"
+      ],
+      "exactDayPartner": "assets/render-candidates/mineral-walnut-architecture/r02/bed5-b52-day-31522.png",
+      "candidateQA": null,
+      "finalFile": null,
+      "finalOutcome": "baseline_only_no_new_generation"
+    },
+    {
+      "room": "bath4",
+      "code": "PBA1",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r02/bath4-pba1-day-30523.png",
+      "jobId": "02fba582-7b3b-4472-8d30-febad932f4c7",
+      "inspected": true,
+      "disposition": "retained",
+      "findings": [
+        "Plan-led camera from the west vestibule toward the east shower. Vanity and toilet are on the same north wall, shown image-right; shower spans the far east end with north/right seat and south/left showerhead.",
+        "Windowless shell and doorway location are coherent with page 4. Ivory stone-look porcelain, walnut and restrained dark hardware suit the selected theme.",
+        "Room-design-book cardinal wording is stale: it says east toilet/southern shower. Correct prose to north-wall vanity plus toilet and east-end shower when integrating; do not change these images to follow that stale prose."
+      ],
+      "requiredSources": [
+        "assets/cf_city_home_with_georgetown_pkg.pdf"
+      ],
+      "exactDayPartner": null,
+      "candidateQA": null,
+      "finalFile": null,
+      "finalOutcome": "baseline_only_no_new_generation"
+    },
+    {
+      "room": "bath4",
+      "code": "PBA1-N4",
+      "scene": "night",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r01/bath4-night.png",
+      "jobId": "544233aa-8f7c-45c3-a340-3ace3dfa601e",
+      "inspected": true,
+      "disposition": "retained",
+      "findings": [
+        "Same plan-led shell, shower glass/seat/head, same-wall vanity/toilet and finishes as PBA1; no invented daylight opening.",
+        "Vanity task lights and readable general/shower illumination remain coherent. This windowless room naturally shows less day/night visual contrast."
+      ],
+      "requiredSources": [
+        "assets/cf_city_home_with_georgetown_pkg.pdf"
+      ],
+      "exactDayPartner": "assets/render-candidates/mineral-walnut-architecture/r02/bath4-pba1-day-30523.png",
+      "candidateQA": null,
+      "finalFile": null,
+      "finalOutcome": "baseline_only_no_new_generation"
+    },
+    {
+      "room": "terrace",
+      "code": "RT1",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r01/terrace-rt1-day.png",
+      "jobId": "984b7551-8036-4c28-ab15-a26b8c1bf20b",
+      "inspected": true,
+      "disposition": "retained_with_asbuilt_qualification",
+      "findings": [
+        "Matches terrace original -3 camera: original pergola beam/post perspective, sails/string-light paths, railing, nearby roof silhouettes and north fireplace/privacy wall are retained.",
+        "Actual white-house outside photos confirm the roof-terrace massing, existing pergola and railing; they do not establish every model-home terrace accessory or fireplace detail.",
+        "Neutral lounge/teak-toned staging is an intentional design proposal. The six-seat table/chairs differ in silhouette/finish from RT2; a single furniture schedule should resolve this before any comprehensive final furniture set.",
+        "No house roof enlargement or raised roof is apparent. Visible neighboring roofs are source-photo context, not the subject house roof."
+      ],
+      "requiredSources": [
+        "assets/Crown Georgetown Photos/fourth-floor-outdoor-living-terrace-and-sun-terrace-3.jpg.webp",
+        "assets/cf_city_home_with_georgetown_pkg.pdf"
+      ],
+      "exactDayPartner": null,
+      "candidateQA": null,
+      "finalFile": null,
+      "finalOutcome": "baseline_only_no_new_generation"
+    },
+    {
+      "room": "terrace",
+      "code": "RT2",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r02/terrace-rt2-day-31524.png",
+      "jobId": "27456ab8-a6f1-477e-965d-cdfcd41b0cda",
+      "inspected": true,
+      "disposition": "retained_with_asbuilt_qualification",
+      "findings": [
+        "Matches original -2 opposing terrace camera: near-right egg chair, near-left pergola post and house wall, south dining zone, open west rail and model-home spiral stair/landing opening.",
+        "The builder plan labels the outside spiral optional. Actual west-back/south-west-back photos do not clearly expose this opening or stair behind parapet/privacy screen; neither installation nor absence is proved.",
+        "Do not remove a clearly photographed model-home spiral blindly, and do not certify it as present at the actual house. Settle this single optional feature before an exact actual-house RT2 revision.",
+        "Dining table/chair selection differs from RT1; structure remains source-consistent, but future paired furnishing edits should use one coherent dining set."
+      ],
+      "requiredSources": [
+        "assets/Crown Georgetown Photos/fourth-floor-outdoor-living-terrace-and-sun-terrace-2.jpg.webp",
+        "assets/cf_city_home_with_georgetown_pkg.pdf"
+      ],
+      "exactDayPartner": null,
+      "candidateQA": null,
+      "finalFile": null,
+      "finalOutcome": "baseline_only_no_new_generation"
+    },
+    {
+      "room": "terrace",
+      "code": "RT1-N4",
+      "scene": "night",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r01/terrace-night.png",
+      "jobId": "8b7b8772-f6d3-4b88-b6ad-b60efc72afd2",
+      "inspected": true,
+      "disposition": "retained_with_asbuilt_qualification",
+      "findings": [
+        "Same RT1 roofscape, pergola, sails, railings, fireplace wall and furniture; genuine dark sky and existing string-light effect.",
+        "Retain as the night of the model-anchored proposed terrace; confirm actual outdoor fireplace installation independently before contractor pricing or as-built claims."
+      ],
+      "requiredSources": [
+        "assets/Crown Georgetown Photos/fourth-floor-outdoor-living-terrace-and-sun-terrace-3.jpg.webp",
+        "assets/cf_city_home_with_georgetown_pkg.pdf"
+      ],
+      "exactDayPartner": "assets/render-candidates/mineral-walnut-architecture/r01/terrace-rt1-day.png",
+      "candidateQA": null,
+      "finalFile": null,
+      "finalOutcome": "baseline_only_no_new_generation"
+    },
+    {
+      "room": "terrace",
+      "code": "RT2-GN01",
+      "scene": "night",
+      "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/terrace-rt2-night.png",
+      "jobId": "8dc4fa3d-dcba-47a2-bbb7-28ad81463bb3",
+      "inspected": true,
+      "disposition": "retained_with_asbuilt_qualification",
+      "findings": [
+        "Same RT2 posts/beam geometry, sails, rails, egg chair, dining furniture and model spiral landing, with warm string lights and dark sky.",
+        "Shares RT2 optional-stair/as-built qualification and cross-view dining-set mismatch; night itself does not introduce a room-configuration change."
+      ],
+      "requiredSources": [
+        "assets/Crown Georgetown Photos/fourth-floor-outdoor-living-terrace-and-sun-terrace-2.jpg.webp",
+        "assets/cf_city_home_with_georgetown_pkg.pdf"
+      ],
+      "exactDayPartner": "assets/render-candidates/mineral-walnut-architecture/r02/terrace-rt2-day-31524.png",
+      "candidateQA": null,
+      "finalFile": null,
+      "finalOutcome": "baseline_only_no_new_generation"
+    }
+  ],
+  "correctionJobsProposed": [
+    {
+      "code": "B52-R07",
+      "priority": 1,
+      "modelWorkflow": "Higgsfield image-edit with source image in; never text-to-image.",
+      "requiredSources": [
+        "assets/Crown Georgetown Photos/fourth-floor-penthouse-bedroom-5.jpg.webp",
+        "assets/render-candidates/mineral-walnut-architecture/r02/bed5-b51-day-30522.png",
+        "assets/cf_city_home_with_georgetown_pkg.pdf",
+        "docs/design-review-assets/floor-4-r03-plan.webp"
+      ],
+      "prompt": "Create a corrected alternate camera of this SAME proposed Bedroom 5 using source photo plus builder penthouse plan. Preserve neutral Mineral & Walnut: mushroom walls, thin painted headboard frame, charcoal upholstered bed, ivory bedding, black lamps, walnut bedside/dresser, natural oak and separate oatmeal rug, flat 9-ft ceiling. The plan is oriented top WEST, right NORTH, bottom EAST, left SOUTH. Headboard stays on WEST wall shared with loft TV, and bed extends toward TWO separated EAST windows directly OPPOSITE. Current reverse wrongly puts the headboard on a wall perpendicular to windows; repair that 90-degree rotation. Place camera near west/south closet-side corner looking diagonally east/north over the bed toward the east window pair. The west headboard is behind/left of the camera, not against the image-right/north wall. North dresser/offset entry/linen route stay north; closet remains south. Show an intelligible section of bed and the east window pair with blank central wall, plus north-side storage/entry if camera permits. Do not invent a third window, sloped ceiling, beam, door in the headboard center or giant room. Ivory sheers with open blackout layers at the two actual/planned windows. Match source furniture and keep the room compact; unbuilt concept, not measured construction.",
+      "primaryImageInput": {
+        "code": "B51",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/bed5-b51-day-30522.png",
+        "jobId": "9537c1a6-4c96-4078-9e98-4e1b84e88e11"
+      },
+      "rejectedGeometryReference": {
+        "code": "B52",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/bed5-b52-day-31522.png",
+        "jobId": "75d82e6b-3619-4016-9ac6-c44dd9f98e8f",
+        "instruction": "Do not use this as a shell/bed-orientation source; it contains the rotated-bed error."
+      }
+    },
+    {
+      "code": "B52-N-R07",
+      "priority": 1,
+      "after": "Selected B52-R07 day passes plan and B51 cross-view QA.",
+      "requiredSources": [
+        "Exact selected corrected B52 day file"
+      ],
+      "prompt": "Edit only time of day and operation of curtains in this exact corrected Bedroom5 camera. Preserve every wall, headboard/window orientation, closet/entry/linen placement, furniture piece, finish and rug. Fully close opaque neutral blackout curtains at BOTH east windows with no daylight gaps; same two bedside lamps softly warm, ceiling dimmed, room readable. No new openings, color accents, fixtures or LEDs."
+    },
+    {
+      "code": "PL1-N-R07",
+      "priority": 2,
+      "requiredSources": [
+        "assets/render-candidates/mineral-walnut-architecture/r02/loft-pl1-n4-night-32521.png",
+        "assets/render-candidates/mineral-walnut-architecture/r02/loft-pl1-day-30521.png",
+        "assets/Crown Georgetown Photos/fourth-floor-penthouse-loft.jpg.webp"
+      ],
+      "prompt": "Small precise image edit of this SAME loft night camera. The TWO small windows flanking the left French doors currently have exposed dark LOWER glazing below their partly lowered shades. Extend ONLY those two existing opaque neutral privacy shades fully down to their lower window/sill edges so each entire glazed rectangle is covered, no exposed dark strips. Keep French doors, terrace sliding opening, bar window and their already closed privacy layers exactly as existing. Preserve tray, camera, all furniture, two stools, bar joinery, lamps, pendants, floor, rug and warm dimmed lighting. Do not move or erase windows, widen doors or add fixtures.",
+      "primaryImageInput": {
+        "code": "PL1-N4",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/loft-pl1-n4-night-32521.png",
+        "jobId": "a3ffb41b-28a4-4baf-93cd-ecfd08f9653f"
+      },
+      "exactDayPartner": {
+        "code": "PL1",
+        "file": "assets/render-candidates/mineral-walnut-architecture/r02/loft-pl1-day-30521.png",
+        "jobId": "54572b03-45da-40b4-8db9-cd0faed2eba4"
+      }
+    }
+  ],
+  "optionalRefinements": [
+    {
+      "scope": "Loft PL1/PL2 day",
+      "instruction": "If polishing the adjoining view, use current neutral terrace furniture/pillow palette visible through glass while retaining all window/door frames. Not a reason to rerender the interior shell."
+    },
+    {
+      "scope": "Terrace all views",
+      "instruction": "Choose one outdoor six-seat dining table/chair set and reuse it in both cameras; current RT1 dark-framed rectangular table and RT2 all-wood square-ish set do not represent one furniture selection. Retain source geometry, not a generic patio."
+    },
+    {
+      "scope": "Optional future loft reverse camera",
+      "instruction": "Add a plan-derived view toward north stair/open-well and offset east Bedroom5 vestibule if full circulation coverage is wanted. Current two source-corner cameras are structurally acceptable but do not verify those unseen features."
+    }
+  ],
+  "activeDocumentationCorrectionsForRoot": [
+    "Room-design-book bath4 architecture lock cardinal wording is wrong: vanity and toilet belong on NORTH wall; shower belongs on EAST end; west hall entry is correct. Current images already show correct same-wall topology.",
+    "Replace B52 evidence claiming a true opposing plan-correct perspective after a new day/night pair is approved. Current headboard/window relation is not plan-correct.",
+    "Loft primary night evidence claiming fully closed applicable lower privacy layers is overstated until both flank shade strips are repaired.",
+    "Do not claim model-home terrace optional spiral/fireplace or model-neighbor panorama is a measured as-built actual-house inventory."
+  ],
+  "questionsForHomeowner": [
+    {
+      "priority": "Before exact actual-house terrace circulation is finalized",
+      "question": "Does the actual house have the exterior spiral staircase from the roof sun terrace to the lower terrace, as shown in the model-home photos?",
+      "evidence": "Model terrace photos clearly show it and blueprint labels optional. Actual rear exterior photos hide this location; do not infer either presence or absence."
+    }
+  ],
+  "galleryFloorCoverageDescriptionProposed": "Explore the penthouse lounge, proposed new Bedroom5, compact guest bath and rooftop living/dining/sun terraces. Lounge and terrace views use the model-home camera and visible shell; Bedroom5 is unbuilt and follows the builder plan. Bath4 is plan-led. The lounge companion cameras do not show the stair/bedroom-entry side, and the optional exterior spiral must be confirmed at the actual house. All dimensions are builder references pending field measurements.",
+  "fieldMeasurementCaveat": "This audit checks visible architectural relationships and source consistency, not fabrication dimensions, construction approval, window operability, egress, electrical/plumbing routing or fixture clearances. Use measured plans, actual opening inventory and coordinated shop/installation drawings before ordering/building. No new structural recess or roof enlargement is authorized.",
+  "qaRequiredBeforeIntegration": [
+    "Correct B52 west headboard opposite east windows; never accept a perpendicular headboard/window wall.",
+    "Check new B52 against B51 north offset doorway return and one furniture schedule.",
+    "Generate B52 night only from exact approved day and preserve geometry.",
+    "Close both small loft flank privacy shades completely without changing their casings/glazing.",
+    "Retain neutral bedrooms, oak/loose rug and no runners; preserve selected Option1 mineral/stone/walnut rather than Option2 silver/chrome/blue styling.",
+    "Do not approve or claim actual optional terrace features without evidence."
+  ],
+  "candidateQA": []
+}

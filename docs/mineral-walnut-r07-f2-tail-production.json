@@ -1,0 +1,575 @@
+{
+  "version": "MW-PLAN-R07-F2-TAIL",
+  "date": "2026-10-10",
+  "status": "complete_ready_for_root_merge",
+  "model": "nano_banana_2_1",
+  "scope": "Mineral & Walnut dining D2 and living LR1/LR2 only; no active review changes",
+  "orientation": "Printed top=WEST,right=NORTH,bottom=EAST,left=SOUTH",
+  "method": "Image edits with approved views, actual model-home evidence and blueprint; strict topology QA; night candidates derive from exact selected day",
+  "jobs": [
+    {
+      "index": 71100,
+      "job_id": "3a55de2b-6016-4cb2-90e3-585e18b7e881",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "room": "living",
+      "code": "LR1",
+      "scene": "day",
+      "sourceJobId": "c841ad50-94bd-4d79-b5a3-81a06b09e137",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a5.png",
+      "referenceFiles": [
+        "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a5.png",
+        "assets/render-candidates/mineral-walnut-floor-two/r07/refs/front-suite-plan.png"
+      ],
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "c841ad50-94bd-4d79-b5a3-81a06b09e137"
+          },
+          {
+            "role": "image",
+            "value": "234c69bf-a7aa-4709-9237-7f7d0bbed95b"
+          }
+        ],
+        "prompt": "Precise LOCAL photographic image edit of reference1. Change ONLY the ORIENTATION of the black baby grand and its bench in its existing NORTHWEST position at camera-left foreground. It is currently backwards. ROTATE the piano 180 degrees in place: its ROUNDED CURVED TAIL/BODY must be closest to camera at near-left; its STRAIGHT KEYBOARD end and bench must be on FAR-RIGHT/SOUTHEAST side, farther from camera toward the east windows/coffee table. The player would sit on that far-right bench facing diagonally BACK toward northwest/camera-left. Therefore the keyboard must NOT face the foreground/camera; keys and bench may be mostly hidden behind the rounded piano body, naturally occluded. Show rounded tail to foreground, NOT full front keys to foreground. Same compact 5-foot black grand, no logo, same open lid. Reference2 printed plan topWEST/rightNORTH/bottomEAST/leftSOUTH confirms diagonal tailNW/keyboardSE. Keep EVERY other pixel/object composition: TWO separate ivory sofas in L; long sofa against east facade, short sofa BACK toward dining; same rectangular walnut coffee table, rugs, endtables, two curved boucle occasional chairs ONLY in Dining, 8 dining chairs/table/pendant, FIVE openings along ONE straight east facade, solid north wall and art, oakfloor, curtains, ceiling, finishes and this exact camera. Do not add/remove furniture except reorient this piano+bench. No new window/stair/door/partition."
+      },
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a6.png",
+      "qaStatus": "approved_design_visualization",
+      "selected": true,
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034349_3a55de2b-6016-4cb2-90e3-585e18b7e881.png",
+      "jobId": "3a55de2b-6016-4cb2-90e3-585e18b7e881",
+      "qaNote": "Curved piano tail foreground, keyboard/bench far-right southeast naturally occluded. Camera, five east openings, solid north and two L sofas preserved. Interpretive plan-led image QA, not a construction measurement or homeowner approval.",
+      "evidenceType": "Plan-led derived living camera with adjacent model-home photo evidence",
+      "evidence": "Visually checked against fresh printed plan, selected D1/LR1 furniture and same-camera day/night; actual dimensions and installations require site verification.",
+      "independentQAStatus": "passed"
+    },
+    {
+      "index": 71101,
+      "room": "dining",
+      "code": "D2",
+      "scene": "day",
+      "sourceJobId": "0eb43588-a98d-4195-9820-fdb6d859d824",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/dining-d1-day.png",
+      "referenceFiles": [
+        "assets/render-candidates/mineral-walnut-plan/r07/dining-d1-day.png",
+        "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a6.png",
+        "assets/Crown Georgetown Photos/second-floor-formal-dining.jpg.webp",
+        "assets/render-candidates/mineral-walnut-floor-two/r07/refs/front-suite-plan.png"
+      ],
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/dining-d2-day.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "0eb43588-a98d-4195-9820-fdb6d859d824"
+          },
+          {
+            "role": "image",
+            "value": "3a55de2b-6016-4cb2-90e3-585e18b7e881"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-2-r02-dining-original-1.webp"
+          },
+          {
+            "role": "image",
+            "value": "234c69bf-a7aa-4709-9237-7f7d0bbed95b"
+          }
+        ],
+        "prompt": "Derive a NEW photoreal camera by IMAGE EDIT of approved D1+LR1, original dining photo and plan crop. Copy EXACT approved furniture/finishes and PLAN positions. Camera IN dining SOUTHWEST corner, eye1.5m, looking NORTHEAST across completely OPEN dining/living seam. East facade is screen-RIGHT; salon ahead. Foreground dining walnut table long axis SOUTH-NORTH, EIGHT slim ivory table chairs (3 each long side+1 each end), same rug/curved opal-dark pendant/sideboard. Exactly TWO soft curved boucle occasional chairs at the EAST-facade DINING corners, as D1; no salon chair. Beyond: TWO SEPARATE ivory sofas in an L, not sectional/opposing sofas: long sofa at EAST windows facing WEST; short sofa across SOUTH dining boundary with BACK toward this dining camera, facing NORTH. Same rectangular walnut coffee table axis EAST-WEST, rug/end tables. Compact black baby grand at far-LEFT NORTHWEST/stair-side end: tailNW, keyboard/bench diagonally SOUTHEAST, not facing camera southwest; bench may be partly occluded. Screen-RIGHT facade is ONE straight plane: near→far TWO tall dining rectangles with shallow transoms, ONE SMALL HIGH-SILL arch/shallow shelf, TWO tall salon rectangles/transoms. No corner/bend beside arch, duplicate arch, or farNORTH window; northwall SOLID behind false facade window. TWO dining SOUTH arches are BEHIND this camera; do NOT force them into far wall. Continuous flat ceiling/oak floor, crown at real outer walls; NO seam partition/portal/pier/header/arch. Compact dining12ft11x15ft3 and salon16ftx11ft4, not ballroom. Mineral ivory/walnut/oatmeal/black, sheers+raised privacy layers, plants only. Hall/stair context only where plan supports it; no invented stair through solid northwall."
+      },
+      "job_id": "475a9d65-9b5f-49fd-a351-7a67ac4dcb9e",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[3].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "qaStatus": "rejected",
+      "selected": false,
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034557_475a9d65-9b5f-49fd-a351-7a67ac4dcb9e.png",
+      "jobId": "475a9d65-9b5f-49fd-a351-7a67ac4dcb9e",
+      "qaNote": "Rejected: third salon sofa creates U layout; east-facade dining/salon opening order reversed from southwest dining camera.",
+      "evidenceType": "Plan-led opposing camera with original dining photo evidence"
+    },
+    {
+      "index": 71102,
+      "room": "living",
+      "code": "LR2",
+      "scene": "day",
+      "sourceJobId": "3a55de2b-6016-4cb2-90e3-585e18b7e881",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a6.png",
+      "referenceFiles": [
+        "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a6.png",
+        "assets/render-candidates/mineral-walnut-plan/r07/dining-d1-day.png",
+        "assets/Crown Georgetown Photos/second-floor-spiral-staircase.jpg.webp",
+        "assets/render-candidates/mineral-walnut-floor-two/r07/refs/front-suite-plan.png"
+      ],
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/living-lr2-day.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "3a55de2b-6016-4cb2-90e3-585e18b7e881"
+          },
+          {
+            "role": "image",
+            "value": "0eb43588-a98d-4195-9820-fdb6d859d824"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-2-r02-stair2-original-1.webp"
+          },
+          {
+            "role": "image",
+            "value": "234c69bf-a7aa-4709-9237-7f7d0bbed95b"
+          }
+        ],
+        "prompt": "Derive a genuine REVERSE photo by IMAGE EDIT of final LR1+D1 using plan and actual stairphoto for adjacent guard/trim context. EXACT same room/furniture positions. Camera on living EAST/window side just in front of longsofa, eye1.5m, looking WEST across walnut table toward hall. Physical NORTH screen-RIGHT; SOUTH/dining screen-LEFT. Long ivory three-seat sofa remains at EAST windows BEHIND/undercamera; cropped neararm/seat may enter bottomforeground, never move it to farwall. Short SEPARATE ivory two-seat sofa on LEFT along southern dining boundary, backtoward Dining atfarleft, facing RIGHT/NORTH into salon. Two sofas formL, not opposite/sectional. Same walnut RECTANGULAR coffee table axis EAST-WEST towardcamera, oatmealrug/endtables. Black compact babygrand at FAR-RIGHT/NORTHWEST stair-side corner: tailNW, keyboarddiagonal SOUTHEAST toward nearLEFT/roomcentre, benchon itsSEside. Northwall screenRIGHT remains SOLID behind falseoutsidewindow, withsame neutralart. WEST/hall relation followsplan: only supported open circulation/cropped white stairguard, no invented northwall stair/portal. Dining visible through OPEN seam LEFT: same walnut table axisSOUTH-NORTH, EIGHT chairs, samependant/sideboard; exactly TWO curvedboucle occasionalchairs stay at EASTfacade Diningcorners (may be hidden), neveradd salonchair. FIVE EASTfacade windows are on ONEplane BEHINDcamera:2diningrectangles+smallHIGHarch+2salonrectangles. DoNOT relocate them to WEST/NORTH forbrightness. Southdiningarches onlyappear obliquelyfarleft ifreal sightlineallows. Continuousoakfloor/flatceiling; NO seamwall/pier/header/arch. Compact16ftx11ft4salon, mineralivory/walnut/oatmeal/black, sheers/privacylayers/plants only; nochrome orcoloraccents."
+      },
+      "job_id": "db7583c0-0b68-446d-b54f-d56269613177",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[3].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "qaStatus": "rejected",
+      "selected": false,
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034557_db7583c0-0b68-446d-b54f-d56269613177.png",
+      "jobId": "db7583c0-0b68-446d-b54f-d56269613177",
+      "qaNote": "Rejected pending local decor repair: west hall/stair topology and two L sofas passed independent root QA; old model-home great-room furniture through far arch conflicts with current canonical room.",
+      "evidenceType": "Plan-led derived living camera with adjacent model-home photo evidence"
+    },
+    {
+      "index": 71103,
+      "room": "living",
+      "code": "LR1",
+      "sourceCode": "LR1",
+      "scene": "night",
+      "sourceJobId": "3a55de2b-6016-4cb2-90e3-585e18b7e881",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a6.png",
+      "referenceFiles": [
+        "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a6.png"
+      ],
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "3a55de2b-6016-4cb2-90e3-585e18b7e881"
+          }
+        ],
+        "prompt": "Create an EXACT same-camera NIGHT image EDIT of this approved living/dining photo. Preserve every architectural opening, crop, furniture size/position/orientation: TWO separate L sofas, rounded grand piano tail near-left and keyboard/bench far-right behind body, same tables/rugs/art, eight-seat dining and two dining corner chairs. Preserve mineral ivory walls, natural light oak, medium walnut, neutral fabrics. Night outside. Turn on warm 2700K table lamps and dining pendant; dim ceiling downlights modestly for useful believable illumination, no new fixture/cove/LED strip. Keep material colors recognizable without orange or pink cast. Close discreet opaque warm-ivory privacy shades at ALL FOUR tall rectangular east-facade windows down to their lower sills, NO clear lower strip; retain sheer curtain stacks and actual casings. High shallow transoms can remain bare where independent. Small central HIGH-SILL arched window stays bare, nightoutside. No blackout fabric across high small arch. Any distant tall south dining arches visible get full opaque privacy too. No camera/furniture/architecture changes, logos or text."
+      },
+      "job_id": "89a097a6-1a58-4ccf-a6db-737e4fbb2dd3",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "qaStatus": "rejected",
+      "selected": false,
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034556_89a097a6-1a58-4ccf-a6db-737e4fbb2dd3.png",
+      "jobId": "89a097a6-1a58-4ccf-a6db-737e4fbb2dd3",
+      "qaNote": "Rejected: four opaque privacy shades end above lower glass strips. Exact day camera and furniture otherwise preserved.",
+      "evidenceType": "Plan-led derived living camera with adjacent model-home photo evidence"
+    },
+    {
+      "index": 71104,
+      "room": "dining",
+      "code": "D2",
+      "scene": "day",
+      "sourceJobId": "0eb43588-a98d-4195-9820-fdb6d859d824",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/dining-d1-day.png",
+      "referenceFiles": [
+        "assets/render-candidates/mineral-walnut-plan/r07/dining-d1-day.png",
+        "assets/render-candidates/mineral-walnut-floor-two/r07/refs/front-suite-plan.png",
+        "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a6.png"
+      ],
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/dining-d2-day-a2.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "0eb43588-a98d-4195-9820-fdb6d859d824"
+          },
+          {
+            "role": "image",
+            "value": "234c69bf-a7aa-4709-9237-7f7d0bbed95b"
+          },
+          {
+            "role": "image",
+            "value": "3a55de2b-6016-4cb2-90e3-585e18b7e881"
+          }
+        ],
+        "prompt": "Architectural IMAGE EDIT: rotate camera from approved dining reference1 to SOUTHWEST corner of dining looking NORTHEAST. Reference2 plan is mandatory physical layout (topWEST,rightNORTH,bottomEAST,leftSOUTH); reference3 ONLY controls living furniture models and NW piano. Render THIS new camera, not reference3 camera. DINING fills foreground; SALON is only FAR background. At imageRIGHT NEAR camera there must be TWO tall rectangular DINING east windows, then farther down SAME straight rightwall ONE small high-sill arch at dining/salon junction, then at FAR RIGHT end TWO tall SALON rectangles. Correct near-to-far RIGHT window order = DINING rectangle, DINING rectangle, SMALL HIGH ARCH, SALON rectangle, SALON rectangle. All5 onONE plane; no bend/corner midway. North end farwall SOLID/no window. South2diningarches are BEHIND camera, not farwall. DINING foreground: exact walnut table longaxisNORTH-SOUTH awaycamera, EIGHT ivory chairs(3perlongside+1perend), samependant/rug/sideboard imageLEFT westwall. TWO curvedboucle occasionalchairs at dining eastcorners only. SALON FARBACKGROUND has ONLY TWO separate sofas in L: long3seat onfarRIGHT eastwindows facesWEST/LEFT; short2seat across southboundary with BACK toward foregrounddining/camera facesNORTH/awaycamera. Show its BACK, neveritsfronttowarddining. No thirdsofa, no sofa in DINING/rightforeground, noUarrangement. Same coffee table axisEAST-WEST, endtables/rug. Piano at FARLEFT/NORTHWEST nearstairhall: tailNW,keyboard/benchSE towardsaloncentre,not diningcamera. Living16ftx11ft4,dining12ft11x15ft3 residential scale. Open seam, continuousflatceiling/oakfloor NOportal,pier,header,arch or partition betweenrooms. ExactMineralivory/walnut/neutralupholstery,greenplants only,raiseprivacyshades/daylight."
+      },
+      "job_id": "35d3b468-fad4-41a9-abd8-6d0ff9ef1d67",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "selected": true,
+      "qaStatus": "approved_design_visualization",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "jobId": "35d3b468-fad4-41a9-abd8-6d0ff9ef1d67",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034950_35d3b468-fad4-41a9-abd8-6d0ff9ef1d67.png",
+      "qaNote": "SW dining camera: near-to-far east facade shows dining two rectangles, high small arch, salon two rectangles on one plane; eight table chairs and two dining corner chairs; only two separate L sofas beyond with short sofa back to dining; NW piano/SE keyboard. No new seam partition. Plan-led interpretive visualization.",
+      "evidenceType": "Plan-led opposing camera with original dining photo evidence",
+      "evidence": "Visually checked against fresh printed plan, selected D1/LR1 furniture and same-camera day/night; actual dimensions and installations require site verification.",
+      "independentQAStatus": "passed"
+    },
+    {
+      "index": 71105,
+      "room": "living",
+      "code": "LR2",
+      "scene": "day",
+      "sourceJobId": "db7583c0-0b68-446d-b54f-d56269613177",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/living-lr2-day.png",
+      "referenceFiles": [
+        "assets/render-candidates/mineral-walnut-plan/r07/living-lr2-day.png",
+        "assets/render-candidates/mineral-walnut-architecture/r01/great-gr1-day.png"
+      ],
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/living-lr2-day-a2.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "db7583c0-0b68-446d-b54f-d56269613177"
+          },
+          {
+            "role": "image",
+            "value": "ab8924ca-bb0c-491a-89b0-18d2cf558af2"
+          }
+        ],
+        "prompt": "ONE local photographic edit preserving ALL of firstimage exactly: camera,crop,twoLsofas,grandNW/benchSE,table/rugs,8seatdining/twocornerchairs,wallart,windows,weststair/hall/header/pier/guard geometry, bare oak staircase NO runner. Through the EXISTING far background arch LEFT of staircase, visible OLD patterned model-home great-room chairs/yellowcurtains/footstool are wrong. Replace ONLY this glimpse of adjacent great-room decor to match secondreference: plain oatmeal/ivory armchairs onwoodbases, OVAL solid walnut coffee table, small WALNUT C-shaped drinktable where visible, oatmealrug, ivorysheers and raisedprivacyshades. No ottoman, patternedchairs,yellowcurtains or slattedroundtable. Do not enlarge arch, change guard/stairs, addnewfurnishings elsewhere, relocate piano/sofas/diningchairs or alter camera. Allotherpixelcompositionunchanged. Pure Mineral&Walnut."
+      },
+      "job_id": "6f4ede0f-51f4-4254-b1ad-36e287781ecc",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "selected": true,
+      "qaStatus": "approved_design_visualization",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034949_6f4ede0f-51f4-4254-b1ad-36e287781ecc.png",
+      "jobId": "6f4ede0f-51f4-4254-b1ad-36e287781ecc",
+      "qaNote": "Reverse camera and blueprint furniture topology retained. Adjacent great-room glimpse now matches current plain upholstery/ivory window treatments. Eight-seat inventory partly occluded; no count inference from crop.",
+      "evidenceType": "Plan-led derived living camera with adjacent model-home photo evidence",
+      "evidence": "Visually checked against fresh printed plan, selected D1/LR1 furniture and same-camera day/night; actual dimensions and installations require site verification.",
+      "independentQAStatus": "passed"
+    },
+    {
+      "index": 71106,
+      "room": "living",
+      "code": "LR1-N-R07",
+      "sourceCode": "LR1",
+      "scene": "night",
+      "sourceJobId": "3a55de2b-6016-4cb2-90e3-585e18b7e881",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a6.png",
+      "editSourceJobId": "89a097a6-1a58-4ccf-a6db-737e4fbb2dd3",
+      "editSourceFile": "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-night.png",
+      "referenceFiles": [
+        "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-night.png",
+        "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a6.png"
+      ],
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-night-a2.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "89a097a6-1a58-4ccf-a6db-737e4fbb2dd3"
+          },
+          {
+            "role": "image",
+            "value": "3a55de2b-6016-4cb2-90e3-585e18b7e881"
+          }
+        ],
+        "prompt": "Precise LOCAL repair of FIRST NIGHT image only. All FOUR large tall rectangular windows still show unwanted DARK CLEAR GLASS STRIPS below their shade hems. Pull each opaque warm ivory roller shade ALL THE WAY DOWN to its actual LOWEST window sill, behind sofa/chairs where occluded. Full lowerglazing must be COVERED fromheadrail tobottomsill: no visible darkrectangle/strip beneath any of FOUR privacyshades. Shade material continues downward behindsofa/furniture, notstop atsofabackheight. Preserve allcasings, highsmall central archedwindow staysBARE/dark, and any independent high transoms remainunchanged. Make NO otherchanges: exactcamera,crop,pianoorientation/bench,twoLsofas,dining8chairs/twocornerchairs,ceilinglights,pendant,tablelamps,art,oakfloor,rugs,finishes/brightness. Secondreference is exactDAY compositiongeometrycontrol. No newfixture/curtain/pattern/architecture. Same nightlight, whole lower windows opaque."
+      },
+      "job_id": "eb299664-484d-4b4b-9aef-aed71841a131",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "selected": true,
+      "qaStatus": "approved_design_visualization",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034949_eb299664-484d-4b4b-9aef-aed71841a131.png",
+      "jobId": "eb299664-484d-4b4b-9aef-aed71841a131",
+      "qaNote": "Exact LR1 a6 day camera/furniture/architecture; all four tall lower windows fully opaque, high small arch bare, useful layered light. Interpretive image QA, not tested installation.",
+      "evidenceType": "Plan-led derived living camera with adjacent model-home photo evidence",
+      "evidence": "Visually checked against fresh printed plan, selected D1/LR1 furniture and same-camera day/night; actual dimensions and installations require site verification.",
+      "independentQAStatus": "passed"
+    },
+    {
+      "index": 71107,
+      "room": "living",
+      "code": "LR2-N-R07",
+      "sourceCode": "LR2",
+      "scene": "night",
+      "sourceJobId": "6f4ede0f-51f4-4254-b1ad-36e287781ecc",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/living-lr2-day-a2.png",
+      "referenceFiles": [
+        "assets/render-candidates/mineral-walnut-plan/r07/living-lr2-day-a2.png"
+      ],
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/living-lr2-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "6f4ede0f-51f4-4254-b1ad-36e287781ecc"
+          }
+        ],
+        "prompt": "EXACT same-camera NIGHT conversion of this approved reverse living image. Preserve every pixel composition: two separate L sofas, NW babygrand with keyboard/benchSE, coffee table/endtables/rugs, eight-seat dining and two curved cornerchairs, wallart, open seam and actual WEST stairhall/header/guard/arch geometry. Bare natural oak stairs NO runner. No furniture/fixture/opening moves ornewfixtures. Night outside; warm 2700K layered existing lamps/diningpendant and softly dimmable downlights, useful illumination on piano/table without orangecast; material ivory/oak/walnut colors readable. Any visible tall EAST window at extreme screenRIGHT has opaque ivory privacy shade lowered fully to LOWEST sill behindsofa, no clear glass strip. Keep ivorysheers. HIGH STAIR windows above/behind guard remain BARE/dark, not curtained; nightoutside. Through far great-room arch retain corrected plain oatmealchairs, ivorysheers/currentwalnut tables and close privacy layer on lowerterraceglazing where visible, hightransomsbare. Do not revert old patternedchairs/yellowcurtains. Exactcamera and geometry, no logos/text."
+      },
+      "job_id": "cfdca7f5-3946-4a5d-8b8a-a9c5e32f1b7a",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "selected": true,
+      "qaStatus": "approved_design_visualization",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_035118_cfdca7f5-3946-4a5d-8b8a-a9c5e32f1b7a.png",
+      "jobId": "cfdca7f5-3946-4a5d-8b8a-a9c5e32f1b7a",
+      "qaNote": "Exact LR2 71105 day geometry/furniture/camera. Bare high stair glazing, full opaque right-edge tall window, useful layered night light and corrected current great-room glimpse. Interpretive visualization, not a measured elevation.",
+      "evidenceType": "Plan-led derived living camera with adjacent model-home photo evidence",
+      "evidence": "Visually checked against fresh printed plan, selected D1/LR1 furniture and same-camera day/night; actual dimensions and installations require site verification.",
+      "independentQAStatus": "passed"
+    },
+    {
+      "index": 71108,
+      "room": "dining",
+      "code": "D2-N-R07",
+      "sourceCode": "D2",
+      "scene": "night",
+      "sourceJobId": "35d3b468-fad4-41a9-abd8-6d0ff9ef1d67",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/dining-d2-day-a2.png",
+      "referenceFiles": [
+        "assets/render-candidates/mineral-walnut-plan/r07/dining-d2-day-a2.png"
+      ],
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/dining-d2-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "resolution": "2k",
+        "thinking_level": "high",
+        "aspect_ratio": "3:2",
+        "medias": [
+          {
+            "role": "image",
+            "value": "35d3b468-fad4-41a9-abd8-6d0ff9ef1d67"
+          }
+        ],
+        "prompt": "Create EXACT same-camera NIGHT version by IMAGE EDIT of this approved dining SW→NE photo. Preserve table/EIGHT chairs, TWO curved boucle dining cornerchairs, pendant/console/art, two separate L sofas beyond with shortsofa BACK towarddining, NW piano/keyboardSE, walls/trim/fiveopeningpositions/crop and oakfloors/rugs/materials exactly. No newfixture,movedfurniture,chaircount/sofa/orientationchange. Outside NIGHT; turn on samependant and existingtablelamps, softly dim existingdownlights with useful warm2700K illumination, keep ivorywalls/walnut/oak recognizable noheavyorange/pinkcast. ALL FOUR tall rectangular EAST windows at imageRIGHT become full opaque warm-ivory privacy: lower shades fromheadrail ALL THE WAY to LOWEST sill/behindfurniture, no visible CLEAR DARK lowerglassstrip. Two nearDining rectangles AND two farSalon rectangles fully covered. High independent transoms can staybare; SMALL central HIGH-SILL arch stays BARE withnightoutside. Ivorysheercurtainstacks unchanged. SouthtwoDiningarches are behindcamera, do notaddthem toview. Samecamera/geometry/composition, no logos/text."
+      },
+      "job_id": "f2df3b51-90c8-401c-9dc3-d04398acda3e",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "selected": true,
+      "qaStatus": "approved_design_visualization",
+      "evidenceType": "Plan-led opposing camera with original dining photo evidence",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_035204_f2df3b51-90c8-401c-9dc3-d04398acda3e.png",
+      "jobId": "f2df3b51-90c8-401c-9dc3-d04398acda3e",
+      "qaNote": "Exact selected D2 71104 camera/furniture/architecture; four tall east lower windows fully opaque, high small arch bare, useful layered light. Eight table places, two dining corner chairs and two L sofas retained. Interpretive visualization.",
+      "independentQAStatus": "passed"
+    }
+  ],
+  "sourceEvidence": [
+    {
+      "file": "assets/Crown Georgetown Photos/second-floor-formal-dining.jpg.webp",
+      "role": "Actual dining architecture and trim via approved D1"
+    },
+    {
+      "file": "assets/Crown Georgetown Photos/second-floor-spiral-staircase.jpg.webp",
+      "role": "Observed west stair/hall geometry only; corrected adjacent great-room glimpse follows canonical GR1"
+    },
+    {
+      "file": "assets/render-candidates/mineral-walnut-floor-two/r07/refs/front-suite-plan.png",
+      "role": "Printed topWEST/rightNORTH/bottomEAST/leftSOUTH; controlling furniture and unseen elevations"
+    }
+  ],
+  "qaStatus": "Six selected images passed technical image QA; three rejected attempts retained as history. No homeowner approval or construction certification inferred.",
+  "pairs": [
+    {
+      "room": "living",
+      "code": "LR1",
+      "dayIndex": 71100,
+      "nightIndex": 71106
+    },
+    {
+      "room": "living",
+      "code": "LR2",
+      "dayIndex": 71105,
+      "nightIndex": 71107
+    },
+    {
+      "room": "dining",
+      "code": "D2",
+      "dayIndex": 71104,
+      "nightIndex": 71108
+    }
+  ],
+  "deliveryNote": "D1 day/night remain separately approved in root production (71002/75001). This tail adds three day/three exact matching night views only. No active reviews, option2 or budget files touched.",
+  "terminalCount": 9,
+  "independentQA": {
+    "reviewer": "Root agent visual reinspection",
+    "selectedIndices": [
+      71100,
+      71104,
+      71105,
+      71106,
+      71107,
+      71108
+    ],
+    "status": "passed_design_visualization",
+    "notes": "Root independently confirmed NW piano/SE keyboard, two separate L sofas, strict east-facade zone order, current adjacent GR glimpse, exact same-camera day/night geometry and full tall-window privacy. No homeowner approval inferred."
+  }
+}

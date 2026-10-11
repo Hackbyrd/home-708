@@ -109,25 +109,25 @@
     "living": {
       "views": [
         {
-          "id": "LR2-F206N-MW-F2-R06",
-          "version": "MW-F2-R06",
-          "code": "LR2-F206N",
-          "index": 60608,
-          "jobId": "b34ed580-91d2-4f62-98d1-5958d1f2e23e",
+          "id": "LR2-N-R07-MW-PLAN-R07",
+          "version": "MW-PLAN-R07",
+          "code": "LR2-N-R07",
+          "index": 71107,
+          "jobId": "cfdca7f5-3946-4a5d-8b8a-a9c5e32f1b7a",
           "model": "nano_banana_2_1",
-          "file": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-night.png",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/living-lr2-night.png",
           "sourceCode": "LR2",
-          "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/living-lr2-day-a2.png",
-          "sourceJobId": "0bf34c47-f34d-40b0-ac61-96d256502ef5",
+          "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/living-lr2-day-a2.png",
+          "sourceJobId": "6f4ede0f-51f4-4254-b1ad-36e287781ecc",
           "label": "Night · Living room · piano salon · LR2 camera",
           "scene": "Privacy / evening mode",
           "cct": 2700,
           "circuits": "General / portable reading light; piano task light to select after instrument placement",
-          "lighting": "Warm, low existing ceiling illumination with the adjacent dining pendant and console lamp visible in the same camera. Preserve the compact baby grand, bench, ivory sofa and walnut low table; no added chair or floor lamp. Close privacy layers behind sheers where real tall windows appear; the solid north wall receives none.",
+          "lighting": "Warm selected general/task lighting with the exact corrected diagonal northwest piano, southeast bench and two separate sofas in an L retained. Fully close privacy layers at the two real east salon windows; north false-window interior face remains solid.",
           "evidenceType": "Same-camera night edit of exact approved daytime source",
-          "evidence": "LR2 night matches exact approved LR2 day: dining left, piano right, sofa foreground, one actual butler arch at far left and solid remaining console wall; open west hall/stair guard retained. No exterior glazing is in this crop, so no invented shades/windows.",
-          "qaNote": "LR2 night matches exact approved LR2 day: dining left, piano right, sofa foreground, one actual butler arch at far left and solid remaining console wall; open west hall/stair guard retained. No exterior glazing is in this crop, so no invented shades/windows. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
-          "assetRevision": "mw-f2-r06"
+          "evidence": "Visually checked against fresh printed plan, selected D1/LR1 furniture and same-camera day/night; actual dimensions and installations require site verification.",
+          "qaNote": "Exact LR2 71105 day geometry/furniture/camera. Bare high stair glazing, full opaque right-edge tall window, useful layered night light and corrected current great-room glimpse. Interpretive visualization, not a measured elevation. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+          "assetRevision": "mw-plan-r07"
         }
       ]
     },
@@ -160,13 +160,13 @@
     "retreat": {
       "views": [
         {
-          "id": "OR1-GN01-MW-GN02",
-          "version": "MW-GN02",
-          "code": "OR1-GN01",
-          "index": 51013,
-          "jobId": "585c0a7e-1b01-4edc-89ce-302b6f2ced2b",
+          "id": "OR1-N07-MW-PLAN-R07",
+          "version": "MW-PLAN-R07",
+          "code": "OR1-N07",
+          "index": 73004,
+          "jobId": "ff291938-257d-4134-b061-670fa52a5ad3",
           "model": "nano_banana_2_1",
-          "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/retreat-or1-night.png",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-or1-night.png",
           "sourceCode": "OR1",
           "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/retreat-or1-day-31513.png",
           "sourceJobId": "ca32fda2-ad08-4924-b9ea-7aacc24b5098",
@@ -174,38 +174,36 @@
           "scene": "Blackout / evening mode",
           "cct": 2700,
           "circuits": "Bar task / cabinet accent / general",
-          "lighting": "Use the existing undercabinet bar lighting as useful warm task light, existing glass cabinet lights subdued, and bedside lamps visible through the opening low and warm. Exterior night. Retain the old adjoining bedroom details as in the source rather than redesigning them during this lighting edit.",
-          "evidenceType": "Same-camera night edit of approved daytime angle",
-          "evidence": "Higgsfield image edit paired with approved OR1. Camera, layout, furnishings and selected Mineral & Walnut surfaces visually checked against that exact daytime source. Retreat bar camera now shows coordinated platform-bed suite, walnut headwall/ink art, oak/loose rug and floating bedside treatment.",
-          "qaNote": "Retreat camera, cabinetry, artwork and adjoining bedroom retained with useful warm task lighting. Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site. Brightness, glare, color and fabric opacity are illustrative; verify fixtures, samples and dimming on site.",
-          "width": 5056,
-          "height": 3392
+          "lighting": "Warm retained bar/task and portable lighting; exact current adjoining owners bedroom furniture and art match the day. No night-only projecting drawer. Fully close floor-length blackout drapes at the THREE west sash units and TWO south units as one open sleep-darkening zone.",
+          "evidenceType": "Same-camera night edit of exact approved daytime source",
+          "evidence": "Compared retained OR1 day: the added projecting left bedside drawer is removed; flat headwall restored. Bar footprint/fridge, bed, bench/rug/art and source camera remain. Warm task lighting only; no exterior openings visible.",
+          "qaNote": "Compared retained OR1 day: the added projecting left bedside drawer is removed; flat headwall restored. Bar footprint/fridge, bed, bench/rug/art and source camera remain. Warm task lighting only; no exterior openings visible. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+          "assetRevision": "mw-plan-r07"
         }
       ]
     },
     "ownerbath": {
       "views": [
         {
-          "id": "BA2-GN01-MW-GN02",
-          "version": "MW-GN02",
-          "code": "BA2-GN01",
-          "index": 51014,
-          "jobId": "9a276d74-fd3b-4721-a853-2a5af558c1ca",
+          "id": "BA2-N07-MW-PLAN-R07",
+          "version": "MW-PLAN-R07",
+          "code": "BA2-N07",
+          "index": 73011,
+          "jobId": "ec275313-71b1-499f-93df-b0d131ed383c",
           "model": "nano_banana_2_1",
-          "file": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/ownerbath-ba2-night.png",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-night.png",
           "sourceCode": "BA2",
-          "sourceFile": "assets/render-candidates/mineral-walnut-materials/r01/ownerbath-ba2-day.png",
-          "sourceJobId": "96b1d1b1-3df0-4ee5-aa1b-2350df8f1a68",
+          "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day-a3.png",
+          "sourceJobId": "bff14f98-b810-4eda-a1cc-c9ec3a83cfde",
           "label": "Night · Owners bathroom · BA2 camera",
           "scene": "Privacy / evening mode",
           "cct": 3000,
           "circuits": "Vanity task / general and wet-area illumination separately",
-          "lighting": "Existing opal vanity sconces provide diffused face lighting with dimmed ceiling light providing safe visibility at the tub and shower. Calm but not too dark to see floor and fixtures. No candle styling, ceiling coves, tub underglow or new mirror shapes. Both real windows retain their openings.",
-          "evidenceType": "Same-camera night edit of approved daytime angle",
-          "evidence": "Higgsfield image edit paired with approved BA2. Camera, layout, furnishings and selected Mineral & Walnut surfaces visually checked against that exact daytime source. Companion bathroom study retains original camera/fixture zone and corrected porcelain; little additional unseen geometry is claimed. MW-M01: Selected Study A: pearl onyx-look porcelain on the tub focal wall and shower walls, with the existing small purple towel and artwork accents; walnut vanity and pale floor retained.",
-          "qaNote": "Bathroom stone, tub, vanity and artwork retained; existing dry-window privacy shade closed. Secondary bath camera and both exterior windows retained. Study A onyx coverage and existing plum towel/art preserved; dry vanity wall and floor remain neutral. Material and color visualization, not a measured specification. Physical samples, product approvals, detailed panel/edge layouts and trade quotes remain required. Brightness, glare, color and fabric opacity are illustrative; verify fixtures, samples and dimming on site.",
-          "width": 5056,
-          "height": 3392
+          "lighting": "Warm opal vanity sconces and useful dimmed ceiling light preserve the exact selected camera/fixtures and Study A stone. Fully close the ONE real dry south-window opaque shade; any glass reflection shows that same closed opening. No shower window or tub underglow.",
+          "evidenceType": "Same-camera night edit of exact approved daytime source",
+          "evidence": "Exact selected BA2 reverse camera/crop/topology/fixture inventory preserved. Closed WC ahead-left, no visible exterior openings or new privacy treatment; actual dry window lies behind camera. Functional sconces/general illumination, same onyx shower/seat/glass, walnut vanity, pale floor/rug and tiny bath accents.",
+          "qaNote": "Exact selected BA2 reverse camera/crop/topology/fixture inventory preserved. Closed WC ahead-left, no visible exterior openings or new privacy treatment; actual dry window lies behind camera. Functional sconces/general illumination, same onyx shower/seat/glass, walnut vanity, pale floor/rug and tiny bath accents. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+          "assetRevision": "mw-plan-r07"
         }
       ]
     },
@@ -314,25 +312,25 @@
     "dining": {
       "views": [
         {
-          "id": "D2-F206N-MW-F2-R06",
-          "version": "MW-F2-R06",
-          "code": "D2-F206N",
-          "index": 60702,
-          "jobId": "b91ac4c4-68ab-4779-a6d4-9838554d6e49",
+          "id": "D2-N-R07-MW-PLAN-R07",
+          "version": "MW-PLAN-R07",
+          "code": "D2-N-R07",
+          "index": 71108,
+          "jobId": "f2df3b51-90c8-401c-9dc3-d04398acda3e",
           "model": "nano_banana_2_1",
-          "file": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-night-a3.png",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/dining-d2-night.png",
           "sourceCode": "D2",
-          "sourceFile": "assets/render-candidates/mineral-walnut-floor-two/r06/dining-d2-day-a3.png",
-          "sourceJobId": "dfb85043-45f6-49b0-89c3-e87e4ddf6344",
+          "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/dining-d2-day-a2.png",
+          "sourceJobId": "35d3b468-fad4-41a9-abd8-6d0ff9ef1d67",
           "label": "Night · Formal dining · D2 camera",
           "scene": "Privacy / evening mode",
           "cct": 2700,
           "circuits": "Dining pendant / artwork / general",
-          "lighting": "Warm, dimmed sculptural pendant, console lamp and existing recessed general light. Preserve exact daytime room/furniture geometry; close opaque privacy layers behind ivory sheers over tall real windows and leave the shorter high arch bare and dark.",
+          "lighting": "Warm selected pendant and general/art lighting with eight daily table places, two separate occasional chairs and the open living connection retained. Fully close privacy layers at tall real windows; preserve the single high small arch and shallow shelf.",
           "evidenceType": "Same-camera night edit of exact approved daytime source",
-          "evidence": "Exact final D2 day camera, solid console/north walls, continuous open dining/salon, furniture and shared facade retained. Tall-window opaque privacy panels fully closed behind same ivory sheers; shorter high central arch remains bare and dark with identical glazing subdivisions. Warm existing pendant, console lamp and ceiling lights only.",
-          "qaNote": "Exact final D2 day camera, solid console/north walls, continuous open dining/salon, furniture and shared facade retained. Tall-window opaque privacy panels fully closed behind same ivory sheers; shorter high central arch remains bare and dark with identical glazing subdivisions. Warm existing pendant, console lamp and ceiling lights only. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
-          "assetRevision": "mw-f2-r06"
+          "evidence": "Exact selected D2 71104 camera/furniture/architecture; four tall east lower windows fully opaque, high small arch bare, useful layered light. Eight table places, two dining corner chairs and two L sofas retained. Interpretive visualization.",
+          "qaNote": "Exact selected D2 71104 camera/furniture/architecture; four tall east lower windows fully opaque, high small arch bare, useful layered light. Eight table places, two dining corner chairs and two L sofas retained. Interpretive visualization. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+          "assetRevision": "mw-plan-r07"
         }
       ]
     },
@@ -365,26 +363,25 @@
     "ownerbed": {
       "views": [
         {
-          "id": "OB2-GN02-MW-GN02",
-          "version": "MW-GN02",
-          "code": "OB2-GN02",
-          "index": 52006,
-          "jobId": "218b2562-fd27-49f3-9a47-2436d1127a40",
+          "id": "OB2-N07-MW-PLAN-R07",
+          "version": "MW-PLAN-R07",
+          "code": "OB2-N07",
+          "index": 73009,
+          "jobId": "b01ccad1-3ce0-4405-9ed4-dcc8d539abd7",
           "model": "nano_banana_2_1",
-          "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/ownerbed-ob2-night.png",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob2-night.png",
           "sourceCode": "OB2",
-          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/ownerbed-ob2-day.png",
-          "sourceJobId": "d4926788-e3f8-48cb-b8ad-9431cdd5ab5e",
+          "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob2-day.png",
+          "sourceJobId": "d868013a-e77f-4625-807f-c648a53ce90d",
           "label": "Night · Owners suite · OB2 camera",
           "scene": "Blackout / evening mode",
           "cct": 2700,
           "circuits": "Reading left / reading right / underbed and bedside accent / general",
           "lighting": "Warm bedside reading lamps on low, subtle concealed under-bed and bedside-console guide light, headwall accent very low. No orange neon outline or glowing carpet; overhead general lights off or very low. TV off. Keep new ink artwork and platform bed.",
-          "evidenceType": "Same-camera night edit of approved daytime angle",
-          "evidence": "Higgsfield image edit paired with approved OB2. Camera, layout, furnishings and selected Mineral & Walnut surfaces visually checked against that exact daytime source. Secondary owners-bedroom perspective retains four-window bank, platform/headwall, artworks, TV and dresser positions.",
-          "qaNote": "Existing outer blackout curtains fully closed over the bedroom bank; inner sheers, internal door, platform bed and furniture retained. Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site. Brightness, glare, color and fabric opacity are illustrative; verify fixtures, samples and dimming on site.",
-          "width": 5056,
-          "height": 3392
+          "evidenceType": "Same-camera night edit of exact approved daytime source",
+          "evidence": "Exact OB2 reverse camera/openings/art/furniture preserved; no exterior glass in frame and no curtain over interior doors/arch. TV off, restrained reading/platform lighting, zero new objects.",
+          "qaNote": "Exact OB2 reverse camera/openings/art/furniture preserved; no exterior glass in frame and no curtain over interior doors/arch. TV off, restrained reading/platform lighting, zero new objects. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+          "assetRevision": "mw-plan-r07"
         }
       ]
     },
@@ -443,39 +440,38 @@
     "sharedbath": {
       "views": [
         {
-          "id": "SB2-GN02-MW-GN02",
-          "version": "MW-GN02",
-          "code": "SB2-GN02",
-          "index": 52009,
-          "jobId": "4e99ecbb-1cb9-4d6c-aa75-a201788f1f1a",
+          "id": "SB2-N-R07-LAMP-MW-PLAN-R07",
+          "version": "MW-PLAN-R07",
+          "code": "SB2-N-R07-LAMP",
+          "index": 76004,
+          "jobId": "2e95aa1b-c7f0-4954-bd20-e4b2a366c66a",
           "model": "nano_banana_2_1",
-          "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/sharedbath-sb2-night.png",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-night-lamp-fix.png",
           "sourceCode": "SB2",
-          "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/sharedbath-sb2-day.png",
-          "sourceJobId": "4c0fb875-33fd-4332-8b5f-a234b53b1c61",
+          "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-day-lamp-fix.png",
+          "sourceJobId": "3c010c51-dca0-476b-8975-cf953e9781e6",
           "label": "Night · Shared bathroom · SB2 camera",
           "scene": "Evening lighting",
           "cct": 3000,
           "circuits": "Vanity task / general",
-          "lighting": "Illuminate the existing diffused fixtures over the wide mirror, with moderate ceiling illumination. All reflected and adjoining bedroom windows must show night and bedside lamps may glow in the adjoining room. Do not create a window in the bathroom itself.",
-          "evidenceType": "Same-camera night edit of approved daytime angle",
-          "evidence": "Higgsfield image edit paired with approved SB2. Camera, layout, furnishings and selected Mineral & Walnut surfaces visually checked against that exact daytime source. Selected E pale limestone-look porcelain around the vanity mirror and doorway return retained. The adjoining bedroom returns to its original neutral bedding and artwork. Design visualization only. Preserve the source-audited layout; verify actual dimensions, finish samples and product/installation details on site.",
-          "qaNote": "Adjoining bedroom blackout panels closed, including consistent mirror reflection; bathroom remains windowless and unchanged. Adjoining Bedroom 3 throw returned to ivory/oatmeal; limestone vanity wall, mirror, fixtures and doorway geometry retained. Brightness, glare, color and fabric opacity are illustrative; verify fixtures, samples and dimming on site.",
-          "width": 5056,
-          "height": 3392
+          "lighting": "Warm existing diffused vanity lights and useful ceiling light. Exact selected bath/door/bed geometry; actual and mirror-reflected black dome bedside lamps match. Fully close adjoining bedroom Roman with no exposed glass. No invented vanity-zone window; separate wet compartment remains unvisualized.",
+          "evidenceType": "Same-camera night edit of exact approved daytime source",
+          "evidence": "Large image inspected: physical and reflected adjoining-bedroom lamps are matching black dome forms; corrected far-window-wall headboard and foot toward bath retained. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged. Exact day-source camera; adjoining bedroom Roman fully opaque to sill, no exposed lower glazing; existing dome lamp and vanity-cylinder lighting illuminated.",
+          "qaNote": "Large image inspected: physical and reflected adjoining-bedroom lamps are matching black dome forms; corrected far-window-wall headboard and foot toward bath retained. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged. Exact day-source camera; adjoining bedroom Roman fully opaque to sill, no exposed lower glazing; existing dome lamp and vanity-cylinder lighting illuminated. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+          "assetRevision": "mw-plan-r07"
         }
       ]
     },
     "laundry": {
       "views": [
         {
-          "id": "LA2-GN02-MW-GN02",
-          "version": "MW-GN02",
-          "code": "LA2-GN02",
-          "index": 52010,
-          "jobId": "64835954-2e38-4ab7-af99-5feccb722e34",
+          "id": "LA2-N-R07-MW-PLAN-R07",
+          "version": "MW-PLAN-R07",
+          "code": "LA2-N-R07",
+          "index": 75008,
+          "jobId": "65dea08f-d04a-45dc-a845-01715d0f0d2f",
           "model": "nano_banana_2_1",
-          "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/laundry-la2-night.png",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/laundry-la2-night-a2.png",
           "sourceCode": "LA2",
           "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/laundry-la2-day.png",
           "sourceJobId": "3b4bd68c-0c47-41d1-a2fc-e07f4804f58a",
@@ -483,12 +479,11 @@
           "scene": "Privacy / evening mode",
           "cct": 3000,
           "circuits": "Counter task / general",
-          "lighting": "Use diffused ceiling lighting and a discreet continuous task light beneath the existing left-side upper cabinetry to illuminate the sink and folding counter. Both left-wall windows dark outside. Preserve exact quote Rinse and repeat.. and its existing graphic. No new windows or room expansion.",
-          "evidenceType": "Same-camera night edit of approved daytime angle",
-          "evidence": "Higgsfield image edit paired with approved LA2. Camera, layout, furnishings and selected Mineral & Walnut surfaces visually checked against that exact daytime source. Laundry second viewpoint reveals machines on right while retaining two left windows, sink, paired hampers and wall graphic.",
-          "qaNote": "Both existing laundry Roman shades fully lowered; cabinets, appliances, quote and graphic retained. Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site. Brightness, glare, color and fabric opacity are illustrative; verify fixtures, samples and dimming on site.",
-          "width": 5056,
-          "height": 3392
+          "lighting": "Warm existing utility light with identical selected laundry camera, cabinetry, quote and machines. Fully close both real openings including arched head, lower glass and side edges; no uncovered arch above the privacy layer.",
+          "evidenceType": "Same-camera night edit of exact approved daytime source",
+          "evidence": "Root and independent QA: exact laundry LA2 retained day shell, near arch and separate far rectangle retained; opaque night privacy covers arch head, lower glass and edges, same quote/cabinets/appliances.",
+          "qaNote": "Root and independent QA: exact laundry LA2 retained day shell, near arch and separate far rectangle retained; opaque night privacy covers arch head, lower glass and edges, same quote/cabinets/appliances. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+          "assetRevision": "mw-plan-r07"
         }
       ]
     },
@@ -521,26 +516,25 @@
     "bed5": {
       "views": [
         {
-          "id": "B52-GN02-MW-GN02",
-          "version": "MW-GN02",
-          "code": "B52-GN02",
-          "index": 52012,
-          "jobId": "26b6b5e9-b4e3-4b48-b534-4d2cdef449b3",
+          "id": "B52-N-R07-MW-PLAN-R07",
+          "version": "MW-PLAN-R07",
+          "code": "B52-N-R07",
+          "index": 75007,
+          "jobId": "fd49df95-9fc3-4bca-8678-4b33eeb66506",
           "model": "nano_banana_2_1",
-          "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/bed5-b52-night.png",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/bed5-b52-night.png",
           "sourceCode": "B52",
-          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bed5-b52-day-31522.png",
-          "sourceJobId": "75d82e6b-3619-4016-9ac6-c44dd9f98e8f",
+          "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/bed5-b52-day-a3.png",
+          "sourceJobId": "5a8163a9-8bc4-43b3-a19a-5c4ef965f80e",
           "label": "Night · Penthouse guest bedroom · B52 camera",
           "scene": "Blackout / evening mode",
           "cct": 2700,
           "circuits": "Bedside lamps / general",
-          "lighting": "Use the existing two shaded bedside lamps with soft warm pools and substantially dim the existing ceiling downlight. Keep the mushroom and charcoal walls legible, all furniture and door positions unchanged. No invented exterior windows or LED accents.",
-          "evidenceType": "Same-camera night edit of approved daytime angle",
-          "evidence": "Higgsfield image edit paired with approved B52. Camera, layout, furnishings and selected Mineral & Walnut surfaces visually checked against that exact daytime source. True opposing bedroom perspective places bed on right, dresser left, two planned front windows ahead; entry behind camera. Unbuilt room remains plan-led.",
-          "qaNote": "Existing outer blackout panels closed across both guest-room windows; neutral bedding, wood floor and furnishings retained. Design visualization, not a measured construction elevation. Verify opening offsets, clearances, products, finish samples and service details on site. Bedroom 5 still requires new-room construction. Brightness, glare, color and fabric opacity are illustrative; verify fixtures, samples and dimming on site.",
-          "width": 5056,
-          "height": 3392
+          "lighting": "Warm retained black conical-shade bedside lamps and dimmed ceiling light, preserving exact plan-led proposed bedroom camera/bed/offset entry/dresser. Two planned east windows lie behind this reverse camera; do not add openings to visible west/north walls.",
+          "evidenceType": "Same-camera night edit of exact approved daytime source",
+          "evidence": "Root and independent QA: exact B52 corrected reverse camera, west headboard/offset north door and walnut dresser preserved; east windows behind camera, none invented. Plan dimensions14ft11in×11ft1in override malformed prompt.",
+          "qaNote": "Root and independent QA: exact B52 corrected reverse camera, west headboard/offset north door and walnut dresser preserved; east windows behind camera, none invented. Plan dimensions14ft11in×11ft1in override malformed prompt. Same-camera lighting and shade-operation visualization. Verify fixture output, color, fabric opacity and dimming with actual products on site.",
+          "assetRevision": "mw-plan-r07"
         }
       ]
     }

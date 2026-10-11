@@ -1,0 +1,479 @@
+{
+  "version": "MW-PLAN-R07-OTHER-FINAL-QA",
+  "reviewDate": "2026-10-10",
+  "reviewer": "independent media_architecture_audit subagent",
+  "productionFile": "docs/mineral-walnut-r07-production.json",
+  "scope": "Independent final review of the 12 selected other-room Floor 3/4 correction candidates. Review is independent of provisional production-manifest approvals.",
+  "authorityOrder": [
+    "Latest user room-specific decisions",
+    "Builder-plan topology for rooms/angles not covered by model photos",
+    "Actual model-home source photos for visible shell",
+    "Approved Mineral & Walnut neutral/stone design intent"
+  ],
+  "sources": {
+    "blueprint": {
+      "file": "assets/cf_city_home_with_georgetown_pkg.pdf",
+      "page": 4,
+      "coverage": "Floor 3 left half, penthouse right half. No fifth PDF page exists."
+    },
+    "bed2Reverse": "assets/render-candidates/mineral-walnut-architecture/r02/bed2-b22-day-31616.png",
+    "sharedbathPhoto": "assets/Crown Georgetown Photos/third-floor-shared-bath-bedroom-2-3.jpg.webp",
+    "bed3Photo": "assets/Crown Georgetown Photos/third-floor-bedroom-3.jpg.webp",
+    "bed3Current": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b31-day.png",
+    "stair3Photo": "assets/Crown Georgetown Photos/third-floor-spiral-staircase.jpg.webp",
+    "loftPhoto": "assets/Crown Georgetown Photos/fourth-floor-penthouse-loft.jpg.webp",
+    "bed5Photo": "assets/Crown Georgetown Photos/fourth-floor-penthouse-bedroom-5.jpg.webp",
+    "laundryPhoto": "assets/Crown Georgetown Photos/third-floor-laundry-room.jpg.webp",
+    "floor3Audit": "docs/mineral-walnut-floor-three-other-audit-r07.json",
+    "floor4Audit": "docs/mineral-walnut-floor-four-audit-r07.json"
+  },
+  "topologyQualifications": [
+    "Bedroom 2 headboard is locked to the user-confirmed printed-plan TOP stair-hall wall; do not remap from ambiguous cardinal labels.",
+    "Shared bathroom vanity zone connects to the bedrooms through the existing side doors. The corrected visible Bedroom 3 glimpse is checked against both original bathroom photo and B31, but does not establish full unseen as-built wet-room dimensions.",
+    "The wet/toilet-compartment front opening is not resolved by these crops. Do not claim a second visible bathroom window or confirmed wet-zone shade from these images.",
+    "Bedroom 5 remains unbuilt; retain proposed-construction labels and builder-plan 14′11″×11′1″ dimensions.",
+    "Exact opening dimensions, clearances, curtain fabrication and built-out construction remain subject to field measurement.",
+    "No separately labelled original Bedroom 2 photo exists in the current Crown photo folder; Bedroom 2 is checked against builder-plan geometry, the user-confirmed headboard wall and retained companion source."
+  ],
+  "summary": {
+    "inspectedCount": 12,
+    "passedCount": 7,
+    "rejectedCount": 5,
+    "passedIndexes": [
+      72001,
+      72004,
+      75003,
+      74004,
+      75007,
+      74002,
+      75008
+    ],
+    "rejectedIndexes": [
+      75002,
+      72012,
+      72014,
+      75004,
+      75006
+    ],
+    "requiredRepairs": [
+      "B21 night75002: fully close the right Roman shade.",
+      "Sharedbath72012/72014/75004/75006: make reflected bedside lamp match the actual Bedroom 3 black dome lamp."
+    ],
+    "metadataCorrection": "Use plan Bedroom 5 dimensions 14′11″×11′1″, not the malformed generation-prompt dimensions."
+  },
+  "images": [
+    {
+      "index": 72001,
+      "room": "bed2",
+      "code": "B21",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/bed2-b21-day.png",
+      "jobId": "b550668c-b652-4b62-9ce6-e8a41cdb9501",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bed2-b21-day-30616.png",
+      "sourceJobId": "be2446d3-078e-4d20-a026-4188cb068fa9",
+      "inspection": "Large image inspected against the source image, source-room photo and builder-plan topology; relevant detail crops inspected for remaining defects.",
+      "disposition": "passed",
+      "passedChecks": [
+        "One closet relocated to the near/foreground portion of the shared-bath wall, with clear mineral wall between it and the far hall entry.",
+        "Headboard remains on the user-confirmed printed-plan TOP stair-hall wall; right single window and adjacent desk retain their location.",
+        "Neutral ivory/walnut scheme, natural oak and separate oatmeal rug remain intact."
+      ],
+      "materialIssues": [],
+      "qualifications": [
+        "Paired front window bank is behind this camera; this image does not independently verify its full inventory."
+      ]
+    },
+    {
+      "index": 75002,
+      "room": "bed2",
+      "code": "B21-N-R07",
+      "scene": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/bed2-b21-night.png",
+      "jobId": "8beff2af-77da-49d0-bf20-db86c413db43",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/bed2-b21-day.png",
+      "sourceJobId": "b550668c-b652-4b62-9ce6-e8a41cdb9501",
+      "inspection": "Large image inspected against the source image, source-room photo and builder-plan topology; relevant detail crops inspected for remaining defects.",
+      "disposition": "reject",
+      "passedChecks": [
+        "Same camera, closet location, hall entry, headboard and desk as corrected day72001.",
+        "Existing black bedside sconces are illuminated without furniture or architectural drift."
+      ],
+      "materialIssues": [
+        {
+          "severity": "required_privacy_repair",
+          "location": "Right single bedroom window",
+          "finding": "The Roman remains partly raised. Dark lower glazing and a visible window-frame division remain exposed beneath the folded fabric.",
+          "requiredCorrection": "Extend the existing opaque ivory Roman to the sill and full glazing edges. Preserve casing, desk, furniture, window dimensions and camera.",
+          "inspectionCrop": "/tmp/708-r07-b21-window-crop.jpg"
+        }
+      ],
+      "qualifications": []
+    },
+    {
+      "index": 72012,
+      "room": "sharedbath",
+      "code": "SB1",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-day.png",
+      "jobId": "c96ef9d5-b588-410f-b0d8-66384bc06b86",
+      "sourceFile": "assets/render-candidates/mineral-walnut-stone/r01/e-sharedbath.png",
+      "sourceJobId": "6a177036-f25a-4ac5-b3de-09b6967dcad9",
+      "inspection": "Large image inspected against the source image, source-room photo and builder-plan topology; relevant detail crops inspected for remaining defects.",
+      "disposition": "reject",
+      "passedChecks": [
+        "Bedroom 3 headboard is against the far exterior window wall; bed foot points toward the bathroom camera, matching the original doorway view.",
+        "Pale limestone-look E porcelain, walnut double vanity, both basins/taps, existing glass-cylinder lights, mirror and doorway remain intact.",
+        "No new exterior window has been invented in the visible vanity zone.",
+        "Neutral bedding, oak flooring and loose rug retained in the adjoining bedroom glimpse."
+      ],
+      "materialIssues": [
+        {
+          "severity": "required_reflection_inventory_repair",
+          "location": "Vanity mirror reflection of the adjoining Bedroom 3 bedside lamp",
+          "finding": "The physical bedroom glimpse contains a black dome lamp, and the canonical Bedroom 3 B31 source uses black dome lamps at both nightstands. The bathroom mirror instead reflects a tall bent-stem rectangular task lamp. The reflection does not depict the same furniture.",
+          "requiredCorrection": "Replace only the incorrect reflected task-lamp silhouette with a geometrically plausible black dome bedside-lamp reflection matching the actual adjoining bedroom. Keep the corrected headboard direction, doorway/casing, vanity, E porcelain, basin/tap/light inventories and camera unchanged.",
+          "canonicalBedroomFile": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b31-day.png",
+          "inspectionCrop": "/tmp/708-r07-sb1-mirror-crop.jpg"
+        }
+      ],
+      "qualifications": [
+        "The image verifies only the visible vanity zone and cropped Bedroom 3 connection, not the complete shared bathroom or unseen wet compartment."
+      ]
+    },
+    {
+      "index": 72014,
+      "room": "sharedbath",
+      "code": "SB2",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-day-a2.png",
+      "jobId": "75507bca-8881-42cd-8104-f66794c238bb",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-day.png",
+      "sourceJobId": "c96ef9d5-b588-410f-b0d8-66384bc06b86",
+      "inspection": "Large image inspected against the source image, source-room photo and builder-plan topology; relevant detail crops inspected for remaining defects.",
+      "disposition": "reject",
+      "passedChecks": [
+        "Bedroom 3 headboard is against the far exterior window wall; bed foot points toward the bathroom camera, matching the original doorway view.",
+        "Pale limestone-look E porcelain, walnut double vanity, both basins/taps, existing glass-cylinder lights, mirror and doorway remain intact.",
+        "No new exterior window has been invented in the visible vanity zone.",
+        "Neutral bedding, oak flooring and loose rug retained in the adjoining bedroom glimpse."
+      ],
+      "materialIssues": [
+        {
+          "severity": "required_reflection_inventory_repair",
+          "location": "Vanity mirror reflection of the adjoining Bedroom 3 bedside lamp",
+          "finding": "The physical bedroom glimpse contains a black dome lamp, and the canonical Bedroom 3 B31 source uses black dome lamps at both nightstands. The bathroom mirror instead reflects a tall bent-stem rectangular task lamp. The reflection does not depict the same furniture.",
+          "requiredCorrection": "Replace only the incorrect reflected task-lamp silhouette with a geometrically plausible black dome bedside-lamp reflection matching the actual adjoining bedroom. Keep the corrected headboard direction, doorway/casing, vanity, E porcelain, basin/tap/light inventories and camera unchanged.",
+          "canonicalBedroomFile": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b31-day.png",
+          "inspectionCrop": "/tmp/708-r07-sb1-mirror-crop.jpg"
+        }
+      ],
+      "qualifications": [
+        "The image verifies only the visible vanity zone and cropped Bedroom 3 connection, not the complete shared bathroom or unseen wet compartment.",
+        "SB2 is a modest companion camera, not a full reverse view; near-duplicate framing is accepted within this repair scope."
+      ]
+    },
+    {
+      "index": 75004,
+      "room": "sharedbath",
+      "code": "SB1-N-R07",
+      "scene": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-night.png",
+      "jobId": "b8bbd05f-1e56-4fa6-97d9-607acc1dbce9",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-day.png",
+      "sourceJobId": "c96ef9d5-b588-410f-b0d8-66384bc06b86",
+      "inspection": "Large image inspected against the source image, source-room photo and builder-plan topology; relevant detail crops inspected for remaining defects.",
+      "disposition": "reject",
+      "passedChecks": [
+        "Bedroom 3 headboard is against the far exterior window wall; bed foot points toward the bathroom camera, matching the original doorway view.",
+        "Pale limestone-look E porcelain, walnut double vanity, both basins/taps, existing glass-cylinder lights, mirror and doorway remain intact.",
+        "No new exterior window has been invented in the visible vanity zone.",
+        "Visible adjoining bedroom glazing is fully covered with the opaque shade; actual black dome lamp and existing vanity lights are illuminated.",
+        "Same bathroom camera and corrected bed direction as the corresponding day source."
+      ],
+      "materialIssues": [
+        {
+          "severity": "required_reflection_inventory_repair",
+          "location": "Vanity mirror reflection of the adjoining Bedroom 3 bedside lamp",
+          "finding": "The physical bedroom glimpse contains a black dome lamp, and the canonical Bedroom 3 B31 source uses black dome lamps at both nightstands. The bathroom mirror instead reflects a tall bent-stem rectangular task lamp. The reflection does not depict the same furniture.",
+          "requiredCorrection": "Replace only the incorrect reflected task-lamp silhouette with a geometrically plausible black dome bedside-lamp reflection matching the actual adjoining bedroom. Keep the corrected headboard direction, doorway/casing, vanity, E porcelain, basin/tap/light inventories and camera unchanged.",
+          "canonicalBedroomFile": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b31-day.png",
+          "inspectionCrop": "/tmp/708-r07-sb1-mirror-crop.jpg"
+        }
+      ],
+      "qualifications": [
+        "The image verifies only the visible vanity zone and cropped Bedroom 3 connection, not the complete shared bathroom or unseen wet compartment."
+      ]
+    },
+    {
+      "index": 75006,
+      "room": "sharedbath",
+      "code": "SB2-N-R07",
+      "scene": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-night.png",
+      "jobId": "7bb3daf6-8fdb-4c7f-ae3b-d5305161a677",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-day-a2.png",
+      "sourceJobId": "75507bca-8881-42cd-8104-f66794c238bb",
+      "inspection": "Large image inspected against the source image, source-room photo and builder-plan topology; relevant detail crops inspected for remaining defects.",
+      "disposition": "reject",
+      "passedChecks": [
+        "Bedroom 3 headboard is against the far exterior window wall; bed foot points toward the bathroom camera, matching the original doorway view.",
+        "Pale limestone-look E porcelain, walnut double vanity, both basins/taps, existing glass-cylinder lights, mirror and doorway remain intact.",
+        "No new exterior window has been invented in the visible vanity zone.",
+        "Visible adjoining bedroom glazing is fully covered with the opaque shade; actual black dome lamp and existing vanity lights are illuminated.",
+        "Same bathroom camera and corrected bed direction as the corresponding day source."
+      ],
+      "materialIssues": [
+        {
+          "severity": "required_reflection_inventory_repair",
+          "location": "Vanity mirror reflection of the adjoining Bedroom 3 bedside lamp",
+          "finding": "The physical bedroom glimpse contains a black dome lamp, and the canonical Bedroom 3 B31 source uses black dome lamps at both nightstands. The bathroom mirror instead reflects a tall bent-stem rectangular task lamp. The reflection does not depict the same furniture.",
+          "requiredCorrection": "Replace only the incorrect reflected task-lamp silhouette with a geometrically plausible black dome bedside-lamp reflection matching the actual adjoining bedroom. Keep the corrected headboard direction, doorway/casing, vanity, E porcelain, basin/tap/light inventories and camera unchanged.",
+          "canonicalBedroomFile": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b31-day.png",
+          "inspectionCrop": "/tmp/708-r07-sb1-mirror-crop.jpg"
+        }
+      ],
+      "qualifications": [
+        "The image verifies only the visible vanity zone and cropped Bedroom 3 connection, not the complete shared bathroom or unseen wet compartment.",
+        "SB2 is a modest companion camera, not a full reverse view; near-duplicate framing is accepted within this repair scope."
+      ]
+    },
+    {
+      "index": 72004,
+      "room": "stair3",
+      "code": "ST31",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/stair3-st31-day.png",
+      "jobId": "67f0de0d-06f3-42c6-807b-53eec6f0ef58",
+      "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/stair3-st31-day.png",
+      "sourceJobId": "f1e9d0ef-8488-4286-a2b7-60f4771ee8a2",
+      "inspection": "Large image inspected against the source image, source-room photo and builder-plan topology; relevant detail crops inspected for remaining defects.",
+      "disposition": "passed",
+      "passedChecks": [
+        "Three separate high 2×2 glazing units and all casing positions are preserved.",
+        "Quarter-turn/fanned lower stair, intermediate landing and straight upper flight match the source geometry.",
+        "Oak treads remain bare with white risers, unchanged guards/balusters and walnut handrail; no runner.",
+        "Partly occluded upper-left canvas is now neutral; principal framed artwork beneath the windows is retained."
+      ],
+      "materialIssues": [],
+      "qualifications": []
+    },
+    {
+      "index": 75003,
+      "room": "stair3",
+      "code": "ST31-N-R07",
+      "scene": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/stair3-st31-night.png",
+      "jobId": "bc2d2887-25c9-40ce-b9ad-279a95197017",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/stair3-st31-day.png",
+      "sourceJobId": "67f0de0d-06f3-42c6-807b-53eec6f0ef58",
+      "inspection": "Large image inspected against the source image, source-room photo and builder-plan topology; relevant detail crops inspected for remaining defects.",
+      "disposition": "passed",
+      "passedChecks": [
+        "Same stair geometry, three bare high windows, guards and artwork as corrected day72004.",
+        "Existing circulation lighting illuminates bare oak stairs with neutral finish colors; no added fixtures, drapes or runner."
+      ],
+      "materialIssues": [],
+      "qualifications": []
+    },
+    {
+      "index": 74004,
+      "room": "bed5",
+      "code": "B52",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/bed5-b52-day-a3.png",
+      "jobId": "5a8163a9-8bc4-43b3-a19a-5c4ef965f80e",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bed5-b51-day-30522.png",
+      "sourceJobId": "9537c1a6-4c96-4078-9e98-4e1b84e88e11",
+      "inspection": "Large image inspected against the source image, source-room photo and builder-plan topology; relevant detail crops inspected for remaining defects.",
+      "disposition": "passed",
+      "passedChecks": [
+        "Companion camera is on the east side looking toward the west headboard/shared-loft wall; no incorrect perpendicular window bank is introduced.",
+        "North dresser and original offset entry/return remain on the right; ceiling stays flat.",
+        "Neutral mushroom/charcoal/ivory, walnut, oak and loose rug remain consistent with the primary source."
+      ],
+      "materialIssues": [],
+      "qualifications": [
+        "Bedroom 5 is unbuilt. This is a proposed design visualization using the builder plan and model-home precedent, not an as-built certification.",
+        "Both east bedroom windows are behind this camera. The image does not verify the unseen east window bank or south closet; it is a modest companion rather than a full opposite-wall reverse.",
+        "Generation prompt contains an erroneous nominal dimension of 12′5″×12′8″. The builder plan is 14′11″×11′1″; use that plan dimension in production specifications. Pixel perspective alone is not a measurement."
+      ]
+    },
+    {
+      "index": 75007,
+      "room": "bed5",
+      "code": "B52-N-R07",
+      "scene": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/bed5-b52-night.png",
+      "jobId": "fd49df95-9fc3-4bca-8678-4b33eeb66506",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/bed5-b52-day-a3.png",
+      "sourceJobId": "5a8163a9-8bc4-43b3-a19a-5c4ef965f80e",
+      "inspection": "Large image inspected against the source image, source-room photo and builder-plan topology; relevant detail crops inspected for remaining defects.",
+      "disposition": "passed",
+      "passedChecks": [
+        "Same east-to-west companion camera, west headboard, north dresser/offset entry and furniture counts as day74004.",
+        "Existing bedside lamps are illuminated, with neutral finishes, oak flooring and loose rug retained.",
+        "No new visible windows or drapes are fabricated for the behind-camera east openings."
+      ],
+      "materialIssues": [],
+      "qualifications": [
+        "Bedroom 5 is unbuilt. This is a proposed design visualization using the builder plan and model-home precedent, not an as-built certification.",
+        "Both east bedroom windows are behind this camera. The image does not verify the unseen east window bank or south closet; it is a modest companion rather than a full opposite-wall reverse.",
+        "Generation prompt contains an erroneous nominal dimension of 12′5″×12′8″. The builder plan is 14′11″×11′1″; use that plan dimension in production specifications. Pixel perspective alone is not a measurement."
+      ]
+    },
+    {
+      "index": 74002,
+      "room": "loft",
+      "code": "PL1-N-R07",
+      "scene": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/loft-pl1-n-r07-night.png",
+      "jobId": "8f6827e0-5ce4-4dae-aa62-20d041e935f3",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/loft-pl1-day-30521.png",
+      "sourceJobId": "54572b03-45da-40b4-8db9-cd0faed2eba4",
+      "inspection": "Large image inspected against the source image, source-room photo and builder-plan topology; relevant detail crops inspected for remaining defects.",
+      "disposition": "passed",
+      "passedChecks": [
+        "Both small windows flanking the French doors are now fully covered to their sills, with no exposed dark lower-glass strips.",
+        "French doors, terrace slider and bar window retain their existing locations and closed privacy layers.",
+        "Tray ceiling, sofa/chair, walnut tables/media console, bar, two stools and two pendants remain consistent with the retained day source.",
+        "Warm dimmed lighting does not change the shell or furnishing inventory."
+      ],
+      "materialIssues": [],
+      "qualifications": [
+        "The source-corner view does not independently verify the unseen stair or Bedroom 5 circulation."
+      ]
+    },
+    {
+      "index": 75008,
+      "room": "laundry",
+      "code": "LA2-N-R07",
+      "scene": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/laundry-la2-night-a2.png",
+      "jobId": "65dea08f-d04a-45dc-a845-01715d0f0d2f",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/laundry-la2-day.png",
+      "sourceJobId": "3b4bd68c-0c47-41d1-a2fc-e07f4804f58a",
+      "inspection": "Large image inspected against the source image, source-room photo and builder-plan topology; relevant detail crops inspected for remaining defects.",
+      "disposition": "passed",
+      "passedChecks": [
+        "Near arched sink-window glazing is fully covered, including the arch-top, while the white arched casing remains visible.",
+        "Far rectangular window is also fully opaque to its sill.",
+        "Sink, faucet, counters/cabinets, two machines, hampers and rack retain the day-source configuration.",
+        "Exact Rinse and repeat.. text with two periods and the cycle/droplet graphic are retained; task lighting is useful and warm."
+      ],
+      "materialIssues": [],
+      "qualifications": [
+        "The shaped opaque arch insert is a design concept; final fabrication must be coordinated with the actual casing and operable lower shade."
+      ]
+    }
+  ],
+  "replacementProductionFile": "docs/mineral-walnut-r07-sharedbath-final-production.json",
+  "replacementImages": [
+    {
+      "index": 76001,
+      "room": "sharedbath",
+      "code": "SB1",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-day-lamp-fix.png",
+      "jobId": "1d5c94a2-10d8-41a7-b8da-c3f7a250d6a5",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-day.png",
+      "sourceJobId": "c96ef9d5-b588-410f-b0d8-66384bc06b86",
+      "disposition": "passed_owner_qa",
+      "inspection": "Large image and comparison to original selected source/canonical Bedroom 3 B31 inspected. Generated and reviewed by this agent; root may independently verify before integration.",
+      "passedChecks": [
+        "Large image inspected: physical and reflected adjoining-bedroom lamps are matching black dome forms; corrected far-window-wall headboard and foot toward bath retained. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged."
+      ],
+      "materialIssues": [],
+      "qualifications": [
+        "Vanity-zone and cropped Bedroom 3 connection only; unseen wet compartment remains outside this view.",
+        "SB2 is a modest companion camera, not a full opposite-end room survey."
+      ]
+    },
+    {
+      "index": 76002,
+      "room": "sharedbath",
+      "code": "SB2",
+      "scene": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-day-lamp-fix.png",
+      "jobId": "3c010c51-dca0-476b-8975-cf953e9781e6",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-day-a2.png",
+      "sourceJobId": "75507bca-8881-42cd-8104-f66794c238bb",
+      "disposition": "passed_owner_qa",
+      "inspection": "Large image and comparison to original selected source/canonical Bedroom 3 B31 inspected. Generated and reviewed by this agent; root may independently verify before integration.",
+      "passedChecks": [
+        "Large image inspected: physical and reflected adjoining-bedroom lamps are matching black dome forms; corrected far-window-wall headboard and foot toward bath retained. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged."
+      ],
+      "materialIssues": [],
+      "qualifications": [
+        "Vanity-zone and cropped Bedroom 3 connection only; unseen wet compartment remains outside this view.",
+        "SB2 is a modest companion camera, not a full opposite-end room survey."
+      ]
+    },
+    {
+      "index": 76003,
+      "room": "sharedbath",
+      "code": "SB1-N-R07-LAMP",
+      "scene": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-night-lamp-fix.png",
+      "jobId": "10eef59f-9876-4198-b9a2-b1fb0b4a607e",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-day-lamp-fix.png",
+      "sourceJobId": "1d5c94a2-10d8-41a7-b8da-c3f7a250d6a5",
+      "disposition": "passed_owner_qa",
+      "inspection": "Large image and comparison to original selected source/canonical Bedroom 3 B31 inspected. Generated and reviewed by this agent; root may independently verify before integration.",
+      "passedChecks": [
+        "Large image inspected: physical and reflected adjoining-bedroom lamps are matching black dome forms; corrected far-window-wall headboard and foot toward bath retained. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged. Exact day-source camera; adjoining bedroom Roman fully opaque to sill, no exposed lower glazing; existing dome lamp and vanity-cylinder lighting illuminated."
+      ],
+      "materialIssues": [],
+      "qualifications": [
+        "Vanity-zone and cropped Bedroom 3 connection only; unseen wet compartment remains outside this view.",
+        "SB2 is a modest companion camera, not a full opposite-end room survey."
+      ]
+    },
+    {
+      "index": 76004,
+      "room": "sharedbath",
+      "code": "SB2-N-R07-LAMP",
+      "scene": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-night-lamp-fix.png",
+      "jobId": "2e95aa1b-c7f0-4954-bd20-e4b2a366c66a",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-day-lamp-fix.png",
+      "sourceJobId": "3c010c51-dca0-476b-8975-cf953e9781e6",
+      "disposition": "passed_owner_qa",
+      "inspection": "Large image and comparison to original selected source/canonical Bedroom 3 B31 inspected. Generated and reviewed by this agent; root may independently verify before integration.",
+      "passedChecks": [
+        "Large image inspected: physical and reflected adjoining-bedroom lamps are matching black dome forms; corrected far-window-wall headboard and foot toward bath retained. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged. Exact day-source camera; adjoining bedroom Roman fully opaque to sill, no exposed lower glazing; existing dome lamp and vanity-cylinder lighting illuminated."
+      ],
+      "materialIssues": [],
+      "qualifications": [
+        "Vanity-zone and cropped Bedroom 3 connection only; unseen wet compartment remains outside this view.",
+        "SB2 is a modest companion camera, not a full opposite-end room survey."
+      ]
+    }
+  ],
+  "resolvedBaselineDefects": {
+    "sharedbathMirrorLamp": {
+      "resolvedByIndexes": [
+        76001,
+        76002,
+        76003,
+        76004
+      ],
+      "baselineRejectedIndexes": [
+        72012,
+        72014,
+        75004,
+        75006
+      ]
+    },
+    "bed2NightShade": {
+      "status": "Root owns correction; baseline75002 remains rejected until independently checked."
+    }
+  },
+  "rootFollowup": {
+    "index": 75009,
+    "jobId": "2013bf65-6db3-4b47-820d-b239a331144f",
+    "file": "assets/render-candidates/mineral-walnut-plan/r07/bed2-b21-night-a2.png",
+    "reviewer": "root independent visual check",
+    "disposition": "passed",
+    "evidence": "Opaque Roman now covers entire narrow right opening through sill, preserving same corrected day geometry. Earlier75002 rejection retained."
+  }
+}

@@ -1,0 +1,1144 @@
+{
+  "schemaVersion": 1,
+  "revision": "MW-F3-OWNERS-R07",
+  "date": "2026-10-10",
+  "designOption": "Mineral & Walnut",
+  "status": "completed_visual_qa",
+  "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+  "sourceControls": {
+    "blueprintJob": "ca5de41f-81c4-45af-a9e5-30d941ecf002",
+    "planCameraMedia": "c25f8490-218b-4595-b94e-6b425b2719c1",
+    "westFacadeMedia": "bf57727d-f3f8-4b35-8138-e32f35c820a6",
+    "retreatCountGuideMedia": "f15dbef4-458a-45c2-ac51-bc157d983935",
+    "bathReverseGuideMedia": "8b5666ba-c2c3-488f-afb6-87dc1732f090"
+  },
+  "retainedViews": [
+    {
+      "room": "retreat",
+      "code": "OR1",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r02/retreat-or1-day-31513.png",
+      "jobId": "ca32fda2-ad08-4924-b9ea-7aacc24b5098"
+    },
+    {
+      "room": "ownercloset",
+      "code": "WC1",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r01/ownercloset-wc1-day.png",
+      "jobId": "5eaabe4e-d5fc-4b4b-96c6-90d77959e487"
+    },
+    {
+      "room": "ownercloset",
+      "code": "WC1-N4",
+      "file": "assets/render-candidates/mineral-walnut-architecture/r01/ownercloset-night.png",
+      "jobId": "19dfa2ad-56e1-4c6e-b5fe-bb0cedf2b86f",
+      "sourceCode": "WC1"
+    }
+  ],
+  "jobs": [
+    {
+      "index": 73001,
+      "room": "ownerbed",
+      "code": "OB1",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob1-day.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-3-r03-ownerbed-original-1.webp"
+          },
+          {
+            "role": "image",
+            "value": "c19dd8f4-ec7c-40fc-aafe-d8873b920890"
+          },
+          {
+            "role": "image",
+            "value": "ca5de41f-81c4-45af-a9e5-30d941ecf002"
+          },
+          {
+            "role": "image",
+            "value": "c25f8490-218b-4595-b94e-6b425b2719c1"
+          }
+        ],
+        "prompt": "Image-edit the ORIGINAL owners-bedroom photo. Lock photographed camera, plain ceiling/crown, actual FOUR-unit west window bank with original glazing divisions, sill/head and casing. NORTH headwall remains image-right; SOUTH TV/dresser wall remains image-left. REMOVE the generated rectangular aperture between TV and west windows: the original photo has a continuous solid wall there. Real arched bath/closet access is at the EAST end of the south wall near vestibule, outside this source crop; do not invent a door toward the windows. Preserve broad open L-shaped retreat junction when genuinely visible. Pure Mineral & Walnut: natural matte oak and separate oatmeal rug, ivory low platform bed with recessed underside-light plinth, walnut headwall band, BOTH matching floating walnut bedside consoles, paired neutral black-framed art, charcoal cushions, 55-inch TV and slim soundbar opposite bed, existing walnut storage and ivory sheers with stacked oatmeal blackout layer. No purple/blue/pink bedroom accents, stainless/chrome furniture motif, extra windows or enlarged room. Photorealistic 3:2. Reference 1 is ORIGINAL geometry; reference 2 is approved furniture/finish identity only; reference 3/4 control topology. The pale rectangular door in reference 2 LEFT near windows is WRONG; fill solid wall. Match exact cabinetry/art to reference 2; keep both bedside consoles."
+      },
+      "jobId": "a3281582-593d-4d2d-8f9a-f7b0b001d75b",
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[3].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_033643_a3281582-593d-4d2d-8f9a-f7b0b001d75b.png",
+      "downloaded": true,
+      "qaNote": "Four west sash units retained at original camera; invented rectangle between left TV/dresser and window bank removed. Solid headwall, canonical neutral platform/bench/art/bedside drawers, oak/rug and layered curtains retained. True access lies outside source crop.",
+      "sourceFile": "assets/Crown Georgetown Photos/third-floor-master-bedroom.jpg.webp",
+      "sourceJobId": "c19dd8f4-ec7c-40fc-aafe-d8873b920890",
+      "qaEvidence": {
+        "comparison": "Four west sash units retained at original camera; invented rectangle between left TV/dresser and window bank removed. Solid headwall, canonical neutral platform/bench/art/bedside drawers, oak/rug and layered curtains retained. True access lies outside source crop.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval"
+      }
+    },
+    {
+      "index": 73002,
+      "room": "retreat",
+      "code": "OR2",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-day.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-3-r03-retreat-original-2.webp"
+          },
+          {
+            "role": "image",
+            "value": "5965cb07-cf05-43eb-9304-1b8389311997"
+          },
+          {
+            "role": "image",
+            "value": "bf57727d-f3f8-4b35-8138-e32f35c820a6"
+          },
+          {
+            "role": "image",
+            "value": "ca5de41f-81c4-45af-a9e5-30d941ecf002"
+          }
+        ],
+        "prompt": "Image-edit ORIGINAL retreat seating-nook photo with page4 plan and actual white-house WEST-BACK photo. Preserve bar-left wall return, sink/beverage zone and compact nominal 12ft3x10ft nook. AHEAD SOUTH bank is TWO real window units. SCREEN-RIGHT WEST facade is THREE units in the full actual house, proven exterior/plan; original camera crops part of that bank. Include/allow the THIRD west unit toward screen-right and do not terminate the wall after only two. Preserve original head/sill/frame and within-unit bars; use exterior/control count, never enlarge footprint. Keep two ivory chaise longues and small walnut table, natural oak and separate oatmeal rug, warm mineral walls. Coordinated ivory sheers plus fully functional oatmeal blackout layers at all real glass. Do not install blueprint OPTIONAL French door/spiral access or invent a north opening from a curtain. Neutral cushions/throws, plants only, no colored bedroom accents. Photorealistic 3:2. Reference 1 is source camera. Reference 2 approved palette. Reference 3 is outside white-house proof of three western retreat units; do not change facade. Reference 4 is plan. Keep TWO chaise and bar return exactly. Do not add cabinetry/wall at screen-right that conceals third unit."
+      },
+      "jobId": "c301b10c-d66d-4743-b3f4-d1519983b2c1",
+      "status": "completed",
+      "qaStatus": "rejected",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[3].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_033643_c301b10c-d66d-4743-b3f4-d1519983b2c1.png",
+      "downloaded": true,
+      "qaNote": "Still two west/right units and curtain terminates bank at frame edge; third full real facade unit not demonstrated. Source camera/bar/room scale and two chaise otherwise correct.",
+      "sourceFile": "assets/Crown Georgetown Photos/third-floor-master-bedroom-owners-retreat-2.jpg.webp",
+      "sourceJobId": "5965cb07-cf05-43eb-9304-1b8389311997",
+      "qaEvidence": {
+        "comparison": "Still two west/right units and curtain terminates bank at frame edge; third full real facade unit not demonstrated. Source camera/bar/room scale and two chaise otherwise correct.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval"
+      }
+    },
+    {
+      "index": 73003,
+      "room": "ownerbath",
+      "code": "BA1",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba1-day.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "medias": [
+          {
+            "role": "image",
+            "value": "6e9c532c-6703-4ac9-b89c-b4bcddfbc3d4"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-3-r03-ownerbath-original-1.webp"
+          },
+          {
+            "role": "image",
+            "value": "ca5de41f-81c4-45af-a9e5-30d941ecf002"
+          },
+          {
+            "role": "image",
+            "value": "c25f8490-218b-4595-b94e-6b425b2719c1"
+          }
+        ],
+        "prompt": "MINIMAL edit of reference 1, the accepted Study A bathroom. Image-edit original owners-bath photo with page4 PLAN-CAMERA evidence and accepted Study A finish reference. Preserve source camera: shower/enclosure image-left, tub/focal wall ahead, long vanity image-right, plain ceiling and original nominal scale. Shower backs BEDROOM, a solid shared wall; do NOT create an exterior aperture there from glass reflections. The plan establishes the real SOUTH dry window near vanity/tub. The apparent left window IS the real dry-window REFLECTION, not an independent aperture. Resolve foreground glass as a physically coherent enclosure/reflection; any reflected dry-window glazing and partially raised shade must match the actual right-side window. Keep Study A pearl onyx-look porcelain at tub/shower, pale floor, walnut double vanity, canonical mirrors/sconces, freestanding tub and restrained framed artwork, existing tiny plum towel/art note only. No new WC/door inferred from reflection, drape in spray, tub underglow or extra bath architecture. Photorealistic 3:2. Do NOT restyle or move the camera. Reference2 original architecture, reference3/4 plan. In foreground shower glazing left, show subtle physically coherent reflection of the actual right dry window and half-lowered oatmeal shade; the wall behind glass stays solid pale onyx porcelain. Match divider and shade state with right window."
+      },
+      "jobId": "82595540-d73f-459c-996d-f9d652155323",
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[3].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_033643_82595540-d73f-459c-996d-f9d652155323.png",
+      "downloaded": true,
+      "qaNote": "Source camera, single real dry window, plain ceiling, tub/vanity/showers retained. Left glazing now reveals solid onyx shower wall with subtle room reflection rather than an independent exterior opening. Study A art, plum towels and walnut palette preserved.",
+      "sourceFile": "assets/render-candidates/mineral-walnut-stone/r01/a-ownerbath.png",
+      "sourceJobId": "6e9c532c-6703-4ac9-b89c-b4bcddfbc3d4",
+      "qaEvidence": {
+        "comparison": "Source camera, single real dry window, plain ceiling, tub/vanity/showers retained. Left glazing now reveals solid onyx shower wall with subtle room reflection rather than an independent exterior opening. Study A art, plum towels and walnut palette preserved.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval"
+      }
+    },
+    {
+      "index": 73004,
+      "room": "retreat",
+      "code": "OR1-N07",
+      "time": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-or1-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "medias": [
+          {
+            "role": "image",
+            "value": "585c0a7e-1b01-4edc-89ce-302b6f2ced2b"
+          },
+          {
+            "role": "image",
+            "value": "ca32fda2-ad08-4924-b9ea-7aacc24b5098"
+          }
+        ],
+        "prompt": "Retain ORIGINAL wet-bar photo camera and the currently source-based OR1 DAY (ca32fda2-ad08-4924-b9ea-7aacc24b5098) unless a later accepted canonical bedroom update requires it. For OR1 NIGHT repair, image-edit current night with that exact DAY as reference: REMOVE ONLY the added projecting left floating drawer beneath headwall at screen-left; restore the exact flat daytime joinery surface. Do not add a cabinet to the day to justify a night hallucination. Keep platform, bedroom art/bench/rug, bar sink/cabinet footprint/refrigerator and open bedroom connection identical. Warm restrained bar task and bedroom light, no uniform orange wash. Pure Mineral & Walnut neutral textiles, natural oak, walnut, charcoal details. No architecture, camera or object drift. Reference1 current night, reference2 EXACT retained day. TARGET REMOVE small projecting floating LEFT bed drawer only, replace with same uninterrupted headwall as day; lighting kept otherwise. Do not add or remove anything else."
+      },
+      "sourceCode": "OR1",
+      "sourceJobId": "ca32fda2-ad08-4924-b9ea-7aacc24b5098",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/retreat-or1-day-31513.png",
+      "jobId": "ff291938-257d-4134-b061-670fa52a5ad3",
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_033642_ff291938-257d-4134-b061-670fa52a5ad3.png",
+      "downloaded": true,
+      "qaNote": "Compared retained OR1 day: the added projecting left bedside drawer is removed; flat headwall restored. Bar footprint/fridge, bed, bench/rug/art and source camera remain. Warm task lighting only; no exterior openings visible.",
+      "qaEvidence": {
+        "comparison": "Compared retained OR1 day: the added projecting left bedside drawer is removed; flat headwall restored. Bar footprint/fridge, bed, bench/rug/art and source camera remain. Warm task lighting only; no exterior openings visible.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval",
+        "exactDayLink": {
+          "sourceCode": "OR1",
+          "sourceJobId": "ca32fda2-ad08-4924-b9ea-7aacc24b5098",
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/retreat-or1-day-31513.png"
+        }
+      }
+    },
+    {
+      "index": 73005,
+      "room": "ownerbath",
+      "code": "BA2",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day.png",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba1-day.png",
+      "sourceJobId": "82595540-d73f-459c-996d-f9d652155323",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "prompt": "Derive a real reverse bath view by image-editing accepted reflection-safe BA1 with original bath photo and page4 PLAN-CAMERA control. Camera near EAST tub alcove looking WEST along room: SOUTH long vanity image-left, NORTH shower shared with bedroom image-right, actual entry/WC topology ahead per control. The real south dry window near tub can be behind camera; do not invent another window to brighten an unseen wall. Maintain same shower polygon/seat/glass, tub, walnut double vanity/mirrors/sconces, accepted Study A pearl onyx porcelain, pale floor and restrained artwork. Keep nominal room honest; do not invent hidden door positions or use reflected glass imagery as a new opening. Preserve approved small bathroom plum note; no bedroom color theme or Cocoa & Chrome scheme. Photorealistic 3:2. Reference1 corrected canonical bathroom, reference2 original camera, reference3 labeled plan control, reference4 full plan. This MUST be a reverse camera facing the toilet/enclosure end, not a repeat view toward the tub. The tub is near camera/can crop at bottom; the long double vanity runs screen-left, polygonal shower on screen-right. Far-left enclosed WC, far-right bath exit into shared bath/closet passage follows printed plan. Never center an invented doorway on far wall. Show honest compact room. Daylight comes from near camera/left actual dry window, not a new far-wall aperture. Same art/mirrors/hardware proportions; use original palette.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "82595540-d73f-459c-996d-f9d652155323"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-3-r03-ownerbath-original-1.webp"
+          },
+          {
+            "role": "image",
+            "value": "c25f8490-218b-4595-b94e-6b425b2719c1"
+          },
+          {
+            "role": "image",
+            "value": "ca5de41f-81c4-45af-a9e5-30d941ecf002"
+          }
+        ]
+      },
+      "jobId": "b2bebc61-58bf-4e67-8ba7-9c1252aaa2a5",
+      "status": "completed",
+      "qaStatus": "rejected",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[3].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_033820_b2bebc61-58bf-4e67-8ba7-9c1252aaa2a5.png",
+      "downloaded": true,
+      "qaNote": "Genuine reverse camera but actual dry window is incorrectly drawn toward far west end instead of near east/tub end; toilet is exposed without the plan's separate WC enclosure. Entry also too far west. Repair topology locally.",
+      "qaEvidence": {
+        "comparison": "Genuine reverse camera but actual dry window is incorrectly drawn toward far west end instead of near east/tub end; toilet is exposed without the plan's separate WC enclosure. Entry also too far west. Repair topology locally.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval"
+      }
+    },
+    {
+      "index": 73006,
+      "room": "ownerbath",
+      "code": "BA1-N07",
+      "time": "night",
+      "sourceCode": "BA1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba1-day.png",
+      "sourceJobId": "82595540-d73f-459c-996d-f9d652155323",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba1-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "prompt": "Night lighting/privacy edit of EXACT accepted corresponding bath DAY output. Lock all fixture, aperture, stone, art, furniture, camera and reflection geometry. Close the REAL dry-window opaque privacy shade; its reflection in shower glass must also show the SAME closed neutral shade, not an independently open BLUE window. No new shower aperture on bedroom-backed shared wall. Warm functional vanity light and restrained general/wet-area visibility, no decorative orange wash, RGB, ceiling coves or tub underglow. Same 3:2. Exact reference is selected BA1. Keep shower clear glass/solid onyx wall on image-left; one real right window's oatmeal shade MUST be fully down to sill, no blue exterior visible. Do not add another aperture, shower hardware or any object. Natural warm white light that keeps pearl surfaces readable.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "82595540-d73f-459c-996d-f9d652155323"
+          }
+        ]
+      },
+      "jobId": "82fbc26e-760e-4c0b-9667-367378f93924",
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_033819_82fbc26e-760e-4c0b-9667-367378f93924.png",
+      "downloaded": true,
+      "qaNote": "Exact BA1 camera/fixture/art/material inventory preserved, real right dry-window shade fully closed. Left clear glazing reveals solid shower wall and subtle same neutral closed-shade reflection; no open blue independent shower window. Functional warm vanity/general illumination.",
+      "qaEvidence": {
+        "comparison": "Exact BA1 camera/fixture/art/material inventory preserved, real right dry-window shade fully closed. Left clear glazing reveals solid shower wall and subtle same neutral closed-shade reflection; no open blue independent shower window. Functional warm vanity/general illumination.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval",
+        "exactDayLink": {
+          "sourceCode": "BA1",
+          "sourceJobId": "82595540-d73f-459c-996d-f9d652155323",
+          "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba1-day.png"
+        }
+      }
+    },
+    {
+      "index": 73102,
+      "room": "retreat",
+      "code": "OR2",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-day-a2.png",
+      "sourceJobId": "c301b10c-d66d-4743-b3f4-d1519983b2c1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-day.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "prompt": "TARGETED architectural correction of reference1 retreat seating nook, keep all furniture/bar/materials/window height/sill and room footprint. The RIGHT WALL west-facing window bank must show THREE evenly spaced real white-framed sash window units, not two. Replace the TWO current large sash units on the right with THREE equal sash units across the same wall bay, retain real heavy separating mullions and each upper/lower sash crossbar. The third unit must visibly exist toward the right edge; pull camera back slightly or widen field of view enough to show the WHOLE three-window bank plus final curtain, without stretching room or windows. Foreground SOUTH wall AHEAD still has exactly TWO units. Reference2 west facade proves count; reference3 plan top retreat facade has three. Same two ivory chaise, lamp/round table, walnut wet bar at left, oak/oatmeal rug, mineral walls, ivory sheers plus oatmeal blackout drapes stacked by day. Same quality photographic lens, believable nominal12ft3x10ft nook. No extra windows anywhere, no French doors, no room enlargement. Only correct right-window count and necessary framing.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "c301b10c-d66d-4743-b3f4-d1519983b2c1"
+          },
+          {
+            "role": "image",
+            "value": "bf57727d-f3f8-4b35-8138-e32f35c820a6"
+          },
+          {
+            "role": "image",
+            "value": "ca5de41f-81c4-45af-a9e5-30d941ecf002"
+          }
+        ]
+      },
+      "jobId": "a0e1809d-f252-49c2-8a38-8ea097dceb79",
+      "status": "completed",
+      "qaStatus": "rejected",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_033932_a0e1809d-f252-49c2-8a38-8ea097dceb79.png",
+      "downloaded": true,
+      "qaNote": "Targeted edit ignored count instruction; essentially unchanged two-unit right bank.",
+      "qaEvidence": {
+        "comparison": "Targeted edit ignored count instruction; essentially unchanged two-unit right bank.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval"
+      }
+    },
+    {
+      "index": 73007,
+      "room": "ownerbed",
+      "code": "OB2",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob2-day.png",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob1-day.png",
+      "sourceJobId": "a3281582-593d-4d2d-8f9a-f7b0b001d75b",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "prompt": "Derive a materially different reverse owners-bedroom photograph by image-editing the accepted corrected OB1 with ORIGINAL source photo and page4 PLAN-CAMERA CONTROL. Camera near WEST four-window bank looking EAST/SOUTHEAST. NORTH solid bed/headwall is image-left; SOUTH TV/dresser wall is image-right; EAST vestibule paired doors and transom are ahead toward south half. Bath/closet arched access is on south wall toward EAST/vestibule end, NOT between TV and west windows. Use control to locate openings; no invented door, ceiling tray, partition or added window. EXACT same platform, recessed plinth, both floating bedside consoles, art, 55-inch TV/soundbar, walnut pieces and oak/rug as accepted OB1. Oatmeal blackout layers stacked clear by day, ivory sheers at real glass. Honest nominal 16x17-foot room. No alternate colored textiles or Cocoa & Chrome motif. Photorealistic 3:2. Reference1 canonical accepted furniture, reference2 ORIGINALsource architecture, reference3 camera-control plan, reference4 builderplan. Must face the opposite direction, no rear-west window bank ahead. NORTH bed/headwall screenLEFT; SOUTH 55inchTV/dresser screenRIGHT. EAST pair suite entry doors with transom ahead toward RIGHT/south portion. The true arched access is on SOUTH wall toward EAST near the vestibule, so visible right near front wall; do not put it near rear windows. Do not center bed on far east wall: headboard remains fixed on North/screenLEFT. Floor/rug/bench and two bedside floating drawers exactly as reference1. Maintain 16x17foot room, plain flat ceiling/crown. Camera close to west glazing, looking towards east with a slightly southeast diagonal.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "a3281582-593d-4d2d-8f9a-f7b0b001d75b"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-3-r03-ownerbed-original-1.webp"
+          },
+          {
+            "role": "image",
+            "value": "c25f8490-218b-4595-b94e-6b425b2719c1"
+          },
+          {
+            "role": "image",
+            "value": "ca5de41f-81c4-45af-a9e5-30d941ecf002"
+          }
+        ]
+      },
+      "jobId": "d868013a-e77f-4625-807f-c648a53ce90d",
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[3].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_033933_d868013a-e77f-4625-807f-c648a53ce90d.png",
+      "downloaded": true,
+      "qaNote": "Genuinely reverse camera near west bank toward east, headwall/bed left and TV/dresser right. Paired east doors with transom correctly offset toward south; real south arch near east/vestibule. Canonical bed/art/consoles/floor/rug retained. Window bank behind camera rather than invented ahead.",
+      "qaEvidence": {
+        "comparison": "Genuinely reverse camera near west bank toward east, headwall/bed left and TV/dresser right. Paired east doors with transom correctly offset toward south; real south arch near east/vestibule. Canonical bed/art/consoles/floor/rug retained. Window bank behind camera rather than invented ahead.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval"
+      }
+    },
+    {
+      "index": 73008,
+      "room": "ownerbed",
+      "code": "OB1-N07",
+      "time": "night",
+      "sourceCode": "OB1",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob1-day.png",
+      "sourceJobId": "a3281582-593d-4d2d-8f9a-f7b0b001d75b",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob1-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "prompt": "Night lighting edit of EXACT accepted corresponding DAY output. Lock camera/crop, every opening and glazing division, wet bar where visible, BOTH bedside drawers, platform, furniture, art and oak/rugs. Close every visible real bedroom/retreat opaque blackout layer behind same sheers; do not close an internal open connection. Exterior dark and no daylight. TV off; restrained warm reading/bar task lights and very soft recessed under-bed/bedside guide light. No new cabinet, extra dresser-base LED, bright orange wash, colored textile or object drift. Same 3:2. Exact reference accepted OB1. Fully CLOSE floor-to-ceiling oatmeal BLACKOUT drapes across the whole rear FOUR-window bank behind sheers, not just sheer curtains or blue window. Keep actual white frames/opening behind curtains; zero daylight. TV black/off with same room reflections. Same canonical bed, art, both bedside drawers, dressers and bench. Keep walls readable neutral, avoid orange lighting cast.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "a3281582-593d-4d2d-8f9a-f7b0b001d75b"
+          }
+        ]
+      },
+      "jobId": "2978c793-c5b9-4e9c-88f4-18cb5a5c2a9b",
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_033934_2978c793-c5b9-4e9c-88f4-18cb5a5c2a9b.png",
+      "downloaded": true,
+      "qaNote": "Exact selected OB1 camera, art/furniture/openings maintained; blackout drapes fully closed across rear four-unit bank, TV off. Functional restrained warm reading, ceiling and low platform lighting. No added aperture/drawer.",
+      "qaEvidence": {
+        "comparison": "Exact selected OB1 camera, art/furniture/openings maintained; blackout drapes fully closed across rear four-unit bank, TV off. Functional restrained warm reading, ceiling and low platform lighting. No added aperture/drawer.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval",
+        "exactDayLink": {
+          "sourceCode": "OB1",
+          "sourceJobId": "a3281582-593d-4d2d-8f9a-f7b0b001d75b",
+          "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob1-day.png"
+        }
+      }
+    },
+    {
+      "index": 73202,
+      "room": "retreat",
+      "code": "OR2",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-day-a3.png",
+      "sourceFile": "assets/Crown Georgetown Photos/third-floor-master-bedroom-owners-retreat-2.jpg.webp",
+      "sourceJobId": "a0e1809d-f252-49c2-8a38-8ea097dceb79",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "prompt": "Create a corrected PHOTOGRAPH by IMAGE EDITING the references. Reference1 is a drawn camera/window-count control only; reference2 is the original photograph for actual room/camera/trim; reference3 is approved Mineral & Walnut furniture/finishes. Output a photorealistic room, NEVER drawing, labels or outlines. CRITICAL: show exactly TWO tall sash window units on the back/ahead SOUTH wall and exactly THREE tall sash window units on RIGHT WEST wall as reference1 W1,W2,W3. ALL THREE right units must be visibly separate, with two heavy vertical dividers between them, and their upper/lower sash bars; remove the curtain hiding the third if necessary, stack blackout curtains beyond THIRD unit. Current photo crops right bank: pull view wider/back enough to reveal all THREE right units in existing12ft3x10foot nook without enlargement. Bar at screen-left with solid return, same2ivory chaise and central walnut roundtable/lamp, natural oak/oatmeal rug, warm mineral walls. Use original frame/head/sill proportions. No new doors. No French terrace doorway. Outside ordinary Crown townhomes/trees, actualwhite-house facade count is3. A right wall with only2windowunits fails. Ivory sheers plus oatmeal opaque blackoutlayers stacked by day. 3:2 photo.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "f15dbef4-458a-45c2-ac51-bc157d983935"
+          },
+          {
+            "role": "image",
+            "value": "https://708.hackbyrd.com/design-review-assets/floor-3-r03-retreat-original-2.webp"
+          },
+          {
+            "role": "image",
+            "value": "a0e1809d-f252-49c2-8a38-8ea097dceb79"
+          },
+          {
+            "role": "image",
+            "value": "bf57727d-f3f8-4b35-8138-e32f35c820a6"
+          }
+        ]
+      },
+      "jobId": "8e051d22-a206-4555-a1d2-06c22e6b22cf",
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[3].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034314_8e051d22-a206-4555-a1d2-06c22e6b22cf.png",
+      "downloaded": true,
+      "qaNote": "Window-count/camera guide succeeds: THREE visible sash units on west/right facade, TWO south/ahead; source bar/return, two ivory chaise/round table, real head/sill and compact nook remain. No optional door or invented partition. Blackout layers stacked in day.",
+      "qaEvidence": {
+        "comparison": "Window-count/camera guide succeeds: THREE visible sash units on west/right facade, TWO south/ahead; source bar/return, two ivory chaise/round table, real head/sill and compact nook remain. No optional door or invented partition. Blackout layers stacked in day.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval"
+      }
+    },
+    {
+      "index": 73105,
+      "room": "ownerbath",
+      "code": "BA2",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day-a2.png",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day.png",
+      "sourceJobId": "b2bebc61-58bf-4e67-8ba7-9c1252aaa2a5",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "prompt": "Correct reference1 reverse bathroom photograph using reference2 drawn camera/topology control and reference3 approved canonical BA1. Preserve photorealistic reverse camera near EAST tub looking WEST; bathtub edge is foreground. Keep vanity SOUTH/screenLEFT, polygonal clear-glass shower NORTH/screenRIGHT with solid onyx wall. THREE precise corrections: 1 REMOVE the far LEFT exterior window behind the last vanity mirror, fill solid warm mineral wall. There is onlyONE actual dry window near EAST tub end, behind camera to LEFT, so it is not visible in this crop. 2 The WEST toilet compartment must be enclosed by a full-height partition aheadLEFT at the end of vanity, with a real narrow door into WC; toilet itself hidden behind enclosure, no exposed toilet in main bathroom. 3 REMOVE far RIGHT rectangular doorway beside shower: actual bathroom entry near EAST/tub end is cameraRIGHT outside this crop, not at far West/shower end. Use reference2/4 plan. Retain exact walnut double vanity, two mirrors and matching sconces, fixtures, pearl onyx-look shower/tub material, pale stonefloor/rug and small approved plum towel details. Do not add any new window, mirror doubling, door behind shower or decorative ceiling. Guide is schematic topology only; original proportions/canonicalstyle govern. Realistic high-quality3:2 photograph, no guide text/linework.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "b2bebc61-58bf-4e67-8ba7-9c1252aaa2a5"
+          },
+          {
+            "role": "image",
+            "value": "8b5666ba-c2c3-488f-afb6-87dc1732f090"
+          },
+          {
+            "role": "image",
+            "value": "82595540-d73f-459c-996d-f9d652155323"
+          },
+          {
+            "role": "image",
+            "value": "ca5de41f-81c4-45af-a9e5-30d941ecf002"
+          }
+        ]
+      },
+      "jobId": "2c1728e8-4794-4cdd-a28e-a3305aa11e5c",
+      "status": "completed",
+      "qaStatus": "rejected",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[3].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034313_2c1728e8-4794-4cdd-a28e-a3305aa11e5c.png",
+      "downloaded": true,
+      "qaNote": "WC now enclosed, far-right false door removed, but door too far right relative WC south-half and small legacy far-left window head remains. Localized cleanup required.",
+      "qaEvidence": {
+        "comparison": "WC now enclosed, far-right false door removed, but door too far right relative WC south-half and small legacy far-left window head remains. Localized cleanup required.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval"
+      }
+    },
+    {
+      "index": 73009,
+      "room": "ownerbed",
+      "code": "OB2-N07",
+      "time": "night",
+      "sourceCode": "OB2",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob2-day.png",
+      "sourceJobId": "d868013a-e77f-4625-807f-c648a53ce90d",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob2-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "prompt": "Night lighting edit of EXACT accepted corresponding DAY output. Lock camera/crop, every opening and glazing division, wet bar where visible, BOTH bedside drawers, platform, furniture, art and oak/rugs. Close every visible real bedroom/retreat opaque blackout layer behind same sheers; do not close an internal open connection. Exterior dark and no daylight. TV off; restrained warm reading/bar task lights and very soft recessed under-bed/bedside guide light. No new cabinet, extra dresser-base LED, bright orange wash, colored textile or object drift. Same 3:2. Exact source is selected OB2 reverse. This camera shows no exterior glass, windows behind camera; do not add curtains to east interior suite doors, transom or arch. TV off. Same closedpairedentrydoors, arch, bed/bench/rug, BOTH bedside drawers/art, walnut TVdresser and plainceiling. Warm balancedreading/general light with tiny recessedplatformguideglow. No orange wash, no object/camera drift.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "d868013a-e77f-4625-807f-c648a53ce90d"
+          }
+        ]
+      },
+      "jobId": "b01ccad1-3ce0-4405-9ed4-dcc8d539abd7",
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034313_b01ccad1-3ce0-4405-9ed4-dcc8d539abd7.png",
+      "downloaded": true,
+      "qaNote": "Exact OB2 reverse camera/openings/art/furniture preserved; no exterior glass in frame and no curtain over interior doors/arch. TV off, restrained reading/platform lighting, zero new objects.",
+      "qaEvidence": {
+        "comparison": "Exact OB2 reverse camera/openings/art/furniture preserved; no exterior glass in frame and no curtain over interior doors/arch. TV off, restrained reading/platform lighting, zero new objects.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval",
+        "exactDayLink": {
+          "sourceCode": "OB2",
+          "sourceJobId": "d868013a-e77f-4625-807f-c648a53ce90d",
+          "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob2-day.png"
+        }
+      }
+    },
+    {
+      "index": 73205,
+      "room": "ownerbath",
+      "code": "BA2",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day-a3.png",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day-a2.png",
+      "sourceJobId": "2c1728e8-4794-4cdd-a28e-a3305aa11e5c",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "prompt": "Two VERY LOCAL corrections to reference1 reverse bath photograph; do not move camera or redesign any fixture/furniture/finish. 1 DELETE remaining white triangular/diagonal WINDOW HEADER at x~570,y~295 above the far vanity mirror. The entire long SOUTH/LEFT wall is continuous solid mineral/onyx in this crop. Fill all legacy aperture/trim with matching wall: no window at far vanity end or reflected fake aperture. Actual single dry window is behind this tub-end camera, outside crop. 2 Move the existing closed WC door on far partition LEFT by about one door-width, so it is immediately alongside the far end of the vanity in the SOUTH/LEFT half; fill its old position with matching solid wall. Reference2 guide locates WC door ahead-LEFT; reference3 plan has WC in WEST-SOUTH corner. Keep WC fully enclosed and toilet invisible. Door/mirror reflections must reflect corrected door position. Preserve same plain ceiling, long walnut double vanity, two mirrors/sconces, polygonal shower screenRIGHT with same seat/hardware/glass, cropped tubforeground, pale stone/rug and existing small plum towels. Nothing else changes. No additional opening, no decorative trim/header on WC partition. Output high-quality same3:2 photorealistic image.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "2c1728e8-4794-4cdd-a28e-a3305aa11e5c"
+          },
+          {
+            "role": "image",
+            "value": "8b5666ba-c2c3-488f-afb6-87dc1732f090"
+          },
+          {
+            "role": "image",
+            "value": "ca5de41f-81c4-45af-a9e5-30d941ecf002"
+          }
+        ]
+      },
+      "jobId": "bff14f98-b810-4eda-a1cc-c9ec3a83cfde",
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[1].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        },
+        "medias[2].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034513_bff14f98-b810-4eda-a1cc-c9ec3a83cfde.png",
+      "downloaded": true,
+      "qaNote": "True tub-end reverse with south double vanity left, north polygonal shower right, WC door/enclosure ahead-left beside vanity end. Removed wrong far dry window including remaining header, removed wrong west-end bath entry. Single actual dry window and main entry lie behind/alongside camera at east end. Canonical fixtures/Study A/walnut/neutral floor retained; inferred reverse elevation needs field verification.",
+      "qaEvidence": {
+        "comparison": "True tub-end reverse with south double vanity left, north polygonal shower right, WC door/enclosure ahead-left beside vanity end. Removed wrong far dry window including remaining header, removed wrong west-end bath entry. Single actual dry window and main entry lie behind/alongside camera at east end. Canonical fixtures/Study A/walnut/neutral floor retained; inferred reverse elevation needs field verification.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval"
+      }
+    },
+    {
+      "index": 73010,
+      "room": "retreat",
+      "code": "OR2-N07",
+      "time": "night",
+      "sourceCode": "OR2",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-day-a3.png",
+      "sourceJobId": "8e051d22-a206-4555-a1d2-06c22e6b22cf",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "prompt": "Night lighting edit of EXACT accepted corresponding DAY output. Lock camera/crop, every opening and glazing division, wet bar where visible, BOTH bedside drawers, platform, furniture, art and oak/rugs. Close every visible real bedroom/retreat opaque blackout layer behind same sheers; do not close an internal open connection. Exterior dark and no daylight. TV off; restrained warm reading/bar task lights and very soft recessed under-bed/bedside guide light. No new cabinet, extra dresser-base LED, bright orange wash, colored textile or object drift. Same 3:2. Exact selected OR2: preserve THREE west/right window-unit topology and TWO south/ahead behind treatments, bar/return, two chaise/table/lamp/rug and roomscale. Fully CLOSE opaque oatmeal blackout drapes across BOTH real window walls behind same sheers. No blue glass, no daylight; allvisible windowbanks completely covered but remain structurally unchanged. Lamp and soft warm bar/task/general illumination. Don'taddsofa, cabinet, ceilingcove or unnecessary LEDs. Preserve littleobjects/inventory/camera. 3:2.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "8e051d22-a206-4555-a1d2-06c22e6b22cf"
+          }
+        ]
+      },
+      "jobId": "89dfabdc-5729-4c1f-a774-a2cec3aca5b5",
+      "status": "completed",
+      "qaStatus": "rejected",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034513_89dfabdc-5729-4c1f-a774-a2cec3aca5b5.png",
+      "downloaded": true,
+      "qaNote": "Camera/furniture/window units match day, but night adds five roller blinds instead of closing existing full-length blackout drapes; treatment/inventory drift.",
+      "qaEvidence": {
+        "comparison": "Camera/furniture/window units match day, but night adds five roller blinds instead of closing existing full-length blackout drapes; treatment/inventory drift.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval",
+        "exactDayLink": {
+          "sourceCode": "OR2",
+          "sourceJobId": "8e051d22-a206-4555-a1d2-06c22e6b22cf",
+          "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-day-a3.png"
+        }
+      }
+    },
+    {
+      "index": 73011,
+      "room": "ownerbath",
+      "code": "BA2-N07",
+      "time": "night",
+      "sourceCode": "BA2",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day-a3.png",
+      "sourceJobId": "bff14f98-b810-4eda-a1cc-c9ec3a83cfde",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-night.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "prompt": "Night lighting/privacy edit of EXACT accepted corresponding bath DAY output. Lock all fixture, aperture, stone, art, furniture, camera and reflection geometry. Close the REAL dry-window opaque privacy shade; its reflection in shower glass must also show the SAME closed neutral shade, not an independently open BLUE window. No new shower aperture on bedroom-backed shared wall. Warm functional vanity light and restrained general/wet-area visibility, no decorative orange wash, RGB, ceiling coves or tub underglow. Same 3:2. Exact reference accepted BA2 reverse: no exterior aperture is visible in this camera, so do not invent shades/windows to show night. Real actual drywindow behind camera fullyclosed elsewhere. Preserve closed WC door aheadLEFT, southvanity/mirrors/sconcesLEFT and north clearpolygonalshowerRIGHT with solid bedroomsharedwall. Twoactualmirrors, same count lights/fixtures/towels/rug/vanity. Reflections obeysameopenings. Warm functional vanity/taskgeneralwhite lighting, no daylight, no orangecast/RGB/coves/underglow/newobjects.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "bff14f98-b810-4eda-a1cc-c9ec3a83cfde"
+          }
+        ]
+      },
+      "jobId": "ec275313-71b1-499f-93df-b0d131ed383c",
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034653_ec275313-71b1-499f-93df-b0d131ed383c.png",
+      "downloaded": true,
+      "qaNote": "Exact selected BA2 reverse camera/crop/topology/fixture inventory preserved. Closed WC ahead-left, no visible exterior openings or new privacy treatment; actual dry window lies behind camera. Functional sconces/general illumination, same onyx shower/seat/glass, walnut vanity, pale floor/rug and tiny bath accents.",
+      "qaEvidence": {
+        "comparison": "Exact selected BA2 reverse camera/crop/topology/fixture inventory preserved. Closed WC ahead-left, no visible exterior openings or new privacy treatment; actual dry window lies behind camera. Functional sconces/general illumination, same onyx shower/seat/glass, walnut vanity, pale floor/rug and tiny bath accents.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval",
+        "exactDayLink": {
+          "sourceCode": "BA2",
+          "sourceJobId": "bff14f98-b810-4eda-a1cc-c9ec3a83cfde",
+          "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day-a3.png"
+        }
+      }
+    },
+    {
+      "index": 73110,
+      "room": "retreat",
+      "code": "OR2-N07",
+      "time": "night",
+      "sourceCode": "OR2",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-day-a3.png",
+      "sourceJobId": "8e051d22-a206-4555-a1d2-06c22e6b22cf",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-night-a2.png",
+      "params": {
+        "model": "nano_banana_2_1",
+        "count": 1,
+        "aspect_ratio": "3:2",
+        "resolution": "2k",
+        "thinking_level": "high",
+        "prompt": "Night lighting edit of EXACT selected DAY reference1. SAME camera/bar/twochaise/tablelamp/rug/art/furniture/windows/finishes. CLOSE the EXISTING full-height OATMEAL BLACKOUT DRAPES across BOTH window walls, in front of the windows and behind the ivory sheer layer. These are thick pleated FABRIC CURTAIN PANELS hanging from the existing ceiling-level curtain rod/track all the way to FLOOR, pulled across the whole TWO-window SOUTH/AHEAD bank and whole THREE-window WEST/RIGHT bank. Glass and frames become concealed by curtains, their opening count unchanged behind curtains. NO ROLLER BLINDS, NO ROMAN SHADES, NO individual in-frame blinds: do not add any treatment absent from day. Use same fabric and curtainhardware alreadyshownstackedat sides. Allglazing covered, zero blueglass or daylight. Same sourcecamera exactcrop, warm lamp+bar task light, restrained ceiling/generalwhite light, noorangeuniformwash ornewLEDs/objects. Ordinary nighttime. Photorealistic3:2. Night must show floor-to-ceiling closed pleated drapes on both walls.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "8e051d22-a206-4555-a1d2-06c22e6b22cf"
+          }
+        ]
+      },
+      "jobId": "99719d9e-c129-4211-b977-686714797daa",
+      "status": "completed",
+      "qaStatus": "approved_design_visualization",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+        }
+      },
+      "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IUQNqudv4d6QM0jjL7Qv6ZcniL/hf_20261011_034653_99719d9e-c129-4211-b977-686714797daa.png",
+      "downloaded": true,
+      "qaNote": "Exact selected OR2 camera/bar/two-chaise/table/lamp/rug preserved. Existing floor-to-ceiling pleated oatmeal blackout drapes fully cover both south two-unit and west three-unit banks; no new blinds, no blue exterior/daylight. Warm lamp/bar lighting, no added object.",
+      "qaEvidence": {
+        "comparison": "Exact selected OR2 camera/bar/two-chaise/table/lamp/rug preserved. Existing floor-to-ceiling pleated oatmeal blackout drapes fully cover both south two-unit and west three-unit banks; no new blinds, no blue exterior/daylight. Warm lamp/bar lighting, no added object.",
+        "auditFile": "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+        "scope": "Source/blueprint design visualization; no field measurement or construction approval",
+        "exactDayLink": {
+          "sourceCode": "OR2",
+          "sourceJobId": "8e051d22-a206-4555-a1d2-06c22e6b22cf",
+          "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-day-a3.png"
+        }
+      }
+    }
+  ],
+  "selectedJobIndexes": [
+    73001,
+    73007,
+    73202,
+    73003,
+    73205,
+    73008,
+    73009,
+    73110,
+    73006,
+    73011,
+    73004
+  ],
+  "deliveredJobs": [
+    {
+      "index": 73001,
+      "jobId": "a3281582-593d-4d2d-8f9a-f7b0b001d75b",
+      "room": "ownerbed",
+      "code": "OB1",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob1-day.png",
+      "sourceJobId": "c19dd8f4-ec7c-40fc-aafe-d8873b920890",
+      "sourceFile": "assets/Crown Georgetown Photos/third-floor-master-bedroom.jpg.webp",
+      "qaStatus": "approved_design_visualization"
+    },
+    {
+      "index": 73007,
+      "jobId": "d868013a-e77f-4625-807f-c648a53ce90d",
+      "room": "ownerbed",
+      "code": "OB2",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob2-day.png",
+      "sourceJobId": "a3281582-593d-4d2d-8f9a-f7b0b001d75b",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob1-day.png",
+      "qaStatus": "approved_design_visualization"
+    },
+    {
+      "index": 73202,
+      "jobId": "8e051d22-a206-4555-a1d2-06c22e6b22cf",
+      "room": "retreat",
+      "code": "OR2",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-day-a3.png",
+      "sourceJobId": "a0e1809d-f252-49c2-8a38-8ea097dceb79",
+      "sourceFile": "assets/Crown Georgetown Photos/third-floor-master-bedroom-owners-retreat-2.jpg.webp",
+      "qaStatus": "approved_design_visualization"
+    },
+    {
+      "index": 73003,
+      "jobId": "82595540-d73f-459c-996d-f9d652155323",
+      "room": "ownerbath",
+      "code": "BA1",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba1-day.png",
+      "sourceJobId": "6e9c532c-6703-4ac9-b89c-b4bcddfbc3d4",
+      "sourceFile": "assets/render-candidates/mineral-walnut-stone/r01/a-ownerbath.png",
+      "qaStatus": "approved_design_visualization"
+    },
+    {
+      "index": 73205,
+      "jobId": "bff14f98-b810-4eda-a1cc-c9ec3a83cfde",
+      "room": "ownerbath",
+      "code": "BA2",
+      "time": "day",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day-a3.png",
+      "sourceJobId": "2c1728e8-4794-4cdd-a28e-a3305aa11e5c",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day-a2.png",
+      "qaStatus": "approved_design_visualization"
+    },
+    {
+      "index": 73008,
+      "jobId": "2978c793-c5b9-4e9c-88f4-18cb5a5c2a9b",
+      "room": "ownerbed",
+      "code": "OB1-N07",
+      "time": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob1-night.png",
+      "sourceCode": "OB1",
+      "sourceJobId": "a3281582-593d-4d2d-8f9a-f7b0b001d75b",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob1-day.png",
+      "qaStatus": "approved_design_visualization"
+    },
+    {
+      "index": 73009,
+      "jobId": "b01ccad1-3ce0-4405-9ed4-dcc8d539abd7",
+      "room": "ownerbed",
+      "code": "OB2-N07",
+      "time": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob2-night.png",
+      "sourceCode": "OB2",
+      "sourceJobId": "d868013a-e77f-4625-807f-c648a53ce90d",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob2-day.png",
+      "qaStatus": "approved_design_visualization"
+    },
+    {
+      "index": 73110,
+      "jobId": "99719d9e-c129-4211-b977-686714797daa",
+      "room": "retreat",
+      "code": "OR2-N07",
+      "time": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-night-a2.png",
+      "sourceCode": "OR2",
+      "sourceJobId": "8e051d22-a206-4555-a1d2-06c22e6b22cf",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-day-a3.png",
+      "qaStatus": "approved_design_visualization"
+    },
+    {
+      "index": 73006,
+      "jobId": "82fbc26e-760e-4c0b-9667-367378f93924",
+      "room": "ownerbath",
+      "code": "BA1-N07",
+      "time": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba1-night.png",
+      "sourceCode": "BA1",
+      "sourceJobId": "82595540-d73f-459c-996d-f9d652155323",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba1-day.png",
+      "qaStatus": "approved_design_visualization"
+    },
+    {
+      "index": 73011,
+      "jobId": "ec275313-71b1-499f-93df-b0d131ed383c",
+      "room": "ownerbath",
+      "code": "BA2-N07",
+      "time": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-night.png",
+      "sourceCode": "BA2",
+      "sourceJobId": "bff14f98-b810-4eda-a1cc-c9ec3a83cfde",
+      "sourceFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day-a3.png",
+      "qaStatus": "approved_design_visualization"
+    },
+    {
+      "index": 73004,
+      "jobId": "ff291938-257d-4134-b061-670fa52a5ad3",
+      "room": "retreat",
+      "code": "OR1-N07",
+      "time": "night",
+      "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-or1-night.png",
+      "sourceCode": "OR1",
+      "sourceJobId": "ca32fda2-ad08-4924-b9ea-7aacc24b5098",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/retreat-or1-day-31513.png",
+      "qaStatus": "approved_design_visualization"
+    }
+  ],
+  "counts": {
+    "submittedAttempts": 16,
+    "selectedDays": 5,
+    "selectedNights": 6,
+    "selectedTotal": 11,
+    "rejectedAttempts": 5,
+    "retainedViews": 3
+  },
+  "independentQa": {
+    "reviewer": "root",
+    "approvedSelectedDayIndexes": [
+      73001,
+      73007,
+      73202,
+      73003,
+      73205
+    ],
+    "pendingSelectedDayIndexes": [],
+    "note": "Root independently confirmed all five selected day geometries; final exact day/night contact sheet provided for integration QA."
+  },
+  "limitations": [
+    "Reverse OB2/BA2 are plan-derived elevations with no dedicated reverse original photograph; exact finish installation dimensions, door widths, cabinetry clearances, waterproofing and electrical design require field measurement.",
+    "Bath has ONE real south dry window near tub; former apparent shower-side window is glass reflection. No separate shower aperture or window treatment is authorized.",
+    "Retained OR1 day and closet day/night are not regenerated. No active reviews, build book, budgets or production site were modified by this production task."
+  ],
+  "galleryDisplayed": {
+    "tool": "show_generation_by_ids",
+    "calls": 1,
+    "terminalJobs": 16,
+    "includesRejectedAttempts": true,
+    "allFound": true
+  }
+}

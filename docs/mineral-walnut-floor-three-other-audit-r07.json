@@ -1,0 +1,636 @@
+{
+  "version": "MW-F3-R07-OTHER-AUDIT",
+  "date": "2026-10-10",
+  "option": "Mineral & Walnut — Option 1 only",
+  "scope": "Bedroom2, Bedroom3, shared bathroom, laundry and third-floor stair hall: every currently published day angle and its exact night mate (9 day +9 night). This file only; no generation or shared-manifest mutation.",
+  "status": "source_audit_complete; targeted candidate generation and new-image QA not yet performed",
+  "qaStatus": "Current files inspected against fresh plan/original photos; architecture/furniture/privacy/finish findings separated. New candidates require independent QA before replacement.",
+  "method": "Read fresh PDF page4 floor3 half and all four original model-home photos, visually inspected all18 current image files via1600px JPEG previews, and enlarged original shared-bath doorway detail. Also inspected actual south-front exterior photos to identify the unvisualized shared-bath wet-compartment opening. Used current manifests for exact job/file/source pairing. Old render-audit and historical QA notes were not adopted as structural authority. Visible shell pass is not measured construction approval or confirmation of unseen walls.",
+  "sources": {
+    "dayManifest": "docs/mineral-walnut-neutral-review.json",
+    "primaryNightManifest": "docs/mineral-walnut-night-review.json",
+    "secondaryNightManifest": "docs/mineral-walnut-night-angles-review.json",
+    "blueprint": "assets/cf_city_home_with_georgetown_pkg.pdf",
+    "blueprintPage": 4,
+    "freshPlanPreview": "/tmp/home-708-r07-upper-plan.png",
+    "persistedPlanReference": "assets/render-candidates/floor-three-review/r01/refs/blueprint.png"
+  },
+  "constraints": [
+    "Headboard of Bedroom2 remains on TOP printed-plan stair-hall wall; its closet remains on shared-bath boundary, at lower/front end.",
+    "All bedrooms retain natural oak floors and separate loose neutral rugs. No reinstated purple/blue/pink accents.",
+    "Selected E pale limestone-look shared-bath porcelain stays; no new finish scheme.",
+    "No stair runners on any floor; preserve original quarter-turn/landing/straight-flight stair geometry.",
+    "Keep exact Rinse and repeat.. laundry quote and cycle graphic.",
+    "Generate corrected day images first, then use their exact approved files as night sources.",
+    "Do not treat an adjoining room or mirror reflection as exempt from source/plan checks.",
+    "The shared-bath vanity photograph does not show the tub/toilet compartment; do not describe the entire bathroom as windowless without checking the specific front-wall opening."
+  ],
+  "summary": {
+    "images": 18,
+    "day": 9,
+    "night": 9,
+    "planTopologyRepair": [
+      "B21",
+      "B21-N4"
+    ],
+    "connectedBedroomRepair": [
+      "SB1",
+      "SB2",
+      "SB1-NRN",
+      "SB2-GN02"
+    ],
+    "nightPrivacyRepair": [
+      "LA2-GN02"
+    ],
+    "neutralArtworkCleanup": [
+      "ST31",
+      "ST31-NRN"
+    ],
+    "retainedViews": [
+      "B22",
+      "B22-GN02",
+      "B31",
+      "B32",
+      "B31-N4",
+      "B32-GN02",
+      "LA1",
+      "LA2",
+      "LA1-N4"
+    ],
+    "unvisualizedOrUnconfirmed": [
+      "Bedroom3 opposite entry/closet/bath wall; B32 is companion angle only.",
+      "Shared-bath separate tub/toilet compartment and whether its small front opening is real interior glazing."
+    ]
+  },
+  "rooms": [
+    {
+      "id": "bed2",
+      "dimensions": "11 ft 4 in × 11 ft 1 in — printed plan",
+      "sourceRole": "Plan-led room; no dedicated original model-home photograph exists in the labeled asset set.",
+      "sources": [
+        {
+          "file": "assets/cf_city_home_with_georgetown_pkg.pdf",
+          "page": 4
+        },
+        {
+          "file": "assets/render-candidates/floor-three-review/r01/refs/blueprint.png"
+        }
+      ],
+      "topology": "Use printed-plan directions, not ambiguous compass labels. Headboard is on the TOP wall shared with the stair hall, explicitly confirmed by homeowner. Closet belongs to the LOWER half of the LEFT shared-bath boundary, beside the front/plan-bottom exterior wall. Upper-hall entry is at the TOP-LEFT corner, separated from the closet by the upper portion of that boundary. One narrow side opening is on plan-RIGHT; a wider paired bank is on plan-BOTTOM. Compact desk stays on the right exterior wall beside the side window, without blocking operation. Plan contains only one closet; do not create another at the entry.",
+      "issues": [
+        {
+          "kind": "plan_topology_and_cross_view",
+          "severity": "major",
+          "views": [
+            "B21",
+            "B21-N4"
+          ],
+          "finding": "B21 clusters the closet doors directly beside the far stair-hall doorway. The current reverse B22 correctly places that closet nearer its camera, toward the front/plan-bottom end. Those two views cannot describe the same closet position. The plan locates the closet at the lower shared-bath boundary, not immediately beside the top entry.",
+          "correction": "Move the B21 closet door opening toward the foreground/left edge (possibly partly cropped), retain a clear wall stretch nearer the entry, and retain B22 as the spatial reference. Do not rotate the bed or relocate either exterior window."
+        }
+      ],
+      "views": [
+        {
+          "code": "B21",
+          "scene": "day",
+          "jobId": "be2446d3-078e-4d20-a026-4188cb068fa9",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/bed2-b21-day-30616.png",
+          "sourceCode": null,
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bed2-b21-day-30516.png",
+          "sourceJobId": "e7e29e74-63a3-4ff1-9ac4-2060e72df962",
+          "role": "plan_led_primary",
+          "architecture": "reject_closet_offset",
+          "dayNightPair": "not_applicable",
+          "disposition": "repair",
+          "evidence": "Headboard/top stair-hall wall, single right side opening, oak floor, loose rug and desk are consistent with the intended plan-led room. Closet is placed at the wrong end of the shared-bath wall, adjacent to the far entry instead of nearer the front bank.",
+          "correction": "Correct closet offset only; preserve confirmed headboard, entry, windows, desk, bedding and neutral palette."
+        },
+        {
+          "code": "B22",
+          "scene": "day",
+          "jobId": "db67b4e4-fc6e-4cc7-8e8a-008be7d78bdf",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/bed2-b22-day-31616.png",
+          "sourceCode": null,
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bed2-b22-day-31516.png",
+          "sourceJobId": "1ec3d38d-7c68-479c-8616-5b4a0d5d5397",
+          "role": "plan_led_reverse",
+          "architecture": "pass_visible_topology",
+          "dayNightPair": "not_applicable",
+          "disposition": "retain",
+          "evidence": "Reverse camera looks toward paired front bank; narrow side window/desk are at screen-left and closet at near screen-right, consistent with plan-bottom/front end of shared-bath wall. Bed foot is foreground with headboard behind camera on stair-hall wall.",
+          "correction": "No mandatory image repair. Use this view to constrain corrected B21. Exact door offsets and measured clearances remain site-verification items."
+        },
+        {
+          "code": "B21-N4",
+          "scene": "night",
+          "jobId": "0c36244d-8588-4c02-8ac3-3941432eb784",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/bed2-night.png",
+          "sourceCode": "B21",
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bed2-b21-day-30616.png",
+          "sourceJobId": "be2446d3-078e-4d20-a026-4188cb068fa9",
+          "role": "same_camera_night",
+          "architecture": "reject_inherited_closet_offset",
+          "dayNightPair": "pass_existing_pair",
+          "disposition": "regenerate_after_corrected_day",
+          "evidence": "Night keeps the B21 camera, furniture and incorrect far closet position. Side blackout Roman is fully lowered; bedside lamps give useful low-level light.",
+          "correction": "Generate from corrected B21 day; do not reuse this inherited wrong geometry."
+        },
+        {
+          "code": "B22-GN02",
+          "scene": "night",
+          "jobId": "7e7c74f4-5779-4d75-a48f-c3ac82a08f30",
+          "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/bed2-b22-night.png",
+          "sourceCode": "B22",
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/bed2-b22-day-31616.png",
+          "sourceJobId": "db67b4e4-fc6e-4cc7-8e8a-008be7d78bdf",
+          "role": "same_camera_night",
+          "architecture": "pass_visible_topology",
+          "dayNightPair": "pass",
+          "disposition": "retain",
+          "evidence": "Same reverse composition, desk/chair, bed foot, near-right closet, fully closed front blackout curtains and fully lowered side Roman. No additional openings.",
+          "correction": "Retain. Maintain full opacity and existing warm lamps/general-light scheme."
+        }
+      ],
+      "edits": [
+        {
+          "code": "B21",
+          "workflow": "Higgsfield image edit; do not use text-to-image",
+          "referencePaths": [
+            "assets/render-candidates/mineral-walnut-architecture/r02/bed2-b21-day-30616.png",
+            "assets/render-candidates/mineral-walnut-architecture/r02/bed2-b22-day-31616.png",
+            "assets/render-candidates/floor-three-review/r01/refs/blueprint.png"
+          ],
+          "prompt": "Edit reference 1 as the same camera and same Mineral & Walnut bedroom, using reference 2 and the Bedroom 2 area of reference 3 to correct ONLY the closet location. The headboard remains against the TOP printed-plan wall shared with the stair hall. In this camera the hall entry remains at the far-left end of that headboard wall. The closet belongs to the LOWER/front half of the adjacent LEFT shared-bath wall, toward the paired front window behind the camera. Move the closet door bank away from the far entry and toward the foreground on screen-left, allowing it to be partly cropped at the left edge. Restore a clear stretch of plain mineral wall between the far entry and relocated closet. There is ONE closet only; remove the existing far closet opening rather than duplicating it. Do not widen the room, add doors, rotate the bed, move the right-wall single window, or change the walnut desk/chair beside it. Retain cream upholstered bed, two walnut nightstands, black task sconces, ivory neutral bedding, natural oak floor, separate oatmeal rug, current trim, daylight and perspective. The wide paired front window stays behind this camera. Photoreal image-edit result; no colored accents.",
+          "acceptanceCriteria": [
+            "Exactly one closet on lower/front half of shared-bath boundary; no closet immediately beside far hall entry.",
+            "Top/stair-hall headboard unchanged; right-side single window and desk unchanged.",
+            "Cross-view closet position agrees with retained B22; no room expansion or new openings."
+          ]
+        },
+        {
+          "code": "B21-N4",
+          "workflow": "Higgsfield image edit; do not use text-to-image",
+          "referencePaths": [
+            "APPROVED_CORRECTED_B21_DAY"
+          ],
+          "prompt": "Make a nighttime version of this exact approved corrected B21 image. Keep camera, room dimensions, closet at the near/front left shared-bath boundary, far hall entry, top stair-hall headboard, right window, bed, walnut desk/chair, nightstands, sconces, oak floor and loose oatmeal rug unchanged. Switch on the two existing black bedside task sconces at warm 2700 K with a low neutral general-light level. Fully lower the side-window opaque lined Roman to its sill; do not expose a glass strip. Preserve ivory materials without orange tint, no added bed LED or colored accents, no new doors/windows/furniture.",
+          "acceptanceCriteria": [
+            "Exact corrected day geometry and furniture.",
+            "Opaque side privacy layer fully closes to sill.",
+            "Warm usable light, neutral material color; no added fixtures."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bed3",
+      "dimensions": "10 ft 8 in × 12 ft 4 in — printed plan",
+      "sources": [
+        {
+          "file": "assets/Crown Georgetown Photos/third-floor-bedroom-3.jpg.webp"
+        },
+        {
+          "file": "assets/cf_city_home_with_georgetown_pkg.pdf",
+          "page": 4
+        }
+      ],
+      "topology": "Three exterior openings: a paired bank on plan-BOTTOM and two separate single windows on plan-LEFT. Headboard lies on the plan-LEFT exterior wall between the singles. Main upper-hall entry and closet are at plan-TOP; shared-bath door is on plan-RIGHT. In the original primary camera, headboard/windows are screen-right and the paired front bank is screen-left. Keep that relationship; do not interpret the screen-right wall as compass east.",
+      "issues": [
+        {
+          "kind": "coverage",
+          "severity": "minor",
+          "views": [
+            "B32",
+            "B32-GN02"
+          ],
+          "finding": "B32 is a modest shifted companion to B31, rather than a reverse view of the upper-hall entry, closet and shared-bath connection. It confirms the three windows but leaves the opposite openings unvisualized.",
+          "correction": "Retain as a companion angle. A future true reverse can be added from plan if enclosure coverage is required; no visible opening repair is justified."
+        }
+      ],
+      "views": [
+        {
+          "code": "B31",
+          "scene": "day",
+          "jobId": "82feb74f-84a9-431c-aa51-60a6e0130f8a",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b31-day.png",
+          "sourceCode": null,
+          "sourceFile": "assets/render-candidates/mineral-walnut-textiles/r02/bed3-b31-day.png",
+          "sourceJobId": "e3d1d468-ec50-4bf8-acd0-5834d87b54dd",
+          "role": "photo_based_primary",
+          "architecture": "pass_visible_envelope",
+          "dayNightPair": "not_applicable",
+          "disposition": "retain",
+          "evidence": "Retains the original paired front bank plus both single headboard-wall windows, bed between the singles, dresser on opposite wall, room corner/trim and compact proportions. Oak floor and separate neutral rug correctly replace carpet.",
+          "correction": "No mandatory structural or scheme correction. Preserve this as adjoining-bedroom reference for shared bath."
+        },
+        {
+          "code": "B32",
+          "scene": "day",
+          "jobId": "49aa91dd-53eb-4cfd-aa38-a33071a5099a",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b32-day.png",
+          "sourceCode": null,
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b31-day.png",
+          "sourceJobId": "82feb74f-84a9-431c-aa51-60a6e0130f8a",
+          "role": "derived_companion_angle",
+          "architecture": "pass_visible_envelope",
+          "dayNightPair": "not_applicable",
+          "disposition": "retain_with_coverage_note",
+          "evidence": "Same three-window topology and window-wall headboard with coordinated bed, nightstands, dresser and rug; only modest camera shift. Hall entry/closet/bath door remain outside crop.",
+          "correction": "No visible repair. Do not claim this is a complete reverse enclosure survey."
+        },
+        {
+          "code": "B31-N4",
+          "scene": "night",
+          "jobId": "a9004b63-4825-4486-b33d-5e29fb65d4a5",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-night.png",
+          "sourceCode": "B31",
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b31-day.png",
+          "sourceJobId": "82feb74f-84a9-431c-aa51-60a6e0130f8a",
+          "role": "same_camera_night",
+          "architecture": "pass_visible_envelope",
+          "dayNightPair": "pass",
+          "disposition": "retain",
+          "evidence": "Matches B31 camera, bed/dresser/nightstands, all three opening casings and loose rug. All three opaque shades reach their lower edges; existing dome lamps provide useful night lighting.",
+          "correction": "Retain; keep neutral bedding and full sleeping-room opacity."
+        },
+        {
+          "code": "B32-GN02",
+          "scene": "night",
+          "jobId": "93c8ada4-1b31-44cb-99de-915498f74d83",
+          "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/bed3-b32-night.png",
+          "sourceCode": "B32",
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b32-day.png",
+          "sourceJobId": "49aa91dd-53eb-4cfd-aa38-a33071a5099a",
+          "role": "same_camera_night",
+          "architecture": "pass_visible_envelope",
+          "dayNightPair": "pass",
+          "disposition": "retain_with_coverage_note",
+          "evidence": "Matches the B32 composition and furnishings with all three opaque Romans closed. No relocated window or changed headboard wall.",
+          "correction": "Retain; same coverage limit as B32."
+        }
+      ],
+      "edits": []
+    },
+    {
+      "id": "sharedbath",
+      "dimensions": "6 ft 1 in × 12 ft 5 in — printed plan",
+      "sources": [
+        {
+          "file": "assets/Crown Georgetown Photos/third-floor-shared-bath-bedroom-2-3.jpg.webp"
+        },
+        {
+          "file": "assets/Crown Georgetown Photos/third-floor-bedroom-3.jpg.webp"
+        },
+        {
+          "file": "assets/cf_city_home_with_georgetown_pkg.pdf",
+          "page": 4
+        },
+        {
+          "file": "assets/Outside Photos/south-front.jpg"
+        }
+      ],
+      "topology": "Plan has a double vanity on the TOP end, bedroom connections in the LEFT and RIGHT walls of that vanity zone, and a separate lower tub/toilet compartment behind an internal door. Tub is on the lower LEFT, toilet lower RIGHT. Current SB1/SB2 inspect only the vanity zone and Bedroom 3 connection. There is a small front-wall opening drawn behind the wet-compartment toilet; south-front.jpg shows a matching small arched glazed facade feature on Floor 3. The original vanity photo does not establish whether that wet-compartment opening is real interior glazing. Do not claim the whole bathroom is windowless without confirmation, and do not add an unverified opening to these vanity crops.",
+      "issues": [
+        {
+          "kind": "adjoining_room_furniture_topology",
+          "severity": "major",
+          "views": [
+            "SB1",
+            "SB2",
+            "SB1-NRN",
+            "SB2-GN02"
+          ],
+          "finding": "The Bedroom 3 bed seen through the doorway is rotated relative to both the original shared-bath photograph and the independently retained B31/B32. Current glimpse puts the headboard on the blank near-left return wall. Original photo shows headboard beneath the far/window wall with bed extending toward the bath camera and the right nightstand under that window wall.",
+          "correction": "Correct ONLY the adjoining Bedroom 3 bed/window-wall arrangement and its mirror reflection from the original photo plus current B31. Keep selected E porcelain, double vanity, all bath door frames, sinks, faucets, lights and camera."
+        },
+        {
+          "kind": "coverage_and_unsupported_documentation",
+          "severity": "moderate",
+          "views": [
+            "SB1",
+            "SB2",
+            "SB1-NRN",
+            "SB2-GN02"
+          ],
+          "finding": "Both day angles show the same vanity zone; separate tub/toilet compartment is never visualized. Existing documentation says no exterior bathroom window, although plan and actual facade indicate a small opening behind the wet-compartment toilet.",
+          "correction": "Mark wet compartment as unvisualized. Confirm interior presence of this specific facade opening before a plan-led wet-room render or window-treatment purchase. Keep vanity-zone images free of invented bathroom glazing; current blanket windowless claim should be qualified outside this unique audit."
+        }
+      ],
+      "views": [
+        {
+          "code": "SB1",
+          "scene": "day",
+          "jobId": "6a177036-f25a-4ac5-b3de-09b6967dcad9",
+          "file": "assets/render-candidates/mineral-walnut-stone/r01/e-sharedbath.png",
+          "sourceCode": null,
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/sharedbath-sb1-day.png",
+          "sourceJobId": "b303cf3f-a22b-4134-8187-0154bd748143",
+          "role": "photo_based_primary",
+          "architecture": "pass_bath_visible_envelope",
+          "dayNightPair": "not_applicable",
+          "disposition": "repair_connected_bedroom",
+          "evidence": "Double vanity, doorway width/location, mirror and return wall follow original vanity photograph and selected E pale porcelain is retained. Through-door Bedroom 3 headboard is on wrong blank wall and bedside furniture does not match B31.",
+          "correction": "Restore Bedroom 3 window-wall headboard/bed direction from source; correct mirror reflection. No bath-envelope rebuild."
+        },
+        {
+          "code": "SB2",
+          "scene": "day",
+          "jobId": "4c0fb875-33fd-4332-8b5f-a234b53b1c61",
+          "file": "assets/render-candidates/mineral-walnut-neutral/r01/sharedbath-sb2-day.png",
+          "sourceCode": null,
+          "sourceFile": "assets/render-candidates/mineral-walnut-materials/r01/sharedbath-sb2-day.png",
+          "sourceJobId": "8bdbe9c2-024b-48c1-ae25-fd6b0615782a",
+          "role": "derived_companion_angle",
+          "architecture": "pass_bath_visible_envelope",
+          "dayNightPair": "not_applicable",
+          "disposition": "repair_connected_bedroom",
+          "evidence": "Nearby vanity angle keeps original bath doors, double sinks and selected E. Repeats the incorrectly rotated adjoining bed. Does not inspect tub/toilet compartment.",
+          "correction": "Correct the same connected-room glimpse; preserve companion camera and E material."
+        },
+        {
+          "code": "SB1-NRN",
+          "scene": "night",
+          "jobId": "ab4ec3ab-289c-4563-9cd1-3e941c0bfcb6",
+          "file": "assets/render-candidates/mineral-walnut-neutral/r01/sharedbath-night.png",
+          "sourceCode": "SB1",
+          "sourceFile": "assets/render-candidates/mineral-walnut-stone/r01/e-sharedbath.png",
+          "sourceJobId": "6a177036-f25a-4ac5-b3de-09b6967dcad9",
+          "role": "same_camera_night",
+          "architecture": "pass_bath_visible_envelope",
+          "dayNightPair": "pass_existing_pair",
+          "disposition": "regenerate_after_corrected_day",
+          "evidence": "Night camera matches SB1, lamps/faucets/vanity retained; closed adjacent blackout curtains are appropriate. It also preserves the wrong bedroom bed direction.",
+          "correction": "Make exact night mate from corrected SB1 with corrected reflection and adjacent opaque coverings closed."
+        },
+        {
+          "code": "SB2-GN02",
+          "scene": "night",
+          "jobId": "4e99ecbb-1cb9-4d6c-aa75-a201788f1f1a",
+          "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/sharedbath-sb2-night.png",
+          "sourceCode": "SB2",
+          "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/sharedbath-sb2-day.png",
+          "sourceJobId": "4c0fb875-33fd-4332-8b5f-a234b53b1c61",
+          "role": "same_camera_night",
+          "architecture": "pass_bath_visible_envelope",
+          "dayNightPair": "pass_existing_pair",
+          "disposition": "regenerate_after_corrected_day",
+          "evidence": "Same SB2 camera and bathroom details, closed adjoining curtains; inherited wrong bed orientation remains.",
+          "correction": "Generate from corrected SB2; no new bathroom openings."
+        }
+      ],
+      "edits": [
+        {
+          "code": "SB1",
+          "workflow": "Higgsfield image edit; do not use text-to-image",
+          "referencePaths": [
+            "assets/render-candidates/mineral-walnut-stone/r01/e-sharedbath.png",
+            "assets/Crown Georgetown Photos/third-floor-shared-bath-bedroom-2-3.jpg.webp",
+            "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b31-day.png",
+            "assets/Crown Georgetown Photos/third-floor-bedroom-3.jpg.webp",
+            "assets/render-candidates/floor-three-review/r01/refs/blueprint.png"
+          ],
+          "prompt": "Edit reference 1 only to correct the Bedroom 3 glimpse through the existing open doorway, using original bathroom reference 2 and approved neutral Bedroom 3 reference 3 for exact furniture and source 4/plan 5 for room topology. Keep the entire bathroom camera, doorway/casing, pale limestone-look E porcelain, walnut double vanity, both white basins, dark taps, existing glass-cylinder lights, mirror, counter objects and floor unchanged. The bedroom headboard must be against the FAR exterior window wall visible through the door, as in original reference 2; it is NOT on the blank near-left return wall. Turn the cream bed back to the original direction, extending from that far/window-wall headboard toward the bathroom camera. Show only the cropped part physically visible through this unchanged doorway. A matching walnut nightstand and black dome bedside lamp sit to the right of the headboard beneath the far window, coordinated with reference 3. Keep oak floor, loose oatmeal rug, neutral ivory/oatmeal bedding and functional ivory sheer/blackout layers. No pink, blue, purple, new art above the window-wall headboard, new windows or extra doors. Correct the mirror to reflect the same physical bedroom and open door; avoid duplicated furniture. Preserve daylight and exact perspective.",
+          "acceptanceCriteria": [
+            "Bedroom3 glimpse agrees with original bed direction and approved B31, no blank-return headboard.",
+            "Mirror reflects the corrected physical room rather than a second arrangement.",
+            "Selected E porcelain and all bath casings/fixtures/camera unchanged."
+          ]
+        },
+        {
+          "code": "SB2",
+          "workflow": "Higgsfield image edit; do not use text-to-image",
+          "referencePaths": [
+            "assets/render-candidates/mineral-walnut-neutral/r01/sharedbath-sb2-day.png",
+            "assets/Crown Georgetown Photos/third-floor-shared-bath-bedroom-2-3.jpg.webp",
+            "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b31-day.png",
+            "assets/Crown Georgetown Photos/third-floor-bedroom-3.jpg.webp",
+            "assets/render-candidates/floor-three-review/r01/refs/blueprint.png"
+          ],
+          "prompt": "Edit reference 1 only to correct the Bedroom 3 glimpse through the existing open doorway, using original bathroom reference 2 and approved neutral Bedroom 3 reference 3 for exact furniture and source 4/plan 5 for room topology. Keep the entire bathroom camera, doorway/casing, pale limestone-look E porcelain, walnut double vanity, both white basins, dark taps, existing glass-cylinder lights, mirror, counter objects and floor unchanged. The bedroom headboard must be against the FAR exterior window wall visible through the door, as in original reference 2; it is NOT on the blank near-left return wall. Turn the cream bed back to the original direction, extending from that far/window-wall headboard toward the bathroom camera. Show only the cropped part physically visible through this unchanged doorway. A matching walnut nightstand and black dome bedside lamp sit to the right of the headboard beneath the far window, coordinated with reference 3. Keep oak floor, loose oatmeal rug, neutral ivory/oatmeal bedding and functional ivory sheer/blackout layers. No pink, blue, purple, new art above the window-wall headboard, new windows or extra doors. Correct the mirror to reflect the same physical bedroom and open door; avoid duplicated furniture. Preserve daylight and exact perspective.",
+          "acceptanceCriteria": [
+            "Bedroom3 glimpse agrees with original bed direction and approved B31, no blank-return headboard.",
+            "Mirror reflects the corrected physical room rather than a second arrangement.",
+            "Selected E porcelain and all bath casings/fixtures/camera unchanged."
+          ]
+        },
+        {
+          "code": "SB1-NRN",
+          "workflow": "Higgsfield image edit; do not use text-to-image",
+          "referencePaths": [
+            "APPROVED_CORRECTED_SB1_DAY"
+          ],
+          "prompt": "Convert this approved corrected bathroom day image to the exact same camera at night. Preserve selected E pale limestone-look porcelain, walnut double vanity, two sinks/taps, mirror, doors, counter objects and the corrected Bedroom 3 window-wall headboard and bed direction visible through the door. Illuminate existing bathroom glass-cylinder vanity lights warmly with neutral 2700-3000 K color and modest practical light. Switch on the bedroom existing bedside lamp; close its opaque blackout layers fully, while keeping windows/casings and bed/nightstand geometry fixed. Mirror must reflect the same corrected doorway/bedroom. No added exterior bathroom window, fixtures, colored accents, new camera or furniture changes.",
+          "acceptanceCriteria": [
+            "Exact corrected day bath and bedroom geometry/reflection.",
+            "Adjoining sleep-room coverings fully closed.",
+            "Warm usable bathroom lighting preserves neutral porcelain color."
+          ]
+        },
+        {
+          "code": "SB2-GN02",
+          "workflow": "Higgsfield image edit; do not use text-to-image",
+          "referencePaths": [
+            "APPROVED_CORRECTED_SB2_DAY"
+          ],
+          "prompt": "Convert this approved corrected bathroom day image to the exact same camera at night. Preserve selected E pale limestone-look porcelain, walnut double vanity, two sinks/taps, mirror, doors, counter objects and the corrected Bedroom 3 window-wall headboard and bed direction visible through the door. Illuminate existing bathroom glass-cylinder vanity lights warmly with neutral 2700-3000 K color and modest practical light. Switch on the bedroom existing bedside lamp; close its opaque blackout layers fully, while keeping windows/casings and bed/nightstand geometry fixed. Mirror must reflect the same corrected doorway/bedroom. No added exterior bathroom window, fixtures, colored accents, new camera or furniture changes.",
+          "acceptanceCriteria": [
+            "Exact corrected day bath and bedroom geometry/reflection.",
+            "Adjoining sleep-room coverings fully closed.",
+            "Warm usable bathroom lighting preserves neutral porcelain color."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "laundry",
+      "dimensions": "8 ft 3 in × 10 ft 4 in — printed plan",
+      "sources": [
+        {
+          "file": "assets/Crown Georgetown Photos/third-floor-laundry-room.jpg.webp"
+        },
+        {
+          "file": "assets/cf_city_home_with_georgetown_pkg.pdf",
+          "page": 4
+        }
+      ],
+      "topology": "Two actual openings on the counter/sink side: near arched-top opening over the sink and farther rectangular opening beyond upper cabinets. Keep the source window silhouettes and separate casings. Opposite wall holds washer/dryer, back wall carries graphic, paired hampers and fold-down drying rack. Hall door is behind/right of this source camera. Counter/sink and machines must remain on their observed opposing walls.",
+      "issues": [
+        {
+          "kind": "privacy_operation",
+          "severity": "moderate",
+          "views": [
+            "LA2-GN02"
+          ],
+          "finding": "LA2 night lowers both Romans but leaves a visible strip of lower glass at the near sink window; a narrow exposed edge also appears beside the far shade. That does not match the full nighttime privacy operation specified for this room and the fully closed LA1 night mate.",
+          "correction": "Locally lower/fit both privacy-lined shades to cover all glass to their sills and side edges. Preserve camera, arch casing, cabinet run, appliances, quote and materials."
+        }
+      ],
+      "views": [
+        {
+          "code": "LA1",
+          "scene": "day",
+          "jobId": "bfacfb8c-d7e6-41fb-bc1b-25a871734a5e",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/laundry-la1-day-30519.png",
+          "sourceCode": null,
+          "sourceFile": "assets/Crown Georgetown Photos/third-floor-laundry-room.jpg.webp",
+          "sourceJobId": "497a50fd-668e-49c1-910f-b5c87c46c218",
+          "role": "photo_based_primary",
+          "architecture": "pass_visible_envelope",
+          "dayNightPair": "not_applicable",
+          "disposition": "retain",
+          "evidence": "Preserves the source near arched-top and far rectangular windows, sink/cabinet wall, back wall, ceiling vent and opposing machine position. Utility finish update, paired hampers and rack do not alter shell. Requested cycle graphic and Rinse and repeat.. text remain.",
+          "correction": "No geometry repair. Keep this as source for LA2 consistency."
+        },
+        {
+          "code": "LA2",
+          "scene": "day",
+          "jobId": "3b4bd68c-0c47-41d1-a2fc-e07f4804f58a",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/laundry-la2-day.png",
+          "sourceCode": null,
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/laundry-la1-day-30519.png",
+          "sourceJobId": "bfacfb8c-d7e6-41fb-bc1b-25a871734a5e",
+          "role": "derived_companion_angle",
+          "architecture": "pass_visible_envelope",
+          "dayNightPair": "not_applicable",
+          "disposition": "retain",
+          "evidence": "Shifted camera reveals both machines on the opposite wall while keeping two separate left-side window casings, arched near silhouette, sink, cabinet run and back-wall graphic/rack/hampers.",
+          "correction": "No visible geometry repair; confirm final matching appliance specification before purchasing, since LA1 crops their fronts."
+        },
+        {
+          "code": "LA1-N4",
+          "scene": "night",
+          "jobId": "24e93d61-b01a-463a-8e64-c79b9d108db0",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/laundry-night.png",
+          "sourceCode": "LA1",
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/laundry-la1-day-30519.png",
+          "sourceJobId": "bfacfb8c-d7e6-41fb-bc1b-25a871734a5e",
+          "role": "same_camera_night",
+          "architecture": "pass_visible_envelope",
+          "dayNightPair": "pass",
+          "disposition": "retain",
+          "evidence": "Same LA1 camera, cabinets/sink, counter objects, rack/hampers and machine crop. Both lined shades fully cover glazing; undercabinet/general light remains useful.",
+          "correction": "Retain; maintain exact quote and neutral utility finishes."
+        },
+        {
+          "code": "LA2-GN02",
+          "scene": "night",
+          "jobId": "64835954-2e38-4ab7-af99-5feccb722e34",
+          "file": "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/laundry-la2-night.png",
+          "sourceCode": "LA2",
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r01/laundry-la2-day.png",
+          "sourceJobId": "3b4bd68c-0c47-41d1-a2fc-e07f4804f58a",
+          "role": "same_camera_night",
+          "architecture": "pass_visible_envelope",
+          "dayNightPair": "pass_geometry; reject_privacy_state",
+          "disposition": "repair_privacy_only",
+          "evidence": "Same LA2 composition, machine pair, sink/cabinets, graphic/rack/hampers. Near Roman stops above the sill leaving visible lower glazing; far shade has a narrow exposed edge.",
+          "correction": "Cover all visible glass within both casings with fully lowered lined shades, no long fabric tail or fabric over sink/faucet."
+        }
+      ],
+      "edits": [
+        {
+          "code": "LA2-GN02",
+          "workflow": "Higgsfield image edit; do not use text-to-image",
+          "referencePaths": [
+            "assets/render-candidates/gallery-night-angles/r02/mineral-walnut/laundry-la2-night.png",
+            "assets/render-candidates/mineral-walnut-architecture/r01/laundry-la2-day.png",
+            "assets/render-candidates/mineral-walnut-architecture/r01/laundry-night.png"
+          ],
+          "prompt": "Make a strictly local privacy-shade correction to nighttime reference 1, using reference 2 for unchanged day geometry and reference 3 for the matching fully closed shade operation. Keep the exact LA2 camera, near arched window casing, farther rectangular window casing, ivory cabinets, black faucet, sink, cream counter, both washer/dryer appliances, paired woven hampers, fold-down rack, cycle graphic and exact text Rinse and repeat.., existing lighting and floor. Fully lower both lined woven-look Romans until every part of window glass is hidden from sill to head and side to side. The near sink-window shade currently leaves a bottom glass strip: extend the opaque fabric down to the sill. Fit the far window shade inside its own opening with no exposed side glass gap. Straight realistic fabric edges, no curtain-length tails, no hanging fabric into the sink/faucet. Do not shift any opening, cabinet, appliance or quote; retain warm useful undercabinet/ceiling light and neutral material color.",
+          "acceptanceCriteria": [
+            "No visible lower or side glass under either night privacy layer.",
+            "Arched/rectangular casing positions and all day/night furniture/fixtures unchanged.",
+            "Quote with two terminal periods and cycle graphic retained."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stair3",
+      "sources": [
+        {
+          "file": "assets/Crown Georgetown Photos/third-floor-spiral-staircase.jpg.webp"
+        },
+        {
+          "file": "assets/cf_city_home_with_georgetown_pkg.pdf",
+          "page": 4
+        }
+      ],
+      "topology": "Source photo establishes three separate high 2×2 glazed windows, curved/fanned lower quarter-turn, intermediate half-level landing and straight upper flight with original white balusters, dark wood handrail, newel and stepped half-wall/ledge. Plan confirms central open stair void and straight run beyond the curved option. Do not turn the stair into a continuous helix or add windows. Both current files retain this observed topology and bare oak treads.",
+      "issues": [
+        {
+          "kind": "finish_continuity",
+          "severity": "minor",
+          "views": [
+            "ST31",
+            "ST31-NRN"
+          ],
+          "finding": "Original colorful teal/purple/yellow artwork is still visible behind the upper-left railing, while the principal art below the three high windows is neutral. This source-art remnant conflicts with the specified restrained neutral Mineral & Walnut upper landing.",
+          "correction": "Replace only visible upper-landing colorful canvas with sibling charcoal/ivory/taupe artwork in the same size/location. Keep all guards, stairs, windows and principal art."
+        }
+      ],
+      "views": [
+        {
+          "code": "ST31",
+          "scene": "day",
+          "jobId": "f1e9d0ef-8488-4286-a2b7-60f4771ee8a2",
+          "file": "assets/render-candidates/mineral-walnut-neutral/r01/stair3-st31-day.png",
+          "sourceCode": null,
+          "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/stair3-st31-day-30520.png",
+          "sourceJobId": "4b617a77-679e-4dc4-95fc-0f67f65ed313",
+          "role": "photo_based_primary",
+          "architecture": "pass_visible_envelope",
+          "dayNightPair": "not_applicable",
+          "disposition": "repair_neutral_art_only",
+          "evidence": "Keeps all three high windows and original source curve, intermediate landing, straight upper flight, newel/guard/half-wall. Bare oak/white risers match no-runner decision. Small colorful original upstairs canvas remains behind upper-left balusters.",
+          "correction": "Neutralize that single canvas; no stair geometry correction justified."
+        },
+        {
+          "code": "ST31-NRN",
+          "scene": "night",
+          "jobId": "186cd1b2-3c5d-4690-ab36-6ffb5da3867a",
+          "file": "assets/render-candidates/mineral-walnut-neutral/r01/stair3-night.png",
+          "sourceCode": "ST31",
+          "sourceFile": "assets/render-candidates/mineral-walnut-neutral/r01/stair3-st31-day.png",
+          "sourceJobId": "f1e9d0ef-8488-4286-a2b7-60f4771ee8a2",
+          "role": "same_camera_night",
+          "architecture": "pass_visible_envelope",
+          "dayNightPair": "pass",
+          "disposition": "regenerate_after_art_cleanup",
+          "evidence": "Same ST31 camera, three bare dark windows, guard, stair geometry, art and oak/white surfaces. Useful existing overhead light. Inherits colorful upstairs source canvas.",
+          "correction": "Night mate from neutral-art corrected ST31; do not add runner or high-window drapes."
+        }
+      ],
+      "edits": [
+        {
+          "code": "ST31",
+          "workflow": "Higgsfield image edit; do not use text-to-image",
+          "referencePaths": [
+            "assets/render-candidates/mineral-walnut-neutral/r01/stair3-st31-day.png",
+            "assets/Crown Georgetown Photos/third-floor-spiral-staircase.jpg.webp"
+          ],
+          "prompt": "Make one local artwork correction to reference 1. Behind the upper-left stair railing a partly occluded original canvas still has turquoise, purple and yellow patches. Replace ONLY that visible canvas with a quiet sibling abstract in ivory, soft taupe and charcoal, same physical canvas size, orientation, position and occlusion by the unchanged balusters. Keep the principal framed neutral picture beneath the windows unchanged. Preserve exact camera, all THREE high 2×2 windows, their casings, quarter-turn/fanned lower stairs, intermediate landing, straight upper flight, every white baluster/newel/half-wall moulding, dark walnut handrail, exposed natural oak treads, white risers and daylight. No runner, new lights, added drapes, architectural changes or other decoration. Photoreal local edit.",
+          "acceptanceCriteria": [
+            "Upper-landing visible art is neutral ivory/taupe/charcoal, not colored.",
+            "Exact source staircase, all3 windows, camera and principal art retained.",
+            "Bare oak treads; no runner."
+          ]
+        },
+        {
+          "code": "ST31-NRN",
+          "workflow": "Higgsfield image edit; do not use text-to-image",
+          "referencePaths": [
+            "APPROVED_NEUTRAL_ART_ST31_DAY"
+          ],
+          "prompt": "Create the exact same approved ST31 camera at night, preserving every staircase tread, quarter-turn and straight flight, intermediate landing, handrail, guard, all THREE high windows and both neutral artworks. Keep oak treads exposed, white risers and no runner. Switch on the existing recessed circulation light warmly at 2700-3000 K with useful stair visibility and neutral wall color. High windows remain bare with dark blue-black night sky. No added wall lights, altered trim, colored art, drapes or new camera.",
+          "acceptanceCriteria": [
+            "Exact approved day architecture and both neutral artworks.",
+            "Three high bare dark windows and no runner.",
+            "Useful circulation lighting without orange material tint."
+          ]
+        }
+      ]
+    }
+  ],
+  "constructionLimit": "This is a source-fidelity visual audit and image-edit brief. Actual dimensions, door swings, furniture clearances, privacy lining, fixture photometry, electrical/plumbing details, porcelain layouts and stair code/guard compliance still require site measurement and trade review."
+}
