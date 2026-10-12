@@ -1,0 +1,96 @@
+{
+  "revision": "CM-PRIVATE-PRIMARY-QA-R03",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "roomId": "retreat",
+      "file": "assets/render-candidates/collected-mineral/r04/day-407.png",
+      "approved": false,
+      "checks": [
+        "Bar return/cabinet count, sink, beverage fridge, open bedroom connection, ceiling/camera retained.",
+        "Two new ivory swivel chairs and open walnut table are rendered with neutral palette."
+      ],
+      "mustFix": [
+        "Adjacent visible owners-bedroom still uses old walnut headwall band, floating bedside units, wall sconces and old platform/bench. Replace visible bed/headwall/bedside/lighting with accepted core301 owned inventory and continuous mineral wall.",
+        "Do not force the complete two-chair retreat pair onto the owners-bedroom foot rug. OR1 is the bar/bedroom camera; retain the chair nook at its actual corner-window retreat location outside this crop, consistent with OR2. Show only furniture actually inside this camera."
+      ]
+    },
+    {
+      "roomId": "bed2",
+      "file": "assets/render-candidates/collected-mineral/r04/day-408.png",
+      "approved": true,
+      "checks": [
+        "R07 corrected closet remains near/front shared-bath wall, not beside far hall entry; stair-hall headboard and right-window desk remain correct.",
+        "Owned White Modena SHELTER queen with GreyOak feet and exactly two PolishedNickel Orbiter task sconces; no old tablelamp duplicates.",
+        "Owned Carbon neutral rug over exposed oak and independent sheers/opaque side-layer shown; no colored bedding/LED retrofit."
+      ],
+      "limits": [
+        "Compact new walnut bedside surfaces are a planning/retail candidate requiring exact stock and height check, not owned Bezier26 units.",
+        "Orbiter wiring/mounting type unverified; render does not establish plug-in versus hardwired installation.",
+        "Front paired window bank behind camera remains outside crop."
+      ]
+    },
+    {
+      "roomId": "bed3",
+      "file": "assets/render-candidates/collected-mineral/r04/day-409.png",
+      "approved": true,
+      "procurementApproved": false,
+      "checks": [
+        "Three original opening groups, right/window-wall headboard, flat ceiling, dresser footprint and room corner retained.",
+        "New compact Keane-style queen/darkwood storage, one-drawer/open-shelf bedside pair and neutral ceramic lamps/rug shown; oak floor remains."
+      ],
+      "mustFixBeforeStockedRecommendation": [
+        "Root live20878 stock check found Espresso queenSKU141866 made-to-order/contactbyJan30. Do not represent it as currently stocked or purchase-ready. Replace selected bed with a verified stocked neutral Keane finish; update render color/reference consistently after stock proof."
+      ],
+      "limits": [
+        "Furniture widths, shade sizes and exact casegoods stock also require measurement/check; visually reviewed concept is not manufacturer CAD."
+      ]
+    },
+    {
+      "roomId": "bed5",
+      "file": "assets/render-candidates/collected-mineral/r04/day-410.png",
+      "approved": true,
+      "procurementApproved": false,
+      "checks": [
+        "Plan-led UNBUILT bedroom retains west headboard/left image wall, north dresser/offset entry/linen return and flat ceiling. No new opening invented in this source-visible solid-wall camera.",
+        "New rounded Ivory Anneli-style queen with narrow dark bedside units, two ivory linen lamps and loose Prato-style rug over oak; no colored bedroom accent or added LEDs."
+      ],
+      "limits": [
+        "Actual house Bedroom5 still unbuilt; no furniture order until permitted envelope and final measured windows/entry/closet.",
+        "PrimaryB51 does notshow two east windows; corrected B52 opposite-headboard relationship must remain in companion view.",
+        "Root live browser check on 2026-10-11 verified Anneli Ivory Queen SKU222893 in stock to ZIP20878 at $2,099. Delivery date and all casegoods stock remain unconfirmed; entire scheme is not yet stock-ready."
+      ]
+    },
+    {
+      "roomId": "retreat",
+      "file": "assets/render-candidates/collected-mineral/r04/day-307.png",
+      "approved": true,
+      "checks": [
+        "Adjacent bedroom now uses owned Modena plain PANEL king with Grey Oak feet, Bezier OPEN bedside pair and two nickel Bates lamps, with continuous mineral headwall.",
+        "Old walnut band, floating custom bedside boxes, wall sconces and bench removed from visible bedroom.",
+        "Complete retreat chair pair is removed from the owners-bedroom crop; actual corner-window seating nook is outside OR1 bar camera.",
+        "Bar return, sink/fridge, open bedroom connection, room envelope and source camera retained."
+      ],
+      "limits": [
+        "Only the west sash units falling inside the OR1 crop are visible; this image alone does not survey all four owners-bedroom windows.",
+        "Chair-nook layout remains subject to OR2 companion check and actual furniture measurements."
+      ]
+    },
+    {
+      "roomId": "bed3",
+      "file": "assets/render-candidates/collected-mineral/r04/day-606.png",
+      "approved": true,
+      "procurementApproved": false,
+      "checks": [
+        "Keane Queen now has muted warm Weathered Natural timber finish and retains correct rectangular inset panel/straight rails/corner posts.",
+        "Same three opening groups, headboard between right-wall single windows, flat ceiling and room camera retained.",
+        "Espresso one-drawer/open-shelf bedside pair and five-drawer tall dresser remain as contrast; white Amaryllis mini lamps and loose Prato-style rug over oak retained.",
+        "No bedroom accent color, runner, invented underside LEDs or duplicate owned Modena bed."
+      ],
+      "limits": [
+        "Root verified Natural Queen SKU306771 in stock to20878 at $1,799 on October11, but exact delivery date and remaining Espresso casegoods stock not yet verified.",
+        "If casegoods stock requires a finish replacement, update both bedroom angles, adjacent shared-bath glimpse and procurement schedule together."
+      ]
+    }
+  ]
+}

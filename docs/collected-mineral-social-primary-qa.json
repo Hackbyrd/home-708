@@ -1,0 +1,468 @@
+{
+  "date": "2026-10-11",
+  "revision": "CM-SOCIAL-PRIMARY-QA-R01",
+  "sourceSocialSchedule": "docs/collected-mineral-new-social.json",
+  "sourceOwnedInventory": "docs/current-furniture.json",
+  "status": "targeted_first_view_repairs_required",
+  "rooms": [
+    {
+      "index": 400,
+      "roomId": "office",
+      "candidateFile": "assets/render-candidates/collected-mineral/r04/day-400.png",
+      "approved": false,
+      "status": "targeted_correction_required",
+      "architectureApproved": false,
+      "checks": [
+        "Two paired/two-row main double-hung banks, flat ceiling, left full north TV/library wall and soundbar remain.",
+        "One coal ergonomic work chair and two visitor chairs remain; count is correct.",
+        "Desk stays rectilinear and in the intended worker/visitor orientation; compact printer area visible."
+      ],
+      "issues": [
+        {
+          "severity": "blocking",
+          "part": "Round window",
+          "reason": "A circular opening is newly inserted into the blank southwest corner between the two main banks. Accepted O1 and original photo show a solid wall there; the confirmed portico-side round opening belongs the different gallery/portico wall seen in the companion camera."
+        },
+        {
+          "severity": "blocking",
+          "part": "Alora desk",
+          "reason": "Desk has thick rounded fully fluted legs/pillars. Official Alora reference is an open inverted-U with thin rectangular waterfall/slab sides and fine fluting across its shallow top apron, not down bulky end columns."
+        },
+        {
+          "severity": "blocking",
+          "part": "Nicola pair",
+          "reason": "Visitor chairs read as rounded barrel/armchair shells. Selected Nicola has a tall flatter slope-back, small low sweeping front side returns and four slim fully upholstered legs."
+        }
+      ],
+      "minimalRepairPrompt": "EDIT ONLY these errors in this office image. Restore SOLID warm-mineral plaster in the newly invented circular-window spot between the two large main banks; do not move either paired double-hung bank or change the camera. The real portico-side circle is elsewhere, not in this southwest corner. Replace the desk with the exact Alora product form: 84x32x30 Brown Oak, a shallow finely fluted apron beneath the rounded-edge top, open knee span, two relatively thin straight rectangular waterfall/slab side panels reaching the floor; NO bulky rounded/fluted pillar legs. Replace BOTH visitor chairs with the Natural Nicola Slope reference: tall gently sloped back, low sweeping front side return, upholstered seat and FOUR slim upholstery-covered legs, no barrel tub shell. Preserve the existing Fern coal task chair, library TV/soundbar, room dimensions, four large sash units, floor/rug, printer and artwork; do not add any new openings.",
+      "officialProductRefs": [
+        "docs/collected-mineral-assets/products/cm-social-office-alora84.webp",
+        "docs/collected-mineral-assets/products/cm-social-dining-nicola.webp",
+        "docs/collected-mineral-assets/products/cm-social-office-fern-coal.webp"
+      ],
+      "limits": [
+        "Catalogue form and count are reviewed visually; no pixel-derived dimensions or certified fit claim.",
+        "Confirm actual furniture footprints, chair pullback, curtain stacks, service clearances and delivery access on site."
+      ],
+      "baselineFile": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-day.png",
+      "originalFile": "assets/Crown Georgetown Photos/first-floor-home-office.jpg.webp",
+      "planFile": "docs/collected-mineral-assets/floor-1-plan.webp"
+    },
+    {
+      "index": 401,
+      "roomId": "media",
+      "candidateFile": "assets/render-candidates/collected-mineral/r04/day-401.png",
+      "approved": false,
+      "status": "targeted_correction_required",
+      "architectureApproved": true,
+      "checks": [
+        "Same compact shell, flat textured ceiling, crown and centered paired 2x2 real window retained; no fake facade opening.",
+        "Large TV, soundbar, calm mineral halo and source-side figurine display retained.",
+        "One natural straight Cloud three-piece sofa is distinguishable from the owned Luxe penthouse sofa."
+      ],
+      "issues": [
+        {
+          "severity": "blocking",
+          "part": "Ottoman count",
+          "reason": "THREE separate matching white/Natural cubes are visible: one near-left sofa-end cube, one far sofa-end cube, plus an extra front-right standalone cube. The new schedule allows only TWO Classic40 ottomans."
+        }
+      ],
+      "minimalRepairPrompt": "EDIT ONLY OTTOMAN COUNT. Keep one new Natural Cloud Classic119-inch straight three-piece sofa unchanged. Keep exactly TWO matching Classic40-square movable ottomans at the two sofa front/end seating positions: retain the near-left sofa-end cube and the farther cube at the other end. REMOVE ONLY the EXTRA detached foreground-right cube with its tray, restoring the unobstructed rug/floor circulation there. Keep the small middle table as a separately documented supporting item, never another Cloud ottoman. Preserve 83-inch TV/soundbar, quiet mineral panel/halo, long fitted walnut console, figurine niches, the exact real paired 2x2 window, all walls and existing ceiling/speakers.",
+      "officialProductRefs": [
+        "docs/collected-mineral-assets/products/cm-social-media-cloud119.webp",
+        "docs/collected-mineral-assets/products/cm-social-media-cloud-ottoman40.webp"
+      ],
+      "limits": [
+        "Catalogue form and count are reviewed visually; no pixel-derived dimensions or certified fit claim.",
+        "Confirm actual furniture footprints, chair pullback, curtain stacks, service clearances and delivery access on site."
+      ],
+      "baselineFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a8.png",
+      "originalFile": "assets/Crown Georgetown Photos/first-floor-media-room.jpg.webp",
+      "planFile": "docs/collected-mineral-assets/floor-1-plan.webp",
+      "scopeNote": "The small stone middle table is not a quoted catalogue selection in social JSON; label supporting/custom scope separately if retained."
+    },
+    {
+      "index": 402,
+      "roomId": "great",
+      "candidateFile": "assets/render-candidates/collected-mineral/r04/day-402.png",
+      "approved": false,
+      "status": "targeted_correction_required",
+      "architectureApproved": true,
+      "checks": [
+        "Two high fireplace-side transoms, terrace glazing, flat crown ceiling and TV above the linear fireplace retain source architecture.",
+        "Sibling artworks and fitted source walnut cabinets retain the Mineral & Walnut character.",
+        "One ivory Retreat sofa, two Natural shelter-arm chairs and two square end-table placements are present."
+      ],
+      "issues": [
+        {
+          "severity": "blocking",
+          "part": "Tate48 coffee table",
+          "reason": "Current table is a thick open Parsons/shelf table with a full lower shelf and no central drawer. Actual Tate48 has one central drawer, side-open rail areas and slender tapered legs/struts, with no full lower shelf."
+        },
+        {
+          "severity": "blocking",
+          "part": "Enzo18 side tables",
+          "reason": "At least the foreground/right table reads as a four-post open end table rather than the reference solid slab-sided cube with bottom inner shelf and inset/recessed base details. Use the same actual Enzo reference for both."
+        }
+      ],
+      "minimalRepairPrompt": "EDIT ONLY the three small walnut tables. Replace centre coffee table with the exact Tate48x24x17 Storage Table shown in the reference: warm walnut top, ONE shallow CENTRAL DRAWER with slim handle, short open rail zones at the ends, slender slightly tapered legs/struts; REMOVE the full lower shelf and thick Parsons frame. Replace BOTH end tables with matching EnzoSQUARE18x18x20 Caramel Walnut reference forms: square thick top, two solid slab side panels, open central cube and low INNER bottom shelf/inset base detail; NO separate spindly four-leg end tables. Preserve one Retreat94 sofa, TWO Natural shelter-arm swivels, TV/fireplace, high transoms, terrace glazing, sibling art, fitted cabinets, lighting and camera.",
+      "officialProductRefs": [
+        "docs/collected-mineral-assets/products/cm-social-great-tate48.webp",
+        "docs/collected-mineral-assets/products/cm-social-great-enzo18.webp"
+      ],
+      "limits": [
+        "Catalogue form and count are reviewed visually; no pixel-derived dimensions or certified fit claim.",
+        "Confirm actual furniture footprints, chair pullback, curtain stacks, service clearances and delivery access on site."
+      ],
+      "baselineFile": "assets/render-candidates/mineral-walnut-architecture/r01/great-gr1-day.png",
+      "originalFile": "assets/Crown Georgetown Photos/second-floor-great-room.jpg.webp",
+      "planFile": "docs/collected-mineral-assets/floor-2-plan.webp"
+    },
+    {
+      "index": 403,
+      "roomId": "kitchen",
+      "candidateFile": "assets/render-candidates/collected-mineral/r04/day-403.png",
+      "approved": false,
+      "status": "targeted_correction_required",
+      "architectureApproved": true,
+      "checks": [
+        "Existing L-cabinet run, island/window/cooktop hood, left refrigerator and right microwave/oven column remain.",
+        "Two approved dome island lights and creamy C1 stone are retained.",
+        "Visible stool forms are consistent with Nord ivory upholstered backs/seats and warm brown wood legs."
+      ],
+      "issues": [
+        {
+          "severity": "blocking",
+          "part": "Nord count",
+          "reason": "Only THREE Nord stools are present. The same K1 camera in both approved baseline and original model photo visibly accommodates FOUR; the purchase schedule specifies four."
+        },
+        {
+          "severity": "blocking",
+          "part": "Adjacent sunroom continuity",
+          "reason": "Background still shows old wood-legged chairs/table. New accepted sunroom406 uses owned Maslow72 polished-aluminum spider/X base and six White Emery steel-frame chairs."
+        }
+      ],
+      "minimalRepairPrompt": "EDIT ONLY seating and the visible adjacent sunroom furniture. Show EXACTLY FOUR matching Nord Ivory/Brown-Wood COUNTER stools along the same existing island edge, using the reference silhouette and the same four-slot spacing visible in original K1; do not lengthen/widen the island or enlarge the room. Keep true 20.13x24.25x39.25 overall stool proportions and realistic knee/seat clearance. In the SUNROOM glimpsed beyond the oven/island, use the accepted406 room reference: ONE owned Maslow72 EspressoWalnut thin rectangular top on POLISHED ALUMINUM crossed/spider base, FOUR White Emery side chairs and TWO White Emery track-arm chairs at the ends with polished stainless box frames. No Parsons table/Nicola wood-legged sunroom chairs. Preserve every kitchen cabinet, window, oven, hood, sink, dome pendant, C1 stone, ceiling and camera.",
+      "officialProductRefs": [
+        "docs/collected-mineral-assets/products/cm-social-kitchen-nord.webp",
+        "docs/current-furniture-assets/maslow-table.webp",
+        "docs/current-furniture-assets/emery-chair.webp",
+        "docs/current-furniture-assets/emery-armchair.webp",
+        "assets/render-candidates/collected-mineral/r04/day-406.png"
+      ],
+      "limits": [
+        "Catalogue form and count are reviewed visually; no pixel-derived dimensions or certified fit claim.",
+        "Confirm actual furniture footprints, chair pullback, curtain stacks, service clearances and delivery access on site."
+      ],
+      "baselineFile": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k1-day.png",
+      "originalFile": "assets/Crown Georgetown Photos/second-floor-main-kitchen-2.jpg.webp",
+      "planFile": "docs/collected-mineral-assets/floor-2-plan.webp"
+    },
+    {
+      "index": 404,
+      "roomId": "dining",
+      "candidateFile": "assets/render-candidates/collected-mineral/r04/day-404.png",
+      "approved": false,
+      "status": "targeted_correction_required",
+      "architectureApproved": true,
+      "checks": [
+        "Five source openings (three arches/two tall transom rectangles), flat ceiling and source camera remain.",
+        "One elongated Spiridon-like iron/crystal chandelier and one round polished-silver mirror are present.",
+        "One Charcoal concrete console and the two short/tall Vessel-like accessories are visible, although their placement conflicts with room recipe."
+      ],
+      "issues": [
+        {
+          "severity": "blocking",
+          "part": "Monroe table",
+          "reason": "Two bell/sculptural pedestals replace the actual official Monroe four slim tapering wood legs/open apron support. Official gallery references confirm the legged oval form."
+        },
+        {
+          "severity": "blocking",
+          "part": "Nicola chairs",
+          "reason": "Dining chairs have exposed brown wood legs and wood-bordered upholstered panels. Nicola reference is fully upholstered including all four legs, with slope-back and subtle low front side returns."
+        },
+        {
+          "severity": "blocking",
+          "part": "Owned console placement / second console",
+          "reason": "Owned Cabrera is on the left/window wall while a separate unscheduled brown cabinet remains below the mirror on the right/west interior wall. Social room recipe places ONE owned Cabrera on the existing WEST interior wall, and has no new second dining cabinet in its custom scope."
+        }
+      ],
+      "minimalRepairPrompt": "EDIT ONLY furniture, retaining all five openings, camera, flat ceiling and direct living connection. Replace the bell-pedestal table with the actual CLOSED96-inch Monroe oval warm-brown wood form from its official photo: FOUR slim tapering straight WOOD LEGS toward the outer ends and an OPEN knee/apron structure, no sculptural pedestal/X base. Put EIGHT Natural Nicola chairs around it, three per long side and one at each end: ALL upholstery-covered including FOUR slender legs per chair, tall slope-back and low sweeping front side returns; no exposed wood border/legs. Two additional chairs remain stored spares in the written schedule, not invented seats crowding the room. Replace the unowned brown cabinet under the RIGHT/WEST round mirror with the ONE owned72-inch Charcoal Waxed Concrete CABRERA straight console. Move the TWO owned short/tall Vessels onto it. REMOVE the duplicate LEFT/window-wall concrete console and restore the original shallow walnut window ledge only (no second cabinet). Preserve the owned42-inch silver round mirror and48-inch matte-iron Spiridon crystal linear chandelier; do not copy the wooden chairs pictured with the Monroe table product photo.",
+      "officialProductRefs": [
+        "docs/collected-mineral-assets/products/cm-social-dining-monroe96.webp",
+        "docs/collected-mineral-assets/products/cm-social-dining-monroe96-gallery-0.webp",
+        "docs/collected-mineral-assets/products/cm-social-dining-monroe96-gallery-1.webp",
+        "docs/collected-mineral-assets/products/cm-social-dining-nicola.webp",
+        "docs/current-furniture-assets/cabrera-console.webp",
+        "docs/current-furniture-assets/spiridon-chandelier.webp"
+      ],
+      "limits": [
+        "Catalogue form and count are reviewed visually; no pixel-derived dimensions or certified fit claim.",
+        "Confirm actual furniture footprints, chair pullback, curtain stacks, service clearances and delivery access on site."
+      ],
+      "baselineFile": "assets/render-candidates/mineral-walnut-plan/r07/dining-d1-day.png",
+      "originalFile": "assets/Crown Georgetown Photos/second-floor-formal-dining.jpg.webp",
+      "planFile": "docs/collected-mineral-assets/floor-2-plan.webp",
+      "alternativeScope": "If root deliberately retains a second cabinet instead, record it explicitly as NEW fitted dining cabinetry with dimensions/price scope; never label it another owned Cabrera. Preferred plan-consistent correction uses one owned Cabrera on the west interior wall."
+    },
+    {
+      "index": 405,
+      "roomId": "living",
+      "candidateFile": "assets/render-candidates/collected-mineral/r04/day-405.png",
+      "approved": false,
+      "status": "targeted_correction_required",
+      "architectureApproved": true,
+      "checks": [
+        "Source open dining relationship, flat ceiling, two tall living windows, high centre arch and neighbouring dining windows retain approved LR1 architecture.",
+        "One compact Retreat sofa, two shelter-arm swivel chairs and one polished nickel Martini side table are present.",
+        "Tate-like central-drawer coffee-table geometry is much closer here than in402; product remains an illustrative interpretation."
+      ],
+      "issues": [
+        {
+          "severity": "blocking",
+          "part": "Future piano / reserved corner",
+          "reason": "The piano is removed, not out of crop: accepted LR1 shows it prominently in the left/northwest foreground below the artwork, now filled by the left swivel/Martini and open floor. The latest room recipe explicitly retains future baby grand diagonally in that northwest zone."
+        },
+        {
+          "severity": "blocking",
+          "part": "Adjacent dining continuity",
+          "reason": "Visible dining still shows prior rectangular table/branch-light fixture instead of the chosen corrected Monroe oval / Nicola / owned Spiridon scheme."
+        }
+      ],
+      "minimalRepairPrompt": "EDIT ONLY layout elements needed to retain the requested piano and adjacent dining continuity. Restore a compact ~5-ft future baby grand in the SAME LEFT/NORTHWEST foreground zone and diagonal orientation shown in the approved LR1 baseline: curved tail northwest, keyboard/bench toward southeast. Do not mirror it to the east window side or invent a stair door/partition. Reposition the two new compact Natural shelter-arm chairs and single owned14-inch polished-nickel Martini table within the actual southern conversation zone so the piano/bench envelope and dining route remain visibly clear; retain ONE Retreat78 sofa on the east-window side and ONE Tate48 storage coffee table. In the dining glimpse at RIGHT, show the corrected404 actual CLOSED Monroe oval FOUR-LEG table, Natural fully-upholstered Nicola chairs and OWNED48-inch Spiridon iron/crystal linear chandelier. Preserve all source windows and the entirely open living/dining junction, ceiling, floor and camera. If the full group cannot be plausibly fitted, do not shrink the piano or enlarge the room: keep the piano zone visibly reserved and clearly qualify the complete arrangement for a measured on-site template.",
+      "officialProductRefs": [
+        "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a6.png",
+        "docs/collected-mineral-assets/products/cm-social-living-retreat78.webp",
+        "docs/collected-mineral-assets/products/cm-social-great-shelter-natural.webp",
+        "docs/collected-mineral-assets/products/cm-social-great-tate48.webp",
+        "docs/current-furniture-assets/martini-side.webp",
+        "corrected dining404 when approved"
+      ],
+      "limits": [
+        "Catalogue form and count are reviewed visually; no pixel-derived dimensions or certified fit claim.",
+        "Confirm actual furniture footprints, chair pullback, curtain stacks, service clearances and delivery access on site."
+      ],
+      "baselineFile": "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a6.png",
+      "originalFile": "assets/Crown Georgetown Photos/second-floor-formal-dining.jpg.webp",
+      "planFile": "docs/collected-mineral-assets/floor-2-plan.webp",
+      "evidenceQualification": "Living room is plan-derived; dining photograph documents shared architecture rather than proving a separate photographed living camera."
+    },
+    {
+      "index": 406,
+      "roomId": "sunroom",
+      "candidateFile": "assets/render-candidates/collected-mineral/r04/day-406.png",
+      "approved": true,
+      "status": "approved_visual_interpretation",
+      "architectureApproved": true,
+      "checks": [
+        "Same five real window banks/transoms, knee walls, right terrace door, flat ceiling and left oven/microwave column retained against baseline/model photo.",
+        "ONE owned thin rectangular Espresso-Walnut Maslow table with polished-aluminum crossed/spider base is visible.",
+        "FOUR White Emery SIDE chairs (two each long side) plus TWO White Emery TRACK-ARM chairs at the ends are distinguishable; six total, polished stainless box-frame bases.",
+        "Approved black linear/opal chandelier and restrained Mineral & Walnut palette retained; no new duplicate dining table/chairs in image."
+      ],
+      "issues": [],
+      "minimalRepairPrompt": null,
+      "officialProductRefs": [
+        "docs/current-furniture-assets/maslow-table.webp",
+        "docs/current-furniture-assets/emery-chair.webp",
+        "docs/current-furniture-assets/emery-armchair.webp"
+      ],
+      "limits": [
+        "Catalogue form and count are reviewed visually; no pixel-derived dimensions or certified fit claim.",
+        "Confirm actual furniture footprints, chair pullback, curtain stacks, service clearances and delivery access on site."
+      ],
+      "baselineFile": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s1-day.png",
+      "originalFile": "assets/Crown Georgetown Photos/second-floor-sun-room.jpg.webp",
+      "planFile": "docs/collected-mineral-assets/floor-2-plan.webp",
+      "scheduleIssue": "Seed currently also lists NEW Parsons plus six Nicola candidates in sunroom.newFurniture. They are alternatives to the owned Maslow/Emery group, not additional purchases in this image. Remove or explicitly separate them from the final selected NEW schedule."
+    }
+  ],
+  "approvedIndices": [
+    406
+  ],
+  "notes": [
+    "Do not propagate second angles/night edits until the primary corrections are accepted.",
+    "Keep every accepted architectural camera/envelope and repaired canonical furniture arrangement locked across companions."
+  ],
+  "repairRounds": [
+    {
+      "revision": "CM-SOCIAL-PRIMARY-QA-R02",
+      "indices": [
+        600,
+        601,
+        602,
+        603,
+        604,
+        605
+      ],
+      "approvedIndices": [
+        600,
+        602
+      ],
+      "rooms": [
+        {
+          "index": 600,
+          "roomId": "office",
+          "approved": true,
+          "candidateFile": "assets/render-candidates/collected-mineral/r04/day-600.png",
+          "checks": [
+            "Added southwest-corner round opening removed; both real paired window banks and flat ceiling retained.",
+            "Alora now has fluted apron/open knee span/straight slab sides; two upholstery-covered slope-back visitors and one coal ergonomic task chair remain."
+          ],
+          "limits": [
+            "Desk and chair scale and proportions remain a product-led visual interpretation; confirm exact footprints and samples.",
+            "Portico-side circular window/printer wall lies in companion-camera coverage; do not reinsert it into this solid corner."
+          ]
+        },
+        {
+          "index": 601,
+          "roomId": "media",
+          "approved": false,
+          "candidateFile": "assets/render-candidates/collected-mineral/r04/day-601.png",
+          "blocking": [
+            "Three ottoman cubes still present; scheduled two."
+          ],
+          "architectureDrift": false
+        },
+        {
+          "index": 602,
+          "roomId": "great",
+          "approved": true,
+          "candidateFile": "assets/render-candidates/collected-mineral/r04/day-602.png",
+          "checks": [
+            "Recognizable Tate central drawer and side-open rail geometry restored; full lower shelf removed.",
+            "One sofa, two shelter swivels, two square Enzo-style drink tables remain with unchanged high transoms/TV/fireplace/glazing/camera."
+          ],
+          "limits": [
+            "Enzo exact side-slab/joinery and all furniture dimensions remain catalogue/site specifications; no new blocking silhouette/count error identified."
+          ]
+        },
+        {
+          "index": 603,
+          "roomId": "kitchen",
+          "approved": false,
+          "candidateFile": "assets/render-candidates/collected-mineral/r04/day-603.png",
+          "checks": [
+            "Visible adjacent sunroom now uses metal-frame Emery forms and Maslow-style crossed metal base."
+          ],
+          "blocking": [
+            "Only three Nord stools still visible in same camera that showed four in original and approved baseline."
+          ],
+          "architectureDrift": false
+        },
+        {
+          "index": 604,
+          "roomId": "dining",
+          "approved": false,
+          "candidateFile": "assets/render-candidates/collected-mineral/r04/day-604.png",
+          "checks": [
+            "Rectangle legged Barley-style table and fully upholstered Nicola chairs replace prior incorrect pedestals/wood-framed chairs.",
+            "One Cabrera now correctly under the west/right mirror; duplicated left console removed.",
+            "Same five windows, flat ceiling and source camera retained."
+          ],
+          "blocking": [
+            "Two Vessel-like vase pairs remain: one pair on left shelf and one on right Cabrera. Owned inventory allows one short and one tall only; remove left pair."
+          ],
+          "mirrorQualification": "A physical circular42-inch mirror can read as an ellipse from this strongly oblique camera. Specify circle flush with wall and preserve perspective; do not infer physical oval solely from the projected silhouette.",
+          "limits": [
+            "Confirm actual42-inch mirror and72-inch console sizes against measured west wall."
+          ]
+        },
+        {
+          "index": 605,
+          "roomId": "living",
+          "approved": false,
+          "candidateFile": "assets/render-candidates/collected-mineral/r04/day-605.png",
+          "checks": [
+            "Adjacent dining light now reads iron/crystal rather than the old branch fixture; rectangular current table direction carried.",
+            "No new openings, ceiling structures or living/dining partitions."
+          ],
+          "blocking": [
+            "Requested northwest baby-grand zone is occupied by a new console/bench; instrument is still absent.",
+            "Single Martini side table is bronze/gold rather than recorded polished nickel. Remove wrong console/bench during piano reconstruction and restore silver/nickel table."
+          ],
+          "limits": [
+            "Complete piano/sofa/two-chair arrangement requires a measured template; never solve by shrinking the piano or enlarging room."
+          ]
+        }
+      ]
+    },
+    {
+      "revision": "CM-SOCIAL-PRIMARY-QA-R03",
+      "approvedIndices": [
+        609,
+        610,
+        611,
+        612
+      ],
+      "rooms": [
+        {
+          "index": 609,
+          "roomId": "media",
+          "approved": true,
+          "candidateFile": "assets/render-candidates/collected-mineral/r04/day-609.png",
+          "checks": [
+            "Exactly two Cloud Classic ottomans now; extra detached foreground-right cube removed.",
+            "Same centered paired real window, TV/soundbar/mineral halo, fitted console, niches and original ceiling/speaker geometry retained."
+          ],
+          "limits": [
+            "Middle stone table remains separately specified supporting work; all actual AV/sofa/rug clearances require a measured template."
+          ]
+        },
+        {
+          "index": 610,
+          "roomId": "kitchen",
+          "approved": true,
+          "candidateFile": "assets/render-candidates/collected-mineral/r04/day-610.png",
+          "checks": [
+            "Exactly four Nord upholstered/brown-wood counter stools in original K1 island arrangement.",
+            "Visible sunroom retains owned Maslow crossed-metal table/Emery steel-frame group.",
+            "Source L-run, counter window, right ovens, left refrigerator, hood, island and two dome lights retained."
+          ],
+          "limits": [
+            "Confirm actual counter seat height, knee/pullback spacing and opening route; no certified dimensions inferred from image."
+          ]
+        },
+        {
+          "index": 611,
+          "roomId": "living",
+          "approved": true,
+          "candidateFile": "assets/render-candidates/collected-mineral/r04/day-611.png",
+          "checks": [
+            "Baby grand is now a real depicted instrument with keyboard, lid, legs/pedals and bench in source northwest/left diagonal zone.",
+            "One compact Retreat sofa, two shelter swivels and one silver Martini side table; wrong console/bench removed.",
+            "Visible dining adopts current rectangular table/cream chairs/Spiridon-like linear crystal fixture; source open connection/windows/ceiling retained."
+          ],
+          "limits": [
+            "Piano is a future separately sourced instrument, not an exact verified SKU.",
+            "Piano/bench, sofa, two chair swivel envelopes and dining passage need an on-site taped plan; no render-based fit promise."
+          ]
+        },
+        {
+          "index": 612,
+          "roomId": "dining",
+          "approved": true,
+          "candidateFile": "assets/render-candidates/collected-mineral/r04/day-612.png",
+          "checks": [
+            "One right/west Charcoal Cabrera; one short/tall owned Vessel pair on it. Left shelf has a distinct generic single plant pot, not a second owned pair.",
+            "Current Barley-style rectangular legged table and eight fully upholstered Nicola places remain; two spares stay in written purchasing schedule.",
+            "One silver wall mirror and owned Spiridon-style linear chandelier; five original window openings, flat ceiling and camera unchanged."
+          ],
+          "limits": [
+            "The physical circular mirror is foreshortened by this oblique wall camera; verify actual42-inch diameter and mounting/height on site.",
+            "Left decorative plant/pot and ledge are generic supporting items, not additional owned inventory."
+          ]
+        }
+      ]
+    }
+  ],
+  "latestApprovedIndices": [
+    600,
+    609,
+    602,
+    610,
+    612,
+    611,
+    406
+  ]
+}

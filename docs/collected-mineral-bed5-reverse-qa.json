@@ -1,0 +1,89 @@
+{
+  "revision": "CM-BED5-REVERSE-QA-R03",
+  "date": "2026-10-12",
+  "geometryAuthority": "Builder plan:179in SOUTH\u2013NORTH width,133in WEST\u2013EAST depth,flat108in ceiling; WEST headboard opposite TWO separated EAST windows, north linen/entry/dresser and south closet.",
+  "images": [
+    {
+      "roomId": "bed5",
+      "code": "B52-candidate",
+      "file": "assets/render-candidates/collected-mineral/r04/day-618.png",
+      "approved": false,
+      "checks": [
+        "Two separated window groups and flat ceiling are present.",
+        "Ivory Anneli bed, Natural Keane storage and neutral textiles match furnishings in broad form."
+      ],
+      "mustFix": [
+        "Headboard and its art are on the visible LEFT side wall PERPENDICULAR to far east window wall, repeating forbidden90degree rotation. Bed instead points toward right/south closet.",
+        "Dresser appears on screen-right SOUTH side. Move to north/LEFT side.",
+        "Use new geometry guide for a real near-west-headboard camera looking EAST: headboard/art BEHIND camera/out of frame, bed foot in lower foreground points directly at TWO east windows ahead, north/left dresser and entry/linen, south/right closet. No enlargement or slope ceiling."
+      ],
+      "notes": [
+        "Whole Bedroom5 remains proposed/unbuilt. Opening offsets, closet allocation and furniture clearances require measured construction documents."
+      ]
+    },
+    {
+      "roomId": "bed5",
+      "code": "B51-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-903.png",
+      "pairedDay": "assets/render-candidates/collected-mineral/r04/day-614.png",
+      "approved": true,
+      "checks": [
+        "False curtains along solid WEST headboard wall removed.",
+        "Same Anneli Ivory bed, Natural bedside/dresser forms, two Remi lamps, bedding/rug, offset entry, solid walls and camera retained.",
+        "Warm lamps provide lighting without new fixtures or under-bed LEDs."
+      ],
+      "notes": [
+        "Actual planned EAST windows are behind camera; no curtains should be visible on source-visible solid walls. Night image alone does not prove hidden blackout hardware."
+      ]
+    },
+    {
+      "roomId": "bed5",
+      "code": "B52",
+      "file": "assets/render-candidates/collected-mineral/r04/day-629.png",
+      "jobId": "0a891556-4e1b-43d3-a30b-6de049904f83",
+      "approved": true,
+      "evidenceType": "Genuine plan-led reverse derived from approved furniture view and native camera geometry guide; proposed unbuilt room",
+      "checks": [
+        "Camera is now near WEST headboard end looking directly EAST; headboard and its art lie behind camera/out of frame.",
+        "Bed duvet/foot in lower foreground points directly at TWO separated EAST window units, with solid wall between; no90degree bed rotation.",
+        "NORTH dresser lies screenLEFT and is Weathered Natural Keane five-row/two-knob-per-row form; SOUTH closet is screenRIGHT.",
+        "Ivory Anneli bed foot, Natural timber, neutral textiles/loose rug and matte oak align with primary614.",
+        "Each east window has a separate sheer layer and opaque oatmeal curtains stacked open, clear of glass; no curtain on a solid wall.",
+        "Flat ceiling and compact nominal179in N\u2013S by133in W\u2013E room concept retained, with no added window, dormer or slope ceiling."
+      ],
+      "notes": [
+        "Whole Bedroom5 remains proposed/unbuilt. Opening offsets, furniture/cabinet dimensions, entry/linen detail and clearances require measured construction documents.",
+        "Near north entry/linen and bedside units lie outside this reverse crop; no false feature is added to force their visibility.",
+        "Use629 as the exact day source for B52 night; close opacity only at these two visible east units."
+      ],
+      "supersedes": [
+        "day-512.png",
+        "day-618.png"
+      ]
+    },
+    {
+      "roomId": "bed5",
+      "code": "B52-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-822.png",
+      "pairedDay": "assets/render-candidates/collected-mineral/r04/day-629.png",
+      "approved": true,
+      "checks": [
+        "Both EAST window openings have completely closed opaque curtain layers to floor; no exposed glass, side slit or daylight strip.",
+        "Same genuine west-headboard-end reverse: headboard/art/bedside lamps remain behind camera, bed foot points directly toward covered east pair.",
+        "Natural Keane dresser remains NORTH/LEFT with exactly five drawer rows; SOUTH closet remains RIGHT.",
+        "Same Anneli bed foot, duvet/throw, loose rug/oak, plant, compact enclosure and flat ceiling.",
+        "No invented pendant, wall lamps, LED under-bed strip or curtains on solid side/head walls."
+      ],
+      "notes": [
+        "Proposed/unbuilt Bedroom5; rendering does not verify construction measurements, closet hardware or physical blackout performance.",
+        "Warm illumination comes from the selected bedside lighting outside this camera; no extra fixture is specified by the image."
+      ]
+    }
+  ],
+  "geometryGuide": {
+    "svg": "assets/render-candidates/collected-mineral/r04/bed5-reverse-geometry.svg",
+    "png": "assets/render-candidates/collected-mineral/r04/bed5-reverse-geometry.png",
+    "camera": "x10,y62,z89.5 looking EAST +x; west/headboard x0 behind camera; z0NORTH to179SOUTH",
+    "labelPolicy": "Diagram labels are instructional only; remove all lettering and guide outlines in final photoreal image."
+  }
+}

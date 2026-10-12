@@ -1,0 +1,1798 @@
+{
+  "title": "Collected Mineral · New social-room furniture shortlist",
+  "date": "2026-10-11",
+  "destinationZip": "20878",
+  "scope": "New loose furniture for Option 3; current-owned pieces stay in root inventory, not duplicated here. Nothing ordered.",
+  "status": "22 new-furniture placements with 17 visually reviewed official product-form photographs; owned sunroom fixed, latest architecture recorded, current stock/fit pending labels explicit.",
+  "stockPolicy": "Only exact freshlyverifiedstock/configuration may be labelled in_stock. HistoricalOct 9 stock andorderable/currentcatalogpages are designcandidates currentlypending, notpurchase-ready. Userstocked-only preference doesnotturnmissingstockevidenceintostock.",
+  "items": [
+    {
+      "id": "cm-social-great-retreat94",
+      "name": "Retreat 94-inch Sofa — Serene Ivory / Multi-Cushion",
+      "brand": "Crate & Barrel",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "great",
+      "size": "94 W × 44 D × 28.5 H inches",
+      "finish": "Serene fabric in Ivory",
+      "fabric": "Serene",
+      "color": "Ivory",
+      "url": "https://www.crateandbarrel.com/retreat-94-sofa/f1027609",
+      "price": 2299,
+      "currentPriceOrSale": {
+        "amount": 2299,
+        "kind": "retail",
+        "verifiedAt": "2026-10-11",
+        "note": "Fresh official product page shows $2, 299 for SKU 172631, 94-inch Multi-Cushion Serene Ivory. No sale shown."
+      },
+      "stockStatus": "in_stock",
+      "stockEvidence": "Root fresh live configured browser check on 2026-10-11 verified exact Retreat 94-inch Multi-Cushion Serene Ivory SKU 172631 at $2,299: In stock. Ready to schedule delivery to ZIP 20878. Quantity one observed; final measured fit and delivery access remain to verify.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-11",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "sku": "172631",
+        "size": "94-inch",
+        "cushion": "Multi-Cushion",
+        "fabric": "Serene",
+        "color": "Ivory",
+        "observedQuantity": 1
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-great-retreat94.webp",
+      "sourceImageUrl": "https://cb.scene7.com/is/image/Crate/Retreat94inSofaSOSSS24_3D?%24web_pdp_main_carousel_thumb_med%24=",
+      "photoMatchNote": "Exact official 94-inch Retreat Serene Ivory catalog photograph; manufacturer CAD and true texture swatch still govern.",
+      "fitNotes": "Width is within the ~96-inch plan. Depth 44 is three inches more than the original 41-inch great-room plan; tape the sofa, chairs and table and terrace route. Confirm stair/lift/door access and combined quantities.",
+      "decision": "stock_verified_new_purchase_candidate_measure_before_order",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 800,
+        "height": 800,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-great-shelter-natural",
+      "name": "1950s Italian Shelter Arm Swivel Chair — current edition",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 2,
+      "room": "great",
+      "size": "31 in W × 32½ in D × 30 in H; seat 18 in H. Allow full swivel clearance.",
+      "finish": "Natural Performance Linen Weave; Sand stocked sibling available",
+      "fabric": "Performance Linen Weave",
+      "color": "Natural",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+      "price": 1245,
+      "currentPriceOrSale": {
+        "amount": 1245,
+        "kind": "member_sale",
+        "verifiedAt": "2026-10-09",
+        "note": "Dated price snapshot; recheck exact selected configuration. Tax/delivery/member fee excluded."
+      },
+      "stockStatus": "current_verification_pending",
+      "stockEvidence": "Last verified 2026-10-09: Exact variant shown in RH IN-STOCK modal. Availability is a dated snapshot, not a reservation. CURRENT selected stock, ZIP 20878 and total quantity need fresh check; not purchase-ready.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-09",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "depth": "Classic 32½ in",
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "61060801 NONA",
+        "stockedSibling": {
+          "color": "Sand",
+          "sku": "61060801 NOSN",
+          "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878."
+        }
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-great-shelter-natural.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod20580100_E414854120_TQ_CC_RHR?",
+      "photoMatchNote": "Official catalog collection/form reference; exact size/finish/fabric derives from saved selected SKU, not generic photo alone. Match approved cream/warm-brown finish during rendering.",
+      "fitNotes": "Physical samples, room template and delivery route remain to verify. ",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 678,
+        "height": 558,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-great-tate48",
+      "name": "Tate Walnut 48-inch Storage Coffee Table",
+      "brand": "Crate & Barrel",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "great",
+      "size": "48 W × 24 D × 17 H inches; exact SKU 259126 verified in the live Dimensions accordion.",
+      "finish": "Warm brown Tate Walnut finish; walnut veneer over poplar/engineered wood",
+      "fabric": null,
+      "color": null,
+      "url": "https://www.crateandbarrel.com/tate-walnut-wood-48-rectangular-storage-coffee-table/s259126",
+      "price": 699.99,
+      "currentPriceOrSale": {
+        "amount": 699.99,
+        "regularPrice": 899,
+        "kind": "clearance",
+        "verifiedAt": "2026-10-11",
+        "note": "Root fresh official exact SKU 259126, Walnut, live configured ZIP 20878 check. Price is for one table; tax/delivery excluded."
+      },
+      "stockStatus": "in_stock_combined_quantity_verified",
+      "stockEvidence": "Root fresh official live exact SKU 259126, Walnut, ZIP 20878 check on 2026-10-11 showed $699.99 clearance, regular $899, In stock. Ready to schedule delivery with quantity TWO after delivery recalculation. This verifies the combined great/living pair as a dated displayed quote, not a reservation.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-11",
+      "lastStockStatus": "in_stock_combined_two",
+      "lastStockConfiguration": {
+        "sku": "259126",
+        "finish": "Walnut",
+        "observedQuantity": 2,
+        "aggregateRequiredQuantity": 2,
+        "aggregateQuantityVerified": true
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-great-tate48.webp",
+      "sourceImageUrl": "https://cb.scene7.com/is/image/Crate/TateCoffeeTableWlntSOSSS23_3D?%24web_pdp_main_carousel_thumb_med%24=",
+      "photoMatchNote": "Official catalog collection/form reference; exact size/finish/fabric derives from saved selected SKU, not generic photo alone. Match approved cream/warm-brown finish during rendering.",
+      "fitNotes": "The 48×24-inch footprint fits the piano-room planning target and is slightly shorter than the original 50–54-inch great-room target. At 17 inches high, confirm comfort with the actual sofa seat height. Tape the table, chair swivel and terrace/piano access before ordering.",
+      "decision": "stock_verified_combined_quantity_candidate_measure_before_order",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 800,
+        "height": 800,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-great-enzo18",
+      "name": "Enzo Square Side Table — 18-inch Caramel Walnut",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 2,
+      "room": "great",
+      "size": "18 W × 18 D × 20 H in; 48 lb.",
+      "finish": "Caramel Walnut",
+      "fabric": null,
+      "color": null,
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+      "price": 545,
+      "currentPriceOrSale": {
+        "amount": 545,
+        "kind": "member_sale",
+        "verifiedAt": "2026-10-09",
+        "note": "Dated price snapshot; recheck exact selected configuration. Tax/delivery/member fee excluded."
+      },
+      "stockStatus": "current_verification_pending",
+      "stockEvidence": "Last verified 2026-10-09: Exact SKU in live IN-STOCK modal; current Dimensions show 18-inch square, 20 H, 48 lb. CURRENT selected stock, ZIP 20878 and total quantity need fresh check; not purchase-ready.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-09",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "size": "18-inch square /20 H inches",
+        "finish": "Caramel Walnut",
+        "sku": "10138471 CRWL"
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-great-enzo18.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$",
+      "photoMatchNote": "Official Enzo Square table photograph with square top/frame and low shelf. Caramel Walnut selected 18×18×20 SKU is historical-stock configuration, not a round table.",
+      "fitNotes": "Square replaces round Gael; no drawer. A seating side table, not a storage nightstand.",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 768,
+        "height": 792,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-media-cloud119",
+      "name": "Cloud Modular 3-Piece Sofa — Natural / Classic",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "media",
+      "size": "Classic 3-piece:119 W × 40 D × 32 H inches. Current RH Dimensions verified. Keep a straight sofa and protect rear circulation in the media room.",
+      "finish": "Natural Performance Linen Weave",
+      "fabric": "Performance Linen Weave",
+      "color": "Natural",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+      "price": 5255,
+      "currentPriceOrSale": {
+        "amount": 5255,
+        "kind": "member_sale",
+        "verifiedAt": "2026-10-09",
+        "note": "Dated price snapshot; recheck exact selected configuration. Tax/delivery/member fee excluded."
+      },
+      "stockStatus": "current_verification_pending",
+      "stockEvidence": "Last verified 2026-10-09: Exact variant shown in RH IN-STOCK modal. Availability is a dated snapshot, not a reservation. The configured SKU was verified in stock. Two sofas across media and loft have not been quantity-checked; confirm the complete module set and combined quantity. CURRENT selected stock, ZIP 20878 and total quantity need fresh check; not purchase-ready.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-09",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "depth": "Classic 40 in",
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "M00023014118"
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-media-cloud119.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod6511684_E1684919_F_RHR?",
+      "photoMatchNote": "Official catalog collection/form reference; exact size/finish/fabric derives from saved selected SKU, not generic photo alone. Match approved cream/warm-brown finish during rendering.",
+      "fitNotes": "Straight Classic 119 W × 40 D × 32 H on the approximately 133-inch seating wall. Retain clear west-wall doors near the south/TV corner and rear speaker access. This room needs one full three-piece set; combined media/loft quantity was not checked.",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 678,
+        "height": 185,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-media-cloud-ottoman40",
+      "name": "Cloud Modular End-of-Sectional Ottoman — Classic / Natural",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 2,
+      "room": "media",
+      "size": "Classic 40-inch square planning configuration; exact overall height requires live Dimensions verification. Do not use 45-inch Luxe modules.",
+      "finish": "Fully slipcovered low upholstered cube, matching new media sofa",
+      "fabric": "Performance Linen Weave",
+      "color": "Natural",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6371041",
+      "price": null,
+      "currentPriceOrSale": {
+        "amount": null,
+        "kind": "exact_configuration_unquoted",
+        "startingAt": 1265,
+        "note": "Official indexed page shows a starting member-sale amount; not an exact ClassicNatural quote. Do not extend into a total."
+      },
+      "stockStatus": "unverified",
+      "stockEvidence": "Official product page exists; exactClassic 40 Natural variant, quantity 2 and ZIP 20878 stock have not been verified. Do not infer stock from sofa availability.",
+      "checkedAt": "2026-10-11",
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-media-cloud-ottoman40.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod6371041_E2619922_F_RHR?",
+      "photoMatchNote": "Official same-collection ottoman photo captions Petite in White Washed Belgian Flax Linen; use only its cube/low-slipcovered form, not exact size/fabric. Requested Classic 40 Natural remains to verify.",
+      "fitNotes": "Two movable 40-square ottomans aligned with the end modules of 119×40 sofa create nominal 119×80 lounge envelope. The 133-inch seatingwall leaves 7 in each side; no 18-inch end tables beside it. Keep west doors and full TV aisle clear.",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 678,
+        "height": 324,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-dining-nicola",
+      "name": "Nicola Slope Fabric Dining Side Chair — Natural",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 10,
+      "room": "dining",
+      "size": "22 W × 23 D × 32¾ H inches; seat crown 18 inches. Formal dining uses eight everyday chairs plus two stored spares; the office uses two separate guest chairs. The sunroom uses owned Emery chairs, not Nicola. Confirm the combined quantity of 12 and actual chair fit before ordering.",
+      "finish": "Natural Performance Linen Weave; fully upholstered frame and legs. Sand stocked sibling.",
+      "fabric": "Performance Linen Weave",
+      "color": "Natural",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33750094",
+      "price": 349,
+      "currentPriceOrSale": {
+        "amount": 349,
+        "kind": "member_sale",
+        "verifiedAt": "2026-10-09",
+        "note": "Dated price snapshot; recheck exact selected configuration. Tax/delivery/member fee excluded."
+      },
+      "stockStatus": "current_verification_pending",
+      "stockEvidence": "Last verified 2026-10-09: Exact neutral variant appears in RH IN-STOCK modal; full requested quantities must be rechecked before ordering. CURRENT selected stock, ZIP 20878 and total quantity need fresh check; not purchase-ready.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-09",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "10179035 NONA",
+        "stockedSibling": {
+          "color": "Sand",
+          "sku": "10179035 NOSN",
+          "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878."
+        }
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-dining-nicola.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod33750094_E24622750076_TQ_RHR?",
+      "photoMatchNote": "Official catalog collection/form reference; exact size/finish/fabric derives from saved selected SKU, not generic photo alone. Match approved cream/warm-brown finish during rendering.",
+      "fitNotes": "Physical samples, room template and delivery route remain to verify. ",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 529,
+        "height": 678,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-dining-barley104",
+      "name": "Barley Extendable Dining Table — Walnut Brown, 84–104 inches",
+      "brand": "Pottery Barn",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "dining",
+      "size": "84 W × 38 D × 30 H inches closed; 104 W × 38 D × 30 H inches extended with one 20-inch drop-in leaf. Official capacity is 6–10.",
+      "finish": "Walnut Brown; meranti wood, MDF and walnut veneers",
+      "fabric": null,
+      "color": "Walnut Brown",
+      "url": "https://www.potterybarn.com/products/barley-extendable-dining-table/",
+      "price": 2199,
+      "currentPriceOrSale": {
+        "amount": 2199,
+        "kind": "regular",
+        "verifiedAt": "2026-10-11",
+        "note": "Official exact SKU 9380732; delivery and current stocked status are being checked separately."
+      },
+      "stockStatus": "near_term_delivery_quoted_stock_unconfirmed",
+      "stockEvidence": "Root verified the exact SKU 9380732, Walnut Brown, on the official live product page for ZIP 20878 on 2026-10-11: $2,199, quoted arrival October 24–November 7. The stock-status container was blank; this near-term delivery quote is not treated as a confirmed in-stock commitment.",
+      "checkedAt": "2026-10-11",
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-dining-barley104.webp",
+      "sourceImageUrl": "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202636/0702/barley-extendable-dining-table-84-104-l.jpg",
+      "photoMatchNote": "Official current 1000 × 900 product-gallery lifestyle photograph showing the rectangular Walnut Brown top, FOUR barley-twist legs and a matching twisted low stretcher. Do not render a clean slab, oval pedestal or generic modern trestle substitute. Exact selected dimensions, support clearances and physical finish sample govern.",
+      "fitNotes": "Render 104-inch extended with eight Nicola chairs, three per long side and one per end. Keep two spare chairs separately. Ten seats are an occasional layout only after a full-size tape test with the actual chair widths, table supports and passage. In the nominal 183 × 155-inch room, a centered 104 × 38-inch table leaves 39.5 inches at each end and 58.5 inches at each side before chairs, trim and the 72-inch Cabrera console. Those figures do not establish usable circulation.",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "lastStockVerifiedAt": null,
+      "lastStockStatus": null,
+      "lastStockConfiguration": {
+        "sku": "9380732",
+        "finish": "Walnut Brown",
+        "configuration": "84–104-inch extendable"
+      },
+      "imageMetadata": {
+        "width": 1000,
+        "height": 900,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form"
+      }
+    },
+    {
+      "id": "cm-social-living-retreat78",
+      "name": "Retreat 78-inch Apartment Sofa — Multi-Cushion / Serene Ivory",
+      "brand": "Crate & Barrel",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "living",
+      "size": "78 W ×44 D ×28.5 H inches",
+      "finish": "Serene fabric in Ivory",
+      "fabric": "Serene",
+      "color": "Ivory",
+      "url": "https://www.crateandbarrel.com/retreat-78-apartment-sofa/s166056",
+      "price": 2099,
+      "currentPriceOrSale": {
+        "amount": 2099,
+        "kind": "regular",
+        "verifiedAt": "2026-10-11",
+        "note": "Fresh official exact SKU 166056 product page."
+      },
+      "stockStatus": "unverified",
+      "stockEvidence": "Fresh official exact 78-inchSKU 166056 page confirms configuration and$2, 099; no explicit current stock and ZIP 20878 quote exposed.94-inch stock does not transfer to 78-inch.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": null,
+      "lastStockStatus": null,
+      "lastStockConfiguration": {
+        "sku": "166056",
+        "size": "78-inch",
+        "fabric": "Serene",
+        "color": "Ivory"
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-living-retreat78.webp",
+      "sourceImageUrl": "https://cb.scene7.com/is/image/Crate/RetreatAptSofaSOSSS24_3D?%24web_pdp_main_carousel_thumb_med%24=&fmt=png-alpha",
+      "photoMatchNote": "Exact official 78-inchApartmentSofa hero from selected product page; retain multi-cushion silhouette, not full 94-inch body.",
+      "fitNotes": "16 ft×11 ft 4 in concept: shorter 78-inch sofa preserves room for 2 compact 31-inchchairs and future~5-ftbabygrand.44-inch depth remains real; template piano/bench and open dining/stair route.",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 800,
+        "height": 800,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-living-shelter-natural",
+      "name": "1950s Italian Shelter Arm Swivel Chair — current edition",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 2,
+      "room": "living",
+      "size": "31 in W × 32½ in D × 30 in H; seat 18 in H. Allow full swivel clearance.",
+      "finish": "Natural Performance Linen Weave; Sand stocked sibling available",
+      "fabric": "Performance Linen Weave",
+      "color": "Natural",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+      "price": 1245,
+      "currentPriceOrSale": {
+        "amount": 1245,
+        "kind": "member_sale",
+        "verifiedAt": "2026-10-09",
+        "note": "Dated price snapshot; recheck exact selected configuration. Tax/delivery/member fee excluded."
+      },
+      "stockStatus": "current_verification_pending",
+      "stockEvidence": "Last verified 2026-10-09: Exact variant shown in RH IN-STOCK modal. Availability is a dated snapshot, not a reservation. CURRENT selected stock, ZIP 20878 and total quantity need fresh check; not purchase-ready.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-09",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "depth": "Classic 32½ in",
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "61060801 NONA",
+        "stockedSibling": {
+          "color": "Sand",
+          "sku": "61060801 NOSN",
+          "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878."
+        }
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-great-shelter-natural.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod20580100_E414854120_TQ_CC_RHR?",
+      "photoMatchNote": "Official catalog collection/form reference; exact size/finish/fabric derives from saved selected SKU, not generic photo alone. Match approved cream/warm-brown finish during rendering.",
+      "fitNotes": "Physical samples, room template and delivery route remain to verify. ",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 678,
+        "height": 558,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-living-tate48",
+      "name": "Tate Walnut 48-inch Storage Coffee Table",
+      "brand": "Crate & Barrel",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "living",
+      "size": "48 W × 24 D × 17 H inches; exact SKU 259126 verified in the live Dimensions accordion.",
+      "finish": "Warm brown Tate Walnut finish; walnut veneer over poplar/engineered wood",
+      "fabric": null,
+      "color": null,
+      "url": "https://www.crateandbarrel.com/tate-walnut-wood-48-rectangular-storage-coffee-table/s259126",
+      "price": 699.99,
+      "currentPriceOrSale": {
+        "amount": 699.99,
+        "regularPrice": 899,
+        "kind": "clearance",
+        "verifiedAt": "2026-10-11",
+        "note": "Root fresh official exact SKU 259126, Walnut, live configured ZIP 20878 check. Price is for one table; tax/delivery excluded."
+      },
+      "stockStatus": "in_stock_combined_quantity_verified",
+      "stockEvidence": "Root fresh official live exact SKU 259126, Walnut, ZIP 20878 check on 2026-10-11 showed $699.99 clearance, regular $899, In stock. Ready to schedule delivery with quantity TWO after delivery recalculation. This verifies the combined great/living pair as a dated displayed quote, not a reservation.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-11",
+      "lastStockStatus": "in_stock_combined_two",
+      "lastStockConfiguration": {
+        "sku": "259126",
+        "finish": "Walnut",
+        "observedQuantity": 2,
+        "aggregateRequiredQuantity": 2,
+        "aggregateQuantityVerified": true
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-great-tate48.webp",
+      "sourceImageUrl": "https://cb.scene7.com/is/image/Crate/TateCoffeeTableWlntSOSSS23_3D?%24web_pdp_main_carousel_thumb_med%24=",
+      "photoMatchNote": "Official catalog collection/form reference; exact size/finish/fabric derives from saved selected SKU, not generic photo alone. Match approved cream/warm-brown finish during rendering.",
+      "fitNotes": "The 48×24-inch footprint fits the piano-room planning target and is slightly shorter than the original 50–54-inch great-room target. At 17 inches high, confirm comfort with the actual sofa seat height. Tape the table, chair swivel and terrace/piano access before ordering.",
+      "decision": "stock_verified_combined_quantity_candidate_measure_before_order",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 800,
+        "height": 800,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-kitchen-nord",
+      "name": "Nord Ivory Upholstered Brown Wood Counter Stool",
+      "brand": "Crate & Barrel",
+      "ownership": "new",
+      "quantity": 4,
+      "room": "kitchen",
+      "size": "20.13 W ×24.25 D ×39.25 H inches overall; exact SEAT height remains to verify against islandcounter.",
+      "finish": "Saxony fabric Ivory / Brown wood legs",
+      "fabric": "Saxony performance polyester basketweave",
+      "color": "Ivory",
+      "url": "https://www.crateandbarrel.com/nord-ivory-upholstered-brown-wood-counter-stool/s120641",
+      "price": 399,
+      "currentPriceOrSale": {
+        "amount": 399,
+        "kind": "sale",
+        "verifiedAt": "2026-10-11",
+        "note": "Fresh official page Sale$399, regular $499, 20%off. No reward-credit stacking."
+      },
+      "stockStatus": "in_stock_configuration_verified",
+      "stockEvidence": "Fresh official exact SKU 120641 page says In stock. Ready to schedule delivery. for both selected Saxony Ivory and Brownlegs; four units andZIP 20878 quote still need verification.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-11",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {},
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-kitchen-nord.webp",
+      "sourceImageUrl": "https://cb.scene7.com/is/image/Crate/NrdCntrStlDrkLgvry1SOSSS26_3D?%24web_pdp_main_carousel_thumb_med%24=",
+      "photoMatchNote": "Official catalog collection/form reference; exact size/finish/fabric derives from saved selected SKU, not generic photo alone. Match approved cream/warm-brown finish during rendering.",
+      "fitNotes": "Four is provisional: measure counter height, overhang and island seating length, and check footrest/seat height. Do not assume 39.25 is seat height; it is overall height.",
+      "decision": "selected_configuration_quantity_fit_pending",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 800,
+        "height": 800,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-retreat-shelter-natural",
+      "name": "1950s Italian Shelter Arm Swivel Chair — current edition",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 2,
+      "room": "retreat",
+      "size": "31 W × 32.5 D × 30 H in; seat 18 H.",
+      "finish": "Natural Performance Linen Weave; Sand stocked sibling available",
+      "fabric": "Performance Linen Weave",
+      "color": "Natural",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+      "price": 1245,
+      "currentPriceOrSale": {
+        "amount": 1245,
+        "kind": "member_sale",
+        "verifiedAt": "2026-10-09",
+        "note": "Dated price snapshot; recheck exact selected configuration. Tax/delivery/member fee excluded."
+      },
+      "stockStatus": "current_verification_pending",
+      "stockEvidence": "Last verified 2026-10-09: Exact variant shown in RH IN-STOCK modal. Availability is a dated snapshot, not a reservation. CURRENT selected stock, ZIP 20878 and total quantity need fresh check; not purchase-ready.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-09",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "depth": "Classic 32½ in",
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "61060801 NONA",
+        "stockedSibling": {
+          "color": "Sand",
+          "sku": "61060801 NOSN",
+          "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878."
+        }
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-great-shelter-natural.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod20580100_E414854120_TQ_CC_RHR?",
+      "photoMatchNote": "Official catalog collection/form reference; exact size/finish/fabric derives from saved selected SKU, not generic photo alone. Match approved cream/warm-brown finish during rendering.",
+      "fitNotes": "Comfort trial for soft supportive sitting; allow swivel space. Two chairs replace two retreat chaises and are a different seating experience.",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 678,
+        "height": 558,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-retreat-enzo18",
+      "name": "Enzo Square Side Table — 18-inch Caramel Walnut",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "retreat",
+      "size": "18 W × 18 D × 20 H in; 48 lb.",
+      "finish": "Caramel Walnut",
+      "fabric": null,
+      "color": null,
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+      "price": 545,
+      "currentPriceOrSale": {
+        "amount": 545,
+        "kind": "member_sale",
+        "verifiedAt": "2026-10-09",
+        "note": "Dated price snapshot; recheck exact selected configuration. Tax/delivery/member fee excluded."
+      },
+      "stockStatus": "current_verification_pending",
+      "stockEvidence": "Last verified 2026-10-09: Exact SKU in live IN-STOCK modal; current Dimensions show 18-inch square, 20 H, 48 lb. CURRENT selected stock, ZIP 20878 and total quantity need fresh check; not purchase-ready.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-09",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "size": "18-inch square /20 H inches",
+        "finish": "Caramel Walnut",
+        "sku": "10138471 CRWL"
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-great-enzo18.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$",
+      "photoMatchNote": "Official Enzo Square table photograph with square top/frame and low shelf. Caramel Walnut selected 18×18×20 SKU is historical-stock configuration, not a round table.",
+      "fitNotes": "Square replaces round Gael; no drawer. A seating side table, not a storage nightstand.",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 768,
+        "height": 792,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-office-alora84",
+      "name": "Alora Desk — 84-inch Brown Oak",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "office",
+      "size": "84 W × 32 D × 30 H inches. Four inches wider and four inches shallower than the original 80 × 36 planning target; tape out the diagonal position.",
+      "finish": "Brown Oak; match sample to the room's walnut build-out",
+      "fabric": null,
+      "color": null,
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33440091",
+      "price": 3105,
+      "currentPriceOrSale": {
+        "amount": 3105,
+        "kind": "member_sale",
+        "verifiedAt": "2026-10-09",
+        "note": "Dated price snapshot; recheck exact selected configuration. Tax/delivery/member fee excluded."
+      },
+      "stockStatus": "current_verification_pending",
+      "stockEvidence": "Last verified 2026-10-09: Exact size and wood finish in current RH IN-STOCK modal. Brown Oak is an alternative wood species, not walnut. Approve its warm brown sample beside the custom walnut cabinetry. No chrome or stainless accents added. CURRENT selected stock, ZIP 20878 and total quantity need fresh check; not purchase-ready.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-09",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "size": "84 W ×32 D ×30 H inches",
+        "finish": "Brown Oak",
+        "sku": "10193750 BRWN"
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-office-alora84.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod33440092_E24422611796_F_CC_RHR_cl1968002?&$PDP-IS-768$",
+      "photoMatchNote": "Official Alora desk silhouette: rounded outer corners, fine fluted apron and waterfall side panels. Selected 84×32×30 Brown Oak finish/dimensions from saved SKU; product photo alone does not certify exact size.",
+      "fitNotes": "84 W × 32 D × 30 H is the maximum proposed width. Tape out the southeast diagonal position, chair pullback and visitors. Brown oak is a visible species change; compare it to the custom walnut rather than claiming an exact match.",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 768,
+        "height": 347,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-office-nicola",
+      "name": "Nicola Slope Fabric Dining Side Chair — Natural",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 2,
+      "room": "office",
+      "size": "22 W × 23 D × 32.75 H inches; seat crown 18 H",
+      "finish": "Natural Performance Linen Weave; fully upholstered frame and legs",
+      "fabric": "Performance Linen Weave",
+      "color": "Natural",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33750094",
+      "price": 349,
+      "currentPriceOrSale": {
+        "amount": 349,
+        "kind": "member_sale",
+        "verifiedAt": "2026-10-09",
+        "note": "Dated price snapshot; recheck exact selected configuration. Tax/delivery/member fee excluded."
+      },
+      "stockStatus": "current_verification_pending",
+      "stockEvidence": "Last verified 2026-10-09: Exact neutral variant appears in RH IN-STOCK modal; full requested quantities must be rechecked before ordering. Stocked configuration verified for one unit. Combined 18-chair requirement has not been verified; formal dining uses eight daily plus two spares. CURRENT selected stock, ZIP 20878 and total quantity need fresh check; not purchase-ready.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-09",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "10179035 NONA",
+        "stockedSibling": {
+          "color": "Sand",
+          "sku": "10179035 NOSN",
+          "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878."
+        }
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-dining-nicola.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod33750094_E24622750076_TQ_RHR?",
+      "photoMatchNote": "Official catalog collection/form reference; exact size/finish/fabric derives from saved selected SKU, not generic photo alone. Match approved cream/warm-brown finish during rendering.",
+      "fitNotes": "Each 22 W × 23 D × 32.75 H; seat crown 18 H. One Natural SKU was checked in stock; the planned pair and any combined dining/sunroom quantity must be reconfirmed. Keep both clear of desk pullback, glazing and the gallery doors.",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 529,
+        "height": 678,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-office-fern-coal",
+      "name": "Haworth Fern Upholstered Office Chair — Coal",
+      "brand": "Crate & Barrel / Haworth",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "office",
+      "size": "Adjustable height/depth/4 Darms; exactW×D×H and casterbase footprint pending liveDimensions verification. Render compact ergonomic task chair, not oversizedexecutivethrone.",
+      "finish": "Coal seat and black mesh back; polished aluminum 5-starbase is actual product, not a matte-black substitution",
+      "fabric": "100%polyesterseat; 80%polyester/20%postconsumerrecycledpolyestermeshback",
+      "color": "Coal / Black",
+      "url": "https://www.crateandbarrel.com/haworth-fern-upholstered-office-chair/s425920",
+      "price": 1480,
+      "currentPriceOrSale": {
+        "amount": 1480,
+        "kind": "regular",
+        "verifiedAt": "2026-10-11",
+        "note": "Fresh official exactCoalSKU 425920 page. No sale observed."
+      },
+      "stockStatus": "unverified",
+      "stockEvidence": "Current official product page exposes exactCoalconfiguration and$1, 480 but no stock and ZIP 20878 delivery statement. Ergonomic newcandidate, not purchase-ready.",
+      "checkedAt": "2026-10-11",
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-office-fern-coal.webp",
+      "sourceImageUrl": "https://cb.scene7.com/is/image/Crate/HaworthFrnTskChrCoal3QSSS25_VND?%24web_pdp_main_carousel_thumb_med%24=",
+      "photoMatchNote": "Exact official Coalhero from selected product page; actual polishedaluminumbase is a smallfunctionalaccent, not a silver/chrome whole-roomtheme.",
+      "fitNotes": "Worker sitsSEfacingNW. Template 84×32 desk kneeopening, chairbase, armheight and pullback; tryseatbeforebuying.",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 800,
+        "height": 801,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-terrace-rh-mesa108-sofa",
+      "name": "Mesa Teak Sofa — 108-inch configuration",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "terrace",
+      "size": "108 W x 35.5 D x 30 H with cushions",
+      "finish": "Natural Teak with White Classic Performance Textured Weave cushions",
+      "fabric": "Classic Performance Textured Weave",
+      "color": "White",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22320022?inStock=true",
+      "price": 4835,
+      "currentPriceOrSale": {
+        "amount": 4835,
+        "kind": "member_sale",
+        "verifiedAt": "2026-10-09",
+        "note": "Dated price snapshot; recheck exact selected configuration. Tax/delivery/member fee excluded."
+      },
+      "stockStatus": "current_verification_pending",
+      "stockEvidence": "Last verified 2026-10-09: Exact frame-plus-cushion combination in officialRH IN-STOCK modal. Neutral cushions are part of this configuredSKU, not inferred from generic stocked-fabric marketing. CURRENT selected stock, ZIP 20878 and total quantity need fresh check; not purchase-ready.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-09",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "width": "108 inches",
+        "finish": "Natural Teak",
+        "fabric": "Classic Performance Textured Weave",
+        "color": "White",
+        "sku": "10272455 OWWH",
+        "testedQuantity": 1
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-terrace-rh-mesa108-sofa.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_SOFA_pg&layer=3&src=ir(rhir/prod22320022_E416043749_F_CO20_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/1936002_E22419600683_O_White1_repeat&res=160&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c19264&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.5&sizeN=0.9559471366,0.8103896104&&$PDP-IR-768$",
+      "photoMatchNote": "Official catalog collection/form reference; exact size/finish/fabric derives from saved selected SKU, not generic photo alone. Match approved cream/warm-brown finish during rendering.",
+      "fitNotes": "Exact frame plus White cushions is stocked, but 108 inches is 18 inches longer than the original 90-inch target. Tape out the 17 ft 3 × 17 ft 1 lounge area with chairs, fireplace setbacks and door/stair circulation. This is a premium fallback while a cheaper complete sofa is checked. Conditional size recommendation only: approve the 18-inch enlargement by field tape-out before ordering; retain smaller original concept if circulation fails.",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 768,
+        "height": 377,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-terrace-rh-mesa60-coffee",
+      "name": "Mesa Teak Rectangular Coffee Table — 60-inch Natural Teak",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "terrace",
+      "size": "60 W × 28.5 D × 12 H inches",
+      "finish": "Natural Teak",
+      "fabric": null,
+      "color": null,
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod16940016",
+      "price": 2625,
+      "currentPriceOrSale": {
+        "amount": 2625,
+        "kind": "member_sale",
+        "verifiedAt": "2026-10-09",
+        "note": "Dated price snapshot; recheck exact selected configuration. Tax/delivery/member fee excluded."
+      },
+      "stockStatus": "current_verification_pending",
+      "stockEvidence": "Last verified 2026-10-09: Live IN-STOCK & READY TO SHIP modal. Current Dimensions: 60 W × 28.5 D × 12 H inches. Exact stock applies to the 60-inch Natural Teak table; the planned 48-inch Natural Teak unit was not listed. 48-inch Weathered Teak SKU 10084663 WGTK was stocked at $2, 139/$3, 570, but changes the finish. CURRENT selected stock, ZIP 20878 and total quantity need fresh check; not purchase-ready.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-09",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "width": "60 inches",
+        "finish": "Natural Teak",
+        "sku": "10008923 TEAK"
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-terrace-rh-mesa60-coffee.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=prod22320029_E916044151_F_RHR_cl251482&anchorN=0,0.45&sizeN=0.95,0.45&&$PDP-IS-768$",
+      "photoMatchNote": "Official catalog collection/form reference; exact size/finish/fabric derives from saved selected SKU, not generic photo alone. Match approved cream/warm-brown finish during rendering.",
+      "fitNotes": "The 60-inch table is 12 inches longer than the original 48-inch target and is lower at 12 H. Tape out sofa, two chairs, door and stair paths; this is a conditional enlargement, not automatic purchase approval.",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 768,
+        "height": 377,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-terrace-rh-mesa72-dining",
+      "name": "Mesa Teak Rectangular Dining Table — original 72-inch Natural Teak",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "terrace",
+      "size": "72 L × 40 W × 30 H inches; 28.25-inch clearance under top; 47.25 inches between the side legs.",
+      "finish": "Natural Teak",
+      "fabric": null,
+      "color": null,
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod16940017",
+      "price": 4159,
+      "currentPriceOrSale": {
+        "amount": 4159,
+        "kind": "member_sale",
+        "verifiedAt": "2026-10-09",
+        "note": "Dated price snapshot; recheck exact selected configuration. Tax/delivery/member fee excluded."
+      },
+      "stockStatus": "current_verification_pending",
+      "stockEvidence": "Last verified 2026-10-09: Exact configuration in live IN-STOCK & READY TO SHIP modal; current Dimensions:72 L × 40 W × 30 H inches. Space between legs 47.25 inches. This matches the planned table length. Confirm two chairs per long side fit between the bases and that door and grill routes remain clear. CURRENT selected stock, ZIP 20878 and total quantity need fresh check; not purchase-ready.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-09",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "width": "72 inches",
+        "finish": "Natural Teak",
+        "sku": "10035595 TEAK"
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-terrace-rh-mesa72-dining.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=prod22320036_E416044592_MAIN_RS_RHR_cl251482&anchorN=0,0.45&sizeN=0.95,0.65&&$PDP-IS-768$",
+      "photoMatchNote": "Official catalog collection/form reference; exact size/finish/fabric derives from saved selected SKU, not generic photo alone. Match approved cream/warm-brown finish during rendering.",
+      "fitNotes": "72 L × 40 W × 30 H in the 12 ft 4 × 12 ft 8 dining zone. Check chair pullback and doors.47.25-inch side opening accommodates two 20-inch Balmain side chairs before spacing. Premium stocked fallback; compare lower-cost complete dining sets before purchase.",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 768,
+        "height": 377,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-terrace-rh-balmain-dining6",
+      "name": "Balmain Teak Dining Side Chair — Dove, six checked",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 6,
+      "room": "terrace",
+      "size": "20 W × 23 D × 32 H inches with cushion; seat height 19.5 inches. Two side chairs occupy 40 inches of the table's 47.25-inch side opening before spacing.",
+      "finish": "Natural Teak /Dove Perennials Performance Textured Linen Weave",
+      "fabric": "Perennials Performance Textured Linen Weave",
+      "color": "Dove",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod30120035",
+      "price": 839,
+      "currentPriceOrSale": {
+        "amount": 839,
+        "kind": "member_sale",
+        "verifiedAt": "2026-10-09",
+        "note": "Dated price snapshot; recheck exact selected configuration. Tax/delivery/member fee excluded."
+      },
+      "stockStatus": "current_verification_pending",
+      "stockEvidence": "Last verified 2026-10-09: Exact configuration in live IN-STOCK modal; quantity set to 6 without cart submission, delivery quote returned unchanged. Current Dimensions 20 W × 23 D × 32 H with cushion. Six units were accepted by the stock configurator with the stated delivery window. This is a snapshot, not a reservation. Teak hue and Dove fabric require samples; verify seat height beside Mesa's table. CURRENT selected stock, ZIP 20878 and total quantity need fresh check; not purchase-ready.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-09",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "finish": "Natural Teak",
+        "fabric": "Perennials Performance Textured Linen Weave",
+        "color": "Dove",
+        "sku": "10271971 BXDV",
+        "quantityChecked": 6
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-terrace-rh-balmain-dining6.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=ir(rhir/prod30120035_E23120622656_TQ_CO23_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerennialsTexturedLinenWeave_Dove_repeat&res=236&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c9966a&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.45&sizeN=0.7,0.8&&$PDP-IR-768$",
+      "photoMatchNote": "Official catalog collection/form reference; exact size/finish/fabric derives from saved selected SKU, not generic photo alone. Match approved cream/warm-brown finish during rendering.",
+      "fitNotes": "Exact six-unit preview was accepted at the stated delivery window. Each 20 W × 23 D × 32 H with 19.5-inch seat. Unit member sale$839 gives$5, 034 for six before fees. This is a premium stocked fallback, not a budget dining set; compare Natural Teak/Dove to the table sample.",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 768,
+        "height": 377,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    },
+    {
+      "id": "cm-social-terrace-rh-balmain-lounge",
+      "name": "Balmain Teak Lounge Chair — Natural upholstery",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 2,
+      "room": "terrace",
+      "size": "31.5-inch square × 29 H with cushion. Seat height 15.5 inches; 37 lb.",
+      "finish": "Natural Teak /Natural Perennials Performance Textured Linen Weave",
+      "fabric": "Perennials Performance Textured Linen Weave",
+      "color": "Natural",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod14020067",
+      "price": 2085,
+      "currentPriceOrSale": {
+        "amount": 2085,
+        "kind": "member_sale",
+        "verifiedAt": "2026-10-09",
+        "note": "Dated price snapshot; recheck exact selected configuration. Tax/delivery/member fee excluded."
+      },
+      "stockStatus": "current_verification_pending",
+      "stockEvidence": "Last verified 2026-10-09: Exact frame, fabric and color in live IN-STOCK modal; Dimensions 31.5-inch square × 29 H with cushion; 37 lb. Pair quantity not checked. Teak hue can vary between Balmain and Mesa; compare physical samples before mixing collections. CURRENT selected stock, ZIP 20878 and total quantity need fresh check; not purchase-ready.",
+      "checkedAt": "2026-10-11",
+      "lastStockVerifiedAt": "2026-10-09",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "finish": "Natural Teak",
+        "fabric": "Perennials Performance Textured Linen Weave",
+        "color": "Natural",
+        "sku": "10272888 BXNT"
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-terrace-rh-balmain-lounge.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_LOUNGE_CHAIR_pg&layer=3&src=ir(rhir/prod14020067_E410381676_TQ_OD18_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerennialsTexturedLinenWeave_Natural_204_repeat&res=220&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c9966a&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.45&sizeN=0.69,0.75&&$PDP-IR-768$",
+      "photoMatchNote": "Official catalog collection/form reference; exact size/finish/fabric derives from saved selected SKU, not generic photo alone. Match approved cream/warm-brown finish during rendering.",
+      "fitNotes": "31.5-inch square × 29 H with cushion. Pair quantity has not been checked. At$2, 085 each member sale, these are optional later additions, not initial move-in necessities. Compare teak hue against the selected sofa.",
+      "decision": "design_candidate_pending_current_stock",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 768,
+        "height": 377,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    }
+  ],
+  "roomNotes": {
+    "great": {
+      "visualSpec": "Edit the latest approved GR1/GR2 room, changing loose furniture only. Place ONE new Crate & Barrel Retreat 94 Multi-Cushion sofa in Serene Ivory in the existing sofa footprint, TWO new RH Italian Shelter Arm swivel chairs in Natural Performance Linen Weave in the existing opposing chair positions, ONE new Tate 48×24×17 walnut storage coffee table with tapered legs/struts and single drawer, and TWO new Enzo Square 18×18×20 Caramel Walnut side tables only if the measured circulation permits. No Cloud sofa here. Preserve two high transoms, the TV ABOVE the linear fireplace, terrace glazing/transom, flat crown ceiling, sibling artworks and fitted cabinets. Use real product photos for silhouette; cream/taupe mineral walls, neutral oak and warm walnut remain primary. Owned pieces assigned by root are fixed and never duplicated.",
+      "renderRecipe": "Edit the latest approved GR1/GR2 room, changing loose furniture only. Place ONE new Crate & Barrel Retreat 94 Multi-Cushion sofa in Serene Ivory in the existing sofa footprint, TWO new RH Italian Shelter Arm swivel chairs in Natural Performance Linen Weave in the existing opposing chair positions, ONE new Tate 48×24×17 walnut storage coffee table with tapered legs/struts and single drawer, and TWO new Enzo Square 18×18×20 Caramel Walnut side tables only if the measured circulation permits. No Cloud sofa here. Preserve two high transoms, the TV ABOVE the linear fireplace, terrace glazing/transom, flat crown ceiling, sibling artworks and fitted cabinets. Use real product photos for silhouette; cream/taupe mineral walls, neutral oak and warm walnut remain primary. Owned pieces assigned by root are fixed and never duplicated.",
+      "fitLimitations": [
+        "94×44-inch sofa and 31×32.5-inch swivel chairs require a taped layout in 15 ft 1×17 ft before ordering. End tables may be omitted if they crowd terrace/rotation.",
+        "New end tables are SQUARE 18×18×20, matching their actual official photo and selected SKU; no round-table wording."
+      ],
+      "architectureBasis": {
+        "file": "assets/render-candidates/collected-mineral/r04/baseline-floors.json",
+        "revision": "MW-A 02",
+        "intent": "Related but distinct artworks balance the two walnut consoles beneath the original high windows.",
+        "views": [
+          {
+            "code": "GR1",
+            "file": "assets/render-candidates/mineral-walnut-architecture/r01/great-gr1-day.png",
+            "jobId": "ab8924ca-bb0c-491a-89b0-18d2cf558af2",
+            "evidence": "Two high transoms and terrace glazing retained; sibling art, seating and reachable drink table coordinated.",
+            "evidenceType": "Photo-based architectural revision"
+          },
+          {
+            "code": "GR2",
+            "file": "assets/render-candidates/mineral-walnut-architecture/r01/great-gr2-day.png",
+            "jobId": "2979fbfa-80c5-43de-aead-0b3099ac559a",
+            "evidence": "Companion great-room camera retains transoms, terrace glazing, sibling artworks and furnishing layout.",
+            "evidenceType": "Derived angle · plan and photo interpretation"
+          }
+        ],
+        "windowTreatment": {
+          "id": "great",
+          "system": "privacy",
+          "recommendation": "Ivory sheers + hidden privacy shades; no mandatory blackout",
+          "coverage": "Terrace-facing glazing. Leave the two high horizontal transoms beside the fireplace bare unless glare or a neighboring sightline requires treatment.",
+          "why": "This is a social room with a TV, so flexible glare control and evening privacy matter more than cinema-level darkness. The airy main-floor appearance stays intact.",
+          "day": "Sheers diffuse sun; adjust the privacy shade where glare reaches the TV.",
+          "night": "Close privacy shades when the room is visible from outside.",
+          "installation": "Coordinate a traversing solution at operable terrace glass; stacks must clear handles and passage. Quote a blackout-fabric upgrade separately only if daytime TV testing shows it is wanted. High-transom treatment is not assumed in the base allowance.",
+          "goods": [
+            850,
+            1500
+          ],
+          "installationCost": [
+            200,
+            350
+          ],
+          "title": "Great room",
+          "floor": "second-floor",
+          "version": "MW-W 01"
+        }
+      }
+    },
+    "media": {
+      "visualSpec": "Edit current R05 M1/M2, preserving the smaller CENTERED TWO-unit 2×2 real window and SOLID sofa wall; the facade false-window feature has NO interior opening. Place ONE NEW RH Cloud Classic 119×40 straight three-piece sofa in Natural performance linen, plus TWO NEW matching Classic 40-square movable ottomans at its two front ends; these are new purchases, not the owned 134-inch Luxe sofa or its ONE 45-inch ottoman assigned to penthouse. No freestanding 18-inch end tables beside the 119-inch sofa on the 133-inch seating wall. Keep the 83-inch TV on a calm mushroom-plaster/quiet stone centre with restrained warm halo, compatible soundbar/surround and NEW fitted 96–102-inch walnut console wider than the screen. Clear west-wall doors remain toward TV-wall end; lit figurine display stays in the approved space to their right viewed from inside. Services on room side, not recessed into the office-shared wall. Preserve ceiling geometry and functional blackout/sheers; removable door covers only in movie mode.",
+      "renderRecipe": "Edit current R05 M1/M2, preserving the smaller CENTERED TWO-unit 2×2 real window and SOLID sofa wall; the facade false-window feature has NO interior opening. Place ONE NEW RH Cloud Classic 119×40 straight three-piece sofa in Natural performance linen, plus TWO NEW matching Classic 40-square movable ottomans at its two front ends; these are new purchases, not the owned 134-inch Luxe sofa or its ONE 45-inch ottoman assigned to penthouse. No freestanding 18-inch end tables beside the 119-inch sofa on the 133-inch seating wall. Keep the 83-inch TV on a calm mushroom-plaster/quiet stone centre with restrained warm halo, compatible soundbar/surround and NEW fitted 96–102-inch walnut console wider than the screen. Clear west-wall doors remain toward TV-wall end; lit figurine display stays in the approved space to their right viewed from inside. Services on room side, not recessed into the office-shared wall. Preserve ceiling geometry and functional blackout/sheers; removable door covers only in movie mode.",
+      "fitLimitations": [
+        "119-inch sofa on nominal 133-inch seating wall leaves 7 inches at each side; no 18-inch side tables outside its envelope.",
+        "Two movable 40-square ottomans create nominal 119×80-inch lounge envelope; actual door swings and TV aisle still need a template.",
+        "96–102-inch fitted console is a construction proposal, not a stock retail item. Do not recess services into shared office wall."
+      ],
+      "architectureBasis": {
+        "file": "assets/render-candidates/collected-mineral/r04/baseline-floors.json",
+        "revision": "MW-F 1-R05",
+        "intent": "The smaller real paired 2×2 window is centered; the exterior fake window has no interior opening. Ivory RH Cloud-style seating has an ottoman at both ends, compact side tables and a middle table. An 83-inch TV and soundbar sit above a fitted walnut console wider than the screen, with a calm mineral centre and neutral acoustic sides.",
+        "views": [
+          {
+            "code": "M1",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m1-day-a8.png",
+            "jobId": "0020dd3f-2a17-4b6f-94ea-008715a559c3",
+            "evidence": "Photo-based media camera with homeowner-corrected smaller square centered paired window and solid sofa wall. Both ottomans, 83-inch-scale TV, wide fitted console and quiet TV backdrop checked.",
+            "evidenceType": "Photo-based architectural revision"
+          },
+          {
+            "code": "M2",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-day-a2.png",
+            "jobId": "db6322d0-bf8b-41e4-8cca-9a1eb3d755a0",
+            "evidence": "Derived reverse media camera checked against plan: TV left, sofa right, clear gallery doors near TV-wall end and display right of doors. Fake exterior window not visible inside; same furnishings as M1.",
+            "evidenceType": "Derived angle · plan and photo interpretation"
+          }
+        ],
+        "windowTreatment": {
+          "id": "media",
+          "system": "blackout",
+          "recommendation": "Ivory sheers + blackout-lined curtains; removable clear-door covers for movie mode",
+          "coverage": "One REAL centered paired 2×2 street-facing window, plus a separate removable opaque cover for each clear interior door leaf. The sofa wall is SOLID: its smaller exterior window feature is fake, as confirmed by the homeowner, and has no inside opening.",
+          "why": "Daylight and gallery light both reduce contrast on the 83-inch TV. Privacy alone is insufficient for the requested theater atmosphere.",
+          "day": "Sheers for casual use; close blackout panels for daytime films.",
+          "night": "Close blackout panels and fit the room-side door covers for movies; dim lights near the screen.",
+          "installation": "Resolve curtain overlap, returns and head gap. Use removable room-side covers with a finish-compatible attachment and storage location; each door must remain operable with handles clear. Keep figurine shelves and the west-wall doorway unobstructed. Allowance includes these covers; do not frost the doors permanently.",
+          "goods": [
+            850,
+            1500
+          ],
+          "installationCost": [
+            250,
+            450
+          ],
+          "title": "Media room",
+          "floor": "first-floor"
+        }
+      }
+    },
+    "dining": {
+      "visualSpec": "Edit the latest R07 dining views with the original openings and fully open direct living-room connection intact. Show one NEW Pottery Barn Barley Walnut Brown table at 104 × 38 inches extended, with eight NEW RH Nicola Natural Performance Linen Weave chairs: three per long side and one at each end. Keep two spare chairs in the purchase schedule, stored elsewhere; ten-person seating is conditional on the actual leg spacing and a tape test. Follow the official Barley photograph and four barley-twist legs and a matching twisted low stretcher; do not use Monroe or invent an oval pedestal table. Preserve the OWNED 72-inch Charcoal Waxed Concrete Cabrera console, 42-inch round mirror, decorative vessels and 48-inch Spiridon chandelier. Table axis stays north–south, the south-end butler passage remains clear, and the living-room connection is fully open without a new pier, partition, header or threshold. Preserve the two east rectangular windows and transoms, small high arched east opening and two south arched openings. Warm mineral ivory walls, neutral oak and quiet walnut retain the accepted Option 1 finishes.",
+      "renderRecipe": "Edit the latest R07 dining views with the original openings and fully open direct living-room connection intact. Show one NEW Pottery Barn Barley Walnut Brown table at 104 × 38 inches extended, with eight NEW RH Nicola Natural Performance Linen Weave chairs: three per long side and one at each end. Keep two spare chairs in the purchase schedule, stored elsewhere; ten-person seating is conditional on the actual leg spacing and a tape test. Follow the official Barley photograph and four barley-twist legs and a matching twisted low stretcher; do not use Monroe or invent an oval pedestal table. Preserve the OWNED 72-inch Charcoal Waxed Concrete Cabrera console, 42-inch round mirror, decorative vessels and 48-inch Spiridon chandelier. Table axis stays north–south, the south-end butler passage remains clear, and the living-room connection is fully open without a new pier, partition, header or threshold. Preserve the two east rectangular windows and transoms, small high arched east opening and two south arched openings. Warm mineral ivory walls, neutral oak and quiet walnut retain the accepted Option 1 finishes.",
+      "fitLimitations": [
+        "Render 104-inch extended with eight Nicola chairs, three per long side and one per end. Keep two spare chairs separately. Ten seats are an occasional layout only after a full-size tape test with the actual chair widths, table supports and passage. In the nominal 183 × 155-inch room, a centered 104 × 38-inch table leaves 39.5 inches at each end and 58.5 inches at each side before chairs, trim and the 72-inch Cabrera console. Those figures do not establish usable circulation.",
+        "The fixed Cabrera console and door route further reduce available chair pullback on their sides. Verify actual room dimensions and chandelier centering before purchase.",
+        "Monroe was rejected after its official six/eight-seat capacity was verified; it is retained only as research history."
+      ],
+      "architectureBasis": {
+        "file": "assets/render-candidates/collected-mineral/r04/baseline-floors.json",
+        "revision": "MW-PLAN-R07",
+        "intent": "A neutral Mineral & Walnut dining room directly open to the living/piano salon. Follow the builder furniture plan: walnut rectangular table along north–south with EIGHT dining places (three per long side and one at each end), plus TWO separate curved ivory occasional chairs in the east window-side corners. Retain the west sideboard/art and real south-end butler passage, two south arches, two east rectangles/transoms and the single high small east arch with shallow walnut shelf. No dividing portal or header.",
+        "views": [
+          {
+            "code": "D 1",
+            "file": "assets/render-candidates/mineral-walnut-plan/r07/dining-d1-day.png",
+            "jobId": "0eb43588-a98d-4195-9820-fdb6d859d824",
+            "evidence": "Visually reviewed against original photo and fresh builder plan; targeted repair matches source geometry and preserves approved Mineral & Walnut finishes.",
+            "evidenceType": "Photo-based architectural revision"
+          },
+          {
+            "code": "D 2",
+            "file": "assets/render-candidates/mineral-walnut-plan/r07/dining-d2-day-a2.png",
+            "jobId": "35d3b468-fad4-41a9-abd8-6d0ff9ef1d67",
+            "evidence": "Visually checked against fresh printed plan, selected D 1/LR1 furniture and same-camera day/night; actual dimensions and installations require site verification.",
+            "evidenceType": "Plan-led opposing camera with original dining photo evidence"
+          }
+        ],
+        "windowTreatment": {
+          "id": "dining",
+          "system": "privacy",
+          "recommendation": "Ivory sheers + discreet privacy shades at tall windows",
+          "coverage": "Four tall dining openings: two rectangular windows with shallow transoms on the east facade and two arched windows on the south facade. The smaller high-sill arch near the open living junction stays bare unless a sightline check requires coverage. Preserve the real butler-pantry passage; the oblique photo feature is not a proven closed niche.",
+          "why": "Dinner after dark requires privacy while daytime entertaining benefits from light. Heavy blackout is unnecessary and should not obscure the arched architecture when open.",
+          "day": "Sheers filter daylight; privacy layers fully raised and curtain stacks off glass.",
+          "night": "Lower the privacy layer at all tall openings.",
+          "installation": "Survey each opening individually. Mount the privacy layer to cover the whole tall opening, including an arch when closed, while clearing its shape when raised. Verify space above arches; price any required specialty arch treatment separately instead of assuming a standard roller fits.",
+          "goods": [
+            900,
+            1600
+          ],
+          "installationCost": [
+            250,
+            450
+          ],
+          "title": "Formal dining",
+          "floor": "second-floor"
+        }
+      }
+    },
+    "living": {
+      "visualSpec": "Edit latest R07 LR1/LR2: a 16 ft×11 ft 4 in piano salon directly OPEN to the south dining zone, two real tall EAST windows and SOLID north false-window wall. Replace the old two-sofa L arrangement with ONE NEW compact Retreat 78×44×28.5 Serene Ivory sofa along the east-window side facing west, TWO NEW 31-inch Natural Shelter Arm swivel chairs in the southern seating zone directed into the conversation, and ONE NEW Tate 48×24 walnut storage coffee table. Keep the OWNED 14-inch Polished Nickel Martini side table as a single subtle metal accent. Future approximately 5-foot baby grand stays diagonally in the NORTHWEST stair-side corner, curved tail northwest and keyboard/bench southeast; do not relocate it to a mirrored east corner. LR1 looking east keeps piano/north left and open dining/south right; LR2 reverses those camera relationships. Keep chairs and sofa inside the real group, not as a full barrier across the direct dining connection. Adjoining dining glimpse uses exactly the new chosen table/Nicola and owned Cabrera/Spiridon scheme.",
+      "renderRecipe": "Edit latest R07 LR1/LR2: a 16 ft×11 ft 4 in piano salon directly OPEN to the south dining zone, two real tall EAST windows and SOLID north false-window wall. Replace the old two-sofa L arrangement with ONE NEW compact Retreat 78×44×28.5 Serene Ivory sofa along the east-window side facing west, TWO NEW 31-inch Natural Shelter Arm swivel chairs in the southern seating zone directed into the conversation, and ONE NEW Tate 48×24 walnut storage coffee table. Keep the OWNED 14-inch Polished Nickel Martini side table as a single subtle metal accent. Future approximately 5-foot baby grand stays diagonally in the NORTHWEST stair-side corner, curved tail northwest and keyboard/bench southeast; do not relocate it to a mirrored east corner. LR1 looking east keeps piano/north left and open dining/south right; LR2 reverses those camera relationships. Keep chairs and sofa inside the real group, not as a full barrier across the direct dining connection. Adjoining dining glimpse uses exactly the new chosen table/Nicola and owned Cabrera/Spiridon scheme.",
+      "fitLimitations": [
+        "16 ft×11 ft 4 in plan-derived room; new 78×44 sofa plus TWO 31-inch swivel chairs/piano/bench need physical template. No expansion or mirrored geometry.",
+        "Keep an obvious hall-to-dining route; two new chairs do not replace or create a wall across the southern dining boundary."
+      ],
+      "architectureBasis": {
+        "file": "assets/render-candidates/collected-mineral/r04/baseline-floors.json",
+        "revision": "MW-PLAN-R07",
+        "intent": "A plan-derived Mineral & Walnut piano salon directly open to dining. TWO separate ivory sofas form an L: long three-seat sofa at the east windows facing west, shorter two-seat sofa on the southern dining boundary facing north with its back toward dining. Rectangular walnut coffee table, two end tables and oatmeal rug accompany a diagonal compact grand in the northwest stair-side corner, curved tail northwest and keyboard/bench southeast. Retain two real east windows and a solid north interior behind the exterior false window. No invented stair doorway or dining partition.",
+        "views": [
+          {
+            "code": "LR1",
+            "file": "assets/render-candidates/mineral-walnut-plan/r07/living-lr1-day-a6.png",
+            "jobId": "3a55de2b-6016-4cb2-90e3-585e18b7e881",
+            "evidence": "Visually checked against fresh printed plan, selected D 1/LR1 furniture and same-camera day/night; actual dimensions and installations require site verification.",
+            "evidenceType": "Plan-led derived living camera with adjacent model-home photo evidence"
+          },
+          {
+            "code": "LR2",
+            "file": "assets/render-candidates/mineral-walnut-plan/r07/living-lr2-day-a2.png",
+            "jobId": "6f4ede0f-51f4-4254-b1ad-36e287781ecc",
+            "evidence": "Visually checked against fresh printed plan, selected D 1/LR1 furniture and same-camera day/night; actual dimensions and installations require site verification.",
+            "evidenceType": "Plan-led derived living camera with adjacent model-home photo evidence"
+          }
+        ],
+        "windowTreatment": {
+          "id": "living",
+          "system": "privacy",
+          "recommendation": "Clear ivory sheers + hidden privacy/glare shades",
+          "coverage": "TWO real tall living windows along EAST facade (printed-plan BOTTOM). NORTH facade decorative False Window stays solid inside. Keep the south dining seam and west hall connection open.",
+          "why": "Maintain the bright piano salon and soft Cloud-style seating, with privacy after dark. An adjustable layer also helps reduce direct sun at the piano; sheers alone are not a complete sun-protection strategy.",
+          "day": "Sheers drawn lightly; shade only where direct sun or glare calls for it.",
+          "night": "Lower privacy shades on the front windows.",
+          "installation": "Coordinate stack-back with piano lid, seating and circulation; confirm piano placement and environmental guidance with the chosen manufacturer. No blackout requirement.",
+          "goods": [
+            600,
+            1100
+          ],
+          "installationCost": [
+            150,
+            300
+          ],
+          "title": "Living room · piano salon",
+          "floor": "second-floor"
+        }
+      }
+    },
+    "kitchen": {
+      "visualSpec": "Edit approved R06 K1/K2 with unchanged L-run, island sink, counter window, cooktop/hood, refrigerator, real arch connections and RIGHT microwave/wall-oven column. Substitute exactly FOUR NEW Nord counter stools in Saxony Ivory with Brown Wood legs, preserving their true 20.13×24.25×39.25 OVERALL size and proper counter seat clearance. Owned Rome pair is reserved for penthouse, not kitchen. Preserve approved creamy C1 quartzite-look island/back wall and two shallow dark-bronze dome pendants. Any visible adjacent sunroom MUST show the fixed OWNED Maslow 72 Espresso Walnut/Polished Aluminum spider-base table, FOUR White Emery Side chairs plus TWO White Emery Track Arm dining chairs at the ends, all polished stainless steel frames. No Parsons or Nicola sunroom substitution.",
+      "renderRecipe": "Edit approved R06 K1/K2 with unchanged L-run, island sink, counter window, cooktop/hood, refrigerator, real arch connections and RIGHT microwave/wall-oven column. Substitute exactly FOUR NEW Nord counter stools in Saxony Ivory with Brown Wood legs, preserving their true 20.13×24.25×39.25 OVERALL size and proper counter seat clearance. Owned Rome pair is reserved for penthouse, not kitchen. Preserve approved creamy C1 quartzite-look island/back wall and two shallow dark-bronze dome pendants. Any visible adjacent sunroom MUST show the fixed OWNED Maslow 72 Espresso Walnut/Polished Aluminum spider-base table, FOUR White Emery Side chairs plus TWO White Emery Track Arm dining chairs at the ends, all polished stainless steel frames. No Parsons or Nicola sunroom substitution.",
+      "fitLimitations": [
+        "39.25 inches is overall stool height, not seat height. Verify actual seat-to-counter gap and four-seat island length.",
+        "Exact Ivory/Brown variant stock verified today; quantity four and ZIP 20878 delivery need verification.",
+        "Visible sunroom is the owned Maslow/Emery set, not a new dining purchase."
+      ],
+      "architectureBasis": {
+        "file": "assets/render-candidates/collected-mineral/r04/baseline-floors.json",
+        "revision": "MW-F 2-R06",
+        "intent": "Original kitchen cameras retain the real L-shaped cabinet runs, island, counter window, arched connections and right-hand oven column. Cabinetry, stone and lighting follow the approved Mineral & Walnut direction.",
+        "views": [
+          {
+            "code": "K1",
+            "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k1-day.png",
+            "jobId": "00ca777c-0764-4626-9b08-9b39695b5dc6",
+            "evidence": "Original K1 geometry/C1 surfaces retained; distant six-globe single-stem fixture and upholstered chairs now match S1/S2.",
+            "evidenceType": "Photo-based architectural revision"
+          },
+          {
+            "code": "K2",
+            "file": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k2-day-a3.png",
+            "jobId": "d83acc0f-ccd6-4200-8527-38f5480a7132",
+            "evidence": "Original reverse camera and single left arch with powder door/guard restored; C1 selected materials retained and stainless faucet matches K1.",
+            "evidenceType": "Photo-based architectural revision"
+          }
+        ],
+        "windowTreatment": {
+          "id": "kitchen",
+          "system": "practical",
+          "recommendation": "Wipeable privacy roller at the counter window",
+          "coverage": "Kitchen counter window only. Adjacent sunroom window banks are counted in the sunroom.",
+          "why": "The kitchen needs daylight and evening privacy, with a finish that tolerates cooking and cleaning. Full-length drapes are impractical at a counter or splash area.",
+          "day": "Raise or partly lower for working light and glare control.",
+          "night": "Lower the non-see-through privacy shade.",
+          "installation": "Select washable material and a compact cordless mechanism; survey faucet, backsplash, handles and appliance clearances. No blackout required.",
+          "goods": [
+            200,
+            400
+          ],
+          "installationCost": [
+            75,
+            125
+          ],
+          "title": "Kitchen",
+          "floor": "second-floor",
+          "version": "MW-W 01"
+        }
+      }
+    },
+    "retreat": {
+      "visualSpec": "Use latest OR2 as the main seating/window reference and OR1 for wet-bar/bedroom continuity. Preserve THREE full WEST sash units and TWO SOUTH sash units, existing wet-bar alcove/sink/beverage fridge and the OPEN owners-bedroom connection. Do not add a French door, new partition or optional north terrace glazing. Replace the two old chaises with TWO NEW compact 31×32.5×30 Natural Shelter Arm swivel chairs and ONE NEW 18×18×20 Caramel Walnut Enzo Square side table between them. Owned Clio remains assigned to closet vanity bay, not this seating room. Neutral loose rug, cream-mineral walls and warm walnut bar remain. Sheers plus fully closing blackout layers across every real retreat opening work as one darkening zone with the owners bedroom.",
+      "renderRecipe": "Use latest OR2 as the main seating/window reference and OR1 for wet-bar/bedroom continuity. Preserve THREE full WEST sash units and TWO SOUTH sash units, existing wet-bar alcove/sink/beverage fridge and the OPEN owners-bedroom connection. Do not add a French door, new partition or optional north terrace glazing. Replace the two old chaises with TWO NEW compact 31×32.5×30 Natural Shelter Arm swivel chairs and ONE NEW 18×18×20 Caramel Walnut Enzo Square side table between them. Owned Clio remains assigned to closet vanity bay, not this seating room. Neutral loose rug, cream-mineral walls and warm walnut bar remain. Sheers plus fully closing blackout layers across every real retreat opening work as one darkening zone with the owners bedroom.",
+      "fitLimitations": [
+        "Compact 12 ft 3×10 ft nook; 31-inch swivel chairs/table require bar and open-bedroom circulation clearance.",
+        "Full west bank has THREE sash units, south pair TWO. Do not erase the third unit through cropping or add a French door."
+      ],
+      "architectureBasis": {
+        "file": "assets/render-candidates/collected-mineral/r04/baseline-floors.json",
+        "revision": "MW-PLAN-R07",
+        "intent": "A neutral two-chaise coffee retreat open to the owners bedroom, retaining the real wet-bar alcove, sink and beverage refrigerator. The full actual west facade has THREE sash units and the south side has the photographed paired windows. Complete bedroom/retreat blackout works as one open sleep-darkening zone; source-photo cropping must not erase the third west unit. Keep the same joinery and furniture in day/night views.",
+        "views": [
+          {
+            "code": "OR1",
+            "file": "assets/render-candidates/mineral-walnut-architecture/r02/retreat-or1-day-31513.png",
+            "jobId": "ca32fda2-ad08-4924-b9ea-7aacc24b5098",
+            "evidence": "Retreat bar camera now shows coordinated platform-bed suite, walnut headwall/ink art, oak/loose rug and floating bedside treatment.",
+            "evidenceType": "Photo-based architectural revision"
+          },
+          {
+            "code": "OR2",
+            "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-day-a3.png",
+            "jobId": "8e051d22-a206-4555-a1d2-06c22e6b22cf",
+            "evidence": "Window-count/camera guide succeeds: THREE visible sash units on west/right facade, TWO south/ahead; source bar/return, two ivory chaise/round table, real head/sill and compact nook remain. No optional door or invented partition. Blackout layers stacked in day.",
+            "evidenceType": "Photo-based architectural revision"
+          }
+        ],
+        "windowTreatment": {
+          "id": "retreat",
+          "system": "blackout",
+          "recommendation": "Match owners bedroom: ivory sheers + fully closing blackout layers",
+          "coverage": "THREE real west sash units and TWO photographed south side units. Any north optional terrace-door glazing remains conditional on actual-house confirmation; no door is added to the open bedroom connection.",
+          "why": "Retreat exterior light enters the open owners bedroom, so every real opening belongs to one sleep-darkening zone.",
+          "day": "Sheers soften light for reading and coffee; blackout layers stack clear.",
+          "night": "Fully close all real retreat window blackout layers together with the four-unit owners-bedroom bank.",
+          "installation": "Measure the full west bank including the third unit cropped in model photos. Keep fabric clear of bar, appliances and actual door operations. Optional door/exterior-spiral features are not new confirmed window counts or new allowance items.",
+          "goods": [
+            1200,
+            2000
+          ],
+          "installationCost": [
+            300,
+            550
+          ],
+          "title": "Owners retreat",
+          "floor": "third-floor",
+          "version": "MW-W 01"
+        }
+      }
+    },
+    "office": {
+      "visualSpec": "Edit latest R05 O1/O2. Keep TWO structural double-hung units/two sash rows in EACH centered main bank, small circular portico-side window and clear paired gallery doors OFFSET RIGHT. Printer/art station belongs LEFT of those doors on the larger wall zone. Full north-wall walnut TV/library built-out and soundbar remain. Place ONE NEW Alora 84×32×30 Brown Oak desk with its real rounded outer corners, fine fluted apron and waterfall side panels; worker sits southeast facing northwest on ONE NEW Haworth Fern Coal ergonomic chair with actual black mesh/seat and subtle polished-aluminum base, TWO NEW Natural Nicola visitors opposite. Add NEW compact walnut printer built-in LEFT of gallery doors, size set by printer/clearances, artwork beside/above as latest source allows. No large south-window console, no semicircular desk, no old three-unit window instructions. Preserve flat ceiling and room-specific sheers/privacy shades.",
+      "renderRecipe": "Edit latest R05 O1/O2. Keep TWO structural double-hung units/two sash rows in EACH centered main bank, small circular portico-side window and clear paired gallery doors OFFSET RIGHT. Printer/art station belongs LEFT of those doors on the larger wall zone. Full north-wall walnut TV/library built-out and soundbar remain. Place ONE NEW Alora 84×32×30 Brown Oak desk with its real rounded outer corners, fine fluted apron and waterfall side panels; worker sits southeast facing northwest on ONE NEW Haworth Fern Coal ergonomic chair with actual black mesh/seat and subtle polished-aluminum base, TWO NEW Natural Nicola visitors opposite. Add NEW compact walnut printer built-in LEFT of gallery doors, size set by printer/clearances, artwork beside/above as latest source allows. No large south-window console, no semicircular desk, no old three-unit window instructions. Preserve flat ceiling and room-specific sheers/privacy shades.",
+      "fitLimitations": [
+        "15 ft 5×12 ft 11 room. Tape 84×32 desk diagonal, chair base/arms and visitor pullback.",
+        "New printer cabinet planning 30×18×30 inches is a GC build-out target, subject to actual printer lid/tray dimensions; LEFT of right-offset doors.",
+        "Brown Oak desk is a species change beside walnut joinery; approve physical undertone sample."
+      ],
+      "architectureBasis": {
+        "file": "assets/render-candidates/collected-mineral/r04/baseline-floors.json",
+        "revision": "MW-F 1-R05",
+        "intent": "Both centered main banks contain two paired double-hung units. Gallery doors offset right leave a longer wall zone on their left for the confirmed circular window, compact printer cabinet and adjacent artwork. Full north-wall walnut joinery includes TV and soundbar.",
+        "views": [
+          {
+            "code": "O1",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o1-day.png",
+            "jobId": "c82d6061-80d9-4d47-8f11-82fef17d0f21",
+            "evidence": "Original office photo camera and compact shell; both main banks correctly read as paired two-unit double-hungs, north TV joinery left and exterior banks ahead/right.",
+            "evidenceType": "Photo-based architectural revision"
+          },
+          {
+            "code": "O2",
+            "file": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-day-a2.png",
+            "jobId": "7b543900-593d-4b99-b0e7-b1efcab6ff5a",
+            "evidence": "Derived reverse camera checked against the plan: gallery doors offset right; circular window on the FAR gallery wall above the printer LEFT of doors; artwork adjacent; main bank two units.",
+            "evidenceType": "Derived angle · plan and photo interpretation"
+          }
+        ],
+        "windowTreatment": {
+          "id": "office",
+          "system": "privacy",
+          "recommendation": "Ivory sheers + hidden light-filtering privacy shades",
+          "coverage": "Both main exterior banks are centered paired 2×2 groups, with TWO structural units in each bank. Preserve the small circular portico-side window and clear internal gallery doors; assess round-window privacy separately on site.",
+          "why": "Adjustable glare control helps screen work and calls; a separate privacy layer lets you work after dark without closing the room off all day. Blackout is unnecessary for normal office use.",
+          "day": "Sheers soften sun; adjust the shade on the bright side for monitor glare.",
+          "night": "Lower privacy shades on both exterior window walls.",
+          "installation": "Keep window access, full north-wall cabinetry, southeast desk/chair and door routes clear. Use a non-see-through privacy fabric, not an open solar screen; check it with interior lights on.",
+          "goods": [
+            700,
+            1100
+          ],
+          "installationCost": [
+            200,
+            350
+          ],
+          "title": "Home office",
+          "floor": "first-floor"
+        }
+      }
+    },
+    "sunroom": {
+      "visualSpec": "NO NEW loose furniture. Retain the full owned set: Maslow Spider 72-inch Espresso Walnut/Polished Aluminum rectangular table; FOUR White Emery Fabric Side chairs, TWO White Emery Track Arm dining armchairs at table ends, all Perennials Performance Textured Linen Weave/Polished Stainless Steel as the owned inventory specifies. Preserve the latest S1/S2 camera, actual wraparound double-hung windows/high transoms/knee walls, terrace-door and LEFT oven adjacency. Ivory transparent sheers/independent privacy shades and the approved single-stem six-globe black/opal fixture remain. Catalog photos establish form with inventory size/fabric qualification; do not swap to NEW Parsons/Nicola.",
+      "renderRecipe": "NO NEW loose furniture. Retain the full owned set: Maslow Spider 72-inch Espresso Walnut/Polished Aluminum rectangular table; FOUR White Emery Fabric Side chairs, TWO White Emery Track Arm dining armchairs at table ends, all Perennials Performance Textured Linen Weave/Polished Stainless Steel as the owned inventory specifies. Preserve the latest S1/S2 camera, actual wraparound double-hung windows/high transoms/knee walls, terrace-door and LEFT oven adjacency. Ivory transparent sheers/independent privacy shades and the approved single-stem six-globe black/opal fixture remain. Catalog photos establish form with inventory size/fabric qualification; do not swap to NEW Parsons/Nicola.",
+      "fitLimitations": [
+        "Fixed owned set; do not add new table/chair purchases. Exact owned table width/spider-base and chair footprints still need measurement.",
+        "Keep oven and terrace-door routes clear."
+      ],
+      "architectureBasis": {
+        "file": "assets/render-candidates/collected-mineral/r04/baseline-floors.json",
+        "revision": "MW-F 2-R06",
+        "intent": "The existing approved daytime sunroom arrangement is retained. Its new same-camera night view demonstrates evening lighting and the appropriate privacy state without changing glazing, furniture, ceiling or kitchen adjacency.",
+        "views": [
+          {
+            "code": "S1",
+            "file": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s1-day.png",
+            "jobId": "a282a5d0-f69f-4f8c-be4c-71f2a5a29e0e",
+            "evidence": "Window banks, transoms/knee walls, oven column and terrace door preserved; six-seat table and privacy layers visible.",
+            "evidenceType": "Photo-based architectural revision"
+          },
+          {
+            "code": "S2",
+            "file": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s2-day.png",
+            "jobId": "760a7d16-3e4c-45ae-b8db-e8c8bee38057",
+            "evidence": "Closer kitchen-side sunroom perspective retains six chairs, wraparound transoms and knee walls, pendant and layers.",
+            "evidenceType": "Derived angle · plan and photo interpretation"
+          }
+        ],
+        "windowTreatment": {
+          "id": "sunroom",
+          "system": "privacy",
+          "recommendation": "Ivory sheers + independent privacy shades by window bank",
+          "coverage": "Wraparound lower glazing and terrace-door glass as measured. High transoms stay open visually unless an actual sightline or glare issue requires coverage.",
+          "why": "The six-seat breakfast area should feel bright. Separate shades let you manage individual sunny sides and evening privacy without making the whole room dark.",
+          "day": "Use sheers; lower only the shade on the sunniest side as needed.",
+          "night": "Close the privacy layer where neighbors can see in.",
+          "installation": "Split shade zones at real mullions and provide a compatible operable-door solution. Keep fabric and stacks clear of oven/cooking surfaces and door travel. Match the main-floor sheer color; no heavy blackout lining in the base.",
+          "goods": [
+            900,
+            1500
+          ],
+          "installationCost": [
+            300,
+            500
+          ],
+          "title": "Sunroom",
+          "floor": "second-floor",
+          "version": "MW-W 01"
+        }
+      }
+    },
+    "terrace": {
+      "visualSpec": "Edit RT1/RT2 anchored to original model photos and actual white-house roof evidence; preserve three real zones, roof/rail/pergola footprint, sails/string lights, house-side privacy-wall fireplace and nearby Crown rooftops. NEW Natural Teak Mesa 108 sofa plus 60×28.5 coffee table and TWO Natural-upholstered Balmain lounge chairs occupy living zone. NEW 72×40 Mesa dining table with SIX Dove-upholstered Balmain side chairs occupies pergola dining zone. Keep third sun zone clear pending specific lounger stock/fit, rather than inventing generic purchased chaises. Same exact new families/quantities in both views. Any optional exterior spiral/fireplace actual-house status remains qualified by baseline evidence; do not enlarge terrace or invent roof changes.",
+      "renderRecipe": "Edit RT1/RT2 anchored to original model photos and actual white-house roof evidence; preserve three real zones, roof/rail/pergola footprint, sails/string lights, house-side privacy-wall fireplace and nearby Crown rooftops. NEW Natural Teak Mesa 108 sofa plus 60×28.5 coffee table and TWO Natural-upholstered Balmain lounge chairs occupy living zone. NEW 72×40 Mesa dining table with SIX Dove-upholstered Balmain side chairs occupies pergola dining zone. Keep third sun zone clear pending specific lounger stock/fit, rather than inventing generic purchased chaises. Same exact new families/quantities in both views. Any optional exterior spiral/fireplace actual-house status remains qualified by baseline evidence; do not enlarge terrace or invent roof changes.",
+      "fitLimitations": [
+        "Living 17 ft 3×17 ft 1; dining 12 ft 4×12 ft 8; sun 12 ft 4×9 ft 4.108 sofa/60 coffee exceed older 90/48 targets, so template each full group.",
+        "Mesa 72 side-leg opening 47.25 inches versus two 20-inch chairs=40 inches BEFORE spacing; six-chair pullbacks need real template.",
+        "RH is a historical-stock-supported premium fallback; current stock, full quantities and fabric/wood samples pending. No loungers are purchase-approved yet."
+      ],
+      "architectureBasis": {
+        "file": "assets/render-candidates/collected-mineral/r04/baseline-floors.json",
+        "revision": "MW-A 02",
+        "intent": "A model-photo-anchored neutral rooftop retreat preserving the subject white-house roof/pergola/railing and separate living, dining and sun zones. The north privacy-wall fireplace and optional external spiral shown in model photos are not a complete certified actual-house inventory. Keep the spiral model precedent until actual presence is confirmed; coordinate one outdoor dining set across cameras without enlarging the terrace or roof.",
+        "views": [
+          {
+            "code": "RT1",
+            "file": "assets/render-candidates/mineral-walnut-architecture/r01/terrace-rt1-day.png",
+            "jobId": "984b7551-8036-4c28-ab15-a26b8c1bf20b",
+            "evidence": "Original roofscape, pergola/posts/sails, railings and house-side fireplace preserved; true daylight with simpler staging.",
+            "evidenceType": "Photo-based architectural revision"
+          },
+          {
+            "code": "RT2",
+            "file": "assets/render-candidates/mineral-walnut-architecture/r02/terrace-rt2-day-31524.png",
+            "jobId": "27456ab8-a6f1-477e-965d-cdfcd41b0cda",
+            "evidence": "Original second terrace camera retained with foreground egg chair, pergola/roofscape/rail and separate outdoor dining zone in neutral daylight.",
+            "evidenceType": "Photo-based architectural revision"
+          }
+        ],
+        "windowTreatment": {
+          "id": "terrace",
+          "system": "none",
+          "recommendation": "No interior drapes outdoors",
+          "coverage": "Outdoor roof terrace; adjacent interior glazing is covered under loft or suite schedules. Optional outside spiral remains unconfirmed at actual house.",
+          "why": "Interior sheers and blackout panels do not belong in this outdoor exposure. Existing exterior shade structures and weather-rated furniture form a separate scope.",
+          "day": "Use the existing outdoor shade arrangement.",
+          "night": "Close the relevant interior privacy layers from inside.",
+          "installation": "No exterior curtains or duplicated interior glazing cost. Current treatment allowance remains unchanged; confirming optional stair does not authorize a new roof or terrace extension.",
+          "goods": [
+            0,
+            0
+          ],
+          "installationCost": [
+            0,
+            0
+          ],
+          "title": "Roof terrace",
+          "floor": "penthouse",
+          "version": "MW-W 01"
+        }
+      }
+    }
+  },
+  "customBuildouts": [
+    {
+      "id": "cm-office-printer-built-in",
+      "room": "office",
+      "ownership": "new",
+      "name": "Compact walnut printer cabinet",
+      "material": "Warm walnut veneer/charcoal interior, concealed hinges and ventilated back",
+      "planningSize": "30 W × 18 D × 30 H inches as a planning size; the actual printer governs",
+      "status": "GC quote and measured specification pending",
+      "location": "LEFT of the right-offset gallery door inside theoffice, perlatestuser correction."
+    },
+    {
+      "id": "cm-media-tv-console",
+      "room": "media",
+      "ownership": "new",
+      "name": "Quiet stone/plaster TV panel and long walnut console with lit collectible niches",
+      "material": "Warm walnut veneer, smooth mushroom mineral/plaster or calm stone-look porcelain, and 2700 K dimmable LED light",
+      "planningSize": "83-inch TV (~72.3×40.7 in screen); 96–102-inch console width, 18-inch depth provisional. Latest measured/source wall and clear west-door circulation govern; do not render 108–120 console.",
+      "status": "AV compatibility, field dimensions and GC quote pending"
+    },
+    {
+      "id": "cm-office-north-wall",
+      "room": "office",
+      "ownership": "new",
+      "name": "Full north walnut TV and library wall",
+      "material": "Walnut veneer, adjustable shelves and concealed warm task light",
+      "planningSize": "Entire measured north wall; the TV, soundbar and cabinet fit govern",
+      "status": "Measured joinery and electrical specification pending"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "cm-social-dining-monroe96",
+      "name": "Monroe Extendable Oval Dining Table 96–120 inches",
+      "brand": "Pottery Barn",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "dining",
+      "size": "96 × 38 inches closed; 120 × 38 inches extended. Official capacity is six closed and eight extended.",
+      "finish": "Warm brown wood as official hero photograph; exact retailer finish label/material pending selected SKU 11234002 confirmation",
+      "fabric": null,
+      "color": "Warm brown",
+      "url": "https://www.potterybarn.com/products/monroe-extendable-dining-table/",
+      "price": 1999,
+      "currentPriceOrSale": {
+        "amount": 1999,
+        "kind": "regular",
+        "verifiedAt": "2026-10-11",
+        "note": "Fresh official product page $1, 999; no sale observed. ExactSKU 11234002 appears in official product listing."
+      },
+      "stockStatus": "delivery_range_quoted_stock_status_pending",
+      "stockEvidence": "Root checked ZIP 20878 on 2026-10-11: quoted arrival October 22–November 5 for SKU 11234002. A delivery range alone is not a confirmed stock commitment.",
+      "checkedAt": "2026-10-11",
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-dining-monroe96-gallery-1.webp",
+      "sourceImageUrl": "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202629/0983/monroe-extendable-oval-dining-table-xx-xx-8-j.jpg",
+      "photoMatchNote": "Official exact Monroe product-page lifestyle view, 250×225, showing oval top and four tapering wood legs. Not a pedestal table. Exact wood finish label, width, height and selected SKU remain unverified.",
+      "fitNotes": "Rejected as the primary dining table: official six/eight-seat capacity fails the requested eight everyday and up-to-ten occasional target. Preserve only as rejected research history; do not render or order as the approved table.",
+      "decision": "rejected_for_target_capacity",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 250,
+        "height": 225,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photoMatchNote."
+      }
+    }
+  ],
+  "stockVerificationQueue": [
+    {
+      "id": "cm-social-great-retreat94",
+      "url": "https://www.crateandbarrel.com/retreat-94-sofa/f1027609",
+      "configuration": {
+        "size": "94 W × 44 D × 28.5 H inches",
+        "finish": "Serene fabric in Ivory",
+        "fabric": "Serene",
+        "color": "Ivory"
+      },
+      "quantity": 1,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-great-shelter-natural",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+      "configuration": {
+        "depth": "Classic 32½ in",
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "61060801 NONA",
+        "stockedSibling": {
+          "color": "Sand",
+          "sku": "61060801 NOSN",
+          "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878."
+        }
+      },
+      "quantity": 2,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-great-tate48",
+      "url": "https://www.crateandbarrel.com/tate-walnut-wood-48-rectangular-storage-coffee-table/s259126",
+      "configuration": {
+        "sku": "259126",
+        "finish": "Walnut",
+        "testedQuantity": 1
+      },
+      "quantity": 1,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-great-enzo18",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+      "configuration": {
+        "size": "18-inch square /20 H inches",
+        "finish": "Caramel Walnut",
+        "sku": "10138471 CRWL"
+      },
+      "quantity": 2,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-media-cloud119",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+      "configuration": {
+        "depth": "Classic 40 in",
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "M00023014118"
+      },
+      "quantity": 1,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-media-cloud-ottoman40",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6371041",
+      "configuration": {
+        "size": "Classic 40-inch square planning configuration; exact overall height requires live Dimensions verification. Do not use 45-inch Luxe modules.",
+        "finish": "Fully slipcovered low upholstered cube, matching new media sofa",
+        "fabric": "Performance Linen Weave",
+        "color": "Natural"
+      },
+      "quantity": 2,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-dining-nicola",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33750094",
+      "configuration": {
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "10179035 NONA",
+        "stockedSibling": {
+          "color": "Sand",
+          "sku": "10179035 NOSN",
+          "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878."
+        }
+      },
+      "quantity": 10,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-dining-barley104",
+      "url": "https://www.potterybarn.com/products/barley-extendable-dining-table/",
+      "configuration": {
+        "sku": "9380732",
+        "finish": "Walnut Brown",
+        "configuration": "84–104-inch extendable"
+      },
+      "quantity": 1,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-living-retreat78",
+      "url": "https://www.crateandbarrel.com/retreat-78-apartment-sofa/s166056",
+      "configuration": {
+        "sku": "166056",
+        "size": "78-inch",
+        "fabric": "Serene",
+        "color": "Ivory"
+      },
+      "quantity": 1,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-living-shelter-natural",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+      "configuration": {
+        "depth": "Classic 32½ in",
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "61060801 NONA",
+        "stockedSibling": {
+          "color": "Sand",
+          "sku": "61060801 NOSN",
+          "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878."
+        }
+      },
+      "quantity": 2,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-living-tate48",
+      "url": "https://www.crateandbarrel.com/tate-walnut-wood-48-rectangular-storage-coffee-table/s259126",
+      "configuration": {
+        "sku": "259126",
+        "finish": "Walnut",
+        "testedQuantity": 1
+      },
+      "quantity": 1,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-retreat-shelter-natural",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+      "configuration": {
+        "depth": "Classic 32½ in",
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "61060801 NONA",
+        "stockedSibling": {
+          "color": "Sand",
+          "sku": "61060801 NOSN",
+          "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878."
+        }
+      },
+      "quantity": 2,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-retreat-enzo18",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+      "configuration": {
+        "size": "18-inch square /20 H inches",
+        "finish": "Caramel Walnut",
+        "sku": "10138471 CRWL"
+      },
+      "quantity": 1,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-office-alora84",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33440091",
+      "configuration": {
+        "size": "84 W ×32 D ×30 H inches",
+        "finish": "Brown Oak",
+        "sku": "10193750 BRWN"
+      },
+      "quantity": 1,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-office-nicola",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33750094",
+      "configuration": {
+        "fabric": "Performance Linen Weave",
+        "color": "Natural",
+        "sku": "10179035 NONA",
+        "stockedSibling": {
+          "color": "Sand",
+          "sku": "10179035 NOSN",
+          "deliveryMessage": "Ready for delivery between 10/12/26 and 10/16/26 for 20878."
+        }
+      },
+      "quantity": 2,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-office-fern-coal",
+      "url": "https://www.crateandbarrel.com/haworth-fern-upholstered-office-chair/s425920",
+      "configuration": {
+        "size": "Adjustable height/depth/4 Darms; exactW×D×H and casterbase footprint pending liveDimensions verification. Render compact ergonomic task chair, not oversizedexecutivethrone.",
+        "finish": "Coal seat and black mesh back; polished aluminum 5-starbase is actual product, not a matte-black substitution",
+        "fabric": "100%polyesterseat; 80%polyester/20%postconsumerrecycledpolyestermeshback",
+        "color": "Coal / Black"
+      },
+      "quantity": 1,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-terrace-rh-mesa108-sofa",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22320022?inStock=true",
+      "configuration": {
+        "width": "108 inches",
+        "finish": "Natural Teak",
+        "fabric": "Classic Performance Textured Weave",
+        "color": "White",
+        "sku": "10272455 OWWH",
+        "testedQuantity": 1
+      },
+      "quantity": 1,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-terrace-rh-mesa60-coffee",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod16940016",
+      "configuration": {
+        "width": "60 inches",
+        "finish": "Natural Teak",
+        "sku": "10008923 TEAK"
+      },
+      "quantity": 1,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-terrace-rh-mesa72-dining",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod16940017",
+      "configuration": {
+        "width": "72 inches",
+        "finish": "Natural Teak",
+        "sku": "10035595 TEAK"
+      },
+      "quantity": 1,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-terrace-rh-balmain-dining6",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod30120035",
+      "configuration": {
+        "finish": "Natural Teak",
+        "fabric": "Perennials Performance Textured Linen Weave",
+        "color": "Dove",
+        "sku": "10271971 BXDV",
+        "quantityChecked": 6
+      },
+      "quantity": 6,
+      "zip": "20878"
+    },
+    {
+      "id": "cm-social-terrace-rh-balmain-lounge",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod14020067",
+      "configuration": {
+        "finish": "Natural Teak",
+        "fabric": "Perennials Performance Textured Linen Weave",
+        "color": "Natural",
+        "sku": "10272888 BXNT"
+      },
+      "quantity": 2,
+      "zip": "20878"
+    }
+  ]
+}

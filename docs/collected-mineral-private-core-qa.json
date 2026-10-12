@@ -1,0 +1,77 @@
+{
+  "revision": "CM-PRIVATE-CORE-QA-R03",
+  "date": "2026-10-11",
+  "authority": [
+    "Current owned inventory and CM-PLAN-R03",
+    "Latest accepted R07 plan/source views",
+    "Original model photographs and builder plan for geometry"
+  ],
+  "images": [
+    {
+      "roomId": "ownerbed",
+      "file": "assets/render-candidates/collected-mineral/r04/core-301.png",
+      "approved": true,
+      "checks": [
+        "Four real west sash units/casings preserved and no invented aperture between TV and west bank.",
+        "Owned Modena plain PANEL king, neutral white weave and GreyOak feet; no Shelter wings or canopy.",
+        "Two Bezier OPEN bedside carcasses show upper cubby/lower drawer/silver reveal and plinth; no copied closed two-drawer substitute.",
+        "Owned dresser rendered4rows x2drawer columns=eight total, BrownOak/stainless; exactlyone dresser and two nickel Bates lamps.",
+        "Full reddish timber headwall removed, paired neutral art retained,55inTV/soundbar retained; no unselected sconces or bed/furnitureLED retrofit.",
+        "Owned8x10 neutral rug concept below bedsides; paleoak visible, layered curtains retained."
+      ],
+      "limits": [
+        "Furniture geometry/color are photo-informed visualizations, not exact manufacturer CAD or measurements.",
+        "Owned dresser/bed/lamp footprints and shade/circulation gaps remain unverified."
+      ]
+    },
+    {
+      "roomId": "ownercloset",
+      "file": "assets/render-candidates/collected-mineral/r04/core-302.png",
+      "approved": false,
+      "checks": [
+        "Windowless rectangular closet/camera retained; no island/newwindow.",
+        "Vanity bay visibly replaces portion of left perimeter storage; opposite/far modules maintained.",
+        "Clio lightFrost shagreen three-drawer/open-knee form and whitefur/pewter Blythe concept shown."
+      ],
+      "mustFix": [
+        "Owned41x77 full-length leaner is behindvanity with lower reflective portion obstructed. Place BESIDE vanity in the same deliberately reallocated long-wall bay and show lower mirror edge near floor; it must remain useful for full-length dressing.",
+        "Reallocate another storage module if needed, preserve real footprint/door swing/aisle and actual desk+41in mirror proportions. Do not scale furniture/mirror down or create a newfree wall to fake fit."
+      ],
+      "limits": [
+        "ClioW/D/H and Blythe diameter/seatH unprovided; dedicated bay is a conceptual test requiring actual measurements.",
+        "If beside-vanity41in mirror cannot fit the real bay, document a separate measured suite-wall allocation rather than representing incorrect closet function."
+      ]
+    },
+    {
+      "roomId": "ownercloset",
+      "file": "assets/render-candidates/collected-mineral/r04/day-306.png",
+      "approved": false,
+      "checks": [
+        "Full-length leaner is now beside vanity and reaches the floor; useful lower mirror reflection is unobstructed.",
+        "Left perimeter modules intentionally reallocated for mirror/vanity bay; opposite and far storage, rectangular windowless enclosure and aisle remain plausible.",
+        "Frost light shagreen, pewter accents and white faux-fur stool remain neutral."
+      ],
+      "mustFix": [
+        "Clio desk clearly has TWO drawer fronts/pulls. The owned Clio vanity has THREE top drawers. Make a front-only repair to three equal shallow drawer fronts with three slim pewter pulls; preserve desk size, open knee space, stool, full-length mirror beside it, camera and entire enclosure."
+      ],
+      "limits": [
+        "Shifted-left view is a new concept camera illustrating the intentional bay allocation, not a measured replica of WC1.",
+        "Actual Clio dimensions and available wall length must be measured; no fit certification from this image."
+      ]
+    },
+    {
+      "roomId": "ownercloset",
+      "file": "assets/render-candidates/collected-mineral/r04/day-607.png",
+      "approved": true,
+      "checks": [
+        "Clio owned vanity now has THREE equal shallow drawer fronts and THREE slim pewter pulls, with clear open knee space.",
+        "Full-length leaner remains BESIDE vanity with bottom near floor and useful unobstructed lower reflection.",
+        "Frost shagreen, pewter accents, white faux-fur stool, intentionally reallocated left storage bay, opposite/far storage and windowless enclosure retained."
+      ],
+      "limits": [
+        "This is an intentional new vanity-bay concept, not measured built cabinetry. Actual Clio size and mirror-plus-desk fit require field measurements.",
+        "If41in leaner and actual Clio cannot coexist in measured long-wall bay, allocate mirror on a separately measured suite wall rather than scale furniture."
+      ]
+    }
+  ]
+}

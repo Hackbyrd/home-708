@@ -1,6 +1,6 @@
 {
   "name": "home-708",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "private": true,
   "description": "Production 3D digital twin and interior layout editor",
   "type": "module",
@@ -30,7 +30,8 @@
     "build:mineral-budget": "node scripts/build-mineral-budget.mjs",
     "build:move-in-plan": "node scripts/build-mineral-roadmap.mjs",
     "build:rh-consultation": "node scripts/prepare-rh-house-consultation.mjs && node scripts/sync-rh-furniture-generations.mjs && python3 scripts/build-rh-house-consultation.py",
-    "build:collected-value": "python3 scripts/build-collected-value-consultation.py"
+    "build:collected-value": "python3 scripts/build-collected-value-consultation.py",
+    "build:collected-mineral": "node scripts/build-collected-mineral.mjs && node scripts/build-design-library.mjs"
   },
   "engines": {
     "node": ">=22"

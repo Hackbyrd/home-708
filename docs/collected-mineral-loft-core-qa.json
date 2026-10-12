@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-11",
+  "roomId": "loft",
+  "index": 304,
+  "candidateFile": "assets/render-candidates/collected-mineral/r04/day-304.png",
+  "status": "approved_visual_interpretation",
+  "approved": true,
+  "references": [
+    "assets/render-candidates/mineral-walnut-architecture/r02/loft-pl1-day-30521.png",
+    "assets/Crown Georgetown Photos/fourth-floor-penthouse-loft.jpg.webp",
+    "docs/collected-mineral-assets/floor-4-plan.webp",
+    "docs/current-furniture-assets/machinto-media.webp",
+    "docs/current-furniture-assets/machinto-side.webp",
+    "docs/current-furniture-assets/arc-floor-lamp.webp",
+    "docs/current-furniture-assets/rome-stool.webp",
+    "docs/current-furniture-assets/marble-coffee.webp",
+    "docs/current-furniture-assets/cloud-corner.webp",
+    "docs/current-furniture-assets/cloud-armless.webp",
+    "docs/current-furniture-assets/cloud-ottoman.webp",
+    "docs/current-furniture-assets/sanani-rug.webp"
+  ],
+  "architecture": {
+    "approved": true,
+    "checks": [
+      "Source PL1 camera and compact penthouse envelope retained.",
+      "Existing raised tray, soffit, crown and ceiling-light arrangement remain; no extra ceiling structure.",
+      "Left/south wall keeps one French-door pair and both small flanking windows in their photographed positions.",
+      "Wide right/west terrace-glazing opening, curtain stacks and adjacent exterior pergola/roofscape retained.",
+      "Recessed southwest wet bar remains: sink window, tall side cabinetry, counter, beverage fridge and two suspended pendants.",
+      "No invented north stair/guest-vestibule openings visible in this photographed south/west corner."
+    ]
+  },
+  "ownedFurnitureChecks": [
+    {
+      "inventoryId": "cloud-corner",
+      "quantity": 2,
+      "result": "passes_as_visual_interpretation",
+      "notes": "White end corner modules with arms bookend the sofa; three total seat modules are legible."
+    },
+    {
+      "inventoryId": "cloud-armless",
+      "quantity": 1,
+      "result": "passes_as_visual_interpretation",
+      "notes": "One middle armless module; no additional lounge chair or second sofa introduced."
+    },
+    {
+      "inventoryId": "cloud-ottoman",
+      "quantity": 1,
+      "result": "passes_as_visual_interpretation",
+      "notes": "One separate square white ottoman in foreground; no duplicate ottoman or chaise."
+    },
+    {
+      "inventoryId": "marble-coffee",
+      "quantity": 1,
+      "result": "passes_as_visual_interpretation",
+      "notes": "One low rectangular Carrara-look block between TV and sofa; roughly 2:1 footprint reads consistent with 48 x24 planning. Exact dimensions and subtle recessed plinth cannot be certified from this perspective."
+    },
+    {
+      "inventoryId": "machinto-side",
+      "quantity": 2,
+      "result": "passes_as_visual_interpretation",
+      "notes": "Exactly two brown-oak cylindrical side tables, one at each sofa end, with polished steel bottom rings. Approximate 18-inch scale is credible."
+    },
+    {
+      "inventoryId": "machinto-media",
+      "quantity": 1,
+      "result": "passes_as_visual_interpretation",
+      "notes": "Targeted304 repair removes the open metal leg frame, restores the continuous recessed brown-oak floor plinth and recognizable two end panel-door / three central-drawer form with silver pulls; one console only."
+    },
+    {
+      "inventoryId": "arc-floor-lamp",
+      "quantity": 1,
+      "result": "passes_as_visual_interpretation",
+      "notes": "One polished silver/nickel arc stem, small hemispherical shade and low circular base; no duplicate floor lamp."
+    },
+    {
+      "inventoryId": "rome-stool",
+      "quantity": 2,
+      "result": "partly_occluded",
+      "notes": "Exactly two graphite upholstered backless stool seats at the wet bar, with silver frame portions visible. Sofa obscures lower bases, so the distinctive curved/semicircular polished-steel frames should be confirmed in PL2 rather than inferred as verified."
+    },
+    {
+      "inventoryId": "sanani-rug",
+      "quantity": 1,
+      "result": "passes_as_visual_interpretation",
+      "notes": "One large warm neutral textured rug under the sectional, ottoman and coffee area; texture reads consistent with Natural/Mink Sanani. Nominal 9 x12 footprint requires site confirmation."
+    }
+  ],
+  "blockingIssues": [],
+  "limits": [
+    "This is a photoreal design interpretation, not measured manufacturer geometry.",
+    "Full Cloud Luxe 45-inch x3 footprint, ottoman, arc reach/base position, 48 x24 coffee table and delivery/circulation need a full-size site template.",
+    "Lower Rome frames are occluded in PL1; confirm in complementary camera."
+  ],
+  "recommendation": "Promote repaired304 as the primary loft source, with all dimension/circulation and occluded-Rome-base qualifications retained.",
+  "previousCandidateFile": "assets/render-candidates/collected-mineral/r04/core-303.png"
+}

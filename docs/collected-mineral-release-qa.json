@@ -1,0 +1,931 @@
+{
+  "release": "v2.0.7",
+  "date": "2026-10-12",
+  "status": "complete_visual_scheme",
+  "coverage": {
+    "spaces": 24,
+    "dayNightPairs": 45,
+    "newDayNightPairs": 32,
+    "sharedUnchangedPairs": 13,
+    "ownedTypes": 29,
+    "ownedUnits": 39,
+    "newFurnitureUnits": 62,
+    "qaScope": "Visual source/plan and paired-camera audit; dimensions, product fit, services, procurement and final construction details remain site-dependent."
+  },
+  "selectedImages": [
+    {
+      "room": "entry",
+      "code": "E1",
+      "jobId": "006a3f39-145d-4089-9711-3e5d503db5aa",
+      "src": "collected-mineral-assets/entry-E1-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "entry",
+      "code": "E2",
+      "jobId": "3bab801e-257b-4a4f-8342-28edbb0b1713",
+      "src": "collected-mineral-assets/entry-E2-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "entry",
+      "code": "E1-F105N",
+      "jobId": "53b2d83b-ecce-4f27-8611-c652e7812dde",
+      "src": "collected-mineral-assets/entry-E1-F105N-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "entry",
+      "code": "E2-F105N",
+      "jobId": "44ba36d8-a272-4191-b8ca-57171e527678",
+      "src": "collected-mineral-assets/entry-E2-F105N-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "office",
+      "code": "O1",
+      "jobId": "9bb4f9f4-3672-40f0-bc75-f109d5743751",
+      "src": "collected-mineral-assets/office-O1-cm-r04-day.webp",
+      "qa": {
+        "approved": true
+      }
+    },
+    {
+      "room": "office",
+      "code": "O2",
+      "jobId": "0a756bcb-f3ee-4589-8bd9-4c71d876f188",
+      "src": "collected-mineral-assets/office-O2-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "office",
+      "code": "O1-CMN",
+      "jobId": "fd82a1cc-47e6-474b-8a9a-2a08ae915534",
+      "src": "collected-mineral-assets/office-O1-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "office",
+      "code": "O2-CMN",
+      "jobId": "47e1c82a-b324-4c32-8a9b-081c72d3a18b",
+      "src": "collected-mineral-assets/office-O2-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "media",
+      "code": "M1",
+      "jobId": "1bd7462b-0995-4dbc-8660-61d08d99720a",
+      "src": "collected-mineral-assets/media-M1-cm-r04-day.webp",
+      "qa": {
+        "approved": true
+      }
+    },
+    {
+      "room": "media",
+      "code": "M2",
+      "jobId": "8210bd3c-080e-493a-9ba2-6c51e0fee5eb",
+      "src": "collected-mineral-assets/media-M2-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "media",
+      "code": "M1-CMN",
+      "jobId": "f386cf75-7ee8-43ad-ac70-e58c9f87a3a8",
+      "src": "collected-mineral-assets/media-M1-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "media",
+      "code": "M2-CMN",
+      "jobId": "e9d1fc23-1093-49e4-94b5-53ac20de6969",
+      "src": "collected-mineral-assets/media-M2-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "gym",
+      "code": "G1",
+      "jobId": "fece6058-938d-4fbd-86b8-30b110148592",
+      "src": "collected-mineral-assets/gym-G1-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "gym",
+      "code": "G2",
+      "jobId": "b4e7ed78-8706-46bb-b556-4f27a94d5279",
+      "src": "collected-mineral-assets/gym-G2-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "gym",
+      "code": "G1-N4",
+      "jobId": "f8f675ec-8972-4f67-8708-c0a50eaf8fbf",
+      "src": "collected-mineral-assets/gym-G1-N4-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "gym",
+      "code": "G2-GN01",
+      "jobId": "a5fd2e9e-583c-43b7-b24d-c3948d6eb058",
+      "src": "collected-mineral-assets/gym-G2-GN01-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "bath",
+      "code": "B1",
+      "jobId": "1289dd19-1fb8-4d57-b195-ee5fe214eec7",
+      "src": "collected-mineral-assets/bath-B1-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "bath",
+      "code": "B2",
+      "jobId": "d85cf98f-7cae-4ce8-a9ec-ea74817cab5f",
+      "src": "collected-mineral-assets/bath-B2-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "bath",
+      "code": "B1-F105N",
+      "jobId": "76ea864d-f526-43d0-b12f-4e459f6a90ac",
+      "src": "collected-mineral-assets/bath-B1-F105N-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "bath",
+      "code": "B2-F105N",
+      "jobId": "541e4ddc-73c6-4a82-b1db-650c772beab0",
+      "src": "collected-mineral-assets/bath-B2-F105N-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "great",
+      "code": "GR1",
+      "jobId": "cfa35ce5-b0de-4337-92a5-e6582364be42",
+      "src": "collected-mineral-assets/great-GR1-cm-r04-day.webp",
+      "qa": {
+        "approved": true
+      }
+    },
+    {
+      "room": "great",
+      "code": "GR2",
+      "jobId": "108d80d0-f1f4-4853-b2d9-2f752862d930",
+      "src": "collected-mineral-assets/great-GR2-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "great",
+      "code": "GR1-CMN",
+      "jobId": "ca804bb6-e8de-45b2-9888-ccd735c3b6a5",
+      "src": "collected-mineral-assets/great-GR1-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "great",
+      "code": "GR2-CMN",
+      "jobId": "0e9d1bae-6bb0-4825-a2d4-3035dbd23474",
+      "src": "collected-mineral-assets/great-GR2-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "kitchen",
+      "code": "K1",
+      "jobId": "9cce0509-e3d2-41cc-ac06-c22404999443",
+      "src": "collected-mineral-assets/kitchen-K1-cm-r04-day.webp",
+      "qa": {
+        "approved": true
+      }
+    },
+    {
+      "room": "kitchen",
+      "code": "K2",
+      "jobId": "0203ad42-2a87-482a-bda3-893556d2b2b2",
+      "src": "collected-mineral-assets/kitchen-K2-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "kitchen",
+      "code": "K1-CMN",
+      "jobId": "8f54630d-5f95-498c-b3c2-7ad2ac537159",
+      "src": "collected-mineral-assets/kitchen-K1-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "kitchen",
+      "code": "K2-CMN",
+      "jobId": "9edeacda-05cc-4b7a-a8cf-9a7f343a2ae0",
+      "src": "collected-mineral-assets/kitchen-K2-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "dining",
+      "code": "D1",
+      "jobId": "026a04fc-7104-43d6-8135-2b02a19e6eb3",
+      "src": "collected-mineral-assets/dining-D1-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "dining",
+      "code": "D2",
+      "jobId": "67efe71f-1a4b-47c0-b76f-9d446b3712ec",
+      "src": "collected-mineral-assets/dining-D2-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "dining",
+      "code": "D1-CMN",
+      "jobId": "3fb39476-a4fc-45dc-ae1b-1b711cf39da6",
+      "src": "collected-mineral-assets/dining-D1-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "dining",
+      "code": "D2-CMN",
+      "jobId": "086b506f-b9e3-45f6-aa36-5d82a5976652",
+      "src": "collected-mineral-assets/dining-D2-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "living",
+      "code": "LR1",
+      "jobId": "d75560ec-2676-4ad5-8c42-266f79a012a8",
+      "src": "collected-mineral-assets/living-LR1-cm-r04-day.webp",
+      "qa": {
+        "approved": true
+      }
+    },
+    {
+      "room": "living",
+      "code": "LR2",
+      "jobId": "786b6f1c-07eb-40da-a4fa-eb9d7691ba16",
+      "src": "collected-mineral-assets/living-LR2-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "living",
+      "code": "LR1-CMN",
+      "jobId": "88b69b0b-6b8b-4a5c-a58e-e85a87023cb5",
+      "src": "collected-mineral-assets/living-LR1-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "living",
+      "code": "LR2-CMN",
+      "jobId": "1d2a79fc-81d4-4bc5-8000-2085df5b8283",
+      "src": "collected-mineral-assets/living-LR2-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "sunroom",
+      "code": "S1",
+      "jobId": "1f1bafb7-1900-4dd4-8850-0d256e16c306",
+      "src": "collected-mineral-assets/sunroom-S1-cm-r04-day.webp",
+      "qa": {
+        "approved": true
+      }
+    },
+    {
+      "room": "sunroom",
+      "code": "S2",
+      "jobId": "783cabb8-8628-495b-bdc7-4fd2a6860e36",
+      "src": "collected-mineral-assets/sunroom-S2-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "sunroom",
+      "code": "S1-CMN",
+      "jobId": "6957aaa3-2e39-4abf-b14b-01ceb4a867f0",
+      "src": "collected-mineral-assets/sunroom-S1-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "sunroom",
+      "code": "S2-CMN",
+      "jobId": "658b5fba-e043-4d43-be08-31ae097fb7d5",
+      "src": "collected-mineral-assets/sunroom-S2-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "stair2",
+      "code": "ST1",
+      "jobId": "f9cdba3c-6847-49c4-860e-637164a8bede",
+      "src": "collected-mineral-assets/stair2-ST1-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "stair2",
+      "code": "ST2",
+      "jobId": "f9b55f3a-2233-4502-9c6c-bbdf15d8ba58",
+      "src": "collected-mineral-assets/stair2-ST2-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "stair2",
+      "code": "ST1-CMN",
+      "jobId": "68af9649-addb-419c-ba1d-8dd4b6f6f841",
+      "src": "collected-mineral-assets/stair2-ST1-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "stair2",
+      "code": "ST2-GN01",
+      "jobId": "6874d8b1-2a65-41b8-9846-a1eff9c13c58",
+      "src": "collected-mineral-assets/stair2-ST2-GN01-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "ownerbed",
+      "code": "OB1",
+      "jobId": "05bdb753-b6cc-407b-8af3-6f69edf98265",
+      "src": "collected-mineral-assets/ownerbed-OB1-cm-r04-day.webp",
+      "qa": {
+        "approved": true
+      }
+    },
+    {
+      "room": "ownerbed",
+      "code": "OB2",
+      "jobId": "16626782-2318-4d28-8dc7-1d2d80b68d27",
+      "src": "collected-mineral-assets/ownerbed-OB2-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "ownerbed",
+      "code": "OB1-CMN",
+      "jobId": "13ba4716-77b0-4f3c-8612-c58af2dc1c3b",
+      "src": "collected-mineral-assets/ownerbed-OB1-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "ownerbed",
+      "code": "OB2-CMN",
+      "jobId": "60186d6e-1c8c-4ef3-a724-e68a2f79e347",
+      "src": "collected-mineral-assets/ownerbed-OB2-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "retreat",
+      "code": "OR1",
+      "jobId": "a7423fd4-788f-43aa-93b9-74f37161d08b",
+      "src": "collected-mineral-assets/retreat-OR1-cm-r04-day.webp",
+      "qa": {
+        "approved": true
+      }
+    },
+    {
+      "room": "retreat",
+      "code": "OR2",
+      "jobId": "2cd7bee7-9d7e-4558-8e52-88b3b7c4ff25",
+      "src": "collected-mineral-assets/retreat-OR2-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "retreat",
+      "code": "OR2-CMN",
+      "jobId": "eda127b1-2d90-4dcc-bfb1-04ea7bb6edd4",
+      "src": "collected-mineral-assets/retreat-OR2-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "retreat",
+      "code": "OR1-CMN",
+      "jobId": "b9cf0c99-c577-4c4c-b938-6e056b79e96c",
+      "src": "collected-mineral-assets/retreat-OR1-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "ownerbath",
+      "code": "BA1",
+      "jobId": "82595540-d73f-459c-996d-f9d652155323",
+      "src": "collected-mineral-assets/ownerbath-BA1-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "ownerbath",
+      "code": "BA2",
+      "jobId": "bff14f98-b810-4eda-a1cc-c9ec3a83cfde",
+      "src": "collected-mineral-assets/ownerbath-BA2-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "ownerbath",
+      "code": "BA1-N07",
+      "jobId": "82fbc26e-760e-4c0b-9667-367378f93924",
+      "src": "collected-mineral-assets/ownerbath-BA1-N07-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "ownerbath",
+      "code": "BA2-N07",
+      "jobId": "ec275313-71b1-499f-93df-b0d131ed383c",
+      "src": "collected-mineral-assets/ownerbath-BA2-N07-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "ownercloset",
+      "code": "WC1",
+      "jobId": "d5a556ac-8a22-4697-9681-589de51f29a3",
+      "src": "collected-mineral-assets/ownercloset-WC1-cm-r04-day.webp",
+      "qa": {
+        "approved": true
+      }
+    },
+    {
+      "room": "ownercloset",
+      "code": "WC1-CMN",
+      "jobId": "0bbde46b-36fc-45bd-89c8-841470f69d00",
+      "src": "collected-mineral-assets/ownercloset-WC1-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "bed2",
+      "code": "B21",
+      "jobId": "7c8eebc0-fd39-45e2-9939-72e1869d89b5",
+      "src": "collected-mineral-assets/bed2-B21-cm-r04-day.webp",
+      "qa": {
+        "approved": true
+      }
+    },
+    {
+      "room": "bed2",
+      "code": "B22",
+      "jobId": "9410b531-20c2-4087-a194-f8606a0a6cdd",
+      "src": "collected-mineral-assets/bed2-B22-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "bed2",
+      "code": "B21-CMN",
+      "jobId": "dff4bef4-7e10-409c-8995-9cfae04dd2df",
+      "src": "collected-mineral-assets/bed2-B21-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "bed2",
+      "code": "B22-CMN",
+      "jobId": "e5f3e6ce-ca8d-42ff-be97-2d142164c1b9",
+      "src": "collected-mineral-assets/bed2-B22-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "bed3",
+      "code": "B31",
+      "jobId": "2f333f06-7bd9-4610-bc6b-19865297831a",
+      "src": "collected-mineral-assets/bed3-B31-cm-r04-day.webp",
+      "qa": {
+        "approved": true
+      }
+    },
+    {
+      "room": "bed3",
+      "code": "B32",
+      "jobId": "4fd1f516-3dfc-4ec2-bd50-2a9e91984292",
+      "src": "collected-mineral-assets/bed3-B32-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "bed3",
+      "code": "B31-CMN",
+      "jobId": "e0692ff5-c382-41fc-99da-41b1a564c571",
+      "src": "collected-mineral-assets/bed3-B31-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "bed3",
+      "code": "B32-CMN",
+      "jobId": "c863a79c-0544-45de-8c35-abd7d1584350",
+      "src": "collected-mineral-assets/bed3-B32-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "sharedbath",
+      "code": "SB1",
+      "jobId": "e388b91d-dc04-4739-bc1d-90a475d2edd1",
+      "src": "collected-mineral-assets/sharedbath-SB1-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "sharedbath",
+      "code": "SB2",
+      "jobId": "4a31fe4c-7bc5-463e-8dca-5ede62b25614",
+      "src": "collected-mineral-assets/sharedbath-SB2-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "sharedbath",
+      "code": "SB1-CMN",
+      "jobId": "4bc9d607-e227-4f53-a4e5-d15998e11240",
+      "src": "collected-mineral-assets/sharedbath-SB1-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "sharedbath",
+      "code": "SB2-CMN",
+      "jobId": "22da145d-ce91-4f25-b950-438fb7ef9e9c",
+      "src": "collected-mineral-assets/sharedbath-SB2-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "laundry",
+      "code": "LA1",
+      "jobId": "bfacfb8c-d7e6-41fb-bc1b-25a871734a5e",
+      "src": "collected-mineral-assets/laundry-LA1-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "laundry",
+      "code": "LA2",
+      "jobId": "3b4bd68c-0c47-41d1-a2fc-e07f4804f58a",
+      "src": "collected-mineral-assets/laundry-LA2-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "laundry",
+      "code": "LA1-N4",
+      "jobId": "24e93d61-b01a-463a-8e64-c79b9d108db0",
+      "src": "collected-mineral-assets/laundry-LA1-N4-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "laundry",
+      "code": "LA2-N-R07",
+      "jobId": "65dea08f-d04a-45dc-a845-01715d0f0d2f",
+      "src": "collected-mineral-assets/laundry-LA2-N-R07-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "stair3",
+      "code": "ST31",
+      "jobId": "67f0de0d-06f3-42c6-807b-53eec6f0ef58",
+      "src": "collected-mineral-assets/stair3-ST31-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "stair3",
+      "code": "ST31-N-R07",
+      "jobId": "bc2d2887-25c9-40ce-b9ad-279a95197017",
+      "src": "collected-mineral-assets/stair3-ST31-N-R07-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "loft",
+      "code": "PL1",
+      "jobId": "b4293b31-62cb-4823-9958-b40acb62455c",
+      "src": "collected-mineral-assets/loft-PL1-cm-r04-day.webp",
+      "qa": {
+        "approved": true
+      }
+    },
+    {
+      "room": "loft",
+      "code": "PL2",
+      "jobId": "2acdc0f0-8fcf-482c-8998-bb4cf45e6799",
+      "src": "collected-mineral-assets/loft-PL2-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_view_furniture_continuity_reviewed"
+      }
+    },
+    {
+      "room": "loft",
+      "code": "PL1-CMN",
+      "jobId": "2f88e2d2-74cb-4161-8a65-4dd0e300cb65",
+      "src": "collected-mineral-assets/loft-PL1-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "loft",
+      "code": "PL2-CMN",
+      "jobId": "e746fe93-962b-4f8a-a1db-b29b29c4214f",
+      "src": "collected-mineral-assets/loft-PL2-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "bed5",
+      "code": "B51",
+      "jobId": "c6a777c0-d7ba-4600-9813-00be33ae4d60",
+      "src": "collected-mineral-assets/bed5-B51-cm-r04-day.webp",
+      "qa": {
+        "approved": true
+      }
+    },
+    {
+      "room": "bed5",
+      "code": "B52",
+      "jobId": "0a891556-4e1b-43d3-a30b-6de049904f83",
+      "src": "collected-mineral-assets/bed5-B52-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "plan_reverse_visual_reviewed"
+      }
+    },
+    {
+      "room": "bed5",
+      "code": "B51-CMN",
+      "jobId": "9209d6b8-9148-45b9-832f-cbbf9a6d11ee",
+      "src": "collected-mineral-assets/bed5-B51-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "bed5",
+      "code": "B52-CMN",
+      "jobId": "21683c73-fc4e-4fc7-81ea-c35799522fda",
+      "src": "collected-mineral-assets/bed5-B52-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "bath4",
+      "code": "PBA1",
+      "jobId": "02fba582-7b3b-4472-8d30-febad932f4c7",
+      "src": "collected-mineral-assets/bath4-PBA1-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "bath4",
+      "code": "PBA1-N4",
+      "jobId": "544233aa-8f7c-45c3-a340-3ace3dfa601e",
+      "src": "collected-mineral-assets/bath4-PBA1-N4-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "shared_envelope_preserved"
+      }
+    },
+    {
+      "room": "terrace",
+      "code": "RT1",
+      "jobId": "b645236e-f9a0-41e0-9b9a-6d570b3b65b8",
+      "src": "collected-mineral-assets/terrace-RT1-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "terrace",
+      "code": "RT2",
+      "jobId": "53f34286-ef5e-440f-a4fb-cba22f98ff6a",
+      "src": "collected-mineral-assets/terrace-RT2-cm-r04-day.webp",
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      }
+    },
+    {
+      "room": "terrace",
+      "code": "RT1-CMN",
+      "jobId": "c700e9c2-65c7-470d-ab68-fad6b90ff741",
+      "src": "collected-mineral-assets/terrace-RT1-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    },
+    {
+      "room": "terrace",
+      "code": "RT2-CMN",
+      "jobId": "be52fd27-9054-4052-b801-58f699d250b9",
+      "src": "collected-mineral-assets/terrace-RT2-cm-r04-night.webp",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      }
+    }
+  ],
+  "qualifications": [
+    "Every owned unit is allocated exactly once; new furniture is separately labelled.",
+    "Stock checks are dated observations; missing exact quantity, dimensions or delivery remain labelled pending.",
+    "Bedroom 5 is proposed and unbuilt; terrace model staging/access is a qualified reference until actual conditions are verified.",
+    "Thirteen unchanged camera pairs reuse the approved Mineral & Walnut envelope; thirty-two pairs were newly produced or corrected for Option 3.",
+    "Renders are not manufacturer CAD or measured construction drawings."
+  ],
+  "websiteChecks": {
+    "releaseGateTests": 7,
+    "repositoryTests": 38,
+    "lint": "passed",
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "desktop": [
+      "overview and floor mosaic",
+      "day/night continuous gallery",
+      "floor-wide lightbox progresses from great room to kitchen",
+      "global blueprint modal"
+    ],
+    "mobile": [
+      "390px viewport: no horizontal overflow",
+      "floor selection and room gallery",
+      "owned furniture filter",
+      "visible images load without errors"
+    ],
+    "version": "v2.0.7"
+  }
+}

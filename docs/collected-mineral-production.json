@@ -1,0 +1,931 @@
+{
+  "revision": "CM-R04",
+  "status": "complete",
+  "jobs": [
+    {
+      "room": "ownerbed",
+      "index": 301,
+      "code": "OB1",
+      "job_id": "05bdb753-b6cc-407b-8af3-6f69edf98265",
+      "file": "assets/render-candidates/collected-mineral/r04/core-301.png",
+      "qa": {
+        "approved": true
+      },
+      "qaNote": "Visually reviewed against the approved source camera, current furniture references and plan. Product geometry and fit remain illustrative; verify actual sizes, circulation and samples before purchasing or fabrication.",
+      "status": "completed"
+    },
+    {
+      "room": "ownercloset",
+      "index": 607,
+      "code": "WC1",
+      "job_id": "d5a556ac-8a22-4697-9681-589de51f29a3",
+      "file": "assets/render-candidates/collected-mineral/r04/day-607.png",
+      "qa": {
+        "approved": true
+      },
+      "qaNote": "Visually reviewed against the approved source camera, current furniture references and plan. Product geometry and fit remain illustrative; verify actual sizes, circulation and samples before purchasing or fabrication.",
+      "status": "completed"
+    },
+    {
+      "room": "loft",
+      "index": 304,
+      "code": "PL1",
+      "job_id": "b4293b31-62cb-4823-9958-b40acb62455c",
+      "file": "assets/render-candidates/collected-mineral/r04/day-304.png",
+      "qa": {
+        "approved": true
+      },
+      "qaNote": "Visually reviewed against the approved source camera, current furniture references and plan. Product geometry and fit remain illustrative; verify actual sizes, circulation and samples before purchasing or fabrication.",
+      "status": "completed"
+    },
+    {
+      "room": "office",
+      "index": 600,
+      "code": "O1",
+      "job_id": "9bb4f9f4-3672-40f0-bc75-f109d5743751",
+      "file": "assets/render-candidates/collected-mineral/r04/day-600.png",
+      "qa": {
+        "approved": true
+      },
+      "qaNote": "Visually reviewed against the approved source camera, current furniture references and plan. Product geometry and fit remain illustrative; verify actual sizes, circulation and samples before purchasing or fabrication.",
+      "status": "completed"
+    },
+    {
+      "room": "media",
+      "index": 609,
+      "code": "M1",
+      "job_id": "1bd7462b-0995-4dbc-8660-61d08d99720a",
+      "file": "assets/render-candidates/collected-mineral/r04/day-609.png",
+      "qa": {
+        "approved": true
+      },
+      "qaNote": "Visually reviewed against the approved source camera, current furniture references and plan. Product geometry and fit remain illustrative; verify actual sizes, circulation and samples before purchasing or fabrication.",
+      "model": "nano_banana_2_1",
+      "status": "completed"
+    },
+    {
+      "room": "great",
+      "index": 602,
+      "code": "GR1",
+      "job_id": "cfa35ce5-b0de-4337-92a5-e6582364be42",
+      "file": "assets/render-candidates/collected-mineral/r04/day-602.png",
+      "qa": {
+        "approved": true
+      },
+      "qaNote": "Visually reviewed against the approved source camera, current furniture references and plan. Product geometry and fit remain illustrative; verify actual sizes, circulation and samples before purchasing or fabrication.",
+      "status": "completed"
+    },
+    {
+      "room": "kitchen",
+      "index": 615,
+      "code": "K1",
+      "job_id": "9cce0509-e3d2-41cc-ac06-c22404999443",
+      "file": "assets/render-candidates/collected-mineral/r04/day-615.png",
+      "qa": {
+        "approved": true
+      },
+      "qaNote": "Visually reviewed against the approved source camera, current furniture references and plan. Product geometry and fit remain illustrative; verify actual sizes, circulation and samples before purchasing or fabrication.",
+      "status": "completed"
+    },
+    {
+      "room": "living",
+      "index": 611,
+      "code": "LR1",
+      "job_id": "d75560ec-2676-4ad5-8c42-266f79a012a8",
+      "file": "assets/render-candidates/collected-mineral/r04/day-611.png",
+      "qa": {
+        "approved": true
+      },
+      "qaNote": "Visually reviewed against the approved source camera, current furniture references and plan. Product geometry and fit remain illustrative; verify actual sizes, circulation and samples before purchasing or fabrication.",
+      "status": "completed"
+    },
+    {
+      "room": "sunroom",
+      "index": 406,
+      "code": "S1",
+      "job_id": "1f1bafb7-1900-4dd4-8850-0d256e16c306",
+      "file": "assets/render-candidates/collected-mineral/r04/day-406.png",
+      "qa": {
+        "approved": true
+      },
+      "qaNote": "Visually reviewed against the approved source camera, current furniture references and plan. Product geometry and fit remain illustrative; verify actual sizes, circulation and samples before purchasing or fabrication.",
+      "status": "completed"
+    },
+    {
+      "room": "retreat",
+      "index": 307,
+      "code": "OR1",
+      "job_id": "a7423fd4-788f-43aa-93b9-74f37161d08b",
+      "file": "assets/render-candidates/collected-mineral/r04/day-307.png",
+      "qa": {
+        "approved": true
+      },
+      "qaNote": "Visually reviewed against the approved source camera, current furniture references and plan. Product geometry and fit remain illustrative; verify actual sizes, circulation and samples before purchasing or fabrication.",
+      "status": "completed"
+    },
+    {
+      "room": "bed2",
+      "index": 408,
+      "code": "B21",
+      "job_id": "7c8eebc0-fd39-45e2-9939-72e1869d89b5",
+      "file": "assets/render-candidates/collected-mineral/r04/day-408.png",
+      "qa": {
+        "approved": true
+      },
+      "qaNote": "Visually reviewed against the approved source camera, current furniture references and plan. Product geometry and fit remain illustrative; verify actual sizes, circulation and samples before purchasing or fabrication.",
+      "status": "completed"
+    },
+    {
+      "room": "bed3",
+      "index": 613,
+      "code": "B31",
+      "job_id": "2f333f06-7bd9-4610-bc6b-19865297831a",
+      "file": "assets/render-candidates/collected-mineral/r04/day-613.png",
+      "qa": {
+        "approved": true
+      },
+      "qaNote": "Visually reviewed against the approved source camera, current furniture references and plan. Product geometry and fit remain illustrative; verify actual sizes, circulation and samples before purchasing or fabrication.",
+      "status": "completed"
+    },
+    {
+      "room": "bed5",
+      "index": 614,
+      "code": "B51",
+      "job_id": "c6a777c0-d7ba-4600-9813-00be33ae4d60",
+      "file": "assets/render-candidates/collected-mineral/r04/day-614.png",
+      "qa": {
+        "approved": true
+      },
+      "qaNote": "Visually reviewed against the approved source camera, current furniture references and plan. Product geometry and fit remain illustrative; verify actual sizes, circulation and samples before purchasing or fabrication.",
+      "status": "completed"
+    },
+    {
+      "index": 500,
+      "room": "office",
+      "code": "O2",
+      "job_id": "0a756bcb-f3ee-4589-8bd9-4c71d876f188",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/day-500.png",
+      "secondary": true,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Paired-view visual QA against approved primary and camera source; exact dimensions and unshown openings require field verification.",
+      "status": "completed"
+    },
+    {
+      "index": 501,
+      "room": "media",
+      "code": "M2",
+      "job_id": "8210bd3c-080e-493a-9ba2-6c51e0fee5eb",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/day-501.png",
+      "secondary": true,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Paired-view visual QA against approved primary and camera source; exact dimensions and unshown openings require field verification.",
+      "status": "completed"
+    },
+    {
+      "index": 506,
+      "room": "sunroom",
+      "code": "S2",
+      "job_id": "783cabb8-8628-495b-bdc7-4fd2a6860e36",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/day-506.png",
+      "secondary": true,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Paired-view visual QA against approved primary and camera source; exact dimensions and unshown openings require field verification.",
+      "status": "completed"
+    },
+    {
+      "index": 507,
+      "room": "ownerbed",
+      "code": "OB2",
+      "job_id": "16626782-2318-4d28-8dc7-1d2d80b68d27",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/day-507.png",
+      "secondary": true,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Paired-view visual QA against approved primary and camera source; exact dimensions and unshown openings require field verification.",
+      "status": "completed"
+    },
+    {
+      "index": 508,
+      "room": "retreat",
+      "code": "OR2",
+      "job_id": "2cd7bee7-9d7e-4558-8e52-88b3b7c4ff25",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/day-508.png",
+      "secondary": true,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Paired-view visual QA against approved primary and camera source; exact dimensions and unshown openings require field verification.",
+      "status": "completed"
+    },
+    {
+      "index": 509,
+      "room": "bed2",
+      "code": "B22",
+      "job_id": "9410b531-20c2-4087-a194-f8606a0a6cdd",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/day-509.png",
+      "secondary": true,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Paired-view visual QA against approved primary and camera source; exact dimensions and unshown openings require field verification.",
+      "status": "completed"
+    },
+    {
+      "index": 510,
+      "room": "bed3",
+      "code": "B32",
+      "job_id": "4fd1f516-3dfc-4ec2-bd50-2a9e91984292",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/day-510.png",
+      "secondary": true,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Paired-view visual QA against approved primary and camera source; exact dimensions and unshown openings require field verification.",
+      "status": "completed"
+    },
+    {
+      "index": 619,
+      "room": "dining",
+      "code": "D1",
+      "job_id": "026a04fc-7104-43d6-8135-2b02a19e6eb3",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/day-619.png",
+      "secondary": false,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Targeted geometry/product/count repair checked against source camera and official references; concept visualization, confirm field dimensions.",
+      "status": "completed"
+    },
+    {
+      "index": 617,
+      "room": "terrace",
+      "code": "RT1",
+      "job_id": "b645236e-f9a0-41e0-9b9a-6d570b3b65b8",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/day-617.png",
+      "secondary": false,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Targeted geometry/product/count repair checked against source camera and official references; concept visualization, confirm field dimensions.",
+      "status": "completed"
+    },
+    {
+      "index": 620,
+      "room": "great",
+      "code": "GR2",
+      "job_id": "108d80d0-f1f4-4853-b2d9-2f752862d930",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/day-620.png",
+      "secondary": true,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Targeted geometry/product/count repair checked against source camera and official references; concept visualization, confirm field dimensions.",
+      "status": "completed"
+    },
+    {
+      "index": 621,
+      "room": "kitchen",
+      "code": "K2",
+      "job_id": "0203ad42-2a87-482a-bda3-893556d2b2b2",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/day-621.png",
+      "secondary": true,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Targeted geometry/product/count repair checked against source camera and official references; concept visualization, confirm field dimensions.",
+      "status": "completed"
+    },
+    {
+      "index": 626,
+      "room": "dining",
+      "code": "D2",
+      "job_id": "67efe71f-1a4b-47c0-b76f-9d446b3712ec",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/day-626.png",
+      "secondary": true,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Connected dining/living camera and furniture continuity visually reviewed. Invisible items remain honestly outside camera; measured circulation/product placement requires site check.",
+      "status": "completed"
+    },
+    {
+      "index": 627,
+      "room": "living",
+      "code": "LR2",
+      "job_id": "786b6f1c-07eb-40da-a4fa-eb9d7691ba16",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/day-627.png",
+      "secondary": true,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Connected dining/living camera and furniture continuity visually reviewed. Invisible items remain honestly outside camera; measured circulation/product placement requires site check.",
+      "status": "completed"
+    },
+    {
+      "index": 630,
+      "room": "stair2",
+      "code": "ST1",
+      "job_id": "f9cdba3c-6847-49c4-860e-637164a8bede",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/day-630.png",
+      "secondary": false,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Local adjacent-room furniture/mirror glimpse correction checked against the approved Option3 room; source shell and camera preserved. Site dimensions remain to verify.",
+      "status": "completed"
+    },
+    {
+      "index": 631,
+      "room": "sharedbath",
+      "code": "SB1",
+      "job_id": "e388b91d-dc04-4739-bc1d-90a475d2edd1",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/day-631.png",
+      "secondary": false,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Local adjacent-room furniture/mirror glimpse correction checked against the approved Option3 room; source shell and camera preserved. Site dimensions remain to verify.",
+      "status": "completed"
+    },
+    {
+      "index": 632,
+      "room": "sharedbath",
+      "code": "SB2",
+      "job_id": "4a31fe4c-7bc5-463e-8dca-5ede62b25614",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/day-632.png",
+      "secondary": true,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Local adjacent-room furniture/mirror glimpse correction checked against the approved Option3 room; source shell and camera preserved. Site dimensions remain to verify.",
+      "status": "completed"
+    },
+    {
+      "index": 633,
+      "room": "terrace",
+      "code": "RT2",
+      "job_id": "53f34286-ef5e-440f-a4fb-cba22f98ff6a",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/day-633.png",
+      "secondary": true,
+      "qa": {
+        "approved": true,
+        "status": "reviewed_visual_study"
+      },
+      "qaNote": "Same source camera/shell and visible furniture continuity checked; terrace guard/access is qualified model-home precedent rather than proof of an actual exterior stair. Site dimensions and product fit remain pending.",
+      "status": "completed"
+    },
+    {
+      "index": 629,
+      "room": "bed5",
+      "code": "B52",
+      "job_id": "0a891556-4e1b-43d3-a30b-6de049904f83",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/day-629.png",
+      "secondary": true,
+      "qa": {
+        "approved": true,
+        "status": "plan_reverse_visual_reviewed"
+      },
+      "evidenceType": "Derived reverse camera from blueprint and native geometry guide; proposed unbuilt room",
+      "evidence": "View east from the west headboard end. Headboard and its art are behind the camera; bed foot aims toward the two separated east windows. North dresser lies left and south closet right. Existing B52 front camera was rejected; the new angle uses the approved B51 furniture/material photo plus blueprint and an explicit room geometry guide.",
+      "qaNote": "Reverse topology, compact room proportions, five-drawer Natural dresser and two window-treatment groups visually reviewed against the plan. Proposed unbuilt room; final dimensions, egress, services and occupied clearances require field design and contractor verification.",
+      "status": "completed"
+    },
+    {
+      "index": 634,
+      "room": "loft",
+      "code": "PL2",
+      "job_id": "2acdc0f0-8fcf-482c-8998-bb4cf45e6799",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/day-634.png",
+      "secondary": true,
+      "qa": {
+        "approved": true,
+        "status": "paired_view_furniture_continuity_reviewed"
+      },
+      "qaNote": "Root visual review: the single owned ottoman now lies in front of the far left Cloud end, matching primary304; three sofa modules, two tables, marble plinth, Arc lamp, media console and two Graphite stools remain. Product dimensions and field fit remain to confirm.",
+      "status": "completed"
+    },
+    {
+      "index": 700,
+      "room": "ownerbed",
+      "sourceCode": "OB1",
+      "sourceJobId": "05bdb753-b6cc-407b-8af3-6f69edf98265",
+      "job_id": "13ba4716-77b0-4f3c-8612-c58af2dc1c3b",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-700.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 701,
+      "room": "ownercloset",
+      "sourceCode": "WC1",
+      "sourceJobId": "d5a556ac-8a22-4697-9681-589de51f29a3",
+      "job_id": "0bbde46b-36fc-45bd-89c8-841470f69d00",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-701.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 702,
+      "room": "loft",
+      "sourceCode": "PL1",
+      "sourceJobId": "b4293b31-62cb-4823-9958-b40acb62455c",
+      "job_id": "2f88e2d2-74cb-4161-8a65-4dd0e300cb65",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-702.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 900,
+      "room": "office",
+      "sourceCode": "O1",
+      "sourceJobId": "9bb4f9f4-3672-40f0-bc75-f109d5743751",
+      "job_id": "fd82a1cc-47e6-474b-8a9a-2a08ae915534",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-900.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 704,
+      "room": "media",
+      "sourceCode": "M1",
+      "sourceJobId": "1bd7462b-0995-4dbc-8660-61d08d99720a",
+      "job_id": "f386cf75-7ee8-43ad-ac70-e58c9f87a3a8",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-704.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 906,
+      "room": "great",
+      "sourceCode": "GR1",
+      "sourceJobId": "cfa35ce5-b0de-4337-92a5-e6582364be42",
+      "job_id": "ca804bb6-e8de-45b2-9888-ccd735c3b6a5",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/night-906.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 706,
+      "room": "kitchen",
+      "sourceCode": "K1",
+      "sourceJobId": "9cce0509-e3d2-41cc-ac06-c22404999443",
+      "job_id": "8f54630d-5f95-498c-b3c2-7ad2ac537159",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-706.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 902,
+      "room": "living",
+      "sourceCode": "LR1",
+      "sourceJobId": "d75560ec-2676-4ad5-8c42-266f79a012a8",
+      "job_id": "88b69b0b-6b8b-4a5c-a58e-e85a87023cb5",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-902.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 709,
+      "room": "sunroom",
+      "sourceCode": "S1",
+      "sourceJobId": "1f1bafb7-1900-4dd4-8850-0d256e16c306",
+      "job_id": "6957aaa3-2e39-4abf-b14b-01ceb4a867f0",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-709.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 710,
+      "room": "retreat",
+      "sourceCode": "OR1",
+      "sourceJobId": "a7423fd4-788f-43aa-93b9-74f37161d08b",
+      "job_id": "b9cf0c99-c577-4c4c-b938-6e056b79e96c",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-710.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 711,
+      "room": "bed2",
+      "sourceCode": "B21",
+      "sourceJobId": "7c8eebc0-fd39-45e2-9939-72e1869d89b5",
+      "job_id": "dff4bef4-7e10-409c-8995-9cfae04dd2df",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-711.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 712,
+      "room": "bed3",
+      "sourceCode": "B31",
+      "sourceJobId": "2f333f06-7bd9-4610-bc6b-19865297831a",
+      "job_id": "e0692ff5-c382-41fc-99da-41b1a564c571",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-712.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 903,
+      "room": "bed5",
+      "sourceCode": "B51",
+      "sourceJobId": "c6a777c0-d7ba-4600-9813-00be33ae4d60",
+      "job_id": "9209d6b8-9148-45b9-832f-cbbf9a6d11ee",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-903.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 905,
+      "room": "terrace",
+      "sourceCode": "RT1",
+      "sourceJobId": "b645236e-f9a0-41e0-9b9a-6d570b3b65b8",
+      "job_id": "c700e9c2-65c7-470d-ab68-fad6b90ff741",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-905.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 801,
+      "room": "media",
+      "sourceCode": "M2",
+      "sourceJobId": "8210bd3c-080e-493a-9ba2-6c51e0fee5eb",
+      "job_id": "e9d1fc23-1093-49e4-94b5-53ac20de6969",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-801.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 802,
+      "room": "sunroom",
+      "sourceCode": "S2",
+      "sourceJobId": "783cabb8-8628-495b-bdc7-4fd2a6860e36",
+      "job_id": "658b5fba-e043-4d43-be08-31ae097fb7d5",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-802.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 804,
+      "room": "retreat",
+      "sourceCode": "OR2",
+      "sourceJobId": "2cd7bee7-9d7e-4558-8e52-88b3b7c4ff25",
+      "job_id": "eda127b1-2d90-4dcc-bfb1-04ea7bb6edd4",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-804.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 805,
+      "room": "bed2",
+      "sourceCode": "B22",
+      "sourceJobId": "9410b531-20c2-4087-a194-f8606a0a6cdd",
+      "job_id": "e5f3e6ce-ca8d-42ff-be97-2d142164c1b9",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-805.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Same approved day camera and furniture checked side by side; specified window privacy and selected lighting retained. Visualization only; site commissioning and measured fit remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 907,
+      "room": "office",
+      "sourceCode": "O2",
+      "sourceJobId": "0a756bcb-f3ee-4589-8bd9-4c71d876f188",
+      "job_id": "47e1c82a-b324-4c32-8a9b-081c72d3a18b",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/night-907.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Targeted paired-night repair checked against the exact day camera: no invented fixtures; actual main windows private and separately identified high glazing bare. Site lighting commissioning remains required.",
+      "status": "completed"
+    },
+    {
+      "index": 908,
+      "room": "great",
+      "sourceCode": "GR2",
+      "sourceJobId": "108d80d0-f1f4-4853-b2d9-2f752862d930",
+      "job_id": "0e9d1bae-6bb0-4825-a2d4-3035dbd23474",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/night-908.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Targeted paired-night repair checked against the exact day camera: no invented fixtures; actual main windows private and separately identified high glazing bare. Site lighting commissioning remains required.",
+      "status": "completed"
+    },
+    {
+      "index": 909,
+      "room": "ownerbed",
+      "sourceCode": "OB2",
+      "sourceJobId": "16626782-2318-4d28-8dc7-1d2d80b68d27",
+      "job_id": "60186d6e-1c8c-4ef3-a724-e68a2f79e347",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/night-909.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Targeted paired-night repair checked against the exact day camera: no invented fixtures; actual main windows private and separately identified high glazing bare. Site lighting commissioning remains required.",
+      "status": "completed"
+    },
+    {
+      "index": 910,
+      "room": "bed3",
+      "sourceCode": "B32",
+      "sourceJobId": "4fd1f516-3dfc-4ec2-bd50-2a9e91984292",
+      "job_id": "c863a79c-0544-45de-8c35-abd7d1584350",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/night-910.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Targeted paired-night repair checked against the exact day camera: no invented fixtures; actual main windows private and separately identified high glazing bare. Site lighting commissioning remains required.",
+      "status": "completed"
+    },
+    {
+      "index": 911,
+      "room": "dining",
+      "sourceCode": "D1",
+      "sourceJobId": "026a04fc-7104-43d6-8135-2b02a19e6eb3",
+      "job_id": "3fb39476-a4fc-45dc-ae1b-1b711cf39da6",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/night-911.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Targeted paired-night repair checked against the exact day camera: no invented fixtures; actual main windows private and separately identified high glazing bare. Site lighting commissioning remains required.",
+      "status": "completed"
+    },
+    {
+      "index": 822,
+      "room": "bed5",
+      "sourceCode": "B52",
+      "sourceJobId": "0a891556-4e1b-43d3-a30b-6de049904f83",
+      "job_id": "21683c73-fc4e-4fc7-81ea-c35799522fda",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/night-822.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Exact plan-derived reverse629 preserved: bedfoot aligned to two east windows, both completely blackout-covered, no invented headboard or lighting. Proposed unbuilt room; verify dimensions, egress and lighting on site.",
+      "status": "completed"
+    },
+    {
+      "index": 827,
+      "room": "loft",
+      "sourceCode": "PL2",
+      "sourceJobId": "2acdc0f0-8fcf-482c-8998-bb4cf45e6799",
+      "job_id": "e746fe93-962b-4f8a-a1db-b29b29c4214f",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/night-827.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Exact paired day camera, furniture placement/count, reflected adjacent-room furniture and full visible privacy coverage checked. Dimensions, product fit and site lighting commissioning remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 826,
+      "room": "terrace",
+      "sourceCode": "RT2",
+      "sourceJobId": "53f34286-ef5e-440f-a4fb-cba22f98ff6a",
+      "job_id": "be52fd27-9054-4052-b801-58f699d250b9",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/night-826.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Exact paired day camera, furniture placement/count, reflected adjacent-room furniture and full visible privacy coverage checked. Dimensions, product fit and site lighting commissioning remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 915,
+      "room": "sharedbath",
+      "sourceCode": "SB1",
+      "sourceJobId": "e388b91d-dc04-4739-bc1d-90a475d2edd1",
+      "job_id": "4bc9d607-e227-4f53-a4e5-d15998e11240",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/night-915.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Exact paired day camera, furniture placement/count, reflected adjacent-room furniture and full visible privacy coverage checked. Dimensions, product fit and site lighting commissioning remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 916,
+      "room": "sharedbath",
+      "sourceCode": "SB2",
+      "sourceJobId": "4a31fe4c-7bc5-463e-8dca-5ede62b25614",
+      "job_id": "22da145d-ce91-4f25-b950-438fb7ef9e9c",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/night-916.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Exact paired day camera, furniture placement/count, reflected adjacent-room furniture and full visible privacy coverage checked. Dimensions, product fit and site lighting commissioning remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 917,
+      "room": "kitchen",
+      "sourceCode": "K2",
+      "sourceJobId": "0203ad42-2a87-482a-bda3-893556d2b2b2",
+      "job_id": "9edeacda-05cc-4b7a-a8cf-9a7f343a2ae0",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-917.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Final same-camera shade correction checked against approved day: full main-glass privacy, actual high glazing retained bare, exact furniture/camera and fixed finishes preserved. Site measurements and lighting commissioning remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 918,
+      "room": "dining",
+      "sourceCode": "D2",
+      "sourceJobId": "67efe71f-1a4b-47c0-b76f-9d446b3712ec",
+      "job_id": "086b506f-b9e3-45f6-aa36-5d82a5976652",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-918.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Final same-camera shade correction checked against approved day: full main-glass privacy, actual high glazing retained bare, exact furniture/camera and fixed finishes preserved. Site measurements and lighting commissioning remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 919,
+      "room": "living",
+      "sourceCode": "LR2",
+      "sourceJobId": "786b6f1c-07eb-40da-a4fa-eb9d7691ba16",
+      "job_id": "1d2a79fc-81d4-4bc5-8000-2085df5b8283",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/collected-mineral/r04/night-919.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Final same-camera shade correction checked against approved day: full main-glass privacy, actual high glazing retained bare, exact furniture/camera and fixed finishes preserved. Site measurements and lighting commissioning remain required.",
+      "status": "completed"
+    },
+    {
+      "index": 914,
+      "room": "stair2",
+      "sourceCode": "ST1",
+      "sourceJobId": "f9cdba3c-6847-49c4-860e-637164a8bede",
+      "job_id": "68af9649-addb-419c-ba1d-8dd4b6f6f841",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/collected-mineral/r04/night-914.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_reviewed"
+      },
+      "qaNote": "Final same-camera shade correction checked against approved day: full main-glass privacy, actual high glazing retained bare, exact furniture/camera and fixed finishes preserved. Site measurements and lighting commissioning remain required.",
+      "status": "completed"
+    }
+  ],
+  "releaseVersion": "2.0.7"
+}

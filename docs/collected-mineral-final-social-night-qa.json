@@ -1,0 +1,200 @@
+{
+  "title": "Collected Mineral · final connected/social night approval",
+  "date": "2026-10-12",
+  "status": "all_four_latest_selected_views_pass",
+  "sourcePriority": "Exact approved day source jobs plus local previous-night repair images; historical failures retained below.",
+  "summary": {
+    "historicalAttemptsReviewed": 8,
+    "latestSelectedViews": 4,
+    "latestApproved": 4,
+    "latestRejected": 0,
+    "selectedIndexes": [
+      914,
+      917,
+      918,
+      919
+    ]
+  },
+  "rooms": [
+    {
+      "index": 820,
+      "roomId": "dining",
+      "sourceCode": "D2",
+      "sourceJobId": "67efe71f-1a4b-47c0-b76f-9d446b3712ec",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-626.png",
+      "nightJobId": "7a81822e-bebe-41cb-a941-7fcda2302843",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-820.png",
+      "approved": false,
+      "approvedJobId": null,
+      "selected": false,
+      "reviewedAt": "2026-10-12",
+      "notes": [
+        "Source dining table/eight chairs, owned console/mirror, chandelier and connected piano-salon camera are retained."
+      ],
+      "mustFix": [
+        "Lower glass under the raised rollers remains exposed at the tall dining openings. Fully close all four tall-opening privacy layers while keeping the separate small high arch bare."
+      ],
+      "limits": [
+        "Conceptual source-preservation QA only. Measured opening, shade edge/return and operating details require an actual installed sample; furniture fit and final finishes are not certified from pixels."
+      ],
+      "supersededByIndex": 918
+    },
+    {
+      "index": 821,
+      "roomId": "living",
+      "sourceCode": "LR2",
+      "sourceJobId": "786b6f1c-07eb-40da-a4fa-eb9d7691ba16",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-627.png",
+      "nightJobId": "a23f6d87-6f56-409c-9196-7d5c066a242e",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-821.png",
+      "approved": false,
+      "approvedJobId": null,
+      "selected": false,
+      "reviewedAt": "2026-10-12",
+      "notes": [
+        "Piano, two chairs, sofa, coffee/side table and open dining/stair arrangement match their latest connected day source."
+      ],
+      "mustFix": [
+        "Visible right-side living window lower glass remains exposed beneath raised shade. Fully close the existing privacy layer at that real opening."
+      ],
+      "limits": [
+        "Conceptual source-preservation QA only. Measured opening, shade edge/return and operating details require an actual installed sample; furniture fit and final finishes are not certified from pixels."
+      ],
+      "supersededByIndex": 919
+    },
+    {
+      "index": 823,
+      "roomId": "stair2",
+      "sourceCode": "ST1",
+      "sourceJobId": "f9cdba3c-6847-49c4-860e-637164a8bede",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-630.png",
+      "nightJobId": "e2bcdd15-a80f-4e0f-bf6d-a345232522cf",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-823.png",
+      "approved": false,
+      "approvedJobId": null,
+      "selected": false,
+      "reviewedAt": "2026-10-12",
+      "notes": [
+        "New great-room furniture glimpse, bare oak stair, rail/guard, high glazing and source lights match the latest day."
+      ],
+      "mustFix": [
+        "Adjacent great-room lower terrace glass is open; close only its opaque privacy layer to match the accepted great-room nights. Keep stair high glass bare."
+      ],
+      "limits": [
+        "Conceptual source-preservation QA only. Measured opening, shade edge/return and operating details require an actual installed sample; furniture fit and final finishes are not certified from pixels."
+      ],
+      "supersededByIndex": 914
+    },
+    {
+      "index": 913,
+      "roomId": "kitchen",
+      "sourceCode": "K2",
+      "sourceJobId": "0203ad42-2a87-482a-bda3-893556d2b2b2",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-621.png",
+      "nightJobId": "b11d2a82-ff49-4d1a-91fc-7d973475f57b",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-913.png",
+      "approved": false,
+      "approvedJobId": null,
+      "selected": false,
+      "reviewedAt": "2026-10-12",
+      "notes": [
+        "Kitchen/furniture/appliance/light arrangement remains otherwise consistent."
+      ],
+      "mustFix": [
+        "A black glass strip remains at approximately x=1930–2014, y=884–891 on the 2528 × 1696 canvas. This attempt also raised the far-window sill relative to 912; do not publish. Use 912 as the repair source, preserving its original casing, and extend only the fabric across its strip x=1929–2011, y=939–951."
+      ],
+      "limits": [
+        "Conceptual source-preservation QA only. Measured opening, shade edge/return and operating details require an actual installed sample; furniture fit and final finishes are not certified from pixels."
+      ],
+      "supersededByIndex": 917
+    },
+    {
+      "index": 914,
+      "roomId": "stair2",
+      "sourceCode": "ST1",
+      "sourceJobId": "f9cdba3c-6847-49c4-860e-637164a8bede",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-630.png",
+      "nightJobId": "68af9649-addb-419c-ba1d-8dd4b6f6f841",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-914.png",
+      "approved": true,
+      "approvedJobId": "68af9649-addb-419c-ba1d-8dd4b6f6f841",
+      "selected": true,
+      "reviewedAt": "2026-10-12",
+      "notes": [
+        "Adjacent great-room lower terrace privacy is now fully opaque, matching the accepted great-room scenes.",
+        "High stair windows stay bare/dark with their original white divisions; bare treads, half-level/curved stair arrangement, guard and source lights are unchanged.",
+        "No runner, added fixture or new furniture appears."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Conceptual source-preservation QA only. Measured opening, shade edge/return and operating details require an actual installed sample; furniture fit and final finishes are not certified from pixels."
+      ]
+    },
+    {
+      "index": 917,
+      "roomId": "kitchen",
+      "sourceCode": "K2",
+      "sourceJobId": "0203ad42-2a87-482a-bda3-893556d2b2b2",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-621.png",
+      "nightJobId": "9edeacda-05cc-4b7a-a8cf-9a7f343a2ae0",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-917.png",
+      "approved": true,
+      "approvedJobId": "9edeacda-05cc-4b7a-a8cf-9a7f343a2ae0",
+      "selected": true,
+      "reviewedAt": "2026-10-12",
+      "notes": [
+        "Far-window privacy face now covers all formerly exposed black strip down to the ORIGINAL sill; the unrequested raised sill from 913 is not used.",
+        "Kitchen cabinets, refrigerator, island sink, C1 material, arches, two pendants and actual source lighting are unchanged.",
+        "This is paired with day 621 and a local repair of night 912; no lower uncovered glass remains."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Conceptual source-preservation QA only. Measured opening, shade edge/return and operating details require an actual installed sample; furniture fit and final finishes are not certified from pixels."
+      ]
+    },
+    {
+      "index": 918,
+      "roomId": "dining",
+      "sourceCode": "D2",
+      "sourceJobId": "67efe71f-1a4b-47c0-b76f-9d446b3712ec",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-626.png",
+      "nightJobId": "086b506f-b9e3-45f6-aa36-5d82a5976652",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-918.png",
+      "approved": true,
+      "approvedJobId": "086b506f-b9e3-45f6-aa36-5d82a5976652",
+      "selected": true,
+      "reviewedAt": "2026-10-12",
+      "notes": [
+        "All FOUR tall dining openings have complete opaque face coverage from their heads through the actual lower glass/sills.",
+        "Separate SMALL high arched opening stays fully bare/dark with its actual white divisions.",
+        "Barley twist-leg table, eight Nicola chairs, owned console/mirror, Spiridon, piano-salon glimpse, source fixture count and camera are preserved."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Conceptual source-preservation QA only. Measured opening, shade edge/return and operating details require an actual installed sample; furniture fit and final finishes are not certified from pixels."
+      ]
+    },
+    {
+      "index": 919,
+      "roomId": "living",
+      "sourceCode": "LR2",
+      "sourceJobId": "786b6f1c-07eb-40da-a4fa-eb9d7691ba16",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-627.png",
+      "nightJobId": "1d2a79fc-81d4-4bc5-8000-2085df5b8283",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-919.png",
+      "approved": true,
+      "approvedJobId": "1d2a79fc-81d4-4bc5-8000-2085df5b8283",
+      "selected": true,
+      "reviewedAt": "2026-10-12",
+      "notes": [
+        "Visible right living-window bank has complete opaque privacy across the lower glass previously left exposed; sheers and original casings remain.",
+        "Piano/bench, two chairs, compact sofa, Tate/Martini tables, rug, original lamps and open dining/stair geometry remain unchanged.",
+        "The high stair glass is still bare/dark; no new lamp, cove or picture-light fixture appears."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Conceptual source-preservation QA only. Measured opening, shade edge/return and operating details require an actual installed sample; furniture fit and final finishes are not certified from pixels."
+      ]
+    }
+  ]
+}

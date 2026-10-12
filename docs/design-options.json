@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-11",
   "options": [
     {
       "id": "model-home",
@@ -9,7 +9,7 @@
       "status": "Original photography",
       "href": "model-home.html",
       "hero": "design-library-assets/second-floor-great-room.jpg.webp",
-      "summary": "The builder’s furnished home, preserved as our starting point. Classic trim, warm wood, patterned wallcoverings and statement lighting give each room its original character.",
+      "summary": "The builder\u2019s furnished home, preserved as our starting point. Classic trim, warm wood, patterned wallcoverings and statement lighting give each room its original character.",
       "tags": [
         "Original photographs",
         "All four floors",
@@ -29,12 +29,12 @@
       "label": "Option 1",
       "name": "Mineral & Walnut",
       "subtitle": "Warm modern living, with a boutique-hotel feel",
-      "status": "Mineral & Walnut · Warm stone + original neutral palette",
+      "status": "Mineral & Walnut \u00b7 Warm stone + original neutral palette",
       "href": "house-design-review.html#floor-1/entry",
       "hero": "design-review-assets/floor-2-r02-great-mw-neutral-r01-GR1.webp",
       "summary": "Warm mineral walls, natural oak and rich walnut with selected pearl onyx-, quartzite- and limestone-look porcelain. Ivory, oatmeal and charcoal textiles preserve the original bedroom identities; exposed oak stairs connect the floors.",
       "tags": [
-        "24 spaces · 45 day/night pairs",
+        "24 spaces \u00b7 45 day/night pairs",
         "Materials & build book",
         "Room-by-room revisions"
       ],
@@ -61,15 +61,15 @@
       "label": "Option 2",
       "name": "Cocoa & Chrome",
       "subtitle": "Brown oak, polished stainless, white upholstery, blue & butter yellow",
-      "status": "Whole-house design · In review",
+      "status": "Whole-house design \u00b7 In review",
       "href": "cocoa-chrome.html#floor-1/entry",
       "hero": "cocoa-chrome-assets/floor-2-cc-r03-great-GR1.webp",
       "heroRoom": "Great room",
       "summary": "Brown oak and polished stainless connect varied cabinet and console designs, all on solid bases without legs. White Cloud seating, warm stone walls, natural oak floors and off-white drapes frame blue artwork, small butter-yellow accents and plants.",
       "tags": [
-        "24 spaces · 45 views",
-        "Owned furniture · build book",
-        "Brown oak · stainless · blue"
+        "24 spaces \u00b7 45 views",
+        "Owned furniture \u00b7 build book",
+        "Brown oak \u00b7 stainless \u00b7 blue"
       ],
       "palette": [
         "#c7beb2",
@@ -115,6 +115,37 @@
           ]
         ]
       }
+    },
+    {
+      "id": "collected-mineral",
+      "number": 3,
+      "label": "Option 3",
+      "name": "Collected Mineral",
+      "subtitle": "Warm mineral architecture, your owned collection and considered new pieces",
+      "status": "Complete design \u00b7 owned & new furniture",
+      "href": "collected-mineral.html#floor-2/great",
+      "hero": "collected-mineral-assets/great-GR1-cm-r04-day.webp",
+      "heroRoom": "Great room",
+      "summary": "Warm mineral walls, natural oak, walnut and selected stone-look finishes create a coherent home around all 39 pieces you already own. New selections complete the rooms, with coordinated lighting and a detailed contractor build brief.",
+      "tags": [
+        "24 spaces \u00b7 45 day/night pairs",
+        "29 owned types \u00b7 39 allocated units",
+        "Owned & new furniture \u00b7 build book"
+      ],
+      "palette": [
+        "#ded5c8",
+        "#eee9df",
+        "#68503b",
+        "#42433d",
+        "#59634d"
+      ],
+      "buildBook": "collected-mineral-build-book.html",
+      "furniture": "collected-mineral-furniture.html",
+      "overview": "collected-mineral-overview.html",
+      "review": {
+        "mediaDirectory": "collected-mineral-assets"
+      },
+      "readyGate": "docs/collected-mineral-design.json"
     }
   ]
 }

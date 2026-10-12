@@ -6,6 +6,7 @@ interface OptionContext {
 
 const mineral = (page: string): OptionContext => ({ name: 'Mineral & Walnut', href: '/mineral-walnut.html', page })
 const cocoa = (page: string): OptionContext => ({ name: 'Cocoa & Chrome', href: '/cocoa-chrome-overview.html', page })
+const collected = (page: string): OptionContext => ({ name: 'Collected Mineral', href: '/collected-mineral-overview.html', page })
 const optionPages: Record<string, OptionContext> = {
   'house-design-review.html': mineral('Room renders'),
   'room-design-book.html': mineral('Materials & build book'),
@@ -17,6 +18,9 @@ const optionPages: Record<string, OptionContext> = {
   'design-library-assets/collected-value-consultation.html': mineral('Collected Value furniture'),
   'cocoa-chrome.html': cocoa('Room renders'),
   'cocoa-chrome-build-book.html': cocoa('Materials & build book'),
+  'collected-mineral.html': collected('Room renders'),
+  'collected-mineral-build-book.html': collected('Materials & build book'),
+  'collected-mineral-furniture.html': collected('Owned & new furniture'),
 }
 
 function escapeHtml(value: string): string {

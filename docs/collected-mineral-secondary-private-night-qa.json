@@ -1,0 +1,157 @@
+{
+  "revision": "CM-SECONDARY-PRIVATE-NIGHT-QA-R04",
+  "date": "2026-10-12",
+  "scope": "Exact paired private companion day/night comparisons",
+  "interpretationNote": "Visual curtain closure does not certify measured blackout performance, liner opacity or installation returns. All real sleeping-room openings need specified opaque layers; do not drape solid walls or interior transoms.",
+  "images": [
+    {
+      "roomId": "ownerbed",
+      "code": "OB2-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-803.png",
+      "pairedDay": "assets/render-candidates/collected-mineral/r04/day-507.png",
+      "approved": false,
+      "checks": [
+        "Same owned plain-panel Modena king, two Bezier OPEN bedsides/two Bates lamps, eight-drawer dresser/TV/soundbar, art/rug and camera retained.",
+        "No new bed LED, sconces, bench or furniture.",
+        "Western four-window bank lies behind camera."
+      ],
+      "mustFix": [
+        "High INTERNAL transom above paired east doors appears opaque beige/textured, like an added privacy panel or fabric shade. Restore bare interior glass with dim warm reflected ceiling/hall; no fabric panel, roller shade or added curtain on this interior transom. Keep existing casing, doors and all other pixels."
+      ],
+      "notes": [
+        "The transom is an interior architectural opening, not an exterior privacy window; dim glass can reflect the room but should not become a new textured fabric finish."
+      ]
+    },
+    {
+      "roomId": "retreat",
+      "code": "OR2-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-804.png",
+      "pairedDay": "assets/render-candidates/collected-mineral/r04/day-508.png",
+      "approved": true,
+      "checks": [
+        "Same two shelter swivel chairs, open cube table/task lamp, rug, bar/sink/fridge, ceiling and camera.",
+        "Both south window units and all three west-bank units covered continuously with no visible exterior glazing/daylight strip.",
+        "Window treatments stay within real opening walls, not the adjoining bedroom or solid return."
+      ],
+      "mustFix": [],
+      "notes": [
+        "Opaque lining/back layers and returns remain an installation specification, not a claim certified by image."
+      ]
+    },
+    {
+      "roomId": "bed2",
+      "code": "B22-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-805.png",
+      "pairedDay": "assets/render-candidates/collected-mineral/r04/day-509.png",
+      "approved": true,
+      "checks": [
+        "Same paired front opening, narrow side window/desk, right closet and bed-foot camera.",
+        "Front bank covered completely; narrow left Roman shade reaches bottom of glass.",
+        "Exactly two nickel Orbiter task lights, two cropped open wood tables and Carbon rug/oak remain.",
+        "No invented ceiling fixture, alternate bed or additional doorway."
+      ],
+      "mustFix": [],
+      "notes": []
+    },
+    {
+      "roomId": "bed3",
+      "code": "B32-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-806.png",
+      "pairedDay": "assets/render-candidates/collected-mineral/r04/day-510.png",
+      "approved": false,
+      "checks": [
+        "Natural Keane bed, Natural storage, two white Amaryllis mini lamps, art/rug/oak and camera remain.",
+        "All three opening groups covered fully with no exposed exterior glazing."
+      ],
+      "mustFix": [
+        "A LARGE DRUM CEILING PENDANT appears at top-center, absent from exact paired day510 and outside the selected furniture/lighting specification. Remove this added drum fixture and its dedicated light spill. Retain the source ceiling shape and the two Amaryllis lamps; no replacement fixture or new cove."
+      ],
+      "notes": [
+        "If a real ceiling fixture is later deliberately specified, revise BOTH day and night plus contractor schedule together; do not invent it only in night."
+      ]
+    },
+    {
+      "roomId": "loft",
+      "code": "PL2-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-807.png",
+      "pairedDay": "assets/render-candidates/collected-mineral/r04/day-511.png",
+      "approved": true,
+      "checks": [
+        "Same three white Cloud sofa seats plus ONE ottoman, two round Machinto tables, Carrara plinth coffee, nickel Arc II and plinth media console.",
+        "Two Rome stool seats remain Graphite; bar, pendants, tray and camera retained.",
+        "French doors, both small flank windows, wide terrace slider and bar window all fully covered; no exposed lower strips/outdoor view.",
+        "No extra chairs, table lamps, colored cushion accent or new lighting fixture."
+      ],
+      "mustFix": [],
+      "notes": [
+        "Owned stool seat height and actual console/135in sofa footprints require measurement; rendering is not a fit certification."
+      ],
+      "supersededBy": "assets/render-candidates/collected-mineral/r04/night-827.png"
+    },
+    {
+      "roomId": "ownerbed",
+      "code": "OB2-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-909.png",
+      "pairedDay": "assets/render-candidates/collected-mineral/r04/day-507.png",
+      "approved": true,
+      "checks": [
+        "Interior high transom is bare glass with warm interior reflections; false opaque shade/panel removed.",
+        "Same Modena PANEL king, two Bezier OPEN bedside units/two Bates lamps, four-by-two drawer dresser, TV/soundbar and wall/door/camera composition.",
+        "No new curtain over solid headwall or invented bed LEDs/wall lamps."
+      ],
+      "notes": [
+        "Render includes a thin central division in transom glazing; verify actual glazing subdivisions on site. This photo-informed visualization is not a measured glazing shop drawing."
+      ]
+    },
+    {
+      "roomId": "bed3",
+      "code": "B32-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-910.png",
+      "pairedDay": "assets/render-candidates/collected-mineral/r04/day-510.png",
+      "approved": true,
+      "checks": [
+        "Added drum ceiling pendant removed; ceiling now matches accepted day view.",
+        "Exactly two white Amaryllis mini lamps, Natural Keane bed/storage, loose neutral rug and room camera retained.",
+        "All three real window groups covered completely; no exposed glazing or daylight strip."
+      ],
+      "notes": []
+    },
+    {
+      "roomId": "bed5",
+      "code": "B52-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-822.png",
+      "pairedDay": "assets/render-candidates/collected-mineral/r04/day-629.png",
+      "approved": true,
+      "checks": [
+        "Both EAST window openings have completely closed opaque curtain layers to floor; no exposed glass, side slit or daylight strip.",
+        "Same genuine west-headboard-end reverse: headboard/art/bedside lamps remain behind camera, bed foot points directly toward covered east pair.",
+        "Natural Keane dresser remains NORTH/LEFT with exactly five drawer rows; SOUTH closet remains RIGHT.",
+        "Same Anneli bed foot, duvet/throw, loose rug/oak, plant, compact enclosure and flat ceiling.",
+        "No invented pendant, wall lamps, LED under-bed strip or curtains on solid side/head walls."
+      ],
+      "notes": [
+        "Proposed/unbuilt Bedroom5; rendering does not verify construction measurements, closet hardware or physical blackout performance.",
+        "Warm illumination comes from the selected bedside lighting outside this camera; no extra fixture is specified by the image."
+      ]
+    },
+    {
+      "roomId": "loft",
+      "code": "PL2-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-827.png",
+      "pairedDay": "assets/render-candidates/collected-mineral/r04/day-634.png",
+      "approved": true,
+      "checks": [
+        "Exact corrected left-ottoman staging retained: THREE Cloud sofa seats plus ONE detached ottoman at FAR LEFT end.",
+        "Same TWO round Machinto sides, ONE Carrara coffee, ONE Arc II, TWO Graphite Rome stools and ONE wood-plinth media console; no extra chair or lamp.",
+        "South French-door glass, both small flank windows, bar window and entire west slider have complete opaque privacy coverage to sills/edges; no exposed exterior glass or outdoor view.",
+        "Same bar fixture inventory, tray, openings, camera, rug and oak. Only lighting/privacy state changed."
+      ],
+      "notes": [
+        "Curtain/blind opacity performance and operative track clearances remain physical specifications requiring samples and site measurements.",
+        "Warm reflective metal highlights do not change owned Nickel/stainless finish."
+      ],
+      "mustFix": [],
+      "supersedes": "assets/render-candidates/collected-mineral/r04/night-807.png"
+    }
+  ]
+}

@@ -19,6 +19,14 @@ const reviewFiles = [
   'floor-three-design-review.html', 'floor-four-design-review.html',
 ]
 const reviewDirectories = ['design-review-assets', 'design-library-assets', 'current-furniture-assets', 'stone-linen-assets', 'cocoa-chrome-assets', 'interior-guide-assets', 'mineral-walnut-stone-assets']
+const collectedMineralFiles = ['collected-mineral.html', 'collected-mineral-overview.html', 'collected-mineral-build-book.html', 'collected-mineral-furniture.html']
+async function collectedMineralReady() {
+  try {
+    const design = JSON.parse(await fs.readFile(path.join(repo, 'docs/collected-mineral-design.json'), 'utf8')) as { status?: string }
+    const gallery = await fs.readFile(path.join(repo, 'docs/collected-mineral.html'), 'utf8')
+    return design.status === 'complete' && gallery.includes('<meta name="home-708-option-status" content="complete">')
+  } catch { return false }
+}
 
 // Serve the same saved review pages in development and in the deployed app.
 // Only public review documents and their media are exposed, not the whole docs directory.
@@ -53,7 +61,9 @@ function designLibrary(): Plugin {
           else res.end(body)
           return
         }
-        const isReview = reviewFiles.includes(requested) || reviewDirectories.some(dir => requested.startsWith(`${dir}/`))
+        const isCollectedMineral = collectedMineralFiles.includes(requested) || requested.startsWith('collected-mineral-assets/')
+        const isReview = reviewFiles.includes(requested) || reviewDirectories.some(dir => requested.startsWith(`${dir}/`)) || (isCollectedMineral && await collectedMineralReady())
+        if (isCollectedMineral && !isReview) { res.statusCode = 404; res.end('Option preparation is not public.'); return }
         const isPublicHtml = path.extname(requested).toLowerCase() === '.html' && Boolean(server.config.publicDir)
         if (!isReview && !isPublicHtml) return next()
         if (requested.split('/').some(part => part === '..' || part === '.') || requested.includes('\\')) { res.statusCode = 400; res.end(); return }
@@ -85,6 +95,10 @@ function designLibrary(): Plugin {
       if (!output) return
       for (const file of reviewFiles) await fs.copyFile(path.join(repo, 'docs', file), path.join(output, file))
       for (const dir of reviewDirectories) await fs.cp(path.join(repo, 'docs', dir), path.join(output, dir), { recursive: true })
+      if (await collectedMineralReady()) {
+        for (const file of collectedMineralFiles) await fs.copyFile(path.join(repo, 'docs', file), path.join(output, file))
+        await fs.cp(path.join(repo, 'docs/collected-mineral-assets'), path.join(output, 'collected-mineral-assets'), { recursive: true })
+      }
       async function stampDirectory(directory: string) {
         for (const entry of await fs.readdir(directory, { withFileTypes: true })) {
           const file = path.join(directory, entry.name)

@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-11",
+  "revision": "r04-social-secondary-01",
+  "status": "four_companions_require_targeted_repairs",
+  "sourceDesign": "docs/collected-mineral-design.json",
+  "sourceOwnedInventory": "docs/current-furniture.json",
+  "requestMapping": "assets/render-candidates/collected-mineral/r04/secondary-requests.json",
+  "rooms": [
+    {
+      "index": 500,
+      "roomId": "office",
+      "code": "O2",
+      "candidateFile": "assets/render-candidates/collected-mineral/r04/day-500.png",
+      "baselineFile": "assets/render-candidates/mineral-walnut-floor-one/r05/office-o2-day-a2.png",
+      "primaryReference": "assets/render-candidates/collected-mineral/r04/day-600.png",
+      "approved": true,
+      "status": "approved_visual_study",
+      "architectureApproved": true,
+      "checks": [
+        "O2 reverse camera keeps paired main glazing on left, circular portico window on gallery wall, clear double doors offset right, large left printer/art zone and full TV/library wall on right.",
+        "Alora open waterfall-sided desk with fine fluted apron, two fully upholstered Nicola visitor chairs and one Coal mesh task chair carry primary600 furniture scheme.",
+        "Printer remains on compact door-side cabinet; no new opening in the O1 southwest window corner."
+      ],
+      "blockingIssues": [],
+      "minimalRepairPrompt": "",
+      "officialProductRefs": [],
+      "limits": [
+        "Qualitative image review only; no dimensions, fit, circulation, ordering readiness or construction compliance are certified.",
+        "Official product photographs, selected specifications and measured site conditions govern purchasing and installation."
+      ]
+    },
+    {
+      "index": 501,
+      "roomId": "media",
+      "code": "M2",
+      "candidateFile": "assets/render-candidates/collected-mineral/r04/day-501.png",
+      "baselineFile": "assets/render-candidates/mineral-walnut-floor-one/r05/media-m2-day-a2.png",
+      "primaryReference": "assets/render-candidates/collected-mineral/r04/day-609.png",
+      "approved": true,
+      "status": "approved_visual_study",
+      "architectureApproved": true,
+      "checks": [
+        "M2 source camera retains TV left, Cloud sofa right, clear west gallery entry and right-of-door display niche; no false exterior opening appears inside.",
+        "Two identifiable ottomans, one at far sofa end and one near end, match corrected609; foreground sofa seat/arm is not a third independent ottoman.",
+        "Quiet TV halo, wide walnut console, soundbar, grilles and warm neutral finishes match609. Main real window lies behind camera, so its drape layers are judged from609."
+      ],
+      "blockingIssues": [],
+      "minimalRepairPrompt": "",
+      "officialProductRefs": [],
+      "limits": [
+        "Qualitative image review only; no dimensions, fit, circulation, ordering readiness or construction compliance are certified.",
+        "Official product photographs, selected specifications and measured site conditions govern purchasing and installation."
+      ]
+    },
+    {
+      "index": 502,
+      "roomId": "great",
+      "code": "GR2",
+      "candidateFile": "assets/render-candidates/collected-mineral/r04/day-502.png",
+      "baselineFile": "assets/render-candidates/mineral-walnut-architecture/r01/great-gr2-day.png",
+      "primaryReference": "assets/render-candidates/collected-mineral/r04/day-602.png",
+      "approved": false,
+      "status": "targeted_repair_required",
+      "architectureApproved": true,
+      "checks": [
+        "Two horizontal transoms, terrace glazing, flat crown ceiling, fireplace/TV, sibling artworks and sofa/two swivel/two square-end-table counts retained.",
+        "Companion camera stays in inherited GR2 camera family; primary and inherited GR2 are already near-angle studies, not orthogonal room-survey views."
+      ],
+      "blockingIssues": [
+        {
+          "severity": "blocking",
+          "part": "Tate coffee-table form",
+          "reason": "Full-width enclosed drawer box loses the narrow central shallow drawer and open short rail areas at both ends visible in the catalogue and corrected602."
+        }
+      ],
+      "minimalRepairPrompt": "Edit only the coffee table in day502. Keep the existing GR2 camera, every opening, fireplace, consoles and all seating. Match official Tate48 walnut storage table and approved602: slim rectangular top with gently softened edge, one narrower CENTRAL shallow drawer with small wood pull, OPEN end areas with short curved horizontal rails on BOTH sides of that drawer, four slim tapered legs. Do not use a full-width box drawer or full lower shelf. Preserve tabletop styling and table placement.",
+      "officialProductRefs": [
+        "docs/collected-mineral-assets/products/cm-social-great-tate48.webp"
+      ],
+      "limits": [
+        "Qualitative image review only; no dimensions, fit, circulation, ordering readiness or construction compliance are certified.",
+        "Official product photographs, selected specifications and measured site conditions govern purchasing and installation."
+      ]
+    },
+    {
+      "index": 503,
+      "roomId": "kitchen",
+      "code": "K2",
+      "candidateFile": "assets/render-candidates/collected-mineral/r04/day-503.png",
+      "baselineFile": "assets/render-candidates/mineral-walnut-floor-two/r06/kitchen-k2-day-a3.png",
+      "primaryReference": "assets/render-candidates/collected-mineral/r04/day-615.png",
+      "approved": false,
+      "status": "targeted_repair_required",
+      "architectureApproved": true,
+      "checks": [
+        "Reverse K2 shell retains left arch/powder door and guard, refrigerator bank, right cooktop/hood edge, island sink/dishwasher position and through-menu/pantry corridor.",
+        "Warm C1 stone, dome pendant pair and natural oak/mineral palette remain coherent."
+      ],
+      "blockingIssues": [
+        {
+          "severity": "blocking",
+          "part": "Counter-stool physical placement",
+          "reason": "Three visible stools were placed on the sink/dishwasher cabinet face inside the working galley aisle. Plan and primary615 put the four stools on the opposite seating overhang, outside this aisle. Do not force all four into a view that cannot see their actual side."
+        },
+        {
+          "severity": "blocking",
+          "part": "Refrigerator cross-view consistency",
+          "reason": "503 shows old side-by-side doors with dispenser;615 shows selected French-door pair over lower freezer drawer. Same physical kitchen cannot retain both forms."
+        }
+      ],
+      "minimalRepairPrompt": "Use day503 as the exact K2 camera, preserving all walls, arch offsets and appliance positions. Remove ALL stools from the sink/dishwasher/work-aisle face. The same FOUR Nord stools in primary615 belong ONLY on the OPPOSITE seating overhang face; their bodies may be obscured or out of this K2 crop, and do not invent a seating ledge in the working aisle. Keep dishwasher fully accessible and restore continuous galley clearance. Replace only refrigerator front with the SAME French-door stainless pair over bottom freezer drawer shown615, no side-by-side dispenser. Match primary615 cabinet/stone treatment across visible surfaces without changing island size or sink location.",
+      "officialProductRefs": [
+        "docs/collected-mineral-assets/products/cm-social-kitchen-nord.webp"
+      ],
+      "limits": [
+        "Qualitative image review only; no dimensions, fit, circulation, ordering readiness or construction compliance are certified.",
+        "Official product photographs, selected specifications and measured site conditions govern purchasing and installation."
+      ]
+    },
+    {
+      "index": 504,
+      "roomId": "dining",
+      "code": "D2",
+      "candidateFile": "assets/render-candidates/collected-mineral/r04/day-504.png",
+      "baselineFile": "assets/render-candidates/mineral-walnut-plan/r07/dining-d2-day-a2.png",
+      "primaryReference": "assets/render-candidates/collected-mineral/r04/day-612.png",
+      "approved": false,
+      "status": "targeted_repair_required",
+      "architectureApproved": false,
+      "checks": [
+        "Continuous open dining/living junction, flat ceiling, primary dining window banks and future piano at the living end remain.",
+        "Barley table has actual barley-twist corner legs and twisted low stretcher; this matches current PB catalogue more closely than plain turned legs in612.",
+        "One Cabrera console and one Short/Tall Vessel pair appear on the left physical mirror wall; no second owned pair is counted."
+      ],
+      "blockingIssues": [
+        {
+          "severity": "blocking",
+          "part": "Nicola chair form",
+          "reason": "Eight-chair concept retained but visible legs are brown wood and chair profile is the old generic source shape. Current selected Nicola frames and legs must all be Natural upholstery."
+        },
+        {
+          "severity": "blocking",
+          "part": "Owned round mirror omitted",
+          "reason": "Source artwork remains above Cabrera. The same owned42 polished-stainless round mirror from612 must appear above this physical console wall."
+        },
+        {
+          "severity": "blocking",
+          "part": "Architecture \u2014 invented left interior opening",
+          "reason": "New small arched window and ledge inserted on the left interior pier beside the living junction, absent in baselineD2. D1 small high arch belongs to its actual exterior wall and must not be duplicated onto this interior wall."
+        },
+        {
+          "severity": "blocking",
+          "part": "Adjacent living furniture cross-view",
+          "reason": "Living glimpse keeps source-old second sofa/tables instead of the sole east-window Retreat78 and two Shelter chairs of611. Carry the same physical arrangement into the visible junction."
+        }
+      ],
+      "minimalRepairPrompt": "Target day504 only; preserve exact D2 first-source camera and correct Barley104 twist-leg table/Spiridon chandelier/Cabrera console. Replace ALL visible dining chairs with eight Natural Nicola Slope chairs, three each long side plus one each end, fully upholstered FRAME AND LEGS with gently sloping tall backs and low side returns. Replace art above the left Cabrera with the SAME42 polished-stainless ROUND mirror from612; its circle projects naturally in this oblique view. Keep one Short/Tall Vessel pair only. Remove the invented small arched opening/ledge from the LEFT INTERIOR PIER by living junction and restore sourceD2 solid wall there; no duplicated exterior high window. At the living end show only same east-window Retreat78/two Shelter/piano arrangement from611 as actually visible; remove the source-old second sofa without relocating windows or the piano.",
+      "officialProductRefs": [
+        "docs/collected-mineral-assets/products/cm-social-dining-nicola.webp",
+        "docs/collected-mineral-assets/products/cm-social-dining-barley104.webp",
+        "docs/current-furniture-assets/round-mirror.webp"
+      ],
+      "limits": [
+        "Qualitative image review only; no dimensions, fit, circulation, ordering readiness or construction compliance are certified.",
+        "Official product photographs, selected specifications and measured site conditions govern purchasing and installation."
+      ]
+    },
+    {
+      "index": 505,
+      "roomId": "living",
+      "code": "LR2",
+      "candidateFile": "assets/render-candidates/collected-mineral/r04/day-505.png",
+      "baselineFile": "assets/render-candidates/mineral-walnut-plan/r07/living-lr2-day-a2.png",
+      "primaryReference": "assets/render-candidates/collected-mineral/r04/day-611.png",
+      "approved": false,
+      "status": "targeted_repair_required",
+      "architectureApproved": true,
+      "checks": [
+        "Correct LR2 architectural camera includes actual stair/landing/guard, solid piano wall, east-window edge and continuous open dining junction.",
+        "Future baby-grand now clearly has keyboard, curved body, open lid, bench and pedals in the correct north/piano-wall zone; polished-nickel Martini is recognisable."
+      ],
+      "blockingIssues": [
+        {
+          "severity": "blocking",
+          "part": "Living seating placement and quantity",
+          "reason": "Retreat78 is placed at the source-old west/entry-side second-sofa position facing east. Approved611 has the sole Retreat78 along the east windows facing west; in this reverse view that sofa is on the camera side/foreground. Only one Shelter is clearly retained in the conversation group."
+        },
+        {
+          "severity": "blocking",
+          "part": "Tate coffee-table form",
+          "reason": "Generic full-width box drawer instead of the central shallow drawer with open rail areas at both ends."
+        },
+        {
+          "severity": "blocking",
+          "part": "Adjacent dining cross-view products",
+          "reason": "Dining glimpse has source-old plain-leg table, wood-leg generic chairs and brown console/art. Must be actual Barley twist-leg table, eight upholstered-leg Nicola and single charcoal Cabrera/round stainless mirror/vessel pair."
+        }
+      ],
+      "minimalRepairPrompt": "Use day505 as the exact LR2 camera; leave stair/landing/guard, all windows/openings, open dining junction and future baby-grand fixed. Remove the west/entry-side source-old sofa. The ONLY Retreat78 is physically on the EAST WINDOW wall as in611, facing west; from this reverse camera it belongs at the camera-side foreground with its back/side potentially cropped, never across the west entry route. Put TWO Natural Shelter swivels in the same southern conversation positions of611; allow truthful crop/occlusion but no substituted second sofa. Keep one polished-nickel Martini by a chair. Match official Tate48 with narrow central shallow drawer/open rail gaps each end/slim tapered legs; no full-width drawer box/lower shelf. In visible dining background carry the same Barley104 rectangular TWIST-leg table, eight Natural FULLY UPHOLSTERED-LEG Nicola, one Charcoal Cabrera under42 polished-stainless round mirror and one Vessel Short/Tall pair. No old brown console or artwork in place of mirror. Preserve actual room size, piano bench sweep and entrance circulation; no enlarged house.",
+      "officialProductRefs": [
+        "docs/collected-mineral-assets/products/cm-social-living-retreat78.webp",
+        "docs/collected-mineral-assets/products/cm-social-great-shelter-natural.webp",
+        "docs/collected-mineral-assets/products/cm-social-great-tate48.webp",
+        "docs/collected-mineral-assets/products/cm-social-dining-barley104.webp"
+      ],
+      "limits": [
+        "Qualitative image review only; no dimensions, fit, circulation, ordering readiness or construction compliance are certified.",
+        "Official product photographs, selected specifications and measured site conditions govern purchasing and installation."
+      ]
+    },
+    {
+      "index": 506,
+      "roomId": "sunroom",
+      "code": "S2",
+      "candidateFile": "assets/render-candidates/collected-mineral/r04/day-506.png",
+      "baselineFile": "assets/render-candidates/mineral-walnut-architecture/r01/sunroom-s2-day.png",
+      "primaryReference": "assets/render-candidates/collected-mineral/r04/day-406.png",
+      "approved": true,
+      "status": "approved_visual_study",
+      "architectureApproved": true,
+      "checks": [
+        "Closer S2 camera retains two left plus three rear banks/transoms/knee walls, left appliance-column edge and right terrace glass door.",
+        "Exactly six recognisable Emery seats: four armless side chairs, two track-arm end chairs, white textured upholstery and polished-stainless rectangular bases.",
+        "One thin EspressoWalnut72 Maslow rectangle and polished-aluminum spider/X base match406; no new Parsons/Nicola or owned furniture duplication.",
+        "Bare natural oak and six-globe dark pendant match primary406."
+      ],
+      "blockingIssues": [],
+      "minimalRepairPrompt": "",
+      "officialProductRefs": [],
+      "limits": [
+        "Qualitative image review only; no dimensions, fit, circulation, ordering readiness or construction compliance are certified.",
+        "Official product photographs, selected specifications and measured site conditions govern purchasing and installation."
+      ]
+    },
+    {
+      "index": 616,
+      "roomId": "terrace",
+      "code": "RT1",
+      "candidateFile": "assets/render-candidates/collected-mineral/r04/day-616.png",
+      "baselineFile": "assets/render-candidates/mineral-walnut-architecture/r01/terrace-rt1-day.png",
+      "primaryReference": null,
+      "approved": true,
+      "status": "approved_visual_study",
+      "architectureApproved": true,
+      "checks": [
+        "Rooftop source camera/pergola framing, shade sails/string-light spans, metal guard, tile grid and source privacy wall/fireplace/urban mansard context preserved.",
+        "Rope dining backs corrected to light upholstered back/seat on Balmain teak frames; two lounge chairs have broad solid Balmain arm/side boards.",
+        "Mesa coffee/dining show signature rectangular hoop/end frames with low connecting end rails; one sofa/one coffee/one dining/two lounge arrangement retained.",
+        "Unscheduled giant egg pod is removed. Three near-side dining chairs and one far-side partial are identifiable; remaining far-side chairs may be obscured by table height/camera, so all six are not pixel-certified.",
+        "Retained fireplace-side stone cube must be recorded as NEW supporting/fitted scope, not an owned inventory allocation. Sofa cushion segmentation and exact factory joinery remain illustrative."
+      ],
+      "blockingIssues": [],
+      "minimalRepairPrompt": "",
+      "officialProductRefs": [
+        "docs/collected-mineral-assets/products/cm-social-terrace-rh-mesa108-sofa.webp",
+        "docs/collected-mineral-assets/products/cm-social-terrace-rh-mesa60-coffee.webp",
+        "docs/collected-mineral-assets/products/cm-social-terrace-rh-mesa72-dining.webp",
+        "docs/collected-mineral-assets/products/cm-social-terrace-rh-balmain-dining6.webp",
+        "docs/collected-mineral-assets/products/cm-social-terrace-rh-balmain-lounge.webp"
+      ],
+      "limits": [
+        "Qualitative image review only; no dimensions, fit, circulation, ordering readiness or construction compliance are certified.",
+        "Official product photographs, selected specifications and measured site conditions govern purchasing and installation."
+      ]
+    }
+  ],
+  "approvedIndices": [
+    500,
+    501,
+    506,
+    616
+  ],
+  "repairIndices": [
+    502,
+    503,
+    504,
+    505
+  ],
+  "additionalPrimaryObservation": {
+    "index": 612,
+    "roomId": "dining",
+    "note": "Current official Barley photo requires barley-TWIST legs and matching twisted low stretcher.612 plain turned legs should be corrected if regenerated;504 carries the closer actual table form."
+  },
+  "notes": [
+    "No seed, production manifest, product inventory or canonical assets were edited.",
+    "Night derivatives should use corrected companion image only after its targeted repairs pass."
+  ]
+}

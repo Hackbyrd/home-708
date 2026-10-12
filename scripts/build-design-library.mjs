@@ -3,10 +3,14 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import console from 'node:console';
 import { buildCurrentFurniture } from './design-library/current-furniture.mjs';
+import { buildCollectedMineral } from './build-collected-mineral.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const docs = path.join(root, 'docs');
-const library = JSON.parse(await fs.readFile(path.join(docs, 'design-options.json'), 'utf8'));
+const savedLibrary = JSON.parse(await fs.readFile(path.join(docs, 'design-options.json'), 'utf8'));
+const collectedMineral = await buildCollectedMineral({ root });
+// A complete option is public only after all cameras, paired nights and owned units pass its release gate.
+const library = { ...savedLibrary, options: savedLibrary.options.filter(option => option.id !== 'collected-mineral' || collectedMineral.ready).map(option => option.id === 'collected-mineral' ? { ...option, hero: collectedMineral.hero } : option) };
 const catalog = JSON.parse(await fs.readFile(path.join(root, 'apps/web/src/redesign-catalog.json'), 'utf8'));
 const esc = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 const media = path.join(docs, 'design-library-assets');
@@ -25,6 +29,7 @@ const optionLandingHref = {
   'model-home': 'model-home.html',
   'mineral-walnut': 'mineral-walnut.html',
   'cocoa-chrome': 'cocoa-chrome-overview.html',
+  'collected-mineral': 'collected-mineral-overview.html',
 };
 const options = library.options.map(option => {
   const href = optionLandingHref[option.id] || option.href;

@@ -1,0 +1,1722 @@
+{
+  "revision": "CM-PRIVATE-R06",
+  "date": "2026-10-12",
+  "status": "all13_private_room_design_templates_ready_new_purchases_stock_confirmation_pending",
+  "sourcePlan": "assets/render-candidates/collected-mineral/current-plan.json",
+  "sourceInventory": "docs/current-furniture.json",
+  "rooms": [
+    {
+      "id": "ownerbed",
+      "ownedIds": [
+        "modena-king",
+        "bezier-nightstand",
+        "bezier-dresser",
+        "bates-table-lamp",
+        "hadiza-rug"
+      ],
+      "ownedItems": [
+        {
+          "id": "modena-king",
+          "name": "Modena Fabric Nontufted Panel Platform Bed",
+          "quantity": 1,
+          "finish": "Grey Oak",
+          "fabric": "Italian Textured Weave",
+          "color": "White",
+          "size": "King \u00b7 48\" headboard",
+          "productUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22040017?swatch=601002",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod22040017_E614802044_TQ_Frank_RHR?",
+          "photoLimitation": "Photo: Brown Oak feet. Yours: Grey Oak feet. White upholstery matches."
+        },
+        {
+          "id": "bezier-nightstand",
+          "name": "Bezier Open Nightstand",
+          "quantity": 2,
+          "finish": "Brown Oak / Polished Stainless Steel",
+          "fabric": null,
+          "color": null,
+          "size": "26\"",
+          "productUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod7450241?swatch=555010",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod7880578_E97516879_F_CC_RHR",
+          "photoLimitation": null
+        },
+        {
+          "id": "bezier-dresser",
+          "name": "Bezier 8-Drawer Low Dresser",
+          "quantity": 1,
+          "finish": "Brown Oak / Polished Stainless Steel",
+          "fabric": null,
+          "color": null,
+          "size": null,
+          "productUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod7880588",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod7450252_E7518543_F_RHR",
+          "photoLimitation": "Photo: Brass hardware. Yours: Polished Stainless Steel."
+        },
+        {
+          "id": "bates-table-lamp",
+          "name": "Bates Table Lamp",
+          "quantity": 2,
+          "finish": "Polished Nickel",
+          "fabric": null,
+          "color": null,
+          "size": null,
+          "productUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod18950526?swatch=421012",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod18950526_E813261414_F_rebg_RHR?",
+          "photoLimitation": null
+        },
+        {
+          "id": "hadiza-rug",
+          "name": "Hadiza Handwoven Wool Rug",
+          "quantity": 1,
+          "finish": "Cream / Sand",
+          "fabric": null,
+          "color": null,
+          "size": "8\u2032 \u00d7 10\u2032",
+          "productUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28240143?fullSkuId=10079711+SDBC&categoryId=search",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod23460055_E916670846_O_RHR?",
+          "photoLimitation": "Cream/Sand catalog photo \u2014 size unverified."
+        }
+      ],
+      "newItems": [],
+      "designIntent": "A mineral hotel-like bedroom using the actual owned plain-panel king, open-cubby bedside pair and eight-drawer dresser. Simplify additional custom timber rather than duplicating owned furniture.",
+      "materials": [
+        "Warm mushroom mineral/Roman Clay dry focal surface; warm ivory matte painted remaining walls.",
+        "Continuous matte neutral natural oak and existing light trim.",
+        "Ivory sheers plus separate oatmeal blackout layer at every real exterior bedroom/retreat opening."
+      ],
+      "architectureLocks": [
+        "16 x17ft nominal. North/printed-right solid headboard wall; FOUR sash units west/printed-top.",
+        "South TV55/soundbar on solid shower-backed wall. Real arched bath/closet access farther EAST; no invented doorway between TV and west windows.",
+        "East paired suite doors/transom, open southwest retreat connection; match latest R07 OB1/OB2."
+      ],
+      "promptForEachExistingDayCode": {
+        "OB1": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nOWNERS BEDROOM: Replace the old platform, custom floating bedside drawers and wall lamps with the actual owned RH MODENA NONTUFTED PANEL KING: 48-inch plain rectangular PANEL headboard, WHITE Italian Textured Weave, low upholstered rails and GREY OAK feet. No wings/channeling/canopy; do not accidentally substitute the owned queen SHELTER. The official reference depicts Brown Oak feet; render GREY Oak instead. Bed remains on north solid headwall. Remove the full reddish-walnut headwall band and replace with a calm continuous mushroom/mineral plaster surface; retain the paired neutral dark-framed art above. TWO owned BEZIER OPEN NIGHTSTANDS, 26-inch, Brown Oak/Polished Stainless Steel: thick straight carcass, LARGE OPEN UPPER CUBBY, ONE lower drawer, bright silver horizontal reveal, continuous recessed floor plinth/no little legs. Do not render the two-drawer closed version. TWO owned BATES table lamps in POLISHED NICKEL, one on each nightstand, with actual sculpture/shade form, not additional sconces. Remove all obsolete wall lamps and new bed/bedside/dresser LED glows; owned beds/furniture are not altered for LEDs. ONE owned BEZIER EIGHT-DRAWER LOW DRESSER in Brown Oak/POLISHED STAINLESS, exactly FOUR ROWS of TWO side-by-side drawers =eight. Its photo has BRASS reveals; render SILVER stainless instead. Place that ONE dresser on the solid TV wall beneath 55-inch TV and slim soundbar, replacing the old tall TV dresser. Do not create a second copy of the owned dresser under west windows; omit old duplicated loose dresser unless a separate retained/custom window shelf is explicitly documented. Hadiza CREAM/SAND 8 x10ft owned rug under the king with TEN-FOOT dimension across the bed and eight-foot dimension projecting toward foot, laid below nightstands and clear of routes; exposed oak perimeter. Neutral white/oatmeal bedding, no colored bedroom accents. Four west sash units retain ivory sheers plus functional opaque blackout layer stacked open. Preserve latest R07 true access/door placement in each angle.\n\nEXACT CAMERA OB1: Four west sash units retained at original camera; invented rectangle between left TV/dresser and window bank removed. Solid headwall, canonical neutral platform/bench/art/bedside drawers, oak/rug and layered curtains retained. True access lies outside source crop.",
+        "OB2": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nOWNERS BEDROOM: Replace the old platform, custom floating bedside drawers and wall lamps with the actual owned RH MODENA NONTUFTED PANEL KING: 48-inch plain rectangular PANEL headboard, WHITE Italian Textured Weave, low upholstered rails and GREY OAK feet. No wings/channeling/canopy; do not accidentally substitute the owned queen SHELTER. The official reference depicts Brown Oak feet; render GREY Oak instead. Bed remains on north solid headwall. Remove the full reddish-walnut headwall band and replace with a calm continuous mushroom/mineral plaster surface; retain the paired neutral dark-framed art above. TWO owned BEZIER OPEN NIGHTSTANDS, 26-inch, Brown Oak/Polished Stainless Steel: thick straight carcass, LARGE OPEN UPPER CUBBY, ONE lower drawer, bright silver horizontal reveal, continuous recessed floor plinth/no little legs. Do not render the two-drawer closed version. TWO owned BATES table lamps in POLISHED NICKEL, one on each nightstand, with actual sculpture/shade form, not additional sconces. Remove all obsolete wall lamps and new bed/bedside/dresser LED glows; owned beds/furniture are not altered for LEDs. ONE owned BEZIER EIGHT-DRAWER LOW DRESSER in Brown Oak/POLISHED STAINLESS, exactly FOUR ROWS of TWO side-by-side drawers =eight. Its photo has BRASS reveals; render SILVER stainless instead. Place that ONE dresser on the solid TV wall beneath 55-inch TV and slim soundbar, replacing the old tall TV dresser. Do not create a second copy of the owned dresser under west windows; omit old duplicated loose dresser unless a separate retained/custom window shelf is explicitly documented. Hadiza CREAM/SAND 8 x10ft owned rug under the king with TEN-FOOT dimension across the bed and eight-foot dimension projecting toward foot, laid below nightstands and clear of routes; exposed oak perimeter. Neutral white/oatmeal bedding, no colored bedroom accents. Four west sash units retain ivory sheers plus functional opaque blackout layer stacked open. Preserve latest R07 true access/door placement in each angle.\n\nEXACT CAMERA OB2: Genuinely reverse camera near west bank toward east, headwall/bed left and TV/dresser right. Paired east doors with transom correctly offset toward south; real south arch near east/vestibule. Canonical bed/art/consoles/floor/rug retained. Window bank behind camera rather than invented ahead."
+      },
+      "existingDaySources": [
+        {
+          "code": "OB1",
+          "jobId": "a3281582-593d-4d2d-8f9a-f7b0b001d75b",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob1-day.png",
+          "evidenceType": "Photo-based architectural revision"
+        },
+        {
+          "code": "OB2",
+          "jobId": "d868013a-e77f-4625-807f-c648a53ce90d",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ob2-day.png",
+          "evidenceType": "Plan-derived reverse camera constrained by corrected source-photo primary and builder plan"
+        }
+      ],
+      "nightLighting": "Night comes only from the accepted matching day: exactly two owned Bates lamps softly dimmed2700K, existing ceiling lighting low, TV off, all four west bedroom and every connected retreat blackout fully closed. No added sconces or glowing furniture/bed bases.",
+      "measurementNotes": [
+        "Measure owned king footprint, BOTH 26-inch nightstands and actual dresser W/D/H; 16ft headwall must fit the complete group without blocking opening routes.",
+        "Actual8x10 rug10ft dimension across bed: not a9x12 rug and should not be under the nightstands; verify king foot-to-rug edge.",
+        "One owned dresser only; window-side old generated dresser is not owned inventory and must not be automatically duplicated.",
+        "Bates size/shade overall dimensions unprovided. Existing wall-sconce circuits can be safely removed/blanked or repurposed by electrician; no hidden bed retrofit assumed."
+      ]
+    },
+    {
+      "id": "retreat",
+      "ownedIds": [],
+      "ownedItems": [],
+      "newItems": [
+        {
+          "id": "shelter-chair",
+          "brand": "RH",
+          "name": "1950s Italian Shelter Arm Swivel Chair \u2014 current stocked edition",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+          "role": "Compact lounge chair",
+          "quantity": 2,
+          "finish": "Natural Performance Linen Weave; Sand stocked sibling available",
+          "dimensions": "31 W \u00d7 32.5 D \u00d7 30 H in; seat 18 H.",
+          "availability": {
+            "status": "unverified_current",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Prior official configured stock evidence datedOct9 retained in previousAvailability; a new liveZIP quantity/delivery check was not available in this agent. Do not claim reverified October11.",
+            "deliveryVerified": false
+          },
+          "reason": "Verified neutral sale chair is a compact sculptural alternative to large lounge pieces.",
+          "fitNotes": "Comfort trial for soft supportive sitting; allow swivel space. Two chairs replace two retreat chaises and are a different seating experience.",
+          "phase": "later",
+          "decision": "visual_design_candidate_stock_recheck_needed",
+          "replaces": [
+            "Modena Slope Arm Chaise"
+          ],
+          "sku": "61060801 NONA",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod20580100_E414854120_TQ_CC_RHR?",
+          "saleVerified": false,
+          "ownership": "new",
+          "previousAvailability": {
+            "status": "in_stock",
+            "evidence": "Exact variant shown in RH IN-STOCK modal. Availability is a dated snapshot, not a reservation.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/12/26 and 10/16/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod20580100",
+            "method": "Existing October 9 live RH product/IN-STOCK modal evidence retained from project stock audit.",
+            "configuration": {
+              "depth": "Classic 32\u00bd in",
+              "fabric": "Performance Linen Weave",
+              "color": "Natural",
+              "sku": "61060801 NONA",
+              "stockedSibling": {
+                "color": "Sand",
+                "sku": "61060801 NOSN",
+                "deliveryMessage": "Ready for delivery between 10/20/26 and 10/29/26 for 20878."
+              }
+            },
+            "quantityNote": "Stocked configuration verified, but the combined chair quantity across all rooms is not checked. In the retreat, pair with optional footstools only after a measured layout and comfort trial."
+          },
+          "saleVerifiedCurrent": false,
+          "historicalUnitPrice": {
+            "checkedAt": "2026-10-09",
+            "low": 1245,
+            "high": 1245,
+            "kind": "member_sale",
+            "note": "Exact member sale; regular reference $2,100. Membership, tax and delivery excluded."
+          },
+          "historicalSaleVerified": true
+        },
+        {
+          "id": "enzo-side18",
+          "brand": "RH",
+          "name": "Enzo Square Side Table \u2014 stocked 18-inch Caramel Walnut",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+          "role": "Walnut side table",
+          "quantity": 1,
+          "finish": "Caramel Walnut",
+          "dimensions": "18 W \u00d7 18 D \u00d7 20 H in; 48 lb.",
+          "availability": {
+            "status": "unverified_current",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Prior official configured stock evidence datedOct9 retained in previousAvailability; a new liveZIP quantity/delivery check was not available in this agent. Do not claim reverified October11.",
+            "deliveryVerified": false
+          },
+          "reason": "Small sale walnut piece carries material continuity at a much lower price than a matching suite.",
+          "fitNotes": "Square replaces round Gael; no drawer. A seating side table, not a storage nightstand.",
+          "phase": "later",
+          "decision": "visual_design_candidate_stock_recheck_needed",
+          "replaces": [
+            "Gael Walnut Round Side Table"
+          ],
+          "sku": "10138471 CRWL",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$",
+          "saleVerified": false,
+          "ownership": "new",
+          "previousAvailability": {
+            "status": "in_stock",
+            "evidence": "Exact SKU in live IN-STOCK modal; current Dimensions show 18-inch square, 20 H, 48 lb.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+            "method": "Existing October 9 live RH product/IN-STOCK modal evidence retained from project stock audit.",
+            "configuration": {
+              "size": "18-inch square /20 H inches",
+              "finish": "Caramel Walnut",
+              "sku": "10138471 CRWL"
+            },
+            "quantityNote": "A compact stocked option replacing the unavailable round Gael side table. This changes the shape to square. Multiple-room total quantities are not checked."
+          },
+          "saleVerifiedCurrent": false,
+          "historicalUnitPrice": {
+            "checkedAt": "2026-10-09",
+            "low": 545,
+            "high": 545,
+            "kind": "member_sale",
+            "note": "Exact member sale; regular reference $1,655. Membership, tax and delivery excluded."
+          },
+          "historicalSaleVerified": true
+        }
+      ],
+      "designIntent": "Two compact neutral sculptural swivel chairs with a small warm-walnut table, leaving coffee bar and open-suite circulation more usable than the earlier chaise pair.",
+      "materials": [
+        "Warm ivory/mushroom mineral drywalls and matte neutral natural oak in dry rooms; wet rooms suitable porcelain.",
+        "Neutral ivory/oatmeal/charcoal textiles, dark frames/hardware and plants; no forcedblue/yellow/chrome decoration."
+      ],
+      "architectureLocks": [
+        "12ft3x10ft nominal. THREE real WEST sash units and TWO SOUTH side units; cropped source does not prove a two-unitwest total.",
+        "Retain actual bar alcove/return, sink/beverage fridge and open bedroom connection; no new door or mandatory optionalFrench door."
+      ],
+      "promptForEachExistingDayCode": {
+        "OR1": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nOWNERS RETREAT: Replace old chaise pair with TWO NEW RH1950s Italian Shelter Arm SWIVEL chairs, Natural Performance Linen Weave31W x32.5D x30H, compact soft curved shelter arms/back and concealed swivelbase. TWO chairs only, no chaises/ottomans. ONE NEW RH Enzo18x18x20H open cube side table, CaramelWalnut, between chairs; no additional unallocated ownedMachinto18table. Keep existing muted walnut coffee bar, sink/counter/beverage fridge/upper shelves and barreturn exactly. THREE real west sash units and TWO sidewall units retain white frames; do not terminate bank aftertwo or add optionalnorthFrench door. Ivorysheers plus opaque oatmealblackout at ALL real exteriorunits because this space is OPENtoownersbedroom. In OR1 ifbedroomglimpse visible, match accepted Option3ownerbed: whiteModenaPANELKING/GreyOakfeet, warmcontinuousmineralheadwall/pairedart, BezierOPEN26bedsides+2BatesPN, no oldwalnutband/floatingdrawers/bedLED. Do not invent additionalfurniture or alterbar/connection to forcechairview. Crownrooftops outside.\n\nEXACT CAMERA OR1: Retreat bar camera now shows coordinated platform-bed suite, walnut headwall/ink art, oak/loose rug and floating bedside treatment.",
+        "OR2": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nOWNERS RETREAT: Replace old chaise pair with TWO NEW RH1950s Italian Shelter Arm SWIVEL chairs, Natural Performance Linen Weave31W x32.5D x30H, compact soft curved shelter arms/back and concealed swivelbase. TWO chairs only, no chaises/ottomans. ONE NEW RH Enzo18x18x20H open cube side table, CaramelWalnut, between chairs; no additional unallocated ownedMachinto18table. Keep existing muted walnut coffee bar, sink/counter/beverage fridge/upper shelves and barreturn exactly. THREE real west sash units and TWO sidewall units retain white frames; do not terminate bank aftertwo or add optionalnorthFrench door. Ivorysheers plus opaque oatmealblackout at ALL real exteriorunits because this space is OPENtoownersbedroom. In OR1 ifbedroomglimpse visible, match accepted Option3ownerbed: whiteModenaPANELKING/GreyOakfeet, warmcontinuousmineralheadwall/pairedart, BezierOPEN26bedsides+2BatesPN, no oldwalnutband/floatingdrawers/bedLED. Do not invent additionalfurniture or alterbar/connection to forcechairview. Crownrooftops outside.\n\nEXACT CAMERA OR2: Window-count/camera guide succeeds: THREE visible sash units on west/right facade, TWO south/ahead; source bar/return, two ivory chaise/round table, real head/sill and compact nook remain. No optional door or invented partition. Blackout layers stacked in day."
+      },
+      "existingDaySources": [
+        {
+          "code": "OR1",
+          "jobId": "ca32fda2-ad08-4924-b9ea-7aacc24b5098",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/retreat-or1-day-31513.png",
+          "evidenceType": "Photo-based architectural revision"
+        },
+        {
+          "code": "OR2",
+          "jobId": "8e051d22-a206-4555-a1d2-06c22e6b22cf",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-or2-day-a3.png",
+          "evidenceType": "Photo-based architectural revision"
+        }
+      ],
+      "nightLighting": "Use identical accepted day and same chairs/table/bar/fittings. Close allTHREE west+TWO south actualopaque sleep layers where visible; the open bedroomconnection staysopen. Existing barunder-cabinet lowwarm tasklight and dimmed ceiling; no added tablelamps/unselectedbedroomLED or door.",
+      "measurementNotes": [
+        "Chair comfort/swivel envelope,18intable and actualbarroute needtapeout.",
+        "New retail stock is dated priorOctober9, not a fresh reservation; pair chairquantity/combinedwholehouse units needreview.",
+        "OR1barcamera mayshow onlyglimpse/no chairs; keep honest camera not panoramicreimagining."
+      ]
+    },
+    {
+      "id": "ownerbath",
+      "ownedIds": [],
+      "ownedItems": [],
+      "newItems": [],
+      "designIntent": "Retain the approved A pearl onyx-look porcelain sanctuary; furniture reuse does not justify replacing a correctly resolved wet-area shell.",
+      "materials": [
+        "Warm ivory/mushroom mineral drywalls and matte neutral natural oak in dry rooms; wet rooms suitable porcelain.",
+        "Neutral ivory/oatmeal/charcoal textiles, dark frames/hardware and plants; no forcedblue/yellow/chrome decoration."
+      ],
+      "architectureLocks": [
+        "One REALsouth dry exteriorwindow near tub/vanity. Apparentleft/showerwindow is reflection of that sameopening; showerwall backsbedroom andisSOLID.",
+        "14ft8x18ft8 nominal: east tubfocalalcove/art, southlongvanity, northshower, westseparateWC.",
+        "BA1/BA2 latest R07 reflection/camera govern; no secondactualshowerwindow."
+      ],
+      "promptForEachExistingDayCode": {
+        "BA1": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nOWNERS BATH: Preserve EXACT current R07A pearlONYX-LOOKPORCELAIN surfaces, pale suitablefloor, walnutfittedvanity, tub/focalart, showerglass, faucets/mirrors/sconces and WC/entrytopology. There isONLYONE REAL drysouthwindow byvanity/tub. Any apparentleftwindow is a reflectiononshowerglass of that SAMEdryopening, with identicalshape/grid/shadeposition; do NOT carvea realwindow in bedroom-backed showerwall or specifyseparate showerwindowfilm. Keepapprovedrestrainedneutralart and existing tiny mutedplum bathroomtowel/art nuance only if present; do not introducenewcolorsorbedroomaccents. No looseconsole, chandelier, freestandingstorage or copiedBrownOak/stainlessbedroomdrawers inwetroom. Retain sourcecamera and ceiling. Single drywindow moisture-resistant privacyshade, no fabricdrapes inside shower.\n\nEXACT CAMERA BA1: Source camera, single real dry window, plain ceiling, tub/vanity/showers retained. Left glazing now reveals solid onyx shower wall with subtle room reflection rather than an independent exterior opening. Study A art, plum towels and walnut palette preserved.",
+        "BA2": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nOWNERS BATH: Preserve EXACT current R07A pearlONYX-LOOKPORCELAIN surfaces, pale suitablefloor, walnutfittedvanity, tub/focalart, showerglass, faucets/mirrors/sconces and WC/entrytopology. There isONLYONE REAL drysouthwindow byvanity/tub. Any apparentleftwindow is a reflectiononshowerglass of that SAMEdryopening, with identicalshape/grid/shadeposition; do NOT carvea realwindow in bedroom-backed showerwall or specifyseparate showerwindowfilm. Keepapprovedrestrainedneutralart and existing tiny mutedplum bathroomtowel/art nuance only if present; do not introducenewcolorsorbedroomaccents. No looseconsole, chandelier, freestandingstorage or copiedBrownOak/stainlessbedroomdrawers inwetroom. Retain sourcecamera and ceiling. Single drywindow moisture-resistant privacyshade, no fabricdrapes inside shower.\n\nEXACT CAMERA BA2: True tub-end reverse with south double vanity left, north polygonal shower right, WC door/enclosure ahead-left beside vanity end. Removed wrong far dry window including remaining header, removed wrong west-end bath entry. Single actual dry window and main entry lie behind/alongside camera at east end. Canonical fixtures/Study A/walnut/neutral floor retained; inferred reverse elevation needs field verification."
+      },
+      "existingDaySources": [
+        {
+          "code": "BA1",
+          "jobId": "82595540-d73f-459c-996d-f9d652155323",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba1-day.png",
+          "evidenceType": "Photo-based architectural revision"
+        },
+        {
+          "code": "BA2",
+          "jobId": "bff14f98-b810-4eda-a1cc-c9ec3a83cfde",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day-a3.png",
+          "evidenceType": "Plan-derived reverse camera constrained by corrected source-photo primary and builder plan"
+        }
+      ],
+      "nightLighting": "Exactacceptedday atnight: realdrywindowshadefullyclosed; reflectedappearance mustshowSAMEclosedshade/grid, no openbluereflection. Existingvanity/tasklights gentlywarm andrecessedambientlow. Keep allporcelain/joinery/art/fixtures; no neonstonebacklighting or invented chandelier.",
+      "measurementNotes": [
+        "StudyAporcelainactualmodule/seam/support/waterproofsubstrate/edge detailing tobechosenbycontractor.",
+        "Onlyone exteriorwindowtreatment counted; apparentreflectiondoesnotauthorize secondopening.",
+        "RetainseparateWCroom and actualdooroffsets perplan."
+      ]
+    },
+    {
+      "id": "ownercloset",
+      "ownedIds": [
+        "clio-vanity",
+        "blythe-stool",
+        "leaner-mirror"
+      ],
+      "ownedItems": [
+        {
+          "id": "clio-vanity",
+          "name": "Clio Shagreen Vanity Desk \u2014 Pewter",
+          "quantity": 1,
+          "finish": "Frost Shagreen / Pewter",
+          "fabric": null,
+          "color": null,
+          "size": null,
+          "productUrl": "https://rh.com/us/en/catalog/product/product.jsp?productId=rhbc_prod961591",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/rhbc_prod961591_E513655419_FP_XBC_ReBG_RHR?",
+          "photoLimitation": "Photo: Pebble Grey Shagreen. Yours: Frost Shagreen. Pewter matches."
+        },
+        {
+          "id": "blythe-stool",
+          "name": "Blythe Kashmir Faux Fur Stool \u2014 Pewter",
+          "quantity": 1,
+          "finish": "Pewter",
+          "fabric": null,
+          "color": null,
+          "size": null,
+          "productUrl": "https://rh.com/us/en/catalog/product/product.jsp/rhtn_prod105597",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/rhtn_prod105597_E51106572_F_CC_RHR?",
+          "photoLimitation": null
+        },
+        {
+          "id": "leaner-mirror",
+          "name": "Metal Floating Leaner Mirror",
+          "quantity": 1,
+          "finish": "Polished Stainless Steel",
+          "fabric": null,
+          "color": null,
+          "size": "41\" \u00d7 77\"",
+          "productUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod12310142?swatch=1435004",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod12310128_E19799224_F_RHR?",
+          "photoLimitation": "Stainless collection reference; legacy size is unconfirmed."
+        }
+      ],
+      "newItems": [],
+      "designIntent": "A measured-layout trial inserting an owned vanity/stool/full-length mirror into an explicitly reconfigured perimeter-storage bay; retain the windowless enclosure and usable aisle.",
+      "materials": [
+        "Fitted warm ivory carcasses, muted walnut drawer fronts, natural oak floor.",
+        "Owned Frost shagreen/pewter desk, white faux fur/pewter stool, stainless leaner are localized getting-ready pieces."
+      ],
+      "architectureLocks": [
+        "8ft5x11ft nominal, windowless, inward entry door at WEST/printed-top; U-shaped perimeter storage on both long walls and far end.",
+        "No island or invented free wall. Any vanity bay REPLACES existing perimeter modules instead of adding depth into aisle.",
+        "Keep three-sided storage: the long-wall vanity/mirror segment has reduced storage; opposite long wall and far end retain fitted modules."
+      ],
+      "promptForEachExistingDayCode": {
+        "WC1": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nOWNERS WALK-IN CLOSET CONCEPT: Keep SAME8ft5x11ft windowless enclosure, entry-camera perspective, flat ceiling, door swing, opposite long-wall storage and far-end storage. Deliberately replace a measured segment of ONE long-side perimeter storage run with a dedicated getting-ready BAY; do NOT invent an empty fourth wall or an island. In that reallocated bay show actual owned CLIO SHAGREEN VANITY DESK with three shallow top drawers/open knee space and square slab sides, FROST SHAGREEN/PEWTER. Product reference is Pebble Grey; render the much lighter FROST cool ivory finish with subtle shagreen texture, no dark marble or brown wood. The desk is freestanding owned furniture within a planned bay, not new duplicate cabinet. ONE owned BLYTHE KASHMIR FAUX-FUR stool, white fluffy cylindrical seat with PEWTER low round plinth, tucks beneath knee opening. ONE owned METAL FLOATING LEANER mirror,41x77in POLISHED STAINLESS, full-length RECTANGLE, secured/leaning within a neighboring floor-height part of that same reallocated long-wall bay. Keep mirror beside desk rather than filling all knee space or trapping its lower reflection behind desk. Closet modules must shorten/remove around actual desk+mirror footprint; do not shrink the products, widen room, add windows or hide the loss of storage. Preserve fitted ivory shelves/walnut drawer accents elsewhere and pale-oak floor with plain neutral loose aisle rug. All vanity/stool/mirror dimensions except mirror are unknown, so visualize a plausible explicit CONCEPT bay with depth consistent with existing storage; no verified fit claim. Keep entry swing and central walk route open, stool tucked for circulation.\n\nEXACT CAMERA WC1: Windowless U-shaped plan-led closet remains; oak and separate runner preserve aisle. Cabinet modules remain illustrative."
+      },
+      "existingDaySources": [
+        {
+          "code": "WC1",
+          "jobId": "5eaabe4e-d5fc-4b4b-96c6-90d77959e487",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/ownercloset-wc1-day.png",
+          "evidenceType": "Plan-led concept \u00b7 no room photograph"
+        }
+      ],
+      "nightLighting": "Same accepted day/furniture/camera, existing ceiling downlights and subtle under-shelf lights only. Vanity face illumination may use one future task fixture indicated as planning, never magically attached bulbs on the owned mirror. No exterior daylight or added windows.",
+      "measurementNotes": [
+        "Critical: measure actual Clio W/D/H/knee opening and Blythe seatH/diameter; not supplied in inventory.",
+        "Mirror owned41x77in; lean angle, securement and viewing distance need verification. Do not claim a full-length view if placed behind vanity.",
+        "If desk+41-inch mirror cannot fit one long-wall segment plus door swing in11ft length, the owned leaner must move to another measured suite wall; do not invent closet width.",
+        "Track removed storage modules and check opposite24in-deep hanging run plus vanity depth/stool pullback against101in nominal total width. Actual module depths/door offsets unmeasured."
+      ]
+    },
+    {
+      "id": "bed2",
+      "ownedIds": [
+        "modena-queen",
+        "orbiter-wall-lamp",
+        "delfina-rug"
+      ],
+      "ownedItems": [
+        {
+          "id": "modena-queen",
+          "name": "Modena Fabric Nontufted Shelter Platform Bed",
+          "quantity": 1,
+          "finish": "Grey Oak",
+          "fabric": "Italian Textured Weave",
+          "color": "White",
+          "size": "Queen \u00b7 48\" headboard",
+          "productUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod23530365",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod23530365_E22919690425_TQ_Frank_RHR?",
+          "photoLimitation": "Photo: Brown Oak feet. Yours: Grey Oak. Queen size is unconfirmed in this photo."
+        },
+        {
+          "id": "orbiter-wall-lamp",
+          "name": "Orbiter II\u2122 Wall Lamp",
+          "quantity": 2,
+          "finish": "Polished Nickel",
+          "fabric": null,
+          "color": null,
+          "size": null,
+          "productUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod15330040?swatch=684000",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod15330040_E311076782_F_rebg_RHR?",
+          "photoLimitation": "Photo: Brass. Yours: Polished Nickel."
+        },
+        {
+          "id": "delfina-rug",
+          "name": "Delfina Handwoven Wool Rug",
+          "quantity": 1,
+          "finish": "Carbon",
+          "fabric": null,
+          "color": null,
+          "size": "8\u2032 \u00d7 10\u2032",
+          "productUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod17740448?swatch=1080262",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod22630028_E416163567_O_RHR?",
+          "photoLimitation": "Carbon catalog photo \u2014 size unverified."
+        }
+      ],
+      "newItems": [
+        {
+          "id": "enzo-side18",
+          "brand": "RH",
+          "name": "Enzo Square Side Table \u2014 stocked 18-inch Caramel Walnut",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+          "role": "Walnut side table",
+          "quantity": 2,
+          "finish": "Caramel Walnut",
+          "dimensions": "18 W \u00d7 18 D \u00d7 20 H in; 48 lb.",
+          "availability": {
+            "status": "unverified_current",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Prior official configured stock evidence datedOct9 retained in previousAvailability; a new liveZIP quantity/delivery check was not available in this agent. Do not claim reverified October11.",
+            "deliveryVerified": false
+          },
+          "reason": "Small sale walnut piece carries material continuity at a much lower price than a matching suite.",
+          "fitNotes": "Square replaces round Gael; no drawer. A seating side table, not a storage nightstand.",
+          "phase": "later",
+          "decision": "visual_design_candidate_stock_recheck_needed",
+          "replaces": [
+            "Gael Walnut Round Side Table"
+          ],
+          "sku": "10138471 CRWL",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28310695_E23920648583_F_CC_RHR_cl1675029?&$PDP-IS-768$",
+          "saleVerified": false,
+          "ownership": "new",
+          "previousAvailability": {
+            "status": "in_stock",
+            "evidence": "Exact SKU in live IN-STOCK modal; current Dimensions show 18-inch square, 20 H, 48 lb.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/29/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod28310696",
+            "method": "Existing October 9 live RH product/IN-STOCK modal evidence retained from project stock audit.",
+            "configuration": {
+              "size": "18-inch square /20 H inches",
+              "finish": "Caramel Walnut",
+              "sku": "10138471 CRWL"
+            },
+            "quantityNote": "A compact stocked option replacing the unavailable round Gael side table. This changes the shape to square. Multiple-room total quantities are not checked."
+          },
+          "saleVerifiedCurrent": false,
+          "historicalUnitPrice": {
+            "checkedAt": "2026-10-09",
+            "low": 545,
+            "high": 545,
+            "kind": "member_sale",
+            "note": "Exact member sale; regular reference $1,655. Membership, tax and delivery excluded."
+          },
+          "historicalSaleVerified": true
+        }
+      ],
+      "designIntent": "Quiet cream guest bedroom with the owned shelter queen, practical task sconces and a deep neutral Carbon rug; keep the plan-correct closet at the front end.",
+      "materials": [
+        "Warm mushroom mineral/Roman Clay dry focal surface; warm ivory matte painted remaining walls.",
+        "Continuous matte neutral natural oak and existing light trim.",
+        "Ivory sheers plus separate oatmeal blackout layer at every real exterior bedroom/retreat opening."
+      ],
+      "architectureLocks": [
+        "Headboard TOP printed plan stair-hall shared wall; closet LOWER/front half of LEFT shared-bath boundary, not beside upper entry.",
+        "Upper-hall entry TOP-LEFT; exactly one closet; one narrow plan-RIGHT opening and paired plan-BOTTOM/front window bank.",
+        "Compact42x20 desk on right exterior wall beside side window; latest corrected B21 and retained B22 control."
+      ],
+      "promptForEachExistingDayCode": {
+        "B21": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nBEDROOM TWO: Use the OWNED RH MODENA NONTUFTED SHELTER QUEEN, 48-inch headboard, WHITE Italian Textured Weave and GREY OAK feet. This is the shelter bed with short straight side returns/wings and smooth upholstery, NOT the owners plain PANEL king and not a channeled tall bed. Reference photo oak feet are Brown; actual feet must be GREY Oak. Keep headboard on TOP/stair-hall shared wall, narrow side window and desk beside it on plan-RIGHT, paired front bank on plan-BOTTOM, upper entry at TOP-LEFT and exactly ONE closet on the LOWER/front half of the LEFT shared-bath boundary. Do not revert to the older B21 closet immediately beside hall entry. TWO new RH ENZO SQUARE drawerless side tables, Caramel Walnut,18W x18D x20H inches, open cube carcass at floor, one each side: compact new18-inch open walnut bedside surfaces flank bed without widening room; do not use or duplicate the owners Bezier26 pair. TWO owned ORBITER II wall lamps in POLISHED NICKEL one each side, actual articulated task-arm/disc form. Reference photo is BRASS; actual lamps must be SILVER Nickel. Mount only existing fixture locations in visualization; power/mounting type is not verified, no fabricated claim they are hardwired/wireless. Remove old dome/table lamps so there are exactly TWO bedside lighting sources. Owned DELFINA CARBON8x10 wool rug: charcoal neutral textured rug under bed with clear natural-oak border, not blue. White/ivory bed linen and oatmeal layers. Existing desk/chair remain compact planning pieces until new specifications; no painting over closet/entry. Ivory sheers and separate opaque blackout at both real exterior banks, stacked clear by day.\n\nEXACT CAMERA B21: Visually reviewed against original photo and fresh builder plan; targeted repair matches source geometry and preserves approved Mineral & Walnut finishes.",
+        "B22": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nBEDROOM TWO: Use the OWNED RH MODENA NONTUFTED SHELTER QUEEN, 48-inch headboard, WHITE Italian Textured Weave and GREY OAK feet. This is the shelter bed with short straight side returns/wings and smooth upholstery, NOT the owners plain PANEL king and not a channeled tall bed. Reference photo oak feet are Brown; actual feet must be GREY Oak. Keep headboard on TOP/stair-hall shared wall, narrow side window and desk beside it on plan-RIGHT, paired front bank on plan-BOTTOM, upper entry at TOP-LEFT and exactly ONE closet on the LOWER/front half of the LEFT shared-bath boundary. Do not revert to the older B21 closet immediately beside hall entry. TWO new RH ENZO SQUARE drawerless side tables, Caramel Walnut,18W x18D x20H inches, open cube carcass at floor, one each side: compact new18-inch open walnut bedside surfaces flank bed without widening room; do not use or duplicate the owners Bezier26 pair. TWO owned ORBITER II wall lamps in POLISHED NICKEL one each side, actual articulated task-arm/disc form. Reference photo is BRASS; actual lamps must be SILVER Nickel. Mount only existing fixture locations in visualization; power/mounting type is not verified, no fabricated claim they are hardwired/wireless. Remove old dome/table lamps so there are exactly TWO bedside lighting sources. Owned DELFINA CARBON8x10 wool rug: charcoal neutral textured rug under bed with clear natural-oak border, not blue. White/ivory bed linen and oatmeal layers. Existing desk/chair remain compact planning pieces until new specifications; no painting over closet/entry. Ivory sheers and separate opaque blackout at both real exterior banks, stacked clear by day.\n\nEXACT CAMERA B22: Corrected reverse concept: bed foot in foreground from stair-hall headboard; wide front window ahead, narrow side window and compact desk at left, closet on bathroom boundary at right. Spurious left-edge doorway removed. No room photograph; opening offsets and clearances remain inferred from plan."
+      },
+      "existingDaySources": [
+        {
+          "code": "B21",
+          "jobId": "b550668c-b652-4b62-9ce6-e8a41cdb9501",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/bed2-b21-day.png",
+          "evidenceType": "Plan-led reconstruction with adjacent source-photo evidence"
+        },
+        {
+          "code": "B22",
+          "jobId": "db67b4e4-fc6e-4cc7-8e8a-008be7d78bdf",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/bed2-b22-day-31616.png",
+          "evidenceType": "Plan-led concept \u00b7 no room photograph"
+        }
+      ],
+      "nightLighting": "Exact accepted day at night: owned Orbiter pair2700K task glow, existing ceiling lighting dim, no duplicated table lamps. Fully close both real exterior blackout layers to sill/floor with no exposed glass strips. Preserve corrected closet offset and all furniture.",
+      "measurementNotes": [
+        "Measure actual owned shelter queen footprint and side returns against11ft4x11ft1 nominal.",
+        "Orbiter mounting plate, plug-in vs hardwire, wire exits, articulation sweep and switches are unconfirmed: contractor must inspect actual lamps before rough-in.",
+        "Do not place26-inch owners bedside cabinets here; target18-inch surfaces and verify seated bedside height.",
+        "Carbon rug is owned8x10; verify door/closet swing and rug overlap, no added accent color.",
+        "Selected compact new candidate is RH Enzo18CaramelWalnut: prior Oct9 member-sale$545 and configured stock checked then, current20878 quantity/delivery not renewed."
+      ]
+    },
+    {
+      "id": "bed3",
+      "ownedIds": [],
+      "ownedItems": [],
+      "newItems": [
+        {
+          "id": "new-bed3-keane-natural-queen",
+          "ownership": "new",
+          "brand": "Crate & Barrel",
+          "name": "Keane Weathered Natural Solid Wood Queen Bed",
+          "quantity": 1,
+          "finish": "Weathered Natural solid mahogany/meranti veneer; warm muted natural brown",
+          "dimensions": "63.75W x84.5D x50H in; queen platform; dimensional family reference to verify configured sheet",
+          "url": "https://www.crateandbarrel.com/keane-weathered-natural-solid-wood-queen-bed/s306771",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/KeaneQnBedNatSOSSS22?%24web_pdp_main_carousel_thumb_med%24=",
+          "currentPrice": {
+            "amount": 1799,
+            "currency": "USD",
+            "kind": "regular",
+            "checkedAt": "2026-10-11",
+            "saleVerified": false,
+            "note": "Official page listed figure; tax/shipping/mattress/bulbs/pad excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Configured Keane Weathered Natural Solid Wood Queen Bed, SKU306771: $1,799, In stock. Ready to schedule delivery for ZIP20878, observed October11,2026.",
+            "deliveryVerified": false,
+            "officialStockStatement": "In stock. Ready to schedule delivery."
+          },
+          "decision": "stock_verified_new_purchase_candidate_measure_before_order",
+          "imageFile": "docs/collected-mineral-assets/products/private-bed3-keane-natural-queen.webp",
+          "sku": "306771",
+          "selectionNote": "Weathered Natural Queen bed with coordinating Natural18 bedside tables and Natural42 five-drawer dresser. Use neutral ivory bedding, two white ceramic lamps and a loose textured rug; verify final furniture clearance before ordering."
+        },
+        {
+          "id": "new-keane18-natural",
+          "ownership": "new",
+          "brand": "Crate & Barrel",
+          "name": "Keane 18-inch Weathered Natural Solid Wood Narrow Nightstand",
+          "quantity": 2,
+          "finish": "Weathered Natural solid mahogany/meranti veneer; warm muted natural brown; small brass-finish knob(s)",
+          "dimensions": "18W; approximately19D x25H, exact configured dimensions/height to confirm",
+          "url": "https://www.crateandbarrel.com/keane-18-weathered-natural-solid-wood-narrow-nightstand/s664781",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/KeaneWthrNatNrwNtstndSOSSF25?%24web_pdp_main_carousel_thumb_med%24=",
+          "currentPrice": {
+            "amount": 549,
+            "currency": "USD",
+            "kind": "regular",
+            "checkedAt": "2026-10-11",
+            "saleVerified": false,
+            "note": "Official page listed figure; tax/shipping/mattress/bulbs/pad excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Configured Keane 18-inch Weathered Natural Solid Wood Narrow Nightstand, SKU664781: $549, In stock. Ready to schedule delivery for ZIP20878, observed October11,2026. Quantity1 observed; combined house quantity still requires confirmation.",
+            "deliveryVerified": false,
+            "officialStockStatement": "In stock. Ready to schedule delivery.",
+            "observedQuantity": 1,
+            "aggregateRequiredQuantity": 4,
+            "aggregateQuantityVerified": false
+          },
+          "decision": "stock_verified_new_purchase_candidate_aggregate_quantity_check_before_order",
+          "imageFile": "docs/collected-mineral-assets/products/private-nightstand-keane18-natural.webp",
+          "sku": "664781",
+          "imageNote": "Exact current official Weathered Natural product-linked photo saved and visually inspected; natural timber color/grain varies."
+        },
+        {
+          "id": "new-keane42-natural",
+          "ownership": "new",
+          "brand": "Crate & Barrel",
+          "name": "Keane 42-inch Weathered Natural Solid Wood 5-Drawer Tall Dresser",
+          "quantity": 1,
+          "finish": "Weathered Natural solid mahogany/meranti veneer; warm muted natural brown; small brass-finish knob(s)",
+          "dimensions": "42W; configured D/H to verify before order",
+          "url": "https://www.crateandbarrel.com/keane-42-weathered-natural-solid-wood-5-drawer-tall-dresser/s307182",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/Keane5DChestNatSOSSS22?%24web_pdp_main_carousel_thumb_med%24=",
+          "currentPrice": {
+            "amount": 1999,
+            "currency": "USD",
+            "kind": "regular",
+            "checkedAt": "2026-10-11",
+            "saleVerified": false,
+            "note": "Official page listed figure; tax/shipping/mattress/bulbs/pad excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Configured Keane 42-inch Weathered Natural Solid Wood 5-Drawer Tall Dresser, SKU307182: $1,999, In stock. Ready to schedule delivery for ZIP20878, observed October11,2026. Quantity1 observed; combined house quantity still requires confirmation.",
+            "deliveryVerified": false,
+            "officialStockStatement": "In stock. Ready to schedule delivery.",
+            "observedQuantity": 1,
+            "aggregateRequiredQuantity": 2,
+            "aggregateQuantityVerified": false
+          },
+          "decision": "stock_verified_new_purchase_candidate_aggregate_quantity_check_before_order",
+          "imageFile": "docs/collected-mineral-assets/products/private-dresser-keane42-natural.webp",
+          "imageNote": "Exact current official Weathered Natural product-linked photo saved and visually inspected; natural timber color/grain varies.",
+          "sku": "307182"
+        },
+        {
+          "id": "new-amaryllis15-white",
+          "ownership": "new",
+          "brand": "Crate & Barrel",
+          "name": "Amaryllis White Ceramic Mini Table Lamp15-inch",
+          "quantity": 2,
+          "finish": "Matte ivory-white faceted ceramic with included white linen drum shade",
+          "dimensions": "15H; shade diameter to verify beside18in table",
+          "url": "https://www.crateandbarrel.com/amaryllis-white-ceramic-mini-table-lamp-15/s109696",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/AmryllsSmllWhtCrmcTblLmp15VNF26?%24web_pdp_main_carousel_thumb_med%24=",
+          "currentPrice": {
+            "amount": 79.95,
+            "currency": "USD",
+            "kind": "regular",
+            "checkedAt": "2026-10-11",
+            "saleVerified": false,
+            "note": "Official page listed figure; tax/shipping/mattress/bulbs/pad excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Current product page confirms form/finish/price; exact20878 stock and quantity not checked. Do not call orderable state in-stock.",
+            "deliveryVerified": false
+          },
+          "decision": "visual_design_candidate_stock_confirmation_needed",
+          "sku": "109696",
+          "imageFile": "docs/collected-mineral-assets/products/private-lamp-amaryllis15-white.webp"
+        },
+        {
+          "id": "new-prato8-ivory",
+          "brand": "Crate & Barrel",
+          "name": "Prato Performance Wool Ivory Area Rug 8 \u00d7 10",
+          "url": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-8x10/s189362",
+          "role": "Loose guest rug",
+          "quantity": 1,
+          "finish": "Ivory; 55%wool 25%polyester 20%viscose",
+          "dimensions": "8 \u00d7 10 ft.",
+          "unitPrice": {
+            "low": 1499,
+            "high": 1499,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Current official8x10 Ivory SKU189362 product page price/finish inspected; prior Oct9 near-term ship quote in Collected Value retained separately, not renewed.",
+            "deliveryVerified": false
+          },
+          "reason": "Tonal texture supports stone, mineral walls and walnut without pattern or colored accents.",
+          "fitNotes": "Keep wood visible around the loose rug; verify orientation against closet, desk and doors. Wool blend, not 100% wool. Address spills promptly; follow professional cleaning guidance.",
+          "phase": "later",
+          "decision": "visual_design_candidate_stock_confirmation_needed",
+          "replaces": [],
+          "sku": "189362",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24=",
+          "saleVerified": false,
+          "ownership": "new",
+          "currentPrice": {
+            "amount": 1499,
+            "currency": "USD",
+            "kind": "regular",
+            "checkedAt": "2026-10-11",
+            "saleVerified": false
+          }
+        }
+      ],
+      "designIntent": "A layered natural-wood and ivory guest room: a new stocked compact Weathered Natural Keane bed, narrow coordinating storage, tactile ceramic lamps and neutral loose rug. This is a NEW purchase scheme, not a duplicate of the two owned Modena beds.",
+      "materials": [
+        "Warm ivory/mushroom mineral walls; matte natural neutral oak floor.",
+        "Ivory/oatmeal/charcoal textiles and neutral dark-framed artwork; green plants.",
+        "Independent ivory sheers and full blackout at all real/planned bedroom windows."
+      ],
+      "architectureLocks": [
+        "Nominal10ft8x12ft4. Headboard stays plan-LEFT exterior wall BETWEEN TWO single windows, screen-right in B31/B32.",
+        "THIRD opening is paired front bank plan-BOTTOM/east, screen-left. Upper-hall entry/closet plan-TOP, bath door plan-RIGHT; second camera is companion not full reverse.",
+        "All three actual window groups must retain exact source shape/offset and functional blackout; bedroom glimpse from shared bath must match this bed orientation."
+      ],
+      "promptForEachExistingDayCode": {
+        "B31": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nBEDROOM THREE NEW FURNITURE: Replace the old upholstered bed with NEW C&B KEANE WEATHERED NATURAL WOOD QUEEN PLATFORM, approximately63.75W x84.5L x50H. Plain warm muted weathered-natural brown architectural solid-wood rectangular panel headboard with inset detail, thin straightforward side/foot rails and substantial corner posts matching actual reference. No canopy, no wings, no upholstered Modena copy and no fabricated stainless bands. The bed remains between the TWO windows on the source screen-RIGHT/headwall, never rotate it. TWO new Keane18in narrow WEATHERED NATURAL nightstands, one upper drawer with small antique-brass knob and OPEN lower shelf, straight integrated stiles rather than turned/tiny feet; use correct photo form. ONE new Keane42in five-drawer tall WEATHERED NATURAL dresser on the existing opposite-wall dresser footprint toward the front-window end, no extra wide64in dresser or duplicate owners Bezier. Exactly FIVE full-width drawer rows, small knobs, no eight-drawer geometry. TWO NEW Amaryllis MINI15in ivory ceramic lamps with white linen drum shades, one each nightstand. No other bedside lamps/sconces. C&B PRATO IVORY8x10 new loose nubby neutral rug beneath bed with exposed neutral oak. White/ivory bedding and oatmeal textured throw; no accent colors. Keep warm mushroom mineral walls and restrained existing neutral framed art. All THREE window groups retain ivory sheers+separate blackout stacked clear by day. Do not enlarge room to fit furniture or pad rug wall-to-wall.\n\nEXACT CAMERA B31: Three-window relationship and bed between right-wall windows retained; proper loose rug and shade layers.",
+        "B32": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nBEDROOM THREE NEW FURNITURE: Replace the old upholstered bed with NEW C&B KEANE WEATHERED NATURAL WOOD QUEEN PLATFORM, approximately63.75W x84.5L x50H. Plain warm muted weathered-natural brown architectural solid-wood rectangular panel headboard with inset detail, thin straightforward side/foot rails and substantial corner posts matching actual reference. No canopy, no wings, no upholstered Modena copy and no fabricated stainless bands. The bed remains between the TWO windows on the source screen-RIGHT/headwall, never rotate it. TWO new Keane18in narrow WEATHERED NATURAL nightstands, one upper drawer with small antique-brass knob and OPEN lower shelf, straight integrated stiles rather than turned/tiny feet; use correct photo form. ONE new Keane42in five-drawer tall WEATHERED NATURAL dresser on the existing opposite-wall dresser footprint toward the front-window end, no extra wide64in dresser or duplicate owners Bezier. Exactly FIVE full-width drawer rows, small knobs, no eight-drawer geometry. TWO NEW Amaryllis MINI15in ivory ceramic lamps with white linen drum shades, one each nightstand. No other bedside lamps/sconces. C&B PRATO IVORY8x10 new loose nubby neutral rug beneath bed with exposed neutral oak. White/ivory bedding and oatmeal textured throw; no accent colors. Keep warm mushroom mineral walls and restrained existing neutral framed art. All THREE window groups retain ivory sheers+separate blackout stacked clear by day. Do not enlarge room to fit furniture or pad rug wall-to-wall.\n\nEXACT CAMERA B32: Bedroom 3 companion preserves paired front bank and two narrow headboard windows, bed/desk furniture and layers."
+      },
+      "existingDaySources": [
+        {
+          "code": "B31",
+          "jobId": "82feb74f-84a9-431c-aa51-60a6e0130f8a",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b31-day.png",
+          "evidenceType": "Photo-based architectural revision"
+        },
+        {
+          "code": "B32",
+          "jobId": "49aa91dd-53eb-4cfd-aa38-a33071a5099a",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/bed3-b32-day.png",
+          "evidenceType": "Derived angle \u00b7 plan and photo interpretation"
+        }
+      ],
+      "nightLighting": "Use exact accepted day, identical new bed/nightstands/dresser/rug. Only TWO ceramic bedside lamps softly2700K plus existing low ceiling light. Fully close opaque coverings at every THREE actual exterior opening; no under-bed LEDs/new sconces or daylight leak.",
+      "measurementNotes": [
+        "Field-check63.75x84.5 bed and nightstand18in footprints between actual window trims.",
+        "42in dresser must stay offset from direct bed-foot circulation; measure room depth and exact dresser projection. Do not certify aisle clearance from rendering.",
+        "B31/B32 do not visualize upper hall/closet/bath doors; do not claim full room enclosure survey.",
+        "Natural Queen SKU306771 verified in stock to ZIP20878 October11 at $1,799; delivery date not verified. Espresso Queen retained only as a future made-to-order alternative. Natural casegoods stock was observed at quantity1; verify aggregate four tables/two dressers and delivery dates before purchase.",
+        "Natural18 nightstand SKU664781 $549 and Natural42 dresser SKU307182 $1,999 verified in stock to ZIP20878 October11 at quantity1 each. Across Bed3+Bed5, FOUR nightstands and TWO dressers are required; full aggregate quantities and delivery date must be checked before order. Lamps and rug current stock remain conditional."
+      ],
+      "futureAlternatives": [
+        {
+          "id": "new-bed3-keane-queen",
+          "ownership": "new",
+          "brand": "Crate & Barrel",
+          "name": "Keane Solid Espresso Wood Queen Bed",
+          "quantity": 1,
+          "finish": "Espresso brown; solid mahogany/meranti veneer",
+          "dimensions": "63.75W x84.5D x50H in; queen platform; dimensional family reference to verify configured sheet",
+          "url": "https://www.crateandbarrel.com/keane-solid-espresso-wood-queen-bed/s141866",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/KeaneQnBedEsprsSOSSS26?%24web_pdp_main_carousel_thumb_med%24=",
+          "currentPrice": {
+            "amount": 1799,
+            "currency": "USD",
+            "kind": "regular",
+            "checkedAt": "2026-10-11",
+            "saleVerified": false,
+            "note": "Official page listed figure; tax/shipping/mattress/bulbs/pad excluded."
+          },
+          "availability": {
+            "status": "made_to_order",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Configured Espresso Queen SKU141866 for ZIP20878 was made to order with contact-by January30 indication, observed October11,2026; excluded from currently stocked recommendations.",
+            "deliveryVerified": false
+          },
+          "decision": "excluded_from_stocked_shortlist_keep_as_future_alternative",
+          "imageFile": "docs/collected-mineral-assets/products/private-bed3-keane-queen.webp",
+          "sku": "141866",
+          "selectionNote": "Future Espresso finish alternative only. The current preferred room uses the stocked Weathered Natural bed and matching Natural storage."
+        },
+        {
+          "id": "new-keane18-espresso",
+          "ownership": "new",
+          "brand": "Crate & Barrel",
+          "name": "Keane18-inch Espresso Solid Wood Narrow Nightstand",
+          "quantity": 2,
+          "finish": "Espresso mahogany; understated antique-brass knob",
+          "dimensions": "18W; approximately19D x25H, exact configured dimensions/height to confirm",
+          "url": "https://www.crateandbarrel.com/keane-18-espresso-solid-wood-narrow-nightstand/s120104",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/Kn18sprssSldWdNrrwNgh1SOSSF26_3D?%24web_pdp_main_carousel_thumb_med%24=",
+          "currentPrice": {
+            "amount": 549,
+            "currency": "USD",
+            "kind": "regular",
+            "checkedAt": "2026-10-11",
+            "saleVerified": false,
+            "note": "Official page listed figure; tax/shipping/mattress/bulbs/pad excluded."
+          },
+          "availability": {
+            "status": "unverified_current",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Current product page confirms form/finish/price; exact20878 stock and quantity not checked. Do not call orderable state in-stock.",
+            "deliveryVerified": false
+          },
+          "decision": "excluded_pending_current_stock_keep_as_future_alternative",
+          "imageFile": "docs/collected-mineral-assets/products/private-nightstand-keane18-espresso.webp",
+          "sku": "120104"
+        },
+        {
+          "id": "new-keane42-espresso",
+          "ownership": "new",
+          "brand": "Crate & Barrel",
+          "name": "Keane42-inch Espresso Solid Wood5-Drawer Tall Dresser",
+          "quantity": 1,
+          "finish": "Espresso mahogany; restrained antique-brass knobs",
+          "dimensions": "42W; configured D/H to verify before order",
+          "url": "https://www.crateandbarrel.com/keane-42-solid-espresso-wood-5-drawer-tall-dresser/s120099",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/Keane5DrawerChestSSS20_1x1?%24web_pdp_main_carousel_thumb_med%24=",
+          "currentPrice": {
+            "amount": 1999,
+            "currency": "USD",
+            "kind": "regular",
+            "checkedAt": "2026-10-11",
+            "saleVerified": false,
+            "note": "Official page listed figure; tax/shipping/mattress/bulbs/pad excluded."
+          },
+          "availability": {
+            "status": "unverified_current",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Current product page confirms form/finish/price; exact20878 stock and quantity not checked. Do not call orderable state in-stock.",
+            "deliveryVerified": false
+          },
+          "decision": "excluded_pending_current_stock_keep_as_future_alternative",
+          "imageFile": "docs/collected-mineral-assets/products/private-dresser-keane42-shape.webp",
+          "imageNote": "Official current product-linked image visually checked: five rows/espresso-brown appearance; natural wood color varies."
+        }
+      ]
+    },
+    {
+      "id": "sharedbath",
+      "ownedIds": [],
+      "ownedItems": [],
+      "newItems": [],
+      "designIntent": "Retain E limestone-look porcelain and the corrected bath-to-Bedroom3 relationship; adjacent furniture updates must match the new guest-bedroom design.",
+      "materials": [
+        "Warm ivory/mushroom mineral drywalls and matte neutral natural oak in dry rooms; wet rooms suitable porcelain.",
+        "Neutral ivory/oatmeal/charcoal textiles, dark frames/hardware and plants; no forcedblue/yellow/chrome decoration."
+      ],
+      "architectureLocks": [
+        "Vanityzone hasno visible exterioropening; do notdeclare entirebathwindowless. Separatewetcompartment smallfront/toilet-side interiorglazingunconfirmed.",
+        "Doublevanityplan-TOP, left/rightbedroomconnections; separateplan-bottom tubleft/toiletright compartment.",
+        "Through-doorbed3headboardonitswindowwallbetween singles; do notrotate toblankreturnwall; mirror mustagree."
+      ],
+      "promptForEachExistingDayCode": {
+        "SB1": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nSHARED BATH VANITYZONE: Preserve latestR07 correctedframes/doorways, doublevanity/sinks/darkfaucets/mirror/sconces, selectedE warmpaleLIMESTONE-LOOKPORCELAIN, neutralfloor and mutedwalnutcabinetry. Do notadd bathroomexteriorwindowtothisvanitycamera. Through existingBedroom3doorway and itsmirrorreflection, use SAMEnewOption3BEDROOM3 arrangement: Keane WEATHERED NATURAL wood QUEEN headboardonfar/windowwallbetweentwosingles, bedextends towardbathcamera,18in Weathered Natural tables/ivoryminiAmaryllislamps, oakandlooseivoryrug. This isexistingcorrectbedaxis, notnewheadboardonnakedreturnwall. Keep originalheadboard/windoworientation, no extrabedcopy/reflectionfurniture. Neatneutralwhitetowels and existingivory/blackpump accessoriescanremain supportingstaging. Separatewetcompartmentunvisualized; no invented tub/toiletwindow or claimthatnoactualwindowexists.\n\nEXACT CAMERA SB1: Original baseline has matching black dome lamps. Replace BOTH the physical adjoining-room lamps and their mirror reflections with the new white Amaryllis mini ceramic lamps, matching new Bedroom3; retain corrected far-window-wall headboard and foot toward bath. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged.",
+        "SB2": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nSHARED BATH VANITYZONE: Preserve latestR07 correctedframes/doorways, doublevanity/sinks/darkfaucets/mirror/sconces, selectedE warmpaleLIMESTONE-LOOKPORCELAIN, neutralfloor and mutedwalnutcabinetry. Do notadd bathroomexteriorwindowtothisvanitycamera. Through existingBedroom3doorway and itsmirrorreflection, use SAMEnewOption3BEDROOM3 arrangement: Keane WEATHERED NATURAL wood QUEEN headboardonfar/windowwallbetweentwosingles, bedextends towardbathcamera,18in Weathered Natural tables/ivoryminiAmaryllislamps, oakandlooseivoryrug. This isexistingcorrectbedaxis, notnewheadboardonnakedreturnwall. Keep originalheadboard/windoworientation, no extrabedcopy/reflectionfurniture. Neatneutralwhitetowels and existingivory/blackpump accessoriescanremain supportingstaging. Separatewetcompartmentunvisualized; no invented tub/toiletwindow or claimthatnoactualwindowexists.\n\nEXACT CAMERA SB2: Original baseline has matching black dome lamps. Replace BOTH the physical adjoining-room lamps and their mirror reflections with the new white Amaryllis mini ceramic lamps, matching new Bedroom3; retain corrected far-window-wall headboard and foot toward bath. Bathroom shell, E stone, doors/casings, vanity and fixture inventories unchanged."
+      },
+      "existingDaySources": [
+        {
+          "code": "SB1",
+          "jobId": "1d5c94a2-10d8-41a7-b8da-c3f7a250d6a5",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-day-lamp-fix.png",
+          "evidenceType": "Photo-based architectural revision"
+        },
+        {
+          "code": "SB2",
+          "jobId": "3c010c51-dca0-476b-8975-cf953e9781e6",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-day-lamp-fix.png",
+          "evidenceType": "Derived angle \u00b7 plan and photo interpretation"
+        }
+      ],
+      "nightLighting": "Useexactacceptednewday; bothbedroomglimpses/mirror reflect SAMEnew furniture and closedbedroomblackoutstate. Bathlight warmusable vanity/task plus lowceiling, no addedfixtures or newwindows. Preserve Eporcelain color withoutorangecast.",
+      "measurementNotes": [
+        "Confirm specificsmallfront/toilet-side wetcompartmentopening beforecurtainpurchase or newwetroomrender.",
+        "Bedroom3glassseenindoorway/mirror belongs tobedroom, notbathglazing.",
+        "New furniture shownthroughdoor mustmatch B31/B32, nothistoricalbed."
+      ]
+    },
+    {
+      "id": "laundry",
+      "ownedIds": [],
+      "ownedItems": [],
+      "newItems": [],
+      "designIntent": "Useful neutral cabinetry, preserved appliances and exact rinse graphic; no additional furniture needed to make a functional laundry feel complete.",
+      "materials": [
+        "Warm ivory/mushroom mineral drywalls and matte neutral natural oak in dry rooms; wet rooms suitable porcelain.",
+        "Neutral ivory/oatmeal/charcoal textiles, dark frames/hardware and plants; no forcedblue/yellow/chrome decoration."
+      ],
+      "architectureLocks": [
+        "8ft3x10ft4 nominal; sink/counter andTWO separatelycasedwindows SAME wall, neararched thenfarrectangular.",
+        "Machines on oppositewall; keep currentreversesame-roomtopology/doors/uppers/rack/hampers.",
+        "ExacttextRinse and repeat.. with2periods andcyclegraphic."
+      ],
+      "promptForEachExistingDayCode": {
+        "LA1": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nLAUNDRY: Preserve EXACT acceptedroomcamera, sink/counter run andBOTH actualwindows(nearARCHEDhead, fartherrectangular) onSAMEcounterwall; machines opposite. Keep existingcreamcabinetry, pale durablecounter/wetfloor, darkfaucet, twowovenhampers andfold-downrack; no newdresseror cabinetrybehind an inventedwindow. Keep exactexistingquote \"Rinse and repeat..\" TWO periods with droplet/circular-rinsearrow. Plain washable lined privacyrollers orcorrectlyfittedwoven-lookshades atbothrealwindows, raisebyday; accountforwholearchedhead ratherthanleavingglassaboveblind. Modestexistingplant/soapstagingonly; no additionalmachines/walls orgenericwide laundryhotel.\n\nEXACT CAMERA LA1: Original near arched-top and far rectangular left-wall windows retained; functional shades, right machines, drying rail and paired hampers shown.",
+        "LA2": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nLAUNDRY: Preserve EXACT acceptedroomcamera, sink/counter run andBOTH actualwindows(nearARCHEDhead, fartherrectangular) onSAMEcounterwall; machines opposite. Keep existingcreamcabinetry, pale durablecounter/wetfloor, darkfaucet, twowovenhampers andfold-downrack; no newdresseror cabinetrybehind an inventedwindow. Keep exactexistingquote \"Rinse and repeat..\" TWO periods with droplet/circular-rinsearrow. Plain washable lined privacyrollers orcorrectlyfittedwoven-lookshades atbothrealwindows, raisebyday; accountforwholearchedhead ratherthanleavingglassaboveblind. Modestexistingplant/soapstagingonly; no additionalmachines/walls orgenericwide laundryhotel.\n\nEXACT CAMERA LA2: Laundry second viewpoint reveals machines on right while retaining two left windows, sink, paired hampers and wall graphic."
+      },
+      "existingDaySources": [
+        {
+          "code": "LA1",
+          "jobId": "bfacfb8c-d7e6-41fb-bc1b-25a871734a5e",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/laundry-la1-day-30519.png",
+          "evidenceType": "Photo-based architectural revision"
+        },
+        {
+          "code": "LA2",
+          "jobId": "3b4bd68c-0c47-41d1-a2fc-e07f4804f58a",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/laundry-la2-day.png",
+          "evidenceType": "Derived angle \u00b7 plan and photo interpretation"
+        }
+      ],
+      "nightLighting": "Night edit ofaccepted matchingday: EACHwindow shadecovers EVERYglasspart includingarchedheadandloweredges, clearsfaucet. Samequote/rack/hampers/appliances/cabinetmodulecounts,2700\u20133000K usabletasklighting, no daylightstrips.",
+      "measurementNotes": [
+        "Measurearchedheadprivacy installation and bothshadefullcoverage/sinkclearance.",
+        "Laundrycabinetmoduleclearances/appliance hookups arecontractor scope; renderingnotplumbingdrawing."
+      ]
+    },
+    {
+      "id": "stair3",
+      "ownedIds": [],
+      "ownedItems": [],
+      "newItems": [],
+      "designIntent": "Bare oak architectural stairs and warm mineral walls connect the scheme without needing a runner or decorative furniture.",
+      "materials": [
+        "Warm ivory/mushroom mineral drywalls and matte neutral natural oak in dry rooms; wet rooms suitable porcelain.",
+        "Neutral ivory/oatmeal/charcoal textiles, dark frames/hardware and plants; no forcedblue/yellow/chrome decoration."
+      ],
+      "architectureLocks": [
+        "LatestR07 fannedquarterturntreads, half-levelintermediatelanding andstraightonwardflight; openvoid/guards unchanged.",
+        "THREE separate high2x2windows; paleoakwhitebalusters/riserswalnutrail.",
+        "No stairrunner/treadpads, no inventedwidesculpturalspiral."
+      ],
+      "promptForEachExistingDayCode": {
+        "ST31": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nTHIRD-FLOORSTAIR: Preserve latestR07 sourcecamera andEXACT fannedquarterturn stair, HALF-FLOORlandingsandstraightonwardflight, openvoid/guards, ivorybalusters/risers, exposedneutraloaktreads anddarkwalnuthandrail. THREE high2x2windowunitsretainedinplace, nocurtains/blackoutonthem. Keep existing quietivory/taupe/charcoalart including principalpicture and existingsecondarylandingart. NOrunner, treadcarpet, littlecarpetpads ornewstairgeometry. OnlyrefineMineralwalltexture/woodgrainanddaylight; no newfurniture/sideboard or clutteronwalkinglandings.\n\nEXACT CAMERA ST31: Visually reviewed against original photo and fresh builder plan; targeted repair matches source geometry and preserves approved Mineral & Walnut finishes."
+      },
+      "existingDaySources": [
+        {
+          "code": "ST31",
+          "jobId": "67f0de0d-06f3-42c6-807b-53eec6f0ef58",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/stair3-st31-day.png",
+          "evidenceType": "Photo-based architectural revision"
+        }
+      ],
+      "nightLighting": "Exactdaygeometry/art/fixtures, genuine darkoutsidehighbareglass, existingusefulcirculationlightdimmedwarm. No newlights/projection/runner and no brightday sky.",
+      "measurementNotes": [
+        "Measuredstairstructure/guards/tread/slipfinish details belongcontractordrawings, not image geometry."
+      ]
+    },
+    {
+      "id": "loft",
+      "ownedIds": [
+        "cloud-corner",
+        "cloud-armless",
+        "cloud-ottoman",
+        "machinto-media",
+        "machinto-side",
+        "marble-coffee",
+        "arc-floor-lamp",
+        "sanani-rug",
+        "rome-stool"
+      ],
+      "ownedItems": [
+        {
+          "id": "cloud-corner",
+          "name": "Cloud Modular Corner Chair",
+          "quantity": 2,
+          "finish": null,
+          "fabric": "Perennials Performance Textured Linen Weave",
+          "color": "White",
+          "size": "Feather-Wrapped Core \u00b7 Luxe 45\"",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6371042?swatch=1808017",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod6371042_E5619934_TQ_RHR?",
+          "photoLimitation": "Collection photo: Belgian flax linen. Yours: White performance textured linen, Luxe 45\"."
+        },
+        {
+          "id": "cloud-armless",
+          "name": "Cloud Modular Armless Chair",
+          "quantity": 1,
+          "finish": null,
+          "fabric": "Perennials Performance Textured Linen Weave",
+          "color": "White",
+          "size": "Feather-Wrapped Core \u00b7 Luxe 45\"",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6371043?fullSkuId=10115446+NOWH&categoryId=search",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod6371043_E56199112_TQ_RHR?",
+          "photoLimitation": "Collection photo: Belgian flax linen. Yours: White performance textured linen, Luxe 45\"."
+        },
+        {
+          "id": "cloud-ottoman",
+          "name": "Cloud Modular End-of-Sectional Ottoman",
+          "quantity": 1,
+          "finish": null,
+          "fabric": "Perennials Performance Textured Linen Weave",
+          "color": "White",
+          "size": "Feather-Wrapped Core \u00b7 Luxe 45\"",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6371041?fullSkuId=10115447+NOWH&categoryId=search",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod6371041_E2619922_F_CO19_RHR?src=rhir/obj=Fabric&src=rhir/1808001_E23321146939_O_White_repeat&res=296&illum=0&obj=Fabric&req=object&illum=0)&wid=461",
+          "photoLimitation": "Photo: White performance linen, Luxe 45\". Your textured weave and feather-wrapped core are not confirmed by this photo."
+        },
+        {
+          "id": "machinto-media",
+          "name": "Machinto Panel Double-Door Media Console with Drawers",
+          "quantity": 1,
+          "finish": "Brown Oak / Polished Stainless Steel",
+          "fabric": null,
+          "color": null,
+          "size": null,
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod32350349?fullSkuId=10004785+NATL&categoryId=search",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod16340032_E911471764_F_CC_RHR_cl567008?",
+          "photoLimitation": "Brown oak and stainless match; owned width was not provided."
+        },
+        {
+          "id": "machinto-side",
+          "name": "Machinto Round Side Table",
+          "quantity": 2,
+          "finish": "Brown Oak / Polished Stainless Steel",
+          "fabric": null,
+          "color": null,
+          "size": "18\" diam.",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod7410374?swatch=555009",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod7690891_E47402260_F_CC_RHR?",
+          "photoLimitation": "Brown oak and stainless match; pictured diameter is unconfirmed."
+        },
+        {
+          "id": "marble-coffee",
+          "name": "Low Marble Plinth Coffee Table",
+          "quantity": 1,
+          "finish": "Italian Carrara Marble",
+          "fabric": null,
+          "color": null,
+          "size": "48\"W \u00d7 24\"D",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod5700052?swatch=481354",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod5700052_E26153775_F_RHR?",
+          "photoLimitation": "Carrara material and shape match; pictured dimensions are unconfirmed."
+        },
+        {
+          "id": "arc-floor-lamp",
+          "name": "Arc II Floor Lamp PN",
+          "quantity": 1,
+          "finish": "Polished Nickel",
+          "fabric": null,
+          "color": null,
+          "size": null,
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod15630085?fullSkuId=10000245+PN&categoryId=search",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod15630085_E611105989_F_CC_rebg_RHR_cl421012?",
+          "photoLimitation": null
+        },
+        {
+          "id": "sanani-rug",
+          "name": "Sanani Handwoven Wool Rug",
+          "quantity": 1,
+          "finish": "Natural / Mink",
+          "fabric": null,
+          "color": null,
+          "size": "9\u2032 \u00d7 12\u2032",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod24070047",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod24070047_E317228093_O_Frank?",
+          "photoLimitation": "Swatch reference \u2014 different color; full rug not pictured."
+        },
+        {
+          "id": "rome-stool",
+          "name": "1960s Rome Fabric Backless Bar & Counter Stool",
+          "quantity": 2,
+          "finish": "Polished Stainless Steel",
+          "fabric": "Perennials Performance Textured Linen Weave",
+          "color": "Graphite",
+          "size": null,
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod10740003?swatch=755010",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/prod10740003_E19303881_TQ_RHR?",
+          "photoLimitation": "Photo: White upholstery. Yours: Graphite. Bar/counter height was not provided."
+        }
+      ],
+      "newItems": [],
+      "designIntent": "Use the complete owned Cloud grouping and its BrownOak/stainless casepieces, Carrara plinth and Nickel arc as the penthouse gathering room; mineral walls absorb the stronger silver details.",
+      "materials": [
+        "Warm ivory/mushroom mineral drywalls and matte neutral natural oak in dry rooms; wet rooms suitable porcelain.",
+        "Neutral ivory/oatmeal/charcoal textiles, dark frames/hardware and plants; no forcedblue/yellow/chrome decoration."
+      ],
+      "architectureLocks": [
+        "23ft10x16ft6; existingraisedtray11ft. SOUTH Frenchdoorswith1smallflankwindoweachside leadJulietrail, notroofentry.",
+        "WESTwidesliderrealterraceentry andSW recessedwetbar9ft3x6ft10withcompactwindow, peninsula/stools/2pendants.",
+        "EASTTV/sharedBed5headwall; northstair/openwell/offsetbedroomvestibule notdoorincenterTVwall.",
+        "Actual ownedCloud modulesLUXE45; neverrender119inClassicconfigurationusingwrongPetitephotos."
+      ],
+      "promptForEachExistingDayCode": {
+        "PL1": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nPENTHOUSE OWNED-FURNITURELOFT: Replace allgenericsofa/chairs/console/tables with the OWNEDgroup. ExactlyTWO RHCloudLUXE45 CORNERmodules+ONE LUXE45 ARMLESSmodule canform aSTRAIGHT THREE-MODULE135inwide x45indeep sofa (two outerarmmodules+armlessmiddle); ONE separateownedLUXE45 END-OF-SECTIONALOTTOMAN45insquarecreatesamovablechaiseatoneendifcirculationpermits. White PerennialsPerformanceTEXTURED LINENWEAVE/featherwrappedcore; referencephotossometimesPetiteBelgianFlaxLinen orplainweave, actualLUXE45/WHITE TEXTUREDfabric mustwin. Do notcreateadditionalcorner/chaisechairorclassic119insofa. OwnedMACHINTOmedia console BrownOak/POLISHEDSTAINLESS withTWO PANELdoors andTHREE center drawers, flatgroundedplinth, widthUNPROVIDED, standsbelowexistingTVontheEASTwall. ONEconsoleonly. TWO ownedMachintoROUND18in sidetables BrownOak/stainless, propercatalogroundform; nottwoBezierornewWalnutmatchingcubeunits. OwnedLOWMARBLEPLINTH48W x24D CARRARA rectangular coffee, simpleblock, graywhite naturalmarblevariation, no glass/woodcoffee. ONEownedARCII floormetal lamp POLISHEDNICKEL nearsofa, broadreflectiveshade/baseasphoto, notaddedBatesorlamppair. OwnedSANANI9x12 Natural/Mink rug, WARM natural/taupe-mink variation; availablephotoMarledGreySWATCH istextureONLY, doNOTcopyswatchgreycolor orrenderitassmallrug. Keep sofa135and45ottoman/48coffeeonthis rugsofloorborderanddirectroutesremain. TWOownedROME backlessstools, Polished Stainless Steel / GRAPHITE PerennialsPerformanceTexturedLinenWeave seats. SeatheightisUNKNOWN; renderasprovisionalbarplacementmatchingexistingcounterifplausible, donotclaimcorrectbarheight. Reuseactualwetbaralcove/compactwindow/pendants/recess, modestlyneutral mutedbrownwood ratherthanredstain. Preserveactualraisedtray, smallSOUTHflankwindows,Frenchdoors/Juliet, WESTslider/pergola view andnorthcirculation. Dayivorysheersopenwith independentneutralprivacy shades. No blueyellowpillows, neonLEDsofabottomor chromewallmotif.\n\nEXACT CAMERA PL1: Low-pile rug and genuine daylight replace shag/blue-hour; original terrace glazing rhythm and recessed bar retained.",
+        "PL2": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nPENTHOUSE OWNED-FURNITURELOFT: Replace allgenericsofa/chairs/console/tables with the OWNEDgroup. ExactlyTWO RHCloudLUXE45 CORNERmodules+ONE LUXE45 ARMLESSmodule canform aSTRAIGHT THREE-MODULE135inwide x45indeep sofa (two outerarmmodules+armlessmiddle); ONE separateownedLUXE45 END-OF-SECTIONALOTTOMAN45insquarecreatesamovablechaiseatoneendifcirculationpermits. White PerennialsPerformanceTEXTURED LINENWEAVE/featherwrappedcore; referencephotossometimesPetiteBelgianFlaxLinen orplainweave, actualLUXE45/WHITE TEXTUREDfabric mustwin. Do notcreateadditionalcorner/chaisechairorclassic119insofa. OwnedMACHINTOmedia console BrownOak/POLISHEDSTAINLESS withTWO PANELdoors andTHREE center drawers, flatgroundedplinth, widthUNPROVIDED, standsbelowexistingTVontheEASTwall. ONEconsoleonly. TWO ownedMachintoROUND18in sidetables BrownOak/stainless, propercatalogroundform; nottwoBezierornewWalnutmatchingcubeunits. OwnedLOWMARBLEPLINTH48W x24D CARRARA rectangular coffee, simpleblock, graywhite naturalmarblevariation, no glass/woodcoffee. ONEownedARCII floormetal lamp POLISHEDNICKEL nearsofa, broadreflectiveshade/baseasphoto, notaddedBatesorlamppair. OwnedSANANI9x12 Natural/Mink rug, WARM natural/taupe-mink variation; availablephotoMarledGreySWATCH istextureONLY, doNOTcopyswatchgreycolor orrenderitassmallrug. Keep sofa135and45ottoman/48coffeeonthis rugsofloorborderanddirectroutesremain. TWOownedROME backlessstools, Polished Stainless Steel / GRAPHITE PerennialsPerformanceTexturedLinenWeave seats. SeatheightisUNKNOWN; renderasprovisionalbarplacementmatchingexistingcounterifplausible, donotclaimcorrectbarheight. Reuseactualwetbaralcove/compactwindow/pendants/recess, modestlyneutral mutedbrownwood ratherthanredstain. Preserveactualraisedtray, smallSOUTHflankwindows,Frenchdoors/Juliet, WESTslider/pergola view andnorthcirculation. Dayivorysheersopenwith independentneutralprivacy shades. No blueyellowpillows, neonLEDsofabottomor chromewallmotif.\n\nEXACT CAMERA PL2: Loft companion retains original window/door rhythm, alcove bar, two stools, one chair and low-pile rug."
+      },
+      "existingDaySources": [
+        {
+          "code": "PL1",
+          "jobId": "54572b03-45da-40b4-8db9-cd0faed2eba4",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/loft-pl1-day-30521.png",
+          "evidenceType": "Photo-based architectural revision"
+        },
+        {
+          "code": "PL2",
+          "jobId": "01590af8-23d1-4809-8f47-23be656949cb",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/loft-pl2-day.png",
+          "evidenceType": "Derived angle \u00b7 plan and photo interpretation"
+        }
+      ],
+      "nightLighting": "Exactacceptedday group/modules including135sofa/45ottomanandCarrara48coffee. OneArcIIwarm2700Kplus existingbarpendants/taskand lowceilingtrayambient. Fullyclose independentprivacy across actualSOUTHFrenchdoor/flankwindows, WESTslider and barwindow; smallflankshades reachsills, noexposedlowerglass. No inventednightfurniture/bed LEDs or extra lamps.",
+      "measurementNotes": [
+        "Cloud3modules45ineach produce135x45straightsofa; ottoman45square makes90inchaiseprojection ifattached. Tapecompletegroup,9x12rug,48x24coffeeandstair/slider/barroutes together.",
+        "MachintoMEDIA width/depth/heightunprovided: rendering cannot certifyTVconsolefit or AVventilation.",
+        "Rome stoolseatheightunprovided; testactualcounter/barheight, footrest/seatclearance beforefinalassignment.",
+        "SananiNatural/Mink actualrugcolor mustcomeownerphoto/sample, notdifferentMarledGreycatalogswatch."
+      ]
+    },
+    {
+      "id": "bed5",
+      "ownedIds": [],
+      "ownedItems": [],
+      "newItems": [
+        {
+          "id": "new-bed5-anneli-queen",
+          "ownership": "new",
+          "brand": "Crate & Barrel",
+          "name": "Anneli Upholstered Queen Bed",
+          "quantity": 1,
+          "finish": "Stocked Anneli Textured Weave in Ivory",
+          "dimensions": "75.79W x92.13D x50H in; queen, fully upholstered rounded rails",
+          "url": "https://www.crateandbarrel.com/anneli-upholstered-queen-bed/s222893",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/AnneliUphQnBedIVSOSSS23_3D?%24web_pdp_main_carousel_thumb_med%24=",
+          "currentPrice": {
+            "amount": 2099,
+            "currency": "USD",
+            "kind": "regular",
+            "checkedAt": "2026-10-11",
+            "saleVerified": false,
+            "note": "Official page listed figure; tax/shipping/mattress/bulbs/pad excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Configured Anneli Upholstered Queen Bed, SKU222893: $2,099, In stock. Ready to schedule delivery for ZIP20878, observed October11,2026.",
+            "deliveryVerified": false,
+            "officialStockStatement": "In stock. Ready to schedule delivery."
+          },
+          "decision": "stock_verified_new_purchase_candidate_measure_unbuilt_room_before_order",
+          "imageFile": "docs/collected-mineral-assets/products/private-bed5-anneli-queen.webp",
+          "sku": "222893"
+        },
+        {
+          "id": "new-keane18-natural",
+          "ownership": "new",
+          "brand": "Crate & Barrel",
+          "name": "Keane 18-inch Weathered Natural Solid Wood Narrow Nightstand",
+          "quantity": 2,
+          "finish": "Weathered Natural solid mahogany/meranti veneer; warm muted natural brown; small brass-finish knob(s)",
+          "dimensions": "18W; approximately19D x25H, exact configured dimensions/height to confirm",
+          "url": "https://www.crateandbarrel.com/keane-18-weathered-natural-solid-wood-narrow-nightstand/s664781",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/KeaneWthrNatNrwNtstndSOSSF25?%24web_pdp_main_carousel_thumb_med%24=",
+          "currentPrice": {
+            "amount": 549,
+            "currency": "USD",
+            "kind": "regular",
+            "checkedAt": "2026-10-11",
+            "saleVerified": false,
+            "note": "Official page listed figure; tax/shipping/mattress/bulbs/pad excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Configured Keane 18-inch Weathered Natural Solid Wood Narrow Nightstand, SKU664781: $549, In stock. Ready to schedule delivery for ZIP20878, observed October11,2026. Quantity1 observed; combined house quantity still requires confirmation.",
+            "deliveryVerified": false,
+            "officialStockStatement": "In stock. Ready to schedule delivery.",
+            "observedQuantity": 1,
+            "aggregateRequiredQuantity": 4,
+            "aggregateQuantityVerified": false
+          },
+          "decision": "stock_verified_new_purchase_candidate_aggregate_quantity_check_before_order",
+          "imageFile": "docs/collected-mineral-assets/products/private-nightstand-keane18-natural.webp",
+          "sku": "664781",
+          "imageNote": "Exact current official Weathered Natural product-linked photo saved and visually inspected; natural timber color/grain varies."
+        },
+        {
+          "id": "new-keane42-natural",
+          "ownership": "new",
+          "brand": "Crate & Barrel",
+          "name": "Keane 42-inch Weathered Natural Solid Wood 5-Drawer Tall Dresser",
+          "quantity": 1,
+          "finish": "Weathered Natural solid mahogany/meranti veneer; warm muted natural brown; small brass-finish knob(s)",
+          "dimensions": "42W; configured D/H to verify before order",
+          "url": "https://www.crateandbarrel.com/keane-42-weathered-natural-solid-wood-5-drawer-tall-dresser/s307182",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/Keane5DChestNatSOSSS22?%24web_pdp_main_carousel_thumb_med%24=",
+          "currentPrice": {
+            "amount": 1999,
+            "currency": "USD",
+            "kind": "regular",
+            "checkedAt": "2026-10-11",
+            "saleVerified": false,
+            "note": "Official page listed figure; tax/shipping/mattress/bulbs/pad excluded."
+          },
+          "availability": {
+            "status": "in_stock",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Configured Keane 42-inch Weathered Natural Solid Wood 5-Drawer Tall Dresser, SKU307182: $1,999, In stock. Ready to schedule delivery for ZIP20878, observed October11,2026. Quantity1 observed; combined house quantity still requires confirmation.",
+            "deliveryVerified": false,
+            "officialStockStatement": "In stock. Ready to schedule delivery.",
+            "observedQuantity": 1,
+            "aggregateRequiredQuantity": 2,
+            "aggregateQuantityVerified": false
+          },
+          "decision": "stock_verified_new_purchase_candidate_aggregate_quantity_check_before_order",
+          "imageFile": "docs/collected-mineral-assets/products/private-dresser-keane42-natural.webp",
+          "imageNote": "Exact current official Weathered Natural product-linked photo saved and visually inspected; natural timber color/grain varies.",
+          "sku": "307182"
+        },
+        {
+          "id": "new-remi15-ivory",
+          "ownership": "new",
+          "brand": "Crate & Barrel",
+          "name": "Remi Ivory Linen Mini Table Lamp15-inch",
+          "quantity": 2,
+          "finish": "Ivory linen base/shade with limited burnished-brass accent",
+          "dimensions": "15H; shade width to verify",
+          "url": "https://www.crateandbarrel.com/remi-ivory-linen-mini-table-lamp-15/s109605",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/RmSmllIvryLnnTblLmp15VNF26?%24web_pdp_main_carousel_thumb_med%24=",
+          "currentPrice": {
+            "amount": 199,
+            "currency": "USD",
+            "kind": "regular",
+            "checkedAt": "2026-10-11",
+            "saleVerified": false,
+            "note": "Official page listed figure; tax/shipping/mattress/bulbs/pad excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Current product page confirms form/finish/price; exact20878 stock and quantity not checked. Do not call orderable state in-stock.",
+            "deliveryVerified": false
+          },
+          "decision": "visual_design_candidate_stock_confirmation_needed",
+          "sku": "109605",
+          "imageFile": "docs/collected-mineral-assets/products/private-lamp-remi15-ivory.webp"
+        },
+        {
+          "id": "new-prato8-ivory",
+          "brand": "Crate & Barrel",
+          "name": "Prato Performance Wool Ivory Area Rug 8 \u00d7 10",
+          "url": "https://www.crateandbarrel.com/prato-performance-wool-ivory-area-rug-8x10/s189362",
+          "role": "Loose guest rug",
+          "quantity": 1,
+          "finish": "Ivory; 55%wool 25%polyester 20%viscose",
+          "dimensions": "8 \u00d7 10 ft.",
+          "unitPrice": {
+            "low": 1499,
+            "high": 1499,
+            "kind": "regular",
+            "note": "Exact listed configuration, USD; tax, delivery and installation excluded."
+          },
+          "availability": {
+            "status": "unverified",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Current official8x10 Ivory SKU189362 product page price/finish inspected; prior Oct9 near-term ship quote in Collected Value retained separately, not renewed.",
+            "deliveryVerified": false
+          },
+          "reason": "Tonal texture supports stone, mineral walls and walnut without pattern or colored accents.",
+          "fitNotes": "Keep wood visible around the loose rug; verify orientation against closet, desk and doors. Wool blend, not 100% wool. Address spills promptly; follow professional cleaning guidance.",
+          "phase": "later",
+          "decision": "visual_design_candidate_stock_confirmation_needed",
+          "replaces": [],
+          "sku": "189362",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/PratoIvory8x10RugTPSSF22?%24web_pdp_main_carousel_thumb_med%24=",
+          "saleVerified": false,
+          "ownership": "new",
+          "currentPrice": {
+            "amount": 1499,
+            "currency": "USD",
+            "kind": "regular",
+            "checkedAt": "2026-10-11",
+            "saleVerified": false
+          }
+        }
+      ],
+      "designIntent": "A softer future penthouse guest suite: new rounded ivory Anneli upholstered bed, compact Weathered Natural wood storage and linen lamps. Bedroom5 is unbuilt; this furnishing study follows the current approved plan-derived camera.",
+      "materials": [
+        "Warm ivory/mushroom mineral walls; matte natural neutral oak floor.",
+        "Ivory/oatmeal/charcoal textiles and neutral dark-framed artwork; green plants.",
+        "Independent ivory sheers and full blackout at all real/planned bedroom windows."
+      ],
+      "architectureLocks": [
+        "UNBUILT actual house. Nominal179in SOUTH\u2013NORTH width by133in WEST\u2013EAST depth, FLAT108in ceiling. WEST headboard shared with loftTV wall directly opposite TWO separated EAST windows.",
+        "SOUTH closet; NORTH linen bumpout/offset vestibule entry and Bath4. New dresser occupies only remaining measured north wall.",
+        "B51 source-visible headboard/far walls are windowless. Corrected B52 shows the planned east pair opposite bed; never rotate bed90degrees to adjacent window wall or invent center third window."
+      ],
+      "promptForEachExistingDayCode": {
+        "B51": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nFUTURE BEDROOM FIVE NEW FURNITURE CONCEPT: Replace previous charcoal bed with NEW C&B ANNELI UPHOLSTERED QUEEN,75.79W x92.13L x50H, Anneli Textured Weave IVORY. Softly rounded plain tall rectangular headboard, generously padded low side/foot rails nearly to floor, seamless tailored cream weave, no tufting/channeling/wings, no owned-Modena duplicate. Headboard remains WEST wall shared with loft TV, directly facing TWO SEPARATED EAST windows, with solid wall BETWEEN them; keep corrected B51/B52 plan relation. TWO NEW narrow18in Keane WEATHERED NATURAL nightstands with one drawer/open lower shelf; restrained small antique-brass knob, straight architectural stiles. ONE NEW Keane42in five-drawer tall WEATHERED NATURAL dresser at source/north-wall dresser position only where measured entry/linen clearance allows. TWO NEW Remi IVORY LINEN MINI15in lamps, one per bedside, linen-covered slim bases and pitched linen shades with small burnished accents. Do not duplicate owned Bates/Orbiter lamps or add a glowing platform. NEW Prato IVORY8x10 loose rug under bed, matte pale neutral oak visible around. Neutral white/oatmeal bedlinen and quiet neutral dark-framed art above bed where the current wall frame permits, no purple/pink/blue. B51 does not gain new windows in its visible solid walls; B52 retains ONLY the actual planned TWO east units opposite the headboard with ivory sheers+full blackout stacked open. Flat9ft ceiling; no roof-slope room, third interior dormer window or newdoor behind bed. Treat whole room as proposed construction, not a photograph of actual built house.\n\nEXACT CAMERA B51: Invented horizontal beam removed; original flat ceiling and vertical doorway return retained, with proposed thin painted wall frame.",
+        "B52": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nFUTURE BEDROOM FIVE NEW FURNITURE CONCEPT: Replace previous charcoal bed with NEW C&B ANNELI UPHOLSTERED QUEEN,75.79W x92.13L x50H, Anneli Textured Weave IVORY. Softly rounded plain tall rectangular headboard, generously padded low side/foot rails nearly to floor, seamless tailored cream weave, no tufting/channeling/wings, no owned-Modena duplicate. Headboard remains WEST wall shared with loft TV, directly facing TWO SEPARATED EAST windows, with solid wall BETWEEN them; keep corrected B51/B52 plan relation. TWO NEW narrow18in Keane WEATHERED NATURAL nightstands with one drawer/open lower shelf; restrained small antique-brass knob, straight architectural stiles. ONE NEW Keane42in five-drawer tall WEATHERED NATURAL dresser at source/north-wall dresser position only where measured entry/linen clearance allows. TWO NEW Remi IVORY LINEN MINI15in lamps, one per bedside, linen-covered slim bases and pitched linen shades with small burnished accents. Do not duplicate owned Bates/Orbiter lamps or add a glowing platform. NEW Prato IVORY8x10 loose rug under bed, matte pale neutral oak visible around. Neutral white/oatmeal bedlinen and quiet neutral dark-framed art above bed where the current wall frame permits, no purple/pink/blue. B51 does not gain new windows in its visible solid walls; B52 retains ONLY the actual planned TWO east units opposite the headboard with ivory sheers+full blackout stacked open. Flat9ft ceiling; no roof-slope room, third interior dormer window or newdoor behind bed. Treat whole room as proposed construction, not a photograph of actual built house.\n\nEXACT CAMERA B52: Exact source camera and geometry visually checked; requested lighting/opaque privacy state retained without furniture drift."
+      },
+      "existingDaySources": [
+        {
+          "code": "B51",
+          "jobId": "9537c1a6-4c96-4078-9e98-4e1b84e88e11",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/bed5-b51-day-30522.png",
+          "evidenceType": "Unbuilt room \u00b7 model-photo / plan interpretation"
+        },
+        {
+          "code": "B52",
+          "jobId": "5a8163a9-8bc4-43b3-a19a-5c4ef965f80e",
+          "file": "assets/render-candidates/mineral-walnut-plan/r07/bed5-b52-day-a3.png",
+          "evidenceType": "Plan-led reconstruction with adjacent source-photo evidence",
+          "selectionQualification": "Baseline furnishing/source-reference only. This asset repeats the primary headwall camera and is NOT an approved two-east-window reverse; replacement required."
+        }
+      ],
+      "nightLighting": "Night must be edit of exact accepted day with the same Anneli/table/dresser/rug forms. Close BOTH planned east windows with fully opaque oatmeal blackout layers; exactly TWO Remi lamps2700K and existing ceiling very low. No invented LED band, sconce or lamp duplicates.",
+      "measurementNotes": [
+        "Anneli queen is wider/deeper than owned Modena queen; tape75.79x92.13 before confirming fit. No purchase until permitted new-room layout and final field measurements.",
+        "Entry/linen/closet clearances and exact window offsets unmeasured; dresser42in footprint is conditional on actual remaining NORTH wall.",
+        "Configured retailer check for ZIP20878 confirmed Anneli Ivory Queen in stock October11 at $2,099; delivery date remains unconfirmed and other new pieces still require current stock confirmation.",
+        "No claims of existent Bedroom5 or construction geometry derived solely from model-home photo; B52 is a plan-constrained visualization.",
+        "Natural18 nightstand SKU664781 $549 and Natural42 dresser SKU307182 $1,999 verified in stock to ZIP20878 October11 at quantity1 each. Across Bed3+Bed5, FOUR nightstands and TWO dressers are required; full aggregate quantities and delivery date must be checked before order. Lamps and rug current stock remain conditional.",
+        "Source-level QA found current R07 B52 selected asset repeats a west-headwall crop rather than the required reverse. Do not treat that baseline as proof of east openings. Generate and approve a geometry-guided reverse before assigning final B52."
+      ],
+      "futureAlternatives": [
+        {
+          "id": "new-keane18-espresso",
+          "ownership": "new",
+          "brand": "Crate & Barrel",
+          "name": "Keane18-inch Espresso Solid Wood Narrow Nightstand",
+          "quantity": 2,
+          "finish": "Espresso mahogany; understated antique-brass knob",
+          "dimensions": "18W; approximately19D x25H, exact configured dimensions/height to confirm",
+          "url": "https://www.crateandbarrel.com/keane-18-espresso-solid-wood-narrow-nightstand/s120104",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/Kn18sprssSldWdNrrwNgh1SOSSF26_3D?%24web_pdp_main_carousel_thumb_med%24=",
+          "currentPrice": {
+            "amount": 549,
+            "currency": "USD",
+            "kind": "regular",
+            "checkedAt": "2026-10-11",
+            "saleVerified": false,
+            "note": "Official page listed figure; tax/shipping/mattress/bulbs/pad excluded."
+          },
+          "availability": {
+            "status": "unverified_current",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Current product page confirms form/finish/price; exact20878 stock and quantity not checked. Do not call orderable state in-stock.",
+            "deliveryVerified": false
+          },
+          "decision": "excluded_pending_current_stock_keep_as_future_alternative",
+          "imageFile": "docs/collected-mineral-assets/products/private-nightstand-keane18-espresso.webp",
+          "sku": "120104"
+        },
+        {
+          "id": "new-keane42-espresso",
+          "ownership": "new",
+          "brand": "Crate & Barrel",
+          "name": "Keane42-inch Espresso Solid Wood5-Drawer Tall Dresser",
+          "quantity": 1,
+          "finish": "Espresso mahogany; restrained antique-brass knobs",
+          "dimensions": "42W; configured D/H to verify before order",
+          "url": "https://www.crateandbarrel.com/keane-42-solid-espresso-wood-5-drawer-tall-dresser/s120099",
+          "imageUrl": "https://cb.scene7.com/is/image/Crate/Keane5DrawerChestSSS20_1x1?%24web_pdp_main_carousel_thumb_med%24=",
+          "currentPrice": {
+            "amount": 1999,
+            "currency": "USD",
+            "kind": "regular",
+            "checkedAt": "2026-10-11",
+            "saleVerified": false,
+            "note": "Official page listed figure; tax/shipping/mattress/bulbs/pad excluded."
+          },
+          "availability": {
+            "status": "unverified_current",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Current product page confirms form/finish/price; exact20878 stock and quantity not checked. Do not call orderable state in-stock.",
+            "deliveryVerified": false
+          },
+          "decision": "excluded_pending_current_stock_keep_as_future_alternative",
+          "imageFile": "docs/collected-mineral-assets/products/private-dresser-keane42-shape.webp",
+          "imageNote": "Official current product-linked image visually checked: five rows/espresso-brown appearance; natural wood color varies."
+        }
+      ],
+      "reverseGeometryGuide": {
+        "svg": "assets/render-candidates/collected-mineral/r04/bed5-reverse-geometry.svg",
+        "png": "assets/render-candidates/collected-mineral/r04/bed5-reverse-geometry.png",
+        "camera": "Near west headboard end, looking EAST. Headboard/art behind camera/out of frame. NORTH dresser/entry left, SOUTH closet right; bed foot aligned directly at two east windows."
+      },
+      "approvedDerivedViews": [
+        {
+          "code": "B52",
+          "file": "assets/render-candidates/collected-mineral/r04/day-629.png",
+          "jobId": "0a891556-4e1b-43d3-a30b-6de049904f83",
+          "evidenceType": "Genuine plan-led reverse; proposed unbuilt Bedroom5",
+          "approvedAt": "2026-10-12",
+          "qaFile": "docs/collected-mineral-bed5-reverse-qa.json"
+        }
+      ]
+    },
+    {
+      "id": "bath4",
+      "ownedIds": [],
+      "ownedItems": [],
+      "newItems": [],
+      "designIntent": "Keep the compact neutral guest-bath shell and porcelain; no unnecessary loose-furniture purchases in this functional room.",
+      "materials": [
+        "Warm ivory/mushroom mineral drywalls and matte neutral natural oak in dry rooms; wet rooms suitable porcelain.",
+        "Neutral ivory/oatmeal/charcoal textiles, dark frames/hardware and plants; no forcedblue/yellow/chrome decoration."
+      ],
+      "architectureLocks": [
+        "Plan-ledcompactbath:WESTvestibuleentry,NORTHwallvanitynearestentry/toiletfarthereast,SOUTHshowerhead andNORTHbenchinsideEAST-endshower.",
+        "No planexteriorwindow; flatceiling andsamewallvanity/toilettopology."
+      ],
+      "promptForEachExistingDayCode": {
+        "PBA1": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nPENTHOUSE BATH4: Preserve latestapprovedsourcecameraandplan-ledcompactenclosure. WESTentry, NORTHsinglewalnutvanityandtoiletonSAMEwall, EAST-endglassshowerwithNORTHbench/SOUTHshowerhead. Keep warmneutralporcelaintile,floor,counter, mirror/darkfixtures/sconcesanddooractualpositions. Windowlessbuilderlayout, no curtains/window/skylight. Neutralwhitetowels/ivoryceramicsoaponlyexistingstaging, no newdresser/storagebench/ownedclio relocatedhere. FinishcoordinationwithmineralOption3, not silverchrome featurewall or inventedhotelbathsize.\n\nEXACT CAMERA PBA1: Same-wall vanity/toilet and far-end shower retained, with corrected porcelain floor."
+      },
+      "existingDaySources": [
+        {
+          "code": "PBA1",
+          "jobId": "02fba582-7b3b-4472-8d30-febad932f4c7",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/bath4-pba1-day-30523.png",
+          "evidenceType": "Plan-led concept \u00b7 no room photograph"
+        }
+      ],
+      "nightLighting": "Exactdayfixtures/geometry, existingwarmvanitytasklight+lowrecessedambient, no daylight/newwindowor chandelier.",
+      "measurementNotes": [
+        "No reliableprintedroomdimensions; plumbing/showerdoor/bench/WCclearances needfieldplans."
+      ]
+    },
+    {
+      "id": "terrace",
+      "ownedIds": [],
+      "ownedItems": [],
+      "newItems": [
+        {
+          "id": "terrace-rh-mesa108-sofa",
+          "brand": "RH",
+          "name": "Mesa Teak Sofa \u2014 stocked 108-inch configuration",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod22320022?inStock=true",
+          "role": "Stocked outdoor lounge sofa",
+          "quantity": 1,
+          "finish": "Natural Teak with White Classic Performance Textured Weave cushions",
+          "dimensions": "108 W x 35.5 D x 30 H with cushions",
+          "availability": {
+            "status": "unverified_current",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Prior official configured stock evidence datedOct9 retained in previousAvailability; a new liveZIP quantity/delivery check was not available in this agent. Do not claim reverified October11.",
+            "deliveryVerified": false
+          },
+          "reason": "Same sculptural collection and warm palette as original terrace concept. It is 18 inches longer than the proposed 90-inch sofa; approve tape-out for lounge route, fireplace setback and two chairs before using this size. Preserve original 90-inch recommendation for later.",
+          "fitNotes": "Exact frame plus White cushions is stocked, but 108 inches is 18 inches longer than the original 90-inch target. Tape out the 17 ft 3 \u00d7 17 ft 1 lounge area with chairs, fireplace setbacks and door/stair circulation. This is a premium fallback while a cheaper complete sofa is checked. Conditional size recommendation only: approve the 18-inch enlargement by field tape-out before ordering; retain smaller original concept if circulation fails.",
+          "phase": "later",
+          "decision": "visual_design_candidate_stock_recheck_needed",
+          "replaces": [
+            "Mesa Teak Sofa"
+          ],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_SOFA_pg&layer=3&src=ir(rhir/prod22320022_E416043749_F_CO20_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/1936002_E22419600683_O_White1_repeat&res=160&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c19264&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.5&sizeN=0.9559471366,0.8103896104&&$PDP-IR-768$",
+          "imageNote": "Official RH catalog reference photo; the exact checked finish and configuration are specified separately. Confirm physical samples before ordering.",
+          "saleVerified": false,
+          "ownership": "new",
+          "previousAvailability": {
+            "status": "in_stock",
+            "evidence": "Exact frame-plus-cushion combination in officialRH IN-STOCK modal. Neutral cushions are part of this configuredSKU, not inferred from generic stocked-fabric marketing.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/27/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod22320022?inStock=true",
+            "method": "Live official RH configuration check preserved in docs/mineral-walnut-rh-stock.json; no cart or order submitted",
+            "configuration": {
+              "width": "108 inches",
+              "finish": "Natural Teak",
+              "fabric": "Classic Performance Textured Weave",
+              "color": "White",
+              "sku": "10272455 OWWH",
+              "testedQuantity": 1
+            }
+          },
+          "saleVerifiedCurrent": false,
+          "historicalUnitPrice": {
+            "checkedAt": "2026-10-09",
+            "low": 4835,
+            "high": 4835,
+            "kind": "member_sale",
+            "note": "Exact RH member sale price; regular price $8,065. RH membership, tax, delivery and assembly are additional."
+          },
+          "historicalSaleVerified": true
+        },
+        {
+          "id": "terrace-rh-mesa60-coffee",
+          "brand": "RH",
+          "name": "Mesa Teak Rectangular Coffee Table \u2014 stocked 60-inch Natural Teak",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod16940016",
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=prod22320029_E916044151_F_RHR_cl251482&anchorN=0,0.45&sizeN=0.95,0.45&&$PDP-IS-768$",
+          "imageNote": "Official RH catalogue reference; confirm Natural Teak sample beside chosen seating.",
+          "role": "Stocked outdoor coffee table",
+          "quantity": 1,
+          "finish": "Natural Teak",
+          "dimensions": "60 W \u00d7 28.5 D \u00d7 12 H inches",
+          "availability": {
+            "status": "unverified_current",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Prior official configured stock evidence datedOct9 retained in previousAvailability; a new liveZIP quantity/delivery check was not available in this agent. Do not claim reverified October11.",
+            "deliveryVerified": false
+          },
+          "reason": "Provides a complete currently stocked neutral teak lounge layout with the selected Mesa sofa and Balmain chairs. Keep the smaller cheaper PB 45-inch table as a future stock-verified value comparison.",
+          "fitNotes": "The 60-inch table is 12 inches longer than the original 48-inch target and is lower at 12 H. Tape out sofa, two chairs, door and stair paths; this is a conditional enlargement, not automatic purchase approval.",
+          "phase": "later",
+          "decision": "visual_design_candidate_stock_recheck_needed",
+          "replaces": [
+            "Mesa Teak Rectangular Coffee Table"
+          ],
+          "saleVerified": false,
+          "ownership": "new",
+          "previousAvailability": {
+            "status": "in_stock",
+            "evidence": "Live IN-STOCK & READY TO SHIP modal. Current Dimensions: 60 W \u00d7 28.5 D \u00d7 12 H inches. Exact stock applies to the 60-inch Natural Teak table; the planned 48-inch Natural Teak unit was not listed. 48-inch Weathered Teak SKU 10084663 WGTK was stocked at $2,139/$3,570, but changes the finish.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/27/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940016",
+            "method": "Live official RH IN-STOCK configuration previously preserved in docs/mineral-walnut-rh-stock.json.",
+            "configuration": {
+              "width": "60 inches",
+              "finish": "Natural Teak",
+              "sku": "10008923 TEAK"
+            }
+          },
+          "saleVerifiedCurrent": false,
+          "historicalUnitPrice": {
+            "checkedAt": "2026-10-09",
+            "low": 2625,
+            "high": 2625,
+            "kind": "member_sale",
+            "note": "Exact RH member sale; regular $4,375. Membership, tax, delivery and assembly are additional."
+          },
+          "historicalSaleVerified": true
+        },
+        {
+          "id": "terrace-rh-mesa72-dining",
+          "brand": "RH",
+          "name": "Mesa Teak Rectangular Dining Table \u2014 original 72-inch Natural Teak, stocked",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod16940017",
+          "role": "Six-seat outdoor dining table",
+          "quantity": 1,
+          "finish": "Natural Teak",
+          "dimensions": "72 L \u00d7 40 W \u00d7 30 H inches; 28.25-inch clearance under top;47.25 inches between the side legs.",
+          "availability": {
+            "status": "unverified_current",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Prior official configured stock evidence datedOct9 retained in previousAvailability; a new liveZIP quantity/delivery check was not available in this agent. Do not claim reverified October11.",
+            "deliveryVerified": false
+          },
+          "reason": "Keeps the original six-seat outdoor dining direction and warm teak color. Select dining chairs only after checking the base spacing and pullback; do not enlarge the table to match a sale.",
+          "fitNotes": "72 L \u00d7 40 W \u00d7 30 H in the 12 ft 4 \u00d7 12 ft 8 dining zone. Check chair pullback and doors.47.25-inch side opening accommodates two 20-inch Balmain side chairs before spacing. Premium stocked fallback; compare lower-cost complete dining sets before purchase.",
+          "phase": "later",
+          "decision": "visual_design_candidate_stock_recheck_needed",
+          "replaces": [
+            "Mesa Teak Rectangular Dining Table"
+          ],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=prod22320036_E416044592_MAIN_RS_RHR_cl251482&anchorN=0,0.45&sizeN=0.95,0.65&&$PDP-IS-768$",
+          "imageNote": "Official RH catalog reference photo; the exact checked finish and configuration are specified separately. Confirm physical samples before ordering.",
+          "saleVerified": false,
+          "ownership": "new",
+          "previousAvailability": {
+            "status": "in_stock",
+            "evidence": "Exact configuration in live IN-STOCK & READY TO SHIP modal; current Dimensions:72 L \u00d7 40 W \u00d7 30 H inches. Space between legs 47.25 inches. This matches the planned table length. Confirm two chairs per long side fit between the bases and that door and grill routes remain clear.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/27/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod16940017",
+            "method": "Live official RH configuration check preserved in docs/mineral-walnut-rh-stock.json; no cart or order submitted",
+            "configuration": {
+              "width": "72 inches",
+              "finish": "Natural Teak",
+              "sku": "10035595 TEAK"
+            }
+          },
+          "saleVerifiedCurrent": false,
+          "historicalUnitPrice": {
+            "checkedAt": "2026-10-09",
+            "low": 4159,
+            "high": 4159,
+            "kind": "member_sale",
+            "note": "Exact RH member sale price; regular price $6,940. RH membership, tax, delivery and assembly are additional."
+          },
+          "historicalSaleVerified": true
+        },
+        {
+          "id": "terrace-rh-balmain-dining6",
+          "brand": "RH",
+          "name": "Balmain Teak Dining Side Chair \u2014 stocked Dove, six checked",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod30120035",
+          "role": "Six armless outdoor dining chairs",
+          "quantity": 6,
+          "finish": "Natural Teak /Dove Perennials Performance Textured Linen Weave",
+          "dimensions": "20 W \u00d7 23 D \u00d7 32 H inches with cushion; seat height 19.5 inches. Two side chairs occupy 40 inches of the table's 47.25-inch side opening before spacing.",
+          "availability": {
+            "status": "unverified_current",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Prior official configured stock evidence datedOct9 retained in previousAvailability; a new liveZIP quantity/delivery check was not available in this agent. Do not claim reverified October11.",
+            "deliveryVerified": false
+          },
+          "reason": "Slimmer armless chairs give the six-seat Mesa table more breathing room than six Mesa armchairs. The subtle neutral Dove cushion stays within Mineral & Walnut's quiet palette. Compare both teak samples and tape out chairs and pullback.",
+          "fitNotes": "Exact six-unit preview was accepted at the stated delivery window. Each 20 W \u00d7 23 D \u00d7 32 H with 19.5-inch seat. Unit member sale$839 gives$5,034 for six before fees. This is a premium stocked fallback, not a budget dining set; compare Natural Teak/Dove to the table sample.",
+          "phase": "later",
+          "decision": "visual_design_candidate_stock_recheck_needed",
+          "replaces": [
+            "Mesa Teak Dining Armchair"
+          ],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_DINING_TABLE_pg&layer=3&src=ir(rhir/prod30120035_E23120622656_TQ_CO23_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerennialsTexturedLinenWeave_Dove_repeat&res=236&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c9966a&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.45&sizeN=0.7,0.8&&$PDP-IR-768$",
+          "imageNote": "Official RH catalog reference photo; the exact checked finish and configuration are specified separately. Confirm physical samples before ordering.",
+          "saleVerified": false,
+          "ownership": "new",
+          "previousAvailability": {
+            "status": "in_stock",
+            "evidence": "Exact configuration in live IN-STOCK modal; quantity set to 6 without cart submission, delivery quote returned unchanged. Current Dimensions 20 W \u00d7 23 D \u00d7 32 H with cushion. Six units were accepted by the stock configurator with the stated delivery window. This is a snapshot, not a reservation. Teak hue and Dove fabric require samples; verify seat height beside Mesa's table.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/20/26 and 10/27/26 for 20878 at preview quantity 6.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod30120035",
+            "method": "Live official RH configuration check preserved in docs/mineral-walnut-rh-stock.json; no cart or order submitted",
+            "configuration": {
+              "finish": "Natural Teak",
+              "fabric": "Perennials Performance Textured Linen Weave",
+              "color": "Dove",
+              "sku": "10271971 BXDV",
+              "quantityChecked": 6
+            }
+          },
+          "saleVerifiedCurrent": false,
+          "historicalUnitPrice": {
+            "checkedAt": "2026-10-09",
+            "low": 839,
+            "high": 839,
+            "kind": "member_sale",
+            "note": "Exact RH member sale price; regular price $1,405. RH membership, tax, delivery and assembly are additional."
+          },
+          "historicalSaleVerified": true
+        },
+        {
+          "id": "terrace-rh-balmain-lounge",
+          "brand": "RH",
+          "name": "Balmain Teak Lounge Chair \u2014 stocked Natural upholstery",
+          "url": "https://rh.com/us/en/catalog/product/product.jsp/prod14020067",
+          "role": "Outdoor lounge chairs",
+          "quantity": 2,
+          "finish": "Natural Teak /Natural Perennials Performance Textured Linen Weave",
+          "dimensions": "31.5-inch square \u00d7 29 H with cushion. Seat height 15.5 inches;37 lb.",
+          "availability": {
+            "status": "unverified_current",
+            "checkedAt": "2026-10-11",
+            "destinationZip": "20878",
+            "evidence": "Prior official configured stock evidence datedOct9 retained in previousAvailability; a new liveZIP quantity/delivery check was not available in this agent. Do not claim reverified October11.",
+            "deliveryVerified": false
+          },
+          "reason": "A neutral teak lounge chair in a compact square footprint, with a more upright, tailored form than Mesa. It coordinates with the stocked Balmain chaises while keeping outdoor furniture warm and understated.",
+          "fitNotes": "31.5-inch square \u00d7 29 H with cushion. Pair quantity has not been checked. At$2,085 each member sale, these are optional later additions, not initial move-in necessities. Compare teak hue against the selected sofa.",
+          "phase": "later",
+          "decision": "visual_design_candidate_stock_recheck_needed",
+          "replaces": [
+            "Mesa Teak Lounge Chair"
+          ],
+          "imageUrl": "https://media.restorationhardware.com/is/image/rhis/?template=8020_OD_LOUNGE_CHAIR_pg&layer=3&src=ir(rhir/prod14020067_E410381676_TQ_OD18_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerennialsTexturedLinenWeave_Natural_204_repeat&res=220&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=c9966a&illum=0&obj=Fabric&req=object&illum=0)&anchorN=0,0.45&sizeN=0.69,0.75&&$PDP-IR-768$",
+          "imageNote": "Official RH catalog reference photo; the exact checked finish and configuration are specified separately. Confirm physical samples before ordering.",
+          "saleVerified": false,
+          "ownership": "new",
+          "previousAvailability": {
+            "status": "in_stock",
+            "evidence": "Exact frame, fabric and color in live IN-STOCK modal; Dimensions 31.5-inch square \u00d7 29 H with cushion;37 lb. Pair quantity not checked. Teak hue can vary between Balmain and Mesa; compare physical samples before mixing collections.",
+            "checkedAt": "2026-10-09",
+            "destinationZip": "20878",
+            "delivery": "Ready for delivery between 10/23/26 and 10/29/26 for 20878.",
+            "sourceUrl": "https://rh.com/us/en/catalog/product/product.jsp/prod14020067",
+            "method": "Live official RH configuration check preserved in docs/mineral-walnut-rh-stock.json; no cart or order submitted",
+            "configuration": {
+              "finish": "Natural Teak",
+              "fabric": "Perennials Performance Textured Linen Weave",
+              "color": "Natural",
+              "sku": "10272888 BXNT"
+            }
+          },
+          "saleVerifiedCurrent": false,
+          "historicalUnitPrice": {
+            "checkedAt": "2026-10-09",
+            "low": 2085,
+            "high": 2085,
+            "kind": "member_sale",
+            "note": "Exact RH member sale price; regular price $3,475. RH membership, tax, delivery and assembly are additional."
+          },
+          "historicalSaleVerified": true
+        }
+      ],
+      "designIntent": "Natural teak/neutral upholstered outdoor gathering continues the warm mineral envelope while using one coherent dining/lounge schedule across both source cameras.",
+      "materials": [
+        "Warm ivory/mushroom mineral drywalls and matte neutral natural oak in dry rooms; wet rooms suitable porcelain.",
+        "Neutral ivory/oatmeal/charcoal textiles, dark frames/hardware and plants; no forcedblue/yellow/chrome decoration."
+      ],
+      "architectureLocks": [
+        "Subjectwhitehouse roof/pergola/posts/sails/rails/privacypartywall andliving/dining/sunzonesunchanged; no roofextension.",
+        "Modelnorthprivacywallfireplace and externalspiral(optionalplanfeature) remainmodelprecedent; actualinstallationsunconfirmed.",
+        "RT1andRT2mustuseSAMEfurnitureschedule, notdifferentsize/shape diningtables."
+      ],
+      "promptForEachExistingDayCode": {
+        "RT1": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nROOF TERRACE: Preserve exactphotographedroof/pergola/posts/stringlights/sails/darkpicketrails/deck/glazingandviewsinbothRT1/RT2. NaturalTEAK+White/Natural/Doveweather-ratedtextiles, plants, no brightcolors/chromeorindoordrapes. SAME NEWscheduleinbothcameras: oneMesa108TEAKsofa NaturalTeak/WHITEClassicPerformanceTexturedWeavecushions,108W x35.5D x30H; ONE Mesa60rectangularcoffee60W x28.5D x12H; ONE Mesa72DINING72L x40W x30H; EXACTLYSIXarmlessBalmainNaturalTeakDOVE diningchairs20W x23D x32H(twoeachlongside+oneeachend), plus TWO BalmainNaturalTeak/NATURAL loungechairs31.5insquare x29H. Nooptionalchaises/ninthseat/oldeggpod or differing squaretable inreverseview. Furniture staysinexistingliving/dining/sunzonesandclear ofslider/stair/fireplacesetbacks; NEVERenlargerooforcamera tofit. Ifagivencamerasourcecropsoutsofa/loungesection, leaveitoutofframehonestly. PreservefireplaceinNORTHprivacy/partywall, notviewedge orfirepit. Keep existingmodeloptionalspiral whenphotographed butdoNOTclaim actualhouseinstallation; no adding ittoacamerawhereitisoutsideframe. Urbanmansard/townhomeroofscapeandnearbylow-midriseblocks, notforest/ocean/skyscrapers.\n\nEXACT CAMERA RT1: Original roofscape, pergola/posts/sails, railings and house-side fireplace preserved; true daylight with simpler staging.",
+        "RT2": "IMAGE-EDIT the exact supplied latest R07 Option1 room camera into COLLECTED MINERAL OPTION3. Preserve every verified wall/window/door, room footprint, ceiling and camera. The first room image sets architecture only; the owned product references control furniture shape but their default colors do NOT override the owned finish notes. Warm ivory/mushroom restrained mineral or Roman Clay dry walls, existing matte neutral natural oak, neutral white/oatmeal/charcoal textiles, plants and slim dark art frames. This Option3 incorporates the owner's specific Brown Oak/stainless/Nickel furnishings as limited accents without a blue/yellow/chrome decorative palette. Do not copy generic Cocoa & Chrome. Retain suitable A pearl onyx-look and E limestone-look porcelain in wet rooms. No stair runners. No room expansion, extra coves/trays, windows or generic hotel architecture. Photoreal daylight, subtle texture, realistic scale, no people/pets/logos/collages/watermark. Product dimensions and future layout fit remain to be field measured.\n\nROOF TERRACE: Preserve exactphotographedroof/pergola/posts/stringlights/sails/darkpicketrails/deck/glazingandviewsinbothRT1/RT2. NaturalTEAK+White/Natural/Doveweather-ratedtextiles, plants, no brightcolors/chromeorindoordrapes. SAME NEWscheduleinbothcameras: oneMesa108TEAKsofa NaturalTeak/WHITEClassicPerformanceTexturedWeavecushions,108W x35.5D x30H; ONE Mesa60rectangularcoffee60W x28.5D x12H; ONE Mesa72DINING72L x40W x30H; EXACTLYSIXarmlessBalmainNaturalTeakDOVE diningchairs20W x23D x32H(twoeachlongside+oneeachend), plus TWO BalmainNaturalTeak/NATURAL loungechairs31.5insquare x29H. Nooptionalchaises/ninthseat/oldeggpod or differing squaretable inreverseview. Furniture staysinexistingliving/dining/sunzonesandclear ofslider/stair/fireplacesetbacks; NEVERenlargerooforcamera tofit. Ifagivencamerasourcecropsoutsofa/loungesection, leaveitoutofframehonestly. PreservefireplaceinNORTHprivacy/partywall, notviewedge orfirepit. Keep existingmodeloptionalspiral whenphotographed butdoNOTclaim actualhouseinstallation; no adding ittoacamerawhereitisoutsideframe. Urbanmansard/townhomeroofscapeandnearbylow-midriseblocks, notforest/ocean/skyscrapers.\n\nEXACT CAMERA RT2: Original second terrace camera retained with foreground egg chair, pergola/roofscape/rail and separate outdoor dining zone in neutral daylight."
+      },
+      "existingDaySources": [
+        {
+          "code": "RT1",
+          "jobId": "984b7551-8036-4c28-ab15-a26b8c1bf20b",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r01/terrace-rt1-day.png",
+          "evidenceType": "Photo-based architectural revision"
+        },
+        {
+          "code": "RT2",
+          "jobId": "27456ab8-a6f1-477e-965d-cdfcd41b0cda",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/terrace-rt2-day-31524.png",
+          "evidenceType": "Photo-based architectural revision"
+        }
+      ],
+      "nightLighting": "Same exactacceptedday furniture/roofgeometry, darknatural sky, warmexistingstringlightsand optionalexistingmodelanchoredfireplaceflame. No additionalfirepits/roofuplights/people. Qualifiedasproposedmodelprecedent untilasbuiltexteriorconfirmed.",
+      "measurementNotes": [
+        "Mesa108sofa18inlarger thanoriginal90 andMesa60coffee12inlarger thanoriginal48; conditional tapeout, noautomaticfit/selectionfromsale.",
+        "Living17ft3x17ft1,dining12ft4x12ft8,sun12ft4x9ft4nominal; chairpullback/stair/door/fireplacesetbacks/wind/loading/roofdeliverytoverify.",
+        "Outdoor stock quotations date to October9; confirm exact configured quantities and delivery to ZIP20878 before purchasing.",
+        "Confirm actualoptionalexternalspiralandfireplaceinstallationindependently; sourceimageisnotasbuiltinventory."
+      ]
+    }
+  ],
+  "stockReviewNote": "Official configured retailer availability observed October11 for ZIP20878: Anneli Ivory Queen $2,099, Natural Keane Queen $1,799, Natural18 nightstand $549 and Natural42 dresser $1,999 were in stock. Natural casegoods availability was observed at quantity1 each; confirm the required FOUR nightstands and TWO dressers together before ordering. Delivery dates remain unconfirmed. Espresso Queen is made to order and excluded from the stocked shortlist; Espresso storage remains an unverified future alternative. Other lamps, rugs and new RH pieces still need current stock confirmation. Prior October9 RH sale prices are retained as dated historical estimates only.",
+  "counts": {
+    "rooms": 13,
+    "dayTemplates": 23
+  },
+  "sourceAuditFiles": [
+    "docs/mineral-walnut-floor-three-owners-audit-r07.json",
+    "docs/mineral-walnut-floor-three-other-audit-r07.json",
+    "docs/mineral-walnut-floor-four-audit-r07.json"
+  ]
+}

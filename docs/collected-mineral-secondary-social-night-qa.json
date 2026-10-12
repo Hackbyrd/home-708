@@ -1,0 +1,244 @@
+{
+  "title": "Collected Mineral · social secondary night QA",
+  "date": "2026-10-11",
+  "status": "all_five_latest_social_secondary_views_pass",
+  "sourceManifest": "assets/render-candidates/collected-mineral/r04/secondary-night-initial-submission.json",
+  "summary": {
+    "historicalAttemptsReviewed": 9,
+    "latestViewsReviewed": 5,
+    "latestApproved": 5,
+    "latestRejected": 0,
+    "latestRejectedIndexes": []
+  },
+  "rooms": [
+    {
+      "index": 800,
+      "roomId": "office",
+      "sourceCode": "O2",
+      "sourceJobId": "0a756bcb-f3ee-4589-8bd9-4c71d876f188",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-500.png",
+      "nightJobId": "d0e9edcf-781c-4ebf-a3cb-051ff53690e7",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-800.png",
+      "approved": false,
+      "approvedJobId": null,
+      "notes": [
+        "Source full north TV/library wall, Alora desk, two Nicola visitors, Fern chair, printer/art LEFT of the right-offset gallery doors and circular side window are retained.",
+        "Visible main window bank has complete opaque coverage; side round opening is also covered and no street view leaks through the office glass."
+      ],
+      "mustFix": [
+        "An extra desk task lamp was introduced near the far edge of the desk; none exists in approved day 500. Remove that added lamp and its separate light pool, preserving all other source furniture, existing shelf/ceiling lighting and full privacy coverage."
+      ],
+      "limits": [
+        "Source-based visual QA, not measured construction or exact fabric/finish approval. Hidden openings require their companion view or actual-house survey."
+      ],
+      "selected": false,
+      "supersededByIndex": 907
+    },
+    {
+      "index": 801,
+      "roomId": "media",
+      "sourceCode": "M2",
+      "sourceJobId": "8210bd3c-080e-493a-9ba2-6c51e0fee5eb",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-501.png",
+      "nightJobId": "e9d1fc23-1093-49e4-94b5-53ac20de6969",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-801.png",
+      "approved": true,
+      "approvedJobId": "e9d1fc23-1093-49e4-94b5-53ac20de6969",
+      "notes": [
+        "Same sofa and TWO ottomans, compact center table/perch, 83-inch TV/soundbar, fitted walnut console and figurine shelves as day 501.",
+        "Both clear gallery door leaves have opaque room-side movie covers while handles/casings stay usable.",
+        "Source wall/ceiling speakers and light positions retained; no new architecture, fixtures or window on the solid sofa wall."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Source-based visual QA, not measured construction or exact fabric/finish approval. Hidden openings require their companion view or actual-house survey.",
+        "Door opacity represents REMOVABLE room-side movie covers on clear glass, not permanently painted/frosted door leaves. Passive ceiling grilles remain a prewire/alternative AVR depiction, not soundbar-powered outputs."
+      ],
+      "selected": true
+    },
+    {
+      "index": 802,
+      "roomId": "sunroom",
+      "sourceCode": "S2",
+      "sourceJobId": "783cabb8-8628-495b-bdc7-4fd2a6860e36",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-506.png",
+      "nightJobId": "658b5fba-e043-4d43-be08-31ae097fb7d5",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-802.png",
+      "approved": true,
+      "approvedJobId": "658b5fba-e043-4d43-be08-31ae097fb7d5",
+      "notes": [
+        "Owned Maslow table, FOUR side chairs and TWO end armchairs retain the source forms and quantities.",
+        "All visible lower glazing and operable-door glass has full opaque privacy coverage; real high transoms stay bare/dark with their source divisions.",
+        "Same six-globe fixture and original ceiling lights, with no new chandelier."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Source-based visual QA, not measured construction or exact fabric/finish approval. Hidden openings require their companion view or actual-house survey."
+      ],
+      "selected": true
+    },
+    {
+      "index": 808,
+      "roomId": "great",
+      "sourceCode": "GR2",
+      "sourceJobId": "108d80d0-f1f4-4853-b2d9-2f752862d930",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-620.png",
+      "nightJobId": "96eba41e-5c6a-4cc5-9486-68dd5bcd3aa4",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-808.png",
+      "approved": false,
+      "approvedJobId": null,
+      "notes": [
+        "Sofa, TWO lounge chairs, coffee/end tables, sibling art, consoles, fireplace and TV positions match source day 620.",
+        "Visible terrace privacy is fully closed, and both high transom divisions are preserved."
+      ],
+      "mustFix": [
+        "TWO picture-light bars were introduced above the sibling art, absent from approved day 620. Remove only those added fixtures and their light pools; keep complete terrace privacy, white transom divisions, original table lamp, furniture and lighting."
+      ],
+      "limits": [
+        "Source-based visual QA, not measured construction or exact fabric/finish approval. Hidden openings require their companion view or actual-house survey."
+      ],
+      "selected": false,
+      "supersededByIndex": 908
+    },
+    {
+      "index": 809,
+      "roomId": "kitchen",
+      "sourceCode": "K2",
+      "sourceJobId": "0203ad42-2a87-482a-bda3-893556d2b2b2",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-621.png",
+      "nightJobId": "78aab5ef-e9eb-4aee-8d50-f162eb00e2d6",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-809.png",
+      "approved": false,
+      "approvedJobId": null,
+      "notes": [
+        "Refrigerator, island sink, cabinets, C1 material, two dome pendants, arches and appliance arrangement retain exact day 621 camera and quantities.",
+        "Existing task/pendant/general lights activate without new kitchen fixtures."
+      ],
+      "mustFix": [
+        "At the far visible hall/front-room window beyond the arches, the opaque roller stops ABOVE the actual sill, leaving a conspicuous dark rectangular strip of uncovered glass below. Extend that existing shade to the actual bottom sill/side edges; do not replace it with a wall or new window. Keep the kitchen, arches and all light fixtures unchanged."
+      ],
+      "limits": [
+        "Source-based visual QA, not measured construction or exact fabric/finish approval. Hidden openings require their companion view or actual-house survey."
+      ],
+      "selected": false,
+      "supersededByIndex": 912
+    },
+    {
+      "index": 907,
+      "roomId": "office",
+      "sourceCode": "O2",
+      "sourceJobId": "0a756bcb-f3ee-4589-8bd9-4c71d876f188",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-500.png",
+      "previousNightIndex": 800,
+      "nightJobId": "47e1c82a-b324-4c32-8a9b-081c72d3a18b",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-907.png",
+      "approved": true,
+      "approvedJobId": "47e1c82a-b324-4c32-8a9b-081c72d3a18b",
+      "selected": true,
+      "reviewedAt": "2026-10-12",
+      "notes": [
+        "Added desk task lamp is removed; desk accessories return to the paired day count.",
+        "Alora desk, two visitors, Fern chair, full north built-in, printer/art left of offset doors and round window remain unchanged.",
+        "Visible full-height privacy coverage and existing shelf/ceiling lighting are retained."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Visual source comparison only; actual glass/track dimensions and privacy operation require an installed sample."
+      ]
+    },
+    {
+      "index": 908,
+      "roomId": "great",
+      "sourceCode": "GR2",
+      "sourceJobId": "108d80d0-f1f4-4853-b2d9-2f752862d930",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-620.png",
+      "previousNightIndex": 808,
+      "nightJobId": "0e9d1bae-6bb0-4825-a2d4-3035dbd23474",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-908.png",
+      "approved": true,
+      "approvedJobId": "0e9d1bae-6bb0-4825-a2d4-3035dbd23474",
+      "selected": true,
+      "reviewedAt": "2026-10-12",
+      "notes": [
+        "Both added picture-light bars are removed.",
+        "Original sofa, two chairs, Tate/Enzo tables, sibling art, lamp, fireplace/TV and source camera remain unchanged.",
+        "Full terrace-door opaque privacy and original white high-transom divisions are retained."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Visual source comparison only; actual glass/track dimensions and privacy operation require an installed sample."
+      ]
+    },
+    {
+      "index": 912,
+      "roomId": "kitchen",
+      "sourceCode": "K2",
+      "sourceJobId": "0203ad42-2a87-482a-bda3-893556d2b2b2",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-621.png",
+      "previousNightIndex": 809,
+      "nightJobId": "af796e2d-bf22-4733-8f7d-48f77f72df82",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-912.png",
+      "approved": false,
+      "approvedJobId": null,
+      "selected": false,
+      "reviewedAt": "2026-10-12",
+      "notes": [
+        "Kitchen/cabinet/appliance count, two dome pendants, island sink, original arches and source lights are unchanged.",
+        "Far-window shade extends lower than attempt 809, but complete coverage is not yet achieved."
+      ],
+      "mustFix": [
+        "A smaller but distinct uncovered BLACK rectangular glass strip remains between the far hall-window shade hem and the actual white sill. Full-resolution crop /tmp/kitchen912-farwindow.png confirms the strip; it is not just a shade-hem shadow. Extend the same opaque face fabric over that entire remaining strip to the real sill, leaving the white bottom casing visible and changing nothing else."
+      ],
+      "limits": [
+        "Visual source comparison only; actual glass/track dimensions and privacy operation require an installed sample."
+      ],
+      "supersededByIndex": 917
+    },
+    {
+      "index": 917,
+      "roomId": "kitchen",
+      "sourceCode": "K2",
+      "sourceJobId": "0203ad42-2a87-482a-bda3-893556d2b2b2",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-621.png",
+      "nightJobId": "9edeacda-05cc-4b7a-a8cf-9a7f343a2ae0",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-917.png",
+      "approved": true,
+      "approvedJobId": "9edeacda-05cc-4b7a-a8cf-9a7f343a2ae0",
+      "selected": true,
+      "reviewedAt": "2026-10-12",
+      "notes": [
+        "Far-window privacy face now covers all formerly exposed black strip down to the ORIGINAL sill; the unrequested raised sill from 913 is not used.",
+        "Kitchen cabinets, refrigerator, island sink, C1 material, arches, two pendants and actual source lighting are unchanged.",
+        "This is paired with day 621 and a local repair of night 912; no lower uncovered glass remains."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Conceptual source-preservation QA only. Measured opening, shade edge/return and operating details require an actual installed sample; furniture fit and final finishes are not certified from pixels."
+      ]
+    }
+  ],
+  "auxiliaryPrimaryRooms": [
+    {
+      "index": 905,
+      "roomId": "terrace",
+      "sourceCode": "RT1",
+      "sourceJobId": "b645236e-f9a0-41e0-9b9a-6d570b3b65b8",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-617.png",
+      "nightJobId": "c700e9c2-65c7-470d-ab68-fad6b90ff741",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-905.png",
+      "approved": true,
+      "approvedJobId": "c700e9c2-65c7-470d-ab68-fad6b90ff741",
+      "notes": [
+        "Same outdoor sofa, TWO lounge chairs, coffee table, six-seat dining group, plants, fireplace surround and camera as approved day 617.",
+        "Pergola, shade sail, deck edge, guards, original light strands and nearby roof geometry are retained.",
+        "Existing string-light, lantern and model-fireplace glow provides warm night illumination; no new fire pit, roof extension, exterior stair or interior drapes."
+      ],
+      "mustFix": [],
+      "limits": [
+        "North-wall fireplace is an original model precedent with actual-house installation still unconfirmed; this night view does not authorize new fireplace construction.",
+        "Verify outdoor load, drainage, fixing, weather exposure and furniture stock separately."
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-12"
+}

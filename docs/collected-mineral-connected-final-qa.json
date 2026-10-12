@@ -1,0 +1,203 @@
+{
+  "date": "2026-10-11",
+  "status": "all_reviewed_connected_days_and_nights_approved",
+  "rooms": [
+    {
+      "index": 626,
+      "roomId": "dining",
+      "code": "D2",
+      "file": "assets/render-candidates/collected-mineral/r04/day-626.png",
+      "replaces": "assets/render-candidates/collected-mineral/r04/day-622.png",
+      "approved": true,
+      "checks": [
+        "Near dining furniture/source camera preserved; false solid-wall sofa removed from living glimpse; east-wall sofa may be out of this crop. Two Shelter/piano/Tate/nickel group carried."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Qualitative only. Catalogue configuration, field fit, access and construction details remain to verify."
+      ]
+    },
+    {
+      "index": 627,
+      "roomId": "living",
+      "code": "LR2",
+      "file": "assets/render-candidates/collected-mineral/r04/day-627.png",
+      "replaces": "assets/render-candidates/collected-mineral/r04/day-623.png",
+      "approved": true,
+      "checks": [
+        "Foreground living placement and piano retained; dining glimpse now Natural upholstered-leg Nicola, charcoal Cabrera/round mirror and single white Vesselpair."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Qualitative only. Catalogue configuration, field fit, access and construction details remain to verify."
+      ]
+    },
+    {
+      "index": 905,
+      "roomId": "terrace",
+      "code": "RT1-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-905.png",
+      "dayFile": "assets/render-candidates/collected-mineral/r04/day-617.png",
+      "approved": true,
+      "checks": [
+        "Same RT1 camera, six-chair2+2+1+1 dining group and selected lounge furniture; same pergola/sails/guard/fireplace; realistic warm string/fireplace night lighting."
+      ]
+    },
+    {
+      "index": 513,
+      "roomId": "terrace",
+      "code": "RT2",
+      "file": "assets/render-candidates/collected-mineral/r04/day-513.png",
+      "approved": false,
+      "checks": [
+        "Reverse rooftop source camera retained, selected teak furniture partly carried."
+      ],
+      "blockingIssues": [
+        "Unselected giant egg pod and two bar chairs remain.",
+        "Source middle-right guard/access opening filled by continuous floor and sofa staging; restore original guard/access as model-plan precedent without certifying optional actual-house spiral."
+      ],
+      "minimalRepairPrompt": "Preserve513 reverse camera; original RT2 controls guards/access topology and617 controls selected furnishings. Restore original lowered/dark guarded access opening immediately RIGHT of tall middle/rear pergola post toward current pod area. Do not fill, bridge or place sofa/rug across it. Retain visible source guard/access geometry, do not invent unverified exterior stair. Remove pod and two left bar chairs. Place one Mesa108 sofa/Mesa60 coffee/two Balmain lounge chairs in original chaise/sun-zone beyond dining along outer rail LEFT of access; honest post/table occlusion allowed. Mesa72 table stays left dining zone with six upholstered Balmain chairs2+2+1+1. No other seating or enlarged deck."
+    }
+  ],
+  "approvedIndices": [
+    626,
+    627,
+    905,
+    630,
+    631,
+    632,
+    633,
+    826,
+    915,
+    916
+  ],
+  "repairIndices": [],
+  "limits": [
+    "Qualitative visual studies; measurements, actual-house optional roof amenities and factory product specifications still require verification."
+  ],
+  "finalRepairs": [
+    {
+      "index": 630,
+      "roomId": "stair2",
+      "code": "ST1",
+      "file": "assets/render-candidates/collected-mineral/r04/day-630.png",
+      "approved": true,
+      "checks": [
+        "Stair camera, tread/guard/landing/window shell preserved with no runner.",
+        "Great-room glimpse now recognisable Tate narrow drawer/end rails, two Natural Shelter and square side tables."
+      ],
+      "nightRequired": "Create fresh same-camera night from exact630 approved job."
+    },
+    {
+      "index": 631,
+      "roomId": "sharedbath",
+      "code": "SB1",
+      "file": "assets/render-candidates/collected-mineral/r04/day-631.png",
+      "approved": true,
+      "checks": [
+        "Shared-bath camera, vanity, faucets, sconces, tile and Bedroom3 doorway preserved.",
+        "Direct doorway AND mirror use KeaneNatural wood head/footboard and nightstand, white Amaryllis lamp, neutral separate Prato rug and wood floor. Bedroom2 connection remains outside crop."
+      ],
+      "nightRequired": "Create fresh same-camera night from exact631 approved job."
+    },
+    {
+      "index": 632,
+      "roomId": "sharedbath",
+      "code": "SB2",
+      "file": "assets/render-candidates/collected-mineral/r04/day-632.png",
+      "approved": true,
+      "checks": [
+        "Same narrower vanity-zone camera preserved.",
+        "KeaneNatural/white Amaryllis/neutral rug updated in both direct Bedroom3 doorway and mirror reflection; no owned Modena/Orbiter/Delfina substitution."
+      ],
+      "nightRequired": "Create fresh same-camera night from exact632 approved job."
+    },
+    {
+      "index": 633,
+      "roomId": "terrace",
+      "code": "RT2",
+      "file": "assets/render-candidates/collected-mineral/r04/day-633.png",
+      "approved": true,
+      "checks": [
+        "Original reverse camera/pergola/guards/access topology restored; lowered dark guarded opening at middle-right retained and not covered by continuous deck or sofa.",
+        "Egg pod and extra two bar chairs removed. One Mesa108 sofa, two broad-sided Balmain lounges, one Mesa coffee, one dining table and six upholstered Balmain dining seats recognisable.",
+        "Actual exterior spiral presence and roof capacities remain unconfirmed; this is model/plan precedent, not an actual-house certification."
+      ],
+      "nightRequired": "Create fresh same-camera night from exact633 approved job."
+    }
+  ],
+  "nightRepairs": [
+    {
+      "index": 824,
+      "roomId": "sharedbath",
+      "code": "SB1-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-824.png",
+      "dayFile": "assets/render-candidates/collected-mineral/r04/day-631.png",
+      "approved": false,
+      "checks": [
+        "Exact corrected bath camera/fixtures and Bedroom3 Keane/white Amaryllis direct+mirror glimpse retained."
+      ],
+      "blockingIssues": [
+        "Visible Bedroom3 opaque shade remains raised at night; outside house/glass visible. Full bedroom privacy/blackout layer is required."
+      ],
+      "minimalRepairPrompt": "Edit only visible/reflected Bedroom3 window: lower existing warm-ivory opaque shade fully to sill with no light-leaking gap. Keep all Bedroom3 furniture, lamp position, mirror reflection, bath fixtures, vanity, stone, camera and warm lighting fixed."
+    },
+    {
+      "index": 825,
+      "roomId": "sharedbath",
+      "code": "SB2-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-825.png",
+      "dayFile": "assets/render-candidates/collected-mineral/r04/day-632.png",
+      "approved": false,
+      "checks": [
+        "Exact corrected bath camera/fixtures and Bedroom3 Keane/white Amaryllis direct+mirror glimpse retained."
+      ],
+      "blockingIssues": [
+        "Visible Bedroom3 opaque shade remains raised at night; outside house/glass visible. Full bedroom privacy/blackout layer is required."
+      ],
+      "minimalRepairPrompt": "Edit only visible/reflected Bedroom3 window: lower existing warm-ivory opaque shade fully to sill with no light-leaking gap. Keep all Bedroom3 furniture, lamp position, mirror reflection, bath fixtures, vanity, stone, camera and warm lighting fixed."
+    },
+    {
+      "index": 826,
+      "roomId": "terrace",
+      "code": "RT2-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-826.png",
+      "dayFile": "assets/render-candidates/collected-mineral/r04/day-633.png",
+      "approved": true,
+      "checks": [
+        "Same reverse camera, pergola/post/sail/string spans/house wall and lowered guarded access retained.",
+        "Selected six dining seats, one sofa/two lounge/one coffee/one dining retained, no egg pod or extra bars.",
+        "Warm usable exterior light and natural dark sky without new fixtures; optional actual-house stair remains unconfirmed."
+      ]
+    }
+  ],
+  "nightWindowRepairs": [
+    {
+      "index": 915,
+      "roomId": "sharedbath",
+      "code": "SB1-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-915.png",
+      "dayFile": "assets/render-candidates/collected-mineral/r04/day-631.png",
+      "replaces": "assets/render-candidates/collected-mineral/r04/night-824.png",
+      "approved": true,
+      "checks": [
+        "Bedroom3 opaque warm-ivory shade now covers visible glass to sill, both direct doorway and reflected view. No exterior house/glass visible.",
+        "KeaneNatural bed/nightstand, white Amaryllis lamp, neutral loose rug and wood floor retained.",
+        "Same bath camera, vanity, stone, faucets, sconces and warm night lighting preserved."
+      ]
+    },
+    {
+      "index": 916,
+      "roomId": "sharedbath",
+      "code": "SB2-night",
+      "file": "assets/render-candidates/collected-mineral/r04/night-916.png",
+      "dayFile": "assets/render-candidates/collected-mineral/r04/day-632.png",
+      "replaces": "assets/render-candidates/collected-mineral/r04/night-825.png",
+      "approved": true,
+      "checks": [
+        "Bedroom3 opaque shade fully closed in direct and mirrored glimpse; no transparent outside glazing remains.",
+        "Correct KeaneNatural/white Amaryllis/neutral rug and bath architecture/lighting retained."
+      ]
+    }
+  ]
+}

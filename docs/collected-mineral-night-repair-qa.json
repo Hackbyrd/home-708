@@ -1,0 +1,179 @@
+{
+  "title": "Collected Mineral · primary night repair QA",
+  "date": "2026-10-11",
+  "status": "all_latest_primary_repairs_pass",
+  "requestManifest": "assets/render-candidates/collected-mineral/r04/primary-night-repairs.json",
+  "previousQa": "docs/collected-mineral-primary-night-qa.json",
+  "summary": {
+    "historicalAttemptsReviewed": 7,
+    "latestRoomsReviewed": 5,
+    "latestApproved": 5,
+    "latestRejected": 0,
+    "latestRejectedIndexes": []
+  },
+  "rooms": [
+    {
+      "index": 900,
+      "roomId": "office",
+      "sourceCode": "O1",
+      "sourceJobId": "9bb4f9f4-3672-40f0-bc75-f109d5743751",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-600.png",
+      "previousNightIndex": 703,
+      "previousNightFile": "assets/render-candidates/collected-mineral/r04/night-703.png",
+      "nightJobId": "fd82a1cc-47e6-474b-8a9a-2a08ae915534",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-900.png",
+      "approved": true,
+      "approvedJobId": "fd82a1cc-47e6-474b-8a9a-2a08ae915534",
+      "notes": [
+        "Both main office banks now have continuous opaque oatmeal coverage from actual head to sill, including the previously exposed upper sash row.",
+        "Alora desk, two visitors, Fern chair, cabinet/TV/soundbar, sheers, lights and camera remain unchanged."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Visual source-preservation review only; hidden glazing, measured fit and construction details remain outside the image."
+      ],
+      "selected": true
+    },
+    {
+      "index": 901,
+      "roomId": "great",
+      "sourceCode": "GR1",
+      "sourceJobId": "cfa35ce5-b0de-4337-92a5-e6582364be42",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-602.png",
+      "previousNightIndex": 705,
+      "previousNightFile": "assets/render-candidates/collected-mineral/r04/night-705.png",
+      "nightJobId": "ce8642f5-48d1-4b7d-9d6e-bccb27626779",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-901.png",
+      "approved": false,
+      "approvedJobId": null,
+      "notes": [
+        "Both high transoms again have their source white internal divisions, with dark exterior in the glass panes.",
+        "The two invented picture-light bars are removed; source artwork, furniture and existing lighting remain."
+      ],
+      "mustFix": [
+        "Regression: both terrace-door privacy shades are raised, exposing most lower glazing and neighboring lit homes. In original night 705 those layers were fully closed. Make a shade-position-only repair of 901: close BOTH opaque privacy shades fully from head to sill while preserving the restored transom divisions, bare dark high glass, removed picture lights, furniture and lighting."
+      ],
+      "limits": [
+        "Visual source-preservation review only; hidden glazing, measured fit and construction details remain outside the image."
+      ],
+      "selected": false,
+      "supersededByIndex": 906
+    },
+    {
+      "index": 902,
+      "roomId": "living",
+      "sourceCode": "LR1",
+      "sourceJobId": "d75560ec-2676-4ad5-8c42-266f79a012a8",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-611.png",
+      "previousNightIndex": 708,
+      "previousNightFile": "assets/render-candidates/collected-mineral/r04/night-708.png",
+      "nightJobId": "88b69b0b-6b8b-4a5c-a58e-e85a87023cb5",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-902.png",
+      "approved": true,
+      "approvedJobId": "88b69b0b-6b8b-4a5c-a58e-e85a87023cb5",
+      "notes": [
+        "Separate small high arch is again bare dark-night glass with its original divisions; the tall social-room glazing retains opaque privacy coverage.",
+        "Piano, bench, sofa, two chairs, coffee/side tables, lamps and open dining connection remain unchanged."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Visual source-preservation review only; hidden glazing, measured fit and construction details remain outside the image."
+      ],
+      "selected": true
+    },
+    {
+      "index": 903,
+      "roomId": "bed5",
+      "sourceCode": "B51",
+      "sourceJobId": "c6a777c0-d7ba-4600-9813-00be33ae4d60",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-614.png",
+      "previousNightIndex": 713,
+      "previousNightFile": "assets/render-candidates/collected-mineral/r04/night-713.png",
+      "nightJobId": "9209d6b8-9148-45b9-832f-cbbf9a6d11ee",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-903.png",
+      "approved": true,
+      "approvedJobId": "9209d6b8-9148-45b9-832f-cbbf9a6d11ee",
+      "notes": [
+        "Invented curtains at both sides of the solid west headboard wall have been removed.",
+        "Plain headwall/corners, Anneli bed, two Natural nightstands and lamps, dresser, art, door and rug match the day source.",
+        "No false west window, added sconce or bed-base LED appears."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Visual source-preservation review only; hidden glazing, measured fit and construction details remain outside the image.",
+        "The two planned east Bedroom 5 windows are behind this camera; the headwall crop does not establish their physical inventory or blackout state."
+      ],
+      "selected": true
+    },
+    {
+      "index": 904,
+      "roomId": "dining",
+      "sourceCode": "D1",
+      "sourceJobId": "026a04fc-7104-43d6-8135-2b02a19e6eb3",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-619.png",
+      "previousNightIndex": 707,
+      "nightJobId": "476f1455-01cf-4ea6-bb16-de35c98b8a39",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-904.png",
+      "approved": false,
+      "approvedJobId": null,
+      "selected": false,
+      "notes": [
+        "Fresh night is paired with corrected day 619, retaining Barley twist-leg table, eight Nicola chairs, owned Cabrera/round mirror and Spiridon fixture.",
+        "Tall windows now have complete opaque coverage, including their upper arched sections."
+      ],
+      "mustFix": [
+        "The separate SMALL high arched opening at left still has an invented opaque shade over its LOWER half. Leave this ENTIRE small opening bare: remove the fabric from all lower and upper glass, restore its actual white divisions and show dark-night exterior through the whole source opening. Keep ALL tall-window privacy closed and everything else unchanged."
+      ],
+      "limits": [
+        "Physical chair/table circulation and unvisualized openings remain to measure."
+      ],
+      "supersededByIndex": 911
+    },
+    {
+      "index": 906,
+      "roomId": "great",
+      "sourceCode": "GR1",
+      "sourceJobId": "cfa35ce5-b0de-4337-92a5-e6582364be42",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-602.png",
+      "previousNightIndex": 901,
+      "nightJobId": "ca804bb6-e8de-45b2-9888-ccd735c3b6a5",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-906.png",
+      "approved": true,
+      "approvedJobId": "ca804bb6-e8de-45b2-9888-ccd735c3b6a5",
+      "selected": true,
+      "notes": [
+        "Both terrace-door privacy shades are now fully closed across all lower glazing, with no exposed neighboring lit homes.",
+        "Both original high transom divisions remain visible against dark bare glass.",
+        "No picture-light bars; source table lamp, ceiling light, fireplace, furnishings and camera are preserved."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Visual source-preservation approval only; fireplace/TV equipment and measured fit require trade verification."
+      ]
+    },
+    {
+      "index": 911,
+      "roomId": "dining",
+      "sourceCode": "D1",
+      "sourceJobId": "026a04fc-7104-43d6-8135-2b02a19e6eb3",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-619.png",
+      "previousNightIndex": 904,
+      "nightJobId": "3fb39476-a4fc-45dc-ae1b-1b711cf39da6",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-911.png",
+      "approved": true,
+      "approvedJobId": "3fb39476-a4fc-45dc-ae1b-1b711cf39da6",
+      "selected": true,
+      "reviewedAt": "2026-10-12",
+      "notes": [
+        "ENTIRE separate small high arched opening is bare dark exterior glass, with original white divisions; no fabric remains on its lower half.",
+        "All tall-window opaque privacy layers stay fully closed, including their heads and lower glass.",
+        "Corrected Barley table and eight Nicola chairs, owned console/round mirror/vessels, Spiridon chandelier, rug, source lights and camera are unchanged."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Physical chair/table fit, glazing measurements and construction details remain to verify."
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-12"
+}

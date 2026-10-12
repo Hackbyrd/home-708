@@ -1,0 +1,310 @@
+{
+  "date": "2026-10-11",
+  "status": "four_new_day_repairs_pass_two_superseded_by_connected_repairs",
+  "rooms": [
+    {
+      "index": 617,
+      "roomId": "terrace",
+      "code": "RT1",
+      "file": "assets/render-candidates/collected-mineral/r04/day-617.png",
+      "replaces": "assets/render-candidates/collected-mineral/r04/day-616.png",
+      "approved": true,
+      "checks": [
+        "Six identifiable Balmain dining chairs2+2+1+1; sofa/two lounge/one coffee/one dining set retained.",
+        "Correct padded dining backs, broad lounge sides and Mesa hoop-end frames; source rooftop/pergola/guard/fireplace context retained; pod removed."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Qualitative only. Catalogue configuration, field fit, access and construction details remain to verify."
+      ]
+    },
+    {
+      "index": 619,
+      "roomId": "dining",
+      "code": "D1",
+      "file": "assets/render-candidates/collected-mineral/r04/day-619.png",
+      "replaces": "assets/render-candidates/collected-mineral/r04/day-612.png",
+      "approved": true,
+      "checks": [
+        "Barley twist legs and low twisted stretcher now recognisable; eight upholstered-leg Nicola, one Cabrera/round mirror/one Vesselpair, Spiridon and five original openings retained."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Qualitative only. Catalogue configuration, field fit, access and construction details remain to verify."
+      ]
+    },
+    {
+      "index": 620,
+      "roomId": "great",
+      "code": "GR2",
+      "file": "assets/render-candidates/collected-mineral/r04/day-620.png",
+      "replaces": "assets/render-candidates/collected-mineral/r04/day-502.png",
+      "approved": true,
+      "checks": [
+        "Tate narrow central shallow drawer and open rail end gaps repaired; original source camera/openings and selected sofa/two swivels/two square side tables retained."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Qualitative only. Catalogue configuration, field fit, access and construction details remain to verify."
+      ]
+    },
+    {
+      "index": 621,
+      "roomId": "kitchen",
+      "code": "K2",
+      "file": "assets/render-candidates/collected-mineral/r04/day-621.png",
+      "replaces": "assets/render-candidates/collected-mineral/r04/day-503.png",
+      "approved": true,
+      "checks": [
+        "Work-side stools removed; galley and dishwasher usable. Four stools remain physically on opposite overhang and can be outside this camera.",
+        "French-door pair with bottom freezer now matches615 basic configuration; doors/corridor/sink/hood stay in same K2 shell."
+      ],
+      "blockingIssues": [],
+      "limits": [
+        "Qualitative only. Catalogue configuration, field fit, access and construction details remain to verify."
+      ]
+    },
+    {
+      "index": 622,
+      "roomId": "dining",
+      "code": "D2",
+      "file": "assets/render-candidates/collected-mineral/r04/day-622.png",
+      "replaces": "assets/render-candidates/collected-mineral/r04/day-504.png",
+      "approved": false,
+      "checks": [
+        "Dining Nicola upholstered legs and round mirror repaired; false left-pier arch removed; Barley/Spiridon/Cabrera/vessels correct."
+      ],
+      "blockingIssues": [
+        "Living glimpse still placed sole sofa against solid piano wall instead of east-window wall. Superseded by626 local correction."
+      ],
+      "limits": [
+        "Qualitative only. Catalogue configuration, field fit, access and construction details remain to verify."
+      ]
+    },
+    {
+      "index": 623,
+      "roomId": "living",
+      "code": "LR2",
+      "file": "assets/render-candidates/collected-mineral/r04/day-623.png",
+      "replaces": "assets/render-candidates/collected-mineral/r04/day-505.png",
+      "approved": false,
+      "checks": [
+        "Sole east-window sofa/two Shelter/Tate/piano/Martini repaired in actual reverse camera."
+      ],
+      "blockingIssues": [
+        "Dining glimpse retains exposed brown chair legs and brown console instead of fully upholstered Nicola/charcoal Cabrera. Superseded by627 local correction."
+      ],
+      "limits": [
+        "Qualitative only. Catalogue configuration, field fit, access and construction details remain to verify."
+      ]
+    }
+  ],
+  "approvedIndices": [
+    617,
+    619,
+    620,
+    621
+  ],
+  "reusedPairsAudited": 16,
+  "reusedPairs": [
+    {
+      "roomId": "entry",
+      "code": "E1",
+      "dayFile": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-day.png",
+      "nightFile": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-night.png",
+      "approvedForFurnitureReuse": true,
+      "checks": [
+        "No contradictory loose-furniture glimpse identified in this day/night pair. Closed bedroom door, empty rooms, standalone bath or narrow crop prevents conflict."
+      ],
+      "issues": []
+    },
+    {
+      "roomId": "entry",
+      "code": "E2",
+      "dayFile": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-day.png",
+      "nightFile": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-night-a2.png",
+      "approvedForFurnitureReuse": true,
+      "checks": [
+        "No contradictory loose-furniture glimpse identified in this day/night pair. Closed bedroom door, empty rooms, standalone bath or narrow crop prevents conflict."
+      ],
+      "issues": []
+    },
+    {
+      "roomId": "gym",
+      "code": "G1",
+      "dayFile": "assets/render-candidates/mineral-walnut-architecture/r02/gym-g1-day-30504.png",
+      "nightFile": "assets/render-candidates/mineral-walnut-architecture/r01/gym-night.png",
+      "approvedForFurnitureReuse": true,
+      "checks": [
+        "No contradictory loose-furniture glimpse identified in this day/night pair. Closed bedroom door, empty rooms, standalone bath or narrow crop prevents conflict."
+      ],
+      "issues": []
+    },
+    {
+      "roomId": "gym",
+      "code": "G2",
+      "dayFile": "assets/render-candidates/mineral-walnut-architecture/r02/gym-g2-day-31504.png",
+      "nightFile": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/gym-g2-night.png",
+      "approvedForFurnitureReuse": true,
+      "checks": [
+        "No contradictory loose-furniture glimpse identified in this day/night pair. Closed bedroom door, empty rooms, standalone bath or narrow crop prevents conflict."
+      ],
+      "issues": []
+    },
+    {
+      "roomId": "bath",
+      "code": "B1",
+      "dayFile": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-day.png",
+      "nightFile": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-night.png",
+      "approvedForFurnitureReuse": true,
+      "checks": [
+        "No contradictory loose-furniture glimpse identified in this day/night pair. Closed bedroom door, empty rooms, standalone bath or narrow crop prevents conflict."
+      ],
+      "issues": []
+    },
+    {
+      "roomId": "bath",
+      "code": "B2",
+      "dayFile": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-day.png",
+      "nightFile": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-night.png",
+      "approvedForFurnitureReuse": true,
+      "checks": [
+        "No contradictory loose-furniture glimpse identified in this day/night pair. Closed bedroom door, empty rooms, standalone bath or narrow crop prevents conflict."
+      ],
+      "issues": []
+    },
+    {
+      "roomId": "stair2",
+      "code": "ST1",
+      "dayFile": "assets/render-candidates/mineral-walnut-floor-two/r06/stair2-st1-day-a2.png",
+      "nightFile": "assets/render-candidates/mineral-walnut-floor-two/r06/stair2-st1-night.png",
+      "approvedForFurnitureReuse": false,
+      "checks": [],
+      "issues": [
+        "Great-room glimpse through left arch still contains old round coffee table/source chairs; needs current Tate48 and two Shelter."
+      ]
+    },
+    {
+      "roomId": "stair2",
+      "code": "ST2",
+      "dayFile": "assets/render-candidates/mineral-walnut-neutral/r01/stair2-st2-day.png",
+      "nightFile": "assets/render-candidates/gallery-night-angles/r01/mineral-walnut/stair2-st2-night.png",
+      "approvedForFurnitureReuse": true,
+      "checks": [
+        "No contradictory loose-furniture glimpse identified in this day/night pair. Closed bedroom door, empty rooms, standalone bath or narrow crop prevents conflict."
+      ],
+      "issues": []
+    },
+    {
+      "roomId": "ownerbath",
+      "code": "BA1",
+      "dayFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba1-day.png",
+      "nightFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba1-night.png",
+      "approvedForFurnitureReuse": true,
+      "checks": [
+        "No contradictory loose-furniture glimpse identified in this day/night pair. Closed bedroom door, empty rooms, standalone bath or narrow crop prevents conflict."
+      ],
+      "issues": []
+    },
+    {
+      "roomId": "ownerbath",
+      "code": "BA2",
+      "dayFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-day-a3.png",
+      "nightFile": "assets/render-candidates/mineral-walnut-plan/r07/owners-ba2-night.png",
+      "approvedForFurnitureReuse": true,
+      "checks": [
+        "No contradictory loose-furniture glimpse identified in this day/night pair. Closed bedroom door, empty rooms, standalone bath or narrow crop prevents conflict."
+      ],
+      "issues": []
+    },
+    {
+      "roomId": "sharedbath",
+      "code": "SB1",
+      "dayFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-day-lamp-fix.png",
+      "nightFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb1-night-lamp-fix.png",
+      "approvedForFurnitureReuse": false,
+      "checks": [],
+      "issues": [
+        "Both SB1 andSB2 look through the Bedroom3 connection and its mirror reflection; old upholstered bed/brown legged nightstand/black dome lamp contradict KeaneNatural wood bed/nightstands and white Amaryllis/Prato. Bedroom2 door is outside both crops."
+      ]
+    },
+    {
+      "roomId": "sharedbath",
+      "code": "SB2",
+      "dayFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-day-lamp-fix.png",
+      "nightFile": "assets/render-candidates/mineral-walnut-plan/r07/sharedbath-sb2-night-lamp-fix.png",
+      "approvedForFurnitureReuse": false,
+      "checks": [],
+      "issues": [
+        "Both SB1 andSB2 look through the Bedroom3 connection and its mirror reflection; old upholstered bed/brown legged nightstand/black dome lamp contradict KeaneNatural wood bed/nightstands and white Amaryllis/Prato. Bedroom2 door is outside both crops."
+      ]
+    },
+    {
+      "roomId": "laundry",
+      "code": "LA1",
+      "dayFile": "assets/render-candidates/mineral-walnut-architecture/r02/laundry-la1-day-30519.png",
+      "nightFile": "assets/render-candidates/mineral-walnut-architecture/r01/laundry-night.png",
+      "approvedForFurnitureReuse": true,
+      "checks": [
+        "No contradictory loose-furniture glimpse identified in this day/night pair. Closed bedroom door, empty rooms, standalone bath or narrow crop prevents conflict."
+      ],
+      "issues": []
+    },
+    {
+      "roomId": "laundry",
+      "code": "LA2",
+      "dayFile": "assets/render-candidates/mineral-walnut-architecture/r01/laundry-la2-day.png",
+      "nightFile": "assets/render-candidates/mineral-walnut-plan/r07/laundry-la2-night-a2.png",
+      "approvedForFurnitureReuse": true,
+      "checks": [
+        "No contradictory loose-furniture glimpse identified in this day/night pair. Closed bedroom door, empty rooms, standalone bath or narrow crop prevents conflict."
+      ],
+      "issues": []
+    },
+    {
+      "roomId": "stair3",
+      "code": "ST31",
+      "dayFile": "assets/render-candidates/mineral-walnut-plan/r07/stair3-st31-day.png",
+      "nightFile": "assets/render-candidates/mineral-walnut-plan/r07/stair3-st31-night.png",
+      "approvedForFurnitureReuse": true,
+      "checks": [
+        "No contradictory loose-furniture glimpse identified in this day/night pair. Closed bedroom door, empty rooms, standalone bath or narrow crop prevents conflict."
+      ],
+      "issues": []
+    },
+    {
+      "roomId": "bath4",
+      "code": "PBA1",
+      "dayFile": "assets/render-candidates/mineral-walnut-architecture/r02/bath4-pba1-day-30523.png",
+      "nightFile": "assets/render-candidates/mineral-walnut-architecture/r01/bath4-night.png",
+      "approvedForFurnitureReuse": true,
+      "checks": [
+        "No contradictory loose-furniture glimpse identified in this day/night pair. Closed bedroom door, empty rooms, standalone bath or narrow crop prevents conflict."
+      ],
+      "issues": []
+    }
+  ],
+  "reusedPairsNeedingNewDayNight": [
+    "stair2/ST1",
+    "sharedbath/SB1",
+    "sharedbath/SB2"
+  ],
+  "sharedBathMapEvidence": [
+    "docs/collected-mineral-assets/floor-3-plan.webp",
+    "docs/mineral-walnut-floor-three-other-audit-r07.json:292",
+    "assets/Crown Georgetown Photos/third-floor-shared-bath-bedroom-2-3.jpg.webp"
+  ],
+  "notes": [
+    "No root seed/manifests or original Option1/2 assets modified.",
+    "Ownerbath inherited towels contain muted plum; this is not a contradictory furniture allocation. Palette review is separate from this furniture-glimpse audit."
+  ],
+  "reusedPairRepairUpdate": {
+    "date": "2026-10-12",
+    "dayApprovals": {
+      "stair2/ST1": 630,
+      "sharedbath/SB1": 631,
+      "sharedbath/SB2": 632
+    },
+    "status": "All identified furniture-glimpse contradictions repaired in new day studies; require new exact-day night mates."
+  }
+}

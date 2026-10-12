@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-11",
+  "roomId": "terrace",
+  "index": 411,
+  "candidateFile": "assets/render-candidates/collected-mineral/r04/day-411.png",
+  "approved": false,
+  "status": "targeted_purchased_furniture_forms_required",
+  "architectureApproved": true,
+  "references": [
+    "assets/render-candidates/mineral-walnut-architecture/r01/terrace-rt1-day.png",
+    "assets/Crown Georgetown Photos/fourth-floor-outdoor-living-terrace-and-sun-terrace-3.jpg.webp",
+    "docs/collected-mineral-assets/floor-4-plan.webp"
+  ],
+  "architectureChecks": [
+    "Photographed RT1 camera, pergola post/beam framing, sails/string-light spans, guard, tile grid and existing source wall/fireplace/art arrangement retained.",
+    "Crown neighbouring mansards/townhome/apartment context remains; no added countryside, changed roof footprint or new terrace enclosure.",
+    "Original-photo rooftop amenities are a model precedent, not a certified actual-house inventory."
+  ],
+  "blockingIssues": [
+    {
+      "part": "Six Balmain dining chairs",
+      "reason": "Image has rope/woven full-height backs. Exact selected Dove catalogue reference has padded upholstered back/seat on a plain teak frame, no rope-wrapped back."
+    },
+    {
+      "part": "Two Balmain lounge chairs",
+      "reason": "Image uses thin open teak arm rails, while actual selected Balmain reference has broad solid teak side/arm boards and deeper blocky upholstered form."
+    },
+    {
+      "part": "Mesa coffee and dining frames",
+      "reason": "Render uses generic four free-standing legs. Selected Mesa photos have distinctive rectangular U/hoop end frames with low connecting end rails."
+    },
+    {
+      "part": "Unscheduled model-staging pod and stone side cube",
+      "reason": "Large wicker egg/pod and extra stone cube are not owned inventory or selected NEW catalogue items. Their appearance in model-home staging does not establish them as owned. Either explicitly scope/source them as new supporting additions or remove from the finished purchase scheme."
+    }
+  ],
+  "officialProductRefs": [
+    "docs/collected-mineral-assets/products/cm-social-terrace-rh-mesa108-sofa.webp",
+    "docs/collected-mineral-assets/products/cm-social-terrace-rh-mesa60-coffee.webp",
+    "docs/collected-mineral-assets/products/cm-social-terrace-rh-mesa72-dining.webp",
+    "docs/collected-mineral-assets/products/cm-social-terrace-rh-balmain-dining6.webp",
+    "docs/collected-mineral-assets/products/cm-social-terrace-rh-balmain-lounge.webp"
+  ],
+  "minimalRepairPrompt": "Image-edit only purchased furniture, preserving the exact RT1 rooftop/pergola/sails/railings/privacy wall/fireplace/skyline and camera. Replace all SIX dining chairs with the actual Balmain Teak Dining Side Chair in Dove from its product photo: plain teak four-leg frame, padded upholstered light-Dove BACK CUSHION and seat; no rope or wicker anywhere on these chairs. Replace BOTH lounge chairs with actual Balmain Natural upholstery and broad solid teak side/arm boards, not thin open arm rails. Replace Mesa60 coffee and Mesa72 dining bases with their exact rectangular U/HOOP END FRAMES including connecting low end rails, retaining slatted/plank natural-teak top proportions; no generic four separate unsupported legs. Keep one Mesa108 sofa, one coffee table, one dining table, two lounge chairs and six dining chairs; furniture scale remains subject to field template. Remove the unselected giant wicker egg pod and extra stone cube unless the written schedule explicitly sources them as NEW optional pieces; restore clear circulation there, never invent another building/roof zone.",
+  "limits": [
+    "Product geometry is an interpretation; actual108 sofa/60 coffee/72 dining dimensions, seating clearances, wind exposure, drainage and delivery need site verification.",
+    "Do not certify optional model-photo fireplace/stair presence or roof/deck capacities from a render."
+  ]
+}

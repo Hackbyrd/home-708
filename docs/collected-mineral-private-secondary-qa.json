@@ -1,0 +1,165 @@
+{
+  "revision": "CM-PRIVATE-SECONDARY-QA-R02",
+  "date": "2026-10-12",
+  "scope": "Six private companion views507-512 plus current Natural casegoods/lamp primary repairs613-614",
+  "authority": [
+    "Latest owned inventory and CM-PLAN-R03",
+    "Current private specs R04 with verified Natural Keane furniture",
+    "Actual supplied baseline images inspected, rather than relying solely on manifest QA text",
+    "Floor4 R07 audit and blueprint require two east windows opposite west Bed5 headboard"
+  ],
+  "images": [
+    {
+      "roomId": "ownerbed",
+      "code": "OB2",
+      "file": "assets/render-candidates/collected-mineral/r04/day-507.png",
+      "approved": true,
+      "checks": [
+        "Correct reverse camera, solid TV wall, south arch near east vestibule, paired east doors/transom and flat ceiling retained.",
+        "Owned white Modena PANEL king/Grey Oak feet, two Bezier OPEN26 bedside carcasses and exactly two nickel Bates lamps.",
+        "One Brown Oak/stainless Bezier dresser has four drawer rows by two columns = eight, below TV55/soundbar.",
+        "Continuous mineral headwall, paired neutral art and Hadiza-style loose rug/oak retained; no old bench, floating boxes, wall sconces or bed LED retrofit."
+      ],
+      "notes": [
+        "Western four-window bank is behind camera; this crop is not a whole-room survey.",
+        "Nickel reflects warm room light; product geometry is photo informed, not manufacturer CAD."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "retreat",
+      "code": "OR2",
+      "file": "assets/render-candidates/collected-mineral/r04/day-508.png",
+      "approved": true,
+      "checks": [
+        "Camera/enclosure, bar return/cabinets/sink/fridge and all THREE west/right sash units plus TWO south/ahead units preserved.",
+        "Two new ivory shelter swivel chairs with concealed round bases and one open Enzo-style wood cube, neutral rug and open stacked curtain layers.",
+        "Seating occupies actual corner-window nook, consistent with OR1 bar view that leaves this group outside its crop."
+      ],
+      "notes": [
+        "Neutral shaded task lamp is retained from the approved baseline as supporting concept furniture; it is not one of the owned Bates lamps and requires its own procurement/lighting allowance.",
+        "Full sleeping-suite blackout needed at all five exterior openings at night."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "bed2",
+      "code": "B22",
+      "file": "assets/render-candidates/collected-mineral/r04/day-509.png",
+      "approved": true,
+      "checks": [
+        "Exact corrected reverse concept: foot of bed in foreground, paired front windows ahead, narrow side window/desk left and closet at front/right bathroom boundary.",
+        "No spurious left doorway or hall-adjacent duplicate closet.",
+        "Two Polished Nickel Orbiter articulated dome task lamps, cropped Enzo open surfaces and Carbon rug/oak match primary408.",
+        "Bed points from stair-hall headboard toward front window; no colors, extra lamps or under-bed LEDs."
+      ],
+      "notes": [
+        "Headboard is behind this camera; primary408 establishes owned SHELTER form.",
+        "Window/closet offsets remain plan interpretation; Orbiter power/mounting type is unverified."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "bed3",
+      "code": "B32",
+      "file": "assets/render-candidates/collected-mineral/r04/day-510.png",
+      "approved": true,
+      "checks": [
+        "Supplied companion camera retained with paired front bank left and two narrow windows around right-wall headboard.",
+        "Weathered Natural Keane queen, coordinating Natural18 open-shelf bedside pair and Natural42 five-row dresser match primary613.",
+        "Two slender faceted white Amaryllis mini lamps with drum shades; neutral Prato-style loose rug, white/oatmeal bedding and matte oak retained."
+      ],
+      "notes": [
+        "This is a modestly shifted companion camera, not a full reverse or complete door/closet survey.",
+        "Natural casegoods require aggregate quantity4 tables/2 dressers check across Bedrooms3 and5."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "loft",
+      "code": "PL2",
+      "file": "assets/render-candidates/collected-mineral/r04/day-511.png",
+      "approved": true,
+      "checks": [
+        "Photo-derived south/west corner retained: Juliet French doors/flank windows, west terrace slider, bar recess/window and tray ceiling.",
+        "Exactly three white Cloud sofa seats (two corners/one armless) and ONE detached upholstered ottoman; no extra chaise/chair.",
+        "Two brown round Machinto sides, one Carrara plinth coffee, one nickel Arc II and one Machinto media console with recessed wood plinth.",
+        "Two stainless-frame Rome stools have GRAPHITE seats; no white seating substitute or colored accents."
+      ],
+      "notes": [
+        "Detached ottoman is staged nearer the sofa right end than primary304, a minor moveable-furniture placement difference; room architecture and module inventory remain coherent. For fully fixed staging, align this position before publishing.",
+        "Owned console width, stool seat height and total footprint remain unmeasured; rug is Natural/Mink texture interpretation."
+      ],
+      "mustFix": [],
+      "supersededBy": "assets/render-candidates/collected-mineral/r04/day-634.png"
+    },
+    {
+      "roomId": "bed5",
+      "code": "B52",
+      "file": "assets/render-candidates/collected-mineral/r04/day-512.png",
+      "approved": false,
+      "checks": [
+        "Ivory Anneli queen, Natural casegoods, two Remi mini lamps, neutral rug/oak and unbuilt-room label intent are consistent with primary614.",
+        "Image matches supplied baseline B52 crop: west headwall and north offset entry/linen return, without invented windows in those solid walls."
+      ],
+      "notes": [
+        "SOURCE-LEVEL ISSUE: R07 selected baseline file bed5-b52-day-a3.png/job5a816 is another B51-like west-headwall image, despite manifest text claiming corrected reverse.",
+        "This output can be retained as a cropped furnishing companion, but does not show required east window pair or fulfill the two-angle plan-led review."
+      ],
+      "mustFix": [
+        "Generate a genuine plan-led reverse using approved614 furniture plus blueprint: camera near west headboard looking EAST, bed foot toward TWO separated EAST windows directly opposite headboard with solid wall between. NORTH linen/entry/dresser on image-left, SOUTH closet on image-right.",
+        "Do not add windows to existing west headwall crop or rotate bed90degrees. Preserve flat9ft ceiling and label whole room proposed/unbuilt."
+      ],
+      "approvedAsCroppedFurnitureCompanion": true,
+      "fulfillsPlanReverse": false
+    },
+    {
+      "roomId": "bed3",
+      "code": "B31",
+      "file": "assets/render-candidates/collected-mineral/r04/day-613.png",
+      "approved": true,
+      "checks": [
+        "Natural finish bed/table/dresser matches currently selected stocked SKUs.",
+        "Correct three opening groups/right-wall bed, two faceted white Amaryllis lamps and loose neutral rug/oak unchanged.",
+        "No new wall opening, colored bedding or owned bed duplication."
+      ],
+      "notes": [
+        "Stock proof observed casegoods quantity1 only; total quantity and delivery check remains outstanding."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "bed5",
+      "code": "B51",
+      "file": "assets/render-candidates/collected-mineral/r04/day-614.png",
+      "approved": true,
+      "checks": [
+        "New Anneli Ivory queen and Weathered Natural narrow table/dresser finish match current selections.",
+        "Two Remi mini lamps retain slim linen base/conical shade form.",
+        "Source west-headwall/offset-entry crop remains windowless and plan-consistent as a primary concept; flat ceiling/oak/loose rug retained."
+      ],
+      "notes": [
+        "Unbuilt room; no order before permitted layout/actual measurements.",
+        "East windows lie behind this camera and need a separate genuine plan-derived reverse."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "loft",
+      "code": "PL2",
+      "file": "assets/render-candidates/collected-mineral/r04/day-634.png",
+      "approved": true,
+      "checks": [
+        "Single detached Cloud ottoman now sits at front of FAR LEFT sofa end, consistent with primary304 staging. No ottoman remains in prior foreground-right position.",
+        "Exactly THREE white Cloud sofa seats, ONE ottoman, TWO round brown/stainless Machinto side tables, ONE Carrara plinth coffee, ONE Nickel Arc II lamp and ONE plinth Machinto media console.",
+        "TWO stainless Rome stool frames retain Graphite seats; unchanged recessed bar/window/pendants.",
+        "Photo-derived south French doors/two flank windows, west slider, tray and camera retained; no new openings or room expansion."
+      ],
+      "notes": [
+        "Photo-informed furniture form and finish, not exact manufacturer CAD. Owned console width and Rome seat height remain unprovided; verify measurements before final fit/install."
+      ],
+      "mustFix": [],
+      "supersedes": "assets/render-candidates/collected-mineral/r04/day-511.png"
+    }
+  ]
+}

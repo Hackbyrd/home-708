@@ -1,0 +1,343 @@
+{
+  "title": "Collected Mineral · primary night visual QA",
+  "date": "2026-10-11",
+  "status": "reviewed_with_targeted_corrections_required",
+  "requestFile": "assets/render-candidates/collected-mineral/r04/primary-night-requests.json",
+  "approvedDayMap": "assets/render-candidates/collected-mineral/r04/approved-days.json",
+  "buildSpecs": "docs/collected-mineral-build-specs.json",
+  "summary": {
+    "reviewed": 14,
+    "approved": 9,
+    "rejected": 5,
+    "rejectedIndexes": [
+      703,
+      705,
+      707,
+      708,
+      713
+    ]
+  },
+  "scope": "Approval means a coherent night variant of the exact approved day camera. It does not certify measured geometry, unseen openings, procurement, waterproofing or electrical/AV design.",
+  "rooms": [
+    {
+      "index": 700,
+      "roomId": "ownerbed",
+      "sourceCode": "OB1",
+      "sourceJobId": "05bdb753-b6cc-407b-8af3-6f69edf98265",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/core-301.png",
+      "nightJobId": "13ba4716-77b0-4f3c-8612-c58af2dc1c3b",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-700.png",
+      "approved": true,
+      "approvedJobId": "13ba4716-77b0-4f3c-8612-c58af2dc1c3b",
+      "notes": [
+        "Owned white panel king, open Bezier nightstands/dresser, neutral art, rug and exactly two Bates lamps retain the source forms and locations.",
+        "Visible west window bank is fully behind opaque closed curtains; no apparent daylight leak.",
+        "TV is off. Exactly the existing bedside lamps and low ceiling light provide night illumination; no under-bed LED, floating bedside glow or new sconces."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Connected retreat openings are outside this camera; this crop alone cannot prove whole-suite blackout."
+      ],
+      "reviewMethod": "Side-by-side comparison against the exact approved day job, followed by full-image review where needed; checked furniture count/form, camera, openings, opaque coverage and lighting against the build specifications.",
+      "constructionApproval": false
+    },
+    {
+      "index": 701,
+      "roomId": "ownercloset",
+      "sourceCode": "WC1",
+      "sourceJobId": "d5a556ac-8a22-4697-9681-589de51f29a3",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-607.png",
+      "nightJobId": "0bbde46b-36fc-45bd-89c8-841470f69d00",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-701.png",
+      "approved": true,
+      "approvedJobId": "0bbde46b-36fc-45bd-89c8-841470f69d00",
+      "notes": [
+        "Leaner mirror, Clio vanity, Blythe stool, reduced storage bay, clothing and remaining wardrobe modules match the day source.",
+        "Windowless room stays windowless, with the same ceiling fittings and subtle permitted shelf illumination.",
+        "No new island, mirror bulbs or duplicated vanity furniture."
+      ],
+      "mustFix": [],
+      "limits": [
+        "The mirror reflection and depicted aisle remain illustrative; actual reduced storage and fixing details require measurement."
+      ],
+      "reviewMethod": "Side-by-side comparison against the exact approved day job, followed by full-image review where needed; checked furniture count/form, camera, openings, opaque coverage and lighting against the build specifications.",
+      "constructionApproval": false
+    },
+    {
+      "index": 702,
+      "roomId": "loft",
+      "sourceCode": "PL1",
+      "sourceJobId": "b4293b31-62cb-4823-9958-b40acb62455c",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-304.png",
+      "nightJobId": "2f88e2d2-74cb-4161-8a65-4dd0e300cb65",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-702.png",
+      "approved": true,
+      "approvedJobId": "2f88e2d2-74cb-4161-8a65-4dd0e300cb65",
+      "notes": [
+        "Owned Cloud group and ONE ottoman, Carrara plinth table, Machinto console/side tables and ONE Arc II lamp match the day source.",
+        "The console remains freestanding, not a new fitted duplicate.",
+        "All visible French-door, slider, flank and bar-window lower glazing is covered by opaque privacy layers; the small flank coverings reach their sills.",
+        "Original tray, two bar pendants, lamp and bar task light retained; no new glowing furniture base."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Unseen north stair/guest vestibule is not proven by this camera."
+      ],
+      "reviewMethod": "Side-by-side comparison against the exact approved day job, followed by full-image review where needed; checked furniture count/form, camera, openings, opaque coverage and lighting against the build specifications.",
+      "constructionApproval": false
+    },
+    {
+      "index": 703,
+      "roomId": "office",
+      "sourceCode": "O1",
+      "sourceJobId": "9bb4f9f4-3672-40f0-bc75-f109d5743751",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-600.png",
+      "nightJobId": "db40fe75-623a-459d-8dac-312797b31315",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-703.png",
+      "approved": false,
+      "approvedJobId": null,
+      "notes": [
+        "Alora desk, Fern chair, two Nicola visitors, TV/soundbar and full north cabinet structure remain in the same positions.",
+        "Existing ceiling positions and shelf lights retained; no new furniture."
+      ],
+      "mustFix": [
+        "The opaque shades appear to begin at the intermediate sash divider, leaving the upper row of BOTH main 2×2 office banks as exposed dark glass. These are upper sashes of the main windows, not separate optional high transoms. Cover the FULL glass area of every unit consistently from its actual head to sill, preserving the white sash divisions and sheers."
+      ],
+      "limits": [
+        "The round side window, gallery doors and printer station are outside this camera and cannot be independently checked in this primary night crop."
+      ],
+      "reviewMethod": "Side-by-side comparison against the exact approved day job, followed by full-image review where needed; checked furniture count/form, camera, openings, opaque coverage and lighting against the build specifications.",
+      "constructionApproval": false
+    },
+    {
+      "index": 704,
+      "roomId": "media",
+      "sourceCode": "M1",
+      "sourceJobId": "1bd7462b-0995-4dbc-8660-61d08d99720a",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-609.png",
+      "nightJobId": "f386cf75-7ee8-43ad-ac70-e58c9f87a3a8",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-704.png",
+      "approved": true,
+      "approvedJobId": "f386cf75-7ee8-43ad-ac70-e58c9f87a3a8",
+      "notes": [
+        "Straight Classic sofa, TWO movable ottomans, compact center perch/table, 83-inch-scale TV/soundbar, wider walnut console and collectible niches retain the exact day arrangement.",
+        "The smaller centered real window is fully covered by opaque closed blackout curtains; no invented opening appears on the solid sofa wall.",
+        "Same ceiling grilles and lamps as day; reduced warm room/halo/display light, with TV off and no new tray."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Clear west doors and their removable movie covers are outside this crop.",
+        "Ceiling grilles are visual placeholders or future prewire, not evidence that passive ceiling speakers operate with the Sonos soundbar system.",
+        "Rendered screen size and console dimensions remain illustrative, not measured."
+      ],
+      "reviewMethod": "Side-by-side comparison against the exact approved day job, followed by full-image review where needed; checked furniture count/form, camera, openings, opaque coverage and lighting against the build specifications.",
+      "constructionApproval": false
+    },
+    {
+      "index": 705,
+      "roomId": "great",
+      "sourceCode": "GR1",
+      "sourceJobId": "cfa35ce5-b0de-4337-92a5-e6582364be42",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-602.png",
+      "nightJobId": "6bb18a24-f281-4cf7-a0f5-c7e311a34c10",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-705.png",
+      "approved": false,
+      "approvedJobId": null,
+      "notes": [
+        "Retreat sofa, TWO Shelter Arm chairs, Tate table, square Enzo side tables, sibling art, fitted consoles, lamp, fireplace and TV position otherwise match the day source.",
+        "Terrace lower glazing has opaque privacy coverage, and both high openings remain dark."
+      ],
+      "mustFix": [
+        "TWO picture-light bars were added above the artwork frames; no such fixtures are present in approved day 602. Remove those invented fixtures and use only the source lamp, existing ceiling lights and fireplace glow.",
+        "The internal white mullions/divisions of BOTH high transoms disappeared into plain dark rectangles. Restore the original divisions, with dark night only in the actual glass panes."
+      ],
+      "limits": [
+        "Fireplace/TV heat and mounting require real equipment verification; this QA approves only source preservation."
+      ],
+      "reviewMethod": "Side-by-side comparison against the exact approved day job, followed by full-image review where needed; checked furniture count/form, camera, openings, opaque coverage and lighting against the build specifications.",
+      "constructionApproval": false
+    },
+    {
+      "index": 706,
+      "roomId": "kitchen",
+      "sourceCode": "K1",
+      "sourceJobId": "9cce0509-e3d2-41cc-ac06-c22404999443",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-615.png",
+      "nightJobId": "8f54630d-5f95-498c-b3c2-7ad2ac537159",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-706.png",
+      "approved": true,
+      "approvedJobId": "8f54630d-5f95-498c-b3c2-7ad2ac537159",
+      "notes": [
+        "Four Nord counter stools, two dome pendants, actual appliances, counter/sink layout, C1 porcelain and cabinet module count match day 615.",
+        "The counter-window privacy shade covers its visible full opening.",
+        "Adjacent owned Maslow/Emery sunroom setting is retained; its lower glass is opaque while original high transoms are dark/bare.",
+        "Useful warm counter/general lighting activates existing sources; no new fixture or false window above appliances."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Counter stool seat height, measured fit and chosen appliance service data cannot be certified from the image."
+      ],
+      "reviewMethod": "Side-by-side comparison against the exact approved day job, followed by full-image review where needed; checked furniture count/form, camera, openings, opaque coverage and lighting against the build specifications.",
+      "constructionApproval": false
+    },
+    {
+      "index": 707,
+      "roomId": "dining",
+      "sourceCode": "D1",
+      "sourceJobId": "f826ba80-5173-4a08-bb94-ecd3c3849bae",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-612.png",
+      "nightJobId": "a9a5441d-a082-4b3d-8ce2-44d09ae2806e",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-707.png",
+      "approved": false,
+      "approvedJobId": null,
+      "notes": [
+        "Barley rectangular table/supports, eight visible everyday Nicola seats, owned Cabrera console/mirror/vessels and Spiridon chandelier remain consistent with the approved day.",
+        "Door/window casings and overall camera arrangement are preserved."
+      ],
+      "mustFix": [
+        "The rear-right TALL arched opening still shows uncovered dark glass/tree detail in its upper arched section. Complete opaque privacy coverage across the entire tall opening, including the arch and sill/side edges. Review the other tall opening heads for the same full-coverage requirement.",
+        "An opaque covering was added at the separate SMALL high arched window at left, which the approved treatment plan leaves bare unless an actual sightline requires dressing. Return that small high opening to bare dark-night glass without changing its shape."
+      ],
+      "limits": [
+        "Eight/ten-seat physical fit, table extension, chair pullback and the unseen open living seam still require field measurement."
+      ],
+      "reviewMethod": "Side-by-side comparison against the exact approved day job, followed by full-image review where needed; checked furniture count/form, camera, openings, opaque coverage and lighting against the build specifications.",
+      "constructionApproval": false
+    },
+    {
+      "index": 708,
+      "roomId": "living",
+      "sourceCode": "LR1",
+      "sourceJobId": "d75560ec-2676-4ad5-8c42-266f79a012a8",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-611.png",
+      "nightJobId": "25281178-28d0-47e4-a7ba-117c67c70989",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-708.png",
+      "approved": false,
+      "approvedJobId": null,
+      "notes": [
+        "NW piano/bench, compact sofa, TWO chairs, Tate coffee table, owned Martini side table and source lamps retain their shapes and positions.",
+        "The direct dining connection stays open, and all visible tall social-room windows have opaque lower privacy layers."
+      ],
+      "mustFix": [
+        "The separate SMALL high arched opening in the shared facade was covered with a new opaque shade, despite the approved rule leaving this high arch bare unless a real sightline changes the scope. Remove that added high-arch covering and show dark exterior through the same source glass/grid."
+      ],
+      "limits": [
+        "This room is plan-derived, with no dedicated original model-room photograph; the image does not certify actual piano/furniture clearances."
+      ],
+      "reviewMethod": "Side-by-side comparison against the exact approved day job, followed by full-image review where needed; checked furniture count/form, camera, openings, opaque coverage and lighting against the build specifications.",
+      "constructionApproval": false
+    },
+    {
+      "index": 709,
+      "roomId": "sunroom",
+      "sourceCode": "S1",
+      "sourceJobId": "1f1bafb7-1900-4dd4-8850-0d256e16c306",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-406.png",
+      "nightJobId": "6957aaa3-2e39-4abf-b14b-01ceb4a867f0",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-709.png",
+      "approved": true,
+      "approvedJobId": "6957aaa3-2e39-4abf-b14b-01ceb4a867f0",
+      "notes": [
+        "Owned Maslow table, FOUR side chairs and TWO track-arm end chairs remain consistent with day 406; no Parsons/Nicola substitution.",
+        "All visible lower window/door glass has opaque privacy coverage. Original high transoms remain bare and dark, preserving their white divisions.",
+        "The same six-globe fixture and existing ceiling light are lit, with no extra chandelier or added ceiling outline."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Actual table/chair fit, pulls and operable-door clearance require a template."
+      ],
+      "reviewMethod": "Side-by-side comparison against the exact approved day job, followed by full-image review where needed; checked furniture count/form, camera, openings, opaque coverage and lighting against the build specifications.",
+      "constructionApproval": false
+    },
+    {
+      "index": 710,
+      "roomId": "retreat",
+      "sourceCode": "OR1",
+      "sourceJobId": "a7423fd4-788f-43aa-93b9-74f37161d08b",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-307.png",
+      "nightJobId": "b9cf0c99-c577-4c4c-b938-6e056b79e96c",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-710.png",
+      "approved": true,
+      "approvedJobId": "b9cf0c99-c577-4c4c-b938-6e056b79e96c",
+      "notes": [
+        "The wet-bar module count, sink, fridge, kettle/accessories and visible owners-bedroom furniture/art remain the same as day 307.",
+        "Visible suite curtain coverage is fully closed with no daylight strips.",
+        "Only the existing bar task/ceiling sources and the two existing Bates lamps in the adjoining bedroom are lit; no invented retreat furniture or doors."
+      ],
+      "mustFix": [],
+      "limits": [
+        "This OR1 camera shows the bar and bedroom connection, not the separate two-chair retreat seating or all THREE west plus TWO south retreat units. Use the companion view to verify those, rather than claiming full coverage from this crop."
+      ],
+      "reviewMethod": "Side-by-side comparison against the exact approved day job, followed by full-image review where needed; checked furniture count/form, camera, openings, opaque coverage and lighting against the build specifications.",
+      "constructionApproval": false
+    },
+    {
+      "index": 711,
+      "roomId": "bed2",
+      "sourceCode": "B21",
+      "sourceJobId": "7c8eebc0-fd39-45e2-9939-72e1869d89b5",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-408.png",
+      "nightJobId": "dff4bef4-7e10-409c-8995-9cfae04dd2df",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-711.png",
+      "approved": true,
+      "approvedJobId": "dff4bef4-7e10-409c-8995-9cfae04dd2df",
+      "notes": [
+        "Owned shelter queen, TWO nickel Orbiter wall lamps, square Enzo tables, rug, desk, closet and separate hall-entry relationship retain the source arrangement.",
+        "Visible side-window blackout is fully opaque, with no exposed glass strip.",
+        "Exactly the source Orbiter pair supplies bedside light; no duplicated table lamps, under-bed LEDs or sconces added."
+      ],
+      "mustFix": [],
+      "limits": [
+        "The paired front window bank is behind the camera; this crop cannot prove its full coverage.",
+        "The actual lamp mount/connection and closet clearances require site verification."
+      ],
+      "reviewMethod": "Side-by-side comparison against the exact approved day job, followed by full-image review where needed; checked furniture count/form, camera, openings, opaque coverage and lighting against the build specifications.",
+      "constructionApproval": false
+    },
+    {
+      "index": 712,
+      "roomId": "bed3",
+      "sourceCode": "B31",
+      "sourceJobId": "2f333f06-7bd9-4610-bc6b-19865297831a",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-613.png",
+      "nightJobId": "e0692ff5-c382-41fc-99da-41b1a564c571",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-712.png",
+      "approved": true,
+      "approvedJobId": "e0692ff5-c382-41fc-99da-41b1a564c571",
+      "notes": [
+        "Natural Keane bed, TWO Natural narrow nightstands, Natural tall dresser, rug and TWO compact ceramic lamps retain the current R04 day-source forms and finishes.",
+        "All THREE visible exterior opening groups are fully opaque from head through lower glass/sill, with no visible daylight gaps.",
+        "Only the existing paired lamps/general ceiling light are used; no new strip, sconce or glowing bed base."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Current single-unit retailer stock does not certify the aggregate FOUR nightstands/TWO dressers shared with Bed 5."
+      ],
+      "reviewMethod": "Side-by-side comparison against the exact approved day job, followed by full-image review where needed; checked furniture count/form, camera, openings, opaque coverage and lighting against the build specifications.",
+      "constructionApproval": false
+    },
+    {
+      "index": 713,
+      "roomId": "bed5",
+      "sourceCode": "B51",
+      "sourceJobId": "c6a777c0-d7ba-4600-9813-00be33ae4d60",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-614.png",
+      "nightJobId": "2ef458eb-be32-4c6c-9cc9-a757c03c747f",
+      "nightFile": "assets/render-candidates/collected-mineral/r04/night-713.png",
+      "approved": false,
+      "approvedJobId": null,
+      "notes": [
+        "Anneli bed, TWO Natural nightstands/lamps, dresser, rug, doorway and artwork otherwise retain day 614."
+      ],
+      "mustFix": [
+        "Full-height curtains were invented at BOTH sides of the solid WEST headboard wall. No such curtains/windows exist in the approved day source or plan. Remove them and retain the plain mushroom headwall/corners. The TWO real EAST windows are behind this camera; their closed blackout should not create curtains on a solid wall."
+      ],
+      "limits": [
+        "Room is still unbuilt. This B51 crop does not show or establish the two planned east windows, bedroom egress or exact as-built geometry.",
+        "A separate true reverse is needed to visualize the east window wall; do not treat the earlier B51-like companion as proof."
+      ],
+      "reviewMethod": "Side-by-side comparison against the exact approved day job, followed by full-image review where needed; checked furniture count/form, camera, openings, opaque coverage and lighting against the build specifications.",
+      "constructionApproval": false
+    }
+  ]
+}
