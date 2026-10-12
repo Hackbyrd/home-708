@@ -5,6 +5,11 @@
 
 .card-copy .action{margin-top:auto}
 
+.designs-intro>p:not(.eyebrow){max-width:720px;margin-top:16px;font-size:16px;color:var(--muted)}
+
+/* Owned inventory belongs to the house rather than to one design option. */
+.designs-owned-link{display:inline-block;margin-top:20px;color:var(--accent);font-size:12px}.current-furniture-home{margin-top:44px;padding-top:34px;border-top:1px solid var(--line);scroll-margin-top:24px}.current-furniture-home .resource-heading{align-items:center}.current-furniture-home .resource-heading .eyebrow{margin-bottom:8px}.current-furniture-home .resource-heading p:not(.eyebrow){max-width:560px}.owned-preview-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px;margin-bottom:22px}.owned-preview{display:block;min-width:0;border:1px solid var(--line);border-radius:4px;background:var(--card);overflow:hidden;text-decoration:none}.owned-preview img{display:block;width:100%;height:180px;object-fit:contain;background:white;padding:15px}.owned-preview>span:not(.owned-preview-placeholder){display:block;padding:15px;font-size:13px;line-height:1.4}.owned-preview>span>span{color:var(--accent)}.owned-preview-placeholder{display:grid;place-items:center;height:180px;background:var(--soft);font-size:12px;color:var(--muted)}.owned-preview:hover{border-color:var(--accent)}.current-furniture-home>.action{max-width:320px}@media(max-width:900px){.owned-preview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:680px){.current-furniture-home{margin-top:32px;padding-top:28px}.owned-preview-grid{gap:12px}.owned-preview img,.owned-preview-placeholder{height:145px}.owned-preview>span:not(.owned-preview-placeholder){padding:12px;font-size:12px}.current-furniture-home>.action{max-width:none}.current-furniture-home .resource-heading p:not(.eyebrow){margin-top:12px}}
+
 .site-header .home-link{color:var(--accent)}
 @media(max-width:680px){.site-header{flex-wrap:wrap}.site-header nav{flex-wrap:wrap;gap:12px 20px}.site-header .home-link{font-weight:600}}
 
