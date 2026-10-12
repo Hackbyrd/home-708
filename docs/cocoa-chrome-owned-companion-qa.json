@@ -1,0 +1,193 @@
+{
+  "revision": "CC-OWN-R08",
+  "reviewedAt": "2026-10-12",
+  "scope": "Office seat repair, eight initial companion day cameras and two exact-source night studies; no ledger promotion.",
+  "limitations": [
+    "Qualitative source-camera/product-form/count/finish review; no measured fit, factory-detail or construction certification.",
+    "Original model photographs and builder plan retain architectural authority; alternate cameras remain plan-derived where stated.",
+    "Night mates require a separate exact-current-day-source review."
+  ],
+  "summary": {
+    "reviewed": 11,
+    "passed": 7,
+    "repairRequired": 4
+  },
+  "records": [
+    {
+      "index": 1201,
+      "room": "office",
+      "code": "O1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1201.png",
+      "qa": {
+        "approved": true,
+        "status": "qualitative_visual_pass"
+      },
+      "notes": [
+        "O1 source1101 camera and both two-sash window banks, ceiling, library, TV and rectangular desk remain consistent.",
+        "Exactly one Coal black-mesh ergonomic task chair and two White/Polished Stainless Emery track-arm visitors replace1101 mismatched chairs; authentic chair supports retained.",
+        "The office pair is NEW, separate from the owned sunroom end chairs."
+      ],
+      "minimalRepairPrompt": ""
+    },
+    {
+      "index": 2100,
+      "room": "entry",
+      "code": "E2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2100.png",
+      "qa": {
+        "approved": false,
+        "status": "repair_required"
+      },
+      "notes": [
+        "E2 exit-facing camera, arched front door, circular high glazing and light clear side doors match the target.",
+        "A second credenza is added beside the front exit; approved E1 places the sole credenza under the stair, behind this camera.",
+        "The cascade uses opaque balls here but approved E1/1200 has clear outer globes with internal diffusers."
+      ],
+      "minimalRepairPrompt": "Edit only FIRST image2100. Remove the curved credenza and its tabletop objects to the LEFT of the EXIT door, restoring plain wall and clear floor. There is only ONE credenza in the house entry; it stays under the stair shown in SECOND image1200 and is outside this exit-facing crop. Replace only this chandelier's outer globes with the identical clear glass outer spheres/internal small opal diffusers of1200, preserving drop arrangement and polished-silver fittings. Keep all openings, exit quote including period, flooring, light clear doors and target camera."
+    },
+    {
+      "index": 2103,
+      "room": "gym",
+      "code": "G2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2103.png",
+      "qa": {
+        "approved": false,
+        "status": "repair_required"
+      },
+      "notes": [
+        "G2 gallery doors, one narrow and one two-sash exterior bank, empty rubber floor and ceiling strip match source.",
+        "Smooth pearl walls, raised privacy shades/sheers and silver fittings agree with G1.",
+        "Quote is duplicated on a second wall between windows; approved G1 quote already sits beside the large mirror on opposite wall."
+      ],
+      "minimalRepairPrompt": "Edit only FIRST image2103. Remove the quote between the narrow and broad exterior window banks; restore uninterrupted pearl/putty wall. The room has ONE quote only, on the mirror wall shown in SECOND image1103, outside this target crop. Keep exact G2 camera, actual windows/doors, treatments, ceiling light and empty rubber floor."
+    },
+    {
+      "index": 2104,
+      "room": "bath",
+      "code": "B2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2104.png",
+      "qa": {
+        "approved": true,
+        "status": "qualitative_visual_pass"
+      },
+      "notes": [
+        "B2 shower-facing camera, two side doors, shower bench/niche and service locations preserve source.",
+        "Quiet pearl-gray/Carrara porcelain, polished silver shower fittings and actual reflected vanity/mirror are consistent with B1; no invented window or dry wood wet floor."
+      ],
+      "minimalRepairPrompt": ""
+    },
+    {
+      "index": 2109,
+      "room": "sunroom",
+      "code": "S2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2109.png",
+      "qa": {
+        "approved": true,
+        "status": "qualitative_visual_pass"
+      },
+      "notes": [
+        "S2 FIRST camera, oven bank, terrace door, five wraparound window units with separate high transoms preserve source.",
+        "One owned Maslow Espresso Walnut table with aluminum spider base, four Emery side chairs and two White/Polished Stainless track-arm end chairs match approved S1.",
+        "Silver linear pendant, blue vessel/yellow flowers and pale oak with operative lower shades agree across views; no duplicate table/chair set."
+      ],
+      "minimalRepairPrompt": ""
+    },
+    {
+      "index": 2111,
+      "room": "ownerbed",
+      "code": "OB2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2111.png",
+      "qa": {
+        "approved": false,
+        "status": "repair_required"
+      },
+      "notes": [
+        "OB2 door/internal transom, bath arch, TV wall, camera and Modena white bed/Bates pair/rug retain source arrangement.",
+        "Nightstands and eight-drawer dresser were put on exposed silver legs; approved OB1 has continuous grounded wood plinths.",
+        "Bezier continuous polished-steel drawer reveals were replaced by short bar handles."
+      ],
+      "minimalRepairPrompt": "Edit only FIRST image2111, keeping this OB2 reverse camera and all room openings/TV/bed/lamps/art/textiles. Restore the TWO owned Bezier Open Nightstands and ONE Bezier eight-drawer low dresser to SECOND image1011's actual geometry: smoky Brown Oak, open nightstand cubby above its single drawer, continuous floor-level closed WOOD plinth, no exposed steel feet and no gap under cabinetry; long continuous polished-stainless drawer-edge/reveal details rather than little bar pulls. Dresser remains exactly two columns by four drawers. Leave bed's actual Grey Oak feet intact; do not blanket-remove true bed supports."
+    },
+    {
+      "index": 2113,
+      "room": "ownerbath",
+      "code": "BA2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2113.png",
+      "qa": {
+        "approved": true,
+        "status": "qualitative_visual_pass"
+      },
+      "notes": [
+        "BA2 source camera, double vanity, water-closet door, neo-angle shower, foreground tub/faucet and mirror locations preserve the plan-led shell.",
+        "Same quiet Carrara/pearl porcelain, smoky oak grounded vanity, polished-silver vertical lighting/fittings and blue towel note as BA1; no Option1 onyx or purple accent."
+      ],
+      "minimalRepairPrompt": ""
+    },
+    {
+      "index": 2118,
+      "room": "laundry",
+      "code": "LA2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2118.png",
+      "qa": {
+        "approved": true,
+        "status": "qualitative_visual_pass"
+      },
+      "notes": [
+        "LA2 source camera, arched window plus narrow second window, overhead cabinetry, sink, two laundry appliances and drying rack remain.",
+        "Brown Oak grounded lower storage, white uppers/silver fittings, pale oak, two hampers and blue Rinse and repeat.. graphic match LA1."
+      ],
+      "minimalRepairPrompt": ""
+    },
+    {
+      "index": 2120,
+      "room": "loft",
+      "code": "PL2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2120.png",
+      "qa": {
+        "approved": false,
+        "status": "repair_required"
+      },
+      "notes": [
+        "PL2 FIRST camera, French-door/flank-window bank, slider and bar openings preserve source.",
+        "Owned three Cloud seats, one ottoman, Carrara block coffee table, two Machinto cylinders, Arc nickel lamp and two Graphite stools are present.",
+        "The single ottoman is at far/left sofa end, opposite approved PL1/1012 near/right end.",
+        "Bar upper glass cabinet doors from approved PL1 are absent here."
+      ],
+      "minimalRepairPrompt": "Edit only FIRST image2120, retaining its PL2 camera, shell, openings and all owned product counts. Move the existing SINGLE square white Cloud ottoman from the FAR/LEFT end to the NEAR/RIGHT end of the same three-seat sofa, matching its physical position in SECOND image1012. Never add an ottoman or fourth seating module. Restore1012's clear glazed upper doors to the upper two shelf bays of the bar cabinet, while keeping the lower open display shelf/wine refrigerator. Keep both Machinto18 side tables, true Carrara48x24 block table, Arc nickel lamp, two Graphite Rome stools, wood-plinth media console and all Cocoa finishes."
+    },
+    {
+      "index": 6222,
+      "room": "bath4",
+      "code": "PBA1-CCN",
+      "sourceDayIndex": 1222,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6222.png",
+      "qa": {
+        "approved": true,
+        "status": "exact_day_paired_night_visual_pass"
+      },
+      "notes": [
+        "Exact day1222 camera, windowless shell, vanity/toilet/shower footprints, two wall sconces and ceiling lights remain.",
+        "Quiet porcelain wet floor, grounded Brown Oak vanity and existing silver fittings/reflections preserved; no invented window covering.",
+        "Warm silver highlights are reflections of the changed illumination, not a new gold/brass finish. Lighting appearance does not certify lux or fixture output."
+      ],
+      "minimalRepairPrompt": ""
+    },
+    {
+      "index": 6114,
+      "room": "ownercloset",
+      "code": "WC1-CCN",
+      "sourceDayIndex": 1114,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6114.png",
+      "qa": {
+        "approved": true,
+        "status": "exact_day_paired_night_visual_pass"
+      },
+      "notes": [
+        "Exact day1114 camera, windowless wardrobe enclosure, two ceiling lights and same mirror reflections remain.",
+        "One owned Clio Frost/Pewter vanity, white Blythe stool and polished stainless41\u00d777 leaner retained; no new lamp, glazing, curtain or wardrobe LED added.",
+        "Warm silver highlights are reflections of the changed illumination, not a new gold/brass finish. Lighting appearance does not certify lux or fixture output."
+      ],
+      "minimalRepairPrompt": ""
+    }
+  ]
+}

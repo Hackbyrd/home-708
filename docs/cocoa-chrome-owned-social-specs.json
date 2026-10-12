@@ -1,0 +1,1701 @@
+{
+  "schemaVersion": 1,
+  "revision": "CC-OWN-R08",
+  "title": "Cocoa & Chrome · new social furniture and room recipes",
+  "date": "2026-10-12",
+  "destinationZip": "20878",
+  "scope": "Only Option 2 social rooms on floors 1 and 2. The exact owned 29 types and 39 units remain in the root allocation plan. Their functional allocations carry over; the style of Options 1 and 3 does not.",
+  "status": "Ready for design visualization. Exact current configurations, combined quantities, delivery to 20878 and measured fit remain flagged. This is not an order or fixed quotation.",
+  "style": "Cocoa & Chrome is a polished modern house built around smoky gray-brown oak, reflective silver metals, white upholstery and light warm putty/pearl walls. Blue belongs in artwork and removable textiles; butter-yellow is a smaller removable accent. Plants supply green. Do not introduce Mineral & Walnut’s walnut furniture, golden metal, brown plaster recipe or its approved A/C1/E stone selections.",
+  "stockPolicy": "Prioritize value and sale items. Apply the earlier stocked-only filter to purchases. The active Italia 8-foot sofa has a near-term SPECIAL-ORDER delivery quote and is shown as a design candidate; it is not confirmed in stock or purchase-ready. Unknown stock remains unknown. Add to Cart, historic ownership and another size’s availability do not verify this configuration. Keep the value alternatives without publishing false availability.",
+  "items": [
+    {
+      "id": "cc-social-great-italia-track96",
+      "name": "Italia Track Arm 2-Cushion Sofa — Metal Base / 8-foot Classic",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "great",
+      "size": "96 W ×41 D inches; exact current overall height to confirm",
+      "finish": "Polished Chrome",
+      "fabric": "Perennials Performance Textured Linen Weave",
+      "color": "White",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod14970116?sale=true",
+      "price": 8829,
+      "currentPriceOrSale": {
+        "amount": 8829,
+        "regular": 14845,
+        "kind": "member_sale",
+        "discountLabel": "40% off shown",
+        "verifiedAt": "2026-10-12",
+        "note": "Root live exact configuration quote to 20878. Near-term special-order delivery, not stocked. Membership/tax/delivery excluded; no order placed."
+      },
+      "stockStatus": "near_term_delivery_quote_special_order",
+      "stockEvidence": "Live RH sale configuration check on 2026-10-12 for ZIP 20878: 8-foot × Classic 41, Standard, Polished Chrome, White Perennials Performance Textured Linen Weave, SKU 95800749 BXWT; ready-delivery quote 11/05–11/11/26. Page calls this special-order. This is not an in-stock confirmation or reservation.",
+      "checkedAt": "2026-10-12",
+      "destinationZip": "20878",
+      "purchaseReady": false,
+      "decision": "render_proposal_pending_current_quantity_stock_and_measured_fit",
+      "image": "cocoa-chrome-owned-assets/products/cc-social-italia-track-8-white-chrome.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod14970116_E67799715_F_Frank_CO24_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerTexLinWeave_white_204_repeat&res=220&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=858483&illum=1&obj=Fabric&req=object&illum=1&bOId=(83100095)eOId)&wid=1200&$PDP-IR-768$",
+      "photoMatchNote": "The current RH configuration image shows White upholstery, a polished-chrome open base and the rectangular track-arm silhouette with two seat cushions. The photograph does not certify exact width or height; verify the selected dimensions before purchase.",
+      "exactConfiguration": {
+        "sku": "95800749 BXWT",
+        "width": "8-foot",
+        "depth": "Classic 41",
+        "cushionFill": "Standard",
+        "base": "Polished Chrome",
+        "fabric": "Perennials Performance Textured Linen Weave",
+        "color": "White"
+      },
+      "fitNotes": [
+        "Great room gets this tailored supportive sofa, never the owned Cloud. Template 96×41 with actual chairs/table and terrace route before ordering.",
+        "This special-order design candidate does not satisfy the earlier stocked-only purchase filter. Keep the stocked value alternative available; no purchase-ready assertion."
+      ]
+    },
+    {
+      "id": "cc-social-great-imogene-white",
+      "name": "Imogene White Performance Fabric Lounge Chair",
+      "brand": "CB2",
+      "ownership": "new",
+      "quantity": 2,
+      "room": "great",
+      "size": "26 W ×31 D ×31.5 H inches",
+      "finish": "Actual MATTE BLACK hammered steel arms and supports",
+      "fabric": "Colourwash Performance Cotton Blend Chenille",
+      "color": "Angora /White",
+      "url": "https://www.cb2.com/imogene-white-performance-fabric-lounge-chair/f34852",
+      "price": 999,
+      "currentPriceOrSale": {
+        "amount": 999,
+        "kind": "official_dated_quote",
+        "verifiedAt": "2026-10-12",
+        "note": "No unverified discount is applied. Price excludes tax, delivery and any membership fee."
+      },
+      "stockStatus": "official_page_in_stock_zip_quantity_pending",
+      "stockEvidence": "Official US product page reviewed 2026-10-12 labels Colourwash Angora SKU 160076 In stock. Ready to schedule delivery. Public result lacks confirmed destination 20878; combined four across great/living are not checked. Do not claim ZIP/quantity availability.",
+      "checkedAt": "2026-10-12",
+      "destinationZip": "20878",
+      "purchaseReady": false,
+      "decision": "render_proposal_pending_current_quantity_stock_and_measured_fit",
+      "image": "cocoa-chrome-owned-assets/products/cc-social-imogene-white.webp",
+      "sourceImageUrl": "https://cb2.scene7.com/is/image/CB2/ImogeneWhiteLoungeChairSHF24?wid=1200&fmt=webp",
+      "photoMatchNote": "Official selected white product photo verifies the upright compact cushions and black hammered steel supports. Never recolor its real supports chrome.",
+      "exactConfiguration": {
+        "sku": "160076",
+        "fabric": "Colourwash",
+        "color": "Angora",
+        "observedQuantity": null
+      },
+      "fitNotes": [
+        "Two compact chairs per room, four total. Keep actual 26×31 footprint and piano/terrace paths clear.",
+        "Black is a limited actual support detail; most reflective silver remains in tables, lamps, hardware and owned pieces."
+      ]
+    },
+    {
+      "id": "cc-social-living-imogene-white",
+      "name": "Imogene White Performance Fabric Lounge Chair",
+      "brand": "CB2",
+      "ownership": "new",
+      "quantity": 2,
+      "room": "living",
+      "size": "26 W ×31 D ×31.5 H inches",
+      "finish": "Actual MATTE BLACK hammered steel arms and supports",
+      "fabric": "Colourwash Performance Cotton Blend Chenille",
+      "color": "Angora /White",
+      "url": "https://www.cb2.com/imogene-white-performance-fabric-lounge-chair/f34852",
+      "price": 999,
+      "currentPriceOrSale": {
+        "amount": 999,
+        "kind": "official_dated_quote",
+        "verifiedAt": "2026-10-12",
+        "note": "No unverified discount is applied. Price excludes tax, delivery and any membership fee."
+      },
+      "stockStatus": "official_page_in_stock_zip_quantity_pending",
+      "stockEvidence": "Official US product page reviewed 2026-10-12 labels Colourwash Angora SKU 160076 In stock. Ready to schedule delivery. Public result lacks confirmed destination 20878; combined four across great/living are not checked. Do not claim ZIP/quantity availability.",
+      "checkedAt": "2026-10-12",
+      "destinationZip": "20878",
+      "purchaseReady": false,
+      "decision": "render_proposal_pending_current_quantity_stock_and_measured_fit",
+      "image": "cocoa-chrome-owned-assets/products/cc-social-imogene-white.webp",
+      "sourceImageUrl": "https://cb2.scene7.com/is/image/CB2/ImogeneWhiteLoungeChairSHF24?wid=1200&fmt=webp",
+      "photoMatchNote": "Official selected white product photo verifies the upright compact cushions and black hammered steel supports. Never recolor its real supports chrome.",
+      "exactConfiguration": {
+        "sku": "160076",
+        "fabric": "Colourwash",
+        "color": "Angora",
+        "observedQuantity": null
+      },
+      "fitNotes": [
+        "Two compact chairs per room, four total. Keep actual 26×31 footprint and piano/terrace paths clear.",
+        "Black is a limited actual support detail; most reflective silver remains in tables, lamps, hardware and owned pieces."
+      ]
+    },
+    {
+      "id": "cc-social-great-nicholas60",
+      "name": "Nicholas Marble Rectangular Coffee Table — Carrara/Polished Stainless",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "great",
+      "size": "60 W ×24 D ×14 H inches; historical manufacturer dimensions, current size/variant availability pending",
+      "finish": "Polished Italian Carrara Marble /Polished Stainless Steel",
+      "fabric": null,
+      "color": null,
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod7410400",
+      "price": null,
+      "currentPriceOrSale": {
+        "amount": null,
+        "kind": "unquoted",
+        "verifiedAt": null,
+        "note": "No unverified discount is applied. Price excludes tax, delivery and any membership fee."
+      },
+      "stockStatus": "unverified",
+      "stockEvidence": "Exact selected configuration, delivery ZIP 20878 and total quantity are not yet verified.",
+      "checkedAt": "2026-10-12",
+      "destinationZip": "20878",
+      "purchaseReady": false,
+      "decision": "render_proposal_pending_current_quantity_stock_and_measured_fit",
+      "image": "cocoa-chrome-owned-assets/products/cc-social-nicholas-carrara-steel.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod7410400_E4740592_F_RHR?wid=1200&fmt=webp",
+      "photoMatchNote": "Official product page captions 60-inch rectangular table in Polished Italian Carrara/Polished Stainless. Photo shows thin stone top and open rectangular metal frame. Use 60 in great;48 in living is a differently sized same-family proposal, not exact photographed width.",
+      "exactConfiguration": {},
+      "fitNotes": [
+        "No giant 36-inch-deep version. Maintain practical sofa knee gap and circulation; final actual footprint/weight/delivery route are checked before purchase.",
+        "Photo’s center lower frame division may differ by 48-inch size; current shop drawing/product photo governs, not stretched 60-inch picture."
+      ],
+      "dimensionEvidence": {
+        "url": "https://images.restorationhardware.com/content/catalog/tearsheets/Case_Goods_Nicholas_Marble_Occ_Tables.pdf",
+        "documentDate": "2022-07-28",
+        "checkedAt": "2026-10-12",
+        "limitation": "Dimensions are historical family documentation; re-confirm current size/finish and delivery."
+      }
+    },
+    {
+      "id": "cc-social-living-nicholas48",
+      "name": "Nicholas Marble Rectangular Coffee Table — Carrara/Polished Stainless",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "living",
+      "size": "48 W ×24 D ×14 H inches; historical manufacturer dimensions, current size/variant availability pending",
+      "finish": "Polished Italian Carrara Marble /Polished Stainless Steel",
+      "fabric": null,
+      "color": null,
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod7410400",
+      "price": null,
+      "currentPriceOrSale": {
+        "amount": null,
+        "kind": "unquoted",
+        "verifiedAt": null,
+        "note": "No unverified discount is applied. Price excludes tax, delivery and any membership fee."
+      },
+      "stockStatus": "unverified",
+      "stockEvidence": "Exact selected configuration, delivery ZIP 20878 and total quantity are not yet verified.",
+      "checkedAt": "2026-10-12",
+      "destinationZip": "20878",
+      "purchaseReady": false,
+      "decision": "render_proposal_pending_current_quantity_stock_and_measured_fit",
+      "image": "cocoa-chrome-owned-assets/products/cc-social-nicholas-carrara-steel.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod7410400_E4740592_F_RHR?wid=1200&fmt=webp",
+      "photoMatchNote": "Official product page captions 60-inch rectangular table in Polished Italian Carrara/Polished Stainless. Photo shows thin stone top and open rectangular metal frame. Use 60 in great;48 in living is a differently sized same-family proposal, not exact photographed width.",
+      "exactConfiguration": {},
+      "fitNotes": [
+        "No giant 36-inch-deep version. Maintain practical sofa knee gap and circulation; final actual footprint/weight/delivery route are checked before purchase.",
+        "Photo’s center lower frame division may differ by 48-inch size; current shop drawing/product photo governs, not stretched 60-inch picture."
+      ],
+      "dimensionEvidence": {
+        "url": "https://images.restorationhardware.com/content/catalog/tearsheets/Case_Goods_Nicholas_Marble_Occ_Tables.pdf",
+        "documentDate": "2022-07-28",
+        "checkedAt": "2026-10-12",
+        "limitation": "Dimensions are historical family documentation; re-confirm current size/finish and delivery."
+      }
+    },
+    {
+      "id": "cc-social-living-italia-track84",
+      "name": "Italia Track Arm 2-Cushion Sofa — Metal Base / 7-foot Petite proposal",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "living",
+      "size": "84 W ×37 D inches planning target; exact current offered Petite variant/height to confirm",
+      "finish": "Polished Chrome",
+      "fabric": "Perennials Performance Textured Linen Weave",
+      "color": "White",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod14970116?sale=true",
+      "price": null,
+      "currentPriceOrSale": {
+        "amount": null,
+        "kind": "unquoted",
+        "verifiedAt": null,
+        "note": "No unverified discount is applied. Price excludes tax, delivery and any membership fee."
+      },
+      "stockStatus": "unverified",
+      "stockEvidence": "Exact selected configuration, delivery ZIP 20878 and total quantity are not yet verified.",
+      "checkedAt": "2026-10-12",
+      "destinationZip": "20878",
+      "purchaseReady": false,
+      "decision": "render_proposal_pending_current_quantity_stock_and_measured_fit",
+      "image": "cocoa-chrome-owned-assets/products/cc-social-italia-track-8-white-chrome.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/4KH?&color=F9F7F4&layer=0&src=ir(rhir/prod14970116_E67799715_F_Frank_CO24_RHR?obj=Fabric&src=rhir/obj=Fabric&src=rhir/PerTexLinWeave_white_204_repeat&res=220&illum=0&obj=Fabric&req=object&illum=0&obj=Fabric/Finish&color=858483&illum=1&obj=Fabric&req=object&illum=1&bOId=(83100095)eOId)&wid=1200&$PDP-IR-768$",
+      "photoMatchNote": "Reference is the confirmed 8-foot Classic white/chrome sofa. It establishes the current family and finish, not the proposed shorter 7-foot Petite stock/size. Do not call this exact configuration verified.",
+      "exactConfiguration": {},
+      "fitNotes": [
+        "Piano salon needs a shorter/shallow sofa and two compact chairs while preserving the northwest future 5-foot baby grand, bench and directly open dining boundary.",
+        "7-foot Petite 37 is a requested fit target, not an independently confirmed currently offered/configured or stocked SKU. If unavailable, select a live verified shorter same-palette sofa before purchase."
+      ]
+    },
+    {
+      "id": "cc-social-dining-machinto96",
+      "name": "Machinto Square Rectangular Dining Table — 96-inch Brown Oak proposal",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "dining",
+      "size": "96 L ×42 W ×30 H inches; historical RH 96-inch dimensions, current offer/size/stock pending",
+      "finish": "Brown Oak",
+      "fabric": null,
+      "color": null,
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod7411024",
+      "price": null,
+      "currentPriceOrSale": {
+        "amount": null,
+        "kind": "unquoted",
+        "verifiedAt": null,
+        "note": "No unverified discount is applied. Price excludes tax, delivery and any membership fee."
+      },
+      "stockStatus": "unverified",
+      "stockEvidence": "Exact selected configuration, delivery ZIP 20878 and total quantity are not yet verified.",
+      "checkedAt": "2026-10-12",
+      "destinationZip": "20878",
+      "purchaseReady": false,
+      "decision": "render_proposal_pending_current_quantity_stock_and_measured_fit",
+      "image": "cocoa-chrome-owned-assets/products/cc-social-machinto-table-brown-oak.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod7411024_E77289953_F_RHR?wid=1200&fmt=webp",
+      "photoMatchNote": "Official same-product page says Brown Oak and the image shows smoky oak, a thick plain rectangular top and four architectural block legs. Pictured length is not independently verified; selected 96-inch dimensions remain a current-offer check.",
+      "exactConfiguration": {},
+      "fitNotes": [
+        "Room nominal 155×183 inches. Use table north–south,8 chairs daily (3 each long side+1 each end).",
+        "10 occasionally depends on exact chair width, under-table leg openings and actual side/end circulation; not a guaranteed capacity. Do not add 4 endchairs or close north living connection.",
+        "Do not substitute Option 3 Barley twisted-leg walnut table or inherited warm-walnut table shape."
+      ]
+    },
+    {
+      "id": "cc-social-dining-emery-chair",
+      "name": "NEW Emery Fabric Dining Side Chair — White/Polished Stainless proposal",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 8,
+      "room": "dining",
+      "size": "Exact current dimensions pending; do not infer the owned SKU or pictured fabric is an available new SKU",
+      "finish": "Polished Stainless Steel",
+      "fabric": "Perennials Performance Textured Linen Weave",
+      "color": "White",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28500388?fullSkuId=10097522+BXWT&categoryId=search",
+      "price": null,
+      "currentPriceOrSale": {
+        "amount": null,
+        "kind": "unquoted",
+        "verifiedAt": null,
+        "note": "No unverified discount is applied. Price excludes tax, delivery and any membership fee."
+      },
+      "stockStatus": "unverified",
+      "stockEvidence": "Official collection/form/finish references reviewed 2026-10-12. New exact White fabric/current SKU, total quantity 8 and ZIP 20878 stock/delivery are not verified. Owned purchase history is not current availability.",
+      "checkedAt": "2026-10-12",
+      "destinationZip": "20878",
+      "purchaseReady": false,
+      "decision": "render_proposal_pending_current_quantity_stock_and_measured_fit",
+      "image": "current-furniture-assets/emery-chair.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod28500388_E717086199_TQ_CC_RHR?",
+      "photoMatchNote": "Official photo shows Natural Performance Linen Weave with polished stainless steel. Owned specification is White Perennials Performance Textured Linen Weave; this image verifies the chair/frame silhouette, not the owned fabric/color. This is a NEW purchase proposal; all existing owned Emery units remain in the sunroom.",
+      "exactConfiguration": {},
+      "fitNotes": [
+        "Keep the new formal-dining side chairs (8) and office track-arm visitor chairs (2) distinct from the owned sunroom set of four side chairs and two armchairs.",
+        "Use real metal-supported chair silhouette. Preserve product supports; the no-leg rule applies to new storage, not chairs."
+      ]
+    },
+    {
+      "id": "cc-social-office-emery-armchair",
+      "name": "NEW Emery Track Arm Fabric Dining Armchair — White/Polished Stainless proposal",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 2,
+      "room": "office",
+      "size": "Exact current dimensions pending; do not infer the owned SKU or pictured fabric is an available new SKU",
+      "finish": "Polished Stainless Steel",
+      "fabric": "Perennials Performance Textured Linen Weave",
+      "color": "White",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod24520382",
+      "price": null,
+      "currentPriceOrSale": {
+        "amount": null,
+        "kind": "unquoted",
+        "verifiedAt": null,
+        "note": "No unverified discount is applied. Price excludes tax, delivery and any membership fee."
+      },
+      "stockStatus": "unverified",
+      "stockEvidence": "Official collection/form/finish references reviewed 2026-10-12. New exact White fabric/current SKU, total quantity 2 and ZIP 20878 stock/delivery are not verified. Owned purchase history is not current availability.",
+      "checkedAt": "2026-10-12",
+      "destinationZip": "20878",
+      "purchaseReady": false,
+      "decision": "render_proposal_pending_current_quantity_stock_and_measured_fit",
+      "image": "current-furniture-assets/emery-armchair.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod7440412_E97886610_TQ_RHR?",
+      "photoMatchNote": "Photo matches the track-arm dining armchair shape, White upholstery and Polished Stainless Steel frame. RH captions the fabric as White Italian Textured Weave; owned inventory specifies White Perennials Performance Textured Linen Weave, so exact upholstery remains unverified. This is a NEW purchase proposal; all existing owned Emery units remain in the sunroom.",
+      "exactConfiguration": {},
+      "fitNotes": [
+        "Keep the new formal-dining side chairs (8) and office track-arm visitor chairs (2) distinct from the owned sunroom set of four side chairs and two armchairs.",
+        "Use real metal-supported chair silhouette. Preserve product supports; the no-leg rule applies to new storage, not chairs."
+      ]
+    },
+    {
+      "id": "cc-social-media-cloud119",
+      "name": "NEW Cloud Modular 3-Piece Sofa — Classic/White proposal",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "media",
+      "size": "119 W ×40 D ×32 H inches planning; confirm current Classic 3-piece dimensions",
+      "finish": "White matching upholstery; no metal on actual slipcovered cube",
+      "fabric": "Perennials Performance Textured Linen Weave",
+      "color": "White",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+      "price": null,
+      "currentPriceOrSale": {
+        "amount": null,
+        "kind": "unquoted",
+        "verifiedAt": null,
+        "note": "No unverified discount is applied. Price excludes tax, delivery and any membership fee."
+      },
+      "stockStatus": "unverified",
+      "stockEvidence": "Prior Oct 9 Natural Performance Linen stock belonged to a different selected SKU. It does not verify this new White Perennials Classic sofa or two 40-inch ottomans to 20878. Current exact configuration/quantity/stock required.",
+      "checkedAt": "2026-10-12",
+      "destinationZip": "20878",
+      "purchaseReady": false,
+      "decision": "render_proposal_pending_current_quantity_stock_and_measured_fit",
+      "image": "cocoa-chrome-owned-assets/products/cc-social-media-cloud119.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod6511684_E1684919_F_RHR?",
+      "photoMatchNote": "The official Cloud collection photograph is a silhouette reference. The generic sofa photo and the ottoman caption, Petite White Washed Belgian Flax, do not establish the selected Classic size or White Perennials fabric. These are new purchases, separate from the owned Luxe 45 modules.",
+      "exactConfiguration": {},
+      "fitNotes": [
+        "Nominal 133-inch seating wall minus 119-inch sofa leaves about 7 inches per side before casing. No 18-inch end tables can extend beyond that envelope.",
+        "Two movable 40-square ottomans may align at the sofaends; protect TV aisle and west door clearance. Use removable drink trays; do not construct a giant Usectional.",
+        "Owned 134-inch Cloud Luxe and one 45-inch ottoman remain upstairs only."
+      ]
+    },
+    {
+      "id": "cc-social-media-cloud-ottoman40",
+      "name": "NEW Cloud Modular End-of-Sectional Ottoman — Classic/White proposal",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 2,
+      "room": "media",
+      "size": "40-inch square planning; exact current height/variant pending",
+      "finish": "White matching upholstery; no metal on actual slipcovered cube",
+      "fabric": "Perennials Performance Textured Linen Weave",
+      "color": "White",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6371041",
+      "price": null,
+      "currentPriceOrSale": {
+        "amount": null,
+        "kind": "unquoted",
+        "verifiedAt": null,
+        "note": "No unverified discount is applied. Price excludes tax, delivery and any membership fee."
+      },
+      "stockStatus": "unverified",
+      "stockEvidence": "Prior Oct 9 Natural Performance Linen stock belonged to a different selected SKU. It does not verify this new White Perennials Classic sofa or two 40-inch ottomans to 20878. Current exact configuration/quantity/stock required.",
+      "checkedAt": "2026-10-12",
+      "destinationZip": "20878",
+      "purchaseReady": false,
+      "decision": "render_proposal_pending_current_quantity_stock_and_measured_fit",
+      "image": "cocoa-chrome-owned-assets/products/cc-social-media-cloud-ottoman40.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod6371041_E2619922_F_RHR?",
+      "photoMatchNote": "The official Cloud collection photograph is a silhouette reference. The generic sofa photo and the ottoman caption, Petite White Washed Belgian Flax, do not establish the selected Classic size or White Perennials fabric. These are new purchases, separate from the owned Luxe 45 modules.",
+      "exactConfiguration": {},
+      "fitNotes": [
+        "Nominal 133-inch seating wall minus 119-inch sofa leaves about 7 inches per side before casing. No 18-inch end tables can extend beyond that envelope.",
+        "Two movable 40-square ottomans may align at the sofaends; protect TV aisle and west door clearance. Use removable drink trays; do not construct a giant Usectional.",
+        "Owned 134-inch Cloud Luxe and one 45-inch ottoman remain upstairs only."
+      ]
+    },
+    {
+      "id": "cc-social-office-fern-coal",
+      "name": "Haworth Fern Upholstered Office Chair — Coal",
+      "brand": "Crate & Barrel /Haworth",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "office",
+      "size": "Exact current footprint/height and arm adjustment to verify before purchase",
+      "finish": "Coal seat/black mesh back, actual polished aluminum 5-starbase",
+      "fabric": "100%polyester seat; 80%polyester/20%post-consumer recycled polyester mesh back",
+      "color": "Coal /Black",
+      "url": "https://www.crateandbarrel.com/haworth-fern-upholstered-office-chair/s425920",
+      "price": 1480,
+      "currentPriceOrSale": {
+        "amount": 1480,
+        "kind": "official_dated_quote",
+        "verifiedAt": "2026-10-11",
+        "note": "No unverified discount is applied. Price excludes tax, delivery and any membership fee."
+      },
+      "stockStatus": "unverified",
+      "stockEvidence": "Official exact Coal SKU 425920 configuration/$1480 was reviewed Oct 11; exact current stock/delivery to 20878 remains unverified. Comfort/desk fit trial required.",
+      "checkedAt": "2026-10-12",
+      "destinationZip": "20878",
+      "purchaseReady": false,
+      "decision": "render_proposal_pending_current_quantity_stock_and_measured_fit",
+      "image": "cocoa-chrome-owned-assets/products/cc-social-office-fern-coal.webp",
+      "sourceImageUrl": "https://cb.scene7.com/is/image/Crate/HaworthFrnTskChrCoal3QSSS25_VND?%24web_pdp_main_carousel_thumb_med%24=",
+      "photoMatchNote": "Official exact Coal photograph shows a black ergonomic task chair with polished aluminum base. It is not the generic white ribbed office chair in draftday 1101.",
+      "exactConfiguration": {},
+      "fitNotes": [
+        "Work position is southeast facing northwest at rectangular desk. Verify adjustable arms and desk knee opening, chair pullback/caster base and user comfort."
+      ]
+    },
+    {
+      "id": "cc-social-kitchen-emery-counter",
+      "name": "NEW Emery Armless Fabric COUNTER Stool — White / Polished Stainless proposal",
+      "brand": "RH",
+      "ownership": "new",
+      "quantity": 4,
+      "room": "kitchen",
+      "size": "COUNTER height only; exact current seat height and footprint require current Dimensions/site check. Do not substitute bar height.",
+      "finish": "Polished Stainless Steel",
+      "fabric": "Perennials Performance Textured Linen Weave",
+      "color": "White",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod7600434",
+      "price": null,
+      "currentPriceOrSale": {
+        "amount": null,
+        "kind": "exact_configuration_unquoted",
+        "note": "No generic starting price or former owned purchase price is extended into a total."
+      },
+      "stockStatus": "unverified",
+      "stockEvidence": "Official current product family exists. Exact counter-height White Perennials / Polished Stainless SKU, four units and delivery to 20878 have not been independently verified. The two owned Rome stools are reserved for the penthouse.",
+      "checkedAt": "2026-10-12",
+      "destinationZip": "20878",
+      "purchaseReady": false,
+      "decision": "render_proposal_pending_current_quantity_stock_and_measured_fit",
+      "image": "cocoa-chrome-owned-assets/products/cc-social-emery-counter.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod7600434_E77884767_TQ_RHR?wid=1200&fmt=webp",
+      "photoMatchNote": "Official generic stool image visibly has brass framing. It is shape only and does not verify the selected Polished Stainless finish or exact counter height/fabric. Use the owned Emery silver chair reference as finish guidance; never copy brass into the render.",
+      "exactConfiguration": {
+        "height": "Counter",
+        "fabric": "Perennials Performance Textured Linen Weave",
+        "color": "White",
+        "finish": "Polished Stainless Steel",
+        "sku": null
+      },
+      "fitNotes": [
+        "Measure finished island height, knee space and usable length. Keep four real stools at a comfortable spacing; do not infer counter height from overall height.",
+        "Historical curved-back collection documentation is a related family, not proof of this exact current armless stool. Current manufacturer Dimensions govern."
+      ]
+    }
+  ],
+  "roomNotes": {
+    "entry": {
+      "roomId": "entry",
+      "floor": 1,
+      "title": "Entrance gallery",
+      "ownedInventoryIds": [],
+      "newItemIds": [],
+      "customBuildoutIds": [
+        "cc-entry-credenza"
+      ],
+      "placementAndRenderPrompt": "Retain the target camera and original openings of the double-height entrance. Keep the space open and the clear gallery doors light painted. Apply smooth pearl/putty greige walls, neutral pale matte oak flooring and smoky brown-oak storage. At the existing small storage location only, use one compact shallow curved-front credenza with two plain vertical-grain doors, short vertical polished-stainless pulls and a continuous curved plinth. Use the same accepted multi-drop cascade fixture in both cameras: CLEAR glass outer globes with visible inner bulbs, polished-silver fittings and the identical suspension layout. Do not substitute opaque opal globes in the reverse view. The small “Welcome Home” over the arch must be FLAT PAINTED lettering; the smaller “See you next time.” above the exit uses dimensional letters. Keep one refined blue/white artwork and a small plant. Do not add furniture in circulation, new ceiling trays, dark doors or a stair runner. The single credenza is at the under-stair niche in E1. Do not add a second credenza beside the front door in E2.",
+      "shellLocks": [
+        "Keep the original arched single front door, its high circular window, the double-height arch, upper guard and actual side/gallery door positions.",
+        "Do not enlarge the entry or add a console to the middle of circulation. Preserve both source-camera sightlines."
+      ],
+      "fixedFinishRefs": [
+        "CC-W1",
+        "CC-W2",
+        "CC-O1",
+        "CC-J1",
+        "CC-M1"
+      ],
+      "windowTreatment": "Keep high round and stair-height glazing bare by default. Clear internal gallery doors remain clear. If the front door has exposed low glazing, assess actual street sightlines and use a purpose-made removable or fitted privacy solution only after measuring; do not frost all doors.",
+      "lighting": {
+        "colorTemperature": "2700K decorative/lounge; 3000K useful task/general where stated. Physical fixture/color/dimmer approval required.",
+        "day": [
+          "The same accepted clear-glass multi-drop chandelier, polished-silver fittings and visible inner bulbs are used in both views, with identical suspension layout. Confirm ceiling support, headroom, bulb/dimmer compatibility and installation access before selecting an actual retail fixture.",
+          "Separate chandelier dimming from existing recessed/general light. Provide practical low evening arrival light; do not use a glowing ceiling perimeter."
+        ],
+        "night": "Use the same installed fixture inventory and room camera as the paired daytime view. Dim actual general/decorative/task groups naturally. Apply the room’s full privacy or blackout covering state; high bare glass and interior transoms remain as specified.",
+        "controlGroups": "Provide the existing recessed-light circuit/group, one separately controllable decorative or task group where a fixture is actually specified, and a separate cabinet/display-light group only where needed. Avoid unnecessary ceiling work. A full fixture and switch schedule is required before rough-in."
+      },
+      "sourceCameras": [
+        {
+          "code": "E1",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-day.png",
+          "sourceJobId": "006a3f39-145d-4089-9711-3e5d503db5aa",
+          "evidenceType": "Photo-based architectural revision",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        },
+        {
+          "code": "E2",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e2-day.png",
+          "sourceJobId": "3bab801e-257b-4a4f-8342-28edbb0b1713",
+          "evidenceType": "Derived angle · plan and photo interpretation",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        }
+      ],
+      "referenceImagePolicy": "Image 1 is the target camera and verified architecture only. An original model-home photo, when supplied, is structural ground truth. Owned product photos govern owned forms; new product photos govern their identity/finish, never their background camera. A different-finish generic hero is shape-only and cannot override the selected White/Polished Silver configuration. Do not use a second whole-room style image to replace the target camera.",
+      "qaChecks": [
+        "Compare exact openings, mullions, doors, camera and adjacent-room relationships with the verified shell and original photographs.",
+        "Check every owned type/unit against the allocation plan; no extra copies or moves to another room.",
+        "Check new product form, finish, count and realistic scale. Keep clear paths; do not relabel generic seats as exact products.",
+        "Check the distinct Cocoa & Chrome palette: smoky Brown Oak, polished silver, white upholstery, warm pearl/putty and neutral oak, with blue/white art and smaller removable butter-yellow accents.",
+        "Night retains the same fixtures/furniture; complete required privacy/blackout extends to actual sills, with specified high bare glass left clear. No new night lamps/coves or exposed lower glass strips."
+      ]
+    },
+    "office": {
+      "roomId": "office",
+      "floor": 1,
+      "title": "Home office",
+      "ownedInventoryIds": [],
+      "newItemIds": [
+        "cc-social-office-emery-armchair",
+        "cc-social-office-fern-coal"
+      ],
+      "customBuildoutIds": [
+        "cc-office-pedestal-desk",
+        "cc-office-north-library",
+        "cc-office-printer-cabinet"
+      ],
+      "placementAndRenderPrompt": "Preserve both main banks of TWO real sash units each in their actual 2 × 2 pane pattern, the small circular side window, flat ceiling, original doors and target camera. The entire north wall is a new smoky brown-oak TV/library built-out with plain slab storage, a file stack, discreet polished-stainless grips, limited shelf-edge metal and a continuous plinth. TV occupies the center with an externally visible soundbar. Use ONE plain rectangular cabinetmaker desk, nominal 84 × 32 inches, with a calm thick top and solid end pedestals; it is not Alora and has no fluted apron or quarter-circle shape. ONE NEW Haworth Fern Coal task chair with its actual black mesh/Coal seat and polished-aluminum five-star base sits southeast facing northwest. TWO NEW Emery TRACK-ARM guest chairs in White Perennials and Polished Stainless sit on the visitor side. A small printer cabinet and blue/white artwork go LEFT of the right-offset gallery doors. Add one tiny butter-yellow object, not broad yellow shelving. Keep no big south console. The three retail seats must replace draft 1101’s generic seats before it is labelled with these product names.",
+      "shellLocks": [
+        "Both principal window banks contain TWO real sash units each, in the existing 2 × 2 pane pattern. Preserve the small circular side window. Do not recreate the old three-unit bank.",
+        "Full north library wall stays in the original room. Gallery door pair is offset right; artwork and printer station go LEFT of the doors. Desk/chair in southeast working position faces northwest. Flat ceiling and original crown stay."
+      ],
+      "fixedFinishRefs": [
+        "CC-W1",
+        "CC-W2",
+        "CC-O1",
+        "CC-J1",
+        "CC-M1",
+        "CC-T1"
+      ],
+      "windowTreatment": "Warm-white ceiling-height sheers on the two real main window banks plus independent opaque privacy/glare shades. Close every upper and lower sash to the sill at night; main upper rows are not separate exempt high transoms. The small circular portico-side window stays bare unless measured privacy/glare warrants a shaped treatment.",
+      "lighting": {
+        "colorTemperature": "2700K decorative/lounge; 3000K useful task/general where stated. Physical fixture/color/dimmer approval required.",
+        "day": [
+          "3000 K working light from existing recessed fixtures and restrained library shelf channels; 2700 K optional lounge scene. A desk lamp is included only if the selected day scene actually specifies it.",
+          "TV/library light, working/general light and optional desk task light have independent dimming. Avoid light reflected in the TV or working screen."
+        ],
+        "night": "Use the same installed fixture inventory and room camera as the paired daytime view. Dim actual general/decorative/task groups naturally. Apply the room’s full privacy or blackout covering state; high bare glass and interior transoms remain as specified.",
+        "controlGroups": "Provide the existing recessed-light circuit/group, one separately controllable decorative or task group where a fixture is actually specified, and a separate cabinet/display-light group only where needed. Avoid unnecessary ceiling work. A full fixture and switch schedule is required before rough-in."
+      },
+      "sourceCameras": [
+        {
+          "code": "O1",
+          "file": "assets/render-candidates/collected-mineral/r04/day-600.png",
+          "sourceJobId": "9bb4f9f4-3672-40f0-bc75-f109d5743751",
+          "evidenceType": "Photo-based architectural revision",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        },
+        {
+          "code": "O2",
+          "file": "assets/render-candidates/collected-mineral/r04/day-500.png",
+          "sourceJobId": "0a756bcb-f3ee-4589-8bd9-4c71d876f188",
+          "evidenceType": "Derived angle · plan and photo interpretation",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        }
+      ],
+      "referenceImagePolicy": "Image 1 is the target camera and verified architecture only. An original model-home photo, when supplied, is structural ground truth. Owned product photos govern owned forms; new product photos govern their identity/finish, never their background camera. A different-finish generic hero is shape-only and cannot override the selected White/Polished Silver configuration. Do not use a second whole-room style image to replace the target camera.",
+      "qaChecks": [
+        "Compare exact openings, mullions, doors, camera and adjacent-room relationships with the verified shell and original photographs.",
+        "Check every owned type/unit against the allocation plan; no extra copies or moves to another room.",
+        "Check new product form, finish, count and realistic scale. Keep clear paths; do not relabel generic seats as exact products.",
+        "Check the distinct Cocoa & Chrome palette: smoky Brown Oak, polished silver, white upholstery, warm pearl/putty and neutral oak, with blue/white art and smaller removable butter-yellow accents.",
+        "Night retains the same fixtures/furniture; complete required privacy/blackout extends to actual sills, with specified high bare glass left clear. No new night lamps/coves or exposed lower glass strips."
+      ],
+      "pendingImageCorrection": "Draftday 1101 has correct plain custom desk but generic white task chair/curved metal-legguest chairs. If named Fern+Emery seats are selected, make a local furniture-only correction. Until then, do not label the draft seats as those exact products.",
+      "rugAllowance": {
+        "id": "cc-social-office-rug-allowance",
+        "name": "Neutral area rug and compatible nonslip pad",
+        "room": "office",
+        "ownership": "new_unselected",
+        "quantity": 1,
+        "size": "Field sizing pending the final taped furniture plan",
+        "finish": "Ivory / pearl neutral weave; no blue or yellow patterned field",
+        "scope": "One new neutral low-pile or flatwoven area rug beneath the working desk and guest seats, consistent with the accepted render. Select a hardwearing ivory/pearl weave that allows the task chair to roll, with a stable compatible nonslip pad. Field-size around the desk, door swings and window stacks; avoid a thick looped or shag rug. Match an actual currently stocked product before purchase.",
+        "acquisition": "Stocked retail product match pending",
+        "stockStatus": "unselected_no_stock_claim",
+        "purchaseReady": false,
+        "url": null,
+        "image": null,
+        "price": null
+      }
+    },
+    "media": {
+      "roomId": "media",
+      "floor": 1,
+      "title": "Media room",
+      "ownedInventoryIds": [],
+      "newItemIds": [
+        "cc-social-media-cloud119",
+        "cc-social-media-cloud-ottoman40"
+      ],
+      "customBuildoutIds": [
+        "cc-media-console",
+        "cc-media-display"
+      ],
+      "placementAndRenderPrompt": "Preserve the real small centered paired 2 × 2 window, solid sofa wall, clear WEST gallery doors toward the TV-wall corner and exact target camera. Use ONE NEW straight Cloud CLASSIC 119-inch three-piece sofa in WHITE Perennials Performance Textured Linen Weave and TWO NEW matching Classic 40-inch square ottomans. These are new smaller pieces, not the owned 134-inch Luxe sofa or owned 45-inch penthouse ottoman. A 119-inch sofa on the nominal 133-inch wall leaves only about 7 inches each side: do not add 18-inch end tables outside that envelope or draw a giant fixed U sectional. A removable drink tray on an ottoman suffices. Make the 83-inch TV the focal point on a quiet pearl-gray background with a discreet warm LED halo. Provide ONE new low 96–102-inch smoky brown-oak AV console, continuous plinth, plain end doors, ventilated dark woven center and fine stainless edge grip. Show an external black soundbar, two compatible active rear speakers and one subwoofer. Ceiling grilles, if present, are future inactive prewire rather than passive speakers wired to the soundbar. Limited collectible display niches go RIGHT of the west doors when seen from inside. Add restrained ink-blue textiles, one tiny butter-yellow accent, neutral oak and a large quiet rug. No busy wood-slat wall or new ceiling cove.",
+      "shellLocks": [
+        "Keep the one real centered paired 2 × 2 window; sofa-side wall is solid because the facade feature there is false. Preserve clear WEST gallery doors near the TV-wall corner.",
+        "Do not enlarge the nominal 133-inch seating wall, add a window behind the sofa, relocate the doors or cut into the shared office wall. Display sits to the right of doors when seen from inside the media room."
+      ],
+      "fixedFinishRefs": [
+        "CC-W1",
+        "CC-W2",
+        "CC-O1",
+        "CC-J1",
+        "CC-S1",
+        "CC-M1",
+        "CC-T1"
+      ],
+      "windowTreatment": "Warm-white sheers plus full blackout on the real paired window, with side/head/sill light control. Clear gallery door leaves receive removable room-side opaque movie covers when viewing; retain clear glass in daytime. Close both covers and the window blackout at night without inventing permanently frosted doors.",
+      "lighting": {
+        "colorTemperature": "2700K decorative/lounge; 3000K useful task/general where stated. Physical fixture/color/dimmer approval required.",
+        "day": [
+          "Existing recessed light, collectible display channels and quiet TV bias light are separate dimmable groups. 3000 K cleaning/general scene and 2700 K low cinema lighting; no new tray, perimeter cove or lighting added only in the night image.",
+          "Rear active speakers need their own accessible power and correct mounting/support. Optional passive ceiling prewire is a separate future or alternative AV scope, not a soundbar output."
+        ],
+        "night": "Use the same installed fixture inventory and room camera as the paired daytime view. Dim actual general/decorative/task groups naturally. Apply the room’s full privacy or blackout covering state; high bare glass and interior transoms remain as specified.",
+        "controlGroups": "Provide the existing recessed-light circuit/group, one separately controllable decorative or task group where a fixture is actually specified, and a separate cabinet/display-light group only where needed. Avoid unnecessary ceiling work. A full fixture and switch schedule is required before rough-in."
+      },
+      "sourceCameras": [
+        {
+          "code": "M1",
+          "file": "assets/render-candidates/collected-mineral/r04/day-609.png",
+          "sourceJobId": "1bd7462b-0995-4dbc-8660-61d08d99720a",
+          "evidenceType": "Photo-based architectural revision",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        },
+        {
+          "code": "M2",
+          "file": "assets/render-candidates/collected-mineral/r04/day-501.png",
+          "sourceJobId": "8210bd3c-080e-493a-9ba2-6c51e0fee5eb",
+          "evidenceType": "Derived angle · plan and photo interpretation",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        }
+      ],
+      "referenceImagePolicy": "Image 1 is the target camera and verified architecture only. An original model-home photo, when supplied, is structural ground truth. Owned product photos govern owned forms; new product photos govern their identity/finish, never their background camera. A different-finish generic hero is shape-only and cannot override the selected White/Polished Silver configuration. Do not use a second whole-room style image to replace the target camera.",
+      "qaChecks": [
+        "Compare exact openings, mullions, doors, camera and adjacent-room relationships with the verified shell and original photographs.",
+        "Check every owned type/unit against the allocation plan; no extra copies or moves to another room.",
+        "Check new product form, finish, count and realistic scale. Keep clear paths; do not relabel generic seats as exact products.",
+        "Check the distinct Cocoa & Chrome palette: smoky Brown Oak, polished silver, white upholstery, warm pearl/putty and neutral oak, with blue/white art and smaller removable butter-yellow accents.",
+        "Night retains the same fixtures/furniture; complete required privacy/blackout extends to actual sills, with specified high bare glass left clear. No new night lamps/coves or exposed lower glass strips."
+      ],
+      "rugAllowance": {
+        "id": "cc-social-media-rug-allowance",
+        "name": "Neutral area rug and compatible nonslip pad",
+        "room": "media",
+        "ownership": "new_unselected",
+        "quantity": 1,
+        "size": "Field sizing pending the final taped furniture plan",
+        "finish": "Ivory / pearl neutral weave; no blue or yellow patterned field",
+        "scope": "One new neutral ivory/pearl low-pile area rug linking the Cloud seating and both movable ottomans, as depicted. Select a durable soft weave and compatible nonslip pad, with edges outside the main door route and no lifted corner beneath moving ottomans. Field-size after taping the 119-inch seating plan. Match an actual stocked product before purchase; do not call this owned or claim a specific unselected brand.",
+        "acquisition": "Stocked retail product match pending",
+        "stockStatus": "unselected_no_stock_claim",
+        "purchaseReady": false,
+        "url": null,
+        "image": null,
+        "price": null
+      }
+    },
+    "gym": {
+      "roomId": "gym",
+      "floor": 1,
+      "title": "Gym · empty shell",
+      "ownedInventoryIds": [],
+      "newItemIds": [],
+      "customBuildoutIds": [],
+      "placementAndRenderPrompt": "Retain the correct northwest closet, separate bath access, gallery door, original windows and target camera. This is an EMPTY finished gym: no equipment, sofa, table, cabinet, plant or staging clutter. Use smooth pearl/putty washable walls, a suitable large mirror, charcoal rubber flooring and quiet polished-silver/black lighting. The exact readable wall quote is “Surpass your limits. Right here, right now.” Keep lettering on a blank wall, not glass, and do not introduce an anime character graphic. Do not erase doors to enlarge the mirror.",
+      "shellLocks": [
+        "Keep the northwest closet with its own usable door, separate bathroom access, gallery door and all actual source windows. Do not erase the closet to widen the mirror."
+      ],
+      "fixedFinishRefs": [
+        "CC-W1",
+        "CC-W2",
+        "CC-G1",
+        "CC-M1"
+      ],
+      "windowTreatment": "Use washable privacy/glare roller layers on exposed low exterior glazing; optional light sheers only where clear of exercise use and closet/door paths. No sleeping blackout requirement. Night privacy covers the actual lower glass to the sill.",
+      "lighting": {
+        "colorTemperature": "2700K decorative/lounge; 3000K useful task/general where stated. Physical fixture/color/dimmer approval required.",
+        "day": [
+          "3000 K dimmable practical general light using the real ceiling layout. Quiet polished-silver or black trim where a new fixture is selected. No showroom spotlights, neon blue lines or ceiling cove."
+        ],
+        "night": "Use the same installed fixture inventory and room camera as the paired daytime view. Dim actual general/decorative/task groups naturally. Apply the room’s full privacy or blackout covering state; high bare glass and interior transoms remain as specified.",
+        "controlGroups": "Provide the existing recessed-light circuit/group, one separately controllable decorative or task group where a fixture is actually specified, and a separate cabinet/display-light group only where needed. Avoid unnecessary ceiling work. A full fixture and switch schedule is required before rough-in."
+      },
+      "sourceCameras": [
+        {
+          "code": "G1",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/gym-g1-day-30504.png",
+          "sourceJobId": "fece6058-938d-4fbd-86b8-30b110148592",
+          "evidenceType": "Photo-based architectural revision",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        },
+        {
+          "code": "G2",
+          "file": "assets/render-candidates/mineral-walnut-architecture/r02/gym-g2-day-31504.png",
+          "sourceJobId": "b4e7ed78-8706-46bb-b556-4f27a94d5279",
+          "evidenceType": "Derived angle · plan and photo interpretation",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        }
+      ],
+      "referenceImagePolicy": "Image 1 is the target camera and verified architecture only. An original model-home photo, when supplied, is structural ground truth. Owned product photos govern owned forms; new product photos govern their identity/finish, never their background camera. A different-finish generic hero is shape-only and cannot override the selected White/Polished Silver configuration. Do not use a second whole-room style image to replace the target camera.",
+      "qaChecks": [
+        "Compare exact openings, mullions, doors, camera and adjacent-room relationships with the verified shell and original photographs.",
+        "Check every owned type/unit against the allocation plan; no extra copies or moves to another room.",
+        "Check new product form, finish, count and realistic scale. Keep clear paths; do not relabel generic seats as exact products.",
+        "Check the distinct Cocoa & Chrome palette: smoky Brown Oak, polished silver, white upholstery, warm pearl/putty and neutral oak, with blue/white art and smaller removable butter-yellow accents.",
+        "Night retains the same fixtures/furniture; complete required privacy/blackout extends to actual sills, with specified high bare glass left clear. No new night lamps/coves or exposed lower glass strips."
+      ]
+    },
+    "bath": {
+      "roomId": "bath",
+      "floor": 1,
+      "title": "Bath #3",
+      "ownedInventoryIds": [],
+      "newItemIds": [],
+      "customBuildoutIds": [],
+      "placementAndRenderPrompt": "Preserve the latest plan-led toilet, vanity, shower, door and camera. There is no new loose furniture. Give the compact moisture-suitable brown-oak vanity two equal thin-frame doors, petite polished-stainless oval pulls, a sealed continuous base and a quiet pale counter. Use a simple silver mirror and proper quiet pearl-gray/Carrara-like porcelain wet walls and floor. Do not depict wood flooring in this wet room, giant storage, invented exterior glazing or a decorative dry-room plaster shower.",
+      "shellLocks": [
+        "Preserve the latest plan-led toilet, vanity, shower and door positions. Do not invent exterior glazing or move services based on an older concept."
+      ],
+      "fixedFinishRefs": [
+        "CC-W1",
+        "CC-W2",
+        "CC-J1",
+        "CC-S1",
+        "CC-M1"
+      ],
+      "windowTreatment": "No invented window or curtain in this plan-led view. If a real exterior opening is found on the measured survey, specify a moisture-resistant opaque privacy shade clear of spray and fixtures; otherwise no window treatment.",
+      "lighting": {
+        "colorTemperature": "2700K decorative/lounge; 3000K useful task/general where stated. Physical fixture/color/dimmer approval required.",
+        "day": [
+          "3000 K vanity face lighting plus existing general light; separately controlled where practical. Choose fixtures rated for their actual bathroom location. Keep night brightness soft but useful, without amber glowing slabs."
+        ],
+        "night": "Use the same installed fixture inventory and room camera as the paired daytime view. Dim actual general/decorative/task groups naturally. Apply the room’s full privacy or blackout covering state; high bare glass and interior transoms remain as specified.",
+        "controlGroups": "Provide the existing recessed-light circuit/group, one separately controllable decorative or task group where a fixture is actually specified, and a separate cabinet/display-light group only where needed. Avoid unnecessary ceiling work. A full fixture and switch schedule is required before rough-in."
+      },
+      "sourceCameras": [
+        {
+          "code": "B1",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-day.png",
+          "sourceJobId": "1289dd19-1fb8-4d57-b195-ee5fe214eec7",
+          "evidenceType": "Derived angle · plan and photo interpretation",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        },
+        {
+          "code": "B2",
+          "file": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b2-day.png",
+          "sourceJobId": "d85cf98f-7cae-4ce8-a9ec-ea74817cab5f",
+          "evidenceType": "Derived angle · plan and photo interpretation",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        }
+      ],
+      "referenceImagePolicy": "Image 1 is the target camera and verified architecture only. An original model-home photo, when supplied, is structural ground truth. Owned product photos govern owned forms; new product photos govern their identity/finish, never their background camera. A different-finish generic hero is shape-only and cannot override the selected White/Polished Silver configuration. Do not use a second whole-room style image to replace the target camera.",
+      "qaChecks": [
+        "Compare exact openings, mullions, doors, camera and adjacent-room relationships with the verified shell and original photographs.",
+        "Check every owned type/unit against the allocation plan; no extra copies or moves to another room.",
+        "Check new product form, finish, count and realistic scale. Keep clear paths; do not relabel generic seats as exact products.",
+        "Check the distinct Cocoa & Chrome palette: smoky Brown Oak, polished silver, white upholstery, warm pearl/putty and neutral oak, with blue/white art and smaller removable butter-yellow accents.",
+        "Night retains the same fixtures/furniture; complete required privacy/blackout extends to actual sills, with specified high bare glass left clear. No new night lamps/coves or exposed lower glass strips."
+      ]
+    },
+    "great": {
+      "roomId": "great",
+      "floor": 2,
+      "title": "Great room",
+      "ownedInventoryIds": [],
+      "newItemIds": [
+        "cc-social-great-italia-track96",
+        "cc-social-great-imogene-white",
+        "cc-social-great-nicholas60"
+      ],
+      "customBuildoutIds": [
+        "cc-great-sideboards",
+        "cc-great-supporting-side-tables",
+        "cc-great-supporting-table-lamp"
+      ],
+      "placementAndRenderPrompt": "Retain the target camera, actual two high horizontal windows and mullions, existing linear fireplace, TV above it, terrace glazing and flat ceiling/crown. Use ONE current RH Italia TRACK ARM 2-CUSHION 8-foot CLASSIC sofa: nominal 96 × 41 inches, WHITE Perennials Performance Textured Linen Weave, Standard fill and POLISHED CHROME open metal base. Use TWO NEW CB 2 Imogene White chairs, 26 × 31 inches, with their actual MATTE BLACK hammered steel arms/supports. Do not recolor these supports silver. Center ONE RH Nicholas Carrara/Polished Stainless rectangular coffee table, 60 × 24 × 14 inches, at a useful knee gap. No Cloud sofa and no walnut storage coffee table. TWO new low smoky BROWN OAK door-front sideboards with small vertical stainless pulls and continuous plinths flank the fireplace. Above them place distinct sibling blue/white artworks. Keep a quiet pearl-gray fireplace face, warm putty/pearl paint, neutral matte oak, textured ivory/stone rug, two small blue cushions, ONE small butter-yellow pillow and a plant. The palette should feel polished and tailored, never like Mineral & Walnut with a chrome object added.",
+      "shellLocks": [
+        "Keep both high horizontal windows flanking the fireplace, actual mullions, the linear fireplace, TV above it and real terrace glazing. Preserve the original flat ceiling/crown.",
+        "Use the latest verified camera only for architecture. Replace its Mineral/Walnut furniture and finishes; no Cloud sofa in the great room."
+      ],
+      "fixedFinishRefs": [
+        "CC-W1",
+        "CC-W2",
+        "CC-O1",
+        "CC-J1",
+        "CC-S1",
+        "CC-M1",
+        "CC-T1"
+      ],
+      "windowTreatment": "Warm-white sheers plus concealed opaque privacy/glare layer at full-height terrace glass. Close lower terrace glazing to the sill for night privacy. Keep the separate high horizontal windows and actual mullions bare by default; evaluate unusual elevated external sightlines on site rather than covering them automatically.",
+      "lighting": {
+        "colorTemperature": "2700K decorative/lounge; 3000K useful task/general where stated. Physical fixture/color/dimmer approval required.",
+        "day": [
+          "Existing recessed/general lighting, selected silver/opal table/floor lighting and any actual artwork lighting have independent dimming. Use a 2700 K conversation scene; task/accent may be 3000 K after testing.",
+          "Only include picture-light bars if they are intentionally present in the accepted day scene and wiring schedule. Do not add them in the night render merely to brighten the paintings."
+        ],
+        "night": "Use the same installed fixture inventory and room camera as the paired daytime view. Dim actual general/decorative/task groups naturally. Apply the room’s full privacy or blackout covering state; high bare glass and interior transoms remain as specified.",
+        "controlGroups": "Provide the existing recessed-light circuit/group, one separately controllable decorative or task group where a fixture is actually specified, and a separate cabinet/display-light group only where needed. Avoid unnecessary ceiling work. A full fixture and switch schedule is required before rough-in."
+      },
+      "sourceCameras": [
+        {
+          "code": "GR1",
+          "file": "assets/render-candidates/collected-mineral/r04/day-602.png",
+          "sourceJobId": "cfa35ce5-b0de-4337-92a5-e6582364be42",
+          "evidenceType": "Photo-based architectural revision",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        },
+        {
+          "code": "GR2",
+          "file": "assets/render-candidates/collected-mineral/r04/day-620.png",
+          "sourceJobId": "108d80d0-f1f4-4853-b2d9-2f752862d930",
+          "evidenceType": "Derived angle · plan and photo interpretation",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        }
+      ],
+      "referenceImagePolicy": "Image 1 is the target camera and verified architecture only. An original model-home photo, when supplied, is structural ground truth. Owned product photos govern owned forms; new product photos govern their identity/finish, never their background camera. A different-finish generic hero is shape-only and cannot override the selected White/Polished Silver configuration. Do not use a second whole-room style image to replace the target camera.",
+      "qaChecks": [
+        "Compare exact openings, mullions, doors, camera and adjacent-room relationships with the verified shell and original photographs.",
+        "Check every owned type/unit against the allocation plan; no extra copies or moves to another room.",
+        "Check new product form, finish, count and realistic scale. Keep clear paths; do not relabel generic seats as exact products.",
+        "Check the distinct Cocoa & Chrome palette: smoky Brown Oak, polished silver, white upholstery, warm pearl/putty and neutral oak, with blue/white art and smaller removable butter-yellow accents.",
+        "Night retains the same fixtures/furniture; complete required privacy/blackout extends to actual sills, with specified high bare glass left clear. No new night lamps/coves or exposed lower glass strips."
+      ],
+      "supportingAllowances": "Two square brown-oak/silver tables and one pearl-stone/silver table lamp are NEW supporting concepts, now explicitly scheduled. They are not owned furniture or identified stocked retail products.",
+      "rugAllowance": {
+        "id": "cc-social-great-rug-allowance",
+        "name": "Neutral area rug and compatible nonslip pad",
+        "room": "great",
+        "ownership": "new_unselected",
+        "quantity": 1,
+        "size": "Field sizing pending the final taped furniture plan",
+        "finish": "Ivory / pearl neutral weave; no blue or yellow patterned field",
+        "scope": "One new large ivory/pearl textured low-pile area rug linking the tailored sofa and two lounge chairs, as depicted. Keep visible neutral-oak floor borders and clear the terrace-door route. Field-size from the final furniture footprint and use a compatible nonslip pad. Match an actual stocked neutral product before purchase; the illustrated weave is a styling proposal, not a confirmed retail SKU.",
+        "acquisition": "Stocked retail product match pending",
+        "stockStatus": "unselected_no_stock_claim",
+        "purchaseReady": false,
+        "url": null,
+        "image": null,
+        "price": null
+      },
+      "balconyAllowance": {
+        "id": "cc-social-floor2-balcony-bistro-allowance",
+        "name": "Small second-floor balcony bistro set",
+        "ownership": "new_unselected",
+        "room": "great",
+        "location": "Floor 2 balcony visible through great-room glazing; NOT the Floor 4 roof terrace",
+        "items": [
+          {
+            "name": "Compact outdoor teak bistro table",
+            "quantity": 1
+          },
+          {
+            "name": "Matching outdoor teak bistro chair",
+            "quantity": 2
+          }
+        ],
+        "finish": "Durable exterior-rated teak, a limited outdoor wood exception; neutral outdoor cushions only if actually selected",
+        "scope": "Retain the small balcony table/chair pair seen through the great-room and stair sightlines as a separate new supporting outdoor concept. Confirm the actual balcony footprint, drainage, guard clearance, door swing, circulation and wind exposure before selecting its size. Use a real exterior-rated table and matching two-chair set with manufacturer care instructions; an actual currently stocked retail match, price and delivery to ZIP 20878 are pending. Do not borrow owned indoor chairs or any of the separate Black Malibu roof-terrace set. No extra table/chairs or interior drapes are added to the balcony.",
+        "stockStatus": "unselected_no_stock_claim",
+        "purchaseReady": false,
+        "url": null,
+        "image": null,
+        "price": null
+      }
+    },
+    "kitchen": {
+      "roomId": "kitchen",
+      "floor": 2,
+      "title": "Kitchen",
+      "ownedInventoryIds": [],
+      "newItemIds": [
+        "cc-social-kitchen-emery-counter"
+      ],
+      "customBuildoutIds": [],
+      "placementAndRenderPrompt": "Preserve the target camera, original L kitchen, cooktop/hood, real counter window, island sink, refrigerator, right oven/microwave bank and direct sunroom opening. Reface LOWERS/PANTRY and island in smoky BROWN OAK; keep PEARL-WHITE uppers and fine-gray-vein pale practical counters. Short polished-stainless pulls and a limited recessed silver island toe detail replace dresser-wide metal bands. Show FOUR NEW Emery ARMLESS COUNTER-height stools in White Perennials/Polished Stainless; the generic brass stool hero is SHAPE ONLY and cannot override the selected silver finish. These are not the two owned Rome penthouse stools. Center two restrained polished-silver/opal pendants over the actual island. One blue ceramic and a few small yellow flowers are removable accents. Any sunroom glimpse must match approved day 1003 exactly: ONE Maslow Espresso Walnut/Polished Aluminum SPIDER table, FOUR owned Emery side chairs plus TWO owned track-arm end chairs, no added rug, and the same TWO-ROD SILVER RECTANGULAR OPAL LINEAR fixture. Never replace it with a black six-globe light or a pedestal table.",
+      "shellLocks": [
+        "Keep the original L plan, cooktop/hood, right oven/microwave bank, refrigerator, real counter window, island sink and direct sunroom opening. Do not move plumbing or turn the island into a different shape."
+      ],
+      "fixedFinishRefs": [
+        "CC-W1",
+        "CC-W2",
+        "CC-O1",
+        "CC-J1",
+        "CC-S1",
+        "CC-M1"
+      ],
+      "windowTreatment": "A wipeable moisture-suitable opaque privacy/glare roller on the real counter window, clear of sink/heat. No floor drapes across splash or cooktop zones. Close the entire glass to its actual bottom sill at night; don’t shift the sill or leave a dark lower strip exposed. Any visible neighboring sunroom lower shades match that room’s night state.",
+      "lighting": {
+        "colorTemperature": "2700K decorative/lounge; 3000K useful task/general where stated. Physical fixture/color/dimmer approval required.",
+        "day": [
+          "3000 K undercabinet task lighting on a separate driver/dimmer group; dimmable silver/opal island pendants and existing recessed general light separately controlled. Drivers remain serviceable.",
+          "At night show useful low task light without saturated amber or a new ceiling cove. Adjacent sunroom fixture and its owned dining set must match in kitchen glimpses."
+        ],
+        "night": "Use the same installed fixture inventory and room camera as the paired daytime view. Dim actual general/decorative/task groups naturally. Apply the room’s full privacy or blackout covering state; high bare glass and interior transoms remain as specified.",
+        "controlGroups": "Provide the existing recessed-light circuit/group, one separately controllable decorative or task group where a fixture is actually specified, and a separate cabinet/display-light group only where needed. Avoid unnecessary ceiling work. A full fixture and switch schedule is required before rough-in."
+      },
+      "sourceCameras": [
+        {
+          "code": "K1",
+          "file": "assets/render-candidates/collected-mineral/r04/day-615.png",
+          "sourceJobId": "9cce0509-e3d2-41cc-ac06-c22404999443",
+          "evidenceType": "Photo-based architectural revision",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        },
+        {
+          "code": "K2",
+          "file": "assets/render-candidates/collected-mineral/r04/day-621.png",
+          "sourceJobId": "0203ad42-2a87-482a-bda3-893556d2b2b2",
+          "evidenceType": "Photo-based architectural revision",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        }
+      ],
+      "referenceImagePolicy": "Image 1 is the target camera and verified architecture only. An original model-home photo, when supplied, is structural ground truth. Owned product photos govern owned forms; new product photos govern their identity/finish, never their background camera. A different-finish generic hero is shape-only and cannot override the selected White/Polished Silver configuration. Do not use a second whole-room style image to replace the target camera.",
+      "qaChecks": [
+        "Compare exact openings, mullions, doors, camera and adjacent-room relationships with the verified shell and original photographs.",
+        "Check every owned type/unit against the allocation plan; no extra copies or moves to another room.",
+        "Check new product form, finish, count and realistic scale. Keep clear paths; do not relabel generic seats as exact products.",
+        "Check the distinct Cocoa & Chrome palette: smoky Brown Oak, polished silver, white upholstery, warm pearl/putty and neutral oak, with blue/white art and smaller removable butter-yellow accents.",
+        "Night retains the same fixtures/furniture; complete required privacy/blackout extends to actual sills, with specified high bare glass left clear. No new night lamps/coves or exposed lower glass strips."
+      ]
+    },
+    "dining": {
+      "roomId": "dining",
+      "floor": 2,
+      "title": "Formal dining",
+      "ownedInventoryIds": [
+        "cabrera-console",
+        "round-mirror",
+        "vessel-short",
+        "vessel-tall",
+        "spiridon-chandelier"
+      ],
+      "newItemIds": [
+        "cc-social-dining-machinto96",
+        "cc-social-dining-emery-chair"
+      ],
+      "customBuildoutIds": [
+        "cc-social-dining-highwindow-ledge"
+      ],
+      "placementAndRenderPrompt": "Keep the north edge fully open directly into living: no portal, header, pier or threshold. Retain two east tall rectangular window groups, the separate small HIGH east arch, two south tall arched windows, the real butler passage and target camera. Place ONE proposed RH Machinto Brown Oak 96 × 42 rectangular dining table north–south, with a plain thick top and FOUR architectural block legs. Use EIGHT NEW White Perennials/Polished Stainless Emery SIDE chairs: THREE per long side and ONE per end. Ten occasional seats remain conditional on measured chair widths, table leg openings and circulation; render eight. On WEST keep ONE OWNED 72-inch Cabrera Charcoal Waxed Concrete console, the OWNED 42-inch round Polished Stainless mirror and TWO owned white vessels, Short and Tall. Center the ONE OWNED 48-inch Spiridon Matte Natural Iron/crystal chandelier over the table. Do not replace these with new oak sideboards or a generic opal pendant. Quiet blue/white art may occupy remaining real dry wall, with a small yellow floral note. Keep tall-window sheers and complete opaque privacy layers; the separate small high arch stays completely bare.",
+      "shellLocks": [
+        "Nominal room 155×183 inches. Table axis is north–south; the entire north edge opens directly into living with no portal, pier, header or threshold.",
+        "Keep two EAST tall rectangular window groups/transoms, the separate small high EAST arch, two SOUTH tall arched openings and the actual SOUTH butler passage. Never use the stale old five-window positions or close the living connection."
+      ],
+      "fixedFinishRefs": [
+        "CC-W1",
+        "CC-W2",
+        "CC-O1",
+        "CC-J1",
+        "CC-M1",
+        "CC-T1"
+      ],
+      "windowTreatment": "Sheers plus independent off-white opaque privacy on all FOUR tall glass openings, including tall arched heads and all the way to actual sills. Keep the separate small HIGH arch completely bare by default; do not cover its lower half. The north open living connection is not a doorway to curtain off.",
+      "lighting": {
+        "colorTemperature": "2700K decorative/lounge; 3000K useful task/general where stated. Physical fixture/color/dimmer approval required.",
+        "day": [
+          "The owned Spiridon, existing general light and any deliberately specified console/accent lamp have separate controllable scenes. 2700 K dining is the main scene. Preserve the actual fixture crystal/iron silhouette; no new opal dining fixture replacing it."
+        ],
+        "night": "Use the same installed fixture inventory and room camera as the paired daytime view. Dim actual general/decorative/task groups naturally. Apply the room’s full privacy or blackout covering state; high bare glass and interior transoms remain as specified.",
+        "controlGroups": "Provide the existing recessed-light circuit/group, one separately controllable decorative or task group where a fixture is actually specified, and a separate cabinet/display-light group only where needed. Avoid unnecessary ceiling work. A full fixture and switch schedule is required before rough-in."
+      },
+      "sourceCameras": [
+        {
+          "code": "D1",
+          "file": "assets/render-candidates/collected-mineral/r04/day-619.png",
+          "sourceJobId": "026a04fc-7104-43d6-8135-2b02a19e6eb3",
+          "evidenceType": "Photo-based architectural revision",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        },
+        {
+          "code": "D2",
+          "file": "assets/render-candidates/collected-mineral/r04/day-626.png",
+          "sourceJobId": "67efe71f-1a4b-47c0-b76f-9d446b3712ec",
+          "evidenceType": "Plan-led opposing camera with original dining photo evidence",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        }
+      ],
+      "referenceImagePolicy": "Image 1 is the target camera and verified architecture only. An original model-home photo, when supplied, is structural ground truth. Owned product photos govern owned forms; new product photos govern their identity/finish, never their background camera. A different-finish generic hero is shape-only and cannot override the selected White/Polished Silver configuration. Do not use a second whole-room style image to replace the target camera.",
+      "qaChecks": [
+        "Compare exact openings, mullions, doors, camera and adjacent-room relationships with the verified shell and original photographs.",
+        "Check every owned type/unit against the allocation plan; no extra copies or moves to another room.",
+        "Check new product form, finish, count and realistic scale. Keep clear paths; do not relabel generic seats as exact products.",
+        "Check the distinct Cocoa & Chrome palette: smoky Brown Oak, polished silver, white upholstery, warm pearl/putty and neutral oak, with blue/white art and smaller removable butter-yellow accents.",
+        "Night retains the same fixtures/furniture; complete required privacy/blackout extends to actual sills, with specified high bare glass left clear. No new night lamps/coves or exposed lower glass strips."
+      ],
+      "cameraPlacementOverride": "For D1, the original small high arch is on IMAGE LEFT and the owned Cabrera console and ONE round mirror belongs on source WEST wall, on IMAGE RIGHT. Restore original geometry from day 619. Do not let a cardinal-wall text instruction move an opening or introduce a second mirror. D2 uses its own source camera with the same real layout.",
+      "supportingAllowances": "One shallow stone ledge remains beneath the separate small high arch in the approved source position. It is a new fabrication concept with an unselected decorative vessel; the only owned vessels are the Short and Tall pair on Cabrera."
+    },
+    "living": {
+      "roomId": "living",
+      "floor": 2,
+      "title": "Living room · piano salon",
+      "ownedInventoryIds": [
+        "martini-side"
+      ],
+      "newItemIds": [
+        "cc-social-living-imogene-white",
+        "cc-social-living-nicholas48",
+        "cc-social-living-italia-track84"
+      ],
+      "customBuildoutIds": [
+        "cc-living-supporting-lamp-surfaces",
+        "cc-living-supporting-table-lamps"
+      ],
+      "placementAndRenderPrompt": "Use the plan-derived target camera and current shell: TWO real east windows, a SOLID north false-facade wall, fully open south dining connection and west hall connection. Reserve the northwest corner for a future compact ~5-foot black baby grand: tail northwest, keyboard/bench southeast. Place ONE proposed current RH Italia TRACK ARM 2-CUSHION 7-foot PETITE sofa in White Perennials/Polished Chrome, nominal 84 × 37 inches; its exact offered configuration and stock are pending. Use TWO NEW CB 2 Imogene White chairs, 26 × 31 inches, with actual BLACK hammered-steel supports, and ONE Nicholas Carrara/Polished Stainless coffee table, 48 × 24 × 14 inches. Add only the ONE OWNED 14-inch Polished Nickel Martini side table, not an 18-inch duplicate or owned Cloud sofa. Preserve piano/bench clearance and the unobstructed dining seam. One small butter-yellow pillow, restrained blue/white artwork and a plant complete the room. No new fireplace, wall unit or invented exterior window.",
+      "shellLocks": [
+        "Nominal 16×11 ft 4. Keep TWO real EAST windows; the north facade false window has a solid inside wall. South is directly open to formal dining and west opens to hall.",
+        "Future~5-foot baby grand sits northwest: tail northwest, keyboard and bench southeast. Do not put it northeast, invent a window behind it or block the dining seam. Source is plan-derived, not a verified original living photograph."
+      ],
+      "fixedFinishRefs": [
+        "CC-W1",
+        "CC-W2",
+        "CC-O1",
+        "CC-S1",
+        "CC-M1",
+        "CC-T1"
+      ],
+      "windowTreatment": "Warm-white sheers plus opaque privacy/glare layers at TWO real east windows. No mandatory sleep blackout. At night close every tall pane from head to actual sill, including the near right bank in the reverse view. A separate high dining arch seen through the open connection remains bare.",
+      "lighting": {
+        "colorTemperature": "2700K decorative/lounge; 3000K useful task/general where stated. Physical fixture/color/dimmer approval required.",
+        "day": [
+          "2700 K lounge/reading scene and separately dimmed existing recessed general lighting. Do not add picture-light bars or an extra ceiling pendant only at night. Keep bright direct heat/light away from piano."
+        ],
+        "night": "Use the same installed fixture inventory and room camera as the paired daytime view. Dim actual general/decorative/task groups naturally. Apply the room’s full privacy or blackout covering state; high bare glass and interior transoms remain as specified.",
+        "controlGroups": "Provide the existing recessed-light circuit/group, one separately controllable decorative or task group where a fixture is actually specified, and a separate cabinet/display-light group only where needed. Avoid unnecessary ceiling work. A full fixture and switch schedule is required before rough-in."
+      },
+      "sourceCameras": [
+        {
+          "code": "LR1",
+          "file": "assets/render-candidates/collected-mineral/r04/day-611.png",
+          "sourceJobId": "d75560ec-2676-4ad5-8c42-266f79a012a8",
+          "evidenceType": "Plan-led derived living camera with adjacent model-home photo evidence",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        },
+        {
+          "code": "LR2",
+          "file": "assets/render-candidates/collected-mineral/r04/day-627.png",
+          "sourceJobId": "786b6f1c-07eb-40da-a4fa-eb9d7691ba16",
+          "evidenceType": "Plan-led derived living camera with adjacent model-home photo evidence",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        }
+      ],
+      "referenceImagePolicy": "Image 1 is the target camera and verified architecture only. An original model-home photo, when supplied, is structural ground truth. Owned product photos govern owned forms; new product photos govern their identity/finish, never their background camera. A different-finish generic hero is shape-only and cannot override the selected White/Polished Silver configuration. Do not use a second whole-room style image to replace the target camera.",
+      "qaChecks": [
+        "Compare exact openings, mullions, doors, camera and adjacent-room relationships with the verified shell and original photographs.",
+        "Check every owned type/unit against the allocation plan; no extra copies or moves to another room.",
+        "Check new product form, finish, count and realistic scale. Keep clear paths; do not relabel generic seats as exact products.",
+        "Check the distinct Cocoa & Chrome palette: smoky Brown Oak, polished silver, white upholstery, warm pearl/putty and neutral oak, with blue/white art and smaller removable butter-yellow accents.",
+        "Night retains the same fixtures/furniture; complete required privacy/blackout extends to actual sills, with specified high bare glass left clear. No new night lamps/coves or exposed lower glass strips."
+      ],
+      "supportingAllowances": "Two rear lamp surfaces and two pearl/silver table lamps are NEW supporting concepts, now explicitly scheduled. Only the foreground 14-inch Martini is owned. They require an actual stocked retail match or fabrication/fixture selection before procurement.",
+      "rugAllowance": {
+        "id": "cc-social-living-rug-allowance",
+        "name": "Neutral area rug and compatible nonslip pad",
+        "room": "living",
+        "ownership": "new_unselected",
+        "quantity": 1,
+        "size": "Field sizing pending the final taped furniture plan",
+        "finish": "Ivory / pearl neutral weave; no blue or yellow patterned field",
+        "scope": "One new ivory/pearl low-pile area rug beneath the compact salon seating and coffee table, as depicted. Keep the future piano footprint, piano moving route, dining connection and window stacks clear. Field-size after a full taped piano/seating layout and select a compatible nonslip pad. Match an actual stocked product before purchase; no retail brand, cost or availability is invented.",
+        "acquisition": "Stocked retail product match pending",
+        "stockStatus": "unselected_no_stock_claim",
+        "purchaseReady": false,
+        "url": null,
+        "image": null,
+        "price": null
+      }
+    },
+    "sunroom": {
+      "roomId": "sunroom",
+      "floor": 2,
+      "title": "Sunroom",
+      "ownedInventoryIds": [
+        "emery-chair",
+        "emery-armchair",
+        "maslow-table"
+      ],
+      "newItemIds": [],
+      "customBuildoutIds": [],
+      "placementAndRenderPrompt": "Retain the approved day 1003 composition and actual wraparound windows, separate high transoms, knee walls, terrace door and left oven-bank adjacency. Use the exact OWNED set: ONE 72-inch Maslow Espresso Walnut top/Polished Aluminum SPIDER table, FOUR Emery White Perennials/Polished Stainless SIDE chairs, and TWO matching TRACK-ARM chairs at the table ends. These six chairs retain their real slender silver supports. Do not buy or draw another table/chair set. Keep the new approved Cocoa & Chrome fixture: TWO-ROD POLISHED-SILVER RECTANGULAR OPAL LINEAR light, not a six-globe black pendant. Use pearl/putty matte walls, pale neutral matte oak, off-white sheers and separate lower opaque shades; high transoms remain bare by default. One blue vessel and small yellow flowers are enough. No new area rug or unassigned cabinet obstructing circulation.",
+      "shellLocks": [
+        "Preserve wraparound real lower windows and separate high transoms, original knee walls, terrace door and oven-bank adjacency. The source camera and openings are unchanged."
+      ],
+      "fixedFinishRefs": [
+        "CC-W1",
+        "CC-W2",
+        "CC-O1",
+        "CC-J1",
+        "CC-M1",
+        "CC-T1"
+      ],
+      "windowTreatment": "Full-height warm-white sheers with independent off-white opaque privacy shades on the LOWER glazing and glass door where needed. Separate high horizontal transoms normally remain bare. Close lower shades to actual sills at night; keep original mullions and transom glass visible. No sleep blackout requirement.",
+      "lighting": {
+        "colorTemperature": "2700K decorative/lounge; 3000K useful task/general where stated. Physical fixture/color/dimmer approval required.",
+        "day": [
+          "A restrained single polished-silver linear opal fixture centered above the table; coordinate its actual product, support and hang height. The approved day 1003 uses a two-rod rectangular opal linear fixture and that same geometry must be retained at night.",
+          "Separately dim decorative linear light from existing general light. 2700 K evening dining; 3000 K practical group. No brass/black replacement pendants after that day pair is accepted."
+        ],
+        "night": "Use the same installed fixture inventory and room camera as the paired daytime view. Dim actual general/decorative/task groups naturally. Apply the room’s full privacy or blackout covering state; high bare glass and interior transoms remain as specified.",
+        "controlGroups": "Provide the existing recessed-light circuit/group, one separately controllable decorative or task group where a fixture is actually specified, and a separate cabinet/display-light group only where needed. Avoid unnecessary ceiling work. A full fixture and switch schedule is required before rough-in."
+      },
+      "sourceCameras": [
+        {
+          "code": "S1",
+          "file": "assets/render-candidates/collected-mineral/r04/day-406.png",
+          "sourceJobId": "1f1bafb7-1900-4dd4-8850-0d256e16c306",
+          "evidenceType": "Photo-based architectural revision",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        },
+        {
+          "code": "S2",
+          "file": "assets/render-candidates/collected-mineral/r04/day-506.png",
+          "sourceJobId": "783cabb8-8628-495b-bdc7-4fd2a6860e36",
+          "evidenceType": "Derived angle · plan and photo interpretation",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        }
+      ],
+      "referenceImagePolicy": "Image 1 is the target camera and verified architecture only. An original model-home photo, when supplied, is structural ground truth. Owned product photos govern owned forms; new product photos govern their identity/finish, never their background camera. A different-finish generic hero is shape-only and cannot override the selected White/Polished Silver configuration. Do not use a second whole-room style image to replace the target camera.",
+      "qaChecks": [
+        "Compare exact openings, mullions, doors, camera and adjacent-room relationships with the verified shell and original photographs.",
+        "Check every owned type/unit against the allocation plan; no extra copies or moves to another room.",
+        "Check new product form, finish, count and realistic scale. Keep clear paths; do not relabel generic seats as exact products.",
+        "Check the distinct Cocoa & Chrome palette: smoky Brown Oak, polished silver, white upholstery, warm pearl/putty and neutral oak, with blue/white art and smaller removable butter-yellow accents.",
+        "Night retains the same fixtures/furniture; complete required privacy/blackout extends to actual sills, with specified high bare glass left clear. No new night lamps/coves or exposed lower glass strips."
+      ]
+    },
+    "stair2": {
+      "roomId": "stair2",
+      "floor": 2,
+      "title": "Second-floor stair hall",
+      "ownedInventoryIds": [],
+      "newItemIds": [],
+      "customBuildoutIds": [],
+      "placementAndRenderPrompt": "Keep the correct quarter-turn/fanned lower segment rising to the half-floor landing, then the straight upper flight, actual open descending well/guard, high glazing and target camera. Use bare neutral oak treads, light risers, smooth pearl/putty walls, actual dark guardwork and one restrained blue/white artwork. NO stair runner, rods, carpet treads or new furniture on landings. Any great-room glimpse must match the final approved Cocoa & Chrome great room: white/chrome tailored Italia sofa and Nicholas CARRARA/SILVER coffee table, never the inherited Option 3 wood coffee table. High stair glass is bare by default; adjoining great-room lower glass closes for night privacy.",
+      "shellLocks": [
+        "Actual curved quarter-turn/fanned lower segment rises to a half-floor landing, then the straight upper flight. Preserve descending-well opening, guard and original high stacked glazing.",
+        "Do not convert it into a full spiral, straight run with no landing or carpeted treads. Keep neighboring great-room glimpses structurally correct."
+      ],
+      "fixedFinishRefs": [
+        "CC-W1",
+        "CC-W2",
+        "CC-O1",
+        "CC-M1"
+      ],
+      "windowTreatment": "High stair glazing remains bare by default, subject to real elevated sightlines. No full drapes crossing stair/landing paths. Adjacent lower great-room glass uses great-room night privacy; it is not exempt as stair glass.",
+      "lighting": {
+        "colorTemperature": "2700K decorative/lounge; 3000K useful task/general where stated. Physical fixture/color/dimmer approval required.",
+        "day": [
+          "Existing high/general light plus any actual safely located stair/circulation light are separately controlled where practical; 2700 K low evening and 3000 K cleaning. Contractor checks switches at proper ends/landings and existing guard conditions.",
+          "Night must show the neighboring great lower glazing with its privacy shades closed while retaining bare high stair windows. No invented stair tread LED channels are mandatory."
+        ],
+        "night": "Use the same installed fixture inventory and room camera as the paired daytime view. Dim actual general/decorative/task groups naturally. Apply the room’s full privacy or blackout covering state; high bare glass and interior transoms remain as specified.",
+        "controlGroups": "Provide the existing recessed-light circuit/group, one separately controllable decorative or task group where a fixture is actually specified, and a separate cabinet/display-light group only where needed. Avoid unnecessary ceiling work. A full fixture and switch schedule is required before rough-in."
+      },
+      "sourceCameras": [
+        {
+          "code": "ST1",
+          "file": "assets/render-candidates/collected-mineral/r04/day-630.png",
+          "sourceJobId": "f9cdba3c-6847-49c4-860e-637164a8bede",
+          "evidenceType": "Photo-based architectural revision",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        },
+        {
+          "code": "ST2",
+          "file": "assets/render-candidates/mineral-walnut-neutral/r01/stair2-st2-day.png",
+          "sourceJobId": "f9b55f3a-2233-4502-9c6c-bbdf15d8ba58",
+          "evidenceType": "Derived angle · plan and photo interpretation",
+          "authority": "Geometry/camera only. Replace prior Option 1/3 colors, materials and unowned furniture with this distinct Cocoa & Chrome scheme."
+        }
+      ],
+      "referenceImagePolicy": "Image 1 is the target camera and verified architecture only. An original model-home photo, when supplied, is structural ground truth. Owned product photos govern owned forms; new product photos govern their identity/finish, never their background camera. A different-finish generic hero is shape-only and cannot override the selected White/Polished Silver configuration. Do not use a second whole-room style image to replace the target camera.",
+      "qaChecks": [
+        "Compare exact openings, mullions, doors, camera and adjacent-room relationships with the verified shell and original photographs.",
+        "Check every owned type/unit against the allocation plan; no extra copies or moves to another room.",
+        "Check new product form, finish, count and realistic scale. Keep clear paths; do not relabel generic seats as exact products.",
+        "Check the distinct Cocoa & Chrome palette: smoky Brown Oak, polished silver, white upholstery, warm pearl/putty and neutral oak, with blue/white art and smaller removable butter-yellow accents.",
+        "Night retains the same fixtures/furniture; complete required privacy/blackout extends to actual sills, with specified high bare glass left clear. No new night lamps/coves or exposed lower glass strips."
+      ],
+      "adjacentBalconyAllowance": "cc-social-floor2-balcony-bistro-allowance"
+    }
+  },
+  "customBuildouts": [
+    {
+      "id": "cc-entry-credenza",
+      "room": "entry",
+      "name": "Compact curved-front smoky-oak entry cabinet",
+      "ownership": "new_custom",
+      "quantity": 1,
+      "size": "Existing niche footprint; provisional~40–48 W ×12–16 D, field fit first",
+      "scope": "Two plain vertical-grain doors, subtle radiused corners, short vertical stainless pulls and continuous curved plinth. Same compact location as source; no new circulation obstacle.",
+      "stockStatus": "custom_quote_required"
+    },
+    {
+      "id": "cc-office-pedestal-desk",
+      "room": "office",
+      "name": "Plain rectangular brown-oak pedestal desk",
+      "ownership": "new_custom",
+      "quantity": 1,
+      "size": "Provisional 84 W ×32 D ×30 H; field measure, knee opening and ergonomics before fabrication",
+      "scope": "Plain thick but proportionate top, two architectural solid end pedestals/panels and discreet cable routing. Matches draft day 1101 silhouette. No Alora fluted apron, no quarter-circle or L-shaped desk. Worker SE faces NW.",
+      "stockStatus": "custom_quote_required"
+    },
+    {
+      "id": "cc-office-north-library",
+      "room": "office",
+      "name": "Full north TV/library wall",
+      "ownership": "new_custom",
+      "quantity": 1,
+      "size": "Measured NORTH wall run, no generic width assumed",
+      "scope": "Calm smoky-oak slab door/file drawers, selected silver shelf edges, continuous plinth, TV and external soundbar plus serviceable channels and ventilation.",
+      "stockStatus": "custom_quote_required"
+    },
+    {
+      "id": "cc-office-printer-cabinet",
+      "room": "office",
+      "name": "Small printer cabinet",
+      "ownership": "new_custom",
+      "quantity": 1,
+      "size": "Provisional 30–36 W ×16–18 D; printer model/site fit govern",
+      "scope": "Left of right-offset gallery doors under blue/white art; top drawer over two doors, short stainless pulls and solid base. Do not add a large south console.",
+      "stockStatus": "custom_quote_required"
+    },
+    {
+      "id": "cc-media-console",
+      "room": "media",
+      "name": "Quiet wide smoky-oak AV console",
+      "ownership": "new_custom",
+      "quantity": 1,
+      "size": "96–102 W ×~18 D provisional; actual AV/site fit before fabrication",
+      "scope": "Plain end doors, a dark woven ventilated center, a fine polished-stainless edge grip and a continuous plinth. Keep the 83-inch TV background calm and the soundbar outside the cabinet. This is not a shared-wall recess or an oversized 108–120-inch console.",
+      "stockStatus": "custom_quote_required"
+    },
+    {
+      "id": "cc-media-display",
+      "room": "media",
+      "name": "Limited lit collectible niches",
+      "ownership": "new_custom",
+      "quantity": 1,
+      "size": "Field-fit shallow display RIGHT of WEST doors as seen from inside",
+      "scope": "Selected smoky-oak shelves, fine silver details and accessible warm LED channels. Protect the full door width and preserve the clear glass. The display remains a shallow niche, not another full cabinetry wall.",
+      "stockStatus": "custom_quote_required"
+    },
+    {
+      "id": "cc-great-sideboards",
+      "room": "great",
+      "name": "Coordinated door-front brown-oak sideboards",
+      "ownership": "new_custom",
+      "quantity": 2,
+      "size": "Within measured fireplace-side wall widths; ~48–60 W ×14–16 D provisional",
+      "scope": "Plain vertical-grain doors, softened outer corners, short vertical stainless pulls, fine top reveal and continuous plinth. Sibling blue/white art above. Do not copy owned Bezier drawer bands or Cabrera concrete console.",
+      "stockStatus": "custom_quote_required"
+    },
+    {
+      "id": "cc-great-supporting-side-tables",
+      "room": "great",
+      "name": "Square open-frame brown-oak / silver supporting tables",
+      "ownership": "new_custom_or_stock_match",
+      "quantity": 2,
+      "size": "About18 ×18 ×20 inches illustrated; actual footprint to measure",
+      "scope": "Two separate small square tables near the lounge chairs. Smoky brown-oak open-frame sides and fine polished-silver details. These are new supporting concepts, not owned 18-inch round Machinto tables or stocked retail products. Match a live stocked product or quote simple fabrication before purchase.",
+      "stockStatus": "new_concept_procurement_pending"
+    },
+    {
+      "id": "cc-great-supporting-table-lamp",
+      "room": "great",
+      "name": "Pearl-stone / polished-silver table lamp concept",
+      "ownership": "new_supporting_allowance",
+      "quantity": 1,
+      "size": "Illustrated compact cylindrical base and white drum shade; actual height/footprint to select",
+      "scope": "One new table lamp on the right sideboard. Use pearl/white stone-look base, limited polished-silver socket/detail and white shade. It is not an extra owned Bates lamp or an identified stocked retail SKU. Select a rated actual fixture/bulb and confirm control compatibility before purchase.",
+      "stockStatus": "new_concept_procurement_pending"
+    },
+    {
+      "id": "cc-living-supporting-lamp-surfaces",
+      "room": "living",
+      "name": "Two rear lamp-supporting side surfaces",
+      "ownership": "new_custom_or_stock_match",
+      "quantity": 2,
+      "size": "Compact rear-left smoky-oak and rear-right silver pedestal concepts; exact widths/depths/heights to select",
+      "scope": "Two new small supporting surfaces near the back of the compact sofa. Preserve the piano, shade stack and dining route. Do not count the rear silver support as another owned Martini unit: only the foreground 14-inch Martini is owned. Select actual stocked products or quote simple fabrication before procurement.",
+      "stockStatus": "new_concept_procurement_pending"
+    },
+    {
+      "id": "cc-living-supporting-table-lamps",
+      "room": "living",
+      "name": "Pearl / polished-silver reading-lamp concepts",
+      "ownership": "new_supporting_allowance",
+      "quantity": 2,
+      "size": "Small illustrated white-shade lamps; exact manufacturer dimensions to select",
+      "scope": "Two new rear sofa lamps, with a white/pearl body, coordinated silver detail and white shade. They are not extra owned Bates lamps and do not have verified-stocked retailer identities. Confirm actual fixture, 2700 K bulb, cord route and control compatibility before purchase; day/night use the same pair.",
+      "stockStatus": "new_concept_procurement_pending"
+    },
+    {
+      "id": "cc-laundry-hampers",
+      "room": "laundry",
+      "name": "Neutral washable laundry hampers",
+      "ownership": "new_supporting_allowance",
+      "quantity": 2,
+      "size": "Two compact illustrated hamper footprints; measure lid/pullout and aisle before selection",
+      "scope": "Two NEW neutral hampers in the designated laundry positions. Select a real stocked washable basket/liner product after measurement. No owned-inventory, sale or stock claim is attached to the illustration.",
+      "stockStatus": "new_concept_procurement_pending"
+    },
+    {
+      "id": "cc-social-dining-highwindow-ledge",
+      "room": "dining",
+      "ownership": "new",
+      "quantity": 1,
+      "name": "Shallow stone ledge below the small high window",
+      "scope": "Retain the accepted source position below the small high arch as one shallow quiet-gray stone-look ledge. It is a new fabrication concept, not a second owned console. Select a coordinated cool-neutral CC-S1 slab offcut or durable engineered-stone equivalent, without warm rust or gold veining. Template the wall, concealed support and clear depth before fabrication. The left decorative vessel is a separate unselected accessory, not an extra owned Short/Tall vessel.",
+      "acquisition": "GC fabrication concept; product, support detail and quote pending",
+      "stockStatus": "not_a_stocked_retail_claim"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "cc-alt-great-retreat94",
+      "name": "Retreat 94-inch Sofa — Serene Ivory / Multi-Cushion",
+      "brand": "Crate & Barrel",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "great",
+      "size": "94 W × 44 D × 28.5 H inches",
+      "finish": "Serene fabric in Ivory",
+      "fabric": "Serene",
+      "color": "Ivory",
+      "url": "https://www.crateandbarrel.com/retreat-94-sofa/f1027609",
+      "price": 2299,
+      "currentPriceOrSale": {
+        "amount": 2299,
+        "kind": "retail",
+        "verifiedAt": "2026-10-11",
+        "note": "Fresh official product page shows $2, 299 for SKU 172631, 94-inch Multi-Cushion Serene Ivory. No sale shown."
+      },
+      "stockStatus": "in_stock",
+      "stockEvidence": "Dated prior evidence: A fresh live configuration check on 2026-10-11 verified exact Retreat 94-inch Multi-Cushion Serene Ivory SKU 172631 at $2,299: In stock. Ready to schedule delivery to ZIP 20878. Quantity one observed; final measured fit and delivery access remain to verify.",
+      "checkedAt": "2026-10-12",
+      "lastStockVerifiedAt": "2026-10-11",
+      "lastStockStatus": "in_stock",
+      "lastStockConfiguration": {
+        "sku": "172631",
+        "size": "94-inch",
+        "cushion": "Multi-Cushion",
+        "fabric": "Serene",
+        "color": "Ivory",
+        "observedQuantity": 1
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-great-retreat 94.webp",
+      "sourceImageUrl": "https://cb.scene7.com/is/image/Crate/Retreat94inSofaSOSSS24_3D?%24web_pdp_main_carousel_thumb_med%24=",
+      "photoMatchNote": "Exact official 94-inch Retreat Serene Ivory catalog photograph; manufacturer CAD and true texture swatch still govern.",
+      "fitNotes": "Width is within the ~96-inch plan. Depth 44 is three inches more than the original 41-inch great-room plan; tape the sofa, chairs and table and terrace route. Confirm stair/lift/door access and combined quantities.",
+      "decision": "value_alternative_not_preferred_render",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 800,
+        "height": 800,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photo Match Note."
+      },
+      "currentVerificationNote": "Not freshly live checked today. Verify 20878/combined quantity before promotion. The shared soft-white function is valid, but new CC preferred foreground uses distinct chrome-base Italia."
+    },
+    {
+      "id": "cc-alt-living-retreat78",
+      "name": "Retreat 78-inch Apartment Sofa — Multi-Cushion / Serene Ivory",
+      "brand": "Crate & Barrel",
+      "ownership": "new",
+      "quantity": 1,
+      "room": "living",
+      "size": "78 W ×44 D ×28.5 H inches",
+      "finish": "Serene fabric in Ivory",
+      "fabric": "Serene",
+      "color": "Ivory",
+      "url": "https://www.crateandbarrel.com/retreat-78-apartment-sofa/s166056",
+      "price": 2099,
+      "currentPriceOrSale": {
+        "amount": 2099,
+        "kind": "regular",
+        "verifiedAt": "2026-10-11",
+        "note": "Fresh official exact SKU 166056 product page."
+      },
+      "stockStatus": "unverified",
+      "stockEvidence": "Dated prior evidence: Fresh official exact 78-inch SKU 166056 page confirms configuration and $2,099; no explicit current stock and ZIP 20878 quote exposed. 94-inch stock does not transfer to 78-inch.",
+      "checkedAt": "2026-10-12",
+      "lastStockVerifiedAt": null,
+      "lastStockStatus": null,
+      "lastStockConfiguration": {
+        "sku": "166056",
+        "size": "78-inch",
+        "fabric": "Serene",
+        "color": "Ivory"
+      },
+      "destinationZip": "20878",
+      "image": "collected-mineral-assets/products/cm-social-living-retreat 78.webp",
+      "sourceImageUrl": "https://cb.scene7.com/is/image/Crate/RetreatAptSofaSOSSS24_3D?%24web_pdp_main_carousel_thumb_med%24=&fmt=png-alpha",
+      "photoMatchNote": "Exact official 78-inch Apartment Sofa hero from selected product page; retain multi-cushion silhouette, not full 94-inch body.",
+      "fitNotes": "16 ft×11 ft 4 in concept: shorter 78-inch sofa preserves room for 2 compact 31-inch chairs and future~5-ft baby grand.44-inch depth remains real; template piano/bench and open dining/stair route.",
+      "decision": "value_alternative_not_preferred_render",
+      "purchaseReady": false,
+      "imageMetadata": {
+        "width": 800,
+        "height": 800,
+        "downloadedAt": "2026-10-11",
+        "qa": "visually_reviewed_official_product_form",
+        "qaNote": "No logo/placeholder substituted. Exact product configuration limitations are recorded in photo Match Note."
+      },
+      "currentVerificationNote": "Not freshly live checked today. Verify 20878/combined quantity before promotion. The shared soft-white function is valid, but new CC preferred foreground uses distinct chrome-base Italia."
+    },
+    {
+      "id": "cc-rejected-retired-italia-shelter",
+      "name": "Retired Italia Shelter Arm Sofa Metal Base",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod24400605",
+      "decision": "rejected_retired_product_reference_only",
+      "stockEvidence": "Root live RH page 2026-10-12 explicitly says no longer available. Old White/Chrome photo is useful finish history only; never preferred new purchase."
+    },
+    {
+      "id": "cc-alt-office-alora",
+      "name": "Alora Rectangular Desk Brown Oak 84-inch proposal",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod33440091",
+      "image": "cocoa-chrome-owned-assets/products/cc-social-alora-desk.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod33440091_E24422611796_F_CC_RHR?wid=1200&fmt=webp",
+      "decision": "optional_retail_alternative_not_rendered_plain_customdesk",
+      "stockStatus": "unverified",
+      "photoMatchNote": "Actualroundedcorners/flutedapron/waterfallends differsfrom approveddraftplainpedestaldesk. Imagewoodshade/current Brown Oakconfigurationandstockneedcheck. Do not falselyname currentcustomdesk Alora."
+    }
+  ],
+  "stockVerificationQueue": [
+    {
+      "id": "cc-social-great-italia-track96",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod14970116?sale=true",
+      "configuration": {
+        "sku": "95800749 BXWT",
+        "width": "8-foot",
+        "depth": "Classic 41",
+        "cushionFill": "Standard",
+        "base": "Polished Chrome",
+        "fabric": "Perennials Performance Textured Linen Weave",
+        "color": "White"
+      },
+      "quantity": 1,
+      "room": "great",
+      "reason": "Root live configured RH Sale dialog on 2026-10-12 for ZIP 20878: 8-foot × Classic 41, Standard, Polished Chrome, White Perennials Performance Textured Linen Weave, SKU 95800749 BXWT; ready-delivery quote 11/05–11/11/26. Page calls this special-order. This is not an in-stock confirmation or reservation."
+    },
+    {
+      "id": "cc-social-great-imogene-white",
+      "url": "https://www.cb2.com/imogene-white-performance-fabric-lounge-chair/f34852",
+      "configuration": {
+        "sku": "160076",
+        "fabric": "Colourwash",
+        "color": "Angora",
+        "observedQuantity": null
+      },
+      "quantity": 2,
+      "room": "great",
+      "reason": "Official US product page reviewed 2026-10-12 labels Colourwash Angora SKU 160076 In stock. Ready to schedule delivery. Public result lacks confirmed destination 20878; combined FOUR across great/living are not checked. Do not claim ZIP/quantity availability."
+    },
+    {
+      "id": "cc-social-living-imogene-white",
+      "url": "https://www.cb2.com/imogene-white-performance-fabric-lounge-chair/f34852",
+      "configuration": {
+        "sku": "160076",
+        "fabric": "Colourwash",
+        "color": "Angora",
+        "observedQuantity": null
+      },
+      "quantity": 2,
+      "room": "living",
+      "reason": "Official US product page reviewed 2026-10-12 labels Colourwash Angora SKU 160076 In stock. Ready to schedule delivery. Public result lacks confirmed destination 20878; combined FOUR across great/living are not checked. Do not claim ZIP/quantity availability."
+    },
+    {
+      "id": "cc-social-great-nicholas60",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod7410400",
+      "configuration": {},
+      "quantity": 1,
+      "room": "great",
+      "reason": "Exact selected configuration, delivery ZIP 20878 and total quantity are not yet verified."
+    },
+    {
+      "id": "cc-social-living-nicholas48",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod7410400",
+      "configuration": {},
+      "quantity": 1,
+      "room": "living",
+      "reason": "Exact selected configuration, delivery ZIP 20878 and total quantity are not yet verified."
+    },
+    {
+      "id": "cc-social-living-italia-track84",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod14970116?sale=true",
+      "configuration": {},
+      "quantity": 1,
+      "room": "living",
+      "reason": "Exact selected configuration, delivery ZIP 20878 and total quantity are not yet verified."
+    },
+    {
+      "id": "cc-social-dining-machinto96",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod7411024",
+      "configuration": {},
+      "quantity": 1,
+      "room": "dining",
+      "reason": "Exact selected configuration, delivery ZIP 20878 and total quantity are not yet verified."
+    },
+    {
+      "id": "cc-social-dining-emery-chair",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod28500388?fullSkuId=10097522+BXWT&categoryId=search",
+      "configuration": {},
+      "quantity": 8,
+      "room": "dining",
+      "reason": "Official collection/form/finish references reviewed 2026-10-12. New exact WHITE fabric/current SKU, total quantity 8 and ZIP 20878 stock/delivery are not verified. Owned purchase history is not current availability."
+    },
+    {
+      "id": "cc-social-office-emery-armchair",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod24520382",
+      "configuration": {},
+      "quantity": 2,
+      "room": "office",
+      "reason": "Official collection/form/finish references reviewed 2026-10-12. New exact WHITE fabric/current SKU, total quantity 2 and ZIP 20878 stock/delivery are not verified. Owned purchase history is not current availability."
+    },
+    {
+      "id": "cc-social-media-cloud119",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod9740156",
+      "configuration": {},
+      "quantity": 1,
+      "room": "media",
+      "reason": "Prior Oct 9 Natural Performance Linen stock belonged to a different selected SKU. It does NOT verify this new White Perennials Classic sofa or TWO 40-inch ottomans to 20878. Current exact configuration/quantity/stock required."
+    },
+    {
+      "id": "cc-social-media-cloud-ottoman40",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod6371041",
+      "configuration": {},
+      "quantity": 2,
+      "room": "media",
+      "reason": "Prior Oct 9 Natural Performance Linen stock belonged to a different selected SKU. It does NOT verify this new White Perennials Classic sofa or TWO 40-inch ottomans to 20878. Current exact configuration/quantity/stock required."
+    },
+    {
+      "id": "cc-social-office-fern-coal",
+      "url": "https://www.crateandbarrel.com/haworth-fern-upholstered-office-chair/s425920",
+      "configuration": {},
+      "quantity": 1,
+      "room": "office",
+      "reason": "Official exact Coal SKU 425920 configuration/$1480 was reviewed Oct 11; exact current stock/delivery to 20878 remains unverified. Comfort/desk fit trial required."
+    },
+    {
+      "id": "cc-social-kitchen-emery-counter",
+      "url": "https://rh.com/us/en/catalog/product/product.jsp/prod7600434",
+      "configuration": {
+        "height": "Counter",
+        "fabric": "Perennials Performance Textured Linen Weave",
+        "color": "White",
+        "finish": "Polished Stainless Steel",
+        "sku": null
+      },
+      "quantity": 4,
+      "room": "kitchen",
+      "reason": "Official current product family exists. Exact COUNTER-height White Perennials / Polished Stainless SKU, FOUR units and delivery to 20878 have not been independently verified. The two owned Rome stools are reserved for the penthouse."
+    }
+  ],
+  "buildSpecFile": "docs/cocoa-chrome-owned-build-specs.json",
+  "accessoryPolicy": "Artwork, removable textiles, plants and practical accessories absent from the owned inventory are NEW design allowances. Record a real retail SKU when selected, or label the item as a workroom/custom proposal or procurement pending. Do not fabricate prices or stock.",
+  "supportingTextiles": [
+    {
+      "id": "cc-social-office-rug-allowance",
+      "name": "Neutral area rug and compatible nonslip pad",
+      "room": "office",
+      "ownership": "new_unselected",
+      "quantity": 1,
+      "size": "Field sizing pending the final taped furniture plan",
+      "finish": "Ivory / pearl neutral weave; no blue or yellow patterned field",
+      "scope": "One new neutral low-pile or flatwoven area rug beneath the working desk and guest seats, consistent with the accepted render. Select a hardwearing ivory/pearl weave that allows the task chair to roll, with a stable compatible nonslip pad. Field-size around the desk, door swings and window stacks; avoid a thick looped or shag rug. Match an actual currently stocked product before purchase.",
+      "acquisition": "Stocked retail product match pending",
+      "stockStatus": "unselected_no_stock_claim",
+      "purchaseReady": false,
+      "url": null,
+      "image": null,
+      "price": null
+    },
+    {
+      "id": "cc-social-media-rug-allowance",
+      "name": "Neutral area rug and compatible nonslip pad",
+      "room": "media",
+      "ownership": "new_unselected",
+      "quantity": 1,
+      "size": "Field sizing pending the final taped furniture plan",
+      "finish": "Ivory / pearl neutral weave; no blue or yellow patterned field",
+      "scope": "One new neutral ivory/pearl low-pile area rug linking the Cloud seating and both movable ottomans, as depicted. Select a durable soft weave and compatible nonslip pad, with edges outside the main door route and no lifted corner beneath moving ottomans. Field-size after taping the 119-inch seating plan. Match an actual stocked product before purchase; do not call this owned or claim a specific unselected brand.",
+      "acquisition": "Stocked retail product match pending",
+      "stockStatus": "unselected_no_stock_claim",
+      "purchaseReady": false,
+      "url": null,
+      "image": null,
+      "price": null
+    },
+    {
+      "id": "cc-social-great-rug-allowance",
+      "name": "Neutral area rug and compatible nonslip pad",
+      "room": "great",
+      "ownership": "new_unselected",
+      "quantity": 1,
+      "size": "Field sizing pending the final taped furniture plan",
+      "finish": "Ivory / pearl neutral weave; no blue or yellow patterned field",
+      "scope": "One new large ivory/pearl textured low-pile area rug linking the tailored sofa and two lounge chairs, as depicted. Keep visible neutral-oak floor borders and clear the terrace-door route. Field-size from the final furniture footprint and use a compatible nonslip pad. Match an actual stocked neutral product before purchase; the illustrated weave is a styling proposal, not a confirmed retail SKU.",
+      "acquisition": "Stocked retail product match pending",
+      "stockStatus": "unselected_no_stock_claim",
+      "purchaseReady": false,
+      "url": null,
+      "image": null,
+      "price": null
+    },
+    {
+      "id": "cc-social-living-rug-allowance",
+      "name": "Neutral area rug and compatible nonslip pad",
+      "room": "living",
+      "ownership": "new_unselected",
+      "quantity": 1,
+      "size": "Field sizing pending the final taped furniture plan",
+      "finish": "Ivory / pearl neutral weave; no blue or yellow patterned field",
+      "scope": "One new ivory/pearl low-pile area rug beneath the compact salon seating and coffee table, as depicted. Keep the future piano footprint, piano moving route, dining connection and window stacks clear. Field-size after a full taped piano/seating layout and select a compatible nonslip pad. Match an actual stocked product before purchase; no retail brand, cost or availability is invented.",
+      "acquisition": "Stocked retail product match pending",
+      "stockStatus": "unselected_no_stock_claim",
+      "purchaseReady": false,
+      "url": null,
+      "image": null,
+      "price": null
+    }
+  ],
+  "outdoorSupportingAllowances": [
+    {
+      "id": "cc-social-floor2-balcony-bistro-allowance",
+      "name": "Small second-floor balcony bistro set",
+      "ownership": "new_unselected",
+      "room": "great",
+      "location": "Floor 2 balcony visible through great-room glazing; NOT the Floor 4 roof terrace",
+      "items": [
+        {
+          "name": "Compact outdoor teak bistro table",
+          "quantity": 1
+        },
+        {
+          "name": "Matching outdoor teak bistro chair",
+          "quantity": 2
+        }
+      ],
+      "finish": "Durable exterior-rated teak, a limited outdoor wood exception; neutral outdoor cushions only if actually selected",
+      "scope": "Retain the small balcony table/chair pair seen through the great-room and stair sightlines as a separate new supporting outdoor concept. Confirm the actual balcony footprint, drainage, guard clearance, door swing, circulation and wind exposure before selecting its size. Use a real exterior-rated table and matching two-chair set with manufacturer care instructions; an actual currently stocked retail match, price and delivery to ZIP 20878 are pending. Do not borrow owned indoor chairs or any of the separate Black Malibu roof-terrace set. No extra table/chairs or interior drapes are added to the balcony.",
+      "stockStatus": "unselected_no_stock_claim",
+      "purchaseReady": false,
+      "url": null,
+      "image": null,
+      "price": null
+    }
+  ]
+}

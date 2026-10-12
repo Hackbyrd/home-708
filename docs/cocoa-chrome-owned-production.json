@@ -1,0 +1,1536 @@
+{
+  "revision": "CC-OWN-R08",
+  "status": "complete",
+  "jobs": [
+    {
+      "index": 1200,
+      "room": "entry",
+      "code": "E1",
+      "job_id": "d1ce6234-bd69-4178-990c-97759c91a45c",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1200.png",
+      "qa": {
+        "approved": true,
+        "status": "targeted_repair_visually_reviewed"
+      },
+      "qaNote": "Flat painted title-case Welcome Home corrected; light clear gallery doors, two-story silver bulb cascade and pale-oak floor retained. Exact site dimensions, assembly and samples require trade approval.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/entry-E1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/entry-E1-r08-day.webp"
+    },
+    {
+      "index": 2300,
+      "room": "entry",
+      "code": "E2",
+      "job_id": "4c3457fa-5ab4-4105-884d-24f46ef9cde6",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2300.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_source_geometry_owned_furniture_reviewed"
+      },
+      "qaNote": "Reviewed against the source camera, approved companion, furniture specification and Cocoa & Chrome palette. Existing openings and selected furniture retained; dimensions and samples require site verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/entry-E2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/entry-E2-r08-day.webp"
+    },
+    {
+      "index": 6200,
+      "room": "entry",
+      "sourceCode": "E1",
+      "sourceJobId": "d1ce6234-bd69-4178-990c-97759c91a45c",
+      "job_id": "b334c1d7-540a-445b-82ac-f919f0f2fbcb",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6200.png",
+      "qa": {
+        "approved": true,
+        "status": "exact_day_source_fixture_geometry_privacy_reviewed"
+      },
+      "qaNote": "Exact day camera, furniture forms/counts and installed lighting retained; real main opaque/privacy covering state and high/clear/windowless exceptions checked. Illustrated lighting and actual workroom performance still require commissioning.",
+      "code": "E1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/entry-E1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/entry-E1-r08-night.webp"
+    },
+    {
+      "index": 90004,
+      "room": "entry",
+      "sourceCode": "E2",
+      "sourceJobId": "4c3457fa-5ab4-4105-884d-24f46ef9cde6",
+      "job_id": "e6ff537a-248a-4d4b-a62d-d8eccc1a740d",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90004.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_night_privacy_reflections_reviewed"
+      },
+      "qaNote": "Same accepted day camera and furniture; actual mainwindow privacy layers fully close and high separate glazing stays bare, with compatible glass reflections.",
+      "code": "E2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/entry-E2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/entry-E2-r08-night.webp"
+    },
+    {
+      "index": 1201,
+      "room": "office",
+      "code": "O1",
+      "job_id": "ca070e93-9285-4921-ac3c-3a7389836d80",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1201.png",
+      "qa": {
+        "approved": true,
+        "status": "geometry_selected_furniture_style_reviewed"
+      },
+      "qaNote": "Home office: the source camera, fixed openings, assigned owned furniture, selected NEW furniture and Cocoa & Chrome finishes were visually reviewed. Exact dimensions, physical samples, fabrication details and current procurement still require verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/office-O1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/office-O1-r08-day.webp"
+    },
+    {
+      "index": 2101,
+      "room": "office",
+      "code": "O2",
+      "job_id": "16e09f3a-bab8-42e9-8266-4e86e1680980",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2101.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_source_geometry_owned_furniture_reviewed"
+      },
+      "qaNote": "Reviewed against the source camera, approved companion, furniture specification and Cocoa & Chrome palette. Existing openings and selected furniture retained; dimensions and samples require site verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/office-O2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/office-O2-r08-day.webp"
+    },
+    {
+      "index": 90003,
+      "room": "office",
+      "sourceCode": "O1",
+      "sourceJobId": "ca070e93-9285-4921-ac3c-3a7389836d80",
+      "job_id": "066a50e9-10fe-4154-96f7-bff95638c4ef",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90003.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_privacy_geometry_reviewed"
+      },
+      "qaNote": "Accepted night camera retains the same room, furniture and fixtures; main privacy layers and bare high glazing agree with its day source.",
+      "code": "O1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/office-O1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/office-O1-r08-night.webp"
+    },
+    {
+      "index": 90010,
+      "room": "office",
+      "sourceCode": "O2",
+      "sourceJobId": "16e09f3a-bab8-42e9-8266-4e86e1680980",
+      "job_id": "072821ab-34fa-43b1-aae7-e244bc419090",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90010.png",
+      "qa": {
+        "approved": true,
+        "status": "night_privacy_glass_reflections_reviewed"
+      },
+      "qaNote": "Main bank fully opaque, circular high window bare, internal gallery doors clear with a lit interior hall and compatible closed-shade reflections. Furniture and camera remain unchanged.",
+      "code": "O2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/office-O2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/office-O2-r08-night.webp"
+    },
+    {
+      "index": 1302,
+      "room": "media",
+      "code": "M1",
+      "job_id": "367c7c54-1be8-4458-a67b-fc9c705288a8",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1302.png",
+      "qa": {
+        "approved": true,
+        "status": "geometry_selected_furniture_style_reviewed"
+      },
+      "qaNote": "Media room: the source camera, fixed openings, assigned owned furniture, selected NEW furniture and Cocoa & Chrome finishes were visually reviewed. Exact dimensions, physical samples, fabrication details and current procurement still require verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/media-M1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/media-M1-r08-day.webp"
+    },
+    {
+      "index": 2502,
+      "room": "media",
+      "code": "M2",
+      "job_id": "8c629182-3137-4e04-bad8-42407ff0226c",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2502.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_furniture_geometry_reviewed"
+      },
+      "qaNote": "Source camera, approved primary furniture and adjacent context verified; local continuity corrections accepted.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/media-M2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/media-M2-r08-day.webp"
+    },
+    {
+      "index": 6302,
+      "room": "media",
+      "sourceCode": "M1",
+      "sourceJobId": "367c7c54-1be8-4458-a67b-fc9c705288a8",
+      "job_id": "5b3866b5-c988-488b-a43c-a387a12ea913",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6302.png",
+      "qa": {
+        "approved": true,
+        "status": "exact_day_source_fixture_geometry_privacy_reviewed"
+      },
+      "qaNote": "Exact day camera, furniture forms/counts and installed lighting retained; real main opaque/privacy covering state and high/clear/windowless exceptions checked. Illustrated lighting and actual workroom performance still require commissioning.",
+      "code": "M1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/media-M1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/media-M1-r08-night.webp"
+    },
+    {
+      "index": 90014,
+      "room": "media",
+      "sourceCode": "M2",
+      "sourceJobId": "8c629182-3137-4e04-bad8-42407ff0226c",
+      "job_id": "01862752-8f72-44b8-88c1-b1a4dd1981e6",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90014.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_night_furniture_privacy_reviewed"
+      },
+      "qaNote": "Exact day furniture and supporting hardware retained; no false speaker light output; actual main windows fully covered for night privacy and high separate glazing remains bare.",
+      "code": "M2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/media-M2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/media-M2-r08-night.webp"
+    },
+    {
+      "index": 1103,
+      "room": "gym",
+      "code": "G1",
+      "job_id": "122e54bc-e863-4794-8d4c-5f522e3389af",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1103.png",
+      "qa": {
+        "approved": true,
+        "status": "geometry_palette_furniture_visually_reviewed"
+      },
+      "qaNote": "Empty gym with actual closet/bath/entry routes, mirror, charcoal resilient floor and exact quote; pearl-greige and silver fixtures newly applied. Actual site dimensions and samples still require approval.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/gym-G1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/gym-G1-r08-day.webp"
+    },
+    {
+      "index": 2303,
+      "room": "gym",
+      "code": "G2",
+      "job_id": "798bd336-a81c-4ac1-8f55-3331d0aca648",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2303.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_source_geometry_owned_furniture_reviewed"
+      },
+      "qaNote": "Reviewed against the source camera, approved companion, furniture specification and Cocoa & Chrome palette. Existing openings and selected furniture retained; dimensions and samples require site verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/gym-G2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/gym-G2-r08-day.webp"
+    },
+    {
+      "index": 6103,
+      "room": "gym",
+      "sourceCode": "G1",
+      "sourceJobId": "122e54bc-e863-4794-8d4c-5f522e3389af",
+      "job_id": "7f1ee841-e309-406a-bd03-e9855d1ef0ed",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6103.png",
+      "qa": {
+        "approved": true,
+        "status": "exact_source_night_camera_furniture_privacy_reviewed"
+      },
+      "qaNote": "Day-source camera, furniture counts, silver/brown-oak forms, materials and fixture inventory retained. Night privacy layers cover actual complete main openings; high stair/transom exemptions and reflected coverings checked. Lighting is illustrative pending electrician/workroom commissioning.",
+      "code": "G1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/gym-G1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/gym-G1-r08-night.webp"
+    },
+    {
+      "index": 90005,
+      "room": "gym",
+      "sourceCode": "G2",
+      "sourceJobId": "798bd336-a81c-4ac1-8f55-3331d0aca648",
+      "job_id": "db50ddfa-b6d8-4d95-9ec0-9b576f76b7ea",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90005.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_night_privacy_reflections_reviewed"
+      },
+      "qaNote": "Same accepted day camera and furniture; actual mainwindow privacy layers fully close and high separate glazing stays bare, with compatible glass reflections.",
+      "code": "G2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/gym-G2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/gym-G2-r08-night.webp"
+    },
+    {
+      "index": 1104,
+      "room": "bath",
+      "code": "B1",
+      "job_id": "45918b1b-5841-4ba4-8a33-76921e55f2a0",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1104.png",
+      "qa": {
+        "approved": true,
+        "status": "geometry_palette_furniture_visually_reviewed"
+      },
+      "qaNote": "Plan-led windowless bathroom keeps fixture/door positions and mirror reflections; new brown-oak plinth vanity, silver fittings and quiet pearl-gray wet tile. Actual site dimensions and samples still require approval.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bath-B1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bath-B1-r08-day.webp"
+    },
+    {
+      "index": 2104,
+      "room": "bath",
+      "code": "B2",
+      "job_id": "019cd57f-8022-46e3-82ef-f152b57b1150",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2104.png",
+      "qa": {
+        "approved": true,
+        "status": "target_camera_same_room_companion_reviewed"
+      },
+      "qaNote": "Correct alternate camera and actual opening/door groups retained; paired Cocoa furniture forms/counts, silver fixture inventory and materials agree with the approved primary. Site dimensions and samples remain qualified.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bath-B2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bath-B2-r08-day.webp"
+    },
+    {
+      "index": 6104,
+      "room": "bath",
+      "sourceCode": "B1",
+      "sourceJobId": "45918b1b-5841-4ba4-8a33-76921e55f2a0",
+      "job_id": "e876b461-d16f-458c-8179-395c479f5aaf",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6104.png",
+      "qa": {
+        "approved": true,
+        "status": "exact_source_night_camera_furniture_privacy_reviewed"
+      },
+      "qaNote": "Day-source camera, furniture counts, silver/brown-oak forms, materials and fixture inventory retained. Night privacy layers cover actual complete main openings; high stair/transom exemptions and reflected coverings checked. Lighting is illustrative pending electrician/workroom commissioning.",
+      "code": "B1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bath-B1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bath-B1-r08-night.webp"
+    },
+    {
+      "index": 7104,
+      "room": "bath",
+      "sourceCode": "B2",
+      "sourceJobId": "019cd57f-8022-46e3-82ef-f152b57b1150",
+      "job_id": "333f1ede-69fa-4f13-a11f-512cb30e5051",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7104.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_privacy_geometry_reviewed"
+      },
+      "qaNote": "Accepted night camera retains the same room, furniture and fixtures; main privacy layers and bare high glazing agree with its day source.",
+      "code": "B2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bath-B2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bath-B2-r08-night.webp"
+    },
+    {
+      "index": 1105,
+      "room": "great",
+      "code": "GR1",
+      "job_id": "9bf1310a-797e-46b5-a3b9-9b873b891fd2",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1105.png",
+      "qa": {
+        "approved": true,
+        "status": "geometry_selected_furniture_style_reviewed"
+      },
+      "qaNote": "Great room: the source camera, fixed openings, assigned owned furniture, selected NEW furniture and Cocoa & Chrome finishes were visually reviewed. Exact dimensions, physical samples, fabrication details and current procurement still require verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/great-GR1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/great-GR1-r08-day.webp"
+    },
+    {
+      "index": 2105,
+      "room": "great",
+      "code": "GR2",
+      "job_id": "b79b7a3b-2046-40f4-92c6-03d75c0dfc98",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2105.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_source_geometry_owned_furniture_reviewed"
+      },
+      "qaNote": "Reviewed against the source camera, approved companion, furniture specification and Cocoa & Chrome palette. Existing openings and selected furniture retained; dimensions and samples require site verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/great-GR2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/great-GR2-r08-day.webp"
+    },
+    {
+      "index": 90002,
+      "room": "great",
+      "sourceCode": "GR1",
+      "sourceJobId": "9bf1310a-797e-46b5-a3b9-9b873b891fd2",
+      "job_id": "9bc33f6e-7a74-415c-bc1c-7bfadf0c60ee",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90002.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_privacy_geometry_reviewed"
+      },
+      "qaNote": "Accepted night camera retains the same room, furniture and fixtures; main privacy layers and bare high glazing agree with its day source.",
+      "code": "GR1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/great-GR1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/great-GR1-r08-night.webp"
+    },
+    {
+      "index": 7105,
+      "room": "great",
+      "sourceCode": "GR2",
+      "sourceJobId": "b79b7a3b-2046-40f4-92c6-03d75c0dfc98",
+      "job_id": "7f877f8f-9d14-4891-9b8d-10bba192ca42",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7105.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_night_geometry_privacy_reviewed"
+      },
+      "qaNote": "Retains furnishings and two high three-pane windows bare while full main curtain coverage closes for night.",
+      "code": "GR2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/great-GR2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/great-GR2-r08-night.webp"
+    },
+    {
+      "index": 1306,
+      "room": "kitchen",
+      "code": "K1",
+      "job_id": "f113e111-ea7f-4a4a-a268-afa91c21351d",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1306.png",
+      "qa": {
+        "approved": true,
+        "status": "geometry_selected_furniture_style_reviewed"
+      },
+      "qaNote": "Kitchen: the source camera, fixed openings, assigned owned furniture, selected NEW furniture and Cocoa & Chrome finishes were visually reviewed. Exact dimensions, physical samples, fabrication details and current procurement still require verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/kitchen-K1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/kitchen-K1-r08-day.webp"
+    },
+    {
+      "index": 2506,
+      "room": "kitchen",
+      "code": "K2",
+      "job_id": "85bef29a-d9d7-4c73-9837-adb40efc1b1b",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2506.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_furniture_geometry_reviewed"
+      },
+      "qaNote": "Source camera, approved primary furniture and adjacent context verified; local continuity corrections accepted.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/kitchen-K2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/kitchen-K2-r08-day.webp"
+    },
+    {
+      "index": 6306,
+      "room": "kitchen",
+      "sourceCode": "K1",
+      "sourceJobId": "f113e111-ea7f-4a4a-a268-afa91c21351d",
+      "job_id": "4165ab6f-6a21-4ce2-9a64-c2f34718aa6b",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6306.png",
+      "qa": {
+        "approved": true,
+        "status": "exact_day_source_fixture_geometry_privacy_reviewed"
+      },
+      "qaNote": "Exact day camera, furniture forms/counts and installed lighting retained; real main opaque/privacy covering state and high/clear/windowless exceptions checked. Illustrated lighting and actual workroom performance still require commissioning.",
+      "code": "K1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/kitchen-K1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/kitchen-K1-r08-night.webp"
+    },
+    {
+      "index": 90017,
+      "room": "kitchen",
+      "sourceCode": "K2",
+      "sourceJobId": "85bef29a-d9d7-4c73-9837-adb40efc1b1b",
+      "job_id": "a7d0e1fe-8d2b-4fda-b583-a5846a361afb",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90017.png",
+      "qa": {
+        "approved": true,
+        "status": "camera_geometry_furnishings_privacy_reviewed"
+      },
+      "qaNote": "Paired day kitchen layout, open stair-hall doorway and electrical controls retained; main privacy coverage fully closed, no added artwork or fixture.",
+      "code": "K2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/kitchen-K2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/kitchen-K2-r08-night.webp"
+    },
+    {
+      "index": 1307,
+      "room": "dining",
+      "code": "D1",
+      "job_id": "160633f3-791a-4627-bf2d-0b14fe15dc4d",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1307.png",
+      "qa": {
+        "approved": true,
+        "status": "geometry_selected_furniture_style_reviewed"
+      },
+      "qaNote": "Formal dining: the source camera, fixed openings, assigned owned furniture, selected NEW furniture and Cocoa & Chrome finishes were visually reviewed. Exact dimensions, physical samples, fabrication details and current procurement still require verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/dining-D1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/dining-D1-r08-day.webp"
+    },
+    {
+      "index": 2507,
+      "room": "dining",
+      "code": "D2",
+      "job_id": "05c7d56c-1a15-4cc0-b1cb-1c6a2afb4c06",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2507.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_source_room_context_reviewed"
+      },
+      "qaNote": "Approved direct open dining-to-living connection, selected furniture and adjoining-room context. Perspective and clearances are illustrative; field measurements and delivery fit remain required.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/dining-D2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/dining-D2-r08-day.webp"
+    },
+    {
+      "index": 90001,
+      "room": "dining",
+      "sourceCode": "D1",
+      "sourceJobId": "160633f3-791a-4627-bf2d-0b14fe15dc4d",
+      "job_id": "24a829a2-d7b0-4888-8c69-8a0c18a75e8a",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90001.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_privacy_geometry_reviewed"
+      },
+      "qaNote": "Accepted night camera retains the same room, furniture and fixtures; main privacy layers and bare high glazing agree with its day source.",
+      "code": "D1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/dining-D1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/dining-D1-r08-night.webp"
+    },
+    {
+      "index": 7507,
+      "room": "dining",
+      "sourceCode": "D2",
+      "sourceJobId": "05c7d56c-1a15-4cc0-b1cb-1c6a2afb4c06",
+      "job_id": "5ab8b30f-cb8a-4054-bde9-6adfb5cebcd9",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7507.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_night_furniture_privacy_reviewed"
+      },
+      "qaNote": "All selected furniture, source-camera architecture and existing lighting retained. Full privacy/blackout layers and separate bare high glazing match the room schedule.",
+      "code": "D2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/dining-D2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/dining-D2-r08-night.webp"
+    },
+    {
+      "index": 1408,
+      "room": "living",
+      "code": "LR1",
+      "job_id": "08a383a7-e7b8-4008-a0a7-6aced8f181cb",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1408.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_source_geometry_owned_furniture_reviewed"
+      },
+      "qaNote": "Reviewed against the source camera, approved companion, furniture specification and Cocoa & Chrome palette. Existing openings and selected furniture retained; dimensions and samples require site verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/living-LR1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/living-LR1-r08-day.webp"
+    },
+    {
+      "index": 2608,
+      "room": "living",
+      "code": "LR2",
+      "job_id": "03807198-e2ff-4dc2-8b19-720e16ee41b2",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2608.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_source_room_context_reviewed"
+      },
+      "qaNote": "Approved direct open dining-to-living connection, selected furniture and adjoining-room context. Perspective and clearances are illustrative; field measurements and delivery fit remain required.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/living-LR2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/living-LR2-r08-day.webp"
+    },
+    {
+      "index": 90007,
+      "room": "living",
+      "sourceCode": "LR1",
+      "sourceJobId": "08a383a7-e7b8-4008-a0a7-6aced8f181cb",
+      "job_id": "3a1ce416-5094-4d5f-934a-68bb7e9465cd",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90007.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_night_privacy_reflections_reviewed"
+      },
+      "qaNote": "Same accepted day camera and furniture; actual mainwindow privacy layers fully close and high separate glazing stays bare, with compatible glass reflections.",
+      "code": "LR1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/living-LR1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/living-LR1-r08-night.webp"
+    },
+    {
+      "index": 90013,
+      "room": "living",
+      "sourceCode": "LR2",
+      "sourceJobId": "03807198-e2ff-4dc2-8b19-720e16ee41b2",
+      "job_id": "7906089b-eb42-423b-a504-24f9a91e63e5",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90013.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_night_furniture_privacy_reviewed"
+      },
+      "qaNote": "Exact day furniture and supporting hardware retained; no false speaker light output; actual main windows fully covered for night privacy and high separate glazing remains bare.",
+      "code": "LR2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/living-LR2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/living-LR2-r08-night.webp"
+    },
+    {
+      "index": 1003,
+      "room": "sunroom",
+      "code": "S1",
+      "job_id": "93e23141-5c94-4bfb-8151-9eb2b2358aa8",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1003.png",
+      "qa": {
+        "approved": true,
+        "status": "source_photo_owned_furniture_style_reviewed"
+      },
+      "qaNote": "Original sunroom window/transom banks, oven tower and terrace door kept; six owned chairs with distinct track-arm end pair and Espresso Walnut/Aluminum Maslow preserved. Option2 pearl/greige, brown oak and polished silver finish scheme applied. Exact furniture footprint and samples remain to verify.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/sunroom-S1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/sunroom-S1-r08-day.webp"
+    },
+    {
+      "index": 2109,
+      "room": "sunroom",
+      "code": "S2",
+      "job_id": "6c95ada0-4faf-4e1b-8fdb-4b7b38e90c0b",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2109.png",
+      "qa": {
+        "approved": true,
+        "status": "target_camera_same_room_companion_reviewed"
+      },
+      "qaNote": "Correct alternate camera and actual opening/door groups retained; paired Cocoa furniture forms/counts, silver fixture inventory and materials agree with the approved primary. Site dimensions and samples remain qualified.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/sunroom-S2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/sunroom-S2-r08-day.webp"
+    },
+    {
+      "index": 6003,
+      "room": "sunroom",
+      "sourceCode": "S1",
+      "sourceJobId": "93e23141-5c94-4bfb-8151-9eb2b2358aa8",
+      "job_id": "028ccbb3-f25c-4f63-8911-98a240dfbe63",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6003.png",
+      "qa": {
+        "approved": true,
+        "status": "exact_source_night_camera_furniture_privacy_reviewed"
+      },
+      "qaNote": "Day-source camera, furniture counts, silver/brown-oak forms, materials and fixture inventory retained. Night privacy layers cover actual complete main openings; high stair/transom exemptions and reflected coverings checked. Lighting is illustrative pending electrician/workroom commissioning.",
+      "code": "S1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/sunroom-S1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/sunroom-S1-r08-night.webp"
+    },
+    {
+      "index": 7109,
+      "room": "sunroom",
+      "sourceCode": "S2",
+      "sourceJobId": "6c95ada0-4faf-4e1b-8fdb-4b7b38e90c0b",
+      "job_id": "428d03a0-fcbb-4523-b96d-dd81617814b6",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7109.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_day_night_privacy_geometry_reviewed"
+      },
+      "qaNote": "Accepted night camera retains the same room, furniture and fixtures; main privacy layers and bare high glazing agree with its day source.",
+      "code": "S2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/sunroom-S2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/sunroom-S2-r08-night.webp"
+    },
+    {
+      "index": 1410,
+      "room": "stair2",
+      "code": "ST1",
+      "job_id": "7d7b67ca-1299-4e6a-801b-f4945ef8b54a",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1410.png",
+      "qa": {
+        "approved": true,
+        "status": "shell_furniture_context_reviewed"
+      },
+      "qaNote": "Source stair/half-landing retained with no runner; visible great room reflects the selected Carrara and polished steel furniture.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/stair2-ST1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/stair2-ST1-r08-day.webp"
+    },
+    {
+      "index": 2710,
+      "room": "stair2",
+      "code": "ST2",
+      "job_id": "378eb6d9-602f-4f54-828e-6254693703a1",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2710.png",
+      "qa": {
+        "approved": true,
+        "status": "original_photo_door_stair_geometry_reviewed"
+      },
+      "qaNote": "Full closed paneled door matches the original model-home staircase photo; actual great-room glimpse remains outside the door, with correct stair, railing, bare treads and silver/blue styling.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/stair2-ST2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/stair2-ST2-r08-day.webp"
+    },
+    {
+      "index": 6410,
+      "room": "stair2",
+      "sourceCode": "ST1",
+      "sourceJobId": "7d7b67ca-1299-4e6a-801b-f4945ef8b54a",
+      "job_id": "0638ef04-99f7-4dbc-9b0c-6f2eb493b1ab",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6410.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_geometry_furniture_lighting_reviewed"
+      },
+      "qaNote": "Exact approved day camera and furnishings retained, with only the specified existing fixtures and night environment.",
+      "code": "ST1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/stair2-ST1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/stair2-ST1-r08-night.webp"
+    },
+    {
+      "index": 7710,
+      "room": "stair2",
+      "sourceCode": "ST2",
+      "sourceJobId": "378eb6d9-602f-4f54-828e-6254693703a1",
+      "job_id": "73fa2844-6bce-4b87-8b19-7300b4f8e8b9",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7710.png",
+      "qa": {
+        "approved": true,
+        "status": "exact_day_source_shell_furniture_night_reviewed"
+      },
+      "qaNote": "Final day-source staircase camera and full closed paneled door retained; bare real high windows, no runner or additional fixture, correct same-room furnishings.",
+      "code": "ST2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/stair2-ST2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/stair2-ST2-r08-night.webp"
+    },
+    {
+      "index": 1011,
+      "room": "ownerbed",
+      "code": "OB1",
+      "job_id": "89ed156e-6f21-4579-b46f-b4cb96c1f008",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1011.png",
+      "qa": {
+        "approved": true,
+        "status": "owned_configuration_shell_style_reviewed"
+      },
+      "qaNote": "Owners suite: the source camera, fixed openings, assigned owned furniture, selected NEW furniture and Cocoa & Chrome finishes were visually reviewed. Exact dimensions, physical samples, fabrication details and current procurement still require verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/ownerbed-OB1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/ownerbed-OB1-r08-day.webp"
+    },
+    {
+      "index": 2311,
+      "room": "ownerbed",
+      "code": "OB2",
+      "job_id": "7c5493e1-9e04-45ac-bdc4-97cc81e8b5f0",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2311.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_source_geometry_owned_furniture_reviewed"
+      },
+      "qaNote": "Reviewed against the source camera, approved companion, furniture specification and Cocoa & Chrome palette. Existing openings and selected furniture retained; dimensions and samples require site verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/ownerbed-OB2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/ownerbed-OB2-r08-day.webp"
+    },
+    {
+      "index": 6011,
+      "room": "ownerbed",
+      "sourceCode": "OB1",
+      "sourceJobId": "89ed156e-6f21-4579-b46f-b4cb96c1f008",
+      "job_id": "efe08d72-4938-4c8e-a11b-88ea39c45208",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6011.png",
+      "qa": {
+        "approved": true,
+        "status": "same_source_night_owned_furniture_privacy_reviewed"
+      },
+      "qaNote": "Owned silhouettes/counts, camera and installed fixtures retained. Independent opaque layers fully close bedroom bank or lounge slider/French doors/flanks/bar glazing; clear high transom remains. Physical blackout performance and dimensions require commissioning.",
+      "code": "OB1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/ownerbed-OB1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/ownerbed-OB1-r08-night.webp"
+    },
+    {
+      "index": 7311,
+      "room": "ownerbed",
+      "sourceCode": "OB2",
+      "sourceJobId": "7c5493e1-9e04-45ac-bdc4-97cc81e8b5f0",
+      "job_id": "7204791d-bbce-420d-b470-36ed6a5449ce",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7311.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_furniture_privacy_geometry_reviewed"
+      },
+      "qaNote": "Same selected room furnishings, exact day camera, fixtures and required opaque night coverings retained; reflections coordinated.",
+      "code": "OB2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/ownerbed-OB2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/ownerbed-OB2-r08-night.webp"
+    },
+    {
+      "index": 1412,
+      "room": "retreat",
+      "code": "OR1",
+      "job_id": "a08b5163-5929-442c-91e5-3dcc6482887d",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1412.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_source_geometry_owned_furniture_reviewed"
+      },
+      "qaNote": "Reviewed against the source camera, approved companion, furniture specification and Cocoa & Chrome palette. Existing openings and selected furniture retained; dimensions and samples require site verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/retreat-OR1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/retreat-OR1-r08-day.webp"
+    },
+    {
+      "index": 2112,
+      "room": "retreat",
+      "code": "OR2",
+      "job_id": "9fe4f381-5afe-42eb-8dfe-49c6374b11cf",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2112.png",
+      "qa": {
+        "approved": true,
+        "status": "furniture_camera_verified"
+      },
+      "qaNote": "Two Drew Dove chairs, one Brown Oak cube and Isla lamp coordinated with primary wetbar, five true windows and open owners-suite link.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/retreat-OR2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/retreat-OR2-r08-day.webp"
+    },
+    {
+      "index": 6412,
+      "room": "retreat",
+      "sourceCode": "OR1",
+      "sourceJobId": "a08b5163-5929-442c-91e5-3dcc6482887d",
+      "job_id": "9036b18e-1e68-4b55-85be-51d224a1debb",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6412.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_furniture_privacy_geometry_reviewed"
+      },
+      "qaNote": "Same selected room furnishings, exact day camera, fixtures and required opaque night coverings retained; reflections coordinated.",
+      "code": "OR1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/retreat-OR1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/retreat-OR1-r08-night.webp"
+    },
+    {
+      "index": 7112,
+      "room": "retreat",
+      "sourceCode": "OR2",
+      "sourceJobId": "9fe4f381-5afe-42eb-8dfe-49c6374b11cf",
+      "job_id": "067ea061-37b5-4761-91e9-a4cef94f4560",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7112.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_night_furniture_privacy_reviewed"
+      },
+      "qaNote": "All selected furniture, source-camera architecture and existing lighting retained. Full privacy/blackout layers and separate bare high glazing match the room schedule.",
+      "code": "OR2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/retreat-OR2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/retreat-OR2-r08-night.webp"
+    },
+    {
+      "index": 1413,
+      "room": "ownerbath",
+      "code": "BA1",
+      "job_id": "9a745ad3-5f79-406a-8510-bc3465a4cc05",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1413.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_source_geometry_owned_furniture_reviewed"
+      },
+      "qaNote": "Reviewed against the source camera, approved companion, furniture specification and Cocoa & Chrome palette. Existing openings and selected furniture retained; dimensions and samples require site verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/ownerbath-BA1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/ownerbath-BA1-r08-day.webp"
+    },
+    {
+      "index": 2413,
+      "room": "ownerbath",
+      "code": "BA2",
+      "job_id": "0aadd7ae-37e0-4cf5-887f-619b84e4179e",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2413.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_source_geometry_owned_furniture_reviewed"
+      },
+      "qaNote": "Reviewed against the source camera, approved companion, furniture specification and Cocoa & Chrome palette. Existing openings and selected furniture retained; dimensions and samples require site verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/ownerbath-BA2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/ownerbath-BA2-r08-day.webp"
+    },
+    {
+      "index": 90008,
+      "room": "ownerbath",
+      "sourceCode": "BA1",
+      "sourceJobId": "9a745ad3-5f79-406a-8510-bc3465a4cc05",
+      "job_id": "d1670e66-9c33-44da-a28b-2903d50e0cf6",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90008.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_privacy_material_geometry_reviewed"
+      },
+      "qaNote": "Approved day furniture and finish materials remain identical; true main windows fully opaque at night with matching reflections and no added fixtures.",
+      "code": "BA1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/ownerbath-BA1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/ownerbath-BA1-r08-night.webp"
+    },
+    {
+      "index": 7413,
+      "room": "ownerbath",
+      "sourceCode": "BA2",
+      "sourceJobId": "0aadd7ae-37e0-4cf5-887f-619b84e4179e",
+      "job_id": "e1019ef3-bdbd-44e2-9e53-ebcd79ecc303",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7413.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_furniture_privacy_geometry_reviewed"
+      },
+      "qaNote": "Same selected room furnishings, exact day camera, fixtures and required opaque night coverings retained; reflections coordinated.",
+      "code": "BA2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/ownerbath-BA2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/ownerbath-BA2-r08-night.webp"
+    },
+    {
+      "index": 1114,
+      "room": "ownercloset",
+      "code": "WC1",
+      "job_id": "78e03676-0855-43bc-afef-3b5de3d5ef43",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1114.png",
+      "qa": {
+        "approved": true,
+        "status": "geometry_selected_furniture_style_reviewed"
+      },
+      "qaNote": "Windowless source camera and storage bay retained; ownedClioFrost/Pewter, whiteBlythe and41x77SSleaner beside vanity preserved. Pearlwhitewardrobes/darkoakdrawer modules withplinths coordinate. Measured fit, samples and current procurement remain qualified.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/ownercloset-WC1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/ownercloset-WC1-r08-day.webp"
+    },
+    {
+      "index": 6114,
+      "room": "ownercloset",
+      "sourceCode": "WC1",
+      "sourceJobId": "78e03676-0855-43bc-afef-3b5de3d5ef43",
+      "job_id": "c828c8f1-5cc1-437a-a655-cb0cc56acbd1",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6114.png",
+      "qa": {
+        "approved": true,
+        "status": "exact_day_source_fixture_geometry_privacy_reviewed"
+      },
+      "qaNote": "Exact day camera, furniture forms/counts and installed lighting retained; real main opaque/privacy covering state and high/clear/windowless exceptions checked. Illustrated lighting and actual workroom performance still require commissioning.",
+      "code": "WC1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/ownercloset-WC1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/ownercloset-WC1-r08-night.webp"
+    },
+    {
+      "index": 1115,
+      "room": "bed2",
+      "code": "B21",
+      "job_id": "81ecd7fe-7a7d-49b0-828f-18801d1de3e3",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1115.png",
+      "qa": {
+        "approved": true,
+        "status": "private_source_configuration_style_reviewed"
+      },
+      "qaNote": "Bedroom 2: the source camera, fixed openings, assigned owned furniture, selected NEW furniture and Cocoa & Chrome finishes were visually reviewed. Exact dimensions, physical samples, fabrication details and current procurement still require verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bed2-B21-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bed2-B21-r08-day.webp"
+    },
+    {
+      "index": 2115,
+      "room": "bed2",
+      "code": "B22",
+      "job_id": "3479a079-3b0e-420a-8f7b-abca4c1db9a3",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2115.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_source_geometry_owned_furniture_reviewed"
+      },
+      "qaNote": "Reviewed against the source camera, approved companion, furniture specification and Cocoa & Chrome palette. Existing openings and selected furniture retained; dimensions and samples require site verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bed2-B22-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bed2-B22-r08-day.webp"
+    },
+    {
+      "index": 6115,
+      "room": "bed2",
+      "sourceCode": "B21",
+      "sourceJobId": "81ecd7fe-7a7d-49b0-828f-18801d1de3e3",
+      "job_id": "90865a4e-3229-4c2d-b248-edc0d24b1d7e",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6115.png",
+      "qa": {
+        "approved": true,
+        "status": "exact_day_source_night_privacy_furniture_reviewed"
+      },
+      "qaNote": "Night matches its approved day camera, furniture, fixtures and complete bedroom blackout coverage.",
+      "code": "B21-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bed2-B21-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bed2-B21-r08-night.webp"
+    },
+    {
+      "index": 90009,
+      "room": "bed2",
+      "sourceCode": "B22",
+      "sourceJobId": "3479a079-3b0e-420a-8f7b-abca4c1db9a3",
+      "job_id": "c4899032-4f03-4c95-b635-845b4e4a3755",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90009.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_privacy_material_geometry_reviewed"
+      },
+      "qaNote": "Approved day furniture and finish materials remain identical; true main windows fully opaque at night with matching reflections and no added fixtures.",
+      "code": "B22-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bed2-B22-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bed2-B22-r08-night.webp"
+    },
+    {
+      "index": 1116,
+      "room": "bed3",
+      "code": "B31",
+      "job_id": "927aabda-b5f8-421e-b787-248e88ef95e5",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1116.png",
+      "qa": {
+        "approved": true,
+        "status": "private_source_configuration_style_reviewed"
+      },
+      "qaNote": "Bedroom 3: the source camera, fixed openings, assigned owned furniture, selected NEW furniture and Cocoa & Chrome finishes were visually reviewed. Exact dimensions, physical samples, fabrication details and current procurement still require verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bed3-B31-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bed3-B31-r08-day.webp"
+    },
+    {
+      "index": 2516,
+      "room": "bed3",
+      "code": "B32",
+      "job_id": "d24ed9ff-b474-452d-b5e7-5b34cabe5c14",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2516.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_furniture_geometry_reviewed"
+      },
+      "qaNote": "Source camera, approved primary furniture and adjacent context verified; local continuity corrections accepted.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bed3-B32-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bed3-B32-r08-day.webp"
+    },
+    {
+      "index": 6116,
+      "room": "bed3",
+      "sourceCode": "B31",
+      "sourceJobId": "927aabda-b5f8-421e-b787-248e88ef95e5",
+      "job_id": "e2cb4e2b-418d-41d7-af0e-639348952ac1",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6116.png",
+      "qa": {
+        "approved": true,
+        "status": "exact_day_source_night_privacy_furniture_reviewed"
+      },
+      "qaNote": "Night matches its approved day camera, furniture, fixtures and complete bedroom blackout coverage.",
+      "code": "B31-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bed3-B31-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bed3-B31-r08-night.webp"
+    },
+    {
+      "index": 90016,
+      "room": "bed3",
+      "sourceCode": "B32",
+      "sourceJobId": "d24ed9ff-b474-452d-b5e7-5b34cabe5c14",
+      "job_id": "63b7e507-5ccb-4e2a-85b8-a95b671eae89",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90016.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_night_blackout_furniture_reviewed"
+      },
+      "qaNote": "Approved camera and three-drawer dresser retained; every actual window bank fully opaque with closed edge and center gaps, same furniture and fixtures.",
+      "code": "B32-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bed3-B32-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bed3-B32-r08-night.webp"
+    },
+    {
+      "index": 1617,
+      "room": "sharedbath",
+      "code": "SB1",
+      "job_id": "141133fd-eaaa-4714-b234-f25f9476dfc8",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1617.png",
+      "qa": {
+        "approved": true,
+        "status": "architecture_furniture_context_reviewed"
+      },
+      "qaNote": "Accepted source camera, real architectural openings and coordinated adjoining-room furniture retained. Product forms and reflections visually reviewed.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/sharedbath-SB1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/sharedbath-SB1-r08-day.webp"
+    },
+    {
+      "index": 2217,
+      "room": "sharedbath",
+      "code": "SB2",
+      "job_id": "adda8532-2e1a-4a79-8e49-c70233d4c890",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2217.png",
+      "qa": {
+        "approved": true,
+        "status": "bath_geometry_adjoining_products_reviewed"
+      },
+      "qaNote": "Original bathroom camera and fixtures kept; connected bedroom and reflection retain the Gather natural-oak plinth, two-drawer Brown Oak bedside, Isla lamp and current soft accents.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/sharedbath-SB2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/sharedbath-SB2-r08-day.webp"
+    },
+    {
+      "index": 90018,
+      "room": "sharedbath",
+      "sourceCode": "SB1",
+      "sourceJobId": "141133fd-eaaa-4714-b234-f25f9476dfc8",
+      "job_id": "aff40cfe-ab87-4820-a4ef-58caf4a1064c",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90018.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_privacy_reflected_state_reviewed"
+      },
+      "qaNote": "Connected bedroom main window now fully opaque with compatible mirror view; source camera, bathroom fittings and selected adjoining furniture preserved.",
+      "code": "SB1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/sharedbath-SB1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/sharedbath-SB1-r08-night.webp"
+    },
+    {
+      "index": 7217,
+      "room": "sharedbath",
+      "sourceCode": "SB2",
+      "sourceJobId": "adda8532-2e1a-4a79-8e49-c70233d4c890",
+      "job_id": "466ceb3b-ecaf-45fe-a9e2-3cfac6e979da",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7217.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_furniture_privacy_reflections_reviewed"
+      },
+      "qaNote": "Bathroom and connected bedroom retain selected two-drawer bedside/Isla/Gather natural-oak plinth; visible main window fully opaque with matching mirrored night state.",
+      "code": "SB2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/sharedbath-SB2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/sharedbath-SB2-r08-night.webp"
+    },
+    {
+      "index": 1618,
+      "room": "laundry",
+      "code": "LA1",
+      "job_id": "fed2393e-c93d-4ac5-9c32-a779985d22f5",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1618.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_geometry_finish_schedule_reviewed"
+      },
+      "qaNote": "Quiet gray matte porcelain laundry floor matches its finish schedule while actual window/counter/machine/camera geometry remains.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/laundry-LA1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/laundry-LA1-r08-day.webp"
+    },
+    {
+      "index": 2618,
+      "room": "laundry",
+      "code": "LA2",
+      "job_id": "1a39c021-c453-4097-8013-5c76b7aa3bfe",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2618.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_geometry_finish_schedule_reviewed"
+      },
+      "qaNote": "Quiet gray matte porcelain laundry floor matches its finish schedule while actual window/counter/machine/camera geometry remains.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/laundry-LA2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/laundry-LA2-r08-day.webp"
+    },
+    {
+      "index": 6618,
+      "room": "laundry",
+      "sourceCode": "LA1",
+      "sourceJobId": "fed2393e-c93d-4ac5-9c32-a779985d22f5",
+      "job_id": "3d3c6cd0-34cf-4c96-b2bb-aa9bf4f9c2db",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6618.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_privacy_material_geometry_reviewed"
+      },
+      "qaNote": "Approved day furniture and finish materials remain identical; true main windows fully opaque at night with matching reflections and no added fixtures.",
+      "code": "LA1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/laundry-LA1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/laundry-LA1-r08-night.webp"
+    },
+    {
+      "index": 7618,
+      "room": "laundry",
+      "sourceCode": "LA2",
+      "sourceJobId": "1a39c021-c453-4097-8013-5c76b7aa3bfe",
+      "job_id": "ea82bf98-813b-48e3-b74a-1b67742a1a4d",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7618.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_privacy_material_geometry_reviewed"
+      },
+      "qaNote": "Approved day furniture and finish materials remain identical; true main windows fully opaque at night with matching reflections and no added fixtures.",
+      "code": "LA2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/laundry-LA2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/laundry-LA2-r08-night.webp"
+    },
+    {
+      "index": 1119,
+      "room": "stair3",
+      "code": "ST31",
+      "job_id": "724a4528-0a20-4a97-b0bc-22d61f25624d",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1119.png",
+      "qa": {
+        "approved": true,
+        "status": "geometry_palette_furniture_visually_reviewed"
+      },
+      "qaNote": "Three high paired 2x2 window units remain bare and stair/half-landing geometry held; no runner; Cocoa pearl walls, blue-white artwork and silver decorative details. Actual site dimensions and samples still require approval.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/stair3-ST31-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/stair3-ST31-r08-day.webp"
+    },
+    {
+      "index": 6119,
+      "room": "stair3",
+      "sourceCode": "ST31",
+      "sourceJobId": "724a4528-0a20-4a97-b0bc-22d61f25624d",
+      "job_id": "653031b2-a8a5-480a-84a5-913241d3f184",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6119.png",
+      "qa": {
+        "approved": true,
+        "status": "exact_source_night_camera_furniture_privacy_reviewed"
+      },
+      "qaNote": "Day-source camera, furniture counts, silver/brown-oak forms, materials and fixture inventory retained. Night privacy layers cover actual complete main openings; high stair/transom exemptions and reflected coverings checked. Lighting is illustrative pending electrician/workroom commissioning.",
+      "code": "ST31-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/stair3-ST31-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/stair3-ST31-r08-night.webp"
+    },
+    {
+      "index": 1712,
+      "room": "loft",
+      "code": "PL1",
+      "job_id": "1201aa1d-ae3f-4531-a91e-1a40135e3e5a",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1712.png",
+      "qa": {
+        "approved": true,
+        "status": "source_shell_furniture_exterior_context_reviewed"
+      },
+      "qaNote": "Reviewed the real roof and source camera: shallow south Juliet remains unfurnished, west patio has the same Black/White outdoor suite, and rooftop access remains open. Selected interior or outdoor furniture count and product forms are retained.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/loft-PL1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/loft-PL1-r08-day.webp"
+    },
+    {
+      "index": 2720,
+      "room": "loft",
+      "code": "PL2",
+      "job_id": "9c7d45ea-db28-44b8-9cd5-24f9c242c5ef",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2720.png",
+      "qa": {
+        "approved": true,
+        "status": "source_shell_furniture_exterior_context_reviewed"
+      },
+      "qaNote": "Reviewed the real roof and source camera: shallow south Juliet remains unfurnished, west patio has the same Black/White outdoor suite, and rooftop access remains open. Selected interior or outdoor furniture count and product forms are retained.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/loft-PL2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/loft-PL2-r08-day.webp"
+    },
+    {
+      "index": 90020,
+      "room": "loft",
+      "sourceCode": "PL1",
+      "sourceJobId": "1201aa1d-ae3f-4531-a91e-1a40135e3e5a",
+      "job_id": "74e446c7-f67e-4157-99f7-455bfb9d5516",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90020.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_owned_furniture_full_privacy_reviewed"
+      },
+      "qaNote": "Correct owned Cloud suite and all other furnishings retained. West slider, south French doors, both flank windows and bar main glass are fully opaque without an invented high-transom exemption.",
+      "code": "PL1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/loft-PL1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/loft-PL1-r08-night.webp"
+    },
+    {
+      "index": 7720,
+      "room": "loft",
+      "sourceCode": "PL2",
+      "sourceJobId": "9c7d45ea-db28-44b8-9cd5-24f9c242c5ef",
+      "job_id": "76125432-2bc8-47c8-bbd7-e114d7f42fa8",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7720.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_furniture_geometry_night_privacy_reviewed"
+      },
+      "qaNote": "Same approved penthouse/roof camera and selected furniture count retained; all main interior glazing fully opaque where required and outdoor roof/access geometry preserved.",
+      "code": "PL2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/loft-PL2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/loft-PL2-r08-night.webp"
+    },
+    {
+      "index": 1121,
+      "room": "bed5",
+      "code": "B51",
+      "job_id": "47d5cd0c-00e5-4355-9e0f-0d8239468ed9",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1121.png",
+      "qa": {
+        "approved": true,
+        "status": "private_source_configuration_style_reviewed"
+      },
+      "qaNote": "Penthouse guest bedroom: the source camera, fixed openings, assigned owned furniture, selected NEW furniture and Cocoa & Chrome finishes were visually reviewed. Exact dimensions, physical samples, fabrication details and current procurement still require verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bed5-B51-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bed5-B51-r08-day.webp"
+    },
+    {
+      "index": 2121,
+      "room": "bed5",
+      "code": "B52",
+      "job_id": "31aacc56-c447-416a-a772-8ffcefb9f54e",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2121.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_source_geometry_owned_furniture_reviewed"
+      },
+      "qaNote": "Reviewed against the source camera, approved companion, furniture specification and Cocoa & Chrome palette. Existing openings and selected furniture retained; dimensions and samples require site verification.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bed5-B52-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bed5-B52-r08-day.webp"
+    },
+    {
+      "index": 6121,
+      "room": "bed5",
+      "sourceCode": "B51",
+      "sourceJobId": "47d5cd0c-00e5-4355-9e0f-0d8239468ed9",
+      "job_id": "3127cafb-7528-46ea-9d30-d3aea6f99859",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6121.png",
+      "qa": {
+        "approved": true,
+        "status": "exact_day_source_night_privacy_furniture_reviewed"
+      },
+      "qaNote": "Night matches its approved day camera, furniture, fixtures and complete bedroom blackout coverage.",
+      "code": "B51-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bed5-B51-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bed5-B51-r08-night.webp"
+    },
+    {
+      "index": 7121,
+      "room": "bed5",
+      "sourceCode": "B52",
+      "sourceJobId": "31aacc56-c447-416a-a772-8ffcefb9f54e",
+      "job_id": "928f040c-e6b4-402b-8ee7-ad29f2a4c816",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7121.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_furniture_privacy_geometry_reviewed"
+      },
+      "qaNote": "Same selected room furnishings, exact day camera, fixtures and required opaque night coverings retained; reflections coordinated.",
+      "code": "B52-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bed5-B52-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bed5-B52-r08-night.webp"
+    },
+    {
+      "index": 1222,
+      "room": "bath4",
+      "code": "PBA1",
+      "job_id": "869701c8-f428-4346-b488-ae646187f646",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1222.png",
+      "qa": {
+        "approved": true,
+        "status": "targeted_repair_visually_reviewed"
+      },
+      "qaNote": "Wet-room floor corrected to matte quiet pearl-gray porcelain; no woodgrain or new opening. Full-plinth smoky-oak vanity and polished-silver fittings preserved. Exact site dimensions, assembly and samples require trade approval.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bath4-PBA1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bath4-PBA1-r08-day.webp"
+    },
+    {
+      "index": 6222,
+      "room": "bath4",
+      "sourceCode": "PBA1",
+      "sourceJobId": "869701c8-f428-4346-b488-ae646187f646",
+      "job_id": "1d7fc024-1cbd-4ec3-a546-c1242192ff39",
+      "model": "gpt_image_2_5",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6222.png",
+      "qa": {
+        "approved": true,
+        "status": "exact_day_source_fixture_geometry_privacy_reviewed"
+      },
+      "qaNote": "Exact day camera, furniture forms/counts and installed lighting retained; real main opaque/privacy covering state and high/clear/windowless exceptions checked. Illustrated lighting and actual workroom performance still require commissioning.",
+      "code": "PBA1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/bath4-PBA1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/bath4-PBA1-r08-night.webp"
+    },
+    {
+      "index": 1423,
+      "room": "terrace",
+      "code": "RT1",
+      "job_id": "400eda45-0e42-48e1-bd05-672551b8360c",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1423.png",
+      "qa": {
+        "approved": true,
+        "status": "shell_outdoor_furniture_visually_reviewed"
+      },
+      "qaNote": "Approved terrace shell and basket-weave deck retained; selected Black aluminum/White cushion furniture matches its companion schedule. Exterior fireplace remains subject to actual site confirmation.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/terrace-RT1-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/terrace-RT1-r08-day.webp"
+    },
+    {
+      "index": 2223,
+      "room": "terrace",
+      "code": "RT2",
+      "job_id": "408d48be-8573-4a82-b9e8-1b9380502f6c",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2223.png",
+      "qa": {
+        "approved": true,
+        "status": "source_shell_furniture_exterior_context_reviewed"
+      },
+      "qaNote": "Reviewed the real roof and source camera: shallow south Juliet remains unfurnished, west patio has the same Black/White outdoor suite, and rooftop access remains open. Selected interior or outdoor furniture count and product forms are retained.",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/terrace-RT2-r08-day.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/terrace-RT2-r08-day.webp"
+    },
+    {
+      "index": 6423,
+      "room": "terrace",
+      "sourceCode": "RT1",
+      "sourceJobId": "400eda45-0e42-48e1-bd05-672551b8360c",
+      "job_id": "8709f81e-5234-4fe4-a26b-da85c7565bb5",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6423.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_geometry_furniture_lighting_reviewed"
+      },
+      "qaNote": "Exact approved day camera and furnishings retained, with only the specified existing fixtures and night environment.",
+      "code": "RT1-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/terrace-RT1-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/terrace-RT1-r08-night.webp"
+    },
+    {
+      "index": 7223,
+      "room": "terrace",
+      "sourceCode": "RT2",
+      "sourceJobId": "408d48be-8573-4a82-b9e8-1b9380502f6c",
+      "job_id": "6fe1697a-9783-45e1-b525-440d4a63b8c6",
+      "model": "nano_banana_2_1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7223.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_furniture_geometry_night_privacy_reviewed"
+      },
+      "qaNote": "Same approved penthouse/roof camera and selected furniture count retained; all main interior glazing fully opaque where required and outdoor roof/access geometry preserved.",
+      "code": "RT2-CCN",
+      "status": "completed",
+      "webSrc": "cocoa-chrome-owned-assets/terrace-RT2-r08-night.webp",
+      "outputFile": "docs/cocoa-chrome-owned-assets/terrace-RT2-r08-night.webp"
+    }
+  ]
+}

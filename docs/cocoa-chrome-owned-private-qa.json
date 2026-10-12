@@ -1,0 +1,177 @@
+{
+  "revision": "CC-OWN-PRIVATE-QA-R02",
+  "date": "2026-10-12",
+  "designOption": "Cocoa & Chrome · Option2",
+  "reviewScope": "Private primary room files compared visually with verified same-camera shell sources, exact current owned allocation, approved core1011 and the named proposed new product forms. Photo-informed furniture approximation does not certify CAD or fit.",
+  "rooms": [
+    {
+      "roomId": "retreat",
+      "code": "OR1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1112.png",
+      "source": "assets/render-candidates/collected-mineral/r04/day-307.png",
+      "approved": false,
+      "checks": [
+        "Wetbar camera, ceiling/crown, sink/beverage fridge, cabinet footprint and open owners-bedroom connection retained.",
+        "Smoky Brown Oak/silver, quiet Carrara counter, pearl walls and pale oak now establish Option2.",
+        "Visible owner Modena PANEL/Grey Oak feet and Bezier OPEN bedside forms are generally preserved."
+      ],
+      "mustFix": [
+        "Replace BOTH visible bedside Isla-style tapered cone/white drum lamps with the actual TWO OWNED Bates Polished Nickel DOMES, matching approved ownerbed1011. The single new Isla is for the separate reading nook only, not an owned bedroom substitute.",
+        "Remove BOTH invented reading chairs and their cube table from this OR1 bar/bedroom crop. Same-camera approved307 establishes that the real chair nook is outside this crop. Do not force the reading pair onto the owners rug/windows."
+      ],
+      "notes": [
+        "Use current active Drew Small Bliss Dove pair and new Isla/cube ONLY in OR2 actual corner-window nook, retaining all five true windows.",
+        "Keep ownerbed blue/white art/textiles aligned to1011 while repairing only the identified local items."
+      ]
+    },
+    {
+      "roomId": "ownercloset",
+      "code": "WC1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1114.png",
+      "source": "assets/render-candidates/collected-mineral/r04/day-607.png",
+      "approved": true,
+      "checks": [
+        "Same measured-concept windowless U-storage footprint and camera; one bay deliberately reallocated to actual vanity, no island/freewall/window invention.",
+        "Clio Frost shagreen/Pewter open knee bay has THREE shallow top drawers and three short pulls.",
+        "Blythe White fur/Pewter plinth retained; full-height Stainless leaner mirror stands BESIDE vanity down to floor rather than behind or blocked.",
+        "Current mirror reflection agrees with closet rods/end shelving; pearl casework and Brown Oak/stainless accent drawers reflect Option2."
+      ],
+      "mustFix": [],
+      "notes": [
+        "Vanity/mirror bay remains a measured-fit concept: actual Clio width plus41-inch mirror must be field fitted, not fabricated from this perspective.",
+        "Closet loose rectangular mat remains off the stairs and does not contradict bare stair choice."
+      ]
+    },
+    {
+      "roomId": "bed2",
+      "code": "B21",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1115.png",
+      "source": "assets/render-candidates/collected-mineral/r04/day-408.png",
+      "approved": true,
+      "checks": [
+        "Headboard remains on actual stairhall/top printed-plan wall; separate hall opening at its left and front/sharedbath-boundary closet at farther left preserved.",
+        "Actual Modena SHELTER Queen with short straight wings and Grey Oak feet; exactly TWO Polished Nickel Orbiter wall lamps, no Bates duplication/LED retrofit.",
+        "Carbon Delfina8x10 remains neutral gray over exposed pale oak.",
+        "New compact bedside cabinets have one shallow top drawer over lower door/short silver knobs/plinth; new desk and light upholstered chair remain beside east/right window.",
+        "Visible narrow-window opaque shade plus separate sheers retained; main front bank is out of this crop, not invented elsewhere."
+      ],
+      "mustFix": [],
+      "notes": [
+        "Desk/chair are explicitly new fabrication/stock-match and unselected seating allowances; no retail SKU, stock or ergonomic adjustability claim is made.",
+        "Power and mounting method for owned Orbiters require real hardware verification."
+      ]
+    },
+    {
+      "roomId": "bed3",
+      "code": "B31",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1116.png",
+      "source": "assets/render-candidates/collected-mineral/r04/day-613.png",
+      "approved": true,
+      "checks": [
+        "Headboard remains screen-right between TWO actual single windows; separate paired/front bank at screen-left retained, no added door/window.",
+        "New Gather Alpine Ivory plain low upholstered Queen, broad padded rails and authentic small Natural Oak bed plinth; no floating bed/underLED or owned Modena duplication.",
+        "TWO Isla Pewter tapered-triangle/white-drum lamps and two new Brown Oak short-pull drawer cabinets; one new wide three-drawer Brown Oak chest/plinth.",
+        "Loose neutral rug over exposed pale oak and actual day sheers/raised opaque shades retained.",
+        "Smooth pearl/greige and dark Brown Oak/silver read as Option2, distinct from all-Natural Keane Option3."
+      ],
+      "mustFix": [],
+      "notes": [
+        "A small butter-yellow pillow accompanies blue textiles. This is removable staging; retain as a subtle Option2 accent only, not a whole-house mandatory formula.",
+        "Bed/rug/casework proportions are visual concepts and require actual room/door/foot-clearance measurements; configured Gather is final-sale stock/ZIP pending."
+      ]
+    },
+    {
+      "roomId": "bed5",
+      "code": "B51",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1121.png",
+      "source": "assets/render-candidates/collected-mineral/r04/day-614.png",
+      "approved": true,
+      "checks": [
+        "UNBUILT plan concept retains flat ceiling, solid WEST headboard wall and offset NORTH entry/linen bumpout; actual EAST window pair is behind this camera/out of crop.",
+        "No false headwall windows or curtains were added.",
+        "New Anneli Ivory Queen has plain rounded tall headboard and low upholstered rails; exactly TWO Zain Dark Pewter flat metal-drum/stem/round-base lamps.",
+        "New Brown Oak20-inch stands each have one shallow drawer/OPEN lower bookcubby/closed plinth; one42-inch chest has FOUR drawers/short stainless pulls.",
+        "Pale oak plus loose neutral rug, white bedding/blue textile, pearl walls and quiet silver-framed art retain Cocoa & Chrome; no Natural Keane carry."
+      ],
+      "mustFix": [],
+      "notes": [
+        "Future B52 must use accepted629 near-WEST-headboard camera looking directly at TWO EAST windows; headboard/art stay behind camera, north chest LEFT and south closet RIGHT.",
+        "No order or construction claim until unbuilt Bedroom5 is permitted and field-measured."
+      ]
+    },
+    {
+      "roomId": "ownerbath",
+      "code": "BA1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1113.png",
+      "approved": false,
+      "approvedForArchitectureAndFinish": true,
+      "checks": [
+        "Correct shower/tub/vanity camera; one true right/SOUTH dry window and reflected left shower image rather than an extra confirmed opening.",
+        "Quiet gray/white Carrara-look porcelain, Brown Oak/plinth vanity, silver fixture positions and blue/white dry-zone art preserve Option2 identity."
+      ],
+      "mustFix": [
+        "Remove the old freestanding pale wood spa stool as already specified; do not replace it with an extra unselected furniture piece."
+      ],
+      "notes": [
+        "Stool correction already planned by root. Source geometry otherwise passes; no need to redesign.",
+        "At night the actual opaque window-shade state must be consistent in the shower reflection."
+      ]
+    },
+    {
+      "roomId": "laundry",
+      "code": "LA1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1118.png",
+      "approved": true,
+      "checks": [
+        "Sink and TWO true windows remain on same left wall, near ARCHED and far rectangular; machine remains opposite/right.",
+        "Brown Oak lower fronts/stainless pulls/plinth and pearl upper cupboards preserve service footprint; no new window or shifted machine.",
+        "Exact Rinse and repeat.. quote has TWO periods and a restrained water/cycle graphic.",
+        "Operative opaque Roman coverings are visibly available at both real openings."
+      ],
+      "mustFix": [],
+      "notes": [
+        "Night shades must cover arched cap and lower sash strips fully. Laundry loose accessory quantities are not an owned-furniture claim."
+      ]
+    },
+    {
+      "roomId": "stair3",
+      "code": "ST31",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1119.png",
+      "approved": true,
+      "checks": [
+        "Correct quarter-turn lower fan, half-level landing and straight upper flight/open void retained from approved same-camera stair geometry.",
+        "THREE high2x2 grid windows remain bare; no stair runner, rug or tread pads.",
+        "Neutral pale oak treads, quiet silver/blue art, pearl paint and current white rail profile establish Cocoa & Chrome."
+      ],
+      "mustFix": [],
+      "notes": [
+        "Rail rise/run, baluster spacing and tread dimensions are not measurable from a rendered image; GC field geometry controls.",
+        "All three high stair units stay bare at night."
+      ]
+    },
+    {
+      "roomId": "bath4",
+      "code": "PBA1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1222.png",
+      "approved": true,
+      "checks": [
+        "UNBUILT plan concept keeps vanity near WEST entry and toilet farther EAST on same NORTH/screen-right wall, EAST shower beyond.",
+        "Shower fixtures and bench follow source plan sides; no external window invented.",
+        "Quiet Carrara-look porcelain, Brown Oak grounded vanity/short silver hardware and pearl paint maintain Option2."
+      ],
+      "mustFix": [],
+      "notes": [
+        "Construction/stock/measurements remain proposed because future Bedroom5/Bath4 is not yet built."
+      ]
+    }
+  ],
+  "summary": {
+    "approved": 7,
+    "rejected": 2,
+    "blockingFiles": [
+      "day-1112.png",
+      "day-1113.png"
+    ],
+    "nextAction": "Local OR1 Bates/forced-chair repair and previously planned BA1 spa-stool removal, then matched companion/night generation. All other private primary checks pass."
+  }
+}

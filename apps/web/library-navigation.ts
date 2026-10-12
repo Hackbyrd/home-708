@@ -18,6 +18,7 @@ const optionPages: Record<string, OptionContext> = {
   'design-library-assets/collected-value-consultation.html': mineral('Collected Value furniture'),
   'cocoa-chrome.html': cocoa('Room renders'),
   'cocoa-chrome-build-book.html': cocoa('Materials & build book'),
+  'cocoa-chrome-furniture.html': cocoa('Owned & new furniture'),
   'collected-mineral.html': collected('Room renders'),
   'collected-mineral-build-book.html': collected('Materials & build book'),
   'collected-mineral-furniture.html': collected('Owned & new furniture'),

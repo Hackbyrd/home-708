@@ -1,6 +1,6 @@
 {
   "name": "home-708",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "private": true,
   "description": "Production 3D digital twin and interior layout editor",
   "type": "module",
@@ -25,7 +25,7 @@
     "test": "vitest run",
     "test:e2e": "playwright test",
     "format": "prettier --write .",
-    "build:cocoa-chrome": "node scripts/build-cocoa-chrome.mjs && node scripts/build-house-design-review.mjs cocoa-chrome && node scripts/build-room-design-book.mjs cocoa-chrome && node scripts/build-design-library.mjs",
+    "build:cocoa-chrome": "node scripts/build-cocoa-chrome-owned.mjs && node scripts/build-design-library.mjs",
     "build:interior-guide": "node scripts/build-interior-design-guide.mjs && node scripts/build-house-design-review.mjs && node scripts/build-room-design-book.mjs && node scripts/build-design-library.mjs",
     "build:mineral-budget": "node scripts/build-mineral-budget.mjs",
     "build:move-in-plan": "node scripts/build-mineral-roadmap.mjs",

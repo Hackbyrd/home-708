@@ -114,7 +114,11 @@
             "assets/render-candidates/option-two-cocoa-chrome/r06/floor-4-manifest.json"
           ]
         ]
-      }
+      },
+      "ownedDesignFile": "docs/cocoa-chrome-owned-design.json",
+      "ownedProductionFile": "docs/cocoa-chrome-owned-production.json",
+      "ownedMediaDirectory": "cocoa-chrome-owned-assets",
+      "ownedFurniture": "cocoa-chrome-furniture.html"
     },
     {
       "id": "collected-mineral",

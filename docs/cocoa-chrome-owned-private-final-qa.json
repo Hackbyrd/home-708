@@ -1,0 +1,83 @@
+{
+  "revision": "CC-OWN-PRIVATE-FINAL-QA-R01",
+  "date": "2026-10-12",
+  "scope": "Paired accepted day-to-night and corrected rooftop master checks; no generation or ledger promotion.",
+  "images": [
+    {
+      "roomId": "bed2",
+      "code": "B21",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6115.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-1115.png",
+      "approved": true,
+      "checks": [
+        "Same Modena SHELTER Queen/Grey Oak feet, Carbon rug, two compact Brown Oak bedside drawer/door units, desk/chair and true closet/hall geometry.",
+        "Exactly TWO actual Polished Nickel Orbiter lamps, naturally warm task lighting; no added table lamps/LED/fixture.",
+        "Entire visible actual exterior window is opaque to its true edges, no daylight/uncovered sash strip or curtains on solid headwall."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Other true front-bank opening is out of this camera and remains covered by the shared room schedule; reverse night must prove its full closure.",
+        "Blackout performance and lamp power/dimming are field-verification items."
+      ]
+    },
+    {
+      "roomId": "bed3",
+      "code": "B31",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6116.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-1116.png",
+      "approved": true,
+      "checks": [
+        "Gather Alpine Ivory plain low Queen/authentic Natural Oak bed plinth, two Isla Pewter triangle/white-drum lamps, two Brown Oak stands and THREE-drawer chest match accepted primary.",
+        "All THREE actual glazing groups—paired front bank and the TWO single headwall windows—are fully opaque from top to floor with no exposed outside strip.",
+        "Same pale oak/loose neutral rug, blue/butter soft accents, artwork and shell; no added chandelier, lamp, LED or floating bed."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Day companion2116 chest mismatch remains a separate correction; this night uses correct primary1116 THREE-drawer chest.",
+        "Metal warms under lamps without changing actual Pewter selection."
+      ]
+    },
+    {
+      "roomId": "bed5",
+      "code": "B51",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6121.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-1121.png",
+      "approved": true,
+      "checks": [
+        "Exact same Anneli Ivory Queen, two Zain Dark Pewter flat-metal-drum lamps, two drawer/OPEN-lower-plinth Brown Oak stands and FOUR-drawer chest.",
+        "Solid WEST headboard wall and NORTH entry remain undraped; no false window/curtain/pedant introduced.",
+        "Actual EAST window pair is outside this camera and will be covered in true reverse; same pale oak/rug/blue linens/silver-framed art and flat ceiling."
+      ],
+      "mustFix": [],
+      "limits": [
+        "UNBUILT room concept; lighting/privacy and actual fit are subject to permitted construction and measured products."
+      ]
+    },
+    {
+      "roomId": "terrace",
+      "code": "RT1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1423.png",
+      "supersedes": "assets/render-candidates/cocoa-chrome-owned/r08/day-1123.png",
+      "approved": true,
+      "checks": [
+        "Malibu77 sofa now has EXACTLY TWO white back cushions and ONE continuous white seat, matching official product configuration.",
+        "One straight sofa, TWO matching lounge chairs each one seat/one back, ONE Black rectangular slatted coffee, ONE closed76×36 dining table and SIX armless SIDE chairs with White pads; no bench/chaises/owned furniture duplication.",
+        "Extra inherited freestanding stone table next to hearth is removed.",
+        "Original/model square basket-weave deck tile module pattern restored; no indoor straight oak floor substitution.",
+        "Actual RT1 pergola/posts/sail/string-light outline, privacy-wall fireplace, rails and Crown urban roofscape remain; blue/white art and modest blue/butter pillows support Cocoa & Chrome."
+      ],
+      "mustFix": [],
+      "limits": [
+        "This camera does not show the stairwell hole; true RT2 must preserve the original/model stairwell perimeter, not assert new actual-house spiral installation.",
+        "All Malibu frame/cushion exact configuration, price/stock/quantity and20878 delivery remain pending and are not certified by this render.",
+        "Use this accepted master as furniture/palette guidance for local PL1/PL2 exterior GLIMPSES only; keep all their interior furniture and actual glazing geometry."
+      ]
+    }
+  ],
+  "summary": {
+    "approved": 4,
+    "rejected": 0,
+    "roofMaster": "day-1423.png",
+    "nextAction": "Use corrected roof master for planned loft exterior-glimpse edits; repair companion2116 and sharedbath1117 separately before their final nights."
+  }
+}

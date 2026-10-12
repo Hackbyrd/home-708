@@ -1,0 +1,221 @@
+{
+  "revision": "CC-OWN-R08",
+  "checkedAt": "2026-10-12",
+  "purpose": "Local social companion repairs and new salon reverse camera checked against current primary furniture and the verified common shell.",
+  "rooms": [
+    {
+      "roomId": "media",
+      "code": "M2",
+      "index": 2502,
+      "approved": true,
+      "checks": [
+        "The added broad raised-panel/perimeter LED is removed. The TV now has only the discreet halo on a calm flush pearl wall, matching M1.",
+        "The inherited rectangular passive wall boxes/grilles are removed; ONE black cylindrical compatible-looking active-rear pair appears behind the sofa, with the external soundbar and ONE floor subwoofer proposal.",
+        "Clear west doors, right niche, the same low Brown Oak/silver console, Cloud arrangement/TWO ottoman proposals and source-camera geometry remain."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "AV imagery illustrates the compatible system proposal rather than an exact measured Sonos installation. Confirm model identity, actual rear/stand placement, acoustic performance, accessible power and full routing with the AV installer."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2502.png",
+      "jobId": "8c629182-3137-4e04-bad8-42407ff0226c"
+    },
+    {
+      "roomId": "kitchen",
+      "code": "K2",
+      "index": 2506,
+      "approved": true,
+      "checks": [
+        "The invented far-passage table, four chairs and hanging linear fixture are removed. The original clear passage/window/counter footprint and two flush corridor lights remain.",
+        "The same refrigerator, sink island, hood/cooktop edge, White/silver counter stools and two opal/silver island pendants remain in the source camera.",
+        "Brown Oak lowers, pearl uppers and quiet pale-gray counters maintain the accepted K1 scheme."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Only part of the four-stool set is visible; the exact counter-height configuration and aggregate stock remain pending."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2506.png",
+      "jobId": "85bef29a-d9d7-4c73-9837-adb40efc1b1b"
+    },
+    {
+      "roomId": "dining",
+      "code": "D2",
+      "index": 2507,
+      "approved": true,
+      "checks": [
+        "The extra cream foreground lounge chair is removed. Eight White/Polished Stainless Emery SIDE chairs, the Brown Oak block-leg table and owned Spiridon remain.",
+        "The cabinet under the small high arch is replaced by the approved shallow stone ledge, with the small high window bare.",
+        "The connected salon now shows TWO real black-supported White Imogene forms, compact White/Chrome sofa, Carrara/steel Nicholas coffee table, ONE Martini and the actual piano; the north connection remains fully open.",
+        "The owned Charcoal Cabrera, ONE round stainless mirror and TWO owned vessels remain on their correct wall."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "The local repair reframes the wide room slightly. This remains a plan/photo-based design illustration, not a measured construction elevation or proof of exact clearances.",
+        "Hidden chair leg openings, tabletop dimensions and retail stock require field/product confirmation before purchase."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2507.png",
+      "jobId": "05c7d56c-1a15-4cc0-b1cb-1c6a2afb4c06"
+    },
+    {
+      "roomId": "living",
+      "code": "LR2",
+      "kind": "day",
+      "index": 2608,
+      "approved": true,
+      "sourceIndex": 2108,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2608.png",
+      "jobId": "03807198-e2ff-4dc2-8b19-720e16ee41b2",
+      "checks": [
+        "The formal dining glimpse now uses the White/Polished Stainless Emery SIDE-chair forms rather than wood legs.",
+        "The dining console is restored to Charcoal Waxed Concrete Cabrera with its open concrete support form, ONE round silver mirror and TWO White Short/Tall vessels.",
+        "The stair-wall art is now the accepted blue/white family. Main salon keeps the White/Chrome Italia, TWO White/black Imogenes, Carrara/steel Nicholas, ONE Martini, future baby grand and original open dining/stair relationships."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "This is a source-camera illustration, not proof of measured piano, seating or dining clearances. Distant partial furniture does not establish exact hidden product dimensions."
+      ]
+    },
+    {
+      "roomId": "laundry",
+      "code": "LA1",
+      "index": 1618,
+      "approved": true,
+      "checks": [
+        "The wood plank floor is replaced by quiet, matte, light pearl-gray large-format porcelain with fine matching grout, consistent with the utility-room build specification.",
+        "The near arched and far rectangular windows, exact quote “Rinse and repeat..” with two final periods, drop/recycle graphic, two hampers, drying rack, cabinets, sink and visible appliances remain in the same camera.",
+        "Brown Oak/silver lower cabinets, pearl uppers, pale counters and daytime window shade state remain unchanged."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "The tile grid is illustrative. Field-verify substrate, flatness, tile size, slip suitability, transitions and appliance clearances before installation; regenerate the paired night from this porcelain-floor source."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1618.png",
+      "jobId": "fed2393e-c93d-4ac5-9c32-a779985d22f5"
+    },
+    {
+      "roomId": "laundry",
+      "code": "LA2",
+      "index": 2618,
+      "approved": true,
+      "checks": [
+        "The same quiet matte pearl-gray porcelain now replaces the second camera’s wood floor, preserving perspective and threshold footprint.",
+        "Both original windows, two right-side machines, two hampers, drying rack, literal two-period quote, sink/cabinets and fixture inventory remain.",
+        "The revised floor agrees with LA1 day 1618 and the current wet/utility finish hierarchy."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "This is a floor-material illustration, not an appliance or construction survey. The old wood-floor night is superseded; regenerate its paired night from this accepted day."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2618.png",
+      "jobId": "1a39c021-c453-4097-8013-5c76b7aa3bfe"
+    },
+    {
+      "roomId": "stair2",
+      "code": "ST2",
+      "kind": "day",
+      "index": 2710,
+      "approved": true,
+      "sourceIndex": 2610,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2710.png",
+      "jobId": "378eb6d9-602f-4f54-828e-6254693703a1",
+      "checks": [
+        "The full continuous closed white paneled door, casing and hinges now match the actual model-home second-floor staircase photo. The inherited great-room glimpse cut through its lower panel is removed.",
+        "Actual great-room context remains outside/left of the door; no new opening or glazing is inserted in the door.",
+        "The same tighter camera, bare quarter-turn/fanned treads, half-floor landing/upper run, descending well/guard, high glass/mullions, blue/white art and polished-silver styling remain. No unspecified hanging fixture returns."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "This derived angle is a plan/photo-based illustration rather than a measured stair or door construction elevation. The original photo, field measurements and contractor drawing remain the physical authority."
+      ],
+      "architectureEvidence": "assets/Crown Georgetown Photos/second-floor-spiral-staircase.jpg.webp"
+    }
+  ],
+  "summary": {
+    "reviewed": 7,
+    "approved": 7,
+    "needsRepair": 0
+  },
+  "history": [
+    {
+      "roomId": "living",
+      "code": "LR2",
+      "index": 2108,
+      "approved": false,
+      "checks": [
+        "The target opposing source-camera family, open south dining connection, actual stair/landing context, piano and source glazing remain.",
+        "Main-room furniture is correctly TWO black-frame White Imogenes, compact White/Chrome Italia, Carrara/steel Nicholas coffee table and ONE owned 14-inch Martini."
+      ],
+      "mustFix": [
+        "Adjacent formal-dining chairs retain WOOD legs. Replace the visible background seating with the same eight White/Polished Stainless Emery SIDE chairs as accepted D1/D2, preserving the table, room and camera.",
+        "The owned Cabrera beneath the round dining mirror is incorrectly a Brown Oak sideboard. Restore the actual 72-inch Charcoal Waxed Concrete Cabrera console with its authentic concrete supports/open void, ONE owned round stainless mirror and TWO owned White Short/Tall vessels.",
+        "Match the visible stair-wall artwork to accepted ST1 day 1410’s blue/white composition rather than the inherited beige circular-pattern artwork."
+      ],
+      "limitations": [
+        "Keep the foreground salon and actual architecture unchanged during these local adjacent-scene edits. The distant great-room glimpse cannot establish complete furnishing dimensions."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2108.png",
+      "jobId": "bb0844d8-74ba-4ace-a507-b496282e3373"
+    },
+    {
+      "roomId": "stair2",
+      "code": "ST2",
+      "index": 2110,
+      "approved": false,
+      "checks": [
+        "The tighter source-camera family, bare quarter-turn/fanned lower treads, landing, upper run, descending well, guard and source glazing are retained.",
+        "The stair-wall art now matches the accepted blue/white Cocoa & Chrome direction; no runner has been added."
+      ],
+      "mustFix": [
+        "Remove the added long polished-metal tube cascade hanging behind the upper-left stair guard. It is absent from target ST2 source and accepted ST1 day 1410, and is not a specified installed fixture.",
+        "Replace the closed-sided marble-plinth coffee table in the far-left great-room glimpse with the same open polished-steel Nicholas frame and Carrara top as accepted GR1 and ST1 day 1410. Do not move the sofa, windows, guard or camera."
+      ],
+      "limitations": [
+        "The distant glimpse cannot certify exact product dimensions; match the accepted form and allocation without adding a second table or introducing the penthouse’s owned Carrara plinth table."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2110.png",
+      "jobId": "338c376e-f407-4bf8-8ee6-13ece2d5fdc6"
+    },
+    {
+      "roomId": "stair2",
+      "code": "ST2",
+      "kind": "day",
+      "index": 2610,
+      "approved": true,
+      "sourceIndex": 2110,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2610.png",
+      "jobId": "d03f50a2-fe72-4718-a271-a17cadfdf3a9",
+      "checks": [
+        "The unspecified long tube cascade is removed, matching the source/accepted primary fixture scope.",
+        "The far-left great-room glimpse now uses the open polished-steel Nicholas frame/Carrara top instead of the closed marble plinth. No second coffee table is added.",
+        "The tighter camera, bare neutral-oak treads/landing/upper flight, descending-well guard, blue/white stair art, mullions and door remain."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "The partially occluded room glimpse establishes intended form and allocation, not measured coffee-table size or full furniture clearances."
+      ]
+    },
+    {
+      "roomId": "stair2",
+      "code": "ST2",
+      "kind": "day",
+      "index": 2610,
+      "approved": false,
+      "sourceIndex": 2110,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2610.png",
+      "jobId": "d03f50a2-fe72-4718-a271-a17cadfdf3a9",
+      "checks": [
+        "The unspecified long tube cascade is removed, matching the source/accepted primary fixture scope.",
+        "The far-left great-room glimpse now uses the open polished-steel Nicholas frame/Carrara top instead of the closed marble plinth. No second coffee table is added.",
+        "The tighter camera, bare neutral-oak treads/landing/upper flight, descending-well guard, blue/white stair art, mullions and door remain."
+      ],
+      "mustFix": [
+        "Original model-home photo recheck reveals the lower part of the otherwise closed white door has an impossible great-room glimpse cut through it. Restore one continuous closed white paneled door/casing/hinges, matching the actual photograph and accepted night 90019. Preserve the wider doorway/room context outside and to the left; do not alter stairs, guard, camera, materials or art."
+      ],
+      "limitations": [
+        "The partially occluded room glimpse establishes intended form and allocation, not measured coffee-table size or full furniture clearances.",
+        "This inherited daytime-source artifact was newly identified while checking night 90019 against the real model-home image. The earlier day approval is superseded for this door detail."
+      ],
+      "architectureEvidence": "assets/Crown Georgetown Photos/second-floor-spiral-staircase.jpg.webp"
+    }
+  ]
+}

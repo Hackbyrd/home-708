@@ -1,0 +1,204 @@
+{
+  "revision": "CC-OWN-R08",
+  "checkedAt": "2026-10-12",
+  "purpose": "Final social night views and targeted local corrections checked against their accepted daytime shell and furnishing schedule.",
+  "rooms": [
+    {
+      "roomId": "dining",
+      "code": "D2",
+      "index": 7507,
+      "approved": true,
+      "sourceIndex": 2507,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7507.png",
+      "jobId": "5ab8b30f-cb8a-4054-bde9-6adfb5cebcd9",
+      "checks": [
+        "All tall dining/salon main window groups are covered by opaque layers through their heads and sills, while the ENTIRE separate small high arched window remains bare dark glass.",
+        "Eight White/Polished Stainless Emery SIDE chairs, Brown Oak block-leg table, owned Spiridon, Charcoal Cabrera, ONE round mirror/TWO White vessels and shallow high-window ledge match the accepted day.",
+        "The direct open salon connection preserves its compact White/Chrome sofa, TWO White/black Imogenes, Carrara/steel Nicholas, ONE Martini, future baby grand and existing pair of rear lamps. No added fixture or portal appears."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "The night illustrates warm illumination rather than certified fixture output, measured seating clearance or product stock."
+      ]
+    },
+    {
+      "roomId": "living",
+      "code": "LR2",
+      "index": 90013,
+      "approved": true,
+      "sourceIndex": 2608,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90013.png",
+      "jobId": "7906089b-eb42-423b-a504-24f9a91e63e5",
+      "checks": [
+        "The actual right-edge living-room window is now fully covered by its opaque layer, including the upper glass and lower sashes through the sill.",
+        "High stair glazing remains bare night glass. Correct salon furniture, ONE Martini/piano, owned dining Cabrera/round mirror/TWO vessels, White/steel Emery chairs and blue/white stair art remain.",
+        "Existing chandelier/recessed and supporting-lamp inventory, direct room connections and camera match the accepted day."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "This source-camera illustration does not certify exact furniture or piano clearances. Shade side-channel and light-gap detailing requires the installer."
+      ]
+    },
+    {
+      "roomId": "media",
+      "code": "M2",
+      "index": 90014,
+      "approved": true,
+      "sourceIndex": 2502,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90014.png",
+      "jobId": "01862752-8f72-44b8-88c1-b1a4dd1981e6",
+      "checks": [
+        "Both black active rear speakers retain the accepted day’s floor-stand poles; the unwanted wall-bracket change and false speaker light pools are absent.",
+        "The background exterior window shade is fully opaque through the sill, while both internal gallery door leaves remain clear glass.",
+        "The restrained TV halo, display niche/recessed lighting, external soundbar, ONE subwoofer, Cloud seating/TWO ottomans, low Brown Oak/silver console and camera remain."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Exact rear/stand model identity, stand height, power, cable routes and acoustic positions require AV-installer confirmation; the paired render now uses one consistent floor-stand installation."
+      ]
+    },
+    {
+      "roomId": "kitchen",
+      "code": "K2",
+      "index": 90017,
+      "approved": true,
+      "sourceIndex": 2506,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90017.png",
+      "jobId": "a7d0e1fe-8d2b-4fda-b583-a5846a361afb",
+      "checks": [
+        "The added artwork is removed using the tight wall patch. The actual far-left open white doorway, stair-hall wood guard/white balusters and wall-pier boundaries remain.",
+        "The original single switch bank remains; the unwanted duplicated bank is absent.",
+        "Two opal/silver island pendants, existing corridor flush lights, undercabinet task lighting, kitchen furniture/cabinets/appliances and source camera remain. The far actual passage window is fully opaque to its sill."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Visible kitchen materials and illumination are illustrative; exact surfaces, counter heights, dimming and stock require physical/product confirmation."
+      ]
+    },
+    {
+      "roomId": "stair2",
+      "code": "ST2",
+      "kind": "night",
+      "index": 7710,
+      "approved": true,
+      "sourceIndex": 2710,
+      "sourceJobId": "378eb6d9-602f-4f54-828e-6254693703a1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7710.png",
+      "jobId": "73fa2844-6bce-4b87-8b19-7300b4f8e8b9",
+      "checks": [
+        "The accepted day 2710 camera, full closed paneled door/casing/hinges, guard, landing/upper run and blue/white artwork are preserved.",
+        "Actual high stair glazing stays bare dark night glass with believable interior reflections. Remaining neighboring-room context occurs outside the door; no invented window recess or opening returns.",
+        "Bare neutral-oak treads, actual lighting inventory and polished-silver objects remain. No runner, tube cascade, dome or night-only fixture is added."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Rendered night illumination does not certify safe stair light levels or fixture output. The contractor must verify actual lighting/switching, guard conditions and finish traction."
+      ],
+      "architectureEvidence": "assets/Crown Georgetown Photos/second-floor-spiral-staircase.jpg.webp"
+    }
+  ],
+  "summary": {
+    "reviewed": 5,
+    "approved": 5,
+    "needsRepair": 0
+  },
+  "history": [
+    {
+      "roomId": "living",
+      "code": "LR2",
+      "index": 7608,
+      "approved": false,
+      "sourceIndex": 2608,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7608.png",
+      "jobId": "fef5f6b6-1fa3-4dbc-9cb3-0d4a5d0931e4",
+      "checks": [
+        "Correct White/Chrome sofa, TWO White/black Imogenes, Carrara/steel Nicholas, ONE Martini, piano and repaired dining Cabrera/Emery/blue stair-art context remain.",
+        "High stair glass and separate dining high arch remain bare night glass; existing fixtures and open room connections are preserved."
+      ],
+      "mustFix": [
+        "The actual living-room window at the right image edge remains exposed behind open sheers. Close its independent opaque layer across the complete window field, including the actual top glass and lower sashes to sill/sides. Keep the high stair glass and separate dining high arch bare."
+      ],
+      "limitations": [
+        "Only a cropped portion of this main window bank appears; do not interpret its crop as a high-transom exemption. Keep the current camera and furniture."
+      ]
+    },
+    {
+      "roomId": "media",
+      "code": "M2",
+      "index": 90011,
+      "approved": false,
+      "sourceIndex": 2502,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90011.png",
+      "jobId": "5a5a1514-520e-48cf-b627-d9fbdd33658b",
+      "checks": [
+        "The false up/down light pools at both active rear speakers are removed. TV halo and display-niche light remain restrained.",
+        "The background exterior window seen through the clear internal doors is now fully opaque to its sill; internal glass doors remain clear.",
+        "Cloud seating/TWO ottomans, low console, external soundbar, ONE floor subwoofer, camera and art remain."
+      ],
+      "mustFix": [
+        "The repair deletes both rear-speaker stand poles and replaces them with wall brackets. Restore the same black stand-supported installation shown in accepted day 2502, without emitted light. A wall-mounted alternative would require an explicit coordinated change in both paired views and the AV schedule."
+      ],
+      "limitations": [
+        "Speaker mounting and stand positions are installation choices requiring the AV installer’s confirmation; a paired day/night rendering should depict one consistent choice."
+      ]
+    },
+    {
+      "roomId": "kitchen",
+      "code": "K2",
+      "index": 90012,
+      "approved": false,
+      "sourceIndex": 2506,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90012.png",
+      "jobId": "8aa659f4-ee81-4aa8-bd50-bc7319f087d2",
+      "checks": [
+        "The added landscape artwork is removed. The main kitchen, White/silver stools, two pendants, undercabinet task light and fully opaque far-passage window otherwise remain."
+      ],
+      "mustFix": [
+        "The local art-removal edit replaces the far-left open doorway/stair-hall guard with a solid wall, violating the accepted day 2506 and prior night 7506 shell. Return to prior night 7506 and remove ONLY the artwork patch; preserve the entire actual doorway, hallway, guard and perspective.",
+        "Remove the newly duplicated switch bank. Preserve the original single switch bank and other source electrical details."
+      ],
+      "limitations": [
+        "Do not attempt a whole-scene redesign to remove this art. Its small wall patch is the only intended edit; the rest of night 7506 is already suitable."
+      ]
+    },
+    {
+      "roomId": "stair2",
+      "code": "ST2",
+      "index": 7610,
+      "approved": false,
+      "sourceIndex": 2610,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7610.png",
+      "jobId": "2168ed20-9651-4371-8373-1cc2a9f27ace",
+      "checks": [
+        "The bare stair tread/run/guard/art family and correct open steel/Carrara coffee-table glimpse remain.",
+        "High stair glass remains bare with night reflections; the removed tube cascade has not returned."
+      ],
+      "mustFix": [
+        "The closed white paneled door/casing at the upper-left of day 2610 is deleted and replaced by an open, window-like recess with dark upper glass and a half-lowered shade. Restore every visible part of that actual closed door, casing and hinges from the paired day, preserving guard occlusion.",
+        "Close the genuine distant great-room lower exterior glazing visible beneath the stair-level guard fully to its sill; do not mistake this opening for a TV, invent glazing where the closed door belongs, or cover the actual high stair windows."
+      ],
+      "limitations": [
+        "Comparison crops are /tmp/cc-st2-day-2610.png and /tmp/cc-st2-night-7610.png. Day door/casing bounds are approximately x116–332, y265–1080 in the full 2528×1696 frame, partially occluded by guard. Use the day geometry rather than these approximate bounds as construction authority."
+      ]
+    },
+    {
+      "roomId": "stair2",
+      "code": "ST2",
+      "index": 90019,
+      "approved": true,
+      "sourceIndex": 2610,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90019.png",
+      "jobId": "2011cfcf-37f7-49a4-bb53-48dbdc5e70ec",
+      "checks": [
+        "The full closed white paneled door/casing/hinges are restored; the invented open window-like recess is removed. The continuous closed door agrees with the actual model-home second-floor staircase photograph.",
+        "Bare high stair glass, actual mullions, guard, quarter-turn/landing/upper run, blue/white artwork and source-camera family remain. No tube cascade, runner or added fixture appears.",
+        "The visible great-room context outside the actual doorway retains its opaque lower-glass night state. No new glazing is inserted into the closed door."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Rechecking the original model-home photograph revealed an inherited lower-door artifact in paired day 2610: it shows distant great-room furniture through an otherwise closed door. Correct that daytime door to the same continuous closed-door geometry as this accepted night. This is a daytime-source correction rather than a remaining night defect."
+      ],
+      "architectureEvidence": "assets/Crown Georgetown Photos/second-floor-spiral-staircase.jpg.webp"
+    }
+  ]
+}

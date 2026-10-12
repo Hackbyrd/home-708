@@ -1,0 +1,186 @@
+{
+  "revision": "CC-OWN-R08",
+  "checkedAt": "2026-10-12",
+  "purpose": "Repaired salon reverse and fourth social night wave, checked against accepted paired day cameras.",
+  "rooms": [
+    {
+      "roomId": "living",
+      "code": "LR2",
+      "kind": "day",
+      "index": 2608,
+      "approved": true,
+      "sourceIndex": 2108,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2608.png",
+      "jobId": "03807198-e2ff-4dc2-8b19-720e16ee41b2",
+      "checks": [
+        "The formal dining glimpse now uses the White/Polished Stainless Emery SIDE-chair forms rather than wood legs.",
+        "The dining console is restored to Charcoal Waxed Concrete Cabrera with its open concrete support form, ONE round silver mirror and TWO White Short/Tall vessels.",
+        "The stair-wall art is now the accepted blue/white family. Main salon keeps the White/Chrome Italia, TWO White/black Imogenes, Carrara/steel Nicholas, ONE Martini, future baby grand and original open dining/stair relationships."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "This is a source-camera illustration, not proof of measured piano, seating or dining clearances. Distant partial furniture does not establish exact hidden product dimensions."
+      ]
+    },
+    {
+      "roomId": "terrace",
+      "code": "RT1",
+      "kind": "night",
+      "index": 6423,
+      "approved": true,
+      "sourceIndex": 1423,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6423.png",
+      "jobId": "8709f81e-5234-4fe4-a26b-da85c7565bb5",
+      "checks": [
+        "The selected Black Malibu sofa, TWO matching lounge chairs, coffee table and dining table/SIX armless side chairs retain their accepted positions and White cushions.",
+        "The same string-light strands, shade sails, pergola, deck grid, guardrails, planting and fireplace/art surface remain. The fireplace already appears in the paired day; it is not an invented night-only fixture.",
+        "True dusk/night sky and warm outdoor illumination preserve readable materials. No extra console, firepit, chaise or outdoor curtain has appeared."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Actual weather ratings, outdoor electrical provision, fixture attachment, fireplace assembly and shade-sail wind/structural design require contractor confirmation. Neighboring-house lighting is illustrative, not this property’s window-treatment schedule."
+      ]
+    },
+    {
+      "roomId": "stair2",
+      "code": "ST1",
+      "kind": "night",
+      "index": 6410,
+      "approved": true,
+      "sourceIndex": 1410,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6410.png",
+      "jobId": "0638ef04-99f7-4dbc-9b0c-6f2eb493b1ab",
+      "checks": [
+        "The bare quarter-turn/landing/upper flight, guard, two high window banks/mullions and blue/white stair art stay in the accepted day camera.",
+        "Both high stair windows remain bare glass with a dark night exterior; the adjacent great-room lower terrace glazing is fully covered by opaque privacy layers. Its separate high glass remains bare.",
+        "The great-room glimpse preserves the White/Chrome tailored sofa, White/black chair and open steel/Carrara Nicholas table. Only existing recessed/general lighting is activated; no cascade, dome or tread lighting appears."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Night light distribution and exact fixture output are illustrative; the contractor must verify safe stair illumination and switching."
+      ]
+    },
+    {
+      "roomId": "media",
+      "code": "M2",
+      "index": 90014,
+      "approved": true,
+      "sourceIndex": 2502,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90014.png",
+      "jobId": "01862752-8f72-44b8-88c1-b1a4dd1981e6",
+      "checks": [
+        "Both black active rear speakers retain the accepted day’s floor-stand poles; the unwanted wall-bracket change and false speaker light pools are absent.",
+        "The background exterior window shade is fully opaque through the sill, while both internal gallery door leaves remain clear glass.",
+        "The restrained TV halo, display niche/recessed lighting, external soundbar, ONE subwoofer, Cloud seating/TWO ottomans, low Brown Oak/silver console and camera remain."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Exact rear/stand model identity, stand height, power, cable routes and acoustic positions require AV-installer confirmation; the paired render now uses one consistent floor-stand installation."
+      ]
+    },
+    {
+      "roomId": "kitchen",
+      "code": "K2",
+      "index": 90017,
+      "approved": true,
+      "sourceIndex": 2506,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90017.png",
+      "jobId": "a7d0e1fe-8d2b-4fda-b583-a5846a361afb",
+      "checks": [
+        "The added artwork is removed using the tight wall patch. The actual far-left open white doorway, stair-hall wood guard/white balusters and wall-pier boundaries remain.",
+        "The original single switch bank remains; the unwanted duplicated bank is absent.",
+        "Two opal/silver island pendants, existing corridor flush lights, undercabinet task lighting, kitchen furniture/cabinets/appliances and source camera remain. The far actual passage window is fully opaque to its sill."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Visible kitchen materials and illumination are illustrative; exact surfaces, counter heights, dimming and stock require physical/product confirmation."
+      ]
+    },
+    {
+      "roomId": "laundry",
+      "code": "LA1",
+      "kind": "night",
+      "index": 6618,
+      "approved": true,
+      "sourceIndex": 1618,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6618.png",
+      "jobId": "3d3c6cd0-34cf-4c96-b2bb-aa9bf4f9c2db",
+      "checks": [
+        "The corrected quiet matte pearl-gray porcelain remains; the night does not revert to wood plank flooring.",
+        "Both real window fields, near arched and far rectangular, are covered by opaque layers through their sills, preserving the actual casing and window positions.",
+        "Source camera, Brown Oak/silver lower cabinets, pearl uppers, sink, appliance placement, TWO hampers, drying rack and literal quote “Rinse and repeat..” with two periods remain. No new installed light fixture is added."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Warm night illumination shifts apparent colors; approve actual paint, tile, cabinet and lamp samples together rather than extracting a paint color from the image. Window hardware/light gaps require installer detailing."
+      ]
+    },
+    {
+      "roomId": "laundry",
+      "code": "LA2",
+      "kind": "night",
+      "index": 7618,
+      "approved": true,
+      "sourceIndex": 2618,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7618.png",
+      "jobId": "ea82bf98-813b-48e3-b74a-1b67742a1a4d",
+      "checks": [
+        "The corrected quiet matte pearl-gray porcelain remains; the night does not revert to wood plank flooring.",
+        "Both real window fields, near arched and far rectangular, are covered by opaque layers through their sills, preserving the actual casing and window positions.",
+        "Source camera, Brown Oak/silver lower cabinets, pearl uppers, sink, appliance placement, TWO hampers, drying rack and literal quote “Rinse and repeat..” with two periods remain. No new installed light fixture is added."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Warm night illumination shifts apparent colors; approve actual paint, tile, cabinet and lamp samples together rather than extracting a paint color from the image. Window hardware/light gaps require installer detailing."
+      ]
+    }
+  ],
+  "summary": {
+    "reviewed": 7,
+    "approved": 7,
+    "needsRepair": 0
+  },
+  "history": [
+    {
+      "roomId": "media",
+      "code": "M2",
+      "kind": "night",
+      "index": 7502,
+      "approved": false,
+      "sourceIndex": 2502,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7502.png",
+      "jobId": "525947ce-67bc-4082-8283-3ebea0d912d7",
+      "checks": [
+        "The accepted Cloud seating/TWO ottomans, low Brown Oak/silver console, external soundbar, ONE floor subwoofer, black active rears, clear internal doors and right display niche remain.",
+        "The TV keeps its discreet local halo, with the unwanted raised-panel perimeter lighting absent."
+      ],
+      "mustFix": [
+        "Remove the new upward and downward wall-light pools emanating from both black Era rear speaker positions. These are audio speakers, not wall lamps; the paired day does not specify these lights. Preserve the speaker pair and actual ceiling/display/TV lighting.",
+        "Through the clear internal gallery doors, the background exterior window privacy shade stops around mid-height and leaves the lower glazing exposed. Extend only that opaque layer to its actual sill/sides. Keep the internal doors clear and retain their framing."
+      ],
+      "limitations": [
+        "The main media-room exterior window is out of this camera. Its complete blackout state must agree with the other room angle; do not invent a window on the solid sofa wall."
+      ]
+    },
+    {
+      "roomId": "kitchen",
+      "code": "K2",
+      "kind": "night",
+      "index": 7506,
+      "approved": false,
+      "sourceIndex": 2506,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7506.png",
+      "jobId": "3dbd403d-ccec-4873-9243-70bdf1d98fe1",
+      "checks": [
+        "Kitchen camera, Brown Oak lowers, pearl uppers, White/silver counter stools, two opal/silver pendants, hood/cooktop, sink island and refrigerator remain.",
+        "The far passage remains free of the previously invented dining group/light. Its actual window now has complete opaque privacy coverage to its sill, with the same two corridor flush lights."
+      ],
+      "mustFix": [
+        "Remove the newly introduced framed landscape artwork on the left wall above the switches. Accepted day 2506 has this wall blank. Preserve all existing art elsewhere, lighting and architecture."
+      ],
+      "limitations": [
+        "The visible subset of four counter stools is a camera crop, not a total purchasing count. Exact counter-height configuration and combined destination stock remain pending."
+      ]
+    }
+  ]
+}

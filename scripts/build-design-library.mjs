@@ -4,13 +4,15 @@ import { fileURLToPath } from 'node:url';
 import console from 'node:console';
 import { buildCurrentFurniture } from './design-library/current-furniture.mjs';
 import { buildCollectedMineral } from './build-collected-mineral.mjs';
+import { buildCocoaChromeOwned } from './build-cocoa-chrome-owned.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const docs = path.join(root, 'docs');
 const savedLibrary = JSON.parse(await fs.readFile(path.join(docs, 'design-options.json'), 'utf8'));
 const collectedMineral = await buildCollectedMineral({ root });
+const cocoaChromeOwned = await buildCocoaChromeOwned({ root });
 // A complete option is public only after all cameras, paired nights and owned units pass its release gate.
-const library = { ...savedLibrary, options: savedLibrary.options.filter(option => option.id !== 'collected-mineral' || collectedMineral.ready).map(option => option.id === 'collected-mineral' ? { ...option, hero: collectedMineral.hero } : option) };
+const library = { ...savedLibrary, options: savedLibrary.options.filter(option => option.id !== 'collected-mineral' || collectedMineral.ready).map(option => option.id === 'collected-mineral' ? { ...option, hero: collectedMineral.hero } : option.id === 'cocoa-chrome' && cocoaChromeOwned.ready ? { ...option, ...cocoaChromeOwned.metadata } : option) };
 const catalog = JSON.parse(await fs.readFile(path.join(root, 'apps/web/src/redesign-catalog.json'), 'utf8'));
 const esc = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 const media = path.join(docs, 'design-library-assets');
@@ -88,7 +90,9 @@ if (mineral) {
   await fs.writeFile(path.join(docs, optionLandingHref[mineral.id]), shell('Mineral & Walnut · Option 1', hubBody(mineral, await optionFloorCards(mineral) + furniture + build + studies)));
 }
 const cocoa = library.options.find(option => option.id === 'cocoa-chrome');
-if (cocoa) {
+// The completed owned-furniture builder owns the new four-page Option 2 set.
+// Until then, preserve the established gallery/book and their existing overview.
+if (cocoa && !cocoaChromeOwned.ready) {
   const build = resourceGroup('build-materials', 'Build & materials', '', [
     { href: 'cocoa-chrome-build-book.html', title: 'Materials & build book', description: 'Room specifications, cabinet designs and the decisions behind the Cocoa & Chrome scheme.' },
   ]);

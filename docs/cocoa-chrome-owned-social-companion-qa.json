@@ -1,0 +1,111 @@
+{
+  "revision": "CC-OWN-R08",
+  "checkedAt": "2026-10-12",
+  "purpose": "Five companion daytime views checked against their individual approved architectural camera and current accepted primary furniture/finish scheme.",
+  "rooms": [
+    {
+      "roomId": "office",
+      "code": "O2",
+      "index": 2101,
+      "approved": true,
+      "checks": [
+        "The target day-500 source camera, two-unit broad window bank, circular side window and right-offset clear gallery doors remain.",
+        "Printer cabinet and blue/white artwork are correctly LEFT of the gallery doors. The full north TV/soundbar library appears on the proper opposite side of this reverse view.",
+        "The same plain smoky-oak pedestal desk, ONE Coal Fern-style task chair and TWO White/Polished Stainless Emery track-arm guest chairs match accepted O1 day 1201."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "The second principal window bank is behind this source camera. Exact task-chair base details, dimensions and selected quantities require the retail/field checks already recorded."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2101.png",
+      "jobId": "16e09f3a-bab8-42e9-8266-4e86e1680980",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-500.png"
+    },
+    {
+      "roomId": "media",
+      "code": "M2",
+      "index": 2102,
+      "approved": false,
+      "checks": [
+        "The target day-501 reverse camera, clear west gallery doors and single shallow display niche RIGHT of those doors remain. No extra exterior window is invented.",
+        "The new low smoky-oak/silver console, external soundbar, Cloud seating and TWO visible separate ottoman proposals are retained in the same general footprint."
+      ],
+      "mustFix": [
+        "The TV wall retains a broad raised panel with a glowing perimeter strip inherited from the older source. Match accepted M1 day 1302: calm flush pearl wall and discreet halo behind the TV itself, without an additional raised-panel perimeter LED.",
+        "The inherited high rectangular wall speaker boxes/grilles are not the selected cylindrical Black Era 100 active-rear pair. Align the compatible active rears and their rear-of-listener placements with the selected AV proposal, and distinguish any passive ceiling/wall grilles as future inactive prewire rather than speakers driven by the soundbar."
+      ],
+      "limitations": [
+        "The centered paired 2 × 2 exterior window is behind this camera and was checked in M1. This crop does not establish a measured speaker layout.",
+        "The foreground sofa end is cropped; total modular dimensions must come from the selected product/taped plan, not the render."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2102.png",
+      "jobId": "e6bcb3de-9d84-457e-b32b-f313b2efea57",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-501.png"
+    },
+    {
+      "roomId": "great",
+      "code": "GR2",
+      "index": 2105,
+      "approved": true,
+      "checks": [
+        "The target day-620 source camera, actual fireplace/TV positions, BOTH high three-pane horizontal windows and terrace glazing remain.",
+        "The tailored White/Chrome Italia, TWO White Imogene chairs with actual black supports, Carrara/steel Nicholas coffee table, two low Brown Oak sideboards, supporting tables and single pearl/silver lamp match the accepted primary furniture scheme.",
+        "The small balcony bistro concept remains separately qualified outdoor furniture; it is not the Black Malibu roof inventory or an owned indoor set."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "This source is nearly the same fireplace-facing angle as GR1. Label it as a companion study, not a distinct reverse camera or a measured second elevation.",
+        "Art/plant styling is illustrative; current stock and measured furniture fit remain pending as recorded."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2105.png",
+      "jobId": "b79b7a3b-2046-40f4-92c6-03d75c0dfc98",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-620.png"
+    },
+    {
+      "roomId": "kitchen",
+      "code": "K2",
+      "index": 2106,
+      "approved": false,
+      "checks": [
+        "The target day-621 camera, sink island, refrigerator, cooktop/hood edge, real arch/counter passage and original floor route remain.",
+        "The visible counter stools have the intended White/Polished Stainless armless form and the two island pendants match accepted K1. Far/cropped stools cannot establish the full four-unit count."
+      ],
+      "mustFix": [
+        "At the FAR END of the arch/counter passage, remove the newly invented dining/bistro table, four chairs and hanging rectangular opal light. The paired source day 621 has this window/passage area clear. Preserve the actual far window, its mullions, the original floor/counter footprint and the two real flush corridor lights. Do not move the sunroom or formal-dining set into this passage."
+      ],
+      "limitations": [
+        "Far passage/window geometry follows the accepted source; a distant crop is not evidence for adding a new dining zone."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2106.png",
+      "jobId": "d9d77a79-8e9b-4509-bd15-40479631c1f4",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-621.png"
+    },
+    {
+      "roomId": "dining",
+      "code": "D2",
+      "index": 2107,
+      "approved": false,
+      "checks": [
+        "The target day-626 camera, physical window pattern and direct fully open dining-to-living connection remain; no new separating portal/header/pier is introduced.",
+        "The owned Cabrera, ONE round mirror, TWO white vessels and Spiridon remain. The new Machinto-style block-leg table and eight white/silver Emery SIDE chairs match the primary forms."
+      ],
+      "mustFix": [
+        "Remove the inherited unselected cream lounge chair at the foreground RIGHT of the formal dining area. It is not one of the eight side chairs or a scheduled new piece and adds unverified furniture in the tight dining footprint.",
+        "Replace the dark reeded/display cabinet below the small high arch with the same shallow quiet-gray stone ledge recorded and shown in accepted D1 day 1307.",
+        "Correct the visible adjacent living room to accepted LR1 day 1408: TWO White Imogene chairs with their real BLACK supports, compact White/Chrome Italia sofa, Carrara/steel Nicholas coffee table and ONE owned 14-inch Martini. Remove the old rounded swivel-chair/wood-coffee-table scheme; retain the actual piano position and fully open connection."
+      ],
+      "limitations": [
+        "Only a cropped portion of the salon is visible; do not move walls or widen the opening to show the entire furniture set.",
+        "Exact table/chair fit and current retail stock remain pending; eight daily chairs do not promise ten-seat clearance."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2107.png",
+      "jobId": "46ad96de-40c9-4a1c-a112-609af52ae92a",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-626.png"
+    }
+  ],
+  "summary": {
+    "reviewed": 5,
+    "approved": 2,
+    "needsRepair": 3
+  }
+}

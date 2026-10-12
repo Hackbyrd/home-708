@@ -1,0 +1,141 @@
+{
+  "revision": "CC-OWN-PRIVATE-CONTINUITY-QA-R01",
+  "date": "2026-10-12",
+  "scope": "Visual comparison of local repairs and companion cameras with verified shell copies and accepted primary furniture. This record does not promote the generation ledger.",
+  "images": [
+    {
+      "roomId": "retreat",
+      "code": "OR1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1412.png",
+      "approved": true,
+      "supersedes": "day-1112.png",
+      "checks": [
+        "TWO owned Bates Polished Nickel dome lamps restored at the visible Modena PANEL owner bed; no Isla substitution in bedroom.",
+        "Both forced reading chairs/cube removed from this bar/bedroom crop; true nook stays out of frame.",
+        "Same source307 geometry and current Brown Oak/silver/Carrara/pearl palette retained."
+      ],
+      "mustFix": [],
+      "limits": [
+        "OR2 must use the separately selected new Drew Small Dove pair only in actual corner nook, not allocate more owned bedroom lamps."
+      ]
+    },
+    {
+      "roomId": "ownerbath",
+      "code": "BA1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1413.png",
+      "approved": true,
+      "supersedes": "day-1113.png",
+      "checks": [
+        "Freestanding old wood spa stool removed without replacement.",
+        "Tub/vanity/shower positions, real SOUTH/right window and its left shower reflection are retained; no additional wall opening.",
+        "Quiet Carrara-look gray/white porcelain, Brown Oak plinth vanity, silver fixtures and dry-zone blue/white artwork maintain Option2."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Tile sizes, wet construction and mirror/window-reflection details require measured and installer-confirmed drawings."
+      ]
+    },
+    {
+      "roomId": "ownerbath",
+      "code": "BA2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2413.png",
+      "approved": true,
+      "checks": [
+        "Correct reverse shell, tub foreground, double vanity/sconces left and bedroom-backed solid shower wall right; no new window.",
+        "No old wood stool remains in this view; finish recipe and vanity hardware coordinate BA1 repair1413.",
+        "Real daylight opening is outside reverse camera; glass reflections do not assert a new exterior opening."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Artwork/tub and exterior window are not all visible from this reverse, so use paired BA1 for those locks."
+      ]
+    },
+    {
+      "roomId": "ownerbed",
+      "code": "OB2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2311.png",
+      "approved": true,
+      "checks": [
+        "Current reverse camera, actual paired east doors/bare internal transom and true bath/closet arch remain.",
+        "Owned Bezier OPEN26 units have upper open cubby, one lower drawer, Stainless reveal and continuous grounded Brown Oak wood plinth.",
+        "Owned dresser has FOUR rows by TWO columns = EIGHT drawers, Stainless reveals and continuous wood plinth.",
+        "Actual Modena PANEL king/Grey Oak feet, TWO Bates domes, Hadiza rug, TV55/soundbar and controlled blue/butter textiles coordinate1011."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Catalog-informed piece shapes are approximate; actual field footprints and bed/headboard height control installation."
+      ]
+    },
+    {
+      "roomId": "loft",
+      "code": "PL2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2320.png",
+      "approved": false,
+      "approvedForInterior": true,
+      "checks": [
+        "Exactly THREE Cloud Luxe45 seat modules plus ONE detached ottoman at the fixed near/sofa-left end, consistent physical placement with PL1.",
+        "Actual Machinto media two end doors/three central drawers/grounded wood plinth, two round18 tables, Carrara48x24 coffee, ONE Nickel ArcII and TWO Graphite Rome seats retained.",
+        "Upper bar glass restored; Juliet French/two flanks/west slider/bar window/tray stay aligned with verified target."
+      ],
+      "mustFix": [
+        "Replace ONLY the exterior inherited TEAK furniture glimpses behind actual glazing with final approved NEW Malibu Black aluminum/White cushion arrangement. Do not alter indoor furniture/window framing or force the whole rooftop into the crop."
+      ],
+      "limits": [
+        "PL1 day1012 has the same already identified old-teak exterior continuity issue; repair both before using final day companions for night pairing."
+      ]
+    },
+    {
+      "roomId": "loft",
+      "code": "PL1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7012.png",
+      "approved": true,
+      "pairedDay": "day-1012.png",
+      "supersedes": "night-6012.png",
+      "checks": [
+        "Previously invented exposed WEST upper glass band is gone; entire real west slider is covered up to existing top casing with opaque privacy layer.",
+        "SOUTH French glass, both flank windows and bar window are opaque to full true opening edges.",
+        "Same three Cloud seats/one ottoman, Machinto wood plinth/counts, two round tables, Carrara coffee, Arc and Rome pair; no new fixture/furniture."
+      ],
+      "mustFix": [],
+      "limits": [
+        "This night passes current indoor geometry/privacy. The final day exterior-glimpse repair may be used as a new pairing seed; no exterior furniture is visible through closed night layers."
+      ]
+    },
+    {
+      "roomId": "terrace",
+      "code": "RT1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1123.png",
+      "approved": false,
+      "approvedForRoofShell": true,
+      "source": "assets/render-candidates/collected-mineral/r04/day-617.png",
+      "originalReferences": [
+        "assets/Crown Georgetown Photos/fourth-floor-outdoor-living-terrace-and-sun-terrace-3.jpg.webp",
+        "assets/Crown Georgetown Photos/fourth-floor-outdoor-living-terrace-and-sun-terrace.jpg.webp"
+      ],
+      "checks": [
+        "Same RT1 pergola/posts/sail/string-light roof outline, privacy-wall fireplace, rail and Crown neighboring roof geometry tracked from617 and original model terrace views.",
+        "New Black aluminum sofa, TWO matching lounge chairs, Black slatted coffee table and six-chair dining scheme are a distinct Cocoa & Chrome exterior translation.",
+        "No optional mesh chaises or copied indoor owned furniture added."
+      ],
+      "mustFix": [
+        "Change Malibu77 sofa to the actual ONE continuous seat cushion plus EXACTLY TWO back cushions. Current output shows THREE back cushions. Keep the actual sofa frame/77-inch intent and small blue/butter pillows.",
+        "Restore original photographed/same-camera square basket-weave deck tile MODULE PATTERN. Current straight large rectangular/plank grid is a shell/finish change not requested for the rooftop. Do not apply indoor oak flooring outside.",
+        "Remove the inherited freestanding stone-block coffee/side table next to fireplace: it is an extra furniture object outside the selected eight-record frame/cushion suite. If deliberately retained, separately list it as a NEW quoted exterior build-out and require approval before treating the furniture schedule as complete."
+      ],
+      "limits": [
+        "Stair hole is outside this RT1 crop. A reverse RT2 must retain the exact photographed/model stairwell boundary rather than fill it in or invent a new hole. Actual-house exterior spiral installation remains to verify.",
+        "Some dining-chair outlines are naturally occluded in this angle; keep full physical schedule of SIX armless SIDE chairs, no benchmark/armchair substitution.",
+        "Black/White frame and matching cushion stock/configuration/prices to20878 remain unverified; render does not imply purchase-ready."
+      ]
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "interiorPassExteriorRepairPending": 1,
+    "roofLocalRepairRequired": 1,
+    "blockingNextSeeds": [
+      "day-2320.png exterior continuity",
+      "day-1123.png sofa/deck/extra table"
+    ]
+  }
+}

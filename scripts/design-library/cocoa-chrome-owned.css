@@ -1,0 +1,12 @@
+@import url("/design-library-assets/owned-furniture-shared.css");
+/* Reuse the owned-furniture page layout; keep Cocoa & Chrome's own restrained palette. */
+.cc-page{--cm-ink:#322e2b;--cm-muted:#68605a;--cm-line:#d3cbc4;--cm-soft:#eae5df;--cm-walnut:#594b40;background:#f5f3ef}
+.cc-page .cm-action,.cc-page .cm-option-navigation a[aria-current],.cc-page .cm-furniture-filter button[aria-pressed=true]{background:#244b77;border-color:#244b77;color:white}
+.cc-page .cm-floor-card .floor-card-copy b{color:#244b77}
+.cc-page button:focus-visible,.cc-page a:focus-visible,.cc-page summary:focus-visible{outline-color:#244b77}
+.cc-page .skip{z-index:60}
+.cc-page .room-jump-nav{top:var(--cc-header-height,76px)}
+.cc-page .room-detail,.cc-page .room-gallery figure{scroll-margin-top:calc(var(--cc-header-height,76px) + 86px)}
+.cc-page .cm-section,.cc-page .cm-room-schedule,.cc-page .cm-build-room{scroll-margin-top:calc(var(--cc-header-height,76px) + 24px)}
+.cc-page .cm-gc-fields dd,.cc-page .cm-furniture-copy,.cc-page .notes{min-width:0;overflow-wrap:anywhere}
+@media(max-width:650px){.cc-page .cm-gc-fields>div{grid-template-columns:1fr;gap:4px}}

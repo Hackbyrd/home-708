@@ -20,6 +20,14 @@ const reviewFiles = [
 ]
 const reviewDirectories = ['design-review-assets', 'design-library-assets', 'current-furniture-assets', 'stone-linen-assets', 'cocoa-chrome-assets', 'interior-guide-assets', 'mineral-walnut-stone-assets']
 const collectedMineralFiles = ['collected-mineral.html', 'collected-mineral-overview.html', 'collected-mineral-build-book.html', 'collected-mineral-furniture.html']
+const cocoaChromeOwnedFiles = ['cocoa-chrome-furniture.html']
+async function cocoaChromeOwnedReady() {
+  try {
+    const design = JSON.parse(await fs.readFile(path.join(repo, 'docs/cocoa-chrome-owned-design.json'), 'utf8')) as { status?: string }
+    const gallery = await fs.readFile(path.join(repo, 'docs/cocoa-chrome.html'), 'utf8')
+    return design.status === 'complete' && gallery.includes('<meta name="home-708-option-status" content="complete">') && gallery.includes('<meta name="home-708-option-id" content="cocoa-chrome-owned">')
+  } catch { return false }
+}
 async function collectedMineralReady() {
   try {
     const design = JSON.parse(await fs.readFile(path.join(repo, 'docs/collected-mineral-design.json'), 'utf8')) as { status?: string }
@@ -62,8 +70,10 @@ function designLibrary(): Plugin {
           return
         }
         const isCollectedMineral = collectedMineralFiles.includes(requested) || requested.startsWith('collected-mineral-assets/')
-        const isReview = reviewFiles.includes(requested) || reviewDirectories.some(dir => requested.startsWith(`${dir}/`)) || (isCollectedMineral && await collectedMineralReady())
+        const isCocoaChromeOwned = cocoaChromeOwnedFiles.includes(requested) || requested.startsWith('cocoa-chrome-owned-assets/')
+        const isReview = reviewFiles.includes(requested) || reviewDirectories.some(dir => requested.startsWith(`${dir}/`)) || (isCollectedMineral && await collectedMineralReady()) || (isCocoaChromeOwned && await cocoaChromeOwnedReady())
         if (isCollectedMineral && !isReview) { res.statusCode = 404; res.end('Option preparation is not public.'); return }
+        if (isCocoaChromeOwned && !isReview) { res.statusCode = 404; res.end('Option preparation is not public.'); return }
         const isPublicHtml = path.extname(requested).toLowerCase() === '.html' && Boolean(server.config.publicDir)
         if (!isReview && !isPublicHtml) return next()
         if (requested.split('/').some(part => part === '..' || part === '.') || requested.includes('\\')) { res.statusCode = 400; res.end(); return }
@@ -95,6 +105,10 @@ function designLibrary(): Plugin {
       if (!output) return
       for (const file of reviewFiles) await fs.copyFile(path.join(repo, 'docs', file), path.join(output, file))
       for (const dir of reviewDirectories) await fs.cp(path.join(repo, 'docs', dir), path.join(output, dir), { recursive: true })
+      if (await cocoaChromeOwnedReady()) {
+        for (const file of cocoaChromeOwnedFiles) await fs.copyFile(path.join(repo, 'docs', file), path.join(output, file))
+        await fs.cp(path.join(repo, 'docs/cocoa-chrome-owned-assets'), path.join(output, 'cocoa-chrome-owned-assets'), { recursive: true })
+      }
       if (await collectedMineralReady()) {
         for (const file of collectedMineralFiles) await fs.copyFile(path.join(repo, 'docs', file), path.join(output, file))
         await fs.cp(path.join(repo, 'docs/collected-mineral-assets'), path.join(output, 'collected-mineral-assets'), { recursive: true })

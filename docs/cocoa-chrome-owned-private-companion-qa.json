@@ -1,0 +1,99 @@
+{
+  "revision": "CC-OWN-PRIVATE-COMPANION-QA-R01",
+  "date": "2026-10-12",
+  "scope": "Same-camera verified target comparison, paired accepted primary furniture and current exact owned/new configuration; no ledger promotion.",
+  "images": [
+    {
+      "roomId": "bed2",
+      "code": "B22",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2115.png",
+      "pairedPrimary": "assets/render-candidates/cocoa-chrome-owned/r08/day-1115.png",
+      "target": "assets/render-candidates/collected-mineral/r04/day-509.png",
+      "approved": true,
+      "checks": [
+        "True headboard-end companion facing actual paired EAST/front window bank; narrow side window/desk on LEFT and sharedbath-boundary closet on RIGHT retain target axis.",
+        "Exactly two owned Nickel Orbiter lamps and two compact Brown Oak new bedside units retained; no new table lamp or duplicated owner furniture.",
+        "Plain White Modena Shelter/Grey Oak detail, Carbon Delfina rug, ivory desk chair, pale oak and blue/white soft accents remain consistent with1115.",
+        "Opaque day layer stacked/open at paired bank and narrow-window Roman available."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Camera naturally crops most headboard/bedside fronts; use primary1115 for their full cabinet front and short Shelter-wing proof."
+      ]
+    },
+    {
+      "roomId": "bed3",
+      "code": "B32",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2116.png",
+      "pairedPrimary": "assets/render-candidates/cocoa-chrome-owned/r08/day-1116.png",
+      "target": "assets/render-candidates/collected-mineral/r04/day-510.png",
+      "approved": false,
+      "approvedForArchitectureBedAndLamps": true,
+      "checks": [
+        "Same approved shifted companion: paired front bank LEFT, headwall between TWO real single windows RIGHT; no new opening or reversed orientation.",
+        "Gather Ivory plain low bed/Natural small bed plinth, two actual Isla Pewter triangle bases/white drum lamps and smoky Brown Oak stands retain selected silhouettes.",
+        "Sheers/opaque day shade layers, exposed pale oak and loose neutral rug remain."
+      ],
+      "mustFix": [
+        "Restore exactly THREE wide drawers on the Brown Oak chest, matching approved primary1116. Enlarged front comparison confirms2116 now has FIVE drawers and additional silver tab rows. Keep same chest position/end-panel design/plinth and every other scene detail."
+      ],
+      "limits": [
+        "The original B32 is a small shifted same-room companion, not a genuine opposite-side reverse; do not claim it verifies unseen hall/closet openings.",
+        "Enlarged temporary QA crops verified the drawer-count mismatch; they are diagnostic crops, not replacement creative media."
+      ]
+    },
+    {
+      "roomId": "bed5",
+      "code": "B52",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2121.png",
+      "pairedPrimary": "assets/render-candidates/cocoa-chrome-owned/r08/day-1121.png",
+      "target": "assets/render-candidates/collected-mineral/r04/day-629.png",
+      "approved": true,
+      "checks": [
+        "Genuine WEST-headboard-end camera points directly toward TWO separated EAST windows; visible bed FOOT foreground, headboard/art behind camera/out of crop.",
+        "NORTH chest is LEFT and SOUTH closet is RIGHT, with flat9ft ceiling and no new opening or90-degree bed rotation.",
+        "New Brown Oak chest has FOUR drawers, short silver pulls and floor plinth; Anneli Ivory foot/rail and neutral rug/pale oak correspond1121.",
+        "Both real EAST units have visible separate open opaque and sheer layers."
+      ],
+      "mustFix": [],
+      "limits": [
+        "UNBUILT plan concept; Zain bedside lamps/nightstands lie behind camera and are intentionally not duplicated into this crop.",
+        "Soft throw draping is visualization staging and not an installation detail."
+      ]
+    },
+    {
+      "roomId": "sharedbath",
+      "code": "SB1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1117.png",
+      "pairedBedroomPrimary": "assets/render-candidates/cocoa-chrome-owned/r08/day-1116.png",
+      "target": "assets/render-candidates/collected-mineral/r04/day-631.png",
+      "approved": false,
+      "approvedForBathShellAndBedFrame": true,
+      "checks": [
+        "Double vanity/two sinks, actual bedroom connection and mirror/door camera preserved; no external bathroom window invented.",
+        "Quiet Carrara-look white/gray counter, Brown Oak ground-plinth vanity and silver fixtures match Cocoa & Chrome.",
+        "Bedroom3 doorway shows current White Gather upholstered bed with authentic small Natural Oak plinth, not old all-Natural Keane frame."
+      ],
+      "mustFix": [
+        "Change the visible Bedroom3 bedside lamp from a Bates-style Nickel DOME to actual NEW Isla Pewter TRIANGLE base with WHITE DRUM shade, exactly matching approved1116. No duplicated owned Bates in a guest room.",
+        "Remove the paired blue artworks introduced ABOVE a reflected bed. They are absent from approved Bedroom3 primary and do not correspond to its headwall between the two real single windows; preserve the correct reflection axis and the actual primary artwork location."
+      ],
+      "limits": [
+        "Mirror/doorway glimpses must follow actual connected bedroom geometry and camera, not borrow ownerbed paired-art styling.",
+        "The other bedside lamp may naturally be occluded; do not add another visible lamp merely to show total two."
+      ]
+    }
+  ],
+  "summary": {
+    "passed": 2,
+    "localCorrectionsRequired": 2,
+    "blockingFiles": [
+      "day-2116.png chest count",
+      "day-1117.png lamp/art reflection"
+    ],
+    "readyCompanions": [
+      "day-2115.png",
+      "day-2121.png"
+    ]
+  }
+}

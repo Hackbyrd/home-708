@@ -1,0 +1,449 @@
+{
+  "revision": "CC-OWN-R08",
+  "checkedAt": "2026-10-12",
+  "purpose": "Visual QA against the paired source, current owned allocation and selected new catalog forms. Image approval does not certify measured construction, exact products or stock.",
+  "rooms": [
+    {
+      "roomId": "sunroom",
+      "code": "S1",
+      "index": 1003,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1003.png",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-406.png",
+      "approved": true,
+      "checks": [
+        "The source windows, transoms, knee walls, terrace door, oven wall and camera are preserved.",
+        "Exactly six white silver-frame chairs remain:four side chairs and two track-arm end chairs. The real Maslow spider base is retained.",
+        "The smoky/pearl kitchen glimpse, silver two-rod rectangular opal fixture, small blue/yellow accents and paler neutral oak form a distinct Cocoa & Chrome scheme."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Exact72-inch size and physical wood/metal shades require site checks. The owned Espresso Walnut/Polished Aluminum table is an authentic exception; it is not being restained Brown Oak."
+      ]
+    },
+    {
+      "roomId": "kitchen",
+      "code": "K1",
+      "index": 1306,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1306.png",
+      "sourceFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-1003.png",
+      "approved": true,
+      "checks": [
+        "The adjacent Maslow tabletop is now a visibly dark Espresso Walnut wood surface, matching the accepted sunroom rather than the pale/near-white top in rejected day 1206.",
+        "The sunroom glimpse retains six owned Emery chairs, actual polished-aluminum spider base and the same slim silver/opal two-rod fixture as accepted day 1003.",
+        "The kitchen retains four NEW armless white/silver counter-stool proposals, two silver/opal island pendants, L-shaped equipment positions, island sink, actual openings and target camera."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "The selected White/Polished Stainless counter-stool SKU, seat height and aggregate four-unit stock remain unverified; the brass generic hero is form-only."
+      ],
+      "history": [
+        {
+          "index": 1206,
+          "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1206.png",
+          "approved": false,
+          "checks": [
+            "The kitchen shell and four white polished-silver counter stools are preserved.",
+            "The sunroom glimpse now has the correct spider base, six-chair relationship and matching two-rod rectangular silver/opal fixture, with no added rug."
+          ],
+          "mustFix": [
+            "Local finish-only repair:the sunroom table’s broad exposed top reads pale gray/near-white, unlike day1003’s medium-dark Espresso Walnut. Preserve base, shape, six chairs, windows, fixture, camera and daylight. Darken only the wood top toward source1003 with restrained grain."
+          ],
+          "limitations": [
+            "Daylight can lighten wood, but the current broad finish difference is too strong to call a matching owned table."
+          ]
+        }
+      ],
+      "approvedJobId": "f113e111-ea7f-4a4a-a268-afa91c21351d"
+    },
+    {
+      "roomId": "media",
+      "code": "M1",
+      "index": 1302,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1302.png",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-609.png",
+      "approved": true,
+      "checks": [
+        "The west gallery doors are now clear glass in light frames; their original near-TV location and center paired two-unit window bank remain.",
+        "The 83-inch TV remains the focus of a quiet pearl wall with subtle perimeter backlighting and lit display niches. The floor-level smoky-oak/silver console and external soundbar remain.",
+        "The generous new Classic Cloud proposal with TWO movable ottomans retains the approved seating envelope and source camera."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "The circular ceiling grilles represent future inactive prewire or an alternative complete AVR scheme. They are not passive speakers connected directly to the active soundbar.",
+        "Active rear-speaker/subwoofer visibility and exact clearances require a full measured AV/furniture plan; they cannot be certified from this crop."
+      ],
+      "history": [
+        {
+          "index": 1102,
+          "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1102.png",
+          "approved": false,
+          "checks": [
+            "The real paired2 ×2 window is retained; no new window behind the sofa.",
+            "The quiet TV halo, brown-oak/silver plinth console, visible soundbar, collectible niches and white Cloud-style seating/two-ottoman relationship follow the Cocoa & Chrome recipe.",
+            "The ceiling is plain and flat. The four ceiling grilles are future prewire unless a complete alternative AVR system is selected."
+          ],
+          "mustFix": [
+            "The required clear WEST gallery doors are solid raised-panel leaves. Replace only their infill with clear glass/light frames, preserving door locations, surrounding wall and camera."
+          ],
+          "limitations": [
+            "The named Classic119 sofa and40-inch ottomans remain catalog-inspired design proposals with exact White configuration/stock/fit pending. Active rears/sub may be outside this view; use the companion view/schedule to show the full AV system. Never claim passive grilles connect to the soundbar."
+          ]
+        }
+      ],
+      "approvedJobId": "367c7c54-1be8-4458-a67b-fc9c705288a8"
+    },
+    {
+      "roomId": "great",
+      "code": "GR1",
+      "index": 1105,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1105.png",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-602.png",
+      "approved": true,
+      "checks": [
+        "The two actual high horizontal windows/mullions, fireplace/TV, terrace opening, crown and camera remain.",
+        "One white/chrome tailored Italia-style sofa, two compact white/black-support Imogene-style chairs and one Carrara/stainless Nicholas-style coffee table are depicted. There is no Cloud sofa or wood storage coffee table.",
+        "Smoky brown-oak door-front sideboards, sibling blue/white art, limited yellow cushion and pale oak form a coherent Cocoa & Chrome room."
+      ],
+      "mustFix": [],
+      "scheduleAction": [
+        "Completed:two square brown-oak/silver supporting tables and one pearl-stone/silver lamp are explicitly NEW unselected supporting allowances in social/build specs. They are not owned Machinto/Bates units or stock-confirmed retail."
+      ],
+      "limitations": [
+        "Catalog-inspired forms and physical size/finish are not certified by the image. Product stock, quantities, measured fit and the new lamp model remain pending."
+      ]
+    },
+    {
+      "roomId": "dining",
+      "code": "D1",
+      "index": 1307,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1307.png",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-619.png",
+      "approved": true,
+      "checks": [
+        "The original day-619 camera/topology is restored: the separate small high arch is IMAGE LEFT, with two left tall rectangular openings and two far tall arched openings.",
+        "The owned Cabrera console, ONE round stainless mirror and TWO owned white vessels are correctly retained on the WEST wall, IMAGE RIGHT; the duplicate mirror and tall invented display cabinet are removed.",
+        "The Brown Oak Machinto-style table has a plain thick top and architectural block legs, with EIGHT new White/Polished Stainless Emery SIDE chairs: three per long side and one per end. The owned Spiridon remains.",
+        "The shallow stone ledge beneath the small high arch matches the accepted source placement and is recorded as a separate new fabrication concept, not another owned console."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Eight-seat measured fit, exact chair widths, table leg openings and present table/chair delivery remain pending; ten is conditional rather than promised."
+      ],
+      "history": [
+        {
+          "index": 1107,
+          "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1107.png",
+          "approved": false,
+          "checks": [
+            "Eight white polished-metal Emery-style chairs surround the new plain Brown Oak Machinto-style table; the Spiridon-like fixture is retained."
+          ],
+          "mustFix": [
+            "Restore the opening topology from day619:the original SMALL HIGH ARCH on IMAGE LEFT was replaced by a mirror and moved/invented at IMAGE RIGHT. Keep the two left tall rectangles and both far south arches; restore the original left small arch at its actual offset, size and sill.",
+            "Use ONLY ONE owned42-inch round stainless mirror with ONE Cabrera72 console and TWO white vessels at the source WEST/IMAGE RIGHT location. The current image moves them left and adds a second mirror.",
+            "Remove the extra tall glass cabinet/second mirror at right. Do not replace glazing with furniture. Preserve new table, eight chairs, chandelier and camera during the local correction."
+          ],
+          "limitations": [
+            "For D1, WEST is IMAGE RIGHT; source camera geometry overrides ambiguous cardinal text. Eight daily and10 conditional are planning capacities, not certified fit."
+          ]
+        }
+      ],
+      "approvedJobId": "160633f3-791a-4627-bf2d-0b14fe15dc4d"
+    },
+    {
+      "roomId": "living",
+      "code": "LR1",
+      "index": 1408,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1408.png",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-611.png",
+      "approved": true,
+      "checks": [
+        "The adjacent dining furniture now has White/Polished Stainless Emery SIDE-chair forms and the Brown Oak Machinto block-leg table; inherited wood-leg Nicola seats are removed.",
+        "The accepted compact Italia sofa, TWO black-frame White Imogene chairs, Nicholas Carrara/steel coffee table, ONE owned 14-inch Martini, future baby grand, supporting lamps and exact source camera/open living-to-dining connection remain."
+      ],
+      "mustFix": [],
+      "scheduleAction": [
+        "Completed:two rear lamp surfaces and two pearl/silver lamps are explicit NEW unselected supporting allowances. Only the foreground14-inch Martini is owned. No extra owned units or verified retail models are implied."
+      ],
+      "limitations": [
+        "The exact living sofa variant, dimensions and stock remain pending. A camera crop does not establish the complete adjoining dining-chair count or concealed dimensions."
+      ],
+      "history": [
+        {
+          "index": 1108,
+          "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1108.png",
+          "approved": false,
+          "checks": [
+            "The plan-derived camera, future northwest baby grand/bench, fully open dining edge and actual glazing pattern remain.",
+            "One compact white/chrome Italia-style sofa, two white/black-support Imogene-style chairs, Carrara/silver coffee table and the owned Martini-style table retain the selected major forms.",
+            "Blue/white artwork and one small yellow pillow maintain the Cocoa & Chrome palette."
+          ],
+          "mustFix": [
+            "Adjacent formal-dining chairs at IMAGE RIGHT still have brown WOOD legs from prior Nicola-like seats. Correct only that glimpse to selected White/Polished Stainless Emery SIDE chairs and the final approved Machinto96/eight-chair set. Preserve foreground furniture, piano, windows and camera."
+          ],
+          "limitations": [
+            "The shorter Italia7-foot Petite exact current configuration is pending. Living is plan-derived, not an original room photograph; measure piano, bench and furniture routes."
+          ]
+        }
+      ],
+      "approvedJobId": "08a383a7-e7b8-4008-a0a7-6aced8f181cb"
+    },
+    {
+      "roomId": "entry",
+      "code": "E1",
+      "index": 1200,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1200.png",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/entry-e1-day.png",
+      "approved": true,
+      "checks": [
+        "The Welcome Home inscription is now flat painted dark-gray lettering without visible extrusion or a cast letter shadow.",
+        "The entry source camera, arch, open upper guard, clear light-frame gallery doors, cascaded globe chandelier and bare natural-oak stair remain."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Only the arch inscription is visible in this camera; verify the separate raised departure inscription in the reverse view."
+      ],
+      "history": [
+        {
+          "index": 1100,
+          "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1100.png",
+          "approved": false,
+          "checks": [
+            "The actual arch, upper guard, bare staircase, clear light-painted gallery doors and camera remain.",
+            "Small curved-front smoky-oak cabinet with polished-silver pulls and cascade silver/opal chandelier follow the Cocoa & Chrome proposal."
+          ],
+          "mustFix": [
+            "“Welcome Home” above the arch is visibly dimensional/raised. Paint it FLAT at the same modest size/location, without extrusion or drop shadow. Do not change the chandelier, guard, arch, doors or floor."
+          ],
+          "limitations": [
+            "Upper room glimpses should follow the final linked floor2 scheme; exact concealed furniture there is not established by this entry crop."
+          ]
+        }
+      ],
+      "approvedJobId": "d1ce6234-bd69-4178-990c-97759c91a45c"
+    },
+    {
+      "roomId": "office",
+      "code": "O1",
+      "index": 1201,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1201.png",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-600.png",
+      "approved": true,
+      "checks": [
+        "The generic draft chairs are replaced by ONE black Coal Fern-style task chair with the specified aluminum-base proposal and TWO White/Polished Stainless Emery track-arm guest chairs.",
+        "The large plain cabinetmaker desk, full north TV/soundbar library, original source camera and TWO structural sash units in each visible 2 × 2 pane bank remain.",
+        "The small circular side window and left-of-gallery printer/art station lie outside this primary crop; no new opening or door is introduced."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Exact product dimensions, upholstery configuration and current ZIP 20878 availability require procurement checks; a render is not a measured furniture survey."
+      ],
+      "history": [
+        {
+          "index": 1101,
+          "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1101.png",
+          "approved": false,
+          "checks": [
+            "Both two-unit main window banks, original north library/TV arrangement, plain rectangular pedestal desk, flat ceiling and camera remain.",
+            "Smoky-oak joinery, quiet pearl walls, silver hardware, white upholstery and blue artwork make a distinct Cocoa & Chrome office."
+          ],
+          "mustFix": [
+            "If the named retail proposal is used, replace the generic white ribbed task chair with ONE actual Coal/black Haworth Fern with polished-aluminum five-star base, and both generic curved silver-leg guest seats with TWO NEW White/Polished Stainless Emery TRACK-ARM chairs. Keep desk, windows, furniture orientation and camera unchanged."
+          ],
+          "limitations": [
+            "The plain desk is a new cabinetmaker proposal, not RH Alora. Printer/art left of the right-offset doors are outside this primary crop and require companion-view review. Generic seats cannot be published as exact Fern/Emery product depictions."
+          ]
+        }
+      ],
+      "approvedJobId": "ca070e93-9285-4921-ac3c-3a7389836d80"
+    },
+    {
+      "roomId": "gym",
+      "code": "G1",
+      "index": 1103,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1103.png",
+      "sourceFile": "assets/render-candidates/mineral-walnut-architecture/r02/gym-g1-day-30504.png",
+      "approved": true,
+      "checks": [
+        "Empty room, actual large paired window/mirror reflection, two visible right-side doors and camera are preserved.",
+        "Charcoal rubber, smooth pearl walls, silver linear light and exact readable quote follow the empty-gym instruction."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "The companion view must retain the separate northwest closet and remaining real access; one crop cannot establish all hidden door positions."
+      ]
+    },
+    {
+      "roomId": "bath",
+      "code": "B1",
+      "index": 1104,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1104.png",
+      "sourceFile": "assets/render-candidates/mineral-walnut-floor-one/r05/bath-b1-day.png",
+      "approved": true,
+      "checks": [
+        "Plan-led fixture/door route, reflected shower and camera are preserved; no invented exterior window.",
+        "Compact brown-oak two-door vanity with continuous base, small silver oval pulls, silver rounded mirror/sconces and quiet pearl-gray porcelain floor fit Cocoa & Chrome."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "This is a plan-led design visualization, not measured proof of plumbing, waterproofing or clearance."
+      ]
+    },
+    {
+      "roomId": "stair2",
+      "code": "ST1",
+      "index": 1410,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1410.png",
+      "sourceFile": "assets/render-candidates/collected-mineral/r04/day-630.png",
+      "approved": true,
+      "checks": [
+        "The actual quarter-turn lower stairs, half landing, straight upper flight, bare treads, open guards, windows and source camera remain.",
+        "The great-room glimpse now has the Carrara/Polished Stainless open-frame Nicholas coffee table, tailored white/chrome sofa and black-supported White Imogene chair form, consistent with the accepted great-room furniture.",
+        "The unassigned hanging Dome-style fixture is removed; original general fixtures remain."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "The distant balcony bistro concept remains a separate unselected outdoor allowance. Exact furniture/stair dimensions require site measurement."
+      ],
+      "history": [
+        {
+          "index": 1110,
+          "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1110.png",
+          "approved": false,
+          "checks": [
+            "Actual bare quarter-turn/half-landing/straight upper flight, open guard, high windows and camera remain.",
+            "Pale neutral oak, light risers, pearl walls and blue/white artwork maintain Cocoa & Chrome without a stair runner."
+          ],
+          "mustFix": [
+            "The adjacent great-room glimpse still has the inherited WOOD coffee table. Match the final approved great room’s Nicholas Carrara/Polished Stainless coffee table and corresponding tailored sofa/sideboards, preserving stair geometry, openings and camera."
+          ],
+          "limitations": [
+            "Use the final accepted adjacent-room scene for the local glimpse; do not alter architecture to show more furniture."
+          ]
+        }
+      ],
+      "approvedJobId": "7d7b67ca-1299-4e6a-801b-f4945ef8b54a"
+    }
+  ],
+  "summary": {
+    "reviewedPrimaryRooms": 11,
+    "approved": 11,
+    "needsRepair": 0,
+    "note": "All eleven current social primaries now pass their source/furniture review; companion and night records retain any separate outstanding corrections."
+  },
+  "companionViews": [
+    {
+      "roomId": "entry",
+      "code": "E2",
+      "index": 2300,
+      "approved": true,
+      "checks": [
+        "The reverse view now uses clear outer glass globes, visible inner bulbs and polished-silver cascade fittings, matching the accepted primary fixture family.",
+        "The extra front-door credenza is removed. Only the under-stair cabinet in E1 remains in the schedule.",
+        "The raised See you next time. text, front door, round window, clear light gallery doors, source arch and camera are retained."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Suspension lengths and total globe count require an actual selected fixture/shop drawing; perspective occlusion prevents a dimensional certification from two rendered crops."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2300.png",
+      "jobId": "4c3457fa-5ab4-4105-884d-24f46ef9cde6",
+      "history": [
+        {
+          "index": 2100,
+          "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2100.png",
+          "approved": false,
+          "checks": [
+            "The reverse camera preserves the front door, high circular window, clear light gallery doors, source arch and correctly raised departure inscription."
+          ],
+          "mustFix": [
+            "Replace opaque white/opal globes with the same clear outer glass globes, visible inner bulbs, polished-silver fittings and suspension layout as accepted E1 day 1200.",
+            "Remove the extra curved credenza beside the front door. Only one cabinet is scheduled at the under-stair E1 niche; these are different physical locations."
+          ],
+          "limitations": [
+            "Neither paired image constitutes a measured light fixture or cabinet shop drawing."
+          ]
+        }
+      ]
+    },
+    {
+      "roomId": "gym",
+      "code": "G2",
+      "index": 2303,
+      "approved": true,
+      "checks": [
+        "The second-wall quote is removed, keeping only the inscription on the approved G1 wall.",
+        "The empty room, charcoal rubber floor, clear gallery doors, actual narrow and paired broad windows, practical existing fixture layout and source camera remain."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Mirror and closet remain part of the opposing camera/schedule; this crop does not show every surface."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2303.png",
+      "jobId": "798bd336-a81c-4ac1-8f55-3331d0aca648",
+      "history": [
+        {
+          "approved": true,
+          "checks": [
+            "Empty room retains the source camera, paired clear gallery doors, separate narrow side window and two-unit broad window bank.",
+            "The exact two-line Surpass your limits. Right here, right now. inscription, charcoal rubber floor and practical existing general/linear lighting remain."
+          ],
+          "mustFix": []
+        },
+        {
+          "index": 2103,
+          "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2103.png",
+          "approved": false,
+          "checks": [
+            "Empty room retains the source camera, paired clear gallery doors, separate narrow side window and two-unit broad window bank.",
+            "The exact two-line Surpass your limits. Right here, right now. inscription, charcoal rubber floor and practical existing general/linear lighting remain."
+          ],
+          "mustFix": [
+            "Paired-view review identifies a duplicate gym quote on a second physical wall. Remove the extra G2 inscription, keeping only the approved G1 quote wall, and preserve the rest of G2. Root repair 2303 is pending."
+          ],
+          "limitations": [
+            "Closet and mirror in the opposing source camera remain part of the unchanged room schedule.",
+            "Earlier approval was a standalone geometry/material review; paired-view inventory takes precedence."
+          ]
+        }
+      ]
+    },
+    {
+      "roomId": "bath",
+      "code": "B2",
+      "index": 2104,
+      "approved": true,
+      "checks": [
+        "The narrow source camera retains both door positions, shower seat, niche, clear sliding enclosure and actual shower fixture positions.",
+        "Wet wall/floor surfaces are coordinated pearl-gray tile and shower hardware is silver; no exterior window or upholstered furniture is invented."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Bath 3 is a plan-led visualization; confirm all wet-zone measurements and tile system before construction."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2104.png",
+      "jobId": "019cd57f-8022-46e3-82ef-f152b57b1150"
+    },
+    {
+      "roomId": "sunroom",
+      "code": "S2",
+      "index": 2109,
+      "approved": true,
+      "checks": [
+        "The target source camera, wraparound low glass/high transoms, terrace door and left oven-bank adjacency remain.",
+        "The same ONE owned Maslow Espresso Walnut/spider table, FOUR owned side chairs and TWO owned track-arm chairs appear with the accepted silver/opal two-rod linear fixture.",
+        "The floor remains bare pale neutral oak, with no new area rug or extra dining set. The lower kitchen cabinet is consistent with accepted S1 day 1003."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Exact stock does not apply to the owned set; measured chair pullback and appliance/window clearance still require field verification."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2109.png",
+      "jobId": "6c95ada0-4faf-4e1b-8fdb-4b7b38e90c0b"
+    }
+  ],
+  "companionSummary": {
+    "reviewed": 4,
+    "approved": 4,
+    "needsRepair": 0
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "revision": "CC-OWN-R08",
+  "reviewedAt": "2026-10-12",
+  "scope": "Five assigned exact-source night studies. No seed or approval-ledger edits.",
+  "limitations": [
+    "Qualitative visual camera/product/count/fixture/privacy review; measurements, illumination and physical blackout performance are not certified.",
+    "Mask percentages are approximate guidance on FIRST night image; actual main-glazing boundary and unchanged source frames govern local repair.",
+    "Preserve separate high windows/transoms specified bare; never apply coverings to clear interior gallery doors."
+  ],
+  "summary": {
+    "reviewed": 5,
+    "passed": 1,
+    "repairRequired": 4
+  },
+  "records": [
+    {
+      "index": 7300,
+      "room": "entry",
+      "code": "E2-CCN",
+      "sourceDayIndex": 2300,
+      "notes": [
+        "Exact E2 camera, arched front door, corrected clear-globe cascade, quote and empty exit floor retained.",
+        "Front-door main glass is fully covered; separate high circle correctly remains bare.",
+        "Actual neighboring main exterior windows visible through BOTH clear side gallery doors remain exposed dark glazing."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7300.png",
+      "sourceDayFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-2300.png",
+      "qa": {
+        "approved": false,
+        "status": "privacy_repair_required"
+      },
+      "minimalRepairPrompt": "LOCAL PRIVACY EDIT ONLY of FIRST night7300. At the BACKGROUND exterior windows seen THROUGH the LEFT and RIGHT clear gallery doors (approximately11\u201318% and81\u201390% of image width,38\u201355% of image height), fully lower existing opaque pearl shades over their complete actual main-window glass to the sill. The foreground gallery doors must remain CLEAR glass with unchanged frames and handles; do not curtain or paint those doors. Preserve fully covered front-door glass and the BARE high circular front window, all chandelier globes/drops, quote, wood finishes, lighting and camera."
+    },
+    {
+      "index": 7303,
+      "room": "gym",
+      "code": "G2-CCN",
+      "sourceDayIndex": 2303,
+      "notes": [
+        "Exact corrected G2 camera, empty gym, main doors, fixtures and removal of duplicated corner quote retained.",
+        "Broad right bank is completely covered.",
+        "Narrow direct window retains exposed bottom-glass strip; the same strip remains in right gallery-door reflection."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7303.png",
+      "sourceDayFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-2303.png",
+      "qa": {
+        "approved": false,
+        "status": "privacy_repair_required"
+      },
+      "minimalRepairPrompt": "LOCAL PRIVACY EDIT ONLY of FIRST night7303. Extend the existing narrow-window opaque shade straight DOWN to its actual sill, covering the exposed glass strip (approximately44\u201348% image width,40\u201346% height). Make the same complete-to-sill closure visible in the reflection through the RIGHT gallery-door pane (approximately32\u201335% width,39\u201346% height). Keep the broad right bank already covered. Do not paint glass doors, change window frames, add furniture/quotes/lights or alter empty rubber-floor gym/camera."
+    },
+    {
+      "index": 6408,
+      "room": "living",
+      "code": "LR1-CCN",
+      "sourceDayIndex": 1408,
+      "notes": [
+        "Actual day1408 camera, piano/instrument, two-cushion sofa, two Imogene black-frame chairs, Martini, Nicholas coffee and existing lamp/ceiling/Spiridon fixtures retained.",
+        "The TWO main salon window openings behind sofa show night glazing through sheers without the required independent opaque layer.",
+        "The TWO visible main tall dining windows at right remain uncovered. Small separate high center arch and separate top transoms correctly remain bare."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6408.png",
+      "sourceDayFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-1408.png",
+      "qa": {
+        "approved": false,
+        "status": "privacy_repair_required"
+      },
+      "minimalRepairPrompt": "LOCAL PRIVACY EDIT ONLY of FIRST night6408. Close independent OPAQUE pearl privacy layers behind the existing sheers over BOTH actual main salon windows BEHIND the sofa (approximately30\u201358% width,33\u201361% height): cover all main glass below each separate top transom to sill/floor as installed; no transparent tree silhouettes or sash showing through that opaque layer. Also lower existing opaque shades to fully cover the TWO visible tall DINING main windows at RIGHT (approximately72\u201399% width,34\u201362% height), from below their separate high transoms through the main glass to sill. Leave separate high transoms and the SMALL HIGH ARCHED center opening completely BARE. Do not blanket-curtain the entire shared wall or cover the small arch. Preserve piano, all furniture/lamps, actual fixtures, room camera, finishes and light intensity."
+    },
+    {
+      "index": 7101,
+      "room": "office",
+      "code": "O2-CCN",
+      "sourceDayIndex": 2101,
+      "notes": [
+        "Exact O2 camera, Fern Coal task chair, TWO White/Polished Stainless Emery track-arm visitors, north TV library, plain desk and printer/art arrangement retained.",
+        "Office main bank is fully covered and the separate high circular window remains bare.",
+        "Neighboring exterior main window bank seen through clear gallery doors has an exposed lower-glass area."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7101.png",
+      "sourceDayFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-2101.png",
+      "qa": {
+        "approved": false,
+        "status": "privacy_repair_required"
+      },
+      "minimalRepairPrompt": "LOCAL PRIVACY EDIT ONLY of FIRST night7101. The only correction is in the BACKGROUND actual exterior window bank seen THROUGH the clear gallery double doors (approximately54\u201367% image width,37\u201356% height). Fully lower its existing independent opaque pearl shade(s) across ALL actual main glass to the sill; no exposed lower sash or dark exterior rectangle. Keep the foreground gallery doors CLEAR and their frames, handles and reflections physically intact. Office left main bank stays fully covered; HIGH circular wall window stays BARE. Preserve all furniture counts/forms, north TV/library, desk/printer/art, shelf and ceiling fixtures, finishes, night light and target camera."
+    },
+    {
+      "index": 7105,
+      "room": "great",
+      "code": "GR2-CCN",
+      "sourceDayIndex": 2105,
+      "notes": [
+        "Exact GR2 day2105 camera, Italia sofa, two White Imogene chairs with true black frames, Nicholas coffee, two grounded sideboards, two square supporting tables and one right-side lamp retained.",
+        "Main terrace glazing has uninterrupted closed full-height privacy coverage; no visible outdoor view or glass gap.",
+        "Both separate high THREE-pane windows remain bare with dark night exterior. Installed ceiling fixtures and fireplace retain their inventory; no invented cove/sconce/LED."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7105.png",
+      "sourceDayFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-2105.png",
+      "qa": {
+        "approved": true,
+        "status": "paired_night_visual_pass"
+      },
+      "minimalRepairPrompt": ""
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "revision": "CC-OWN-PRIVATE-FINAL-COMPANION-NIGHT-QA-R04",
+  "date": "2026-10-12",
+  "scope": "Final private companion, paired night, rooftop and connecting-glazing continuity checks; does not promote generation ledgers.",
+  "images": [
+    {
+      "roomId": "bed3",
+      "code": "B32",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2516.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-1116.png",
+      "approved": true,
+      "supersedes": "day-2116.png",
+      "checks": [
+        "Exactly THREE wide chest drawers restored, same short silver tabs/reeded ends/closed plinth.",
+        "Gather Ivory/Natural small bed plinth, TWO Isla lamps and TWO two-drawer bedside cabinets match primary1116; true three window groups/camera retained."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "sharedbath",
+      "code": "SB1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1517.png",
+      "approved": false,
+      "checks": [
+        "Wrong Bates dome is corrected to Isla triangle/white drum; unsupported paired reflected headwall art removed.",
+        "White Gather frame with authentic small Natural Oak plinth replaces old Natural Keane."
+      ],
+      "mustFix": [
+        "Visible guest nightstand has THREE drawers with long pulls. Restore actual Bedroom3 TWO drawers, short silver tabs, reeded END panels and wood plinth from primary1116.",
+        "Image changed to1696\u00d72528 portrait and reframed camera relative to original2048\u00d71360 landscape SB1. Restore original landscape source composition while making only the local Bedroom3 corrections."
+      ],
+      "limits": [
+        "Do not treat a replacement portrait close-up as unchanged SB1 camera."
+      ]
+    },
+    {
+      "roomId": "retreat",
+      "code": "OR2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2112.png",
+      "approved": true,
+      "checks": [
+        "Exactly TWO compact light Dove Drew-style barrel swivel chairs with concealed bases, ONE cube side table and ONE nook Isla triangle/white drum; no owned Bates copied into nook.",
+        "All THREE WEST sash groups plus TWO SOUTH units retained, open owner connection and existing bar/fridge fixed; no optional French door invented.",
+        "Separate day sheers/open opaque layers, pale oak, Brown Oak/silver and controlled blue/white textiles preserve current design."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Photo-informed upholstery shapes/loosely arranged pillows are approximate, not retail CAD or stock proof."
+      ]
+    },
+    {
+      "roomId": "ownerbed",
+      "code": "OB2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7311.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-2311.png",
+      "approved": true,
+      "checks": [
+        "Same Modena PANEL/GreyOakfeet, two OPEN26 wood-plinth stands, two Bates, EIGHT-drawer wood-plinth dresser, TV55/soundbar and art/textiles.",
+        "Actual internal east transom stays clear/bare, no curtain on solid wall. Unseen west window closure is consistent with fully opaque paired primary night6011; TV reflection shows no daylight."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "retreat",
+      "code": "OR1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6412.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-1412.png",
+      "approved": true,
+      "checks": [
+        "Same stool-free/forced-chair-free wetbar/owners crop, exactly two owned Bates domes and correct Modena/OPEN26 pieces.",
+        "Visible true window bank fully opaque to floor; no exposed blue/daylight strip, additional lamp or new furniture."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "ownerbath",
+      "code": "BA1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6413.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-1413.png",
+      "approved": false,
+      "checks": [
+        "Carrara/BrownOak/silver, real tub/shower/vanity geometry and stool removal preserved."
+      ],
+      "mustFix": [
+        "Lower existing opaque Roman on single real SOUTH/right window COMPLETELY to actual sill over all sash glass. Current bottom portion exposes blue night glass.",
+        "Make the left shower reflection show IDENTICAL fully lowered opaque shade; do not invent a second real window or curtain inside shower."
+      ]
+    },
+    {
+      "roomId": "ownerbath",
+      "code": "BA2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7413.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-2413.png",
+      "approved": true,
+      "checks": [
+        "Same stool-free reverse, double vanity/sconces, source shower/door geometry and foreground tub; no new fixture or furniture.",
+        "True exterior unit is behind camera and no exposed outside/daylight glass appears in reflections; solid bedroom-backed shower wall retained."
+      ],
+      "mustFix": [],
+      "limits": [
+        "BA1 separate shade failure is not visible in this reverse and needs its own local repair."
+      ]
+    },
+    {
+      "roomId": "bed2",
+      "code": "B22",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7115.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-2115.png",
+      "approved": false,
+      "checks": [
+        "Main paired EAST/front bank is fully opaque; desk/chair, two Orbiters, Carbon rug and source camera/closet axis retained."
+      ],
+      "mustFix": [
+        "Narrow LEFT window Roman is half-raised with lower glass exposed. Lower its existing opaque fabric COMPLETELY to actual sill; preserve desk/chair/fixture positions and all other scene details."
+      ]
+    },
+    {
+      "roomId": "bed5",
+      "code": "B52",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7121.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-2121.png",
+      "approved": true,
+      "checks": [
+        "BOTH true EAST windows fully opaque from top to floor, with no extra opening/curtain.",
+        "True west-headboard-end camera, bed FOOT foreground, NORTH FOUR-drawer chest LEFT/SOUTH closet RIGHT remain; head/art and Zain lamps are behind camera, not invented into this crop."
+      ],
+      "mustFix": [],
+      "limits": [
+        "UNBUILT plan concept."
+      ]
+    },
+    {
+      "roomId": "loft",
+      "code": "PL1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1512.png",
+      "approved": false,
+      "approvedForInterior": true,
+      "checks": [
+        "Interior placement/forms/counts preserved and actual WEST terrace glazing now shows Black/White Malibu rather than old teak."
+      ],
+      "mustFix": [
+        "Remove dining/seating inserted directly beyond SOUTH Juliet French/flank glazing. Original real loft photograph and shared plan locks establish a shallow Juliet railing/view, not a furnished second terrace. Preserve original railing/roofscape; keep selected furniture glimpses ONLY through actual WEST patio access."
+      ]
+    },
+    {
+      "roomId": "loft",
+      "code": "PL2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2520.png",
+      "approved": false,
+      "approvedForInterior": true,
+      "checks": [
+        "Three Luxe45 Cloud seats/one near-end ottoman, all owned tables/media plinth/Arc/Rome/bar glass remain; WEST Black/White patio glimpse is updated."
+      ],
+      "mustFix": [
+        "Clear invented Malibu seating/dining beyond SOUTH Juliet French/flank panes, keeping actual railing/roofscape. Retain only genuine WEST patio furniture glimpse and all interior details."
+      ]
+    },
+    {
+      "roomId": "terrace",
+      "code": "RT2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2123.png",
+      "approved": false,
+      "approvedForRoofShellAndPrincipalCounts": true,
+      "checks": [
+        "Exact MIDDLE-RIGHT photographed/model stairwell access, perimeter posts/rails, roof/sail projections, basket-weave deck and urban neighboring roofscape retained.",
+        "One Black/White sofa, TWO matching lounge chairs, ONE Black coffee, one dining table/SIX armless SIDE chairs; no added chaise, bench or stone table.",
+        "Sofa has TWO large back cushions, matching approved1423."
+      ],
+      "mustFix": [
+        "Actual Malibu77 has ONE continuous bench SEAT cushion. Enlarged crop confirms this reverse introduces TWO distinct seat pads with a center gap. Remove only center seat-pad division, retaining two back cushions and all geometry/counts."
+      ],
+      "limits": [
+        "Stairwell is model-photo geometry; actual-house optional external spiral remains to verify.",
+        "White loose accessory pillows do not change the two principal back-cushion count."
+      ]
+    },
+    {
+      "roomId": "sharedbath",
+      "code": "SB1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1617.png",
+      "supersedes": "day-1517.png",
+      "approved": true,
+      "checks": [
+        "Original landscape SB1 bath camera restored from1117; no portrait reframe.",
+        "Connected Bedroom3 shows current Gather plain low frame/Natural small plinth, correct Isla Pewter triangle/white drum, and TWO-drawer short-tab/reeded-END/wood-plinth bedside matching1116.",
+        "Unsupported reflected paired headwall art removed; bath door/mirror/two-sink footprint and quiet Carrara/BrownOak/silver preserved."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "ownerbath",
+      "code": "BA1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90008.png",
+      "supersedes": "night-6413.png",
+      "approved": true,
+      "checks": [
+        "Single real right/SOUTH Roman now lowers fully to actual sill over all window glass, no exposed blue lower sash.",
+        "Left shower reflection matches IDENTICAL fully lowered shade, with no false second opening or shower drape.",
+        "Current1413 fixture/camera/Carrara/vanity/tub/stool-free scene retained."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "bed2",
+      "code": "B22",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90009.png",
+      "supersedes": "night-7115.png",
+      "approved": true,
+      "checks": [
+        "Existing narrow LEFT opaque Roman now lowers fully to actual sill; paired front bank also fully opaque.",
+        "Same2115 camera, closet/hall axis, two actual Nickel Orbiters, Carbon rug, compact casework/desk/light chair and pale oak."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Small dark edge fitting is not an exposed outside scene; install exact measured-width opaque fabric and returns."
+      ]
+    },
+    {
+      "roomId": "bed3",
+      "code": "B32",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7516.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-2516.png",
+      "approved": false,
+      "checks": [
+        "Correct Gather/Isla pair/TWO-drawer stands/THREE-drawer chest and all true three window groups retained."
+      ],
+      "mustFix": [
+        "Full blackout fails: front paired bank has a bright blue center slit and blue bottom rim; far RIGHT single window has a blue left-edge slit. Close already specified opaque panels/shades completely with overlap/edge returns at ALL three groups. Keep geometry/furniture/lighting inventory unchanged."
+      ]
+    },
+    {
+      "roomId": "retreat",
+      "code": "OR2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7112.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-2112.png",
+      "approved": true,
+      "checks": [
+        "Same TWO compact Dove Drew-style swivel chairs, ONE cube and ONE nook Isla lamp; existing wetbar/fridge/fixed owner connection retained.",
+        "All THREE west +TWO south real window units fully opaque from top to floor with no uncovered strip/false opening.",
+        "Same source night light inventory, no added floor lamp or extra owned Bates."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "loft",
+      "code": "PL1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1712.png",
+      "supersedes": "day-1512.png",
+      "approved": true,
+      "checks": [
+        "Invented furniture beyond SOUTH Juliet French/flank glazing is cleared; original shallow railing/neighbor roofscape remains.",
+        "Actual WEST patio glazing retains current Black/White Malibu furniture glimpse without forcing entire terrace into frame.",
+        "Owned three Luxe45 sofa seats/one fixed ottoman, two round18 tables, Carrara coffee, media wood plinth/two end doors+three drawers, Arc and two Rome seats remain."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Use this final day as exact fresh night seed; any separate high glass privacy exemptions must come from this actual source."
+      ]
+    },
+    {
+      "roomId": "loft",
+      "code": "PL2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2720.png",
+      "supersedes": "day-2520.png",
+      "approved": true,
+      "checks": [
+        "SOUTH Juliet view corrected to rail/roofscape only, genuine WEST Black/White Malibu glimpse retained.",
+        "All accepted2320 interior forms/counts/camera/bar upper glass and ONE near-end/sofa-left ottoman remain."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "terrace",
+      "code": "RT2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2223.png",
+      "supersedes": "day-2123.png",
+      "approved": true,
+      "checks": [
+        "Malibu77 sofa has EXACTLY TWO principal back cushions and ONE continuous bench seat, verified in enlarged crop.",
+        "One sofa/TWO matching lounges/ONE Black rectangular coffee/one closed76 dining with SIX armless SIDE chairs, no added bench/chaise/stone table.",
+        "Exact MIDDLE-RIGHT original/model stairwell perimeter, pergola/posts/sails/rail/open sky and square basket-weave deck/urban setting remain."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Spiral installation is still an actual-house verification issue; render preserves photographed/model reference only.",
+        "Stock/configuration/prices/cushion SKUs and20878 delivery remain explicitly pending."
+      ]
+    },
+    {
+      "roomId": "sharedbath",
+      "code": "SB2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2117.png",
+      "approved": false,
+      "approvedForBathroomShellLampAndBedside": true,
+      "checks": [
+        "Shifted landscape target632 viewpoint and actual bath vanity/door/mirror footprints retained.",
+        "Connected guest frame is upholstered White with correct Isla Pewter triangle/white-drum lamp and TWO-drawer short-tab/reeded-end bedside; no old all-Natural Keane storage."
+      ],
+      "mustFix": [
+        "Restore the Gather bed\u2019s authentic continuous small NATURAL OAK base/plinth strip beneath visible foot rail. Enlarged crop confirms this image instead shows a DARK single BLOCK FOOT and open gap, a Modena-type support mismatch with approved1617/1116. Repair only the base/support, retaining padded frame and all room geometry."
+      ],
+      "limits": [
+        "Small bath dry-wall framed artwork is removable styling shown only in this companion; it is not an architectural/construction change.",
+        "Target632 is a small shifted same-side vanity/doorway companion, not a view proving unseen toilet/tub compartment."
+      ]
+    },
+    {
+      "roomId": "sharedbath",
+      "code": "SB1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6617.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-1617.png",
+      "approved": false,
+      "checks": [
+        "Same two-sink BrownOak/Carrara/silver bathroom and connected Gather/Isla/two-drawer bedside; no extra lamp or invented bathroom opening."
+      ],
+      "mustFix": [
+        "The connected Bedroom3 real window through doorway remains partly uncovered, exposing dark BLUE lower glass. Fully lower its existing opaque shade to true sill; close all actual glazing visible directly or in reflection. Keep mirror axis and no curtain in glazing-free bath itself."
+      ]
+    },
+    {
+      "roomId": "bed3",
+      "code": "B32",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90016.png",
+      "supersedes": "night-7516.png",
+      "approved": true,
+      "checks": [
+        "All previous bright blue center slit/bottom rim at paired front bank and left-edge slit at far RIGHT single window eliminated; opaque shade/fabric fully covers true glass.",
+        "Correct THREE-drawer chest, TWO-drawer stands, Gather/Ivory/Natural small bed plinth, TWO Isla lamps and target2516 camera retained; no added fixture or furniture."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "loft",
+      "code": "PL1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6712.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-1712.png",
+      "approved": false,
+      "checks": [
+        "Owned interior furniture, main WEST opaque curtain and SOUTH French main panes remain consistent with final day1712."
+      ],
+      "mustFix": [
+        "Both small SOUTH flanking Romans and bar Roman expose lower real glass. Lower these THREE existing opaque shades fully to their actual sills; preserve every opening and furniture position."
+      ]
+    },
+    {
+      "roomId": "loft",
+      "code": "PL2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7720.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-2720.png",
+      "approved": true,
+      "checks": [
+        "SOUTH French main panes, both flanking units, bar window and WEST patio glass fully opaque; no uncovered daylight/blue-glass band.",
+        "Three Cloud Luxe45 seats and ONE near-end/sofa-left ottoman, two round18 side tables, Carrara48x24 coffee, Machinto media wood plinth/two end doors plus three central drawers, one Arc PN and two Rome Graphite seats match paired final day2720."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "terrace",
+      "code": "RT2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7223.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-2223.png",
+      "approved": true,
+      "checks": [
+        "Malibu sofa retains TWO principal back cushions plus ONE continuous bench seat; exactly SIX armless dining side chairs, TWO matching lounge chairs, one closed76 dining table and one Black rectangular coffee.",
+        "Original MIDDLE-RIGHT stairwell, pergola/posts/sails/rails, square basket-weave deck and neighboring urban roofs retained; no extra chaise, bench, stone table or exterior curtain.",
+        "Existing house/string/lantern lighting gives a plausible warm night setting without added roof or furniture."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Render preserves model-photo roof/stair access; actual-house optional exterior spiral must be verified. Retail configurations, cushion SKUs and delivery to20878 remain pending."
+      ]
+    },
+    {
+      "roomId": "sharedbath",
+      "code": "SB2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-2217.png",
+      "supersedes": "day-2117.png",
+      "approved": true,
+      "checks": [
+        "Correct Gather continuous small NATURAL OAK bed plinth replaces dark block foot; padded White frame and actual landscape companion camera preserved.",
+        "Visible Bedroom3 bedside has TWO drawers, short silver tabs/reeded ends/wood plinth, matching Isla Pewter triangle/white drum and primary1116.",
+        "Quiet Carrara/Brown Oak/silver two-sink bath shell, source mirror/door/fixture geometry retained; no invented bedroom headwall artwork."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "sharedbath",
+      "code": "SB1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90018.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-1617.png",
+      "supersedes": "night-6617.png",
+      "approved": true,
+      "checks": [
+        "Connected Bedroom3 real window fully opaque to its true sill, with no exposed lower blue glass; reflected state is consistent.",
+        "Gather continuous Natural Oak bed plinth, Isla lamp and TWO-drawer short-tab/reeded-end stand match current day1617.",
+        "Same two-sink bathroom camera/fixtures; no curtain or opening invented in glazing-free bathroom camera."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "sharedbath",
+      "code": "SB2",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7217.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-2217.png",
+      "approved": true,
+      "checks": [
+        "Connected Bedroom3 true window fully opaque, directly and in reflected state; no added glazing or fixture.",
+        "Gather continuous Natural Oak bed plinth and TWO-drawer bedside with Isla lamp retained; same current2217 bathroom door/mirror/two-sink camera and fixtures."
+      ],
+      "mustFix": []
+    },
+    {
+      "roomId": "loft",
+      "code": "PL1",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90020.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-1712.png",
+      "supersedes": "night-6712.png",
+      "approved": true,
+      "checks": [
+        "Both SOUTH flanking Romans and bar Roman now lower completely to their true sills; main SOUTH French panes and WEST patio curtains remain fully opaque. No exposed lower glass or invented transom band.",
+        "Three Cloud Luxe45 seats and ONE fixed sofa-left/near-end ottoman, two round18 tables, Carrara48x24 coffee, actual Machinto media wood plinth/two end doors plus three center drawers, one Arc PN and two Rome Graphite seats retained.",
+        "Same paired final1712 camera, current cabinetry/lighting inventory and correct Juliet/patio opening positions."
+      ],
+      "mustFix": []
+    }
+  ],
+  "summary": {
+    "historicalChecks": 30,
+    "latestOutstanding": [],
+    "latestDaySeeds": [
+      "SB1day1617",
+      "SB2day2217",
+      "PL1day1712",
+      "PL2day2720",
+      "RT2day2223"
+    ],
+    "latestApprovedNightRepairs": [
+      "BA1night90008",
+      "B22night90009",
+      "B32night90016",
+      "SB1night90018",
+      "SB2night7217",
+      "PL1night90020",
+      "PL2night7720",
+      "RT2night7223"
+    ],
+    "awaitingFinalNightPairs": [],
+    "status": "All assigned final private day/night checks pass. Superseded rejected images are retained as history only. Stair2 final door/night is reviewed by root/social, outside this private final scope.",
+    "limitations": [
+      "Photo-informed renders are not manufacturer CAD, field dimensions, procurement/stock proof or final code/contractor documentation. Bedroom5 and Bath4 remain future unbuilt plan concepts."
+    ]
+  }
+}

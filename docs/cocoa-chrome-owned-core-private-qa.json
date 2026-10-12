@@ -1,0 +1,112 @@
+{
+  "revision": "CC-OWNED-CORE-PRIVATE-QA-R03",
+  "date": "2026-10-12",
+  "designOption": "Cocoa & Chrome · Option2",
+  "images": [
+    {
+      "roomId": "ownerbed",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1001.png",
+      "approved": false,
+      "approvedForFurnitureAndStyle": true,
+      "checks": [
+        "Modena PANEL king is plain nontufted White Italian Textured Weave with Grey Oak feet, without Shelter wings or LED retrofit.",
+        "Exactly TWO Brown Oak/stainless Bezier OPEN26 bedside units, each upper open cubby/one lower drawer; exactly TWO Polished Nickel Bates lamps.",
+        "ONE Bezier dresser has four rows by two columns = EIGHT drawers, Brown Oak/stainless with floor plinth; TV55/soundbar retained.",
+        "Four real west sash openings, solid TV wall and source camera preserved; no invented doorway.",
+        "Hadiza Cream/Sand rug, pale neutral oak, pearl-greige smooth walls, blue/white art and restrained navy/butter accents clearly read as Cocoa & Chrome."
+      ],
+      "mustFix": [
+        "Day window bank currently reads as sheer-only. Add visibly separate lined opaque pearl/ecru panels stacked OPEN at ends of bank, or clearly demonstrate concealed fully raised opaque shades. Keep openings, sheers, furniture, camera and all other styling unchanged."
+      ],
+      "limits": [
+        "Owned footprints require real measurements; product geometry is photo-informed, not manufacturer CAD.",
+        "Render cannot certify lining blackout performance or track returns."
+      ]
+    },
+    {
+      "roomId": "loft",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1002.png",
+      "approved": false,
+      "approvedForOtherFurnitureAndStyle": true,
+      "checks": [
+        "Exactly THREE Luxe45 Cloud sofa seats (two corners/one armless) plus ONE detached45 ottoman, White performance textured linen.",
+        "TWO Brown Oak/stainless round18 side tables, ONE Carrara48x24 plinth coffee, ONE Nickel ArcII and TWO Graphite Rome stool seats.",
+        "Tray, Juliet French doors/two flank windows, west slider, recessed bar/window and source camera retained; operative day Roman/privacy shades visible.",
+        "Pearl-greige, smoky Brown Oak, silver accents and controlled blue/yellow staging preserve Option2 identity."
+      ],
+      "mustFix": [
+        "Machinto media console has an invented open metal LEG FRAME with visible space under the box. Replace only underside with continuous recessed BROWN OAK WOOD PLINTH, grounded to floor; retain two panel doors/three center drawers, body dimensions, steel reveals, all other furniture and camera."
+      ],
+      "limits": [
+        "Owned media-console width and Rome stool seat height unprovided; verify actual fit before installation.",
+        "Use one fixed ottoman position across both day/companion and night views."
+      ]
+    },
+    {
+      "roomId": "ownerbed",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1011.png",
+      "approved": true,
+      "supersedes": "day-1001.png",
+      "checks": [
+        "Separate lined opaque pearl panels are visibly stacked OPEN in front of a separate sheer layer at the real four-window bank.",
+        "All owned counts and forms are preserved: Modena PANEL KING48 with visible Grey Oak feet; two Bezier OPEN26 upper-cubby/lower-drawer tables; two Bates Nickel; one four-row/two-column eight-drawer Brown Oak/stainless dresser.",
+        "TV55/soundbar, window mullions, source composition, Hadiza Cream/Sand rug, solid TV wall and plain non-floating bed remain intact.",
+        "Smooth pearl/greige, pale oak, smoky Brown Oak/silver, white upholstery and quiet blue/butter accents are distinct Cocoa & Chrome."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Window layers are a visualization; lining, full closure width, track returns and field measurements require installation verification.",
+        "Product silhouettes are photo-informed rather than manufacturer CAD."
+      ]
+    },
+    {
+      "roomId": "loft",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1012.png",
+      "approved": true,
+      "supersedes": "day-1002.png",
+      "checks": [
+        "Machinto media console now has a continuous recessed Brown Oak floor plinth with two end panel doors and three central drawers; no invented metal leg frame.",
+        "Exactly three Cloud Luxe45 sofa modules, one detached45 ottoman at the fixed left end, two round18 Machinto side tables, Carrara48x24 plinth coffee, one Nickel ArcII and two Graphite Rome stools remain.",
+        "Juliet French doors/two flanks, west terrace slider, bar window and tray preserve the source shell; separate shade/sheers visible at glazing.",
+        "Owned silhouettes and Cocoa & Chrome palette retained without Option3 Natural Keane furniture."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Oblique camera crops the far left door partly, but visible fronts and frame match the required console configuration.",
+        "Stool seat height and actual console/sofa fit remain field-measurement items; furniture geometry is approximate."
+      ]
+    },
+    {
+      "roomId": "ownerbed",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6011.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-1011.png",
+      "approved": true,
+      "checks": [
+        "All four actual west window units are completely covered by the opaque layer, with no glass/daylight or uncovered lower strip.",
+        "Exactly same Modena PANEL king/Grey Oak feet, two OPEN26 tables, two Bates, eight-drawer dresser, TV/soundbar, rug and art remain.",
+        "Only illumination and already installed opaque-layer positions change; no new LED, lamp or furniture."
+      ],
+      "mustFix": [],
+      "limits": [
+        "Warm lamp illumination adds some warm metal reflections; silver product finishes remain apparent.",
+        "Blackout performance is conceptual, not measured installation proof."
+      ]
+    },
+    {
+      "roomId": "loft",
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6012.png",
+      "pairedDay": "assets/render-candidates/cocoa-chrome-owned/r08/day-1012.png",
+      "approved": false,
+      "checks": [
+        "Cloud three-seat/one-left-ottoman allocation, two round tables, Carrara coffee, Arc and two Rome seats are retained.",
+        "Media console wood plinth retained; French doors/flank windows/bar window are fully opaque."
+      ],
+      "mustFix": [
+        "The image introduces/exposes a wide horizontal dark-sky glass band above the WEST slider curtain. The paired day source does not establish a separate transom there. Cover the ENTIRE actual west opening up to its existing top casing with opaque privacy fabric/shade; remove this newly invented transom exemption. Keep all other scene details unchanged."
+      ],
+      "limits": [
+        "Only actual separate high transoms established by the verified source can be exempted from full opaque night closure."
+      ]
+    }
+  ]
+}

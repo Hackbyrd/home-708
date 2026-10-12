@@ -1,0 +1,130 @@
+{
+  "revision": "CC-OWN-R08",
+  "checkedAt": "2026-10-12",
+  "purpose": "Individual matched-camera night checks against the accepted Cocoa & Chrome day scenes, including physical furniture/fixture continuity, literal text, complete required privacy and true bare high glazing.",
+  "rooms": [
+    {
+      "roomId": "entry",
+      "code": "E1",
+      "index": 6200,
+      "sourceIndex": 1200,
+      "approved": true,
+      "checks": [
+        "The camera, arch, open upper guard, clear gallery doors, single under-stair credenza and bare stairs match the paired day.",
+        "Welcome Home remains literal flat-painted text; the same clear-glass cascade globes and visible inner bulbs remain on the same suspension layout.",
+        "Only actual cascade/general fixtures are lit. High stair glazing remains bare glass and interior gallery doors remain clear."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "The reverse camera must use the same chandelier and the single-cabinet inventory; its outstanding E2 repair remains separate."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6200.png",
+      "jobId": "b334c1d7-540a-445b-82ac-f919f0f2fbcb",
+      "sourceFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-1200.png"
+    },
+    {
+      "roomId": "media",
+      "code": "M1",
+      "index": 6302,
+      "sourceIndex": 1302,
+      "approved": true,
+      "checks": [
+        "Camera, clear west gallery doors, quiet TV wall, display niches, soundbar, smoky-oak/silver console and Cloud sofa/TWO ottoman arrangement match the paired day.",
+        "The complete center paired window is covered by opaque blackout from its head to actual sill without a visible lower glass band.",
+        "Existing recessed fixtures, TV backlight and display channels are naturally dimmed; ceiling grilles and their future-prewire qualification are unchanged."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Passive ceiling speakers are not outputs from the proposed active soundbar system. Exact rear/sub placements and screen/lamp glare still require the measured AV plan."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6302.png",
+      "jobId": "5b3866b5-c988-488b-a43c-a387a12ea913",
+      "sourceFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-1302.png"
+    },
+    {
+      "roomId": "dining",
+      "code": "D1",
+      "index": 6307,
+      "sourceIndex": 1307,
+      "approved": false,
+      "checks": [
+        "The eight Emery side chairs, Machinto block-leg table, owned Spiridon, Cabrera, ONE mirror and TWO owned vessels match the paired day.",
+        "All four tall window groups are fully covered by opaque drapes, including arched heads."
+      ],
+      "mustFix": [
+        "The separate small HIGH arch on IMAGE LEFT has an opaque beige lower half. Remove that partial covering: the ENTIRE small high window, including its rectangular lower pane section, must remain bare clear nighttime glass. Preserve its exact source mullions, sill and trim."
+      ],
+      "limitations": [
+        "Do not change the correctly covered four tall openings while repairing the separate high arch."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6307.png",
+      "jobId": "c74f0a6a-5ac9-46d5-9a41-0cc1ad69e533",
+      "sourceFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-1307.png"
+    },
+    {
+      "roomId": "kitchen",
+      "code": "K1",
+      "index": 6306,
+      "sourceIndex": 1306,
+      "approved": true,
+      "checks": [
+        "The L-shaped equipment/cabinets, sink island, four new white/silver counter stools, two island pendants and exact camera match the paired day.",
+        "The adjacent sunroom retains the same dark Espresso Walnut Maslow, six owned Emery seats and silver/opal two-rod fixture.",
+        "The counter window and all visible low sunroom glass are fully opaque to their sills. Separate high sunroom transoms remain bare nighttime glass.",
+        "Only the paired fixtures and specified concealed task light are active; no new pendant, table lamp or ceiling feature appears."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "The selected counter-stool seat height and complete four-unit stock remain pending. Nighttime lighting color is a visualization, not a measured fixture certification."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6306.png",
+      "jobId": "4165ab6f-6a21-4ce2-9a64-c2f34718aa6b",
+      "sourceFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-1306.png"
+    },
+    {
+      "roomId": "great",
+      "code": "GR1",
+      "index": 6105,
+      "sourceIndex": 1105,
+      "approved": false,
+      "checks": [
+        "The tailored Italia sofa, two actual black-frame Imogene chairs, Nicholas Carrara/steel coffee table, two sideboards, supporting tables and single lamp match the paired day.",
+        "The terrace glazing is fully covered by the opaque layer; no new picture bars, pendants or lamps are added."
+      ],
+      "mustFix": [
+        "Both high horizontal windows beside the fireplace lose their original vertical divisions and become single unbroken panes. Restore the TWO vertical dividers, creating THREE panes in EACH high window, exactly as day 1105. Keep the high panes bare glass; change no wall, frame, trim or furniture."
+      ],
+      "limitations": [
+        "Restoring true mullions is necessary even when high glazing needs no privacy covering."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6105.png",
+      "jobId": "9af4239c-c0ad-44c3-9c1a-acb3e8b69e6c",
+      "sourceFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-1105.png"
+    },
+    {
+      "roomId": "office",
+      "code": "O1",
+      "index": 6201,
+      "sourceIndex": 1201,
+      "approved": false,
+      "checks": [
+        "The plain pedestal desk, ONE Coal Fern-style task chair, TWO White/Polished Stainless Emery track-arm guest chairs, full TV/library wall and source camera match the paired day.",
+        "The existing general and library shelf-light fixtures are retained without a new desk lamp."
+      ],
+      "mustFix": [
+        "The extreme right edge of the right-hand window bank leaves a tall strip of visible blue sky, tree and street glass, including below the crossbar. Extend the independent opaque privacy layer across the ENTIRE original bank width, from its true head to sill, preserving source frames and curtain stacks."
+      ],
+      "limitations": [
+        "The exposed strip is real low window glass, not an exempt high transom. Do not redraw it as a third sash or change the actual sill."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-6201.png",
+      "jobId": "e1fb9262-1d62-4c22-83a6-e5087806e966",
+      "sourceFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-1201.png"
+    }
+  ],
+  "summary": {
+    "reviewed": 6,
+    "approved": 3,
+    "needsRepair": 3
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "revision": "CC-OWN-R08",
+  "checkedAt": "2026-10-12",
+  "purpose": "Seven local correction and companion-night checks against their specific source cameras and the current selected construction/furniture scope.",
+  "rooms": [
+    {
+      "roomId": "stair2",
+      "code": "ST1",
+      "kind": "day",
+      "index": 1410,
+      "sourceIndex": 1110,
+      "approved": true,
+      "checks": [
+        "The actual quarter-turn lower stairs, half landing, straight upper flight, bare treads, open guards, windows and source camera remain.",
+        "The great-room glimpse now has the Carrara/Polished Stainless open-frame Nicholas coffee table, tailored white/chrome sofa and black-supported White Imogene chair form, consistent with the accepted great-room furniture.",
+        "The unassigned hanging Dome-style fixture is removed; original general fixtures remain."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "The distant balcony bistro concept remains a separate unselected outdoor allowance. Exact furniture/stair dimensions require site measurement."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/day-1410.png",
+      "jobId": "7d7b67ca-1299-4e6a-801b-f4945ef8b54a",
+      "sourceFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-1110.png"
+    },
+    {
+      "roomId": "dining",
+      "code": "D1",
+      "kind": "night",
+      "index": 90001,
+      "sourceIndex": 1307,
+      "approved": true,
+      "checks": [
+        "The ENTIRE separate small high arch, including its lower rectangular pane section, is now bare nighttime glass with original trim/mullions.",
+        "All four tall window groups remain fully opaque, including shaped heads.",
+        "The eight Emery chairs, Machinto table, owned Spiridon/Cabrera/one mirror/two vessels, stone ledge and source camera remain; no new fixture or furniture is added."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Exact tabletop/seat fit and retail stock remain subject to the procurement/field gates."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90001.png",
+      "jobId": "24a829a2-d7b0-4888-8c69-8a0c18a75e8a",
+      "sourceFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-1307.png"
+    },
+    {
+      "roomId": "great",
+      "code": "GR1",
+      "kind": "night",
+      "index": 90002,
+      "sourceIndex": 1105,
+      "approved": true,
+      "checks": [
+        "Both high horizontal windows now retain TWO vertical divisions and THREE clear panes each, matching the paired day.",
+        "Terrace low glazing remains completely covered; high glazing remains bare.",
+        "The selected tailored sofa, two black-frame Imogenes, Carrara/steel Nicholas coffee table, two sideboards, supporting tables and single lamp remain with the same camera and actual fixture inventory."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Night light levels/color are illustrative until fixture samples and controls are commissioned."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90002.png",
+      "jobId": "9bc33f6e-7a74-415c-bc1c-7bfadf0c60ee",
+      "sourceFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-1105.png"
+    },
+    {
+      "roomId": "office",
+      "code": "O1",
+      "kind": "night",
+      "index": 90003,
+      "sourceIndex": 1201,
+      "approved": true,
+      "checks": [
+        "Both principal window banks are fully opaque to their actual sills and side extents. The formerly exposed extreme-right glass strip is closed.",
+        "The original shade/frame geometry, plain desk, one Fern-style Coal chair, two Emery track-arm chairs, library TV/soundbar and source camera remain.",
+        "Existing general/shelf fixtures are retained; no desk lamp is added."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Selected product fit/stock and shade workroom measurements remain pending."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-90003.png",
+      "jobId": "066a50e9-10fe-4154-96f7-bff95638c4ef",
+      "sourceFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-1201.png"
+    },
+    {
+      "roomId": "bath",
+      "code": "B2",
+      "kind": "night",
+      "index": 7104,
+      "sourceIndex": 2104,
+      "approved": true,
+      "checks": [
+        "The same narrow camera, door positions, shower bench/niche, clear enclosure, silver shower fittings and pearl-gray porcelain surfaces remain.",
+        "General illumination and existing reflected vanity light are naturally warm; no new exterior opening or unpaired light fixture appears."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Plan-led bath visualization requires the measured wet-area layout before fabrication."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7104.png",
+      "jobId": "333f1ede-69fa-4f13-a11f-512cb30e5051",
+      "sourceFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-2104.png"
+    },
+    {
+      "roomId": "sunroom",
+      "code": "S2",
+      "kind": "night",
+      "index": 7109,
+      "sourceIndex": 2109,
+      "approved": true,
+      "checks": [
+        "All low window and door glazing is fully covered by opaque shades to the actual sills; separate high transoms remain bare clear nighttime glass.",
+        "The owned Maslow Espresso Walnut/Polished Aluminum spider table, four side chairs, two track-arm chairs and same silver/opal two-rod fixture remain.",
+        "The left oven-bank reflection is dark indoor content without a visible daylight/low-glass privacy leak. The camera, window count and furniture are retained."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "The owned set does not need new retail-stock confirmation; measured pullback/shade clearances remain necessary."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7109.png",
+      "jobId": "428d03a0-fcbb-4523-b96d-dd81617814b6",
+      "sourceFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-2109.png"
+    },
+    {
+      "roomId": "laundry",
+      "code": "LA2",
+      "kind": "night",
+      "index": 7618,
+      "approved": true,
+      "sourceIndex": 2618,
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7618.png",
+      "jobId": "ea82bf98-813b-48e3-b74a-1b67742a1a4d",
+      "checks": [
+        "The corrected quiet matte pearl-gray porcelain remains; the night does not revert to wood plank flooring.",
+        "Both real window fields, near arched and far rectangular, are covered by opaque layers through their sills, preserving the actual casing and window positions.",
+        "Source camera, Brown Oak/silver lower cabinets, pearl uppers, sink, appliance placement, TWO hampers, drying rack and literal quote “Rinse and repeat..” with two periods remain. No new installed light fixture is added."
+      ],
+      "mustFix": [],
+      "limitations": [
+        "Warm night illumination shifts apparent colors; approve actual paint, tile, cabinet and lamp samples together rather than extracting a paint color from the image. Window hardware/light gaps require installer detailing."
+      ]
+    }
+  ],
+  "summary": {
+    "reviewed": 7,
+    "approved": 7,
+    "needsRepair": 0
+  },
+  "history": [
+    {
+      "roomId": "laundry",
+      "code": "LA2",
+      "kind": "night",
+      "index": 7118,
+      "sourceIndex": 2118,
+      "approved": false,
+      "checks": [
+        "The camera, two appliance units, two supporting hampers, counter/sink/cabinets and drying rack remain identical to the day.",
+        "Both real windows, including the near arched head, are fully opaque to their actual sills.",
+        "The blue graphic and literal Rinse and repeat.. text retain the required TWO periods, with no new fixture inventory."
+      ],
+      "mustFix": [
+        "Both the paired day 2118 and this night still show wood flooring. Root has selected the build-book matte quiet-gray porcelain laundry floor; locally correct BOTH daytime views and regenerate their matched nights from those corrected days. Do not publish these old wood-floor laundry nights as the final selected scheme."
+      ],
+      "limitations": [
+        "The night otherwise passes paired-view and privacy checks; the material mismatch is a day/night-to-build-spec conflict."
+      ],
+      "file": "assets/render-candidates/cocoa-chrome-owned/r08/night-7118.png",
+      "jobId": "5f801462-72d6-4268-92e4-c8817351fe60",
+      "sourceFile": "assets/render-candidates/cocoa-chrome-owned/r08/day-2118.png"
+    }
+  ]
+}
