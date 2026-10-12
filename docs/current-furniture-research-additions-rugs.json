@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-11",
+  "scope": "Three newly reported owned RH rugs; image research only",
+  "imagePathBase": "docs/",
+  "inventoryNote": "Owner-provided size and finish notes govern conflicting RH URLs. Prices are owner-recorded, not current pricing. No fabric/color fields were assigned or changed.",
+  "items": [
+    {
+      "id": "hadiza-rug",
+      "image": "current-furniture-assets/hadiza-rug.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod23460055_E916670846_O_RHR?",
+      "matchStatus": "configuration-unverified",
+      "matchNote": "Official Hadiza catalog photo explicitly shows Cream/Sand, matching the homeowner finish notes. Pictured size is unspecified; the owned 8\u00d710-foot size is not independently proven by this image. Homeowner notes and SKU 10079711 CRSD take precedence over SDBC in the supplied link.",
+      "photoSummary": "Cream/Sand catalog photo \u2014 size unverified.",
+      "officialURL": "https://rh.com/us/en/catalog/product/product.jsp/prod23460055",
+      "ownedURL": "https://rh.com/us/en/catalog/product/product.jsp/prod28240143?fullSkuId=10079711+SDBC&categoryId=search",
+      "evidence": "Official RH prod23460055 og:image/alternateImages caption Shown in Cream/Sand. Current owner-linked prod28240143 default caption is Marled Natural; not used. Public photo HTTP200 image/jpeg and visually inspected as a rectangular cream/sand stripe texture. No recoloring.",
+      "ownedSize": "8\u00d710 ft",
+      "ownedFinish": "Cream/Sand",
+      "ownedItemNumber": "10079711 CRSD",
+      "imageAlt": "Hadiza Cream/Sand wool rug \u2014 official RH catalog photo; pictured size unverified",
+      "verifiedOn": "2026-10-11",
+      "imageInspection": "Official RH photo downloaded, visually inspected and optimized to WebP with sharp; no enlargement, AI generation or recoloring."
+    },
+    {
+      "id": "delfina-rug",
+      "image": "current-furniture-assets/delfina-rug.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod22630028_E416163567_O_RHR?",
+      "matchStatus": "configuration-unverified",
+      "matchNote": "Official legacy Delfina catalog photo explicitly shows Carbon, matching the homeowner finish. Pictured size is unspecified; the owned 8\u00d710-foot size remains homeowner-provided.",
+      "photoSummary": "Carbon catalog photo \u2014 size unverified.",
+      "officialURL": "https://rh.com/us/en/catalog/product/product.jsp/prod22630028",
+      "ownedURL": "https://rh.com/us/en/catalog/product/product.jsp/prod17740448?swatch=1080262",
+      "evidence": "Official RH prod22630028 alternateImages and hero photo caption Shown in Carbon. Current owner-linked prod17740448 hero defaults Silver but also links Carbon detail imagery. Public full-rug photo HTTP200 image/jpeg and visually inspected. No recoloring.",
+      "ownedSize": "8\u00d710 ft",
+      "ownedFinish": "Carbon",
+      "ownedItemNumber": "10012169 CRBN",
+      "imageAlt": "Delfina Carbon wool rug \u2014 official RH catalog photo; pictured size unverified",
+      "verifiedOn": "2026-10-11",
+      "imageInspection": "Official RH photo downloaded, visually inspected and optimized to WebP with sharp; no enlargement, AI generation or recoloring."
+    },
+    {
+      "id": "sanani-rug",
+      "image": "current-furniture-assets/sanani-rug.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod24070047_E317228093_O_Frank?",
+      "matchStatus": "collection-reference",
+      "matchNote": "The supplied RH URL currently identifies a Sanani Wool Rug Swatch shown in Marled Grey. This genuine official texture reference differs from the owned Natural/Mink finish and does not show a full 9\u00d712-foot rug. No verified full-rug or Natural/Mink photo was located; homeowner inventory remains Natural/Mink, 9\u00d712 feet.",
+      "photoSummary": "Swatch reference \u2014 different color; full rug not pictured.",
+      "officialURL": "https://rh.com/us/en/catalog/product/product.jsp/prod24070047",
+      "ownedURL": "https://rh.com/us/en/catalog/product/product.jsp/prod24070047",
+      "evidence": "Official RH page title Sanani Wool Rug Swatch; alternateImages caption Shown in Marled Grey. Linked product is marked emptyProduct; no full-rug alternateImages/upsell links. Focused official RH search for Sanani rug excluding swatch/sample yielded only the same swatch listing. Public texture photo HTTP200 image/jpeg and visually inspected. No recoloring.",
+      "ownedSize": "9\u00d712 ft",
+      "ownedFinish": "Natural/Mink",
+      "ownedItemNumber": "10079572 NTMK",
+      "imageAlt": "Sanani Marled Grey swatch reference \u2014 different color; full rug not pictured",
+      "verifiedOn": "2026-10-11",
+      "imageInspection": "Official RH photo downloaded, visually inspected and optimized to WebP with sharp; no enlargement, AI generation or recoloring."
+    }
+  ]
+}

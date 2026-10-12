@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-11",
+  "scope": "Two additions to owner furniture inventory; official catalog product photos only, not a stock or purchasing check.",
+  "imagePolicy": "No artificial mockups, recoloring or URL guessing. Emery owned fabric remains distinct from the photographed fabric. Ground truth is four Emery side chairs plus two Track Arm armchairs.",
+  "items": [
+    {
+      "id": "emery-armchair",
+      "name": "Emery Track Arm Fabric Dining Armchair",
+      "ownerSKU": "11930455 BWWT",
+      "quantity": 2,
+      "priceProvided": 1057,
+      "image": "docs/current-furniture-assets/emery-armchair.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/prod7440412_E97886610_TQ_RHR?",
+      "officialURL": "https://rh.com/us/en/catalog/product/product.jsp/prod24520382",
+      "photoSourcePage": "https://rh.com/us/en/catalog/product/product.jsp/prod7440412",
+      "matchStatus": "configuration-unverified",
+      "matchNote": "Photo matches the TRACK ARM dining armchair shape, White upholstery and Polished Stainless Steel frame. RH captions the fabric as White Italian Textured Weave; owned inventory specifies WHITE Perennials Performance Textured Linen Weave, so exact upholstery remains unverified.",
+      "photoSummary": "White Italian Textured Weave / Polished Stainless Steel shown; owned performance fabric differs.",
+      "evidence": "User-linked prod24520382 currently shows Natural Performance Linen Weave / Burnished Brass. A focused official RH search found prod7440412 of the same Emery Track Arm Fabric Dining Armchair; its og:image and alternateImages explicitly caption White Italian Textured Weave / Polished Stainless Steel. That actual returned photo was downloaded HTTP200 image/jpeg and visually inspected: upholstered straight track arms, back/seat and silver rectangular sled frame. No armless side-chair image used.",
+      "officialCaption": "Shown in White Italian Textured Weave with Polished Stainless Steel finish.",
+      "checkedAt": "2026-10-11",
+      "imageWidth": 608,
+      "imageHeight": 678,
+      "imageBytes": 17294
+    },
+    {
+      "id": "blythe-stool",
+      "name": "Blythe Kashmir Faux Fur Stool — Pewter",
+      "ownerSKU": "602296 WHT",
+      "quantity": 1,
+      "priceProvided": 299,
+      "image": "docs/current-furniture-assets/blythe-stool.webp",
+      "sourceImageUrl": "https://media.restorationhardware.com/is/image/rhis/rhtn_prod105597_E51106572_F_CC_RHR?",
+      "officialURL": "https://rh.com/us/en/catalog/product/product.jsp/rhtn_prod105597",
+      "photoSourcePage": "https://rh.com/us/en/catalog/product/product.jsp/rhtn_prod105597",
+      "matchStatus": "exact",
+      "matchNote": "Official catalog photo of the named Blythe Kashmir Faux Fur Stool — Pewter matches the stated product and finish. Owner size, separate upholstery/fabric and color fields were not supplied; the photo does not confirm physical measurements or condition.",
+      "photoSummary": null,
+      "evidence": "Official RH og:image and sole alternateImages photo, with altText Front view of Blythe Kashmir Faux Fur Stool - Pewter. Downloaded HTTP200 image/jpeg and visually inspected: low round stool with long white faux fur over a round pewter-colored metal plinth. Photo identity matches the named product; no generated or recolored image.",
+      "officialCaption": "Front view of Blythe Kashmir Faux Fur Stool - Pewter",
+      "checkedAt": "2026-10-11",
+      "imageWidth": 678,
+      "imageHeight": 628,
+      "imageBytes": 13914
+    }
+  ]
+}
