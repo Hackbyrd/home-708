@@ -130,8 +130,53 @@ function designLibrary(): Plugin {
   }
 }
 
+// Stream raw footage from `assets/footage/` on the dev server only. The files are
+// gigabytes, git-ignored and never deployed; production uses the hosted address
+// in `assets/walkthrough.json`.
+function footagePreview(): Plugin {
+  const footageDir = path.join(repo, 'assets/footage')
+  const types: Record<string, string> = { '.mp4': 'video/mp4', '.m4v': 'video/mp4', '.mov': 'video/quicktime', '.webm': 'video/webm' }
+  return {
+    name: 'home-footage-preview',
+    apply: 'serve',
+    configureServer(server) {
+      server.middlewares.use(async (req, res, next) => {
+        let pathname: string
+        try { pathname = decodeURIComponent(new URL(req.url ?? '/', 'http://local').pathname) } catch { return next() }
+        if (!pathname.startsWith('/footage/')) return next()
+        const name = pathname.slice('/footage/'.length)
+        if (!name || name.includes('/') || name.includes('\\') || name.startsWith('.')) { res.statusCode = 404; res.end(); return }
+        const file = path.join(footageDir, name)
+        let size: number
+        try {
+          const stat = await fs.stat(file)
+          if (!stat.isFile()) throw new Error('not a file')
+          size = stat.size
+        } catch { res.statusCode = 404; res.end('Footage not found'); return }
+        res.setHeader('Content-Type', types[path.extname(name).toLowerCase()] ?? 'application/octet-stream')
+        res.setHeader('Accept-Ranges', 'bytes')
+        res.setHeader('Cache-Control', 'no-cache')
+        const range = /^bytes=(\d*)-(\d*)$/.exec(req.headers.range ?? '')
+        let start = 0
+        let end = size - 1
+        if (range) {
+          if (range[1]) start = Number(range[1])
+          if (range[2]) end = range[1] ? Math.min(Number(range[2]), size - 1) : size - 1
+          if (!range[1] && range[2]) start = Math.max(size - Number(range[2]), 0)
+          if (start > end || start >= size) { res.statusCode = 416; res.setHeader('Content-Range', `bytes */${size}`); res.end(); return }
+          res.statusCode = 206
+          res.setHeader('Content-Range', `bytes ${start}-${end}/${size}`)
+        }
+        res.setHeader('Content-Length', end - start + 1)
+        if (req.method === 'HEAD') { res.end(); return }
+        createReadStream(file, { start, end }).on('error', () => res.destroy()).pipe(res)
+      })
+    },
+  }
+}
+
 export default defineConfig({
-  plugins: [vue(), designLibrary()],
+  plugins: [vue(), designLibrary(), footagePreview()],
   server: {
     host: '127.0.0.1',
     port: devPort,

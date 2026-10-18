@@ -75,8 +75,8 @@ test('opens the reference photos and blueprint viewer', async ({ page, request }
     (window as typeof window & { CH?: { stop(): void } }).CH?.stop(),
   );
 
-  await page.getByRole('button', { name: /Photos & blueprint/ }).click();
-  const dialog = page.getByRole('dialog', { name: /Photos & blueprint/ });
+  await page.getByRole('button', { name: /Photos, blueprint & video/ }).click();
+  const dialog = page.getByRole('dialog', { name: /Photos, blueprint & video/ });
   await expect(dialog).toBeVisible();
   const tiles = dialog.locator('.photo-tile');
   await expect.poll(() => tiles.count()).toBeGreaterThanOrEqual(27);
@@ -102,6 +102,10 @@ test('opens the reference photos and blueprint viewer', async ({ page, request }
   const pdf = await request.get(new URL(pdfSrc!, page.url()).toString());
   expect(pdf.status()).toBe(200);
   expect(pdf.headers()['content-type']).toContain('application/pdf');
+
+  await dialog.getByRole('tab', { name: 'Video Walkthrough' }).click();
+  // The footage is hosted outside the repository, so a checkout without it shows the placeholder instead of a player.
+  await expect(dialog.locator('.walkthrough-video, .walkthrough-frame, .walkthrough-empty').first()).toBeVisible();
 
   await page.keyboard.press('Escape');
   await expect(dialog).toHaveCount(0);

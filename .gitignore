@@ -31,3 +31,4 @@ assets/renders-archive/
 assets/renders-video/**
 !assets/renders-video/*/
 !assets/renders-video/*/*.mp4
+assets/footage/

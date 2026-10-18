@@ -38,7 +38,19 @@ const options = library.options.map(option => {
   return `<article class="option-card" data-option="${esc(option.id)}"><a class="card-image" href="${esc(href)}" aria-label="Explore ${esc(option.name)}"><img src="${esc(option.hero)}" alt="${esc(option.name)} — ${esc(option.heroRoom || option.subtitle)}" width="1500" height="1000"><span class="image-label">${esc(option.label)}</span><span class="image-arrow" aria-hidden="true">→</span></a><div class="card-copy"><h2><a href="${esc(href)}">${esc(option.name)}</a></h2><p class="subtitle">${esc(option.subtitle)}</p><p class="summary">${esc(option.summary)}</p>${swatches(option)}<a class="action" href="${esc(href)}">${option.id === 'model-home' ? 'View Model Home' : 'Explore Option ' + option.number}<span aria-hidden="true">→</span></a></div></article>`;
 }).join('');
 const currentFurniture = await buildCurrentFurniture({ root, docs, shell, esc });
-await fs.writeFile(path.join(docs, 'renders.html'), shell('Designs', `<main id="main"><section class="intro designs-intro"><p class="eyebrow">The City Home · Georgetown</p><h1>Designs.</h1><p>Choose a direction to find its room renders, furniture and build details together.</p><a class="designs-owned-link" href="#current-furniture">Current Furniture ↓</a></section><section class="options" aria-label="Whole-house design options">${options}</section>${currentFurniture}</main>`));
+// The filmed walkthrough is hosted outside the repository; only its address is saved.
+const walkthrough = JSON.parse(await fs.readFile(path.join(root, 'assets/walkthrough.json'), 'utf8'));
+const walkthroughPlayer = walkthrough.src
+  ? `<video class="walkthrough-player" src="${esc(walkthrough.src)}" poster="design-library-assets/city-homes-at-crown.jpg.webp" title="${esc(walkthrough.title)}" controls playsinline preload="metadata"></video>`
+  : walkthrough.embed
+    ? `<iframe class="walkthrough-player" src="${esc(walkthrough.embed)}" title="${esc(walkthrough.title)}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe>`
+    : '';
+const walkthroughMinutes = walkthrough.durationSeconds ? ` · ${Math.round(walkthrough.durationSeconds / 60)} min` : '';
+const walkthroughSection = walkthroughPlayer
+  ? `<section id="walkthrough" class="walkthrough-home" aria-labelledby="walkthrough-title"><div class="resource-heading"><div><p class="eyebrow">Filmed on site${esc(walkthroughMinutes)}</p><h2 id="walkthrough-title">${esc(walkthrough.title)}</h2></div><p>${esc(walkthrough.description)}</p></div>${walkthroughPlayer}</section>`
+  : '';
+const walkthroughLink = walkthroughPlayer ? '<a class="designs-owned-link" href="#walkthrough">Video walkthrough ↓</a>' : '';
+await fs.writeFile(path.join(docs, 'renders.html'), shell('Designs', `<main id="main"><section class="intro designs-intro"><p class="eyebrow">The City Home · Georgetown</p><h1>Designs.</h1><p>Choose a direction to find its room renders, furniture and build details together.</p>${walkthroughLink}<a class="designs-owned-link" href="#current-furniture">Current Furniture ↓</a></section><section class="options" aria-label="Whole-house design options">${options}</section>${walkthroughSection}${currentFurniture}</main>`));
 
 const resourceCard = ({ href, title, description, eyebrow }) => `<a class="resource-card" href="${esc(href)}">${eyebrow ? `<span class="eyebrow">${esc(eyebrow)}</span>` : ''}<span class="resource-title">${esc(title)} <span aria-hidden="true">→</span></span><span class="resource-description">${esc(description)}</span></a>`;
 const resourceGroup = (id, title, description, resources) => `<section class="resource-section" aria-labelledby="${esc(id)}"><div class="resource-heading"><h2 id="${esc(id)}">${esc(title)}</h2>${description ? `<p>${esc(description)}</p>` : ''}</div><div class="resource-grid resource-grid-${resources.length}">${resources.map(resourceCard).join('')}</div></section>`;

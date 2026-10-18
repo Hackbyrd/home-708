@@ -19,13 +19,23 @@ The Vue development server runs at `http://localhost:5173`. Save writes only to
 that browser's `localStorage`; Export downloads a portable JSON backup, Import
 restores one, and Reset layout replaces the draft with the untouched layout.
 
-## Reference photos and blueprint
+## Reference photos, blueprint and video
 
-The control panel's **Photos & blueprint** button opens a viewer for the
-Crown Georgetown listing photos in `assets/Crown Georgetown Photos` and the
-four-page `assets/cf_city_home_with_georgetown_pkg.pdf` floor plan package.
-Vite bundles both straight from `assets/`, so dropping another `.webp` into
-that folder adds it to the gallery on the next build.
+The control panel's **Photos, blueprint & video** button opens a viewer for
+the Crown Georgetown listing photos in `assets/Crown Georgetown Photos`, the
+four-page `assets/cf_city_home_with_georgetown_pkg.pdf` floor plan package,
+and the filmed walkthrough. Vite bundles the photos and PDF straight from
+`assets/`, so dropping another `.webp` into that folder adds it to the gallery
+on the next build.
+
+The walkthrough footage in `assets/footage/` is gigabytes, git-ignored and
+never deployed. Host it elsewhere and put the address in
+`assets/walkthrough.json`: `src` for a direct MP4 or HLS file, or `embed` for
+a player page such as YouTube, Vimeo or Cloudflare Stream. The viewer's
+**Video Walkthrough** tab and the design library's Designs page
+(`renders.html`) then play it. Until an address is set, production shows a
+placeholder, while `npm run dev` streams the local file so the players can be
+checked.
 
 The **✦ Renders** button below it opens the whole-house redesign gallery as
 its own full page (also reachable at `#/renders`): pick a floor, see each
